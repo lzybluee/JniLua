@@ -369,7 +369,7 @@ public class CardAnalyzer {
 			@Override
 			public int compare(ReprintInfo left, ReprintInfo right) {
 				if (left.multiverseid == right.multiverseid) {
-					return left.number.compareTo(right.number);
+					return left.formatedNumber.compareTo(right.formatedNumber);
 				}
 				return left.multiverseid - right.multiverseid;
 			}
@@ -793,8 +793,6 @@ public class CardAnalyzer {
 
 	public static void processSet(File file) {
 		// System.out.println("Process Oracle: " + file);
-		int min = 999999999;
-		int max = 0;
 		BufferedReader reader;
 		try {
 			reader = new BufferedReader(new FileReader(file));
@@ -802,13 +800,7 @@ public class CardAnalyzer {
 			String card = "";
 			while ((str = reader.readLine()) != null) {
 				if (str.isEmpty()) {
-					ReprintInfo info = processCard(card);
-					if (info.multiverseid < min) {
-						min = info.multiverseid;
-					}
-					if (info.multiverseid > max) {
-						max = info.multiverseid;
-					}
+					processCard(card);
 					card = "";
 				} else {
 					card += str + "\n";
@@ -818,8 +810,6 @@ public class CardAnalyzer {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
-		System.out.println(file.getName() + " : " + min + " ~ " + max);
 	}
 
 	public static String getFilterString() {
