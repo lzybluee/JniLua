@@ -1,26 +1,27 @@
 package lu.cifer.mtgviewer;
 
+import java.util.Collections;
+import java.util.Vector;
+
 import lu.cifer.mtgviewer.CardAnalyzer.CardInfo;
 import lu.cifer.mtgviewer.CardAnalyzer.ReprintInfo;
 
 public class Main {
+
 	public static void main(String[] args) {
 		System.loadLibrary("Jni");
 
 		LuaScript.initLua("Script/global.lua");
 
 		CardParser.initOracle();
-		for (String[] ss : CardParser.SetList) {
-			for (String s : ss) {
-				System.out.print(s + ",");
-			}
-			System.out.println();
-		}
+		CardAnalyzer.initData();
+		
+		ShowDeckCards showDeckCards = new ShowDeckCards();
+		showDeckCards.loadDeckFolder("decks");
+		
+		System.exit(0);
 
-		String all = CardAnalyzer.initData();
-		// CardAnalyzer.javaSearch();
-
-		System.out.println("\n================ " + all + " ================\n");
+		//System.out.println("\n================ " + all + " ================\n");
 
 		int count = CardAnalyzer.searchCard(
 				"return (c and legend and partIndex <= 1 and (text or cmc == 1)) or (text and string.find(text, 'can be your commander'))",

@@ -1128,6 +1128,59 @@ public class CardAnalyzer {
 		public boolean rarityChanged;
 
 		public int reprintTimes;
+		
+		public String toSimpleString() {
+			StringBuilder str = new StringBuilder();
+			if (superTypes.size() > 0) {
+				for (int i = 0; i < superTypes.size(); i++) {
+					str.append(superTypes.get(i));
+					if (i < superTypes.size() - 1) {
+						str.append(" ");
+					}
+				}
+			}
+			if (types.size() > 0) {
+				if (superTypes.size() > 0) {
+					str.append(" ");
+				}
+				for (int i = 0; i < types.size(); i++) {
+					str.append(types.get(i));
+					if (i < types.size() - 1) {
+						str.append(" ");
+					}
+				}
+			}
+			if (subTypes.size() > 0) {
+				str.append(" — ");
+				for (int i = 0; i < subTypes.size(); i++) {
+					str.append(subTypes.get(i));
+					if (i < subTypes.size() - 1) {
+						str.append(" ");
+					}
+				}
+			}
+			if (power != null) {
+				str.append(" " + power);
+			}
+			if (toughness != null) {
+				str.append("/" + toughness);
+			}
+			if (loyalty != null) {
+				str.append(" " + "(Loyalty: " + loyalty + ")");
+			}
+			str.append("\n");
+			if (mana != null) {
+				str.append(mana + " (" + converted + ")" + "\n");
+			}
+			if (colorIndicator != null) {
+				str.append("(Color Indicator: " + colorIndicator + ")\n");
+			}
+			if (text != null) {
+				str.append(text + "\n");
+			}
+
+			return str.toString();
+		}
 
 		public String toString() {
 			StringBuilder str = new StringBuilder();
@@ -1204,48 +1257,48 @@ public class CardAnalyzer {
 			if (text != null) {
 				str.append(text + "\n");
 			}
-			// if (rules != null) {
-			// str.append(rules + "\n");
-			// }
-			// if (legal.size() > 0) {
-			// str.append("Legal in ");
-			// for (int i = 0; i < legal.size(); i++) {
-			// str.append(legal.get(i));
-			// if (i < legal.size() - 1) {
-			// str.append("/");
-			// }
-			// }
-			// str.append("\n");
-			// }
-			// if (restricted.size() > 0) {
-			// str.append("Restricted in ");
-			// for (int i = 0; i < restricted.size(); i++) {
-			// str.append(restricted.get(i));
-			// if (i < restricted.size() - 1) {
-			// str.append("/");
-			// }
-			// }
-			// str.append("\n");
-			// }
-			// if (banned.size() > 0) {
-			// str.append("Banned in ");
-			// for (int i = 0; i < banned.size(); i++) {
-			// str.append(banned.get(i));
-			// if (i < banned.size() - 1) {
-			// str.append("/");
-			// }
-			// }
-			// str.append("\n");
-			// }
-			// if (reserved) {
-			// str.append("In RESERVED list!\n");
-			// }
-			// for (ReprintInfo info : reprints) {
-			// if (info.watermark != null) {
-			// str.append("(Watermark: " + info.watermark + ")\n");
-			// break;
-			// }
-			// }
+			if (rules != null) {
+				str.append(rules + "\n");
+			}
+			if (legal.size() > 0) {
+				str.append("Legal in ");
+				for (int i = 0; i < legal.size(); i++) {
+					str.append(legal.get(i));
+					if (i < legal.size() - 1) {
+						str.append("/");
+					}
+				}
+				str.append("\n");
+			}
+			if (restricted.size() > 0) {
+				str.append("Restricted in ");
+				for (int i = 0; i < restricted.size(); i++) {
+					str.append(restricted.get(i));
+					if (i < restricted.size() - 1) {
+						str.append("/");
+					}
+				}
+				str.append("\n");
+			}
+			if (banned.size() > 0) {
+				str.append("Banned in ");
+				for (int i = 0; i < banned.size(); i++) {
+					str.append(banned.get(i));
+					if (i < banned.size() - 1) {
+						str.append("/");
+					}
+				}
+				str.append("\n");
+			}
+			if (reserved) {
+				str.append("In RESERVED list!\n");
+			}
+			for (ReprintInfo info : reprints) {
+				if (info.watermark != null) {
+					str.append("(Watermark: " + info.watermark + ")\n");
+					break;
+				}
+			}
 			for (ReprintInfo info : reprints) {
 				if (info.set.equals("Media Inserts")) {
 					continue;
@@ -1270,9 +1323,9 @@ public class CardAnalyzer {
 					}
 				}
 			}
-			// for (String s : flavors) {
-			// str.append(s + "\n");
-			// }
+			for (String s : flavors) {
+				str.append(s + "\n");
+			}
 
 			return str.toString();
 		}
