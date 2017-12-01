@@ -47,6 +47,10 @@ public class CardAnalyzer {
 	static String lastCode;
 	static boolean single = true;
 
+	public static CardInfo get(String name) {
+		return cardDatabase.get(name);
+	}
+
 	static Comparator<ReprintInfo> editionComparator = new Comparator<ReprintInfo>() {
 		@Override
 		public int compare(ReprintInfo left, ReprintInfo right) {
