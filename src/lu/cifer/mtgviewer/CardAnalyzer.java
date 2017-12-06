@@ -19,7 +19,7 @@ public class CardAnalyzer {
 	public static String[] LegalList = { "Block", "Modern", "Legacy", "Vintage", "Commander" };
 	public static String[] TypeList = { "Artifact", "Creature", "Enchantment", "Instant", "Land", "Planeswalker",
 			"Sorcery", "Tribal" };
-	public static String[] SpecialList = { "Plane", "Phenomenon", "Scheme", "Ongoing Scheme", "Conspiracy" };
+	public static String[] SpecialTypeList = { "Conspiracy", "Phenomenon", "Plane", "Scheme" };
 
 	public static String[] results;
 	public static int exclude;
@@ -550,12 +550,20 @@ public class CardAnalyzer {
 						break;
 					}
 				}
-				if (!flag) {
-					if (s.equals("Legendary")) {
-						card.isLegendary = true;
+				for (String t : SpecialTypeList) {
+					if (s.equals(t)) {
+						card.types.add(s);
+						flag = true;
+						break;
 					}
-					card.superTypes.add(s);
 				}
+				if (flag) {
+					continue;
+				}
+				if (s.equals("Legendary")) {
+					card.isLegendary = true;
+				}
+				card.superTypes.add(s);
 			}
 		}
 
@@ -651,8 +659,8 @@ public class CardAnalyzer {
 		}
 
 		if (card.superTypes.size() > 0) {
-			for (String special : SpecialList) {
-				for (String types : card.superTypes) {
+			for (String special : SpecialTypeList) {
+				for (String types : card.types) {
 					if (types.equals(special)) {
 						reprint.specialType = special;
 						break;
