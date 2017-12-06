@@ -658,16 +658,20 @@ public class CardAnalyzer {
 			reprint.votes = Integer.parseInt(getEntry(str, "Votes"));
 		}
 
-		if (card.superTypes.size() > 0) {
-			for (String special : SpecialTypeList) {
-				for (String types : card.types) {
-					if (types.equals(special)) {
+		if (card.types.size() > 0) {
+			for (String type : card.types) {
+				for (String special : SpecialTypeList) {
+					if (type.equals(special)) {
 						reprint.specialType = special;
 						break;
 					}
 				}
+				if(reprint.specialType != null) {
+					break;
+				}
 			}
 		}
+
 		if (!card.isInCore) {
 			for (String[] s : CardParser.SetList) {
 				if (reprint.set.equals(s[0])) {
