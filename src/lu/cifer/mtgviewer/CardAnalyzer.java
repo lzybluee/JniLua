@@ -362,13 +362,6 @@ public class CardAnalyzer {
 	}
 
 	private static void sortReprint(CardInfo card) {
-		if (card.otherPart.size() == 2) {
-			String text = cardDatabase.get(card.otherPart.get(0)).text;
-			if (!text.contains("Melds with")) {
-				Collections.reverse(card.otherPart);
-			}
-		}
-
 		card.reprintTimes = card.reprints.size();
 
 		if (card.reprints.size() == 1) {
@@ -500,7 +493,7 @@ public class CardAnalyzer {
 			if (num.charAt(num.length() - 1) >= 'a') {
 				card.partIndex = num.charAt(num.length() - 1) - 'a' + 1;
 			}
-			if (card.name.contains("(")) {
+			if (card.name.contains("(") && card.name.contains("/")) {
 				card.isSplit = true;
 			} else if (card.partIndex == 2 && getEntry(str, "ManaCost") == null) {
 				card.isDoubleFaced = true;
@@ -657,6 +650,19 @@ public class CardAnalyzer {
 		String otherPart = getEntry(str, "OtherPart");
 		if (otherPart != null && !card.otherPart.contains(otherPart)) {
 			card.otherPart.add(otherPart);
+			if (card.otherPart.size() == 2) {
+				card.isDoubleFaced = false;
+				card.isMeld = true;
+				for (String name : card.otherPart) {
+					CardInfo otherCard = cardDatabase.get(name);
+					otherCard.isDoubleFaced = false;
+					otherCard.isMeld = true;
+				}
+				String text = cardDatabase.get(card.otherPart.get(0)).text;
+				if (!text.contains("(Melds with ")) {
+					Collections.reverse(card.otherPart);
+				}
+			}
 		}
 
 		String rating = getEntry(str, "Rating");
@@ -1127,6 +1133,7 @@ public class CardAnalyzer {
 		public boolean isSplit;
 		public boolean isDoubleFaced;
 		public boolean isFlip;
+		public boolean isMeld;
 		public boolean isLegendary;
 		public boolean isFun;
 		public boolean isInCore;
