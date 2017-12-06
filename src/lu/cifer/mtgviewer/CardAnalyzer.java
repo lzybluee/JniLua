@@ -362,6 +362,13 @@ public class CardAnalyzer {
 	}
 
 	private static void sortReprint(CardInfo card) {
+		if (card.otherPart.size() == 2) {
+			String text = cardDatabase.get(card.otherPart.get(0)).text;
+			if (!text.contains("Melds with")) {
+				Collections.reverse(card.otherPart);
+			}
+		}
+
 		card.reprintTimes = card.reprints.size();
 
 		if (card.reprints.size() == 1) {
@@ -643,6 +650,10 @@ public class CardAnalyzer {
 		reprint.multiverseid = Integer.parseInt(getEntry(str, "Multiverseid"));
 		reprint.watermark = getEntry(str, "Watermark");
 
+		if (reprint.rarity == null) {
+			reprint.rarity = "Special";
+		}
+
 		String otherPart = getEntry(str, "OtherPart");
 		if (otherPart != null && !card.otherPart.contains(otherPart)) {
 			card.otherPart.add(otherPart);
@@ -666,7 +677,7 @@ public class CardAnalyzer {
 						break;
 					}
 				}
-				if(reprint.specialType != null) {
+				if (reprint.specialType != null) {
 					break;
 				}
 			}
@@ -1102,8 +1113,8 @@ public class CardAnalyzer {
 
 		public String toString() {
 			return multiverseid + " " + set + (specialType == null ? "" : " [" + specialType + "]") + " : " + number
-					+ " (" + rarity + ") " + artist + (rating > 0 || votes > 0 ? " (" + rating + "|" + votes + ")" : "")
-					+ "\n";
+					+ " (" + rarity + ") " + artist
+					+ (rating > 0 || votes > 0 ? " (" + rating + "|" + votes + ")" : "");
 		}
 	}
 
@@ -1144,7 +1155,7 @@ public class CardAnalyzer {
 		public boolean rarityChanged;
 
 		public int reprintTimes;
-		
+
 		public String toSimpleString() {
 			StringBuilder str = new StringBuilder();
 			if (superTypes.size() > 0) {
@@ -1319,13 +1330,10 @@ public class CardAnalyzer {
 				if (info.set.equals("Media Inserts")) {
 					continue;
 				}
-				str.append(info);
+				str.append(info + "\n");
 			}
 			Vector<String> flavors = new Vector<>();
 			for (ReprintInfo info : reprints) {
-				if (info.set.equals("Media Inserts")) {
-					continue;
-				}
 				if (info.flavor != null) {
 					boolean flag = false;
 					for (String s : flavors) {

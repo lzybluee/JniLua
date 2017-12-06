@@ -1,5 +1,9 @@
 package lu.cifer.mtgviewer;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Collections;
 import java.util.Vector;
 
@@ -8,20 +12,47 @@ import lu.cifer.mtgviewer.CardAnalyzer.ReprintInfo;
 
 public class Main {
 
+	public static void writeOracleFile(String title) {
+		File outFile = new File("MtgOracleAll.txt");
+		BufferedWriter writer = null;
+		try {
+			writer = new BufferedWriter(new FileWriter(outFile));
+			writer.write(title + "\n\n");
+			for (String name : CardAnalyzer.allName) {
+				writer.write(CardAnalyzer.get(name).toString() + "\n");
+			}
+			writer.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			if (writer != null) {
+				try {
+					writer.close();
+				} catch (IOException e1) {
+				}
+			}
+		}
+	}
+
 	public static void main(String[] args) {
 		System.loadLibrary("Jni");
 
 		LuaScript.initLua("Script/global.lua");
 
 		CardParser.initOracle();
-		CardAnalyzer.initData();
-		
-		ShowDeckCards showDeckCards = new ShowDeckCards();
-		showDeckCards.loadDeckFolder("decks");
-		
+		String title = CardAnalyzer.initData();
+
+		writeOracleFile(title);
+
 		System.exit(0);
 
-		//System.out.println("\n================ " + all + " ================\n");
+		ShowDeckCards showDeckCards = new ShowDeckCards();
+		showDeckCards.loadDeckFolder("decks");
+
+		System.exit(0);
+
+		// System.out.println("\n================ " + all + "
+		// ================\n");
 
 		int count = CardAnalyzer.searchCard(
 				"return (c and legend and partIndex <= 1 and (text or cmc == 1)) or (text and string.find(text, 'can be your commander'))",
