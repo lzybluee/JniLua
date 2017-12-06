@@ -41,6 +41,8 @@ public class ShowDeckCards {
 				}
 			}
 		}
+
+		outFile.setLastModified(file.lastModified());
 	}
 
 	public CardInfo getCard(String name) {
@@ -107,7 +109,7 @@ public class ShowDeckCards {
 			int rank1 = getRank(c1);
 			int rank2 = getRank(c2);
 			if (rank1 == rank2) {
-				if(c1.converted == c2.converted) {
+				if (c1.converted == c2.converted) {
 					return c1.name.compareTo(c2.name);
 				}
 				return c1.converted - c2.converted;
@@ -174,11 +176,11 @@ public class ShowDeckCards {
 						System.exit(0);
 					}
 
-					if(card.types.contains("Land")) {
+					if (card.types.contains("Land")) {
 						landNum += num;
 					}
 					int cmc = card.converted;
-					if(card.isSplit) {
+					if (card.isSplit) {
 						cmc += CardAnalyzer.get(card.otherPart.get(0)).converted;
 					}
 					totalCmc += cmc * num;
@@ -186,6 +188,9 @@ public class ShowDeckCards {
 
 					if (card.mana != null) {
 						mana += card.mana;
+						if (card.isSplit) {
+							mana += CardAnalyzer.get(card.otherPart.get(0)).mana;
+						}
 					}
 
 					if (cards.get(tag).containsKey(card)) {
@@ -218,29 +223,29 @@ public class ShowDeckCards {
 			text += printSection(sec, cards.get(sec.toLowerCase()));
 		}
 
-		text = "Avg CMC : " + String.format("%.2f", totalCmc / cardNum) + 
-				"  Avg Spell CMC : " + String.format("%.2f", totalCmc / (cardNum - landNum)) + "\n\n" + text;
+		text = "Avg CMC : " + String.format("%.2f", totalCmc / cardNum) + "  Avg Spell CMC : "
+				+ String.format("%.2f", totalCmc / (cardNum - landNum)) + "\n\n" + text;
 
 		String colors = "";
-		if(mana.contains("W")) {
+		if (mana.contains("W")) {
 			colors += "White ";
 		}
-		if(mana.contains("U")) {
+		if (mana.contains("U")) {
 			colors += "Blue ";
 		}
-		if(mana.contains("B")) {
+		if (mana.contains("B")) {
 			colors += "Black ";
 		}
-		if(mana.contains("R")) {
+		if (mana.contains("R")) {
 			colors += "Red ";
 		}
-		if(mana.contains("G")) {
+		if (mana.contains("G")) {
 			colors += "Green ";
 		}
-		if(colors.endsWith(" ")) {
+		if (colors.endsWith(" ")) {
 			colors = colors.substring(0, colors.length() - 1);
 		}
-		
+
 		text = "Colors : " + colors + "\n" + text;
 
 		return text;
