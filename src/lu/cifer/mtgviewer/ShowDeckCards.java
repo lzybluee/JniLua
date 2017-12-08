@@ -14,8 +14,68 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import lu.cifer.mtgviewer.CardAnalyzer.CardInfo;
+import lu.cifer.mtgviewer.CardAnalyzer.ReprintInfo;
 
 public class ShowDeckCards {
+
+	Vector<Vector<String>> standards = new Vector<>();
+	Vector<String> modern = new Vector<>();
+
+	public ShowDeckCards() {
+		initStandard();
+		initModern();
+	}
+
+	public void initModern() {
+		BufferedReader reader = null;
+		try {
+			reader = new BufferedReader(new FileReader("Script/modern.txt"));
+			String str = null;
+			while ((str = reader.readLine()) != null) {
+				modern.add(str);
+			}
+			reader.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			if (reader != null) {
+				try {
+					reader.close();
+				} catch (IOException e1) {
+				}
+			}
+		}
+	}
+
+	public void initStandard() {
+		BufferedReader reader = null;
+		try {
+			reader = new BufferedReader(new FileReader("Script/standard.txt"));
+			String str = null;
+			Vector<String> sets = new Vector<>();
+			while ((str = reader.readLine()) != null) {
+				if (str.isEmpty()) {
+					standards.add(sets);
+					sets = new Vector<>();
+				} else {
+					sets.add(str);
+				}
+			}
+			if (!sets.isEmpty()) {
+				standards.add(sets);
+			}
+			reader.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			if (reader != null) {
+				try {
+					reader.close();
+				} catch (IOException e1) {
+				}
+			}
+		}
+	}
 
 	public void saveDeck(File file, String text) {
 		String name = file.getName();
@@ -143,16 +203,52 @@ public class ShowDeckCards {
 		return text;
 	}
 
+	public void checkStandard(Vector<Vector<String>> list, CardInfo card) {
+		Vector<Vector<String>> remove = new Vector<>();
+		for (Vector<String> sets : list) {
+			boolean flag = false;
+			for (String set : sets) {
+				for (ReprintInfo r : card.reprints) {
+					if (r.set.equals(set)) {
+						flag = true;
+						break;
+					}
+				}
+			}
+			if (!flag) {
+				remove.add(sets);
+			}
+		}
+		for (Vector<String> v : remove) {
+			list.remove(v);
+		}
+	}
+
+	public boolean checkModern(CardInfo card) {
+		for (String set : modern) {
+			for (ReprintInfo r : card.reprints) {
+				if (r.set.equals(set)) {
+					return true;
+				}
+			}
+		}
+		return false;
+	}
+
 	String[] sections = { "Commander", "Main", "Sideboard", "Scheme", "Planar" };
 
 	public String loadDeck(File file) {
 		System.out.println("Loading ... " + file.getAbsolutePath() + "\n");
 		BufferedReader reader = null;
-		String text = "";
 
 		HashMap<String, HashMap<CardInfo, Integer>> cards = new HashMap<>();
 		for (String sec : sections) {
 			cards.put(sec.toLowerCase(), new HashMap<>());
+		}
+
+		Vector<Vector<String>> t2List = new Vector<>();
+		for (Vector<String> v : standards) {
+			t2List.add(v);
 		}
 
 		String tag = "";
@@ -160,6 +256,8 @@ public class ShowDeckCards {
 		int landNum = 0;
 		float totalCmc = 0;
 		String mana = "";
+
+		boolean isModern = true;
 
 		try {
 			reader = new BufferedReader(new FileReader(file));
@@ -197,6 +295,10 @@ public class ShowDeckCards {
 						num += cards.get(tag).get(card);
 					}
 					cards.get(tag).put(card, num);
+
+					checkStandard(t2List, card);
+
+					isModern = isModern && checkModern(card);
 				} else {
 					str = str.toLowerCase();
 					for (String sec : sections) {
@@ -219,12 +321,21 @@ public class ShowDeckCards {
 			}
 		}
 
-		for (String sec : sections) {
-			text += printSection(sec, cards.get(sec.toLowerCase()));
+		String text = "";
+
+		if (!t2List.isEmpty()) {
+			String s = t2List.get(0).toString();
+			s = s.substring(1, s.length() - 1);
+			text += "<Standard> " + s + "\n";
 		}
 
-		text = "Avg CMC : " + String.format("%.2f", totalCmc / cardNum) + "  Avg Spell CMC : "
-				+ String.format("%.2f", totalCmc / (cardNum - landNum)) + "\n\n" + text;
+		if (isModern) {
+			text += "<Modern>\n";
+		}
+
+		if (!text.isEmpty()) {
+			text += "\n";
+		}
 
 		String colors = "";
 		if (mana.contains("W")) {
@@ -245,8 +356,14 @@ public class ShowDeckCards {
 		if (colors.endsWith(" ")) {
 			colors = colors.substring(0, colors.length() - 1);
 		}
+		text += "Colors : " + colors + "\n";
 
-		text = "Colors : " + colors + "\n" + text;
+		text += "Avg CMC : " + String.format("%.2f", totalCmc / cardNum) + "  Avg Spell CMC : "
+				+ String.format("%.2f", totalCmc / (cardNum - landNum)) + "\n\n";
+
+		for (String sec : sections) {
+			text += printSection(sec, cards.get(sec.toLowerCase()));
+		}
 
 		return text;
 	}
