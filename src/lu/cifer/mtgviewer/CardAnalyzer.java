@@ -1092,6 +1092,52 @@ public class CardAnalyzer {
 		return results.length;
 	}
 
+	public static boolean compareStringVector(Vector<String> v1, Vector<String> v2) {
+		if (v1 == null) {
+			return v2 == null;
+		}
+		if (v2 == null) {
+			return v1 == null;
+		}
+		if (v1.size() != v2.size()) {
+			return false;
+		}
+		for (String s : v1) {
+			if (!v2.contains(s)) {
+				return false;
+			}
+		}
+		return true;
+	}
+
+	public static boolean compareStringNoReminder(String s1, String s2) {
+		if (s1 == null) {
+			return s2 == null;
+		}
+		if (s2 == null) {
+			return s1 == null;
+		}
+		return s1.replaceAll("\\(.*?\\)", "").equals(s2.replaceAll("\\(.*?\\)", ""));
+	}
+
+	public static boolean compareString(String s1, String s2) {
+		if (s1 == null) {
+			return s2 == null;
+		}
+		if (s2 == null) {
+			return s1 == null;
+		}
+		return s1.equals(s2);
+	}
+
+	public static boolean isSameFunction(CardInfo c1, CardInfo c2) {
+		return c1.otherPart.isEmpty() && c2.otherPart.isEmpty() && compareString(c1.mana, c2.mana)
+				&& compareString(c1.colorIndicator, c2.colorIndicator) && compareStringVector(c1.types, c2.types)
+				&& compareStringVector(c1.subTypes, c2.subTypes) && compareStringVector(c1.superTypes, c2.superTypes)
+				&& compareString(c1.power, c2.power) && compareString(c1.toughness, c2.toughness)
+				&& compareString(c1.loyalty, c2.loyalty) && compareStringNoReminder(c1.text, c2.text);
+	}
+
 	public static class ReprintInfo {
 
 		public CardInfo card;
