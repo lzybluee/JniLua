@@ -353,9 +353,13 @@ public class ShowDeckCards {
 		if (mana.contains("G")) {
 			colors += "Green ";
 		}
-		if (colors.endsWith(" ")) {
+
+		if (colors.isEmpty()) {
+			colors = "Colorless";
+		} else if (colors.endsWith(" ")) {
 			colors = colors.substring(0, colors.length() - 1);
 		}
+
 		text += "Colors : " + colors + "\n";
 
 		text += "Avg CMC : " + String.format("%.2f", totalCmc / cardNum) + "  Avg Spell CMC : "
