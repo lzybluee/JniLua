@@ -24,9 +24,6 @@ public class CardAnalyzer {
 	public static String[] results;
 	public static int exclude;
 
-	static String last_name = "";
-	static ReprintInfo last_card;
-	static int same_count = 0;
 	static Hashtable<String, CardInfo> cardDatabase = new Hashtable<>();
 	static int reprintCards = 0;
 	static String[] allName;
@@ -46,6 +43,7 @@ public class CardAnalyzer {
 	static Vector<ReprintInfo> resultCards;
 	static String lastCode;
 	static boolean single = true;
+	static HashMap<String, Vector<ReprintInfo>> setCards;
 
 	public static CardInfo get(String name) {
 		return cardDatabase.get(name);
@@ -799,34 +797,34 @@ public class CardAnalyzer {
 	}
 
 	public static ReprintInfo processCard(String str) {
+		ReprintInfo reprint = null;
+
 		String name = getEntry(str, "Name");
 
-		if (name.equals(last_name) && same_count == 0) {
-			last_card.sameIndex = 1;
-		}
-
 		if (cardDatabase.containsKey(name)) {
-			last_card = addReprintCard(str, cardDatabase.get(name));
+			reprint = addReprintCard(str, cardDatabase.get(name));
 		} else {
 			CardInfo card = getNewCard(getEntry(str, "Card"));
 			cardDatabase.put(name, card);
 			card.reprints = new Vector<>();
-			last_card = addReprintCard(str, card);
+			reprint = addReprintCard(str, card);
 		}
 
-		if (name.equals(last_name)) {
-			same_count++;
-			last_card.sameIndex = same_count + 1;
+		if (setCards.containsKey(name)) {
+			setCards.get(name).add(reprint);
 		} else {
-			same_count = 0;
+			Vector<ReprintInfo> vector = new Vector<>();
+			vector.add(reprint);
+			setCards.put(name, vector);
 		}
-		last_name = name;
-		return last_card;
+
+		return reprint;
 	}
 
 	public static void processSet(File file) {
 		// System.out.println("Process Oracle: " + file);
 		BufferedReader reader;
+		setCards = new HashMap<>();
 		try {
 			reader = new BufferedReader(new FileReader(file));
 			String str;
@@ -842,6 +840,16 @@ public class CardAnalyzer {
 			reader.close();
 		} catch (IOException e) {
 			e.printStackTrace();
+		}
+
+		for (String s : setCards.keySet()) {
+			if (setCards.get(s).size() > 1) {
+				int index = 1;
+				for (ReprintInfo reprint : setCards.get(s)) {
+					reprint.sameIndex = index;
+					index++;
+				}
+			}
 		}
 	}
 
