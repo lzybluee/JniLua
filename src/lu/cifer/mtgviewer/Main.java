@@ -5,6 +5,8 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Vector;
 
 import lu.cifer.mtgviewer.CardAnalyzer.CardInfo;
@@ -41,15 +43,60 @@ public class Main {
 
 		CardParser.initOracle();
 		String title = CardAnalyzer.initData();
-
-		writeOracleFile(title);
-
+		
+		PictureRepack repack = new PictureRepack();
 		System.exit(0);
+		
+		Vector<String> mageCards = new Vector<>();
+		File[] cardFolders = new File("D:\\z7z8\\xMage\\MageX\\Mage.Sets\\src\\mage\\cards").listFiles();
+		for(File folder : cardFolders) {
+			for(File f : folder.listFiles()) {
+				System.out.println();
+			}
+		}
 
-		ShowDeckCards showDeckCards = new ShowDeckCards();
-		showDeckCards.loadDeckFolder("decks");
+		/*HashMap<String, Integer> creatures = new HashMap<>();
+		for (String s : CardAnalyzer.allName) {
+			CardInfo c = CardAnalyzer.get(s);
+			if ((c.legal.contains("Modern") || c.banned.contains("Modern")) && c.types.contains("Creature")) {
+				for (String t : c.subTypes) {
+					if (creatures.containsKey(t)) {
+						creatures.put(t, creatures.get(t) + 1);
+					} else {
+						creatures.put(t, 1);
+					}
+				}
+			}
+		}
+		for (Map.Entry<String, Integer> e : creatures.entrySet()) {
+			System.out.println(e.getKey() + "\t" + e.getValue());
+		}
+		
+		System.exit(0);*/
 
-		System.exit(0);
+		/*
+		 * writeOracleFile(title);
+		 * 
+		 * System.exit(0);
+		 */
+
+		/*
+		 * ShowDeckCards showDeckCards = new ShowDeckCards();
+		 * showDeckCards.loadDeckFolder("decks");
+		 * 
+		 * System.exit(0);
+		 */
+
+		/*
+		 * for (int i = 0; i < CardAnalyzer.allName.length; i++) { for (int j =
+		 * i + 1; j < CardAnalyzer.allName.length; j++) { CardInfo c1 =
+		 * CardAnalyzer.get(CardAnalyzer.allName[i]); CardInfo c2 =
+		 * CardAnalyzer.get(CardAnalyzer.allName[j]); if
+		 * (CardAnalyzer.isSameFunction(c1, c2)) { System.out.println(c1 +
+		 * "========================\n" + c2); } } }
+		 * 
+		 * System.exit(0);
+		 */
 
 		// System.out.println("\n================ " + all + "
 		// ================\n");
