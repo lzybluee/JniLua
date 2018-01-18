@@ -14,7 +14,8 @@ public class PictureRepack {
 			{ "PCH", "HOP" }, { "PO", "PT" }, { "PO2", "P2" }, { "PR", "PY" }, { "PVC", "DDE" }, { "RV", "R" },
 			{ "TP", "TE" }, { "TR", "TO" }, { "TS", "TSP" }, { "TSTS", "TSB" }, { "UN", "U" }, };
 
-	static String[][] mageFolder = { { "MPSAKH", "MPS-AKH" }, { "MPSKLD", "MPS-KLD" }, };
+	static String[][] mageFolder = { { "CMA", "CM1" }, { "MPSAKH", "MPS-AKH" }, { "MPSKLD", "MPS" }, { "NMS", "NEM" },
+			{ "PO2", "P02" }, };
 
 	PictureRepack() {
 		for (String s : CardAnalyzer.allName) {
@@ -38,9 +39,9 @@ public class PictureRepack {
 
 	String getMageName(CardInfo card) {
 		if (card.isSplit) {
-			return card.simpleName +" - " +  CardAnalyzer.get(card.otherPart.get(0)).simpleName;
+			return card.simpleName + " - " + CardAnalyzer.get(card.otherPart.get(0)).simpleName;
 		} else {
-			return card.simpleName.replaceAll(":", "").replaceAll("\"", "");
+			return card.simpleName.replaceAll(":", "").replaceAll("\"", "'");
 		}
 	}
 
@@ -63,7 +64,7 @@ public class PictureRepack {
 	}
 
 	void generateCmd(ReprintInfo reprint) {
-		String path = "D:\\Forge\\cardsDir\\" + getForgeFolder(reprint.altCode) + "\\" + getForgeName(reprint.card);
+		String path = "C:\\Forge\\cardsDir\\" + getForgeFolder(reprint.altCode) + "\\" + getForgeName(reprint.card);
 		if (reprint.sameIndex > 0 && !reprint.card.isMeld && !path.contains("Kaya, Ghost Assassin")) {
 			path += reprint.sameIndex;
 		}
@@ -73,11 +74,14 @@ public class PictureRepack {
 			System.err.println(path);
 		}
 
-		String copyPath = ".\\" + getMageFolder(reprint.code) + "\\" + getMageName(reprint.card);
+		String copyPath = "E:\\MageX\\tozip\\" + getMageFolder(reprint.code) + "\\" + getMageName(reprint.card);
 		if (reprint.sameIndex > 0 && !reprint.card.isMeld && !path.contains("Kaya, Ghost Assassin")) {
 			copyPath += "." + reprint.number;
 		}
 		copyPath += ".full.jpg";
-		System.out.println("copy \"" + path + "\" \"" + copyPath + "\"");
+
+		if (reprint.card.name.contains("\"")) {
+			System.out.println("copy \"" + path + "\" \"" + copyPath + "\"");
+		}
 	}
 }
