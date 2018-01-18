@@ -45,8 +45,10 @@ At the beginning of your upkeep, you may exile target artifact or enchantment. I
 —Jazal Goldmane</Flavor>
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>376241</Multiverseid>
-<Rulings>2014/07/18: The ability triggers just once for each life-gaining event, whether it's 1 life from Soulmender or 8 life from Meditation Puzzle.
-2014/07/18: A creature with lifelink dealing combat damage is a single life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, <Ajani's Pridemate>'s ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.</Rulings>
+<Rulings>2017/11/17: The ability of <Ajani's Pridemate> triggers just once for each life-gaining event, whether it's 1 life from Auriok Champion or 6 life from Tavern Swindler.
+2017/11/17: If <Ajani's Pridemate> is dealt lethal damage at the same time that you gain life, it won't receive a counter from its ability in time to save it.
+2017/11/17: Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, <Ajani's Pridemate>'s ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+2017/11/17: In a Two-Headed Giant game, life gained by your teammate won't cause the ability to trigger, even though it causes your team's life total to increase.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -163,8 +165,7 @@ Enchanted creature is an Insect artifact creature with base power and toughness 
 <Flavor>Infinitely powerless.</Flavor>
 <Artist>Daniel Ljunggren</Artist>
 <Multiverseid>376297</Multiverseid>
-<Rulings>2013/10/17: <Darksteel Mutation> has received minor errata to clarify its functionality. The updated Oracle wording appears above.
-2013/10/17: <Darksteel Mutation> overwrites the printed power and toughness of the enchanted creature, as well as any characteristic-defining abilities that define power and/or toughness.
+<Rulings>2013/10/17: <Darksteel Mutation> overwrites the printed power and toughness of the enchanted creature, as well as any characteristic-defining abilities that define power and/or toughness.
 2013/10/17: <Darksteel Mutation> overwrites any previous effects that set the enchanted creature's power or toughness to a specific value. Any such effects that start to apply after <Darksteel Mutation> entered the battlefield will work normally.
 2013/10/17: However, <Darksteel Mutation> does not overwrite effects that change the enchanted creature's power or toughness without setting it to a specific value (such as the ones created by Giant Growth or Glorious Anthem). It also won't overwrite the effect of counters.
 2013/10/17: The enchanted creature will be only an artifact and a creature, not any other card types. It will be only an Insect, not any other creature types.
@@ -269,7 +270,6 @@ Echo {3}{W}{W} (At the beginning of your upkeep, if this came under your control
 When Karmic Guide enters the battlefield, return target creature card from your graveyard to the battlefield.</CardText>
 <Artist>Allen Williams</Artist>
 <Multiverseid>376387</Multiverseid>
-<Rulings>2008/04/01: A "creature card" is any card with the type Creature, even if it has other types such as Artifact, Enchantment, or Land. Older cards of type Summon are also Creature cards.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander 2013 Edition</Set>
@@ -402,7 +402,7 @@ When Serra Avatar is put into a graveyard from anywhere, shuffle it into its own
 <Flavor>"Serra isn't dead. She lives on through me."</Flavor>
 <Artist>Dermot Power</Artist>
 <Multiverseid>376495</Multiverseid>
-<Rulings>2008/10/01: Whether or not the ability triggers depends on if the Avatar has the ability while in the graveyard. If it doesn't (thanks to <Yixlid Jailer>, for instance), then the ability won't trigger. It doesn't matter whether the Avatar had the ability in its previous zone (it will trigger even if it had been on the battlefield with <Humility>).
+<Rulings>2008/10/01: Whether or not the ability triggers depends on if the Avatar has the ability while in the graveyard. If it doesn't (thanks to Yixlid Jailer, for instance), then the ability won't trigger. It doesn't matter whether the Avatar had the ability in its previous zone (it will trigger even if it had been on the battlefield with Humility).
 2012/07/01: <Serra Avatar>'s power and toughness are constantly updated as your life total changes.
 2012/07/01: The ability that defines <Serra Avatar>'s power and toughness works in all zones, not just the battlefield.
 2012/07/01: If <Serra Avatar> is no longer in your graveyard when its triggered ability resolves, you won't shuffle your library.</Rulings>
@@ -859,7 +859,7 @@ Prevent all combat damage that would be dealt to and dealt by Fog Bank.</CardTex
 —Talrand, sky summoner</Flavor>
 <Artist>Howard Lyon</Artist>
 <Multiverseid>376339</Multiverseid>
-<Rulings>2012/07/01: If <Fog Bank> blocks a creature with trample, that creature's controller must assign 2 damage to <Fog Bank> (assuming it's blocking no other creatures, there was no damage marked on it, and nothing has changed its toughness). The remainder can be assigned to the defending player or planeswalker.</Rulings>
+<Rulings>2017/11/17: <Fog Bank>'s prevention effect isn't considered while assigning combat damage from a creature with trample. For example, if it blocks a 5/5 creature with trample, that creature's controller must assign 2 of that creature's combat damage to <Fog Bank> and the remainder can be assigned to the defending player or planeswalker.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -923,6 +923,9 @@ Hada Spy Patrol can't be blocked.</CardText>
 Remove all attacking creatures from combat and untap them. After this phase, there is an additional combat phase. Each of those creatures attacks that combat if able. They can't attack you or a planeswalker you control that combat.</CardText>
 <Artist>Zoltan Boros</Artist>
 <Multiverseid>376369</Multiverseid>
+<Rulings>2013/10/17: Creatures that didn't attack during the combat phase when <Illusionist's Gambit> resolved aren't required to attack in the additional combat phase, although they may. Those creatures can attack you or a planeswalker you control.
+2013/10/17: If, during a player's declare attackers step, a creature is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack.
+2013/10/17: If there's a cost associated with having a creature attack, the player isn't forced to pay that cost, so it doesn't have to attack.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander 2013 Edition</Set>
@@ -1910,7 +1913,8 @@ All creatures get -X/-X until end of turn.</CardText>
 <Flavor>Even the lost and undead need a protector.</Flavor>
 <Artist>Ryan Barger</Artist>
 <Multiverseid>376587</Multiverseid>
-<Rulings>2013/01/24: <Wight of Precinct Six>'s ability applies only if <Wight of Precinct Six> is on the battlefield.</Rulings>
+<Rulings>2017/11/17: <Wight of Precinct Six>'s ability applies only while it's on the battlefield. In all other zones, it's a 1/1 creature.
+2017/11/17: If <Wight of Precinct Six> is dealt lethal damage at the same time as a creature an opponent controls, they're destroyed at the same time. It won't get an additional +1/+1 from its ability in time to save it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1967,8 +1971,9 @@ All creatures get -X/-X until end of turn.</CardText>
 Whenever you cast an instant or sorcery spell, Charmbreaker Devils gets +4/+0 until end of turn.</CardText>
 <Artist>Dan Scott</Artist>
 <Multiverseid>376278</Multiverseid>
-<Rulings>2011/09/22: The instant or sorcery card returned to your hand is chosen at random as the triggered ability resolves. If any player responds to the ability, that player won't yet know what card will be returned.
-2011/09/22: Because the first ability doesn't target the instant or sorcery card, any instants or sorceries put into your graveyard in response to that ability may be returned to your hand.</Rulings>
+<Rulings>2017/11/17: The instant or sorcery card returned to your hand is chosen at random as <Charmbreaker Devils>'s first ability resolves. If any player responds to the ability, that player won't yet know what card will be returned.
+2017/11/17: Because the first ability doesn't target the instant or sorcery card, any instants or sorceries put into your graveyard in response to that ability may be returned to your hand.
+2017/11/17: All players get to see which card you chose at random as it's returned to your hand.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1986,7 +1991,6 @@ Whenever you cast an instant or sorcery spell, Charmbreaker Devils gets +4/+0 un
 When Crater Hellion enters the battlefield, it deals 4 damage to each other creature.</CardText>
 <Artist>Daren Bader</Artist>
 <Multiverseid>376285</Multiverseid>
-<Rulings>2004/10/04: The ability does 4 damage to every creature on the battlefield other than <Crater Hellion>.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander 2013 Edition</Set>
@@ -2027,11 +2031,10 @@ Whenever a player attacks enchanted player with one or more creatures, that atta
 Fireball costs {1} more to cast for each target beyond the first.</CardText>
 <Artist>Dave Dorman</Artist>
 <Multiverseid>376334</Multiverseid>
-<Rulings>2004/12/01: The additional cost is paid when you pay the rest of <Fireball>'s costs, even though that text appears second on the card (to make the card easier to read). The additional cost doesn't count toward <Fireball>'s converted mana cost.
-2004/12/01: If, for example, X is 5 and you choose three target creatures, <Fireball> has a total cost of {7}{R} (even though its mana cost is just {5}{R}). If those creatures are all still legal targets as <Fireball> resolves, it deals 1 damage to each of them.
-2009/05/01: You may cast <Fireball> with zero targets, regardless of the value chosen for X. If you do so, it will not be a targeted spell, and no damage will actually be dealt when it resolves.
-2009/10/01: <Fireball>'s damage is divided as <Fireball> resolves, not as it's cast, because there are no choices involved. The division involves only targets that are still legal at that time.
-2009/10/01: You can target more than X creatures. However, if the number of legal targets at the time <Fireball> resolves is greater than X, none of them will be dealt any damage.</Rulings>
+<Rulings>2017/11/17: For example, if X is 5 and you choose three target creatures, <Fireball> has a total cost of {7}{R} (even though its mana cost is just {5}{R} and its converted mana cost is 6). If those creatures are all still legal targets as <Fireball> resolves, it deals 1 damage to each of them.
+2017/11/17: You may cast <Fireball> with zero targets, regardless of the value chosen for X. If you do so, it will not be a targeted spell, and no damage will actually be dealt when it resolves.
+2017/11/17: <Fireball>'s damage is divided as <Fireball> resolves, not as it's cast, because there are no choices involved. The division involves only targets that are still legal as <Fireball> resolves.
+2017/11/17: You can target more than X creatures. However, if the number of legal targets at the time <Fireball> resolves is greater than X, none of them will be dealt any damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2139,7 +2142,7 @@ Whenever a creature dies, untap Goblin Sharpshooter.
 <Flavor>He wants to watch Ravnica burn, one soul at a time.</Flavor>
 <Artist>Steve Prescott</Artist>
 <Multiverseid>376361</Multiverseid>
-<Rulings>2012/10/01: <Guttersnipe>'s ability resolves and <Guttersnipe> deals damage before the instant or sorcery spell resolves.</Rulings>
+<Rulings>2017/11/17: <Guttersnipe>'s ability resolves before the spell that caused it to trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2197,7 +2200,6 @@ Whenever Inferno Titan enters the battlefield or attacks, it deals 3 damage divi
 <Multiverseid>376403</Multiverseid>
 <Rulings>2007/02/01: If either target leaves the battlefield before the ability resolves, the ability taps the remaining target, but no damage is dealt. If both targets leave the battlefield, the ability is countered.
 2007/02/01: <Magus of the Arena>'s controller always chooses his or her creature first.
-2007/02/01: If an effect changes the targets of this ability, the second target can be changed to any creature the chosen opponent controls. The choice of opponent can't be changed.
 2007/02/01: Tapped creatures can be targeted. Tapping them again will do nothing, but they'll still deal damage.
 2007/02/01: If an effect changes the targets of this ability, the second target can be changed to any creature the chosen opponent controls. The choice of opponent can't be changed.</Rulings>
 <Vintage>Legal</Vintage>
@@ -2848,7 +2850,7 @@ When Deadwood Treefolk enters the battlefield or leaves the battlefield, return 
 <Flavor>"Words lie. People lie. The land tells the truth."</Flavor>
 <Artist>Paul Lee</Artist>
 <Multiverseid>376363</Multiverseid>
-<Rulings>2007/02/01: This is the timeshifted version of <Concentrate>.</Rulings>
+<Rulings>2007/02/01: This is the timeshifted version of Concentrate.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3271,6 +3273,7 @@ Draw a card.</CardText>
 —Kara Vrist, Neurok agent</Flavor>
 <Artist>Efrem Palacios</Artist>
 <Multiverseid>376505</Multiverseid>
+<Rulings>2017/09/29: If the target artifact or enchantment is an illegal target by the time <Slice in Twain> resolves, the entire spell is countered. You won't draw a card. If, on the other hand, the target is a legal target but isn't destroyed (most likely because it has indestructible), you'll draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3415,12 +3418,12 @@ When Baleful Strix enters the battlefield, draw a card.</CardText>
 <Name>Behemoth Sledge</Name>
 <Type>Artifact — Equipment</Type>
 <ManaCost>1WG (3)</ManaCost>
-<CardText>Equipped creature gets +2/+2 and has lifelink and trample.
+<CardText>Equipped creature gets +2/+2 and has trample and lifelink.
 Equip {3}</CardText>
 <Flavor>Those who worship the great gargantuans could hardly be expected to fight with a subtle weapon.</Flavor>
 <Artist>Steve Prescott</Artist>
 <Multiverseid>376266</Multiverseid>
-<Rulings>2009/10/01: Multiple instances of lifelink are redundant. If a creature with multiple instances of lifelink deals damage, its controller still only gains life equal to the damage dealt.</Rulings>
+<Rulings>2009/10/01: multiple instances of lifelink on the same creature are redundant. If a creature with multiple instances of lifelink deals damage, its controller still only gains life equal to the damage dealt.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3728,6 +3731,15 @@ When Jeleva, Nephalia's Scourge enters the battlefield, each player exiles the t
 Whenever Jeleva attacks, you may cast an instant or sorcery card exiled with it without paying its mana cost.</CardText>
 <Artist>Cynthia Sheppard</Artist>
 <Multiverseid>376382</Multiverseid>
+<Rulings>2013/10/17: If Jeleva leaves the battlefield, the exiled cards will remain exiled indefinitely. If Jeleva enters the battlefield again, it won't be associated with the cards the "other" Jeleva exiled. The new Jeleva will exile a new set of cards. Only those cards can be cast using Jeleva's last ability.
+2013/10/17: If you cast an instant or sorcery card using Jeleva's last ability, you do so while that ability is resolving. If you choose not to (or you can't), you won't get a chance to cast it later unless the ability triggers again.
+2013/10/17: When casting an instant or sorcery card this way, ignore all timing restrictions based on the card's type. Other timing restrictions, such as "Cast [this spell] only during combat," must be followed.
+2013/10/17: If you cast a card "without paying its mana cost," you can't pay alternative costs such as overload costs. However, you can pay additional costs such as kicker costs. If the card has mandatory additional costs, you must pay those.
+2013/10/17: If the card has {X} in its mana cost, you must choose 0 as its value.
+2013/10/17: The card is cast before blocking creatures are declared.
+2014/02/01: The amount of mana you spent to cast this creature is usually equal to its converted mana cost. However, you also include any additional costs you pay, including the cost imposed for casting your commander from the command zone.
+2014/02/01: You can't choose to pay extra mana to cast a creature spell unless something instructs you to.
+2014/02/01: If Jeleva enters the battlefield without being cast, then no mana was spent to cast it. This means X will be 0, so no cards will be exiled.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander 2013 Edition</Set>
@@ -3807,8 +3819,7 @@ Enchanted land has "{G}{U}, {T}: Create a 2/2 green and blue Drake creature toke
 • Create an X/X green Elemental creature token. X can't be 0.</CardText>
 <Artist>Tyler Jacobson</Artist>
 <Multiverseid>376404</Multiverseid>
-<Rulings>2013/10/17: <Marath, Will of the Wild> has received minor errata. The text "X can't be 0" was inadvertently omitted from the card. The correct Oracle wording appears above.
-2013/10/17: You announce the value of X as you activate the ability, and all instances of X in the activation cost are equal to the announced value. For example, if you choose 2 as the value of X, then you pay {2} and remove two +1/+1 counters to pay the cost.
+<Rulings>2013/10/17: You announce the value of X as you activate the ability, and all instances of X in the activation cost are equal to the announced value. For example, if you choose 2 as the value of X, then you pay {2} and remove two +1/+1 counters to pay the cost.
 2014/02/01: The amount of mana you spent to cast this creature is usually equal to its converted mana cost. However, you also include any additional costs you pay, including the cost imposed for casting your commander from the command zone.
 2014/02/01: You can't choose to pay extra mana to cast a creature spell unless something instructs you to.
 2014/02/01: If Marath enters the battlefield without being cast, then no mana was spent to cast it. It will therefore enter the battlefield without any +1/+1 counters. If no other effects are increasing its toughness at that time, it will subsequently be put into its owner's graveyard as a state-based action.</Rulings>
@@ -4327,8 +4338,9 @@ Deathtouch (Any amount of damage this deals to a creature is enough to destroy i
 {1}{W}{B}: Whenever you gain life this turn, each opponent loses that much life.</CardText>
 <Artist>Tyler Jacobson</Artist>
 <Multiverseid>376577</Multiverseid>
-<Rulings>2013/01/24: Multiple instances of lifelink are redundant. Giving the same creature lifelink more than once won't cause you to gain additional life.
-2013/01/24: Each time the second ability resolves, a delayed triggered ability is created. Whenever you gain life that turn, each of those abilities will trigger. For example, if you activate the second ability twice (and let those abilities resolve) and then you gain 2 life, each opponent will lose a total of 4 life. Each instance will cause two abilities to trigger, each causing that player to lose 2 life.</Rulings>
+<Rulings>2017/11/17: Multiple instances of lifelink on the same creature are redundant
+2017/11/17: Each time <Vizkopa Guildmage>'s second ability resolves, a delayed triggered ability is created. Whenever you gain life that turn, each of those abilities will trigger. For example, if you activate the second ability twice, let those abilities resolve, then gain 2 life, each opponent will lose a total of 4 life.
+2017/11/17: In a Two-Headed Giant game, <Vizkopa Guildmage>'s delayed triggered ability causes the opposing team to lose twice the life you gained.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -5444,7 +5456,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <No>287</No>
 <Name>Evolving Wilds</Name>
 <Type>Land</Type>
-<CardText>{T}, Sacrifice Evolving Wilds: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.</CardText>
+<CardText>{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.</CardText>
 <Flavor>Without the interfering hands of civilization, nature will always shape itself to its own needs.</Flavor>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>376324</Multiverseid>

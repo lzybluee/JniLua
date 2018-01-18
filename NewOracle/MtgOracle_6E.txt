@@ -107,7 +107,7 @@ Enchanted Wall can attack as though it didn't have defender.</CardText>
 <Type>Enchantment</Type>
 <ManaCost>1WW (3)</ManaCost>
 <CardText>Lands you control are Plains.
-Nonland cards you own that aren't on the battlefield, spells you control, and nonland permanents you control are white.
+Nonland permanents you control are white. The same is true for spells you control and nonland cards you own that aren't on the battlefield.
 You may spend white mana as though it were mana of any color. You may spend other mana only as though it were colorless mana.</CardText>
 <Artist>Liz Danforth</Artist>
 <Multiverseid>15354</Multiverseid>
@@ -120,9 +120,9 @@ You may spend white mana as though it were mana of any color. You may spend othe
 2006/09/25: Mana produced by spells you control and nonland permanents you control isn't affected by <Celestial Dawn>. Llanowar Elves will produce {G}, for example. However, any colored mana may be spent only on the colorless part of costs.
 2006/09/25: Land cards you own that aren't on the battlefield aren't changed to Plains.
 2006/09/25: If you have nonwhite mana in your mana pool when <Celestial Dawn> enters the battlefield, it remains there but you can spend it only on the colorless part of costs.
-2006/09/25: "Enters the battlefield" triggered abilities of lands you play won't trigger since the lands will enter the battlefield as Plains. Effects that modify how those lands enter the battlefield, however, will still work. For example, if you play a <Dimir Aqueduct>, it will enter the battlefield tapped as a Plains, but you won't return a land to your hand.
-2006/09/25: If you use a text-changing effect such as <Mind Bend> on <Celestial Dawn> to change the word "Plains" to a different land type, your lands are all of that new land type, and they will produce mana of the appropriate color for that type.
-2006/09/25: If a permanent enters the battlefield while <Celestial Dawn> is on the battlefield, and then <Celestial Dawn> leaves the battlefield, the permanent's color will revert to the colors in its mana cost.</Rulings>
+2006/09/25: If you use a text-changing effect such as Mind Bend on <Celestial Dawn> to change the word "Plains" to a different land type, your lands are all of that new land type, and they will produce mana of the appropriate color for that type.
+2006/09/25: If a permanent enters the battlefield while <Celestial Dawn> is on the battlefield, and then <Celestial Dawn> leaves the battlefield, the permanent's color will revert to the colors in its mana cost.
+2017/09/29: If a nonbasic land has an ability that causes it to enter the battlefield tapped, it lose will that ability before it applies. The same is also true of any other abilities that modify how a land enters the battlefield or apply "as" a land enters the battlefield, such as the first ability of Cavern of Souls. This is a change from previous rulings.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -395,7 +395,7 @@ Enchanted creature gets +3/+3.</CardText>
 <Type>Creature — Human Soldier 2/3</Type>
 <ManaCost>3W (4)</ManaCost>
 <CardText>{T}: Heavy Ballista deals 2 damage to target attacking or blocking creature.</CardText>
-<Flavor>"Archers, balliste—you can't even get near the island of Avenant."
+<Flavor>"Archers, ballistae—you can't even get near the island of Avenant."
 —Gerrard of the Weatherlight</Flavor>
 <Artist>Ron Spencer</Artist>
 <Multiverseid>14486</Multiverseid>
@@ -464,7 +464,7 @@ Enchanted creature gets +1/+5.</CardText>
 <Name>Kismet</Name>
 <Type>Enchantment</Type>
 <ManaCost>3W (4)</ManaCost>
-<CardText>Artifacts, creatures, and lands played by your opponents enter the battlefield tapped.</CardText>
+<CardText>Artifacts, creatures, and lands your opponents control enter the battlefield tapped.</CardText>
 <Flavor>"Make people wait for what they want, and you have power over them. This is as true for merchants and militia as it is for cooks and couples."
 —Gwendlyn Di Corci</Flavor>
 <Artist>Kaja Foglio</Artist>
@@ -3299,7 +3299,7 @@ Measure for Measure</Flavor>
 <Type>Enchantment</Type>
 <ManaCost>2R (3)</ManaCost>
 <CardText>{2}{R}, Sacrifice two Goblins: Create three 1/1 red Goblin creature tokens.</CardText>
-<Flavor>"Goblins bred underground, their numbers hidden from the enemy until it was too late." -Sarpadian Empires, vol. IV</Flavor>
+<Flavor>"Goblins bred underground, their numbers hidden from the enemy until it was too late." —Sarpadian Empires, vol. IV</Flavor>
 <Artist>Dan Frazier</Artist>
 <Multiverseid>15421</Multiverseid>
 <Rulings>2004/10/04: The token Goblins can be sacrificed to the Warrens to generate new Goblins.</Rulings>
@@ -3366,7 +3366,7 @@ Measure for Measure</Flavor>
 <Type>Instant</Type>
 <ManaCost>5RR (7)</ManaCost>
 <CardText>Inferno deals 6 damage to each creature and each player.</CardText>
-<Flavor>"Some have said there is no subtlety to destruction. You know what? They're dead." -Jaya Ballard, task mage</Flavor>
+<Flavor>"Some have said there is no subtlety to destruction. You know what? They're dead." —Jaya Ballard, task mage</Flavor>
 <Artist>Mike Kerr</Artist>
 <Multiverseid>11340</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -3909,7 +3909,7 @@ Haste (This creature can attack and {T} as soon as it comes under your control.)
 <Type>Instant</Type>
 <ManaCost>1GG (3)</ManaCost>
 <CardText>Target player untaps all basic lands he or she controls.</CardText>
-<Flavor>"Tonight we'll have a farewell feast. Cold corn porridge is not enough. / Let's peel papayas, pineapples, and mangoes, drink coconut milk, / and bake bananas."
+<Flavor>"Tonight we'll eat a farewell feast. Cold corn porridge is not enough. / Let's peel papayas, pineapples, and mangoes, drink coconut milk, / and bake bananas."
 —"Love Song of Night and Day"</Flavor>
 <Artist>Janine Johnston</Artist>
 <Multiverseid>14714</Multiverseid>
@@ -3966,7 +3966,7 @@ did thorns play at his fingertips?"
 —Elven proverb</Flavor>
 <Artist>Dan Frazier</Artist>
 <Multiverseid>14705</Multiverseid>
-<Rulings>2007/05/01: Creatures with the Reach ability (such as <Giant Spider>) don't actually have Flying, so they can't block this.</Rulings>
+<Rulings>2007/05/01: Creatures with the Reach ability (such as Giant Spider) don't actually have Flying, so they can't block this.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4052,7 +4052,6 @@ did thorns play at his fingertips?"
 <CardText>Prevent all combat damage that would be dealt this turn.</CardText>
 <Artist>Harold McNeill</Artist>
 <Multiverseid>14682</Multiverseid>
-<Rulings>2009/10/01: <Fog> has no effect on damage that's already been dealt.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4224,9 +4223,8 @@ All creatures able to block enchanted creature do so.</CardText>
 <Flavor>When setting a snare, success depends not on the quality of the trap, but the quality of the bait.</Flavor>
 <Artist>Anson Maddocks</Artist>
 <Multiverseid>14697</Multiverseid>
-<Rulings>2004/10/04: <Lure> does not give a creature the ability to block the <Lure>d creature, it just forces those creatures which are already able to block the <Lure>d creature to do so.
-2004/10/04: If a <Lure>d creature is in a band, only blockers able to block the <Lure>d creature are affected by the <Lure>.
-2004/10/04: The opponent does not have to activate any abilities in an attempt to make his or her creatures block. More specifically, a cost to block of zero mana is an optional cost you can choose not to pay.</Rulings>
+<Rulings>2017/11/17: <Lure> doesn't give any creatures the ability to block the target creature. It just forces those creatures that are already able to block the creature to do so.
+2017/11/17: As blockers are declared, any creature that's tapped or affected by a spell or ability that says it can't block doesn't block. If there's a cost associated with having the creature block, no player is forced to pay that cost, so it doesn't block if that cost isn't paid.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4632,7 +4630,6 @@ All creatures able to block enchanted creature do so.</CardText>
 <Flavor>Some say magic was first practiced by women, who have always felt strong ties to the land.</Flavor>
 <Artist>Kev Brockschmidt</Artist>
 <Multiverseid>11558</Multiverseid>
-<Rulings>2005/08/01: This does not trigger on the moving of an Aura from one permanent to another.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

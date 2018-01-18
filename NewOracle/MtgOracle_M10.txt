@@ -2,7 +2,7 @@
 <SetId>M10</SetId>
 <No>1</No>
 <Name>Ajani Goldmane</Name>
-<Type>Planeswalker — Ajani (Loyalty: 4)</Type>
+<Type>Legendary Planeswalker — Ajani (Loyalty: 4)</Type>
 <ManaCost>2WW (4)</ManaCost>
 <CardText>+1: You gain 2 life.
 -1: Put a +1/+1 counter on each creature you control. Those creatures gain vigilance until end of turn.
@@ -798,8 +798,7 @@ Be stopp'd against the song! 'tis death to hear!"
 <Multiverseid>189894</Multiverseid>
 <Rulings>2009/10/01: After the ability resolves, the targeted creature attacks you only if it's able to do so as that turn's declare attackers step begins. If, at that time, the creature is tapped, is affected by a spell or ability that says it can't attack, or is affected by "summoning sickness," it can't attack. If there's a cost associated with having that creature attack, its controller isn't forced to pay that cost, so the creature doesn't have to attack in that case either.
 2009/10/01: If the targeted creature would be able to attack either you or a planeswalker you control, it must attack you, not the planeswalker.
-2009/10/01: Activating the ability during your opponent's turn after attackers have been declared will have no effect. The same is true if you activate the ability during your own turn.
-2011/09/22: If there are multiple combat phases in a turn, the creature must attack only in the first one in which it's able to.</Rulings>
+2009/10/01: Activating the ability during your opponent's turn after attackers have been declared will have no effect. The same is true if you activate the ability during your own turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1084,7 +1083,7 @@ When Illusionary Servant becomes the target of a spell or ability, sacrifice it.
 <SetId>M10</SetId>
 <No>58</No>
 <Name>Jace Beleren</Name>
-<Type>Planeswalker — Jace (Loyalty: 3)</Type>
+<Type>Legendary Planeswalker — Jace (Loyalty: 3)</Type>
 <ManaCost>1UU (3)</ManaCost>
 <CardText>+2: Each player draws a card.
 -1: Target player draws a card.
@@ -1482,7 +1481,7 @@ Whenever Sphinx Ambassador deals combat damage to a player, search that player's
 <Type>Instant</Type>
 <ManaCost>U (1)</ManaCost>
 <CardText>Return target creature to its owner's hand.</CardText>
-<Flavor>Mages routinely summon creatures from the Aether. It's only fair that they occasionally throw one back.</Flavor>
+<Flavor>Mages routinely summon creatures from the Æther. It's only fair that they occasionally throw one back.</Flavor>
 <Artist>Izzy</Artist>
 <Multiverseid>190183</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1888,7 +1887,7 @@ Whenever Hypnotic Specter deals damage to an opponent, that player discards a ca
 <SetId>M10</SetId>
 <No>102</No>
 <Name>Liliana Vess</Name>
-<Type>Planeswalker — Liliana (Loyalty: 5)</Type>
+<Type>Legendary Planeswalker — Liliana (Loyalty: 5)</Type>
 <ManaCost>3BB (5)</ManaCost>
 <CardText>+1: Target player discards a card.
 -2: Search your library for a card, then shuffle your library and put that card on top of it.
@@ -2343,12 +2342,11 @@ At the beginning of the end step, sacrifice Ball Lightning.</CardText>
 <Name>Berserkers of Blood Ridge</Name>
 <Type>Creature — Human Berserker 4/4</Type>
 <ManaCost>4R (5)</ManaCost>
-<CardText>Berserkers of Blood Ridge attacks each turn if able.</CardText>
+<CardText>Berserkers of Blood Ridge attacks each combat if able.</CardText>
 <Flavor>They take a blood oath to die in battle. So far none have failed to fulfill the promise.</Flavor>
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>191071</Multiverseid>
-<Rulings>2010/08/15: If, during your declare attackers step, <Berserkers of Blood Ridge> is tapped, is affected by a spell or ability that says it can't attack, or is affected by "summoning sickness," then it doesn't attack. If there's a cost associated with having <Berserkers of Blood Ridge> attack, you aren't forced to pay that cost, so it doesn't have to attack in that case either.
-2010/08/15: If there are multiple combat phases in a turn, <Berserkers of Blood Ridge> must attack only in the first one in which it's able to.</Rulings>
+<Rulings>2010/08/15: If, during your declare attackers step, <Berserkers of Blood Ridge> is tapped, is affected by a spell or ability that says it can't attack, or is affected by "summoning sickness," then it doesn't attack. If there's a cost associated with having <Berserkers of Blood Ridge> attack, you aren't forced to pay that cost, so it doesn't have to attack in that case either.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2367,7 +2365,9 @@ Flying
 When Bogardan Hellkite enters the battlefield, it deals 5 damage divided as you choose among any number of target creatures and/or players.</CardText>
 <Artist>Scott M. Fischer</Artist>
 <Multiverseid>191340</Multiverseid>
-<Rulings>2009/10/01: The number of targets chosen for the enters-the-battlefield ability must be at least 1 and at most 5. You divide the damage as you put the ability on the stack, not as it resolves. Each target must be assigned at least 1 damage.</Rulings>
+<Rulings>2017/11/17: You choose how many targets <Bogardan Hellkite>'s triggered ability has and how the damage is divided as you put the ability onto the stack. Each target must receive at least 1 damage.
+2017/11/17: You can't deal damage with <Bogardan Hellkite>'s triggered ability to both a player and a planeswalker that player controls. You also can't deal damage to more than one planeswalker controlled by the same player. If you choose to redirect the damage being dealt to a player to a planeswalker, you must redirect all the damage to a single planeswalker.
+2017/11/17: If some of the creatures or players are illegal targets as <Bogardan Hellkite>'s triggered ability tries to resolve, the original division of damage still applies and the damage that would have been dealt to the illegal targets is lost. It won't be dealt instead to a legal target.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2458,7 +2458,7 @@ When Bogardan Hellkite enters the battlefield, it deals 5 damage divided as you 
 <SetId>M10</SetId>
 <No>132</No>
 <Name>Chandra Nalaar</Name>
-<Type>Planeswalker — Chandra (Loyalty: 6)</Type>
+<Type>Legendary Planeswalker — Chandra (Loyalty: 6)</Type>
 <ManaCost>3RR (5)</ManaCost>
 <CardText>+1: Chandra Nalaar deals 1 damage to target player.
 -X: Chandra Nalaar deals X damage to target creature.
@@ -2537,11 +2537,10 @@ When Bogardan Hellkite enters the battlefield, it deals 5 damage divided as you 
 Fireball costs {1} more to cast for each target beyond the first.</CardText>
 <Artist>Dave Dorman</Artist>
 <Multiverseid>191076</Multiverseid>
-<Rulings>2004/12/01: The additional cost is paid when you pay the rest of <Fireball>'s costs, even though that text appears second on the card (to make the card easier to read). The additional cost doesn't count toward <Fireball>'s converted mana cost.
-2004/12/01: If, for example, X is 5 and you choose three target creatures, <Fireball> has a total cost of {7}{R} (even though its mana cost is just {5}{R}). If those creatures are all still legal targets as <Fireball> resolves, it deals 1 damage to each of them.
-2009/05/01: You may cast <Fireball> with zero targets, regardless of the value chosen for X. If you do so, it will not be a targeted spell, and no damage will actually be dealt when it resolves.
-2009/10/01: <Fireball>'s damage is divided as <Fireball> resolves, not as it's cast, because there are no choices involved. The division involves only targets that are still legal at that time.
-2009/10/01: You can target more than X creatures. However, if the number of legal targets at the time <Fireball> resolves is greater than X, none of them will be dealt any damage.</Rulings>
+<Rulings>2017/11/17: For example, if X is 5 and you choose three target creatures, <Fireball> has a total cost of {7}{R} (even though its mana cost is just {5}{R} and its converted mana cost is 6). If those creatures are all still legal targets as <Fireball> resolves, it deals 1 damage to each of them.
+2017/11/17: You may cast <Fireball> with zero targets, regardless of the value chosen for X. If you do so, it will not be a targeted spell, and no damage will actually be dealt when it resolves.
+2017/11/17: <Fireball>'s damage is divided as <Fireball> resolves, not as it's cast, because there are no choices involved. The division involves only targets that are still legal as <Fireball> resolves.
+2017/11/17: You can target more than X creatures. However, if the number of legal targets at the time <Fireball> resolves is greater than X, none of them will be dealt any damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2825,7 +2824,7 @@ When Magma Phoenix dies, it deals 3 damage to each creature and each player.
 <Flavor>"What am I looking at? Ashes, dead man."</Flavor>
 <Artist>Jeremy Jarvis</Artist>
 <Multiverseid>191102</Multiverseid>
-<Rulings>2007/02/01: This is the timeshifted version of <Prodigal Sorcerer>.</Rulings>
+<Rulings>2007/02/01: This is the timeshifted version of Prodigal Sorcerer.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3394,7 +3393,6 @@ Enchanted creature doesn't untap during its controller's untap step.</CardText>
 —Lord Hilneth</Flavor>
 <Artist>John Avon</Artist>
 <Multiverseid>189919</Multiverseid>
-<Rulings>2009/10/01: <Fog> has no effect on damage that's already been dealt.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3406,7 +3404,7 @@ Enchanted creature doesn't untap during its controller's untap step.</CardText>
 <SetId>M10</SetId>
 <No>183</No>
 <Name>Garruk Wildspeaker</Name>
-<Type>Planeswalker — Garruk (Loyalty: 3)</Type>
+<Type>Legendary Planeswalker — Garruk (Loyalty: 3)</Type>
 <ManaCost>2GG (4)</ManaCost>
 <CardText>+1: Untap two target lands.
 -1: Create a 3/3 green Beast creature token.

@@ -103,7 +103,7 @@ When Sanctum Gargoyle enters the battlefield, you may return target artifact car
 <Rulings>2004/12/01: If a noncreature artifact is also another card type, such as enchantment or land, it will retain those types in addition to being an artifact creature.
 2004/12/01: If an Equipment becomes a creature, it can no longer equip a creature. If it's currently attached to a creature, it becomes unattached (but remains on the battlefield). You can activate the Equipment's equip ability, but it won't do anything.
 2004/12/01: Each artifact land has a converted mana cost of 0. <March of the Machines> makes them 0/0 creatures, which are put into the graveyard as a state-based action.
-2007/07/15: If a noncreature artifact becomes an artifact creature this way and then another effect animates it, the new effect overrides <March of the Machines>'s effect. For example, <Chimeric Staff> is a 4/4 creature while <March of the Machines> is on the battlefield. If you activate Chimeric Staff's ability and choose X = 5, Chimeric Staff will be a 5/5 artifact creature for the rest of the turn.
+2007/07/15: If a noncreature artifact becomes an artifact creature this way and then another effect animates it, the new effect overrides <March of the Machines>'s effect. For example, Chimeric Staff is a 4/4 creature while <March of the Machines> is on the battlefield. If you activate Chimeric Staff's ability and choose X = 5, Chimeric Staff will be a 5/5 artifact creature for the rest of the turn.
 2009/10/01: A noncreature permanent that turns into a creature is subject to the "summoning sickness" rule: It can only attack, and its {T} abilities can only be activated, if its controller has continuously controlled that permanent since the beginning of his or her most recent turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -671,11 +671,10 @@ When a creature with converted mana cost 6 or greater enters the battlefield, yo
 Fireball costs {1} more to cast for each target beyond the first.</CardText>
 <Artist>Dave Dorman</Artist>
 <Multiverseid>220478</Multiverseid>
-<Rulings>2004/12/01: The additional cost is paid when you pay the rest of <Fireball>'s costs, even though that text appears second on the card (to make the card easier to read). The additional cost doesn't count toward <Fireball>'s converted mana cost.
-2004/12/01: If, for example, X is 5 and you choose three target creatures, <Fireball> has a total cost of {7}{R} (even though its mana cost is just {5}{R}). If those creatures are all still legal targets as <Fireball> resolves, it deals 1 damage to each of them.
-2009/05/01: You may cast <Fireball> with zero targets, regardless of the value chosen for X. If you do so, it will not be a targeted spell, and no damage will actually be dealt when it resolves.
-2009/10/01: <Fireball>'s damage is divided as <Fireball> resolves, not as it's cast, because there are no choices involved. The division involves only targets that are still legal at that time.
-2009/10/01: You can target more than X creatures. However, if the number of legal targets at the time <Fireball> resolves is greater than X, none of them will be dealt any damage.</Rulings>
+<Rulings>2017/11/17: For example, if X is 5 and you choose three target creatures, <Fireball> has a total cost of {7}{R} (even though its mana cost is just {5}{R} and its converted mana cost is 6). If those creatures are all still legal targets as <Fireball> resolves, it deals 1 damage to each of them.
+2017/11/17: You may cast <Fireball> with zero targets, regardless of the value chosen for X. If you do so, it will not be a targeted spell, and no damage will actually be dealt when it resolves.
+2017/11/17: <Fireball>'s damage is divided as <Fireball> resolves, not as it's cast, because there are no choices involved. The division involves only targets that are still legal as <Fireball> resolves.
+2017/11/17: You can target more than X creatures. However, if the number of legal targets at the time <Fireball> resolves is greater than X, none of them will be dealt any damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1023,7 +1022,6 @@ Protection from black
 —Lord Hilneth</Flavor>
 <Artist>John Avon</Artist>
 <Multiverseid>220479</Multiverseid>
-<Rulings>2009/10/01: <Fog> has no effect on damage that's already been dealt.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1079,7 +1077,7 @@ Conspire (As you cast this spell, you may tap two untapped creatures you control
 <Flavor>"Words lie. People lie. The land tells the truth."</Flavor>
 <Artist>Paul Lee</Artist>
 <Multiverseid>220584</Multiverseid>
-<Rulings>2007/02/01: This is the timeshifted version of <Concentrate>.</Rulings>
+<Rulings>2007/02/01: This is the timeshifted version of Concentrate.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1349,6 +1347,7 @@ Put a -0/-1 counter on Wall of Roots: Add {G} to your mana pool. Activate this a
 <Flavor>Sometimes the wise ones wove their magic into living plants; as the plant grew, so grew the magic.</Flavor>
 <Artist>John Matson</Artist>
 <Multiverseid>220566</Multiverseid>
+<Rulings>2017/11/17: If you must sacrifice a creature to pay a casting or activation cost that also includes mana, such as that of Bubbling Cauldron's abilities, you may put a -0/-1 counter on <Wall of Roots> to make its toughness 0 and then sacrifice it to pay that cost.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2033,13 +2032,12 @@ Everflowing Chalice enters the battlefield with a charge counter on it for each 
 <Name>Juggernaut</Name>
 <Type>Artifact Creature — Juggernaut 5/3</Type>
 <ManaCost>4 (4)</ManaCost>
-<CardText>Juggernaut attacks each turn if able.
+<CardText>Juggernaut attacks each combat if able.
 Juggernaut can't be blocked by Walls.</CardText>
 <Flavor>Built with neither a way to steer nor a way to stop, the juggernauts were simply aimed at an enemy's best defenses and told to charge.</Flavor>
 <Artist>Arnie Swekel</Artist>
 <Multiverseid>220484</Multiverseid>
-<Rulings>2016/06/08: If, during your declare attackers step, <Juggernaut> is tapped, is affected by a spell or ability that says it can't attack, or you haven't controlled it continuously since the beginning of your turn, then it doesn't attack. If there's a cost associated with having <Juggernaut> attack, you aren't forced to pay that cost, so it doesn't have to attack in that case either.
-2016/06/08: If there are multiple combat phases in a turn, <Juggernaut> must attack only in the first one in which it's able to.</Rulings>
+<Rulings>2016/06/08: If, during your declare attackers step, <Juggernaut> is tapped, is affected by a spell or ability that says it can't attack, or you haven't controlled it continuously since the beginning of your turn, then it doesn't attack. If there's a cost associated with having <Juggernaut> attack, you aren't forced to pay that cost, so it doesn't have to attack in that case either.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2073,7 +2071,7 @@ Equip {0}</CardText>
 <Type>Artifact Creature — Golem 5/3</Type>
 <ManaCost>4 (4)</ManaCost>
 <CardText>Nonartifact spells cost {1} more to cast.</CardText>
-<Flavor>"Somehow it warps the Aether. It brings a strange weight, a blockade in the flow of spellcraft."
+<Flavor>"Somehow it warps the Æther. It brings a strange weight, a blockade in the flow of spellcraft."
 —Noyan Dar, Tazeem lullmage</Flavor>
 <Artist>Chris Rahn</Artist>
 <Multiverseid>220536</Multiverseid>

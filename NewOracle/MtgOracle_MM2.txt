@@ -71,7 +71,7 @@ When Emrakul is put into a graveyard from anywhere, its owner shuffles his or he
 <SetId>MM2</SetId>
 <No>4</No>
 <Name>Karn Liberated</Name>
-<Type>Planeswalker — Karn (Loyalty: 6)</Type>
+<Type>Legendary Planeswalker — Karn (Loyalty: 6)</Type>
 <ManaCost>7 (7)</ManaCost>
 <CardText>+4: Target player exiles a card from his or her hand.
 -3: Exile target permanent.
@@ -153,7 +153,7 @@ When Ulamog is put into a graveyard from anywhere, its owner shuffles his or her
 <Type>Creature — Eldrazi 8/8</Type>
 <ManaCost>8 (8)</ManaCost>
 <CardText>Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)
-Ulamog's Crusher attacks each turn if able.</CardText>
+Ulamog's Crusher attacks each combat if able.</CardText>
 <Flavor>"Whatever the Eldrazi's purpose is, it has nothing to do with something so insignificant as us."
 —Nirthu, lone missionary</Flavor>
 <Artist>Todd Lockwood</Artist>
@@ -161,8 +161,7 @@ Ulamog's Crusher attacks each turn if able.</CardText>
 <Rulings>2010/06/15: Annihilator abilities trigger and resolve during the declare attackers step. The defending player chooses and sacrifices the required number of permanents before he or she declares blockers. Any creatures sacrificed this way won't be able to block.
 2010/06/15: If a creature with annihilator is attacking a planeswalker, and the defending player chooses to sacrifice that planeswalker, the attacking creature continues to attack. It may be blocked. If it isn't blocked, it simply won't deal combat damage to anything.
 2010/06/15: In a Two-Headed Giant game, the controller of an attacking creature with annihilator chooses which of the defending players is affected by the ability. Only that player sacrifices permanents. The choice is made as the ability resolves; once a player is chosen, it's too late for anyone to respond.
-2010/06/15: If, during your declare attackers step, <Ulamog's Crusher> is tapped, is affected by a spell or ability that says it can't attack, or is affected by "summoning sickness," then it doesn't attack. If there's a cost associated with having <Ulamog's Crusher> attack, you aren't forced to pay that cost, so it doesn't have to attack in that case either.
-2010/06/15: If there are multiple combat phases in a turn, <Ulamog's Crusher> must attack only in the first one in which it's able to.</Rulings>
+2010/06/15: If, during your declare attackers step, <Ulamog's Crusher> is tapped, is affected by a spell or ability that says it can't attack, or is affected by "summoning sickness," then it doesn't attack. If there's a cost associated with having <Ulamog's Crusher> attack, you aren't forced to pay that cost, so it doesn't have to attack in that case either.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -311,7 +310,7 @@ Enchanted creature gets +3/+3 and has first strike, vigilance, and lifelink. (Da
 <Artist>Johannes Voss</Artist>
 <Multiverseid>397798</Multiverseid>
 <Rulings>2007/05/01: If all other Auras attached to the enchanted creature stop enchanting it, <Daybreak Coronet> will be attached to an illegal permanent and will be put into its owner's graveyard.
-2007/05/01: Because <Retether> returns all Auras to the battlefield at the same time, it won't let you attach <Daybreak Coronet> to a creature unless that creature is already enchanted.</Rulings>
+2007/05/01: Because Retether returns all Auras to the battlefield at the same time, it won't let you attach <Daybreak Coronet> to a creature unless that creature is already enchanted.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -350,7 +349,7 @@ Creatures your opponents control get -2/-2.</CardText>
 <Flavor>"The Gitaxians whisper among themselves of other worlds. If they exist, we must bring Phyrexia's magnificence to them."</Flavor>
 <Artist>Igor Kieryluk</Artist>
 <Multiverseid>397880</Multiverseid>
-<Rulings>2013/07/01: If more than one <Elesh Norn, Grand Cenobite> is under your control, all of their static abilities will briefly apply. Any creatures that have 0 or less toughness and any creatures that now have lethal damage marked on them will be put into graveyards at the same time that the "legend rule" causes all but one of the Elesh Norns to be put into their owners' graveyards.</Rulings>
+<Rulings>2017/11/17: If a second <Elesh Norn, Grand Cenobite> comes under your control, you'll put one into its owner's graveyard due to the "legend rule" at the same time that any of your opponents' creatures getting -4/-4 are put into their owner's graveyard for having 0 or less toughness.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -694,7 +693,7 @@ When Oblivion Ring leaves the battlefield, return the exiled card to the battlef
 —Orim, Samite inquisitor</Flavor>
 <Artist>Volkan Baga</Artist>
 <Multiverseid>397862</Multiverseid>
-<Rulings>2007/02/01: This is the timeshifted version of <Strafe>.</Rulings>
+<Rulings>2007/02/01: This is the timeshifted version of Strafe.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -861,8 +860,8 @@ Cloud Elemental can block only creatures with flying.</CardText>
 • Draw a card.</CardText>
 <Artist>Wayne England</Artist>
 <Multiverseid>397793</Multiverseid>
-<Rulings>2013/06/07: You choose both modes as you cast <Cryptic Command>. You must choose two different modes.
-2013/06/07: Look at both chosen modes to determine how many targets <Cryptic Command> has, if any. If it has at least one target, and all its targets are illegal when it tries to resolve, then it will be countered and none of its effects will happen. For example, if you choose the second and fourth modes, and the permanent is an illegal target when <Cryptic Command> tries to resolve, you won't draw a card.</Rulings>
+<Rulings>2017/11/17: You choose both modes as you cast <Cryptic Command>. You must choose two different modes.
+2017/11/17: Look at both chosen modes to determine how many targets <Cryptic Command> has, if any. If it has at least one target, and all its targets are illegal when it tries to resolve, then it will be countered and none of its effects will happen. For example, if you choose the second and fourth modes, and the permanent is an illegal target when <Cryptic Command> tries to resolve, you won't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -922,7 +921,7 @@ When Guile is put into a graveyard from anywhere, shuffle it into its owner's li
 2007/10/01: If a spell or ability you control attempts to counter a spell that can't be countered, it doesn't. Since the spell wouldn't be countered, <Guile>'s ability has no effect on it. The spell will continue to resolve normally.
 2007/10/01: The last ability triggers when the Incarnation is put into its owner's graveyard from any zone, not just from on the battlefield.
 2007/10/01: Although this ability triggers when the Incarnation is put into a graveyard from the battlefield, it doesn't *specifically* trigger on leaving the battlefield, so it doesn't behave like other leaves-the-battlefield abilities. The ability will trigger from the graveyard.
-2007/10/01: If the Incarnation had lost this ability while on the battlefield (due to <Lignify>, for example) and then was destroyed, the ability would still trigger and it would get shuffled into its owner's library. However, if the Incarnation lost this ability when it was put into the graveyard (due to <Yixlid Jailer>, for example), the ability wouldn't trigger and the Incarnation would remain in the graveyard.
+2007/10/01: If the Incarnation had lost this ability while on the battlefield (due to Lignify, for example) and then was destroyed, the ability would still trigger and it would get shuffled into its owner's library. However, if the Incarnation lost this ability when it was put into the graveyard (due to Yixlid Jailer, for example), the ability wouldn't trigger and the Incarnation would remain in the graveyard.
 2007/10/01: If the Incarnation is removed from the graveyard after the ability triggers but before it resolves, it will remain in its new zone when its owner shuffles his or her library. Similarly, if a replacement effect has the Incarnation move to a different zone instead of being put into the graveyard, the ability won't trigger at all.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1226,7 +1225,7 @@ Whenever Surrakar Spellblade deals combat damage to a player, you may draw X car
 <SetId>MM2</SetId>
 <No>62</No>
 <Name>Tezzeret the Seeker</Name>
-<Type>Planeswalker — Tezzeret (Loyalty: 4)</Type>
+<Type>Legendary Planeswalker — Tezzeret (Loyalty: 4)</Type>
 <ManaCost>3UU (5)</ManaCost>
 <CardText>+1: Untap up to two target artifacts.
 -X: Search your library for an artifact card with converted mana cost X or less and put it onto the battlefield. Then shuffle your library.
@@ -2107,7 +2106,7 @@ First strike (This creature deals combat damage before creatures without first s
 <Flavor>Blood, bone, and sinew are magnified, as is the rage that drives them. The brain, however, remains unchanged—a little bean, swinging by a strand in a cavernous, raving head.</Flavor>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>397729</Multiverseid>
-<Rulings>2007/02/01: This is the timeshifted version of <Giant Growth>.</Rulings>
+<Rulings>2007/02/01: This is the timeshifted version of Giant Growth.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2344,7 +2343,7 @@ Whenever Hellkite Charger attacks, you may pay {5}{R}{R}. If you do, untap all a
 <Artist>Scott Hampton</Artist>
 <Multiverseid>397884</Multiverseid>
 <Rulings>2007/10/01: Counts resolutions, not activations. Any such abilities that are still on the stack won't count toward the total.
-2007/10/01: When the ability resolves, it counts the number of times that same ability from that this creature has already resolved that turn. It doesn't matter who controlled the creature or the previous abilities when they resolved. A copy of this ability (created by <Rings of Brighthearth>, for example) will count toward the total. Abilities from other creatures with the same name don't count towards the total. Neither does an ability that's been countered.
+2007/10/01: When the ability resolves, it counts the number of times that same ability from that this creature has already resolved that turn. It doesn't matter who controlled the creature or the previous abilities when they resolved. A copy of this ability (created by Rings of Brighthearth, for example) will count toward the total. Abilities from other creatures with the same name don't count towards the total. Neither does an ability that's been countered.
 2007/10/01: You get the bonus only the third time the ability resolves. You won't get the bonus the fourth, fifth, sixth, or any subsequent times.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2363,8 +2362,11 @@ Whenever Hellkite Charger attacks, you may pay {5}{R}{R}. If you do, untap all a
 {T}: Create a token that's a copy of target nonlegendary creature you control. That token has haste. Sacrifice it at the beginning of the next end step.</CardText>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>397698</Multiverseid>
-<Rulings>2013/06/07: As the token is created, it checks the printed values of the creature it's copying — or, if that creature is itself a token, the original characteristics of that token as stated by the effect that put it onto the battlefield — as well as any copy effects that have been applied to it. It won't copy counters on the creature, nor will it copy other effects that have changed the creature's power, toughness, types, color, or so on.
-2013/06/07: Haste is part of the token's copiable values. Copies of that token will also have haste.</Rulings>
+<Rulings>2017/11/17: The token copies exactly what was printed on the creature and nothing else (unless that creature was copying something else or was a token; see below). It doesn't copy whether that creature was tapped or untapped, whether it had any counters on it or Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on.
+2017/11/17: If the copied creature had {X} in its mana cost, X is 0.
+2017/11/17: If the copied creature was copying something else, the tokens enter the battlefield as whatever that creature was copying.
+2017/11/17: If the copied creature is a token, the tokens created by Kiki-Jiki's ability copies the original characteristics of that token as stated by the effect that put it onto the battlefield.
+2017/11/17: Any enters-the-battlefield abilities of the copied creature will trigger when the tokens enter the battlefield. Any "As [this creature] enters the battlefield" or "[This creature] enters the battlefield with" abilities of the copied creature will also work.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2458,7 +2460,7 @@ Flying
 <Multiverseid>397730</Multiverseid>
 <Rulings>2007/10/01: <Soulbright Flamekin>'s ability uses the stack and can be responded to. It's not a mana ability because it has a target.
 2007/10/01: Counts resolutions, not activations. Any such abilities that are still on the stack won't count toward the total.
-2007/10/01: When the ability resolves, it counts the number of times that same ability from that this creature has already resolved that turn. It doesn't matter who controlled the creature or the previous abilities when they resolved. A copy of this ability (created by <Rings of Brighthearth>, for example) will count toward the total. Abilities from other creatures with the same name don't count towards the total. Neither does an ability that's been countered.
+2007/10/01: When the ability resolves, it counts the number of times that same ability from that this creature has already resolved that turn. It doesn't matter who controlled the creature or the previous abilities when they resolved. A copy of this ability (created by Rings of Brighthearth, for example) will count toward the total. Abilities from other creatures with the same name don't count towards the total. Neither does an ability that's been countered.
 2007/10/01: You get the bonus only the third time the ability resolves. You won't get the bonus the fourth, fifth, sixth, or any subsequent times.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3054,7 +3056,7 @@ Whenever Primeval Titan enters the battlefield or attacks, you may search your l
 <Flavor>When nature calls, run.</Flavor>
 <Artist>Aleksi Briclot</Artist>
 <Multiverseid>397688</Multiverseid>
-<Rulings>2010/08/15: You may find any land cards, not just basic land cards.</Rulings>
+<Rulings>2017/11/17: You may find any land cards, not just basic land cards.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3404,7 +3406,9 @@ Draw a card.</CardText>
 <Flavor>The Izzet learn something from every lesson they teach.</Flavor>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Multiverseid>397832</Multiverseid>
-<Rulings>2006/02/01: If all chosen targets are illegal as <Electrolyze> tries to resolve, it will be countered and none of its effects will happen. No damage will be dealt and you won't draw a card.</Rulings>
+<Rulings>2017/11/17: You divide the damage as you cast <Electrolyze>, not as it resolves. Each target must be assigned at least 1 damage. In other words, as you cast <Electrolyze>, you choose whether to have it deal 2 damage to a single target, or deal 1 damage to each of two targets.
+2017/11/17: If <Electrolyze> targets two creatures and one becomes an illegal target, the remaining target is dealt 1 damage, not 2. You'll still draw a card.
+2017/11/17: If all chosen targets are illegal as <Electrolyze> tries to resolve, it will be countered and none of its effects will happen. No damage will be dealt and you won't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4247,7 +4251,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <Type>Artifact Creature — Golem 5/3</Type>
 <ManaCost>4 (4)</ManaCost>
 <CardText>Nonartifact spells cost {1} more to cast.</CardText>
-<Flavor>"Somehow it warps the Aether. It brings a strange weight, a blockade in the flow of spellcraft."
+<Flavor>"Somehow it warps the Æther. It brings a strange weight, a blockade in the flow of spellcraft."
 —Noyan Dar, Tazeem lullmage</Flavor>
 <Artist>Chris Rahn</Artist>
 <Multiverseid>397736</Multiverseid>
@@ -4664,7 +4668,7 @@ When Dimir Aqueduct enters the battlefield, return a land you control to its own
 <No>241</No>
 <Name>Evolving Wilds</Name>
 <Type>Land</Type>
-<CardText>{T}, Sacrifice Evolving Wilds: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.</CardText>
+<CardText>{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.</CardText>
 <Flavor>Every world is an organism, able to grow new lands. Some just do it faster than others.</Flavor>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>397871</Multiverseid>

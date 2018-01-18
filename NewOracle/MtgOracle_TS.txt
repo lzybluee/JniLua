@@ -753,8 +753,7 @@ All Slivers have "If this permanent would be put into a graveyard, you may put i
 Each player chooses a number of lands he or she controls equal to the number of lands controlled by the player who controls the fewest, then sacrifices the rest. Players sacrifice creatures and discard cards the same way.</CardText>
 <Artist>Mark Poole</Artist>
 <Multiverseid>113520</Multiverseid>
-<Rulings>2006/10/15: This has no mana cost, which means it can't normally be cast as a spell. You could, however, cast it via some alternate means, like with <Fist of Suns> or <Mind's Desire>.
-2013/06/07: You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage's effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time.
+<Rulings>2013/06/07: You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage's effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time.
 2013/06/07: Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
 2013/06/07: If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
 2013/06/07: If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again during the card's owner's next upkeep.
@@ -957,8 +956,7 @@ Whenever Zealot il-Vec attacks and isn't blocked, you may have it deal 1 damage 
 Target player draws three cards.</CardText>
 <Artist>Mark Poole</Artist>
 <Multiverseid>113505</Multiverseid>
-<Rulings>2006/10/15: This has no mana cost, which means it can't normally be cast as a spell. You could, however, cast it via some alternate means, like with <Fist of Suns> or <Mind's Desire>.
-2013/06/07: You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage's effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time.
+<Rulings>2013/06/07: You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage's effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time.
 2013/06/07: Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
 2013/06/07: If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
 2013/06/07: If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again during the card's owner's next upkeep.
@@ -989,6 +987,7 @@ Draw a card.</CardText>
 —Jhoira, master artificer</Flavor>
 <Artist>Ralph Horsley</Artist>
 <Multiverseid>118901</Multiverseid>
+<Rulings>2017/11/17: If the creature is an illegal target when <Bewilder> tries to resolve, it will be countered and none of its effects will happen. You won't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1661,11 +1660,10 @@ Each opponent can cast spells only any time he or she could cast a sorcery.</Car
 <Flavor>To save this plane, he must forsake all others.</Flavor>
 <Artist>D. Alexander Gregory & Jeremy Jarvis</Artist>
 <Multiverseid>121271</Multiverseid>
-<Rulings>2006/09/25: The last ability means that in order for an opponent to cast a spell, it must be that opponent's turn, during a main phase, and the stack must be empty. This is true even if the player doesn't have a sorcery he or she is able to cast, or if a rule or effect allows a spell to be cast at another time.
-2006/09/25: If you have Teferi on the battlefield, you may exile creature cards in your hand with suspend any time you could cast an instant.
-2006/09/25: If an ability lets an opponent cast a spell as part of its effect (such as Isochron Scepter's ability does), that opponent can't cast that spell since the currently resolving ability is still on the stack.
-2006/09/25: Your opponents can't cast their suspended cards, no matter what phase it is when the last time counter is removed. Your opponents can't cast cards using the madness ability either, no matter what phase it is when the card is discarded.
-2007/05/01: If you have Teferi on the battlefield and there's a Split Second spell on the stack (such as <Sudden Death>), you can't Suspend creatures until after the Split Second spell resolves.</Rulings>
+<Rulings>2007/05/01: If you have Teferi on the battlefield and there's a Split Second spell on the stack (such as Sudden Death), you can't Suspend creatures until after the Split Second spell resolves.
+2017/11/17: Teferi's last ability means that in order for an opponent to cast a spell, it must be that opponent's turn, during a main phase, and the stack must be empty. This is true even if the player doesn't have a sorcery he or she is able to cast, or if a rule or effect allows a sorcery to be cast at another time.
+2017/11/17: If you have Teferi on the battlefield, you may exile creature cards in your hand with suspend any time you could cast an instant.
+2017/11/17: If a spell or ability lets an opponent cast a card as part of its effect (such as suspend and rebound do), that opponent can't cast that card since the currently resolving ability is still on the stack. This is true even if that card is an instant.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2303,7 +2301,6 @@ Each player exiles all creature cards from his or her graveyard, then sacrifices
 <Artist>Greg Staples</Artist>
 <Multiverseid>113521</Multiverseid>
 <Rulings>2006/09/25: "All cards he or she exiled this way" refers only to the cards exiled in the first part of the effect. If a replacement effect (such as Leyline of the Void) exiles any of the sacrificed creatures instead of putting them into the graveyard, those cards aren't returned to the battlefield.
-2006/10/15: This has no mana cost, which means it can't normally be cast as a spell. You could, however, cast it via some alternate means, like with <Fist of Suns> or <Mind's Desire>.
 2013/06/07: You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage's effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time.
 2013/06/07: Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
 2013/06/07: If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
@@ -2573,7 +2570,7 @@ Madness {1}{B} (If you discard this card, discard it into exile. When you do, ca
 <Artist>Scott M. Fischer</Artist>
 <Multiverseid>116383</Multiverseid>
 <Rulings>2006/09/25: The <Sengir Nosferatu> that the Bat token's ability returns to the battlefield doesn't have to be the same one that created it, and it doesn't even have to be owned by the same player.
-2007/05/01: If the Nosferatu is copied (by <Clone>, for example) and then the copy is exiled by the first activated ability, it won't be able to come back using the second activated ability, since it's no longer named <Sengir Nosferatu> in the Exile zone.</Rulings>
+2007/05/01: If the Nosferatu is copied (by Clone, for example) and then the copy is exiled by the first activated ability, it won't be able to come back using the second activated ability, since it's no longer named <Sengir Nosferatu> in the Exile zone.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2844,8 +2841,8 @@ Aetherflame Wall can block creatures with shadow as though they didn't have shad
 {R}: Aetherflame Wall gets +1/+0 until end of turn.</CardText>
 <Artist>Justin Sweet</Artist>
 <Multiverseid>113558</Multiverseid>
-<Rulings>2006/09/25: Aetherflame Wall can block creatures with shadow and creatures without shadow.
-2006/09/25: If Aetherflame Wall gains shadow, it won't be able to block any creatures (not even those with shadow).</Rulings>
+<Rulings>2006/09/25: <Aetherflame Wall> can block creatures with shadow and creatures without shadow.
+2006/09/25: If <Aetherflame Wall> gains shadow, it won't be able to block any creatures (not even those with shadow).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2937,7 +2934,9 @@ Flying
 When Bogardan Hellkite enters the battlefield, it deals 5 damage divided as you choose among any number of target creatures and/or players.</CardText>
 <Artist>Scott M. Fischer</Artist>
 <Multiverseid>111041</Multiverseid>
-<Rulings>2009/10/01: The number of targets chosen for the enters-the-battlefield ability must be at least 1 and at most 5. You divide the damage as you put the ability on the stack, not as it resolves. Each target must be assigned at least 1 damage.</Rulings>
+<Rulings>2017/11/17: You choose how many targets <Bogardan Hellkite>'s triggered ability has and how the damage is divided as you put the ability onto the stack. Each target must receive at least 1 damage.
+2017/11/17: You can't deal damage with <Bogardan Hellkite>'s triggered ability to both a player and a planeswalker that player controls. You also can't deal damage to more than one planeswalker controlled by the same player. If you choose to redirect the damage being dealt to a player to a planeswalker, you must redirect all the damage to a single planeswalker.
+2017/11/17: If some of the creatures or players are illegal targets as <Bogardan Hellkite>'s triggered ability tries to resolve, the original division of damage still applies and the damage that would have been dealt to the illegal targets is lost. It won't be dealt instead to a legal target.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3632,7 +3631,7 @@ Sudden Shock deals 2 damage to target creature or player.</CardText>
 <Type>Creature — Elemental 7/7</Type>
 <ManaCost>4RR (6)</ManaCost>
 <CardText>Echo {4}{R}{R} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
-Tectonic Fiend attacks each turn if able.</CardText>
+Tectonic Fiend attacks each combat if able.</CardText>
 <Flavor>The barbarians of Pardia are long dead, but its mountains still smolder with rage.</Flavor>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>113616</Multiverseid>
@@ -3753,8 +3752,7 @@ Storm (When you cast this spell, copy it for each spell cast before it this turn
 Each player discards his or her hand, then draws seven cards.</CardText>
 <Artist>Kev Walker</Artist>
 <Multiverseid>113528</Multiverseid>
-<Rulings>2006/10/15: This has no mana cost, which means it can't normally be cast as a spell. You could, however, cast it via some alternate means, like with <Fist of Suns> or <Mind's Desire>.
-2013/06/07: You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage's effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time.
+<Rulings>2013/06/07: You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage's effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time.
 2013/06/07: Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
 2013/06/07: If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
 2013/06/07: If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again during the card's owner's next upkeep.
@@ -4035,7 +4033,6 @@ Starting with you, each player may put an artifact, creature, enchantment, or la
 <Artist>Ron Spears</Artist>
 <Multiverseid>113533</Multiverseid>
 <Rulings>2006/09/25: In a game of N players, the process ends when all N players in sequence (starting with you) choose not to put a card onto the battlefield. It doesn't end the first time a player chooses not to put a card onto the battlefield. If a player chooses not to put a card onto the battlefield but the process continues, that player may put a card onto the battlefield the next time the process gets around to him or her.
-2006/10/15: This has no mana cost, which means it can't normally be cast as a spell. You could, however, cast it via some alternate means, like with <Fist of Suns> or <Mind's Desire>.
 2006/10/15: Anything that triggers during the resolution of this will wait to be put on the stack until everything is put onto the battlefield and resolution is complete. The player whose turn it is will put all of his or her triggered abilities on the stack in any order, then each other player in turn order will do the same. (The last ability put on the stack will be the first one that resolves.)
 2013/06/07: You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage's effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time.
 2013/06/07: Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
@@ -4329,7 +4326,7 @@ Return a Forest you control to its owner's hand: Untap target creature. Activate
 <Name>Search for Tomorrow</Name>
 <Type>Sorcery</Type>
 <ManaCost>2G (3)</ManaCost>
-<CardText>Search your library for a basic land card and put it onto the battlefield. Then shuffle your library.
+<CardText>Search your library for a basic land card, put it onto the battlefield, then shuffle your library.
 Suspend 2—{G} (Rather than cast this card from your hand, you may pay {G} and exile it with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)</CardText>
 <Artist>Randy Gallegos</Artist>
 <Multiverseid>108802</Multiverseid>
@@ -4362,7 +4359,7 @@ Whenever Spectral Force attacks, if defending player controls no black permanent
 —Uros, Pendelhaven elder</Flavor>
 <Artist>Dan Scott</Artist>
 <Multiverseid>118871</Multiverseid>
-<Rulings>2007/05/01: "Your next untap..." refers to the player who controls <Spectral Force> when the triggered ability resolves. That means if it's temporarily stolen (such as with <Word of Seizing>) and attacked with, it will untap in its previous controller's untap step.</Rulings>
+<Rulings>2007/05/01: "Your next untap..." refers to the player who controls <Spectral Force> when the triggered ability resolves. That means if it's temporarily stolen (such as with Word of Seizing) and attacked with, it will untap in its previous controller's untap step.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -5111,7 +5108,7 @@ Whenever a basic land is tapped for mana of the chosen color, its controller add
 <Artist>Dave Allsop</Artist>
 <Multiverseid>116387</Multiverseid>
 <Rulings>2006/09/25: If a creature is already a Sliver, <Hivestone> has no effect on it.
-2006/10/15: Turns only your creatures on the battlefield, not in other zones, into Slivers. It won't allow you to have <Root Sliver> on the battlefield and make your Grizzly Bears uncounterable, for example.</Rulings>
+2006/10/15: Turns only your creatures on the battlefield, not in other zones, into Slivers. It won't allow you to have Root Sliver on the battlefield and make your Grizzly Bears uncounterable, for example.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -5164,8 +5161,7 @@ Whenever a basic land is tapped for mana of the chosen color, its controller add
 {T}, Sacrifice Lotus Bloom: Add three mana of any one color to your mana pool.</CardText>
 <Artist>Mark Zug</Artist>
 <Multiverseid>114904</Multiverseid>
-<Rulings>2006/10/15: This has no mana cost, which means it can't normally be cast as a spell. You could, however, cast it via some alternate means, like with <Fist of Suns> or <Mind's Desire>.
-2013/06/07: You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage's effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time.
+<Rulings>2013/06/07: You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage's effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time.
 2013/06/07: Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
 2013/06/07: If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
 2013/06/07: If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again during the card's owner's next upkeep.
@@ -5567,7 +5563,7 @@ When Flagstones of Trokair is put into a graveyard from the battlefield, you may
 <Multiverseid>113543</Multiverseid>
 <Rulings>2006/09/25: <Vesuva> has no intrinsic mana abilities.
 2006/09/25: If you don't choose a land on the battlefield, <Vesuva> enters the battlefield untapped as itself.
-2006/10/15: <Cornered Market> won't prevent <Vesuva> from being played (unless there's a <Vesuva> on the battlefield copying nothing), since you play it before it becomes named something else.</Rulings>
+2006/10/15: Cornered Market won't prevent <Vesuva> from being played (unless there's a <Vesuva> on the battlefield copying nothing), since you play it before it becomes named something else.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

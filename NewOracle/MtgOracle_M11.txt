@@ -2,7 +2,7 @@
 <SetId>M11</SetId>
 <No>1</No>
 <Name>Ajani Goldmane</Name>
-<Type>Planeswalker — Ajani (Loyalty: 4)</Type>
+<Type>Legendary Planeswalker — Ajani (Loyalty: 4)</Type>
 <ManaCost>2WW (4)</ManaCost>
 <CardText>+1: You gain 2 life.
 -1: Put a +1/+1 counter on each creature you control. Those creatures gain vigilance until end of turn.
@@ -47,8 +47,10 @@
 —Jazal Goldmane</Flavor>
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>205065</Multiverseid>
-<Rulings>2014/07/18: The ability triggers just once for each life-gaining event, whether it's 1 life from Soulmender or 8 life from Meditation Puzzle.
-2014/07/18: A creature with lifelink dealing combat damage is a single life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, <Ajani's Pridemate>'s ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.</Rulings>
+<Rulings>2017/11/17: The ability of <Ajani's Pridemate> triggers just once for each life-gaining event, whether it's 1 life from Auriok Champion or 6 life from Tavern Swindler.
+2017/11/17: If <Ajani's Pridemate> is dealt lethal damage at the same time that you gain life, it won't receive a counter from its ability in time to save it.
+2017/11/17: Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, <Ajani's Pridemate>'s ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+2017/11/17: In a Two-Headed Giant game, life gained by your teammate won't cause the ability to trigger, even though it causes your team's life total to increase.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -516,7 +518,8 @@ Vigilance (Attacking doesn't cause this creature to tap.)</CardText>
 As long as you have 30 or more life, Serra Ascendant gets +5/+5 and has flying.</CardText>
 <Artist>Anthony Palumbo</Artist>
 <Multiverseid>204989</Multiverseid>
-<Rulings>2010/08/15: In a Two-Headed Giant game, anything that cares about your life total checks your team's life total. <Serra Ascendant> gets +5/+5 and has flying as long as your team has 30 or more life.</Rulings>
+<Rulings>2017/11/17: If <Serra Ascendant> is dealt damage at the same time that you gain life (most likely because it dealt combat damage to a creature blocking or blocked by it), and your life total becomes 30 or greater, apply its last effect before considering whether or not the damage dealt to it is lethal.
+2017/11/17: In a Two-Headed Giant game, anything that cares about your life total checks your team's life total. <Serra Ascendant> gets +5/+5 and has flying as long as your team has 30 or more life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -709,7 +712,6 @@ Whenever Sun Titan enters the battlefield or attacks, you may return target perm
 <Flavor>"Let nothing take away from the purity of swords clashing or of arrows taking flight toward the breast of evil."</Flavor>
 <Artist>Izzy</Artist>
 <Multiverseid>208274</Multiverseid>
-<Rulings>2010/08/15: Unlike Manic Vandal's ability, <War Priest of Thune>'s ability is not mandatory. If you're the only player who controls an enchantment, you must target one of them, but you don't have to destroy it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -761,7 +763,7 @@ Protection from black (This creature can't be blocked, targeted, dealt damage, o
 <Flavor>Some mages do their best work in solitude. Others do their best work creating it.</Flavor>
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>205020</Multiverseid>
-<Rulings>2010/08/15: If there are no other creatures on the battlefield when Aether Adept enters the battlefield, it must target itself.</Rulings>
+<Rulings>2010/08/15: If there are no other creatures on the battlefield when <Aether Adept> enters the battlefield, it must target itself.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -804,8 +806,7 @@ Be stopp'd against the song! 'tis death to hear!"
 <Multiverseid>205073</Multiverseid>
 <Rulings>2009/10/01: After the ability resolves, the targeted creature attacks you only if it's able to do so as that turn's declare attackers step begins. If, at that time, the creature is tapped, is affected by a spell or ability that says it can't attack, or is affected by "summoning sickness," it can't attack. If there's a cost associated with having that creature attack, its controller isn't forced to pay that cost, so the creature doesn't have to attack in that case either.
 2009/10/01: If the targeted creature would be able to attack either you or a planeswalker you control, it must attack you, not the planeswalker.
-2009/10/01: Activating the ability during your opponent's turn after attackers have been declared will have no effect. The same is true if you activate the ability during your own turn.
-2011/09/22: If there are multiple combat phases in a turn, the creature must attack only in the first one in which it's able to.</Rulings>
+2009/10/01: Activating the ability during your opponent's turn after attackers have been declared will have no effect. The same is true if you activate the ability during your own turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -971,8 +972,8 @@ Whenever Conundrum Sphinx attacks, each player chooses a card name. Then each pl
 —Lewis Carroll, Alice's Adventures in Wonderland</Flavor>
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>208226</Multiverseid>
-<Rulings>2010/08/15: <Diminish> overwrites all previous effects that set the targeted creature's power and toughness to specific values. Other effects that set its power or toughness to specific values that start to apply after <Diminish> resolves will overwrite this effect.
-2010/08/15: Effects that modify the targeted creature's power or toughness, such as the effects of Giant Growth or Honor of the Pure, will apply to it no matter when they started to take effect. The same is true for counters that change the creature's power or toughness (such as +1/+1 counters) and effects that switch its power and toughness.</Rulings>
+<Rulings>2017/11/17: <Diminish> overwrites all previous effects that set the target creature's power and toughness to specific values. Other effects that set its power or toughness to specific values that start to apply after <Diminish> resolves will overwrite this effect.
+2017/11/17: Effects that modify the target creature's power or toughness, such as the effects of Elesh Norn, Grand Cenobite or prowess, will apply to it no matter when they started to take effect. The same is true for counters that change the creature's power or toughness (such as +1/+1 counters).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1080,7 +1081,7 @@ When enchanted creature becomes the target of a spell or ability, destroy Ice Ca
 <SetId>M11</SetId>
 <No>58</No>
 <Name>Jace Beleren</Name>
-<Type>Planeswalker — Jace (Loyalty: 3)</Type>
+<Type>Legendary Planeswalker — Jace (Loyalty: 3)</Type>
 <ManaCost>1UU (3)</ManaCost>
 <CardText>+2: Each player draws a card.
 -1: Target player draws a card.
@@ -1898,7 +1899,7 @@ If a card would be put into an opponent's graveyard from anywhere, exile it inst
 <SetId>M11</SetId>
 <No>102</No>
 <Name>Liliana Vess</Name>
-<Type>Planeswalker — Liliana (Loyalty: 5)</Type>
+<Type>Legendary Planeswalker — Liliana (Loyalty: 5)</Type>
 <ManaCost>3BB (5)</ManaCost>
 <CardText>+1: Target player discards a card.
 -2: Search your library for a card, then shuffle your library and put that card on top of it.
@@ -2322,12 +2323,11 @@ At the beginning of the end step, sacrifice Arc Runner.</CardText>
 <Name>Berserkers of Blood Ridge</Name>
 <Type>Creature — Human Berserker 4/4</Type>
 <ManaCost>4R (5)</ManaCost>
-<CardText>Berserkers of Blood Ridge attacks each turn if able.</CardText>
+<CardText>Berserkers of Blood Ridge attacks each combat if able.</CardText>
 <Flavor>They take a blood oath to die in battle. So far none have failed to fulfill the promise.</Flavor>
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>205053</Multiverseid>
-<Rulings>2010/08/15: If, during your declare attackers step, <Berserkers of Blood Ridge> is tapped, is affected by a spell or ability that says it can't attack, or is affected by "summoning sickness," then it doesn't attack. If there's a cost associated with having <Berserkers of Blood Ridge> attack, you aren't forced to pay that cost, so it doesn't have to attack in that case either.
-2010/08/15: If there are multiple combat phases in a turn, <Berserkers of Blood Ridge> must attack only in the first one in which it's able to.</Rulings>
+<Rulings>2010/08/15: If, during your declare attackers step, <Berserkers of Blood Ridge> is tapped, is affected by a spell or ability that says it can't attack, or is affected by "summoning sickness," then it doesn't attack. If there's a cost associated with having <Berserkers of Blood Ridge> attack, you aren't forced to pay that cost, so it doesn't have to attack in that case either.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2382,7 +2382,7 @@ At the beginning of the end step, sacrifice Arc Runner.</CardText>
 <SetId>M11</SetId>
 <No>127</No>
 <Name>Chandra Nalaar</Name>
-<Type>Planeswalker — Chandra (Loyalty: 6)</Type>
+<Type>Legendary Planeswalker — Chandra (Loyalty: 6)</Type>
 <ManaCost>3RR (5)</ManaCost>
 <CardText>+1: Chandra Nalaar deals 1 damage to target player.
 -X: Chandra Nalaar deals X damage to target creature.
@@ -2600,11 +2600,10 @@ Combust deals 5 damage to target white or blue creature. The damage can't be pre
 Fireball costs {1} more to cast for each target beyond the first.</CardText>
 <Artist>Dave Dorman</Artist>
 <Multiverseid>205223</Multiverseid>
-<Rulings>2004/12/01: The additional cost is paid when you pay the rest of <Fireball>'s costs, even though that text appears second on the card (to make the card easier to read). The additional cost doesn't count toward <Fireball>'s converted mana cost.
-2004/12/01: If, for example, X is 5 and you choose three target creatures, <Fireball> has a total cost of {7}{R} (even though its mana cost is just {5}{R}). If those creatures are all still legal targets as <Fireball> resolves, it deals 1 damage to each of them.
-2009/05/01: You may cast <Fireball> with zero targets, regardless of the value chosen for X. If you do so, it will not be a targeted spell, and no damage will actually be dealt when it resolves.
-2009/10/01: <Fireball>'s damage is divided as <Fireball> resolves, not as it's cast, because there are no choices involved. The division involves only targets that are still legal at that time.
-2009/10/01: You can target more than X creatures. However, if the number of legal targets at the time <Fireball> resolves is greater than X, none of them will be dealt any damage.</Rulings>
+<Rulings>2017/11/17: For example, if X is 5 and you choose three target creatures, <Fireball> has a total cost of {7}{R} (even though its mana cost is just {5}{R} and its converted mana cost is 6). If those creatures are all still legal targets as <Fireball> resolves, it deals 1 damage to each of them.
+2017/11/17: You may cast <Fireball> with zero targets, regardless of the value chosen for X. If you do so, it will not be a targeted spell, and no damage will actually be dealt when it resolves.
+2017/11/17: <Fireball>'s damage is divided as <Fireball> resolves, not as it's cast, because there are no choices involved. The division involves only targets that are still legal as <Fireball> resolves.
+2017/11/17: You can target more than X creatures. However, if the number of legal targets at the time <Fireball> resolves is greater than X, none of them will be dealt any damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2644,7 +2643,7 @@ Fling deals damage equal to the sacrificed creature's power to target creature o
 <Flavor>"The enemy is getting too close! Quick! Inflate the toad!"</Flavor>
 <Artist>Lars Grant-West</Artist>
 <Multiverseid>208010</Multiverseid>
-<Rulings>2008/08/01: You can activate the ability repeatedly during a turn. This generally has no additional effect, unless some other effect (like that from <Adarkar Windform> has caused it to lose flying since the last time the ability resolved.
+<Rulings>2008/08/01: You can activate the ability repeatedly during a turn. This generally has no additional effect, unless some other effect (like that from Adarkar Windform has caused it to lose flying since the last time the ability resolved.
 2010/08/15: For flying to work as an evasion ability, an attacking <Goblin Balloon Brigade>'s ability must be activated before the declare blockers step begins. Once <Goblin Balloon Brigade> has become blocked, giving it flying won't change that.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2718,10 +2717,9 @@ When Hoarding Dragon enters the battlefield, you may search your library for an 
 When Hoarding Dragon dies, you may put the exiled card into its owner's hand.</CardText>
 <Artist>Matt Cavotta</Artist>
 <Multiverseid>205235</Multiverseid>
-<Rulings>2014/07/18: The artifact card you find is exiled face up. All players can see what it is.
-2014/07/18: If <Hoarding Dragon> is put into a graveyard before its first ability has resolved, its second ability will trigger and do nothing. Then its first ability will resolve. If you choose to find an artifact card from your library, it will be exiled for the rest of the game.
-2014/07/18: <Hoarding Dragon>'s two abilities are linked. The second ability refers only to the card exiled by that <Hoarding Dragon>'s first ability. In other words, each Dragon has its own hoard.
-2014/07/18: If <Hoarding Dragon> dies before its first ability resolves, its second ability will trigger and do nothing. Then its first ability will resolve. If you choose to exile an artifact card from your library, it will be exiled indefinitely.</Rulings>
+<Rulings>2017/11/17: The artifact card you find is exiled face up. All players can see what it is.
+2017/11/17: <Hoarding Dragon>'s two abilities are linked. The second ability refers only to the card exiled by that <Hoarding Dragon>'s first ability. In other words, each Dragon has its own hoard.
+2017/11/17: If <Hoarding Dragon> dies before its first ability resolves, its second ability will trigger and do nothing. Then its first ability will resolve. If you choose to exile an artifact card from your library, it will be exiled indefinitely.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2741,8 +2739,7 @@ When Hoarding Dragon dies, you may put the exiled card into its owner's hand.</C
 <Multiverseid>205045</Multiverseid>
 <Rulings>2010/08/15: <Incite> overwrites all of the targeted creature's old colors, leaving it just red. It doesn't matter what colors it used to be (even if, for example, it used to be red and green).
 2010/08/15: You may target any creature with <Incite>. It's okay if that creature is already red. It's also okay if it would be unable to attack that turn.
-2010/08/15: If, during its controller's declare attackers step, a creature affected by <Incite> is tapped, is affected by a spell or ability that says it can't attack, or is affected by "summoning sickness," then that creature doesn't attack. If there's a cost associated with having that creature attack, its controller isn't forced to pay that cost, so the creature doesn't have to attack in that case either.
-2010/08/15: If there are multiple combat phases in a turn, a creature affected by <Incite> must attack only in the first one in which it's able to.</Rulings>
+2010/08/15: If, during its controller's declare attackers step, a creature affected by <Incite> is tapped, is affected by a spell or ability that says it can't attack, or is affected by "summoning sickness," then that creature doesn't attack. If there's a cost associated with having that creature attack, its controller isn't forced to pay that cost, so the creature doesn't have to attack in that case either.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2875,7 +2872,7 @@ When Magma Phoenix dies, it deals 3 damage to each creature and each player.
 <Flavor>"What am I looking at? Ashes, dead man."</Flavor>
 <Artist>Jeremy Jarvis</Artist>
 <Multiverseid>205231</Multiverseid>
-<Rulings>2007/02/01: This is the timeshifted version of <Prodigal Sorcerer>.</Rulings>
+<Rulings>2007/02/01: This is the timeshifted version of Prodigal Sorcerer.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3278,7 +3275,6 @@ Enchanted creature has forestwalk. (It can't be blocked as long as defending pla
 —Lord Hilneth</Flavor>
 <Artist>John Avon</Artist>
 <Multiverseid>205064</Multiverseid>
-<Rulings>2009/10/01: <Fog> has no effect on damage that's already been dealt.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3312,7 +3308,7 @@ Gaea's Revenge can't be the target of nongreen spells or abilities from nongreen
 <SetId>M11</SetId>
 <No>175</No>
 <Name>Garruk Wildspeaker</Name>
-<Type>Planeswalker — Garruk (Loyalty: 3)</Type>
+<Type>Legendary Planeswalker — Garruk (Loyalty: 3)</Type>
 <ManaCost>2GG (4)</ManaCost>
 <CardText>+1: Untap two target lands.
 -1: Create a 3/3 green Beast creature token.
@@ -3549,8 +3545,8 @@ Whenever a creature enters the battlefield under your control, you may gain 1 li
 If a spell or ability an opponent controls causes you to discard Obstinate Baloth, put it onto the battlefield instead of putting it into your graveyard.</CardText>
 <Artist>Chris Rahn</Artist>
 <Multiverseid>205075</Multiverseid>
-<Rulings>2010/08/15: If a spell or ability an opponent controls causes you to discard <Obstinate Baloth>, and both <Obstinate Baloth>'s ability and another ability (such as the one from an opponent's Leyline of the Void) instruct you to put <Obstinate Baloth> somewhere else instead of putting it into your graveyard, you choose which one to apply.
-2010/08/15: If you discard <Obstinate Baloth> and wind up putting it onto the battlefield, you've still discarded it. Abilities that trigger when you discard a card (such as the one from Liliana's Caress) will still trigger.</Rulings>
+<Rulings>2017/11/17: If a spell or ability an opponent controls causes you to discard <Obstinate Baloth>, and both <Obstinate Baloth>'s ability and another ability (such as that of an opponent's Leyline of the Void) instruct you to put <Obstinate Baloth> somewhere else instead of putting it into your graveyard, you choose which one to apply.
+2017/11/17: If you discard <Obstinate Baloth> and put it onto the battlefield, you've still discarded it. Abilities that trigger when you discard a card (such as that of Raiders' Wake) will still trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3623,7 +3619,7 @@ Whenever Primeval Titan enters the battlefield or attacks, you may search your l
 <Flavor>When nature calls, run.</Flavor>
 <Artist>Aleksi Briclot</Artist>
 <Multiverseid>205027</Multiverseid>
-<Rulings>2010/08/15: You may find any land cards, not just basic land cards.</Rulings>
+<Rulings>2017/11/17: You may find any land cards, not just basic land cards.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3942,13 +3938,12 @@ Sacrifice a creature: Target opponent gains control of Jinxed Idol.</CardText>
 <Name>Juggernaut</Name>
 <Type>Artifact Creature — Juggernaut 5/3</Type>
 <ManaCost>4 (4)</ManaCost>
-<CardText>Juggernaut attacks each turn if able.
+<CardText>Juggernaut attacks each combat if able.
 Juggernaut can't be blocked by Walls.</CardText>
 <Flavor>The mighty city of An Karras, with its rich history, built over thousands of years, fell in three hours.</Flavor>
 <Artist>Mark Hyzer</Artist>
 <Multiverseid>205230</Multiverseid>
-<Rulings>2016/06/08: If, during your declare attackers step, <Juggernaut> is tapped, is affected by a spell or ability that says it can't attack, or you haven't controlled it continuously since the beginning of your turn, then it doesn't attack. If there's a cost associated with having <Juggernaut> attack, you aren't forced to pay that cost, so it doesn't have to attack in that case either.
-2016/06/08: If there are multiple combat phases in a turn, <Juggernaut> must attack only in the first one in which it's able to.</Rulings>
+<Rulings>2016/06/08: If, during your declare attackers step, <Juggernaut> is tapped, is affected by a spell or ability that says it can't attack, or you haven't controlled it continuously since the beginning of your turn, then it doesn't attack. If there's a cost associated with having <Juggernaut> attack, you aren't forced to pay that cost, so it doesn't have to attack in that case either.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

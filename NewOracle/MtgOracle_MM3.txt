@@ -368,6 +368,10 @@ Flying
 When Restoration Angel enters the battlefield, you may exile target non-Angel creature you control, then return that card to the battlefield under your control.</CardText>
 <Artist>Johannes Voss</Artist>
 <Multiverseid>425845</Multiverseid>
+<Rulings>2017/11/17: Once the exiled creature returns, it's considered a new object with no relation to the object that it was. Auras attached to the exiled creature will be put into their owners' graveyards. Equipment attached to the exiled creature will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist.
+2017/11/17: The returned creature won't be the target of any spells or abilities that targeted it before. Any spells that don't target it, such as Austere Command, will still affect it.
+2017/11/17: If you target a creature that you control but don't own, you control the returned creature indefinitely after it returns. When you leave a multiplayer game, exile any objects that you put onto the battlefield under your control but don't own.
+2017/11/17: If a token is exiled this way, it will cease to exist and won't return to the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1193,7 +1197,7 @@ Unearth {3}{B} ({3}{B}: Return this card from your graveyard to the battlefield.
 <CardText>Destroy all creatures. They can't be regenerated.</CardText>
 <Artist>Kev Walker</Artist>
 <Multiverseid>425888</Multiverseid>
-<Rulings>2007/02/01: This is the timeshifted version of <Wrath of God>.</Rulings>
+<Rulings>2007/02/01: This is the timeshifted version of Wrath of God.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1214,8 +1218,8 @@ Unearth {3}{B} ({3}{B}: Return this card from your graveyard to the battlefield.
 <Rulings>2017/03/14: <Death's Shadow>'s ability applies only while <Death's Shadow> is on the battlefield. In all other zones, its power and toughness are 13.
 2017/03/14: The value of X changes as you gain and lose life. It's not locked in as <Death's Shadow> enters the battlefield.
 2017/03/14: If your life total is 13 or greater and nothing else is boosting the toughness of <Death's Shadow>, it's put into its owner's graveyard as a state-based action.
-2017/03/14: If your life total is less than 0 and an effect (such as the one from an opponent's Abyssal Persecutor) is keeping you from losing the game, <Death's Shadow>'s ability will actually increase its power and toughness. For example, if your life total is -2, <Death's Shadow> gets +2/+2.
-2017/03/14: In a Two-Headed Giant game, your life total is your team's life total.</Rulings>
+2017/03/14: In a Two-Headed Giant game, your life total is your team's life total.
+2017/07/14: If your life total is negative, X is considered to be 0. (This is a change from previous rulings.)</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1385,8 +1389,8 @@ Pay 7 life: Draw seven cards.</CardText>
 <CardText>Destroy target nonartifact creature. Its controller puts a number of cards equal to that creature's power from the top of his or her library into his or her graveyard.</CardText>
 <Artist>Zoltan Boros</Artist>
 <Multiverseid>425898</Multiverseid>
-<Rulings>2017/03/14: Use the creature's power the last time it was on the battlefield to determine how many cards its controller puts into his or her graveyard.
-2017/03/14: If the creature is an illegal target when <Grisly Spectacle> tries to resolve, it will be countered and none of its effects will happen. The creature's controller won't put any cards into his or her graveyard.</Rulings>
+<Rulings>2017/11/17: Use the creature's power the last time it was on the battlefield to determine how many cards its controller puts into his or her graveyard.
+2017/11/17: If the creature is an illegal target when <Grisly Spectacle> tries to resolve, it will be countered and none of its effects will happen. The creature's controller won't put any cards into his or her graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1433,7 +1437,7 @@ Unearth {3}{B} ({3}{B}: Return this card from your graveyard to the battlefield.
 <SetId>MM3</SetId>
 <No>76</No>
 <Name>Liliana of the Veil</Name>
-<Type>Planeswalker — Liliana (Loyalty: 3)</Type>
+<Type>Legendary Planeswalker — Liliana (Loyalty: 3)</Type>
 <ManaCost>1BB (3)</ManaCost>
 <CardText>+1: Each player discards a card.
 -2: Target player sacrifices a creature.
@@ -1701,8 +1705,8 @@ Flashback {G} (You may cast this card from your graveyard for its flashback cost
 <Multiverseid>425915</Multiverseid>
 <Rulings>2017/03/14: Nonbasic lands will lose any other land types and abilities they had. They will gain the land type Mountain and gain the ability "{T}: Add {R} to your mana pool."
 2017/03/14: <Blood Moon>'s effect doesn't affect names or supertypes. It won't turn any land into a basic land or remove the legendary supertype from a legendary land, and the lands won't be named "Mountain."
-2017/03/14: If a nonbasic land has an ability that causes it to enter the battlefield tapped, that ability will still function. For example, if Blood Crypt is entering the battlefield, its controller may pay 2 life to have it enter untapped. Regardless of this choice, it will be only a Mountain and not a Swamp. The same is also true of any other abilities that modify how a land enters the battlefield or apply "as" a land enters the battlefield, such as the first ability of Cavern of Souls.
-2017/03/14: If a nonbasic land has an ability that triggers "when" it enters the battlefield, it will lose that ability before it triggers.</Rulings>
+2017/03/14: If a nonbasic land has an ability that triggers "when" it enters the battlefield, it will lose that ability before it triggers.
+2017/09/29: If a nonbasic land has an ability that causes it to enter the battlefield tapped, it lose will that ability before it applies. The same is also true of any other abilities that modify how a land enters the battlefield or apply "as" a land enters the battlefield, such as the first ability of Cavern of Souls. This is a change from previous rulings.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1800,7 +1804,7 @@ Overload {2}{R} (You may cast this spell for its overload cost. If you do, chang
 <Type>Enchantment</Type>
 <ManaCost>2R (3)</ManaCost>
 <CardText>At the beginning of your upkeep, create a 1/1 red Goblin creature token with haste.
-Goblin creatures attack each turn if able.</CardText>
+Goblin creatures attack each combat if able.</CardText>
 <Flavor>A goblin raid is a delicate gambit—a blend of stealth, precision, and screaming death.</Flavor>
 <Artist>Jaime Jones</Artist>
 <Multiverseid>425920</Multiverseid>
@@ -2442,7 +2446,7 @@ Enchanted creature has trample.</CardText>
 —Gamelen, Citanul elder</Flavor>
 <Artist>Greg Staples</Artist>
 <Multiverseid>425952</Multiverseid>
-<Rulings>2007/02/01: This is the timeshifted version of <Glorious Anthem>.</Rulings>
+<Rulings>2007/02/01: This is the timeshifted version of Glorious Anthem.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2461,7 +2465,7 @@ Enchanted creature has trample.</CardText>
 —Seton, centaur druid</Flavor>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>425953</Multiverseid>
-<Rulings>2007/02/01: This is the timeshifted version of <Concentrate>.</Rulings>
+<Rulings>2007/02/01: This is the timeshifted version of Concentrate.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2593,7 +2597,7 @@ When Penumbra Spider dies, create a 2/4 black Spider creature token with reach.<
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>425960</Multiverseid>
 <Rulings>2004/10/04: This is not modal. If the target changes from an artifact to an enchantment or vice versa, this still destroys it.
-2007/02/01: This is the timeshifted version of <Seal of Cleansing>.
+2007/02/01: This is the timeshifted version of Seal of Cleansing.
 2017/03/14: You can activate <Seal of Primordium>'s ability targeting <Seal of Primordium> itself if you want it to leave the battlefield. This is because targets are chosen before costs are paid. The ability will be countered as it tries to resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3074,7 +3078,7 @@ When Deputy of Acquittals enters the battlefield, you may return another target 
 <SetId>MM3</SetId>
 <No>161</No>
 <Name>Domri Rade</Name>
-<Type>Planeswalker — Domri (Loyalty: 3)</Type>
+<Type>Legendary Planeswalker — Domri (Loyalty: 3)</Type>
 <ManaCost>1RG (3)</ManaCost>
 <CardText>+1: Look at the top card of your library. If it's a creature card, you may reveal it and put it into your hand.
 -2: Target creature you control fights another target creature.
@@ -4227,17 +4231,14 @@ Equip {2}</CardText>
 <Name>Grafdigger's Cage</Name>
 <Type>Artifact</Type>
 <ManaCost>1 (1)</ManaCost>
-<CardText>Creature cards can't enter the battlefield from graveyards or libraries.
+<CardText>Creature cards in graveyards and libraries can't enter the battlefield.
 Players can't cast spells from graveyards or libraries.</CardText>
 <Flavor>"If you wind up in one of mine, you can be sure as silver it will be your last."
 —Grafdigger Wulmer</Flavor>
 <Artist>Daniel Ljunggren</Artist>
 <Multiverseid>426046</Multiverseid>
 <Rulings>2017/03/14: If a creature card tries to enter the battlefield from a graveyard or library, it stays in its current zone.
-2017/03/14: The second ability doesn't stop players from playing land cards from graveyards or libraries since lands aren't cast.
-2017/04/18: A noncreature card can enter the battlefield from a graveyard or library if another card's effect (such as that of March of the Machines) will make it a creature after it has entered the battlefield.
-2017/04/18: If an object has a static ability that could cause it to become a creature or stop being a creature, that ability is considered when applying <Grafdigger's Cage>. For example, Rusted Relic can enter the battlefield from a graveyard or library only if you control fewer than three artifacts before it enters. Thassa, God of the Sea can enter only if your devotion to blue is less than five before it enters.
-2017/04/18: Applying a replacement effect may cause <Grafdigger's Cage> to stop an object from entering the battlefield. For example, Sculpting Steel can enter the battlefield from a graveyard or library only if it's not entering as a copy of an artifact creature. However, a replacement effect can't be applied to cause <Grafdigger's Cage> to not apply. Phyrexian Metamorph can't enter the battlefield even if you wish to copy a noncreature artifact.</Rulings>
+2017/03/14: The second ability doesn't stop players from playing land cards from graveyards or libraries since lands aren't cast.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

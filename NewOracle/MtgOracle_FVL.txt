@@ -61,8 +61,11 @@
 {T}: Create a token that's a copy of target nonlegendary creature you control. That token has haste. Sacrifice it at the beginning of the next end step.</CardText>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>244666</Multiverseid>
-<Rulings>2013/06/07: As the token is created, it checks the printed values of the creature it's copying — or, if that creature is itself a token, the original characteristics of that token as stated by the effect that put it onto the battlefield — as well as any copy effects that have been applied to it. It won't copy counters on the creature, nor will it copy other effects that have changed the creature's power, toughness, types, color, or so on.
-2013/06/07: Haste is part of the token's copiable values. Copies of that token will also have haste.</Rulings>
+<Rulings>2017/11/17: The token copies exactly what was printed on the creature and nothing else (unless that creature was copying something else or was a token; see below). It doesn't copy whether that creature was tapped or untapped, whether it had any counters on it or Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on.
+2017/11/17: If the copied creature had {X} in its mana cost, X is 0.
+2017/11/17: If the copied creature was copying something else, the tokens enter the battlefield as whatever that creature was copying.
+2017/11/17: If the copied creature is a token, the tokens created by Kiki-Jiki's ability copies the original characteristics of that token as stated by the effect that put it onto the battlefield.
+2017/11/17: Any enters-the-battlefield abilities of the copied creature will trigger when the tokens enter the battlefield. Any "As [this creature] enters the battlefield" or "[This creature] enters the battlefield with" abilities of the copied creature will also work.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -238,11 +241,10 @@ Each opponent can cast spells only any time he or she could cast a sorcery.</Car
 <Flavor>To save this plane, he must forsake all others.</Flavor>
 <Artist>Volkan Baga</Artist>
 <Multiverseid>244667</Multiverseid>
-<Rulings>2006/09/25: The last ability means that in order for an opponent to cast a spell, it must be that opponent's turn, during a main phase, and the stack must be empty. This is true even if the player doesn't have a sorcery he or she is able to cast, or if a rule or effect allows a spell to be cast at another time.
-2006/09/25: If you have Teferi on the battlefield, you may exile creature cards in your hand with suspend any time you could cast an instant.
-2006/09/25: If an ability lets an opponent cast a spell as part of its effect (such as Isochron Scepter's ability does), that opponent can't cast that spell since the currently resolving ability is still on the stack.
-2006/09/25: Your opponents can't cast their suspended cards, no matter what phase it is when the last time counter is removed. Your opponents can't cast cards using the madness ability either, no matter what phase it is when the card is discarded.
-2007/05/01: If you have Teferi on the battlefield and there's a Split Second spell on the stack (such as <Sudden Death>), you can't Suspend creatures until after the Split Second spell resolves.</Rulings>
+<Rulings>2007/05/01: If you have Teferi on the battlefield and there's a Split Second spell on the stack (such as Sudden Death), you can't Suspend creatures until after the Split Second spell resolves.
+2017/11/17: Teferi's last ability means that in order for an opponent to cast a spell, it must be that opponent's turn, during a main phase, and the stack must be empty. This is true even if the player doesn't have a sorcery he or she is able to cast, or if a rule or effect allows a sorcery to be cast at another time.
+2017/11/17: If you have Teferi on the battlefield, you may exile creature cards in your hand with suspend any time you could cast an instant.
+2017/11/17: If a spell or ability lets an opponent cast a card as part of its effect (such as suspend and rebound do), that opponent can't cast that card since the currently resolving ability is still on the stack. This is true even if that card is an instant.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

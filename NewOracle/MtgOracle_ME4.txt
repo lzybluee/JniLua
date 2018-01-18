@@ -279,7 +279,7 @@ Destroy target attacking creature.</CardText>
 <Name>Kismet</Name>
 <Type>Enchantment</Type>
 <ManaCost>3W (4)</ManaCost>
-<CardText>Artifacts, creatures, and lands played by your opponents enter the battlefield tapped.</CardText>
+<CardText>Artifacts, creatures, and lands your opponents control enter the battlefield tapped.</CardText>
 <Flavor>"Make people wait for what they want, and you have power over them. This is as true for merchants and militia as it is for cooks and couples."
 —Gwendlyn Di Corci</Flavor>
 <Artist>Kaja Foglio</Artist>
@@ -516,8 +516,8 @@ Enchanted creature can't attack or block, and its activated abilities with {T} i
 <CardText>Exile target creature. Its controller gains life equal to its power.</CardText>
 <Artist>Jeff A. Menges</Artist>
 <Multiverseid>202462</Multiverseid>
-<Rulings>2016/06/08: The amount of life gained is equal to the power of the targeted creature as it last existed on the battlefield.
-2016/06/08: If the creature's power is negative, its controller doesn't lose or gain life.</Rulings>
+<Rulings>2017/11/17: The amount of life gained is equal to the power of the target creature as it last existed on the battlefield.
+2017/11/17: If the creature's power is negative, its controller doesn't lose or gain life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>MTGO Masters Edition IV</Set>
@@ -1972,11 +1972,10 @@ Other Zombies have "{B}: Regenerate this permanent."</CardText>
 Fireball costs {1} more to cast for each target beyond the first.</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>221511</Multiverseid>
-<Rulings>2004/12/01: The additional cost is paid when you pay the rest of <Fireball>'s costs, even though that text appears second on the card (to make the card easier to read). The additional cost doesn't count toward <Fireball>'s converted mana cost.
-2004/12/01: If, for example, X is 5 and you choose three target creatures, <Fireball> has a total cost of {7}{R} (even though its mana cost is just {5}{R}). If those creatures are all still legal targets as <Fireball> resolves, it deals 1 damage to each of them.
-2009/05/01: You may cast <Fireball> with zero targets, regardless of the value chosen for X. If you do so, it will not be a targeted spell, and no damage will actually be dealt when it resolves.
-2009/10/01: <Fireball>'s damage is divided as <Fireball> resolves, not as it's cast, because there are no choices involved. The division involves only targets that are still legal at that time.
-2009/10/01: You can target more than X creatures. However, if the number of legal targets at the time <Fireball> resolves is greater than X, none of them will be dealt any damage.</Rulings>
+<Rulings>2017/11/17: For example, if X is 5 and you choose three target creatures, <Fireball> has a total cost of {7}{R} (even though its mana cost is just {5}{R} and its converted mana cost is 6). If those creatures are all still legal targets as <Fireball> resolves, it deals 1 damage to each of them.
+2017/11/17: You may cast <Fireball> with zero targets, regardless of the value chosen for X. If you do so, it will not be a targeted spell, and no damage will actually be dealt when it resolves.
+2017/11/17: <Fireball>'s damage is divided as <Fireball> resolves, not as it's cast, because there are no choices involved. The division involves only targets that are still legal as <Fireball> resolves.
+2017/11/17: You can target more than X creatures. However, if the number of legal targets at the time <Fireball> resolves is greater than X, none of them will be dealt any damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2056,7 +2055,7 @@ As long as enchanted land is a basic Mountain, Goblin creatures get +0/+2.</Card
 <Artist>Drew Tucker</Artist>
 <Multiverseid>202426</Multiverseid>
 <Rulings>2004/10/04: Works even if placed on one of your opponent's Mountains.
-2004/10/04: Works if enchanting a <Snow-Covered Mountain>.</Rulings>
+2004/10/04: Works if enchanting a Snow-Covered Mountain.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>MTGO Masters Edition IV</Set>
@@ -2491,7 +2490,7 @@ Prevent all damage that would be dealt to Argothian Pixies by artifact creatures
 <CardText>Until end of turn, any time you could activate a mana ability, you may pay 1 life. If you do, add {C} to your mana pool.</CardText>
 <Artist>Richard Thomas</Artist>
 <Multiverseid>202596</Multiverseid>
-<Rulings>2004/10/04: You can't pay life you don't have. In other words, you can't <Channel> yourself below zero life.</Rulings>
+<Rulings>2017/11/17: Once your life total is 0, you can't pay any more life, even if you've somehow not lost the game yet.</Rulings>
 <Vintage>Restricted</Vintage>
 <Legacy>Banned</Legacy>
 <Set>MTGO Masters Edition IV</Set>
@@ -2629,7 +2628,6 @@ Whenever you play a land, if it wasn't the first land you played this turn, Fast
 <CardText>Prevent all combat damage that would be dealt this turn.</CardText>
 <Artist>Jesper Myrfors</Artist>
 <Multiverseid>202617</Multiverseid>
-<Rulings>2009/10/01: <Fog> has no effect on damage that's already been dealt.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3339,7 +3337,7 @@ When Cyclopean Tomb is put into a graveyard from the battlefield, at the beginni
 <Artist>Anson Maddocks</Artist>
 <Multiverseid>202517</Multiverseid>
 <Rulings>2006/10/15: Will not add or remove Snow Supertype to or from a land.
-2008/08/01: After leaving the battlefield, the ability triggers during each of your upkeeps for the rest of the game. As it resolves, you must remove a mire counter from a land that had a mire counter put on it by that instance of <Cyclopean Tomb>, but it doesn't matter where the mire counter you remove came from. For instance, you could remove mire counters that were put on the land by <Gilder Bairn>.
+2008/08/01: After leaving the battlefield, the ability triggers during each of your upkeeps for the rest of the game. As it resolves, you must remove a mire counter from a land that had a mire counter put on it by that instance of <Cyclopean Tomb>, but it doesn't matter where the mire counter you remove came from. For instance, you could remove mire counters that were put on the land by Gilder Bairn.
 2008/08/01: The land remains a Swamp as long as it has a mire counter on it. This effect is not tied to the Tomb remaining on the battlefield.</Rulings>
 <Reserved>This card is on the reserved list</Reserved>
 <Vintage>Legal</Vintage>
@@ -3584,13 +3582,12 @@ Whenever a Mountain is tapped for mana, its controller adds {R} to his or her ma
 <Name>Juggernaut</Name>
 <Type>Artifact Creature — Juggernaut 5/3</Type>
 <ManaCost>4 (4)</ManaCost>
-<CardText>Juggernaut attacks each turn if able.
+<CardText>Juggernaut attacks each combat if able.
 Juggernaut can't be blocked by Walls.</CardText>
 <Flavor>We had taken refuge in a small cave, thinking the entrance was too narrow for it to follow. To our horror, its gigantic head smashed into the mountainside, ripping itself a new entrance.</Flavor>
 <Artist>Dan Frazier</Artist>
 <Multiverseid>221109</Multiverseid>
-<Rulings>2016/06/08: If, during your declare attackers step, <Juggernaut> is tapped, is affected by a spell or ability that says it can't attack, or you haven't controlled it continuously since the beginning of your turn, then it doesn't attack. If there's a cost associated with having <Juggernaut> attack, you aren't forced to pay that cost, so it doesn't have to attack in that case either.
-2016/06/08: If there are multiple combat phases in a turn, <Juggernaut> must attack only in the first one in which it's able to.</Rulings>
+<Rulings>2016/06/08: If, during your declare attackers step, <Juggernaut> is tapped, is affected by a spell or ability that says it can't attack, or you haven't controlled it continuously since the beginning of your turn, then it doesn't attack. If there's a cost associated with having <Juggernaut> attack, you aren't forced to pay that cost, so it doesn't have to attack in that case either.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

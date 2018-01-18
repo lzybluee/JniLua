@@ -172,7 +172,7 @@ Whenever a creature you control attacks alone, it gains lifelink until end of tu
 <SetId>ALA</SetId>
 <No>9</No>
 <Name>Elspeth, Knight-Errant</Name>
-<Type>Planeswalker — Elspeth (Loyalty: 4)</Type>
+<Type>Legendary Planeswalker — Elspeth (Loyalty: 4)</Type>
 <ManaCost>2WW (4)</ManaCost>
 <CardText>+1: Create a 1/1 white Soldier creature token.
 +1: Target creature gets +3/+3 and gains flying until end of turn.
@@ -1197,7 +1197,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <SetId>ALA</SetId>
 <No>60</No>
 <Name>Tezzeret the Seeker</Name>
-<Type>Planeswalker — Tezzeret (Loyalty: 4)</Type>
+<Type>Legendary Planeswalker — Tezzeret (Loyalty: 4)</Type>
 <ManaCost>3UU (5)</ManaCost>
 <CardText>+1: Untap up to two target artifacts.
 -X: Search your library for an artifact card with converted mana cost X or less and put it onto the battlefield. Then shuffle your library.
@@ -1574,7 +1574,6 @@ When there are no cards in your graveyard, you lose the game.</CardText>
 2008/10/01: The first ability exiles two cards in your graveyard as a cost. You can't activate this ability unless you have at least two cards in your graveyard. Exiling those two cards can't be responded to.
 2008/10/01: The second ability prevents all damage that would be dealt to you, regardless of how many cards are in your graveyard. For example, if you have three cards in your graveyard and would be dealt 5 damage, <Immortal Coil> prevents all 5 damage and exiles all the cards in your graveyard.
 2008/10/01: The third ability checks whether your graveyard is empty only at the time it triggers. Putting a card into your graveyard after that doesn't help. You'll lose the game when the ability resolves.
-2008/10/01: If the third ability is countered, but your graveyard is still empty, the ability will immediately trigger again.
 2008/10/01: If the third ability is countered, but your graveyard is still empty, the ability will immediately trigger again.
 2008/10/01: Similarly, if the third ability resolves but you don't lose the game for some reason (because you control Platinum Angel, perhaps), it will immediately trigger again if your graveyard is still empty. <Immortal Coil> + Platinum Angel + an empty graveyard is an involuntary infinite loop. Unless a player disrupts it, the game will end in a draw.
 2008/10/01: Suppose you control <Immortal Coil> and a planeswalker, and a source controlled by an opponent would deal noncombat damage to you. Both <Immortal Coil> and the planeswalker have effects that could affect that damage. You choose one to apply.
@@ -2006,7 +2005,7 @@ Whenever Flameblast Dragon attacks, you may pay {X}{R}. If you do, Flameblast Dr
 <Type>Enchantment</Type>
 <ManaCost>2R (3)</ManaCost>
 <CardText>At the beginning of your upkeep, create a 1/1 red Goblin creature token with haste.
-Goblin creatures attack each turn if able.</CardText>
+Goblin creatures attack each combat if able.</CardText>
 <Flavor>A goblin raid is a delicate gambit—a blend of stealth, precision, and screaming death.</Flavor>
 <Artist>Jaime Jones</Artist>
 <Multiverseid>174939</Multiverseid>
@@ -3017,7 +3016,7 @@ Target creature gets -0/-3 until end of turn.</CardText>
 <SetId>ALA</SetId>
 <No>154</No>
 <Name>Ajani Vengeant</Name>
-<Type>Planeswalker — Ajani (Loyalty: 3)</Type>
+<Type>Legendary Planeswalker — Ajani (Loyalty: 3)</Type>
 <ManaCost>2WR (4)</ManaCost>
 <CardText>+1: Target permanent doesn't untap during its controller's next untap step.
 -2: Ajani Vengeant deals 3 damage to target creature or player and you gain 3 life.
@@ -3751,7 +3750,7 @@ When Realm Razer leaves the battlefield, return the exiled cards to the battlefi
 <SetId>ALA</SetId>
 <No>191</No>
 <Name>Sarkhan Vol</Name>
-<Type>Planeswalker — Sarkhan (Loyalty: 4)</Type>
+<Type>Legendary Planeswalker — Sarkhan (Loyalty: 4)</Type>
 <ManaCost>2RG (4)</ManaCost>
 <CardText>+1: Creatures you control get +1/+1 and gain haste until end of turn.
 -2: Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.
@@ -4008,14 +4007,14 @@ Deathtouch (Any amount of damage this deals to a creature is enough to destroy i
 <Name>Titanic Ultimatum</Name>
 <Type>Sorcery</Type>
 <ManaCost>WWRRGGG (7)</ManaCost>
-<CardText>Until end of turn, creatures you control get +5/+5 and gain first strike, lifelink, and trample.</CardText>
+<CardText>Until end of turn, creatures you control get +5/+5 and gain first strike, trample, and lifelink.</CardText>
 <Flavor>"Retribution is best delivered by claws and rage, with both magnified."
 —Ajani</Flavor>
 <Artist>Steve Prescott</Artist>
 <Multiverseid>174839</Multiverseid>
 <Rulings>2008/10/01: The set of creatures affected is fixed as <Titanic Ultimatum> resolves.
 2008/10/01: Multiple instances of first strike and trample are redundant.
-2009/10/01: If a creature you control already has lifelink, <Titanic Ultimatum> will give it a second instance of lifelink; however, multiple instances of lifelink are redundant. You still only gain life equal to the amount of damage dealt, regardless of how many instances of lifelink the creature has.</Rulings>
+2009/10/01: If a creature you control already has lifelink, <Titanic Ultimatum> will give it a second instance of lifelink; however, multiple instances of lifelink on the same creature are redundant. You still only gain life equal to the amount of damage dealt, regardless of how many instances of lifelink the creature has.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

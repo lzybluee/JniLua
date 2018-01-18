@@ -39,7 +39,7 @@
 <Type>Enchantment</Type>
 <ManaCost>1WW (3)</ManaCost>
 <CardText>Lands you control are Plains.
-Nonland cards you own that aren't on the battlefield, spells you control, and nonland permanents you control are white.
+Nonland permanents you control are white. The same is true for spells you control and nonland cards you own that aren't on the battlefield.
 You may spend white mana as though it were mana of any color. You may spend other mana only as though it were colorless mana.</CardText>
 <Artist>Liz Danforth</Artist>
 <Multiverseid>106639</Multiverseid>
@@ -52,9 +52,9 @@ You may spend white mana as though it were mana of any color. You may spend othe
 2006/09/25: Mana produced by spells you control and nonland permanents you control isn't affected by <Celestial Dawn>. Llanowar Elves will produce {G}, for example. However, any colored mana may be spent only on the colorless part of costs.
 2006/09/25: Land cards you own that aren't on the battlefield aren't changed to Plains.
 2006/09/25: If you have nonwhite mana in your mana pool when <Celestial Dawn> enters the battlefield, it remains there but you can spend it only on the colorless part of costs.
-2006/09/25: "Enters the battlefield" triggered abilities of lands you play won't trigger since the lands will enter the battlefield as Plains. Effects that modify how those lands enter the battlefield, however, will still work. For example, if you play a <Dimir Aqueduct>, it will enter the battlefield tapped as a Plains, but you won't return a land to your hand.
-2006/09/25: If you use a text-changing effect such as <Mind Bend> on <Celestial Dawn> to change the word "Plains" to a different land type, your lands are all of that new land type, and they will produce mana of the appropriate color for that type.
-2006/09/25: If a permanent enters the battlefield while <Celestial Dawn> is on the battlefield, and then <Celestial Dawn> leaves the battlefield, the permanent's color will revert to the colors in its mana cost.</Rulings>
+2006/09/25: If you use a text-changing effect such as Mind Bend on <Celestial Dawn> to change the word "Plains" to a different land type, your lands are all of that new land type, and they will produce mana of the appropriate color for that type.
+2006/09/25: If a permanent enters the battlefield while <Celestial Dawn> is on the battlefield, and then <Celestial Dawn> leaves the battlefield, the permanent's color will revert to the colors in its mana cost.
+2017/09/29: If a nonbasic land has an ability that causes it to enter the battlefield tapped, it lose will that ability before it applies. The same is also true of any other abilities that modify how a land enters the battlefield or apply "as" a land enters the battlefield, such as the first ability of Cavern of Souls. This is a change from previous rulings.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -483,7 +483,7 @@ Leviathan can't attack unless you sacrifice two Islands. (This cost is paid as a
 <Multiverseid>111062</Multiverseid>
 <Rulings>2006/09/25: The type "Illusion" is printed on the card's type line purely for flavor. The Ultimus has every other creature type as well.
 2006/09/25: Like any creature, if <Mistform Ultimus> becomes another type as the result of a spell or ability, it will lose all its other creature types.
-2006/09/25: <Mistform Ultimus> has all creature types even if an effect removes its ability. Type-changing static abilities will apply in layer 4 before effects such as <Sudden Spoiling>'s remove them in layer 6.</Rulings>
+2006/09/25: <Mistform Ultimus> has all creature types even if an effect removes its ability. Type-changing static abilities will apply in layer 4 before effects such as Sudden Spoiling's remove them in layer 6.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -719,14 +719,15 @@ Fear (This creature can't be blocked except by artifact creatures and/or black c
 <Type>Enchantment</Type>
 <ManaCost>3BB (5)</ManaCost>
 <CardText>As Conspiracy enters the battlefield, choose a creature type.
-Creature cards you own that aren't on the battlefield, creature spells you control, and creatures you control are the chosen type.</CardText>
+Creatures you control are the chosen type. The same is true for creature spells you control and creature cards you own that aren't on the battlefield.</CardText>
 <Artist>Jeff Easley</Artist>
 <Multiverseid>108914</Multiverseid>
 <Rulings>2004/10/04: It does not replace any use of creature types in card text.
 2004/10/04: This can grant a creature type to animated lands and artifacts that would otherwise have no creature type.
 2005/08/01: "Legend" is no longer a creature type, and may not be chosen.
 2005/08/01: If you choose Wall, then your creatures can still attack because creature types don't confer abilities such as defender (any more than, say, choosing creature type Bird would confer flying).
-2013/09/20: Affected spells, cards, and creatures lose all of their other creature types.</Rulings>
+2013/09/20: Affected spells, cards, and creatures lose all of their other creature types.
+2017/09/29: Replacement effects that modify creatures of a certain type as they enter the battlefield will apply (or not apply) after you apply this effect. For example, if Warrior is the chosen creature type and you control Bramblewood Paragon, a Runeclaw Bear would enter the battlefield with an additional +1/+1 counter.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -760,7 +761,7 @@ Measure for Measure</Flavor>
 <Type>Creature — Dauthi Soldier 2/2</Type>
 <ManaCost>BB (2)</ManaCost>
 <CardText>Shadow (This creature can block or be blocked by only creatures with shadow.)
-Dauthi Slayer attacks each turn if able.</CardText>
+Dauthi Slayer attacks each combat if able.</CardText>
 <Flavor>"They have knives for every soul."
 —Lyna, Soltari emissary</Flavor>
 <Artist>Dermot Power</Artist>
@@ -954,7 +955,7 @@ Swampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, 
 <Flavor>Solitude drove the old hermit insane. Now he only keeps company with those he can catch.</Flavor>
 <Artist>Daniel Gelon</Artist>
 <Multiverseid>108805</Multiverseid>
-<Rulings>2004/10/04: Works even on damage from activated abilities of creatures such as <Prodigal Sorcerer>.</Rulings>
+<Rulings>2004/10/04: Works even on damage from activated abilities of creatures such as Prodigal Sorcerer.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1671,6 +1672,7 @@ Put a -0/-1 counter on Wall of Roots: Add {G} to your mana pool. Activate this a
 <Flavor>Sometimes the wise ones wove their magic into living plants; as the plant grew, so grew the magic.</Flavor>
 <Artist>John Matson</Artist>
 <Multiverseid>106662</Multiverseid>
+<Rulings>2017/11/17: If you must sacrifice a creature to pay a casting or activation cost that also includes mana, such as that of Bubbling Cauldron's abilities, you may put a -0/-1 counter on <Wall of Roots> to make its toughness 0 and then sacrifice it to pay that cost.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1910,7 +1912,7 @@ And if you get eaten, then no one will cry."
 —Lovisa Coldeyes, Balduvian chieftain</Flavor>
 <Artist>NéNé Thomas & Phillip Mosness</Artist>
 <Multiverseid>109674</Multiverseid>
-<Rulings>2004/10/04: Since the discard is a cost, it can't be used with <Library of Leng>.</Rulings>
+<Rulings>2004/10/04: Since the discard is a cost, it can't be used with Library of Leng.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2005,7 +2007,7 @@ Creatures of the chosen color without flying can't attack you.</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Time Spiral "Timeshifted"</Set>
-<Rarity>Uncommon</Rarity>
+<Rarity>Special</Rarity>
 <OtherPart>Assault (Assault/Battery)</OtherPart>
 </Card>
 

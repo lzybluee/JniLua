@@ -542,7 +542,6 @@ Echo {3}{W}{W} (At the beginning of your upkeep, if this came under your control
 When Karmic Guide enters the battlefield, return target creature card from your graveyard to the battlefield.</CardText>
 <Artist>Allen Williams</Artist>
 <Multiverseid>382983</Multiverseid>
-<Rulings>2008/04/01: A "creature card" is any card with the type Creature, even if it has other types such as Artifact, Enchantment, or Land. Older cards of type Summon are also Creature cards.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Vintage Masters</Set>
@@ -580,8 +579,8 @@ When Mistmoon Griffin dies, exile Mistmoon Griffin, then return the top creature
 2008/04/01: The "top" card of your graveyard is the card that was put there most recently.
 2008/04/01: Players may not rearrange the cards in their graveyards. This is a little-known rule because new cards that care about graveyard order haven't been printed in years.
 2008/04/01: If an effect or rule puts two or more cards into the same graveyard at the same time, the owner of those cards may arrange them in any order.
-2008/04/01: The last thing that happens to a resolving instant or sorcery spell is that it's put into its owner's graveyard. —Example: You cast <Wrath of God>. All creatures on the battlefield are destroyed. You arrange all the cards put into your graveyard this way in any order you want. The other players in the game do the same to the cards that are put into their graveyards. Then you put <Wrath of God> into your graveyard, on top of the other cards.
-2008/04/01: Say you're the owner of both a permanent and an Aura that's attached to it. If both the permanent and the Aura are destroyed at the same time (by <Akroma's Vengeance>, for example), you decide the order they're put into your graveyard. If just the enchanted permanent is destroyed, it's put into your graveyard first. Then, after state-based actions are checked, the Aura (which is no longer attached to anything) is put into your graveyard on top of it.
+2008/04/01: The last thing that happens to a resolving instant or sorcery spell is that it's put into its owner's graveyard. —Example: You cast Wrath of God. All creatures on the battlefield are destroyed. You arrange all the cards put into your graveyard this way in any order you want. The other players in the game do the same to the cards that are put into their graveyards. Then you put Wrath of God into your graveyard, on top of the other cards.
+2008/04/01: Say you're the owner of both a permanent and an Aura that's attached to it. If both the permanent and the Aura are destroyed at the same time (by Akroma's Vengeance, for example), you decide the order they're put into your graveyard. If just the enchanted permanent is destroyed, it's put into your graveyard first. Then, after state-based actions are checked, the Aura (which is no longer attached to anything) is put into your graveyard on top of it.
 2008/04/01: If you control <Mistmoon Griffin> when it goes to the graveyard, you exile the Griffin and return the top creature card from your graveyard to the battlefield. It doesn't matter whose graveyard the Griffin goes to.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -725,7 +724,7 @@ When you cycle Renewed Faith, you may gain 2 life.</CardText>
 2017/04/18: Some cards with cycling have an ability that triggers when you cycle them. These triggered abilities resolve before you draw from the cycling ability.
 2017/04/18: Triggered abilities from cycling a card and the cycling ability itself aren't spells. Effects that interact with spells (such as that of Cancel) won't affect them.
 2017/04/18: You can cycle a card even if it has a triggered ability from cycling that won't have a legal target. This is because the cycling ability and the triggered ability are separate. This also means that if either ability is countered (with Disallow, for example, or if the triggered ability's targets have become illegal), the other ability will still resolve.
-2017/04/18: There are many important moments in the story, but the most crucial—called "story spotlights"—are shown on cards. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.</Rulings>
+2017/09/29: There are many important moments in the story, but the most crucial—called "story spotlights"—are shown on cards. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -881,8 +880,8 @@ Whenever Soltari Trooper attacks, it gets +1/+1 until end of turn.</CardText>
 <Flavor>The smallest seed of regret can bloom into redemption.</Flavor>
 <Artist>Terese Nielsen</Artist>
 <Multiverseid>383119</Multiverseid>
-<Rulings>2016/06/08: The amount of life gained is equal to the power of the targeted creature as it last existed on the battlefield.
-2016/06/08: If the creature's power is negative, its controller doesn't lose or gain life.</Rulings>
+<Rulings>2017/11/17: The amount of life gained is equal to the power of the target creature as it last existed on the battlefield.
+2017/11/17: If the creature's power is negative, its controller doesn't lose or gain life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Vintage Masters</Set>
@@ -1290,7 +1289,7 @@ Draw two cards.</CardText>
 <SetId>VMA</SetId>
 <No>74</No>
 <Name>Jace, the Mind Sculptor</Name>
-<Type>Planeswalker — Jace (Loyalty: 3)</Type>
+<Type>Legendary Planeswalker — Jace (Loyalty: 3)</Type>
 <ManaCost>2UU (4)</ManaCost>
 <CardText>+2: Look at the top card of target player's library. You may put that card on the bottom of that player's library.
 0: Draw three cards, then put two cards from your hand on top of your library in any order.
@@ -1368,9 +1367,9 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <CardText>Counter target spell. At the beginning of your next main phase, add an amount of {C} to your mana pool equal to that spell's converted mana cost.</CardText>
 <Artist>Mike Bierek</Artist>
 <Multiverseid>383006</Multiverseid>
-<Rulings>2009/10/01: If the targeted spell "can't be countered," it remains on the stack. <Mana Drain> continues to resolve. At the beginning of your next main phase, the delayed triggered ability will still add the mana to your mana pool.
-2009/10/01: If the targeted spell is an illegal target by the time <Mana Drain> resolves, <Mana Drain> is countered. You won't get any mana later.
-2009/10/01: <Mana Drain>'s delayed triggered ability will usually trigger at the beginning of your precombat main phase. However, if you cast <Mana Drain> during your precombat main phase or during your combat phase, its delayed triggered ability will trigger at the beginning of that turn's postcombat main phase.</Rulings>
+<Rulings>2017/11/17: <Mana Drain> can target a spell that can't be countered. When <Mana Drain> resolves, that spell won't be countered, but you'll still add mana to your mana pool at the beginning of your next main phase.
+2017/11/17: If the target spell is an illegal target when <Mana Drain> tries to resolve, it will be countered and none of its effects will happen. You won't get any mana.
+2017/11/17: <Mana Drain>'s delayed triggered ability will usually trigger at the beginning of your precombat main phase. However, if you cast <Mana Drain> during your precombat main phase or during your combat phase, its delayed triggered ability will trigger at the beginning of that turn's postcombat main phase.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Banned</Legacy>
 <Set>Vintage Masters</Set>
@@ -2284,8 +2283,9 @@ Whenever you discard a card, exile that card from your graveyard.
 Pay 1 life: Exile the top card of your library face down. Put that card into your hand at the beginning of your next end step.</CardText>
 <Artist>Dave Kendall</Artist>
 <Multiverseid>383028</Multiverseid>
-<Rulings>2016/06/08: <Necropotence>'s last ability creates a delayed triggered ability that will put the exiled card into your hand. That ability still triggers even if <Necropotence> is removed from the battlefield before your end step.
-2016/06/08: If the discarded card isn't put into your graveyard (due to an effect such as madness) or leaves your graveyard (perhaps because another effect returned it to your hand), it won't be exiled.</Rulings>
+<Rulings>2017/11/17: If a discarded card isn't put into your graveyard (due to an effect such as that of Obstinate Baloth) or leaves your graveyard (perhaps because another effect returned it to your hand), it won't be exiled.
+2017/11/17: If you discard a card with madness and wish to cast it, <Necropotence>'s ability won't exile that card. If you don't wish to cast it, you choose whether it ends up exiled or in your graveyard.
+2017/11/17: <Necropotence>'s last ability creates a delayed triggered ability that will put the exiled card into your hand. That ability still triggers even if <Necropotence> is removed from the battlefield before your end step.</Rulings>
 <Vintage>Restricted</Vintage>
 <Legacy>Banned</Legacy>
 <Set>Vintage Masters</Set>
@@ -2796,7 +2796,6 @@ Sacrifice a Goblin: Clickslither gets +2/+2 and gains trample until end of turn.
 When Crater Hellion enters the battlefield, it deals 4 damage to each other creature.</CardText>
 <Artist>Daren Bader</Artist>
 <Multiverseid>382898</Multiverseid>
-<Rulings>2004/10/04: The ability does 4 damage to every creature on the battlefield other than <Crater Hellion>.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Vintage Masters</Set>
@@ -2966,7 +2965,7 @@ Goblin Goon can't block unless you control more creatures than attacking player.
 <Flavor>At the first sign of enemy scouts, Jula grinned and strapped on his diplomacy helmet.</Flavor>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>382959</Multiverseid>
-<Rulings>2008/08/01: A Goblin permanent card is an artifact, creature, land, and/or enchantment card with the creature type "Goblin". Usually such cards will be creatures in addition to any other types, but they may be tribal instead. For example, you could put <Boggart Shenanigans> onto the battlefield with this effect.</Rulings>
+<Rulings>2008/08/01: A Goblin permanent card is an artifact, creature, land, and/or enchantment card with the creature type "Goblin". Usually such cards will be creatures in addition to any other types, but they may be tribal instead. For example, you could put Boggart Shenanigans onto the battlefield with this effect.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Vintage Masters</Set>
@@ -3531,7 +3530,7 @@ Fading 3 (This creature enters the battlefield with three fade counters on it. A
 <CardText>Until end of turn, any time you could activate a mana ability, you may pay 1 life. If you do, add {C} to your mana pool.</CardText>
 <Artist>Rebecca Guay</Artist>
 <Multiverseid>382882</Multiverseid>
-<Rulings>2004/10/04: You can't pay life you don't have. In other words, you can't <Channel> yourself below zero life.</Rulings>
+<Rulings>2017/11/17: Once your life total is 0, you can't pay any more life, even if you've somehow not lost the game yet.</Rulings>
 <Vintage>Restricted</Vintage>
 <Legacy>Banned</Legacy>
 <Set>Vintage Masters</Set>
@@ -3889,7 +3888,7 @@ Krosan Vorine can't be blocked by more than one creature.</CardText>
 <Artist>Terese Nielsen</Artist>
 <Multiverseid>383026</Multiverseid>
 <Rulings>2004/10/04: Because the "search" requires you to find a card with certain characteristics, you don't have to find the card if you don't want to.
-2008/08/01: You can find any card with the land type Forest, including <Snow-Covered Forest> or non-Basic lands like <Tropical Island>, <Murmuring Bosk>, or <Stomping Ground>. You can even find a card that is a land in addition to other types, such as <Dryad Arbor>.</Rulings>
+2008/08/01: You can find any card with the land type Forest, including Snow-covered Forest or non-Basic lands like Tropical Island, Murmuring Bosk, or Stomping Ground. You can even find a card that is a land in addition to other types, such as Dryad Arbor.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Vintage Masters</Set>
@@ -4351,7 +4350,7 @@ Whenever Brago, King Eternal deals combat damage to a player, exile any number o
 <SetId>VMA</SetId>
 <No>247</No>
 <Name>Dack Fayden</Name>
-<Type>Planeswalker — Dack (Loyalty: 3)</Type>
+<Type>Legendary Planeswalker — Dack (Loyalty: 3)</Type>
 <ManaCost>1UR (3)</ManaCost>
 <CardText>+1: Target player draws two cards, then discards two cards.
 -2: Gain control of target artifact.

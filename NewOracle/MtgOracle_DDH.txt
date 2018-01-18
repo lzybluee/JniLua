@@ -2,7 +2,7 @@
 <SetId>DDH</SetId>
 <No>1</No>
 <Name>Ajani Vengeant</Name>
-<Type>Planeswalker — Ajani (Loyalty: 3)</Type>
+<Type>Legendary Planeswalker — Ajani (Loyalty: 3)</Type>
 <ManaCost>2WR (4)</ManaCost>
 <CardText>+1: Target permanent doesn't untap during its controller's next untap step.
 -2: Ajani Vengeant deals 3 damage to target creature or player and you gain 3 life.
@@ -48,7 +48,7 @@
 <Multiverseid>249374</Multiverseid>
 <Rulings>2004/10/04: Does not trigger on a card on the battlefield being changed into a creature.
 2004/10/04: The ability will not trigger on itself entering the battlefield, but it will trigger on any other creature that is put onto the battlefield at the same time.
-2007/02/01: This is the timeshifted version of <Soul Warden>.</Rulings>
+2007/02/01: This is the timeshifted version of Soul Warden.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -156,8 +156,10 @@ Wild Nacatl gets +1/+1 as long as you control a Plains.</CardText>
 —Jazal Goldmane</Flavor>
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>249413</Multiverseid>
-<Rulings>2014/07/18: The ability triggers just once for each life-gaining event, whether it's 1 life from Soulmender or 8 life from Meditation Puzzle.
-2014/07/18: A creature with lifelink dealing combat damage is a single life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, <Ajani's Pridemate>'s ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.</Rulings>
+<Rulings>2017/11/17: The ability of <Ajani's Pridemate> triggers just once for each life-gaining event, whether it's 1 life from Auriok Champion or 6 life from Tavern Swindler.
+2017/11/17: If <Ajani's Pridemate> is dealt lethal damage at the same time that you gain life, it won't receive a counter from its ability in time to save it.
+2017/11/17: Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, <Ajani's Pridemate>'s ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+2017/11/17: In a Two-Headed Giant game, life gained by your teammate won't cause the ability to trigger, even though it causes your team's life total to increase.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -380,8 +382,7 @@ At the beginning of your upkeep, if Firemane Angel is in your graveyard or on th
 {6}{R}{R}{W}{W}: Return Firemane Angel from your graveyard to the battlefield. Activate this ability only during your upkeep.</CardText>
 <Artist>Matt Cavotta</Artist>
 <Multiverseid>249366</Multiverseid>
-<Rulings>2005/10/01: If you return <Firemane Angel> from your graveyard to the battlefield during your upkeep before its life-gain ability resolves, you won't gain 1 life. (Most of the time, players will let the triggered ability resolve before activating its activated ability.)
-2006/07/01: If <Firemane Angel> changes zones after its ability has triggered but before it resolves, the ability will do nothing.</Rulings>
+<Rulings>2017/11/17: If <Firemane Angel> is put into your graveyard from the battlefield or returned from your graveyard to the battlefield during your upkeep before its triggered ability resolves, you won't gain 1 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -418,7 +419,7 @@ At the beginning of your upkeep, if Firemane Angel is in your graveyard or on th
 —Ajani</Flavor>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>249386</Multiverseid>
-<Rulings>2013/06/07: If the creature or player is an illegal target as <Lightning Helix> tries to resolve, it will be countered and none of its effects will happen. You won't gain 3 life.</Rulings>
+<Rulings>2017/11/17: If the chosen target is illegal when <Lightning Helix> tries to resolve, it will be countered and none of its effects will happen. You won't gain 3 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -492,7 +493,7 @@ At the beginning of your upkeep, you may gain 1 life.</CardText>
 —Alovnek, Boros guildmage</Flavor>
 <Artist>Dave Dorman</Artist>
 <Multiverseid>249380</Multiverseid>
-<Rulings>2005/10/01: <Searing Meditation> doesn't care how much life you gain. It triggers just once for each life-gaining event, whether it's 1 life from <Firemane Angel> or 15 life from <Brightflame>.</Rulings>
+<Rulings>2005/10/01: <Searing Meditation> doesn't care how much life you gain. It triggers just once for each life-gaining event, whether it's 1 life from Firemane Angel or 15 life from Brightflame.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -506,13 +507,13 @@ At the beginning of your upkeep, you may gain 1 life.</CardText>
 <Name>Behemoth Sledge</Name>
 <Type>Artifact — Equipment</Type>
 <ManaCost>1WG (3)</ManaCost>
-<CardText>Equipped creature gets +2/+2 and has lifelink and trample.
+<CardText>Equipped creature gets +2/+2 and has trample and lifelink.
 Equip {3}</CardText>
 <Flavor>"May this grant you all the strength of the behemoths and none of their serenity."
 —Ajani</Flavor>
 <Artist>Dave Allsop</Artist>
 <Multiverseid>249396</Multiverseid>
-<Rulings>2009/10/01: Multiple instances of lifelink are redundant. If a creature with multiple instances of lifelink deals damage, its controller still only gains life equal to the damage dealt.</Rulings>
+<Rulings>2009/10/01: multiple instances of lifelink on the same creature are redundant. If a creature with multiple instances of lifelink deals damage, its controller still only gains life equal to the damage dealt.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -571,14 +572,14 @@ Basic landcycling {1}{G} ({1}{G}, Discard this card: Search your library for a b
 <Name>Titanic Ultimatum</Name>
 <Type>Sorcery</Type>
 <ManaCost>WWRRGGG (7)</ManaCost>
-<CardText>Until end of turn, creatures you control get +5/+5 and gain first strike, lifelink, and trample.</CardText>
+<CardText>Until end of turn, creatures you control get +5/+5 and gain first strike, trample, and lifelink.</CardText>
 <Flavor>"Retribution is best delivered by claws and rage, with both magnified."
 —Ajani</Flavor>
 <Artist>Steve Prescott</Artist>
 <Multiverseid>249370</Multiverseid>
 <Rulings>2008/10/01: The set of creatures affected is fixed as <Titanic Ultimatum> resolves.
 2008/10/01: Multiple instances of first strike and trample are redundant.
-2009/10/01: If a creature you control already has lifelink, <Titanic Ultimatum> will give it a second instance of lifelink; however, multiple instances of lifelink are redundant. You still only gain life equal to the amount of damage dealt, regardless of how many instances of lifelink the creature has.</Rulings>
+2009/10/01: If a creature you control already has lifelink, <Titanic Ultimatum> will give it a second instance of lifelink; however, multiple instances of lifelink on the same creature are redundant. You still only gain life equal to the amount of damage dealt, regardless of how many instances of lifelink the creature has.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -591,7 +592,7 @@ Basic landcycling {1}{G} ({1}{G}, Discard this card: Search your library for a b
 <No>32</No>
 <Name>Evolving Wilds</Name>
 <Type>Land</Type>
-<CardText>{T}, Sacrifice Evolving Wilds: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.</CardText>
+<CardText>{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.</CardText>
 <Flavor>Every world is an organism, able to grow new lands. Some just do it faster than others.</Flavor>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>249395</Multiverseid>
@@ -751,7 +752,7 @@ Sapseep Forest enters the battlefield tapped.
 <SetId>DDH</SetId>
 <No>42</No>
 <Name>Nicol Bolas, Planeswalker</Name>
-<Type>Planeswalker — Bolas (Loyalty: 5)</Type>
+<Type>Legendary Planeswalker — Bolas (Loyalty: 5)</Type>
 <ManaCost>4UBBR (8)</ManaCost>
 <CardText>+3: Destroy target noncreature permanent.
 -2: Gain control of target creature.

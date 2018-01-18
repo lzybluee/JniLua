@@ -103,8 +103,10 @@ Other permanents you control have indestructible.</CardText>
 <Flavor>A golden helix streaked skyward from the Helvault. A thunderous explosion shattered the silver monolith and Avacyn emerged, free from her prison at last.</Flavor>
 <Artist>Jason Chan</Artist>
 <Multiverseid>239961</Multiverseid>
-<Rulings>2013/07/01: Creatures with indestructible still have damage marked on them, even though that damage won't destroy them. If Avacyn leaves the battlefield, creatures that lose indestructible and have lethal damage marked on them will be destroyed.
-2013/07/01: A permanent with indestructible can't be destroyed, but it can still be sacrificed, exiled, put into a graveyard, and so on.</Rulings>
+<Rulings>2017/11/17: A permanent with indestructible can't be destroyed, but it can still be sacrificed, exiled, put into a graveyard, and so on. Notably, a permanent with indestructible can be put into its owner's graveyard due to the "legend rule."
+2017/11/17: Creatures with indestructible still have damage marked on them, even though that damage won't destroy them. If Avacyn leaves the battlefield, creatures that lose indestructible and have lethal damage marked on them will be destroyed.
+2017/11/17: A creature with 0 toughness is put into its owner's graveyard even if it has indestructible.
+2017/11/17: A planeswalker with indestructible still loses loyalty as it's dealt damage. It is put into its owner's graveyard if its loyalty becomes 0.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -583,6 +585,10 @@ Flying
 When Restoration Angel enters the battlefield, you may exile target non-Angel creature you control, then return that card to the battlefield under your control.</CardText>
 <Artist>Johannes Voss</Artist>
 <Multiverseid>240096</Multiverseid>
+<Rulings>2017/11/17: Once the exiled creature returns, it's considered a new object with no relation to the object that it was. Auras attached to the exiled creature will be put into their owners' graveyards. Equipment attached to the exiled creature will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist.
+2017/11/17: The returned creature won't be the target of any spells or abilities that targeted it before. Any spells that don't target it, such as Austere Command, will still affect it.
+2017/11/17: If you target a creature that you control but don't own, you control the returned creature indefinitely after it returns. When you leave a multiplayer game, exile any objects that you put onto the battlefield under your control but don't own.
+2017/11/17: If a token is exiled this way, it will cease to exist and won't return to the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -776,7 +782,7 @@ When Voice of the Provinces enters the battlefield, create a 1/1 white Human cre
 <Flavor>"I knew I'd find a use for all that newt spittle!"</Flavor>
 <Artist>Matt Stewart</Artist>
 <Multiverseid>270988</Multiverseid>
-<Rulings>2012/05/01: If you cast <Amass the Components> with fewer than three cards in your library, you'll draw the remaining cards in your library, put a card from your hand on the bottom of your library, then lose the game for drawing a card from a library with no cards in it the next time state-based actions are performed.</Rulings>
+<Rulings>2017/11/17: If you cast <Amass the Components> with fewer than three cards in your library, you'll draw the remaining cards in your library, put a card from your hand on the bottom of your library, then lose the game for drawing a card from a library with no cards in it the next time state-based actions are performed.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1451,7 +1457,7 @@ As long as Stern Mentor is paired with another creature, each of those creatures
 <SetId>AVR</SetId>
 <No>79</No>
 <Name>Tamiyo, the Moon Sage</Name>
-<Type>Planeswalker — Tamiyo (Loyalty: 4)</Type>
+<Type>Legendary Planeswalker — Tamiyo (Loyalty: 4)</Type>
 <ManaCost>3UU (5)</ManaCost>
 <CardText>+1: Tap target permanent. It doesn't untap during its controller's next untap step.
 -2: Draw a card for each tapped creature target player controls.
@@ -2554,7 +2560,7 @@ When Fervent Cathar enters the battlefield, target creature can't block this tur
 <Type>Enchantment — Aura</Type>
 <ManaCost>R (1)</ManaCost>
 <CardText>Enchant creature
-Enchanted creature gets +1/-1 and attacks each turn if able.</CardText>
+Enchanted creature gets +1/-1 and attacks each combat if able.</CardText>
 <Flavor>"Fire will eventually destroy a zombie, but a fiery zombie destroys a lot of other things first."
 —Rem Karolus, Blade of the Inquisitors</Flavor>
 <Artist>Dave Kendall</Artist>
@@ -2775,8 +2781,8 @@ Damage that would be dealt by Malignus can't be prevented.</CardText>
 <Flavor>"May the worthy spend an eternity in Blessed Sleep. May the wicked find the peace of oblivion."</Flavor>
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>240013</Multiverseid>
-<Rulings>2012/05/01: A creature dealt damage by <Pillar of Flame> that dies that turn will be exiled even if it wasn't the target of <Pillar of Flame> (because the damage was redirected somehow).
-2012/05/01: A creature dealt damage by <Pillar of Flame> that turn will be exiled no matter why the creature would die. It could have its toughness reduced to 0 or less or be destroyed by another spell or ability.</Rulings>
+<Rulings>2017/11/17: A creature dealt damage by <Pillar of Flame> that dies this turn will be exiled even if it wasn't the target of <Pillar of Flame> (because the damage was redirected somehow). If the target creature isn't dealt damage (most likely because the damage was prevented), it won't be exiled if it dies that turn.
+2017/11/17: A creature dealt damage by <Pillar of Flame> will be exiled no matter why the creature would die that turn. It could have its toughness reduced to 0 or less or be destroyed by another spell or ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2865,8 +2871,7 @@ Miracle {1}{R} (You may cast this card for its miracle cost when you draw it if 
 <Flavor>Sometimes it's not for sustenance or to feed the dependence. Sometimes it's just to feel again.</Flavor>
 <Artist>Cynthia Sheppard</Artist>
 <Multiverseid>240183</Multiverseid>
-<Rulings>2012/05/01: The value of X is determined when <Rush of Blood> resolves. The bonus won't change later in the turn if the creature's power changes.
-2012/05/01: If the creature has power less than 0, the "bonus" will be negative. For example, a creature that's somehow become -1/3 would get -1/+0 and become -2/3.</Rulings>
+<Rulings>2012/05/01: The value of X is determined when <Rush of Blood> resolves. The bonus won't change later in the turn if the creature's power changes.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2985,7 +2990,7 @@ Miracle {R} (You may cast this card for its miracle cost when you draw it if it'
 <SetId>AVR</SetId>
 <No>161</No>
 <Name>Tibalt, the Fiend-Blooded</Name>
-<Type>Planeswalker — Tibalt (Loyalty: 2)</Type>
+<Type>Legendary Planeswalker — Tibalt (Loyalty: 2)</Type>
 <ManaCost>RR (2)</ManaCost>
 <CardText>+1: Draw a card, then discard a card at random.
 -4: Tibalt, the Fiend-Blooded deals damage equal to the number of cards in target player's hand to that player.
@@ -3656,7 +3661,7 @@ Whenever another nontoken creature enters the battlefield under your control, yo
 <Flavor>"Can you build a fire? Track a deer? Identify killer trees? Then you'll never survive Kessig without me."</Flavor>
 <Artist>Zoltan Boros</Artist>
 <Multiverseid>240048</Multiverseid>
-<Rulings>2012/05/01: You may choose <Timberland Guide> as the target of its own ability.</Rulings>
+<Rulings>2017/11/17: You may choose <Timberland Guide> as the target of its own ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3838,7 +3843,7 @@ As long as Wolfir Silverheart is paired with another creature, each of those cre
 <Artist>Dan Scott</Artist>
 <Multiverseid>240157</Multiverseid>
 <Rulings>2012/05/01: The value of X is determined when the ability resolves. The bonus won't change later in the turn if the creature's power changes.
-2012/05/01: If <Yew Spirit> has power less than 0, the "bonus" will be negative. For example, if it's somehow become -10/3, it would get -10/-10 and become -20/-7.</Rulings>
+2017/07/14: If this creature's power is negative as its ability resolves, X is considered to be 0. (This is a change from previous rulings.)</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3902,7 +3907,7 @@ Spells and abilities your opponents control can't cause you to sacrifice permane
 2012/05/01: You may still sacrifice permanents to pay the costs of spells you cast and abilities you activate, or because a resolving spell or ability you control instructs or allows you to do so.
 2012/05/01: You may sacrifice a permanent to pay the activation cost of an ability, even if that ability comes from a permanent an opponent controls (such as Excavation).
 2012/05/01: You may sacrifice a permanent as a special action, even if the effect that allows you to do so comes from an opponent's permanent (such as Damping Engine or Volrath's Curse). No one controls special actions.
-2012/05/01: This ability affects only sacrifices. It won't stop a creature from being put into the graveyard due to lethal damage or having 0 toughness, and it won't stop a permanent from being put into the graveyard due to the "legend rule" or the "planeswalker uniqueness rule." None of these are sacrifices; they're the result of game rules.</Rulings>
+2012/05/01: This ability affects only sacrifices. It won't stop a creature from being put into the graveyard due to lethal damage or having 0 toughness, and it won't stop a permanent from being put into the graveyard due to the "legend rule." None of these are sacrifices; they're the result of game rules.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4118,7 +4123,7 @@ Equip {4}</CardText>
 <Name>Tormentor's Trident</Name>
 <Type>Artifact — Equipment</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>Equipped creature gets +3/+0 and attacks each turn if able.
+<CardText>Equipped creature gets +3/+0 and attacks each combat if able.
 Equip {3}</CardText>
 <Flavor>To a demon there is no such thing as restraint.</Flavor>
 <Artist>Anthony Palumbo</Artist>

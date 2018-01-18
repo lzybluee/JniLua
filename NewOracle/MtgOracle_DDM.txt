@@ -2,7 +2,7 @@
 <SetId>DDM</SetId>
 <No>1</No>
 <Name>Jace, Architect of Thought</Name>
-<Type>Planeswalker — Jace (Loyalty: 4)</Type>
+<Type>Legendary Planeswalker — Jace (Loyalty: 4)</Type>
 <ManaCost>2UU (4)</ManaCost>
 <CardText>+1: Until your next turn, whenever a creature an opponent controls attacks, it gets -1/-0 until end of turn.
 -2: Reveal the top three cards of your library. An opponent separates those cards into two piles. Put one pile into your hand and the other on the bottom of your library in any order.
@@ -54,8 +54,9 @@ Jace's Phantasm gets +4/+4 as long as an opponent has ten or more cards in his o
 <Flavor>In the abstract memories of the Iquati, Jace found interesting ideas to improve upon.</Flavor>
 <Artist>Johann Bodin</Artist>
 <Multiverseid>380245</Multiverseid>
-<Rulings>2012/07/01: The last ability constantly monitors each opponent's graveyard to see if the bonus applies. If the stated condition becomes no longer true, the bonus immediately stops applying.
-2012/07/01: In a multiplayer game, a single opponent must have ten or more cards in his or her graveyard for the bonus to apply, although this opponent may change over the course of the game. You don't have to pick a single opponent; the ability will monitor each opponent's graveyard.</Rulings>
+<Rulings>2017/11/17: The last ability of <Jace's Phantasm> constantly monitors each opponent's graveyard to see if the bonus applies. If the stated condition becomes no longer true, the bonus immediately stops applying.
+2017/11/17: If <Jace's Phantasm> is dealt lethal damage at the same time as an opponent's creature, and that creature will become that opponent's tenth card in his or her graveyard, <Jace's Phantasm> will be destroyed before it gets +4/+4. This is because all creatures that have been dealt lethal damage are destroyed at the same time.
+2017/11/17: In a multiplayer game, a single opponent must have ten or more cards in his or her graveyard for the bonus to apply, although this opponent may change over the course of the game. You don't have to pick a single opponent; the ability will monitor each opponent's graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -215,7 +216,7 @@ When Merfolk Wayfinder enters the battlefield, reveal the top three cards of you
 <Flavor>"The universe is my instrument, and the song I play upon it is one you are forbidden to hear."</Flavor>
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>380241</Multiverseid>
-<Rulings>2010/08/15: If there are no other creatures on the battlefield when Aether Adept enters the battlefield, it must target itself.</Rulings>
+<Rulings>2010/08/15: If there are no other creatures on the battlefield when <Aether Adept> enters the battlefield, it must target itself.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -271,7 +272,7 @@ When Phantasmal Dragon becomes the target of a spell or ability, sacrifice it.</
 <Multiverseid>380228</Multiverseid>
 <Rulings>2007/02/01: Treat <Body Double> as though it were the chosen card entering the battlefield. Any "As this card enters the battlefield," "This card enters the battlefield with," and "When this card enters the battlefield" abilities of the chosen card will work.
 2007/02/01: You don't have to choose a card to copy. If you don't, <Body Double> enters the battlefield as a 0/0 creature and is probably put into your graveyard immediately, unless something is increasing its toughness to keep it alive.
-2007/02/01: If <Body Double> copies a <Vesuvan Shapeshifter> which then copies another creature and then is somehow turned face down, the <Body Double> is now a face-down Vesuvan Shapeshifter and may be turned face up via its Morph ability.</Rulings>
+2007/02/01: If <Body Double> copies a Vesuvan Shapeshifter which then copies another creature and then is somehow turned face down, the <Body Double> is now a face-down Vesuvan Shapeshifter and may be turned face up via its Morph ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -365,6 +366,12 @@ Suspend 3—{1}{U} (Rather than cast this card from your hand, you may pay {1}{U
 When Jace's Mindseeker enters the battlefield, target opponent puts the top five cards of his or her library into his or her graveyard. You may cast an instant or sorcery card from among them without paying its mana cost.</CardText>
 <Artist>Greg Staples</Artist>
 <Multiverseid>380206</Multiverseid>
+<Rulings>2013/07/01: If you cast an instant or sorcery card this way, you do so while the ability of <Jace's Mindseeker> is resolving. If you choose not to (or can't), you won't get a chance to cast one later.
+2013/07/01: "From among them" means the five cards put into the graveyard, not all cards in that graveyard.
+2013/07/01: When casting an instant or sorcery card this way, ignore timing restrictions based on the card's type. Other timing restrictions, such as "Cast [this spell] only during combat," must be followed.
+2013/07/01: If you cast a card "without paying its mana cost," you can't pay alternative costs such as overload costs. You can pay additional costs such as kicker costs. If the card has mandatory additional costs, you must pay those.
+2013/07/01: If a card has {X} in its mana cost, you must choose 0 as its value.
+2013/07/01: If the five cards are put into a public zone such as exile instead of a graveyard (perhaps due to the ability of Rest in Peace), you can cast one of those instant or sorcery cards from that zone.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -790,7 +797,7 @@ When Halimar Depths enters the battlefield, look at the top three cards of your 
 <SetId>DDM</SetId>
 <No>42</No>
 <Name>Vraska the Unseen</Name>
-<Type>Planeswalker — Vraska (Loyalty: 5)</Type>
+<Type>Legendary Planeswalker — Vraska (Loyalty: 5)</Type>
 <ManaCost>3BG (5)</ManaCost>
 <CardText>+1: Until your next turn, whenever a creature deals combat damage to Vraska the Unseen, destroy that creature.
 -3: Destroy target nonland permanent.
@@ -852,8 +859,7 @@ When Halimar Depths enters the battlefield, look at the top three cards of your 
 <Flavor>Rakdos cultists are her best customers. They never flinch at pain and are seldom good at math.</Flavor>
 <Artist>Cynthia Sheppard</Artist>
 <Multiverseid>380195</Multiverseid>
-<Rulings>2012/10/01: You can't activate the ability if your life total is less than 3.
-2012/10/01: You can activate the ability if your life total is 3, but it's probably a bad idea. You'll lose the game before the ability resolves.</Rulings>
+<Rulings>2017/11/17: You can't activate <Tavern Swindler>'s ability if your life total is less than 3. You can activate it if your life total is exactly 3, but it's probably a bad idea. You'll lose the game before the ability resolves.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -871,7 +877,8 @@ When Halimar Depths enters the battlefield, look at the top three cards of your 
 <Flavor>Even the lost and undead need a protector.</Flavor>
 <Artist>Ryan Barger</Artist>
 <Multiverseid>380207</Multiverseid>
-<Rulings>2013/01/24: <Wight of Precinct Six>'s ability applies only if <Wight of Precinct Six> is on the battlefield.</Rulings>
+<Rulings>2017/11/17: <Wight of Precinct Six>'s ability applies only while it's on the battlefield. In all other zones, it's a 1/1 creature.
+2017/11/17: If <Wight of Precinct Six> is dealt lethal damage at the same time as a creature an opponent controls, they're destroyed at the same time. It won't get an additional +1/+1 from its ability in time to save it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1053,7 +1060,7 @@ Whenever Spawnwrithe deals combat damage to a player, create a token that's a co
 <Flavor>The Izzet's plans to exploit the undercity ran into a few stubborn obstacles.</Flavor>
 <Artist>Tomasz Jedruszek</Artist>
 <Multiverseid>380230</Multiverseid>
-<Rulings>2012/10/01: Multiple instances of lifelink are redundant. Activating <Stonefare Crocodile>'s ability more than once during a single turn won't cause you to gain more life.</Rulings>
+<Rulings>2012/10/01: multiple instances of lifelink on the same creature are redundant. Activating <Stonefare Crocodile>'s ability more than once during a single turn won't cause you to gain more life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1401,8 +1408,8 @@ Enchanted land has "{T}, Pay 1 life: Draw a card."</CardText>
 —Juri, proprietor of the Juri Revue</Flavor>
 <Artist>Zoltan Boros</Artist>
 <Multiverseid>380274</Multiverseid>
-<Rulings>2017/03/14: Use the creature's power the last time it was on the battlefield to determine how many cards its controller puts into his or her graveyard.
-2017/03/14: If the creature is an illegal target when <Grisly Spectacle> tries to resolve, it will be countered and none of its effects will happen. The creature's controller won't put any cards into his or her graveyard.</Rulings>
+<Rulings>2017/11/17: Use the creature's power the last time it was on the battlefield to determine how many cards its controller puts into his or her graveyard.
+2017/11/17: If the creature is an illegal target when <Grisly Spectacle> tries to resolve, it will be countered and none of its effects will happen. The creature's controller won't put any cards into his or her graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

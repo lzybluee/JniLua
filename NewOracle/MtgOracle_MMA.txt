@@ -234,7 +234,7 @@ Tap three untapped Kithkin you control: Cloudgoat Ranger gets +2/+0 and gains fl
 <SetId>MMA</SetId>
 <No>13</No>
 <Name>Elspeth, Knight-Errant</Name>
-<Type>Planeswalker — Elspeth (Loyalty: 4)</Type>
+<Type>Legendary Planeswalker — Elspeth (Loyalty: 4)</Type>
 <ManaCost>2WW (4)</ManaCost>
 <CardText>+1: Create a 1/1 white Soldier creature token.
 +1: Target creature gets +3/+3 and gains flying until end of turn.
@@ -675,7 +675,11 @@ Entwine {1}{W} (Choose both if you pay the entwine cost.)</CardText>
 When Yosei, the Morning Star dies, target player skips his or her next untap step. Tap up to five target permanents that player controls.</CardText>
 <Artist>Hiro Izawa</Artist>
 <Multiverseid>370574</Multiverseid>
-<Rulings>2013/06/07: The triggered ability targets the player and up to five permanents that player controls. If all targets are illegal as the ability tries to resolve, it will be countered and none of its effects will happen.</Rulings>
+<Rulings>2017/11/17: If any of the targets of Yosei's ability are illegal, they won't be tapped.
+2017/11/17: If all of the permanents targeted by Yosei's ability become illegal targets, nothing becomes tapped, but the target player still skips his or her untap step.
+2017/11/17: If the player becomes an illegal target, the target permanents are tapped, but the player doesn't skip his or her untap step.
+2017/11/17: If a permanent won't untap during its controller's next untap step, that effect waits to apply until its controller has an untap step that isn't skipped.
+2017/11/17: If more than one effect instructs a player to skip his or her next untap step, such as if Yosei dies more than once in a turn, that player skips that many untap steps. This is different from effects that state that something doesn't untap during an untap step.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -732,8 +736,8 @@ Evoke {1}{U}{U} (You may cast this spell for its evoke cost. If you do, it's sac
 • Draw a card.</CardText>
 <Artist>Wayne England</Artist>
 <Multiverseid>370439</Multiverseid>
-<Rulings>2013/06/07: You choose both modes as you cast <Cryptic Command>. You must choose two different modes.
-2013/06/07: Look at both chosen modes to determine how many targets <Cryptic Command> has, if any. If it has at least one target, and all its targets are illegal when it tries to resolve, then it will be countered and none of its effects will happen. For example, if you choose the second and fourth modes, and the permanent is an illegal target when <Cryptic Command> tries to resolve, you won't draw a card.</Rulings>
+<Rulings>2017/11/17: You choose both modes as you cast <Cryptic Command>. You must choose two different modes.
+2017/11/17: Look at both chosen modes to determine how many targets <Cryptic Command> has, if any. If it has at least one target, and all its targets are illegal when it tries to resolve, then it will be countered and none of its effects will happen. For example, if you choose the second and fourth modes, and the permanent is an illegal target when <Cryptic Command> tries to resolve, you won't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -931,6 +935,7 @@ Persist (When this creature dies, if it had no -1/-1 counters on it, return it t
 When Keiga, the Tide Star dies, gain control of target creature.</CardText>
 <Artist>Ittoku</Artist>
 <Multiverseid>370542</Multiverseid>
+<Rulings>2017/11/17: Keiga's effect lasts indefinitely. It doesn't wear off during the cleanup step.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1811,7 +1816,7 @@ Suspend 5—{1}{B} (Rather than cast this card from your hand, you may pay {1}{B
 <Flavor>Tangling vines, fetid murk, paralyzing poisons, and crawling dead. The swamp is nature's trap waiting to be exploited by unnatural minds.</Flavor>
 <Artist>Pete Venters</Artist>
 <Multiverseid>370570</Multiverseid>
-<Rulings>2007/02/01: This is the timeshifted version of <Master Decoy>.</Rulings>
+<Rulings>2007/02/01: This is the timeshifted version of Master Decoy.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2048,8 +2053,8 @@ Delve (Each card you exile from your graveyard while casting this spell pays for
 <Multiverseid>370419</Multiverseid>
 <Rulings>2017/03/14: Nonbasic lands will lose any other land types and abilities they had. They will gain the land type Mountain and gain the ability "{T}: Add {R} to your mana pool."
 2017/03/14: <Blood Moon>'s effect doesn't affect names or supertypes. It won't turn any land into a basic land or remove the legendary supertype from a legendary land, and the lands won't be named "Mountain."
-2017/03/14: If a nonbasic land has an ability that causes it to enter the battlefield tapped, that ability will still function. For example, if Blood Crypt is entering the battlefield, its controller may pay 2 life to have it enter untapped. Regardless of this choice, it will be only a Mountain and not a Swamp. The same is also true of any other abilities that modify how a land enters the battlefield or apply "as" a land enters the battlefield, such as the first ability of Cavern of Souls.
-2017/03/14: If a nonbasic land has an ability that triggers "when" it enters the battlefield, it will lose that ability before it triggers.</Rulings>
+2017/03/14: If a nonbasic land has an ability that triggers "when" it enters the battlefield, it will lose that ability before it triggers.
+2017/09/29: If a nonbasic land has an ability that causes it to enter the battlefield tapped, it lose will that ability before it applies. The same is also true of any other abilities that modify how a land enters the battlefield or apply "as" a land enters the battlefield, such as the first ability of Cavern of Souls. This is a change from previous rulings.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2067,7 +2072,7 @@ Delve (Each card you exile from your graveyard while casting this spell pays for
 <Flavor>Blood, bone, and sinew are magnified, as is the rage that drives them. The brain, however, remains unchanged—a little bean, swinging by a strand in a cavernous, raving head.</Flavor>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>370454</Multiverseid>
-<Rulings>2007/02/01: This is the timeshifted version of <Giant Growth>.</Rulings>
+<Rulings>2007/02/01: This is the timeshifted version of Giant Growth.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2339,8 +2344,11 @@ When Hammerheim Deadeye enters the battlefield, destroy target creature with fly
 {T}: Create a token that's a copy of target nonlegendary creature you control. That token has haste. Sacrifice it at the beginning of the next end step.</CardText>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>370534</Multiverseid>
-<Rulings>2013/06/07: As the token is created, it checks the printed values of the creature it's copying — or, if that creature is itself a token, the original characteristics of that token as stated by the effect that put it onto the battlefield — as well as any copy effects that have been applied to it. It won't copy counters on the creature, nor will it copy other effects that have changed the creature's power, toughness, types, color, or so on.
-2013/06/07: Haste is part of the token's copiable values. Copies of that token will also have haste.</Rulings>
+<Rulings>2017/11/17: The token copies exactly what was printed on the creature and nothing else (unless that creature was copying something else or was a token; see below). It doesn't copy whether that creature was tapped or untapped, whether it had any counters on it or Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on.
+2017/11/17: If the copied creature had {X} in its mana cost, X is 0.
+2017/11/17: If the copied creature was copying something else, the tokens enter the battlefield as whatever that creature was copying.
+2017/11/17: If the copied creature is a token, the tokens created by Kiki-Jiki's ability copies the original characteristics of that token as stated by the effect that put it onto the battlefield.
+2017/11/17: Any enters-the-battlefield abilities of the copied creature will trigger when the tokens enter the battlefield. Any "As [this creature] enters the battlefield" or "[This creature] enters the battlefield with" abilities of the copied creature will also work.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2898,7 +2906,7 @@ Suspend 4—{1}{G} (Rather than cast this card from your hand, you may pay {1}{G
 <SetId>MMA</SetId>
 <No>148</No>
 <Name>Imperiosaur</Name>
-<Type>Creature — Lizard 5/5</Type>
+<Type>Creature — Dinosaur 5/5</Type>
 <ManaCost>2GG (4)</ManaCost>
 <CardText>Spend only mana produced by basic lands to cast Imperiosaur.</CardText>
 <Flavor>"An ancient, powerful force has overtaken the valley. I sympathize for its former inhabitants, but I rejoice for the land itself."
@@ -2907,9 +2915,9 @@ Suspend 4—{1}{G} (Rather than cast this card from your hand, you may pay {1}{G
 <Multiverseid>370561</Multiverseid>
 <Rulings>2007/05/01: Mana from any source other than a land with the supertype "basic" can't be spent to cast <Imperiosaur>.
 2007/05/01: Many mana-producing effects (such as Heartbeat of Spring or Utopia Sprawl, for example) add mana to a player's mana pool whenever a land becomes tapped. This mana is produced by the enchantment, not the land, so it can't be used to pay for <Imperiosaur>.
-2007/05/01: A small number of effects (<Pulse of Llanowar> and <Hall of Gemstone>, for example) state that a land "produces" certain mana instead of what it would normally produce. If the land is basic, then mana produced this way can be spent to cast <Imperiosaur>.
-2007/05/01: If a basic land gains a mana ability (from <Riftstone Portal>, <Joiner Adept>, or <Rain of Filth>, for example), the mana produced this way can be used to cast for <Imperiosaur>.
-2007/05/01: <Imperiosaur>'s restriction applies to the total cost to cast it. If there are any additional costs (such as from <Feroz's Ban>, for example), those costs would have to be paid with mana produced by basic lands as well.</Rulings>
+2007/05/01: A small number of effects (Pulse of Llanowar and Hall of Gemstone, for example) state that a land "produces" certain mana instead of what it would normally produce. If the land is basic, then mana produced this way can be spent to cast <Imperiosaur>.
+2007/05/01: If a basic land gains a mana ability (from Riftstone Portal, Joiner Adept, or Rain of Filth, for example), the mana produced this way can be used to cast for <Imperiosaur>.
+2007/05/01: <Imperiosaur>'s restriction applies to the total cost to cast it. If there are any additional costs (such as from Feroz's Ban, for example), those costs would have to be paid with mana produced by basic lands as well.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2947,7 +2955,8 @@ Suspend 4—{1}{G} (Rather than cast this card from your hand, you may pay {1}{G
 When Jugan, the Rising Star dies, you may distribute five +1/+1 counters among any number of target creatures.</CardText>
 <Artist>Shishizaru</Artist>
 <Multiverseid>370564</Multiverseid>
-<Rulings>2013/06/07: You announce the target creatures and how you're distributing the +1/+1 counters as you put the triggered ability on the stack. If one of the target creatures becomes illegal, you can't change how the counters will be distributed.</Rulings>
+<Rulings>2017/11/17: You choose how many targets Jugan's triggered ability has and how the counters are distributed as you put the ability onto the stack. Each target must receive at least one counter.
+2017/11/17: If some of the creatures are illegal targets as Jugan's triggered ability tries to resolve, the original distribution of counters still applies and the counters that would have been put on the illegal targets are lost. They won't be put instead on a legal target.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3172,7 +3181,7 @@ Entwine {2}{G} (Choose both if you pay the entwine cost.)</CardText>
 <Name>Search for Tomorrow</Name>
 <Type>Sorcery</Type>
 <ManaCost>2G (3)</ManaCost>
-<CardText>Search your library for a basic land card and put it onto the battlefield. Then shuffle your library.
+<CardText>Search your library for a basic land card, put it onto the battlefield, then shuffle your library.
 Suspend 2—{G} (Rather than cast this card from your hand, you may pay {G} and exile it with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)</CardText>
 <Artist>Randy Gallegos</Artist>
 <Multiverseid>370526</Multiverseid>
@@ -3221,7 +3230,7 @@ Remove three spore counters from Sporesower Thallid: Create a 1/1 green Saprolin
 Creatures you control have "Remove two spore counters from this creature: Create a 1/1 green Saproling creature token."</CardText>
 <Artist>James Kei</Artist>
 <Multiverseid>370503</Multiverseid>
-<Rulings>2007/05/01: All creatures you control gain the ability, regardless of whether they have spore counters on them, which means for example, they would lose the bonus from <Muraganda Petroglyphs>.
+<Rulings>2007/05/01: All creatures you control gain the ability, regardless of whether they have spore counters on them, which means for example, they would lose the bonus from Muraganda Petroglyphs.
 2007/05/01: Your other creatures that produce spore counters (such as Thallids) can create a Saproling by removing two spore counters (by using this ability) or by removing three spore counters (by using their own ability).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3464,7 +3473,9 @@ Draw a card.</CardText>
 <Flavor>The Izzet learn something from every lesson they teach.</Flavor>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Multiverseid>370376</Multiverseid>
-<Rulings>2006/02/01: If all chosen targets are illegal as <Electrolyze> tries to resolve, it will be countered and none of its effects will happen. No damage will be dealt and you won't draw a card.</Rulings>
+<Rulings>2017/11/17: You divide the damage as you cast <Electrolyze>, not as it resolves. Each target must be assigned at least 1 damage. In other words, as you cast <Electrolyze>, you choose whether to have it deal 2 damage to a single target, or deal 1 damage to each of two targets.
+2017/11/17: If <Electrolyze> targets two creatures and one becomes an illegal target, the remaining target is dealt 1 damage, not 2. You'll still draw a card.
+2017/11/17: If all chosen targets are illegal as <Electrolyze> tries to resolve, it will be countered and none of its effects will happen. No damage will be dealt and you won't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3529,9 +3540,10 @@ Spells your opponents cast cost {1} more to cast.</CardText>
 —Elspeth</Flavor>
 <Artist>Michael Komarck</Artist>
 <Multiverseid>370379</Multiverseid>
-<Rulings>2009/02/01: The activated ability's cost checks the land's subtype, not its name. You can sacrifice a nonbasic land this way as long as it has the subtype Forest or Plains.
-2009/02/01: Sacrificing a Forest or Plains is part of the cost of <Knight of the Reliquary>'s activated ability. Assuming that sacrificing the land puts it into your graveyard, <Knight of the Reliquary>'s first ability will immediately give it an additional +1/+1 when that cost is paid because there'll be a new land card in your graveyard. Paying a cost can't be responded to (with Shock, for example).
-2009/02/01: <Knight of the Reliquary>'s activated ability lets you find any land card, not just a basic land card.</Rulings>
+<Rulings>2017/11/17: <Knight of the Reliquary>'s first ability applies only while it's on the battlefield. In all other zones, it's a 2/2 creature.
+2017/11/17: The activated ability's cost checks the land's subtype, not its name. You can sacrifice a nonbasic land this way as long as it has the subtype Forest or Plains. Most nonbasic lands don't have basic land types, even if they produce colored mana. For example, Horizon Canopy is neither a Forest nor a Plains, while Temple Garden is both.
+2017/11/17: Sacrificing a Forest or Plains is part of the cost of <Knight of the Reliquary>'s activated ability. Assuming that sacrificing the land puts it into your graveyard, <Knight of the Reliquary>'s first ability will immediately give it an additional +1/+1 when that cost is paid because there'll be a new land card in your graveyard. Paying a cost can't be responded to (with Shock, for example).
+2017/11/17: <Knight of the Reliquary>'s activated ability lets you find any land card, not just a basic land card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3550,7 +3562,7 @@ Spells your opponents cast cost {1} more to cast.</CardText>
 —Ajani</Flavor>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>370528</Multiverseid>
-<Rulings>2013/06/07: If the creature or player is an illegal target as <Lightning Helix> tries to resolve, it will be countered and none of its effects will happen. You won't gain 3 life.</Rulings>
+<Rulings>2017/11/17: If the chosen target is illegal when <Lightning Helix> tries to resolve, it will be countered and none of its effects will happen. You won't gain 3 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3622,7 +3634,7 @@ If Progenitus would be put into a graveyard from anywhere, reveal Progenitus and
 <SetId>MMA</SetId>
 <No>183</No>
 <Name>Sarkhan Vol</Name>
-<Type>Planeswalker — Sarkhan (Loyalty: 4)</Type>
+<Type>Legendary Planeswalker — Sarkhan (Loyalty: 4)</Type>
 <ManaCost>2RG (4)</ManaCost>
 <CardText>+1: Creatures you control get +1/+1 and gain haste until end of turn.
 -2: Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.
@@ -3915,6 +3927,8 @@ Retrace (You may cast this card from your graveyard by discarding a land card in
 {T}: You may put a creature card with converted mana cost equal to the number of charge counters on Aether Vial from your hand onto the battlefield.</CardText>
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>370514</Multiverseid>
+<Rulings>2017/11/17: If <Aether Vial> leaves the battlefield while its second ability is on the stack, use its last known number of charge counters to determine what you may put from your hand onto the battlefield.
+2017/11/17: If a card in a player's hand has {X} in its mana cost, X is considered to be 0.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4125,8 +4139,7 @@ When Epochrasite dies, exile it with three time counters on it and it gains susp
 {T}, Sacrifice Lotus Bloom: Add three mana of any one color to your mana pool.</CardText>
 <Artist>Mark Zug</Artist>
 <Multiverseid>370562</Multiverseid>
-<Rulings>2006/10/15: This has no mana cost, which means it can't normally be cast as a spell. You could, however, cast it via some alternate means, like with <Fist of Suns> or <Mind's Desire>.
-2013/06/07: You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage's effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time.
+<Rulings>2013/06/07: You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage's effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time.
 2013/06/07: Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
 2013/06/07: If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
 2013/06/07: If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again during the card's owner's next upkeep.

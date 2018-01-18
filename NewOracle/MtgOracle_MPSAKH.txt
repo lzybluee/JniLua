@@ -11,7 +11,9 @@
 • Destroy all creatures with converted mana cost 4 or greater.</CardText>
 <Artist>Richard Wright</Artist>
 <Multiverseid>429860</Multiverseid>
-<Rulings>2007/10/01: If the first and third modes are chosen, an artifact creature with converted mana cost 3 or less would be destroyed twice by this spell. It would have to be regenerated twice to survive. (A similar thing happens with most of the other combinations.)</Rulings>
+<Rulings>2017/11/17: Each of the chosen modes happens sequentially. If a permanent has an ability that triggers whenever it or another permanent is destroyed, it will see permanents destroyed at the same time as it or before it, but not permanents destroyed by later modes.
+2017/11/17: If the first and third modes are chosen, an artifact creature with converted mana cost 3 or less will have to be regenerated twice to survive. This is because the modes happen sequentially, and the regeneration "shield" is used up by the first one. (A similar thing happens with most of the other combinations.)
+2017/11/17: If a card is exiled "until" another permanent leaves the battlefield, the exiled card returns to the battlefield immediately after that permanent leaves the battlefield during <Austere Command>'s resolution, and it may be destroyed by a later mode.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -141,9 +143,9 @@ Oketra the True can't attack or block unless you control at least three other cr
 Whenever an opponent draws a card, you may draw two cards.</CardText>
 <Artist>Lius Lasahido</Artist>
 <Multiverseid>429867</Multiverseid>
-<Rulings>2011/06/01: You may either draw two cards or not draw at all. You can't choose to draw only one card.
-2011/06/01: The ability triggers once for each card an opponent draws. You choose whether to draw two cards as each of those abilities resolves.
-2011/06/01: If each player controls a <Consecrated Sphinx>, their abilities will cause each other to trigger until one player chooses not to draw cards.</Rulings>
+<Rulings>2017/11/17: You may either draw two cards or not draw at all. You can't choose to draw only one card.
+2017/11/17: The ability triggers once for each card an opponent draws. You choose whether to draw two cards as each of those abilities resolves.
+2017/11/17: If each player controls a <Consecrated Sphinx>, their abilities will cause each other to trigger until one player chooses not to draw cards.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -197,8 +199,8 @@ Whenever an opponent draws a card, you may draw two cards.</CardText>
 • Draw a card.</CardText>
 <Artist>Richard Wright</Artist>
 <Multiverseid>429870</Multiverseid>
-<Rulings>2013/06/07: You choose both modes as you cast <Cryptic Command>. You must choose two different modes.
-2013/06/07: Look at both chosen modes to determine how many targets <Cryptic Command> has, if any. If it has at least one target, and all its targets are illegal when it tries to resolve, then it will be countered and none of its effects will happen. For example, if you choose the second and fourth modes, and the permanent is an illegal target when <Cryptic Command> tries to resolve, you won't draw a card.</Rulings>
+<Rulings>2017/11/17: You choose both modes as you cast <Cryptic Command>. You must choose two different modes.
+2017/11/17: Look at both chosen modes to determine how many targets <Cryptic Command> has, if any. If it has at least one target, and all its targets are illegal when it tries to resolve, then it will be countered and none of its effects will happen. For example, if you choose the second and fourth modes, and the permanent is an illegal target when <Cryptic Command> tries to resolve, you won't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -688,7 +690,7 @@ Fear (This creature can't be blocked except by artifact creatures and/or black c
 <CardText>Destroy all creatures. They can't be regenerated.</CardText>
 <Artist>Zack Stella</Artist>
 <Multiverseid>430674</Multiverseid>
-<Rulings>2007/02/01: This is the timeshifted version of <Wrath of God>.</Rulings>
+<Rulings>2007/02/01: This is the timeshifted version of Wrath of God.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -810,8 +812,8 @@ At the beginning of your next upkeep, pay {2}{B}. If you don't, you lose the gam
 <Multiverseid>430681</Multiverseid>
 <Rulings>2017/03/14: Nonbasic lands will lose any other land types and abilities they had. They will gain the land type Mountain and gain the ability "{T}: Add {R} to your mana pool."
 2017/03/14: <Blood Moon>'s effect doesn't affect names or supertypes. It won't turn any land into a basic land or remove the legendary supertype from a legendary land, and the lands won't be named "Mountain."
-2017/03/14: If a nonbasic land has an ability that causes it to enter the battlefield tapped, that ability will still function. For example, if Blood Crypt is entering the battlefield, its controller may pay 2 life to have it enter untapped. Regardless of this choice, it will be only a Mountain and not a Swamp. The same is also true of any other abilities that modify how a land enters the battlefield or apply "as" a land enters the battlefield, such as the first ability of Cavern of Souls.
-2017/03/14: If a nonbasic land has an ability that triggers "when" it enters the battlefield, it will lose that ability before it triggers.</Rulings>
+2017/03/14: If a nonbasic land has an ability that triggers "when" it enters the battlefield, it will lose that ability before it triggers.
+2017/09/29: If a nonbasic land has an ability that causes it to enter the battlefield tapped, it lose will that ability before it applies. The same is also true of any other abilities that modify how a land enters the battlefield or apply "as" a land enters the battlefield, such as the first ability of Cavern of Souls. This is a change from previous rulings.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -901,9 +903,9 @@ Whenever you draw a card, create a 1/1 blue and red Insect creature token with f
 When The Locust God dies, return it to its owner's hand at the beginning of the next end step.</CardText>
 <Artist>Grzegorz Rutkowski</Artist>
 <Multiverseid>430686</Multiverseid>
-<Rulings>2017/06/27: If a spell or ability causes you to put cards into your hand without specifically using the word "draw," <The Locust God>'s first triggered ability won't trigger.
-2017/06/27: If this creature dies but leaves your graveyard before the next end step, it will remain in its new zone.
-2017/06/27: The "next end step" refers to the next end step that occurs, not the end step of the next turn. If this creature dies before a turn's end step (for example, during combat), it will be returned to its owner's hand at the beginning of that turn's end step.</Rulings>
+<Rulings>2017/07/14: If a spell or ability causes you to put cards into your hand without specifically using the word "draw," <The Locust God>'s first triggered ability won't trigger.
+2017/07/14: If this creature dies but leaves your graveyard before the next end step, it will remain in its new zone.
+2017/07/14: The "next end step" refers to the next end step that occurs, not the end step of the next turn. If this creature dies before a turn's end step (for example, during combat), it will be returned to its owner's hand at the beginning of that turn's end step.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -938,14 +940,14 @@ When The Locust God dies, return it to its owner's hand at the beginning of the 
 When The Scarab God dies, return it to its owner's hand at the beginning of the next end step.</CardText>
 <Artist>Grzegorz Rutkowski</Artist>
 <Multiverseid>430688</Multiverseid>
-<Rulings>2017/06/27: The number of Zombies you control is counted as <The Scarab God>'s first ability resolves. Players can try to change that number in response to the ability (perhaps by activating its second ability).
-2017/06/27: The token copies exactly what was printed on the original card and nothing else, except the characteristics it specifically modifies. It doesn't copy any information about the object the card was before it was put into its owner's graveyard.
-2017/06/27: The token is a Zombie instead of its other types (unlike Zombies created by an eternalize ability) and is black instead of its other colors. Its power and toughness are 4/4. These are copiable values of the token that other effects may copy.
-2017/06/27: Unlike the tokens created by an eternalize ability, this token has the mana cost and thus converted mana cost of the card it's copying.
-2017/06/27: If the card copied by the token had any "when [this permanent] enters the battlefield" abilities, then the token also has those abilities and will trigger them when it's created. Similarly, any "as [this permanent] enters the battlefield" or "[this permanent] enters the battlefield with" abilities that the token has copied will also work.
-2017/06/27: In a Two-Headed Giant game, <The Scarab God>'s first ability causes the opposing team to lose life equal to twice the number of Zombies you control, although you scry only equal to the number of Zombies you control.
-2017/06/27: If this creature dies but leaves your graveyard before the next end step, it will remain in its new zone.
-2017/06/27: The "next end step" refers to the next end step that occurs, not the end step of the next turn. If this creature dies before a turn's end step (for example, during combat), it will be returned to its owner's hand at the beginning of that turn's end step.</Rulings>
+<Rulings>2017/07/14: The number of Zombies you control is counted as <The Scarab God>'s first ability resolves. Players can try to change that number in response to the ability (perhaps by activating its second ability).
+2017/07/14: The token copies exactly what was printed on the original card and nothing else, except the characteristics it specifically modifies. It doesn't copy any information about the object the card was before it was put into its owner's graveyard.
+2017/07/14: The token is a Zombie instead of its other types (unlike Zombies created by an eternalize ability) and is black instead of its other colors. Its power and toughness are 4/4. These are copiable values of the token that other effects may copy.
+2017/07/14: Unlike the tokens created by an eternalize ability, this token has the mana cost and thus converted mana cost of the card it's copying.
+2017/07/14: If the card copied by the token had any "when [this permanent] enters the battlefield" abilities, then the token also has those abilities and will trigger them when it's created. Similarly, any "as [this permanent] enters the battlefield" or "[this permanent] enters the battlefield with" abilities that the token has copied will also work.
+2017/07/14: In a Two-Headed Giant game, <The Scarab God>'s first ability causes the opposing team to lose life equal to twice the number of Zombies you control, although you scry only equal to the number of Zombies you control.
+2017/07/14: If this creature dies but leaves your graveyard before the next end step, it will remain in its new zone.
+2017/07/14: The "next end step" refers to the next end step that occurs, not the end step of the next turn. If this creature dies before a turn's end step (for example, during combat), it will be returned to its owner's hand at the beginning of that turn's end step.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -964,10 +966,10 @@ When The Scarab God dies, return it to its owner's hand at the beginning of the 
 When The Scorpion God dies, return it to its owner's hand at the beginning of the next end step.</CardText>
 <Artist>Grzegorz Rutkowski</Artist>
 <Multiverseid>430689</Multiverseid>
-<Rulings>2017/06/27: You'll draw only one card when a creature with more than one -1/-1 counter on it dies.
-2017/06/27: If a creature with a -1/-1 counter on it dies at the same time as <The Scorpion God> does, you'll draw a card. The same is true if <The Scorpion God> dies with a -1/-1 counter on it.
-2017/06/27: If this creature dies but leaves your graveyard before the next end step, it will remain in its new zone.
-2017/06/27: The "next end step" refers to the next end step that occurs, not the end step of the next turn. If this creature dies before a turn's end step (for example, during combat), it will be returned to its owner's hand at the beginning of that turn's end step.</Rulings>
+<Rulings>2017/07/14: You'll draw only one card when a creature with more than one -1/-1 counter on it dies.
+2017/07/14: If a creature with a -1/-1 counter on it dies at the same time as <The Scorpion God> does, you'll draw a card. The same is true if <The Scorpion God> dies with a -1/-1 counter on it.
+2017/07/14: If this creature dies but leaves your graveyard before the next end step, it will remain in its new zone.
+2017/07/14: The "next end step" refers to the next end step that occurs, not the end step of the next turn. If this creature dies before a turn's end step (for example, during combat), it will be returned to its owner's hand at the beginning of that turn's end step.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

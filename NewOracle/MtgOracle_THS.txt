@@ -170,24 +170,13 @@ Enchanted creature gets +0/+2.</CardText>
 <SetId>THS</SetId>
 <No>9</No>
 <Name>Elspeth, Sun's Champion</Name>
-<Type>Planeswalker — Elspeth (Loyalty: 4)</Type>
+<Type>Legendary Planeswalker — Elspeth (Loyalty: 4)</Type>
 <ManaCost>4WW (6)</ManaCost>
 <CardText>+1: Create three 1/1 white Soldier creature tokens.
 -3: Destroy all creatures with power 4 or greater.
 -7: You get an emblem with "Creatures you control get +2/+2 and have flying."</CardText>
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>373649</Multiverseid>
-<Rulings>2013/07/01: Planeswalkers are permanents. You can cast one at the time you could cast a sorcery. When your planeswalker spell resolves, it enters the battlefield under your control.
-2013/07/01: Planeswalkers are not creatures. Spells and abilities that affect creatures won't affect them.
-2013/07/01: Planeswalkers have loyalty. A planeswalker enters the battlefield with a number of loyalty counters on it equal to the number printed in its lower right corner. Activating one of its abilities may cause it to gain or lose loyalty counters. Damage dealt to a planeswalker causes that many loyalty counters to be removed from it. If it has no loyalty counters on it, it's put into its owner's graveyard as a state-based action.
-2013/07/01: Planeswalkers each have a number of activated abilities called "loyalty abilities." You can activate a loyalty ability of a planeswalker you control only at the time you could cast a sorcery and only if you haven't activated one of that planeswalker's loyalty abilities yet that turn.
-2013/07/01: The cost to activate a planeswalker's loyalty ability is represented by a symbol with a number inside. Up-arrows contain positive numbers, such as "+1"; this means "Put one loyalty counter on this planeswalker." Down-arrows contain negative numbers, such as "-7"; this means "Remove seven loyalty counters from this planeswalker." A symbol with a "0" means "Put zero loyalty counters on this planeswalker."
-2013/07/01: You can't activate a planeswalker's ability with a negative loyalty cost unless the planeswalker has at least that many loyalty counters on it.
-2013/07/01: Planeswalkers can't attack (unless an effect turns the planeswalker into a creature). However, they can be attacked. Each of your attacking creatures can attack your opponent or a planeswalker that player controls. You say which as you declare attackers.
-2013/07/01: If your planeswalkers are being attacked, you can block the attackers as normal.
-2013/07/01: If a creature that's attacking a planeswalker isn't blocked, it'll deal its combat damage to that planeswalker. Damage dealt to a planeswalker causes that many loyalty counters to be removed from it.
-2013/07/01: If a source you control would deal noncombat damage to an opponent, you may have that source deal that damage to a planeswalker that opponent controls instead. For example, although you can't target a planeswalker with Shock, you can target your opponent with Shock, and then as Shock resolves, choose to have Shock deal its 2 damage to one of your opponent's planeswalkers. (You can't split up that damage between different players and/or planeswalkers.) If you have Shock deal its damage to a planeswalker, two loyalty counters are removed from it.
-2013/07/01: If a player controls two or more planeswalkers that share a planeswalker type, that player chooses one of them and the rest are put into their owners' graveyards as a state-based action.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1078,7 +1067,7 @@ When Master of Waves enters the battlefield, create a number of 1/0 blue Element
 <Type>Creature — Human Wizard 2/3</Type>
 <ManaCost>2U (3)</ManaCost>
 <CardText>{2}{U}, {T}: The controller of target instant or sorcery spell copies it. That player may choose new targets for the copy.</CardText>
-<Flavor>"Every object has an echo in the Aether beyond the world. Every idea has a shadow that can be brought to light."</Flavor>
+<Flavor>"Every object has an echo in the Æther beyond the world. Every idea has a shadow that can be brought to light."</Flavor>
 <Artist>Jason A. Engle</Artist>
 <Multiverseid>373741</Multiverseid>
 <Rulings>2013/09/15: <Meletis Charlatan>'s ability can target any instant or sorcery spell, not just one with targets and not just one that you control.
@@ -1235,7 +1224,9 @@ Whenever Prognostic Sphinx attacks, scry 3. (Look at the top three cards of your
 —Sphinx's riddle</Flavor>
 <Artist>Eric Velhagen</Artist>
 <Multiverseid>373517</Multiverseid>
-<Rulings>2013/09/15: When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
+<Rulings>2013/09/15: You can cast <Sea God's Revenge> with no targets. If you do, you'll scry 1 when it resolves. If you choose at least one target, and all chosen targets are illegal when <Sea God's Revenge> tries to resolve, it will be countered and none of its effects will happen.
+2013/09/15: In multiplayer games, the three target creatures can be controlled by different opponents.
+2013/09/15: When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
 2013/09/15: You choose how to order cards returned to your library after scrying no matter where you put them.
 2013/09/15: You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
 2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it will be countered and none of its effects will happen. You won't scry.</Rulings>
@@ -1378,6 +1369,8 @@ At the beginning of your upkeep, scry 1.
 —Kenessos, priest of Thassa</Flavor>
 <Artist>Ryan Yee</Artist>
 <Multiverseid>373662</Multiverseid>
+<Rulings>2013/09/15: If the target player is an illegal target when <Thassa's Bounty> tries to resolve, it will be countered and none of its effects will happen. You won't draw three cards.
+2013/09/15: Follow the instructions in the order listed on the card: if you target yourself, you'll draw three cards, then put the top three cards of your library into your graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1492,6 +1485,10 @@ Vaporkin can block only creatures with flying.</CardText>
 <Flavor>Philosophers say those lost at sea ascended to a more perfect realm. Sailors say they drowned.</Flavor>
 <Artist>Chris Rahn</Artist>
 <Multiverseid>373527</Multiverseid>
+<Rulings>2013/09/15: When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
+2013/09/15: You choose how to order cards returned to your library after scrying no matter where you put them.
+2013/09/15: You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
+2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it will be countered and none of its effects will happen. You won't scry.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2274,7 +2271,7 @@ Enchanted creature gets -1/-1, and its activated abilities can't be activated.</
 <Flavor>There was no reason to pray. This was already an act of the gods.</Flavor>
 <Artist>Noah Bradley</Artist>
 <Multiverseid>373604</Multiverseid>
-<Rulings>2013/09/15: Creatures don't necessarily have to be dealt lethal damage by <Anger of the Gods> to be exiled. After being dealt damage, if they would die for any reason that turn, they'll be exiled instead.</Rulings>
+<Rulings>2017/11/17: Creatures don't necessarily have to be dealt lethal damage by <Anger of the Gods> to be exiled. After being dealt damage, if they would die for any reason that turn, they'll be exiled instead.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2367,7 +2364,7 @@ The Champion wiped the sweat and blood from her brow.
 <Name>Deathbellow Raider</Name>
 <Type>Creature — Minotaur Berserker 2/3</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>Deathbellow Raider attacks each turn if able.
+<CardText>Deathbellow Raider attacks each combat if able.
 {2}{B}: Regenerate Deathbellow Raider.</CardText>
 <Flavor>"The temple has been rededicated. It belongs to Mogis now."
 —Rastos, disciple of Mogis</Flavor>
@@ -2944,6 +2941,10 @@ When Stormbreath Dragon becomes monstrous, it deals damage to each opponent equa
 <CardText>Target creature gets +3/+1 until end of turn. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)</CardText>
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>373607</Multiverseid>
+<Rulings>2013/09/15: When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
+2013/09/15: You choose how to order cards returned to your library after scrying no matter where you put them.
+2013/09/15: You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
+2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it will be countered and none of its effects will happen. You won't scry.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3236,7 +3237,8 @@ Enchanted creature gets +2/+2.</CardText>
 <Flavor>"The wilds are a garden tended by divine hands."</Flavor>
 <Artist>Chase Stone</Artist>
 <Multiverseid>373538</Multiverseid>
-<Rulings>2013/09/15: Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
+<Rulings>2013/09/15: The activated ability is a mana ability. It doesn't use the stack and can't be responded to.
+2013/09/15: Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
 2013/09/15: Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
 2013/09/15: Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
 2013/09/15: If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it's still on the battlefield at that time.</Rulings>
@@ -3437,7 +3439,8 @@ Enchanted land is every basic land type in addition to its other types.</CardTex
 <Artist>Ralph Horsley</Artist>
 <Multiverseid>373580</Multiverseid>
 <Rulings>2013/09/15: The enchanted land will have the land types Plains, Island, Swamp, Mountain, and Forest. It will also have the mana ability of each basic land type (for example, Forests can tap to produce {G}). It still has its other subtypes and abilities.
-2013/09/15: Giving a land extra basic land types doesn't change its name or whether it's legendary or basic.</Rulings>
+2013/09/15: Giving a land extra basic land types doesn't change its name or whether it's legendary or basic.
+2013/09/15: If the target of an Aura is illegal when it tries to resolve, the Aura will be countered. The Aura doesn't enter the battlefield, so you won't get to draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3796,7 +3799,7 @@ When Ashen Rider enters the battlefield or dies, exile target permanent.</CardTe
 <SetId>THS</SetId>
 <No>188</No>
 <Name>Ashiok, Nightmare Weaver</Name>
-<Type>Planeswalker — Ashiok (Loyalty: 3)</Type>
+<Type>Legendary Planeswalker — Ashiok (Loyalty: 3)</Type>
 <ManaCost>1UB (3)</ManaCost>
 <CardText>+2: Exile the top three cards of target opponent's library.
 -X: Put a creature card with converted mana cost X exiled with Ashiok, Nightmare Weaver onto the battlefield under your control. That creature is a Nightmare in addition to its other types.
@@ -3848,7 +3851,7 @@ When Ashen Rider enters the battlefield or dies, exile target permanent.</CardTe
 <Flavor>She paints pictures with words, though not all pictures show the truth.</Flavor>
 <Artist>John Stanko</Artist>
 <Multiverseid>373621</Multiverseid>
-<Rulings>2013/09/15: Whether you control a creature with a +1/+1 counter on it is checked only when the ability resolves. Notably, if <Chronicler of Heroes> entering the battlefield causes an evolve ability to trigger, you can have the evolve ability resolve first and then draw a card.</Rulings>
+<Rulings>2017/11/17: Whether you control a creature with a +1/+1 counter on it is checked only when <Chronicler of Heroes>'s ability resolves.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3863,7 +3866,7 @@ When Ashen Rider enters the battlefield or dies, exile target permanent.</CardTe
 <Type>Legendary Creature — Human Soldier 2/2</Type>
 <ManaCost>1WU (3)</ManaCost>
 <CardText>Daxos of Meletis can't be blocked by creatures with power 3 or greater.
-Whenever Daxos of Meletis deals combat damage to a player, exile the top card of that player's library. You gain life equal to that card's converted mana cost. Until end of turn, you may cast that card and you may spend mana as though it were mana of any color to cast it.</CardText>
+Whenever Daxos of Meletis deals combat damage to a player, exile the top card of that player's library. You gain life equal to that card's converted mana cost. Until end of turn, you may cast that card and you may spend mana as though it were mana of any color to cast that spell.</CardText>
 <Artist>Karla Ortiz</Artist>
 <Multiverseid>373664</Multiverseid>
 <Rulings>2013/09/15: If Daxos is blocked by a creature, raising that creature's power to 3 or greater won't change or undo the block.
@@ -4216,7 +4219,7 @@ When Underworld Cerberus dies, exile it and each player returns all creature car
 <SetId>THS</SetId>
 <No>209</No>
 <Name>Xenagos, the Reveler</Name>
-<Type>Planeswalker — Xenagos (Loyalty: 3)</Type>
+<Type>Legendary Planeswalker — Xenagos (Loyalty: 3)</Type>
 <ManaCost>2RG (4)</ManaCost>
 <CardText>+1: Add X mana in any combination of {R} and/or {G} to your mana pool, where X is the number of creatures you control.
 0: Create a 2/2 red and green Satyr creature token with haste.
@@ -4463,6 +4466,10 @@ Equip {1}</CardText>
 <Flavor>The price of prophecy is a vacant eye socket.</Flavor>
 <Artist>Daniel Ljunggren</Artist>
 <Multiverseid>373622</Multiverseid>
+<Rulings>2013/09/15: When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
+2013/09/15: You choose how to order cards returned to your library after scrying no matter where you put them.
+2013/09/15: You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
+2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it will be countered and none of its effects will happen. You won't scry.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

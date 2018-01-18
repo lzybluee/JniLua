@@ -277,7 +277,7 @@ When Ulamog is put into a graveyard from anywhere, its owner shuffles his or her
 <Type>Creature — Eldrazi 8/8</Type>
 <ManaCost>8 (8)</ManaCost>
 <CardText>Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)
-Ulamog's Crusher attacks each turn if able.</CardText>
+Ulamog's Crusher attacks each combat if able.</CardText>
 <Flavor>"Whatever the Eldrazi's purpose is, it has nothing to do with something so insignificant as us."
 —Nirthu, lone missionary</Flavor>
 <Artist>Todd Lockwood</Artist>
@@ -285,8 +285,7 @@ Ulamog's Crusher attacks each turn if able.</CardText>
 <Rulings>2010/06/15: Annihilator abilities trigger and resolve during the declare attackers step. The defending player chooses and sacrifices the required number of permanents before he or she declares blockers. Any creatures sacrificed this way won't be able to block.
 2010/06/15: If a creature with annihilator is attacking a planeswalker, and the defending player chooses to sacrifice that planeswalker, the attacking creature continues to attack. It may be blocked. If it isn't blocked, it simply won't deal combat damage to anything.
 2010/06/15: In a Two-Headed Giant game, the controller of an attacking creature with annihilator chooses which of the defending players is affected by the ability. Only that player sacrifices permanents. The choice is made as the ability resolves; once a player is chosen, it's too late for anyone to respond.
-2010/06/15: If, during your declare attackers step, <Ulamog's Crusher> is tapped, is affected by a spell or ability that says it can't attack, or is affected by "summoning sickness," then it doesn't attack. If there's a cost associated with having <Ulamog's Crusher> attack, you aren't forced to pay that cost, so it doesn't have to attack in that case either.
-2010/06/15: If there are multiple combat phases in a turn, <Ulamog's Crusher> must attack only in the first one in which it's able to.</Rulings>
+2010/06/15: If, during your declare attackers step, <Ulamog's Crusher> is tapped, is affected by a spell or ability that says it can't attack, or is affected by "summoning sickness," then it doesn't attack. If there's a cost associated with having <Ulamog's Crusher> attack, you aren't forced to pay that cost, so it doesn't have to attack in that case either.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -453,7 +452,7 @@ Rebound (If you cast this spell from your hand, exile it as it resolves. At the 
 <SetId>ROE</SetId>
 <No>21</No>
 <Name>Gideon Jura</Name>
-<Type>Planeswalker — Gideon (Loyalty: 6)</Type>
+<Type>Legendary Planeswalker — Gideon (Loyalty: 6)</Type>
 <ManaCost>3WW (5)</ManaCost>
 <CardText>+2: During target opponent's next turn, creatures that player controls attack Gideon Jura if able.
 -2: Destroy target tapped creature.
@@ -3373,12 +3372,11 @@ Whenever Lord of Shatterskull Pass attacks, it deals 6 damage to each creature d
 <ManaCost>2R (3)</ManaCost>
 <CardText>Enchant creature
 Whenever enchanted creature becomes tapped, Lust for War deals 3 damage to that creature's controller.
-Enchanted creature attacks each turn if able.</CardText>
+Enchanted creature attacks each combat if able.</CardText>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>193518</Multiverseid>
 <Rulings>2010/06/15: <Lust for War>'s triggered ability triggers when the enchanted creature becomes tapped for any reason, not just when it attacks.
-2010/06/15: If, during its controller's declare attackers step, the enchanted creature is tapped, is affected by a spell or ability that says it can't attack, or is affected by "summoning sickness," then that creature doesn't attack. If there's a cost associated with having that creature attack, its controller isn't forced to pay that cost, so the creature doesn't have to attack in that case either.
-2010/06/15: If there are multiple combat phases in a turn, the enchanted creature must attack only in the first one in which it's able to.</Rulings>
+2010/06/15: If, during its controller's declare attackers step, the enchanted creature is tapped, is affected by a spell or ability that says it can't attack, or is affected by "summoning sickness," then that creature doesn't attack. If there's a cost associated with having that creature attack, its controller isn't forced to pay that cost, so the creature doesn't have to attack in that case either.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4034,8 +4032,7 @@ Draw a card.</CardText>
 <Rulings>2010/06/15: You can target a creature you don't control or that otherwise couldn't attack that turn.
 2010/06/15: If the targeted creature is an illegal target by the time <Irresistible Prey> resolves, the spell is countered. You won't draw a card.
 2010/06/15: The creature affected by <Irresistible Prey> doesn't have to attack that turn.
-2010/06/15: If the affected creature attacks, the defending player must assign at least one blocker to it during the declare blockers step, unless that player controls no creatures that could block it.
-2010/06/15: If there are multiple combat phases in a turn, the affected creature must be blocked only in the first one in which it's able to be blocked.</Rulings>
+2010/06/15: If the affected creature attacks, the defending player must assign at least one blocker to it during the declare blockers step, unless that player controls no creatures that could block it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4333,7 +4330,7 @@ As long as the top card of your library is a land card, Mul Daya Channelers has 
 —The War Diaries</Flavor>
 <Artist>Franz Vohwinkel</Artist>
 <Multiverseid>193610</Multiverseid>
-<Rulings>2010/06/15: <Overgrown Battlement>'s activated ability is a mana ability. No player can respond to it (such as by destroying a creature with defender).</Rulings>
+<Rulings>2017/11/17: <Overgrown Battlement>'s last ability is a mana ability. It doesn't use the stack and can't be responded to (such as by removing creatures with defender you control).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4513,7 +4510,7 @@ Totem armor (If enchanted creature would be destroyed, instead remove all damage
 2010/06/15: You may still sacrifice permanents to pay the costs of spells you cast and abilities you activate, or because a resolving spell or ability you control instructs or allows you to do so. Notably, you may still sacrifice Eldrazi Spawn creature tokens for mana.
 2010/06/15: You may sacrifice a permanent to pay the activation cost of an ability, even if that ability comes from a permanent an opponent controls (such as Excavation).
 2010/06/15: You may sacrifice a permanent as a special action, even if the effect that allows you to do so comes from an opponent's permanent (such as Damping Engine or Volrath's Curse). No one controls special actions.
-2010/06/15: This ability affects only sacrifices. It won't stop a creature from being put into the graveyard due to lethal damage or having 0 toughness, and it won't stop a permanent from being put into the graveyard due to the "legend rule" or the "planeswalker uniqueness rule." None of these are sacrifices; they're the result of game rules.</Rulings>
+2010/06/15: This ability affects only sacrifices. It won't stop a creature from being put into the graveyard due to lethal damage or having 0 toughness, and it won't stop a permanent from being put into the graveyard due to the "legend rule." None of these are sacrifices; they're the result of game rules.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4566,7 +4563,7 @@ Whenever you cast a spell, if it's the second creature spell you cast this turn,
 <SetId>ROE</SetId>
 <No>214</No>
 <Name>Sarkhan the Mad</Name>
-<Type>Planeswalker — Sarkhan (Loyalty: 7)</Type>
+<Type>Legendary Planeswalker — Sarkhan (Loyalty: 7)</Type>
 <ManaCost>3BR (5)</ManaCost>
 <CardText>0: Reveal the top card of your library and put it into your hand. Sarkhan the Mad deals damage to himself equal to that card's converted mana cost.
 -2: Target creature's controller sacrifices it, then that player creates a 5/5 red Dragon creature token with flying.
@@ -4831,7 +4828,7 @@ Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)
 <No>228</No>
 <Name>Evolving Wilds</Name>
 <Type>Land</Type>
-<CardText>{T}, Sacrifice Evolving Wilds: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.</CardText>
+<CardText>{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.</CardText>
 <Flavor>Every world is an organism, able to grow new lands. Some just do it faster than others.</Flavor>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>193483</Multiverseid>

@@ -2,7 +2,7 @@
 <SetId>LW</SetId>
 <No>1</No>
 <Name>Ajani Goldmane</Name>
-<Type>Planeswalker — Ajani (Loyalty: 4)</Type>
+<Type>Legendary Planeswalker — Ajani (Loyalty: 4)</Type>
 <ManaCost>2WW (4)</ManaCost>
 <CardText>+1: You gain 2 life.
 -1: Put a +1/+1 counter on each creature you control. Those creatures gain vigilance until end of turn.
@@ -52,7 +52,9 @@ When Arbiter of Knollridge enters the battlefield, each player's life total beco
 • Destroy all creatures with converted mana cost 4 or greater.</CardText>
 <Artist>Wayne England</Artist>
 <Multiverseid>141817</Multiverseid>
-<Rulings>2007/10/01: If the first and third modes are chosen, an artifact creature with converted mana cost 3 or less would be destroyed twice by this spell. It would have to be regenerated twice to survive. (A similar thing happens with most of the other combinations.)</Rulings>
+<Rulings>2017/11/17: Each of the chosen modes happens sequentially. If a permanent has an ability that triggers whenever it or another permanent is destroyed, it will see permanents destroyed at the same time as it or before it, but not permanents destroyed by later modes.
+2017/11/17: If the first and third modes are chosen, an artifact creature with converted mana cost 3 or less will have to be regenerated twice to survive. This is because the modes happen sequentially, and the regeneration "shield" is used up by the first one. (A similar thing happens with most of the other combinations.)
+2017/11/17: If a card is exiled "until" another permanent leaves the battlefield, the exiled card returns to the battlefield immediately after that permanent leaves the battlefield during <Austere Command>'s resolution, and it may be destroyed by a later mode.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -127,7 +129,9 @@ Sacrifice Burrenton Forge-Tender: Prevent all damage a red source of your choice
 <Flavor>"We are a clachan of smiths. The forge is as comfortable to us as a small fire during a cool winter's evening."</Flavor>
 <Artist>Chuck Lukacs</Artist>
 <Multiverseid>139395</Multiverseid>
-<Rulings>2007/10/01: If the red source you chose changes colors before the damage is dealt, the damage-prevention effect doesn't apply.</Rulings>
+<Rulings>2017/11/17: If the red source you chose changes colors before it deals damage, the damage-prevention effect doesn't apply.
+2017/11/17: The last ability of <Burrenton Forge-Tender> doesn't target anything. You choose a source of damage as the ability resolves, if able. You can activate it even if there is no source to choose.
+2017/11/17: If a permanent spell is chosen as the source of damage, <Burrenton Forge-Tender>'s prevention effect continues to apply for the rest of the turn to the permanent that spell becomes once it has entered the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -672,7 +676,7 @@ When Purity is put into a graveyard from anywhere, shuffle it into its owner's l
 <Multiverseid>140214</Multiverseid>
 <Rulings>2007/10/01: The last ability triggers when the Incarnation is put into its owner's graveyard from any zone, not just from on the battlefield.
 2007/10/01: Although this ability triggers when the Incarnation is put into a graveyard from the battlefield, it doesn't *specifically* trigger on leaving the battlefield, so it doesn't behave like other leaves-the-battlefield abilities. The ability will trigger from the graveyard.
-2007/10/01: If the Incarnation had lost this ability while on the battlefield (due to <Lignify>, for example) and then was destroyed, the ability would still trigger and it would get shuffled into its owner's library. However, if the Incarnation lost this ability when it was put into the graveyard (due to <Yixlid Jailer>, for example), the ability wouldn't trigger and the Incarnation would remain in the graveyard.
+2007/10/01: If the Incarnation had lost this ability while on the battlefield (due to Lignify, for example) and then was destroyed, the ability would still trigger and it would get shuffled into its owner's library. However, if the Incarnation lost this ability when it was put into the graveyard (due to Yixlid Jailer, for example), the ability wouldn't trigger and the Incarnation would remain in the graveyard.
 2007/10/01: If the Incarnation is removed from the graveyard after the ability triggers but before it resolves, it will remain in its new zone when its owner shuffles his or her library. Similarly, if a replacement effect has the Incarnation move to a different zone instead of being put into the graveyard, the ability won't trigger at all.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1026,8 +1030,8 @@ At the beginning of your end step, clash with an opponent. If you win, gain cont
 • Draw a card.</CardText>
 <Artist>Wayne England</Artist>
 <Multiverseid>141819</Multiverseid>
-<Rulings>2013/06/07: You choose both modes as you cast <Cryptic Command>. You must choose two different modes.
-2013/06/07: Look at both chosen modes to determine how many targets <Cryptic Command> has, if any. If it has at least one target, and all its targets are illegal when it tries to resolve, then it will be countered and none of its effects will happen. For example, if you choose the second and fourth modes, and the permanent is an illegal target when <Cryptic Command> tries to resolve, you won't draw a card.</Rulings>
+<Rulings>2017/11/17: You choose both modes as you cast <Cryptic Command>. You must choose two different modes.
+2017/11/17: Look at both chosen modes to determine how many targets <Cryptic Command> has, if any. If it has at least one target, and all its targets are illegal when it tries to resolve, then it will be countered and none of its effects will happen. For example, if you choose the second and fourth modes, and the permanent is an illegal target when <Cryptic Command> tries to resolve, you won't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1273,7 +1277,7 @@ When Guile is put into a graveyard from anywhere, shuffle it into its owner's li
 2007/10/01: If a spell or ability you control attempts to counter a spell that can't be countered, it doesn't. Since the spell wouldn't be countered, <Guile>'s ability has no effect on it. The spell will continue to resolve normally.
 2007/10/01: The last ability triggers when the Incarnation is put into its owner's graveyard from any zone, not just from on the battlefield.
 2007/10/01: Although this ability triggers when the Incarnation is put into a graveyard from the battlefield, it doesn't *specifically* trigger on leaving the battlefield, so it doesn't behave like other leaves-the-battlefield abilities. The ability will trigger from the graveyard.
-2007/10/01: If the Incarnation had lost this ability while on the battlefield (due to <Lignify>, for example) and then was destroyed, the ability would still trigger and it would get shuffled into its owner's library. However, if the Incarnation lost this ability when it was put into the graveyard (due to <Yixlid Jailer>, for example), the ability wouldn't trigger and the Incarnation would remain in the graveyard.
+2007/10/01: If the Incarnation had lost this ability while on the battlefield (due to Lignify, for example) and then was destroyed, the ability would still trigger and it would get shuffled into its owner's library. However, if the Incarnation lost this ability when it was put into the graveyard (due to Yixlid Jailer, for example), the ability wouldn't trigger and the Incarnation would remain in the graveyard.
 2007/10/01: If the Incarnation is removed from the graveyard after the ability triggers but before it resolves, it will remain in its new zone when its owner shuffles his or her library. Similarly, if a replacement effect has the Incarnation move to a different zone instead of being put into the graveyard, the ability won't trigger at all.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1305,7 +1309,7 @@ When Inkfathom Divers enters the battlefield, look at the top four cards of your
 <SetId>LW</SetId>
 <No>71</No>
 <Name>Jace Beleren</Name>
-<Type>Planeswalker — Jace (Loyalty: 3)</Type>
+<Type>Legendary Planeswalker — Jace (Loyalty: 3)</Type>
 <ManaCost>1UU (3)</ManaCost>
 <CardText>+2: Each player draws a card.
 -1: Target player draws a card.
@@ -1565,15 +1569,14 @@ Flying</CardText>
 <Flavor>One good mimic deserves another.</Flavor>
 <Artist>Alan Pollack</Artist>
 <Multiverseid>140200</Multiverseid>
-<Rulings>2007/10/01: If the targeted Shapeshifter becomes an illegal target but the targeted creature doesn't, the ability will resolve but have no effect.
-2007/10/01: If the targeted creature becomes an illegal target but the targeted Shapeshifter doesn't, the Shapeshifter will still become a copy of the object. The effect will use the illegal target's current copiable characteristics if it's still on the battlefield, or its last known copiable characteristics if it has left the battlefield.
-2007/10/01: The copy effect doesn't wear off until just before your next untap step (even if an effect will cause that untap step to be skipped).
+<Rulings>2007/10/01: The copy effect doesn't wear off until just before your next untap step (even if an effect will cause that untap step to be skipped).
 2007/10/01: If <Shapesharer> itself becomes a copy of another creature, it loses both changeling and its activated ability (unless it's copying another creature with changeling and/or another <Shapesharer>, of course).
 2007/10/01: This ability can cause a creature to become a copy of itself. This will usually have no visible effect.
 2007/10/01: The targeted Shapeshifter copies the printed values of the targeted creature, plus any copy effects that have been applied to it. It won't copy counters on that creature. It won't copy effects that have changed the creature's power, toughness, types, color, and so on.
 2007/10/01: If the targeted Shapeshifter copies a creature that's copying a creature, it will become whatever the chosen creature is copying.
 2007/10/01: If the targeted Shapeshifter becomes a copy of a face-down creature, it will become a 2/2 creature with no name, creature type, abilities, mana cost, or color. It will not become face down and thus can't be turned face up.
-2007/10/01: Effects that have already applied to the targeted Shapeshifter will continue to apply to it. For example, if <Giant Growth> had given it +3/+3 earlier in the turn, then this ability makes it a copy of <Grizzly Bears>, it will be a 5/5 Grizzly Bears.</Rulings>
+2007/10/01: Effects that have already applied to the targeted Shapeshifter will continue to apply to it. For example, if Giant Growth had given it +3/+3 earlier in the turn, then this ability makes it a copy of Grizzly Bears, it will be a 5/5 Grizzly Bears.
+2017/09/29: If either target becomes an illegal target, the ability will resolve but have no effect.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1700,7 +1703,7 @@ When Spellstutter Sprite enters the battlefield, counter target spell with conve
 <Type>Creature — Merfolk Wizard 2/2</Type>
 <ManaCost>2UU (4)</ManaCost>
 <CardText>Whenever Surgespanner becomes tapped, you may pay {1}{U}. If you do, return target permanent to its owner's hand.</CardText>
-<Flavor>They ride on waves of Aether, washing out anything that might pollute the Merrow Lanes.</Flavor>
+<Flavor>They ride on waves of Æther, washing out anything that might pollute the Merrow Lanes.</Flavor>
 <Artist>Warren Mahy</Artist>
 <Multiverseid>141828</Multiverseid>
 <Rulings>2007/10/01: This is a triggered ability, not an activated ability. It doesn't allow you to tap the creature whenever you want; rather, you need some other way of tapping it, such as by attacking with the creature.
@@ -1978,7 +1981,7 @@ When Dread is put into a graveyard from anywhere, shuffle it into its owner's li
 <Multiverseid>140168</Multiverseid>
 <Rulings>2007/10/01: The last ability triggers when the Incarnation is put into its owner's graveyard from any zone, not just from on the battlefield.
 2007/10/01: Although this ability triggers when the Incarnation is put into a graveyard from the battlefield, it doesn't *specifically* trigger on leaving the battlefield, so it doesn't behave like other leaves-the-battlefield abilities. The ability will trigger from the graveyard.
-2007/10/01: If the Incarnation had lost this ability while on the battlefield (due to <Lignify>, for example) and then was destroyed, the ability would still trigger and it would get shuffled into its owner's library. However, if the Incarnation lost this ability when it was put into the graveyard (due to <Yixlid Jailer>, for example), the ability wouldn't trigger and the Incarnation would remain in the graveyard.
+2007/10/01: If the Incarnation had lost this ability while on the battlefield (due to Lignify, for example) and then was destroyed, the ability would still trigger and it would get shuffled into its owner's library. However, if the Incarnation lost this ability when it was put into the graveyard (due to Yixlid Jailer, for example), the ability wouldn't trigger and the Incarnation would remain in the graveyard.
 2007/10/01: If the Incarnation is removed from the graveyard after the ability triggers but before it resolves, it will remain in its new zone when its owner shuffles his or her library. Similarly, if a replacement effect has the Incarnation move to a different zone instead of being put into the graveyard, the ability won't trigger at all.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2226,7 +2229,7 @@ Draw a card.</CardText>
 <SetId>LW</SetId>
 <No>121</No>
 <Name>Liliana Vess</Name>
-<Type>Planeswalker — Liliana (Loyalty: 5)</Type>
+<Type>Legendary Planeswalker — Liliana (Loyalty: 5)</Type>
 <ManaCost>3BB (5)</ManaCost>
 <CardText>+1: Target player discards a card.
 -2: Search your library for a card, then shuffle your library and put that card on top of it.
@@ -2512,7 +2515,7 @@ Discard a card: Oona's Prowler gets -2/-0 until end of turn. Any player may acti
 <Flavor>An elvish duel is a thing of beauty: the warriors' grace, the crash of steel, then the artful spray of blood.</Flavor>
 <Artist>Jeremy Jarvis</Artist>
 <Multiverseid>146167</Multiverseid>
-<Rulings>2007/10/01: If <Prowess of the Fair> and another nontoken Elf are put into your graveyard simultaneously (by <Akroma's Vengeance>, for example), the other Elf will cause <Prowess of the Fair>'s ability to trigger.</Rulings>
+<Rulings>2007/10/01: If <Prowess of the Fair> and another nontoken Elf are put into your graveyard simultaneously (by Akroma's Vengeance, for example), the other Elf will cause <Prowess of the Fair>'s ability to trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2745,7 +2748,7 @@ When Thieving Sprite enters the battlefield, target player reveals X cards from 
 <Multiverseid>141822</Multiverseid>
 <Rulings>2007/10/01: "That much damage" refers to the number of +1/+1 counters removed from <Ashling the Pilgrim>. Since the counters are removed, it's likely that the damage will kill Ashling.
 2007/10/01: Counts resolutions, not activations. Any such abilities that are still on the stack won't count toward the total.
-2007/10/01: When the ability resolves, it counts the number of times that same ability from that this creature has already resolved that turn. It doesn't matter who controlled the creature or the previous abilities when they resolved. A copy of this ability (created by <Rings of Brighthearth>, for example) will count toward the total. Abilities from other creatures with the same name don't count towards the total. Neither does an ability that's been countered.
+2007/10/01: When the ability resolves, it counts the number of times that same ability from that this creature has already resolved that turn. It doesn't matter who controlled the creature or the previous abilities when they resolved. A copy of this ability (created by Rings of Brighthearth, for example) will count toward the total. Abilities from other creatures with the same name don't count towards the total. Neither does an ability that's been countered.
 2007/10/01: You get the bonus only the third time the ability resolves. You won't get the bonus the fourth, fifth, sixth, or any subsequent times.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2921,7 +2924,7 @@ Up to two target creatures each get +2/+0 and gain all creature types until end 
 <SetId>LW</SetId>
 <No>159</No>
 <Name>Chandra Nalaar</Name>
-<Type>Planeswalker — Chandra (Loyalty: 6)</Type>
+<Type>Legendary Planeswalker — Chandra (Loyalty: 6)</Type>
 <ManaCost>3RR (5)</ManaCost>
 <CardText>+1: Chandra Nalaar deals 1 damage to target player.
 -X: Chandra Nalaar deals X damage to target creature.
@@ -3240,7 +3243,7 @@ When Hostility is put into a graveyard from anywhere, shuffle it into its owner'
 <Rulings>2007/10/01: If a spell you control would deal damage to an opponent and that opponent controls a planeswalker, that opponent chooses which of your effects to apply first. — If that player chooses to apply <Hostility>'s effect first, the damage is prevented, you put some tokens onto the battlefield, and the planeswalker redirection effect is moot because there's no damage to redirect. — If that player chooses to apply the planeswalker redirection effect first, you have a choice. You can redirect the damage to the planeswalker (in which case <Hostility>'s prevention effect is moot because nothing's dealing damage to the player anymore) or you can have your spell continue to deal damage to the opponent. If you choose the latter, <Hostility>'s effect then applies, the damage is prevented, and you get the tokens.
 2007/10/01: The last ability triggers when the Incarnation is put into its owner's graveyard from any zone, not just from on the battlefield.
 2007/10/01: Although this ability triggers when the Incarnation is put into a graveyard from the battlefield, it doesn't *specifically* trigger on leaving the battlefield, so it doesn't behave like other leaves-the-battlefield abilities. The ability will trigger from the graveyard.
-2007/10/01: If the Incarnation had lost this ability while on the battlefield (due to <Lignify>, for example) and then was destroyed, the ability would still trigger and it would get shuffled into its owner's library. However, if the Incarnation lost this ability when it was put into the graveyard (due to <Yixlid Jailer>, for example), the ability wouldn't trigger and the Incarnation would remain in the graveyard.
+2007/10/01: If the Incarnation had lost this ability while on the battlefield (due to Lignify, for example) and then was destroyed, the ability would still trigger and it would get shuffled into its owner's library. However, if the Incarnation lost this ability when it was put into the graveyard (due to Yixlid Jailer, for example), the ability wouldn't trigger and the Incarnation would remain in the graveyard.
 2007/10/01: If the Incarnation is removed from the graveyard after the ability triggers but before it resolves, it will remain in its new zone when its owner shuffles his or her library. Similarly, if a replacement effect has the Incarnation move to a different zone instead of being put into the graveyard, the ability won't trigger at all.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3354,7 +3357,7 @@ Evoke {R} (You may cast this spell for its evoke cost. If you do, it's sacrifice
 <Artist>Scott Hampton</Artist>
 <Multiverseid>139462</Multiverseid>
 <Rulings>2007/10/01: Counts resolutions, not activations. Any such abilities that are still on the stack won't count toward the total.
-2007/10/01: When the ability resolves, it counts the number of times that same ability from that this creature has already resolved that turn. It doesn't matter who controlled the creature or the previous abilities when they resolved. A copy of this ability (created by <Rings of Brighthearth>, for example) will count toward the total. Abilities from other creatures with the same name don't count towards the total. Neither does an ability that's been countered.
+2007/10/01: When the ability resolves, it counts the number of times that same ability from that this creature has already resolved that turn. It doesn't matter who controlled the creature or the previous abilities when they resolved. A copy of this ability (created by Rings of Brighthearth, for example) will count toward the total. Abilities from other creatures with the same name don't count towards the total. Neither does an ability that's been countered.
 2007/10/01: You get the bonus only the third time the ability resolves. You won't get the bonus the fourth, fifth, sixth, or any subsequent times.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3498,7 +3501,7 @@ Champion an Elemental (When this enters the battlefield, sacrifice it unless you
 <Multiverseid>139467</Multiverseid>
 <Rulings>2007/10/01: <Soulbright Flamekin>'s ability uses the stack and can be responded to. It's not a mana ability because it has a target.
 2007/10/01: Counts resolutions, not activations. Any such abilities that are still on the stack won't count toward the total.
-2007/10/01: When the ability resolves, it counts the number of times that same ability from that this creature has already resolved that turn. It doesn't matter who controlled the creature or the previous abilities when they resolved. A copy of this ability (created by <Rings of Brighthearth>, for example) will count toward the total. Abilities from other creatures with the same name don't count towards the total. Neither does an ability that's been countered.
+2007/10/01: When the ability resolves, it counts the number of times that same ability from that this creature has already resolved that turn. It doesn't matter who controlled the creature or the previous abilities when they resolved. A copy of this ability (created by Rings of Brighthearth, for example) will count toward the total. Abilities from other creatures with the same name don't count towards the total. Neither does an ability that's been countered.
 2007/10/01: You get the bonus only the third time the ability resolves. You won't get the bonus the fourth, fifth, sixth, or any subsequent times.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3883,7 +3886,6 @@ Whenever enchanted land is tapped for mana, its controller adds one mana of any 
 <Flavor>Pretty, valuable, and delicious—a boggart thief's trifecta.</Flavor>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>139502</Multiverseid>
-<Rulings>2004/10/04: The color of mana to be generated is chosen when tapping the land for mana.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3911,7 +3913,7 @@ Whenever enchanted land is tapped for mana, its controller adds one mana of any 
 <SetId>LW</SetId>
 <No>213</No>
 <Name>Garruk Wildspeaker</Name>
-<Type>Planeswalker — Garruk (Loyalty: 3)</Type>
+<Type>Legendary Planeswalker — Garruk (Loyalty: 3)</Type>
 <ManaCost>2GG (4)</ManaCost>
 <CardText>+1: Untap two target lands.
 -1: Create a 3/3 green Beast creature token.
@@ -4187,14 +4189,14 @@ Enchanted creature is a Treefolk with base power and toughness 0/4 and loses all
 <Flavor>Bulgo paused, puzzled. What was that rustling sound, and why did he feel so stiff? And how could his feet be so thirsty?</Flavor>
 <Artist>Jesper Ejsing</Artist>
 <Multiverseid>139703</Multiverseid>
-<Rulings>2007/10/01: <Lignify> overwrites characteristic-defining abilities that specify the enchanted creature's power or toughness (such as the one <Dauntless Dourbark> has) or that specify its creature types (such as changeling does).
-2007/10/01: <Lignify> will overwrite static abilities that come from the creature itself (such as the one on <Verduran Enchantress>) because <Lignify> causes the creature to lose that ability before it gets a chance to apply.
+<Rulings>2007/10/01: <Lignify> overwrites characteristic-defining abilities that specify the enchanted creature's power or toughness (such as the one Dauntless Dourbark has) or that specify its creature types (such as changeling does).
+2007/10/01: <Lignify> will overwrite static abilities that come from the creature itself (such as the one on Verduran Enchantress) because <Lignify> causes the creature to lose that ability before it gets a chance to apply.
 2007/10/01: <Lignify> overwrites previous effects that changed the enchanted creature's creature types. Any such effects that apply after <Lignify> enters the battlefield will work normally.
 2007/10/01: <Lignify> causes the enchanted creature to lose all abilities it had at the time it became enchanted. Any abilities granted to the creature after <Lignify> entered the battlefield will work normally.
 2007/10/01: If a previous effect switched the creature's power and toughness, that effect still applies (though it will apply to the creature's new power and toughness).
 2007/10/01: If the enchanted creature has a characteristic-defining ability that specifies its color, that ability will still have its effect because it's applied before the creature loses the ability.
-2007/10/01: If <Lignify> leaves the battlefield, the creature goes back to being what it was before. Any effects that applied while the <Lignify> was on the battlefield, such as <Giant Growth> or <Lace with Moonglove>, will continue to apply.
-2009/10/01: <Lignify> will overwrite any previous effects that set the enchanted creature's power or toughness (such as <Serendib Sorcerer> does). Any such effects that apply after <Lignify> entered the battlefield will work normally.
+2007/10/01: If <Lignify> leaves the battlefield, the creature goes back to being what it was before. Any effects that applied while the <Lignify> was on the battlefield, such as Giant Growth or Lace with Moonglove, will continue to apply.
+2009/10/01: <Lignify> will overwrite any previous effects that set the enchanted creature's power or toughness (such as Serendib Sorcerer does). Any such effects that apply after <Lignify> entered the battlefield will work normally.
 2009/10/01: <Lignify> will not overwrite effects such as those from Glorious Anthem, counters, or Giant Growth that change the enchanted creature's power or toughness without setting it to a specific value. Apply such effects after applying <Lignify>.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -4416,7 +4418,7 @@ When Vigor is put into a graveyard from anywhere, shuffle it into its owner's li
 <Multiverseid>140227</Multiverseid>
 <Rulings>2007/10/01: The last ability triggers when the Incarnation is put into its owner's graveyard from any zone, not just from on the battlefield.
 2007/10/01: Although this ability triggers when the Incarnation is put into a graveyard from the battlefield, it doesn't *specifically* trigger on leaving the battlefield, so it doesn't behave like other leaves-the-battlefield abilities. The ability will trigger from the graveyard.
-2007/10/01: If the Incarnation had lost this ability while on the battlefield (due to <Lignify>, for example) and then was destroyed, the ability would still trigger and it would get shuffled into its owner's library. However, if the Incarnation lost this ability when it was put into the graveyard (due to <Yixlid Jailer>, for example), the ability wouldn't trigger and the Incarnation would remain in the graveyard.
+2007/10/01: If the Incarnation had lost this ability while on the battlefield (due to Lignify, for example) and then was destroyed, the ability would still trigger and it would get shuffled into its owner's library. However, if the Incarnation lost this ability when it was put into the graveyard (due to Yixlid Jailer, for example), the ability wouldn't trigger and the Incarnation would remain in the graveyard.
 2007/10/01: If the Incarnation is removed from the graveyard after the ability triggers but before it resolves, it will remain in its new zone when its owner shuffles his or her library. Similarly, if a replacement effect has the Incarnation move to a different zone instead of being put into the graveyard, the ability won't trigger at all.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -4742,7 +4744,7 @@ Equip {2}</CardText>
 <Name>Moonglove Extract</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>Sacrifice Moonglove Extract: Moonglove Extract deals 2 damage to target creature or player.</CardText>
+<CardText>Sacrifice Moonglove Extract: It deals 2 damage to target creature or player.</CardText>
 <Flavor>Diluted, moonglove can etch living tissue. Concentrated, a drop will kill a giant.</Flavor>
 <Artist>Terese Nielsen</Artist>
 <Multiverseid>139506</Multiverseid>
@@ -5151,7 +5153,7 @@ Equip {2}</CardText>
 {W}, {T}: You may play the exiled card without paying its mana cost if you attacked with three or more creatures this turn.</CardText>
 <Artist>Omar Rayyan</Artist>
 <Multiverseid>145798</Multiverseid>
-<Rulings>2007/10/01: At the time the ability resolves, you'll get to play the card if you declared three different creatures as attackers at any point in the turn. A creature declared as an attacker in two different attack phases counts only once. A creature that entered the battlefield attacking (such as a token created by <Militia's Pride>) doesn't count because you never attacked with it.</Rulings>
+<Rulings>2007/10/01: At the time the ability resolves, you'll get to play the card if you declared three different creatures as attackers at any point in the turn. A creature declared as an attacker in two different attack phases counts only once. A creature that entered the battlefield attacking (such as a token created by Militia's Pride) doesn't count because you never attacked with it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

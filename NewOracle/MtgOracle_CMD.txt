@@ -146,7 +146,9 @@ Creatures controlled by players who chose peace get +0/+3.</CardText>
 • Destroy all creatures with converted mana cost 4 or greater.</CardText>
 <Artist>Wayne England</Artist>
 <Multiverseid>247297</Multiverseid>
-<Rulings>2007/10/01: If the first and third modes are chosen, an artifact creature with converted mana cost 3 or less would be destroyed twice by this spell. It would have to be regenerated twice to survive. (A similar thing happens with most of the other combinations.)</Rulings>
+<Rulings>2017/11/17: Each of the chosen modes happens sequentially. If a permanent has an ability that triggers whenever it or another permanent is destroyed, it will see permanents destroyed at the same time as it or before it, but not permanents destroyed by later modes.
+2017/11/17: If the first and third modes are chosen, an artifact creature with converted mana cost 3 or less will have to be regenerated twice to survive. This is because the modes happen sequentially, and the regeneration "shield" is used up by the first one. (A similar thing happens with most of the other combinations.)
+2017/11/17: If a card is exiled "until" another permanent leaves the battlefield, the exiled card returns to the battlefield immediately after that permanent leaves the battlefield during <Austere Command>'s resolution, and it may be destroyed by a later mode.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -869,7 +871,7 @@ Storm (When you cast this spell, copy it for each spell cast before it this turn
 Prevent all combat damage that would be dealt to and dealt by Fog Bank.</CardText>
 <Artist>Scott Kirschner</Artist>
 <Multiverseid>247528</Multiverseid>
-<Rulings>2012/07/01: If <Fog Bank> blocks a creature with trample, that creature's controller must assign 2 damage to <Fog Bank> (assuming it's blocking no other creatures, there was no damage marked on it, and nothing has changed its toughness). The remainder can be assigned to the defending player or planeswalker.</Rulings>
+<Rulings>2017/11/17: <Fog Bank>'s prevention effect isn't considered while assigning combat damage from a creature with trample. For example, if it blocks a 5/5 creature with trample, that creature's controller must assign 2 of that creature's combat damage to <Fog Bank> and the remainder can be assigned to the defending player or planeswalker.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1724,7 +1726,7 @@ Exile target attacking creature. Create a token that's a copy of that creature. 
 Whenever a permanent is put into an opponent's graveyard, that player loses 1 life.</CardText>
 <Artist>Kev Walker</Artist>
 <Multiverseid>247171</Multiverseid>
-<Rulings>2005/02/01: <Patron of the Nezumi>'s ability triggers even if an event puts this and multiple other permanents into the graveyard at the same time (<Wrath of God>, gang blocks, etc.)</Rulings>
+<Rulings>2005/02/01: <Patron of the Nezumi>'s ability triggers even if an event puts this and multiple other permanents into the graveyard at the same time (Wrath of God, gang blocks, etc.)</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1992,7 +1994,7 @@ Morph {3}{R}{R}{R} (You may cast this card face down as a 2/2 creature for {3}. 
 <Artist>Daren Bader</Artist>
 <Multiverseid>247358</Multiverseid>
 <Rulings>2007/02/01: If <Akroma, Angel of Fury> is cast face down, it can be countered.
-2007/02/01: <Akroma, Angel of Fury> and <Akroma, Angel of Wrath> do not have the same name, so the legend rule does not apply.
+2007/02/01: <Akroma, Angel of Fury> and Akroma, Angel of Wrath do not have the same name, so the legend rule does not apply.
 2013/07/01: In a Commander game where this card is your commander, you may cast it face-down from the Command zone by paying {3} plus {2} for each time it has been cast from your command zone. The cost to turn it face-up is unaffected.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2044,13 +2046,12 @@ Flying
 <Name>Avatar of Slaughter</Name>
 <Type>Creature — Avatar 8/8</Type>
 <ManaCost>6RR (8)</ManaCost>
-<CardText>All creatures have double strike and attack each turn if able.</CardText>
+<CardText>All creatures have double strike and attack each combat if able.</CardText>
 <Flavor>"Diplomacy has solved nothing. Only bloodspill can end this now. Call forth the warbringer."
 —Basandra, Battle Seraph</Flavor>
 <Artist>Jason A. Engle</Artist>
 <Multiverseid>236497</Multiverseid>
-<Rulings>2011/09/22: If, during a player's declare attackers step, a creature is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack, the player isn't forced to pay that cost, so it doesn't have to attack in that case either.
-2011/09/22: If there are multiple combat phases in a turn, creatures must attack only in the first one in which they're able to.</Rulings>
+<Rulings>2011/09/22: If, during a player's declare attackers step, a creature is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack, the player isn't forced to pay that cost, so it doesn't have to attack in that case either.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander</Set>
@@ -2437,7 +2438,7 @@ Whenever an opponent gains life, you may pay {R}. If you do, return Punishing Fi
 <Artist>Stephen Tappin</Artist>
 <Multiverseid>247364</Multiverseid>
 <Rulings>2004/10/04: Each activation is considered a new damage effect. An activation can only be 1 point of damage.
-2007/02/01: This is the timeshifted version of <Pestilence>.
+2007/02/01: This is the timeshifted version of Pestilence.
 2011/06/01: Note that "until end of turn" effects wear off after "at the beginning of the end step" triggered abilities, so an artifact that animates until end of turn can keep this on the battlefield.
 2011/06/01: It will stay on the battlefield if there is a creature that is put into the graveyard during the end step. This is because this ability will not trigger at all if there is at least one creature on the battlefield as the end step begins.</Rulings>
 <Vintage>Legal</Vintage>
@@ -2895,7 +2896,7 @@ Enchanted creature has trample.</CardText>
 <SetId>CMD</SetId>
 <No>157</No>
 <Name>Garruk Wildspeaker</Name>
-<Type>Planeswalker — Garruk (Loyalty: 3)</Type>
+<Type>Legendary Planeswalker — Garruk (Loyalty: 3)</Type>
 <ManaCost>2GG (4)</ManaCost>
 <CardText>+1: Untap two target lands.
 -1: Create a 3/3 green Beast creature token.
@@ -2921,7 +2922,7 @@ Enchanted creature has trample.</CardText>
 <Flavor>"Words lie. People lie. The land tells the truth."</Flavor>
 <Artist>Paul Lee</Artist>
 <Multiverseid>247360</Multiverseid>
-<Rulings>2007/02/01: This is the timeshifted version of <Concentrate>.</Rulings>
+<Rulings>2007/02/01: This is the timeshifted version of Concentrate.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3637,7 +3638,9 @@ Draw a card.</CardText>
 <Flavor>The Izzet learn something from every lesson they teach.</Flavor>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Multiverseid>247276</Multiverseid>
-<Rulings>2006/02/01: If all chosen targets are illegal as <Electrolyze> tries to resolve, it will be countered and none of its effects will happen. No damage will be dealt and you won't draw a card.</Rulings>
+<Rulings>2017/11/17: You divide the damage as you cast <Electrolyze>, not as it resolves. Each target must be assigned at least 1 damage. In other words, as you cast <Electrolyze>, you choose whether to have it deal 2 damage to a single target, or deal 1 damage to each of two targets.
+2017/11/17: If <Electrolyze> targets two creatures and one becomes an illegal target, the remaining target is dealt 1 damage, not 2. You'll still draw a card.
+2017/11/17: If all chosen targets are illegal as <Electrolyze> tries to resolve, it will be countered and none of its effects will happen. No damage will be dealt and you won't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3861,8 +3864,8 @@ When Malfegor enters the battlefield, discard your hand. Each opponent sacrifice
 <Flavor>A demon cannot be trusted, and a dragon will not be ruled.</Flavor>
 <Artist>Jason Chan</Artist>
 <Multiverseid>247179</Multiverseid>
-<Rulings>2009/02/01: This ability is not optional. You must discard your entire hand no matter how many creatures your opponents control.
-2009/02/01: After you discard your hand and the number of creatures each opponent must sacrifice has been determined, each opponent in turn order, starting with the player whose turn it is if that player is your opponent, chooses which creatures he or she will sacrifice, then all the chosen creatures are all sacrificed at the same time.</Rulings>
+<Rulings>2017/11/17: <Malfegor>'s ability is not optional. You must discard your entire hand no matter how many creatures your opponents control.
+2017/11/17: After you discard your hand and the number of creatures each opponent must sacrifice has been determined, each opponent in turn order, starting with the player whose turn it is if that player is your opponent, chooses which creatures he or she will sacrifice, then all the chosen creatures are all sacrificed at the same time.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4400,7 +4403,7 @@ Whenever a card is put into an opponent's graveyard from anywhere, put a +1/+1 c
 —Ezoc, Golgari rot farmer</Flavor>
 <Artist>Greg Staples</Artist>
 <Multiverseid>247391</Multiverseid>
-<Rulings>2005/10/01: The ability doesn't care why a card goes to your opponent's graveyard — only that it does. The ability triggers when a card is put into your opponent's graveyard from the stack (a spell resolves or is countered), from the battlefield (a permanent is destroyed or sacrificed), from the player's hand (a card is discarded), from the player's library (from a <Millstone>-like effect), or from any other zone.
+<Rulings>2005/10/01: The ability doesn't care why a card goes to your opponent's graveyard — only that it does. The ability triggers when a card is put into your opponent's graveyard from the stack (a spell resolves or is countered), from the battlefield (a permanent is destroyed or sacrificed), from the player's hand (a card is discarded), from the player's library (from a Millstone-like effect), or from any other zone.
 2005/10/01: This ability triggers only on cards, so it won't trigger when a token is put into your opponent's graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -5041,7 +5044,7 @@ When Dimir Aqueduct enters the battlefield, return a land you control to its own
 <No>272</No>
 <Name>Evolving Wilds</Name>
 <Type>Land</Type>
-<CardText>{T}, Sacrifice Evolving Wilds: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.</CardText>
+<CardText>{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.</CardText>
 <Flavor>Every world is an organism, able to grow new lands. Some just do it faster than others.</Flavor>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>247396</Multiverseid>

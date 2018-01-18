@@ -2,7 +2,7 @@
 <SetId>M14</SetId>
 <No>1</No>
 <Name>Ajani, Caller of the Pride</Name>
-<Type>Planeswalker — Ajani (Loyalty: 4)</Type>
+<Type>Legendary Planeswalker — Ajani (Loyalty: 4)</Type>
 <ManaCost>1WW (3)</ManaCost>
 <CardText>+1: Put a +1/+1 counter on up to one target creature.
 -3: Target creature gains flying and double strike until end of turn.
@@ -28,6 +28,10 @@
 <Flavor>"United, our roar will level mountains."</Flavor>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>370750</Multiverseid>
+<Rulings>2013/07/01: The ability doesn't trigger until the enchantment enters the battlefield. This means that, for example, you can't cast an Aura with enchant creature if there are no legal targets available, hoping to enchant the Cat token. <Ajani's Chosen> itself, however, may be a legal target for the Aura.
+2013/07/01: If you cast an Aura targeting an opponent or a permanent controlled by an opponent, you control that Aura when it enters the battlefield. The ability of <Ajani's Chosen> will trigger.
+2013/07/01: You may attach the Aura to the token only if it can legally enchant that token. For example, if the enchantment that entered the battlefield is an Aura with "enchant land," it won't move.
+2013/07/01: You may attach the Aura to the Cat token only if the Aura and the token are both on the battlefield when the triggered ability resolves. If the Aura leaves the battlefield before the ability resolves, it won't become attached to the token. If the token leaves the battlefield before the ability resolves, the Aura won't move.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -45,9 +49,9 @@
 <Flavor>As demons are drawn to suffering, angels are drawn to acts of benevolence.</Flavor>
 <Artist>Michael C. Hayes</Artist>
 <Multiverseid>370612</Multiverseid>
-<Rulings>2013/07/01: <Angelic Accord>'s ability checks how much life you've gained during the turn, not what your life total is compared to what it was when the turn began. For example, if you start the turn at 10 life, gain 6 life during the turn, then lose 6 life later that turn, the ability will trigger.
-2013/07/01: If you haven't gained 4 or more life during the turn when the end step begins, the ability won't trigger at all. Gaining life during the end step won't cause the ability to trigger.
-2013/07/01: In a Two-Headed Giant game, life gained by your teammate isn't considered, even though it causes your team's life total to increase.</Rulings>
+<Rulings>2017/11/17: <Angelic Accord>'s ability checks how much life you've gained during the turn, not what your life total is compared to what it was when the turn began. For example, if you start the turn at 10 life, gain 6 life during the turn, then lose 6 life later that turn, the ability will trigger.
+2017/11/17: If you haven't gained 4 or more life during the turn when the end step begins, the ability won't trigger at all. Gaining life during the end step won't cause the ability to trigger.
+2017/11/17: In a Two-Headed Giant game, life gained by your teammate isn't considered, even though it causes your team's life total to increase.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -86,9 +90,10 @@ Whenever you gain life, put a +1/+1 counter on each creature you control.</CardT
 <Flavor>Even the wicked have nightmares.</Flavor>
 <Artist>James Ryman</Artist>
 <Multiverseid>370627</Multiverseid>
-<Rulings>2013/07/01: The ability triggers just once from each life-gaining event, whether it's 1 life from Soulmender or 5 life from Elixir of Immortality.
-2013/07/01: A creature with lifelink dealing combat damage is a single life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, <Archangel of Thune>'s ability will trigger twice. However, if a single creature with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
-2013/07/01: In a Two-Headed Giant game, life gained by your teammate won't cause the ability to trigger, even though it causes your team's life total to increase.</Rulings>
+<Rulings>2017/11/17: <Archangel of Thune>'s last ability triggers just once for each life-gaining event, whether it's 1 life from Auriok Champion or 6 life from Tavern Swindler.
+2017/11/17: If a creature you control is dealt lethal damage at the same time that you gain life, it won't receive a counter from <Archangel of Thune>'s last ability in time to save it.
+2017/11/17: Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, <Archangel of Thune>'s last ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+2017/11/17: In a Two-Headed Giant game, life gained by your teammate won't cause the ability to trigger, even though it causes your team's life total to increase.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -490,10 +495,10 @@ Enchanted creature can't attack or block.</CardText>
 Whenever one or more creatures you control attack, you gain life equal to the number of attacking creatures.</CardText>
 <Artist>Chris Rahn</Artist>
 <Multiverseid>370798</Multiverseid>
-<Rulings>2013/07/01: Your starting life total is the life total you began the game with, keeping in mind the format you're playing and, in some rare cases, anything that affects your starting life total (for example, a vanguard with a life modifier).
-2013/07/01: In most games, your starting life total is 20. In a Commander game, your starting life total is 40 instead. In a Two-Headed Giant game, <Path of Bravery> compares your team's life total to your team's starting life total, which is 30.
-2013/07/01: <Path of Bravery>'s triggered ability triggers only once, after attacking creatures are declared. For example, if you attack with five creatures, you'll gain 5 life as a single life-gain event.
-2013/07/01: If a creature enters the battlefield attacking after attacking creatures have been declared, the ability won't trigger again because you didn't declare that creature as an attacking creature. However, if enters the battlefield before the ability resolves, it will be counted when determining how much life is gained.</Rulings>
+<Rulings>2017/11/17: Your starting life total is the life total you began the game with. For most two-player formats, this is 20. For Two-Headed Giant, it's the life total your team started with, usually 30. In Commander games, your starting life total is 40.
+2017/11/17: If a creature you control is dealt damage at the same time that you gain life (most likely because a source you control with lifelink deals damage at the same time), and your life total becomes greater than or equal to your starting life total, apply <Path of Bravery>'s effect before considering whether or not the damage dealt to that creature is lethal.
+2017/11/17: <Path of Bravery>'s triggered ability triggers only once, after attacking creatures are declared. For example, if you attack with five creatures, you'll gain 5 life as a single event.
+2017/11/17: If a creature enters the battlefield attacking after attacking creatures have been declared, the ability won't trigger again because you didn't declare that creature as an attacking creature. However, if such a creature enters the battlefield before the ability resolves, it will be counted when determining how much life is gained.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1034,7 +1039,7 @@ At the beginning of your end step, if enchanted creature's power is 4 or greater
 <Type>Instant</Type>
 <ManaCost>1U (2)</ManaCost>
 <CardText>Counter target creature spell.</CardText>
-<Flavor>"What you attempt to pull from the Aether, I can spread onto the wind."
+<Flavor>"What you attempt to pull from the Æther, I can spread onto the wind."
 —Jace Beleren</Flavor>
 <Artist>Jon Foster</Artist>
 <Multiverseid>370694</Multiverseid>
@@ -1125,7 +1130,7 @@ When enchanted creature becomes the target of a spell or ability, sacrifice Illu
 <SetId>M14</SetId>
 <No>60</No>
 <Name>Jace, Memory Adept</Name>
-<Type>Planeswalker — Jace (Loyalty: 4)</Type>
+<Type>Legendary Planeswalker — Jace (Loyalty: 4)</Type>
 <ManaCost>3UU (5)</ManaCost>
 <CardText>+1: Draw a card. Target player puts the top card of his or her library into his or her graveyard.
 0: Target player puts the top ten cards of his or her library into his or her graveyard.
@@ -1152,6 +1157,12 @@ When enchanted creature becomes the target of a spell or ability, sacrifice Illu
 When Jace's Mindseeker enters the battlefield, target opponent puts the top five cards of his or her library into his or her graveyard. You may cast an instant or sorcery card from among them without paying its mana cost.</CardText>
 <Artist>Greg Staples</Artist>
 <Multiverseid>370638</Multiverseid>
+<Rulings>2013/07/01: If you cast an instant or sorcery card this way, you do so while the ability of <Jace's Mindseeker> is resolving. If you choose not to (or can't), you won't get a chance to cast one later.
+2013/07/01: "From among them" means the five cards put into the graveyard, not all cards in that graveyard.
+2013/07/01: When casting an instant or sorcery card this way, ignore timing restrictions based on the card's type. Other timing restrictions, such as "Cast [this spell] only during combat," must be followed.
+2013/07/01: If you cast a card "without paying its mana cost," you can't pay alternative costs such as overload costs. You can pay additional costs such as kicker costs. If the card has mandatory additional costs, you must pay those.
+2013/07/01: If a card has {X} in its mana cost, you must choose 0 as its value.
+2013/07/01: If the five cards are put into a public zone such as exile instead of a graveyard (perhaps due to the ability of Rest in Peace), you can cast one of those instant or sorcery cards from that zone.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1608,6 +1619,10 @@ At the beginning of your upkeep, if enchanted Equipment is attached to a creatur
 —Dack Fayden</Flavor>
 <Artist>Franz Vohwinkel</Artist>
 <Multiverseid>370634</Multiverseid>
+<Rulings>2013/07/01: The ability checks to see if the enchanted Equipment is attached to a creature as your upkeep begins. If it's not, the ability won't trigger at all. If it is, the ability will check again as it tries to resolve. If the enchanted Equipment isn't attached to a creature at that time, the ability won't do anything.
+2013/07/01: This ability triggers at the beginning of the upkeep of the controller of <Artificer's Hex>, not the upkeep of the controller of the enchanted Equipment or the creature that Equipment is attached to.
+2013/07/01: Players can't pay an Equipment's equip cost to unattach that Equipment to stop <Artificer's Hex> from destroying a creature.
+2013/07/01: In some rare cases, the creature the enchanted Equipment is attached to as the ability resolves isn't the same one as the one it was attached to when it triggered. In such a case, the creature the Equipment is attached to when the ability resolves is destroyed.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1625,8 +1640,7 @@ At the beginning of your upkeep, if enchanted Equipment is attached to a creatur
 <Flavor>"Your flesh is unprepared for my gifts."</Flavor>
 <Artist>Winona Nelson</Artist>
 <Multiverseid>370761</Multiverseid>
-<Rulings>2013/07/01: <Blightcaster>'s ability will resolve before the enchantment spell that caused it to trigger.
-2013/07/01: If you are the only player who controls a creature when <Blightcaster>'s ability triggers, you must choose one as the target, although you can choose not to give it -2/-2.
+<Rulings>2013/07/01: If you are the only player who controls a creature when <Blightcaster>'s ability triggers, you must choose one as the target, although you can choose not to give it -2/-2.
 2015/06/22: <Blightcaster>'s ability will resolve before the enchantment spell that caused it to trigger.
 2015/06/22: If you are the only player who controls a creature when <Blightcaster>'s ability triggers, you must choose one of those creatures as the target, although you can choose to not give it -2/-2.</Rulings>
 <Vintage>Legal</Vintage>
@@ -1663,8 +1677,7 @@ At the beginning of your upkeep, if enchanted Equipment is attached to a creatur
 <Flavor>"The hardest thing is finding the right ingredients."</Flavor>
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>370758</Multiverseid>
-<Rulings>2013/07/01: You don't have to declare which card you're searching for when you activate the ability.
-2013/07/01: You put only one card onto the battlefield as the activated ability resolves.</Rulings>
+<Rulings>2017/11/17: You don't have to declare which card you're searching for when you activate <Bogbrew Witch>'s ability. You may find either while you're searching.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1845,7 +1858,7 @@ Deathtouch (Any amount of damage this deals to a creature is enough to destroy i
 <Flavor>Its back bubbles like a witch's cauldron, and it smells just as vile.</Flavor>
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>370772</Multiverseid>
-<Rulings>2013/07/01: Whether you control a creature named Bogbrew Witch is checked only as the triggered ability resolves.</Rulings>
+<Rulings>2017/11/17: Whether you control a creature named Bogbrew Witch is checked only as the triggered ability resolves. How the target creature is affected won't change if you gain or lose control of all your Bogbrew Witches later in the turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1910,7 +1923,7 @@ When Lifebane Zombie enters the battlefield, target opponent reveals his or her 
 <SetId>M14</SetId>
 <No>102</No>
 <Name>Liliana of the Dark Realms</Name>
-<Type>Planeswalker — Liliana (Loyalty: 3)</Type>
+<Type>Legendary Planeswalker — Liliana (Loyalty: 3)</Type>
 <ManaCost>2BB (4)</ManaCost>
 <CardText>+1: Search your library for a Swamp card, reveal it, and put it into your hand. Then shuffle your library.
 -3: Target creature gets +X/+X or -X/-X until end of turn, where X is the number of Swamps you control.
@@ -1938,6 +1951,7 @@ When Lifebane Zombie enters the battlefield, target opponent reveals his or her 
 Whenever Liliana's Reaver deals combat damage to a player, that player discards a card and you create a tapped 2/2 black Zombie creature token.</CardText>
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>370740</Multiverseid>
+<Rulings>2013/07/01: If the player's hand is empty when the triggered ability resolves, you'll still put a Zombie token onto the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1972,12 +1986,12 @@ Whenever Liliana's Reaver deals combat damage to a player, that player discards 
 <Type>Enchantment — Aura</Type>
 <ManaCost>3B (4)</ManaCost>
 <CardText>Enchant creature
-Enchanted creature gets +2/+2 and has lifelink. (Damage dealt by the creature also causes its controller to gain that much life.)</CardText>
+Enchanted creature gets +2/+2 and has lifelink.</CardText>
 <Flavor>"My 'condition' is a trial. The weak are consumed by it. The strong transcend it."
 —Sorin Markov</Flavor>
 <Artist>Winona Nelson</Artist>
 <Multiverseid>370787</Multiverseid>
-<Rulings>2012/07/01: Multiple instances of lifelink are redundant. If <Mark of the Vampire> enchants a creature that already has lifelink, damage that creature deals won't cause you to gain additional life.</Rulings>
+<Rulings>2017/09/29: Multiple instances of lifelink on the same creature are redundant.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2495,7 +2509,7 @@ Enchanted Mountain is a 7/7 red Giant creature with haste. It's still a land.</C
 <SetId>M14</SetId>
 <No>132</No>
 <Name>Chandra, Pyromaster</Name>
-<Type>Planeswalker — Chandra (Loyalty: 4)</Type>
+<Type>Legendary Planeswalker — Chandra (Loyalty: 4)</Type>
 <ManaCost>2RR (4)</ManaCost>
 <CardText>+1: Chandra, Pyromaster deals 1 damage to target player and 1 damage to up to one target creature that player controls. That creature can't block this turn.
 0: Exile the top card of your library. You may play it this turn.
@@ -2860,7 +2874,8 @@ Whenever Scourge of Valkas or another Dragon enters the battlefield under your c
 {R}: Scourge of Valkas gets +1/+0 until end of turn.</CardText>
 <Artist>Lucas Graciano</Artist>
 <Multiverseid>370584</Multiverseid>
-<Rulings>2013/07/01: The amount of damage dealt by the Dragon that entered the battlefield is based on the number of Dragons you control when the ability resolves.</Rulings>
+<Rulings>2017/11/17: The amount of damage dealt by the Dragon that entered the battlefield is based on the number of Dragons you control when the ability resolves.
+2017/11/17: If a Dragon entering the battlefield causes <Scourge of Valkas>'s ability to trigger but leaves the battlefield before that ability resolves, that Dragon still deals damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3217,7 +3232,7 @@ Deathtouch (Any amount of damage this deals to a creature is enough to destroy i
 <CardText>Target creature gets +7/+7 and gains trample until end of turn. It must be blocked this turn if able. (It can deal excess combat damage to defending player or planeswalker while attacking.)</CardText>
 <Artist>Michael Komarck</Artist>
 <Multiverseid>370797</Multiverseid>
-<Rulings>2013/07/01: If the creature attacks, the defending player must assign at least one blocker to it during the declare blockers step if that player controls any creatures that could block it.</Rulings>
+<Rulings>2017/11/17: If the creature attacks, the defending player must assign at least one blocker to it during the declare blockers step if that player controls any creatures that could block it. Other creatures that player controls can block other attackers or not block at all.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3236,7 +3251,6 @@ Deathtouch (Any amount of damage this deals to a creature is enough to destroy i
 —Lord Hilneth</Flavor>
 <Artist>Jaime Jones</Artist>
 <Multiverseid>370633</Multiverseid>
-<Rulings>2009/10/01: <Fog> has no effect on damage that's already been dealt.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3248,7 +3262,7 @@ Deathtouch (Any amount of damage this deals to a creature is enough to destroy i
 <SetId>M14</SetId>
 <No>172</No>
 <Name>Garruk, Caller of Beasts</Name>
-<Type>Planeswalker — Garruk (Loyalty: 4)</Type>
+<Type>Legendary Planeswalker — Garruk (Loyalty: 4)</Type>
 <ManaCost>4GG (6)</ManaCost>
 <CardText>+1: Reveal the top five cards of your library. Put all creature cards revealed this way into your hand and the rest on the bottom of your library in any order.
 -3: You may put a green creature card from your hand onto the battlefield.
@@ -3387,12 +3401,9 @@ You may cast the top card of your library if it's a creature card. (Do this only
 <Flavor>He who hesitates is lunch.</Flavor>
 <Artist>Raoul Vitale</Artist>
 <Multiverseid>370743</Multiverseid>
-<Rulings>2014/11/24: You can't cast <Hunt the Weak> unless you choose both a creature you control and a creature you don't control as targets.
-2014/11/24: If either target is an illegal target as <Hunt the Weak> tries to resolve, neither creature will deal or be dealt damage.
-2014/11/24: If the creature you control is an illegal target as <Hunt the Weak> tries to resolve, you won't put a +1/+1 counter on it. If that creature is a legal target but the creature you don't control isn't, you'll still put the counter on the creature you control.
-2016/09/20: You can't cast <Hunt the Weak> unless you choose both a creature you control and a creature you don't control as targets.
-2016/09/20: If either target is an illegal target as <Hunt the Weak> resolves, neither creature will deal or be dealt damage.
-2016/09/20: If the creature you control is an illegal target as <Hunt the Weak> tries to resolve, you won't put a +1/+1 counter on it. If that creature is a legal target but the other creature isn't, you'll still put the counter on the creature you control.</Rulings>
+<Rulings>2017/11/17: You can't cast <Hunt the Weak> unless you choose both a creature you control and a creature you don't control as targets.
+2017/11/17: If either target is an illegal target as <Hunt the Weak> tries to resolve, neither creature will deal or be dealt damage.
+2017/11/17: If the creature you control is an illegal target as <Hunt the Weak> tries to resolve, you won't put a +1/+1 counter on it. If that creature is a legal target but the creature you don't control isn't, you'll still put the counter on the creature you control.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4050,6 +4061,9 @@ Equip {4} ({4}: Attach to target creature you control. Equip only as a sorcery.)
 <Flavor>An inferno is just a gesture away.</Flavor>
 <Artist>Christine Choi</Artist>
 <Multiverseid>370686</Multiverseid>
+<Rulings>2013/07/01: <Pyromancer's Gauntlet> doesn't change the source or recipient of the damage.
+2013/07/01: If all damage from a source is prevented (because of Pay No Heed, for example) or if a source would deal 0 damage, the effect of <Pyromancer's Gauntlet> will not apply as that source is no longer dealing damage.
+2013/07/01: If damage is being dealt to multiple players and/or permanents at the same time, the damage being dealt to each one is increased by 2.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

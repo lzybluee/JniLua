@@ -920,7 +920,11 @@ Enchanted creature has vigilance. (Attacking doesn't cause it to tap.)</CardText
 When Yosei, the Morning Star dies, target player skips his or her next untap step. Tap up to five target permanents that player controls.</CardText>
 <Artist>Hiro Izawa</Artist>
 <Multiverseid>78590</Multiverseid>
-<Rulings>2013/06/07: The triggered ability targets the player and up to five permanents that player controls. If all targets are illegal as the ability tries to resolve, it will be countered and none of its effects will happen.</Rulings>
+<Rulings>2017/11/17: If any of the targets of Yosei's ability are illegal, they won't be tapped.
+2017/11/17: If all of the permanents targeted by Yosei's ability become illegal targets, nothing becomes tapped, but the target player still skips his or her untap step.
+2017/11/17: If the player becomes an illegal target, the target permanents are tapped, but the player doesn't skip his or her untap step.
+2017/11/17: If a permanent won't untap during its controller's next untap step, that effect waits to apply until its controller has an untap step that isn't skipped.
+2017/11/17: If more than one effect instructs a player to skip his or her next untap step, such as if Yosei dies more than once in a turn, that player skips that many untap steps. This is different from effects that state that something doesn't untap during an untap step.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1333,6 +1337,7 @@ Enchanted creature can't be blocked by Spirits.
 When Keiga, the Tide Star dies, gain control of target creature.</CardText>
 <Artist>Ittoku</Artist>
 <Multiverseid>75286</Multiverseid>
+<Rulings>2017/11/17: Keiga's effect lasts indefinitely. It doesn't wear off during the cleanup step.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2489,6 +2494,7 @@ Nezumi Cutthroat can't block.</CardText>
 —Sensei Hisoka, letter to Lord Konda</Flavor>
 <Artist>Greg Staples</Artist>
 <Multiverseid>78991</Multiverseid>
+<Rulings>2017/11/17: If a second <Night of Souls' Betrayal> comes under your control, you'll put one into its owner's graveyard due to the "legend rule" at the same time that any creatures getting -2/-2 are put into their owner's graveyard for having 0 or less toughness.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2919,7 +2925,7 @@ If a red source would deal damage to a player, it deals that much damage plus 1 
 <Type>Creature — Human Samurai 1/1</Type>
 <ManaCost>1R (2)</ManaCost>
 <CardText>Bushido 2 (Whenever this creature blocks or becomes blocked, it gets +2/+2 until end of turn.)
-Battle-Mad Ronin attacks each turn if able.</CardText>
+Battle-Mad Ronin attacks each combat if able.</CardText>
 <Flavor>"I fought fiercely, bravely, and without mercy. Had I not struck down my captain in the heat of battle, I might have become a hero instead of an outcast."</Flavor>
 <Artist>Wayne England</Artist>
 <Multiverseid>50383</Multiverseid>
@@ -3304,8 +3310,11 @@ Whenever Godo attacks for the first time each turn, untap it and all Samurai you
 {T}: Create a token that's a copy of target nonlegendary creature you control. That token has haste. Sacrifice it at the beginning of the next end step.</CardText>
 <Artist>Pete Venters</Artist>
 <Multiverseid>50321</Multiverseid>
-<Rulings>2013/06/07: As the token is created, it checks the printed values of the creature it's copying — or, if that creature is itself a token, the original characteristics of that token as stated by the effect that put it onto the battlefield — as well as any copy effects that have been applied to it. It won't copy counters on the creature, nor will it copy other effects that have changed the creature's power, toughness, types, color, or so on.
-2013/06/07: Haste is part of the token's copiable values. Copies of that token will also have haste.</Rulings>
+<Rulings>2017/11/17: The token copies exactly what was printed on the creature and nothing else (unless that creature was copying something else or was a token; see below). It doesn't copy whether that creature was tapped or untapped, whether it had any counters on it or Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on.
+2017/11/17: If the copied creature had {X} in its mana cost, X is 0.
+2017/11/17: If the copied creature was copying something else, the tokens enter the battlefield as whatever that creature was copying.
+2017/11/17: If the copied creature is a token, the tokens created by Kiki-Jiki's ability copies the original characteristics of that token as stated by the effect that put it onto the battlefield.
+2017/11/17: Any enters-the-battlefield abilities of the copied creature will trigger when the tokens enter the battlefield. Any "As [this creature] enters the battlefield" or "[This creature] enters the battlefield with" abilities of the copied creature will also work.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3674,7 +3683,7 @@ Splice onto Arcane {2}{R}{R} (As you cast an Arcane spell, you may reveal this c
 <ManaCost>2RR (4)</ManaCost>
 <CardText>Flash (You may cast this spell any time you could cast an instant.)
 Enchant creature
-Enchanted creature gets +2/+2 and attacks each turn if able.</CardText>
+Enchanted creature gets +2/+2 and attacks each combat if able.</CardText>
 <Flavor>To an akki warrior, gravity is the direction of the nearest unsmashed face.</Flavor>
 <Artist>Matt Thompson</Artist>
 <Multiverseid>50315</Multiverseid>
@@ -3816,8 +3825,6 @@ Enchanted creature gets +2/+2 and attacks each turn if able.</CardText>
 <CardText>{4}{G}{G}, {T}: Create an X/X green Elemental creature token, where X is the number of lands you control.</CardText>
 <Artist>Kev Walker</Artist>
 <Multiverseid>78687</Multiverseid>
-<Rulings>2004/12/01: <Budoka Gardener> flips if you control ten or more lands when its ability resolves, even if you don't use its ability to put a land onto the battlefield.
-2013/07/01: <Budoka Gardener> flips even if you put a second copy of a legendary land onto the battlefield. You'll have ten lands on the battlefield while the ability is resolving, so the Gardener flips. Then you will choose one of the legendary lands to keep and put the other into its owner's graveyard as a state-based action.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4083,7 +4090,8 @@ Soulshift 3 (When this creature dies, you may return target Spirit card with con
 When Jugan, the Rising Star dies, you may distribute five +1/+1 counters among any number of target creatures.</CardText>
 <Artist>Shishizaru</Artist>
 <Multiverseid>50247</Multiverseid>
-<Rulings>2013/06/07: You announce the target creatures and how you're distributing the +1/+1 counters as you put the triggered ability on the stack. If one of the target creatures becomes illegal, you can't change how the counters will be distributed.</Rulings>
+<Rulings>2017/11/17: You choose how many targets Jugan's triggered ability has and how the counters are distributed as you put the ability onto the stack. Each target must receive at least one counter.
+2017/11/17: If some of the creatures are illegal targets as Jugan's triggered ability tries to resolve, the original distribution of counters still applies and the counters that would have been put on the illegal targets are lost. They won't be put instead on a legal target.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4248,9 +4256,8 @@ All creatures able to block enchanted creature do so.</CardText>
 <Flavor>Jukai Forest was known for its secrets, which drew in many wayfarers and wizards. But it was those same secrets that kept most of those seekers from ever being heard from again.</Flavor>
 <Artist>D. Alexander Gregory</Artist>
 <Multiverseid>79152</Multiverseid>
-<Rulings>2004/10/04: <Lure> does not give a creature the ability to block the <Lure>d creature, it just forces those creatures which are already able to block the <Lure>d creature to do so.
-2004/10/04: If a <Lure>d creature is in a band, only blockers able to block the <Lure>d creature are affected by the <Lure>.
-2004/10/04: The opponent does not have to activate any abilities in an attempt to make his or her creatures block. More specifically, a cost to block of zero mana is an optional cost you can choose not to pay.</Rulings>
+<Rulings>2017/11/17: <Lure> doesn't give any creatures the ability to block the target creature. It just forces those creatures that are already able to block the creature to do so.
+2017/11/17: As blockers are declared, any creature that's tapped or affected by a spell or ability that says it can't block doesn't block. If there's a cost associated with having the creature block, no player is forced to pay that cost, so it doesn't block if that cost isn't paid.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

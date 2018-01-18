@@ -475,6 +475,8 @@ At the beginning of your upkeep, you may draw two cards.</CardText>
 <CardText>Counter target spell unless its controller pays {X}. Scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)</CardText>
 <Artist>Ron Spears</Artist>
 <Multiverseid>51223</Multiverseid>
+<Rulings>2017/11/17: You must be able to target another spell to cast <Condescend>. <Condescend> can't target itself.
+2017/11/17: You scry 2 even if the spell's controller pays {X}.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -543,11 +545,11 @@ Enchanted artifact has "At the beginning of your upkeep, sacrifice this artifact
 <Type>Instant</Type>
 <ManaCost>2UU (4)</ManaCost>
 <CardText>Counter target spell. If that spell is countered this way, its controller may put a creature card from his or her hand onto the battlefield.</CardText>
-<Flavor>Aether portals drift across Mirrodin's surface, dragging creatures across time and space.</Flavor>
+<Flavor>Æther portals drift across Mirrodin's surface, dragging creatures across time and space.</Flavor>
 <Artist>Anthony S. Waters</Artist>
 <Multiverseid>51631</Multiverseid>
 <Rulings>2004/12/01: If the spell isn't countered (because it's a spell that can't be countered, for example), nothing happens.
-2004/12/01: If your Fold into Aether counters a spell you control, you get to put a creature card from your hand onto the battlefield.</Rulings>
+2004/12/01: If your <Fold into Aether> counters a spell you control, you get to put a creature card from your hand onto the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1748,7 +1750,7 @@ You may have Tornado Elemental assign its combat damage as though it weren't blo
 <SetId>5DN</SetId>
 <No>98</No>
 <Name>Tyrranax</Name>
-<Type>Creature — Beast 5/4</Type>
+<Type>Creature — Dinosaur Beast 5/4</Type>
 <ManaCost>4GG (6)</ManaCost>
 <CardText>{1}{G}: Tyrranax gets -1/+1 until end of turn.</CardText>
 <Flavor>It outnumbers you one to many.</Flavor>
@@ -2303,7 +2305,9 @@ Whenever an artifact enters the battlefield, you may untap Grinding Station.</Ca
 {2}: Guardian Idol becomes a 2/2 Golem artifact creature until end of turn.</CardText>
 <Artist>Edward P. Beard, Jr.</Artist>
 <Multiverseid>51138</Multiverseid>
-<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
+<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.
+2017/11/17: If <Guardian Idol> has any +1/+1 counters on it, those counters will remain on it after it stops being a creature. Those counters will have no effect as long as <Guardian Idol> isn't a creature, but they will apply again if it later becomes a creature.
+2017/11/17: Activating the last ability of <Guardian Idol> while it's already a creature will override any effects that set its power or toughness to a specific value. Effects that modify power or toughness without setting them to a specific value will continue to apply.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2609,7 +2613,7 @@ At the beginning of each end step, each player sacrifices a permanent unless he 
 <Type>Artifact Creature — Wall 2/1</Type>
 <ManaCost>1 (1)</ManaCost>
 <CardText>Defender (This creature can't attack.)
-Razorgrass Screen blocks each turn if able.</CardText>
+Razorgrass Screen blocks each combat if able.</CardText>
 <Flavor>Hand-stitched, and marked by the blood of the Auriok.</Flavor>
 <Artist>Tony Szczudlo</Artist>
 <Multiverseid>72999</Multiverseid>

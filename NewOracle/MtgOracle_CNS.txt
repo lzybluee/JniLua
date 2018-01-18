@@ -913,7 +913,7 @@ Whenever Brago, King Eternal deals combat damage to a player, exile any number o
 <SetId>CNS</SetId>
 <No>42</No>
 <Name>Dack Fayden</Name>
-<Type>Planeswalker — Dack (Loyalty: 3)</Type>
+<Type>Legendary Planeswalker — Dack (Loyalty: 3)</Type>
 <ManaCost>1UR (3)</ManaCost>
 <CardText>+1: Target player draws two cards, then discards two cards.
 -2: Gain control of target artifact.
@@ -1145,11 +1145,11 @@ When Aether Searcher enters the battlefield, you may search your hand and/or lib
 <Rulings>2014/05/29: When casting a card this way, ignore timing restrictions based on the card's type. Other timing restrictions, such as "Cast [this spell] only during combat," must be followed.
 2014/05/29: If you cast a card "without paying its mana cost," you can't pay alternative costs such as overload costs. You can pay additional costs such as kicker costs. If the card has mandatory additional costs, you must pay those.
 2014/05/29: If the card has {X} in its mana cost, you must choose 0 as its value.
-2014/05/29: If Aether Searcher leaves the battlefield before its ability resolves, you'll still be able to search for the named card and cast it.
-2014/05/29: If the card you draft after Aether Searcher is a land card, you won't be able to play that land using Aether Searcher's ability.
-2014/05/29: If Aether Searcher is the last card you draft in any draft round other than the last one, you'll reveal the first card you draft in the following draft round and note its name.
-2014/05/29: If Aether Searcher is the last card you draft, there won't be a noted name. You can still search your hand and/or library when it enters the battlefield, but you won't cast any card this way unless you also drafted an Aether Searcher and noted a card then.
-2014/05/29: If an Aether Searcher owned by another player enters the battlefield under your control, you can search for a card you've named while drafting a card named Aether Searcher, not a card named by its owner. Unless you also drafted a card named Aether Searcher, you won't cast a card.
+2014/05/29: If <Aether Searcher> leaves the battlefield before its ability resolves, you'll still be able to search for the named card and cast it.
+2014/05/29: If the card you draft after <Aether Searcher> is a land card, you won't be able to play that land using <Aether Searcher>'s ability.
+2014/05/29: If <Aether Searcher> is the last card you draft in any draft round other than the last one, you'll reveal the first card you draft in the following draft round and note its name.
+2014/05/29: If <Aether Searcher> is the last card you draft, there won't be a noted name. You can still search your hand and/or library when it enters the battlefield, but you won't cast any card this way unless you also drafted an <Aether Searcher> and noted a card then.
+2014/05/29: If an <Aether Searcher> owned by another player enters the battlefield under your control, you can search for a card you've named while drafting a card named <Aether Searcher>, not a card named by its owner. Unless you also drafted a card named <Aether Searcher>, you won't cast a card.
 2014/05/29: You cast the card before shuffling your library (if it was searched). In some very rare cases, you may need to take actions involving your library while casting the card. For example, if it has an additional cost and you activate Deranged Assistant's ability ("{T}, Put the top card of your library into your graveyard: Add {C} to your mana pool.") to pay for it, you must maintain the order of your library while you search it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1284,8 +1284,8 @@ Flying</CardText>
 <Type>Artifact Creature — Hound Construct 4/4</Type>
 <ManaCost>4 (4)</ManaCost>
 <CardText>Reveal Cogwork Tracker as you draft it and note the player who passed it to you.
-Cogwork Tracker attacks each turn if able.
-Cogwork Tracker attacks a player you noted for cards named Cogwork Tracker each turn if able.</CardText>
+Cogwork Tracker attacks each combat if able.
+Cogwork Tracker attacks a player you noted for cards named Cogwork Tracker each combat if able.</CardText>
 <Artist>Alex Horley-Orlandelli</Artist>
 <Multiverseid>382235</Multiverseid>
 <Rulings>2014/05/29: If your draft is breaking up into multiple games, you and the noted player(s) aren't required to be in the same game.
@@ -1735,8 +1735,8 @@ Whenever a creature with flying dies, put a +1/+1 counter on Soulcatcher.</CardT
 <Flavor>The smallest seed of regret can bloom into redemption.</Flavor>
 <Artist>Terese Nielsen</Artist>
 <Multiverseid>382380</Multiverseid>
-<Rulings>2016/06/08: The amount of life gained is equal to the power of the targeted creature as it last existed on the battlefield.
-2016/06/08: If the creature's power is negative, its controller doesn't lose or gain life.</Rulings>
+<Rulings>2017/11/17: The amount of life gained is equal to the power of the target creature as it last existed on the battlefield.
+2017/11/17: If the creature's power is negative, its controller doesn't lose or gain life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Conspiracy</Set>
@@ -2137,10 +2137,6 @@ When Screaming Seahawk enters the battlefield, you may search your library for a
 Islandcycling {2} ({2}, Discard this card: Search your library for an Island card, reveal it, and put it into your hand. Then shuffle your library.)</CardText>
 <Artist>Michael Sutfin</Artist>
 <Multiverseid>382361</Multiverseid>
-<Rulings>2009/02/01: Unlike the normal cycling ability, Islandcycling doesn't allow you to draw a card. Instead, it lets you search your library for an Island card. After you find an Island card in your library, you reveal it, put it into your hand, then shuffle your library.
-2009/02/01: Islandcycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on Islandcycling this card. Any ability that stops a cycling ability from being activated also stops Islandcycling from being activated.
-2009/02/01: Islandcycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with Islandcycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
-2009/02/01: You can choose to find any card with the Island land type, including nonbasic lands. You can also choose not to find a card, even if there is an Island card in your library.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Conspiracy</Set>
@@ -2640,7 +2636,7 @@ Sacrifice Vampire Hexmage: Remove all counters from target permanent.</CardText>
 2016/06/08: The creature you sacrifice isn't chosen until <Victimize> resolves. You can't return the creature you sacrifice because it will still be on the battlefield at the time targets are chosen.
 2016/06/08: As <Victimize> resolves, you must sacrifice a creature if able. You can't change your mind and choose not to sacrifice anything.
 2016/06/08: If one of the targeted creature cards is an illegal target (for instance, because it has left your graveyard before <Victimize> resolves), you'll still sacrifice a creature and put the other card onto the battlefield. If both are illegal targets, <Victimize> will be countered. You won't sacrifice a creature.
-2016/06/08: <Victimize> can be used to put both parts of the <b>B.F.M.</b> onto the battlefield at once.</Rulings>
+2016/06/08: <Victimize> can be used to put both parts of the B.F.M. onto the battlefield at once.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Conspiracy</Set>
@@ -3031,7 +3027,7 @@ If a player would gain life, that player gains no life instead.</CardText>
 <ManaCost>2RR (4)</ManaCost>
 <CardText>Flash (You may cast this spell any time you could cast an instant.)
 Enchant creature
-Enchanted creature gets +2/+2 and attacks each turn if able.</CardText>
+Enchanted creature gets +2/+2 and attacks each combat if able.</CardText>
 <Artist>Kev Walker</Artist>
 <Multiverseid>382392</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -3205,7 +3201,6 @@ Forestcycling {2} ({2}, Discard this card: Search your library for a Forest card
 —Cyrul the Wanderer</Flavor>
 <Artist>Florian de Gesincourt</Artist>
 <Multiverseid>382262</Multiverseid>
-<Rulings>2004/10/04: You have to say when you put the land out that it is the one you get because of <Exploration>. If you put out a Forest while <Exploration> is in on the battlefield, then <Exploration> leaves the battlefield (by being destroyed or something), you can't put out another Forest claiming that the first one was due to <Exploration> unless you said so when you played that Forest.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Conspiracy</Set>
@@ -3325,7 +3320,7 @@ Morbid — Put three +1/+1 counters on that creature instead if a creature died 
 —Sildark, artificer of Omu</Flavor>
 <Artist>Raoul Vitale</Artist>
 <Multiverseid>382316</Multiverseid>
-<Rulings>2016/06/08: If the targeted artifact or enchantment is an illegal target when <Nature's Claim> tries to resolve, the entire spell is countered. No one gains any life.</Rulings>
+<Rulings>2017/11/17: If the target artifact or enchantment is an illegal target when <Nature's Claim> tries to resolve, the entire spell is countered. No one gains any life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3575,7 +3570,7 @@ Players can't cast spells during combat.
 <Flavor>Anarchy comes in many forms: social, individual, Gruul . . .</Flavor>
 <Artist>Zoltan Boros</Artist>
 <Multiverseid>382250</Multiverseid>
-<Rulings>2004/12/01: You no longer need four distinct targets for <Decimate>. If the spell or ability uses the word target in multiple places, the same object or player can be chosen once for each instance of the word "target." For example, you could choose <Tree of Tales> for both the artifact and the land. You still need a legal target enchantment and creature as well.</Rulings>
+<Rulings>2004/12/01: You no longer need four distinct targets for <Decimate>. If the spell or ability uses the word target in multiple places, the same object or player can be chosen once for each instance of the word "target." For example, you could choose Tree of Tales for both the artifact and the land. You still need a legal target enchantment and creature as well.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Conspiracy</Set>
@@ -3831,7 +3826,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <Name>Galvanic Juggernaut</Name>
 <Type>Artifact Creature — Juggernaut 5/5</Type>
 <ManaCost>4 (4)</ManaCost>
-<CardText>Galvanic Juggernaut attacks each turn if able.
+<CardText>Galvanic Juggernaut attacks each combat if able.
 Galvanic Juggernaut doesn't untap during your untap step.
 Whenever another creature dies, untap Galvanic Juggernaut.</CardText>
 <Artist>Lucas Graciano</Artist>

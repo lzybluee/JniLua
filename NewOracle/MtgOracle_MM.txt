@@ -962,7 +962,7 @@ Choose a color. All creatures gain protection from the chosen color until end of
 <ManaCost>4UU (6)</ManaCost>
 <CardText>Flying
 {1}{U}{U}: Exile the top card of your library. Until end of turn, you may play that card. (Reveal the card as you exile it.)</CardText>
-<Flavor>Successful delivery is *not* guaranteed.</Flavor>
+<Flavor>Successful delivery is not guaranteed.</Flavor>
 <Artist>DiTerlizzi</Artist>
 <Multiverseid>19667</Multiverseid>
 <Rulings>2004/10/04: If you do not play the card by end of turn, it remains exiled. If you play it, it goes wherever the it would normally go when played.</Rulings>
@@ -1690,7 +1690,7 @@ If an opponent controls a Mountain and you control an Island, you may cast Sapra
 <Type>Creature — Merfolk 5/5</Type>
 <ManaCost>3U (4)</ManaCost>
 <CardText>When Saprazzan Outrigger attacks or blocks, put it on top of its owner's library at end of combat.</CardText>
-<Flavor>The Saprazzans excel at both tactics: hit *and* run.</Flavor>
+<Flavor>The Saprazzans excel at both tactics: hit and run.</Flavor>
 <Artist>Doug Chaffee</Artist>
 <Multiverseid>21773</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2126,14 +2126,15 @@ At the beginning of your precombat main phase, add {B} to your mana pool for eac
 <Type>Enchantment</Type>
 <ManaCost>3BB (5)</ManaCost>
 <CardText>As Conspiracy enters the battlefield, choose a creature type.
-Creature cards you own that aren't on the battlefield, creature spells you control, and creatures you control are the chosen type.</CardText>
+Creatures you control are the chosen type. The same is true for creature spells you control and creature cards you own that aren't on the battlefield.</CardText>
 <Artist>Jeff Easley</Artist>
 <Multiverseid>19702</Multiverseid>
 <Rulings>2004/10/04: It does not replace any use of creature types in card text.
 2004/10/04: This can grant a creature type to animated lands and artifacts that would otherwise have no creature type.
 2005/08/01: "Legend" is no longer a creature type, and may not be chosen.
 2005/08/01: If you choose Wall, then your creatures can still attack because creature types don't confer abilities such as defender (any more than, say, choosing creature type Bird would confer flying).
-2013/09/20: Affected spells, cards, and creatures lose all of their other creature types.</Rulings>
+2013/09/20: Affected spells, cards, and creatures lose all of their other creature types.
+2017/09/29: Replacement effects that modify creatures of a certain type as they enter the battlefield will apply (or not apply) after you apply this effect. For example, if Warrior is the chosen creature type and you control Bramblewood Paragon, a Runeclaw Bear would enter the battlefield with an additional +1/+1 counter.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2329,7 +2330,7 @@ You may sacrifice three black creatures rather than pay Delraich's mana cost.</C
 <Type>Creature — Human Mercenary 2/2</Type>
 <ManaCost>2BB (4)</ManaCost>
 <CardText>When Highway Robber enters the battlefield, target opponent loses 2 life and you gain 2 life.</CardText>
-<Flavor>"Tonight, madam, it's your money *and* your life."</Flavor>
+<Flavor>"Tonight, madam, it's your money and your life."</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>19585</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2762,7 +2763,7 @@ Pay 2 life: Regenerate enchanted creature.</CardText>
 <Type>Creature — Human Mercenary 1/1</Type>
 <ManaCost>2B (3)</ManaCost>
 <CardText>When Strongarm Thug enters the battlefield, you may return target Mercenary card from your graveyard to your hand.</CardText>
-<Flavor>"No, I insist—let *me* carry all that heavy jewelry."</Flavor>
+<Flavor>"No, I insist—let me carry all that heavy jewelry."</Flavor>
 <Artist>Rebecca Guay</Artist>
 <Multiverseid>19689</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2968,7 +2969,6 @@ At the beginning of your end step, remove all +1/+1 counters from Blood Hound.</
 <CardText>Choose a card type. Target opponent reveals his or her hand. Blood Oath deals 3 damage to that player for each card of the chosen type revealed this way. (Artifact, creature, enchantment, instant, land, planeswalker, sorcery, and tribal are card types.)</CardText>
 <Artist>Mike Ploog</Artist>
 <Multiverseid>19726</Multiverseid>
-<Rulings>2013/07/01: The card types are artifact, creature, enchantment, instant, land, phenomenon, plane, planeswalker, scheme, sorcery, tribal, and vanguard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Mercadian Masques</Set>
@@ -3576,7 +3576,7 @@ Whenever Robber Fly becomes blocked, defending player discards all the cards in 
 <Type>Legendary Creature — Goblin 1/1</Type>
 <ManaCost>2R (3)</ManaCost>
 <CardText>At the beginning of your upkeep, you may return Squee, Goblin Nabob from your graveyard to your hand.</CardText>
-<Flavor>"General?!" Tahngarth roared. "General *nuisance*, maybe."</Flavor>
+<Flavor>"General?!" Tahngarth roared. "General nuisance, maybe."</Flavor>
 <Artist>David Monette</Artist>
 <Multiverseid>19716</Multiverseid>
 <Rulings>2013/06/07: Squee's ability triggers only if it's in your graveyard as your upkeep begins.</Rulings>
@@ -4314,9 +4314,8 @@ All creatures able to block enchanted creature do so.</CardText>
 <Flavor>Deepwood's reach is not long, so it invites its enemies in.</Flavor>
 <Artist>DiTerlizzi</Artist>
 <Multiverseid>22053</Multiverseid>
-<Rulings>2004/10/04: <Lure> does not give a creature the ability to block the <Lure>d creature, it just forces those creatures which are already able to block the <Lure>d creature to do so.
-2004/10/04: If a <Lure>d creature is in a band, only blockers able to block the <Lure>d creature are affected by the <Lure>.
-2004/10/04: The opponent does not have to activate any abilities in an attempt to make his or her creatures block. More specifically, a cost to block of zero mana is an optional cost you can choose not to pay.</Rulings>
+<Rulings>2017/11/17: <Lure> doesn't give any creatures the ability to block the target creature. It just forces those creatures that are already able to block the creature to do so.
+2017/11/17: As blockers are declared, any creature that's tapped or affected by a spell or ability that says it can't block doesn't block. If there's a cost associated with having the creature block, no player is forced to pay that cost, so it doesn't block if that cost isn't paid.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4362,7 +4361,7 @@ When Megatherium enters the battlefield, sacrifice it unless you pay {1} for eac
 <SetId>MM</SetId>
 <No>261</No>
 <Name>Pangosaur</Name>
-<Type>Creature — Lizard 6/6</Type>
+<Type>Creature — Dinosaur 6/6</Type>
 <ManaCost>2GG (4)</ManaCost>
 <CardText>Whenever a player plays a land, return Pangosaur to its owner's hand.</CardText>
 <Flavor>Only Rushwood is vast enough to swallow this creature whole.</Flavor>

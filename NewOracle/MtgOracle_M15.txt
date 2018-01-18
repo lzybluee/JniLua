@@ -2,7 +2,7 @@
 <SetId>M15</SetId>
 <No>1</No>
 <Name>Ajani Steadfast</Name>
-<Type>Planeswalker — Ajani (Loyalty: 4)</Type>
+<Type>Legendary Planeswalker — Ajani (Loyalty: 4)</Type>
 <ManaCost>3W (4)</ManaCost>
 <CardText>+1: Until end of turn, up to one target creature gets +1/+1 and gains first strike, vigilance, and lifelink.
 -2: Put a +1/+1 counter on each creature you control and a loyalty counter on each other planeswalker you control.
@@ -32,8 +32,10 @@
 —Jazal Goldmane</Flavor>
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>383181</Multiverseid>
-<Rulings>2014/07/18: The ability triggers just once for each life-gaining event, whether it's 1 life from Soulmender or 8 life from Meditation Puzzle.
-2014/07/18: A creature with lifelink dealing combat damage is a single life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, <Ajani's Pridemate>'s ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.</Rulings>
+<Rulings>2017/11/17: The ability of <Ajani's Pridemate> triggers just once for each life-gaining event, whether it's 1 life from Auriok Champion or 6 life from Tavern Swindler.
+2017/11/17: If <Ajani's Pridemate> is dealt lethal damage at the same time that you gain life, it won't receive a counter from its ability in time to save it.
+2017/11/17: Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, <Ajani's Pridemate>'s ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+2017/11/17: In a Two-Headed Giant game, life gained by your teammate won't cause the ability to trigger, even though it causes your team's life total to increase.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1099,9 +1101,7 @@ Enchanted artifact is a creature with base power and toughness 5/5 in addition t
 <Flavor>It readily attacks much larger prey, knowing retaliation is impossible.</Flavor>
 <Artist>Izzy</Artist>
 <Multiverseid>383248</Multiverseid>
-<Rulings>2014/07/18: <Frost Lynx>'s ability can target a creature that's already tapped. That creature still won't untap during its controller's next untap step.
-2014/07/18: <Frost Lynx>'s ability tracks the creature, not the creature's controller. That is, if the creature changes controllers before its first controller's next untap step, then it won't untap during its new controller's next untap step.
-2014/07/18: If the creature isn't tapped during its controller's next untap step (perhaps because it was untapped by a spell), <Frost Lynx>'s ability has no effect at that time. It won't try to keep the creature tapped on subsequent turns.</Rulings>
+<Rulings>2017/11/17: <Frost Lynx>'s ability can target a creature that's already tapped. That creature still won't untap during its controller's next untap step.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1175,8 +1175,7 @@ Cast Illusory Angel only if you've cast another spell this turn.</CardText>
 —Letter from a soldier</Flavor>
 <Artist>Allen Williams</Artist>
 <Multiverseid>383274</Multiverseid>
-<Rulings>2012/06/01: Notably, if you exile <Illusory Angel> because of a cascade ability of a spell with converted mana cost 4 or greater, you'll be able to cast <Illusory Angel>.
-2014/07/18: It doesn't matter whether the other spell resolved. It could have been countered or, if you've somehow cast <Illusory Angel> as though it had flash, it could still be on the stack.</Rulings>
+<Rulings>2017/11/17: It doesn't matter whether the other spell resolved. It could have been countered or, if you've somehow cast <Illusory Angel> as though it had flash, it could still be on the stack.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1224,7 +1223,7 @@ Enchanted creature can't be blocked except by Walls.</CardText>
 <SetId>M15</SetId>
 <No>62</No>
 <Name>Jace, the Living Guildpact</Name>
-<Type>Planeswalker — Jace (Loyalty: 5)</Type>
+<Type>Legendary Planeswalker — Jace (Loyalty: 5)</Type>
 <ManaCost>2UU (4)</ManaCost>
 <CardText>+1: Look at the top two cards of your library. Put one of them into your graveyard.
 -3: Return another target nonland permanent to its owner's hand.
@@ -1877,6 +1876,8 @@ Put target creature card from a graveyard onto the battlefield under your contro
 Enchanted creature has lifelink and "Whenever a creature an opponent controls dies, put a +1/+1 counter on this creature." (Damage dealt by a creature with lifelink also causes its controller to gain that much life.)</CardText>
 <Artist>Clint Cearley</Artist>
 <Multiverseid>383234</Multiverseid>
+<Rulings>2017/11/17: Multiple instances of lifelink on the same creature are redundant.
+2017/11/17: If the enchanted creature is dealt lethal damage at the same time as a creature an opponent controls, they're destroyed at the same time. It won't receive a +1/+1 counter from its ability in time to save it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1987,8 +1988,8 @@ At the beginning of your upkeep, draw a card unless target opponent sacrifices a
 <Flavor>The promise of anguish is payment enough for services rendered.</Flavor>
 <Artist>Wesley Burt</Artist>
 <Multiverseid>383276</Multiverseid>
-<Rulings>2014/07/18: The opponent chooses whether he or she sacrifices a creature, pays 3 life, or allows you to draw a card. That player can't make an impossible choice, such as sacrificing a creature while he or she controls no creatures.
-2014/07/18: If there are no legal targets to choose, perhaps because all your opponents have hexproof, the ability is removed from the stack with no effect. You won't draw a card. This is also true if the target opponent becomes an illegal target in response to the ability.</Rulings>
+<Rulings>2017/11/17: The opponent chooses whether he or she sacrifices a creature, pays 3 life, or allows you to draw a card. That player can't make an impossible choice, such as sacrificing a creature while he or she controls no creatures.
+2017/11/17: If there are no legal targets to choose, perhaps because all your opponents have hexproof, the ability is removed from the stack with no effect. You won't draw a card. This is also true if the target opponent becomes an illegal target in response to the ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2021,7 +2022,7 @@ At the beginning of your upkeep, draw a card unless target opponent sacrifices a
 <SetId>M15</SetId>
 <No>103</No>
 <Name>Liliana Vess</Name>
-<Type>Planeswalker — Liliana (Loyalty: 5)</Type>
+<Type>Legendary Planeswalker — Liliana (Loyalty: 5)</Type>
 <ManaCost>3BB (5)</ManaCost>
 <CardText>+1: Target player discards a card.
 -2: Search your library for a card, then shuffle your library and put that card on top of it.
@@ -2322,7 +2323,7 @@ Choose a nonland card name. Search target player's graveyard, hand, and library 
 —Liliana Vess</Flavor>
 <Artist>Johann Bodin</Artist>
 <Multiverseid>383422</Multiverseid>
-<Rulings>2014/07/18: The loss of life isn't a cost. If the target creature is an illegal target when <Ulcerate> tries to resolve, it will be countered and none of its effects will happen. You won't lose any life.</Rulings>
+<Rulings>2017/11/17: The loss of life isn't a cost. If the target creature is an illegal target when <Ulcerate> tries to resolve, it will be countered and none of its effects will happen. You won't lose any life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2606,7 +2607,7 @@ Enchanted creature has "{T}: This creature deals damage equal to its power to ta
 <SetId>M15</SetId>
 <No>134</No>
 <Name>Chandra, Pyromaster</Name>
-<Type>Planeswalker — Chandra (Loyalty: 4)</Type>
+<Type>Legendary Planeswalker — Chandra (Loyalty: 4)</Type>
 <ManaCost>2RR (4)</ManaCost>
 <CardText>+1: Chandra, Pyromaster deals 1 damage to target player and 1 damage to up to one target creature that player controls. That creature can't block this turn.
 0: Exile the top card of your library. You may play it this turn.
@@ -2822,7 +2823,7 @@ Target creature gets +1/+0 and gains first strike until end of turn. (It deals c
 <Name>Goblin Rabblemaster</Name>
 <Type>Creature — Goblin Warrior 2/2</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>Other Goblin creatures you control attack each turn if able.
+<CardText>Other Goblin creatures you control attack each combat if able.
 At the beginning of combat on your turn, create a 1/1 red Goblin creature token with haste.
 Whenever Goblin Rabblemaster attacks, it gets +1/+0 until end of turn for each other attacking Goblin.</CardText>
 <Artist>Svetlin Velinov</Artist>
@@ -2900,10 +2901,9 @@ When Hoarding Dragon enters the battlefield, you may search your library for an 
 When Hoarding Dragon dies, you may put the exiled card into its owner's hand.</CardText>
 <Artist>Matt Cavotta</Artist>
 <Multiverseid>383266</Multiverseid>
-<Rulings>2014/07/18: The artifact card you find is exiled face up. All players can see what it is.
-2014/07/18: If <Hoarding Dragon> is put into a graveyard before its first ability has resolved, its second ability will trigger and do nothing. Then its first ability will resolve. If you choose to find an artifact card from your library, it will be exiled for the rest of the game.
-2014/07/18: <Hoarding Dragon>'s two abilities are linked. The second ability refers only to the card exiled by that <Hoarding Dragon>'s first ability. In other words, each Dragon has its own hoard.
-2014/07/18: If <Hoarding Dragon> dies before its first ability resolves, its second ability will trigger and do nothing. Then its first ability will resolve. If you choose to exile an artifact card from your library, it will be exiled indefinitely.</Rulings>
+<Rulings>2017/11/17: The artifact card you find is exiled face up. All players can see what it is.
+2017/11/17: <Hoarding Dragon>'s two abilities are linked. The second ability refers only to the card exiled by that <Hoarding Dragon>'s first ability. In other words, each Dragon has its own hoard.
+2017/11/17: If <Hoarding Dragon> dies before its first ability resolves, its second ability will trigger and do nothing. Then its first ability will resolve. If you choose to exile an artifact card from your library, it will be exiled indefinitely.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3418,10 +3418,12 @@ Genesis Hydra enters the battlefield with X +1/+1 counters on it.</CardText>
 <Flavor>Designed by George Fan</Flavor>
 <Artist>Peter Mohrbacher</Artist>
 <Multiverseid>383255</Multiverseid>
-<Rulings>2014/07/18: <Genesis Hydra>'s first ability will resolve before <Genesis Hydra> does. Notably, if you put an Aura card onto the battlefield this way, it can't enchant <Genesis Hydra>.
-2014/07/18: If you put an Aura onto the battlefield this way, you choose what it enchants as it enters the battlefield. This doesn't target any permanent or player. For example, you could put an Aura onto the battlefield enchanting a creature with hexproof controlled by an opponent.
-2014/07/18: If there's an {X} in the mana cost of the nonland permanent card, X is 0.
-2014/07/18: If "the rest" is zero cards, either because X was 0 or because X was 1 and that card was put onto the battlefield, the library is still shuffled.</Rulings>
+<Rulings>2017/11/17: <Genesis Hydra>'s first ability will resolve before <Genesis Hydra> does. Notably, if you put an Aura card onto the battlefield this way, it can't enchant <Genesis Hydra>.
+2017/11/17: If you have fewer than X cards in your library, you reveal all of them.
+2017/11/17: If a card in a player's library has {X} in its mana cost, X is considered to be 0.
+2017/11/17: A nonland permanent card is an artifact, creature, enchantment, or planeswalker card.
+2017/11/17: If you put an Aura onto the battlefield this way, you choose what it enchants as it enters the battlefield. This doesn't target any permanent or player, but it must be able to enchant that permanent or player. For example, you could put a green Aura onto the battlefield enchanting a creature with hexproof controlled by an opponent, but not one with protection from green.
+2017/11/17: If "the rest" is zero cards, either because X was 0 or because X was 1 and that card was put onto the battlefield, the library is still shuffled.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3475,12 +3477,9 @@ When Hornet Queen enters the battlefield, create four 1/1 green Insect creature 
 <Flavor>He who hesitates is lunch.</Flavor>
 <Artist>Raoul Vitale</Artist>
 <Multiverseid>383270</Multiverseid>
-<Rulings>2014/11/24: You can't cast <Hunt the Weak> unless you choose both a creature you control and a creature you don't control as targets.
-2014/11/24: If either target is an illegal target as <Hunt the Weak> tries to resolve, neither creature will deal or be dealt damage.
-2014/11/24: If the creature you control is an illegal target as <Hunt the Weak> tries to resolve, you won't put a +1/+1 counter on it. If that creature is a legal target but the creature you don't control isn't, you'll still put the counter on the creature you control.
-2016/09/20: You can't cast <Hunt the Weak> unless you choose both a creature you control and a creature you don't control as targets.
-2016/09/20: If either target is an illegal target as <Hunt the Weak> resolves, neither creature will deal or be dealt damage.
-2016/09/20: If the creature you control is an illegal target as <Hunt the Weak> tries to resolve, you won't put a +1/+1 counter on it. If that creature is a legal target but the other creature isn't, you'll still put the counter on the creature you control.</Rulings>
+<Rulings>2017/11/17: You can't cast <Hunt the Weak> unless you choose both a creature you control and a creature you don't control as targets.
+2017/11/17: If either target is an illegal target as <Hunt the Weak> tries to resolve, neither creature will deal or be dealt damage.
+2017/11/17: If the creature you control is an illegal target as <Hunt the Weak> tries to resolve, you won't put a +1/+1 counter on it. If that creature is a legal target but the creature you don't control isn't, you'll still put the counter on the creature you control.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3627,7 +3626,7 @@ Whenever Netcaster Spider blocks a creature with flying, Netcaster Spider gets +
 <SetId>M15</SetId>
 <No>187</No>
 <Name>Nissa, Worldwaker</Name>
-<Type>Planeswalker — Nissa (Loyalty: 3)</Type>
+<Type>Legendary Planeswalker — Nissa (Loyalty: 3)</Type>
 <ManaCost>3GG (5)</ManaCost>
 <CardText>+1: Target land you control becomes a 4/4 Elemental creature with trample. It's still a land.
 +1: Untap up to four target Forests.
@@ -4065,7 +4064,7 @@ Enchanted creature gets +1/+1.
 <SetId>M15</SetId>
 <No>210</No>
 <Name>Garruk, Apex Predator</Name>
-<Type>Planeswalker — Garruk (Loyalty: 5)</Type>
+<Type>Legendary Planeswalker — Garruk (Loyalty: 5)</Type>
 <ManaCost>5BG (7)</ManaCost>
 <CardText>+1: Destroy another target planeswalker.
 +1: Create a 3/3 black Beast creature token with deathtouch.
@@ -4265,13 +4264,12 @@ Designed by James Ernest</Flavor>
 <Name>Juggernaut</Name>
 <Type>Artifact Creature — Juggernaut 5/3</Type>
 <ManaCost>4 (4)</ManaCost>
-<CardText>Juggernaut attacks each turn if able.
+<CardText>Juggernaut attacks each combat if able.
 Juggernaut can't be blocked by Walls.</CardText>
 <Flavor>Many a besieged city has surrendered upon hearing the distinctive rumble of the juggernaut.</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>383289</Multiverseid>
-<Rulings>2016/06/08: If, during your declare attackers step, <Juggernaut> is tapped, is affected by a spell or ability that says it can't attack, or you haven't controlled it continuously since the beginning of your turn, then it doesn't attack. If there's a cost associated with having <Juggernaut> attack, you aren't forced to pay that cost, so it doesn't have to attack in that case either.
-2016/06/08: If there are multiple combat phases in a turn, <Juggernaut> must attack only in the first one in which it's able to.</Rulings>
+<Rulings>2016/06/08: If, during your declare attackers step, <Juggernaut> is tapped, is affected by a spell or ability that says it can't attack, or you haven't controlled it continuously since the beginning of your turn, then it doesn't attack. If there's a cost associated with having <Juggernaut> attack, you aren't forced to pay that cost, so it doesn't have to attack in that case either.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4713,7 +4711,7 @@ Designed by Richard Garriott</Flavor>
 <No>243</No>
 <Name>Evolving Wilds</Name>
 <Type>Land</Type>
-<CardText>{T}, Sacrifice Evolving Wilds: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.</CardText>
+<CardText>{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.</CardText>
 <Flavor>Without the interfering hands of civilization, nature will always shape itself to its own needs.</Flavor>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>383235</Multiverseid>

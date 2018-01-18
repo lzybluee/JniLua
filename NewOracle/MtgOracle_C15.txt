@@ -169,10 +169,10 @@ Whenever a creature enters the battlefield, you may attach Shielded by Faith to 
 <Flavor>"You were saying?"</Flavor>
 <Artist>Aaron Miller</Artist>
 <Multiverseid>405120</Multiverseid>
-<Rulings>2015/11/04: Aethersnatch can target any spell, even one without targets.
+<Rulings>2015/11/04: <Aethersnatch> can target any spell, even one without targets.
 2015/11/04: If you gain control of an instant or sorcery spell, it will be put into its owner's graveyard as it resolves.
-2015/11/04: You may change any or none of the spell's targets. If you change a target, you must choose a legal target for the spell. If you can't, you must leave the target unchanged (even if the current target is illegal). Notably, if you were originally chosen as a "target opponent" for a spell you gain control with Aethersnatch, you are now an illegal target as you aren't your own opponent.
-2015/11/04: Combat damage dealt by a commander is tracked without regard to who controlled the commander at the time it dealt damage. For example, say a commander deals 10 combat damage to a player, leaves the battlefield, is recast, and you gain control of it with Aethersnatch. If it deals another 11 combat damage to that same player, he or she will lose the game.
+2015/11/04: You may change any or none of the spell's targets. If you change a target, you must choose a legal target for the spell. If you can't, you must leave the target unchanged (even if the current target is illegal). Notably, if you were originally chosen as a "target opponent" for a spell you gain control with <Aethersnatch>, you are now an illegal target as you aren't your own opponent.
+2015/11/04: Combat damage dealt by a commander is tracked without regard to who controlled the commander at the time it dealt damage. For example, say a commander deals 10 combat damage to a player, leaves the battlefield, is recast, and you gain control of it with <Aethersnatch>. If it deals another 11 combat damage to that same player, he or she will lose the game.
 2015/11/04: If you gain control of a commander spell, the commander's owner chooses whether to put it in the command zone if it later leaves the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -245,8 +245,8 @@ Whenever Illusory Ambusher is dealt damage, draw that many cards.</CardText>
 —Doriel, mentor of Mistral Isle</Flavor>
 <Artist>Steve Argyle</Artist>
 <Multiverseid>405260</Multiverseid>
-<Rulings>2015/11/04: Creatures may be dealt damage greater than their toughness. For example, if a source deals 5 damage to <Illusory Ambusher>, you'll draw five cards.
-2015/11/04: If <Illusory Ambusher> blocks a creature with trample, that creature's controller can assign any amount of damage from 1 to that creature's power to <Illusory Ambusher>. Excess damage doesn't have to be assigned to the defending player.</Rulings>
+<Rulings>2017/11/17: Creatures may be dealt damage greater than their toughness. For example, if a source deals 5 damage to <Illusory Ambusher>, you'll draw five cards.
+2017/11/17: If <Illusory Ambusher> blocks a creature with trample, that creature's controller can assign any amount of damage from 1 to that creature's power to <Illusory Ambusher>. Excess damage doesn't have to be assigned to the defending player.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander 2015 Edition</Set>
@@ -776,7 +776,7 @@ When Great Oak Guardian enters the battlefield, creatures target player controls
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>405336</Multiverseid>
 <Rulings>2015/11/04: The value of X is calculated as <Pathbreaker Ibex>'s ability resolves. Notably, if you attack with two <Pathbreaker Ibex> (and control no other creatures), the first ability to resolve will give those Ibex +3/+3. The second ability will then give them +6/+6.
-2015/11/04: In some unusual cases, the greatest power among creatures you control may be negative. This is bad for you. For example, if the greatest power among creatures you control when the ability resolves is -2, creatures you control will get -2/-2 until end of turn.</Rulings>
+2017/07/14: If this creature's power is negative as its ability resolves, X is considered to be 0. (This is a change from previous rulings.)</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander 2015 Edition</Set>
@@ -976,7 +976,7 @@ Whenever a player sacrifices another permanent, put a +1/+1 counter on each crea
 <Multiverseid>405295</Multiverseid>
 <Rulings>2015/11/04: If a permanent is sacrificed to pay a cost of a spell or ability, Mazirek's ability will resolve before that spell or ability. Conversely, if a permanent is sacrificed during the resolution of a spell or ability, that spell or ability will finish resolving before Mazirek's ability is put onto the stack.
 2015/11/04: Mazirek itself doesn't allow any player to sacrifice any permanents. Its ability triggers whenever a player sacrifices a permanent because some other spell, ability, or cost instructed the player to do so.
-2015/11/04: A legendary creature that dies because of the "legend rule" isn't sacrificed. The same is true for a planeswalker that is affected by the "planeswalker uniqueness rule."</Rulings>
+2015/11/04: A legendary creature that dies because of the "legend rule" isn't sacrificed.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander 2015 Edition</Set>
@@ -1164,6 +1164,10 @@ Each spell you cast costs {1} less to cast for each of the chosen colors it is.<
 <Flavor>"United, our roar will level mountains."</Flavor>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>405121</Multiverseid>
+<Rulings>2013/07/01: The ability doesn't trigger until the enchantment enters the battlefield. This means that, for example, you can't cast an Aura with enchant creature if there are no legal targets available, hoping to enchant the Cat token. <Ajani's Chosen> itself, however, may be a legal target for the Aura.
+2013/07/01: If you cast an Aura targeting an opponent or a permanent controlled by an opponent, you control that Aura when it enters the battlefield. The ability of <Ajani's Chosen> will trigger.
+2013/07/01: You may attach the Aura to the token only if it can legally enchant that token. For example, if the enchantment that entered the battlefield is an Aura with "enchant land," it won't move.
+2013/07/01: You may attach the Aura to the Cat token only if the Aura and the token are both on the battlefield when the triggered ability resolves. If the Aura leaves the battlefield before the ability resolves, it won't become attached to the token. If the token leaves the battlefield before the ability resolves, the Aura won't move.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1404,8 +1408,7 @@ When Faith's Fetters enters the battlefield, you gain 4 life.
 Enchanted permanent's activated abilities can't be activated unless they're mana abilities. If enchanted permanent is a creature, it can't attack or block.</CardText>
 <Artist>Brian Despain</Artist>
 <Multiverseid>405224</Multiverseid>
-<Rulings>2016/06/08: Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keywords are activated abilities and will have colons in their reminder text.
-2016/06/08: <Faith's Fetters> doesn't stop static abilities, triggered abilities, or mana abilities from working. A mana ability is an ability that produces mana, not an ability that costs mana.
+<Rulings>2016/06/08: <Faith's Fetters> doesn't stop static abilities, triggered abilities, or mana abilities from working. A mana ability is an ability that produces mana, not an ability that costs mana.
 2016/06/08: Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keywords are activated abilities and will have colons in their reminder text.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1541,7 +1544,6 @@ When Marshal's Anthem enters the battlefield, return up to X target creature car
 <Flavor>"Belief is the strongest mortar."</Flavor>
 <Artist>Daren Bader</Artist>
 <Multiverseid>405305</Multiverseid>
-<Rulings>2004/10/04: You can cast this if there are no enchantments in your graveyard. The enters the battlefield ability just doesn't do anything.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander 2015 Edition</Set>
@@ -1713,7 +1715,7 @@ Enchanted creature gets +2/+2, has vigilance, and can't attack you or a planeswa
 <Flavor>"You can come back once you've learned some manners—and figured out how to reconstitute your physical forms."</Flavor>
 <Artist>Ryan Barger</Artist>
 <Multiverseid>405119</Multiverseid>
-<Rulings>2013/01/24: An "attacking creature" is one that has been declared as an attacker this combat, or one that was put onto the battlefield attacking this combat. Unless that creature leaves combat, it continues to be an attacking creature through the end of combat step, even if the player it was attacking has left the game, or the planeswalker it was attacking has left combat. There's no such thing as an attacking creature outside of the combat phase.</Rulings>
+<Rulings>2017/11/17: An "attacking creature" is one that has been declared as an attacker this combat, or one that was put onto the battlefield attacking this combat. Unless that creature leaves combat, it continues to be an attacking creature through the end of combat step, even if the player it was attacking has left the game, or the planeswalker it was attacking has left combat. There's no such thing as an attacking creature outside of the combat phase.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1831,8 +1833,10 @@ Overload {3}{U} (You may cast this spell for its overload cost. If you do, chang
 When Day of the Dragons leaves the battlefield, sacrifice all Dragons you control. Then return the exiled cards to the battlefield under your control.</CardText>
 <Artist>Matthew D. Wilson</Artist>
 <Multiverseid>405193</Multiverseid>
-<Rulings>2004/10/04: The exiled cards are face up while exiled.
-2004/10/04: The exiled cards return to the battlefield face up.</Rulings>
+<Rulings>2017/11/17: Auras attached to the exiled creatures will be put into their owners' graveyards. Equipment attached to the exiled creatures will become unattached and remain on the battlefield. Any counters on the exiled creatures will cease to exist.
+2017/11/17: Token creatures will count to determine how many Dragon tokens you create, but they won't be returned to the battlefield when <Day of the Dragons> leaves the battlefield.
+2017/11/17: If <Day of the Dragons> leaves the battlefield before its first ability has resolved, its second ability will trigger and you'll sacrifice any Dragons you already control. Then its first ability will resolve and exile your creatures forever, leaving you with that many Dragon tokens.
+2017/11/17: All of the nontoken creatures you exiled return to the battlefield when <Day of the Dragons> leaves the battlefield, even if some or all of the Dragon tokens had already left the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander 2015 Edition</Set>
@@ -2741,7 +2745,7 @@ Enchanted land has "{T}, Pay 1 life: Draw a card."</CardText>
 2016/06/08: The creature you sacrifice isn't chosen until <Victimize> resolves. You can't return the creature you sacrifice because it will still be on the battlefield at the time targets are chosen.
 2016/06/08: As <Victimize> resolves, you must sacrifice a creature if able. You can't change your mind and choose not to sacrifice anything.
 2016/06/08: If one of the targeted creature cards is an illegal target (for instance, because it has left your graveyard before <Victimize> resolves), you'll still sacrifice a creature and put the other card onto the battlefield. If both are illegal targets, <Victimize> will be countered. You won't sacrifice a creature.
-2016/06/08: <Victimize> can be used to put both parts of the <b>B.F.M.</b> onto the battlefield at once.</Rulings>
+2016/06/08: <Victimize> can be used to put both parts of the B.F.M. onto the battlefield at once.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander 2015 Edition</Set>
@@ -2851,8 +2855,9 @@ Breath of Darigaaz deals 1 damage to each creature without flying and each playe
 Whenever you cast an instant or sorcery spell, Charmbreaker Devils gets +4/+0 until end of turn.</CardText>
 <Artist>Dan Scott</Artist>
 <Multiverseid>405173</Multiverseid>
-<Rulings>2011/09/22: The instant or sorcery card returned to your hand is chosen at random as the triggered ability resolves. If any player responds to the ability, that player won't yet know what card will be returned.
-2011/09/22: Because the first ability doesn't target the instant or sorcery card, any instants or sorceries put into your graveyard in response to that ability may be returned to your hand.</Rulings>
+<Rulings>2017/11/17: The instant or sorcery card returned to your hand is chosen at random as <Charmbreaker Devils>'s first ability resolves. If any player responds to the ability, that player won't yet know what card will be returned.
+2017/11/17: Because the first ability doesn't target the instant or sorcery card, any instants or sorceries put into your graveyard in response to that ability may be returned to your hand.
+2017/11/17: All players get to see which card you chose at random as it's returned to your hand.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2888,12 +2893,11 @@ Choose target creature or player, then choose another target creature or player 
 <Type>Enchantment — Aura Curse</Type>
 <ManaCost>2R (3)</ManaCost>
 <CardText>Enchant player
-Creatures enchanted player controls attack each turn if able.</CardText>
+Creatures enchanted player controls attack each combat if able.</CardText>
 <Flavor>When the moon rises and the bloodlust takes hold, nothing matters but the kill.</Flavor>
 <Artist>Daarken</Artist>
 <Multiverseid>405186</Multiverseid>
 <Rulings>2011/09/22: The enchanted player still chooses which player or planeswalker each creature he or she controls attacks.
-2011/09/22: If there are multiple combat phases in a turn, each creature must attack only in the first one in which it's able to.
 2011/09/22: If, during the enchanted player's declare attackers step, a creature he or she controls is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having the creature attack, the player isn't forced to pay that cost, so it doesn't have to attack in that case either.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3036,7 +3040,7 @@ Flashback {2}{R} (You may cast this card from your graveyard for its flashback c
 <Type>Legendary Creature — Human Samurai 3/2</Type>
 <ManaCost>2RR (4)</ManaCost>
 <CardText>Fumiko the Lowblood has bushido X, where X is the number of attacking creatures. (Whenever this creature blocks or becomes blocked, it gets +X/+X until end of turn.)
-Creatures your opponents control attack each turn if able.</CardText>
+Creatures your opponents control attack each combat if able.</CardText>
 <Artist>Michael Sutfin</Artist>
 <Multiverseid>405238</Multiverseid>
 <Rulings>2005/02/01: X is variable. The bushido bonus is calculated each time Fumiko's bushido trigger resolves, based on the number of attackers at that time.
@@ -3100,7 +3104,7 @@ When Hostility is put into a graveyard from anywhere, shuffle it into its owner'
 <Rulings>2007/10/01: If a spell you control would deal damage to an opponent and that opponent controls a planeswalker, that opponent chooses which of your effects to apply first. — If that player chooses to apply <Hostility>'s effect first, the damage is prevented, you put some tokens onto the battlefield, and the planeswalker redirection effect is moot because there's no damage to redirect. — If that player chooses to apply the planeswalker redirection effect first, you have a choice. You can redirect the damage to the planeswalker (in which case <Hostility>'s prevention effect is moot because nothing's dealing damage to the player anymore) or you can have your spell continue to deal damage to the opponent. If you choose the latter, <Hostility>'s effect then applies, the damage is prevented, and you get the tokens.
 2007/10/01: The last ability triggers when the Incarnation is put into its owner's graveyard from any zone, not just from on the battlefield.
 2007/10/01: Although this ability triggers when the Incarnation is put into a graveyard from the battlefield, it doesn't *specifically* trigger on leaving the battlefield, so it doesn't behave like other leaves-the-battlefield abilities. The ability will trigger from the graveyard.
-2007/10/01: If the Incarnation had lost this ability while on the battlefield (due to <Lignify>, for example) and then was destroyed, the ability would still trigger and it would get shuffled into its owner's library. However, if the Incarnation lost this ability when it was put into the graveyard (due to <Yixlid Jailer>, for example), the ability wouldn't trigger and the Incarnation would remain in the graveyard.
+2007/10/01: If the Incarnation had lost this ability while on the battlefield (due to Lignify, for example) and then was destroyed, the ability would still trigger and it would get shuffled into its owner's library. However, if the Incarnation lost this ability when it was put into the graveyard (due to Yixlid Jailer, for example), the ability wouldn't trigger and the Incarnation would remain in the graveyard.
 2007/10/01: If the Incarnation is removed from the graveyard after the ability triggers but before it resolves, it will remain in its new zone when its owner shuffles his or her library. Similarly, if a replacement effect has the Incarnation move to a different zone instead of being put into the graveyard, the ability won't trigger at all.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3120,7 +3124,7 @@ When Hunted Dragon enters the battlefield, target opponent creates three 2/2 whi
 <Flavor>The knights see a mighty quarry. The dragon sees breakfast, lunch, and dinner.</Flavor>
 <Artist>Mark Zug</Artist>
 <Multiverseid>405259</Multiverseid>
-<Rulings>2005/10/01: The tokens are the color white and have name and creature type Knight. They are *not* functionally identical to the card <White Knight>.</Rulings>
+<Rulings>2005/10/01: The tokens are the color white and have name and creature type Knight. They are *not* functionally identical to the card White Knight.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3308,7 +3312,7 @@ Urza's Rage can't be countered by spells or abilities.
 Urza's Rage deals 3 damage to target creature or player. If Urza's Rage was kicked, instead it deals 10 damage to that creature or player and the damage can't be prevented.</CardText>
 <Artist>Jim Murray</Artist>
 <Multiverseid>405430</Multiverseid>
-<Rulings>2004/10/04: This spell has a self-replacement in it . This means that if <Urza's Rage> is kicked, the 3 damage is replaced with 10 unpreventable damage before any other replacements can be applied. For example, you can't use <Healing Salve> to prevent the 3 damage before it gets changed.
+<Rulings>2004/10/04: This spell has a self-replacement in it . This means that if <Urza's Rage> is kicked, the 3 damage is replaced with 10 unpreventable damage before any other replacements can be applied. For example, you can't use Healing Salve to prevent the 3 damage before it gets changed.
 2004/10/04: You can target this spell with spells and abilities, so you can change its target. Those spells and abilities just can't counter it.
 2004/10/04: The damage is unpreventable, but it can be affected by replacement effects.
 2004/10/04: It can be countered by game rules, such as by having all its targets be illegal. Game rules are neither spells or abilities.
@@ -4576,7 +4580,7 @@ Whenever a creature deals combat damage to you, destroy that creature. Create a 
 Whenever Treasury Thrull attacks, you may return target artifact, creature, or enchantment card from your graveyard to your hand.</CardText>
 <Artist>Mark Zug</Artist>
 <Multiverseid>405424</Multiverseid>
-<Rulings>2013/04/15: You may pay {WB} a maximum of one time for each extort triggered ability. You decide whether to pay when the ability resolves.
+<Rulings>2013/04/15: You may pay {W/B} a maximum of one time for each extort triggered ability. You decide whether to pay when the ability resolves.
 2013/04/15: The amount of life you gain from extort is based on the total amount of life lost, not necessarily the number of opponents you have. For example, if your opponent's life total can't change (perhaps because that player controls Platinum Emperion), you won't gain any life.
 2013/04/15: The extort ability doesn't target any player.</Rulings>
 <Vintage>Legal</Vintage>
@@ -4637,7 +4641,7 @@ Whenever a card is put into an opponent's graveyard from anywhere, put a +1/+1 c
 —Ezoc, Golgari rot farmer</Flavor>
 <Artist>Greg Staples</Artist>
 <Multiverseid>405446</Multiverseid>
-<Rulings>2005/10/01: The ability doesn't care why a card goes to your opponent's graveyard — only that it does. The ability triggers when a card is put into your opponent's graveyard from the stack (a spell resolves or is countered), from the battlefield (a permanent is destroyed or sacrificed), from the player's hand (a card is discarded), from the player's library (from a <Millstone>-like effect), or from any other zone.
+<Rulings>2005/10/01: The ability doesn't care why a card goes to your opponent's graveyard — only that it does. The ability triggers when a card is put into your opponent's graveyard from the stack (a spell resolves or is countered), from the battlefield (a permanent is destroyed or sacrificed), from the player's hand (a card is discarded), from the player's library (from a Millstone-like effect), or from any other zone.
 2005/10/01: This ability triggers only on cards, so it won't trigger when a token is put into your opponent's graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -5465,7 +5469,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <No>283</No>
 <Name>Evolving Wilds</Name>
 <Type>Land</Type>
-<CardText>{T}, Sacrifice Evolving Wilds: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.</CardText>
+<CardText>{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.</CardText>
 <Flavor>Without the interfering hands of civilization, nature will always shape itself to its own needs.</Flavor>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>405218</Multiverseid>
