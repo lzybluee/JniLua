@@ -545,8 +545,10 @@ Storm (When you cast this spell, copy it for each spell cast before it this turn
 When Day of the Dragons leaves the battlefield, sacrifice all Dragons you control. Then return the exiled cards to the battlefield under your control.</CardText>
 <Artist>Matthew D. Wilson</Artist>
 <Multiverseid>43602</Multiverseid>
-<Rulings>2004/10/04: The exiled cards are face up while exiled.
-2004/10/04: The exiled cards return to the battlefield face up.</Rulings>
+<Rulings>2017/11/17: Auras attached to the exiled creatures will be put into their owners' graveyards. Equipment attached to the exiled creatures will become unattached and remain on the battlefield. Any counters on the exiled creatures will cease to exist.
+2017/11/17: Token creatures will count to determine how many Dragon tokens you create, but they won't be returned to the battlefield when <Day of the Dragons> leaves the battlefield.
+2017/11/17: If <Day of the Dragons> leaves the battlefield before its first ability has resolved, its second ability will trigger and you'll sacrifice any Dragons you already control. Then its first ability will resolve and exile your creatures forever, leaving you with that many Dragon tokens.
+2017/11/17: All of the nontoken creatures you exiled return to the battlefield when <Day of the Dragons> leaves the battlefield, even if some or all of the Dragon tokens had already left the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Scourge</Set>
@@ -901,10 +903,6 @@ When Riptide Survivor is turned face up, discard two cards, then draw three card
 Islandcycling {2} ({2}, Discard this card: Search your library for an Island card, reveal it, and put it into your hand. Then shuffle your library.)</CardText>
 <Artist>Michael Sutfin</Artist>
 <Multiverseid>45841</Multiverseid>
-<Rulings>2009/02/01: Unlike the normal cycling ability, Islandcycling doesn't allow you to draw a card. Instead, it lets you search your library for an Island card. After you find an Island card in your library, you reveal it, put it into your hand, then shuffle your library.
-2009/02/01: Islandcycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on Islandcycling this card. Any ability that stops a cycling ability from being activated also stops Islandcycling from being activated.
-2009/02/01: Islandcycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with Islandcycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
-2009/02/01: You can choose to find any card with the Island land type, including nonbasic lands. You can also choose not to find a card, even if there is an Island card in your library.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Scourge</Set>
@@ -1679,7 +1677,7 @@ Creatures without flying can't attack you.</CardText>
 <Name>Goblin Brigand</Name>
 <Type>Creature — Goblin Warrior 2/2</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>Goblin Brigand attacks each turn if able.</CardText>
+<CardText>Goblin Brigand attacks each combat if able.</CardText>
 <Flavor>After the Skirk Ridge collapsed, the goblins erected a system of ropes and pulleys to hold up what was left.</Flavor>
 <Artist>Arnie Swekel</Artist>
 <Multiverseid>43525</Multiverseid>

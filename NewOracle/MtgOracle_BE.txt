@@ -403,9 +403,9 @@ When Lich is put into a graveyard from the battlefield, you lose the game.</Card
 At the beginning of your upkeep, sacrifice a creature other than Lord of the Pit. If you can't, Lord of the Pit deals 7 damage to you.</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>365</Multiverseid>
-<Rulings>2004/10/04: You can select creatures with Protection from Black to be sacrificed.
-2004/10/04: If you have a creature, you must sacrifice it. The 7 damage can only be taken if no creature can be sacrificed.
-2004/10/04: If you have two Lords of the Pit, you can sacrifice them to each other.</Rulings>
+<Rulings>2017/11/17: If you control any other creatures as <Lord of the Pit>'s triggered ability resolves, you must sacrifice one. You can't choose to be dealt 7 damage instead.
+2017/11/17: If <Lord of the Pit> has gained lifelink, being dealt 7 damage by it doesn't cause your life total to change, even though you gain and lose life. If your life total is less than 7, you won't lose the game.
+2017/11/17: If you have two Lords of the Pit, you can sacrifice them to each other.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -457,7 +457,7 @@ At the beginning of your upkeep, if Nether Shadow is in your graveyard with thre
 <Name>Nettling Imp</Name>
 <Type>Creature — Imp 1/1</Type>
 <ManaCost>2B (3)</ManaCost>
-<CardText>{T}: Choose target non-Wall creature the active player has controlled continuously since the beginning of the turn. That creature attacks this turn if able. If it doesn't, destroy it at the beginning of the next end step. Activate this ability only during an opponent's turn, before attackers are declared.</CardText>
+<CardText>{T}: Choose target non-Wall creature the active player has controlled continuously since the beginning of the turn. That creature attacks this turn if able. Destroy it at the beginning of the next end step if it didn't attack this turn. Activate this ability only during an opponent's turn, before attackers are declared.</CardText>
 <Artist>Quinton Hoover</Artist>
 <Multiverseid>368</Multiverseid>
 <Rulings>2004/10/04: If the Imp leaves the battlefield before the end of the turn, the creature still is destroyed.
@@ -1744,7 +1744,7 @@ This turn, instead of declaring blockers, each defending player chooses any numb
 <CardText>Until end of turn, any time you could activate a mana ability, you may pay 1 life. If you do, add {C} to your mana pool.</CardText>
 <Artist>Richard Thomas</Artist>
 <Multiverseid>439</Multiverseid>
-<Rulings>2004/10/04: You can't pay life you don't have. In other words, you can't <Channel> yourself below zero life.</Rulings>
+<Rulings>2017/11/17: Once your life total is 0, you can't pay any more life, even if you've somehow not lost the game yet.</Rulings>
 <Vintage>Restricted</Vintage>
 <Legacy>Banned</Legacy>
 <Set>Limited Edition Beta</Set>
@@ -1829,7 +1829,6 @@ Whenever you play a land, if it wasn't the first land you played this turn, Fast
 <CardText>Prevent all combat damage that would be dealt this turn.</CardText>
 <Artist>Jesper Myrfors</Artist>
 <Multiverseid>444</Multiverseid>
-<Rulings>2009/10/01: <Fog> has no effect on damage that's already been dealt.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1858,7 +1857,7 @@ At the beginning of your upkeep, Force of Nature deals 8 damage to you unless yo
 <SetId>BE</SetId>
 <No>104</No>
 <Name>Fungusaur</Name>
-<Type>Creature — Fungus Lizard 2/2</Type>
+<Type>Creature — Fungus Dinosaur 2/2</Type>
 <ManaCost>3G (4)</ManaCost>
 <CardText>Whenever Fungusaur is dealt damage, put a +1/+1 counter on it.</CardText>
 <Flavor>Rather than sheltering her young, the female Fungusaur often injures her own offspring, thereby ensuring their rapid growth.</Flavor>
@@ -2140,9 +2139,8 @@ At the beginning of your upkeep, you may remove a vitality counter from Living A
 All creatures able to block enchanted creature do so.</CardText>
 <Artist>Anson Maddocks</Artist>
 <Multiverseid>462</Multiverseid>
-<Rulings>2004/10/04: <Lure> does not give a creature the ability to block the <Lure>d creature, it just forces those creatures which are already able to block the <Lure>d creature to do so.
-2004/10/04: If a <Lure>d creature is in a band, only blockers able to block the <Lure>d creature are affected by the <Lure>.
-2004/10/04: The opponent does not have to activate any abilities in an attempt to make his or her creatures block. More specifically, a cost to block of zero mana is an optional cost you can choose not to pay.</Rulings>
+<Rulings>2017/11/17: <Lure> doesn't give any creatures the ability to block the target creature. It just forces those creatures that are already able to block the creature to do so.
+2017/11/17: As blockers are declared, any creature that's tapped or affected by a spell or ability that says it can't block doesn't block. If there's a cost associated with having the creature block, no player is forced to pay that cost, so it doesn't block if that cost isn't paid.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2325,7 +2323,6 @@ All creatures able to block enchanted creature do so.</CardText>
 <Flavor>Some say magic was first practiced by women, who have always felt strong ties to the land.</Flavor>
 <Artist>Kev Brockschmidt</Artist>
 <Multiverseid>473</Multiverseid>
-<Rulings>2005/08/01: This does not trigger on the moving of an Aura from one permanent to another.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2665,11 +2662,10 @@ Remove target creature defending player controls from combat. Creatures it was b
 Fireball costs {1} more to cast for each target beyond the first.</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>492</Multiverseid>
-<Rulings>2004/12/01: The additional cost is paid when you pay the rest of <Fireball>'s costs, even though that text appears second on the card (to make the card easier to read). The additional cost doesn't count toward <Fireball>'s converted mana cost.
-2004/12/01: If, for example, X is 5 and you choose three target creatures, <Fireball> has a total cost of {7}{R} (even though its mana cost is just {5}{R}). If those creatures are all still legal targets as <Fireball> resolves, it deals 1 damage to each of them.
-2009/05/01: You may cast <Fireball> with zero targets, regardless of the value chosen for X. If you do so, it will not be a targeted spell, and no damage will actually be dealt when it resolves.
-2009/10/01: <Fireball>'s damage is divided as <Fireball> resolves, not as it's cast, because there are no choices involved. The division involves only targets that are still legal at that time.
-2009/10/01: You can target more than X creatures. However, if the number of legal targets at the time <Fireball> resolves is greater than X, none of them will be dealt any damage.</Rulings>
+<Rulings>2017/11/17: For example, if X is 5 and you choose three target creatures, <Fireball> has a total cost of {7}{R} (even though its mana cost is just {5}{R} and its converted mana cost is 6). If those creatures are all still legal targets as <Fireball> resolves, it deals 1 damage to each of them.
+2017/11/17: You may cast <Fireball> with zero targets, regardless of the value chosen for X. If you do so, it will not be a targeted spell, and no damage will actually be dealt when it resolves.
+2017/11/17: <Fireball>'s damage is divided as <Fireball> resolves, not as it's cast, because there are no choices involved. The division involves only targets that are still legal as <Fireball> resolves.
+2017/11/17: You can target more than X creatures. However, if the number of legal targets at the time <Fireball> resolves is greater than X, none of them will be dealt any damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2756,7 +2752,7 @@ A looming bastion fringed with fire."
 <Flavor>"From up here we can drop rocks and arrows and more rocks!" "Uh, yeah boss, but how do we get down?"</Flavor>
 <Artist>Andi Rusu</Artist>
 <Multiverseid>496</Multiverseid>
-<Rulings>2008/08/01: You can activate the ability repeatedly during a turn. This generally has no additional effect, unless some other effect (like that from <Adarkar Windform> has caused it to lose flying since the last time the ability resolved.
+<Rulings>2008/08/01: You can activate the ability repeatedly during a turn. This generally has no additional effect, unless some other effect (like that from Adarkar Windform has caused it to lose flying since the last time the ability resolved.
 2010/08/15: For flying to work as an evasion ability, an attacking <Goblin Balloon Brigade>'s ability must be activated before the declare blockers step begins. Once <Goblin Balloon Brigade> has become blocked, giving it flying won't change that.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2911,7 +2907,7 @@ A looming bastion fringed with fire."
 2004/10/04: Only produces extra mana when land is tapped for mana, not when tapped by some other effect.
 2004/10/04: <Mana Flare> adds one of whatever color the land produces after applying any land type or color changing effects.
 2004/10/04: This is a triggered mana ability.
-2007/09/16: Does not copy any restrictions on the mana, such as with <Mishra's Workshop> or <Pillar of the Paruns>.
+2007/09/16: Does not copy any restrictions on the mana, such as with Mishra's Workshop or Pillar of the Paruns.
 2007/09/16: Produces only one additional mana, regardless of how much was produced by tapping the land.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3982,8 +3978,8 @@ Vigilance (Attacking doesn't cause this creature to tap.)</CardText>
 <CardText>Exile target creature. Its controller gains life equal to its power.</CardText>
 <Artist>Jeff A. Menges</Artist>
 <Multiverseid>567</Multiverseid>
-<Rulings>2016/06/08: The amount of life gained is equal to the power of the targeted creature as it last existed on the battlefield.
-2016/06/08: If the creature's power is negative, its controller doesn't lose or gain life.</Rulings>
+<Rulings>2017/11/17: The amount of life gained is equal to the power of the target creature as it last existed on the battlefield.
+2017/11/17: If the creature's power is negative, its controller doesn't lose or gain life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Limited Edition Beta</Set>
@@ -4263,7 +4259,7 @@ When Cyclopean Tomb is put into a graveyard from the battlefield, at the beginni
 <Artist>Anson Maddocks</Artist>
 <Multiverseid>306</Multiverseid>
 <Rulings>2006/10/15: Will not add or remove Snow Supertype to or from a land.
-2008/08/01: After leaving the battlefield, the ability triggers during each of your upkeeps for the rest of the game. As it resolves, you must remove a mire counter from a land that had a mire counter put on it by that instance of <Cyclopean Tomb>, but it doesn't matter where the mire counter you remove came from. For instance, you could remove mire counters that were put on the land by <Gilder Bairn>.
+2008/08/01: After leaving the battlefield, the ability triggers during each of your upkeeps for the rest of the game. As it resolves, you must remove a mire counter from a land that had a mire counter put on it by that instance of <Cyclopean Tomb>, but it doesn't matter where the mire counter you remove came from. For instance, you could remove mire counters that were put on the land by Gilder Bairn.
 2008/08/01: The land remains a Swamp as long as it has a mire counter on it. This effect is not tied to the Tomb remaining on the battlefield.</Rulings>
 <Reserved>This card is on the reserved list</Reserved>
 <Vintage>Legal</Vintage>
@@ -4432,7 +4428,7 @@ Whenever a Mountain is tapped for mana, its controller adds {R} to his or her ma
 2009/10/01: You actually cast the card face-down, much as when playing a spell with Morph. It can be responded to and countered.
 2009/10/01: The effect that turns it face-up is a replacement effect. It doesn't use the stack and can't be responded to.
 2009/10/01: You may not turn a face-down spell face up. You may not turn a face-down permanent face up unless it would have morph while face up or an effect specifically allows you to turn it face up. <Illusionary Mask>'s ability has you turn a face-down creature face up if it would assign damage, deal damage, be dealt damage, or become tapped, but not for any other reason. For example, if you use <Illusionary Mask>'s ability to cast a black creature face down, you can't turn it face up just because it's being targeted by Terror.
-2009/10/01: Both the amount and types of mana you spend on {X} are taken into account while you're choosing a creature card from your hand. For example, if you spent {U}{U} on {X}, you can choose a creature card with mana cost {U}{U}, {1}{U}, {2}, or {WU}{WU}, among other possibilities, but not one that costs {2}{U} or one that costs {G}.
+2009/10/01: Both the amount and types of mana you spend on {X} are taken into account while you're choosing a creature card from your hand. For example, if you spent {U}{U} on {X}, you can choose a creature card with mana cost {U}{U}, {1}{U}, {2}, or {W/U}{W/U}, among other possibilities, but not one that costs {2}{U} or one that costs {G}.
 2009/10/01: While the creature card is face down, it's a 2/2 creature with no name, mana cost, color, creature type, abilities, or expansion symbol. Since it has no mana cost, its converted mana cost is 0.
 2009/10/01: You may look at a face-down spell or permanent you control at any time.
 2009/10/01: You can turn a face-down permanent face up if it would have morph while face up. This applies to creatures you cast face down as a result of <Illusionary Mask>'s effect. The rest of <Illusionary Mask>'s effect applies to it as well.
@@ -4502,7 +4498,7 @@ Whenever a Mountain is tapped for mana, its controller adds {R} to his or her ma
 <Artist>Dan Frazier</Artist>
 <Multiverseid>319</Multiverseid>
 <Rulings>2004/10/04: It can only make itself into a creature during combat phases and therefore it is difficult to get Auras placed on it.
-2005/08/01: A delayed triggered ability that refers to <Jade Statue> still affects it even if it's no longer a creature. For example, if <Jade Statue> blocks the <Kashi-Tribe Warriors> ("Whenever Kashi-Tribe Warriors deals combat damage to a creature, tap that creature and it doesn't untap during its controller's next untap step."), the Warriors' effect stops <Jade Statue> from untapping.
+2005/08/01: A delayed triggered ability that refers to <Jade Statue> still affects it even if it's no longer a creature. For example, if <Jade Statue> blocks the Kashi-Tribe Warriors ("Whenever Kashi-Tribe Warriors deals combat damage to a creature, tap that creature and it doesn't untap during its controller's next untap step."), the Warriors' effect stops <Jade Statue> from untapping.
 2005/08/01: If <Jade Statue>'s ability has been activated, abilities that trigger "at end of combat" will see <Jade Statue> as an artifact creature.
 2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.
 2013/09/20: If <Jade Statue> is animated by some other effect, you get an artifact creature with whatever power, toughness, and creature types (if any) are specified by that effect. If you subsequently use <Jade Statue>'s ability during combat, it will become 3/6 and gain the creature type Golem in addition to those creature types until end of combat.</Rulings>
@@ -4535,13 +4531,12 @@ Whenever a Mountain is tapped for mana, its controller adds {R} to his or her ma
 <Name>Juggernaut</Name>
 <Type>Artifact Creature — Juggernaut 5/3</Type>
 <ManaCost>4 (4)</ManaCost>
-<CardText>Juggernaut attacks each turn if able.
+<CardText>Juggernaut attacks each combat if able.
 Juggernaut can't be blocked by Walls.</CardText>
 <Flavor>We had taken refuge in a small cave, thinking the entrance was too narrow for it to follow. To our horror, its gigantic head smashed into the mountainside, ripping itself a new entrance.</Flavor>
 <Artist>Dan Frazier</Artist>
 <Multiverseid>321</Multiverseid>
-<Rulings>2016/06/08: If, during your declare attackers step, <Juggernaut> is tapped, is affected by a spell or ability that says it can't attack, or you haven't controlled it continuously since the beginning of your turn, then it doesn't attack. If there's a cost associated with having <Juggernaut> attack, you aren't forced to pay that cost, so it doesn't have to attack in that case either.
-2016/06/08: If there are multiple combat phases in a turn, <Juggernaut> must attack only in the first one in which it's able to.</Rulings>
+<Rulings>2016/06/08: If, during your declare attackers step, <Juggernaut> is tapped, is affected by a spell or ability that says it can't attack, or you haven't controlled it continuously since the beginning of your turn, then it doesn't attack. If there's a cost associated with having <Juggernaut> attack, you aren't forced to pay that cost, so it doesn't have to attack in that case either.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
