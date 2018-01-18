@@ -1131,9 +1131,9 @@ Prevent all combat damage that would be dealt to and dealt by enchanted creature
 <CardText>Counter target spell. At the beginning of your next main phase, add an amount of {C} to your mana pool equal to that spell's converted mana cost.</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>1491</Multiverseid>
-<Rulings>2009/10/01: If the targeted spell "can't be countered," it remains on the stack. <Mana Drain> continues to resolve. At the beginning of your next main phase, the delayed triggered ability will still add the mana to your mana pool.
-2009/10/01: If the targeted spell is an illegal target by the time <Mana Drain> resolves, <Mana Drain> is countered. You won't get any mana later.
-2009/10/01: <Mana Drain>'s delayed triggered ability will usually trigger at the beginning of your precombat main phase. However, if you cast <Mana Drain> during your precombat main phase or during your combat phase, its delayed triggered ability will trigger at the beginning of that turn's postcombat main phase.</Rulings>
+<Rulings>2017/11/17: <Mana Drain> can target a spell that can't be countered. When <Mana Drain> resolves, that spell won't be countered, but you'll still add mana to your mana pool at the beginning of your next main phase.
+2017/11/17: If the target spell is an illegal target when <Mana Drain> tries to resolve, it will be countered and none of its effects will happen. You won't get any mana.
+2017/11/17: <Mana Drain>'s delayed triggered ability will usually trigger at the beginning of your precombat main phase. However, if you cast <Mana Drain> during your precombat main phase or during your combat phase, its delayed triggered ability will trigger at the beginning of that turn's postcombat main phase.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Banned</Legacy>
 <Set>Legends</Set>
@@ -1163,7 +1163,7 @@ Prevent all combat damage that would be dealt to and dealt by enchanted creature
 <Type>Creature — Illusion 2/2</Type>
 <ManaCost>4U (5)</ManaCost>
 <CardText>{T}: Psionic Entity deals 2 damage to target creature or player and 3 damage to itself.</CardText>
-<Flavor>Creatures of the Aether are notorious for neglecting their own well-being.</Flavor>
+<Flavor>Creatures of the Æther are notorious for neglecting their own well-being.</Flavor>
 <Artist>Susan Van Camp</Artist>
 <Multiverseid>1493</Multiverseid>
 <Rulings>2004/10/04: The artist is actually Justin Hampton.</Rulings>
@@ -1678,7 +1678,7 @@ Rampage 2 (Whenever this creature becomes blocked, it gets +2/+2 until end of tu
 —Eleven Proverb</Flavor>
 <Artist>Melissa A. Benson</Artist>
 <Multiverseid>1523</Multiverseid>
-<Rulings>2007/05/01: Creatures with the Reach ability (such as <Giant Spider>) don't actually have Flying, so they can't block this.</Rulings>
+<Rulings>2007/05/01: Creatures with the Reach ability (such as Giant Spider) don't actually have Flying, so they can't block this.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2262,7 +2262,7 @@ Wood Elemental's power and toughness are each equal to the number of Forests sac
 <Type>Creature — Human Berserker 2/4</Type>
 <ManaCost>2RRR (5)</ManaCost>
 <CardText>Rampage 3 (Whenever this creature becomes blocked, it gets +3/+3 until end of turn for each creature blocking it beyond the first.)</CardText>
-<Flavor>Aerathi children who show promise are left to survive for a year in the wilderness. Those who return are shown the way of the Berserker</Flavor>
+<Flavor>Ærathi children who show promise are left to survive for a year in the wilderness. Those who return are shown the way of the Berserker</Flavor>
 <Artist>Melissa Benson</Artist>
 <Multiverseid>1557</Multiverseid>
 <Rulings>2004/10/04: There is a typographical error in the title of the card so that the "Ae" does not appear.</Rulings>
@@ -2329,7 +2329,7 @@ Beasts of Bogardan gets +1/+1 as long as an opponent controls a nontoken white p
 <CardText>If target creature has toughness 5 or greater, it gets +4/-4 until end of turn. Otherwise, it gets +4/-X until end of turn, where X is its toughness minus 1.</CardText>
 <Artist>Anson Maddocks</Artist>
 <Multiverseid>1561</Multiverseid>
-<Rulings>2005/11/01: Has changed slightly in functionality, with the old continuous nature of the toughness reduction gone away; the toughness change remains static. For example, if you have three Swamps and <Nightmare> on the battlefield and then cast <Blood Lust> on it, it will become 7/1. If one of your Swamps is subsequently destroyed, your Nightmare will become 6/0 and be put in the graveyard.</Rulings>
+<Rulings>2005/11/01: Has changed slightly in functionality, with the old continuous nature of the toughness reduction gone away; the toughness change remains static. For example, if you have three Swamps and Nightmare on the battlefield and then cast <Blood Lust> on it, it will become 7/1. If one of your Swamps is subsequently destroyed, your Nightmare will become 6/0 and be put in the graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Legends</Set>
@@ -2709,7 +2709,7 @@ Protection from white</CardText>
 <Name>Primordial Ooze</Name>
 <Type>Creature — Ooze 1/1</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>Primordial Ooze attacks each turn if able.
+<CardText>Primordial Ooze attacks each combat if able.
 At the beginning of your upkeep, put a +1/+1 counter on Primordial Ooze. Then you may pay {X}, where X is the number of +1/+1 counters on it. If you don't, tap Primordial Ooze and it deals X damage to you.</CardText>
 <Flavor>The thick, moving mass from the beginning of evolution swallows and digests the animate and inanimate as it unthinkingly strives to continue its existence.</Flavor>
 <Artist>Sandra Everingham</Artist>
@@ -2728,7 +2728,7 @@ At the beginning of your upkeep, put a +1/+1 counter on Primordial Ooze. Then yo
 <Type>Sorcery</Type>
 <ManaCost>4R (5)</ManaCost>
 <CardText>Pyrotechnics deals 4 damage divided as you choose among any number of target creatures and/or players.</CardText>
-<Flavor>"Hi! ni! ya! Behold the man of flint, that's me! Four lightnings zigzag from me, strike and return."
+<Flavor>"Hi! ni! ya! Behold the man of flint, that's me!/ Four lightnings zigzag from me, strike and return."
 —Navajo war chant</Flavor>
 <Artist>Anson Maddocks</Artist>
 <Multiverseid>1587</Multiverseid>
@@ -2753,7 +2753,7 @@ At the beginning of your upkeep, put a +1/+1 counter on Primordial Ooze. Then yo
 <Flavor>"O Great Captain, all is lost. They tunneled, they burrowed, they trenched. They sapped the strength of our defenses." —Sorgus, Chronicles of the Quarum Plains</Flavor>
 <Artist>Dan Frazier</Artist>
 <Multiverseid>1588</Multiverseid>
-<Rulings>2008/08/01: The ability only replaces white mana produced by the Plains. If a Plains somehow tries to produce mana of a different color (for instance, if you control a <Joiner Adept>), this effect will not cause it to produce colorless mana.</Rulings>
+<Rulings>2008/08/01: The ability only replaces white mana produced by the Plains. If a Plains somehow tries to produce mana of a different color (for instance, if you control a Joiner Adept), this effect will not cause it to produce colorless mana.</Rulings>
 <Reserved>This card is on the reserved list</Reserved>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3344,7 +3344,7 @@ Creatures named Ivory Guardians get +1/+1 as long as an opponent controls a nont
 <Name>Kismet</Name>
 <Type>Enchantment</Type>
 <ManaCost>3W (4)</ManaCost>
-<CardText>Artifacts, creatures, and lands played by your opponents enter the battlefield tapped.</CardText>
+<CardText>Artifacts, creatures, and lands your opponents control enter the battlefield tapped.</CardText>
 <Artist>Kaja Foglio</Artist>
 <Multiverseid>1623</Multiverseid>
 <Rulings>2007/02/01: Cards enter the battlefield tapped. They do not enter the battlefield untapped and then immediately tap, therefore they do not trigger any effects due to tapping.
@@ -5266,7 +5266,7 @@ Whenever a player casts a black spell, you gain 1 life.</CardText>
 <ManaCost>RRGG (4)</ManaCost>
 <CardText>Flying
 {R}{G}, {T}: Target creature gets +2/+2 until end of turn.</CardText>
-<Flavor>An explorer of the Aether, Tuknir often discovers himself in the most unusual physical realms.</Flavor>
+<Flavor>An explorer of the Æther, Tuknir often discovers himself in the most unusual physical realms.</Flavor>
 <Artist>Liz Danforth</Artist>
 <Multiverseid>1694</Multiverseid>
 <Reserved>This card is on the reserved list</Reserved>

@@ -471,9 +471,9 @@ At the beginning of your upkeep, sacrifice Junún Efreet unless you pay {B}{B}.<
 At the beginning of your upkeep, sacrifice a creature other than Lord of the Pit. If you can't, Lord of the Pit deals 7 damage to you.</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>2111</Multiverseid>
-<Rulings>2004/10/04: You can select creatures with Protection from Black to be sacrificed.
-2004/10/04: If you have a creature, you must sacrifice it. The 7 damage can only be taken if no creature can be sacrificed.
-2004/10/04: If you have two Lords of the Pit, you can sacrifice them to each other.</Rulings>
+<Rulings>2017/11/17: If you control any other creatures as <Lord of the Pit>'s triggered ability resolves, you must sacrifice one. You can't choose to be dealt 7 damage instead.
+2017/11/17: If <Lord of the Pit> has gained lifelink, being dealt 7 damage by it doesn't cause your life total to change, even though you gain and lose life. If your life total is less than 7, you won't lose the game.
+2017/11/17: If you have two Lords of the Pit, you can sacrifice them to each other.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -855,7 +855,7 @@ Whenever enchanted creature becomes tapped, put a -0/-2 counter on it.</CardText
 <Flavor>Solitude drove the old hermit insane. Now he only keeps company with those he can catch.</Flavor>
 <Artist>Daniel Gelon</Artist>
 <Multiverseid>2132</Multiverseid>
-<Rulings>2004/10/04: Works even on damage from activated abilities of creatures such as <Prodigal Sorcerer>.</Rulings>
+<Rulings>2004/10/04: Works even on damage from activated abilities of creatures such as Prodigal Sorcerer.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1655,7 +1655,7 @@ At the beginning of the upkeep of enchanted enchantment's controller, that playe
 <Type>Creature — Illusion 2/2</Type>
 <ManaCost>4U (5)</ManaCost>
 <CardText>{T}: Psionic Entity deals 2 damage to target creature or player and 3 damage to itself.</CardText>
-<Flavor>Creatures of the Aether are notorious for neglecting their own well-being.</Flavor>
+<Flavor>Creatures of the Æther are notorious for neglecting their own well-being.</Flavor>
 <Artist>Justin Hampton</Artist>
 <Multiverseid>2178</Multiverseid>
 <Rulings>2004/10/04: The artist is actually Justin Hampton.</Rulings>
@@ -2096,7 +2096,7 @@ Enchanted creature gets +X/+Y, where X is half the number of Forests you control
 <CardText>Until end of turn, any time you could activate a mana ability, you may pay 1 life. If you do, add {C} to your mana pool.</CardText>
 <Artist>Richard Thomas</Artist>
 <Multiverseid>2203</Multiverseid>
-<Rulings>2004/10/04: You can't pay life you don't have. In other words, you can't <Channel> yourself below zero life.</Rulings>
+<Rulings>2017/11/17: Once your life total is 0, you can't pay any more life, even if you've somehow not lost the game yet.</Rulings>
 <Vintage>Restricted</Vintage>
 <Legacy>Banned</Legacy>
 <Set>Fourth Edition</Set>
@@ -2196,7 +2196,7 @@ Whenever Cockatrice blocks or becomes blocked by a non-Wall creature, destroy th
 —Elven proverb</Flavor>
 <Artist>Melissa A. Benson</Artist>
 <Multiverseid>2209</Multiverseid>
-<Rulings>2007/05/01: Creatures with the Reach ability (such as <Giant Spider>) don't actually have Flying, so they can't block this.</Rulings>
+<Rulings>2007/05/01: Creatures with the Reach ability (such as Giant Spider) don't actually have Flying, so they can't block this.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2229,7 +2229,6 @@ Whenever Cockatrice blocks or becomes blocked by a non-Wall creature, destroy th
 <CardText>Prevent all combat damage that would be dealt this turn.</CardText>
 <Artist>Jesper Myrfors</Artist>
 <Multiverseid>2211</Multiverseid>
-<Rulings>2009/10/01: <Fog> has no effect on damage that's already been dealt.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2258,7 +2257,7 @@ At the beginning of your upkeep, Force of Nature deals 8 damage to you unless yo
 <SetId>4E</SetId>
 <No>130</No>
 <Name>Fungusaur</Name>
-<Type>Creature — Fungus Lizard 2/2</Type>
+<Type>Creature — Fungus Dinosaur 2/2</Type>
 <ManaCost>3G (4)</ManaCost>
 <CardText>Whenever Fungusaur is dealt damage, put a +1/+1 counter on it.</CardText>
 <Flavor>Rather than sheltering her young, the female Fungusaur often injures her own offspring, thereby ensuring their rapid growth.</Flavor>
@@ -2538,9 +2537,8 @@ At the beginning of your upkeep, you may remove a vitality counter from Living A
 All creatures able to block enchanted creature do so.</CardText>
 <Artist>Anson Maddocks</Artist>
 <Multiverseid>2229</Multiverseid>
-<Rulings>2004/10/04: <Lure> does not give a creature the ability to block the <Lure>d creature, it just forces those creatures which are already able to block the <Lure>d creature to do so.
-2004/10/04: If a <Lure>d creature is in a band, only blockers able to block the <Lure>d creature are affected by the <Lure>.
-2004/10/04: The opponent does not have to activate any abilities in an attempt to make his or her creatures block. More specifically, a cost to block of zero mana is an optional cost you can choose not to pay.</Rulings>
+<Rulings>2017/11/17: <Lure> doesn't give any creatures the ability to block the target creature. It just forces those creatures that are already able to block the creature to do so.
+2017/11/17: As blockers are declared, any creature that's tapped or affected by a spell or ability that says it can't block doesn't block. If there's a cost associated with having the creature block, no player is forced to pay that cost, so it doesn't block if that cost isn't paid.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2864,7 +2862,6 @@ Whenever enchanted creature blocks or becomes blocked by a non-Wall creature, de
 <Flavor>Some say magic was first practiced by women, who have always felt strong ties to the land.</Flavor>
 <Artist>Kev Brockschmidt</Artist>
 <Multiverseid>2248</Multiverseid>
-<Rulings>2005/08/01: This does not trigger on the moving of an Aura from one permanent to another.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3375,7 +3372,7 @@ And rosy cheeks and a glittering smile."
 <CardText>If target creature has toughness 5 or greater, it gets +4/-4 until end of turn. Otherwise, it gets +4/-X until end of turn, where X is its toughness minus 1.</CardText>
 <Artist>Anson Maddocks</Artist>
 <Multiverseid>2261</Multiverseid>
-<Rulings>2005/11/01: Has changed slightly in functionality, with the old continuous nature of the toughness reduction gone away; the toughness change remains static. For example, if you have three Swamps and <Nightmare> on the battlefield and then cast <Blood Lust> on it, it will become 7/1. If one of your Swamps is subsequently destroyed, your Nightmare will become 6/0 and be put in the graveyard.</Rulings>
+<Rulings>2005/11/01: Has changed slightly in functionality, with the old continuous nature of the toughness reduction gone away; the toughness change remains static. For example, if you have three Swamps and Nightmare on the battlefield and then cast <Blood Lust> on it, it will become 7/1. If one of your Swamps is subsequently destroyed, your Nightmare will become 6/0 and be put in the graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Fourth Edition</Set>
@@ -3610,11 +3607,10 @@ Enchanted creature has vigilance.</CardText>
 Fireball costs {1} more to cast for each target beyond the first.</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>2275</Multiverseid>
-<Rulings>2004/12/01: The additional cost is paid when you pay the rest of <Fireball>'s costs, even though that text appears second on the card (to make the card easier to read). The additional cost doesn't count toward <Fireball>'s converted mana cost.
-2004/12/01: If, for example, X is 5 and you choose three target creatures, <Fireball> has a total cost of {7}{R} (even though its mana cost is just {5}{R}). If those creatures are all still legal targets as <Fireball> resolves, it deals 1 damage to each of them.
-2009/05/01: You may cast <Fireball> with zero targets, regardless of the value chosen for X. If you do so, it will not be a targeted spell, and no damage will actually be dealt when it resolves.
-2009/10/01: <Fireball>'s damage is divided as <Fireball> resolves, not as it's cast, because there are no choices involved. The division involves only targets that are still legal at that time.
-2009/10/01: You can target more than X creatures. However, if the number of legal targets at the time <Fireball> resolves is greater than X, none of them will be dealt any damage.</Rulings>
+<Rulings>2017/11/17: For example, if X is 5 and you choose three target creatures, <Fireball> has a total cost of {7}{R} (even though its mana cost is just {5}{R} and its converted mana cost is 6). If those creatures are all still legal targets as <Fireball> resolves, it deals 1 damage to each of them.
+2017/11/17: You may cast <Fireball> with zero targets, regardless of the value chosen for X. If you do so, it will not be a targeted spell, and no damage will actually be dealt when it resolves.
+2017/11/17: <Fireball>'s damage is divided as <Fireball> resolves, not as it's cast, because there are no choices involved. The division involves only targets that are still legal as <Fireball> resolves.
+2017/11/17: You can target more than X creatures. However, if the number of legal targets at the time <Fireball> resolves is greater than X, none of them will be dealt any damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3708,7 +3704,7 @@ To use it like a giant."
 "Uh, yeah boss, but how do we get down?"</Flavor>
 <Artist>Andi Rusu</Artist>
 <Multiverseid>2280</Multiverseid>
-<Rulings>2008/08/01: You can activate the ability repeatedly during a turn. This generally has no additional effect, unless some other effect (like that from <Adarkar Windform> has caused it to lose flying since the last time the ability resolved.
+<Rulings>2008/08/01: You can activate the ability repeatedly during a turn. This generally has no additional effect, unless some other effect (like that from Adarkar Windform has caused it to lose flying since the last time the ability resolved.
 2010/08/15: For flying to work as an evasion ability, an attacking <Goblin Balloon Brigade>'s ability must be activated before the declare blockers step begins. Once <Goblin Balloon Brigade> has become blocked, giving it flying won't change that.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3945,7 +3941,7 @@ At the beginning of each player's upkeep, that player may choose any number of t
 2004/10/04: Only produces extra mana when land is tapped for mana, not when tapped by some other effect.
 2004/10/04: <Mana Flare> adds one of whatever color the land produces after applying any land type or color changing effects.
 2004/10/04: This is a triggered mana ability.
-2007/09/16: Does not copy any restrictions on the mana, such as with <Mishra's Workshop> or <Pillar of the Paruns>.
+2007/09/16: Does not copy any restrictions on the mana, such as with Mishra's Workshop or Pillar of the Paruns.
 2007/09/16: Produces only one additional mana, regardless of how much was produced by tapping the land.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -4875,7 +4871,7 @@ Enchanted creature gets +1/+2.</CardText>
 <Name>Kismet</Name>
 <Type>Enchantment</Type>
 <ManaCost>3W (4)</ManaCost>
-<CardText>Artifacts, creatures, and lands played by your opponents enter the battlefield tapped.</CardText>
+<CardText>Artifacts, creatures, and lands your opponents control enter the battlefield tapped.</CardText>
 <Artist>Kaja Foglio</Artist>
 <Multiverseid>2348</Multiverseid>
 <Rulings>2007/02/01: Cards enter the battlefield tapped. They do not enter the battlefield untapped and then immediately tap, therefore they do not trigger any effects due to tapping.
@@ -5210,8 +5206,8 @@ Whenever enchanted creature deals damage, you gain that much life.</CardText>
 <CardText>Exile target creature. Its controller gains life equal to its power.</CardText>
 <Artist>Jeff A. Menges</Artist>
 <Multiverseid>2367</Multiverseid>
-<Rulings>2016/06/08: The amount of life gained is equal to the power of the targeted creature as it last existed on the battlefield.
-2016/06/08: If the creature's power is negative, its controller doesn't lose or gain life.</Rulings>
+<Rulings>2017/11/17: The amount of life gained is equal to the power of the target creature as it last existed on the battlefield.
+2017/11/17: If the creature's power is negative, its controller doesn't lose or gain life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Fourth Edition</Set>

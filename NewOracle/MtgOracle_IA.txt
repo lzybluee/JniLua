@@ -755,8 +755,9 @@ Whenever you discard a card, exile that card from your graveyard.
 Pay 1 life: Exile the top card of your library face down. Put that card into your hand at the beginning of your next end step.</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>2478</Multiverseid>
-<Rulings>2016/06/08: <Necropotence>'s last ability creates a delayed triggered ability that will put the exiled card into your hand. That ability still triggers even if <Necropotence> is removed from the battlefield before your end step.
-2016/06/08: If the discarded card isn't put into your graveyard (due to an effect such as madness) or leaves your graveyard (perhaps because another effect returned it to your hand), it won't be exiled.</Rulings>
+<Rulings>2017/11/17: If a discarded card isn't put into your graveyard (due to an effect such as that of Obstinate Baloth) or leaves your graveyard (perhaps because another effect returned it to your hand), it won't be exiled.
+2017/11/17: If you discard a card with madness and wish to cast it, <Necropotence>'s ability won't exile that card. If you don't wish to cast it, you choose whether it ends up exiled or in your graveyard.
+2017/11/17: <Necropotence>'s last ability creates a delayed triggered ability that will put the exiled card into your hand. That ability still triggers even if <Necropotence> is removed from the battlefield before your end step.</Rulings>
 <Vintage>Restricted</Vintage>
 <Legacy>Banned</Legacy>
 <Set>Ice Age</Set>
@@ -770,7 +771,7 @@ Pay 1 life: Exile the top card of your library face down. Put that card into you
 <Type>Creature — Imp 1/1</Type>
 <ManaCost>3B (4)</ManaCost>
 <CardText>{T}: Untap target blue creature.
-{T}: Choose target non-Wall creature the active player has controlled continuously since the beginning of the turn. That creature attacks this turn if able. If it doesn't, destroy it at the beginning of the next end step. Activate this ability only before attackers are declared.</CardText>
+{T}: Choose target non-Wall creature the active player has controlled continuously since the beginning of the turn. That creature attacks this turn if able. Destroy it at the beginning of the next end step if it didn't attack this turn. Activate this ability only before attackers are declared.</CardText>
 <Artist>Mike Raabe</Artist>
 <Multiverseid>2479</Multiverseid>
 <Rulings>2004/10/04: The creature is destroyed if it does not attack because it simply can't do so legally.
@@ -2588,9 +2589,8 @@ Enchanted land has "{T}: Prevent the next 1 damage that would be dealt to target
 All creatures able to block enchanted creature do so.</CardText>
 <Artist>Phil Foglio</Artist>
 <Multiverseid>2577</Multiverseid>
-<Rulings>2004/10/04: <Lure> does not give a creature the ability to block the <Lure>d creature, it just forces those creatures which are already able to block the <Lure>d creature to do so.
-2004/10/04: If a <Lure>d creature is in a band, only blockers able to block the <Lure>d creature are affected by the <Lure>.
-2004/10/04: The opponent does not have to activate any abilities in an attempt to make his or her creatures block. More specifically, a cost to block of zero mana is an optional cost you can choose not to pay.</Rulings>
+<Rulings>2017/11/17: <Lure> doesn't give any creatures the ability to block the target creature. It just forces those creatures that are already able to block the creature to do so.
+2017/11/17: As blockers are declared, any creature that's tapped or affected by a spell or ability that says it can't block doesn't block. If there's a cost associated with having the creature block, no player is forced to pay that cost, so it doesn't block if that cost isn't paid.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2629,7 +2629,7 @@ At the beginning of the upkeep of enchanted creature's controller, Maddening Win
 <Artist>Rick Emond</Artist>
 <Multiverseid>2579</Multiverseid>
 <Rulings>2004/10/04: Because the "search" requires you to find a card with certain characteristics, you don't have to find the card if you don't want to.
-2008/08/01: You can find any card with the land type Forest, including <Snow-Covered Forest> or non-Basic lands like <Tropical Island>, <Murmuring Bosk>, or <Stomping Ground>. You can even find a card that is a land in addition to other types, such as <Dryad Arbor>.</Rulings>
+2008/08/01: You can find any card with the land type Forest, including Snow-covered Forest or non-Basic lands like Tropical Island, Murmuring Bosk, or Stomping Ground. You can even find a card that is a land in addition to other types, such as Dryad Arbor.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Ice Age</Set>
@@ -2658,7 +2658,7 @@ Balduvian Chieftain</Flavor>
 <SetId>IA</SetId>
 <No>145</No>
 <Name>Pygmy Allosaurus</Name>
-<Type>Creature — Lizard 2/2</Type>
+<Type>Creature — Dinosaur 2/2</Type>
 <ManaCost>2G (3)</ManaCost>
 <CardText>Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)</CardText>
 <Flavor>"I don't understand the appeal of keeping these things as pets, unless you want your children eaten."
@@ -3971,7 +3971,7 @@ Balduvian Chieftain</Flavor>
 Balduvian Chieftain</Flavor>
 <Artist>Jeff A. Menges</Artist>
 <Multiverseid>2654</Multiverseid>
-<Rulings>2007/05/01: Creatures with the Reach ability (such as <Giant Spider>) can block this because they don't actually have Flying.</Rulings>
+<Rulings>2007/05/01: Creatures with the Reach ability (such as Giant Spider) can block this because they don't actually have Flying.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Ice Age</Set>
@@ -4461,7 +4461,7 @@ Spells cost an additional "Sacrifice a Swamp" to cast for each black mana symbol
 Activated abilities cost an additional "Sacrifice a Swamp" to activate for each black mana symbol in their activation costs.</CardText>
 <Artist>NéNé Thomas</Artist>
 <Multiverseid>2681</Multiverseid>
-<Rulings>2004/10/04: You have to sacrifice a Swamp for each black mana in the activation cost. If you use <Pestilence> with {B}{B}{B}{B}, that's 4 activations with {B} each so you sacrifice 4 Swamps.
+<Rulings>2004/10/04: You have to sacrifice a Swamp for each black mana in the activation cost. If you use Pestilence with {B}{B}{B}{B}, that's 4 activations with {B} each so you sacrifice 4 Swamps.
 2008/08/01: A hybrid symbol that is both black and another type is a black mana symbol, regardless of what cost is paid for it.
 2016/06/08: Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keywords are activated abilities and will have colons in their reminder text.</Rulings>
 <Vintage>Legal</Vintage>
@@ -5086,8 +5086,8 @@ Whenever a creature dealt damage by Seraph this turn dies, put that card onto th
 —Lucilde Fiksdotter, Leader of the Order of the White Shield</Flavor>
 <Artist>Kaja Foglio</Artist>
 <Multiverseid>2714</Multiverseid>
-<Rulings>2016/06/08: The amount of life gained is equal to the power of the targeted creature as it last existed on the battlefield.
-2016/06/08: If the creature's power is negative, its controller doesn't lose or gain life.</Rulings>
+<Rulings>2017/11/17: The amount of life gained is equal to the power of the target creature as it last existed on the battlefield.
+2017/11/17: If the creature's power is negative, its controller doesn't lose or gain life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Ice Age</Set>
@@ -5223,7 +5223,7 @@ Soldevi Machinist</Flavor>
 <Name>Arcum's Whistle</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{3}, {T}: Choose target non-Wall creature the active player has controlled continuously since the beginning of the turn. That player may pay {X}, where X is that creature's converted mana cost. If he or she doesn't, the creature attacks this turn if able, and at the beginning of the next end step, destroy it if it didn't attack. Activate this ability only before attackers are declared.</CardText>
+<CardText>{3}, {T}: Choose target non-Wall creature the active player has controlled continuously since the beginning of the turn. That player may pay {X}, where X is that creature's converted mana cost. If he or she doesn't, the creature attacks this turn if able, and at the beginning of the next end step, destroy it if it didn't attack this turn. Activate this ability only before attackers are declared.</CardText>
 <Artist>Quinton Hoover</Artist>
 <Multiverseid>2397</Multiverseid>
 <Rulings>2013/09/20: If a turn has multiple combat phases, the ability can only be activated before the beginning of the declare attackers step of the first combat phase in that turn.</Rulings>
@@ -6902,7 +6902,7 @@ Archmage of the Unseen</Flavor>
 Balduvian Chieftain</Flavor>
 <Artist>NéNé Thomas & Phillip Mosness</Artist>
 <Multiverseid>2740</Multiverseid>
-<Rulings>2004/10/04: Since the discard is a cost, it can't be used with <Library of Leng>.</Rulings>
+<Rulings>2004/10/04: Since the discard is a cost, it can't be used with Library of Leng.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

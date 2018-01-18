@@ -635,9 +635,9 @@ Enchanted creature has swampwalk. (It can't be blocked as long as defending play
 At the beginning of your upkeep, sacrifice a creature other than Lord of the Pit. If you can't, Lord of the Pit deals 7 damage to you.</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>3857</Multiverseid>
-<Rulings>2004/10/04: You can select creatures with Protection from Black to be sacrificed.
-2004/10/04: If you have a creature, you must sacrifice it. The 7 damage can only be taken if no creature can be sacrificed.
-2004/10/04: If you have two Lords of the Pit, you can sacrifice them to each other.</Rulings>
+<Rulings>2017/11/17: If you control any other creatures as <Lord of the Pit>'s triggered ability resolves, you must sacrifice one. You can't choose to be dealt 7 damage instead.
+2017/11/17: If <Lord of the Pit> has gained lifelink, being dealt 7 damage by it doesn't cause your life total to change, even though you gain and lose life. If your life total is less than 7, you won't lose the game.
+2017/11/17: If you have two Lords of the Pit, you can sacrifice them to each other.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -774,8 +774,9 @@ Whenever you discard a card, exile that card from your graveyard.
 Pay 1 life: Exile the top card of your library face down. Put that card into your hand at the beginning of your next end step.</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>3865</Multiverseid>
-<Rulings>2016/06/08: <Necropotence>'s last ability creates a delayed triggered ability that will put the exiled card into your hand. That ability still triggers even if <Necropotence> is removed from the battlefield before your end step.
-2016/06/08: If the discarded card isn't put into your graveyard (due to an effect such as madness) or leaves your graveyard (perhaps because another effect returned it to your hand), it won't be exiled.</Rulings>
+<Rulings>2017/11/17: If a discarded card isn't put into your graveyard (due to an effect such as that of Obstinate Baloth) or leaves your graveyard (perhaps because another effect returned it to your hand), it won't be exiled.
+2017/11/17: If you discard a card with madness and wish to cast it, <Necropotence>'s ability won't exile that card. If you don't wish to cast it, you choose whether it ends up exiled or in your graveyard.
+2017/11/17: <Necropotence>'s last ability creates a delayed triggered ability that will put the exiled card into your hand. That ability still triggers even if <Necropotence> is removed from the battlefield before your end step.</Rulings>
 <Vintage>Restricted</Vintage>
 <Legacy>Banned</Legacy>
 <Set>Fifth Edition</Set>
@@ -2780,7 +2781,7 @@ did thorns play at his fingertips?"
 —Elven proverb</Flavor>
 <Artist>Dan Frazier</Artist>
 <Multiverseid>3974</Multiverseid>
-<Rulings>2007/05/01: Creatures with the Reach ability (such as <Giant Spider>) don't actually have Flying, so they can't block this.</Rulings>
+<Rulings>2007/05/01: Creatures with the Reach ability (such as Giant Spider) don't actually have Flying, so they can't block this.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2813,7 +2814,6 @@ did thorns play at his fingertips?"
 <CardText>Prevent all combat damage that would be dealt this turn.</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>3976</Multiverseid>
-<Rulings>2009/10/01: <Fog> has no effect on damage that's already been dealt.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2863,7 +2863,7 @@ Elder Druid of the Juniper Order</Flavor>
 <SetId>5E</SetId>
 <No>158</No>
 <Name>Fungusaur</Name>
-<Type>Creature — Fungus Lizard 2/2</Type>
+<Type>Creature — Fungus Dinosaur 2/2</Type>
 <ManaCost>3G (4)</ManaCost>
 <CardText>Whenever Fungusaur is dealt damage, put a +1/+1 counter on it.</CardText>
 <Flavor>Rather than sheltering her young, the female fungusaur often injures her own offspring, thereby ensuring their rapid growth.</Flavor>
@@ -3093,7 +3093,7 @@ Enchanted creature can attack as though it had haste.
 <Type>Creature — Lhurgoyf */1+*</Type>
 <ManaCost>2GG (4)</ManaCost>
 <CardText>Lhurgoyf's power is equal to the number of creature cards in all graveyards and its toughness is equal to that number plus 1.</CardText>
-<Flavor>"Ach! Hans, run! It's the lhurgoyf"
+<Flavor>"Ach! Hans, run! It's the lhurgoyf!"
 —Saffi Eriksdotter, last words</Flavor>
 <Artist>Pete Venters</Artist>
 <Multiverseid>3992</Multiverseid>
@@ -3187,9 +3187,8 @@ All creatures able to block enchanted creature do so.</CardText>
 —Geyadrone Dihada</Flavor>
 <Artist>Anson Maddocks</Artist>
 <Multiverseid>3997</Multiverseid>
-<Rulings>2004/10/04: <Lure> does not give a creature the ability to block the <Lure>d creature, it just forces those creatures which are already able to block the <Lure>d creature to do so.
-2004/10/04: If a <Lure>d creature is in a band, only blockers able to block the <Lure>d creature are affected by the <Lure>.
-2004/10/04: The opponent does not have to activate any abilities in an attempt to make his or her creatures block. More specifically, a cost to block of zero mana is an optional cost you can choose not to pay.</Rulings>
+<Rulings>2017/11/17: <Lure> doesn't give any creatures the ability to block the target creature. It just forces those creatures that are already able to block the creature to do so.
+2017/11/17: As blockers are declared, any creature that's tapped or affected by a spell or ability that says it can't block doesn't block. If there's a cost associated with having the creature block, no player is forced to pay that cost, so it doesn't block if that cost isn't paid.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3227,7 +3226,7 @@ In human gore imbued."
 <Artist>Alan Rabinowitz</Artist>
 <Multiverseid>3999</Multiverseid>
 <Rulings>2004/10/04: Because the "search" requires you to find a card with certain characteristics, you don't have to find the card if you don't want to.
-2008/08/01: You can find any card with the land type Forest, including <Snow-Covered Forest> or non-Basic lands like <Tropical Island>, <Murmuring Bosk>, or <Stomping Ground>. You can even find a card that is a land in addition to other types, such as <Dryad Arbor>.</Rulings>
+2008/08/01: You can find any card with the land type Forest, including Snow-covered Forest or non-Basic lands like Tropical Island, Murmuring Bosk, or Stomping Ground. You can even find a card that is a land in addition to other types, such as Dryad Arbor.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Fifth Edition</Set>
@@ -3592,7 +3591,6 @@ Memoirs of a Soldier</Flavor>
 —Verduran teaching</Flavor>
 <Artist>Kev Brockschmidt</Artist>
 <Multiverseid>4020</Multiverseid>
-<Rulings>2005/08/01: This does not trigger on the moving of an Aura from one permanent to another.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3823,7 +3821,7 @@ And rosy cheeks and a glittering smile."
 <CardText>If target creature has toughness 5 or greater, it gets +4/-4 until end of turn. Otherwise, it gets +4/-X until end of turn, where X is its toughness minus 1.</CardText>
 <Artist>Anson Maddocks</Artist>
 <Multiverseid>4033</Multiverseid>
-<Rulings>2005/11/01: Has changed slightly in functionality, with the old continuous nature of the toughness reduction gone away; the toughness change remains static. For example, if you have three Swamps and <Nightmare> on the battlefield and then cast <Blood Lust> on it, it will become 7/1. If one of your Swamps is subsequently destroyed, your Nightmare will become 6/0 and be put in the graveyard.</Rulings>
+<Rulings>2005/11/01: Has changed slightly in functionality, with the old continuous nature of the toughness reduction gone away; the toughness change remains static. For example, if you have three Swamps and Nightmare on the battlefield and then cast <Blood Lust> on it, it will become 7/1. If one of your Swamps is subsequently destroyed, your Nightmare will become 6/0 and be put in the graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Fifth Edition</Set>
@@ -4085,11 +4083,10 @@ Enchanted creature has vigilance.</CardText>
 Fireball costs {1} more to cast for each target beyond the first.</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>4048</Multiverseid>
-<Rulings>2004/12/01: The additional cost is paid when you pay the rest of <Fireball>'s costs, even though that text appears second on the card (to make the card easier to read). The additional cost doesn't count toward <Fireball>'s converted mana cost.
-2004/12/01: If, for example, X is 5 and you choose three target creatures, <Fireball> has a total cost of {7}{R} (even though its mana cost is just {5}{R}). If those creatures are all still legal targets as <Fireball> resolves, it deals 1 damage to each of them.
-2009/05/01: You may cast <Fireball> with zero targets, regardless of the value chosen for X. If you do so, it will not be a targeted spell, and no damage will actually be dealt when it resolves.
-2009/10/01: <Fireball>'s damage is divided as <Fireball> resolves, not as it's cast, because there are no choices involved. The division involves only targets that are still legal at that time.
-2009/10/01: You can target more than X creatures. However, if the number of legal targets at the time <Fireball> resolves is greater than X, none of them will be dealt any damage.</Rulings>
+<Rulings>2017/11/17: For example, if X is 5 and you choose three target creatures, <Fireball> has a total cost of {7}{R} (even though its mana cost is just {5}{R} and its converted mana cost is 6). If those creatures are all still legal targets as <Fireball> resolves, it deals 1 damage to each of them.
+2017/11/17: You may cast <Fireball> with zero targets, regardless of the value chosen for X. If you do so, it will not be a targeted spell, and no damage will actually be dealt when it resolves.
+2017/11/17: <Fireball>'s damage is divided as <Fireball> resolves, not as it's cast, because there are no choices involved. The division involves only targets that are still legal as <Fireball> resolves.
+2017/11/17: You can target more than X creatures. However, if the number of legal targets at the time <Fireball> resolves is greater than X, none of them will be dealt any damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4480,7 +4477,7 @@ Enchanted creature can't block creatures with power equal to or greater than the
 2004/10/04: Only produces extra mana when land is tapped for mana, not when tapped by some other effect.
 2004/10/04: <Mana Flare> adds one of whatever color the land produces after applying any land type or color changing effects.
 2004/10/04: This is a triggered mana ability.
-2007/09/16: Does not copy any restrictions on the mana, such as with <Mishra's Workshop> or <Pillar of the Paruns>.
+2007/09/16: Does not copy any restrictions on the mana, such as with Mishra's Workshop or Pillar of the Paruns.
 2007/09/16: Produces only one additional mana, regardless of how much was produced by tapping the land.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -4687,7 +4684,7 @@ Draw a card at the beginning of the next turn's upkeep.</CardText>
 <Name>Primordial Ooze</Name>
 <Type>Creature — Ooze 1/1</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>Primordial Ooze attacks each turn if able.
+<CardText>Primordial Ooze attacks each combat if able.
 At the beginning of your upkeep, put a +1/+1 counter on Primordial Ooze. Then you may pay {X}, where X is the number of +1/+1 counters on it. If you don't, tap Primordial Ooze and it deals X damage to you.</CardText>
 <Artist>Randy Gallegos</Artist>
 <Multiverseid>4082</Multiverseid>
@@ -4875,7 +4872,7 @@ At the beginning of your upkeep, put a +1/+1 counter on Primordial Ooze. Then yo
 Balduvian chieftain</Flavor>
 <Artist>James Allen</Artist>
 <Multiverseid>4092</Multiverseid>
-<Rulings>2007/05/01: Creatures with the Reach ability (such as <Giant Spider>) can block this because they don't actually have Flying.</Rulings>
+<Rulings>2007/05/01: Creatures with the Reach ability (such as Giant Spider) can block this because they don't actually have Flying.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Fifth Edition</Set>
@@ -5717,7 +5714,7 @@ Whenever a red creature or spell deals damage, Justice deals that much damage to
 <Name>Kismet</Name>
 <Type>Enchantment</Type>
 <ManaCost>3W (4)</ManaCost>
-<CardText>Artifacts, creatures, and lands played by your opponents enter the battlefield tapped.</CardText>
+<CardText>Artifacts, creatures, and lands your opponents control enter the battlefield tapped.</CardText>
 <Flavor>"Make people wait for what they want, and you have power over them. This is as true for merchants and militia as it is for cooks and couples."
 —Gwendlyn Di Corci</Flavor>
 <Artist>Kaja Foglio</Artist>
@@ -5849,8 +5846,7 @@ Whenever a red creature or spell deals damage, Justice deals that much damage to
 <Type>Creature — Unicorn 2/2</Type>
 <ManaCost>2W (3)</ManaCost>
 <Flavor>"'Do you know, I always thought Unicorns were fabulous monsters, too? I never saw one alive before!' 'Well, now that we have seen each other,' said the Unicorn, 'if you'll believe in me, I'll believe in you.'"
-—Lewis Carroll,
-Through the Looking-Glass</Flavor>
+—Lewis Carroll, Through the Looking-Glass</Flavor>
 <Artist>David A. Cherry</Artist>
 <Multiverseid>4147</Multiverseid>
 <Vintage>Legal</Vintage>

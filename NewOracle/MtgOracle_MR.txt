@@ -401,9 +401,9 @@ Whenever Forsaken Wastes becomes the target of a spell, that spell's controller 
 <Artist>Kev Walker</Artist>
 <Multiverseid>3294</Multiverseid>
 <Rulings>2004/10/04: The loss of life from targeting this card does not work until after this card enters the battlefield, so you can counter it without losing life.
-2008/05/01: If a cost includes life gain (like <Invigorate>'s alternative cost does), that cost can't be paid.
+2008/05/01: If a cost includes life gain (like Invigorate's alternative cost does), that cost can't be paid.
 2008/05/01: Effects that would replace gaining life with some other effect won't be able to do anything because it's impossible for players to gain life.
-2008/05/01: Effects that replace an event with gaining life (like <Words of Worship>'s effect does) will end up replacing the event with nothing.
+2008/05/01: Effects that replace an event with gaining life (like Words of Worship's effect does) will end up replacing the event with nothing.
 2008/05/01: If an effect says to set your life total to a certain number, and that number is higher than your current life total, that effect will normally cause you to gain life equal to the difference. With <Forsaken Wastes> on the battlefield, that part of the effect won't do anything. (If the number is lower than your current life total, the effect will work as normal.)
 2008/10/01: This has the supertype world. When a world permanent enters the battlefield, any world permanents that were already on the battlefield are put into their owners' graveyards. This is a state-based action called the "world rule." The new world permanent stays on the battlefield. If two world permanents enter the battlefield at the same time, they're both put into their owners' graveyards.</Rulings>
 <Reserved>This card is on the reserved list</Reserved>
@@ -730,7 +730,7 @@ When Skulking Ghost becomes the target of a spell or ability, sacrifice it.</Car
 —Kifimbo, Shadow Guildmage</Flavor>
 <Artist>Robert Bliss</Artist>
 <Multiverseid>3312</Multiverseid>
-<Rulings>2016/06/08: You'll sacrifice <Skulking Ghost> even if you counter the spell or ability that targets it. If that spell has no other targets, it'll be countered when it tries to resolve.</Rulings>
+<Rulings>2016/06/08: You'll sacrifice this creature even if you counter the spell or ability that targets it. If that spell has no other targets, it'll be countered when it tries to resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Mirage</Set>
@@ -2061,7 +2061,6 @@ When enchanted creature dies, its controller loses 2 life.</CardText>
 —Jolrael</Flavor>
 <Artist>Harold McNeill</Artist>
 <Multiverseid>3385</Multiverseid>
-<Rulings>2009/10/01: <Fog> has no effect on damage that's already been dealt.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2710,6 +2709,7 @@ Put a -0/-1 counter on Wall of Roots: Add {G} to your mana pool. Activate this a
 <Flavor>Sometimes the wise ones wove their magic into living plants; as the plant grew, so grew the magic.</Flavor>
 <Artist>John Matson</Artist>
 <Multiverseid>3422</Multiverseid>
+<Rulings>2017/11/17: If you must sacrifice a creature to pay a casting or activation cost that also includes mana, such as that of Bubbling Cauldron's abilities, you may put a -0/-1 counter on <Wall of Roots> to make its toughness 0 and then sacrifice it to pay that cost.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3753,7 +3753,7 @@ Whenever a player casts a white spell, you may pay {1}. If you do, you gain 1 li
 <Type>Enchantment</Type>
 <ManaCost>1WW (3)</ManaCost>
 <CardText>Lands you control are Plains.
-Nonland cards you own that aren't on the battlefield, spells you control, and nonland permanents you control are white.
+Nonland permanents you control are white. The same is true for spells you control and nonland cards you own that aren't on the battlefield.
 You may spend white mana as though it were mana of any color. You may spend other mana only as though it were colorless mana.</CardText>
 <Artist>Liz Danforth</Artist>
 <Multiverseid>3481</Multiverseid>
@@ -3766,9 +3766,9 @@ You may spend white mana as though it were mana of any color. You may spend othe
 2006/09/25: Mana produced by spells you control and nonland permanents you control isn't affected by <Celestial Dawn>. Llanowar Elves will produce {G}, for example. However, any colored mana may be spent only on the colorless part of costs.
 2006/09/25: Land cards you own that aren't on the battlefield aren't changed to Plains.
 2006/09/25: If you have nonwhite mana in your mana pool when <Celestial Dawn> enters the battlefield, it remains there but you can spend it only on the colorless part of costs.
-2006/09/25: "Enters the battlefield" triggered abilities of lands you play won't trigger since the lands will enter the battlefield as Plains. Effects that modify how those lands enter the battlefield, however, will still work. For example, if you play a <Dimir Aqueduct>, it will enter the battlefield tapped as a Plains, but you won't return a land to your hand.
-2006/09/25: If you use a text-changing effect such as <Mind Bend> on <Celestial Dawn> to change the word "Plains" to a different land type, your lands are all of that new land type, and they will produce mana of the appropriate color for that type.
-2006/09/25: If a permanent enters the battlefield while <Celestial Dawn> is on the battlefield, and then <Celestial Dawn> leaves the battlefield, the permanent's color will revert to the colors in its mana cost.</Rulings>
+2006/09/25: If you use a text-changing effect such as Mind Bend on <Celestial Dawn> to change the word "Plains" to a different land type, your lands are all of that new land type, and they will produce mana of the appropriate color for that type.
+2006/09/25: If a permanent enters the battlefield while <Celestial Dawn> is on the battlefield, and then <Celestial Dawn> leaves the battlefield, the permanent's color will revert to the colors in its mana cost.
+2017/09/29: If a nonbasic land has an ability that causes it to enter the battlefield tapped, it lose will that ability before it applies. The same is also true of any other abilities that modify how a land enters the battlefield or apply "as" a land enters the battlefield, such as the first ability of Cavern of Souls. This is a change from previous rulings.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3981,7 +3981,7 @@ Enchanted creature has shroud as long as its controller controls another creatur
 <ManaCost>2W (3)</ManaCost>
 <CardText>Flanking (Whenever a creature without flanking blocks this creature, the blocking creature gets -1/-1 until end of turn.)
 {W}: Femeref Knight gains vigilance until end of turn.</CardText>
-<Flavor>"I will return / with lizard skins for your sandals. Paint your eyes black and wait for me." -"Love Song of Night and Day"</Flavor>
+<Flavor>"I will return / with lizard skins for your sandals. Paint your eyes black and wait for me." —"Love Song of Night and Day"</Flavor>
 <Artist>Tony Roberts</Artist>
 <Multiverseid>3493</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4215,7 +4215,7 @@ Zhalfirin song</Flavor>
 <Type>World Enchantment</Type>
 <ManaCost>3W (4)</ManaCost>
 <CardText>As Null Chamber enters the battlefield, you and an opponent each choose a card name other than a basic land card name.
-Spells with the chosen names can't be cast.</CardText>
+Spells with the chosen names can't be cast and lands with the chosen names can't be played.</CardText>
 <Flavor>Discovered by Femeref mages, the Null Chamber is the ultimate testing ground for the uncreative.</Flavor>
 <Artist>Douglas Shuler</Artist>
 <Multiverseid>3506</Multiverseid>
@@ -5704,7 +5704,7 @@ At the beginning of your end step, remove all +1/+1 counters from Discordant Spi
 <Type>Creature — Djinn 4/4</Type>
 <ManaCost>2UR (4)</ManaCost>
 <CardText>Flying, trample
-Emberwilde Caliph attacks each turn if able.
+Emberwilde Caliph attacks each combat if able.
 Whenever Emberwilde Caliph deals damage, you lose that much life.</CardText>
 <Flavor>The fire breathes while the air burns.</Flavor>
 <Artist>Jennifer Law</Artist>
