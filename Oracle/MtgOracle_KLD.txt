@@ -48,7 +48,7 @@ Whenever Aetherstorm Roc attacks, you may pay {E}{E}. If you do, put a +1/+1 cou
 <Multiverseid>417576</Multiverseid>
 <Rulings>2016/09/20: A creature entering the battlefield at the same time as <Aetherstorm Roc> causes its first triggered ability to trigger.
 2016/09/20: <Aetherstorm Roc>'s second triggered ability resolves before blockers are chosen. A creature tapped this way won't be able to block.
-2016/09/20: You don't have to target a creature with <Aetherstorm Roc>'s last ability. If you do choose a target, and that target becomes illegal, the ability is countered and you won't be able to pay {E}{E} to put a counter on <Aetherstorm Roc>.
+2016/09/20: You don't have to target a creature with <Aetherstorm Roc>'s last ability. If you do choose a target, and that target becomes illegal, the ability doesn't resolve and you won't be able to pay {E}{E} to put a counter on <Aetherstorm Roc>.
 2017/02/09: {E} is the energy symbol. It represents one energy counter.
 2017/02/09: Energy counters are a kind of counter that a player may have. They're not associated with specific permanents. (Other kinds of counters that players may have include poison and experience.)
 2017/02/09: Keep careful track of how many energy counters each player has. You may do so by keeping a running count on paper, by using a die, or by any other clear and mutually agreeable method.
@@ -56,7 +56,7 @@ Whenever Aetherstorm Roc attacks, you may pay {E}{E}. If you do, put a +1/+1 cou
 2017/02/09: Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" to your mana pool can't give you energy counters.
 2017/02/09: You can't pay more energy counters than you have.
 2017/02/09: Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves, and no player may take actions to try to stop the ability's effect after you make your choice.
-2017/02/09: If a triggered ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the ability is countered. You can't pay {E} even if you want to.</Rulings>
+2017/02/09: If a triggered ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the ability doesn't resolve. You can't pay {E} even if you want to.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -155,7 +155,7 @@ Whenever an opponent casts a spell, if it has a single target, change the target
 2016/09/20: When a player casts an Aura spell, it targets the creature that it will enchant and may cause <Captured by the Consulate>'s last ability to trigger.
 2016/09/20: If a spell has multiple targets, it doesn't have a single target even if the same object is chosen for each of those targets.
 2016/09/20: If the spell can't target the enchanted creature, its target remains unchanged.
-2016/09/20: If there is more than one <Captured by the Consulate> on the battlefield, the triggered ability of each one will change the target if able. The last one to resolve determines what that spell finally targets. If one player controls more than one Capture by the Consulate, he or she chooses the order in which they resolve. If multiple players control those Auras, the first player among them in turn order (starting with the player whose turn it is now) is the one whose triggered ability resolves last.
+2016/09/20: If there is more than one <Captured by the Consulate> on the battlefield, the triggered ability of each one will change the target if able. The last one to resolve determines what that spell finally targets. If one player controls more than one Capture by the Consulate, they choose the order in which they resolve. If multiple players control those Auras, the first player among them in turn order (starting with the player whose turn it is now) is the one whose triggered ability resolves last.
 2018/01/19: There are many important moments in the story, but the most crucial—called "story spotlights"—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -171,10 +171,10 @@ Whenever an opponent casts a spell, if it has a single target, change the target
 <Type>Artifact Creature — Construct 4/5</Type>
 <ManaCost>3WW (5)</ManaCost>
 <CardText>Vigilance
-When Cataclysmic Gearhulk enters the battlefield, each player chooses an artifact, a creature, an enchantment, and a planeswalker from among the nonland permanents he or she controls, then sacrifices the rest.</CardText>
+When Cataclysmic Gearhulk enters the battlefield, each player chooses an artifact, a creature, an enchantment, and a planeswalker from among the nonland permanents they control, then sacrifices the rest.</CardText>
 <Artist>Victor Adame Minguez</Artist>
 <Multiverseid>417582</Multiverseid>
-<Rulings>2016/09/20: First the player whose turn it is chooses permanents he or she controls, then each other player in turn order does the same. Each player will know the choices made by players who chose before them. All of the unchosen nonland permanents are then sacrificed simultaneously.
+<Rulings>2016/09/20: First the player whose turn it is chooses permanents they control, then each other player in turn order does the same. Each player will know the choices made by players who chose before them. All of the unchosen nonland permanents are then sacrificed simultaneously.
 2016/09/20: A permanent with more than one type may be chosen as either of the types or both. For example, an artifact creature may be chosen as the artifact, the creature, or both. Choosing the same permanent twice this way has the same result as choosing it once.
 2016/09/20: <Cataclysmic Gearhulk> will be sacrificed to its own ability if you don't choose it as your artifact or your creature.
 2016/09/20: Lands can't be chosen and won't be sacrificed, even if they have other types (such as an artifact land).
@@ -198,7 +198,7 @@ Pay {E}{E}: Prevent all damage that would be dealt to you this turn by a source 
 <Multiverseid>417583</Multiverseid>
 <Rulings>2016/09/20: <Consulate Surveillance>'s second ability doesn't target anything. You choose a source of damage as it resolves.
 2016/09/20: If the chosen source would deal damage to you and one or more other players or permanents, only the damage that would be dealt to you is prevented.
-2016/09/20: If multiple prevention and/or replacement effects are trying to apply to the same damage, the player who would be dealt damage chooses the order in which to apply them. Notably, if noncombat damage would be dealt to you by a source controlled by an opponent, and you control a planeswalker, you choose the order in which to apply <Consulate Surveillance>'s effect and the planeswalker redirection effect. If you apply <Consulate Surveillance>'s effect first, the damage is prevented and the planeswalker redirection effect won't apply.
+2016/09/20: If multiple prevention and/or replacement effects are trying to apply to the same damage, the player who would be dealt damage chooses the order in which to apply them.
 2017/02/09: {E} is the energy symbol. It represents one energy counter.
 2017/02/09: Energy counters are a kind of counter that a player may have. They're not associated with specific permanents. (Other kinds of counters that players may have include poison and experience.)
 2017/02/09: Keep careful track of how many energy counters each player has. You may do so by keeping a running count on paper, by using a die, or by any other clear and mutually agreeable method.
@@ -229,7 +229,7 @@ Whenever Consul's Shieldguard attacks, you may pay {E}. If you do, another targe
 2017/02/09: Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" to your mana pool can't give you energy counters.
 2017/02/09: You can't pay more energy counters than you have.
 2017/02/09: Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves, and no player may take actions to try to stop the ability's effect after you make your choice.
-2017/02/09: If a triggered ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the ability is countered. You can't pay {E} even if you want to.</Rulings>
+2017/02/09: If a triggered ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the ability doesn't resolve. You can't pay {E} even if you want to.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -255,7 +255,7 @@ Whenever Eddytrail Hawk attacks, you may pay {E}. If you do, another target atta
 2017/02/09: Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" to your mana pool can't give you energy counters.
 2017/02/09: You can't pay more energy counters than you have.
 2017/02/09: Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves, and no player may take actions to try to stop the ability's effect after you make your choice.
-2017/02/09: If a triggered ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the ability is countered. You can't pay {E} even if you want to.</Rulings>
+2017/02/09: If a triggered ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the ability doesn't resolve. You can't pay {E} even if you want to.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -408,8 +408,7 @@ Whenever Gearshift Ace crews a Vehicle, that Vehicle gains first strike until en
 <Flavor>One dwarf on a build team ensures competence. All dwarves on the team ensures brilliance.</Flavor>
 <Artist>Deruchenko Alexander</Artist>
 <Multiverseid>417593</Multiverseid>
-<Rulings>2010/08/15: Only creatures you control as <Inspired Charge> resolves are affected.
-2016/09/20: The set of creatures affected by <Inspired Charge> is determined as the spell resolves. Creatures you begin to control later in the turn and noncreature permanents that become creatures later in the turn won't get +2/+1.</Rulings>
+<Rulings>2016/09/20: The set of creatures affected by <Inspired Charge> is determined as the spell resolves. Creatures you begin to control later in the turn and noncreature permanents that become creatures later in the turn won't get +2/+1.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -575,7 +574,7 @@ Enchanted creature can't attack, block, or crew Vehicles.</CardText>
 <Flavor>In the moment of truth, it is as though time stands still, and the whale waits, suspended in the sky.</Flavor>
 <Artist>Chris Rallis</Artist>
 <Multiverseid>417602</Multiverseid>
-<Rulings>2016/09/20: If the target creature's power becomes 2 or less before <Skywhaler's Shot> resolves, the spell is countered. The creature remains on the battlefield and you won't scry 1.</Rulings>
+<Rulings>2016/09/20: If the target creature's power becomes 2 or less before <Skywhaler's Shot> resolves, the spell doesn't resolve. The creature remains on the battlefield and you won't scry 1.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -718,7 +717,7 @@ When Aether Meltdown enters the battlefield, you get {E}{E} (two energy counters
 Enchanted permanent gets -4/-0.</CardText>
 <Artist>Jason Felix</Artist>
 <Multiverseid>417609</Multiverseid>
-<Rulings>2016/09/20: If the target creature or Vehicle becomes an illegal target while <Aether Meltdown> is on the stack, <Aether Meltdown> will be countered. It won't enter the battlefield and you won't get {E}{E}.
+<Rulings>2016/09/20: If the target creature or Vehicle becomes an illegal target while <Aether Meltdown> is on the stack, <Aether Meltdown> won't resolve. It won't enter the battlefield and you won't get {E}{E}.
 2017/02/09: {E} is the energy symbol. It represents one energy counter.
 2017/02/09: Energy counters are a kind of counter that a player may have. They're not associated with specific permanents. (Other kinds of counters that players may have include poison and experience.)
 2017/02/09: Keep careful track of how many energy counters each player has. You may do so by keeping a running count on paper, by using a die, or by any other clear and mutually agreeable method.
@@ -765,7 +764,7 @@ Enchanted permanent gets -4/-0.</CardText>
 <Flavor>Consulate engineers have developed safe methods of harvesting aether, but renegades aren't always so careful.</Flavor>
 <Artist>Lius Lasahido</Artist>
 <Multiverseid>417611</Multiverseid>
-<Rulings>2016/09/20: If one target permanent becomes an illegal target, the other will be returned to its owner's hand. If both targets become illegal, <Aether Tradewinds> will be countered.</Rulings>
+<Rulings>2016/09/20: If one target permanent becomes an illegal target, the other will be returned to its owner's hand. If both targets become illegal, <Aether Tradewinds> won't resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -824,7 +823,7 @@ Pay {E}{E}{E}{E}{E}{E}{E}{E}: Return all other creatures to their owners' hands.
 <Flavor>"Citizens, do not resist. This is for your safety. Tezzeret bids you to surrender your inventions. Now."</Flavor>
 <Artist>Joseph Meehan</Artist>
 <Multiverseid>417614</Multiverseid>
-<Rulings>2016/09/20: You choose the target artifact or creature as you cast <Confiscation Coup>. You don't choose whether or not to pay an amount of {E} until <Confiscation Coup> resolves. If the target becomes an illegal target, <Confiscation Coup> will be countered and you won't get {E}{E}{E}{E}.
+<Rulings>2016/09/20: You choose the target artifact or creature as you cast <Confiscation Coup>. You don't choose whether or not to pay an amount of {E} until <Confiscation Coup> resolves. If the target becomes an illegal target, <Confiscation Coup> won't resolve and you won't get {E}{E}{E}{E}.
 2016/09/20: If the target artifact or creature has a converted mana cost of 0, you may choose to pay zero energy and gain control of it.
 2016/09/20: If a permanent has {X} in its mana cost, X is considered to be 0.
 2016/09/20: The converted mana cost of a token that isn't a copy of another object is 0. A token that is a copy of another object has the same mana cost as that object.
@@ -865,7 +864,7 @@ Pay {E}{E}{E}{E}{E}{E}{E}{E}: Return all other creatures to their owners' hands.
 <Name>Disappearing Act</Name>
 <Type>Instant</Type>
 <ManaCost>1UU (3)</ManaCost>
-<CardText>As an additional cost to cast Disappearing Act, return a permanent you control to its owner's hand.
+<CardText>As an additional cost to cast this spell, return a permanent you control to its owner's hand.
 Counter target spell.</CardText>
 <Flavor>"Baral took my family from me back then. I'd do anything to face him now."
 —Chandra Nalaar</Flavor>
@@ -962,13 +961,13 @@ When Experimental Aviator enters the battlefield, create two 1/1 colorless Thopt
 <Name>Gearseeker Serpent</Name>
 <Type>Creature — Serpent 5/6</Type>
 <ManaCost>5UU (7)</ManaCost>
-<CardText>Gearseeker Serpent costs {1} less to cast for each artifact you control.
+<CardText>This spell costs {1} less to cast for each artifact you control.
 {5}{U}: Gearseeker Serpent can't be blocked this turn.</CardText>
 <Flavor>Its collection is vast, yet each ship has a special place in its heart.</Flavor>
 <Artist>Filip Burburan</Artist>
 <Multiverseid>417621</Multiverseid>
 <Rulings>2016/09/20: The total cost to cast <Gearseeker Serpent> is locked in before you pay that cost. For example, if you control three artifacts, including one you can sacrifice to add {C} to your mana pool, the total cost of <Gearseeker Serpent> is {2}{U}{U}. Then you can sacrifice the artifact when you activate mana abilities just before paying the cost.
-2016/09/20: Once a player has announced that he or she is casting <Gearseeker Serpent>, no player may take actions to try to change the number of artifacts its controller controls before the spell's cost is locked in.
+2016/09/20: Once a player has announced that they are casting <Gearseeker Serpent>, no player may take actions to try to change the number of artifacts its controller controls before the spell's cost is locked in.
 2016/09/20: <Gearseeker Serpent>'s first ability can't reduce the total cost to cast the spell below {U}{U}.
 2016/09/20: Once <Gearseeker Serpent> has been blocked, activating its last ability won't cause it to become unblocked.</Rulings>
 <Vintage>Legal</Vintage>
@@ -1161,7 +1160,7 @@ Enchanted permanent doesn't untap during its controller's untap step.</CardText>
 <Type>Creature — Vedalken Advisor 1/2</Type>
 <ManaCost>U (1)</ManaCost>
 <CardText>When Minister of Inquiries enters the battlefield, you get {E}{E} (two energy counters).
-{T}, Pay {E}: Target player puts the top three cards of his or her library into his or her graveyard.</CardText>
+{T}, Pay {E}: Target player puts the top three cards of their library into their graveyard.</CardText>
 <Flavor>"This research violates Consulate law."</Flavor>
 <Artist>Dan Scott</Artist>
 <Multiverseid>417630</Multiverseid>
@@ -1290,7 +1289,7 @@ At the beginning of your upkeep, if you control the artifact with the highest co
 <CardText>Return target tapped creature to its owner's hand. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)</CardText>
 <Artist>James Paick</Artist>
 <Multiverseid>417636</Multiverseid>
-<Rulings>2016/09/20: If the target creature becomes untapped or otherwise becomes an illegal target before <Select for Inspection> resolves, the spell is countered. The creature remains on the battlefield and you won't scry 1.</Rulings>
+<Rulings>2016/09/20: If the target creature becomes untapped or otherwise becomes an illegal target before <Select for Inspection> resolves, the spell doesn't resolve. The creature remains on the battlefield and you won't scry 1.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1372,7 +1371,7 @@ When Torrential Gearhulk enters the battlefield, you may cast target instant car
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>417640</Multiverseid>
 <Rulings>2016/09/20: If you cast the card, you do so as part of the resolution of <Torrential Gearhulk>'s triggered ability. You can't wait to cast it later in the turn. Timing restrictions (such as "Cast [this card] only during combat") still apply.
-2016/09/20: If you cast a card "without paying its mana cost," you can't pay any alternative costs, such as emerge costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Incendiary Sabotage, you must pay those to cast the card.
+2016/09/20: If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs, such as emerge costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Incendiary Sabotage, you must pay those to cast the card.
 2016/09/20: If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1549,7 +1548,7 @@ Whenever another creature dies, you get {E} (an energy counter).
 <Artist>Ryan Yee</Artist>
 <Multiverseid>417649</Multiverseid>
 <Rulings>2016/09/20: You choose the target creature as you cast <Die Young>. You don't choose how much {E} to pay until <Die Young> is resolving. No player may take actions between the time you choose how much {E} to pay and the time the creature gets -1/-1 for each {E} paid this way.
-2016/09/20: If the target creature becomes an illegal target, <Die Young> is countered and none of its effects happen. You won't get {E}{E} or be able to pay any {E}.
+2016/09/20: If the target creature becomes an illegal target, <Die Young> doesn't resolve and none of its effects happen. You won't get {E}{E} or be able to pay any {E}.
 2017/02/09: {E} is the energy symbol. It represents one energy counter.
 2017/02/09: Energy counters are a kind of counter that a player may have. They're not associated with specific permanents. (Other kinds of counters that players may have include poison and experience.)
 2017/02/09: Keep careful track of how many energy counters each player has. You may do so by keeping a running count on paper, by using a die, or by any other clear and mutually agreeable method.
@@ -1586,7 +1585,7 @@ Whenever another creature dies, you get {E} (an energy counter).
 <Name>Eliminate the Competition</Name>
 <Type>Sorcery</Type>
 <ManaCost>4B (5)</ManaCost>
-<CardText>As an additional cost to cast Eliminate the Competition, sacrifice X creatures.
+<CardText>As an additional cost to cast this spell, sacrifice X creatures.
 Destroy X target creatures.</CardText>
 <Flavor>Open hostilities are strictly forbidden at the Inventors' Fair, but "accidents" still happen.</Flavor>
 <Artist>Joseph Meehan</Artist>
@@ -1629,7 +1628,7 @@ Embraal Bruiser has menace as long as you control an artifact.</CardText>
 <Flavor>The "gifted" among the aetherborn can draw the life essence of other living beings into themselves.</Flavor>
 <Artist>Min Yum</Artist>
 <Multiverseid>417653</Multiverseid>
-<Rulings>2016/09/20: If the target creature becomes an illegal target, <Essence Extraction> is countered and you don't gain life.</Rulings>
+<Rulings>2016/09/20: If the target creature becomes an illegal target, <Essence Extraction> doesn't resolve and you don't gain life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1723,7 +1722,7 @@ When Gonti, Lord of Luxury enters the battlefield, look at the top four cards of
 <Name>Harsh Scrutiny</Name>
 <Type>Sorcery</Type>
 <ManaCost>B (1)</ManaCost>
-<CardText>Target opponent reveals his or her hand. You choose a creature card from it. That player discards that card. Scry 1.</CardText>
+<CardText>Target opponent reveals their hand. You choose a creature card from it. That player discards that card. Scry 1.</CardText>
 <Flavor>"If you've done nothing wrong, you have nothing to fear."
 —Enforcer-Chief Ranaj</Flavor>
 <Artist>Vincent Proce</Artist>
@@ -1782,7 +1781,7 @@ When Gonti, Lord of Luxury enters the battlefield, look at the top four cards of
 <Name>Lost Legacy</Name>
 <Type>Sorcery</Type>
 <ManaCost>1BB (3)</ManaCost>
-<CardText>Choose a nonartifact, nonland card name. Search target player's graveyard, hand, and library for any number of cards with that name and exile them. That player shuffles his or her library, then draws a card for each card exiled from hand this way.</CardText>
+<CardText>Choose a nonartifact, nonland card name. Search target player's graveyard, hand, and library for any number of cards with that name and exile them. That player shuffles their library, then draws a card for each card exiled from hand this way.</CardText>
 <Flavor>"That name shall not be spoken."
 —Baral, Chief of Compliance</Flavor>
 <Artist>Greg Opalinski</Artist>
@@ -1904,7 +1903,7 @@ Whenever you discard a card, you lose 1 life.</CardText>
 <Name>Morbid Curiosity</Name>
 <Type>Sorcery</Type>
 <ManaCost>1BB (3)</ManaCost>
-<CardText>As an additional cost to cast Morbid Curiosity, sacrifice an artifact or creature.
+<CardText>As an additional cost to cast this spell, sacrifice an artifact or creature.
 Draw cards equal to the converted mana cost of the sacrificed permanent.</CardText>
 <Flavor>"Every creation carries a piece of its creators. Their knowledge, their dreams, their soul. That is the best part."</Flavor>
 <Artist>Kieran Yanner</Artist>
@@ -2080,7 +2079,7 @@ Whenever Thriving Rats attacks, you may pay {E}{E}. If you do, put a +1/+1 count
 <Flavor>Aetherborn patrons use any means necessary to secure victory for their protégés.</Flavor>
 <Artist>Bastien L. Deharme</Artist>
 <Multiverseid>417676</Multiverseid>
-<Rulings>2016/09/20: If the target creature becomes an illegal target before <Tidy Conclusion> resolves, the spell is countered. You don't gain any life.
+<Rulings>2016/09/20: If the target creature becomes an illegal target before <Tidy Conclusion> resolves, the spell doesn't resolve. You don't gain any life.
 2016/09/20: The number of artifacts you control is counted only as <Tidy Conclusion> resolves, after the creature is destroyed. For example, if you destroy a Fairgrounds Warden that exiled your artifact creature, the artifact creature will return and then be counted when determining how many artifacts you control.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2138,7 +2137,7 @@ Whenever Thriving Rats attacks, you may pay {E}{E}. If you do, put a +1/+1 count
 <ManaCost>2R (3)</ManaCost>
 <CardText>When Aethertorch Renegade enters the battlefield, you get {E}{E}{E}{E} (four energy counters).
 {T}, Pay {E}{E}: Aethertorch Renegade deals 1 damage to target creature.
-{T}, Pay {E}{E}{E}{E}{E}{E}{E}{E}: Aethertorch Renegade deals 6 damage to target player.</CardText>
+{T}, Pay {E}{E}{E}{E}{E}{E}{E}{E}: Aethertorch Renegade deals 6 damage to target player or planeswalker.</CardText>
 <Artist>Johann Bodin</Artist>
 <Multiverseid>417679</Multiverseid>
 <Rulings>2017/02/09: {E} is the energy symbol. It represents one energy counter.
@@ -2195,7 +2194,7 @@ Whenever Thriving Rats attacks, you may pay {E}{E}. If you do, put a +1/+1 count
 <Name>Cathartic Reunion</Name>
 <Type>Sorcery</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>As an additional cost to cast Cathartic Reunion, discard two cards.
+<CardText>As an additional cost to cast this spell, discard two cards.
 Draw three cards.</CardText>
 <Flavor>The chasm of years and worlds collapsed under the power of their embrace.</Flavor>
 <Artist>Howard Lyon</Artist>
@@ -2215,9 +2214,9 @@ Draw three cards.</CardText>
 <Type>Legendary Planeswalker — Chandra (Loyalty: 4)</Type>
 <ManaCost>2RR (4)</ManaCost>
 <CardText>+1: Exile the top card of your library. You may cast that card. If you don't, Chandra, Torch of Defiance deals 2 damage to each opponent.
-+1: Add {R}{R} to your mana pool.
++1: Add {R}{R}.
 -3: Chandra, Torch of Defiance deals 4 damage to target creature.
--7: You get an emblem with "Whenever you cast a spell, this emblem deals 5 damage to target creature or player."</CardText>
+-7: You get an emblem with "Whenever you cast a spell, this emblem deals 5 damage to any target."</CardText>
 <Artist>Magali Villeneuve</Artist>
 <Multiverseid>417683</Multiverseid>
 <Rulings>2016/09/20: An effect that instructs you to "cast" a card doesn't allow you to play lands. If the card exiled with Chandra's first ability is a land card, you can't play it and Chandra deals 2 damage to each opponent.
@@ -2240,7 +2239,7 @@ Draw three cards.</CardText>
 <Name>Chandra's Pyrohelix</Name>
 <Type>Instant</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>Chandra's Pyrohelix deals 2 damage divided as you choose among one or two target creatures and/or players.</CardText>
+<CardText>Chandra's Pyrohelix deals 2 damage divided as you choose among one or two targets.</CardText>
 <Flavor>"This one's for my mom, and this one's for me."</Flavor>
 <Artist>Kieran Yanner</Artist>
 <Multiverseid>417684</Multiverseid>
@@ -2296,7 +2295,7 @@ When Combustible Gearhulk enters the battlefield, target opponent may have you d
 <Name>Fateful Showdown</Name>
 <Type>Instant</Type>
 <ManaCost>2RR (4)</ManaCost>
-<CardText>Fateful Showdown deals damage to target creature or player equal to the number of cards in your hand. Discard all the cards in your hand, then draw that many cards.</CardText>
+<CardText>Fateful Showdown deals damage to any target equal to the number of cards in your hand. Discard all the cards in your hand, then draw that many cards.</CardText>
 <Flavor>Tonight at the Grand Exhibition, witness Head Judge Tezzeret face off against the infamous renegade Pia Nalaar.</Flavor>
 <Artist>Chris Rallis</Artist>
 <Multiverseid>417687</Multiverseid>
@@ -2316,12 +2315,12 @@ When Combustible Gearhulk enters the battlefield, target opponent may have you d
 <Name>Furious Reprisal</Name>
 <Type>Sorcery</Type>
 <ManaCost>3R (4)</ManaCost>
-<CardText>Furious Reprisal deals 2 damage to each of two target creatures and/or players.</CardText>
+<CardText>Furious Reprisal deals 2 damage to each of two targets.</CardText>
 <Flavor>"Now that's the Chandra I've been waiting to see."
 —Liliana Vess</Flavor>
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>417688</Multiverseid>
-<Rulings>2016/09/20: You can't target the same creature or player twice to have one recipient be dealt 4 damage.</Rulings>
+<Rulings>2016/09/20: You can't target the same permanent or player twice to have one recipient be dealt 4 damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2357,7 +2356,7 @@ Enchanted creature gets +2/+1 and has menace.</CardText>
 <Artist>Chris Rallis</Artist>
 <Multiverseid>417690</Multiverseid>
 <Rulings>2016/09/20: You choose the target creature as you cast <Harnessed Lightning>. You don't choose how much {E} to pay until <Harnessed Lightning> is resolving. No player may take actions between the time you choose how much {E} to pay and the time the creature takes damage equal to the {E} paid this way.
-2016/09/20: If the target creature becomes an illegal target, <Harnessed Lightning> is countered and none of its effects happen. You won't get {E}{E}{E} or be able to pay any {E}.
+2016/09/20: If the target creature becomes an illegal target, <Harnessed Lightning> doesn't resolve and none of its effects happen. You won't get {E}{E}{E} or be able to pay any {E}.
 2017/02/09: {E} is the energy symbol. It represents one energy counter.
 2017/02/09: Energy counters are a kind of counter that a player may have. They're not associated with specific permanents. (Other kinds of counters that players may have include poison and experience.)
 2017/02/09: Keep careful track of how many energy counters each player has. You may do so by keeping a running count on paper, by using a die, or by any other clear and mutually agreeable method.
@@ -2395,7 +2394,7 @@ Enchanted creature gets +2/+1 and has menace.</CardText>
 <Name>Incendiary Sabotage</Name>
 <Type>Instant</Type>
 <ManaCost>2RR (4)</ManaCost>
-<CardText>As an additional cost to cast Incendiary Sabotage, sacrifice an artifact.
+<CardText>As an additional cost to cast this spell, sacrifice an artifact.
 Incendiary Sabotage deals 3 damage to each creature.</CardText>
 <Flavor>"All of those Consulate safety measures undone with one simple tweak."</Flavor>
 <Artist>Ben Maier</Artist>
@@ -2488,7 +2487,7 @@ Whenever Maulfist Doorbuster attacks, you may pay {E}. If you do, target creatur
 2017/02/09: Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" to your mana pool can't give you energy counters.
 2017/02/09: You can't pay more energy counters than you have.
 2017/02/09: Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves, and no player may take actions to try to stop the ability's effect after you make your choice.
-2017/02/09: If a triggered ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the ability is countered. You can't pay {E} even if you want to.</Rulings>
+2017/02/09: If a triggered ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the ability doesn't resolve. You can't pay {E} even if you want to.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3052,7 +3051,7 @@ Whenever Cultivator of Blades attacks, you may have other attacking creatures ge
 <Name>Dubious Challenge</Name>
 <Type>Sorcery</Type>
 <ManaCost>3G (4)</ManaCost>
-<CardText>Look at the top ten cards of your library, exile up to two creature cards from among them, then shuffle your library. Target opponent may choose one of the exiled cards and put it onto the battlefield under his or her control. Put the rest onto the battlefield under your control.</CardText>
+<CardText>Look at the top ten cards of your library, exile up to two creature cards from among them, then shuffle your library. Target opponent may choose one of the exiled cards and put it onto the battlefield under their control. Put the rest onto the battlefield under your control.</CardText>
 <Artist>Scott Murphy</Artist>
 <Multiverseid>417725</Multiverseid>
 <Rulings>2016/09/20: The creature cards you exile are face up. Your opponent can see them while deciding whether to take one and which to take.
@@ -3400,7 +3399,7 @@ Whenever Riparian Tiger attacks, you may pay {E}{E}. If you do, it gets +2/+2 un
 <Type>Creature — Elf Druid 2/2</Type>
 <ManaCost>1G (2)</ManaCost>
 <CardText>When Servant of the Conduit enters the battlefield, you get {E}{E} (two energy counters).
-{T}, Pay {E}: Add one mana of any color to your mana pool.</CardText>
+{T}, Pay {E}: Add one mana of any color.</CardText>
 <Flavor>"Creation without connection to nature is just manufacture."</Flavor>
 <Artist>Magali Villeneuve</Artist>
 <Multiverseid>417742</Multiverseid>
@@ -3509,7 +3508,7 @@ When Verdurous Gearhulk enters the battlefield, distribute four +1/+1 counters a
 —Rashmi, aether-seer</Flavor>
 <Artist>Daniel Ljunggren</Artist>
 <Multiverseid>417747</Multiverseid>
-<Rulings>2016/09/20: If each target card is an illegal target as <Wildest Dreams> resolves, <Wildest Dreams> is countered and is put into its owner's graveyard. It's not exiled.</Rulings>
+<Rulings>2016/09/20: If each target card is an illegal target as <Wildest Dreams> resolves, <Wildest Dreams> doesn't resolve and is put into its owner's graveyard. It's not exiled.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3604,7 +3603,7 @@ Whenever Depala, Pilot Exemplar becomes tapped, you may pay {X}. If you do, reve
 <Multiverseid>417752</Multiverseid>
 <Rulings>2016/09/20: <Dovin Baan>'s first ability can target any creature, not just one with an activated ability. It can also be activated targeting no creature at all.
 2016/09/20: Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keywords are activated abilities and will have colons in their reminder text.
-2016/09/20: An opponent affected by <Dovin Baan>'s emblem chooses which two of his or her permanents to untap, not you.</Rulings>
+2016/09/20: An opponent affected by <Dovin Baan>'s emblem chooses which two of their permanents to untap, not you.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3709,7 +3708,7 @@ Whenever Empyreal Voyager deals combat damage to a player, you get that many {E}
 2016/09/20: For spells with {X} in their mana costs, use the value chosen for X to determine the spell's converted mana cost. For cards in your library with {X} in their mana costs, X is considered to be 0.
 2016/09/20: If Rashmi's ability resolves and the spell that caused it to trigger has been countered, use that spell's converted mana cost as it last existed on the stack to determine whether or not you may cast the top card of your library.
 2016/09/20: If you cast the top card of your library, you do so as part of the resolution of Rashmi's ability. You can't wait to cast it later in the turn. Timing permissions based on the card's type are ignored, but other restrictions (such as "Cast [this card] only during combat") are not.
-2016/09/20: If you cast a card "without paying its mana cost," you can't pay any alternative costs, such as emerge costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Cathartic Reunion, those must be paid to cast the card.
+2016/09/20: If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs, such as emerge costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Cathartic Reunion, those must be paid to cast the card.
 2016/09/20: If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3771,7 +3770,7 @@ Whenever Empyreal Voyager deals combat damage to a player, you get that many {E}
 <Flavor>"I'd stand back if I were you."</Flavor>
 <Artist>Izzy</Artist>
 <Multiverseid>417760</Multiverseid>
-<Rulings>2016/09/20: If the target creature becomes an illegal target before <Unlicensed Disintegration> resolves, the spell is countered. No player is dealt damage.
+<Rulings>2016/09/20: If the target creature becomes an illegal target before <Unlicensed Disintegration> resolves, the spell doesn't resolve. No player is dealt damage.
 2016/09/20: If the target creature is a legal target but isn't destroyed by <Unlicensed Disintegration>, most likely because it has indestructible, <Unlicensed Disintegration> still deals 3 damage to the creature's controller.
 2016/09/20: Whether or not you control an artifact is checked only as <Unlicensed Disintegration> resolves, after the creature is destroyed. For example, if you destroy a Fairgrounds Warden that exiled your artifact creature, <Unlicensed Disintegration> deals 3 damage to Fairgrounds Warden's controller.</Rulings>
 <Vintage>Legal</Vintage>
@@ -3876,7 +3875,7 @@ Pay {E}{E}{E}: Create a 1/1 colorless Thopter artifact creature token with flyin
 <Type>Artifact</Type>
 <ManaCost>4 (4)</ManaCost>
 <CardText>Whenever you cast a spell, you gain 1 life for each spell you've cast this turn.
-Pay 50 life: Aetherflux Reservoir deals 50 damage to target creature or player.</CardText>
+Pay 50 life: Aetherflux Reservoir deals 50 damage to any target.</CardText>
 <Flavor>While most power is used for ordinary, everyday tasks, one shouldn't underestimate its potential for the extraordinary.</Flavor>
 <Artist>Cliff Childs</Artist>
 <Multiverseid>417765</Multiverseid>
@@ -3904,7 +3903,7 @@ Pay 50 life: Aetherflux Reservoir deals 50 damage to target creature or player.<
 <Rulings>2016/09/20: <Aetherworks Marvel>'s first ability triggers whenever any permanent you control is put into a graveyard from the battlefield, including <Aetherworks Marvel> itself and other permanents put into a graveyard at the same time as it.
 2016/09/20: Tokens that are sacrificed or destroyed are put into their owner's graveyard before ceasing to exist. If you controlled the token, <Aetherworks Marvel>'s first ability will trigger.
 2016/09/20: The card cast with <Aetherworks Marvel>'s second ability is cast from your library.
-2016/09/20: If you cast a card "without paying its mana cost," you can't pay any alternative costs, such as emerge costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Incendiary Sabotage, you must pay those to cast the card.
+2016/09/20: If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs, such as emerge costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Incendiary Sabotage, you must pay those to cast the card.
 2016/09/20: If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
 2017/02/09: {E} is the energy symbol. It represents one energy counter.
 2017/02/09: Energy counters are a kind of counter that a player may have. They're not associated with specific permanents. (Other kinds of counters that players may have include poison and experience.)
@@ -3954,7 +3953,7 @@ Crew 4 (Tap any number of creatures you control with total power 4 or more: This
 <Rulings>2017/09/29: Each Vehicle is printed with a power and toughness, but it's not a creature. If it becomes a creature (most likely through its crew ability), it will have that power and toughness.
 2017/09/29: If an effect causes a Vehicle to become an artifact creature with a specified power and toughness, that effect overwrites the Vehicle's printed power and toughness.
 2017/09/29: Vehicle is an artifact type, not a creature type. A Vehicle that's crewed won't normally have any creature type.
-2017/09/29: Once a player announces that he or she is activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
+2017/09/29: Once a player announces that they are activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
 2017/09/29: Any untapped creature you control can be tapped to pay a crew cost, even one that just came under your control.
 2017/09/29: You may tap more creatures than necessary to activate a crew ability.
 2017/09/29: Creatures that crew a Vehicle aren't attached to it or related in any other way. Effects that affect the Vehicle, such as by destroying it or giving it a +1/+1 counter, don't affect the creatures that crewed it.
@@ -3976,7 +3975,7 @@ Crew 4 (Tap any number of creatures you control with total power 4 or more: This
 <Name>Ballista Charger</Name>
 <Type>Artifact — Vehicle 6/6</Type>
 <ManaCost>5 (5)</ManaCost>
-<CardText>Whenever Ballista Charger attacks, it deals 1 damage to target creature or player.
+<CardText>Whenever Ballista Charger attacks, it deals 1 damage to any target.
 Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)</CardText>
 <Artist>Sung Choi</Artist>
 <Multiverseid>417769</Multiverseid>
@@ -3984,7 +3983,7 @@ Crew 3 (Tap any number of creatures you control with total power 3 or more: This
 2017/09/29: Each Vehicle is printed with a power and toughness, but it's not a creature. If it becomes a creature (most likely through its crew ability), it will have that power and toughness.
 2017/09/29: If an effect causes a Vehicle to become an artifact creature with a specified power and toughness, that effect overwrites the Vehicle's printed power and toughness.
 2017/09/29: Vehicle is an artifact type, not a creature type. A Vehicle that's crewed won't normally have any creature type.
-2017/09/29: Once a player announces that he or she is activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
+2017/09/29: Once a player announces that they are activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
 2017/09/29: Any untapped creature you control can be tapped to pay a crew cost, even one that just came under your control.
 2017/09/29: You may tap more creatures than necessary to activate a crew ability.
 2017/09/29: Creatures that crew a Vehicle aren't attached to it or related in any other way. Effects that affect the Vehicle, such as by destroying it or giving it a +1/+1 counter, don't affect the creatures that crewed it.
@@ -4031,7 +4030,7 @@ Crew 3 (Tap any number of creatures you control with total power 3 or more: This
 <Rulings>2017/09/29: Each Vehicle is printed with a power and toughness, but it's not a creature. If it becomes a creature (most likely through its crew ability), it will have that power and toughness.
 2017/09/29: If an effect causes a Vehicle to become an artifact creature with a specified power and toughness, that effect overwrites the Vehicle's printed power and toughness.
 2017/09/29: Vehicle is an artifact type, not a creature type. A Vehicle that's crewed won't normally have any creature type.
-2017/09/29: Once a player announces that he or she is activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
+2017/09/29: Once a player announces that they are activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
 2017/09/29: Any untapped creature you control can be tapped to pay a crew cost, even one that just came under your control.
 2017/09/29: You may tap more creatures than necessary to activate a crew ability.
 2017/09/29: Creatures that crew a Vehicle aren't attached to it or related in any other way. Effects that affect the Vehicle, such as by destroying it or giving it a +1/+1 counter, don't affect the creatures that crewed it.
@@ -4126,7 +4125,7 @@ Reach (This creature can block creatures with flying.)</CardText>
 <Name>Cultivator's Caravan</Name>
 <Type>Artifact — Vehicle 5/5</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add one mana of any color to your mana pool.
+<CardText>{T}: Add one mana of any color.
 Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)</CardText>
 <Artist>Mark Zug</Artist>
 <Multiverseid>417776</Multiverseid>
@@ -4134,7 +4133,7 @@ Crew 3 (Tap any number of creatures you control with total power 3 or more: This
 2017/09/29: Each Vehicle is printed with a power and toughness, but it's not a creature. If it becomes a creature (most likely through its crew ability), it will have that power and toughness.
 2017/09/29: If an effect causes a Vehicle to become an artifact creature with a specified power and toughness, that effect overwrites the Vehicle's printed power and toughness.
 2017/09/29: Vehicle is an artifact type, not a creature type. A Vehicle that's crewed won't normally have any creature type.
-2017/09/29: Once a player announces that he or she is activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
+2017/09/29: Once a player announces that they are activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
 2017/09/29: Any untapped creature you control can be tapped to pay a crew cost, even one that just came under your control.
 2017/09/29: You may tap more creatures than necessary to activate a crew ability.
 2017/09/29: Creatures that crew a Vehicle aren't attached to it or related in any other way. Effects that affect the Vehicle, such as by destroying it or giving it a +1/+1 counter, don't affect the creatures that crewed it.
@@ -4219,7 +4218,7 @@ Crew 5 (Tap any number of creatures you control with total power 5 or more: This
 2017/09/29: Each Vehicle is printed with a power and toughness, but it's not a creature. If it becomes a creature (most likely through its crew ability), it will have that power and toughness.
 2017/09/29: If an effect causes a Vehicle to become an artifact creature with a specified power and toughness, that effect overwrites the Vehicle's printed power and toughness.
 2017/09/29: Vehicle is an artifact type, not a creature type. A Vehicle that's crewed won't normally have any creature type.
-2017/09/29: Once a player announces that he or she is activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
+2017/09/29: Once a player announces that they are activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
 2017/09/29: Any untapped creature you control can be tapped to pay a crew cost, even one that just came under your control.
 2017/09/29: You may tap more creatures than necessary to activate a crew ability.
 2017/09/29: Creatures that crew a Vehicle aren't attached to it or related in any other way. Effects that affect the Vehicle, such as by destroying it or giving it a +1/+1 counter, don't affect the creatures that crewed it.
@@ -4260,7 +4259,7 @@ Crew 5 (Tap any number of creatures you control with total power 5 or more: This
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
 <CardText>Whenever you cast an instant or sorcery spell, you get {E}{E} (two energy counters).
-{T}, Pay {E}{E}{E}{E}{E}: Dynavolt Tower deals 3 damage to target creature or player.</CardText>
+{T}, Pay {E}{E}{E}{E}{E}: Dynavolt Tower deals 3 damage to any target.</CardText>
 <Flavor>"I like that Tezzeret. He has vision the other judges don't. He sees the potential in what we're making here."
 —Faiz, inventor</Flavor>
 <Artist>Titus Lunter</Artist>
@@ -4372,8 +4371,8 @@ When Filigree Familiar dies, draw a card.</CardText>
 <Name>Fireforger's Puzzleknot</Name>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>When Fireforger's Puzzleknot enters the battlefield, it deals 1 damage to target creature or player.
-{2}{R}, Sacrifice Fireforger's Puzzleknot: It deals 1 damage to target creature or player.</CardText>
+<CardText>When Fireforger's Puzzleknot enters the battlefield, it deals 1 damage to any target.
+{2}{R}, Sacrifice Fireforger's Puzzleknot: It deals 1 damage to any target.</CardText>
 <Artist>Zezhou Chen</Artist>
 <Multiverseid>417786</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4397,7 +4396,7 @@ Crew 2 (Tap any number of creatures you control with total power 2 or more: This
 <Rulings>2017/09/29: Each Vehicle is printed with a power and toughness, but it's not a creature. If it becomes a creature (most likely through its crew ability), it will have that power and toughness.
 2017/09/29: If an effect causes a Vehicle to become an artifact creature with a specified power and toughness, that effect overwrites the Vehicle's printed power and toughness.
 2017/09/29: Vehicle is an artifact type, not a creature type. A Vehicle that's crewed won't normally have any creature type.
-2017/09/29: Once a player announces that he or she is activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
+2017/09/29: Once a player announces that they are activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
 2017/09/29: Any untapped creature you control can be tapped to pay a crew cost, even one that just came under your control.
 2017/09/29: You may tap more creatures than necessary to activate a crew ability.
 2017/09/29: Creatures that crew a Vehicle aren't attached to it or related in any other way. Effects that affect the Vehicle, such as by destroying it or giving it a +1/+1 counter, don't affect the creatures that crewed it.
@@ -4438,15 +4437,15 @@ Crew 2 (Tap any number of creatures you control with total power 2 or more: This
 <Name>Ghirapur Orrery</Name>
 <Type>Artifact</Type>
 <ManaCost>4 (4)</ManaCost>
-<CardText>Each player may play an additional land on each of his or her turns.
+<CardText>Each player may play an additional land on each of their turns.
 At the beginning of each player's upkeep, if that player has no cards in hand, that player draws three cards.</CardText>
 <Flavor>This detailed model allows the edificers to examine the city from every angle.</Flavor>
 <Artist>Kirsten Zirngibl</Artist>
 <Multiverseid>417789</Multiverseid>
-<Rulings>2016/09/20: <Ghirapur Orrery>'s first ability allows a player to play an additional land during his or her main phase. Doing so follows the normal timing rules for playing lands.
+<Rulings>2016/09/20: <Ghirapur Orrery>'s first ability allows a player to play an additional land during their main phase. Doing so follows the normal timing rules for playing lands.
 2016/09/20: <Ghirapur Orrery>'s first ability is cumulative if more than one is on the battlefield.
 2016/09/20: No player may take actions in a turn before <Ghirapur Orrery>'s second ability checks to see if it should trigger. If the player whose turn it is has any cards in hand, it won't trigger.
-2016/09/20: If the player has any cards in hand as <Ghirapur Orrery>'s second ability resolves, the ability does nothing. Notably, a second <Ghirapur Orrery> won't have a player draw another three cards unless the player empties his or her hand after resolving the first one's trigger.
+2016/09/20: If the player has any cards in hand as <Ghirapur Orrery>'s second ability resolves, the ability does nothing. Notably, a second <Ghirapur Orrery> won't have a player draw another three cards unless the player empties their hand after resolving the first one's trigger.
 2016/09/20: The draw step is after the upkeep step, so drawing a card as a turn-based action won't affect whether <Ghirapur Orrery>'s second ability triggers.
 2016/09/20: In a Two-Headed Giant game, <Ghirapur Orrery>'s second ability triggers for each player on a team separately. If one player has cards in hand, it can still trigger for the other player.</Rulings>
 <Vintage>Legal</Vintage>
@@ -4564,14 +4563,14 @@ Whenever Key to the City becomes untapped, you may pay {2}. If you do, draw a ca
 <Name>Metalwork Colossus</Name>
 <Type>Artifact Creature — Construct 10/10</Type>
 <ManaCost>11 (11)</ManaCost>
-<CardText>Metalwork Colossus costs {X} less to cast, where X is the total converted mana cost of noncreature artifacts you control.
+<CardText>This spell costs {X} less to cast, where X is the total converted mana cost of noncreature artifacts you control.
 Sacrifice two artifacts: Return Metalwork Colossus from your graveyard to your hand.</CardText>
 <Artist>Jaime Jones</Artist>
 <Multiverseid>417795</Multiverseid>
 <Rulings>2016/09/20: If a permanent has {X} in its mana cost, X is considered to be 0.
 2016/09/20: The total cost to cast <Metalwork Colossus> is locked in before you pay that cost. For example, if you control three noncreature artifacts each with converted mana cost 2, including one you can sacrifice to add {C} to your mana pool, the total cost of <Metalwork Colossus> is {5}. Then you can sacrifice the artifact when you activate mana abilities just before paying the cost.
 2016/09/20: If the total converted mana cost of noncreature artifacts you control is 11 or greater, <Metalwork Colossus> costs {0} to cast.
-2016/09/20: Once a player has announced that he or she is casting <Metalwork Colossus>, no player may take actions to try to change the number of artifacts its controller controls before that spell's cost is locked in.
+2016/09/20: Once a player has announced that they are casting <Metalwork Colossus>, no player may take actions to try to change the number of artifacts its controller controls before that spell's cost is locked in.
 2016/09/20: <Metalwork Colossus>'s last ability can be activated only if it is in your graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -4637,7 +4636,7 @@ Crew 1 (Tap any number of creatures you control with total power 1 or more: This
 <Rulings>2017/09/29: Each Vehicle is printed with a power and toughness, but it's not a creature. If it becomes a creature (most likely through its crew ability), it will have that power and toughness.
 2017/09/29: If an effect causes a Vehicle to become an artifact creature with a specified power and toughness, that effect overwrites the Vehicle's printed power and toughness.
 2017/09/29: Vehicle is an artifact type, not a creature type. A Vehicle that's crewed won't normally have any creature type.
-2017/09/29: Once a player announces that he or she is activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
+2017/09/29: Once a player announces that they are activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
 2017/09/29: Any untapped creature you control can be tapped to pay a crew cost, even one that just came under your control.
 2017/09/29: You may tap more creatures than necessary to activate a crew ability.
 2017/09/29: Creatures that crew a Vehicle aren't attached to it or related in any other way. Effects that affect the Vehicle, such as by destroying it or giving it a +1/+1 counter, don't affect the creatures that crewed it.
@@ -4692,7 +4691,7 @@ Crew 1 (Tap any number of creatures you control with total power 1 or more: This
 <Flavor>Do not be so caught up in keeping track of time that you forget to make use of it.</Flavor>
 <Artist>Cliff Childs</Artist>
 <Multiverseid>417800</Multiverseid>
-<Rulings>2016/09/20: You can activate <Perpetual Timepiece>'s second ability with no targets just to shuffle your library. If you choose any targets and they all become illegal targets, the ability will be countered and you won't shuffle your library.</Rulings>
+<Rulings>2016/09/20: You can activate <Perpetual Timepiece>'s second ability with no targets just to shuffle your library. If you choose any targets and they all become illegal targets, the ability won't resolve and you won't shuffle your library.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4725,7 +4724,7 @@ Crew 1 (Tap any number of creatures you control with total power 1 or more: This
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
 <CardText>When Prophetic Prism enters the battlefield, draw a card.
-{1}, {T}: Add one mana of any color to your mana pool.</CardText>
+{1}, {T}: Add one mana of any color.</CardText>
 <Flavor>To understand Kaladesh, one must first understand how aether and invention flow together through the great Aether Cycle.</Flavor>
 <Artist>Noah Bradley</Artist>
 <Multiverseid>417802</Multiverseid>
@@ -4749,7 +4748,7 @@ Crew 2 (Tap any number of creatures you control with total power 2 or more: This
 <Rulings>2017/09/29: Each Vehicle is printed with a power and toughness, but it's not a creature. If it becomes a creature (most likely through its crew ability), it will have that power and toughness.
 2017/09/29: If an effect causes a Vehicle to become an artifact creature with a specified power and toughness, that effect overwrites the Vehicle's printed power and toughness.
 2017/09/29: Vehicle is an artifact type, not a creature type. A Vehicle that's crewed won't normally have any creature type.
-2017/09/29: Once a player announces that he or she is activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
+2017/09/29: Once a player announces that they are activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
 2017/09/29: Any untapped creature you control can be tapped to pay a crew cost, even one that just came under your control.
 2017/09/29: You may tap more creatures than necessary to activate a crew ability.
 2017/09/29: Creatures that crew a Vehicle aren't attached to it or related in any other way. Effects that affect the Vehicle, such as by destroying it or giving it a +1/+1 counter, don't affect the creatures that crewed it.
@@ -4793,6 +4792,7 @@ Crew 2 (Tap any number of creatures you control with total power 2 or more: This
 <Flavor>It sees itself in all of its creations.</Flavor>
 <Artist>Noah Bradley</Artist>
 <Multiverseid>417805</Multiverseid>
+<Rulings>2018/03/16: <Self-Assembler>'s ability can find any creature card with the Assembly-Worker subtype, not only creature cards named Assembly-Worker. Notably, it can't find Mishra's Factory.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4813,7 +4813,7 @@ Crew 1 (Tap any number of creatures you control with total power 1 or more: This
 <Rulings>2017/09/29: Each Vehicle is printed with a power and toughness, but it's not a creature. If it becomes a creature (most likely through its crew ability), it will have that power and toughness.
 2017/09/29: If an effect causes a Vehicle to become an artifact creature with a specified power and toughness, that effect overwrites the Vehicle's printed power and toughness.
 2017/09/29: Vehicle is an artifact type, not a creature type. A Vehicle that's crewed won't normally have any creature type.
-2017/09/29: Once a player announces that he or she is activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
+2017/09/29: Once a player announces that they are activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
 2017/09/29: Any untapped creature you control can be tapped to pay a crew cost, even one that just came under your control.
 2017/09/29: You may tap more creatures than necessary to activate a crew ability.
 2017/09/29: Creatures that crew a Vehicle aren't attached to it or related in any other way. Effects that affect the Vehicle, such as by destroying it or giving it a +1/+1 counter, don't affect the creatures that crewed it.
@@ -4843,7 +4843,7 @@ Crew 3 (Tap any number of creatures you control with total power 3 or more: This
 <Rulings>2017/09/29: Each Vehicle is printed with a power and toughness, but it's not a creature. If it becomes a creature (most likely through its crew ability), it will have that power and toughness.
 2017/09/29: If an effect causes a Vehicle to become an artifact creature with a specified power and toughness, that effect overwrites the Vehicle's printed power and toughness.
 2017/09/29: Vehicle is an artifact type, not a creature type. A Vehicle that's crewed won't normally have any creature type.
-2017/09/29: Once a player announces that he or she is activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
+2017/09/29: Once a player announces that they are activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
 2017/09/29: Any untapped creature you control can be tapped to pay a crew cost, even one that just came under your control.
 2017/09/29: You may tap more creatures than necessary to activate a crew ability.
 2017/09/29: Creatures that crew a Vehicle aren't attached to it or related in any other way. Effects that affect the Vehicle, such as by destroying it or giving it a +1/+1 counter, don't affect the creatures that crewed it.
@@ -4873,7 +4873,7 @@ Crew 1 (Tap any number of creatures you control with total power 1 or more: This
 <Rulings>2017/09/29: Each Vehicle is printed with a power and toughness, but it's not a creature. If it becomes a creature (most likely through its crew ability), it will have that power and toughness.
 2017/09/29: If an effect causes a Vehicle to become an artifact creature with a specified power and toughness, that effect overwrites the Vehicle's printed power and toughness.
 2017/09/29: Vehicle is an artifact type, not a creature type. A Vehicle that's crewed won't normally have any creature type.
-2017/09/29: Once a player announces that he or she is activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
+2017/09/29: Once a player announces that they are activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
 2017/09/29: Any untapped creature you control can be tapped to pay a crew cost, even one that just came under your control.
 2017/09/29: You may tap more creatures than necessary to activate a crew ability.
 2017/09/29: Creatures that crew a Vehicle aren't attached to it or related in any other way. Effects that affect the Vehicle, such as by destroying it or giving it a +1/+1 counter, don't affect the creatures that crewed it.
@@ -5010,8 +5010,8 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <Name>Aether Hub</Name>
 <Type>Land</Type>
 <CardText>When Aether Hub enters the battlefield, you get {E} (an energy counter).
-{T}: Add {C} to your mana pool.
-{T}, Pay {E}: Add one mana of any color to your mana pool.</CardText>
+{T}: Add {C}.
+{T}, Pay {E}: Add one mana of any color.</CardText>
 <Flavor>It powers the dreams of Ghirapur.</Flavor>
 <Artist>Sam Burley</Artist>
 <Multiverseid>417815</Multiverseid>
@@ -5034,7 +5034,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <Name>Blooming Marsh</Name>
 <Type>Land</Type>
 <CardText>Blooming Marsh enters the battlefield tapped unless you control two or fewer other lands.
-{T}: Add {B} or {G} to your mana pool.</CardText>
+{T}: Add {B} or {G}.</CardText>
 <Flavor>A retreat to nature can inspire even the most jaded inventor.</Flavor>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>417816</Multiverseid>
@@ -5053,7 +5053,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <Name>Botanical Sanctum</Name>
 <Type>Land</Type>
 <CardText>Botanical Sanctum enters the battlefield tapped unless you control two or fewer other lands.
-{T}: Add {G} or {U} to your mana pool.</CardText>
+{T}: Add {G} or {U}.</CardText>
 <Flavor>Life inspires technology, which expands life's domain.</Flavor>
 <Artist>Christine Choi</Artist>
 <Multiverseid>417817</Multiverseid>
@@ -5072,7 +5072,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <Name>Concealed Courtyard</Name>
 <Type>Land</Type>
 <CardText>Concealed Courtyard enters the battlefield tapped unless you control two or fewer other lands.
-{T}: Add {W} or {B} to your mana pool.</CardText>
+{T}: Add {W} or {B}.</CardText>
 <Flavor>Where high society and dark opportunity intersect.</Flavor>
 <Artist>Jung Park</Artist>
 <Multiverseid>417818</Multiverseid>
@@ -5091,7 +5091,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <Name>Inspiring Vantage</Name>
 <Type>Land</Type>
 <CardText>Inspiring Vantage enters the battlefield tapped unless you control two or fewer other lands.
-{T}: Add {R} or {W} to your mana pool.</CardText>
+{T}: Add {R} or {W}.</CardText>
 <Flavor>Ghirapur is a beacon of inspiration, attracting the most brilliant minds on Kaladesh.</Flavor>
 <Artist>Jonas De Ro</Artist>
 <Multiverseid>417819</Multiverseid>
@@ -5110,7 +5110,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <Name>Inventors' Fair</Name>
 <Type>Legendary Land</Type>
 <CardText>At the beginning of your upkeep, if you control three or more artifacts, you gain 1 life.
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {4}, {T}, Sacrifice Inventors' Fair: Search your library for an artifact card, reveal it, put it into your hand, then shuffle your library. Activate this ability only if you control three or more artifacts.</CardText>
 <Artist>Jonas De Ro</Artist>
 <Multiverseid>417820</Multiverseid>
@@ -5130,7 +5130,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <No>248</No>
 <Name>Sequestered Stash</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {4}, {T}, Sacrifice Sequestered Stash: Put the top five cards of your library into your graveyard. Then you may put an artifact card from your graveyard on top of your library.</CardText>
 <Artist>Yeong-Hao Han</Artist>
 <Multiverseid>417821</Multiverseid>
@@ -5148,7 +5148,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <Name>Spirebluff Canal</Name>
 <Type>Land</Type>
 <CardText>Spirebluff Canal enters the battlefield tapped unless you control two or fewer other lands.
-{T}: Add {U} or {R} to your mana pool.</CardText>
+{T}: Add {U} or {R}.</CardText>
 <Flavor>There's so much more to Ghirapur than can be accessed by traditional roads.</Flavor>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>417822</Multiverseid>
@@ -5166,7 +5166,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <No>250</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>417823</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5181,7 +5181,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <No>251</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>417824</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5196,7 +5196,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <No>252</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Clint Cearley</Artist>
 <Multiverseid>417825</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5211,7 +5211,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <No>253</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Yeong-Hao Han</Artist>
 <Multiverseid>417826</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5226,7 +5226,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <No>254</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Yeong-Hao Han</Artist>
 <Multiverseid>417827</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5241,7 +5241,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <No>255</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Johannes Voss</Artist>
 <Multiverseid>417828</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5256,7 +5256,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <No>256</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>James Paick</Artist>
 <Multiverseid>417829</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5271,7 +5271,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <No>257</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>417830</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5286,7 +5286,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <No>258</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>417831</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5301,7 +5301,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <No>259</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Richard Wright</Artist>
 <Multiverseid>417832</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5316,7 +5316,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <No>260</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Eytan Zana</Artist>
 <Multiverseid>417833</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5331,7 +5331,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <No>261</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Eytan Zana</Artist>
 <Multiverseid>417834</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5346,7 +5346,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <No>262</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Christine Choi</Artist>
 <Multiverseid>417835</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5361,7 +5361,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <No>263</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Christine Choi</Artist>
 <Multiverseid>417836</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5376,7 +5376,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <No>264</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Chase Stone</Artist>
 <Multiverseid>417837</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5394,10 +5394,10 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <ManaCost>4RR (6)</ManaCost>
 <CardText>+2: Chandra, Pyrogenius deals 2 damage to each opponent.
 -3: Chandra, Pyrogenius deals 4 damage to target creature.
--10: Chandra, Pyrogenius deals 6 damage to target player and each creature he or she controls.</CardText>
+-10: Chandra, Pyrogenius deals 6 damage to target player or planeswalker and each creature that player or that planeswalker's controller controls.</CardText>
 <Artist>Jason Rainville</Artist>
 <Multiverseid>420478</Multiverseid>
-<Rulings>2016/09/20: The last ability of <Chandra, Pyrogenius> doesn't target the creatures. A creature with hexproof the target player controls will be dealt damage this way.
+<Rulings>2016/09/20: The last ability of <Chandra, Pyrogenius> doesn't target the creatures. A creature with hexproof the target player (or controller of the target planeswalker) controls will be dealt damage this way.
 2016/09/20: In a Two-Headed Giant game, Chandra's first ability causes 4 damage total to be dealt to the opposing team.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -5412,7 +5412,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <Name>Flame Lash</Name>
 <Type>Instant</Type>
 <ManaCost>3R (4)</ManaCost>
-<CardText>Flame Lash deals 4 damage to target creature or player.</CardText>
+<CardText>Flame Lash deals 4 damage to any target.</CardText>
 <Flavor>"This is just my warm-up."</Flavor>
 <Artist>Viktor Titov</Artist>
 <Multiverseid>420479</Multiverseid>
@@ -5432,7 +5432,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <CardText>Liberating Combustion deals 6 damage to target creature. You may search your library and/or graveyard for a card named Chandra, Pyrogenius, reveal it, and put it into your hand. If you search your library this way, shuffle it.</CardText>
 <Artist>Lius Lasahido</Artist>
 <Multiverseid>420480</Multiverseid>
-<Rulings>2016/09/20: If the target creature becomes an illegal target for <Liberating Combustion>, the spell will be countered and none of its effects will happen. You won't search for Chandra, Pyrogenius.</Rulings>
+<Rulings>2016/09/20: If the target creature becomes an illegal target for <Liberating Combustion>, the spell won't resolve and none of its effects will happen. You won't search for Chandra, Pyrogenius.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -5463,7 +5463,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <Name>Stone Quarry</Name>
 <Type>Land</Type>
 <CardText>Stone Quarry enters the battlefield tapped.
-{T}: Add {R} or {W} to your mana pool.</CardText>
+{T}: Add {R} or {W}.</CardText>
 <Flavor>The Inventors' Renaissance came on the heels of the Great Aether Boom, hiking demand for raw materials of every kind.</Flavor>
 <Artist>Efflam Mercier</Artist>
 <Multiverseid>420482</Multiverseid>
@@ -5551,7 +5551,7 @@ As long as you control a Nissa planeswalker, Guardian of the Great Conduit gets 
 <Name>Woodland Stream</Name>
 <Type>Land</Type>
 <CardText>Woodland Stream enters the battlefield tapped.
-{T}: Add {G} or {U} to your mana pool.</CardText>
+{T}: Add {G} or {U}.</CardText>
 <Flavor>Waterways carve their routes through the land to reflect the paths the aether streams cut through the clouds.</Flavor>
 <Artist>Efflam Mercier</Artist>
 <Multiverseid>420487</Multiverseid>

@@ -110,8 +110,7 @@ Multicolored creatures you control have vigilance.</CardText>
 <Artist>Slawomir Maniak</Artist>
 <Multiverseid>368979</Multiverseid>
 <Rulings>2013/04/15: Count the number of creatures your opponents control as <Riot Control> resolves to determine how much life you gain.
-2013/04/15: If a source an opponent controls would deal noncombat damage to you, you may choose to have <Riot Control> prevent that damage before that opponent may choose to redirect that damage to a planeswalker you control.
-2013/04/15: <Riot Control> doesn't prevent combat damage that would be dealt to planeswalkers you control by creatures attacking them. It also doesn't prevent damage that would be dealt to creatures you control.</Rulings>
+2013/04/15: <Riot Control> doesn't prevent combat damage that would be dealt to planeswalkers you control. It also doesn't prevent damage that would be dealt to creatures you control.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -237,7 +236,7 @@ Cipher (Then you may exile this spell card encoded on a creature you control. Wh
 <Multiverseid>369021</Multiverseid>
 <Rulings>2013/04/15: The spell with cipher is encoded on the creature as part of that spell's resolution, just after the spell's other effects. That card goes directly from the stack to exile. It never goes to the graveyard.
 2013/04/15: You choose the creature as the spell resolves. The cipher ability doesn't target that creature, although the spell with cipher may target that creature (or a different creature) because of its other abilities.
-2013/04/15: If the spell with cipher is countered, none of its effects will happen, including cipher. The card will go to its owner's graveyard and won't be encoded on a creature.
+2013/04/15: If the spell with cipher doesn't resolve, none of its effects will happen, including cipher. The card will go to its owner's graveyard and won't be encoded on a creature.
 2013/04/15: If the creature leaves the battlefield, the exiled card will no longer be encoded on any creature. It will stay exiled.
 2013/04/15: If you want to encode the card with cipher onto a noncreature permanent such as a Keyrune that can turn into a creature, that permanent has to be a creature before the spell with cipher starts resolving. You can choose only a creature to encode the card onto.
 2013/04/15: The copy of the card with cipher is created in and cast from exile.
@@ -357,7 +356,7 @@ Cipher (Then you may exile this spell card encoded on a creature you control. Wh
 <Multiverseid>369034</Multiverseid>
 <Rulings>2013/04/15: The spell with cipher is encoded on the creature as part of that spell's resolution, just after the spell's other effects. That card goes directly from the stack to exile. It never goes to the graveyard.
 2013/04/15: You choose the creature as the spell resolves. The cipher ability doesn't target that creature, although the spell with cipher may target that creature (or a different creature) because of its other abilities.
-2013/04/15: If the spell with cipher is countered, none of its effects will happen, including cipher. The card will go to its owner's graveyard and won't be encoded on a creature.
+2013/04/15: If the spell with cipher doesn't resolve, none of its effects will happen, including cipher. The card will go to its owner's graveyard and won't be encoded on a creature.
 2013/04/15: If the creature leaves the battlefield, the exiled card will no longer be encoded on any creature. It will stay exiled.
 2013/04/15: If you want to encode the card with cipher onto a noncreature permanent such as a Keyrune that can turn into a creature, that permanent has to be a creature before the spell with cipher starts resolving. You can choose only a creature to encode the card onto.
 2013/04/15: The copy of the card with cipher is created in and cast from exile.
@@ -489,7 +488,7 @@ Cipher (Then you may exile this spell card encoded on a creature you control. Wh
 <Type>Creature — Human Rogue 2/3</Type>
 <ManaCost>2B (3)</ManaCost>
 <CardText>Defender
-{3}{B}, {T}: Target opponent loses 2 life, then reveals a card at random from his or her hand.</CardText>
+{3}{B}, {T}: Target opponent loses 2 life, then reveals a card at random from their hand.</CardText>
 <Flavor>"Follow your passion, I always say. Might as well get paid to do what you love."</Flavor>
 <Artist>Winona Nelson</Artist>
 <Multiverseid>369048</Multiverseid>
@@ -662,13 +661,13 @@ Multicolored creatures you control have haste.</CardText>
 <Name>Possibility Storm</Name>
 <Type>Enchantment</Type>
 <ManaCost>3RR (5)</ManaCost>
-<CardText>Whenever a player casts a spell from his or her hand, that player exiles it, then exiles cards from the top of his or her library until he or she exiles a card that shares a card type with it. That player may cast that card without paying its mana cost. Then he or she puts all cards exiled with Possibility Storm on the bottom of his or her library in a random order.</CardText>
+<CardText>Whenever a player casts a spell from their hand, that player exiles it, then exiles cards from the top of their library until they exile a card that shares a card type with it. That player may cast that card without paying its mana cost. Then they put all cards exiled with Possibility Storm on the bottom of their library in a random order.</CardText>
 <Artist>Jason Felix</Artist>
 <Multiverseid>369013</Multiverseid>
 <Rulings>2013/04/15: Artifact, creature, enchantment, instant, land, planeswalker, sorcery, and tribal are card types. Two cards share a card type if they have at least one card type in common.
 2013/04/15: The original spell is part of the group of exiled cards put on the bottom of the library in a random order. If the exiled card that shared a card type with that card wasn't cast, it's also part of this group.
 2013/04/15: If <Possibility Storm>'s ability doesn't exile the original spell (perhaps because another <Possibility Storm> already exiled it), you'll still exile cards from the top of your library until you exile a card that shares a card type with it and have the opportunity to cast that spell.
-2013/04/15: If you cast a spell without paying its mana cost, you can't pay any alternative costs, such as overload costs. You can pay additional costs, such as kicker costs. If the spell has any mandatory additional costs, you must pay those.
+2013/04/15: If you cast a spell without paying its mana cost, you can't choose to cast it for any alternative costs, such as overload costs. You can pay additional costs, such as kicker costs. If the spell has any mandatory additional costs, you must pay those.
 2013/04/15: If the spell you cast from exile has X in its mana cost, you must choose 0 as its value.
 2013/04/15: Instant and sorcery cards with miracle allow a player to cast a card immediately upon drawing it. If a player casts a spell this way, the spell is cast from that player's hand. <Possibility Storm> will trigger.</Rulings>
 <Vintage>Legal</Vintage>
@@ -684,7 +683,7 @@ Multicolored creatures you control have haste.</CardText>
 <Name>Punish the Enemy</Name>
 <Type>Instant</Type>
 <ManaCost>4R (5)</ManaCost>
-<CardText>Punish the Enemy deals 3 damage to target player and 3 damage to target creature.</CardText>
+<CardText>Punish the Enemy deals 3 damage to target player or planeswalker and 3 damage to target creature.</CardText>
 <Flavor>"When justice descends, the servant will burn with the master."
 —Aurelia</Flavor>
 <Artist>Slawomir Maniak</Artist>
@@ -961,7 +960,7 @@ Whenever Renegade Krasis evolves, put a +1/+1 counter on each other creature you
 <Type>Creature — Insect 2/2</Type>
 <ManaCost>1G (2)</ManaCost>
 <CardText>Flash
-Skylasher can't be countered.
+This spell can't be countered.
 Reach, protection from blue</CardText>
 <Flavor>"It preys on those who would spy on our lands, so we never prey on it."
 —Kroshkar, Gruul shaman</Flavor>
@@ -1074,12 +1073,12 @@ Hexproof (This creature can't be the target of spells or abilities your opponent
 <Name>Blast of Genius</Name>
 <Type>Sorcery</Type>
 <ManaCost>4UR (6)</ManaCost>
-<CardText>Choose target creature or player. Draw three cards, then discard a card. Blast of Genius deals damage equal to the discarded card's converted mana cost to that creature or player.</CardText>
+<CardText>Choose any target. Draw three cards, then discard a card. Blast of Genius deals damage equal to the discarded card's converted mana cost to that permanent or player.</CardText>
 <Flavor>Ral Zarek's brainstorms bring actual thunder and lightning.</Flavor>
 <Artist>Terese Nielsen</Artist>
 <Watermark>Izzet</Watermark>
 <Multiverseid>368985</Multiverseid>
-<Rulings>2013/04/15: You choose the target creature or player as part of casting the spell. If that creature or player is an illegal target when <Blast of Genius> tries to resolve, it will be countered and none of its effects will happen. You won't draw or discard any cards.
+<Rulings>2013/04/15: You choose the target as part of casting the spell. If that permanent or player is an illegal target when <Blast of Genius> tries to resolve, it won't resolve and none of its effects will happen. You won't draw or discard any cards.
 2013/04/15: If you discard a split card, its converted mana cost is determined by the combined mana costs of its two halves.
 2013/04/15: If you discard a card with {X} in its mana cost, the value of X is zero.</Rulings>
 <Vintage>Legal</Vintage>
@@ -1100,7 +1099,7 @@ Hexproof (This creature can't be the target of spells or abilities your opponent
 <Artist>James Ryman</Artist>
 <Watermark>Boros</Watermark>
 <Multiverseid>369047</Multiverseid>
-<Rulings>2013/04/15: <Blaze Commando>'s ability triggers each time an instant or sorcery spell you control deals damage (or, put another way, the number of times the word "deals" appears in its instructions), no matter how much damage is dealt or how many players or permanents are dealt damage. For example, if you cast Punish the Enemy and it "deals 3 damage to target player and 3 damage to target creature," <Blaze Commando>'s ability will trigger once and you'll get two Soldier tokens.
+<Rulings>2013/04/15: <Blaze Commando>'s ability triggers each time an instant or sorcery spell you control deals damage (or, put another way, the number of times the word "deals" appears in its instructions), no matter how much damage is dealt or how many players or permanents are dealt damage. For example, if you cast Punish the Enemy and it "deals 3 damage to target player or planeswalker and 3 damage to target creature," <Blaze Commando>'s ability will trigger once and you'll get two Soldier tokens.
 2013/04/15: Some instant or sorcery spells cause other objects to deal damage, rather than deal damage themselves. Such spells don't cause <Blaze Commando> to trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1140,7 +1139,7 @@ As long as you have 30 or more life and an opponent has 10 or less life, Blood B
 <Watermark>Boros</Watermark>
 <Multiverseid>369051</Multiverseid>
 <Rulings>2013/04/15: You may choose zero targets for either or both instances of "up to one target creature."
-2013/04/15: If you choose two targets for <Boros Battleshaper>'s ability, and only one of those targets is legal when the ability tries to resolve, only the legal target will be affected. If all targets are illegal when the ability tries to resolve, it will be countered and none of its effects will happen.
+2013/04/15: If you choose two targets for <Boros Battleshaper>'s ability, and only one of those targets is legal when the ability tries to resolve, only the legal target will be affected. If all targets are illegal when the ability tries to resolve, it won't resolve and none of its effects will happen.
 2013/04/15: The controller of each creature chooses which player or planeswalker it attacks or which attacking creature it blocks, as appropriate.
 2013/04/15: A creature forced to attack does so only if it's able to do so as attackers are declared. If, at that time, the creature is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having the creature attack, the creature's controller isn't forced to pay that cost, so it doesn't attack in that case either.
 2013/04/15: A creature forced to block does so only if it's able to do so as blockers are declared. If, at that time, the creature is tapped, is affected by a spell or ability that says it can't block, or no creatures are attacking its controller or a planeswalker controlled by that player, then it doesn't block. If there's a cost associated with having the creature block, its controller isn't forced to pay that cost, so it doesn't block in that case either.</Rulings>
@@ -1473,7 +1472,7 @@ Whenever you cast an instant or sorcery spell, you may switch Fluxcharger's powe
 <Type>Creature — Goblin Pilot Wizard 0/2</Type>
 <ManaCost>1UR (3)</ManaCost>
 <CardText>Flying
-{T}: Goblin Test Pilot deals 2 damage to target creature or player chosen at random.</CardText>
+{T}: Goblin Test Pilot deals 2 damage to any target chosen at random.</CardText>
 <Flavor>"All pilots and prototypes destroyed. Extensive collateral damage inflicted. Conclusion: flawless design."
 —Manual of Melek</Flavor>
 <Artist>Svetlin Velinov</Artist>
@@ -1712,11 +1711,11 @@ Whenever you cast an instant or sorcery spell from your library, copy it. You ma
 <Type>Legendary Creature — Vampire 2/4</Type>
 <ManaCost>3UB (5)</ManaCost>
 <CardText>Flying
-Whenever Mirko Vosk, Mind Drinker deals combat damage to a player, that player reveals cards from the top of his or her library until he or she reveals four land cards, then puts those cards into his or her graveyard.</CardText>
+Whenever Mirko Vosk, Mind Drinker deals combat damage to a player, that player reveals cards from the top of their library until they reveal four land cards, then puts those cards into their graveyard.</CardText>
 <Artist>Chase Stone</Artist>
 <Watermark>Dimir</Watermark>
 <Multiverseid>369026</Multiverseid>
-<Rulings>2013/04/15: If the player has fewer than four land cards in his or her library, all cards from that library will be revealed and put into that player's graveyard.</Rulings>
+<Rulings>2013/04/15: If the player has fewer than four land cards in their library, all cards from that library will be revealed and put into that player's graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1730,14 +1729,14 @@ Whenever Mirko Vosk, Mind Drinker deals combat damage to a player, that player r
 <Name>Morgue Burst</Name>
 <Type>Sorcery</Type>
 <ManaCost>4BR (6)</ManaCost>
-<CardText>Return target creature card from your graveyard to your hand. Morgue Burst deals damage to target creature or player equal to the power of the card returned this way.</CardText>
+<CardText>Return target creature card from your graveyard to your hand. Morgue Burst deals damage to any target equal to the power of the card returned this way.</CardText>
 <Flavor>"Let him in. He's on the list."
 —Olrich, Rakdos club owner</Flavor>
 <Artist>Raymond Swanland</Artist>
 <Watermark>Rakdos</Watermark>
 <Multiverseid>369049</Multiverseid>
 <Rulings>2013/04/15: Use the power of the card as it last existed in your graveyard to determine how much damage will be dealt.
-2013/04/15: If the creature card is an illegal target when <Morgue Burst> tried to resolve (most likely because it was exiled in response), it won't be returned to your hand and no damage will be dealt to the target creature or player.</Rulings>
+2013/04/15: If the creature card is an illegal target when <Morgue Burst> tried to resolve (most likely because it was exiled in response), it won't be returned to your hand and no damage will be dealt to the target.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1771,11 +1770,13 @@ Whenever you cast an instant or sorcery spell, Nivix Cyclops gets +3/+0 until en
 <Type>Creature — Human Rogue 3/1</Type>
 <ManaCost>2UB (4)</ManaCost>
 <CardText>Flash
-If an opponent would draw a card except the first one he or she draws in each of his or her draw steps, instead that player skips that draw and you draw a card.</CardText>
+If an opponent would draw a card except the first one they draw in each of their draw steps, instead that player skips that draw and you draw a card.</CardText>
 <Artist>Clint Cearley</Artist>
 <Watermark>Dimir</Watermark>
 <Multiverseid>368973</Multiverseid>
-<Rulings>2013/04/15: If you and an opponent each control a <Notion Thief>, the replacement effects generated by their abilities will essentially cancel each other out. If the opponent would draw a card other than the first of his or her draw step, that draw will be skipped and you'll draw a card. The opponent's <Notion Thief> will then cause that draw to be skipped and the opponent will draw a card instead. Neither replacement effect can apply to this event again, so your opponent draws a card.</Rulings>
+<Rulings>2018/03/16: If an opponent is instructed to draw a card then discard a card, and <Notion Thief> causes you to draw a card instead, that opponent still discards a card. The same is true of any other actions that opponent is instructed to do.
+2018/03/16: If two or more players each control a <Notion Thief> and a player would draw a card other than the first one in their draw step, that player chooses one of the applicable <Notion Thief> effects to apply. Then the player whose <Notion Thief>'s effect was chosen repeats this process among the remaining <Notion Thief> effects, and so on, until there are no more possible such effects to apply. Each effect can be applied to the card draw only once this way.
+2018/03/16: The above procedure means that if each player in a two-player game controls a <Notion Thief> and one would draw a card, it really will be that player who draws a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1810,7 +1811,7 @@ If an opponent would draw a card except the first one he or she draws in each of
 <Name>Pilfered Plans</Name>
 <Type>Sorcery</Type>
 <ManaCost>1UB (3)</ManaCost>
-<CardText>Target player puts the top two cards of his or her library into his or her graveyard. Draw two cards.</CardText>
+<CardText>Target player puts the top two cards of their library into their graveyard. Draw two cards.</CardText>
 <Flavor>Mirko Vosk hunted anyone with knowledge of the maze, draining the chances of the other guilds.</Flavor>
 <Artist>Michael C. Hayes</Artist>
 <Watermark>Dimir</Watermark>
@@ -1829,7 +1830,7 @@ If an opponent would draw a card except the first one he or she draws in each of
 <Name>Plasm Capture</Name>
 <Type>Instant</Type>
 <ManaCost>UUGG (4)</ManaCost>
-<CardText>Counter target spell. At the beginning of your next precombat main phase, add X mana in any combination of colors to your mana pool, where X is that spell's converted mana cost.</CardText>
+<CardText>Counter target spell. At the beginning of your next precombat main phase, add X mana in any combination of colors, where X is that spell's converted mana cost.</CardText>
 <Flavor>"Everything serves a purpose. Even you."
 —Vorel of the Hull Clade</Flavor>
 <Artist>Chase Stone</Artist>
@@ -1896,7 +1897,7 @@ If an opponent would draw a card except the first one he or she draws in each of
 <Type>Legendary Planeswalker — Ral (Loyalty: 4)</Type>
 <ManaCost>2UR (4)</ManaCost>
 <CardText>+1: Tap target permanent, then untap another target permanent.
--2: Ral Zarek deals 3 damage to target creature or player.
+-2: Ral Zarek deals 3 damage to any target.
 -7: Flip five coins. Take an extra turn after this one for each coin that comes up heads.</CardText>
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>369031</Multiverseid>
@@ -1913,11 +1914,11 @@ If an opponent would draw a card except the first one he or she draws in each of
 <Name>Reap Intellect</Name>
 <Type>Sorcery</Type>
 <ManaCost>X2UB (4)</ManaCost>
-<CardText>Target opponent reveals his or her hand. You choose up to X nonland cards from it and exile them. For each card exiled this way, search that player's graveyard, hand, and library for any number of cards with the same name as that card and exile them. Then that player shuffles his or her library.</CardText>
+<CardText>Target opponent reveals their hand. You choose up to X nonland cards from it and exile them. For each card exiled this way, search that player's graveyard, hand, and library for any number of cards with the same name as that card and exile them. Then that player shuffles their library.</CardText>
 <Artist>Steven Belledin</Artist>
 <Watermark>Dimir</Watermark>
 <Multiverseid>368958</Multiverseid>
-<Rulings>2013/04/15: Once <Reap Intellect> begins to resolve, no player can cast spells or activate abilities until it has completely resolved. For example, the opponent can't cast any cards that would be exiled after his or her hand is revealed.
+<Rulings>2013/04/15: Once <Reap Intellect> begins to resolve, no player can cast spells or activate abilities until it has completely resolved. For example, the opponent can't cast any cards that would be exiled after their hand is revealed.
 2013/04/15: You can choose to leave cards with those names in the zone they are in. You don't have to exile them.
 2013/04/15: If you don't exile any cards from the player's hand, you don't search that player's library.</Rulings>
 <Vintage>Legal</Vintage>
@@ -1940,8 +1941,8 @@ If an opponent would draw a card except the first one he or she draws in each of
 <Multiverseid>369022</Multiverseid>
 <Rulings>2013/04/15: You must be able to target a spell to cast <Render Silent>.
 2013/04/15: <Render Silent> doesn't stop any player from casting spells in response to <Render Silent> before it resolves.
-2013/04/15: The affected player can still activate abilities, including abilities of cards in his or her hand (such as bloodrush abilities), and the player can still play lands.
-2013/04/15: If the spell is an illegal target when <Render Silent> tries to resolve (because it's been countered by another spell, for example), <Render Silent> will be countered and none of its effects will happen.
+2013/04/15: The affected player can still activate abilities, including abilities of cards in their hand (such as bloodrush abilities), and the player can still play lands.
+2013/04/15: If the spell is an illegal target when <Render Silent> tries to resolve (because it's been countered by another spell, for example), <Render Silent> won't resolve and none of its effects will happen.
 2013/04/15: A spell that "can't be countered" is a legal target for <Render Silent>. The spell won't be countered when <Render Silent> resolves, but that spell's controller won't be able to cast spells for the rest of the turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2004,8 +2005,9 @@ Whenever a player casts a noncreature spell, Ruric Thar deals 6 damage to that p
 <Artist>Tyler Jacobson</Artist>
 <Watermark>Gruul</Watermark>
 <Multiverseid>369025</Multiverseid>
-<Rulings>2013/04/15: Ruric Thar's ability triggers whenever any player casts a noncreature spell, including you.
-2013/04/15: Ruric Thar will deal 6 damage to the player before the noncreature spell resolves.</Rulings>
+<Rulings>2018/03/16: Ruric Thar's triggered ability triggers whenever any player casts a noncreature spell, including you.
+2018/03/16: Ruric Thar's triggered ability resolves before the spell that causes it to trigger. The ability will resolve even if that spell is countered.
+2018/03/16: If Ruric Thar can't attack for any reason (such as being tapped or having come under that player's control that turn), then it doesn't attack. If there's a cost associated with having a creature attack, the player isn't forced to pay that cost, so Ruric Thar doesn't have to attack in that case either.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2045,7 +2047,7 @@ Savageborn Hydra enters the battlefield with X +1/+1 counters on it.
 <Multiverseid>369005</Multiverseid>
 <Rulings>2013/04/15: To choose a target at random, all legal targets must have an equal chance of being chosen. There are many ways to do this, including assigning each possible legal target a number and rolling a die.
 2013/04/15: The target is chosen at random as part of putting the ability on the stack. Players can respond to the ability knowing what the target of the ability is.
-2013/04/15: If <Scab-Clan Giant> leaves the battlefield before its ability resolves, no fight will happen and neither creature will deal damage. Also, if the target creature is an illegal target when the ability tries to resolve, it will be countered and no fight will happen.
+2013/04/15: If <Scab-Clan Giant> leaves the battlefield before its ability resolves, no fight will happen and neither creature will deal damage. Also, if the target creature is an illegal target when the ability tries to resolve, it won't resolve and no fight will happen.
 2013/04/15: In a multiplayer game, you don't choose a single opponent at random. Any creature controlled by any of your opponents may be chosen at random.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2066,7 +2068,7 @@ Savageborn Hydra enters the battlefield with X +1/+1 counters on it.
 <Watermark>Rakdos</Watermark>
 <Multiverseid>368945</Multiverseid>
 <Rulings>2013/04/15: Creatures that come under your control after <Showstopper> resolves won't have the ability.
-2013/04/15: If another player gains control of a creature you control after <Showstopper> resolves, and then later that turn that creature dies, the creature's controller when it died controls the triggered ability. That player chooses a creature that one of his or her opponents controls as a target.</Rulings>
+2013/04/15: If another player gains control of a creature you control after <Showstopper> resolves, and then later that turn that creature dies, the creature's controller when it died controls the triggered ability. That player chooses a creature that one of their opponents controls as a target.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2080,7 +2082,7 @@ Savageborn Hydra enters the battlefield with X +1/+1 counters on it.
 <Name>Sin Collector</Name>
 <Type>Creature — Human Cleric 2/1</Type>
 <ManaCost>1WB (3)</ManaCost>
-<CardText>When Sin Collector enters the battlefield, target opponent reveals his or her hand. You choose an instant or sorcery card from it and exile that card.</CardText>
+<CardText>When Sin Collector enters the battlefield, target opponent reveals their hand. You choose an instant or sorcery card from it and exile that card.</CardText>
 <Flavor>"That must weigh heavily on your soul. Let me purge it for you."</Flavor>
 <Artist>Mike Bierek</Artist>
 <Watermark>Orzhov</Watermark>
@@ -2099,7 +2101,7 @@ Savageborn Hydra enters the battlefield with X +1/+1 counters on it.
 <Name>Sire of Insanity</Name>
 <Type>Creature — Demon 6/4</Type>
 <ManaCost>4BR (6)</ManaCost>
-<CardText>At the beginning of each end step, each player discards his or her hand.</CardText>
+<CardText>At the beginning of each end step, each player discards their hand.</CardText>
 <Flavor>Its victims become mindless lunatics. Conveniently, that's the first step in joining the Cult of Rakdos.</Flavor>
 <Artist>Peter Mohrbacher</Artist>
 <Watermark>Rakdos</Watermark>
@@ -2339,13 +2341,13 @@ When Viashino Firstblade enters the battlefield, it gets +2/+2 until end of turn
 <Name>Warleader's Helix</Name>
 <Type>Instant</Type>
 <ManaCost>2WR (4)</ManaCost>
-<CardText>Warleader's Helix deals 4 damage to target creature or player and you gain 4 life.</CardText>
+<CardText>Warleader's Helix deals 4 damage to any target and you gain 4 life.</CardText>
 <Flavor>"There is no time to remedy our enemies' ignorance. Blast it out of them."
 —Aurelia</Flavor>
 <Artist>Greg Staples</Artist>
 <Watermark>Boros</Watermark>
 <Multiverseid>369081</Multiverseid>
-<Rulings>2013/04/15: If the target creature or player is an illegal target when <Warleader's Helix> tries to resolve, it will be countered and none of its effects will happen. You won't gain 4 life.</Rulings>
+<Rulings>2013/04/15: If the target permanent or player is an illegal target when <Warleader's Helix> tries to resolve, it won't resolve and none of its effects will happen. You won't gain 4 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2399,7 +2401,7 @@ Protection from green</CardText>
 <Name>Zhur-Taa Ancient</Name>
 <Type>Creature — Beast 7/5</Type>
 <ManaCost>3RG (5)</ManaCost>
-<CardText>Whenever a player taps a land for mana, that player adds one mana to his or her mana pool of any type that land produced.</CardText>
+<CardText>Whenever a player taps a land for mana, that player adds one mana of any type that land produced.</CardText>
 <Flavor>Many Ravnicans think of nature as orderly groves and elf-tended rot farms. They haven't seen the Gruul wilds.</Flavor>
 <Artist>Adam Paquette</Artist>
 <Watermark>Gruul</Watermark>
@@ -2417,7 +2419,7 @@ Protection from green</CardText>
 <Name>Zhur-Taa Druid</Name>
 <Type>Creature — Human Druid 1/1</Type>
 <ManaCost>RG (2)</ManaCost>
-<CardText>{T}: Add {G} to your mana pool.
+<CardText>{T}: Add {G}.
 Whenever you tap Zhur-Taa Druid for mana, it deals 1 damage to each opponent.</CardText>
 <Flavor>"Only the decadent think magic should be pristine and without cost."</Flavor>
 <Artist>Mark Winters</Artist>
@@ -2447,7 +2449,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 2013/04/15: If you're casting a split card with fuse from any zone other than your hand, you can't cast both halves. You'll only be able to cast one half or the other.
 2013/04/15: To cast a fused split spell, pay both of its mana costs. While the spell is on the stack, its converted mana cost is the total amount of mana in both costs.
 2013/04/15: You can choose the same object as the target of each half of a fused split spell, if appropriate.
-2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell is countered and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
+2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn't resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
 2013/04/15: When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half.
 2013/04/15: On the stack, a split spell that hasn't been fused has only that half's characteristics and converted mana cost. The other half is treated as though it didn't exist.
 2013/04/15: Some split cards with fuse have two monocolor halves of different colors. If such a card is cast as a fused split spell, the resulting spell is multicolored. If only one half is cast, the spell is the color of that half. While not on the stack, such a card is multicolored.
@@ -2477,7 +2479,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 2013/04/15: If you're casting a split card with fuse from any zone other than your hand, you can't cast both halves. You'll only be able to cast one half or the other.
 2013/04/15: To cast a fused split spell, pay both of its mana costs. While the spell is on the stack, its converted mana cost is the total amount of mana in both costs.
 2013/04/15: You can choose the same object as the target of each half of a fused split spell, if appropriate.
-2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell is countered and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
+2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn't resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
 2013/04/15: When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half.
 2013/04/15: On the stack, a split spell that hasn't been fused has only that half's characteristics and converted mana cost. The other half is treated as though it didn't exist.
 2013/04/15: Some split cards with fuse have two monocolor halves of different colors. If such a card is cast as a fused split spell, the resulting spell is multicolored. If only one half is cast, the spell is the color of that half. While not on the stack, such a card is multicolored.
@@ -2505,7 +2507,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Rulings>2013/04/15: If you're casting a split card with fuse from any zone other than your hand, you can't cast both halves. You'll only be able to cast one half or the other.
 2013/04/15: To cast a fused split spell, pay both of its mana costs. While the spell is on the stack, its converted mana cost is the total amount of mana in both costs.
 2013/04/15: You can choose the same object as the target of each half of a fused split spell, if appropriate.
-2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell is countered and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
+2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn't resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
 2013/04/15: When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half.
 2013/04/15: On the stack, a split spell that hasn't been fused has only that half's characteristics and converted mana cost. The other half is treated as though it didn't exist.
 2013/04/15: Some split cards with fuse have two monocolor halves of different colors. If such a card is cast as a fused split spell, the resulting spell is multicolored. If only one half is cast, the spell is the color of that half. While not on the stack, such a card is multicolored.
@@ -2535,7 +2537,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 2013/04/15: If you're casting a split card with fuse from any zone other than your hand, you can't cast both halves. You'll only be able to cast one half or the other.
 2013/04/15: To cast a fused split spell, pay both of its mana costs. While the spell is on the stack, its converted mana cost is the total amount of mana in both costs.
 2013/04/15: You can choose the same object as the target of each half of a fused split spell, if appropriate.
-2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell is countered and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
+2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn't resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
 2013/04/15: When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half.
 2013/04/15: On the stack, a split spell that hasn't been fused has only that half's characteristics and converted mana cost. The other half is treated as though it didn't exist.
 2013/04/15: Some split cards with fuse have two monocolor halves of different colors. If such a card is cast as a fused split spell, the resulting spell is multicolored. If only one half is cast, the spell is the color of that half. While not on the stack, such a card is multicolored.
@@ -2565,7 +2567,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 2013/04/15: If you're casting a split card with fuse from any zone other than your hand, you can't cast both halves. You'll only be able to cast one half or the other.
 2013/04/15: To cast a fused split spell, pay both of its mana costs. While the spell is on the stack, its converted mana cost is the total amount of mana in both costs.
 2013/04/15: You can choose the same object as the target of each half of a fused split spell, if appropriate.
-2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell is countered and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
+2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn't resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
 2013/04/15: When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half.
 2013/04/15: On the stack, a split spell that hasn't been fused has only that half's characteristics and converted mana cost. The other half is treated as though it didn't exist.
 2013/04/15: Some split cards with fuse have two monocolor halves of different colors. If such a card is cast as a fused split spell, the resulting spell is multicolored. If only one half is cast, the spell is the color of that half. While not on the stack, such a card is multicolored.
@@ -2594,7 +2596,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 2013/04/15: If you're casting a split card with fuse from any zone other than your hand, you can't cast both halves. You'll only be able to cast one half or the other.
 2013/04/15: To cast a fused split spell, pay both of its mana costs. While the spell is on the stack, its converted mana cost is the total amount of mana in both costs.
 2013/04/15: You can choose the same object as the target of each half of a fused split spell, if appropriate.
-2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell is countered and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
+2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn't resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
 2013/04/15: When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half.
 2013/04/15: On the stack, a split spell that hasn't been fused has only that half's characteristics and converted mana cost. The other half is treated as though it didn't exist.
 2013/04/15: Some split cards with fuse have two monocolor halves of different colors. If such a card is cast as a fused split spell, the resulting spell is multicolored. If only one half is cast, the spell is the color of that half. While not on the stack, such a card is multicolored.
@@ -2615,14 +2617,14 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Name>Breaking (Breaking/Entering)</Name>
 <Type>Sorcery</Type>
 <ManaCost>UB (2)</ManaCost>
-<CardText>Target player puts the top eight cards of his or her library into his or her graveyard.
+<CardText>Target player puts the top eight cards of their library into their graveyard.
 Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Artist>Mathias Kollros</Artist>
 <Multiverseid>369009</Multiverseid>
 <Rulings>2013/04/15: If you're casting a split card with fuse from any zone other than your hand, you can't cast both halves. You'll only be able to cast one half or the other.
 2013/04/15: To cast a fused split spell, pay both of its mana costs. While the spell is on the stack, its converted mana cost is the total amount of mana in both costs.
 2013/04/15: You can choose the same object as the target of each half of a fused split spell, if appropriate.
-2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell is countered and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
+2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn't resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
 2013/04/15: When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half.
 2013/04/15: On the stack, a split spell that hasn't been fused has only that half's characteristics and converted mana cost. The other half is treated as though it didn't exist.
 2013/04/15: Some split cards with fuse have two monocolor halves of different colors. If such a card is cast as a fused split spell, the resulting spell is multicolored. If only one half is cast, the spell is the color of that half. While not on the stack, such a card is multicolored.
@@ -2651,7 +2653,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 2013/04/15: If you're casting a split card with fuse from any zone other than your hand, you can't cast both halves. You'll only be able to cast one half or the other.
 2013/04/15: To cast a fused split spell, pay both of its mana costs. While the spell is on the stack, its converted mana cost is the total amount of mana in both costs.
 2013/04/15: You can choose the same object as the target of each half of a fused split spell, if appropriate.
-2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell is countered and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
+2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn't resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
 2013/04/15: When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half.
 2013/04/15: On the stack, a split spell that hasn't been fused has only that half's characteristics and converted mana cost. The other half is treated as though it didn't exist.
 2013/04/15: Some split cards with fuse have two monocolor halves of different colors. If such a card is cast as a fused split spell, the resulting spell is multicolored. If only one half is cast, the spell is the color of that half. While not on the stack, such a card is multicolored.
@@ -2681,7 +2683,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 2013/04/15: If you're casting a split card with fuse from any zone other than your hand, you can't cast both halves. You'll only be able to cast one half or the other.
 2013/04/15: To cast a fused split spell, pay both of its mana costs. While the spell is on the stack, its converted mana cost is the total amount of mana in both costs.
 2013/04/15: You can choose the same object as the target of each half of a fused split spell, if appropriate.
-2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell is countered and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
+2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn't resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
 2013/04/15: When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half.
 2013/04/15: On the stack, a split spell that hasn't been fused has only that half's characteristics and converted mana cost. The other half is treated as though it didn't exist.
 2013/04/15: Some split cards with fuse have two monocolor halves of different colors. If such a card is cast as a fused split spell, the resulting spell is multicolored. If only one half is cast, the spell is the color of that half. While not on the stack, such a card is multicolored.
@@ -2706,13 +2708,13 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Artist>Kev Walker</Artist>
 <Multiverseid>368982</Multiverseid>
-<Rulings>2013/04/15: To resolve <Release>, the active player chooses a permanent he or she controls for each of the listed types, then each other player in turn order does the same, then all the chosen permanents are sacrificed simultaneously.
+<Rulings>2013/04/15: To resolve <Release>, the active player chooses a permanent they control for each of the listed types, then each other player in turn order does the same, then all the chosen permanents are sacrificed simultaneously.
 2013/04/15: If you cast Catch/<Release> as a fused split spell, you can sacrifice the permanent you just gained control of.
 2013/04/15: If you control an artifact creature, a nonartifact creature, and no other artifacts or creatures, you must sacrifice both permanents. You must choose the artifact creature as the artifact and the nonartifact creature as the creature. The same is true for any combination of types—you sacrifice a number of permanents as close to five as possible.
 2013/04/15: If you're casting a split card with fuse from any zone other than your hand, you can't cast both halves. You'll only be able to cast one half or the other.
 2013/04/15: To cast a fused split spell, pay both of its mana costs. While the spell is on the stack, its converted mana cost is the total amount of mana in both costs.
 2013/04/15: You can choose the same object as the target of each half of a fused split spell, if appropriate.
-2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell is countered and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
+2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn't resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
 2013/04/15: When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half.
 2013/04/15: On the stack, a split spell that hasn't been fused has only that half's characteristics and converted mana cost. The other half is treated as though it didn't exist.
 2013/04/15: Some split cards with fuse have two monocolor halves of different colors. If such a card is cast as a fused split spell, the resulting spell is multicolored. If only one half is cast, the spell is the color of that half. While not on the stack, such a card is multicolored.
@@ -2740,7 +2742,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Rulings>2013/04/15: If you're casting a split card with fuse from any zone other than your hand, you can't cast both halves. You'll only be able to cast one half or the other.
 2013/04/15: To cast a fused split spell, pay both of its mana costs. While the spell is on the stack, its converted mana cost is the total amount of mana in both costs.
 2013/04/15: You can choose the same object as the target of each half of a fused split spell, if appropriate.
-2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell is countered and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
+2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn't resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
 2013/04/15: When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half.
 2013/04/15: On the stack, a split spell that hasn't been fused has only that half's characteristics and converted mana cost. The other half is treated as though it didn't exist.
 2013/04/15: Some split cards with fuse have two monocolor halves of different colors. If such a card is cast as a fused split spell, the resulting spell is multicolored. If only one half is cast, the spell is the color of that half. While not on the stack, such a card is multicolored.
@@ -2768,7 +2770,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Rulings>2013/04/15: If you're casting a split card with fuse from any zone other than your hand, you can't cast both halves. You'll only be able to cast one half or the other.
 2013/04/15: To cast a fused split spell, pay both of its mana costs. While the spell is on the stack, its converted mana cost is the total amount of mana in both costs.
 2013/04/15: You can choose the same object as the target of each half of a fused split spell, if appropriate.
-2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell is countered and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
+2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn't resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
 2013/04/15: When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half.
 2013/04/15: On the stack, a split spell that hasn't been fused has only that half's characteristics and converted mana cost. The other half is treated as though it didn't exist.
 2013/04/15: Some split cards with fuse have two monocolor halves of different colors. If such a card is cast as a fused split spell, the resulting spell is multicolored. If only one half is cast, the spell is the color of that half. While not on the stack, such a card is multicolored.
@@ -2796,7 +2798,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Rulings>2013/04/15: If you're casting a split card with fuse from any zone other than your hand, you can't cast both halves. You'll only be able to cast one half or the other.
 2013/04/15: To cast a fused split spell, pay both of its mana costs. While the spell is on the stack, its converted mana cost is the total amount of mana in both costs.
 2013/04/15: You can choose the same object as the target of each half of a fused split spell, if appropriate.
-2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell is countered and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
+2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn't resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
 2013/04/15: When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half.
 2013/04/15: On the stack, a split spell that hasn't been fused has only that half's characteristics and converted mana cost. The other half is treated as though it didn't exist.
 2013/04/15: Some split cards with fuse have two monocolor halves of different colors. If such a card is cast as a fused split spell, the resulting spell is multicolored. If only one half is cast, the spell is the color of that half. While not on the stack, such a card is multicolored.
@@ -2825,7 +2827,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 2013/04/15: If you're casting a split card with fuse from any zone other than your hand, you can't cast both halves. You'll only be able to cast one half or the other.
 2013/04/15: To cast a fused split spell, pay both of its mana costs. While the spell is on the stack, its converted mana cost is the total amount of mana in both costs.
 2013/04/15: You can choose the same object as the target of each half of a fused split spell, if appropriate.
-2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell is countered and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
+2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn't resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
 2013/04/15: When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half.
 2013/04/15: On the stack, a split spell that hasn't been fused has only that half's characteristics and converted mana cost. The other half is treated as though it didn't exist.
 2013/04/15: Some split cards with fuse have two monocolor halves of different colors. If such a card is cast as a fused split spell, the resulting spell is multicolored. If only one half is cast, the spell is the color of that half. While not on the stack, such a card is multicolored.
@@ -2856,7 +2858,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 2013/04/15: If you're casting a split card with fuse from any zone other than your hand, you can't cast both halves. You'll only be able to cast one half or the other.
 2013/04/15: To cast a fused split spell, pay both of its mana costs. While the spell is on the stack, its converted mana cost is the total amount of mana in both costs.
 2013/04/15: You can choose the same object as the target of each half of a fused split spell, if appropriate.
-2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell is countered and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
+2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn't resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
 2013/04/15: When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half.
 2013/04/15: On the stack, a split spell that hasn't been fused has only that half's characteristics and converted mana cost. The other half is treated as though it didn't exist.
 2013/04/15: Some split cards with fuse have two monocolor halves of different colors. If such a card is cast as a fused split spell, the resulting spell is multicolored. If only one half is cast, the spell is the color of that half. While not on the stack, such a card is multicolored.
@@ -2877,17 +2879,17 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Name>Blood (Flesh/Blood)</Name>
 <Type>Sorcery</Type>
 <ManaCost>RG (2)</ManaCost>
-<CardText>Target creature you control deals damage equal to its power to target creature or player.
+<CardText>Target creature you control deals damage equal to its power to any target.
 Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Artist>Lucas Graciano</Artist>
 <Multiverseid>368991</Multiverseid>
-<Rulings>2013/04/15: As <Blood> is resolving, if only one of the targets is legal, <Blood> will still resolve but will have no effect: If the first target is illegal, it can't deal damage to anything. If the second target creature or player is illegal, it can't be dealt damage.
+<Rulings>2013/04/15: As <Blood> is resolving, if only one of the targets is legal, <Blood> will still resolve but will have no effect: If the first target is illegal, it can't deal damage to anything. If the second target is illegal, it can't be dealt damage.
 2013/04/15: The amount of damage dealt is based on the first target creature's power as <Blood> resolves.
 2013/04/15: If you cast Flesh // <Blood> as a fused split card, the +1/+1 counters will have been placed before the amount of damage is determined.
 2013/04/15: If you're casting a split card with fuse from any zone other than your hand, you can't cast both halves. You'll only be able to cast one half or the other.
 2013/04/15: To cast a fused split spell, pay both of its mana costs. While the spell is on the stack, its converted mana cost is the total amount of mana in both costs.
 2013/04/15: You can choose the same object as the target of each half of a fused split spell, if appropriate.
-2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell is countered and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
+2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn't resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
 2013/04/15: When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half.
 2013/04/15: On the stack, a split spell that hasn't been fused has only that half's characteristics and converted mana cost. The other half is treated as though it didn't exist.
 2013/04/15: Some split cards with fuse have two monocolor halves of different colors. If such a card is cast as a fused split spell, the resulting spell is multicolored. If only one half is cast, the spell is the color of that half. While not on the stack, such a card is multicolored.
@@ -2916,7 +2918,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 2013/04/15: If you're casting a split card with fuse from any zone other than your hand, you can't cast both halves. You'll only be able to cast one half or the other.
 2013/04/15: To cast a fused split spell, pay both of its mana costs. While the spell is on the stack, its converted mana cost is the total amount of mana in both costs.
 2013/04/15: You can choose the same object as the target of each half of a fused split spell, if appropriate.
-2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell is countered and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
+2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn't resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
 2013/04/15: When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half.
 2013/04/15: On the stack, a split spell that hasn't been fused has only that half's characteristics and converted mana cost. The other half is treated as though it didn't exist.
 2013/04/15: Some split cards with fuse have two monocolor halves of different colors. If such a card is cast as a fused split spell, the resulting spell is multicolored. If only one half is cast, the spell is the color of that half. While not on the stack, such a card is multicolored.
@@ -2946,7 +2948,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 2013/04/15: If you're casting a split card with fuse from any zone other than your hand, you can't cast both halves. You'll only be able to cast one half or the other.
 2013/04/15: To cast a fused split spell, pay both of its mana costs. While the spell is on the stack, its converted mana cost is the total amount of mana in both costs.
 2013/04/15: You can choose the same object as the target of each half of a fused split spell, if appropriate.
-2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell is countered and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
+2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn't resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
 2013/04/15: When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half.
 2013/04/15: On the stack, a split spell that hasn't been fused has only that half's characteristics and converted mana cost. The other half is treated as though it didn't exist.
 2013/04/15: Some split cards with fuse have two monocolor halves of different colors. If such a card is cast as a fused split spell, the resulting spell is multicolored. If only one half is cast, the spell is the color of that half. While not on the stack, such a card is multicolored.
@@ -2974,7 +2976,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Rulings>2013/04/15: If you're casting a split card with fuse from any zone other than your hand, you can't cast both halves. You'll only be able to cast one half or the other.
 2013/04/15: To cast a fused split spell, pay both of its mana costs. While the spell is on the stack, its converted mana cost is the total amount of mana in both costs.
 2013/04/15: You can choose the same object as the target of each half of a fused split spell, if appropriate.
-2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell is countered and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
+2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn't resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
 2013/04/15: When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half.
 2013/04/15: On the stack, a split spell that hasn't been fused has only that half's characteristics and converted mana cost. The other half is treated as though it didn't exist.
 2013/04/15: Some split cards with fuse have two monocolor halves of different colors. If such a card is cast as a fused split spell, the resulting spell is multicolored. If only one half is cast, the spell is the color of that half. While not on the stack, such a card is multicolored.
@@ -3002,7 +3004,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Rulings>2013/04/15: If you're casting a split card with fuse from any zone other than your hand, you can't cast both halves. You'll only be able to cast one half or the other.
 2013/04/15: To cast a fused split spell, pay both of its mana costs. While the spell is on the stack, its converted mana cost is the total amount of mana in both costs.
 2013/04/15: You can choose the same object as the target of each half of a fused split spell, if appropriate.
-2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell is countered and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
+2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn't resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
 2013/04/15: When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half.
 2013/04/15: On the stack, a split spell that hasn't been fused has only that half's characteristics and converted mana cost. The other half is treated as though it didn't exist.
 2013/04/15: Some split cards with fuse have two monocolor halves of different colors. If such a card is cast as a fused split spell, the resulting spell is multicolored. If only one half is cast, the spell is the color of that half. While not on the stack, such a card is multicolored.
@@ -3030,7 +3032,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Rulings>2013/04/15: If you're casting a split card with fuse from any zone other than your hand, you can't cast both halves. You'll only be able to cast one half or the other.
 2013/04/15: To cast a fused split spell, pay both of its mana costs. While the spell is on the stack, its converted mana cost is the total amount of mana in both costs.
 2013/04/15: You can choose the same object as the target of each half of a fused split spell, if appropriate.
-2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell is countered and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
+2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn't resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
 2013/04/15: When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half.
 2013/04/15: On the stack, a split spell that hasn't been fused has only that half's characteristics and converted mana cost. The other half is treated as though it didn't exist.
 2013/04/15: Some split cards with fuse have two monocolor halves of different colors. If such a card is cast as a fused split spell, the resulting spell is multicolored. If only one half is cast, the spell is the color of that half. While not on the stack, such a card is multicolored.
@@ -3058,7 +3060,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Rulings>2013/04/15: If you're casting a split card with fuse from any zone other than your hand, you can't cast both halves. You'll only be able to cast one half or the other.
 2013/04/15: To cast a fused split spell, pay both of its mana costs. While the spell is on the stack, its converted mana cost is the total amount of mana in both costs.
 2013/04/15: You can choose the same object as the target of each half of a fused split spell, if appropriate.
-2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell is countered and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
+2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn't resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
 2013/04/15: When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half.
 2013/04/15: On the stack, a split spell that hasn't been fused has only that half's characteristics and converted mana cost. The other half is treated as though it didn't exist.
 2013/04/15: Some split cards with fuse have two monocolor halves of different colors. If such a card is cast as a fused split spell, the resulting spell is multicolored. If only one half is cast, the spell is the color of that half. While not on the stack, such a card is multicolored.
@@ -3086,7 +3088,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Rulings>2013/04/15: If you're casting a split card with fuse from any zone other than your hand, you can't cast both halves. You'll only be able to cast one half or the other.
 2013/04/15: To cast a fused split spell, pay both of its mana costs. While the spell is on the stack, its converted mana cost is the total amount of mana in both costs.
 2013/04/15: You can choose the same object as the target of each half of a fused split spell, if appropriate.
-2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell is countered and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
+2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn't resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
 2013/04/15: When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half.
 2013/04/15: On the stack, a split spell that hasn't been fused has only that half's characteristics and converted mana cost. The other half is treated as though it didn't exist.
 2013/04/15: Some split cards with fuse have two monocolor halves of different colors. If such a card is cast as a fused split spell, the resulting spell is multicolored. If only one half is cast, the spell is the color of that half. While not on the stack, such a card is multicolored.
@@ -3117,7 +3119,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 2013/04/15: If you're casting a split card with fuse from any zone other than your hand, you can't cast both halves. You'll only be able to cast one half or the other.
 2013/04/15: To cast a fused split spell, pay both of its mana costs. While the spell is on the stack, its converted mana cost is the total amount of mana in both costs.
 2013/04/15: You can choose the same object as the target of each half of a fused split spell, if appropriate.
-2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell is countered and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
+2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn't resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
 2013/04/15: When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half.
 2013/04/15: On the stack, a split spell that hasn't been fused has only that half's characteristics and converted mana cost. The other half is treated as though it didn't exist.
 2013/04/15: Some split cards with fuse have two monocolor halves of different colors. If such a card is cast as a fused split spell, the resulting spell is multicolored. If only one half is cast, the spell is the color of that half. While not on the stack, such a card is multicolored.
@@ -3142,11 +3144,11 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Artist>Nils Hamm</Artist>
 <Multiverseid>369032</Multiverseid>
-<Rulings>2013/04/15: If you cast <Toil> // Trouble as a fused split card and choose to target the same player twice, the two drawn cards are counted when determining how much damage is dealt. The player can't do anything between the effects of <Toil> and Trouble to have fewer cards in his or her hand.
+<Rulings>2013/04/15: If you cast <Toil> // Trouble as a fused split card and choose to target the same player twice, the two drawn cards are counted when determining how much damage is dealt. The player can't do anything between the effects of <Toil> and Trouble to have fewer cards in their hand.
 2013/04/15: If you're casting a split card with fuse from any zone other than your hand, you can't cast both halves. You'll only be able to cast one half or the other.
 2013/04/15: To cast a fused split spell, pay both of its mana costs. While the spell is on the stack, its converted mana cost is the total amount of mana in both costs.
 2013/04/15: You can choose the same object as the target of each half of a fused split spell, if appropriate.
-2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell is countered and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
+2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn't resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
 2013/04/15: When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half.
 2013/04/15: On the stack, a split spell that hasn't been fused has only that half's characteristics and converted mana cost. The other half is treated as though it didn't exist.
 2013/04/15: Some split cards with fuse have two monocolor halves of different colors. If such a card is cast as a fused split spell, the resulting spell is multicolored. If only one half is cast, the spell is the color of that half. While not on the stack, such a card is multicolored.
@@ -3171,11 +3173,11 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Artist>Nils Hamm</Artist>
 <Multiverseid>369032</Multiverseid>
-<Rulings>2013/04/15: If you cast Toil // <Trouble> as a fused split card and choose to target the same player twice, the two drawn cards are counted when determining how much damage is dealt. The player can't do anything between the effects of Toil and <Trouble> to have fewer cards in his or her hand.
+<Rulings>2013/04/15: If you cast Toil // <Trouble> as a fused split card and choose to target the same player twice, the two drawn cards are counted when determining how much damage is dealt. The player can't do anything between the effects of Toil and <Trouble> to have fewer cards in their hand.
 2013/04/15: If you're casting a split card with fuse from any zone other than your hand, you can't cast both halves. You'll only be able to cast one half or the other.
 2013/04/15: To cast a fused split spell, pay both of its mana costs. While the spell is on the stack, its converted mana cost is the total amount of mana in both costs.
 2013/04/15: You can choose the same object as the target of each half of a fused split spell, if appropriate.
-2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell is countered and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
+2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn't resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
 2013/04/15: When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half.
 2013/04/15: On the stack, a split spell that hasn't been fused has only that half's characteristics and converted mana cost. The other half is treated as though it didn't exist.
 2013/04/15: Some split cards with fuse have two monocolor halves of different colors. If such a card is cast as a fused split spell, the resulting spell is multicolored. If only one half is cast, the spell is the color of that half. While not on the stack, such a card is multicolored.
@@ -3208,7 +3210,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 2013/04/15: If you're casting a split card with fuse from any zone other than your hand, you can't cast both halves. You'll only be able to cast one half or the other.
 2013/04/15: To cast a fused split spell, pay both of its mana costs. While the spell is on the stack, its converted mana cost is the total amount of mana in both costs.
 2013/04/15: You can choose the same object as the target of each half of a fused split spell, if appropriate.
-2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell is countered and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
+2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn't resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
 2013/04/15: When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half.
 2013/04/15: On the stack, a split spell that hasn't been fused has only that half's characteristics and converted mana cost. The other half is treated as though it didn't exist.
 2013/04/15: Some split cards with fuse have two monocolor halves of different colors. If such a card is cast as a fused split spell, the resulting spell is multicolored. If only one half is cast, the spell is the color of that half. While not on the stack, such a card is multicolored.
@@ -3229,14 +3231,14 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Name>Burn (Turn/Burn)</Name>
 <Type>Instant</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>Burn deals 2 damage to target creature or player.
+<CardText>Burn deals 2 damage to any target.
 Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Artist>Ryan Barger</Artist>
 <Multiverseid>369080</Multiverseid>
 <Rulings>2013/04/15: If you're casting a split card with fuse from any zone other than your hand, you can't cast both halves. You'll only be able to cast one half or the other.
 2013/04/15: To cast a fused split spell, pay both of its mana costs. While the spell is on the stack, its converted mana cost is the total amount of mana in both costs.
 2013/04/15: You can choose the same object as the target of each half of a fused split spell, if appropriate.
-2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell is countered and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
+2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn't resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
 2013/04/15: When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half.
 2013/04/15: On the stack, a split spell that hasn't been fused has only that half's characteristics and converted mana cost. The other half is treated as though it didn't exist.
 2013/04/15: Some split cards with fuse have two monocolor halves of different colors. If such a card is cast as a fused split spell, the resulting spell is multicolored. If only one half is cast, the spell is the color of that half. While not on the stack, such a card is multicolored.
@@ -3264,7 +3266,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Rulings>2013/04/15: If you're casting a split card with fuse from any zone other than your hand, you can't cast both halves. You'll only be able to cast one half or the other.
 2013/04/15: To cast a fused split spell, pay both of its mana costs. While the spell is on the stack, its converted mana cost is the total amount of mana in both costs.
 2013/04/15: You can choose the same object as the target of each half of a fused split spell, if appropriate.
-2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell is countered and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
+2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn't resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
 2013/04/15: When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half.
 2013/04/15: On the stack, a split spell that hasn't been fused has only that half's characteristics and converted mana cost. The other half is treated as though it didn't exist.
 2013/04/15: Some split cards with fuse have two monocolor halves of different colors. If such a card is cast as a fused split spell, the resulting spell is multicolored. If only one half is cast, the spell is the color of that half. While not on the stack, such a card is multicolored.
@@ -3292,7 +3294,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Rulings>2013/04/15: If you're casting a split card with fuse from any zone other than your hand, you can't cast both halves. You'll only be able to cast one half or the other.
 2013/04/15: To cast a fused split spell, pay both of its mana costs. While the spell is on the stack, its converted mana cost is the total amount of mana in both costs.
 2013/04/15: You can choose the same object as the target of each half of a fused split spell, if appropriate.
-2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell is countered and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
+2013/04/15: When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn't resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
 2013/04/15: When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half.
 2013/04/15: On the stack, a split spell that hasn't been fused has only that half's characteristics and converted mana cost. The other half is treated as though it didn't exist.
 2013/04/15: Some split cards with fuse have two monocolor halves of different colors. If such a card is cast as a fused split spell, the resulting spell is multicolored. If only one half is cast, the spell is the color of that half. While not on the stack, such a card is multicolored.
@@ -3313,7 +3315,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Name>Azorius Cluestone</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {W} or {U} to your mana pool.
+<CardText>{T}: Add {W} or {U}.
 {W}{U}, {T}, Sacrifice Azorius Cluestone: Draw a card.</CardText>
 <Flavor>Its three sides represent the Sova, judges and arbitrators; the Jelenn, scribes and elocutors; and the Lyev, lawmages and enforcers.</Flavor>
 <Artist>Raoul Vitale</Artist>
@@ -3332,7 +3334,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Name>Boros Cluestone</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {R} or {W} to your mana pool.
+<CardText>{T}: Add {R} or {W}.
 {R}{W}, {T}, Sacrifice Boros Cluestone: Draw a card.</CardText>
 <Flavor>"In case of fire, treachery, citywide riot, political upheaval, or worldwide societal collapse, break glass."
 —Cluestone inscription</Flavor>
@@ -3352,7 +3354,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Name>Dimir Cluestone</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {U} or {B} to your mana pool.
+<CardText>{T}: Add {U} or {B}.
 {U}{B}, {T}, Sacrifice Dimir Cluestone: Draw a card.</CardText>
 <Flavor>It waits in the chill of the undercity, holding nameless secrets for those who dare to touch it.</Flavor>
 <Artist>Raoul Vitale</Artist>
@@ -3371,7 +3373,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Name>Golgari Cluestone</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {B} or {G} to your mana pool.
+<CardText>{T}: Add {B} or {G}.
 {B}{G}, {T}, Sacrifice Golgari Cluestone: Draw a card.</CardText>
 <Flavor>Golgari mold collects whispers, intelligence that is later harvested by Jarad and his high chancellors.</Flavor>
 <Artist>Raoul Vitale</Artist>
@@ -3390,7 +3392,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Name>Gruul Cluestone</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {R} or {G} to your mana pool.
+<CardText>{T}: Add {R} or {G}.
 {R}{G}, {T}, Sacrifice Gruul Cluestone: Draw a card.</CardText>
 <Flavor>Forgotten under rocks and vines, Gruul symbols mark the sites of primitive rituals where shamans once chanted to the wild.</Flavor>
 <Artist>Raoul Vitale</Artist>
@@ -3409,7 +3411,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Name>Izzet Cluestone</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {U} or {R} to your mana pool.
+<CardText>{T}: Add {U} or {R}.
 {U}{R}, {T}, Sacrifice Izzet Cluestone: Draw a card.</CardText>
 <Flavor>It holds within it an unsolvable riddle. A creative answer yields an invitation to the guild.</Flavor>
 <Artist>Raoul Vitale</Artist>
@@ -3428,7 +3430,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Name>Orzhov Cluestone</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {W} or {B} to your mana pool.
+<CardText>{T}: Add {W} or {B}.
 {W}{B}, {T}, Sacrifice Orzhov Cluestone: Draw a card.</CardText>
 <Flavor>A symbol of power and wealth, the only commodities that matter to the Orzhov.</Flavor>
 <Artist>Raoul Vitale</Artist>
@@ -3447,7 +3449,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Name>Rakdos Cluestone</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {B} or {R} to your mana pool.
+<CardText>{T}: Add {B} or {R}.
 {B}{R}, {T}, Sacrifice Rakdos Cluestone: Draw a card.</CardText>
 <Flavor>"Burn. Bleed. Enjoy."
 —Cluestone inscription</Flavor>
@@ -3467,7 +3469,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Name>Selesnya Cluestone</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {G} or {W} to your mana pool.
+<CardText>{T}: Add {G} or {W}.
 {G}{W}, {T}, Sacrifice Selesnya Cluestone: Draw a card.</CardText>
 <Flavor>"Break it if you must. The loss of one relic is nothing next to the value of enriching us all."
 —Suniel the Woodwise</Flavor>
@@ -3487,7 +3489,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Name>Simic Cluestone</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {G} or {U} to your mana pool.
+<CardText>{T}: Add {G} or {U}.
 {G}{U}, {T}, Sacrifice Simic Cluestone: Draw a card.</CardText>
 <Flavor>Simic symbols are among the most intricate and fragile, yet few vandalize them for fear of the strange lifeforms that might be released.</Flavor>
 <Artist>Raoul Vitale</Artist>
@@ -3506,7 +3508,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Name>Azorius Guildgate</Name>
 <Type>Land — Gate</Type>
 <CardText>Azorius Guildgate enters the battlefield tapped.
-{T}: Add {W} or {U} to your mana pool.</CardText>
+{T}: Add {W} or {U}.</CardText>
 <Flavor>The Azorius symbol stares down like a great eye, reminding visitors of the watchful presence of Isperia and her lawmages.</Flavor>
 <Artist>Drew Baker</Artist>
 <Watermark>Azorius</Watermark>
@@ -3526,7 +3528,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Name>Boros Guildgate</Name>
 <Type>Land — Gate</Type>
 <CardText>Boros Guildgate enters the battlefield tapped.
-{T}: Add {R} or {W} to your mana pool.</CardText>
+{T}: Add {R} or {W}.</CardText>
 <Flavor>It promises protection to those in need and proclaims a warning to any who would threaten Ravnican law.</Flavor>
 <Artist>Noah Bradley</Artist>
 <Watermark>Boros</Watermark>
@@ -3546,7 +3548,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Name>Dimir Guildgate</Name>
 <Type>Land — Gate</Type>
 <CardText>Dimir Guildgate enters the battlefield tapped.
-{T}: Add {U} or {B} to your mana pool.</CardText>
+{T}: Add {U} or {B}.</CardText>
 <Flavor>In the cold corridors of the undercity, misinformation unfurls from Duskmantle like a spreading stain.</Flavor>
 <Artist>Cliff Childs</Artist>
 <Watermark>Dimir</Watermark>
@@ -3566,7 +3568,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Name>Golgari Guildgate</Name>
 <Type>Land — Gate</Type>
 <CardText>Golgari Guildgate enters the battlefield tapped.
-{T}: Add {B} or {G} to your mana pool.</CardText>
+{T}: Add {B} or {G}.</CardText>
 <Flavor>Every part of the gate was reclaimed from forgotten ruins and imbued with new purpose by the Swarm.</Flavor>
 <Artist>Eytan Zana</Artist>
 <Watermark>Golgari</Watermark>
@@ -3586,7 +3588,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Name>Gruul Guildgate</Name>
 <Type>Land — Gate</Type>
 <CardText>Gruul Guildgate enters the battlefield tapped.
-{T}: Add {R} or {G} to your mana pool.</CardText>
+{T}: Add {R} or {G}.</CardText>
 <Flavor>The scarred rubble around the gate is testament to past meetings of the Clans, summits that inevitably devolved into brawls.</Flavor>
 <Artist>Randy Gallegos</Artist>
 <Watermark>Gruul</Watermark>
@@ -3606,7 +3608,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Name>Izzet Guildgate</Name>
 <Type>Land — Gate</Type>
 <CardText>Izzet Guildgate enters the battlefield tapped.
-{T}: Add {U} or {R} to your mana pool.</CardText>
+{T}: Add {U} or {R}.</CardText>
 <Flavor>Beyond lies the culmination of all Izzet projects, a grand experiment led by the dragon Niv-Mizzet himself.</Flavor>
 <Artist>Noah Bradley</Artist>
 <Watermark>Izzet</Watermark>
@@ -3626,7 +3628,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Name>Maze's End</Name>
 <Type>Land</Type>
 <CardText>Maze's End enters the battlefield tapped.
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {3}, {T}, Return Maze's End to its owner's hand: Search your library for a Gate card, put it onto the battlefield, then shuffle your library. If you control ten or more Gates with different names, you win the game.</CardText>
 <Artist>Cliff Childs</Artist>
 <Multiverseid>369038</Multiverseid>
@@ -3647,7 +3649,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Name>Orzhov Guildgate</Name>
 <Type>Land — Gate</Type>
 <CardText>Orzhov Guildgate enters the battlefield tapped.
-{T}: Add {W} or {B} to your mana pool.</CardText>
+{T}: Add {W} or {B}.</CardText>
 <Flavor>"We do not believe in hiding our wealth in the shadows. This is Orzhov, and this is how we reward greatness."
 —Teysa Karlov, Grand Envoy of Orzhov</Flavor>
 <Artist>John Avon</Artist>
@@ -3668,7 +3670,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Name>Rakdos Guildgate</Name>
 <Type>Land — Gate</Type>
 <CardText>Rakdos Guildgate enters the battlefield tapped.
-{T}: Add {B} or {R} to your mana pool.</CardText>
+{T}: Add {B} or {R}.</CardText>
 <Flavor>Maze-runners who pass through the Rakdos gate leave behind their scruples and a significant amount of skin.</Flavor>
 <Artist>Eytan Zana</Artist>
 <Watermark>Rakdos</Watermark>
@@ -3688,7 +3690,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Name>Selesnya Guildgate</Name>
 <Type>Land — Gate</Type>
 <CardText>Selesnya Guildgate enters the battlefield tapped.
-{T}: Add {G} or {W} to your mana pool.</CardText>
+{T}: Add {G} or {W}.</CardText>
 <Flavor>The Selesyna welcome all to help them heal the city's wounds. The price, however, is devotion to the guild and a selfless belief in Trostani.</Flavor>
 <Artist>Howard Lyon</Artist>
 <Watermark>Selesnya</Watermark>
@@ -3708,7 +3710,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Name>Simic Guildgate</Name>
 <Type>Land — Gate</Type>
 <CardText>Simic Guildgate enters the battlefield tapped.
-{T}: Add {G} or {U} to your mana pool.</CardText>
+{T}: Add {G} or {U}.</CardText>
 <Flavor>Simic biomancers don't concern themselves with guarding a gate. Their ever-present creations are enough to ward off trespassers.</Flavor>
 <Artist>Svetlin Velinov</Artist>
 <Watermark>Simic</Watermark>

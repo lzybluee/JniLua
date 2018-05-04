@@ -60,7 +60,7 @@ Enchanted creature has fear. (It can't be blocked except by artifact creatures a
 <Artist>Thomas M. Baxa</Artist>
 <Multiverseid>5128</Multiverseid>
 <Rulings>2013/04/15: Paying the cost to end the effect is a special action and can't be responded to.
-2013/04/15: If a spell that can target enchantments but not creatures (such as Clear) is cast targeting the Licid after it has become an enchantment, but the Licid's controller pays the cost, the Licid will no longer be an enchantment. This will result in the spell being countered on resolution for having no legal targets.</Rulings>
+2013/04/15: If a spell that can target enchantments but not creatures (such as Clear) is cast targeting the Licid after it has become an enchantment, but the Licid's controller pays the cost, the Licid will no longer be an enchantment. This will result in the spell failing to resolve for having no legal targets.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Stronghold</Set>
@@ -282,7 +282,7 @@ Target player discards a card.</CardText>
 <ManaCost>1B (2)</ManaCost>
 <CardText>{T}: Target blocking creature gets -1/-1 until end of turn.</CardText>
 <Flavor>Every sentence in Volrath's prisons ends the same way.</Flavor>
-<Artist>Matthew Wilson</Artist>
+<Artist>Matthew D. Wilson</Artist>
 <Multiverseid>5205</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -352,7 +352,7 @@ Pay {1} for each +1/+1 counter on Skeleton Scavengers: Regenerate Skeleton Scave
 <ManaCost>1BB (3)</ManaCost>
 <CardText>{T}, Sacrifice a creature: Destroy target nonblack creature.</CardText>
 <Flavor>The assassin sees only throats and hears only heartbeats.</Flavor>
-<Artist>Matthew Wilson</Artist>
+<Artist>Matthew D. Wilson</Artist>
 <Multiverseid>5247</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -420,7 +420,7 @@ Enchanted creature gets -3/-0.</CardText>
 <Type>Creature — Wall 0/4</Type>
 <ManaCost>1B (2)</ManaCost>
 <CardText>Defender (This creature can't attack.)
-Whenever Wall of Souls is dealt combat damage, it deals that much damage to target opponent.</CardText>
+Whenever Wall of Souls is dealt combat damage, it deals that much damage to target opponent or planeswalker.</CardText>
 <Flavor>"It is the nature of evil to turn you against yourself."
 —Starke</Flavor>
 <Artist>John Matson</Artist>
@@ -477,7 +477,7 @@ When enchanted creature attacks, return it and Contempt to their owners' hands a
 <ManaCost>3UU (5)</ManaCost>
 <CardText>Rather than pay the mana cost for a spell, its controller may discard a card that shares a color with that spell.</CardText>
 <Flavor>Within without.</Flavor>
-<Artist>Matthew Wilson</Artist>
+<Artist>Matthew D. Wilson</Artist>
 <Multiverseid>5105</Multiverseid>
 <Rulings>2004/10/04: This only replaces the mana cost (the mana in the upper right hand corner of the card). It will not pay additional costs from the card text (such as Buyback) or from other effects. It does not prevent you from paying those additional costs if you want or need to.</Rulings>
 <Reserved>This card is on the reserved list</Reserved>
@@ -533,7 +533,7 @@ Enchanted creature has flying.</CardText>
 <Artist>Heather Hudson</Artist>
 <Multiverseid>5162</Multiverseid>
 <Rulings>2013/04/15: Paying the cost to end the effect is a special action and can't be responded to.
-2013/04/15: If a spell that can target enchantments but not creatures (such as Clear) is cast targeting the Licid after it has become an enchantment, but the Licid's controller pays the cost, the Licid will no longer be an enchantment. This will result in the spell being countered on resolution for having no legal targets.</Rulings>
+2013/04/15: If a spell that can target enchantments but not creatures (such as Clear) is cast targeting the Licid after it has become an enchantment, but the Licid's controller pays the cost, the Licid will no longer be an enchantment. This will result in the spell failing to resolve for having no legal targets.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Stronghold</Set>
@@ -633,7 +633,7 @@ Draw a card.</CardText>
 <Name>Mask of the Mimic</Name>
 <Type>Instant</Type>
 <ManaCost>U (1)</ManaCost>
-<CardText>As an additional cost to cast Mask of the Mimic, sacrifice a creature.
+<CardText>As an additional cost to cast this spell, sacrifice a creature.
 Search your library for a card with the same name as target nontoken creature and put that card onto the battlefield. Then shuffle your library.</CardText>
 <Artist>Heather Hudson</Artist>
 <Multiverseid>5183</Multiverseid>
@@ -1051,8 +1051,8 @@ Prevent all combat damage that would be dealt this turn.</CardText>
 <Name>Overgrowth</Name>
 <Type>Enchantment — Aura</Type>
 <ManaCost>2G (3)</ManaCost>
-<CardText>Enchant land (Target a land as you cast this. This card enters the battlefield attached to that land.)
-Whenever enchanted land is tapped for mana, its controller adds {G}{G} to his or her mana pool (in addition to the mana the land produces).</CardText>
+<CardText>Enchant land
+Whenever enchanted land is tapped for mana, its controller adds an additional {G}{G}.</CardText>
 <Flavor>Life needs no encouragement.</Flavor>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>5198</Multiverseid>
@@ -1070,7 +1070,7 @@ Whenever enchanted land is tapped for mana, its controller adds {G}{G} to his or
 <Name>Primal Rage</Name>
 <Type>Enchantment</Type>
 <ManaCost>1G (2)</ManaCost>
-<CardText>Creatures you control have trample. (Creatures you control can deal excess combat damage to defending player or planeswalker while attacking.)</CardText>
+<CardText>Creatures you control have trample. (Creatures you control can deal excess combat damage to the player or planeswalker it's attacking.)</CardText>
 <Flavor>"Charge!" A great cry went out, and countless elves and Vec soldiers charged up the mountain. Their fury and passion hid the fact that they were horribly outnumbered.</Flavor>
 <Artist>Brian Snõddy</Artist>
 <Multiverseid>5149</Multiverseid>
@@ -1121,7 +1121,7 @@ Draw a card.</CardText>
 <Name>Skyshroud Troopers</Name>
 <Type>Creature — Elf Druid Warrior 3/3</Type>
 <ManaCost>3G (4)</ManaCost>
-<CardText>{T}: Add {G} to your mana pool.</CardText>
+<CardText>{T}: Add {G}.</CardText>
 <Flavor>"We were not made for war. Like flowstone, Volrath shaped us to it."
 —Eladamri, Lord of Leaves</Flavor>
 <Artist>DiTerlizzi</Artist>
@@ -1244,7 +1244,7 @@ All creatures able to block enchanted creature do so.</CardText>
 <Artist>Randy Gallegos</Artist>
 <Multiverseid>5252</Multiverseid>
 <Rulings>2013/04/15: Paying the cost to end the effect is a special action and can't be responded to.
-2013/04/15: If a spell that can target enchantments but not creatures (such as Clear) is cast targeting the Licid after it has become an enchantment, but the Licid's controller pays the cost, the Licid will no longer be an enchantment. This will result in the spell being countered on resolution for having no legal targets.</Rulings>
+2013/04/15: If a spell that can target enchantments but not creatures (such as Clear) is cast targeting the Licid after it has become an enchantment, but the Licid's controller pays the cost, the Licid will no longer be an enchantment. This will result in the spell failing to resolve for having no legal targets.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Stronghold</Set>
@@ -1259,10 +1259,10 @@ All creatures able to block enchanted creature do so.</CardText>
 <ManaCost>1G (2)</ManaCost>
 <CardText>Buyback {3} (You may pay an additional {3} as you cast this spell. If you do, put this card into your hand as it resolves.)
 Target land becomes a 2/2 creature that's still a land. (This effect lasts indefinitely.)</CardText>
-<Artist>M. W. Kaluta and DiTerlizzi</Artist>
+<Artist>M. W. Kaluta & DiTerlizzi</Artist>
 <Multiverseid>5259</Multiverseid>
 <Rulings>2004/10/04: The land is still a land and retains all its abilities, plus any other characteristics.
-2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
+2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Stronghold</Set>
@@ -1329,7 +1329,7 @@ Enchanted creature can't block.</CardText>
 <Artist>Scott Kirschner</Artist>
 <Multiverseid>5129</Multiverseid>
 <Rulings>2013/04/15: Paying the cost to end the effect is a special action and can't be responded to.
-2013/04/15: If a spell that can target enchantments but not creatures (such as Clear) is cast targeting the Licid after it has become an enchantment, but the Licid's controller pays the cost, the Licid will no longer be an enchantment. This will result in the spell being countered on resolution for having no legal targets.</Rulings>
+2013/04/15: If a spell that can target enchantments but not creatures (such as Clear) is cast targeting the Licid after it has become an enchantment, but the Licid's controller pays the cost, the Licid will no longer be an enchantment. This will result in the spell failing to resolve for having no legal targets.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Stronghold</Set>
@@ -1378,7 +1378,7 @@ Enchanted creature can't block.</CardText>
 <Type>Sorcery</Type>
 <ManaCost>XRR (2)</ManaCost>
 <CardText>Buyback {3} (You may pay an additional {3} as you cast this spell. If you do, put this card into your hand as it resolves.)
-Fanning the Flames deals X damage to target creature or player.</CardText>
+Fanning the Flames deals X damage to any target.</CardText>
 <Artist>Ron Spencer</Artist>
 <Multiverseid>5148</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1393,7 +1393,7 @@ Fanning the Flames deals X damage to target creature or player.</CardText>
 <Name>Flame Wave</Name>
 <Type>Sorcery</Type>
 <ManaCost>3RRRR (7)</ManaCost>
-<CardText>Flame Wave deals 4 damage to target player and each creature he or she controls.</CardText>
+<CardText>Flame Wave deals 4 damage to target player or planeswalker and each creature that player or that planeswalker's controller controls.</CardText>
 <Flavor>"I hear the roaring of a wave whose waters are red and whose mists are black."
 —Oracle en-Vec</Flavor>
 <Artist>Donato Giancola</Artist>
@@ -1411,8 +1411,8 @@ Fanning the Flames deals X damage to target creature or player.</CardText>
 <Name>Fling</Name>
 <Type>Instant</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>As an additional cost to cast Fling, sacrifice a creature.
-Fling deals damage equal to the sacrificed creature's power to target creature or player.</CardText>
+<CardText>As an additional cost to cast this spell, sacrifice a creature.
+Fling deals damage equal to the sacrificed creature's power to any target.</CardText>
 <Flavor>It's raining rats and moggs.</Flavor>
 <Artist>Paolo Parente</Artist>
 <Multiverseid>5151</Multiverseid>
@@ -1522,7 +1522,7 @@ Fling deals damage equal to the sacrificed creature's power to target creature o
 <ManaCost>1R (2)</ManaCost>
 <CardText>Whenever a creature blocks, Heat of Battle deals 1 damage to that creature's controller.</CardText>
 <Flavor>"Takara, it's me!" shouted Starke. It was no use—she obeyed Volrath.</Flavor>
-<Artist>Matthew Wilson</Artist>
+<Artist>Matthew D. Wilson</Artist>
 <Multiverseid>5165</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1553,7 +1553,7 @@ The attacking player chooses how each creature blocks each combat.</CardText>
 <Name>Mob Justice</Name>
 <Type>Sorcery</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>Mob Justice deals damage to target player equal to the number of creatures you control.</CardText>
+<CardText>Mob Justice deals damage to target player or planeswalker equal to the number of creatures you control.</CardText>
 <Flavor>A single stone can start an avalanche.</Flavor>
 <Artist>Ron Spencer</Artist>
 <Multiverseid>5101</Multiverseid>
@@ -1570,12 +1570,12 @@ The attacking player chooses how each creature blocks each combat.</CardText>
 <Name>Mogg Bombers</Name>
 <Type>Creature — Goblin 3/4</Type>
 <ManaCost>3R (4)</ManaCost>
-<CardText>When another creature enters the battlefield, sacrifice Mogg Bombers and it deals 3 damage to target player.</CardText>
+<CardText>When another creature enters the battlefield, sacrifice Mogg Bombers and it deals 3 damage to target player or planeswalker.</CardText>
 <Flavor>Behind every great mogg bomber is another mogg with a shovel and a basket.</Flavor>
 <Artist>Dermot Power</Artist>
 <Multiverseid>4980</Multiverseid>
 <Rulings>2004/10/04: The <Mogg Bombers> do trigger on any creatures that enter the battlefield at the same time they do.
-2011/01/25: If multiple creatures enter the battlefield at the same time, the ability triggers once for each of them. You may choose a different target player for each time it triggers.
+2011/01/25: If multiple creatures enter the battlefield at the same time, the ability triggers once for each of them. You may choose a different target player or planeswalker for each time it triggers.
 2011/01/25: The damage is dealt whether or not you sacrifice the <Mogg Bombers>. For instance, if <Mogg Bombers> is destroyed or sacrificed in between the time when the ability triggers and when it resolves, then the targeted player will still be dealt 3 damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1593,11 +1593,11 @@ The attacking player chooses how each creature blocks each combat.</CardText>
 <Flavor>They'll attack whatever's in front of them—as long as you tell them where that is.</Flavor>
 <Artist>Brom</Artist>
 <Multiverseid>5100</Multiverseid>
-<Rulings>2017/03/14: <Mogg Flunkies> can be declared as an attacker only if another creature is declared as an attacker at the same time. Similarly, <Mogg Flunkies> can be declared as a blocker only if another creature is declared as a blocker at the same time.
-2017/03/14: Two or more <Mogg Flunkies> can attack or block together.
-2017/03/14: Although <Mogg Flunkies> can't attack alone, other attacking creature(s) don't have to attack the same player or planeswalker. For example, <Mogg Flunkies> could attack an opponent and another creature could attack a planeswalker that opponent controls.
-2017/03/14: If an effect says that <Mogg Flunkies> attacks or blocks if able and you control another creature able to attack or block, you must attack or block with <Mogg Flunkies> and that creature.
-2017/03/14: In a Two-Headed Giant game (or in another format using the shared team turns option), <Mogg Flunkies> can attack or block with a creature controlled by your teammate, even if no other creatures you control are attacking or blocking. In any other multiplayer variant, it ignores each other player's blocking creatures.</Rulings>
+<Rulings>2018/03/16: If you control more than one <Mogg Flunkies>, they can attack or block together, even if no other creatures attack or block.
+2018/03/16: Although <Mogg Flunkies> can't attack alone, other attacking creatures don't have to attack the same player or planeswalker. For example, <Mogg Flunkies> could attack an opponent and another creature could attack a planeswalker that opponent controls. Similarly, other blocking creatures don't have to block the same creature that <Mogg Flunkies> blocks.
+2018/03/16: Once <Mogg Flunkies> has attacked or blocked, it will remain in combat even if you no longer control another attacking or blocking creature.
+2018/03/16: If an effect says that <Mogg Flunkies> attacks or blocks if able and you control another creature able to attack or block, you must attack or block with <Mogg Flunkies> and that creature.
+2018/03/16: In a Two-Headed Giant game, <Mogg Flunkies> can attack or block with a creature controlled by your teammate, even if no other creatures you control are attacking or blocking.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1626,7 +1626,7 @@ The attacking player chooses how each creature blocks each combat.</CardText>
 <Name>Mogg Maniac</Name>
 <Type>Creature — Goblin 1/1</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>Whenever Mogg Maniac is dealt damage, it deals that much damage to target opponent.</CardText>
+<CardText>Whenever Mogg Maniac is dealt damage, it deals that much damage to target opponent or planeswalker.</CardText>
 <Flavor>Stand clear if he gets an itch.</Flavor>
 <Artist>Brian Snõddy</Artist>
 <Multiverseid>5120</Multiverseid>
@@ -1677,7 +1677,7 @@ Target creature gets +3/+0 until end of turn.</CardText>
 <Type>Creature — Phoenix 2/2</Type>
 <ManaCost>4R (5)</ManaCost>
 <CardText>Flying (This creature can't be blocked except by creatures with flying or reach.)
-Sacrifice Shard Phoenix: Shard Phoenix deals 2 damage to each creature without flying.
+Sacrifice Shard Phoenix: It deals 2 damage to each creature without flying.
 {R}{R}{R}: Return Shard Phoenix from your graveyard to your hand. Activate this ability only during your upkeep.</CardText>
 <Artist>Paolo Parente</Artist>
 <Multiverseid>5155</Multiverseid>
@@ -1696,7 +1696,7 @@ Sacrifice Shard Phoenix: Shard Phoenix deals 2 damage to each creature without f
 <Name>Shock</Name>
 <Type>Instant</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>Shock deals 2 damage to target creature or player.</CardText>
+<CardText>Shock deals 2 damage to any target.</CardText>
 <Flavor>Lightning tethers souls to the world.
 —Kor saying</Flavor>
 <Artist>Randy Gallegos</Artist>
@@ -1748,7 +1748,7 @@ First strike</CardText>
 <Name>Bandage</Name>
 <Type>Instant</Type>
 <ManaCost>W (1)</ManaCost>
-<CardText>Prevent the next 1 damage that would be dealt to target creature or player this turn.
+<CardText>Prevent the next 1 damage that would be dealt to any target this turn.
 Draw a card.</CardText>
 <Flavor>Takara shook with guilt. She knew the last image her father had seen was her sword flashing toward him.</Flavor>
 <Artist>Rebecca Guay</Artist>
@@ -1772,7 +1772,7 @@ Enchanted creature can't attack.</CardText>
 <Artist>D. Alexander Gregory</Artist>
 <Multiverseid>5117</Multiverseid>
 <Rulings>2013/04/15: Paying the cost to end the effect is a special action and can't be responded to.
-2013/04/15: If a spell that can target enchantments but not creatures (such as Clear) is cast targeting the Licid after it has become an enchantment, but the Licid's controller pays the cost, the Licid will no longer be an enchantment. This will result in the spell being countered on resolution for having no legal targets.</Rulings>
+2013/04/15: If a spell that can target enchantments but not creatures (such as Clear) is cast targeting the Licid after it has become an enchantment, but the Licid's controller pays the cost, the Licid will no longer be an enchantment. This will result in the spell failing to resolve for having no legal targets.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Stronghold</Set>
@@ -1843,7 +1843,7 @@ Enchanted creature gets +1/+3.
 <Flavor>After an hour in the hidey-hole, Squee seriously pondered the advantages of danger over boredom.</Flavor>
 <Artist>Terese Nielsen</Artist>
 <Multiverseid>5169</Multiverseid>
-<Rulings>2004/10/04: This can be used on damage to a creature or player.
+<Rulings>2004/10/04: This can be used on damage to a creature, player, or planeswalker.
 2004/10/04: This can be used on instant or sorcery spells on the stack, but not on abilities.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1988,7 +1988,7 @@ Stitch skin, weave breath.
 <Name>Scapegoat</Name>
 <Type>Instant</Type>
 <ManaCost>W (1)</ManaCost>
-<CardText>As an additional cost to cast Scapegoat, sacrifice a creature.
+<CardText>As an additional cost to cast this spell, sacrifice a creature.
 Return any number of target creatures you control to their owner's hand.</CardText>
 <Flavor>"Enjoy your deception, Vuel," Gerrard said as Volrath's features melted from the dead shapeshifter. "I'll count this one as practice."</Flavor>
 <Artist>Daren Bader</Artist>
@@ -2107,7 +2107,7 @@ Whenever Soltari Champion attacks, other creatures you control get +1/+1 until e
 <CardText>Prevent the next X damage that would be dealt to target creature this turn. For each 1 damage prevented this way, put a +1/+1 counter on that creature.</CardText>
 <Flavor>"I don't need a plan, just a goal. The rest will follow on its own."
 —Gerrard</Flavor>
-<Artist>Matthew Wilson</Artist>
+<Artist>Matthew D. Wilson</Artist>
 <Multiverseid>5251</Multiverseid>
 <Rulings>2004/10/04: You can make X be larger than the amount of damage, but you only get one counter for each actual point of damage prevented.
 2004/10/04: The +1/+1 counters do show up at the same time as any unprevented damage, which means they are there before you check for lethal damage.</Rulings>
@@ -2239,8 +2239,7 @@ Whenever Warrior Angel deals damage, you gain that much life.</CardText>
 —Gerrard</Flavor>
 <Artist>Pete Venters</Artist>
 <Multiverseid>5124</Multiverseid>
-<Rulings>2004/10/04: All creatures on the battlefield (including yours) are subject to the restriction based on the number of cards in your hand.
-2004/10/04: It only checks the cards in your hand when declaring attackers. Once they are declared, changes to your hand size or to the power of the creatures will not remove creatures from the attack.</Rulings>
+<Rulings>2018/03/16: <Ensnaring Bridge>'s effect checks the number of cards in your hand only while a player (including you) is declaring attackers. Once a creature has legally attacked, changing its power or the number of cards in your hand won't remove it from combat.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2311,7 +2310,7 @@ Whenever Warrior Angel deals damage, you gain that much life.</CardText>
 <ManaCost>2 (2)</ManaCost>
 <CardText>Whenever a nontoken permanent is put into your graveyard from the battlefield, Jinxed Ring deals 1 damage to you.
 Sacrifice a creature: Target opponent gains control of Jinxed Ring. (This effect lasts indefinitely.)</CardText>
-<Artist>M. W. Kaluta and DiTerlizzi</Artist>
+<Artist>M. W. Kaluta & DiTerlizzi</Artist>
 <Multiverseid>5177</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2326,7 +2325,7 @@ Sacrifice a creature: Target opponent gains control of Jinxed Ring. (This effect
 <Type>Artifact</Type>
 <ManaCost>0 (0)</ManaCost>
 <CardText>If Mox Diamond would enter the battlefield, you may discard a land card instead. If you do, put Mox Diamond onto the battlefield. If you don't, put it into its owner's graveyard.
-{T}: Add one mana of any color to your mana pool.</CardText>
+{T}: Add one mana of any color.</CardText>
 <Artist>Dan Frazier</Artist>
 <Multiverseid>5193</Multiverseid>
 <Rulings>2008/05/01: If you don't discard a land card, <Mox Diamond> never enters the battlefield. It won't trigger abilities that look for something entering the battlefield, and you won't get the opportunity to tap it for mana.</Rulings>
@@ -2349,7 +2348,7 @@ Sacrifice a creature: Target opponent gains control of Jinxed Ring. (This effect
 <Rulings>2004/10/04: Creatures which are phasing in will not trigger this card's ability.
 2004/10/04: If the creature that triggered <Portcullis> is no longer on the battlefield when the ability resolves, then it fails to do anything.
 2004/10/04: You check the count of the number of creatures on the battlefield again during resolution. The creature will not be exiled if the count is 2 or less.
-2009/10/01: The creature does enter the battlefield, so any other abilities that trigger on it entering the battlefield trigger. This follows the normal rules for timing triggered abilities: first, the current player puts his or her abilities on the stack in any order, then each other player in turn order does the same. <Portcullis>' own ability is included in this, so it could result in the creature being exiled after some abilities have resolved, but before others.
+2009/10/01: The creature does enter the battlefield, so any other abilities that trigger on it entering the battlefield trigger. This follows the normal rules for timing triggered abilities: first, the current player puts their abilities on the stack in any order, then each other player in turn order does the same. <Portcullis>' own ability is included in this, so it could result in the creature being exiled after some abilities have resolved, but before others.
 2009/10/01: The "when <Portcullis> leaves the battlefield" ability is set up as part of the ability that exiles the creature. It will trigger when <Portcullis> leaves the battlefield even if <Portcullis> has somehow lost its abilities at that time.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2414,7 +2413,7 @@ Shifting Wall enters the battlefield with X +1/+1 counters on it.</CardText>
 <No>137</No>
 <Name>Volrath's Stronghold</Name>
 <Type>Legendary Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {1}{B}, {T}: Put target creature card from your graveyard on top of your library.</CardText>
 <Flavor>The seed of a world's evil.</Flavor>
 <Artist>Kev Walker</Artist>
@@ -2432,7 +2431,7 @@ Shifting Wall enters the battlefield with X +1/+1 counters on it.</CardText>
 <Name>Acidic Sliver</Name>
 <Type>Creature — Sliver 2/2</Type>
 <ManaCost>BR (2)</ManaCost>
-<CardText>All Slivers have "{2}, Sacrifice this permanent: This permanent deals 2 damage to target creature or player."</CardText>
+<CardText>All Slivers have "{2}, Sacrifice this permanent: This permanent deals 2 damage to any target."</CardText>
 <Flavor>The first sliver burst against the cave wall, and others piled in behind to deepen the new tunnel.</Flavor>
 <Artist>Jeff Miracola</Artist>
 <Multiverseid>5108</Multiverseid>

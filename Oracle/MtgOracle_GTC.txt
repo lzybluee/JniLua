@@ -247,7 +247,7 @@ Sacrifice Frontline Medic: Counter target spell with {X} in its mana cost unless
 <Artist>David Rapoza</Artist>
 <Multiverseid>366345</Multiverseid>
 <Rulings>2013/01/24: You put a loyalty counter on <Gideon, Champion of Justice> as part of the cost of activating the first ability. When that ability resolves, you count the number of creatures controlled by the target opponent and put that many additional loyalty counters on Gideon.
-2013/01/24: If the first ability is countered (perhaps because the target opponent is an illegal target when the ability tries to resolve), you won't put any additional loyalty counters on Gideon, although the loyalty counter you put on him to activate the ability will remain.
+2013/01/24: If the first ability doesn't resolve (perhaps because the target opponent is an illegal target when the ability tries to resolve), you won't put any additional loyalty counters on Gideon, although the loyalty counter you put on him to activate the ability will remain.
 2013/01/24: If <Gideon, Champion of Justice> becomes a creature due to his second ability, that doesn't count as having a creature enter the battlefield. Gideon was already on the battlefield; he only changed his types. Abilities that trigger whenever a creature enters the battlefield won't trigger.
 2013/01/24: <Gideon, Champion of Justice>'s power and toughness are set to the number of loyalty counters on him when his second ability resolves. They won't change later in the turn if the number of loyalty counters on him changes.
 2013/01/24: If <Gideon, Champion of Justice> becomes a creature the same turn he enters the battlefield, you can't attack with him or use any of his {T} abilities (if he gains any).
@@ -737,7 +737,7 @@ Cipher (Then you may exile this spell card encoded on a creature you control. Wh
 2013/01/24: If a different player gains control of the creature that was tapped by <Hands of Binding>, <Hands of Binding> will stop that creature from untapping during its new controller's next untap step.
 2013/04/15: The spell with cipher is encoded on the creature as part of that spell's resolution, just after the spell's other effects. That card goes directly from the stack to exile. It never goes to the graveyard.
 2013/04/15: You choose the creature as the spell resolves. The cipher ability doesn't target that creature, although the spell with cipher may target that creature (or a different creature) because of its other abilities.
-2013/04/15: If the spell with cipher is countered, none of its effects will happen, including cipher. The card will go to its owner's graveyard and won't be encoded on a creature.
+2013/04/15: If the spell with cipher doesn't resolve, none of its effects will happen, including cipher. The card will go to its owner's graveyard and won't be encoded on a creature.
 2013/04/15: If the creature leaves the battlefield, the exiled card will no longer be encoded on any creature. It will stay exiled.
 2013/04/15: If you want to encode the card with cipher onto a noncreature permanent such as a Keyrune that can turn into a creature, that permanent has to be a creature before the spell with cipher starts resolving. You can choose only a creature to encode the card onto.
 2013/04/15: The copy of the card with cipher is created in and cast from exile.
@@ -804,7 +804,7 @@ Cipher (Then you may exile this spell card encoded on a creature you control. Wh
 <Multiverseid>366407</Multiverseid>
 <Rulings>2013/04/15: The spell with cipher is encoded on the creature as part of that spell's resolution, just after the spell's other effects. That card goes directly from the stack to exile. It never goes to the graveyard.
 2013/04/15: You choose the creature as the spell resolves. The cipher ability doesn't target that creature, although the spell with cipher may target that creature (or a different creature) because of its other abilities.
-2013/04/15: If the spell with cipher is countered, none of its effects will happen, including cipher. The card will go to its owner's graveyard and won't be encoded on a creature.
+2013/04/15: If the spell with cipher doesn't resolve, none of its effects will happen, including cipher. The card will go to its owner's graveyard and won't be encoded on a creature.
 2013/04/15: If the creature leaves the battlefield, the exiled card will no longer be encoded on any creature. It will stay exiled.
 2013/04/15: If you want to encode the card with cipher onto a noncreature permanent such as a Keyrune that can turn into a creature, that permanent has to be a creature before the spell with cipher starts resolving. You can choose only a creature to encode the card onto.
 2013/04/15: The copy of the card with cipher is created in and cast from exile.
@@ -863,7 +863,7 @@ Cipher (Then you may exile this spell card encoded on a creature you control. Wh
 <Type>Creature — Drake 2/5</Type>
 <ManaCost>4U (5)</ManaCost>
 <CardText>Flying
-When Mindeye Drake dies, target player puts the top five cards of his or her library into his or her graveyard.</CardText>
+When Mindeye Drake dies, target player puts the top five cards of their library into their graveyard.</CardText>
 <Flavor>They can map both the cityscape and the minds of its architects.</Flavor>
 <Artist>Lars Grant-West</Artist>
 <Multiverseid>366284</Multiverseid>
@@ -885,7 +885,7 @@ When Mindeye Drake dies, target player puts the top five cards of his or her lib
 —Speaker Trifon</Flavor>
 <Artist>Jack Wang</Artist>
 <Multiverseid>366388</Multiverseid>
-<Rulings>2013/01/24: If the creature is an illegal target when <Rapid Hybridization> tries to resolve, it will be countered and none of its effects will happen. No Frog Lizard token will be created.
+<Rulings>2013/01/24: If the creature is an illegal target when <Rapid Hybridization> tries to resolve, it won't resolve and none of its effects will happen. No Frog Lizard token will be created.
 2013/07/01: If <Rapid Hybridization> resolves and the creature isn't destroyed (perhaps because it has indestructible), its controller will still get the Frog Lizard token.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -920,7 +920,7 @@ Lands you control are the chosen type in addition to their other types.</CardTex
 <Name>Sage's Row Denizen</Name>
 <Type>Creature — Vedalken Wizard 2/3</Type>
 <ManaCost>2U (3)</ManaCost>
-<CardText>Whenever another blue creature enters the battlefield under your control, target player puts the top two cards of his or her library into his or her graveyard.</CardText>
+<CardText>Whenever another blue creature enters the battlefield under your control, target player puts the top two cards of their library into their graveyard.</CardText>
 <Flavor>"I offer you wisdom untainted by false loyalty, learning free of any guild's agenda."</Flavor>
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>366406</Multiverseid>
@@ -979,7 +979,7 @@ Draw a card.</CardText>
 <Watermark>Simic</Watermark>
 <Multiverseid>366274</Multiverseid>
 <Rulings>2013/01/24: To move a counter from one creature to another, the counter is removed from the first creature and placed on the second. Any abilities that care about a counter being placed on the second creature will apply.
-2013/01/24: If the creature is an illegal target when <Simic Fluxmage>'s ability tries to resolve, it will be countered and none of its effects will happen. No counters will be removed from <Simic Fluxmage>.
+2013/01/24: If the creature is an illegal target when <Simic Fluxmage>'s ability tries to resolve, it won't resolve and none of its effects will happen. No counters will be removed from <Simic Fluxmage>.
 2013/04/15: When comparing the stats of the two creatures for evolve, you always compare power to power and toughness to toughness.
 2013/04/15: Whenever a creature enters the battlefield under your control, check its power and toughness against the power and toughness of the creature with evolve. If neither stat of the new creature is greater, evolve won't trigger at all.
 2013/04/15: If evolve triggers, the stat comparison will happen again when the ability tries to resolve. If neither stat of the new creature is greater, the ability will do nothing. If the creature that entered the battlefield leaves the battlefield before evolve tries to resolve, use its last known power and toughness to compare the stats.
@@ -1004,7 +1004,7 @@ Draw a card.</CardText>
 <Artist>Maciej Kuciara</Artist>
 <Watermark>Simic</Watermark>
 <Multiverseid>366343</Multiverseid>
-<Rulings>2013/01/24: The power of the target creature is checked both as you target it and as the ability resolves. If the power of the target creature when the ability resolves is greater than the number of +1/+1 counters removed from <Simic Manipulator>, the ability will be countered and none of its effects will happen. You won't gain control of any creature, but the counters removed as a cost remain removed.
+<Rulings>2013/01/24: The power of the target creature is checked both as you target it and as the ability resolves. If the power of the target creature when the ability resolves is greater than the number of +1/+1 counters removed from <Simic Manipulator>, the ability won't resolve and none of its effects will happen. You won't gain control of any creature, but the counters removed as a cost remain removed.
 2013/04/15: When comparing the stats of the two creatures for evolve, you always compare power to power and toughness to toughness.
 2013/04/15: Whenever a creature enters the battlefield under your control, check its power and toughness against the power and toughness of the creature with evolve. If neither stat of the new creature is greater, evolve won't trigger at all.
 2013/04/15: If evolve triggers, the stat comparison will happen again when the ability tries to resolve. If neither stat of the new creature is greater, the ability will do nothing. If the creature that entered the battlefield leaves the battlefield before evolve tries to resolve, use its last known power and toughness to compare the stats.
@@ -1047,7 +1047,7 @@ Enchanted land has "{T}: Target creature gains flying until end of turn. Activat
 —Jalan Tosk, Simic forcemage</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>366372</Multiverseid>
-<Rulings>2013/01/24: The value of X is the greatest power among creatures you control when <Spell Rupture> resolves. If you control no creatures at that time, X will be 0. The target spell's controller can choose to pay {0} (simply by indicating he or she wishes to do so). That player can also choose to not pay {0} and the spell will be countered.</Rulings>
+<Rulings>2013/01/24: The value of X is the greatest power among creatures you control when <Spell Rupture> resolves. If you control no creatures at that time, X will be 0. The target spell's controller can choose to pay {0} (simply by indicating they wish to do so). That player can also choose to not pay {0} and the spell will be countered.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1074,7 +1074,7 @@ Cipher (Then you may exile this spell card encoded on a creature you control. Wh
 2013/01/24: Any enters-the-battlefield abilities of the copied permanent will trigger when the token enters the battlefield. Any "as [this permanent] enters the battlefield" or "[this permanent] enters the battlefield with" abilities of the chosen permanent will also work.
 2013/04/15: The spell with cipher is encoded on the creature as part of that spell's resolution, just after the spell's other effects. That card goes directly from the stack to exile. It never goes to the graveyard.
 2013/04/15: You choose the creature as the spell resolves. The cipher ability doesn't target that creature, although the spell with cipher may target that creature (or a different creature) because of its other abilities.
-2013/04/15: If the spell with cipher is countered, none of its effects will happen, including cipher. The card will go to its owner's graveyard and won't be encoded on a creature.
+2013/04/15: If the spell with cipher doesn't resolve, none of its effects will happen, including cipher. The card will go to its owner's graveyard and won't be encoded on a creature.
 2013/04/15: If the creature leaves the battlefield, the exiled card will no longer be encoded on any creature. It will stay exiled.
 2013/04/15: If you want to encode the card with cipher onto a noncreature permanent such as a Keyrune that can turn into a creature, that permanent has to be a creature before the spell with cipher starts resolving. You can choose only a creature to encode the card onto.
 2013/04/15: The copy of the card with cipher is created in and cast from exile.
@@ -1120,7 +1120,7 @@ Cipher (Then you may exile this spell card encoded on a creature you control. Wh
 <Multiverseid>366474</Multiverseid>
 <Rulings>2013/04/15: The spell with cipher is encoded on the creature as part of that spell's resolution, just after the spell's other effects. That card goes directly from the stack to exile. It never goes to the graveyard.
 2013/04/15: You choose the creature as the spell resolves. The cipher ability doesn't target that creature, although the spell with cipher may target that creature (or a different creature) because of its other abilities.
-2013/04/15: If the spell with cipher is countered, none of its effects will happen, including cipher. The card will go to its owner's graveyard and won't be encoded on a creature.
+2013/04/15: If the spell with cipher doesn't resolve, none of its effects will happen, including cipher. The card will go to its owner's graveyard and won't be encoded on a creature.
 2013/04/15: If the creature leaves the battlefield, the exiled card will no longer be encoded on any creature. It will stay exiled.
 2013/04/15: If you want to encode the card with cipher onto a noncreature permanent such as a Keyrune that can turn into a creature, that permanent has to be a creature before the spell with cipher starts resolving. You can choose only a creature to encode the card onto.
 2013/04/15: The copy of the card with cipher is created in and cast from exile.
@@ -1162,10 +1162,10 @@ Enchanted creature can't be blocked as long as you control a Gate.</CardText>
 <Type>Creature — Vampire Rogue 2/3</Type>
 <ManaCost>3B (4)</ManaCost>
 <CardText>Flying
-When Balustrade Spy enters the battlefield, target player reveals cards from the top of his or her library until he or she reveals a land card, then puts those cards into his or her graveyard.</CardText>
+When Balustrade Spy enters the battlefield, target player reveals cards from the top of their library until they reveal a land card, then puts those cards into their graveyard.</CardText>
 <Artist>Jaime Jones</Artist>
 <Multiverseid>366464</Multiverseid>
-<Rulings>2017/11/17: If the target player has no land cards in his or her library, all cards from that library will be revealed and put into his or her graveyard.</Rulings>
+<Rulings>2017/11/17: If the target player has no land cards in their library, all cards from that library will be revealed and put into their graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1244,7 +1244,7 @@ Sacrifice another creature: Corpse Blockade gains deathtouch until end of turn.<
 <Type>Creature — Spirit 2/2</Type>
 <ManaCost>3B (4)</ManaCost>
 <CardText>Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)
-Whenever you tap a Swamp for mana, add {B} to your mana pool (in addition to the mana the land produces).</CardText>
+Whenever you tap a Swamp for mana, add an additional {B}.</CardText>
 <Artist>Chris Rahn</Artist>
 <Watermark>Orzhov</Watermark>
 <Multiverseid>366452</Multiverseid>
@@ -1288,7 +1288,7 @@ Enchanted creature gets -X/-X, where X is the number of creature cards in its co
 <Flavor>His twisted mind concluded that if he was what he ate, and he wanted to stay human, . . .</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>366379</Multiverseid>
-<Rulings>2013/01/24: <Devour Flesh> targets only a player. It doesn't target any creatures. The target player chooses which creature to sacrifice when the spell resolves. That player can sacrifice only a creature he or she controls.
+<Rulings>2013/01/24: <Devour Flesh> targets only a player. It doesn't target any creatures. The target player chooses which creature to sacrifice when the spell resolves. That player can sacrifice only a creature they control.
 2013/01/24: The amount of life gained is equal to the creature's toughness as it last existed on the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1342,13 +1342,13 @@ Tap an untapped Gate you control: Gateway Shade gets +2/+2 until end of turn.</C
 <Name>Grisly Spectacle</Name>
 <Type>Instant</Type>
 <ManaCost>2BB (4)</ManaCost>
-<CardText>Destroy target nonartifact creature. Its controller puts a number of cards equal to that creature's power from the top of his or her library into his or her graveyard.</CardText>
+<CardText>Destroy target nonartifact creature. Its controller puts a number of cards equal to that creature's power from the top of their library into their graveyard.</CardText>
 <Flavor>"Watch people flock to a murder scene. Then tell me we're not all a little sick in the head."
 —Juri, proprietor of the Juri Revue</Flavor>
 <Artist>Zoltan Boros</Artist>
 <Multiverseid>366396</Multiverseid>
-<Rulings>2017/11/17: Use the creature's power the last time it was on the battlefield to determine how many cards its controller puts into his or her graveyard.
-2017/11/17: If the creature is an illegal target when <Grisly Spectacle> tries to resolve, it will be countered and none of its effects will happen. The creature's controller won't put any cards into his or her graveyard.</Rulings>
+<Rulings>2017/11/17: Use the creature's power the last time it was on the battlefield to determine how many cards its controller puts into their graveyard.
+2017/11/17: If the creature is an illegal target when <Grisly Spectacle> tries to resolve, it won't resolve and none of its effects will happen. The creature's controller won't put any cards into their graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1420,7 +1420,7 @@ Tap an untapped Gate you control: Gateway Shade gets +2/+2 until end of turn.</C
 <Flavor>A casual glance into a dark corner may be your last.</Flavor>
 <Artist>Peter Mohrbacher</Artist>
 <Multiverseid>366466</Multiverseid>
-<Rulings>2013/01/24: The power of the target creature is checked both as you target it and as <Killing Glare> resolves. If its power is greater than the value chosen for X when <Killing Glare> tries to resolve, it will be countered and none of its effects will happen.</Rulings>
+<Rulings>2013/01/24: The power of the target creature is checked both as you target it and as <Killing Glare> resolves. If its power is greater than the value chosen for X when <Killing Glare> tries to resolve, it won't resolve and none of its effects will happen.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1459,7 +1459,7 @@ Cipher (Then you may exile this spell card encoded on a creature you control. Wh
 <Multiverseid>366373</Multiverseid>
 <Rulings>2013/04/15: The spell with cipher is encoded on the creature as part of that spell's resolution, just after the spell's other effects. That card goes directly from the stack to exile. It never goes to the graveyard.
 2013/04/15: You choose the creature as the spell resolves. The cipher ability doesn't target that creature, although the spell with cipher may target that creature (or a different creature) because of its other abilities.
-2013/04/15: If the spell with cipher is countered, none of its effects will happen, including cipher. The card will go to its owner's graveyard and won't be encoded on a creature.
+2013/04/15: If the spell with cipher doesn't resolve, none of its effects will happen, including cipher. The card will go to its owner's graveyard and won't be encoded on a creature.
 2013/04/15: If the creature leaves the battlefield, the exiled card will no longer be encoded on any creature. It will stay exiled.
 2013/04/15: If you want to encode the card with cipher onto a noncreature permanent such as a Keyrune that can turn into a creature, that permanent has to be a creature before the spell with cipher starts resolving. You can choose only a creature to encode the card onto.
 2013/04/15: The copy of the card with cipher is created in and cast from exile.
@@ -1488,7 +1488,7 @@ Cipher (Then you may exile this spell card encoded on a creature you control. Wh
 <Multiverseid>366476</Multiverseid>
 <Rulings>2013/04/15: The spell with cipher is encoded on the creature as part of that spell's resolution, just after the spell's other effects. That card goes directly from the stack to exile. It never goes to the graveyard.
 2013/04/15: You choose the creature as the spell resolves. The cipher ability doesn't target that creature, although the spell with cipher may target that creature (or a different creature) because of its other abilities.
-2013/04/15: If the spell with cipher is countered, none of its effects will happen, including cipher. The card will go to its owner's graveyard and won't be encoded on a creature.
+2013/04/15: If the spell with cipher doesn't resolve, none of its effects will happen, including cipher. The card will go to its owner's graveyard and won't be encoded on a creature.
 2013/04/15: If the creature leaves the battlefield, the exiled card will no longer be encoded on any creature. It will stay exiled.
 2013/04/15: If you want to encode the card with cipher onto a noncreature permanent such as a Keyrune that can turn into a creature, that permanent has to be a creature before the spell with cipher starts resolving. You can choose only a creature to encode the card onto.
 2013/04/15: The copy of the card with cipher is created in and cast from exile.
@@ -1574,7 +1574,7 @@ Cipher (Then you may exile this spell card encoded on a creature you control. Wh
 <Multiverseid>366455</Multiverseid>
 <Rulings>2013/04/15: The spell with cipher is encoded on the creature as part of that spell's resolution, just after the spell's other effects. That card goes directly from the stack to exile. It never goes to the graveyard.
 2013/04/15: You choose the creature as the spell resolves. The cipher ability doesn't target that creature, although the spell with cipher may target that creature (or a different creature) because of its other abilities.
-2013/04/15: If the spell with cipher is countered, none of its effects will happen, including cipher. The card will go to its owner's graveyard and won't be encoded on a creature.
+2013/04/15: If the spell with cipher doesn't resolve, none of its effects will happen, including cipher. The card will go to its owner's graveyard and won't be encoded on a creature.
 2013/04/15: If the creature leaves the battlefield, the exiled card will no longer be encoded on any creature. It will stay exiled.
 2013/04/15: If you want to encode the card with cipher onto a noncreature permanent such as a Keyrune that can turn into a creature, that permanent has to be a creature before the spell with cipher starts resolving. You can choose only a creature to encode the card onto.
 2013/04/15: The copy of the card with cipher is created in and cast from exile.
@@ -1678,11 +1678,11 @@ Creatures with flying your opponents control get -1/-1.</CardText>
 <Name>Undercity Informer</Name>
 <Type>Creature — Human Rogue 2/3</Type>
 <ManaCost>2B (3)</ManaCost>
-<CardText>{1}, Sacrifice a creature: Target player reveals cards from the top of his or her library until he or she reveals a land card, then puts those cards into his or her graveyard.</CardText>
+<CardText>{1}, Sacrifice a creature: Target player reveals cards from the top of their library until they reveal a land card, then puts those cards into their graveyard.</CardText>
 <Flavor>"Scandal and slander are never welcome news. That's why I'm never the messenger."</Flavor>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>366271</Multiverseid>
-<Rulings>2013/01/24: If the target player has no land cards in his or her library, all cards from that library will be revealed and put into his or her graveyard.</Rulings>
+<Rulings>2013/01/24: If the target player has no land cards in their library, all cards from that library will be revealed and put into their graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1703,7 +1703,7 @@ Cipher (Then you may exile this spell card encoded on a creature you control. Wh
 <Multiverseid>366231</Multiverseid>
 <Rulings>2013/04/15: The spell with cipher is encoded on the creature as part of that spell's resolution, just after the spell's other effects. That card goes directly from the stack to exile. It never goes to the graveyard.
 2013/04/15: You choose the creature as the spell resolves. The cipher ability doesn't target that creature, although the spell with cipher may target that creature (or a different creature) because of its other abilities.
-2013/04/15: If the spell with cipher is countered, none of its effects will happen, including cipher. The card will go to its owner's graveyard and won't be encoded on a creature.
+2013/04/15: If the spell with cipher doesn't resolve, none of its effects will happen, including cipher. The card will go to its owner's graveyard and won't be encoded on a creature.
 2013/04/15: If the creature leaves the battlefield, the exiled card will no longer be encoded on any creature. It will stay exiled.
 2013/04/15: If you want to encode the card with cipher onto a noncreature permanent such as a Keyrune that can turn into a creature, that permanent has to be a creature before the spell with cipher starts resolving. You can choose only a creature to encode the card onto.
 2013/04/15: The copy of the card with cipher is created in and cast from exile.
@@ -1764,7 +1764,7 @@ Cipher (Then you may exile this spell card encoded on a creature you control. Wh
 <Name>Bomber Corps</Name>
 <Type>Creature — Human Soldier 1/2</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>Battalion — Whenever Bomber Corps and at least two other creatures attack, Bomber Corps deals 1 damage to target creature or player.</CardText>
+<CardText>Battalion — Whenever Bomber Corps and at least two other creatures attack, Bomber Corps deals 1 damage to any target.</CardText>
 <Flavor>"Subtlety is for lawmages and spies."</Flavor>
 <Artist>Chase Stone</Artist>
 <Watermark>Boros</Watermark>
@@ -1785,7 +1785,7 @@ Cipher (Then you may exile this spell card encoded on a creature you control. Wh
 <Name>Cinder Elemental</Name>
 <Type>Creature — Elemental 2/2</Type>
 <ManaCost>3R (4)</ManaCost>
-<CardText>{X}{R}, {T}, Sacrifice Cinder Elemental: Cinder Elemental deals X damage to target creature or player.</CardText>
+<CardText>{X}{R}, {T}, Sacrifice Cinder Elemental: Cinder Elemental deals X damage to any target.</CardText>
 <Flavor>"The old gods awoke and sent fingers of fire to see what was left of the old ways under the endless city."
 —Daiva, Gruul storyteller</Flavor>
 <Artist>Svetlin Velinov</Artist>
@@ -1863,7 +1863,7 @@ Cipher (Then you may exile this spell card encoded on a creature you control. Wh
 <Type>Enchantment</Type>
 <ManaCost>1RR (3)</ManaCost>
 <CardText>Whenever a creature you control deals combat damage, put a blaze counter on Five-Alarm Fire.
-Remove five blaze counters from Five-Alarm Fire: Five-Alarm Fire deals 5 damage to target creature or player.</CardText>
+Remove five blaze counters from Five-Alarm Fire: Five-Alarm Fire deals 5 damage to any target.</CardText>
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>366386</Multiverseid>
 <Rulings>2013/01/24: <Five-Alarm Fire>'s first ability triggers once for each time a creature you control deals combat damage, even if it deals combat damage to more than one creature, planeswalker, or player. For example, an attacking creature with trample that deals combat damage to a blocking creature and the defending player will cause <Five-Alarm Fire>'s ability to trigger once. A creature with double strike, however, may cause <Five-Alarm Fire>'s ability to trigger twice during a single combat.</Rulings>
@@ -2032,7 +2032,7 @@ Enchanted creature gets +3/+0 and has menace.</CardText>
 <Name>Massive Raid</Name>
 <Type>Instant</Type>
 <ManaCost>1RR (3)</ManaCost>
-<CardText>Massive Raid deals damage to target creature or player equal to the number of creatures you control.</CardText>
+<CardText>Massive Raid deals damage to any target equal to the number of creatures you control.</CardText>
 <Flavor>"The Boros lack vision. Give them a convenient scapegoat and they'll be blind to the true threats."
 —Lazav</Flavor>
 <Artist>Zoltan Boros</Artist>
@@ -2142,11 +2142,11 @@ When Molten Primordial enters the battlefield, for each opponent, gain control o
 <Name>Skullcrack</Name>
 <Type>Instant</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>Players can't gain life this turn. Damage can't be prevented this turn. Skullcrack deals 3 damage to target player.</CardText>
+<CardText>Players can't gain life this turn. Damage can't be prevented this turn. Skullcrack deals 3 damage to target player or planeswalker.</CardText>
 <Flavor>The lawmage's argument was clever and well reasoned, but Blunk's response proved irrefutable.</Flavor>
 <Artist>Dave Kendall</Artist>
 <Multiverseid>366238</Multiverseid>
-<Rulings>2013/01/24: <Skullcrack> targets only the player. If that player is an illegal target when <Skullcrack> tries to resolve, it will be countered and none of its effects will happen.
+<Rulings>2013/01/24: <Skullcrack> targets only the player. If that player is an illegal target when <Skullcrack> tries to resolve, it won't resolve and none of its effects will happen.
 2013/01/24: Spells and abilities that would cause a player to gain life or that would prevent damage still resolve, but the life-gain and damage-prevention parts have no effect.
 2013/01/24: Effects that would replace gaining life with another effect won't apply because it's impossible for players to gain life.
 2013/01/24: If an effect says to set a player's life total to a certain number and that number is higher than the player's current life total, that part of the effect won't do anything. (If the number is lower than the player's current life total, the effect will work as normal.)</Rulings>
@@ -2169,7 +2169,7 @@ When Molten Primordial enters the battlefield, for each opponent, gain control o
 <Multiverseid>366376</Multiverseid>
 <Rulings>2013/01/24: <Structural Collapse> targets only the player. The player can sacrifice an artifact or land with hexproof, for example.
 2013/01/24: The target player needn't control an artifact or a land. <Structural Collapse> will still deal 2 damage to that player.
-2013/01/24: If the player controls an artifact land, he or she can't choose to sacrifice that permanent for both the artifact and the land. If that's the only artifact the player controls, he or she must sacrifice another land. If it's the only land the player controls, he or she must sacrifice another artifact. If it's the only artifact and the only land the player controls, he or she sacrifices just that permanent.</Rulings>
+2013/01/24: If the player controls an artifact land, they can't choose to sacrifice that permanent for both the artifact and the land. If that's the only artifact the player controls, they must sacrifice another land. If it's the only land the player controls, they must sacrifice another artifact. If it's the only artifact and the only land the player controls, they sacrifice just that permanent.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2488,7 +2488,7 @@ Whenever Giant Adephage deals combat damage to a player, create a token that's a
 <Type>Creature — Elf Druid 1/2</Type>
 <ManaCost>1G (2)</ManaCost>
 <CardText>Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)
-{T}: Add {G} to your mana pool for each +1/+1 counter on Gyre Sage.</CardText>
+{T}: Add {G} for each +1/+1 counter on Gyre Sage.</CardText>
 <Artist>Tyler Jacobson</Artist>
 <Watermark>Simic</Watermark>
 <Multiverseid>366289</Multiverseid>
@@ -2666,7 +2666,7 @@ Whenever Giant Adephage deals combat damage to a player, create a token that's a
 <Artist>David Palumbo</Artist>
 <Multiverseid>366269</Multiverseid>
 <Rulings>2013/01/24: You may choose zero targets when you cast <Serene Remembrance>. If you do, you'll shuffle <Serene Remembrance> into its owner's library when it resolves.
-2013/01/24: If you choose at least one target for <Serene Remembrance>, and all of its targets are illegal when <Serene Remembrance> tries to resolve, it will be countered and none of its effects will happen. You won't shuffle any library and <Serene Remembrance> will be put into its owner's graveyard.
+2013/01/24: If you choose at least one target for <Serene Remembrance>, and all of its targets are illegal when <Serene Remembrance> tries to resolve, it won't resolve and none of its effects will happen. You won't shuffle any library and <Serene Remembrance> will be put into its owner's graveyard.
 2013/01/24: If you give <Serene Remembrance> the flashback ability and cast it from your graveyard, it will be exiled instead of being shuffled into your library. Any other targets will still be shuffled into their owners' library, however.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2777,10 +2777,10 @@ When Sylvan Primordial enters the battlefield, for each opponent, destroy target
 <ManaCost>2G (3)</ManaCost>
 <CardText>Enchant land
 When Verdant Haven enters the battlefield, you gain 2 life.
-Whenever enchanted land is tapped for mana, its controller adds one mana of any color to his or her mana pool (in addition to the mana the land produces).</CardText>
+Whenever enchanted land is tapped for mana, its controller adds an additional one mana of any color.</CardText>
 <Artist>Daniel Ljunggren</Artist>
 <Multiverseid>366471</Multiverseid>
-<Rulings>2014/07/18: If the land targeted by <Verdant Haven> is an illegal target when Verdan Haven tries to resolve, <Verdant Haven> will be countered. It won't enter the battlefield and its enters-the-battlefield ability won't trigger.</Rulings>
+<Rulings>2014/07/18: If the land targeted by <Verdant Haven> is an illegal target when Verdan Haven tries to resolve, <Verdant Haven> won't resolve. It won't enter the battlefield and its enters-the-battlefield ability won't trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2890,14 +2890,13 @@ Whenever Aurelia, the Warleader attacks for the first time each turn, untap all 
 <Name>Aurelia's Fury</Name>
 <Type>Instant</Type>
 <ManaCost>XWR (2)</ManaCost>
-<CardText>Aurelia's Fury deals X damage divided as you choose among any number of target creatures and/or players. Tap each creature dealt damage this way. Players dealt damage this way can't cast noncreature spells this turn.</CardText>
+<CardText>Aurelia's Fury deals X damage divided as you choose among any number of targets. Tap each creature dealt damage this way. Players dealt damage this way can't cast noncreature spells this turn.</CardText>
 <Artist>Tyler Jacobson</Artist>
 <Watermark>Boros</Watermark>
 <Multiverseid>366384</Multiverseid>
 <Rulings>2013/01/24: You announce the value of X and how the damage will be divided as part of casting <Aurelia's Fury>. Each chosen target must receive at least 1 damage.
-2013/01/24: <Aurelia's Fury> can't deal damage to both a planeswalker and that planeswalker's controller. If damage dealt by <Aurelia's Fury> is redirected from a player to a planeswalker he or she controls, that player will be able to cast noncreature spells that turn. If you want to stop a player from casting noncreature spells this turn, you can't choose to redirect the damage to a planeswalker he or she controls.
 2013/01/24: If <Aurelia's Fury> has multiple targets, and some but not all of them are illegal targets when <Aurelia's Fury> resolves, <Aurelia's Fury> will still deal damage to the remaining legal targets according to the original damage division.
-2013/01/24: If all of the targets are illegal when <Aurelia's Fury> tries to resolve, it will be countered and none of its effects will happen. No creature or player will be dealt damage.</Rulings>
+2013/01/24: If all of the targets are illegal when <Aurelia's Fury> tries to resolve, it won't resolve and none of its effects will happen. Nothing will be dealt damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2958,7 +2957,7 @@ You may look at cards exiled with Bane Alley Broker.
 <ManaCost>4RRGG (8)</ManaCost>
 <CardText>Trample
 Whenever Borborygmos Enraged deals combat damage to a player, reveal the top three cards of your library. Put all land cards revealed this way into your hand and the rest into your graveyard.
-Discard a land card: Borborygmos Enraged deals 3 damage to target creature or player.</CardText>
+Discard a land card: Borborygmos Enraged deals 3 damage to any target.</CardText>
 <Artist>Aleksi Briclot</Artist>
 <Watermark>Gruul</Watermark>
 <Multiverseid>366283</Multiverseid>
@@ -2976,7 +2975,7 @@ Discard a land card: Borborygmos Enraged deals 3 damage to target creature or pl
 <Type>Instant</Type>
 <ManaCost>WR (2)</ManaCost>
 <CardText>Choose one —
-• Boros Charm deals 4 damage to target player.
+• Boros Charm deals 4 damage to target player or planeswalker.
 • Permanents you control gain indestructible until end of turn.
 • Target creature gains double strike until end of turn.</CardText>
 <Flavor>"Practice compassion and mercy. But know when they must end."
@@ -3007,7 +3006,7 @@ Cipher (Then you may exile this spell card encoded on a creature you control. Wh
 <Rulings>2013/01/24: You can exile <Call of the Nightwing> encoded on the Horror creature token it just created.
 2013/04/15: The spell with cipher is encoded on the creature as part of that spell's resolution, just after the spell's other effects. That card goes directly from the stack to exile. It never goes to the graveyard.
 2013/04/15: You choose the creature as the spell resolves. The cipher ability doesn't target that creature, although the spell with cipher may target that creature (or a different creature) because of its other abilities.
-2013/04/15: If the spell with cipher is countered, none of its effects will happen, including cipher. The card will go to its owner's graveyard and won't be encoded on a creature.
+2013/04/15: If the spell with cipher doesn't resolve, none of its effects will happen, including cipher. The card will go to its owner's graveyard and won't be encoded on a creature.
 2013/04/15: If the creature leaves the battlefield, the exiled card will no longer be encoded on any creature. It will stay exiled.
 2013/04/15: If you want to encode the card with cipher onto a noncreature permanent such as a Keyrune that can turn into a creature, that permanent has to be a creature before the spell with cipher starts resolving. You can choose only a creature to encode the card onto.
 2013/04/15: The copy of the card with cipher is created in and cast from exile.
@@ -3051,7 +3050,7 @@ Cipher (Then you may exile this spell card encoded on a creature you control. Wh
 <CardText>Choose one or more —
 • Clan Defiance deals X damage to target creature with flying.
 • Clan Defiance deals X damage to target creature without flying.
-• Clan Defiance deals X damage to target player.</CardText>
+• Clan Defiance deals X damage to target player or planeswalker.</CardText>
 <Artist>Daarken</Artist>
 <Watermark>Gruul</Watermark>
 <Multiverseid>366468</Multiverseid>
@@ -3071,11 +3070,11 @@ Cipher (Then you may exile this spell card encoded on a creature you control. Wh
 <Type>Creature — Horror */*</Type>
 <ManaCost>3UB (5)</ManaCost>
 <CardText>Consuming Aberration's power and toughness are each equal to the number of cards in your opponents' graveyards.
-Whenever you cast a spell, each opponent reveals cards from the top of his or her library until he or she reveals a land card, then puts those cards into his or her graveyard.</CardText>
+Whenever you cast a spell, each opponent reveals cards from the top of their library until they reveal a land card, then puts those cards into their graveyard.</CardText>
 <Artist>Karl Kopinski</Artist>
 <Watermark>Dimir</Watermark>
 <Multiverseid>366391</Multiverseid>
-<Rulings>2013/01/24: If any opponent has no land cards in his or her library, all the cards from that library will be revealed and put into his or her graveyard.
+<Rulings>2013/01/24: If any opponent has no land cards in their library, all the cards from that library will be revealed and put into their graveyard.
 2013/01/24: The cards will be put into graveyards before the spell you cast to cause the ability to trigger resolves. However, none of those cards will be in a graveyard as you cast that spell, so they can't be chosen as a target of that spell.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3139,8 +3138,8 @@ When Deathpact Angel dies, create a 1/1 white and black Cleric creature token. I
 <Artist>Johann Bodin</Artist>
 <Watermark>Dimir</Watermark>
 <Multiverseid>366453</Multiverseid>
-<Rulings>2017/03/14: If the target permanent is an illegal target when <Dinrova Horror>'s ability tries to resolve, the ability will be countered and none of its effects will happen. No player will discard a card.
-2017/03/14: If a player has no cards in his or her hand and <Dinrova Horror> returns a card to that player's hand, the player must discard that card. He or she won't have the opportunity to cast that card (or do anything else with it) before discarding it.
+<Rulings>2017/03/14: If the target permanent is an illegal target when <Dinrova Horror>'s ability tries to resolve, the ability won't resolve and none of its effects will happen. No player will discard a card.
+2017/03/14: If a player has no cards in their hand and <Dinrova Horror> returns a card to that player's hand, the player must discard that card. They won't have the opportunity to cast that card (or do anything else with it) before discarding it.
 2017/03/14: A token permanent returned to a player's hand isn't a card and can't be discarded. It will cease to exist when state-based actions are performed after the ability finishes resolving.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3196,7 +3195,7 @@ When Deathpact Angel dies, create a 1/1 white and black Cleric creature token. I
 <Type>Creature — Human Wizard 2/2</Type>
 <ManaCost>UB (2)</ManaCost>
 <CardText>{1}{U}{B}: Whenever a card is put into an opponent's graveyard from anywhere this turn, that player loses 1 life.
-{2}{U}{B}: Target player puts the top two cards of his or her library into his or her graveyard.</CardText>
+{2}{U}{B}: Target player puts the top two cards of their library into their graveyard.</CardText>
 <Artist>Slawomir Maniak</Artist>
 <Watermark>Dimir</Watermark>
 <Multiverseid>366328</Multiverseid>
@@ -3217,7 +3216,7 @@ When Deathpact Angel dies, create a 1/1 white and black Cleric creature token. I
 <Type>Creature — Vampire Wizard 4/4</Type>
 <ManaCost>2UB (4)</ManaCost>
 <CardText>Flying
-At the beginning of your upkeep, each player reveals the top card of his or her library, loses life equal to that card's converted mana cost, then puts it into his or her hand.</CardText>
+At the beginning of your upkeep, each player reveals the top card of their library, loses life equal to that card's converted mana cost, then puts it into their hand.</CardText>
 <Artist>Kev Walker</Artist>
 <Watermark>Dimir</Watermark>
 <Multiverseid>366310</Multiverseid>
@@ -3308,12 +3307,12 @@ Whenever a +1/+1 counter is put on Fathom Mage, you may draw a card.</CardText>
 <Type>Creature — Angel 3/3</Type>
 <ManaCost>2WR (4)</ManaCost>
 <CardText>Flying
-Battalion — Whenever Firemane Avenger and at least two other creatures attack, Firemane Avenger deals 3 damage to target creature or player and you gain 3 life.</CardText>
+Battalion — Whenever Firemane Avenger and at least two other creatures attack, Firemane Avenger deals 3 damage to any target and you gain 3 life.</CardText>
 <Flavor>Firemane Nevena led the victorious assault on the Barbu Rooftop rebels. Now the Gateless have marked her for death.</Flavor>
 <Artist>Wayne Reynolds</Artist>
 <Watermark>Boros</Watermark>
 <Multiverseid>366341</Multiverseid>
-<Rulings>2013/01/24: If the target creature or player is an illegal target when <Firemane Avenger>'s battalion ability tries to resolve, the ability will be countered and none of its effects will happen. You won't gain life.
+<Rulings>2013/01/24: If the target permanent or player is an illegal target when <Firemane Avenger>'s battalion ability tries to resolve, the ability won't resolve and none of its effects will happen. You won't gain life.
 2013/01/24: If <Firemane Avenger>'s battalion ability resolves but some or all of the damage is prevented, you'll still gain 3 life.
 2013/04/15: The three attacking creatures don't have to be attacking the same player or planeswalker.
 2013/04/15: Once a battalion ability has triggered, it doesn't matter how many creatures are still attacking when that ability resolves.
@@ -3351,7 +3350,7 @@ Whenever Fortress Cyclops blocks, it gets +0/+3 until end of turn.</CardText>
 <Name>Foundry Champion</Name>
 <Type>Creature — Elemental Soldier 4/4</Type>
 <ManaCost>4WR (6)</ManaCost>
-<CardText>When Foundry Champion enters the battlefield, it deals damage to target creature or player equal to the number of creatures you control.
+<CardText>When Foundry Champion enters the battlefield, it deals damage to any target equal to the number of creatures you control.
 {R}: Foundry Champion gets +1/+0 until end of turn.
 {W}: Foundry Champion gets +0/+1 until end of turn.</CardText>
 <Artist>Todd Lockwood</Artist>
@@ -3378,7 +3377,7 @@ Whenever Fortress Cyclops blocks, it gets +0/+3 until end of turn.</CardText>
 <Watermark>Gruul</Watermark>
 <Multiverseid>366295</Multiverseid>
 <Rulings>2004/10/04: Because the "search" requires you to find a card with certain characteristics, you don't have to find the card if you don't want to.
-2013/01/24: If the target land is an illegal target when <Frenzied Tilling> tries to resolve, the spell will be countered and none of its effects will happen. You won't search your library for a basic land card.</Rulings>
+2013/01/24: If the target land is an illegal target when <Frenzied Tilling> tries to resolve, the spell won't resolve and none of its effects will happen. You won't search your library for a basic land card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3464,7 +3463,7 @@ Bloodrush — {R}{G}, Discard Ghor-Clan Rampager: Target attacking creature gets
 <Multiverseid>366398</Multiverseid>
 <Rulings>2013/01/24: <Gruul Ragebeast>'s triggered ability isn't optional. However, if no opponent controls a creature when a creature enters the battlefield under your control, the ability will be removed from the stack.
 2013/01/24: If one or both of the creatures that are supposed to fight are no longer on the battlefield when the ability resolves, the fight won't happen. Neither creature will deal or be dealt damage.
-2013/01/24: If the target creature is an illegal target when the ability tries to resolve, it will be countered and none of its effects will happen. Neither creature will deal or be dealt damage.</Rulings>
+2013/01/24: If the target creature is an illegal target when the ability tries to resolve, it won't resolve and none of its effects will happen. Neither creature will deal or be dealt damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3503,7 +3502,7 @@ Bloodrush — {R}{G}, Discard Ghor-Clan Rampager: Target attacking creature gets
 <Artist>Howard Lyon</Artist>
 <Watermark>Simic</Watermark>
 <Multiverseid>366423</Multiverseid>
-<Rulings>2013/01/24: If the target land hasn't been under its controller's control continuously since the beginning of his or her most recent turn, that land won't be able to attack and its {T} abilities won't be able to be activated. In most cases, that means it will no longer be able to be tapped for mana that turn.
+<Rulings>2013/01/24: If the target land hasn't been under its controller's control continuously since the beginning of their most recent turn, that land won't be able to attack and its {T} abilities won't be able to be activated. In most cases, that means it will no longer be able to be tapped for mana that turn.
 2013/01/24: <Hydroform> doesn't affect the land's name or any other types, subtypes, or supertypes (such as basic or legendary) the land may have. The land will also keep any abilities it had.
 2013/01/24: Effects that modify power and/or toughness but don't set them to a specific value (like the one created by Giant Growth), power/toughness changes from counters, and effects that switch a creature's power and toughness will continue to apply. This may happen if the land was already a creature when <Hydroform> resolved.</Rulings>
 <Vintage>Legal</Vintage>
@@ -3628,11 +3627,11 @@ Target creature gets +0/+3 until end of turn.</CardText>
 <Name>Mind Grind</Name>
 <Type>Sorcery</Type>
 <ManaCost>XUB (2)</ManaCost>
-<CardText>Each opponent reveals cards from the top of his or her library until he or she reveals X land cards, then puts all cards revealed this way into his or her graveyard. X can't be 0.</CardText>
+<CardText>Each opponent reveals cards from the top of their library until they reveal X land cards, then puts all cards revealed this way into their graveyard. X can't be 0.</CardText>
 <Artist>Daarken</Artist>
 <Watermark>Dimir</Watermark>
 <Multiverseid>366418</Multiverseid>
-<Rulings>2013/01/24: If an opponent's library contains fewer than X land cards, all cards from that library are revealed and put into his or her graveyard.
+<Rulings>2013/01/24: If an opponent's library contains fewer than X land cards, all cards from that library are revealed and put into their graveyard.
 2013/01/24: If another spell or ability instructs you to cast <Mind Grind> "without paying its mana cost," you won't be able to. You must pick 0 as the value of X in the mana cost of a spell being cast "without paying its mana cost," but the X in <Mind Grind>'s mana cost can't be 0.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3672,7 +3671,7 @@ Target creature gets +0/+3 until end of turn.</CardText>
 <Artist>Mike Bierek</Artist>
 <Watermark>Simic</Watermark>
 <Multiverseid>366401</Multiverseid>
-<Rulings>2017/03/14: If the target spell is an illegal target when <Mystic Genesis> tries to resolve, <Mystic Genesis> will be countered and none of its effects will happen. You won't get an Ooze token.
+<Rulings>2017/03/14: If the target spell is an illegal target when <Mystic Genesis> tries to resolve, <Mystic Genesis> won't resolve and none of its effects will happen. You won't get an Ooze token.
 2017/03/14: You may target a spell that can't be countered. When <Mystic Genesis> resolves, the target spell will be unaffected, but you'll still get an Ooze token.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3777,7 +3776,7 @@ At the beginning of the upkeep of enchanted creature's controller, that player l
 <Rulings>2013/01/24: <Orzhov Charm>'s first mode doesn't target any of the Auras attached to the target creature.
 2013/01/24: If you choose the first mode, any Aura controlled by another player attached to the creature will be put into its owner's graveyard as a state-based action after the creature leaves the battlefield.
 2013/01/24: If you choose the second mode, you'll lose life equal to the creature's toughness when it was last on the battlefield.
-2013/01/24: For each of the modes, if the target creature or creature card is an illegal target when <Orzhov Charm> tries to resolve, it will be countered and none of its effects will happen.
+2013/01/24: For each of the modes, if the target creature or creature card is an illegal target when <Orzhov Charm> tries to resolve, it won't resolve and none of its effects will happen.
 2013/07/01: If you choose the second mode, and <Orzhov Charm> resolves but the creature isn't destroyed (perhaps because it has indestructible or it regenerates), you'll still lose life equal to the creature's toughness.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3792,14 +3791,14 @@ At the beginning of the upkeep of enchanted creature's controller, that player l
 <Name>Paranoid Delusions</Name>
 <Type>Sorcery</Type>
 <ManaCost>UB (2)</ManaCost>
-<CardText>Target player puts the top three cards of his or her library into his or her graveyard.
+<CardText>Target player puts the top three cards of their library into their graveyard.
 Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)</CardText>
 <Artist>Christopher Moeller</Artist>
 <Watermark>Dimir</Watermark>
 <Multiverseid>366324</Multiverseid>
 <Rulings>2013/04/15: The spell with cipher is encoded on the creature as part of that spell's resolution, just after the spell's other effects. That card goes directly from the stack to exile. It never goes to the graveyard.
 2013/04/15: You choose the creature as the spell resolves. The cipher ability doesn't target that creature, although the spell with cipher may target that creature (or a different creature) because of its other abilities.
-2013/04/15: If the spell with cipher is countered, none of its effects will happen, including cipher. The card will go to its owner's graveyard and won't be encoded on a creature.
+2013/04/15: If the spell with cipher doesn't resolve, none of its effects will happen, including cipher. The card will go to its owner's graveyard and won't be encoded on a creature.
 2013/04/15: If the creature leaves the battlefield, the exiled card will no longer be encoded on any creature. It will stay exiled.
 2013/04/15: If you want to encode the card with cipher onto a noncreature permanent such as a Keyrune that can turn into a creature, that permanent has to be a creature before the spell with cipher starts resolving. You can choose only a creature to encode the card onto.
 2013/04/15: The copy of the card with cipher is created in and cast from exile.
@@ -3861,13 +3860,13 @@ When Prime Speaker Zegana enters the battlefield, draw cards equal to its power.
 <Name>Psychic Strike</Name>
 <Type>Instant</Type>
 <ManaCost>1UB (3)</ManaCost>
-<CardText>Counter target spell. Its controller puts the top two cards of his or her library into his or her graveyard.</CardText>
+<CardText>Counter target spell. Its controller puts the top two cards of their library into their graveyard.</CardText>
 <Flavor>Until more information could be gleaned about Niv-Mizzet's intentions, Lazav took every opportunity to stall his experiments.</Flavor>
 <Artist>Mathias Kollros</Artist>
 <Watermark>Dimir</Watermark>
 <Multiverseid>366296</Multiverseid>
-<Rulings>2013/01/24: If the target spell is an illegal target when <Psychic Strike> tries to resolve, <Psychic Strike> will be countered and none of its effects will happen. The target's controller won't put any cards from the top of his or her library into his or her graveyard.
-2013/01/24: You may target a spell that can't be countered. When <Psychic Strike> resolves, the target spell will be unaffected, but its controller will still put the top two cards of his or her library into his or her graveyard.</Rulings>
+<Rulings>2013/01/24: If the target spell is an illegal target when <Psychic Strike> tries to resolve, <Psychic Strike> won't resolve and none of its effects will happen. The target's controller won't put any cards from the top of their library into their graveyard.
+2013/01/24: You may target a spell that can't be countered. When <Psychic Strike> resolves, the target spell will be unaffected, but its controller will still put the top two cards of their library into their graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3886,7 +3885,7 @@ When Prime Speaker Zegana enters the battlefield, draw cards equal to its power.
 <Artist>Michael C. Hayes</Artist>
 <Watermark>Orzhov</Watermark>
 <Multiverseid>366393</Multiverseid>
-<Rulings>2013/01/24: If the opponent has fewer than two cards in his or her hand, he or she will discard them. You'll still gain 2 life, no matter how many cards were discarded.</Rulings>
+<Rulings>2013/01/24: If the opponent has fewer than two cards in their hand, they will discard them. You'll still gain 2 life, no matter how many cards were discarded.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4186,13 +4185,13 @@ Whenever Treasury Thrull attacks, you may return target artifact, creature, or e
 <Type>Creature — Human Cleric 1/3</Type>
 <ManaCost>3WB (5)</ManaCost>
 <CardText>Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)
-When Vizkopa Confessor enters the battlefield, pay any amount of life. Target opponent reveals that many cards from his or her hand. You choose one of them and exile it.</CardText>
+When Vizkopa Confessor enters the battlefield, pay any amount of life. Target opponent reveals that many cards from their hand. You choose one of them and exile it.</CardText>
 <Artist>Ryan Pancoast</Artist>
 <Watermark>Orzhov</Watermark>
 <Multiverseid>366267</Multiverseid>
 <Rulings>2013/01/24: You may pay 0 life when <Vizkopa Confessor>'s enters-the-battlefield ability resolves. If you do, no cards are revealed or exiled.
 2013/01/24: The amount of life you pay is chosen when <Vizkopa Confessor>'s last ability resolves.
-2013/01/24: If the target opponent is an illegal target when <Vizkopa Confessor>'s last ability tries to resolve, it will be countered and none of its effects will happen. You won't pay life and no player will reveal any cards.
+2013/01/24: If the target opponent is an illegal target when <Vizkopa Confessor>'s last ability tries to resolve, it won't resolve and none of its effects will happen. You won't pay life and no player will reveal any cards.
 2013/04/15: You may pay {W/B} a maximum of one time for each extort triggered ability. You decide whether to pay when the ability resolves.
 2013/04/15: The amount of life you gain from extort is based on the total amount of life lost, not necessarily the number of opponents you have. For example, if your opponent's life total can't change (perhaps because that player controls Platinum Emperion), you won't gain any life.
 2013/04/15: The extort ability doesn't target any player.</Rulings>
@@ -4230,16 +4229,16 @@ When Vizkopa Confessor enters the battlefield, pay any amount of life. Target op
 <Name>Whispering Madness</Name>
 <Type>Sorcery</Type>
 <ManaCost>2UB (4)</ManaCost>
-<CardText>Each player discards his or her hand, then draws cards equal to the greatest number of cards a player discarded this way.
+<CardText>Each player discards their hand, then draws cards equal to the greatest number of cards a player discarded this way.
 Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)</CardText>
 <Artist>Clint Cearley</Artist>
 <Watermark>Dimir</Watermark>
 <Multiverseid>366263</Multiverseid>
-<Rulings>2013/01/24: Each player draws cards simultaneously. If this causes a player to draw more cards than are left in his or her library, that player will lose the game. If this causes all players to do so, the game is a draw. (In multiplayer games, multiple players drawing from an empty library will cause those players to lose although the game may continue.)
+<Rulings>2013/01/24: Each player draws cards simultaneously. If this causes a player to draw more cards than are left in their library, that player will lose the game. If this causes all players to do so, the game is a draw. (In multiplayer games, multiple players drawing from an empty library will cause those players to lose although the game may continue.)
 2013/01/24: You'll draw cards before deciding which creature (if any) <Whispering Madness> will be encoded on.
 2013/04/15: The spell with cipher is encoded on the creature as part of that spell's resolution, just after the spell's other effects. That card goes directly from the stack to exile. It never goes to the graveyard.
 2013/04/15: You choose the creature as the spell resolves. The cipher ability doesn't target that creature, although the spell with cipher may target that creature (or a different creature) because of its other abilities.
-2013/04/15: If the spell with cipher is countered, none of its effects will happen, including cipher. The card will go to its owner's graveyard and won't be encoded on a creature.
+2013/04/15: If the spell with cipher doesn't resolve, none of its effects will happen, including cipher. The card will go to its owner's graveyard and won't be encoded on a creature.
 2013/04/15: If the creature leaves the battlefield, the exiled card will no longer be encoded on any creature. It will stay exiled.
 2013/04/15: If you want to encode the card with cipher onto a noncreature permanent such as a Keyrune that can turn into a creature, that permanent has to be a creature before the spell with cipher starts resolving. You can choose only a creature to encode the card onto.
 2013/04/15: The copy of the card with cipher is created in and cast from exile.
@@ -4347,7 +4346,7 @@ Cipher (Then you may exile this spell card encoded on a creature you control. Wh
 <Multiverseid>366461</Multiverseid>
 <Rulings>2008/08/01: The controller of <Beckon Apparition> gets the token.
 2013/01/24: <Beckon Apparition> will be on the stack when you choose its target. It can't target itself.
-2013/01/24: If the target card is an illegal target when <Beckon Apparition> tries to resolve (if it's no longer in the graveyard, for instance), the spell will be countered and none of its effects will happen. You won't get a Spirit token.</Rulings>
+2013/01/24: If the target card is an illegal target when <Beckon Apparition> tries to resolve (if it's no longer in the graveyard, for instance), the spell won't resolve and none of its effects will happen. You won't get a Spirit token.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4404,14 +4403,14 @@ Cipher (Then you may exile this spell card encoded on a creature you control. Wh
 <Name>Boros Reckoner</Name>
 <Type>Creature — Minotaur Wizard 3/3</Type>
 <ManaCost>{R/W}{R/W}{R/W} (3)</ManaCost>
-<CardText>Whenever Boros Reckoner is dealt damage, it deals that much damage to target creature or player.
+<CardText>Whenever Boros Reckoner is dealt damage, it deals that much damage to any target.
 {R/W}: Boros Reckoner gains first strike until end of turn.</CardText>
 <Flavor>"Imagine a thunderstorm that's also a tactical genius. That's him."
 —Dars Gostok, Firefist captain</Flavor>
 <Artist>Howard Lyon</Artist>
 <Watermark>Boros</Watermark>
 <Multiverseid>366385</Multiverseid>
-<Rulings>2017/03/14: <Boros Reckoner>'s first ability will trigger even if it is dealt lethal damage. For example, if it blocks a 7/7 creature, its ability will trigger and <Boros Reckoner> will deal 7 damage to the target creature or player.
+<Rulings>2017/03/14: <Boros Reckoner>'s first ability will trigger even if it is dealt lethal damage. For example, if it blocks a 7/7 creature, its ability will trigger and <Boros Reckoner> will deal 7 damage to the target.
 2017/03/14: Damage dealt by <Boros Reckoner> due to its first ability isn't combat damage, even if it was combat damage that caused that ability to trigger.
 2017/03/14: If <Boros Reckoner> is dealt damage by multiple sources at once, such as by two creatures blocking it, its ability triggers once and one target is dealt that much damage.</Rulings>
 <Vintage>Legal</Vintage>
@@ -4427,7 +4426,7 @@ Cipher (Then you may exile this spell card encoded on a creature you control. Wh
 <Name>Burning-Tree Emissary</Name>
 <Type>Creature — Human Shaman 2/2</Type>
 <ManaCost>{R/G}{R/G} (2)</ManaCost>
-<CardText>When Burning-Tree Emissary enters the battlefield, add {R}{G} to your mana pool.</CardText>
+<CardText>When Burning-Tree Emissary enters the battlefield, add {R}{G}.</CardText>
 <Flavor>Those who regard the Gruul as savage simpletons underestimate the subtle power of their shamans.</Flavor>
 <Artist>Izzy</Artist>
 <Watermark>Gruul</Watermark>
@@ -4446,7 +4445,7 @@ Cipher (Then you may exile this spell card encoded on a creature you control. Wh
 <Name>Coerced Confession</Name>
 <Type>Sorcery</Type>
 <ManaCost>4{U/B} (5)</ManaCost>
-<CardText>Target player puts the top four cards of his or her library into his or her graveyard. You draw a card for each creature card put into that graveyard this way.</CardText>
+<CardText>Target player puts the top four cards of their library into their graveyard. You draw a card for each creature card put into that graveyard this way.</CardText>
 <Flavor>"Ask the right questions in the right way and truth is inevitable."
 —Lazav</Flavor>
 <Artist>Mathias Kollros</Artist>
@@ -4544,7 +4543,7 @@ Enchanted creature gets +1/+1 and has flying and lifelink.</CardText>
 <Type>Creature — Specter 2/3</Type>
 <ManaCost>{U/B}{U/B}{U/B} (3)</ManaCost>
 <CardText>Flying
-Whenever Nightveil Specter deals combat damage to a player, that player exiles the top card of his or her library.
+Whenever Nightveil Specter deals combat damage to a player, that player exiles the top card of their library.
 You may play cards exiled with Nightveil Specter.</CardText>
 <Artist>Min Yum</Artist>
 <Watermark>Dimir</Watermark>
@@ -4643,7 +4642,7 @@ You may play cards exiled with Nightveil Specter.</CardText>
 <Name>Boros Keyrune</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {R} or {W} to your mana pool.
+<CardText>{T}: Add {R} or {W}.
 {R}{W}: Boros Keyrune becomes a 1/1 red and white Soldier artifact creature with double strike until end of turn. (It deals both first-strike and regular combat damage.)</CardText>
 <Artist>Daniel Ljunggren</Artist>
 <Watermark>Boros</Watermark>
@@ -4663,7 +4662,7 @@ You may play cards exiled with Nightveil Specter.</CardText>
 <Name>Dimir Keyrune</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {U} or {B} to your mana pool.
+<CardText>{T}: Add {U} or {B}.
 {U}{B}: Dimir Keyrune becomes a 2/2 blue and black Horror artifact creature until end of turn and can't be blocked this turn.</CardText>
 <Flavor>A key that slips through every lock.</Flavor>
 <Artist>Daniel Ljunggren</Artist>
@@ -4703,7 +4702,7 @@ You may play cards exiled with Nightveil Specter.</CardText>
 <Name>Gruul Keyrune</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {R} or {G} to your mana pool.
+<CardText>{T}: Add {R} or {G}.
 {R}{G}: Gruul Keyrune becomes a 3/2 red and green Beast artifact creature with trample until end of turn.</CardText>
 <Flavor>As perilous and unpredictable as the wilds themselves.</Flavor>
 <Artist>Daniel Ljunggren</Artist>
@@ -4767,7 +4766,7 @@ Equip {3}</CardText>
 <Name>Orzhov Keyrune</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {W} or {B} to your mana pool.
+<CardText>{T}: Add {W} or {B}.
 {W}{B}: Orzhov Keyrune becomes a 1/4 white and black Thrull artifact creature with lifelink until end of turn.</CardText>
 <Flavor>You only need to wield it once to appreciate the power of control.</Flavor>
 <Artist>Daniel Ljunggren</Artist>
@@ -4790,7 +4789,7 @@ Equip {3}</CardText>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
 <CardText>When Prophetic Prism enters the battlefield, draw a card.
-{1}, {T}: Add one mana of any color to your mana pool.</CardText>
+{1}, {T}: Add one mana of any color.</CardText>
 <Flavor>To understand Ravnica, one must first understand how each guild contributes to its stability.</Flavor>
 <Artist>Daniel Ljunggren</Artist>
 <Multiverseid>366262</Multiverseid>
@@ -4807,7 +4806,7 @@ Equip {3}</CardText>
 <Name>Razortip Whip</Name>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{1}, {T}: Razortip Whip deals 1 damage to target opponent.</CardText>
+<CardText>{1}, {T}: Razortip Whip deals 1 damage to target opponent or planeswalker.</CardText>
 <Flavor>"It no longer surprises me what shows up in our raid of a Rakdos revue."
 —Janik Bara, Wojek captain</Flavor>
 <Artist>James Paick</Artist>
@@ -4843,7 +4842,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <Name>Simic Keyrune</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {G} or {U} to your mana pool.
+<CardText>{T}: Add {G} or {U}.
 {G}{U}: Simic Keyrune becomes a 2/3 green and blue Crab artifact creature with hexproof until end of turn. (It can't be the target of spells or abilities your opponents control.)</CardText>
 <Artist>Daniel Ljunggren</Artist>
 <Watermark>Simic</Watermark>
@@ -4883,7 +4882,7 @@ Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)
 <Name>Boros Guildgate</Name>
 <Type>Land — Gate</Type>
 <CardText>Boros Guildgate enters the battlefield tapped.
-{T}: Add {R} or {W} to your mana pool.</CardText>
+{T}: Add {R} or {W}.</CardText>
 <Flavor>Enter with merciful hearts. Exit with battle cries.</Flavor>
 <Artist>Noah Bradley</Artist>
 <Watermark>Boros</Watermark>
@@ -4902,7 +4901,7 @@ Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)
 <No>240</No>
 <Name>Breeding Pool</Name>
 <Type>Land — Forest Island</Type>
-<CardText>({T}: Add {G} or {U} to your mana pool.)
+<CardText>({T}: Add {G} or {U}.)
 As Breeding Pool enters the battlefield, you may pay 2 life. If you don't, Breeding Pool enters the battlefield tapped.</CardText>
 <Flavor>Uncharted depths. Unbounded hopes. Unfathomable mysteries.</Flavor>
 <Artist>Mike Bierek</Artist>
@@ -4924,7 +4923,7 @@ As Breeding Pool enters the battlefield, you may pay 2 life. If you don't, Breed
 <Name>Dimir Guildgate</Name>
 <Type>Land — Gate</Type>
 <CardText>Dimir Guildgate enters the battlefield tapped.
-{T}: Add {U} or {B} to your mana pool.</CardText>
+{T}: Add {U} or {B}.</CardText>
 <Flavor>Enter and become a mastermind of spies, lies, and deception.</Flavor>
 <Artist>Cliff Childs</Artist>
 <Watermark>Dimir</Watermark>
@@ -4943,7 +4942,7 @@ As Breeding Pool enters the battlefield, you may pay 2 life. If you don't, Breed
 <No>242</No>
 <Name>Godless Shrine</Name>
 <Type>Land — Plains Swamp</Type>
-<CardText>({T}: Add {W} or {B} to your mana pool.)
+<CardText>({T}: Add {W} or {B}.)
 As Godless Shrine enters the battlefield, you may pay 2 life. If you don't, Godless Shrine enters the battlefield tapped.</CardText>
 <Flavor>Judgment without hope.</Flavor>
 <Artist>Cliff Childs</Artist>
@@ -4965,7 +4964,7 @@ As Godless Shrine enters the battlefield, you may pay 2 life. If you don't, Godl
 <Name>Gruul Guildgate</Name>
 <Type>Land — Gate</Type>
 <CardText>Gruul Guildgate enters the battlefield tapped.
-{T}: Add {R} or {G} to your mana pool.</CardText>
+{T}: Add {R} or {G}.</CardText>
 <Flavor>Enter and leave the shackles of society behind.</Flavor>
 <Artist>Randy Gallegos</Artist>
 <Watermark>Gruul</Watermark>
@@ -4985,7 +4984,7 @@ As Godless Shrine enters the battlefield, you may pay 2 life. If you don't, Godl
 <Name>Orzhov Guildgate</Name>
 <Type>Land — Gate</Type>
 <CardText>Orzhov Guildgate enters the battlefield tapped.
-{T}: Add {W} or {B} to your mana pool.</CardText>
+{T}: Add {W} or {B}.</CardText>
 <Flavor>Enter to find wealth, security, and eternal life . . . for just a small price up front.</Flavor>
 <Artist>John Avon</Artist>
 <Watermark>Orzhov</Watermark>
@@ -5004,7 +5003,7 @@ As Godless Shrine enters the battlefield, you may pay 2 life. If you don't, Godl
 <No>245</No>
 <Name>Sacred Foundry</Name>
 <Type>Land — Mountain Plains</Type>
-<CardText>({T}: Add {R} or {W} to your mana pool.)
+<CardText>({T}: Add {R} or {W}.)
 As Sacred Foundry enters the battlefield, you may pay 2 life. If you don't, Sacred Foundry enters the battlefield tapped.</CardText>
 <Flavor>Burning fervor and fearsome skill create a lethal beauty terrible to behold.</Flavor>
 <Artist>Sam Burley</Artist>
@@ -5026,7 +5025,7 @@ As Sacred Foundry enters the battlefield, you may pay 2 life. If you don't, Sacr
 <Name>Simic Guildgate</Name>
 <Type>Land — Gate</Type>
 <CardText>Simic Guildgate enters the battlefield tapped.
-{T}: Add {G} or {U} to your mana pool.</CardText>
+{T}: Add {G} or {U}.</CardText>
 <Flavor>Enter and comprehend the perfection of orchestrated life.</Flavor>
 <Artist>Svetlin Velinov</Artist>
 <Watermark>Simic</Watermark>
@@ -5045,7 +5044,7 @@ As Sacred Foundry enters the battlefield, you may pay 2 life. If you don't, Sacr
 <No>247</No>
 <Name>Stomping Ground</Name>
 <Type>Land — Mountain Forest</Type>
-<CardText>({T}: Add {R} or {G} to your mana pool.)
+<CardText>({T}: Add {R} or {G}.)
 As Stomping Ground enters the battlefield, you may pay 2 life. If you don't, Stomping Ground enters the battlefield tapped.</CardText>
 <Flavor>"Roots, ruins, and room to fight. All the comforts of home."
 —Domri Rade</Flavor>
@@ -5067,7 +5066,7 @@ As Stomping Ground enters the battlefield, you may pay 2 life. If you don't, Sto
 <No>248</No>
 <Name>Thespian's Stage</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {2}, {T}: Thespian's Stage becomes a copy of target land and gains this ability.</CardText>
 <Flavor>Amid rumors of war, the third act of The Absolution of the Guildpact was quickly rewritten as a tragedy.</Flavor>
 <Artist>John Avon</Artist>
@@ -5087,7 +5086,7 @@ As Stomping Ground enters the battlefield, you may pay 2 life. If you don't, Sto
 <No>249</No>
 <Name>Watery Grave</Name>
 <Type>Land — Island Swamp</Type>
-<CardText>({T}: Add {U} or {B} to your mana pool.)
+<CardText>({T}: Add {U} or {B}.)
 As Watery Grave enters the battlefield, you may pay 2 life. If you don't, Watery Grave enters the battlefield tapped.</CardText>
 <Flavor>"I fear that as we scurry after phantoms, the Dimir pull nine puppet strings."
 —Ral Zarek</Flavor>

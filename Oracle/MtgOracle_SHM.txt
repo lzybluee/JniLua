@@ -61,7 +61,7 @@ Ballynock Cohort gets +1/+1 as long as you control another white creature.</Card
 <Name>Barrenton Medic</Name>
 <Type>Creature — Kithkin Cleric 0/4</Type>
 <ManaCost>4W (5)</ManaCost>
-<CardText>{T}: Prevent the next 1 damage that would be dealt to target creature or player this turn.
+<CardText>{T}: Prevent the next 1 damage that would be dealt to any target this turn.
 Put a -1/-1 counter on Barrenton Medic: Untap Barrenton Medic.</CardText>
 <Flavor>His dreams are filled with noxious powders and clinking vials.</Flavor>
 <Artist>Trevor Hairsine</Artist>
@@ -196,7 +196,7 @@ Kithkin Rabble's power and toughness are each equal to the number of white perma
 —Olka, mistmeadow witch</Flavor>
 <Artist>Thomas Denmark</Artist>
 <Multiverseid>147424</Multiverseid>
-<Rulings>2013/09/15: If the creature is an illegal target when <Last Breath> tries to resolve, it will be countered and none of its effects will happen. Its controller won't gain 4 life.</Rulings>
+<Rulings>2013/09/15: If the creature is an illegal target when <Last Breath> tries to resolve, it won't resolve and none of its effects will happen. Its controller won't gain 4 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -472,7 +472,7 @@ Persist (When this creature dies, if it had no -1/-1 counters on it, return it t
 2013/06/07: If a permanent has multiple instances of persist, they'll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing.
 2013/06/07: If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can't return to the battlefield.
 2013/06/07: When a permanent with persist returns to the battlefield, it's a new object with no memory of or connection to its previous existence.
-2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of his or her persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
+2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
 2013/06/07: If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature's existence just before it leaves the battlefield, and it still has all those counters on it at that point.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -622,7 +622,7 @@ Draw a card.</CardText>
 <Name>Counterbore</Name>
 <Type>Instant</Type>
 <ManaCost>3UU (5)</ManaCost>
-<CardText>Counter target spell. Search its controller's graveyard, hand, and library for all cards with the same name as that spell and exile them. Then that player shuffles his or her library.</CardText>
+<CardText>Counter target spell. Search its controller's graveyard, hand, and library for all cards with the same name as that spell and exile them. Then that player shuffles their library.</CardText>
 <Artist>Wayne England</Artist>
 <Multiverseid>153966</Multiverseid>
 <Rulings>2008/05/01: <Counterbore> has no effect on cards on the battlefield that have the same name as the targeted spell.
@@ -677,7 +677,7 @@ Draw a card.</CardText>
 <Name>Drowner Initiate</Name>
 <Type>Creature — Merfolk Wizard 1/1</Type>
 <ManaCost>U (1)</ManaCost>
-<CardText>Whenever a player casts a blue spell, you may pay {1}. If you do, target player puts the top two cards of his or her library into his or her graveyard.</CardText>
+<CardText>Whenever a player casts a blue spell, you may pay {1}. If you do, target player puts the top two cards of their library into their graveyard.</CardText>
 <Flavor>Nothing satisfies a merrow as much as drowning what it cannot have.</Flavor>
 <Artist>E. M. Gist</Artist>
 <Multiverseid>142005</Multiverseid>
@@ -787,7 +787,7 @@ Whenever Kinscaer Harpoonist attacks, you may have target creature lose flying u
 <Type>Creature — Faerie Rogue 1/4</Type>
 <ManaCost>3U (4)</ManaCost>
 <CardText>Flying
-{1}{U}, {Q}: Target opponent exiles the top card of his or her library. Until end of turn, you may play that card. ({Q} is the untap symbol.)</CardText>
+{1}{U}, {Q}: Target opponent exiles the top card of their library. Until end of turn, you may play that card. ({Q} is the untap symbol.)</CardText>
 <Flavor>Most of the Knacksaw clique's skills were hewn from the minds of others.</Flavor>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>146036</Multiverseid>
@@ -819,7 +819,7 @@ Whenever Kinscaer Harpoonist attacks, you may have target creature lose flying u
 2008/05/01: When you activate an {Q} ability, you untap the creature with that ability as a cost. The untap can't be responded to. (The actual ability can be responded to, of course.)
 2008/05/01: <Leech Bonder>'s activated ability can move any kind of counter, not just a -1/-1 counter. It can target any two creatures, whether they have counters on them or not.
 2008/05/01: This effect may result in a useless counter being placed on a creature. For example, if an age counter is moved from a creature with cumulative upkeep to a creature without cumulative upkeep, it will have no effect on the new creature.
-2008/05/01: If either one of the target creatures becomes an illegal target (because it left the battlefield or for any other reason), the counter doesn't move. If both targets become illegal, the ability is countered.</Rulings>
+2008/05/01: If either one of the target creatures becomes an illegal target (because it left the battlefield or for any other reason), the counter doesn't move. If both targets become illegal, the ability doesn't resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -898,7 +898,7 @@ When Prismwake Merrow enters the battlefield, target permanent becomes the color
 <Multiverseid>141996</Multiverseid>
 <Rulings>2008/05/01: You choose two targets such that as a set, all of the targeting conditions are met. That means, for example, that if you control a nonland permanent whose converted mana cost is lower than any of your opponents' nonland permanents, you can't choose it as a target. (If you did, you'd be unable to choose a second target.)
 2008/05/01: Even if you don't plan on exchanging control of any permanents, if you can choose two legal targets when the ability triggers, you must do so. If you can't, then you don't choose any targets.
-2008/05/01: If either one of the targets becomes illegal (because it leaves the battlefield or for any other reason) by the time the ability resolves, the exchange won't happen. If both targets become illegal, the ability is countered.</Rulings>
+2008/05/01: If either one of the targets becomes illegal (because it leaves the battlefield or for any other reason) by the time the ability resolves, the exchange won't happen. If both targets become illegal, the ability doesn't resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -947,7 +947,7 @@ Persist (When this creature dies, if it had no -1/-1 counters on it, return it t
 2013/06/07: If a permanent has multiple instances of persist, they'll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing.
 2013/06/07: If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can't return to the battlefield.
 2013/06/07: When a permanent with persist returns to the battlefield, it's a new object with no memory of or connection to its previous existence.
-2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of his or her persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
+2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
 2013/06/07: If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature's existence just before it leaves the battlefield, and it still has all those counters on it at that point.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1188,7 +1188,7 @@ Put a -1/-1 counter on Cinderhaze Wretch: Untap Cinderhaze Wretch.</CardText>
 <Name>Corrupt</Name>
 <Type>Sorcery</Type>
 <ManaCost>5B (6)</ManaCost>
-<CardText>Corrupt deals damage to target creature or player equal to the number of Swamps you control. You gain life equal to the damage dealt this way.</CardText>
+<CardText>Corrupt deals damage to any target equal to the number of Swamps you control. You gain life equal to the damage dealt this way.</CardText>
 <Flavor>There are things beneath the murk for whom the bog is a stew, a thin broth in need of meat.</Flavor>
 <Artist>Dave Allsop</Artist>
 <Multiverseid>146013</Multiverseid>
@@ -1302,7 +1302,7 @@ Discard Faerie Macabre: Exile up to two target cards from graveyards.</CardText>
 <Type>Creature — Demon Hound 7/6</Type>
 <ManaCost>5BB (7)</ManaCost>
 <CardText>At the beginning of your upkeep, if you have no cards in hand, each opponent loses 2 life.
-At the beginning of each opponent's upkeep, if that player has no cards in hand, he or she loses 2 life.</CardText>
+At the beginning of each opponent's upkeep, if that player has no cards in hand, they lose 2 life.</CardText>
 <Flavor>It leaves a trail of crumpled trees and dashed dreams.</Flavor>
 <Artist>Eric Fortune</Artist>
 <Multiverseid>146095</Multiverseid>
@@ -1393,12 +1393,12 @@ At the beginning of your upkeep, put a -1/-1 counter on each nonblack creature.<
 <Name>Plague of Vermin</Name>
 <Type>Sorcery</Type>
 <ManaCost>6B (7)</ManaCost>
-<CardText>Starting with you, each player may pay any amount of life. Repeat this process until no one pays life. Each player creates a 1/1 black Rat creature token for each 1 life he or she paid this way.</CardText>
+<CardText>Starting with you, each player may pay any amount of life. Repeat this process until no one pays life. Each player creates a 1/1 black Rat creature token for each 1 life they paid this way.</CardText>
 <Artist>Carl Critchlow</Artist>
 <Multiverseid>159406</Multiverseid>
-<Rulings>2008/05/01: In a game of N players, the process ends when all N players in sequence (starting with you) choose not to pay life. It doesn't end the first time a player chooses not to pay life. If a player chooses not to pay life but the process continues, that player may pay life the next time the process gets around to him or her.
+<Rulings>2008/05/01: In a game of N players, the process ends when all N players in sequence (starting with you) choose not to pay life. It doesn't end the first time a player chooses not to pay life. If a player chooses not to pay life but the process continues, that player may pay life the next time the process gets around to them.
 2008/05/01: The amount of life a player may spend must be equal to or less than that player's life total; you can't spend life you haven't got.
-2008/05/01: If a player chooses to spend life, his or her life total goes down immediately. This will affect how much life that player can spend the next time the process gets around to him or her. If a player chooses to pay life three different times during this process, for example, that counts as three separate instances of losing life, not as one.
+2008/05/01: If a player chooses to spend life, their life total goes down immediately. This will affect how much life that player can spend the next time the process gets around to them. If a player chooses to pay life three different times during this process, for example, that counts as three separate instances of losing life, not as one.
 2008/05/01: After the process stops, the total amount of life each player paid this way is calculated. That's how many tokens each player gets. All the tokens enter the battlefield at the same time.
 2008/05/01: In a Two-Headed Giant game, each player on a team gets a chance to pay life. The team's life total is adjusted in between.</Rulings>
 <Vintage>Legal</Vintage>
@@ -1441,7 +1441,7 @@ Persist (When this creature dies, if it had no -1/-1 counters on it, return it t
 2013/06/07: If a permanent has multiple instances of persist, they'll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing.
 2013/06/07: If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can't return to the battlefield.
 2013/06/07: When a permanent with persist returns to the battlefield, it's a new object with no memory of or connection to its previous existence.
-2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of his or her persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
+2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
 2013/06/07: If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature's existence just before it leaves the battlefield, and it still has all those counters on it at that point.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1456,8 +1456,8 @@ Persist (When this creature dies, if it had no -1/-1 counters on it, return it t
 <Name>Rite of Consumption</Name>
 <Type>Sorcery</Type>
 <ManaCost>1B (2)</ManaCost>
-<CardText>As an additional cost to cast Rite of Consumption, sacrifice a creature.
-Rite of Consumption deals damage equal to the sacrificed creature's power to target player. You gain life equal to the damage dealt this way.</CardText>
+<CardText>As an additional cost to cast this spell, sacrifice a creature.
+Rite of Consumption deals damage equal to the sacrificed creature's power to target player or planeswalker. You gain life equal to the damage dealt this way.</CardText>
 <Artist>Ron Spencer</Artist>
 <Multiverseid>159400</Multiverseid>
 <Rulings>2013/04/15: You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures.
@@ -1511,7 +1511,7 @@ Rite of Consumption deals damage equal to the sacrificed creature's power to tar
 <ManaCost>3B (4)</ManaCost>
 <CardText>Choose one —
 • Target player discards two cards.
-• Target player reveals his or her hand. You choose a card from it. That player discards that card.</CardText>
+• Target player reveals their hand. You choose a card from it. That player discards that card.</CardText>
 <Flavor>All faeries delve for dreams. But not all wait for their victims to fall asleep.</Flavor>
 <Artist>Thomas Denmark</Artist>
 <Multiverseid>147378</Multiverseid>
@@ -1547,12 +1547,12 @@ Rite of Consumption deals damage equal to the sacrificed creature's power to tar
 <Name>Wound Reflection</Name>
 <Type>Enchantment</Type>
 <ManaCost>5B (6)</ManaCost>
-<CardText>At the beginning of each end step, each opponent loses life equal to the life he or she lost this turn. (Damage causes loss of life.)</CardText>
+<CardText>At the beginning of each end step, each opponent loses life equal to the life they lost this turn. (Damage causes loss of life.)</CardText>
 <Flavor>The mission of the Nighthearth, Illulia's cult of murderous cinders, is to intensify every pain suffered in Shadowmoor.</Flavor>
 <Artist>Terese Nielsen & Ron Spencer</Artist>
 <Multiverseid>146762</Multiverseid>
 <Rulings>2008/05/01: When <Wound Reflection>'s ability resolves, it checks how much life each opponent lost over the course of the turn, then it causes that opponent to lose that much life. It doesn't matter how the opponent lost life or who caused it. It also doesn't matter if <Wound Reflection> wasn't on the battlefield at the time some or all of the life was lost.
-2008/05/01: <Wound Reflection>'s ability checks only whether life was lost. It doesn't care whether life was also gained. For example, if an opponent lost 4 life and gained 6 life during the turn, that player will have a higher life total than he or she started the turn with — but <Wound Reflection>'s ability will still cause that player to lose 4 life.
+2008/05/01: <Wound Reflection>'s ability checks only whether life was lost. It doesn't care whether life was also gained. For example, if an opponent lost 4 life and gained 6 life during the turn, that player will have a higher life total than they started the turn with — but <Wound Reflection>'s ability will still cause that player to lose 4 life.
 2008/05/01: <Wound Reflection>'s ability triggers at the end of every turn. It doesn't have to be your turn, and it doesn't have to be the turn of an opponent that lost life.
 2008/05/01: If <Wound Reflection>'s ability resolves, then an opponent loses life later in the same turn, that life loss is never counted by <Wound Reflection>.
 2008/05/01: Multiple <Wound Reflection>s are cumulative. They'll both trigger at the same time. One will resolve first. When the second one resolves, it will see the same life loss that the first <Wound Reflection> saw, as well as the life loss caused by the first <Wound Reflection>. For example, if an opponent lost 3 life during the turn, the first <Wound Reflection> will cause that opponent to lose 3 more life, then the second <Wound Reflection> will cause that opponent to lose 6 life.</Rulings>
@@ -1640,7 +1640,7 @@ Enchanted creature attacks each combat if able.</CardText>
 <Name>Burn Trail</Name>
 <Type>Sorcery</Type>
 <ManaCost>3R (4)</ManaCost>
-<CardText>Burn Trail deals 3 damage to target creature or player.
+<CardText>Burn Trail deals 3 damage to any target.
 Conspire (As you cast this spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose a new target for the copy.)</CardText>
 <Artist>Nils Hamm</Artist>
 <Multiverseid>158688</Multiverseid>
@@ -1657,7 +1657,7 @@ Conspire (As you cast this spell, you may tap two untapped creatures you control
 <Name>Cragganwick Cremator</Name>
 <Type>Creature — Giant Shaman 5/4</Type>
 <ManaCost>2RR (4)</ManaCost>
-<CardText>When Cragganwick Cremator enters the battlefield, discard a card at random. If you discard a creature card this way, Cragganwick Cremator deals damage equal to that card's power to target player.</CardText>
+<CardText>When Cragganwick Cremator enters the battlefield, discard a card at random. If you discard a creature card this way, Cragganwick Cremator deals damage equal to that card's power to target player or planeswalker.</CardText>
 <Flavor>Each night that his bowl fills, a village mourns.</Flavor>
 <Artist>Jeremy Enecio</Artist>
 <Multiverseid>159402</Multiverseid>
@@ -1757,7 +1757,7 @@ Enchanted creature has "{T}: Create X 1/1 red Elemental creature tokens with has
 <Type>Instant</Type>
 <ManaCost>{2/R}{2/R}{2/R} (6)</ManaCost>
 <CardText>({2/R} can be paid with any two mana or with {R}. This card's converted mana cost is 6.)
-Flame Javelin deals 4 damage to target creature or player.</CardText>
+Flame Javelin deals 4 damage to any target.</CardText>
 <Flavor>Gyara Spearhurler would have been renowned for her deadly accuracy, if it weren't for her deadly accuracy.</Flavor>
 <Artist>Trevor Hairsine</Artist>
 <Multiverseid>146017</Multiverseid>
@@ -1778,7 +1778,7 @@ Flame Javelin deals 4 damage to target creature or player.</CardText>
 <Name>Furystoke Giant</Name>
 <Type>Creature — Giant Warrior 3/3</Type>
 <ManaCost>3RR (5)</ManaCost>
-<CardText>When Furystoke Giant enters the battlefield, other creatures you control gain "{T}: This creature deals 2 damage to target creature or player" until end of turn.
+<CardText>When Furystoke Giant enters the battlefield, other creatures you control gain "{T}: This creature deals 2 damage to any target" until end of turn.
 Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)</CardText>
 <Artist>Ralph Horsley</Artist>
 <Multiverseid>152069</Multiverseid>
@@ -1787,7 +1787,7 @@ Persist (When this creature dies, if it had no -1/-1 counters on it, return it t
 2013/06/07: If a permanent has multiple instances of persist, they'll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing.
 2013/06/07: If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can't return to the battlefield.
 2013/06/07: When a permanent with persist returns to the battlefield, it's a new object with no memory of or connection to its previous existence.
-2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of his or her persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
+2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
 2013/06/07: If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature's existence just before it leaves the battlefield, and it still has all those counters on it at that point.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1856,7 +1856,7 @@ Inescapable Brute must be blocked if able.</CardText>
 <Name>Jaws of Stone</Name>
 <Type>Sorcery</Type>
 <ManaCost>5R (6)</ManaCost>
-<CardText>Jaws of Stone deals X damage divided as you choose among any number of target creatures and/or players, where X is the number of Mountains you control as you cast Jaws of Stone.</CardText>
+<CardText>Jaws of Stone deals X damage divided as you choose among any number of targets, where X is the number of Mountains you control as you cast this spell.</CardText>
 <Flavor>When giants find their mountain homes infested, they have a whole range of solutions.</Flavor>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Multiverseid>146070</Multiverseid>
@@ -1883,7 +1883,7 @@ When Knollspine Dragon enters the battlefield, you may discard your hand and dra
 <Multiverseid>147398</Multiverseid>
 <Rulings>2008/05/01: You target an opponent when the ability triggers. You don't decide whether you want to discard and draw until the ability resolves.
 2008/05/01: This ability counts the total amount of damage (both combat and noncombat) dealt to the targeted opponent by all sources (including ones you controlled and ones you didn't) over the course of the turn. Damage that was prevented or replaced doesn't count. Damage that resolved but didn't cause loss of life (due to Worship, for example) will count.
-2008/05/01: <Knollspine Dragon>'s ability checks only whether damage was dealt. It doesn't care whether the player's life total also changed for other reasons (such as if the player paid life or gained life). For example, if an opponent was dealt 4 damage and gained 6 life during the turn, that player will have a higher life total than he or she started the turn with — but <Knollspine Dragon>'s ability will let you discard your hand and draw four cards.</Rulings>
+2008/05/01: <Knollspine Dragon>'s ability checks only whether damage was dealt. It doesn't care whether the player's life total also changed for other reasons (such as if the player paid life or gained life). For example, if an opponent was dealt 4 damage and gained 6 life during the turn, that player will have a higher life total than they started the turn with — but <Knollspine Dragon>'s ability will let you discard your hand and draw four cards.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1897,7 +1897,7 @@ When Knollspine Dragon enters the battlefield, you may discard your hand and dra
 <Name>Knollspine Invocation</Name>
 <Type>Enchantment</Type>
 <ManaCost>1RR (3)</ManaCost>
-<CardText>{X}, Discard a card with converted mana cost X: Knollspine Invocation deals X damage to target creature or player.</CardText>
+<CardText>{X}, Discard a card with converted mana cost X: Knollspine Invocation deals X damage to any target.</CardText>
 <Flavor>Witches tempted by the power of flame gathered to study in the ruins of Spinerock Knoll.</Flavor>
 <Artist>Dave Dorman</Artist>
 <Multiverseid>153977</Multiverseid>
@@ -1933,7 +1933,7 @@ Mudbrawler Cohort gets +1/+1 as long as you control another red creature.</CardT
 <Type>Enchantment — Aura</Type>
 <ManaCost>1R (2)</ManaCost>
 <CardText>Enchant creature
-Enchanted creature has "{T}: This creature deals 1 damage to target creature or player."</CardText>
+Enchanted creature has "{T}: This creature deals 1 damage to any target."</CardText>
 <Flavor>The cinders believe their flame was stolen by one they call the Extinguisher. All who now wield fire draw their desperate wrath.</Flavor>
 <Artist>Trevor Hairsine</Artist>
 <Multiverseid>152159</Multiverseid>
@@ -2046,7 +2046,7 @@ Whenever Slinking Giant blocks or becomes blocked, it gets -3/-0 until end of tu
 <Flavor>The giant Tarvik dreamed that trinkets and machines caused all the world's woe. When he awoke from his troubled sleep, he took the name Tarvik Relicsmasher.</Flavor>
 <Artist>Pete Venters</Artist>
 <Multiverseid>158243</Multiverseid>
-<Rulings>2015/06/22: <Smash to Smithereens> targets only the artifact, not any player. If that artifact becomes an illegal target by the time <Smash to Smithereens> tries to resolve, <Smash to Smithereens> will be countered and none of its effects will happen. No damage will be dealt.</Rulings>
+<Rulings>2015/06/22: <Smash to Smithereens> targets only the artifact, not any player. If that artifact becomes an illegal target by the time <Smash to Smithereens> tries to resolve, <Smash to Smithereens> won't resolve and none of its effects will happen. No damage will be dealt.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2065,8 +2065,7 @@ Whenever Slinking Giant blocks or becomes blocked, it gets -3/-0 until end of tu
 <Artist>Richard Kane Ferguson</Artist>
 <Multiverseid>158686</Multiverseid>
 <Rulings>2008/05/01: You target three permanents as you cast <Wild Swing>. You don't randomly choose which one will be destroyed until <Wild Swing> resolves. If one of those permanents has become an illegal target by then, you randomly choose between the other two. If two of those permanents have become illegal targets by then, there is no random choice — the remaining permanent is destroyed.
-2008/05/01: As <Wild Swing> resolves, there is no time to react between the time a permanent is chosen at random and the time it's destroyed. If you want to put a regeneration shield on one of those permanents, or sacrifice it for some effect, or anything else, you must do so before <Wild Swing> resolves (and before you know which one of the permanents will be chosen at random).
-2013/07/01: If one of the targets has indestructible, it can be chosen at random but nothing will happen to it if it is.</Rulings>
+2008/05/01: As <Wild Swing> resolves, there is no time to react between the time a permanent is chosen at random and the time it's destroyed. If you want to put a regeneration shield on one of those permanents, or sacrifice it for some effect, or anything else, you must do so before <Wild Swing> resolves (and before you know which one of the permanents will be chosen at random).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2097,7 +2096,7 @@ Whenever Slinking Giant blocks or becomes blocked, it gets -3/-0 until end of tu
 <Name>Devoted Druid</Name>
 <Type>Creature — Elf Druid 0/2</Type>
 <ManaCost>1G (2)</ManaCost>
-<CardText>{T}: Add {G} to your mana pool.
+<CardText>{T}: Add {G}.
 Put a -1/-1 counter on Devoted Druid: Untap Devoted Druid.</CardText>
 <Flavor>"Mana lurks in all things, even in the depths of one's own heart."</Flavor>
 <Artist>Darrell Riche</Artist>
@@ -2572,7 +2571,7 @@ Persist (When this creature dies, if it had no -1/-1 counters on it, return it t
 2013/06/07: If a permanent has multiple instances of persist, they'll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing.
 2013/06/07: If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can't return to the battlefield.
 2013/06/07: When a permanent with persist returns to the battlefield, it's a new object with no memory of or connection to its previous existence.
-2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of his or her persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
+2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
 2013/06/07: If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature's existence just before it leaves the battlefield, and it still has all those counters on it at that point.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2801,7 +2800,7 @@ Defender, flying</CardText>
 <Artist>Trevor Hairsine</Artist>
 <Multiverseid>158761</Multiverseid>
 <Rulings>2008/05/01: You choose whether or not to target a creature spell before you decide whether or not to spend {U} on <Repel Intruders>. You may target a creature spell and then not spend {U} to cast <Repel Intruders>; if you do, <Repel Intruders> simply won't affect that creature spell. Similarly, if you don't target a creature spell but then you spend {U} to cast <Repel Intruders>, that part of <Repel Intruders> has no effect.
-2008/05/01: If you choose to target a creature spell, <Repel Intruders> has a target. If that target becomes illegal by the time <Repel Intruders> resolves, the entire spell will be countered. You won't get any tokens.
+2008/05/01: If you choose to target a creature spell, <Repel Intruders> has a target. If that target becomes illegal by the time <Repel Intruders> resolves, the entire spell won't resolve. You won't get any tokens.
 2016/06/08: This spell cares about what mana was spent to pay its total cost, not just what mana was spent to pay the hybrid mana symbol in its cost.
 2016/06/08: This spell checks on resolution to see if any mana of the appropriate colors were spent to pay its cost. It doesn't matter how much mana of that color was spent; the effect isn't multiplied.
 2016/06/08: If this spell is copied, the copy will not have had any colors of mana paid for it, no matter what colors were spent on the original spell.</Rulings>
@@ -2881,8 +2880,8 @@ If a source would deal damage to Swans of Bryn Argoll, prevent that damage. The 
 <Artist>Eric Fortune</Artist>
 <Multiverseid>146754</Multiverseid>
 <Rulings>2008/05/01: The source of combat damage is the creature that deals it.
-2008/05/01: If a spell is causing damage to be dealt, that spell will always identify the source of the damage. In most cases, the source is the spell itself. For example, Burn Trail says "Burn Trail deals 3 damage to target creature or player."
-2008/05/01: If an ability is causing damage to be dealt, that ability will always identify the source of the damage. The ability itself is never the source. However, the source of the ability is often the source of the damage. For example, Knollspine Invocation's ability says "Knollspine Invocation deals X damage to target creature or player."
+2008/05/01: If a spell is causing damage to be dealt, that spell will always identify the source of the damage. In most cases, the source is the spell itself. For example, Burn Trail says "Burn Trail deals 3 damage to any target."
+2008/05/01: If an ability is causing damage to be dealt, that ability will always identify the source of the damage. The ability itself is never the source. However, the source of the ability is often the source of the damage. For example, Knollspine Invocation's ability says "Knollspine Invocation deals X damage to any target."
 2008/05/01: If the source of the damage is a permanent, <Swans of Bryn Argoll> checks who that permanent's controller is at the time that damage is prevented. If the permanent has left the battlefield by then, its last known information is used. If the source of the damage is a spell, its controller is obvious. If the source of the damage is a card from some other zone (such as a cycled Gempalm Incinerator), <Swans of Bryn Argoll> checks its owner rather than its controller.
 2008/05/01: If a creature with wither would deal damage to <Swans of Bryn Argoll>, that damage is treated just like any other damage. It's prevented, and the creature's controller draws cards. <Swans of Bryn Argoll> doesn't get any -1/-1 counters.</Rulings>
 <Vintage>Legal</Vintage>
@@ -2971,7 +2970,7 @@ Other blue creatures you control get +1/+1.</CardText>
 <Name>Worldpurge</Name>
 <Type>Sorcery</Type>
 <ManaCost>4{W/U}{W/U}{W/U}{W/U} (8)</ManaCost>
-<CardText>Return all permanents to their owners' hands. Each player chooses up to seven cards in his or her hand, then shuffles the rest into his or her library. Empty all mana pools.</CardText>
+<CardText>Return all permanents to their owners' hands. Each player chooses up to seven cards in their hand, then shuffles the rest into their library. Each player loses all unspent mana.</CardText>
 <Flavor>The Aurora is not the only magic capable of remaking a world.</Flavor>
 <Artist>Chippy</Artist>
 <Multiverseid>141991</Multiverseid>
@@ -3070,7 +3069,7 @@ Whenever a black creature enters the battlefield under your control, you may hav
 <Multiverseid>147411</Multiverseid>
 <Rulings>2008/05/01: <Fate Transfer> moves any kind of counters, not just -1/-1 counters.
 2008/05/01: This effect may result in useless counters being placed on a creature. For example, if an age counter is moved from a creature with cumulative upkeep to a creature without cumulative upkeep, it will have no effect on the new creature.
-2008/05/01: If either one of the targets becomes illegal (because it leaves the battlefield or for any other reason) by the time <Fate Transfer> resolves, the counters don't move. If both targets become illegal, <Fate Transfer> is countered.</Rulings>
+2008/05/01: If either one of the targets becomes illegal (because it leaves the battlefield or for any other reason) by the time <Fate Transfer> resolves, the counters don't move. If both targets become illegal, <Fate Transfer> doesn't resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3085,7 +3084,7 @@ Whenever a black creature enters the battlefield under your control, you may hav
 <Type>Creature — Spirit Avatar 4/4</Type>
 <ManaCost>{U/B}{U/B}{U/B}{U/B}{U/B} (5)</ManaCost>
 <CardText>Ghastlord of Fugue can't be blocked.
-Whenever Ghastlord of Fugue deals combat damage to a player, that player reveals his or her hand. You choose a card from it. That player exiles that card.</CardText>
+Whenever Ghastlord of Fugue deals combat damage to a player, that player reveals their hand. You choose a card from it. That player exiles that card.</CardText>
 <Flavor>"He is a ghost that has never known life."
 —The Seer's Parables</Flavor>
 <Artist>Mike Dringenberg</Artist>
@@ -3133,7 +3132,7 @@ Other black creatures you control get +1/+1.</CardText>
 2013/06/07: If a permanent has multiple instances of persist, they'll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing.
 2013/06/07: If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can't return to the battlefield.
 2013/06/07: When a permanent with persist returns to the battlefield, it's a new object with no memory of or connection to its previous existence.
-2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of his or her persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
+2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
 2013/06/07: If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature's existence just before it leaves the battlefield, and it still has all those counters on it at that point.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3247,7 +3246,7 @@ As long as enchanted creature is black, it gets +1/+1 and has "Whenever this cre
 <Name>Memory Sluice</Name>
 <Type>Sorcery</Type>
 <ManaCost>{U/B} (1)</ManaCost>
-<CardText>Target player puts the top four cards of his or her library into his or her graveyard.
+<CardText>Target player puts the top four cards of their library into their graveyard.
 Conspire (As you cast this spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose a new target for the copy.)</CardText>
 <Artist>Wayne England</Artist>
 <Multiverseid>158759</Multiverseid>
@@ -3285,7 +3284,7 @@ Conspire (As you cast this spell, you may tap two untapped creatures you control
 <Type>Legendary Creature — Faerie Wizard 5/5</Type>
 <ManaCost>3{U/B}{U/B}{U/B} (6)</ManaCost>
 <CardText>Flying
-{X}{U/B}: Choose a color. Target opponent exiles the top X cards of his or her library. For each card of the chosen color exiled this way, create a 1/1 blue and black Faerie Rogue creature token with flying.</CardText>
+{X}{U/B}: Choose a color. Target opponent exiles the top X cards of their library. For each card of the chosen color exiled this way, create a 1/1 blue and black Faerie Rogue creature token with flying.</CardText>
 <Artist>Adam Rex</Artist>
 <Multiverseid>152063</Multiverseid>
 <Rulings>2008/05/01: You target the opponent when you activate Oona's ability. You don't choose the color until the ability resolves.
@@ -3321,7 +3320,7 @@ Wither (This deals damage to creatures in the form of -1/-1 counters.)</CardText
 <Name>River's Grasp</Name>
 <Type>Sorcery</Type>
 <ManaCost>3{U/B} (4)</ManaCost>
-<CardText>If {U} was spent to cast River's Grasp, return up to one target creature to its owner's hand. If {B} was spent to cast River's Grasp, target player reveals his or her hand, you choose a nonland card from it, then that player discards that card. (Do both if {U}{B} was spent.)</CardText>
+<CardText>If {U} was spent to cast River's Grasp, return up to one target creature to its owner's hand. If {B} was spent to cast River's Grasp, target player reveals their hand, you choose a nonland card from it, then that player discards that card. (Do both if {U}{B} was spent.)</CardText>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>158755</Multiverseid>
 <Rulings>2016/06/08: This spell cares about what mana was spent to pay its total cost, not just what mana was spent to pay the hybrid mana symbol in its cost.
@@ -3340,7 +3339,7 @@ Wither (This deals damage to creatures in the form of -1/-1 counters.)</CardText
 <Name>Scarscale Ritual</Name>
 <Type>Sorcery</Type>
 <ManaCost>1{U/B} (2)</ManaCost>
-<CardText>As an additional cost to cast Scarscale Ritual, put a -1/-1 counter on a creature you control.
+<CardText>As an additional cost to cast this spell, put a -1/-1 counter on a creature you control.
 Draw two cards.</CardText>
 <Flavor>Some words are too important to trust to something as fragile as memory.</Flavor>
 <Artist>Richard Sardinha</Artist>
@@ -3363,9 +3362,9 @@ Draw two cards.</CardText>
 <Flavor>"It's not a matter of deserving. It's a matter of strength. The power to hold versus the power to take."</Flavor>
 <Artist>Jeremy Enecio</Artist>
 <Multiverseid>147377</Multiverseid>
-<Rulings>2008/05/01: As the end step begins, Sygg's ability checks whether a player who is currently your opponent, or a player who was your opponent at the time he or she left the game, has lost 3 or more life over the course of the turn. If so, the ability will trigger. If not, it won't.
+<Rulings>2008/05/01: As the end step begins, Sygg's ability checks whether a player who is currently your opponent, or a player who was your opponent at the time they left the game, has lost 3 or more life over the course of the turn. If so, the ability will trigger. If not, it won't.
 2008/05/01: It doesn't matter how the opponent lost life or who caused it, as long as the total loss of life is 3 or more.
-2008/05/01: Sygg's ability checks only whether life was lost. It doesn't care whether life was also gained. For example, if an opponent lost 4 life and gained 6 life during the turn, that player will have a higher life total than he or she started the turn with — but Sygg's ability will trigger anyway.
+2008/05/01: Sygg's ability checks only whether life was lost. It doesn't care whether life was also gained. For example, if an opponent lost 4 life and gained 6 life during the turn, that player will have a higher life total than they started the turn with — but Sygg's ability will trigger anyway.
 2008/05/01: You don't specify an opponent when the ability triggers. If multiple opponents have lost 3 or more life over the course of the turn, the ability will trigger only once.
 2008/05/01: Sygg's ability will trigger even if Sygg wasn't on the battlefield at the time some or all of the life was lost.
 2008/05/01: Sygg's ability checks to see if it triggers at the end of every turn. It doesn't have to be your turn, and it doesn't have to be the turn of the opponent that lost life.</Rulings>
@@ -3491,8 +3490,8 @@ Whenever Ashenmoor Liege becomes the target of a spell or ability an opponent co
 <Name>Demigod of Revenge</Name>
 <Type>Creature — Spirit Avatar 5/4</Type>
 <ManaCost>{B/R}{B/R}{B/R}{B/R}{B/R} (5)</ManaCost>
-<CardText>Flying, haste
-When you cast Demigod of Revenge, return all cards named Demigod of Revenge from your graveyard to the battlefield.</CardText>
+<CardText>When you cast this spell, return all cards named Demigod of Revenge from your graveyard to the battlefield.
+Flying, haste</CardText>
 <Flavor>"His laugh, a bellowing, deathly din, slices through the heavens, making them bleed."
 —The Seer's Parables</Flavor>
 <Artist>Jim Murray</Artist>
@@ -3518,7 +3517,7 @@ When you cast Demigod of Revenge, return all cards named Demigod of Revenge from
 <Artist>Dave Dorman</Artist>
 <Multiverseid>146733</Multiverseid>
 <Rulings>2008/05/01: The parts of the spell happen in order. When determining how many black creatures and how many red creatures you control, keep in mind that you just put a creature onto the battlefield that's black and red.
-2008/05/01: If the targeted opponent becomes an illegal target, the entire spell is countered. You won't get a token.</Rulings>
+2008/05/01: If the targeted opponent becomes an illegal target, the entire spell doesn't resolve. You won't get a token.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3652,7 +3651,7 @@ Creatures your opponents control with counters on them can't attack or block.</C
 <Name>Manaforge Cinder</Name>
 <Type>Creature — Elemental Shaman 1/1</Type>
 <ManaCost>{B/R} (1)</ManaCost>
-<CardText>{1}: Add {B} or {R} to your mana pool. Activate this ability no more than three times each turn.</CardText>
+<CardText>{1}: Add {B} or {R}. Activate this ability no more than three times each turn.</CardText>
 <Flavor>Cinder mystics set traps for sluaghs and other spirits of flame, seeking to extract the secrets of the fire their own hearts have lost.</Flavor>
 <Artist>Izzy</Artist>
 <Multiverseid>141978</Multiverseid>
@@ -3669,7 +3668,7 @@ Creatures your opponents control with counters on them can't attack or block.</C
 <Name>Murderous Redcap</Name>
 <Type>Creature — Goblin Assassin 2/2</Type>
 <ManaCost>2{B/R}{B/R} (4)</ManaCost>
-<CardText>When Murderous Redcap enters the battlefield, it deals damage equal to its power to target creature or player.
+<CardText>When Murderous Redcap enters the battlefield, it deals damage equal to its power to any target.
 Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)</CardText>
 <Artist>Dave Allsop</Artist>
 <Multiverseid>153298</Multiverseid>
@@ -3679,7 +3678,7 @@ Persist (When this creature dies, if it had no -1/-1 counters on it, return it t
 2013/06/07: If a permanent has multiple instances of persist, they'll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing.
 2013/06/07: If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can't return to the battlefield.
 2013/06/07: When a permanent with persist returns to the battlefield, it's a new object with no memory of or connection to its previous existence.
-2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of his or her persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
+2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
 2013/06/07: If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature's existence just before it leaves the battlefield, and it still has all those counters on it at that point.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3824,7 +3823,7 @@ Whenever a player draws a card, Spiteful Visions deals 1 damage to that player.<
 Conspire (As you cast this spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose a new target for the copy.)</CardText>
 <Artist>Jim Pavelec</Artist>
 <Multiverseid>158746</Multiverseid>
-<Rulings>2008/05/01: If you use conspire to copy <Traitor's Roar>, but you don't change its target, the copy will resolve just fine but the original will be countered on resolution. That's because the copy will resolve first, and as part of its resolution, it will tap the targeted creature. Then, when the original <Traitor's Roar> tries to resolve, it will have an illegal target (since it must target an untapped creature).</Rulings>
+<Rulings>2008/05/01: If you use conspire to copy <Traitor's Roar>, but you don't change its target, the copy will resolve just fine but the original doesn't resolve. That's because the copy will resolve first, and as part of its resolution, it will tap the targeted creature. Then, when the original <Traitor's Roar> tries to resolve, it will have an illegal target (since it must target an untapped creature).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3838,7 +3837,7 @@ Conspire (As you cast this spell, you may tap two untapped creatures you control
 <Name>Tyrannize</Name>
 <Type>Sorcery</Type>
 <ManaCost>3{B/R}{B/R} (5)</ManaCost>
-<CardText>Target player discards his or her hand unless he or she pays 7 life.</CardText>
+<CardText>Target player discards their hand unless they pay 7 life.</CardText>
 <Flavor>"I can stab you where it hurts, or where you will feel absolutely nothing."
 —Illulia of Nighthearth</Flavor>
 <Artist>Mark Tedin</Artist>
@@ -4027,7 +4026,7 @@ Conspire (As you cast this spell, you may tap two untapped creatures you control
 <Name>Manamorphose</Name>
 <Type>Instant</Type>
 <ManaCost>1{R/G} (2)</ManaCost>
-<CardText>Add two mana in any combination of colors to your mana pool.
+<CardText>Add two mana in any combination of colors.
 Draw a card.</CardText>
 <Flavor>For a moment, objects of pure mana glimmered in the wonderstruck boggart's hands. In the next moment, they were in his mouth, as he chewed contentedly.</Flavor>
 <Artist>Jeff Miracola</Artist>
@@ -4046,7 +4045,7 @@ Draw a card.</CardText>
 <Type>Creature — Elemental 6/4</Type>
 <ManaCost>4{R/G}{R/G} (6)</ManaCost>
 <CardText>Morselhoarder enters the battlefield with two -1/-1 counters on it.
-Remove a -1/-1 counter from Morselhoarder: Add one mana of any color to your mana pool.</CardText>
+Remove a -1/-1 counter from Morselhoarder: Add one mana of any color.</CardText>
 <Flavor>It scours the hills for living matter, savoring even the tang of poisonous fungi.</Flavor>
 <Artist>Anthony S. Waters</Artist>
 <Multiverseid>159407</Multiverseid>
@@ -4080,7 +4079,7 @@ Remove a -1/-1 counter from Morselhoarder: Add one mana of any color to your man
 <Name>Rosheen Meanderer</Name>
 <Type>Legendary Creature — Giant Shaman 4/4</Type>
 <ManaCost>3{R/G} (4)</ManaCost>
-<CardText>{T}: Add {C}{C}{C}{C} to your mana pool. Spend this mana only on costs that contain {X}.</CardText>
+<CardText>{T}: Add {C}{C}{C}{C}. Spend this mana only on costs that contain {X}.</CardText>
 <Flavor>Night after night, Rosheen babbled about a bygone sunlit world, her every word dismissed as a madwoman's ravings.</Flavor>
 <Artist>Aleksi Briclot</Artist>
 <Multiverseid>159412</Multiverseid>
@@ -4129,7 +4128,7 @@ Persist (When this creature dies, if it had no -1/-1 counters on it, return it t
 2013/06/07: If a permanent has multiple instances of persist, they'll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing.
 2013/06/07: If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can't return to the battlefield.
 2013/06/07: When a permanent with persist returns to the battlefield, it's a new object with no memory of or connection to its previous existence.
-2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of his or her persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
+2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
 2013/06/07: If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature's existence just before it leaves the battlefield, and it still has all those counters on it at that point.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -4214,11 +4213,11 @@ Whenever you cast a green spell, Tattermunge Duo gains forestwalk until end of t
 <Type>Creature — Giant Shaman 5/5</Type>
 <ManaCost>5{R/G} (6)</ManaCost>
 <CardText>{T}, Sacrifice a Mountain: Valleymaker deals 3 damage to target creature.
-{T}, Sacrifice a Forest: Choose a player. That player adds {G}{G}{G} to his or her mana pool.</CardText>
+{T}, Sacrifice a Forest: Choose a player. That player adds {G}{G}{G}.</CardText>
 <Flavor>Their home uprooted by a giant, the gang of boggarts mourned their old stomping ground.</Flavor>
 <Artist>Randy Gallegos</Artist>
 <Multiverseid>159397</Multiverseid>
-<Rulings>2009/10/01: The second ability is a mana ability. It doesn't target a player and it doesn't use the stack. If the player who adds {G}{G}{G} to his or her mana pool can't spend all of it before the phase ends, the remaining mana will leave his or her mana pool at the end of the current step (or phase).</Rulings>
+<Rulings>2009/10/01: The second ability is a mana ability. It doesn't target a player and it doesn't use the stack. If the player who adds {G}{G}{G} to their mana pool can't spend all of it before the phase ends, the remaining mana will leave their mana pool at the end of the current step (or phase).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4232,13 +4231,12 @@ Whenever you cast a green spell, Tattermunge Duo gains forestwalk until end of t
 <Name>Vexing Shusher</Name>
 <Type>Creature — Goblin Shaman 2/2</Type>
 <ManaCost>{R/G}{R/G} (2)</ManaCost>
-<CardText>Vexing Shusher can't be countered.
-{R/G}: Target spell can't be countered by spells or abilities.</CardText>
+<CardText>This spell can't be countered.
+{R/G}: Target spell can't be countered.</CardText>
 <Flavor>The stench of bloodcap mushrooms on the breath is enough to ward off even the most potent magics, especially when combined with a special chant: "Hushhh."</Flavor>
 <Artist>Cyril Van Der Haegen</Artist>
 <Multiverseid>146016</Multiverseid>
-<Rulings>2008/05/01: After <Vexing Shusher>'s ability resolves, any spells or abilities that would counter the targeted spell will still resolve. They just won't counter that spell.
-2008/05/01: <Vexing Shusher>'s ability won't prevent the targeted spell from being countered by the game rules (for example, if all its targets are illegal).</Rulings>
+<Rulings>2008/05/01: After <Vexing Shusher>'s ability resolves, any spells or abilities that would counter the targeted spell will still resolve. They just won't counter that spell.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4358,7 +4356,7 @@ Persist (When this creature dies, if it had no -1/-1 counters on it, return it t
 2013/06/07: If a permanent has multiple instances of persist, they'll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing.
 2013/06/07: If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can't return to the battlefield.
 2013/06/07: When a permanent with persist returns to the battlefield, it's a new object with no memory of or connection to its previous existence.
-2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of his or her persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
+2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
 2013/06/07: If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature's existence just before it leaves the battlefield, and it still has all those counters on it at that point.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -4383,7 +4381,7 @@ Persist (When this creature dies, if it had no -1/-1 counters on it, return it t
 2013/06/07: If a permanent has multiple instances of persist, they'll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing.
 2013/06/07: If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can't return to the battlefield.
 2013/06/07: When a permanent with persist returns to the battlefield, it's a new object with no memory of or connection to its previous existence.
-2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of his or her persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
+2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
 2013/06/07: If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature's existence just before it leaves the battlefield, and it still has all those counters on it at that point.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -4569,7 +4567,7 @@ Whenever you cast a white spell, Safehold Duo gains vigilance until end of turn.
 2013/06/07: If a permanent has multiple instances of persist, they'll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing.
 2013/06/07: If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can't return to the battlefield.
 2013/06/07: When a permanent with persist returns to the battlefield, it's a new object with no memory of or connection to its previous existence.
-2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of his or her persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
+2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
 2013/06/07: If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature's existence just before it leaves the battlefield, and it still has all those counters on it at that point.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -4740,7 +4738,7 @@ Equip {2}</CardText>
 2013/06/07: If a permanent has multiple instances of persist, they'll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing.
 2013/06/07: If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can't return to the battlefield.
 2013/06/07: When a permanent with persist returns to the battlefield, it's a new object with no memory of or connection to its previous existence.
-2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of his or her persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
+2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
 2013/06/07: If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature's existence just before it leaves the battlefield, and it still has all those counters on it at that point.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -4930,7 +4928,7 @@ All cards that aren't on the battlefield, spells, and permanents are the chosen 
 <Type>Artifact Creature — Scarecrow 1/1</Type>
 <ManaCost>2 (2)</ManaCost>
 <CardText>Flying
-{2}, {Q}: Add one mana of any color to your mana pool. ({Q} is the untap symbol.)</CardText>
+{2}, {Q}: Add one mana of any color. ({Q} is the untap symbol.)</CardText>
 <Flavor>It wasn't really expected to fly. Then again, it wasn't expected to move, either.</Flavor>
 <Artist>Ron Spencer</Artist>
 <Multiverseid>147381</Multiverseid>
@@ -4960,7 +4958,7 @@ Rattleblaze Scarecrow has haste as long as you control a red creature.</CardText
 2013/06/07: If a permanent has multiple instances of persist, they'll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing.
 2013/06/07: If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can't return to the battlefield.
 2013/06/07: When a permanent with persist returns to the battlefield, it's a new object with no memory of or connection to its previous existence.
-2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of his or her persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
+2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
 2013/06/07: If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature's existence just before it leaves the battlefield, and it still has all those counters on it at that point.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -5034,7 +5032,7 @@ Whenever another Scarecrow enters the battlefield under your control, destroy ta
 <Name>Scuttlemutt</Name>
 <Type>Artifact Creature — Scarecrow 2/2</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add one mana of any color to your mana pool.
+<CardText>{T}: Add one mana of any color.
 {T}: Target creature becomes the color or colors of your choice until end of turn.</CardText>
 <Flavor>Built to shuttle goods from the river, it took off one day carrying a cauldron of dyes.</Flavor>
 <Artist>Jeremy Jarvis</Artist>
@@ -5181,7 +5179,7 @@ Wingrattle Scarecrow has persist as long as you control a black creature. (When 
 2013/06/07: If a permanent has multiple instances of persist, they'll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing.
 2013/06/07: If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can't return to the battlefield.
 2013/06/07: When a permanent with persist returns to the battlefield, it's a new object with no memory of or connection to its previous existence.
-2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of his or her persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
+2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
 2013/06/07: If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature's existence just before it leaves the battlefield, and it still has all those counters on it at that point.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -5195,8 +5193,8 @@ Wingrattle Scarecrow has persist as long as you control a black creature. (When 
 <No>271</No>
 <Name>Fire-Lit Thicket</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{R/G}, {T}: Add {R}{R}, {R}{G}, or {G}{G} to your mana pool.</CardText>
+<CardText>{T}: Add {C}.
+{R/G}, {T}: Add {R}{R}, {R}{G}, or {G}{G}.</CardText>
 <Flavor>Occupancy of the den changes from night to night as boggart gangs fight for control of a place they aren't willing to simply eat.</Flavor>
 <Artist>Ralph Horsley</Artist>
 <Multiverseid>146753</Multiverseid>
@@ -5212,8 +5210,8 @@ Wingrattle Scarecrow has persist as long as you control a black creature. (When 
 <No>272</No>
 <Name>Graven Cairns</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{B/R}, {T}: Add {B}{B}, {B}{R}, or {R}{R} to your mana pool.</CardText>
+<CardText>{T}: Add {C}.
+{B/R}, {T}: Add {B}{B}, {B}{R}, or {R}{R}.</CardText>
 <Flavor>"Here did the Extinguisher steal the light from the world. Here will we sacrifice her to bring the Great Rekindling to our people."
 —Illulia of Nighthearth</Flavor>
 <Artist>Rob Alexander</Artist>
@@ -5231,7 +5229,7 @@ Wingrattle Scarecrow has persist as long as you control a black creature. (When 
 <No>273</No>
 <Name>Leechridden Swamp</Name>
 <Type>Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)
+<CardText>({T}: Add {B}.)
 Leechridden Swamp enters the battlefield tapped.
 {B}, {T}: Each opponent loses 1 life. Activate this ability only if you control two or more black permanents.</CardText>
 <Artist>Lars Grant-West</Artist>
@@ -5248,7 +5246,7 @@ Leechridden Swamp enters the battlefield tapped.
 <No>274</No>
 <Name>Madblind Mountain</Name>
 <Type>Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)
+<CardText>({T}: Add {R}.)
 Madblind Mountain enters the battlefield tapped.
 {R}, {T}: Shuffle your library. Activate this ability only if you control two or more red permanents.</CardText>
 <Artist>Fred Fields</Artist>
@@ -5265,7 +5263,7 @@ Madblind Mountain enters the battlefield tapped.
 <No>275</No>
 <Name>Mistveil Plains</Name>
 <Type>Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)
+<CardText>({T}: Add {W}.)
 Mistveil Plains enters the battlefield tapped.
 {W}, {T}: Put target card from your graveyard on the bottom of your library. Activate this ability only if you control two or more white permanents.</CardText>
 <Artist>Rob Alexander</Artist>
@@ -5282,7 +5280,7 @@ Mistveil Plains enters the battlefield tapped.
 <No>276</No>
 <Name>Moonring Island</Name>
 <Type>Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)
+<CardText>({T}: Add {U}.)
 Moonring Island enters the battlefield tapped.
 {U}, {T}: Look at the top card of target player's library. Activate this ability only if you control two or more blue permanents.</CardText>
 <Artist>Brandon Kitkouski</Artist>
@@ -5299,8 +5297,8 @@ Moonring Island enters the battlefield tapped.
 <No>277</No>
 <Name>Mystic Gate</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{W/U}, {T}: Add {W}{W}, {W}{U}, or {U}{U} to your mana pool.</CardText>
+<CardText>{T}: Add {C}.
+{W/U}, {T}: Add {W}{W}, {W}{U}, or {U}{U}.</CardText>
 <Flavor>The gate of every kithkin doun is a cunning trap, intended to spill visitors into an oubliette from which there is no escape.</Flavor>
 <Artist>Fred Fields</Artist>
 <Multiverseid>146746</Multiverseid>
@@ -5316,14 +5314,14 @@ Moonring Island enters the battlefield tapped.
 <No>278</No>
 <Name>Reflecting Pool</Name>
 <Type>Land</Type>
-<CardText>{T}: Add to your mana pool one mana of any type that a land you control could produce.</CardText>
+<CardText>{T}: Add one mana of any type that a land you control could produce.</CardText>
 <Flavor>Does it reflect the future that once was or the past that can never be?</Flavor>
 <Artist>Fred Fields</Artist>
 <Multiverseid>152158</Multiverseid>
 <Rulings>2004/10/04: Any replacement effects are considered by <Reflecting Pool> when determining the types of mana a land can produce.
 2004/10/04: Any change to a land's type or splicing of text into a land can affect the types of mana a land can produce.
 2008/05/01: The types of mana are white, blue, black, red, green, and colorless.
-2008/05/01: <Reflecting Pool> checks the effects of all mana-producing abilities of lands you control, but it doesn't check their costs. For example, Vivid Crag says "{T}, Remove a charge counter from Vivid Crag: Add one mana of any color to your mana pool." If you control Vivid Crag and <Reflecting Pool>, you can tap <Reflecting Pool> for any color of mana. It doesn't matter whether Vivid Crag has a charge counter on it, and it doesn't matter whether it's untapped.
+2008/05/01: <Reflecting Pool> checks the effects of all mana-producing abilities of lands you control, but it doesn't check their costs. For example, Vivid Crag says "{T}, Remove a charge counter from Vivid Crag: Add one mana of any color." If you control Vivid Crag and <Reflecting Pool>, you can tap <Reflecting Pool> for any color of mana. It doesn't matter whether Vivid Crag has a charge counter on it, and it doesn't matter whether it's untapped.
 2008/05/01: <Reflecting Pool> doesn't care about any restrictions or riders your lands put on the mana they produce, such as Pillar of the Paruns and Hall of the Bandit Lord do. It just cares about types of mana.
 2008/05/01: Multiple <Reflecting Pool>s won't help each other produce mana. If you control a <Reflecting Pool>, and all other lands you control either lack mana abilities or are other <Reflecting Pool>s, you may still activate <Reflecting Pool>'s ability — it just won't produce any mana.</Rulings>
 <Vintage>Legal</Vintage>
@@ -5338,7 +5336,7 @@ Moonring Island enters the battlefield tapped.
 <No>279</No>
 <Name>Sapseep Forest</Name>
 <Type>Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)
+<CardText>({T}: Add {G}.)
 Sapseep Forest enters the battlefield tapped.
 {G}, {T}: You gain 1 life. Activate this ability only if you control two or more green permanents.</CardText>
 <Artist>Aleksi Briclot</Artist>
@@ -5355,8 +5353,8 @@ Sapseep Forest enters the battlefield tapped.
 <No>280</No>
 <Name>Sunken Ruins</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{U/B}, {T}: Add {U}{U}, {U}{B}, or {B}{B} to your mana pool.</CardText>
+<CardText>{T}: Add {C}.
+{U/B}, {T}: Add {U}{U}, {U}{B}, or {B}{B}.</CardText>
 <Flavor>Without the care of the tideshapers, the Lanes lie neglected. Some have flooded entire towns; others dried to cracked mud.</Flavor>
 <Artist>Warren Mahy</Artist>
 <Multiverseid>146729</Multiverseid>
@@ -5372,8 +5370,8 @@ Sapseep Forest enters the battlefield tapped.
 <No>281</No>
 <Name>Wooded Bastion</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{G/W}, {T}: Add {G}{G}, {G}{W}, or {W}{W} to your mana pool.</CardText>
+<CardText>{T}: Add {C}.
+{G/W}, {T}: Add {G}{G}, {G}{W}, or {W}{W}.</CardText>
 <Flavor>The elves of Wilt-Leaf Wood continually expand the palisade surrounding the sanctuary. They hope to one day enclose the entire forest within its walls.</Flavor>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>146747</Multiverseid>
@@ -5389,7 +5387,7 @@ Sapseep Forest enters the battlefield tapped.
 <No>282</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Omar Rayyan</Artist>
 <Multiverseid>158235</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5404,7 +5402,7 @@ Sapseep Forest enters the battlefield tapped.
 <No>283</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Lars Grant-West</Artist>
 <Multiverseid>158236</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5419,7 +5417,7 @@ Sapseep Forest enters the battlefield tapped.
 <No>284</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Dave Kendall</Artist>
 <Multiverseid>157887</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5434,7 +5432,7 @@ Sapseep Forest enters the battlefield tapped.
 <No>285</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Larry MacDougall</Artist>
 <Multiverseid>157873</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5449,7 +5447,7 @@ Sapseep Forest enters the battlefield tapped.
 <No>286</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Omar Rayyan</Artist>
 <Multiverseid>158237</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5464,7 +5462,7 @@ Sapseep Forest enters the battlefield tapped.
 <No>287</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Warren Mahy</Artist>
 <Multiverseid>157874</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5479,7 +5477,7 @@ Sapseep Forest enters the battlefield tapped.
 <No>288</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Brandon Kitkouski</Artist>
 <Multiverseid>157875</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5494,7 +5492,7 @@ Sapseep Forest enters the battlefield tapped.
 <No>289</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>157883</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5509,7 +5507,7 @@ Sapseep Forest enters the battlefield tapped.
 <No>290</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Lars Grant-West</Artist>
 <Multiverseid>157889</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5524,7 +5522,7 @@ Sapseep Forest enters the battlefield tapped.
 <No>291</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Warren Mahy</Artist>
 <Multiverseid>157871</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5539,7 +5537,7 @@ Sapseep Forest enters the battlefield tapped.
 <No>292</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>rk post</Artist>
 <Multiverseid>158239</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5554,7 +5552,7 @@ Sapseep Forest enters the battlefield tapped.
 <No>293</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Chippy</Artist>
 <Multiverseid>157886</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5569,7 +5567,7 @@ Sapseep Forest enters the battlefield tapped.
 <No>294</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Dave Kendall</Artist>
 <Multiverseid>158240</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5584,7 +5582,7 @@ Sapseep Forest enters the battlefield tapped.
 <No>295</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Brandon Kitkouski</Artist>
 <Multiverseid>157888</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5599,7 +5597,7 @@ Sapseep Forest enters the battlefield tapped.
 <No>296</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>rk post</Artist>
 <Multiverseid>157885</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5614,7 +5612,7 @@ Sapseep Forest enters the battlefield tapped.
 <No>297</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Steve Prescott</Artist>
 <Multiverseid>157882</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5629,7 +5627,7 @@ Sapseep Forest enters the battlefield tapped.
 <No>298</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Larry MacDougall</Artist>
 <Multiverseid>157877</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5644,7 +5642,7 @@ Sapseep Forest enters the battlefield tapped.
 <No>299</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>157870</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5659,7 +5657,7 @@ Sapseep Forest enters the battlefield tapped.
 <No>300</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Chippy</Artist>
 <Multiverseid>158242</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5674,7 +5672,7 @@ Sapseep Forest enters the battlefield tapped.
 <No>301</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Steve Prescott</Artist>
 <Multiverseid>158241</Multiverseid>
 <Vintage>Legal</Vintage>

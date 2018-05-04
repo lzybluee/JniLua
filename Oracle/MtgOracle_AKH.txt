@@ -110,7 +110,7 @@ If an opponent would search a library, that player searches the top four cards o
 <Flavor>"The only question we need to ask is how best to fulfill the will of the God-Pharaoh."</Flavor>
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>426707</Multiverseid>
-<Rulings>2017/04/18: Each search works exactly the same as normal except that the opponent doing the searching sees only the top four cards of that library. He or she can't look at the other cards in that library at all. Cards not in the top four cards of the library can't be found in the search, even if they're identifiable in some manner.
+<Rulings>2017/04/18: Each search works exactly the same as normal except that the opponent doing the searching sees only the top four cards of that library. They can't look at the other cards in that library at all. Cards not in the top four cards of the library can't be found in the search, even if they're identifiable in some manner.
 2017/04/18: For effects that check whether a player searched a library, searching the top four cards of that library counts as searching that library.
 2017/04/18: If an effect uses the word "search" once but allows an opponent to search for multiple cards, the top four cards remain the same throughout the entire search. Finding one card won't cause the fifth card to be included in the search.
 2017/04/18: After the search is complete, the entire library is shuffled.</Rulings>
@@ -150,7 +150,7 @@ Enchanted creature gets +1/+1 and has first strike.</CardText>
 <Artist>Kieran Yanner</Artist>
 <Multiverseid>426709</Multiverseid>
 <Rulings>2017/04/18: Cartouche is an enchantment subtype with no special meaning. Other cards may care about which enchantments are Cartouches.
-2017/04/18: If the target creature becomes an illegal target before a Cartouche spell resolves, the spell is countered. It doesn't enter the battlefield.
+2017/04/18: If the target creature becomes an illegal target before a Cartouche spell resolves, the spell doesn't resolve. It doesn't enter the battlefield.
 2017/04/18: Each Cartouche is an Aura with "Enchant creature you control." If another player gains control of either the Cartouche or the enchanted creature (but not both), then the Cartouche will be enchanting an illegal permanent and be put into its owner's graveyard as a state-based action.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -482,8 +482,7 @@ Embalm {3}{W}{W} ({3}{W}{W}, Exile this card from your graveyard: Create a token
 <Artist>Ryan Alexander Lee</Artist>
 <Multiverseid>426725</Multiverseid>
 <Rulings>2017/04/18: If multiple sources would deal damage to you at once (for example, several attacking creatures), 1 damage from each of those sources is prevented.
-2017/04/18: Damage that would be dealt to creatures you control is unaffected.
-2017/04/18: If a prevention effect applies to noncombat damage that would be dealt to you while you control a planeswalker, you choose whether to apply that prevention effect before or after the planeswalker redirection effect. If you apply <Protection of the Hekma>'s prevention effect first, the planeswalker redirection effect still applies to the remaining damage. If you apply the planeswalker redirection effect and your opponent chooses to have the damage dealt to a planeswalker you control, none of that damage is prevented.</Rulings>
+2017/04/18: Damage that would be dealt to creatures you control is unaffected.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -525,10 +524,10 @@ When you cycle Renewed Faith, you may gain 2 life.</CardText>
 <Multiverseid>426727</Multiverseid>
 <Rulings>2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
 2008/10/01: When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
-2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability is countered (with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.
+2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (due to being countered with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.
 2017/04/18: Some cards with cycling have an ability that triggers when you cycle them. These triggered abilities resolve before you draw from the cycling ability.
 2017/04/18: Triggered abilities from cycling a card and the cycling ability itself aren't spells. Effects that interact with spells (such as that of Cancel) won't affect them.
-2017/04/18: You can cycle a card even if it has a triggered ability from cycling that won't have a legal target. This is because the cycling ability and the triggered ability are separate. This also means that if either ability is countered (with Disallow, for example, or if the triggered ability's targets have become illegal), the other ability will still resolve.
+2017/04/18: You can cycle a card even if it has a triggered ability from cycling that won't have a legal target. This is because the cycling ability and the triggered ability are separate. This also means that if either ability doesn't resolve (due to being countered with Disallow, for example, or if the triggered ability's targets have become illegal), the other ability will still resolve.
 2018/01/19: There are many important moments in the story, but the most crucial—called "story spotlights"—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -930,7 +929,7 @@ Enchanted creature gets +1/+1 and has flying.</CardText>
 <Artist>Kieran Yanner</Artist>
 <Multiverseid>426747</Multiverseid>
 <Rulings>2017/04/18: Cartouche is an enchantment subtype with no special meaning. Other cards may care about which enchantments are Cartouches.
-2017/04/18: If the target creature becomes an illegal target before a Cartouche spell resolves, the spell is countered. It doesn't enter the battlefield.
+2017/04/18: If the target creature becomes an illegal target before a Cartouche spell resolves, the spell doesn't resolve. It doesn't enter the battlefield.
 2017/04/18: Each Cartouche is an Aura with "Enchant creature you control." If another player gains control of either the Cartouche or the enchanted creature (but not both), then the Cartouche will be enchanting an illegal permanent and be put into its owner's graveyard as a state-based action.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -964,7 +963,7 @@ Cycling {U} ({U}, Discard this card: Draw a card.)</CardText>
 <Name>Compelling Argument</Name>
 <Type>Sorcery</Type>
 <ManaCost>1U (2)</ManaCost>
-<CardText>Target player puts the top five cards of his or her library into his or her graveyard.
+<CardText>Target player puts the top five cards of their library into their graveyard.
 Cycling {U} ({U}, Discard this card: Draw a card.)</CardText>
 <Flavor>"How can there be doubt in the presence of such blessings?"
 —Ukhat, vizier of initiation</Flavor>
@@ -983,7 +982,7 @@ Cycling {U} ({U}, Discard this card: Draw a card.)</CardText>
 <Name>Cryptic Serpent</Name>
 <Type>Creature — Serpent 6/5</Type>
 <ManaCost>5UU (7)</ManaCost>
-<CardText>Cryptic Serpent costs {1} less to cast for each instant and sorcery card in your graveyard.</CardText>
+<CardText>This spell costs {1} less to cast for each instant and sorcery card in your graveyard.</CardText>
 <Flavor>It slithers through the senses, constricting consciousness and poisoning perceptions.</Flavor>
 <Artist>Lius Lasahido</Artist>
 <Multiverseid>426750</Multiverseid>
@@ -1012,7 +1011,7 @@ Cycling {U} ({U}, Discard this card: Draw a card.)</CardText>
 <Rulings>2017/04/18: Some cards have an ability that triggers whenever you cycle any card. These triggered abilities resolve before you draw from the cycling ability.
 2017/04/18: An ability that triggers whenever you discard a card doesn't give you permission to discard cards. You'll need another effect that instructs or allows you to discard them.
 2017/04/18: An ability that triggers whenever you "cycle or discard" a card triggers only once if you cycle a card. The ability "Whenever you discard a card" is functionally identical to this ability; cycling is mentioned for clarity.
-2017/04/18: If a player discards a card during his or her cleanup step due to having too many cards in hand, any appropriate abilities that trigger on discarding that card trigger. If this happens, those triggered abilities are put onto the stack and players receive priority in that cleanup step to cast spells or activate abilities (normally, no players may take actions during a cleanup step). Another cleanup step is created following that one.</Rulings>
+2017/04/18: If a player discards a card during their cleanup step due to having too many cards in hand, any appropriate abilities that trigger on discarding that card trigger. If this happens, those triggered abilities are put onto the stack and players receive priority in that cleanup step to cast spells or activate abilities (normally, no players may take actions during a cleanup step). Another cleanup step is created following that one.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1053,7 +1052,7 @@ Cycling {U} ({U}, Discard this card: Draw a card.)</CardText>
 2017/04/18: Some cards have an ability that triggers whenever you cycle any card. These triggered abilities resolve before you draw from the cycling ability.
 2017/04/18: An ability that triggers whenever you discard a card doesn't give you permission to discard cards. You'll need another effect that instructs or allows you to discard them.
 2017/04/18: An ability that triggers whenever you "cycle or discard" a card triggers only once if you cycle a card. The ability "Whenever you discard a card" is functionally identical to this ability; cycling is mentioned for clarity.
-2017/04/18: If a player discards a card during his or her cleanup step due to having too many cards in hand, any appropriate abilities that trigger on discarding that card trigger. If this happens, those triggered abilities are put onto the stack and players receive priority in that cleanup step to cast spells or activate abilities (normally, no players may take actions during a cleanup step). Another cleanup step is created following that one.</Rulings>
+2017/04/18: If a player discards a card during their cleanup step due to having too many cards in hand, any appropriate abilities that trigger on discarding that card trigger. If this happens, those triggered abilities are put onto the stack and players receive priority in that cleanup step to cast spells or activate abilities (normally, no players may take actions during a cleanup step). Another cleanup step is created following that one.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1109,7 +1108,7 @@ Draw a card.</CardText>
 <Flavor>Strong wings make strong winds.</Flavor>
 <Artist>Mike Bierek</Artist>
 <Multiverseid>426756</Multiverseid>
-<Rulings>2017/04/18: If the target creature is an illegal target by the time <Galestrike> resolves, the entire spell is countered. You won't draw a card.</Rulings>
+<Rulings>2017/04/18: If the target creature is an illegal target by the time <Galestrike> resolves, the entire spell doesn't resolve. You won't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1153,7 +1152,7 @@ Embalm {5}{U}{U} ({5}{U}{U}, Exile this card from your graveyard: Create a token
 <Rulings>2017/04/18: Some cards have an ability that triggers whenever you cycle any card. These triggered abilities resolve before you draw from the cycling ability.
 2017/04/18: An ability that triggers whenever you discard a card doesn't give you permission to discard cards. You'll need another effect that instructs or allows you to discard them.
 2017/04/18: An ability that triggers whenever you "cycle or discard" a card triggers only once if you cycle a card. The ability "Whenever you discard a card" is functionally identical to this ability; cycling is mentioned for clarity.
-2017/04/18: If a player discards a card during his or her cleanup step due to having too many cards in hand, any appropriate abilities that trigger on discarding that card trigger. If this happens, those triggered abilities are put onto the stack and players receive priority in that cleanup step to cast spells or activate abilities (normally, no players may take actions during a cleanup step). Another cleanup step is created following that one.</Rulings>
+2017/04/18: If a player discards a card during their cleanup step due to having too many cards in hand, any appropriate abilities that trigger on discarding that card trigger. If this happens, those triggered abilities are put onto the stack and players receive priority in that cleanup step to cast spells or activate abilities (normally, no players may take actions during a cleanup step). Another cleanup step is created following that one.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1256,7 +1255,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <Flavor>Initiates need worry only about the trials. Everything else is in the hands of the gods.</Flavor>
 <Artist>Chris Rallis</Artist>
 <Multiverseid>426763</Multiverseid>
-<Rulings>2017/04/18: Gaining control of a creature doesn't cause you to gain control of any Auras or Equipment attached to it. They'll remain attached, but an Aura's effect that affects "you" still affects its controller rather than you, the controller of an Equipment can move it during his or her next main phase, and so on.</Rulings>
+<Rulings>2017/04/18: Gaining control of a creature doesn't cause you to gain control of any Auras or Equipment attached to it. They'll remain attached, but an Aura's effect that affects "you" still affects its controller rather than you, the controller of an Equipment can move it during their next main phase, and so on.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1529,7 +1528,7 @@ When you cycle Vizier of Tumbling Sands, untap target permanent.</CardText>
 <Multiverseid>426777</Multiverseid>
 <Rulings>2017/04/18: Some cards with cycling have an ability that triggers when you cycle them. These triggered abilities resolve before you draw from the cycling ability.
 2017/04/18: Triggered abilities from cycling a card and the cycling ability itself aren't spells. Effects that interact with spells (such as that of Cancel) won't affect them.
-2017/04/18: You can cycle a card even if it has a triggered ability from cycling that won't have a legal target. This is because the cycling ability and the triggered ability are separate. This also means that if either ability is countered (with Disallow, for example, or if the triggered ability's targets have become illegal), the other ability will still resolve.</Rulings>
+2017/04/18: You can cycle a card even if it has a triggered ability from cycling that won't have a legal target. This is because the cycling ability and the triggered ability are separate. This also means that if either ability doesn't resolve (due to being countered with Disallow, for example, or if the triggered ability's targets have become illegal), the other ability will still resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1543,11 +1542,11 @@ When you cycle Vizier of Tumbling Sands, untap target permanent.</CardText>
 <Name>Winds of Rebuke</Name>
 <Type>Instant</Type>
 <ManaCost>1U (2)</ManaCost>
-<CardText>Return target nonland permanent to its owner's hand. Each player puts the top two cards of his or her library into his or her graveyard.</CardText>
+<CardText>Return target nonland permanent to its owner's hand. Each player puts the top two cards of their library into their graveyard.</CardText>
 <Flavor>"I have foreseen that you will not pass my trial."</Flavor>
 <Artist>Mathias Kollros</Artist>
 <Multiverseid>426778</Multiverseid>
-<Rulings>2017/04/18: If the target nonland permanent is an illegal target by the time <Winds of Rebuke> resolves, the entire spell is countered. No player loses cards from the top of his or her library.</Rulings>
+<Rulings>2017/04/18: If the target nonland permanent is an illegal target by the time <Winds of Rebuke> resolves, the entire spell doesn't resolve. No player loses cards from the top of their library.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1570,7 +1569,7 @@ Whenever you cycle or discard a card, target creature gains flying until end of 
 2017/04/18: Some cards have an ability that triggers whenever you cycle any card. These triggered abilities resolve before you draw from the cycling ability.
 2017/04/18: An ability that triggers whenever you discard a card doesn't give you permission to discard cards. You'll need another effect that instructs or allows you to discard them.
 2017/04/18: An ability that triggers whenever you "cycle or discard" a card triggers only once if you cycle a card. The ability "Whenever you discard a card" is functionally identical to this ability; cycling is mentioned for clarity.
-2017/04/18: If a player discards a card during his or her cleanup step due to having too many cards in hand, any appropriate abilities that trigger on discarding that card trigger. If this happens, those triggered abilities are put onto the stack and players receive priority in that cleanup step to cast spells or activate abilities (normally, no players may take actions during a cleanup step). Another cleanup step is created following that one.</Rulings>
+2017/04/18: If a player discards a card during their cleanup step due to having too many cards in hand, any appropriate abilities that trigger on discarding that card trigger. If this happens, those triggered abilities are put onto the stack and players receive priority in that cleanup step to cast spells or activate abilities (normally, no players may take actions during a cleanup step). Another cleanup step is created following that one.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1592,7 +1591,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <Rulings>2017/04/18: Some cards have an ability that triggers whenever you cycle any card. These triggered abilities resolve before you draw from the cycling ability.
 2017/04/18: An ability that triggers whenever you discard a card doesn't give you permission to discard cards. You'll need another effect that instructs or allows you to discard them.
 2017/04/18: An ability that triggers whenever you "cycle or discard" a card triggers only once if you cycle a card. The ability "Whenever you discard a card" is functionally identical to this ability; cycling is mentioned for clarity.
-2017/04/18: If a player discards a card during his or her cleanup step due to having too many cards in hand, any appropriate abilities that trigger on discarding that card trigger. If this happens, those triggered abilities are put onto the stack and players receive priority in that cleanup step to cast spells or activate abilities (normally, no players may take actions during a cleanup step). Another cleanup step is created following that one.</Rulings>
+2017/04/18: If a player discards a card during their cleanup step due to having too many cards in hand, any appropriate abilities that trigger on discarding that card trigger. If this happens, those triggered abilities are put onto the stack and players receive priority in that cleanup step to cast spells or activate abilities (normally, no players may take actions during a cleanup step). Another cleanup step is created following that one.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1643,14 +1642,14 @@ When Baleful Ammit enters the battlefield, put a -1/-1 counter on target creatur
 <Name>Bone Picker</Name>
 <Type>Creature — Bird 3/2</Type>
 <ManaCost>3B (4)</ManaCost>
-<CardText>Bone Picker costs {3} less to cast if a creature died this turn.
+<CardText>This spell costs {3} less to cast if a creature died this turn.
 Flying, deathtouch</CardText>
 <Flavor>They are the first to greet dissenters on their journey into exile.</Flavor>
 <Artist>Yeong-Hao Han</Artist>
 <Multiverseid>426783</Multiverseid>
 <Rulings>2017/04/18: The creature that died doesn't have to still be in its owner's graveyard as you cast <Bone Picker> for the first ability to apply.
 2017/04/18: Creature tokens that die are put into your graveyard as normal (and cease to exist soon after). If one died this turn, <Bone Picker>'s first ability applies.
-2017/04/18: In a multiplayer game, a player may lose the game at the same time that his or her creatures die. If so, <Bone Picker>'s first ability applies.</Rulings>
+2017/04/18: In a multiplayer game, a player may lose the game at the same time that their creatures die. If so, <Bone Picker>'s first ability applies.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1693,7 +1692,7 @@ Enchanted creature gets +1/+1 and has lifelink.</CardText>
 <Multiverseid>426785</Multiverseid>
 <Rulings>2017/04/18: The target creature for the triggered ability of <Cartouche of Ambition> doesn't have to be the creature it enchants.
 2017/04/18: Cartouche is an enchantment subtype with no special meaning. Other cards may care about which enchantments are Cartouches.
-2017/04/18: If the target creature becomes an illegal target before a Cartouche spell resolves, the spell is countered. It doesn't enter the battlefield.
+2017/04/18: If the target creature becomes an illegal target before a Cartouche spell resolves, the spell doesn't resolve. It doesn't enter the battlefield.
 2017/04/18: Each Cartouche is an Aura with "Enchant creature you control." If another player gains control of either the Cartouche or the enchanted creature (but not both), then the Cartouche will be enchanting an illegal permanent and be put into its owner's graveyard as a state-based action.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1709,12 +1708,12 @@ Enchanted creature gets +1/+1 and has lifelink.</CardText>
 <Type>Enchantment — Aura Curse</Type>
 <ManaCost>5BB (7)</ManaCost>
 <CardText>Enchant player
-At the beginning of enchanted player's upkeep, that player sacrifices a creature or planeswalker. If the player can't, he or she loses 5 life.</CardText>
+At the beginning of enchanted player's upkeep, that player sacrifices a creature or planeswalker. If the player can't, they lose 5 life.</CardText>
 <Flavor>As Gideon watched the initiate murder his crop-mate, his admiration of the city of Naktamun gave way to horror.</Flavor>
 <Artist>Kieran Yanner</Artist>
 <Multiverseid>426786</Multiverseid>
 <Rulings>2017/04/18: The enchanted player chooses a permanent to sacrifice from among the creatures and planeswalkers that player controls. You don't choose which type of permanent the player has to sacrifice.
-2017/04/18: The enchanted player can't choose to lose 5 life if he or she has a creature or planeswalker that can be sacrificed.
+2017/04/18: The enchanted player can't choose to lose 5 life if they have a creature or planeswalker that can be sacrificed.
 2018/01/19: There are many important moments in the story, but the most crucial—called "story spotlights"—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1747,7 +1746,7 @@ At the beginning of enchanted player's upkeep, that player sacrifices a creature
 <Name>Dispossess</Name>
 <Type>Sorcery</Type>
 <ManaCost>2B (3)</ManaCost>
-<CardText>Choose an artifact card name. Search target opponent's graveyard, hand, and library for any number of cards with the chosen name and exile them. Then that player shuffles his or her library.</CardText>
+<CardText>Choose an artifact card name. Search target opponent's graveyard, hand, and library for any number of cards with the chosen name and exile them. Then that player shuffles their library.</CardText>
 <Artist>Mark Behm</Artist>
 <Multiverseid>426788</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1913,7 +1912,7 @@ Cycling {B} ({B}, Discard this card: Draw a card.)</CardText>
 <Rulings>2017/04/18: Some cards have an ability that triggers whenever you cycle any card. These triggered abilities resolve before you draw from the cycling ability.
 2017/04/18: An ability that triggers whenever you discard a card doesn't give you permission to discard cards. You'll need another effect that instructs or allows you to discard them.
 2017/04/18: An ability that triggers whenever you "cycle or discard" a card triggers only once if you cycle a card. The ability "Whenever you discard a card" is functionally identical to this ability; cycling is mentioned for clarity.
-2017/04/18: If a player discards a card during his or her cleanup step due to having too many cards in hand, any appropriate abilities that trigger on discarding that card trigger. If this happens, those triggered abilities are put onto the stack and players receive priority in that cleanup step to cast spells or activate abilities (normally, no players may take actions during a cleanup step). Another cleanup step is created following that one.</Rulings>
+2017/04/18: If a player discards a card during their cleanup step due to having too many cards in hand, any appropriate abilities that trigger on discarding that card trigger. If this happens, those triggered abilities are put onto the stack and players receive priority in that cleanup step to cast spells or activate abilities (normally, no players may take actions during a cleanup step). Another cleanup step is created following that one.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1927,7 +1926,7 @@ Cycling {B} ({B}, Discard this card: Draw a card.)</CardText>
 <Name>Lay Bare the Heart</Name>
 <Type>Sorcery</Type>
 <ManaCost>1B (2)</ManaCost>
-<CardText>Target opponent reveals his or her hand. You choose a nonlegendary, nonland card from it. That player discards that card.</CardText>
+<CardText>Target opponent reveals their hand. You choose a nonlegendary, nonland card from it. That player discards that card.</CardText>
 <Flavor>"True intentions lie not in the head but in the heart."
 —Bontu, god of ambition</Flavor>
 <Artist>Karl Kopinski</Artist>
@@ -2062,7 +2061,7 @@ When Liliana's Mastery enters the battlefield, create two 2/2 black Zombie creat
 <Rulings>2017/04/18: Some cards have an ability that triggers whenever you cycle any card. These triggered abilities resolve before you draw from the cycling ability.
 2017/04/18: An ability that triggers whenever you discard a card doesn't give you permission to discard cards. You'll need another effect that instructs or allows you to discard them.
 2017/04/18: An ability that triggers whenever you "cycle or discard" a card triggers only once if you cycle a card. The ability "Whenever you discard a card" is functionally identical to this ability; cycling is mentioned for clarity.
-2017/04/18: If a player discards a card during his or her cleanup step due to having too many cards in hand, any appropriate abilities that trigger on discarding that card trigger. If this happens, those triggered abilities are put onto the stack and players receive priority in that cleanup step to cast spells or activate abilities (normally, no players may take actions during a cleanup step). Another cleanup step is created following that one.</Rulings>
+2017/04/18: If a player discards a card during their cleanup step due to having too many cards in hand, any appropriate abilities that trigger on discarding that card trigger. If this happens, those triggered abilities are put onto the stack and players receive priority in that cleanup step to cast spells or activate abilities (normally, no players may take actions during a cleanup step). Another cleanup step is created following that one.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2104,7 +2103,7 @@ Whenever another Zombie you control dies, each opponent loses 1 life.</CardText>
 2017/04/18: Some cards have an ability that triggers whenever you cycle any card. These triggered abilities resolve before you draw from the cycling ability.
 2017/04/18: An ability that triggers whenever you discard a card doesn't give you permission to discard cards. You'll need another effect that instructs or allows you to discard them.
 2017/04/18: An ability that triggers whenever you "cycle or discard" a card triggers only once if you cycle a card. The ability "Whenever you discard a card" is functionally identical to this ability; cycling is mentioned for clarity.
-2017/04/18: If a player discards a card during his or her cleanup step due to having too many cards in hand, any appropriate abilities that trigger on discarding that card trigger. If this happens, those triggered abilities are put onto the stack and players receive priority in that cleanup step to cast spells or activate abilities (normally, no players may take actions during a cleanup step). Another cleanup step is created following that one.</Rulings>
+2017/04/18: If a player discards a card during their cleanup step due to having too many cards in hand, any appropriate abilities that trigger on discarding that card trigger. If this happens, those triggered abilities are put onto the stack and players receive priority in that cleanup step to cast spells or activate abilities (normally, no players may take actions during a cleanup step). Another cleanup step is created following that one.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2202,7 +2201,7 @@ When you cycle Stir the Sands, create a 2/2 black Zombie creature token.</CardTe
 <Multiverseid>426812</Multiverseid>
 <Rulings>2017/04/18: Some cards with cycling have an ability that triggers when you cycle them. These triggered abilities resolve before you draw from the cycling ability.
 2017/04/18: Triggered abilities from cycling a card and the cycling ability itself aren't spells. Effects that interact with spells (such as that of Cancel) won't affect them.
-2017/04/18: You can cycle a card even if it has a triggered ability from cycling that won't have a legal target. This is because the cycling ability and the triggered ability are separate. This also means that if either ability is countered (with Disallow, for example, or if the triggered ability's targets have become illegal), the other ability will still resolve.</Rulings>
+2017/04/18: You can cycle a card even if it has a triggered ability from cycling that won't have a legal target. This is because the cycling ability and the triggered ability are separate. This also means that if either ability doesn't resolve (due to being countered with Disallow, for example, or if the triggered ability's targets have become illegal), the other ability will still resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2221,7 +2220,7 @@ When you cycle Stir the Sands, create a 2/2 black Zombie creature token.</CardTe
 —Senifet, vizier of Bontu</Flavor>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>426813</Multiverseid>
-<Rulings>2017/04/18: <Supernatural Stamina>'s effect works only once. If the targeted creature dies and is then returned to the battlefield, it's considered to be a new creature. If that new creature dies, it won't come back a second time.</Rulings>
+<Rulings>2018/03/16: <Supernatural Stamina>'s effect works only once. If the targeted creature dies and is then returned to the battlefield, it's considered to be a new creature. If that new creature dies, it won't come back a second time.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2469,7 +2468,7 @@ Enchanted creature gets +1/+1 and has haste.</CardText>
 <Artist>Kieran Yanner</Artist>
 <Multiverseid>426826</Multiverseid>
 <Rulings>2017/04/18: Cartouche is an enchantment subtype with no special meaning. Other cards may care about which enchantments are Cartouches.
-2017/04/18: If the target creature becomes an illegal target before a Cartouche spell resolves, the spell is countered. It doesn't enter the battlefield.
+2017/04/18: If the target creature becomes an illegal target before a Cartouche spell resolves, the spell doesn't resolve. It doesn't enter the battlefield.
 2017/04/18: Each Cartouche is an Aura with "Enchant creature you control." If another player gains control of either the Cartouche or the enchanted creature (but not both), then the Cartouche will be enchanting an illegal permanent and be put into its owner's graveyard as a state-based action.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2536,7 +2535,7 @@ When you cycle Deem Worthy, you may have it deal 2 damage to target creature.</C
 <Multiverseid>426829</Multiverseid>
 <Rulings>2017/04/18: Some cards with cycling have an ability that triggers when you cycle them. These triggered abilities resolve before you draw from the cycling ability.
 2017/04/18: Triggered abilities from cycling a card and the cycling ability itself aren't spells. Effects that interact with spells (such as that of Cancel) won't affect them.
-2017/04/18: You can cycle a card even if it has a triggered ability from cycling that won't have a legal target. This is because the cycling ability and the triggered ability are separate. This also means that if either ability is countered (with Disallow, for example, or if the triggered ability's targets have become illegal), the other ability will still resolve.</Rulings>
+2017/04/18: You can cycle a card even if it has a triggered ability from cycling that won't have a legal target. This is because the cycling ability and the triggered ability are separate. This also means that if either ability doesn't resolve (due to being countered with Disallow, for example, or if the triggered ability's targets have become illegal), the other ability will still resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2614,7 +2613,7 @@ Whenever you cycle or discard a card, Flameblade Adept gets +1/+0 until end of t
 <Rulings>2017/04/18: Some cards have an ability that triggers whenever you cycle any card. These triggered abilities resolve before you draw from the cycling ability.
 2017/04/18: An ability that triggers whenever you discard a card doesn't give you permission to discard cards. You'll need another effect that instructs or allows you to discard them.
 2017/04/18: An ability that triggers whenever you "cycle or discard" a card triggers only once if you cycle a card. The ability "Whenever you discard a card" is functionally identical to this ability; cycling is mentioned for clarity.
-2017/04/18: If a player discards a card during his or her cleanup step due to having too many cards in hand, any appropriate abilities that trigger on discarding that card trigger. If this happens, those triggered abilities are put onto the stack and players receive priority in that cleanup step to cast spells or activate abilities (normally, no players may take actions during a cleanup step). Another cleanup step is created following that one.</Rulings>
+2017/04/18: If a player discards a card during their cleanup step due to having too many cards in hand, any appropriate abilities that trigger on discarding that card trigger. If this happens, those triggered abilities are put onto the stack and players receive priority in that cleanup step to cast spells or activate abilities (normally, no players may take actions during a cleanup step). Another cleanup step is created following that one.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2628,8 +2627,8 @@ Whenever you cycle or discard a card, Flameblade Adept gets +1/+0 until end of t
 <Name>Fling</Name>
 <Type>Instant</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>As an additional cost to cast Fling, sacrifice a creature.
-Fling deals damage equal to the sacrificed creature's power to target creature or player.</CardText>
+<CardText>As an additional cost to cast this spell, sacrifice a creature.
+Fling deals damage equal to the sacrificed creature's power to any target.</CardText>
 <Flavor>Never flinch. Never falter. Never fear.</Flavor>
 <Artist>Lucas Graciano</Artist>
 <Multiverseid>426834</Multiverseid>
@@ -2650,7 +2649,7 @@ Fling deals damage equal to the sacrificed creature's power to target creature o
 <Name>Glorious End</Name>
 <Type>Instant</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>End the turn. (Exile all spells and abilities on the stack, including this card. The player whose turn it is discards down to his or her maximum hand size. Damage wears off, and "this turn" and "until end of turn" effects end.)
+<CardText>End the turn. (Exile all spells and abilities on the stack, including this card. The player whose turn it is discards down to their maximum hand size. Damage wears off, and "this turn" and "until end of turn" effects end.)
 At the beginning of your next end step, you lose the game.</CardText>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>426835</Multiverseid>
@@ -2752,13 +2751,13 @@ Hazoret the Fervent can't attack or block unless you have one or fewer cards in 
 <Name>Heart-Piercer Manticore</Name>
 <Type>Creature — Manticore 4/3</Type>
 <ManaCost>2RR (4)</ManaCost>
-<CardText>When Heart-Piercer Manticore enters the battlefield, you may sacrifice another creature. When you do, Heart-Piercer Manticore deals damage equal to that creature's power to target creature or player.
+<CardText>When Heart-Piercer Manticore enters the battlefield, you may sacrifice another creature. When you do, Heart-Piercer Manticore deals damage equal to that creature's power to any target.
 Embalm {5}{R} ({5}{R}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Manticore with no mana cost. Embalm only as a sorcery.)</CardText>
 <Artist>Scott Murphy</Artist>
 <Multiverseid>426840</Multiverseid>
 <Rulings>2017/04/18: The sacrificed creature's last known existence on the battlefield is checked to determine its power.
 2017/04/18: You can't sacrifice multiple creatures to deal damage multiple times.
-2017/04/18: <Heart-Piercer Manticore> features a new style of triggered ability. When it enters the battlefield, its triggered ability goes on the stack without a target. While that ability is resolving, you may sacrifice a creature. If you do, a second ability triggers and you pick a target creature or player that will be dealt damage. This is different from other abilities that say "If you do . . ." in that players may cast spells and activate abilities before a creature is sacrificed and then again after the creature is sacrificed but before damage is dealt.
+2017/04/18: <Heart-Piercer Manticore> features a new style of triggered ability. When it enters the battlefield, its triggered ability goes on the stack without a target. While that ability is resolving, you may sacrifice a creature. If you do, a second ability triggers and you pick a target that will be dealt damage. This is different from other abilities that say "If you do . . ." in that players may cast spells and activate abilities before a creature is sacrificed and then again after the creature is sacrificed but before damage is dealt.
 2017/04/18: <Heart-Piercer Manticore>'s damage-dealing ability triggers only when you sacrifice a creature as a result of the instruction of its triggered ability. It won't trigger if you sacrifice a creature for any other reason.
 2017/04/18: For each card with embalm, a corresponding game play supplement token can be found in some Amonkhet booster packs. These supplements are not required to play with cards with embalm; you can use the same items to represent an embalmed token as you would any other token.
 2017/04/18: The token copies exactly what was printed on the original card and nothing else. It doesn't copy any information about the object the card was before it was put into your graveyard.
@@ -2833,7 +2832,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <Name>Manticore of the Gauntlet</Name>
 <Type>Creature — Manticore 5/4</Type>
 <ManaCost>4R (5)</ManaCost>
-<CardText>When Manticore of the Gauntlet enters the battlefield, put a -1/-1 counter on target creature you control. Manticore of the Gauntlet deals 3 damage to target opponent.</CardText>
+<CardText>When Manticore of the Gauntlet enters the battlefield, put a -1/-1 counter on target creature you control. Manticore of the Gauntlet deals 3 damage to target opponent or planeswalker.</CardText>
 <Flavor>In the training ground known as the Gauntlet, initiates are pushed to practice more destructive techniques.</Flavor>
 <Artist>James Paick</Artist>
 <Multiverseid>426844</Multiverseid>
@@ -2914,7 +2913,7 @@ You may exert Nef-Crop Entangler as it attacks. When you do, it gets +1/+2 until
 <Flavor>"The expected way through the trial is far too tedious."</Flavor>
 <Artist>Josu Hernaiz</Artist>
 <Multiverseid>426848</Multiverseid>
-<Rulings>2017/04/18: If the creature's power is greater than 2 as the activated ability tries to resolve, the ability will be countered and none of its effects will happen. However, if instead the creature's power is raised above 2 after the ability resolves, it still can't be blocked that turn.</Rulings>
+<Rulings>2017/04/18: If the creature's power is greater than 2 as the activated ability tries to resolve, the ability won't resolve and none of its effects will happen. However, if instead the creature's power is raised above 2 after the ability resolves, it still can't be blocked that turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2990,7 +2989,7 @@ Cycling {3} ({3}, Discard this card: Draw a card.)</CardText>
 <Flavor>The sound of its plated tail beating on desert rocks is often mistaken for the footfalls of a much larger predator.</Flavor>
 <Artist>Craig J Spearing</Artist>
 <Multiverseid>426852</Multiverseid>
-<Rulings>2017/04/18: If a creature has been dealt damage, that damage remains marked on it until the cleanup step. If <Thresher Lizard> has been dealt 2 or 3 damage while you have zero or one card in hand, and later in the turn two cards are in your hand after a spell or ability has finished resolving, <Thresher Lizard> will be destroyed. Similarly, if that causes it to have 0 toughness, it's put into its owner's graveyard.</Rulings>
+<Rulings>2018/03/16: Because damage remains marked on a creature until it's removed as the turn ends, nonlethal damage dealt to <Thresher Lizard> while you have one or fewer cards in hand may become lethal if cards are put into your hand during that turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3004,7 +3003,7 @@ Cycling {3} ({3}, Discard this card: Draw a card.)</CardText>
 <Name>Tormenting Voice</Name>
 <Type>Sorcery</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>As an additional cost to cast Tormenting Voice, discard a card.
+<CardText>As an additional cost to cast this spell, discard a card.
 Draw two cards.</CardText>
 <Flavor>"You are undeserving of the afterlife. You will never feel the God-Pharaoh's embrace."</Flavor>
 <Artist>Allen Williams</Artist>
@@ -3023,7 +3022,7 @@ Draw two cards.</CardText>
 <Name>Trial of Zeal</Name>
 <Type>Enchantment</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>When Trial of Zeal enters the battlefield, it deals 3 damage to target creature or player.
+<CardText>When Trial of Zeal enters the battlefield, it deals 3 damage to any target.
 When a Cartouche enters the battlefield under your control, return Trial of Zeal to its owner's hand.</CardText>
 <Flavor>"Eternal glory awaits you, my child."</Flavor>
 <Artist>Svetlin Velinov</Artist>
@@ -3149,7 +3148,7 @@ Enchanted creature gets +1/+1 and has trample.</CardText>
 2017/04/18: The enchanted creature has +1/+1 and trample while it's fighting. However, trample doesn't apply during a fight.
 2017/04/18: If <Cartouche of Strength> leaves the battlefield before its triggered ability resolves, the creature it last enchanted will fight the target creature if it's still on the battlefield at that time. However, it won't have +1/+1 from <Cartouche of Strength> anymore.
 2017/04/18: Cartouche is an enchantment subtype with no special meaning. Other cards may care about which enchantments are Cartouches.
-2017/04/18: If the target creature becomes an illegal target before a Cartouche spell resolves, the spell is countered. It doesn't enter the battlefield.
+2017/04/18: If the target creature becomes an illegal target before a Cartouche spell resolves, the spell doesn't resolve. It doesn't enter the battlefield.
 2017/04/18: Each Cartouche is an Aura with "Enchant creature you control." If another player gains control of either the Cartouche or the enchanted creature (but not both), then the Cartouche will be enchanting an illegal permanent and be put into its owner's graveyard as a state-based action.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3188,7 +3187,7 @@ Enchanted creature gets +1/+1 and has trample.</CardText>
 <Type>Creature — Human Druid 3/4</Type>
 <ManaCost>1G (2)</ManaCost>
 <CardText>When Channeler Initiate enters the battlefield, put three -1/-1 counters on target creature you control.
-{T}, Remove a -1/-1 counter from Channeler Initiate: Add one mana of any color to your mana pool.</CardText>
+{T}, Remove a -1/-1 counter from Channeler Initiate: Add one mana of any color.</CardText>
 <Artist>Yongjae Choi</Artist>
 <Multiverseid>426862</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -3317,7 +3316,7 @@ Whenever Exemplar of Strength attacks, remove a -1/-1 counter from it. If you do
 <ManaCost>2G (3)</ManaCost>
 <CardText>Enchant land
 When Gift of Paradise enters the battlefield, you gain 3 life.
-Enchanted land has "{T}: Add two mana of any one color to your mana pool."</CardText>
+Enchanted land has "{T}: Add two mana of any one color."</CardText>
 <Artist>Ryan Pancoast</Artist>
 <Multiverseid>426869</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -3488,7 +3487,7 @@ Artifacts your opponents control enter the battlefield tapped.</CardText>
 <Name>Naga Vitalist</Name>
 <Type>Creature — Naga Druid 1/2</Type>
 <ManaCost>1G (2)</ManaCost>
-<CardText>{T}: Add to your mana pool one mana of any type that a land you control could produce.</CardText>
+<CardText>{T}: Add one mana of any type that a land you control could produce.</CardText>
 <Flavor>"The lands of the God-Pharaoh are suffused with his breath."</Flavor>
 <Artist>James Ryman</Artist>
 <Multiverseid>426878</Multiverseid>
@@ -3560,7 +3559,7 @@ Artifacts your opponents control enter the battlefield tapped.</CardText>
 <Name>Prowling Serpopard</Name>
 <Type>Creature — Cat Snake 4/3</Type>
 <ManaCost>1GG (3)</ManaCost>
-<CardText>Prowling Serpopard can't be countered.
+<CardText>This spell can't be countered.
 Creature spells you control can't be countered.</CardText>
 <Flavor>The viziers serving Rhonas, the god of strength, maintain the menagerie of animals employed during his trial.</Flavor>
 <Artist>Tyler Jacobson</Artist>
@@ -3676,7 +3675,7 @@ When you cycle Shefet Monitor, you may search your library for a basic land card
 <Multiverseid>426888</Multiverseid>
 <Rulings>2017/04/18: Some cards with cycling have an ability that triggers when you cycle them. These triggered abilities resolve before you draw from the cycling ability.
 2017/04/18: Triggered abilities from cycling a card and the cycling ability itself aren't spells. Effects that interact with spells (such as that of Cancel) won't affect them.
-2017/04/18: You can cycle a card even if it has a triggered ability from cycling that won't have a legal target. This is because the cycling ability and the triggered ability are separate. This also means that if either ability is countered (with Disallow, for example, or if the triggered ability's targets have become illegal), the other ability will still resolve.</Rulings>
+2017/04/18: You can cycle a card even if it has a triggered ability from cycling that won't have a legal target. This is because the cycling ability and the triggered ability are separate. This also means that if either ability doesn't resolve (due to being countered with Disallow, for example, or if the triggered ability's targets have become illegal), the other ability will still resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3876,7 +3875,7 @@ Embalm {4}{W}{U} ({4}{W}{U}, Exile this card from your graveyard: Create a token
 <Name>Bounty of the Luxa</Name>
 <Type>Enchantment</Type>
 <ManaCost>2UG (4)</ManaCost>
-<CardText>At the beginning of your precombat main phase, remove all flood counters from Bounty of the Luxa. If no counters were removed this way, put a flood counter on Bounty of the Luxa and draw a card. Otherwise, add {C}{G}{U} to your mana pool.</CardText>
+<CardText>At the beginning of your precombat main phase, remove all flood counters from Bounty of the Luxa. If no counters were removed this way, put a flood counter on Bounty of the Luxa and draw a card. Otherwise, add {C}{G}{U}.</CardText>
 <Artist>Jonas De Ro</Artist>
 <Multiverseid>426898</Multiverseid>
 <Rulings>2017/04/18: If <Bounty of the Luxa> somehow has multiple flood counters on it, you'll still get only {C}{G}{U} when you remove them all.
@@ -4081,7 +4080,7 @@ Whenever you cycle or discard a card, Shadowstorm Vizier gets +1/+1 until end of
 <Rulings>2017/04/18: Some cards have an ability that triggers whenever you cycle any card. These triggered abilities resolve before you draw from the cycling ability.
 2017/04/18: An ability that triggers whenever you discard a card doesn't give you permission to discard cards. You'll need another effect that instructs or allows you to discard them.
 2017/04/18: An ability that triggers whenever you "cycle or discard" a card triggers only once if you cycle a card. The ability "Whenever you discard a card" is functionally identical to this ability; cycling is mentioned for clarity.
-2017/04/18: If a player discards a card during his or her cleanup step due to having too many cards in hand, any appropriate abilities that trigger on discarding that card trigger. If this happens, those triggered abilities are put onto the stack and players receive priority in that cleanup step to cast spells or activate abilities (normally, no players may take actions during a cleanup step). Another cleanup step is created following that one.</Rulings>
+2017/04/18: If a player discards a card during their cleanup step due to having too many cards in hand, any appropriate abilities that trigger on discarding that card trigger. If this happens, those triggered abilities are put onto the stack and players receive priority in that cleanup step to cast spells or activate abilities (normally, no players may take actions during a cleanup step). Another cleanup step is created following that one.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4136,7 +4135,7 @@ Embalm {3}{W}{U} ({3}{W}{U}, Exile this card from your graveyard: Create a token
 <Name>Weaver of Currents</Name>
 <Type>Creature — Naga Druid 2/2</Type>
 <ManaCost>1UG (3)</ManaCost>
-<CardText>{T}: Add {C}{C} to your mana pool.</CardText>
+<CardText>{T}: Add {C}{C}.</CardText>
 <Flavor>"Your waters sustain the living and carry the dead. Mighty Luxa, let your power flow through me!"</Flavor>
 <Artist>Winona Nelson</Artist>
 <Multiverseid>426911</Multiverseid>
@@ -4228,7 +4227,7 @@ Return all creature cards with power 2 or less from your graveyard to your hand.
 <Type>Sorcery</Type>
 <ManaCost>4UU (6)</ManaCost>
 <CardText>Aftermath (Cast this spell only from your graveyard. Then exile it.)
-Each player shuffles his or her hand and graveyard into his or her library, then draws seven cards.</CardText>
+Each player shuffles their hand and graveyard into their library, then draws seven cards.</CardText>
 <Artist>Ryan Alexander Lee</Artist>
 <Multiverseid>426913</Multiverseid>
 <Rulings>2017/07/14: Once you've started to cast a spell with aftermath from your graveyard, the card is immediately moved to the stack. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.</Rulings>
@@ -4321,7 +4320,7 @@ Exile target card from a graveyard. Create a 2/2 black Zombie creature token.</C
 <Type>Sorcery</Type>
 <ManaCost>2R (3)</ManaCost>
 <CardText>Aftermath (Cast this spell only from your graveyard. Then exile it.)
-Injury deals 2 damage to target creature and 2 damage to target player.</CardText>
+Injury deals 2 damage to target creature and 2 damage to target player or planeswalker.</CardText>
 <Artist>Lucas Graciano</Artist>
 <Multiverseid>426915</Multiverseid>
 <Rulings>2017/04/18: You can't cast <Injury> unless you target both a creature and a player. If one target is illegal as <Injury> resolves, the spell deals damage to the remaining legal target.
@@ -4741,13 +4740,13 @@ Choose a card name. Until your next turn, your opponents can't cast spells with 
 <Type>Sorcery</Type>
 <ManaCost>5UU (7)</ManaCost>
 <CardText>Aftermath (Cast this spell only from your graveyard. Then exile it.)
-Each opponent chooses a creature he or she controls. You gain control of those creatures.</CardText>
+Each opponent chooses a creature they control. You gain control of those creatures.</CardText>
 <Artist>Greg Opalinski</Artist>
 <Multiverseid>426924</Multiverseid>
 <Rulings>2017/04/18: <Riches>'s effect doesn't target. Creatures with hexproof may be lured away this way.
 2017/04/18: <Riches>'s effect lasts indefinitely. It doesn't wear off during the cleanup step.
 2017/04/18: Once <Riches> begins to resolve, no player may take other actions until it's done. Notably, opponents can't try to remove a creature after choosing it but before you gain control of it.
-2017/04/18: In a multiplayer game, each opponent in turn order chooses a creature he or she controls, if he or she controls any creatures. After each opponent has done so, you gain control of each chosen creature simultaneously.
+2017/04/18: In a multiplayer game, each opponent in turn order chooses a creature they control, if they control any creatures. After each opponent has done so, you gain control of each chosen creature simultaneously.
 2017/04/18: In a multiplayer game, if a player leaves the game, all cards that player owns leave as well, and any effects that give the player control of permanents immediately end.
 2017/07/14: Once you've started to cast a spell with aftermath from your graveyard, the card is immediately moved to the stack. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.</Rulings>
 <Vintage>Legal</Vintage>
@@ -4885,7 +4884,7 @@ Whenever you cast a creature spell, each opponent loses 1 life and you gain 1 li
 <Artist>Florian de Gesincourt</Artist>
 <Multiverseid>426928</Multiverseid>
 <Rulings>2017/04/18: <Edifice of Authority> can't be used to undo an attack or block once it has been declared. Its abilities must be activated no later than the beginning of combat step to stop a creature from attacking, and no later than the declare attackers step to stop a creature from blocking.
-2017/04/18: Once a player has announced that he or she is activating the ability of a creature, <Edifice of Authority> can't be used to undo it. Its last ability must be activated before the player activates that creature's ability. The player may respond to <Edifice of Authority>'s ability with the target creature's ability if able.
+2017/04/18: Once a player has announced that they are activating the ability of a creature, <Edifice of Authority> can't be used to undo it. Its last ability must be activated before the player activates that creature's ability. The player may respond to <Edifice of Authority>'s ability with the target creature's ability if able.
 2017/04/18: Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keyword abilities are activated abilities and will have colons in their reminder text. Triggered abilities (starting with "when," "whenever," or "at") are unaffected by the last ability of <Edifice of Authority>. Notably, exerting a creature isn't an activated ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -4901,7 +4900,7 @@ Whenever you cast a creature spell, each opponent loses 1 life and you gain 1 li
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
 <CardText>Activated abilities of creature cards in your graveyard cost {1} less to activate.
-Tap an untapped Zombie you control: Target player puts the top card of his or her library into his or her graveyard.</CardText>
+Tap an untapped Zombie you control: Target player puts the top card of their library into their graveyard.</CardText>
 <Flavor>"They might be dead, but these mummies are masters of their trade."
 —Jace Beleren</Flavor>
 <Artist>Adrian Majkrzak</Artist>
@@ -5057,7 +5056,7 @@ Whenever you cast a creature spell, create a 1/1 white Warrior creature token wi
 2017/04/18: If the exiled card is a land card, you may play it only if you have an available land play this turn.
 2017/04/18: If you don't play the card, it will remain exiled.
 2017/04/18: The first ability of <Oracle's Vault> puts a brick counter on it even if you can't or don't play the card.
-2017/04/18: If you cast a card "without paying its mana cost," you can't pay any alternative costs, such as emerge costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Tormenting Voice, those must be paid to cast the card.
+2017/04/18: If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs, such as emerge costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Tormenting Voice, those must be paid to cast the card.
 2017/04/18: If the card has X in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -5072,8 +5071,8 @@ Whenever you cast a creature spell, create a 1/1 white Warrior creature token wi
 <Name>Pyramid of the Pantheon</Name>
 <Type>Artifact</Type>
 <ManaCost>1 (1)</ManaCost>
-<CardText>{2}, {T}: Add one mana of any color to your mana pool. Put a brick counter on Pyramid of the Pantheon.
-{T}: Add three mana of any one color to your mana pool. Activate this ability only if there are three or more brick counters on Pyramid of the Pantheon.</CardText>
+<CardText>{2}, {T}: Add one mana of any color. Put a brick counter on Pyramid of the Pantheon.
+{T}: Add three mana of any one color. Activate this ability only if there are three or more brick counters on Pyramid of the Pantheon.</CardText>
 <Flavor>Five gods, one purpose.</Flavor>
 <Artist>Florian de Gesincourt</Artist>
 <Multiverseid>426937</Multiverseid>
@@ -5120,7 +5119,7 @@ Whenever you cast a creature spell, target creature you control gets +2/+2 and g
 <Artist>Titus Lunter</Artist>
 <Multiverseid>426939</Multiverseid>
 <Rulings>2017/04/18: <Throne of the God-Pharaoh>'s ability triggers at the beginning of each of your end steps, even if you control no tapped creatures. The number of tapped creatures you control is checked as the ability resolves.
-2017/04/18: If other abilities trigger at the beginning of your end step, first those controlled by your opponents resolve, then yours resolve. Each player orders his or her triggers in any order.
+2017/04/18: If other abilities trigger at the beginning of your end step, first those controlled by your opponents resolve, then yours resolve. Each player orders their triggers in any order.
 2017/04/18: In a Two-Headed Giant game, the triggered ability of <Throne of the God-Pharaoh> causes the opposing team to lose life equal to twice the number of tapped creatures you control. Tapped creatures your teammate controls aren't counted.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -5135,12 +5134,12 @@ Whenever you cast a creature spell, target creature you control gets +2/+2 and g
 <Name>Watchers of the Dead</Name>
 <Type>Artifact Creature — Cat 2/2</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>Exile Watchers of the Dead: Each opponent chooses two cards in his or her graveyard and exiles the rest.</CardText>
+<CardText>Exile Watchers of the Dead: Each opponent chooses two cards in their graveyard and exiles the rest.</CardText>
 <Flavor>They are tasked with protecting the entrance to the embalming chambers.</Flavor>
 <Artist>Joseph Meehan</Artist>
 <Multiverseid>426940</Multiverseid>
-<Rulings>2017/04/18: An opponent with one or two cards in his or her graveyard won't exile any cards.
-2017/04/18: When this ability resolves, first the player whose turn it is (if that player is an opponent) chooses two cards in his or her graveyard, then each other opponent in turn order does the same, then all of the other cards in their graveyards are exiled simultaneously. Each player will know the choices made by the players who chose before them.</Rulings>
+<Rulings>2017/04/18: An opponent with one or two cards in their graveyard won't exile any cards.
+2017/04/18: When this ability resolves, first the player whose turn it is (if that player is an opponent) chooses two cards in their graveyard, then each other opponent in turn order does the same, then all of the other cards in their graveyards are exiled simultaneously. Each player will know the choices made by the players who chose before them.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -5153,7 +5152,7 @@ Whenever you cast a creature spell, target creature you control gets +2/+2 and g
 <No>239</No>
 <Name>Canyon Slough</Name>
 <Type>Land — Swamp Mountain</Type>
-<CardText>({T}: Add {B} or {R} to your mana pool.)
+<CardText>({T}: Add {B} or {R}.)
 Canyon Slough enters the battlefield tapped.
 Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <Artist>Titus Lunter</Artist>
@@ -5171,8 +5170,8 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <Name>Cascading Cataracts</Name>
 <Type>Land</Type>
 <CardText>Indestructible
-{T}: Add {C} to your mana pool.
-{5}, {T}: Add five mana in any combination of colors to your mana pool.</CardText>
+{T}: Add {C}.
+{5}, {T}: Add five mana in any combination of colors.</CardText>
 <Flavor>"The power that flows here cannot be denied. But where is the source?"
 —Nissa Revane</Flavor>
 <Artist>Noah Bradley</Artist>
@@ -5189,7 +5188,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <No>241</No>
 <Name>Cradle of the Accursed</Name>
 <Type>Land — Desert</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {3}, {T}, Sacrifice Cradle of the Accursed: Create a 2/2 black Zombie creature token. Activate this ability only any time you could cast a sorcery.</CardText>
 <Flavor>Many such monuments dot the wasteland known as Ifnir.</Flavor>
 <Artist>Noah Bradley</Artist>
@@ -5224,7 +5223,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <No>243</No>
 <Name>Fetid Pools</Name>
 <Type>Land — Island Swamp</Type>
-<CardText>({T}: Add {U} or {B} to your mana pool.)
+<CardText>({T}: Add {U} or {B}.)
 Fetid Pools enters the battlefield tapped.
 Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <Artist>Jonas De Ro</Artist>
@@ -5241,7 +5240,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <No>244</No>
 <Name>Grasping Dunes</Name>
 <Type>Land — Desert</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {1}, {T}, Sacrifice Grasping Dunes: Put a -1/-1 counter on target creature. Activate this ability only any time you could cast a sorcery.</CardText>
 <Artist>Daarken</Artist>
 <Multiverseid>426946</Multiverseid>
@@ -5258,7 +5257,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <No>245</No>
 <Name>Irrigated Farmland</Name>
 <Type>Land — Plains Island</Type>
-<CardText>({T}: Add {W} or {U} to your mana pool.)
+<CardText>({T}: Add {W} or {U}.)
 Irrigated Farmland enters the battlefield tapped.
 Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <Artist>Jonas De Ro</Artist>
@@ -5275,8 +5274,8 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <No>246</No>
 <Name>Painted Bluffs</Name>
 <Type>Land — Desert</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{1}, {T}: Add one mana of any color to your mana pool.</CardText>
+<CardText>{T}: Add {C}.
+{1}, {T}: Add one mana of any color.</CardText>
 <Flavor>Centuries of scouring sands have carved and polished the rocky terrain of the Shefet Desert.</Flavor>
 <Artist>Mark Poole</Artist>
 <Multiverseid>426948</Multiverseid>
@@ -5293,7 +5292,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <No>247</No>
 <Name>Scattered Groves</Name>
 <Type>Land — Forest Plains</Type>
-<CardText>({T}: Add {G} or {W} to your mana pool.)
+<CardText>({T}: Add {G} or {W}.)
 Scattered Groves enters the battlefield tapped.
 Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <Artist>Christine Choi</Artist>
@@ -5310,7 +5309,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <No>248</No>
 <Name>Sheltered Thicket</Name>
 <Type>Land — Mountain Forest</Type>
-<CardText>({T}: Add {R} or {G} to your mana pool.)
+<CardText>({T}: Add {R} or {G}.)
 Sheltered Thicket enters the battlefield tapped.
 Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <Artist>Sung Choi</Artist>
@@ -5327,8 +5326,8 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <No>249</No>
 <Name>Sunscorched Desert</Name>
 <Type>Land — Desert</Type>
-<CardText>When Sunscorched Desert enters the battlefield, it deals 1 damage to target player.
-{T}: Add {C} to your mana pool.</CardText>
+<CardText>When Sunscorched Desert enters the battlefield, it deals 1 damage to target player or planeswalker.
+{T}: Add {C}.</CardText>
 <Flavor>The only relief in sight is a mirage.</Flavor>
 <Artist>Min Yum</Artist>
 <Multiverseid>426951</Multiverseid>
@@ -5345,7 +5344,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <No>250</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Titus Lunter</Artist>
 <Multiverseid>426952</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5360,7 +5359,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <No>251</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Richard Wright</Artist>
 <Multiverseid>426953</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5375,7 +5374,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <No>252</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Clint Cearley</Artist>
 <Multiverseid>426954</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5390,7 +5389,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <No>253</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Florian de Gesincourt</Artist>
 <Multiverseid>426955</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5405,7 +5404,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <No>254</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Yeong-Hao Han</Artist>
 <Multiverseid>426956</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5420,7 +5419,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <No>255</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Volkan Baga</Artist>
 <Multiverseid>426957</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5435,7 +5434,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <No>256</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Jonas De Ro</Artist>
 <Multiverseid>426958</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5450,7 +5449,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <No>257</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Titus Lunter</Artist>
 <Multiverseid>426959</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5465,7 +5464,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <No>258</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Jonas De Ro</Artist>
 <Multiverseid>426960</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5480,7 +5479,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <No>259</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Titus Lunter</Artist>
 <Multiverseid>426961</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5495,7 +5494,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <No>260</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Mark Poole</Artist>
 <Multiverseid>426962</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5510,7 +5509,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <No>261</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>426963</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5525,7 +5524,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <No>262</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Jonas De Ro</Artist>
 <Multiverseid>426964</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5540,7 +5539,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <No>263</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Titus Lunter</Artist>
 <Multiverseid>426965</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5555,7 +5554,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <No>264</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Jonas De Ro</Artist>
 <Multiverseid>426966</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5570,7 +5569,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <No>265</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Titus Lunter</Artist>
 <Multiverseid>426967</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5585,7 +5584,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <No>266</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Chris Rahn</Artist>
 <Multiverseid>426968</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5600,7 +5599,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <No>267</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Titus Lunter</Artist>
 <Multiverseid>426969</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5615,7 +5614,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <No>268</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Titus Lunter</Artist>
 <Multiverseid>426970</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5630,7 +5629,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <No>269</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Matt Stewart</Artist>
 <Multiverseid>426971</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5724,7 +5723,7 @@ Creatures you control get +1/+1.</CardText>
 <Name>Stone Quarry</Name>
 <Type>Land</Type>
 <CardText>Stone Quarry enters the battlefield tapped.
-{T}: Add {R} or {W} to your mana pool.</CardText>
+{T}: Add {R} or {W}.</CardText>
 <Flavor>Entire valleys have been formed by mummies laboring to find veins of lazotep.</Flavor>
 <Artist>Florian de Gesincourt</Artist>
 <Multiverseid>429666</Multiverseid>
@@ -5812,7 +5811,7 @@ Creatures you control get +1/+1.</CardText>
 <Name>Foul Orchard</Name>
 <Type>Land</Type>
 <CardText>Foul Orchard enters the battlefield tapped.
-{T}: Add {B} or {G} to your mana pool.</CardText>
+{T}: Add {B} or {G}.</CardText>
 <Flavor>On Amonkhet, death is an ever-present part of life.</Flavor>
 <Artist>Mark Poole</Artist>
 <Multiverseid>429671</Multiverseid>
@@ -5829,7 +5828,7 @@ Creatures you control get +1/+1.</CardText>
 <Name>Cinder Barrens</Name>
 <Type>Land</Type>
 <CardText>Cinder Barrens enters the battlefield tapped.
-{T}: Add {B} or {R} to your mana pool.</CardText>
+{T}: Add {B} or {R}.</CardText>
 <Flavor>A mudflow swallowed the lowlands years ago. All that remains are a bottomless mire and an endless rain of ash.</Flavor>
 <Artist>Cliff Childs</Artist>
 <Multiverseid>429672</Multiverseid>
@@ -5846,7 +5845,7 @@ Creatures you control get +1/+1.</CardText>
 <Name>Forsaken Sanctuary</Name>
 <Type>Land</Type>
 <CardText>Forsaken Sanctuary enters the battlefield tapped.
-{T}: Add {W} or {B} to your mana pool.</CardText>
+{T}: Add {W} or {B}.</CardText>
 <Flavor>"Prayers will curdle on the tongue and be heard by rotting ears."
 —Minaldra, the Vizag Atum</Flavor>
 <Artist>Vincent Proce</Artist>
@@ -5864,7 +5863,7 @@ Creatures you control get +1/+1.</CardText>
 <Name>Highland Lake</Name>
 <Type>Land</Type>
 <CardText>Highland Lake enters the battlefield tapped.
-{T}: Add {U} or {R} to your mana pool.</CardText>
+{T}: Add {U} or {R}.</CardText>
 <Flavor>With the fate of Innistrad uncertain, some seek solace in remote areas.</Flavor>
 <Artist>Florian de Gesincourt</Artist>
 <Multiverseid>429674</Multiverseid>
@@ -5881,7 +5880,7 @@ Creatures you control get +1/+1.</CardText>
 <Name>Meandering River</Name>
 <Type>Land</Type>
 <CardText>Meandering River enters the battlefield tapped.
-{T}: Add {W} or {U} to your mana pool.</CardText>
+{T}: Add {W} or {U}.</CardText>
 <Flavor>The river split into many channels as it flowed to the Halimar Sea. Few travelers could follow the same one twice.</Flavor>
 <Artist>Cliff Childs</Artist>
 <Multiverseid>429675</Multiverseid>
@@ -5898,7 +5897,7 @@ Creatures you control get +1/+1.</CardText>
 <Name>Submerged Boneyard</Name>
 <Type>Land</Type>
 <CardText>Submerged Boneyard enters the battlefield tapped.
-{T}: Add {U} or {B} to your mana pool.</CardText>
+{T}: Add {U} or {B}.</CardText>
 <Flavor>Aether currents in the sky mirror water currents below, including the deadly rapids.</Flavor>
 <Artist>Christine Choi</Artist>
 <Multiverseid>429676</Multiverseid>
@@ -5915,7 +5914,7 @@ Creatures you control get +1/+1.</CardText>
 <Name>Timber Gorge</Name>
 <Type>Land</Type>
 <CardText>Timber Gorge enters the battlefield tapped.
-{T}: Add {R} or {G} to your mana pool.</CardText>
+{T}: Add {R} or {G}.</CardText>
 <Flavor>Tazeem's embrace is harsh, but for those that call it home, nothing else will do.</Flavor>
 <Artist>Cliff Childs</Artist>
 <Multiverseid>429677</Multiverseid>
@@ -5932,7 +5931,7 @@ Creatures you control get +1/+1.</CardText>
 <Name>Tranquil Expanse</Name>
 <Type>Land</Type>
 <CardText>Tranquil Expanse enters the battlefield tapped.
-{T}: Add {G} or {W} to your mana pool.</CardText>
+{T}: Add {G} or {W}.</CardText>
 <Flavor>Beyond the chaos of Ghirapur lies a vibrant world where aether flows through nature.</Flavor>
 <Artist>Sam Burley</Artist>
 <Multiverseid>429678</Multiverseid>
@@ -5949,7 +5948,7 @@ Creatures you control get +1/+1.</CardText>
 <Name>Woodland Stream</Name>
 <Type>Land</Type>
 <CardText>Woodland Stream enters the battlefield tapped.
-{T}: Add {G} or {U} to your mana pool.</CardText>
+{T}: Add {G} or {U}.</CardText>
 <Flavor>Waterways carve their routes through the land to reflect the paths the aether streams cut through the clouds.</Flavor>
 <Artist>Efflam Mercier</Artist>
 <Multiverseid>429679</Multiverseid>

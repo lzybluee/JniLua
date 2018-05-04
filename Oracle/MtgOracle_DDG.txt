@@ -205,7 +205,7 @@ Protection from black (This creature can't be blocked, targeted, dealt damage, o
 <Type>Creature — Human Druid Knight 2/2</Type>
 <ManaCost>WG (2)</ManaCost>
 <CardText>Vigilance
-{T}: Add {G} to your mana pool.</CardText>
+{T}: Add {G}.</CardText>
 <Flavor>Knight-stewards guard the Sun-Dappled Court, a grove of immense, sculptured olive trees that represent Valeron's twelve noble families.</Flavor>
 <Artist>Greg Staples</Artist>
 <Multiverseid>243428</Multiverseid>
@@ -224,7 +224,7 @@ Protection from black (This creature can't be blocked, targeted, dealt damage, o
 <ManaCost>2W (3)</ManaCost>
 <CardText>Kicker {2}{W} (You may pay an additional {2}{W} as you cast this spell.)
 If Benalish Lancer was kicked, it enters the battlefield with two +1/+1 counters on it and with first strike.</CardText>
-<Artist>Parente</Artist>
+<Artist>Paolo Parente</Artist>
 <Multiverseid>243429</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -427,15 +427,14 @@ Forecast — {1}{W}, Reveal Paladin of Prahv from your hand: Whenever target cre
 <Name>Harm's Way</Name>
 <Type>Instant</Type>
 <ManaCost>W (1)</ManaCost>
-<CardText>The next 2 damage that a source of your choice would deal to you and/or permanents you control this turn is dealt to target creature or player instead.</CardText>
+<CardText>The next 2 damage that a source of your choice would deal to you and/or permanents you control this turn is dealt to any target instead.</CardText>
 <Flavor>Even when fate is already written, there's always time to change the names.</Flavor>
 <Artist>Dan Scott</Artist>
 <Multiverseid>243440</Multiverseid>
-<Rulings>2009/10/01: As you cast <Harm's Way>, you target the creature or player that the redirected damage will be dealt to. As <Harm's Way> resolves, you choose a source of damage. You never choose the original recipient of the damage; <Harm's Way> will apply to whatever the chosen source tries to deal damage to, as long as it's you or a permanent you control.
-2009/10/01: <Harm's Way> can affect damage that would be dealt to a planeswalker you control (as well as damage that would be dealt to you, or to a creature you control).
+<Rulings>2009/10/01: As you cast <Harm's Way>, you target that the redirected damage will be dealt to. As <Harm's Way> resolves, you choose a source of damage. You never choose the original recipient of the damage; <Harm's Way> will apply to whatever the chosen source tries to deal damage to, as long as it's you or a permanent you control.
 2009/10/01: If the chosen source would deal just 1 damage to you or a permanent you control, <Harm's Way>'s effect will redirect that damage and still have a "shield" left for another 1 damage from that source later in the turn.
 2009/10/01: If the chosen source would simultaneously deal damage to multiple permanents you control (like Pyroclasm could) or to you and at least one permanent you control (like Earthquake could), <Harm's Way> will redirect just 2 of that damage. It won't redirect the next 2 damage that would be dealt to each recipient. You choose which 2 damage is redirected. If you like, you can choose to redirect 1 damage that would be dealt by the chosen source to each of two different recipients.
-2009/10/01: After <Harm's Way> resolves, it no longer checks to see if the targeted creature or player is a legal target. However, if that creature or player can't be dealt damage at the time the chosen source would deal damage (perhaps because the creature is no longer on the battlefield or is no longer a creature, or because the player is no longer in the game), the damage can't be redirected. It's dealt to the original recipient.
+2009/10/01: After <Harm's Way> resolves, it no longer checks to see if the target is a legal target. However, if that permanent or player can't be dealt damage at the time the chosen source would deal damage (perhaps because the creature is no longer on the battlefield or is no longer a creature, or because the player is no longer in the game), the damage can't be redirected. It's dealt to the original recipient.
 2009/10/01: <Harm's Way> has no effect on damage that's already been dealt.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -563,7 +562,7 @@ Cycling—Sacrifice a land. (Sacrifice a land, Discard this card: Draw a card.)<
 <Flavor>"For unwavering commitment and unflinching strength, the Order of the White Orchid confers its sigil. Rise, knight-captain, and do your duty."</Flavor>
 <Artist>Matt Stewart</Artist>
 <Multiverseid>243447</Multiverseid>
-<Rulings>2008/10/01: If the targeted creature becomes an illegal target by the time <Sigil Blessing> resolves, the entire spell will be countered. Your other creatures won't get +1/+1.</Rulings>
+<Rulings>2008/10/01: If the targeted creature becomes an illegal target by the time <Sigil Blessing> resolves, the entire spell won't resolve. Your other creatures won't get +1/+1.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -669,7 +668,7 @@ When Oblivion Ring leaves the battlefield, return the exiled card to the battlef
 <Type>Land</Type>
 <CardText>Sejiri Steppe enters the battlefield tapped.
 When Sejiri Steppe enters the battlefield, target creature you control gains protection from the color of your choice until end of turn.
-{T}: Add {W} to your mana pool.</CardText>
+{T}: Add {W}.</CardText>
 <Artist>Anthony Francisco</Artist>
 <Multiverseid>243453</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -686,7 +685,7 @@ When Sejiri Steppe enters the battlefield, target creature you control gains pro
 <Type>Land</Type>
 <CardText>Selesnya Sanctuary enters the battlefield tapped.
 When Selesnya Sanctuary enters the battlefield, return a land you control to its owner's hand.
-{T}: Add {G}{W} to your mana pool.</CardText>
+{T}: Add {G}{W}.</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>243454</Multiverseid>
 <Rulings>2013/04/15: If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.</Rulings>
@@ -703,11 +702,11 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <Name>Treetop Village</Name>
 <Type>Land</Type>
 <CardText>Treetop Village enters the battlefield tapped.
-{T}: Add {G} to your mana pool.
-{1}{G}: Treetop Village becomes a 3/3 green Ape creature with trample until end of turn. It's still a land. (It can deal excess combat damage to defending player or planeswalker while attacking.)</CardText>
+{T}: Add {G}.
+{1}{G}: Treetop Village becomes a 3/3 green Ape creature with trample until end of turn. It's still a land. (It can deal excess combat damage to the player or planeswalker it's attacking.)</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>243455</Multiverseid>
-<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.
+<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
 2009/10/01: Activating the ability that turns it into a creature while it's already a creature will override any effects that set its power and/or toughness to a specific number. However, any effect that raises or lowers power and/or toughness (such as the effect created by Giant Growth, Glorious Anthem, or a +1/+1 counter) will continue to apply.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -721,7 +720,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <No>39</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Scott Bailey</Artist>
 <Multiverseid>243456</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -736,7 +735,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <No>40</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Scott Bailey</Artist>
 <Multiverseid>243457</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -751,7 +750,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <No>41</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Michael Komarck</Artist>
 <Multiverseid>243458</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -766,7 +765,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <No>42</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Michael Komarck</Artist>
 <Multiverseid>243459</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -781,7 +780,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <No>43</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Scott Bailey</Artist>
 <Multiverseid>243460</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -796,7 +795,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <No>44</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Mike Ploog</Artist>
 <Multiverseid>243461</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -811,7 +810,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <No>45</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Larry Elmore</Artist>
 <Multiverseid>243462</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -826,7 +825,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <No>46</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Michael Komarck</Artist>
 <Multiverseid>243463</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -844,11 +843,10 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <ManaCost>6RR (8)</ManaCost>
 <CardText>Flash
 Flying
-When Bogardan Hellkite enters the battlefield, it deals 5 damage divided as you choose among any number of target creatures and/or players.</CardText>
+When Bogardan Hellkite enters the battlefield, it deals 5 damage divided as you choose among any number of targets.</CardText>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>243464</Multiverseid>
 <Rulings>2017/11/17: You choose how many targets <Bogardan Hellkite>'s triggered ability has and how the damage is divided as you put the ability onto the stack. Each target must receive at least 1 damage.
-2017/11/17: You can't deal damage with <Bogardan Hellkite>'s triggered ability to both a player and a planeswalker that player controls. You also can't deal damage to more than one planeswalker controlled by the same player. If you choose to redirect the damage being dealt to a player to a planeswalker, you must redirect all the damage to a single planeswalker.
 2017/11/17: If some of the creatures or players are illegal targets as <Bogardan Hellkite>'s triggered ability tries to resolve, the original division of damage still applies and the damage that would have been dealt to the illegal targets is lost. It won't be dealt instead to a legal target.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -882,7 +880,7 @@ When Cinder Wall blocks, destroy it at end of combat.</CardText>
 <Name>Skirk Prospector</Name>
 <Type>Creature — Goblin 1/1</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>Sacrifice a Goblin: Add {R} to your mana pool.</CardText>
+<CardText>Sacrifice a Goblin: Add {R}.</CardText>
 <Flavor>"I like goblins. They make funny little popping sounds when they die."
 —Braids, dementia summoner</Flavor>
 <Artist>Doug Chaffee</Artist>
@@ -935,7 +933,7 @@ When Cinder Wall blocks, destroy it at end of combat.</CardText>
 <Name>Mudbutton Torchrunner</Name>
 <Type>Creature — Goblin Warrior 1/1</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>When Mudbutton Torchrunner dies, it deals 3 damage to target creature or player.</CardText>
+<CardText>When Mudbutton Torchrunner dies, it deals 3 damage to any target.</CardText>
 <Flavor>The oil sloshes against his skull as he nears his destination: the Frogtosser Games and the lighting of the Flaming Boggart.</Flavor>
 <Artist>Steve Ellis</Artist>
 <Multiverseid>243470</Multiverseid>
@@ -1005,7 +1003,7 @@ When Cinder Wall blocks, destroy it at end of combat.</CardText>
 <ManaCost>3RR (5)</ManaCost>
 <CardText>Flying
 Devour 1 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with that many +1/+1 counters on it.)
-When Voracious Dragon enters the battlefield, it deals damage to target creature or player equal to twice the number of Goblins it devoured.</CardText>
+When Voracious Dragon enters the battlefield, it deals damage to any target equal to twice the number of Goblins it devoured.</CardText>
 <Artist>Dominick Domingo</Artist>
 <Multiverseid>243474</Multiverseid>
 <Rulings>2009/02/01: <Voracious Dragon> can devour any type of creatures, not just Goblins.
@@ -1061,7 +1059,7 @@ Whenever Mordant Dragon deals combat damage to a player, you may have it deal th
 <ManaCost>5RR (7)</ManaCost>
 <CardText>Amplify 3 (As this creature enters the battlefield, put three +1/+1 counters on it for each Dragon card you reveal in your hand.)
 Flying
-{T}: Kilnmouth Dragon deals damage equal to the number of +1/+1 counters on it to target creature or player.</CardText>
+{T}: Kilnmouth Dragon deals damage equal to the number of +1/+1 counters on it to any target.</CardText>
 <Artist>Carl Critchlow</Artist>
 <Multiverseid>243477</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1077,7 +1075,7 @@ Flying
 <Type>Creature — Dragon 5/5</Type>
 <ManaCost>5RR (7)</ManaCost>
 <CardText>Flying (This creature can't be blocked except by creatures with flying or reach.)
-{1}{R}: Shivan Hellkite deals 1 damage to target creature or player.</CardText>
+{1}{R}: Shivan Hellkite deals 1 damage to any target.</CardText>
 <Flavor>A dragon's scale can be carved into a mighty shield, provided you can procure a dragontooth to cut it.</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>243478</Multiverseid>
@@ -1148,7 +1146,7 @@ When Thunder Dragon enters the battlefield, it deals 3 damage to each creature w
 <Type>Sorcery</Type>
 <ManaCost>1R (2)</ManaCost>
 <CardText>Kicker {2} (You may pay an additional {2} as you cast this spell.)
-Breath of Darigaaz deals 1 damage to each creature without flying and each player. If Breath of Darigaaz was kicked, it deals 4 damage to each creature without flying and each player instead.</CardText>
+Breath of Darigaaz deals 1 damage to each creature without flying and each player. If this spell was kicked, it deals 4 damage to each creature without flying and each player instead.</CardText>
 <Artist>Greg & Tim Hildebrandt</Artist>
 <Multiverseid>243482</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1180,7 +1178,7 @@ Breath of Darigaaz deals 1 damage to each creature without flying and each playe
 <Name>Punishing Fire</Name>
 <Type>Instant</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>Punishing Fire deals 2 damage to target creature or player.
+<CardText>Punishing Fire deals 2 damage to any target.
 Whenever an opponent gains life, you may pay {R}. If you do, return Punishing Fire from your graveyard to your hand.</CardText>
 <Artist>Greg Staples</Artist>
 <Multiverseid>243483</Multiverseid>
@@ -1236,7 +1234,7 @@ Whenever an opponent gains life, you may pay {R}. If you do, return Punishing Fi
 <Type>Instant</Type>
 <ManaCost>2R (3)</ManaCost>
 <CardText>Ghostfire is colorless.
-Ghostfire deals 3 damage to target creature or player.</CardText>
+Ghostfire deals 3 damage to any target.</CardText>
 <Flavor>Only those gifted with the eye of Ugin, the spirit dragon, can see his fiery breath.</Flavor>
 <Artist>Cyril Van Der Haegen</Artist>
 <Multiverseid>243486</Multiverseid>
@@ -1254,7 +1252,7 @@ Ghostfire deals 3 damage to target creature or player.</CardText>
 <Name>Seething Song</Name>
 <Type>Instant</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>Add {R}{R}{R}{R}{R} to your mana pool.</CardText>
+<CardText>Add {R}{R}{R}{R}{R}.</CardText>
 <Flavor>If your flesh can withstand the flame, the spirit of the dragon will burn within your soul.</Flavor>
 <Artist>Jaime Jones</Artist>
 <Multiverseid>243487</Multiverseid>
@@ -1342,7 +1340,7 @@ Enchanted creature gets +2/+2 and has flying.
 <Name>Cone of Flame</Name>
 <Type>Sorcery</Type>
 <ManaCost>3RR (5)</ManaCost>
-<CardText>Cone of Flame deals 1 damage to target creature or player, 2 damage to another target creature or player, and 3 damage to a third target creature or player.</CardText>
+<CardText>Cone of Flame deals 1 damage to any target, 2 damage to another target, and 3 damage to a third target.</CardText>
 <Artist>Chippy</Artist>
 <Multiverseid>243492</Multiverseid>
 <Rulings>2014/07/18: Each of the three targets must be different. If there aren't three different legal targets available, you can't cast the spell.
@@ -1361,7 +1359,7 @@ Enchanted creature gets +2/+2 and has flying.
 <Type>Instant</Type>
 <ManaCost>5R (6)</ManaCost>
 <CardText>Fiery Fall deals 5 damage to target creature.
-Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)</CardText>
+Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.)</CardText>
 <Flavor>Jund feasts on the unprepared.</Flavor>
 <Artist>Daarken</Artist>
 <Multiverseid>243493</Multiverseid>
@@ -1382,7 +1380,7 @@ Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a b
 <Name>Jaws of Stone</Name>
 <Type>Sorcery</Type>
 <ManaCost>5R (6)</ManaCost>
-<CardText>Jaws of Stone deals X damage divided as you choose among any number of target creatures and/or players, where X is the number of Mountains you control as you cast Jaws of Stone.</CardText>
+<CardText>Jaws of Stone deals X damage divided as you choose among any number of targets, where X is the number of Mountains you control as you cast this spell.</CardText>
 <Flavor>When giants find their mountain homes infested, they have a whole range of solutions.</Flavor>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Multiverseid>243494</Multiverseid>
@@ -1401,7 +1399,7 @@ Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a b
 <No>78</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Aleksi Briclot</Artist>
 <Multiverseid>243495</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1416,7 +1414,7 @@ Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a b
 <No>79</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Aleksi Briclot</Artist>
 <Multiverseid>243496</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1431,7 +1429,7 @@ Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a b
 <No>80</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Glen Angus</Artist>
 <Multiverseid>243497</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1446,7 +1444,7 @@ Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a b
 <No>81</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Matt Cavotta</Artist>
 <Multiverseid>243498</Multiverseid>
 <Vintage>Legal</Vintage>

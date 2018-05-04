@@ -5,10 +5,12 @@
 <Type>Legendary Creature — Dragon Wizard 4/4</Type>
 <ManaCost>2UURR (6)</ManaCost>
 <CardText>Flying
-Whenever you draw a card, Niv-Mizzet, the Firemind deals 1 damage to target creature or player.
+Whenever you draw a card, Niv-Mizzet, the Firemind deals 1 damage to any target.
 {T}: Draw a card.</CardText>
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>292738</Multiverseid>
+<Rulings>2018/03/16: If a spell or ability causes you to draw multiple cards, Niv-Mizzet's ability triggers that many times.
+2018/03/16: If dealing 1 damage to a permanent or player causes you to draw a card, perhaps because Niv-Mizzet is enchanted by Curiosity, you'll continue this loop until the loop is interrupted, perhaps by a player losing the game.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -79,7 +81,7 @@ Whenever you draw a card, Niv-Mizzet, the Firemind deals 1 damage to target crea
 <Name>Gelectrode</Name>
 <Type>Creature — Weird 0/1</Type>
 <ManaCost>1UR (3)</ManaCost>
-<CardText>{T}: Gelectrode deals 1 damage to target creature or player.
+<CardText>{T}: Gelectrode deals 1 damage to any target.
 Whenever you cast an instant or sorcery spell, you may untap Gelectrode.</CardText>
 <Flavor>"Diametrically opposing energies in self-sealed plasmodermic bubbles make great pets!"
 —Trivaz, Izzet mage</Flavor>
@@ -118,7 +120,7 @@ Whenever you cast an instant or sorcery spell, Wee Dragonauts gets +2/+0 until e
 <Name>Steamcore Weird</Name>
 <Type>Creature — Weird 1/3</Type>
 <ManaCost>3U (4)</ManaCost>
-<CardText>When Steamcore Weird enters the battlefield, if {R} was spent to cast Steamcore Weird, it deals 2 damage to target creature or player.</CardText>
+<CardText>When Steamcore Weird enters the battlefield, if {R} was spent to cast Steamcore Weird, it deals 2 damage to any target.</CardText>
 <Flavor>Like many Izzet creations, weirds are based on wild contradictions yet somehow manage to work.</Flavor>
 <Artist>Justin Norman</Artist>
 <Multiverseid>338393</Multiverseid>
@@ -158,7 +160,7 @@ Whenever you cast a red spell, remove a -1/-1 counter from Shrewd Hatchling.</Ca
 <ManaCost>4R (5)</ManaCost>
 <CardText>When Ogre Savant enters the battlefield, if {U} was spent to cast Ogre Savant, return target creature to its owner's hand.</CardText>
 <Flavor>He's an oxymoron.</Flavor>
-<Artist>Parente</Artist>
+<Artist>Paolo Parente</Artist>
 <Multiverseid>338389</Multiverseid>
 <Rulings>2006/02/01: If {U} was spent to cast <Ogre Savant> and no other creatures are on the battlefield, the Ogre will have to return itself.
 2006/02/01: The ability is not optional.</Rulings>
@@ -237,7 +239,7 @@ Each instant and sorcery spell you cast has replicate. The replicate cost is equ
 <Flavor>The mizzium-sphere array drove her mind deep into the thought field, where only the rarest motes of genius may be plucked.</Flavor>
 <Artist>Willian Murai</Artist>
 <Multiverseid>292751</Multiverseid>
-<Rulings>2016/06/08: You draw three cards and put two cards back all while <Brainstorm> is resolving. Nothing can happen between the two, and no player may choose to take actions.</Rulings>
+<Rulings>2018/03/16: You draw three cards and put two cards back all while <Brainstorm> is resolving. Nothing can happen between the two, and no player may choose to take actions.</Rulings>
 <Vintage>Restricted</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Duel Decks: Izzet vs. Golgari</Set>
@@ -310,7 +312,7 @@ Each instant and sorcery spell you cast has replicate. The replicate cost is equ
 <Name>Izzet Signet</Name>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{1}, {T}: Add {U}{R} to your mana pool.</CardText>
+<CardText>{1}, {T}: Add {U}{R}.</CardText>
 <Flavor>The Izzet signet is redesigned often, each time becoming closer to a vanity portrait of Niv-Mizzet.</Flavor>
 <Artist>Raoul Vitale</Artist>
 <Multiverseid>292736</Multiverseid>
@@ -332,7 +334,7 @@ Each instant and sorcery spell you cast has replicate. The replicate cost is equ
 <Artist>Randy Gallegos</Artist>
 <Multiverseid>292748</Multiverseid>
 <Rulings>2008/10/01: The player who draws a card is the player who controls the creature when <Call to Heel> resolves. This may not be the player whose hand the creature is put into.
-2008/10/01: If the targeted creature becomes an illegal target before <Call to Heel> resolves, <Call to Heel> is countered. No one draws a card.</Rulings>
+2008/10/01: If the targeted creature becomes an illegal target before <Call to Heel> resolves, <Call to Heel> doesn't resolve. No one draws a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -365,7 +367,7 @@ Draw a card.</CardText>
 <Type>Instant</Type>
 <ManaCost>1R (2)</ManaCost>
 <CardText>Replicate {1}{R} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)
-Pyromatics deals 1 damage to target creature or player.</CardText>
+Pyromatics deals 1 damage to any target.</CardText>
 <Artist>Glen Angus</Artist>
 <Multiverseid>292739</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -400,7 +402,7 @@ Pyromatics deals 1 damage to target creature or player.</CardText>
 <Name>Reminisce</Name>
 <Type>Sorcery</Type>
 <ManaCost>2U (3)</ManaCost>
-<CardText>Target player shuffles his or her graveyard into his or her library.</CardText>
+<CardText>Target player shuffles their graveyard into their library.</CardText>
 <Flavor>Leave the door to the past even slightly ajar and it could be blown off its hinges.</Flavor>
 <Artist>Ralph Horsley</Artist>
 <Multiverseid>338471</Multiverseid>
@@ -474,10 +476,11 @@ Return target creature to its owner's hand.</CardText>
 <Type>Enchantment — Aura</Type>
 <ManaCost>1UR (3)</ManaCost>
 <CardText>Enchant creature
-Enchanted creature has "{T}: This creature deals 1 damage to target player. You draw a card."</CardText>
+Enchanted creature has "{T}: This creature deals 1 damage to target player or planeswalker. You draw a card."</CardText>
 <Flavor>The dwarves call their quicksilver techniques "improvisational weaponsmithing."</Flavor>
 <Artist>Alex Horley-Orlandelli</Artist>
 <Multiverseid>292757</Multiverseid>
+<Rulings>2018/03/16: The enchanted creature is the source of both the damage ability and the resultant damage, not <Quicksilver Dagger>. For example, if <Quicksilver Dagger> and Curiosity enchant the same creature, Curiosity's ability will trigger when the damage is dealt.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Duel Decks: Izzet vs. Golgari</Set>
@@ -490,7 +493,7 @@ Enchanted creature has "{T}: This creature deals 1 damage to target player. You 
 <Name>Prophetic Bolt</Name>
 <Type>Instant</Type>
 <ManaCost>3UR (5)</ManaCost>
-<CardText>Prophetic Bolt deals 4 damage to target creature or player. Look at the top four cards of your library. Put one of those cards into your hand and the rest on the bottom of your library in any order.</CardText>
+<CardText>Prophetic Bolt deals 4 damage to any target. Look at the top four cards of your library. Put one of those cards into your hand and the rest on the bottom of your library in any order.</CardText>
 <Artist>Slawomir Maniak</Artist>
 <Multiverseid>338392</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -522,12 +525,12 @@ Enchanted creature has "{T}: This creature deals 1 damage to target player. You 
 <Name>Sphinx-Bone Wand</Name>
 <Type>Artifact</Type>
 <ManaCost>7 (7)</ManaCost>
-<CardText>Whenever you cast an instant or sorcery spell, you may put a charge counter on Sphinx-Bone Wand. If you do, Sphinx-Bone Wand deals damage equal to the number of charge counters on it to target creature or player.</CardText>
+<CardText>Whenever you cast an instant or sorcery spell, you may put a charge counter on Sphinx-Bone Wand. If you do, Sphinx-Bone Wand deals damage equal to the number of charge counters on it to any target.</CardText>
 <Flavor>Its host's final curse lies captured within.</Flavor>
 <Artist>Franz Vohwinkel</Artist>
 <Multiverseid>292760</Multiverseid>
 <Rulings>2010/06/15: If you cast an instant or sorcery spell, <Sphinx-Bone Wand>'s ability triggers and goes on the stack on top of it. The ability will resolve before the spell does.
-2010/06/15: If the targeted creature or player is an illegal target by the time the ability resolves, the ability is countered. You won't put a charge counter on <Sphinx-Bone Wand> and it won't deal damage.
+2010/06/15: If the targeted permanent or player is an illegal target by the time the ability resolves, the ability doesn't resolve. You won't put a charge counter on <Sphinx-Bone Wand> and it won't deal damage.
 2010/06/15: If <Sphinx-Bone Wand> leaves the battlefield before its ability resolves, you won't be able to put a charge counter on it. As a result, it won't deal damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -568,7 +571,7 @@ Overload {X}{X}{R}{R} (You may cast this spell for its overload cost. If you do,
 <ManaCost>XUUR (3)</ManaCost>
 <CardText>Choose one —
 • Draw X cards.
-• Invoke the Firemind deals X damage to target creature or player.</CardText>
+• Invoke the Firemind deals X damage to any target.</CardText>
 <Flavor>To those in tune with the Firemind, there is no difference between knowledge and flame.</Flavor>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Multiverseid>292732</Multiverseid>
@@ -586,7 +589,7 @@ Overload {X}{X}{R}{R} (You may cast this spell for its overload cost. If you do,
 <Name>Fire (Fire/Ice)</Name>
 <Type>Instant</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>Fire deals 2 damage divided as you choose among one or two target creatures and/or players.</CardText>
+<CardText>Fire deals 2 damage divided as you choose among one or two targets.</CardText>
 <Artist>Dan Scott</Artist>
 <Multiverseid>292753</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -619,7 +622,7 @@ Draw a card.</CardText>
 <Name>Forgotten Cave</Name>
 <Type>Land</Type>
 <CardText>Forgotten Cave enters the battlefield tapped.
-{T}: Add {R} to your mana pool.
+{T}: Add {R}.
 Cycling {R} ({R}, Discard this card: Draw a card.)</CardText>
 <Artist>Tony Szczudlo</Artist>
 <Multiverseid>292761</Multiverseid>
@@ -637,7 +640,7 @@ Cycling {R} ({R}, Discard this card: Draw a card.)</CardText>
 <Type>Land</Type>
 <CardText>Izzet Boilerworks enters the battlefield tapped.
 When Izzet Boilerworks enters the battlefield, return a land you control to its owner's hand.
-{T}: Add {U}{R} to your mana pool.</CardText>
+{T}: Add {U}{R}.</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>292733</Multiverseid>
 <Rulings>2013/04/15: If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.</Rulings>
@@ -654,7 +657,7 @@ When Izzet Boilerworks enters the battlefield, return a land you control to its 
 <Name>Lonely Sandbar</Name>
 <Type>Land</Type>
 <CardText>Lonely Sandbar enters the battlefield tapped.
-{T}: Add {U} to your mana pool.
+{T}: Add {U}.
 Cycling {U} ({U}, Discard this card: Draw a card.)</CardText>
 <Artist>Heather Hudson</Artist>
 <Multiverseid>292762</Multiverseid>
@@ -670,7 +673,7 @@ Cycling {U} ({U}, Discard this card: Draw a card.)</CardText>
 <No>36</No>
 <Name>Nivix, Aerie of the Firemind</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {2}{U}{R}, {T}: Exile the top card of your library. Until your next turn, you may cast that card if it's an instant or sorcery card.</CardText>
 <Flavor>Niv-Mizzet's genius and vanity reverberate throughout the mirrored halls of Nivix.</Flavor>
 <Artist>Martina Pilcerova</Artist>
@@ -690,7 +693,7 @@ Cycling {U} ({U}, Discard this card: Draw a card.)</CardText>
 <No>37</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Stephan Martiniere</Artist>
 <Multiverseid>292764</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -705,7 +708,7 @@ Cycling {U} ({U}, Discard this card: Draw a card.)</CardText>
 <No>38</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>292765</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -720,7 +723,7 @@ Cycling {U} ({U}, Discard this card: Draw a card.)</CardText>
 <No>39</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Anthony S. Waters</Artist>
 <Multiverseid>292763</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -735,7 +738,7 @@ Cycling {U} ({U}, Discard this card: Draw a card.)</CardText>
 <No>40</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Richard Wright</Artist>
 <Multiverseid>292766</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -750,7 +753,7 @@ Cycling {U} ({U}, Discard this card: Draw a card.)</CardText>
 <No>41</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Stephan Martiniere</Artist>
 <Multiverseid>292767</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -765,7 +768,7 @@ Cycling {U} ({U}, Discard this card: Draw a card.)</CardText>
 <No>42</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>292769</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -780,7 +783,7 @@ Cycling {U} ({U}, Discard this card: Draw a card.)</CardText>
 <No>43</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Anthony S. Waters</Artist>
 <Multiverseid>292768</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -795,7 +798,7 @@ Cycling {U} ({U}, Discard this card: Draw a card.)</CardText>
 <No>44</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Richard Wright</Artist>
 <Multiverseid>292770</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -851,7 +854,7 @@ Sacrifice a Swamp and a Forest: Return Jarad from your graveyard to your hand.</
 <Name>Elves of Deep Shadow</Name>
 <Type>Creature — Elf Druid 1/1</Type>
 <ManaCost>G (1)</ManaCost>
-<CardText>{T}: Add {B} to your mana pool. Elves of Deep Shadow deals 1 damage to you.</CardText>
+<CardText>{T}: Add {B}. Elves of Deep Shadow deals 1 damage to you.</CardText>
 <Flavor>Cast out of the Conclave generations ago, these elves found a home in the corrupted districts of the Golgari.</Flavor>
 <Artist>Justin Sweet</Artist>
 <Multiverseid>292942</Multiverseid>
@@ -1131,7 +1134,7 @@ When Stingerfling Spider enters the battlefield, you may destroy target creature
 <ManaCost>3BB (5)</ManaCost>
 <CardText>Sacrifice a creature: Target player discards two cards. Activate this ability only any time you could cast a sorcery.</CardText>
 <Flavor>"Victory in the pits is almost as rewarding as the methods I use to achieve it."</Flavor>
-<Artist>Parente</Artist>
+<Artist>Paolo Parente</Artist>
 <Multiverseid>338408</Multiverseid>
 <Rulings>2013/04/15: If you cast this as normal during your main phase, it will enter the battlefield and you'll receive priority. If no abilities trigger because of this, you can activate its ability immediately, before any other player has a chance to remove it from the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
@@ -1201,7 +1204,7 @@ At the beginning of your upkeep, sacrifice a creature. You gain life equal to th
 <Name>Golgari Signet</Name>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{1}, {T}: Add {B}{G} to your mana pool.</CardText>
+<CardText>{1}, {T}: Add {B}{G}.</CardText>
 <Flavor>Depending on your point of view, the seal represents a proud guardian of the natural cycle or one who has sold her soul to darkness for eternal life.</Flavor>
 <Artist>Raoul Vitale</Artist>
 <Multiverseid>292952</Multiverseid>
@@ -1327,7 +1330,7 @@ Dredge 3 (If you would draw a card, instead you may put exactly three cards from
 <Name>Nightmare Void</Name>
 <Type>Sorcery</Type>
 <ManaCost>3B (4)</ManaCost>
-<CardText>Target player reveals his or her hand. You choose a card from it. That player discards that card.
+<CardText>Target player reveals their hand. You choose a card from it. That player discards that card.
 Dredge 2 (If you would draw a card, instead you may put exactly two cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)</CardText>
 <Artist>Chippy</Artist>
 <Multiverseid>338410</Multiverseid>
@@ -1386,7 +1389,7 @@ Dredge 2 (If you would draw a card, instead you may put exactly two cards from t
 <Type>Sorcery</Type>
 <ManaCost>4BB (6)</ManaCost>
 <CardText>You may cast Twilight's Call as though it had flash if you pay {2} more to cast it. (You may cast it any time you could cast an instant.)
-Each player returns all creature cards from his or her graveyard to the battlefield.</CardText>
+Each player returns all creature cards from their graveyard to the battlefield.</CardText>
 <Flavor>Twilight falls. We rise.
 —Necropolis inscription</Flavor>
 <Artist>Mark Romanoski</Artist>
@@ -1408,7 +1411,7 @@ Each player returns all creature cards from his or her graveyard to the battlefi
 <CardText>All lands you control become 1/1 creatures until end of turn. They're still lands.</CardText>
 <Artist>Ryan Barger</Artist>
 <Multiverseid>292976</Multiverseid>
-<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
+<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Duel Decks: Izzet vs. Golgari</Set>
@@ -1438,7 +1441,7 @@ Each player returns all creature cards from his or her graveyard to the battlefi
 <Name>Barren Moor</Name>
 <Type>Land</Type>
 <CardText>Barren Moor enters the battlefield tapped.
-{T}: Add {B} to your mana pool.
+{T}: Add {B}.
 Cycling {B} ({B}, Discard this card: Draw a card.)</CardText>
 <Artist>Heather Hudson</Artist>
 <Multiverseid>292964</Multiverseid>
@@ -1455,7 +1458,7 @@ Cycling {B} ({B}, Discard this card: Draw a card.)</CardText>
 <Name>Dakmor Salvage</Name>
 <Type>Land</Type>
 <CardText>Dakmor Salvage enters the battlefield tapped.
-{T}: Add {B} to your mana pool.
+{T}: Add {B}.
 Dredge 2 (If you would draw a card, instead you may put exactly two cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>292984</Multiverseid>
@@ -1476,7 +1479,7 @@ Dredge 2 (If you would draw a card, instead you may put exactly two cards from t
 <Type>Land</Type>
 <CardText>Golgari Rot Farm enters the battlefield tapped.
 When Golgari Rot Farm enters the battlefield, return a land you control to its owner's hand.
-{T}: Add {B}{G} to your mana pool.</CardText>
+{T}: Add {B}{G}.</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>292950</Multiverseid>
 <Rulings>2013/04/15: If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.</Rulings>
@@ -1492,12 +1495,12 @@ When Golgari Rot Farm enters the battlefield, return a land you control to its o
 <No>81</No>
 <Name>Svogthos, the Restless Tomb</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {3}{B}{G}: Until end of turn, Svogthos, the Restless Tomb becomes a black and green Plant Zombie creature with "This creature's power and toughness are each equal to the number of creature cards in your graveyard." It's still a land.</CardText>
 <Artist>Martina Pilcerova</Artist>
 <Multiverseid>292959</Multiverseid>
 <Rulings>2005/10/01: While animated, Svogthos's power and toughness changes each time a creature card enters or leaves its controller's graveyard.
-2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.
+2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
 2009/10/01: Activating the ability that turns it into a creature while it's already a creature will override any effects that set its power and/or toughness to a specific number. However, any effect that raises or lowers power and/or toughness (such as the effect created by Giant Growth, Glorious Anthem, or a +1/+1 counter) will continue to apply.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1512,7 +1515,7 @@ When Golgari Rot Farm enters the battlefield, return a land you control to its o
 <Name>Tranquil Thicket</Name>
 <Type>Land</Type>
 <CardText>Tranquil Thicket enters the battlefield tapped.
-{T}: Add {G} to your mana pool.
+{T}: Add {G}.
 Cycling {G} ({G}, Discard this card: Draw a card.)</CardText>
 <Artist>Heather Hudson</Artist>
 <Multiverseid>292969</Multiverseid>
@@ -1528,7 +1531,7 @@ Cycling {G} ({G}, Discard this card: Draw a card.)</CardText>
 <No>83</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Stephan Martiniere</Artist>
 <Multiverseid>292962</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1543,7 +1546,7 @@ Cycling {G} ({G}, Discard this card: Draw a card.)</CardText>
 <No>84</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>292961</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1558,7 +1561,7 @@ Cycling {G} ({G}, Discard this card: Draw a card.)</CardText>
 <No>85</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Anthony S. Waters</Artist>
 <Multiverseid>292960</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1573,7 +1576,7 @@ Cycling {G} ({G}, Discard this card: Draw a card.)</CardText>
 <No>86</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Richard Wright</Artist>
 <Multiverseid>292963</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1588,7 +1591,7 @@ Cycling {G} ({G}, Discard this card: Draw a card.)</CardText>
 <No>87</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Stephan Martiniere</Artist>
 <Multiverseid>292943</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1603,7 +1606,7 @@ Cycling {G} ({G}, Discard this card: Draw a card.)</CardText>
 <No>88</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>292945</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1618,7 +1621,7 @@ Cycling {G} ({G}, Discard this card: Draw a card.)</CardText>
 <No>89</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Anthony S. Waters</Artist>
 <Multiverseid>292944</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1633,7 +1636,7 @@ Cycling {G} ({G}, Discard this card: Draw a card.)</CardText>
 <No>90</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Richard Wright</Artist>
 <Multiverseid>292946</Multiverseid>
 <Vintage>Legal</Vintage>

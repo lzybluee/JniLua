@@ -4,7 +4,7 @@
 <Name>Amulet of Kroog</Name>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{2}, {T}: Prevent the next 1 damage that would be dealt to target creature or player this turn.</CardText>
+<CardText>{2}, {T}: Prevent the next 1 damage that would be dealt to any target this turn.</CardText>
 <Flavor>Among the first allies Urza gained were the people of Kroog. As a sign of friendship, Urza gave the healers of the city potent amulets; afterwards, thousands journeyed to Kroog in hope of healing, greatly adding to the city's glory.</Flavor>
 <Artist>Margaret Organ-Kean</Artist>
 <Multiverseid>992</Multiverseid>
@@ -38,7 +38,7 @@ At the beginning of your draw step, Armageddon Clock deals damage equal to the n
 <Name>Ashnod's Altar</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>Sacrifice a creature: Add {C}{C} to your mana pool.</CardText>
+<CardText>Sacrifice a creature: Add {C}{C}.</CardText>
 <Artist>Anson Maddocks</Artist>
 <Multiverseid>994</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -110,13 +110,13 @@ Whenever Battering Ram becomes blocked by a Wall, destroy that Wall at end of co
 <ManaCost>6 (6)</ManaCost>
 <CardText>Remove Bronze Tablet from your deck before playing if you're not playing for ante.
 Bronze Tablet enters the battlefield tapped.
-{4}, {T}: Exile Bronze Tablet and target nontoken permanent an opponent owns. That player may pay 10 life. If he or she does, put Bronze Tablet into its owner's graveyard. Otherwise, that player owns Bronze Tablet and you own the other exiled card.</CardText>
+{4}, {T}: Exile Bronze Tablet and target nontoken permanent an opponent owns. That player may pay 10 life. If they do, put Bronze Tablet into its owner's graveyard. Otherwise, that player owns Bronze Tablet and you own the other exiled card.</CardText>
 <Artist>Tom Wänerstrand</Artist>
 <Multiverseid>998</Multiverseid>
 <Rulings>2004/10/04: If using a copy of the Tablet, you must trade the copy card to your opponent just like you would have traded the Tablet.
 2004/10/04: You can't choose to pay 10 life if you have less than 10 life, but you may choose to give up the game immediately. This has roughly the same effect.
 2004/10/04: You can take control of your opponent's Tablet and in the trade you only have to give them back their Tablet.
-2004/10/04: If the card being targeted by the <Bronze Tablet> is removed before Tablet takes effect, then the Tablet ability is countered and it remains tapped.
+2004/10/04: If the card being targeted by the <Bronze Tablet> is removed before Tablet takes effect, then the Tablet ability doesn't resolve and it remains tapped.
 2008/08/01: If the tablet is not still on the battlefield when the ability resolves, it is not exiled. The other player still has the choice to pay 10 life, and you still become the owner of their card if they choose not to do so.</Rulings>
 <Vintage>Banned</Vintage>
 <Legacy>Banned</Legacy>
@@ -187,7 +187,7 @@ At end of combat, if Clockwork Avian attacked or blocked this combat, remove a +
 <Name>Colossus of Sardia</Name>
 <Type>Artifact Creature — Golem 9/9</Type>
 <ManaCost>9 (9)</ManaCost>
-<CardText>Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)
+<CardText>Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)
 Colossus of Sardia doesn't untap during your untap step.
 {9}: Untap Colossus of Sardia. Activate this ability only during your upkeep.</CardText>
 <Flavor>From the Sardian mountains wakes ancient doom:
@@ -360,7 +360,7 @@ The chosen player's maximum hand size is four.</CardText>
 <Name>Millstone</Name>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{2}, {T}: Target player puts the top two cards of his or her library into his or her graveyard.</CardText>
+<CardText>{2}, {T}: Target player puts the top two cards of their library into their graveyard.</CardText>
 <Flavor>More than one mage was driven insane by the sound of the Millstone relentlessly grinding away.</Flavor>
 <Artist>Kaja Foglio</Artist>
 <Multiverseid>1012</Multiverseid>
@@ -453,9 +453,9 @@ At the beginning of your upkeep, Mishra's War Machine deals 3 damage to you unle
 <CardText>As Primal Clay enters the battlefield, it becomes your choice of a 3/3 artifact creature, a 2/2 artifact creature with flying, or a 1/6 Wall artifact creature with defender in addition to its other types. (A creature with defender can't attack.)</CardText>
 <Artist>Kaja Foglio</Artist>
 <Multiverseid>1017</Multiverseid>
-<Rulings>2012/07/01: In zones other than the battlefield, <Primal Clay> is 0/0.
-2012/07/01: If another permanent enters the battlefield as a copy of <Primal Clay>, the controller of that permanent will get to make a new choice. The copy won't necessarily have the same power, toughness, and abilities as the original.
-2012/07/01: If a creature that's already on the battlefield becomes a copy of <Primal Clay>, it copies the power, toughness, and abilities that were chosen for <Primal Clay> when it entered the battlefield.</Rulings>
+<Rulings>2018/03/16: In zones other than the battlefield, this creature card is 0/0.
+2018/03/16: If another permanent enters the battlefield as a copy of this creature, the controller of that permanent will get to make a new choice. The copy won't necessarily have the same power, toughness, and abilities as the original.
+2018/03/16: If a creature that's already on the battlefield becomes a copy of this creature, it copies the power, toughness, and abilities that were chosen for this creature as it entered the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -469,13 +469,12 @@ At the beginning of your upkeep, Mishra's War Machine deals 3 damage to you unle
 <Name>Rakalite</Name>
 <Type>Artifact</Type>
 <ManaCost>6 (6)</ManaCost>
-<CardText>{2}: Prevent the next 1 damage that would be dealt to target creature or player this turn. Return Rakalite to its owner's hand at the beginning of the next end step.</CardText>
+<CardText>{2}: Prevent the next 1 damage that would be dealt to any target this turn. Return Rakalite to its owner's hand at the beginning of the next end step.</CardText>
 <Flavor>Urza was the first to understand that the war would not be lost for lack of power, but for lack of troops.</Flavor>
 <Artist>Christopher Rush</Artist>
 <Multiverseid>1018</Multiverseid>
 <Rulings>2004/10/04: Only returns to your hand if it is still on the battlefield at the end of the turn. If it leaves the battlefield, it does not return.
-2004/10/04: Can be used any number of times during the turn before it leaves the battlefield.
-2004/10/04: Can choose a different creature or player for each use.</Rulings>
+2004/10/04: Can be used any number of times during the turn before it leaves the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Antiquities</Set>
@@ -488,7 +487,7 @@ At the beginning of your upkeep, Mishra's War Machine deals 3 damage to you unle
 <Name>Rocket Launcher</Name>
 <Type>Artifact</Type>
 <ManaCost>4 (4)</ManaCost>
-<CardText>{2}: Rocket Launcher deals 1 damage to target creature or player. Destroy Rocket Launcher at the beginning of the next end step. Activate this ability only if you've controlled Rocket Launcher continuously since the beginning of your most recent turn.</CardText>
+<CardText>{2}: Rocket Launcher deals 1 damage to any target. Destroy Rocket Launcher at the beginning of the next end step. Activate this ability only if you've controlled Rocket Launcher continuously since the beginning of your most recent turn.</CardText>
 <Flavor>What these devices lacked in subtlety, they made up in strength.</Flavor>
 <Artist>Pete Venters</Artist>
 <Multiverseid>1019</Multiverseid>
@@ -545,7 +544,7 @@ But neither Bulk nor Shape the same.
 <Name>Su-Chi</Name>
 <Type>Artifact Creature — Construct 4/4</Type>
 <ManaCost>4 (4)</ManaCost>
-<CardText>When Su-Chi dies, add {C}{C}{C}{C} to your mana pool.</CardText>
+<CardText>When Su-Chi dies, add {C}{C}{C}{C}.</CardText>
 <Flavor>Flawed copies of relics from the Thran Empire, the Su-Chi were inherently unstable but provided useful knowledge for Tocasia's students.</Flavor>
 <Artist>Christopher Rush</Artist>
 <Multiverseid>1022</Multiverseid>
@@ -657,7 +656,7 @@ At the beginning of your upkeep, you may exile any number of tokens created with
 <Type>Artifact</Type>
 <ManaCost>1 (1)</ManaCost>
 <CardText>As The Rack enters the battlefield, choose an opponent.
-At the beginning of the chosen player's upkeep, The Rack deals X damage to that player, where X is 3 minus the number of cards in his or her hand.</CardText>
+At the beginning of the chosen player's upkeep, The Rack deals X damage to that player, where X is 3 minus the number of cards in their hand.</CardText>
 <Flavor>Invented in Mishra's earlier days, the Rack was once his most feared creation.</Flavor>
 <Artist>Richard Thomas</Artist>
 <Multiverseid>1028</Multiverseid>
@@ -676,7 +675,7 @@ At the beginning of the chosen player's upkeep, The Rack deals X damage to that 
 <Type>Artifact Creature — Construct 1/1</Type>
 <ManaCost>6 (6)</ManaCost>
 <CardText>Triskelion enters the battlefield with three +1/+1 counters on it.
-Remove a +1/+1 counter from Triskelion: Triskelion deals 1 damage to target creature or player.</CardText>
+Remove a +1/+1 counter from Triskelion: It deals 1 damage to any target.</CardText>
 <Flavor>A brainchild of Tawnos, the Triskelion proved its versatility and usefulness in many of the later battles between the brothers.</Flavor>
 <Artist>Douglas Shuler</Artist>
 <Multiverseid>1029</Multiverseid>
@@ -870,7 +869,7 @@ Whenever enchanted artifact becomes tapped or a player activates an ability of e
 <Name>Priest of Yawgmoth</Name>
 <Type>Creature — Human Cleric 1/2</Type>
 <ManaCost>1B (2)</ManaCost>
-<CardText>{T}, Sacrifice an artifact: Add an amount of {B} to your mana pool equal to the sacrificed artifact's converted mana cost.</CardText>
+<CardText>{T}, Sacrifice an artifact: Add an amount of {B} equal to the sacrificed artifact's converted mana cost.</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>1044</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -889,7 +888,7 @@ Whenever enchanted artifact becomes tapped or a player activates an ability of e
 <Artist>Dan Frazier</Artist>
 <Multiverseid>1048</Multiverseid>
 <Rulings>2004/10/04: Wears off at the beginning of the upkeep, not during upkeep.
-2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
+2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Antiquities</Set>
@@ -921,7 +920,7 @@ At the beginning of your upkeep, you may sacrifice an artifact. If you don't, ta
 <Name>Drafna's Restoration</Name>
 <Type>Sorcery</Type>
 <ManaCost>U (1)</ManaCost>
-<CardText>Put any number of target artifact cards from target player's graveyard on top of his or her library in any order.</CardText>
+<CardText>Put any number of target artifact cards from target player's graveyard on top of their library in any order.</CardText>
 <Flavor>Drafna, founder of the College of Lat-Nam, could create a working model from even the smallest remnants of a newly unearthed artifact.</Flavor>
 <Artist>Amy Weber</Artist>
 <Multiverseid>1037</Multiverseid>
@@ -952,7 +951,7 @@ At the beginning of your upkeep, you may sacrifice an artifact. If you don't, ta
 <Name>Hurkyl's Recall</Name>
 <Type>Instant</Type>
 <ManaCost>1U (2)</ManaCost>
-<CardText>Return all artifacts target player owns to his or her hand.</CardText>
+<CardText>Return all artifacts target player owns to their hand.</CardText>
 <Flavor>This spell, attributed to Drafna, was actually the work of his wife Hurkyl.</Flavor>
 <Artist>NéNé Thomas</Artist>
 <Multiverseid>1041</Multiverseid>
@@ -1155,7 +1154,7 @@ machines.</Flavor>
 <CardText>Each noncreature artifact loses all abilities and becomes an artifact creature with power and toughness each equal to its converted mana cost. If Titania's Song leaves the battlefield, this effect continues until end of turn.</CardText>
 <Artist>Kerstin Kaman</Artist>
 <Multiverseid>1056</Multiverseid>
-<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
+<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Antiquities</Set>
@@ -1167,13 +1166,13 @@ machines.</Flavor>
 <No>66</No>
 <Name>Mishra's Factory</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {1}: Mishra's Factory becomes a 2/2 Assembly-Worker artifact creature until end of turn. It's still a land.
 {T}: Target Assembly-Worker creature gets +1/+1 until end of turn.</CardText>
 <Artist>Kaja & Phil Foglio</Artist>
 <Multiverseid>1072</Multiverseid>
 <Rulings>2005/08/01: If another player takes control of the Factory while it is animated, that player keeps control until the control effect ends. They do not lose control just because the card stops being an Assembly-Worker. Note that Auras which steal cards will go to the graveyard if the permanent they enchant is no longer valid.
-2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.
+2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
 2009/10/01: Activating the ability that turns it into a creature while it's already a creature will override any effects that set its power and/or toughness to a specific number. However, any effect that raises or lowers power and/or toughness (such as the effect created by Giant Growth, Glorious Anthem, or a +1/+1 counter) will continue to apply.
 2016/06/08: Once turned into a creature, <Mishra's Factory>'s last ability can target itself. If it's already blocking, this won't remove it from combat.
 2016/06/08: If you turn <Mishra's Factory> into a creature but haven't controlled it continuously since your most recent turn began, you won't be able to activate its first or last ability.</Rulings>
@@ -1188,13 +1187,13 @@ machines.</Flavor>
 <No>67</No>
 <Name>Mishra's Factory</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {1}: Mishra's Factory becomes a 2/2 Assembly-Worker artifact creature until end of turn. It's still a land.
 {T}: Target Assembly-Worker creature gets +1/+1 until end of turn.</CardText>
 <Artist>Kaja & Phil Foglio</Artist>
 <Multiverseid>1073</Multiverseid>
 <Rulings>2005/08/01: If another player takes control of the Factory while it is animated, that player keeps control until the control effect ends. They do not lose control just because the card stops being an Assembly-Worker. Note that Auras which steal cards will go to the graveyard if the permanent they enchant is no longer valid.
-2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.
+2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
 2009/10/01: Activating the ability that turns it into a creature while it's already a creature will override any effects that set its power and/or toughness to a specific number. However, any effect that raises or lowers power and/or toughness (such as the effect created by Giant Growth, Glorious Anthem, or a +1/+1 counter) will continue to apply.
 2016/06/08: Once turned into a creature, <Mishra's Factory>'s last ability can target itself. If it's already blocking, this won't remove it from combat.
 2016/06/08: If you turn <Mishra's Factory> into a creature but haven't controlled it continuously since your most recent turn began, you won't be able to activate its first or last ability.</Rulings>
@@ -1209,13 +1208,13 @@ machines.</Flavor>
 <No>68</No>
 <Name>Mishra's Factory</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {1}: Mishra's Factory becomes a 2/2 Assembly-Worker artifact creature until end of turn. It's still a land.
 {T}: Target Assembly-Worker creature gets +1/+1 until end of turn.</CardText>
 <Artist>Kaja & Phil Foglio</Artist>
 <Multiverseid>1071</Multiverseid>
 <Rulings>2005/08/01: If another player takes control of the Factory while it is animated, that player keeps control until the control effect ends. They do not lose control just because the card stops being an Assembly-Worker. Note that Auras which steal cards will go to the graveyard if the permanent they enchant is no longer valid.
-2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.
+2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
 2009/10/01: Activating the ability that turns it into a creature while it's already a creature will override any effects that set its power and/or toughness to a specific number. However, any effect that raises or lowers power and/or toughness (such as the effect created by Giant Growth, Glorious Anthem, or a +1/+1 counter) will continue to apply.
 2016/06/08: Once turned into a creature, <Mishra's Factory>'s last ability can target itself. If it's already blocking, this won't remove it from combat.
 2016/06/08: If you turn <Mishra's Factory> into a creature but haven't controlled it continuously since your most recent turn began, you won't be able to activate its first or last ability.</Rulings>
@@ -1230,13 +1229,13 @@ machines.</Flavor>
 <No>69</No>
 <Name>Mishra's Factory</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {1}: Mishra's Factory becomes a 2/2 Assembly-Worker artifact creature until end of turn. It's still a land.
 {T}: Target Assembly-Worker creature gets +1/+1 until end of turn.</CardText>
 <Artist>Kaja & Phil Foglio</Artist>
 <Multiverseid>1074</Multiverseid>
 <Rulings>2005/08/01: If another player takes control of the Factory while it is animated, that player keeps control until the control effect ends. They do not lose control just because the card stops being an Assembly-Worker. Note that Auras which steal cards will go to the graveyard if the permanent they enchant is no longer valid.
-2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.
+2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
 2009/10/01: Activating the ability that turns it into a creature while it's already a creature will override any effects that set its power and/or toughness to a specific number. However, any effect that raises or lowers power and/or toughness (such as the effect created by Giant Growth, Glorious Anthem, or a +1/+1 counter) will continue to apply.
 2016/06/08: Once turned into a creature, <Mishra's Factory>'s last ability can target itself. If it's already blocking, this won't remove it from combat.
 2016/06/08: If you turn <Mishra's Factory> into a creature but haven't controlled it continuously since your most recent turn began, you won't be able to activate its first or last ability.</Rulings>
@@ -1251,7 +1250,7 @@ machines.</Flavor>
 <No>70</No>
 <Name>Mishra's Workshop</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C}{C}{C} to your mana pool. Spend this mana only to cast artifact spells.</CardText>
+<CardText>{T}: Add {C}{C}{C}. Spend this mana only to cast artifact spells.</CardText>
 <Flavor>Though he eventually came to despise Tocasia, Mishra listened well to her lessons on clarity of purpose. Unlike his brother, he focused his mind on a single goal.</Flavor>
 <Artist>Kaja Foglio</Artist>
 <Multiverseid>1075</Multiverseid>
@@ -1271,7 +1270,7 @@ machines.</Flavor>
 <No>71</No>
 <Name>Strip Mine</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {T}, Sacrifice Strip Mine: Destroy target land.</CardText>
 <Flavor>Unlike previous conflicts, the war between Urza and Mishra made Dominia itself a casualty of war.</Flavor>
 <Artist>Daniel Gelon</Artist>
@@ -1287,7 +1286,7 @@ machines.</Flavor>
 <No>72</No>
 <Name>Strip Mine</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {T}, Sacrifice Strip Mine: Destroy target land.</CardText>
 <Flavor>Unlike previous conflicts, the war between Urza and Mishra made Dominia itself a casualty of war.</Flavor>
 <Artist>Daniel Gelon</Artist>
@@ -1303,7 +1302,7 @@ machines.</Flavor>
 <No>73</No>
 <Name>Strip Mine</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {T}, Sacrifice Strip Mine: Destroy target land.</CardText>
 <Flavor>Unlike previous conflicts, the war between Urza and Mishra made Dominia itself a casualty of war.</Flavor>
 <Artist>Daniel Gelon</Artist>
@@ -1319,7 +1318,7 @@ machines.</Flavor>
 <No>74</No>
 <Name>Strip Mine</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {T}, Sacrifice Strip Mine: Destroy target land.</CardText>
 <Flavor>Unlike previous conflicts, the war between Urza and Mishra made Dominia itself a casualty of war.</Flavor>
 <Artist>Daniel Gelon</Artist>
@@ -1335,7 +1334,7 @@ machines.</Flavor>
 <No>75</No>
 <Name>Urza's Mine</Name>
 <Type>Land — Urza's Mine</Type>
-<CardText>{T}: Add {C} to your mana pool. If you control an Urza's Power-Plant and an Urza's Tower, add {C}{C} to your mana pool instead.</CardText>
+<CardText>{T}: Add {C}. If you control an Urza's Power-Plant and an Urza's Tower, add {C}{C} instead.</CardText>
 <Flavor>Mines became common as cities during the days of the artificers.</Flavor>
 <Artist>Anson Maddocks</Artist>
 <Multiverseid>1082</Multiverseid>
@@ -1352,7 +1351,7 @@ machines.</Flavor>
 <No>76</No>
 <Name>Urza's Mine</Name>
 <Type>Land — Urza's Mine</Type>
-<CardText>{T}: Add {C} to your mana pool. If you control an Urza's Power-Plant and an Urza's Tower, add {C}{C} to your mana pool instead.</CardText>
+<CardText>{T}: Add {C}. If you control an Urza's Power-Plant and an Urza's Tower, add {C}{C} instead.</CardText>
 <Flavor>Mines became common as cities during the days of the artificers.</Flavor>
 <Artist>Anson Maddocks</Artist>
 <Multiverseid>1081</Multiverseid>
@@ -1369,7 +1368,7 @@ machines.</Flavor>
 <No>77</No>
 <Name>Urza's Mine</Name>
 <Type>Land — Urza's Mine</Type>
-<CardText>{T}: Add {C} to your mana pool. If you control an Urza's Power-Plant and an Urza's Tower, add {C}{C} to your mana pool instead.</CardText>
+<CardText>{T}: Add {C}. If you control an Urza's Power-Plant and an Urza's Tower, add {C}{C} instead.</CardText>
 <Flavor>Mines became common as cities during the days of the artificers.</Flavor>
 <Artist>Anson Maddocks</Artist>
 <Multiverseid>1080</Multiverseid>
@@ -1386,7 +1385,7 @@ machines.</Flavor>
 <No>78</No>
 <Name>Urza's Mine</Name>
 <Type>Land — Urza's Mine</Type>
-<CardText>{T}: Add {C} to your mana pool. If you control an Urza's Power-Plant and an Urza's Tower, add {C}{C} to your mana pool instead.</CardText>
+<CardText>{T}: Add {C}. If you control an Urza's Power-Plant and an Urza's Tower, add {C}{C} instead.</CardText>
 <Flavor>Mines became common as cities during the days of the artificers.</Flavor>
 <Artist>Anson Maddocks</Artist>
 <Multiverseid>1083</Multiverseid>
@@ -1403,7 +1402,7 @@ machines.</Flavor>
 <No>79</No>
 <Name>Urza's Power Plant</Name>
 <Type>Land — Urza's Power-Plant</Type>
-<CardText>{T}: Add {C} to your mana pool. If you control an Urza's Mine and an Urza's Tower, add {C}{C} to your mana pool instead.</CardText>
+<CardText>{T}: Add {C}. If you control an Urza's Mine and an Urza's Tower, add {C}{C} instead.</CardText>
 <Flavor>Artifact construction required immense resources.</Flavor>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>1086</Multiverseid>
@@ -1420,7 +1419,7 @@ machines.</Flavor>
 <No>80</No>
 <Name>Urza's Power Plant</Name>
 <Type>Land — Urza's Power-Plant</Type>
-<CardText>{T}: Add {C} to your mana pool. If you control an Urza's Mine and an Urza's Tower, add {C}{C} to your mana pool instead.</CardText>
+<CardText>{T}: Add {C}. If you control an Urza's Mine and an Urza's Tower, add {C}{C} instead.</CardText>
 <Flavor>Artifact construction required immense resources.</Flavor>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>1085</Multiverseid>
@@ -1437,7 +1436,7 @@ machines.</Flavor>
 <No>81</No>
 <Name>Urza's Power Plant</Name>
 <Type>Land — Urza's Power-Plant</Type>
-<CardText>{T}: Add {C} to your mana pool. If you control an Urza's Mine and an Urza's Tower, add {C}{C} to your mana pool instead.</CardText>
+<CardText>{T}: Add {C}. If you control an Urza's Mine and an Urza's Tower, add {C}{C} instead.</CardText>
 <Flavor>Artifact construction required immense resources.</Flavor>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>1084</Multiverseid>
@@ -1454,7 +1453,7 @@ machines.</Flavor>
 <No>82</No>
 <Name>Urza's Power Plant</Name>
 <Type>Land — Urza's Power-Plant</Type>
-<CardText>{T}: Add {C} to your mana pool. If you control an Urza's Mine and an Urza's Tower, add {C}{C} to your mana pool instead.</CardText>
+<CardText>{T}: Add {C}. If you control an Urza's Mine and an Urza's Tower, add {C}{C} instead.</CardText>
 <Flavor>Artifact construction required immense resources.</Flavor>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>1087</Multiverseid>
@@ -1471,7 +1470,7 @@ machines.</Flavor>
 <No>83</No>
 <Name>Urza's Tower</Name>
 <Type>Land — Urza's Tower</Type>
-<CardText>{T}: Add {C} to your mana pool. If you control an Urza's Mine and an Urza's Power-Plant, add {C}{C}{C} to your mana pool instead.</CardText>
+<CardText>{T}: Add {C}. If you control an Urza's Mine and an Urza's Power-Plant, add {C}{C}{C} instead.</CardText>
 <Flavor>Urza always put Tocasia's lessons on resource-gathering to effective use.</Flavor>
 <Artist>Mark Poole</Artist>
 <Multiverseid>1088</Multiverseid>
@@ -1487,7 +1486,7 @@ machines.</Flavor>
 <No>84</No>
 <Name>Urza's Tower</Name>
 <Type>Land — Urza's Tower</Type>
-<CardText>{T}: Add {C} to your mana pool. If you control an Urza's Mine and an Urza's Power-Plant, add {C}{C}{C} to your mana pool instead.</CardText>
+<CardText>{T}: Add {C}. If you control an Urza's Mine and an Urza's Power-Plant, add {C}{C}{C} instead.</CardText>
 <Flavor>Urza always put Tocasia's lessons on resource-gathering to effective use.</Flavor>
 <Artist>Mark Poole</Artist>
 <Multiverseid>1091</Multiverseid>
@@ -1503,7 +1502,7 @@ machines.</Flavor>
 <No>85</No>
 <Name>Urza's Tower</Name>
 <Type>Land — Urza's Tower</Type>
-<CardText>{T}: Add {C} to your mana pool. If you control an Urza's Mine and an Urza's Power-Plant, add {C}{C}{C} to your mana pool instead.</CardText>
+<CardText>{T}: Add {C}. If you control an Urza's Mine and an Urza's Power-Plant, add {C}{C}{C} instead.</CardText>
 <Flavor>Urza always put Tocasia's lessons on resource-gathering to effective use.</Flavor>
 <Artist>Mark Poole</Artist>
 <Multiverseid>1090</Multiverseid>
@@ -1519,7 +1518,7 @@ machines.</Flavor>
 <No>86</No>
 <Name>Urza's Tower</Name>
 <Type>Land — Urza's Tower</Type>
-<CardText>{T}: Add {C} to your mana pool. If you control an Urza's Mine and an Urza's Power-Plant, add {C}{C}{C} to your mana pool instead.</CardText>
+<CardText>{T}: Add {C}. If you control an Urza's Mine and an Urza's Power-Plant, add {C}{C}{C} instead.</CardText>
 <Flavor>Urza always put Tocasia's lessons on resource-gathering to effective use.</Flavor>
 <Artist>Mark Poole</Artist>
 <Multiverseid>1089</Multiverseid>
@@ -1615,7 +1614,7 @@ machines.</Flavor>
 <Name>Orcish Mechanics</Name>
 <Type>Creature — Orc 1/1</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>{T}, Sacrifice an artifact: Orcish Mechanics deals 2 damage to target creature or player.</CardText>
+<CardText>{T}, Sacrifice an artifact: Orcish Mechanics deals 2 damage to any target.</CardText>
 <Artist>Pete Venters</Artist>
 <Multiverseid>1062</Multiverseid>
 <Vintage>Legal</Vintage>

@@ -4,7 +4,7 @@
 <Name>Grim Lavamancer</Name>
 <Type>Creature — Human Wizard 1/1</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>{R}, {T}, Exile two cards from your graveyard: Grim Lavamancer deals 2 damage to target creature or player.</CardText>
+<CardText>{R}, {T}, Exile two cards from your graveyard: Grim Lavamancer deals 2 damage to any target.</CardText>
 <Flavor>"Fools dig for water, corpses, or gold. The earth's real treasure is far deeper."</Flavor>
 <Artist>Michael Sutfin</Artist>
 <Multiverseid>234706</Multiverseid>
@@ -38,7 +38,7 @@
 <Name>Mogg Fanatic</Name>
 <Type>Creature — Goblin 1/1</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>Sacrifice Mogg Fanatic: Mogg Fanatic deals 1 damage to target creature or player.</CardText>
+<CardText>Sacrifice Mogg Fanatic: It deals 1 damage to any target.</CardText>
 <Flavor>"I got it! I got it! I—"</Flavor>
 <Artist>Brom</Artist>
 <Multiverseid>234699</Multiverseid>
@@ -56,7 +56,7 @@
 <Name>Spark Elemental</Name>
 <Type>Creature — Elemental 3/1</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>Trample, haste (This creature can deal excess combat damage to defending player or planeswalker while attacking. This creature can attack and {T} as soon as it comes under your control.)
+<CardText>Trample, haste (This creature can deal excess combat damage to the player or planeswalker it's attacking. This creature can attack and {T} as soon as it comes under your control.)
 At the beginning of the end step, sacrifice Spark Elemental.</CardText>
 <Flavor>Vulshok shamans could never keep them alive for more than a few seconds, yet those few seconds seemed to be enough.</Flavor>
 <Artist>John Avon</Artist>
@@ -116,7 +116,7 @@ Unearth {1}{R} ({1}{R}: Return this card from your graveyard to the battlefield.
 <Type>Creature — Human Warrior 3/3</Type>
 <ManaCost>1R (2)</ManaCost>
 <CardText>Vanishing 2 (This creature enters the battlefield with two time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)
-When Keldon Marauders enters the battlefield or leaves the battlefield, it deals 1 damage to target player.</CardText>
+When Keldon Marauders enters the battlefield or leaves the battlefield, it deals 1 damage to target player or planeswalker.</CardText>
 <Artist>Alex Horley-Orlandelli</Artist>
 <Multiverseid>234709</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -136,11 +136,11 @@ When Keldon Marauders enters the battlefield or leaves the battlefield, it deals
 <Flavor>They'll attack whatever's in front of them—as long as you tell them where that is.</Flavor>
 <Artist>Brom</Artist>
 <Multiverseid>234710</Multiverseid>
-<Rulings>2017/03/14: <Mogg Flunkies> can be declared as an attacker only if another creature is declared as an attacker at the same time. Similarly, <Mogg Flunkies> can be declared as a blocker only if another creature is declared as a blocker at the same time.
-2017/03/14: Two or more <Mogg Flunkies> can attack or block together.
-2017/03/14: Although <Mogg Flunkies> can't attack alone, other attacking creature(s) don't have to attack the same player or planeswalker. For example, <Mogg Flunkies> could attack an opponent and another creature could attack a planeswalker that opponent controls.
-2017/03/14: If an effect says that <Mogg Flunkies> attacks or blocks if able and you control another creature able to attack or block, you must attack or block with <Mogg Flunkies> and that creature.
-2017/03/14: In a Two-Headed Giant game (or in another format using the shared team turns option), <Mogg Flunkies> can attack or block with a creature controlled by your teammate, even if no other creatures you control are attacking or blocking. In any other multiplayer variant, it ignores each other player's blocking creatures.</Rulings>
+<Rulings>2018/03/16: If you control more than one <Mogg Flunkies>, they can attack or block together, even if no other creatures attack or block.
+2018/03/16: Although <Mogg Flunkies> can't attack alone, other attacking creatures don't have to attack the same player or planeswalker. For example, <Mogg Flunkies> could attack an opponent and another creature could attack a planeswalker that opponent controls. Similarly, other blocking creatures don't have to block the same creature that <Mogg Flunkies> blocks.
+2018/03/16: Once <Mogg Flunkies> has attacked or blocked, it will remain in combat even if you no longer control another attacking or blocking creature.
+2018/03/16: If an effect says that <Mogg Flunkies> attacks or blocks if able and you control another creature able to attack or block, you must attack or block with <Mogg Flunkies> and that creature.
+2018/03/16: In a Two-Headed Giant game, <Mogg Flunkies> can attack or block with a creature controlled by your teammate, even if no other creatures you control are attacking or blocking.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -154,7 +154,7 @@ When Keldon Marauders enters the battlefield or leaves the battlefield, it deals
 <Name>Cinder Pyromancer</Name>
 <Type>Creature — Elemental Shaman 0/1</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>{T}: Cinder Pyromancer deals 1 damage to target player.
+<CardText>{T}: Cinder Pyromancer deals 1 damage to target player or planeswalker.
 Whenever you cast a red spell, you may untap Cinder Pyromancer.</CardText>
 <Flavor>"If the whole world burns, I'll never grow cold."</Flavor>
 <Artist>Greg Staples</Artist>
@@ -173,7 +173,7 @@ Whenever you cast a red spell, you may untap Cinder Pyromancer.</CardText>
 <Type>Legendary Creature — Human Spellshaper 2/2</Type>
 <ManaCost>1RR (3)</ManaCost>
 <CardText>{R}, {T}, Discard a card: Destroy target blue permanent.
-{1}{R}, {T}, Discard a card: Jaya Ballard, Task Mage deals 3 damage to target creature or player. A creature dealt damage this way can't be regenerated this turn.
+{1}{R}, {T}, Discard a card: Jaya Ballard, Task Mage deals 3 damage to any target. A creature dealt damage this way can't be regenerated this turn.
 {5}{R}{R}, {T}, Discard a card: Jaya Ballard deals 6 damage to each creature and each player.</CardText>
 <Artist>Matt Cavotta</Artist>
 <Multiverseid>234707</Multiverseid>
@@ -191,7 +191,7 @@ Whenever you cast a red spell, you may untap Cinder Pyromancer.</CardText>
 <Type>Creature — Human Shaman 1/1</Type>
 <ManaCost>1RR (3)</ManaCost>
 <CardText>Haste
-{T}: Vulshok Sorcerer deals 1 damage to target creature or player.</CardText>
+{T}: Vulshok Sorcerer deals 1 damage to any target.</CardText>
 <Flavor>Vulshok sorcerers train by leaping into electrified storm clouds. Dead or alive, they come back down with smiles on their faces.</Flavor>
 <Artist>rk post</Artist>
 <Multiverseid>234719</Multiverseid>
@@ -208,7 +208,7 @@ Whenever you cast a red spell, you may untap Cinder Pyromancer.</CardText>
 <Name>Ball Lightning</Name>
 <Type>Creature — Elemental 6/1</Type>
 <ManaCost>RRR (3)</ManaCost>
-<CardText>Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)
+<CardText>Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)
 Haste (This creature can attack and {T} as soon as it comes under your control.)
 At the beginning of the end step, sacrifice Ball Lightning.</CardText>
 <Artist>Trevor Claxton</Artist>
@@ -248,7 +248,7 @@ Wither (This deals damage to creatures in the form of -1/-1 counters.)</CardText
 <ManaCost>2RR (4)</ManaCost>
 <CardText>Haste
 Echo {2}{R}{R} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
-When Keldon Champion enters the battlefield, it deals 3 damage to target player.</CardText>
+When Keldon Champion enters the battlefield, it deals 3 damage to target player or planeswalker.</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>234713</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -269,8 +269,8 @@ When Keldon Champion enters the battlefield, it deals 3 damage to target player.
 <Artist>Ryan Yee</Artist>
 <Multiverseid>234702</Multiverseid>
 <Rulings>2010/08/15: <Fire Servant>'s ability applies no matter who or what the damage would be dealt to: a creature, a player, or a planeswalker.
-2010/08/15: If a red instant or sorcery spell you control causes damage to be dealt, that spell will always identify the source of the damage. In most cases, the source is the spell itself. For example, Lightning Bolt says "Lightning Bolt deals 3 damage to target creature or player." Such a spell is affected by <Fire Servant>'s ability. If the source of the damage is something else (for example, if the spell is Soul's Fire, which says "Target creature you control on the battlefield deals damage equal to its power to target creature or player"), it isn't affected by <Fire Servant>'s ability.
-2010/08/15: If multiple effects modify how damage will be dealt, the player who would be dealt damage or the controller of the permanent that would be dealt damage chooses the order to apply the effects. For example, Mending Hands says, "Prevent the next 4 damage that would be dealt to target creature or player this turn" and Lava Axe is a red sorcery that says "Lava Axe deals 5 damage to target player." Suppose a Lava Axe controlled by a player who controls <Fire Servant> would deal 5 damage to a player who has cast Mending Hands targeting him or herself. The player who would be dealt damage can either (a) prevent 4 damage first and then let <Fire Servant>'s effect double the remaining 1 damage, taking 2 damage, or (b) double the damage to 10 and then prevent 4 damage, taking 6 damage.
+2010/08/15: If a red instant or sorcery spell you control causes damage to be dealt, that spell will always identify the source of the damage. In most cases, the source is the spell itself. For example, Lightning Bolt says "Lightning Bolt deals 3 damage to any target." Such a spell is affected by <Fire Servant>'s ability. If the source of the damage is something else (for example, if the spell is Soul's Fire, which says "Target creature you control on the battlefield deals damage equal to its power to any target"), it isn't affected by <Fire Servant>'s ability.
+2010/08/15: If multiple effects modify how damage will be dealt, the player who would be dealt damage or the controller of the permanent that would be dealt damage chooses the order to apply the effects. For example, Mending Hands says, "Prevent the next 4 damage that would be dealt to any target this turn" and Lava Axe is a red sorcery that says "Lava Axe deals 5 damage to target player or planeswalker." Suppose a Lava Axe controlled by a player who controls <Fire Servant> would deal 5 damage to a player who has cast Mending Hands targeting themselves. The player who would be dealt damage can either (a) prevent 4 damage first and then let <Fire Servant>'s effect double the remaining 1 damage, taking 2 damage, or (b) double the damage to 10 and then prevent 4 damage, taking 6 damage.
 2010/08/15: If a red instant or sorcery spell you control divides damage among multiple recipients (such as Fireball does), the damage is divided before <Fire Servant>'s effect doubles it.
 2010/08/15: If you control more than one <Fire Servant>, the effects are cumulative. Two such effects will cause damage from red instant or sorcery spells you control to be multiplied by four; three such effects will cause damage from red instant or sorcery spells you control to be multiplied by eight.</Rulings>
 <Vintage>Legal</Vintage>
@@ -286,7 +286,7 @@ When Keldon Champion enters the battlefield, it deals 3 damage to target player.
 <Name>Chain Lightning</Name>
 <Type>Sorcery</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>Chain Lightning deals 3 damage to target creature or player. Then that player or that creature's controller may pay {R}{R}. If the player does, he or she may copy this spell and may choose a new target for that copy.</CardText>
+<CardText>Chain Lightning deals 3 damage to any target. Then that player or that permanent's controller may pay {R}{R}. If the player does, they may copy this spell and may choose a new target for that copy.</CardText>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>217977</Multiverseid>
 <Rulings>2004/10/04: The copy is a spell, so it can be targeted by other spells and abilities that target a spell.
@@ -295,7 +295,7 @@ When Keldon Champion enters the battlefield, it deals 3 damage to target player.
 2016/06/08: As <Chain Lightning> resolves, the targeted player or the controller of the targeted creature may copy it. The copy has the same text, target, and color of the resolving spell, though the player who's copying it may choose a new target for it. Once that copy is created (or not), the first <Chain Lightning> has finished resolving and leaves the stack.
 2016/06/08: The player putting the copy of the spell on the stack controls that copy.
 2016/06/08: The copy of <Chain Lightning> is created on the stack, so it's not cast. Abilities that trigger when a player casts a spell won't trigger. Players may respond to that spell before it resolves.
-2016/06/08: If the targeted creature or player is an illegal target when <Chain Lightning> tries to resolve, the spell is countered. It can't be copied.</Rulings>
+2016/06/08: If the targeted permanent or player is an illegal target when <Chain Lightning> tries to resolve, the spell doesn't resolve. It can't be copied.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Premium Deck Series: Fire and Lightning</Set>
@@ -308,7 +308,7 @@ When Keldon Champion enters the battlefield, it deals 3 damage to target player.
 <Name>Lightning Bolt</Name>
 <Type>Instant</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>Lightning Bolt deals 3 damage to target creature or player.</CardText>
+<CardText>Lightning Bolt deals 3 damage to any target.</CardText>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>234704</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -341,7 +341,7 @@ When Keldon Champion enters the battlefield, it deals 3 damage to target player.
 <Type>Instant</Type>
 <ManaCost>1R (2)</ManaCost>
 <CardText>Choose one —
-• Thunderbolt deals 3 damage to target player.
+• Thunderbolt deals 3 damage to target player or planeswalker.
 • Thunderbolt deals 4 damage to target creature with flying.</CardText>
 <Flavor>"Most wizards consider a thunderbolt to be a proper retort."
 —Ertai, wizard adept</Flavor>
@@ -385,7 +385,7 @@ When Keldon Champion enters the battlefield, it deals 3 damage to target player.
 <Name>Browbeat</Name>
 <Type>Sorcery</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>Any player may have Browbeat deal 5 damage to him or her. If no one does, target player draws three cards.</CardText>
+<CardText>Any player may have Browbeat deal 5 damage to them. If no one does, target player draws three cards.</CardText>
 <Flavor>"Even the threat of power has power."
 —Jeska, warrior adept</Flavor>
 <Artist>Mark Tedin</Artist>
@@ -403,12 +403,12 @@ When Keldon Champion enters the battlefield, it deals 3 damage to target player.
 <Name>Flames of the Blood Hand</Name>
 <Type>Instant</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>Flames of the Blood Hand deals 4 damage to target player. The damage can't be prevented. If that player would gain life this turn, that player gains no life instead.</CardText>
+<CardText>Flames of the Blood Hand deals 4 damage to target player or planeswalker. The damage can't be prevented. If that player would gain life this turn, that player gains no life instead.</CardText>
 <Flavor>Many ogres extracted blood oaths from the oni they summoned. Others simply extracted blood.</Flavor>
 <Artist>Aleksi Briclot</Artist>
 <Multiverseid>234718</Multiverseid>
 <Rulings>2005/02/01: The damage is unpreventable, and the targeted player's life gain that turn is replaced with nothing.
-2005/02/01: The replacement effect applies only to the target player, not to a creature or player the damage might be redirected to.</Rulings>
+2005/02/01: The replacement effect applies only to the target player, not to a permanent or player the damage might be redirected to.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -422,7 +422,7 @@ When Keldon Champion enters the battlefield, it deals 3 damage to target player.
 <Name>Hammer of Bogardan</Name>
 <Type>Sorcery</Type>
 <ManaCost>1RR (3)</ManaCost>
-<CardText>Hammer of Bogardan deals 3 damage to target creature or player.
+<CardText>Hammer of Bogardan deals 3 damage to any target.
 {2}{R}{R}{R}: Return Hammer of Bogardan from your graveyard to your hand. Activate this ability only during your upkeep.</CardText>
 <Artist>Ron Spencer</Artist>
 <Multiverseid>234721</Multiverseid>
@@ -472,8 +472,8 @@ When Keldon Champion enters the battlefield, it deals 3 damage to target player.
 <Name>Fireblast</Name>
 <Type>Instant</Type>
 <ManaCost>4RR (6)</ManaCost>
-<CardText>You may sacrifice two Mountains rather than pay Fireblast's mana cost.
-Fireblast deals 4 damage to target creature or player.</CardText>
+<CardText>You may sacrifice two Mountains rather than pay this spell's mana cost.
+Fireblast deals 4 damage to any target.</CardText>
 <Flavor>Embermages aren't well known for their diplomatic skills.</Flavor>
 <Artist>Michael Danza</Artist>
 <Multiverseid>234736</Multiverseid>
@@ -489,8 +489,8 @@ Fireblast deals 4 damage to target creature or player.</CardText>
 <Name>Fireball</Name>
 <Type>Sorcery</Type>
 <ManaCost>XR (1)</ManaCost>
-<CardText>Fireball deals X damage divided evenly, rounded down, among any number of target creatures and/or players.
-Fireball costs {1} more to cast for each target beyond the first.</CardText>
+<CardText>This spell costs {1} more to cast for each target beyond the first.
+Fireball deals X damage divided evenly, rounded down, among any number of targets.</CardText>
 <Artist>Dave Dorman</Artist>
 <Multiverseid>234703</Multiverseid>
 <Rulings>2017/11/17: For example, if X is 5 and you choose three target creatures, <Fireball> has a total cost of {7}{R} (even though its mana cost is just {5}{R} and its converted mana cost is 6). If those creatures are all still legal targets as <Fireball> resolves, it deals 1 damage to each of them.
@@ -509,8 +509,8 @@ Fireball costs {1} more to cast for each target beyond the first.</CardText>
 <No>28</No>
 <Name>Barbarian Ring</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {R} to your mana pool. Barbarian Ring deals 1 damage to you.
-Threshold — {R}, {T}, Sacrifice Barbarian Ring: Barbarian Ring deals 2 damage to target creature or player. Activate this ability only if seven or more cards are in your graveyard.</CardText>
+<CardText>{T}: Add {R}. Barbarian Ring deals 1 damage to you.
+Threshold — {R}, {T}, Sacrifice Barbarian Ring: It deals 2 damage to any target. Activate this ability only if seven or more cards are in your graveyard.</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>234737</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -525,11 +525,11 @@ Threshold — {R}, {T}, Sacrifice Barbarian Ring: Barbarian Ring deals 2 damage 
 <Name>Ghitu Encampment</Name>
 <Type>Land</Type>
 <CardText>Ghitu Encampment enters the battlefield tapped.
-{T}: Add {R} to your mana pool.
+{T}: Add {R}.
 {1}{R}: Ghitu Encampment becomes a 2/1 red Warrior creature with first strike until end of turn. It's still a land. (It deals combat damage before creatures without first strike.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>234698</Multiverseid>
-<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.
+<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
 2009/10/01: Activating the ability that turns it into a creature while it's already a creature will override any effects that set its power and/or toughness to a specific number. However, any effect that raises or lowers power and/or toughness (such as the effect created by Giant Growth, Glorious Anthem, or a +1/+1 counter) will continue to apply.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -545,7 +545,7 @@ Threshold — {R}, {T}, Sacrifice Barbarian Ring: Barbarian Ring deals 2 damage 
 <Type>Land</Type>
 <CardText>Teetering Peaks enters the battlefield tapped.
 When Teetering Peaks enters the battlefield, target creature gets +2/+0 until end of turn.
-{T}: Add {R} to your mana pool.</CardText>
+{T}: Add {R}.</CardText>
 <Artist>Fred Fields</Artist>
 <Multiverseid>234715</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -560,7 +560,7 @@ When Teetering Peaks enters the battlefield, target creature gets +2/+0 until en
 <No>31</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>234738</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -575,7 +575,7 @@ When Teetering Peaks enters the battlefield, target creature gets +2/+0 until en
 <No>32</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Aleksi Briclot</Artist>
 <Multiverseid>234739</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -590,7 +590,7 @@ When Teetering Peaks enters the battlefield, target creature gets +2/+0 until en
 <No>33</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Aleksi Briclot</Artist>
 <Multiverseid>234740</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -605,7 +605,7 @@ When Teetering Peaks enters the battlefield, target creature gets +2/+0 until en
 <No>34</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Richard Wright</Artist>
 <Multiverseid>234741</Multiverseid>
 <Vintage>Legal</Vintage>

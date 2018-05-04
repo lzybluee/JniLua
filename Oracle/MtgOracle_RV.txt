@@ -113,7 +113,7 @@ At the beginning of the upkeep of enchanted land's controller, Cursed Land deals
 <Name>Dark Ritual</Name>
 <Type>Instant</Type>
 <ManaCost>B (1)</ManaCost>
-<CardText>Add {B}{B}{B} to your mana pool.</CardText>
+<CardText>Add {B}{B}{B}.</CardText>
 <Artist>Sandra Everingham</Artist>
 <Multiverseid>1149</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -176,7 +176,7 @@ You own target card in the ante. Exchange that card with the top card of your li
 <Type>Sorcery</Type>
 <ManaCost>1BB (3)</ManaCost>
 <CardText>Remove Demonic Attorney from your deck before playing if you're not playing for ante.
-Each player antes the top card of his or her library.</CardText>
+Each player antes the top card of their library.</CardText>
 <Artist>Daniel Gelon</Artist>
 <Multiverseid>1153</Multiverseid>
 <Reserved>This card is on the reserved list</Reserved>
@@ -229,7 +229,7 @@ At the beginning of your upkeep, unless you pay {B}{B}{B}, tap Demonic Hordes an
 <Type>Sorcery</Type>
 <ManaCost>X1B (2)</ManaCost>
 <CardText>Spend only black mana on X.
-Drain Life deals X damage to target creature or player. You gain life equal to the damage dealt, but not more life than the player's life total before Drain Life dealt damage or the creature's toughness.</CardText>
+Drain Life deals X damage to any target. You gain life equal to the damage dealt, but not more life than the player's life total before the damage was dealt, the planeswalker's loyalty before the damage was dealt, or the creature's toughness.</CardText>
 <Artist>Douglas Shuler</Artist>
 <Multiverseid>1156</Multiverseid>
 <Rulings>2004/10/04: Cost reducers can be used to reduce the X part of the mana cost.
@@ -281,6 +281,7 @@ Drain Life deals X damage to target creature or player. You gain life equal to t
 <CardText>At the beginning of your end step, if Erg Raiders didn't attack this turn, Erg Raiders deals 2 damage to you unless it came under your control this turn.</CardText>
 <Artist>Dameon Willich</Artist>
 <Multiverseid>1159</Multiverseid>
+<Rulings>2018/03/16: A creature "comes under your control" if it enters the battlefield under your control or if you gain control of it while it's already on the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Revised Edition</Set>
@@ -297,7 +298,7 @@ Drain Life deals X damage to target creature or player. You gain life equal to t
 Enchanted land is a Swamp.</CardText>
 <Artist>Sandra Everingham</Artist>
 <Multiverseid>1160</Multiverseid>
-<Rulings>2009/10/01: The enchanted land loses its existing land types and any abilities printed on it. It now has the land type Swamp and has the ability "{T}: Add {B} to your mana pool." <Evil Presence> doesn't change the enchanted land's name or whether it's legendary, basic, or snow.</Rulings>
+<Rulings>2009/10/01: The enchanted land loses its existing land types and any abilities printed on it. It now has the land type Swamp and has the ability "{T}: Add {B}." <Evil Presence> doesn't change the enchanted land's name or whether it's legendary, basic, or snow.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -382,7 +383,8 @@ Activated abilities of white enchantments cost {3} more to activate.</CardText>
 <ManaCost>1BB (3)</ManaCost>
 <CardText>Flying
 Whenever Hypnotic Specter deals damage to an opponent, that player discards a card at random.</CardText>
-<Flavor>". . . There was no trace/ Of aught on that illumined face. . ." —Samuel Coleridge, "Phantom"</Flavor>
+<Flavor>"...There was no trace/ Of aught on that illumined face..."
+—Samuel Coleridge, "Phantom"</Flavor>
 <Artist>Douglas Shuler</Artist>
 <Multiverseid>1165</Multiverseid>
 <Rulings>2008/08/01: The ability triggers even if the Specter's damage is being redirected to an opponent. It does not trigger if damage that would have been dealt to the opponent is redirected to a nonopponent player or a creature, or if the damage is prevented.</Rulings>
@@ -479,7 +481,7 @@ At the beginning of your upkeep, if Nether Shadow is in your graveyard with thre
 <CardText>Flying (This creature can't be blocked except by creatures with flying or reach.)
 Nightmare's power and toughness are each equal to the number of Swamps you control.</CardText>
 <Flavor>The Nightmare arises from its lair in the swamps. As the poisoned land spreads, so does the Nightmare's rage and terrifying strength.</Flavor>
-<Artist>Melissa Benson</Artist>
+<Artist>Melissa A. Benson</Artist>
 <Multiverseid>1170</Multiverseid>
 <Rulings>2008/04/01: If you control 0 swamps, then the <Nightmare> has 0 toughness and will be put into its owner's graveyard as a state-based action right before the next player gains priority.
 2009/10/01: <Nightmare>'s power and toughness changes as the number of Swamps you control changes.
@@ -501,7 +503,7 @@ Nightmare's power and toughness are each equal to the number of Swamps you contr
 <CardText>Enchant creature
 When Paralyze enters the battlefield, tap enchanted creature.
 Enchanted creature doesn't untap during its controller's untap step.
-At the beginning of the upkeep of enchanted creature's controller, that player may pay {4}. If he or she does, untap the creature.</CardText>
+At the beginning of the upkeep of enchanted creature's controller, that player may pay {4}. If the player does, untap the creature.</CardText>
 <Artist>Anson Maddocks</Artist>
 <Multiverseid>1171</Multiverseid>
 <Rulings>2004/10/04: Paying the cost is optional.
@@ -562,8 +564,7 @@ Why ev'n a Rat may plague you. . ."
 <Artist>Jeff A. Menges</Artist>
 <Multiverseid>1174</Multiverseid>
 <Rulings>2004/10/04: You must show the card you bring out of the graveyard to your opponent.
-2004/10/04: The creature being brought back is chosen on announcement and not on resolution of the spell because it is targeted.
-2008/04/01: A "creature card" is any card with the type creature, even if it has other types such as artifact, enchantment, or land. Older cards of type summon are also creature cards.</Rulings>
+2004/10/04: The creature being brought back is chosen on announcement and not on resolution of the spell because it is targeted.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -582,7 +583,7 @@ Why ev'n a Rat may plague you. . ."
 <Artist>Tom Wänerstrand</Artist>
 <Multiverseid>1175</Multiverseid>
 <Rulings>2004/10/04: Can't target itself because you choose the target before you tap him. At that time he is not yet a legal target.
-2004/10/04: If the creature is no longer tapped when the Assassin's ability resolves, then the ability is countered.</Rulings>
+2004/10/04: If the creature is no longer tapped when the Assassin's ability resolves, then the ability doesn't resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -596,8 +597,8 @@ Why ev'n a Rat may plague you. . ."
 <Name>Sacrifice</Name>
 <Type>Instant</Type>
 <ManaCost>B (1)</ManaCost>
-<CardText>As an additional cost to cast Sacrifice, sacrifice a creature.
-Add an amount of {B} to your mana pool equal to the sacrificed creature's converted mana cost.</CardText>
+<CardText>As an additional cost to cast this spell, sacrifice a creature.
+Add an amount of {B} equal to the sacrificed creature's converted mana cost.</CardText>
 <Artist>Dan Frazier</Artist>
 <Multiverseid>1176</Multiverseid>
 <Rulings>2004/10/04: Sacrificing an animated land gives no mana since the converted mana cost was zero.
@@ -847,7 +848,7 @@ As long as enchanted artifact isn't a creature, it's an artifact creature with p
 <Artist>Douglas Shuler</Artist>
 <Multiverseid>1190</Multiverseid>
 <Rulings>2008/08/01: This card has been returned to its original functionality. If it is enchanting an artifact that's already a creature, it won't change its power and toughness.
-2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
+2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Revised Edition</Set>
@@ -985,10 +986,10 @@ When enchanted creature dies, Creature Bond deals damage equal to that creature'
 <Name>Drain Power</Name>
 <Type>Sorcery</Type>
 <ManaCost>UU (2)</ManaCost>
-<CardText>Target player activates a mana ability of each land he or she controls. Then put all mana from that player's mana pool into yours.</CardText>
+<CardText>Target player activates a mana ability of each land they control. Then that player loses all unspent mana and you add the mana lost this way.</CardText>
 <Artist>Douglas Shuler</Artist>
 <Multiverseid>1198</Multiverseid>
-<Rulings>2004/10/04: This card forces the target player to draw mana from lands if they are untapped, but that player can choose how to draw the mana if a land he or she controls has multiple mana abilities, or mana abilities with choices.
+<Rulings>2004/10/04: This card forces the target player to draw mana from lands if they are untapped, but that player can choose how to draw the mana if a land they control has multiple mana abilities, or mana abilities with choices.
 2004/10/04: Your opponent may use instants and abilities of permanents in response to this spell before you get the mana from their mana pool and lands.
 2004/10/04: If a land can draw a variable amount of mana, the target player (not the player of this spell) chooses how much to draw.
 2013/04/15: A mana ability is an ability that (1) isn't a loyalty ability, (2) doesn't target, and (3) could put mana into a player's mana pool when it resolves.</Rulings>
@@ -1052,7 +1053,7 @@ Enchanted creature has flying.</CardText>
 <Name>Hurkyl's Recall</Name>
 <Type>Instant</Type>
 <ManaCost>1U (2)</ManaCost>
-<CardText>Return all artifacts target player owns to his or her hand.</CardText>
+<CardText>Return all artifacts target player owns to their hand.</CardText>
 <Flavor>This spell, like many attributed to Drafna, was actually the work of his wife Hurkyl.</Flavor>
 <Artist>NéNé Thomas</Artist>
 <Multiverseid>1202</Multiverseid>
@@ -1126,7 +1127,7 @@ When you control no Islands, sacrifice Island Fish Jasconius.</CardText>
 <ManaCost>UU (2)</ManaCost>
 <CardText>Other Merfolk creatures get +1/+1 and have islandwalk. (They can't be blocked as long as defending player controls an Island.)</CardText>
 <Flavor>A master of tactics, the Lord of Atlantis makes his people bold in battle merely by arriving to lead them.</Flavor>
-<Artist>Melissa Benson</Artist>
+<Artist>Melissa A. Benson</Artist>
 <Multiverseid>1206</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1182,7 +1183,7 @@ When you control no Islands, sacrifice Island Fish Jasconius.</CardText>
 <Name>Mana Short</Name>
 <Type>Instant</Type>
 <ManaCost>2U (3)</ManaCost>
-<CardText>Tap all lands target player controls and empty his or her mana pool.</CardText>
+<CardText>Tap all lands target player controls and that player loses all unspent mana.</CardText>
 <Artist>Dameon Willich</Artist>
 <Multiverseid>1209</Multiverseid>
 <Rulings>2004/10/04: Since this is an instant, your opponent may use instants in response to the casting of this spell. Note that such spells and abilities will be resolved before the mana pool is emptied by the <Mana Short>. This makes it useless as a countermeasure for spells. To use it effectively, you need to use it during Upkeep and even then it will not prevent the use of instant spells and abilities.
@@ -1272,7 +1273,7 @@ And laugh—but smile no more."
 <Type>Creature — Human Pirate 4/3</Type>
 <ManaCost>4U (5)</ManaCost>
 <CardText>Pirate Ship can't attack unless defending player controls an Island.
-{T}: Pirate Ship deals 1 damage to target creature or player.
+{T}: Pirate Ship deals 1 damage to any target.
 When you control no Islands, sacrifice Pirate Ship.</CardText>
 <Artist>Tom Wänerstrand</Artist>
 <Multiverseid>1214</Multiverseid>
@@ -1305,7 +1306,7 @@ At the beginning of the upkeep of enchanted enchantment's controller, that playe
 <Name>Power Sink</Name>
 <Type>Instant</Type>
 <ManaCost>XU (1)</ManaCost>
-<CardText>Counter target spell unless its controller pays {X}. If he or she doesn't, that player taps all lands with mana abilities he or she controls and empties his or her mana pool.</CardText>
+<CardText>Counter target spell unless its controller pays {X}. If that player doesn't, they tap all lands with mana abilities they control and lose all unspent mana.</CardText>
 <Artist>Richard Thomas</Artist>
 <Multiverseid>1216</Multiverseid>
 <Rulings>2004/10/04: Does not increase the mana cost of the spell. It just requires a separate expenditure in order for it to succeed.
@@ -1323,7 +1324,7 @@ At the beginning of the upkeep of enchanted enchantment's controller, that playe
 <Name>Prodigal Sorcerer</Name>
 <Type>Creature — Human Wizard 1/1</Type>
 <ManaCost>2U (3)</ManaCost>
-<CardText>{T}: Prodigal Sorcerer deals 1 damage to target creature or player.</CardText>
+<CardText>{T}: Prodigal Sorcerer deals 1 damage to any target.</CardText>
 <Flavor>Occasionally a member of the Institute of Arcane Study acquires a taste for worldly pleasures. Seldom do they have trouble finding employment.</Flavor>
 <Artist>Douglas Shuler</Artist>
 <Multiverseid>1217</Multiverseid>
@@ -1406,7 +1407,7 @@ At the beginning of your upkeep, Serendib Efreet deals 1 damage to you.</CardTex
 <Name>Siren's Call</Name>
 <Type>Instant</Type>
 <ManaCost>U (1)</ManaCost>
-<CardText>Cast Siren's Call only during an opponent's turn, before attackers are declared.
+<CardText>Cast this spell only during an opponent's turn, before attackers are declared.
 Creatures the active player controls attack this turn if able.
 At the beginning of the next end step, destroy all non-Wall creatures that player controls that didn't attack this turn. Ignore this effect for each creature the player didn't control continuously since the beginning of the turn.</CardText>
 <Artist>Anson Maddocks</Artist>
@@ -1667,7 +1668,7 @@ Enchanted creature gets +X/+Y, where X is half the number of Forests you control
 <Type>Creature — Bird 0/1</Type>
 <ManaCost>G (1)</ManaCost>
 <CardText>Flying
-{T}: Add one mana of any color to your mana pool.</CardText>
+{T}: Add one mana of any color.</CardText>
 <Artist>Mark Poole</Artist>
 <Multiverseid>1236</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1683,7 +1684,7 @@ Enchanted creature gets +X/+Y, where X is half the number of Forests you control
 <Name>Channel</Name>
 <Type>Sorcery</Type>
 <ManaCost>GG (2)</ManaCost>
-<CardText>Until end of turn, any time you could activate a mana ability, you may pay 1 life. If you do, add {C} to your mana pool.</CardText>
+<CardText>Until end of turn, any time you could activate a mana ability, you may pay 1 life. If you do, add {C}.</CardText>
 <Artist>Richard Thomas</Artist>
 <Multiverseid>1237</Multiverseid>
 <Rulings>2017/11/17: Once your life total is 0, you can't pay any more life, even if you've somehow not lost the game yet.</Rulings>
@@ -1816,7 +1817,7 @@ Whenever you play a land, if it wasn't the first land you played this turn, Fast
 <Name>Force of Nature</Name>
 <Type>Creature — Elemental 8/8</Type>
 <ManaCost>2GGGG (6)</ManaCost>
-<CardText>Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)
+<CardText>Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)
 At the beginning of your upkeep, Force of Nature deals 8 damage to you unless you pay {G}{G}{G}{G}.</CardText>
 <Artist>Douglas Shuler</Artist>
 <Multiverseid>1245</Multiverseid>
@@ -1856,7 +1857,7 @@ At the beginning of your upkeep, Force of Nature deals 8 damage to you unless yo
 <Artist>Dameon Willich</Artist>
 <Multiverseid>1247</Multiverseid>
 <Rulings>2004/10/04: When being declared as an attacker, use the "not attacking" power and toughness. It only changes after declaration is complete.
-2006/09/25: The activated ability doesn't affect whether the land is basic or not. It overwrites any other land types. Being a Forest gives the affected land the ability "{T}: Add {G} to your mana pool."
+2006/09/25: The activated ability doesn't affect whether the land is basic or not. It overwrites any other land types. Being a Forest gives the affected land the ability "{T}: Add {G}."
 2006/10/15: Will not add or remove Snow Supertype to or from a land.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1974,7 +1975,7 @@ Enchanted creature can attack as though it had haste.
 <Type>Enchantment — Aura</Type>
 <ManaCost>1GG (3)</ManaCost>
 <CardText>Enchant land
-When enchanted land becomes tapped, destroy it. That land's controller attaches Kudzu to a land of his or her choice.</CardText>
+When enchanted land becomes tapped, destroy it. That land's controller attaches Kudzu to a land of their choice.</CardText>
 <Artist>Mark Poole</Artist>
 <Multiverseid>1254</Multiverseid>
 <Rulings>2004/10/04: You can move it to any other player's land whenever you get to move it.
@@ -2064,7 +2065,7 @@ At the beginning of your upkeep, you may remove a vitality counter from Living A
 <CardText>All Forests are 1/1 creatures that are still lands.</CardText>
 <Artist>Jesper Myrfors</Artist>
 <Multiverseid>1259</Multiverseid>
-<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
+<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Revised Edition</Set>
@@ -2077,7 +2078,7 @@ At the beginning of your upkeep, you may remove a vitality counter from Living A
 <Name>Llanowar Elves</Name>
 <Type>Creature — Elf Druid 1/1</Type>
 <ManaCost>G (1)</ManaCost>
-<CardText>{T}: Add {G} to your mana pool.</CardText>
+<CardText>{T}: Add {G}.</CardText>
 <Flavor>Whenever the Llanowar Elves gather the fruits of their forest, they leave one plant of each type untouched, considering that nature's portion.</Flavor>
 <Artist>Anson Maddocks</Artist>
 <Multiverseid>1260</Multiverseid>
@@ -2213,7 +2214,7 @@ All creatures able to block enchanted creature do so.</CardText>
 <ManaCost>G (1)</ManaCost>
 <CardText>Banding (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)</CardText>
 <Flavor>Though many think of Wolves as solitary predators, they are actually extremely social animals. During a hunt they often call to each other, which can be quite unsettling for their prey.</Flavor>
-<Artist>Melissa Benson</Artist>
+<Artist>Melissa A. Benson</Artist>
 <Multiverseid>1268</Multiverseid>
 <Rulings>2008/10/01: If a creature with banding attacks, it can team up with any number of other attacking creatures with banding (and up to one nonbanding creature) and attack as a unit called a "band." The band can be blocked by any creature that could block a single creature in the band. Blocking any creature in a band blocks the entire band. If a creature with banding is blocked, the attacking player chooses how the blockers' damage is assigned.
 2008/10/01: A maximum of one nonbanding creature can join an attacking band no matter how many creatures with banding are in it.
@@ -2234,7 +2235,7 @@ All creatures able to block enchanted creature do so.</CardText>
 <CardText>Each noncreature artifact loses all abilities and becomes an artifact creature with power and toughness each equal to its converted mana cost. If Titania's Song leaves the battlefield, this effect continues until end of turn.</CardText>
 <Artist>Kerstin Kaman</Artist>
 <Multiverseid>1269</Multiverseid>
-<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
+<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Revised Edition</Set>
@@ -2399,7 +2400,7 @@ Enchanted creature gets +0/+2 and has reach. (It can block creatures with flying
 <Type>Enchantment — Aura</Type>
 <ManaCost>G (1)</ManaCost>
 <CardText>Enchant land
-Whenever enchanted land is tapped for mana, its controller adds {G} to his or her mana pool (in addition to the mana the land produces).</CardText>
+Whenever enchanted land is tapped for mana, its controller adds an additional {G}.</CardText>
 <Artist>Mark Poole</Artist>
 <Multiverseid>1279</Multiverseid>
 <Rulings>2004/10/04: The additional mana is not an ability of the land and is not something the land can produce.</Rulings>
@@ -2463,7 +2464,7 @@ Enchanted creature has mountainwalk. (It can't be blocked as long as defending p
 <Name>Disintegrate</Name>
 <Type>Sorcery</Type>
 <ManaCost>XR (1)</ManaCost>
-<CardText>Disintegrate deals X damage to target creature or player. That creature can't be regenerated this turn. If the creature would die this turn, exile it instead.</CardText>
+<CardText>Disintegrate deals X damage to any target. If it's a creature, it can't be regenerated this turn, and if it would die this turn, exile it instead.</CardText>
 <Artist>Anson Maddocks</Artist>
 <Multiverseid>1283</Multiverseid>
 <Rulings>2004/10/04: The "can't regenerate" is an effect of <Disintegrate> and not an effect of the damage. It works even if the damage is prevented or redirected. If redirected, the damage does not take this effect with it.
@@ -2587,7 +2588,7 @@ When Earthbind enters the battlefield, if enchanted creature has flying, Earthbi
 <Type>Creature — Elemental 5/4</Type>
 <ManaCost>3RR (5)</ManaCost>
 <Flavor>Fire Elementals are ruthless infernos, annihilating and consuming their foes in a frenzied holocaust. Crackling and blazing, they sear swift, terrible paths, leaving the land charred and scorched in their wake.</Flavor>
-<Artist>Melissa Benson</Artist>
+<Artist>Melissa A. Benson</Artist>
 <Multiverseid>1290</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2602,8 +2603,8 @@ When Earthbind enters the battlefield, if enchanted creature has flying, Earthbi
 <Name>Fireball</Name>
 <Type>Sorcery</Type>
 <ManaCost>XR (1)</ManaCost>
-<CardText>Fireball deals X damage divided evenly, rounded down, among any number of target creatures and/or players.
-Fireball costs {1} more to cast for each target beyond the first.</CardText>
+<CardText>This spell costs {1} more to cast for each target beyond the first.
+Fireball deals X damage divided evenly, rounded down, among any number of targets.</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>1291</Multiverseid>
 <Rulings>2017/11/17: For example, if X is 5 and you choose three target creatures, <Fireball> has a total cost of {7}{R} (even though its mana cost is just {5}{R} and its converted mana cost is 6). If those creatures are all still legal targets as <Fireball> resolves, it deals 1 damage to each of them.
@@ -2826,7 +2827,7 @@ A looming bastion fringed with fire."
 <Name>Lightning Bolt</Name>
 <Type>Instant</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>Lightning Bolt deals 3 damage to target creature or player.</CardText>
+<CardText>Lightning Bolt deals 3 damage to any target.</CardText>
 <Artist>Christopher Rush</Artist>
 <Multiverseid>1303</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2843,7 +2844,7 @@ A looming bastion fringed with fire."
 <Type>Enchantment</Type>
 <ManaCost>1RR (3)</ManaCost>
 <CardText>Blue creatures don't untap during their controllers' untap steps.
-At the beginning of each player's upkeep, that player may choose any number of tapped blue creatures he or she controls and pay {4} for each creature chosen this way. If the player does, untap those creatures.</CardText>
+At the beginning of each player's upkeep, that player may choose any number of tapped blue creatures they control and pay {4} for each creature chosen this way. If the player does, untap those creatures.</CardText>
 <Artist>Susan Van Camp</Artist>
 <Multiverseid>1304</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2858,7 +2859,7 @@ At the beginning of each player's upkeep, that player may choose any number of t
 <Name>Mana Flare</Name>
 <Type>Enchantment</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>Whenever a player taps a land for mana, that player adds one mana to his or her mana pool of any type that land produced.</CardText>
+<CardText>Whenever a player taps a land for mana, that player adds one mana of any type that land produced.</CardText>
 <Artist>Christopher Rush</Artist>
 <Multiverseid>1305</Multiverseid>
 <Rulings>2004/10/04: If the land produces more than one color of mana at a single time, its controller chooses which of those types is produced by <Mana Flare>'s ability.
@@ -2935,11 +2936,11 @@ At the beginning of each player's upkeep, that player may choose any number of t
 <Name>Orcish Artillery</Name>
 <Type>Creature — Orc Warrior 1/3</Type>
 <ManaCost>1RR (3)</ManaCost>
-<CardText>{T}: Orcish Artillery deals 2 damage to target creature or player and 3 damage to you.</CardText>
+<CardText>{T}: Orcish Artillery deals 2 damage to any target and 3 damage to you.</CardText>
 <Flavor>In a rare display of ingenuity, the Orcs invented an incredibly destructive weapon. Most Orcish artillerists are those who dared criticize its effectiveness.</Flavor>
 <Artist>Anson Maddocks</Artist>
 <Multiverseid>1309</Multiverseid>
-<Rulings>2004/10/04: You do not take the 3 points of damage if the ability is countered because the target is illegal.</Rulings>
+<Rulings>2004/10/04: You do not take the 3 points of damage if the ability doesn't resolve because the target is illegal.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2968,7 +2969,7 @@ At the beginning of each player's upkeep, that player may choose any number of t
 <Name>Power Surge</Name>
 <Type>Enchantment</Type>
 <ManaCost>RR (2)</ManaCost>
-<CardText>At the beginning of each player's upkeep, Power Surge deals X damage to that player, where X is the number of untapped lands he or she controlled at the beginning of this turn.</CardText>
+<CardText>At the beginning of each player's upkeep, Power Surge deals X damage to that player, where X is the number of untapped lands they controlled at the beginning of this turn.</CardText>
 <Artist>Douglas Shuler</Artist>
 <Multiverseid>1311</Multiverseid>
 <Rulings>2004/10/04: This card knows how many were untapped even if it was not on the battlefield at the beginning of the turn.</Rulings>
@@ -3096,7 +3097,7 @@ For each 1 damage that would be dealt to Rock Hydra, if it has a +1/+1 counter o
 <CardText>Flying (This creature can't be blocked except by creatures with flying or reach.)
 {R}: Shivan Dragon gets +1/+0 until end of turn.</CardText>
 <Flavor>While it's true most Dragons are cruel, the Shivan Dragon seems to take particular glee in the misery of others, often tormenting its victims much like a cat plays with a mouse before delivering the final blow.</Flavor>
-<Artist>Melissa Benson</Artist>
+<Artist>Melissa A. Benson</Artist>
 <Multiverseid>1318</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3235,7 +3236,7 @@ hurt'll disappear."
 <Name>Wheel of Fortune</Name>
 <Type>Sorcery</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>Each player discards his or her hand, then draws seven cards.</CardText>
+<CardText>Each player discards their hand, then draws seven cards.</CardText>
 <Artist>Daniel Gelon</Artist>
 <Multiverseid>1326</Multiverseid>
 <Reserved>This card is on the reserved list</Reserved>
@@ -3283,7 +3284,7 @@ Enchanted Wall can attack as though it didn't have defender.</CardText>
 <Name>Balance</Name>
 <Type>Sorcery</Type>
 <ManaCost>1W (2)</ManaCost>
-<CardText>Each player chooses a number of lands he or she controls equal to the number of lands controlled by the player who controls the fewest, then sacrifices the rest. Players discard cards and sacrifice creatures the same way.</CardText>
+<CardText>Each player chooses a number of lands they control equal to the number of lands controlled by the player who controls the fewest, then sacrifices the rest. Players discard cards and sacrifice creatures the same way.</CardText>
 <Artist>Mark Poole</Artist>
 <Multiverseid>1329</Multiverseid>
 <Rulings>2016/06/08: First the player whose turn it is chooses which lands (if any) to keep, then each other player in turn order does the same. Each player will know the choices made by the players who chose before them. All of the unchosen lands are then sacrificed simultaneously. Then the process is repeated for cards in hand, except that no cards are revealed until all players have chosen what to discard, at which point those cards are all discarded simultaneously. Lastly, the process is repeated for creatures, and players will again know earlier choices made when deciding what to sacrifice. All of the unchosen creatures are then sacrificed simultaneously.
@@ -3590,7 +3591,7 @@ Enchanted creature has protection from green. This effect doesn't remove Green W
 <Name>Guardian Angel</Name>
 <Type>Instant</Type>
 <ManaCost>XW (1)</ManaCost>
-<CardText>Prevent the next X damage that would be dealt to target creature or player this turn. Until end of turn, you may pay {1} any time you could cast an instant. If you do, prevent the next 1 damage that would be dealt to that creature or player this turn.</CardText>
+<CardText>Prevent the next X damage that would be dealt to any target this turn. Until end of turn, you may pay {1} any time you could cast an instant. If you do, prevent the next 1 damage that would be dealt to that permanent or player this turn.</CardText>
 <Artist>Anson Maddocks</Artist>
 <Multiverseid>1347</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -3607,7 +3608,7 @@ Enchanted creature has protection from green. This effect doesn't remove Green W
 <ManaCost>W (1)</ManaCost>
 <CardText>Choose one —
 • Target player gains 3 life.
-• Prevent the next 3 damage that would be dealt to target creature or player this turn.</CardText>
+• Prevent the next 3 damage that would be dealt to any target this turn.</CardText>
 <Artist>Dan Frazier</Artist>
 <Multiverseid>1348</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -3626,7 +3627,7 @@ Enchanted creature has protection from green. This effect doesn't remove Green W
 <CardText>Enchant creature
 Enchanted creature gets +0/+2.
 {W}: Enchanted creature gets +0/+1 until end of turn.</CardText>
-<Artist>Melissa Benson</Artist>
+<Artist>Melissa A. Benson</Artist>
 <Multiverseid>1349</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3675,7 +3676,7 @@ Enchanted creature gets +1/+2.</CardText>
 <Name>Karma</Name>
 <Type>Enchantment</Type>
 <ManaCost>2WW (4)</ManaCost>
-<CardText>At the beginning of each player's upkeep, Karma deals damage to that player equal to the number of Swamps he or she controls.</CardText>
+<CardText>At the beginning of each player's upkeep, Karma deals damage to that player equal to the number of Swamps they control.</CardText>
 <Artist>Richard Thomas</Artist>
 <Multiverseid>1352</Multiverseid>
 <Rulings>2004/10/04: Amount of damage is determined when the ability resolves and not when it is placed on the stack.</Rulings>
@@ -3710,7 +3711,7 @@ Enchanted creature has first strike.</CardText>
 <ManaCost>1W (2)</ManaCost>
 <CardText>Flying; banding (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)</CardText>
 <Flavor>Before a woman marries in the village of Sursi, she must visit the land of the Mesa Pegasus. Legend has it that if the woman is pure of heart and her love is true, a Mesa Pegasus will appear, blessing her family with long life and good fortune.</Flavor>
-<Artist>Melissa Benson</Artist>
+<Artist>Melissa A. Benson</Artist>
 <Multiverseid>1354</Multiverseid>
 <Rulings>2008/10/01: If a creature with banding attacks, it can team up with any number of other attacking creatures with banding (and up to one nonbanding creature) and attack as a unit called a "band." The band can be blocked by any creature that could block a single creature in the band. Blocking any creature in a band blocks the entire band. If a creature with banding is blocked, the attacking player chooses how the blockers' damage is assigned.
 2008/10/01: A maximum of one nonbanding creature can join an attacking band no matter how many creatures with banding are in it.
@@ -3761,7 +3762,7 @@ Enchanted creature has first strike.</CardText>
 <Type>Creature — Avatar Incarnation 6/6</Type>
 <ManaCost>3WWW (6)</ManaCost>
 <CardText>{0}: The next 1 damage that would be dealt to Personal Incarnation this turn is dealt to its owner instead. Only Personal Incarnation's owner may activate this ability.
-When Personal Incarnation dies, its owner loses half his or her life, rounded up.</CardText>
+When Personal Incarnation dies, its owner loses half their life, rounded up.</CardText>
 <Artist>Kev Brockschmidt</Artist>
 <Multiverseid>1357</Multiverseid>
 <Rulings>2004/10/04: You do not lose life if this card is exiled or sent someplace without going to the graveyard first.
@@ -3875,7 +3876,7 @@ Enchanted creature has protection from red. This effect doesn't remove Red Ward.
 <Name>Samite Healer</Name>
 <Type>Creature — Human Cleric 1/1</Type>
 <ManaCost>1W (2)</ManaCost>
-<CardText>{T}: Prevent the next 1 damage that would be dealt to target creature or player this turn.</CardText>
+<CardText>{T}: Prevent the next 1 damage that would be dealt to any target this turn.</CardText>
 <Flavor>Healers ultimately acquire the divine gifts of spiritual and physical wholeness. The most devout are also granted the ability to pass physical wholeness on to others.</Flavor>
 <Artist>Tom Wänerstrand</Artist>
 <Multiverseid>1364</Multiverseid>
@@ -3908,8 +3909,7 @@ Enchanted creature has protection from red. This effect doesn't remove Red Ward.
 <Name>Serra Angel</Name>
 <Type>Creature — Angel 4/4</Type>
 <ManaCost>3WW (5)</ManaCost>
-<CardText>Flying (This creature can't be blocked except by creatures with flying or reach.)
-Vigilance (Attacking doesn't cause this creature to tap.)</CardText>
+<CardText>Flying, vigilance</CardText>
 <Flavor>Born with wings of light and a sword of faith, this heavenly incarnation embodies both fury and purity.</Flavor>
 <Artist>Douglas Shuler</Artist>
 <Multiverseid>1366</Multiverseid>
@@ -3929,8 +3929,8 @@ Vigilance (Attacking doesn't cause this creature to tap.)</CardText>
 <CardText>Exile target creature. Its controller gains life equal to its power.</CardText>
 <Artist>Jeff A. Menges</Artist>
 <Multiverseid>1367</Multiverseid>
-<Rulings>2017/11/17: The amount of life gained is equal to the power of the target creature as it last existed on the battlefield.
-2017/11/17: If the creature's power is negative, its controller doesn't lose or gain life.</Rulings>
+<Rulings>2018/03/16: The amount of life gained is equal to the power of the targeted creature as it last existed on the battlefield.
+2018/03/16: If the creature's power is negative, its controller doesn't lose or gain life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Revised Edition</Set>
@@ -4047,7 +4047,7 @@ Enchanted creature has protection from white. This effect doesn't remove White W
 <Name>Aladdin's Ring</Name>
 <Type>Artifact</Type>
 <ManaCost>8 (8)</ManaCost>
-<CardText>{8}, {T}: Aladdin's Ring deals 4 damage to target creature or player.</CardText>
+<CardText>{8}, {T}: Aladdin's Ring deals 4 damage to any target.</CardText>
 <Flavor>"After these words the magician drew a ring off his finger, and put it on one of Aladdin's, saying: 'It is a talisman against all evil, so long as you obey me.'" —The Arabian Nights, Junior Classics trans.</Flavor>
 <Artist>Dan Frazier</Artist>
 <Multiverseid>1093</Multiverseid>
@@ -4100,7 +4100,7 @@ At the beginning of your draw step, Armageddon Clock deals damage equal to the n
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
 <CardText>Basalt Monolith doesn't untap during your untap step.
-{T}: Add {C}{C}{C} to your mana pool.
+{T}: Add {C}{C}{C}.
 {3}: Untap Basalt Monolith.</CardText>
 <Artist>Jesper Myrfors</Artist>
 <Multiverseid>1096</Multiverseid>
@@ -4118,11 +4118,11 @@ At the beginning of your draw step, Armageddon Clock deals damage equal to the n
 <Type>Artifact</Type>
 <ManaCost>1 (1)</ManaCost>
 <CardText>As Black Vise enters the battlefield, choose an opponent.
-At the beginning of the chosen player's upkeep, Black Vise deals X damage to that player, where X is the number of cards in his or her hand minus 4.</CardText>
+At the beginning of the chosen player's upkeep, Black Vise deals X damage to that player, where X is the number of cards in their hand minus 4.</CardText>
 <Artist>Richard Thomas</Artist>
 <Multiverseid>1097</Multiverseid>
 <Rulings>2004/10/04: You choose one opposing player as it enters the battlefield and it only affects that one player. This choice is not changed even if <Black Vise> changes controllers. It becomes useless but stays on the battlefield if that player leaves the game.
-2009/10/01: If the chosen player has four or fewer cards in his or her hand as <Black Vise>'s ability resolves, the ability just won't do anything that turn.</Rulings>
+2009/10/01: If the chosen player has four or fewer cards in their hand as <Black Vise>'s ability resolves, the ability just won't do anything that turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Revised Edition</Set>
@@ -4168,7 +4168,7 @@ At the beginning of your upkeep, you may pay {1}. If you do, untap Brass Man.</C
 <Name>Celestial Prism</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{2}, {T}: Add one mana of any color to your mana pool.</CardText>
+<CardText>{2}, {T}: Add one mana of any color.</CardText>
 <Artist>Amy Weber</Artist>
 <Multiverseid>1100</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4505,7 +4505,7 @@ Juggernaut can't be blocked by Walls.</CardText>
 <Flavor>We had taken refuge in a small cave, thinking the entrance was too narrow for it to follow. To our horror, its gigantic head smashed into the mountainside, ripping itself a new entrance.</Flavor>
 <Artist>Dan Frazier</Artist>
 <Multiverseid>1120</Multiverseid>
-<Rulings>2016/06/08: If, during your declare attackers step, <Juggernaut> is tapped, is affected by a spell or ability that says it can't attack, or you haven't controlled it continuously since the beginning of your turn, then it doesn't attack. If there's a cost associated with having <Juggernaut> attack, you aren't forced to pay that cost, so it doesn't have to attack in that case either.</Rulings>
+<Rulings>2018/04/27: If <Juggernaut> can't attack for any reason (such as being tapped or having come under that player's control that turn), then it doesn't attack. If there's a cost associated with having it attack, its controller isn't forced to pay that cost, so it doesn't have to attack in that case either.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4524,7 +4524,7 @@ Juggernaut can't be blocked by Walls.</CardText>
 <Multiverseid>1121</Multiverseid>
 <Rulings>2004/10/04: The lands are both lands and creatures at the same time. They are affected by anything that affects either permanent type.
 2004/10/04: It affects Swamps controlled by any and all players.
-2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
+2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Revised Edition</Set>
@@ -4582,7 +4582,7 @@ If an effect causes you to discard a card, discard it, but you may put it on top
 <CardText>Mana Vault doesn't untap during your untap step.
 At the beginning of your upkeep, you may pay {4}. If you do, untap Mana Vault.
 At the beginning of your draw step, if Mana Vault is tapped, it deals 1 damage to you.
-{T}: Add {C}{C}{C} to your mana pool.</CardText>
+{T}: Add {C}{C}{C}.</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>1124</Multiverseid>
 <Vintage>Restricted</Vintage>
@@ -4612,7 +4612,7 @@ At the beginning of your draw step, if Mana Vault is tapped, it deals 1 damage t
 <Name>Millstone</Name>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{2}, {T}: Target player puts the top two cards of his or her library into his or her graveyard.</CardText>
+<CardText>{2}, {T}: Target player puts the top two cards of their library into their graveyard.</CardText>
 <Flavor>More than one mage was driven insane by the sound of the Millstone relentlessly grinding away.</Flavor>
 <Artist>Kaja Foglio</Artist>
 <Multiverseid>1126</Multiverseid>
@@ -4670,7 +4670,7 @@ At the beginning of your upkeep, Mishra's War Machine deals 3 damage to you unle
 <Name>Obsianus Golem</Name>
 <Type>Artifact Creature — Golem 4/6</Type>
 <ManaCost>6 (6)</ManaCost>
-<Flavor>"The foot stone is connected to the ankle stone, the ankle stone is connected to the leg stone. . ."
+<Flavor>"The foot stone is connected to the ankle stone, the ankle stone is connected to the leg stone..."
 —Song of the Artificer</Flavor>
 <Artist>Jesper Myrfors</Artist>
 <Multiverseid>1129</Multiverseid>
@@ -4688,7 +4688,7 @@ At the beginning of your upkeep, Mishra's War Machine deals 3 damage to you unle
 <ManaCost>3 (3)</ManaCost>
 <CardText>When Onulet dies, you gain 2 life.</CardText>
 <Flavor>An early inspiration for Urza, Tocasia's Onulets contained magical essences that could be cannibalized after they stopped functioning.</Flavor>
-<Artist>Kerstin Kaman</Artist>
+<Artist>Anson Maddocks</Artist>
 <Multiverseid>1130</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -4722,9 +4722,9 @@ At the beginning of your upkeep, Mishra's War Machine deals 3 damage to you unle
 <CardText>As Primal Clay enters the battlefield, it becomes your choice of a 3/3 artifact creature, a 2/2 artifact creature with flying, or a 1/6 Wall artifact creature with defender in addition to its other types. (A creature with defender can't attack.)</CardText>
 <Artist>Kaja Foglio</Artist>
 <Multiverseid>1132</Multiverseid>
-<Rulings>2012/07/01: In zones other than the battlefield, <Primal Clay> is 0/0.
-2012/07/01: If another permanent enters the battlefield as a copy of <Primal Clay>, the controller of that permanent will get to make a new choice. The copy won't necessarily have the same power, toughness, and abilities as the original.
-2012/07/01: If a creature that's already on the battlefield becomes a copy of <Primal Clay>, it copies the power, toughness, and abilities that were chosen for <Primal Clay> when it entered the battlefield.</Rulings>
+<Rulings>2018/03/16: In zones other than the battlefield, this creature card is 0/0.
+2018/03/16: If another permanent enters the battlefield as a copy of this creature, the controller of that permanent will get to make a new choice. The copy won't necessarily have the same power, toughness, and abilities as the original.
+2018/03/16: If a creature that's already on the battlefield becomes a copy of this creature, it copies the power, toughness, and abilities that were chosen for this creature as it entered the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4738,7 +4738,7 @@ At the beginning of your upkeep, Mishra's War Machine deals 3 damage to you unle
 <Name>Rocket Launcher</Name>
 <Type>Artifact</Type>
 <ManaCost>4 (4)</ManaCost>
-<CardText>{2}: Rocket Launcher deals 1 damage to target creature or player. Destroy Rocket Launcher at the beginning of the next end step. Activate this ability only if you've controlled Rocket Launcher continuously since the beginning of your most recent turn.</CardText>
+<CardText>{2}: Rocket Launcher deals 1 damage to any target. Destroy Rocket Launcher at the beginning of the next end step. Activate this ability only if you've controlled Rocket Launcher continuously since the beginning of your most recent turn.</CardText>
 <Flavor>What these devices lacked in subtlety, they made up in strength.</Flavor>
 <Artist>Pete Venters</Artist>
 <Multiverseid>1133</Multiverseid>
@@ -4757,7 +4757,7 @@ At the beginning of your upkeep, Mishra's War Machine deals 3 damage to you unle
 <Name>Rod of Ruin</Name>
 <Type>Artifact</Type>
 <ManaCost>4 (4)</ManaCost>
-<CardText>{3}, {T}: Rod of Ruin deals 1 damage to target creature or player.</CardText>
+<CardText>{3}, {T}: Rod of Ruin deals 1 damage to any target.</CardText>
 <Artist>Christopher Rush</Artist>
 <Multiverseid>1134</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4773,7 +4773,7 @@ At the beginning of your upkeep, Mishra's War Machine deals 3 damage to you unle
 <Name>Sol Ring</Name>
 <Type>Artifact</Type>
 <ManaCost>1 (1)</ManaCost>
-<CardText>{T}: Add {C}{C} to your mana pool.</CardText>
+<CardText>{T}: Add {C}{C}.</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>1135</Multiverseid>
 <Vintage>Restricted</Vintage>
@@ -4836,7 +4836,7 @@ At the beginning of your upkeep, Mishra's War Machine deals 3 damage to you unle
 <Type>Artifact</Type>
 <ManaCost>1 (1)</ManaCost>
 <CardText>As The Rack enters the battlefield, choose an opponent.
-At the beginning of the chosen player's upkeep, The Rack deals X damage to that player, where X is 3 minus the number of cards in his or her hand.</CardText>
+At the beginning of the chosen player's upkeep, The Rack deals X damage to that player, where X is 3 minus the number of cards in their hand.</CardText>
 <Flavor>Invented in Mishra's earlier days, the Rack was once his most feared creation.</Flavor>
 <Artist>Richard Thomas</Artist>
 <Multiverseid>1139</Multiverseid>
@@ -4902,7 +4902,7 @@ At the beginning of the chosen player's upkeep, The Rack deals X damage to that 
 <No>282</No>
 <Name>Badlands</Name>
 <Type>Land — Swamp Mountain</Type>
-<CardText>({T}: Add {B} or {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {B} or {R}.)</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>1376</Multiverseid>
 <Rulings>2004/10/04: Land type changing effects that change a dual land's land type will remove the old land types completely. Text-changing effects that just change one of the two land types will leave the other type unaffected.
@@ -4921,7 +4921,7 @@ At the beginning of the chosen player's upkeep, The Rack deals X damage to that 
 <No>283</No>
 <Name>Bayou</Name>
 <Type>Land — Swamp Forest</Type>
-<CardText>({T}: Add {B} or {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {B} or {G}.)</CardText>
 <Artist>Jesper Myrfors</Artist>
 <Multiverseid>1377</Multiverseid>
 <Rulings>2008/10/01: This has the mana abilities associated with both of its basic land types.
@@ -4938,7 +4938,7 @@ At the beginning of the chosen player's upkeep, The Rack deals X damage to that 
 <No>284</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Christopher Rush</Artist>
 <Multiverseid>1386</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4953,7 +4953,7 @@ At the beginning of the chosen player's upkeep, The Rack deals X damage to that 
 <No>285</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Christopher Rush</Artist>
 <Multiverseid>1387</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4968,7 +4968,7 @@ At the beginning of the chosen player's upkeep, The Rack deals X damage to that 
 <No>286</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Christopher Rush</Artist>
 <Multiverseid>1388</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4983,7 +4983,7 @@ At the beginning of the chosen player's upkeep, The Rack deals X damage to that 
 <No>287</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Mark Poole</Artist>
 <Multiverseid>1392</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4998,7 +4998,7 @@ At the beginning of the chosen player's upkeep, The Rack deals X damage to that 
 <No>288</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Mark Poole</Artist>
 <Multiverseid>1393</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5013,7 +5013,7 @@ At the beginning of the chosen player's upkeep, The Rack deals X damage to that 
 <No>289</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Mark Poole</Artist>
 <Multiverseid>1394</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5028,7 +5028,7 @@ At the beginning of the chosen player's upkeep, The Rack deals X damage to that 
 <No>290</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Douglas Shuler</Artist>
 <Multiverseid>1389</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5043,7 +5043,7 @@ At the beginning of the chosen player's upkeep, The Rack deals X damage to that 
 <No>291</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Douglas Shuler</Artist>
 <Multiverseid>1390</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5058,7 +5058,7 @@ At the beginning of the chosen player's upkeep, The Rack deals X damage to that 
 <No>292</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Douglas Shuler</Artist>
 <Multiverseid>1391</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5073,7 +5073,7 @@ At the beginning of the chosen player's upkeep, The Rack deals X damage to that 
 <No>293</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Jesper Myrfors</Artist>
 <Multiverseid>1396</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5088,7 +5088,7 @@ At the beginning of the chosen player's upkeep, The Rack deals X damage to that 
 <No>294</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Jesper Myrfors</Artist>
 <Multiverseid>1395</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5103,7 +5103,7 @@ At the beginning of the chosen player's upkeep, The Rack deals X damage to that 
 <No>295</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Jesper Myrfors</Artist>
 <Multiverseid>1397</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5118,7 +5118,7 @@ At the beginning of the chosen player's upkeep, The Rack deals X damage to that 
 <No>296</No>
 <Name>Plateau</Name>
 <Type>Land — Mountain Plains</Type>
-<CardText>({T}: Add {R} or {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {R} or {W}.)</CardText>
 <Artist>Cornelius Brudi</Artist>
 <Multiverseid>1378</Multiverseid>
 <Rulings>2008/10/01: This has the mana abilities associated with both of its basic land types.
@@ -5135,7 +5135,7 @@ At the beginning of the chosen player's upkeep, The Rack deals X damage to that 
 <No>297</No>
 <Name>Savannah</Name>
 <Type>Land — Forest Plains</Type>
-<CardText>({T}: Add {G} or {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {G} or {W}.)</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>1379</Multiverseid>
 <Rulings>2008/10/01: This has the mana abilities associated with both of its basic land types.
@@ -5152,7 +5152,7 @@ At the beginning of the chosen player's upkeep, The Rack deals X damage to that 
 <No>298</No>
 <Name>Scrubland</Name>
 <Type>Land — Plains Swamp</Type>
-<CardText>({T}: Add {W} or {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {W} or {B}.)</CardText>
 <Artist>Jesper Myrfors</Artist>
 <Multiverseid>1380</Multiverseid>
 <Rulings>2008/10/01: This has the mana abilities associated with both of its basic land types.
@@ -5169,7 +5169,7 @@ At the beginning of the chosen player's upkeep, The Rack deals X damage to that 
 <No>299</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Dan Frazier</Artist>
 <Multiverseid>1373</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5184,7 +5184,7 @@ At the beginning of the chosen player's upkeep, The Rack deals X damage to that 
 <No>300</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Dan Frazier</Artist>
 <Multiverseid>1374</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5199,7 +5199,7 @@ At the beginning of the chosen player's upkeep, The Rack deals X damage to that 
 <No>301</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Dan Frazier</Artist>
 <Multiverseid>1375</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5214,7 +5214,7 @@ At the beginning of the chosen player's upkeep, The Rack deals X damage to that 
 <No>302</No>
 <Name>Taiga</Name>
 <Type>Land — Mountain Forest</Type>
-<CardText>({T}: Add {R} or {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {R} or {G}.)</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>1381</Multiverseid>
 <Rulings>2008/10/01: This has the mana abilities associated with both of its basic land types.
@@ -5231,7 +5231,7 @@ At the beginning of the chosen player's upkeep, The Rack deals X damage to that 
 <No>303</No>
 <Name>Tropical Island</Name>
 <Type>Land — Forest Island</Type>
-<CardText>({T}: Add {G} or {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {G} or {U}.)</CardText>
 <Artist>Jesper Myrfors</Artist>
 <Multiverseid>1382</Multiverseid>
 <Rulings>2008/10/01: This has the mana abilities associated with both of its basic land types.
@@ -5248,7 +5248,7 @@ At the beginning of the chosen player's upkeep, The Rack deals X damage to that 
 <No>304</No>
 <Name>Tundra</Name>
 <Type>Land — Plains Island</Type>
-<CardText>({T}: Add {W} or {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {W} or {U}.)</CardText>
 <Artist>Jesper Myrfors</Artist>
 <Multiverseid>1383</Multiverseid>
 <Rulings>2008/10/01: This has the mana abilities associated with both of its basic land types.
@@ -5265,7 +5265,7 @@ At the beginning of the chosen player's upkeep, The Rack deals X damage to that 
 <No>305</No>
 <Name>Underground Sea</Name>
 <Type>Land — Island Swamp</Type>
-<CardText>({T}: Add {U} or {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {U} or {B}.)</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>1384</Multiverseid>
 <Rulings>2008/10/01: This has the mana abilities associated with both of its basic land types.
@@ -5282,7 +5282,7 @@ At the beginning of the chosen player's upkeep, The Rack deals X damage to that 
 <No>306</No>
 <Name>Volcanic Island</Name>
 <Type>Land — Island Mountain</Type>
-<CardText>({T}: Add {U} or {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {U} or {R}.)</CardText>
 <Artist>Brian Snõddy</Artist>
 <Multiverseid>1385</Multiverseid>
 <Rulings>2008/10/01: This has the mana abilities associated with both of its basic land types.

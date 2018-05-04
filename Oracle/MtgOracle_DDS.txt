@@ -32,7 +32,7 @@
 <Flavor>To look into its light is to meet the gaze of history.</Flavor>
 <Artist>Jeremy Jarvis</Artist>
 <Multiverseid>426574</Multiverseid>
-<Rulings>2007/07/15: If a Beacon is countered, it's put into its owner's graveyard, not shuffled into the library.</Rulings>
+<Rulings>2007/07/15: If a Beacon is countered or doesn't resolve, it's put into its owner's graveyard, not shuffled into the library.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -267,14 +267,14 @@ Whenever The Unspeakable deals combat damage to a player, you may return target 
 <Name>Desperate Ritual</Name>
 <Type>Instant — Arcane</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>Add {R}{R}{R} to your mana pool.
+<CardText>Add {R}{R}{R}.
 Splice onto Arcane {1}{R} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)</CardText>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>426586</Multiverseid>
 <Rulings>2013/06/07: You reveal all cards you intend to splice at the same time. Each individual card can be spliced only once onto any one spell.
 2013/06/07: A card with a splice ability can't be spliced onto itself because the spell is on the stack (and not in your hand) when you reveal the cards you want to splice onto it.
 2013/06/07: You choose all targets for the spell after revealing cards you want to splice, including any targets required by the text of any of those cards. You may choose a different target for each instance of the word "target" on the resulting spell.
-2013/06/07: If all of the spell's targets are illegal when the spell tries to resolve, it will be countered and none of its effects will happen.
+2013/06/07: If all of the spell's targets are illegal when the spell tries to resolve, it won't resolve and none of its effects will happen.
 2013/06/07: <Desperate Ritual> isn't a mana ability. When cast, it (or the spell it's spliced onto) goes on the stack like any spell and can be responded to.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -311,7 +311,7 @@ Storm (When you cast this spell, copy it for each spell cast before it this turn
 <Name>Grapeshot</Name>
 <Type>Sorcery</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>Grapeshot deals 1 damage to target creature or player.
+<CardText>Grapeshot deals 1 damage to any target.
 Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)</CardText>
 <Flavor>Mages often seek to emulate the powerful relics lost to time and apocalypse.</Flavor>
 <Artist>Clint Cearley</Artist>
@@ -334,7 +334,7 @@ Storm (When you cast this spell, copy it for each spell cast before it this turn
 <Name>Rift Bolt</Name>
 <Type>Sorcery</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>Rift Bolt deals 3 damage to target creature or player.
+<CardText>Rift Bolt deals 3 damage to any target.
 Suspend 1—{R} (Rather than cast this card from your hand, you may pay {R} and exile it with a time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)</CardText>
 <Artist>Daniel Ljunggren</Artist>
 <Multiverseid>426589</Multiverseid>
@@ -391,7 +391,7 @@ Suspend 2—{1}{R}{R} (Rather than cast this card from your hand, you may pay {1
 <CardText>Return target instant or sorcery card from your graveyard to your hand. Volcanic Vision deals damage equal to that card's converted mana cost to each creature your opponents control. Exile Volcanic Vision.</CardText>
 <Artist>Noah Bradley</Artist>
 <Multiverseid>426591</Multiverseid>
-<Rulings>2015/02/25: If the target instant or sorcery card becomes an illegal target before <Volcanic Vision> resolves, the spell will be countered and none of its effects will happen. No damage will be dealt and <Volcanic Vision> won't be exiled.
+<Rulings>2015/02/25: If the target instant or sorcery card becomes an illegal target before <Volcanic Vision> resolves, the spell won't resolve and none of its effects will happen. No damage will be dealt and <Volcanic Vision> won't be exiled.
 2015/02/25: If the target has {X} in its mana cost, X is 0.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -538,7 +538,7 @@ When Nucklavee enters the battlefield, you may return target blue instant card f
 <Type>Land</Type>
 <CardText>Swiftwater Cliffs enters the battlefield tapped.
 When Swiftwater Cliffs enters the battlefield, you gain 1 life.
-{T}: Add {U} or {R} to your mana pool.</CardText>
+{T}: Add {U} or {R}.</CardText>
 <Artist>Eytan Zana</Artist>
 <Multiverseid>426599</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -553,7 +553,7 @@ When Swiftwater Cliffs enters the battlefield, you gain 1 life.
 <No>28</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>426600</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -568,7 +568,7 @@ When Swiftwater Cliffs enters the battlefield, you gain 1 life.
 <No>29</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>426601</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -583,7 +583,7 @@ When Swiftwater Cliffs enters the battlefield, you gain 1 life.
 <No>30</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Cliff Childs</Artist>
 <Multiverseid>426602</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -598,7 +598,7 @@ When Swiftwater Cliffs enters the battlefield, you gain 1 life.
 <No>31</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>426603</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -613,7 +613,7 @@ When Swiftwater Cliffs enters the battlefield, you gain 1 life.
 <No>32</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Cliff Childs</Artist>
 <Multiverseid>426604</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -628,7 +628,7 @@ When Swiftwater Cliffs enters the battlefield, you gain 1 life.
 <No>33</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Craig Mullins</Artist>
 <Multiverseid>426605</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -662,11 +662,11 @@ When Swiftwater Cliffs enters the battlefield, you gain 1 life.
 <Name>Beacon of Destruction</Name>
 <Type>Instant</Type>
 <ManaCost>3RR (5)</ManaCost>
-<CardText>Beacon of Destruction deals 5 damage to target creature or player. Shuffle Beacon of Destruction into its owner's library.</CardText>
+<CardText>Beacon of Destruction deals 5 damage to any target. Shuffle Beacon of Destruction into its owner's library.</CardText>
 <Flavor>The Great Furnace's blessing is a spectacular sight, but the best view comes at a high cost.</Flavor>
 <Artist>Greg Hildebrandt</Artist>
 <Multiverseid>426607</Multiverseid>
-<Rulings>2007/07/15: If a Beacon is countered, it's put into its owner's graveyard, not shuffled into the library.</Rulings>
+<Rulings>2007/07/15: If a Beacon is countered or doesn't resolve, it's put into its owner's graveyard, not shuffled into the library.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -702,7 +702,7 @@ When Swiftwater Cliffs enters the battlefield, you gain 1 life.
 <Name>Firebolt</Name>
 <Type>Sorcery</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>Firebolt deals 2 damage to target creature or player.
+<CardText>Firebolt deals 2 damage to any target.
 Flashback {4}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</CardText>
 <Flavor>"There's more where that came from!"</Flavor>
 <Artist>Chris Rallis</Artist>
@@ -737,7 +737,7 @@ Flashback {4}{R} (You may cast this card from your graveyard for its flashback c
 <Type>Legendary Creature — Human Barbarian 6/1</Type>
 <ManaCost>4RR (6)</ManaCost>
 <CardText>Haste (This creature can attack and {T} as soon as it comes under your control.)
-{T}: Kamahl, Pit Fighter deals 3 damage to target creature or player.</CardText>
+{T}: Kamahl, Pit Fighter deals 3 damage to any target.</CardText>
 <Flavor>In times when freedom seems lost, great souls arise to reclaim it.</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>426611</Multiverseid>
@@ -961,8 +961,8 @@ Flashback {2}{G}{G} (You may cast this card from your graveyard for its flashbac
 <Name>Talara's Battalion</Name>
 <Type>Creature — Elf Warrior 4/3</Type>
 <ManaCost>1G (2)</ManaCost>
-<CardText>Trample
-Cast Talara's Battalion only if you've cast another green spell this turn.</CardText>
+<CardText>Cast this spell only if you've cast another green spell this turn.
+Trample</CardText>
 <Flavor>The safewright Talara protects a delicate woodland waterfall. She has vowed to send wave after wave of warriors to slay any who would dare disturb its beauty.</Flavor>
 <Artist>Todd Lockwood</Artist>
 <Multiverseid>426624</Multiverseid>
@@ -979,8 +979,8 @@ Cast Talara's Battalion only if you've cast another green spell this turn.</Card
 <Name>Radha, Heir to Keld</Name>
 <Type>Legendary Creature — Elf Warrior 2/2</Type>
 <ManaCost>RG (2)</ManaCost>
-<CardText>Whenever Radha, Heir to Keld attacks, you may add {R}{R} to your mana pool.
-{T}: Add {G} to your mana pool.</CardText>
+<CardText>Whenever Radha, Heir to Keld attacks, you may add {R}{R}.
+{T}: Add {G}.</CardText>
 <Flavor>"Run home, cur. I've already taken your master's head. Don't make me thrash you with it."</Flavor>
 <Artist>Jim Murray</Artist>
 <Multiverseid>426625</Multiverseid>
@@ -1015,7 +1015,7 @@ Cast Talara's Battalion only if you've cast another green spell this turn.</Card
 <Name>Burning-Tree Emissary</Name>
 <Type>Creature — Human Shaman 2/2</Type>
 <ManaCost>{R/G}{R/G} (2)</ManaCost>
-<CardText>When Burning-Tree Emissary enters the battlefield, add {R}{G} to your mana pool.</CardText>
+<CardText>When Burning-Tree Emissary enters the battlefield, add {R}{G}.</CardText>
 <Flavor>Those who regard the Gruul as savage simpletons underestimate the subtle power of their shamans.</Flavor>
 <Artist>Izzy</Artist>
 <Multiverseid>426627</Multiverseid>
@@ -1090,7 +1090,7 @@ Cast Talara's Battalion only if you've cast another green spell this turn.</Card
 <Type>Land</Type>
 <CardText>Rugged Highlands enters the battlefield tapped.
 When Rugged Highlands enters the battlefield, you gain 1 life.
-{T}: Add {R} or {G} to your mana pool.</CardText>
+{T}: Add {R} or {G}.</CardText>
 <Artist>Eytan Zana</Artist>
 <Multiverseid>426631</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1105,7 +1105,7 @@ When Rugged Highlands enters the battlefield, you gain 1 life.
 <No>60</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Jonas De Ro</Artist>
 <Multiverseid>426632</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1120,7 +1120,7 @@ When Rugged Highlands enters the battlefield, you gain 1 life.
 <No>61</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Nils Hamm</Artist>
 <Multiverseid>426633</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1135,7 +1135,7 @@ When Rugged Highlands enters the battlefield, you gain 1 life.
 <No>62</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>426634</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1150,7 +1150,7 @@ When Rugged Highlands enters the battlefield, you gain 1 life.
 <No>63</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>426635</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1165,7 +1165,7 @@ When Rugged Highlands enters the battlefield, you gain 1 life.
 <No>64</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Jim Nelson</Artist>
 <Multiverseid>426636</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1180,7 +1180,7 @@ When Rugged Highlands enters the battlefield, you gain 1 life.
 <No>65</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Stephen Tappin</Artist>
 <Multiverseid>426637</Multiverseid>
 <Vintage>Legal</Vintage>

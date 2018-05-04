@@ -191,7 +191,7 @@ As long as Dearly Departed is in your graveyard, each Human creature you control
 <Name>Divine Reckoning</Name>
 <Type>Sorcery</Type>
 <ManaCost>2WW (4)</ManaCost>
-<CardText>Each player chooses a creature he or she controls. Destroy the rest.
+<CardText>Each player chooses a creature they control. Destroy the rest.
 Flashback {5}{W}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</CardText>
 <Flavor>Survival of the purest.</Flavor>
 <Artist>Greg Staples</Artist>
@@ -285,7 +285,9 @@ Flashback {1}{U} (You may cast this card from your graveyard for its flashback c
 When Fiend Hunter leaves the battlefield, return the exiled card to the battlefield under its owner's control.</CardText>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>222007</Multiverseid>
-<Rulings>2011/09/22: If <Fiend Hunter> leaves the battlefield before its first ability has resolved, its second ability will trigger and do nothing. Then its first ability will resolve and exile the targeted creature indefinitely.</Rulings>
+<Rulings>2018/03/16: If <Fiend Hunter> leaves the battlefield before its first ability has resolved, its second ability will trigger and do nothing. Then its first ability will resolve and exile the targeted creature indefinitely.
+2018/03/16: Once the exiled permanent returns, it's considered a new object with no relation to the object that it was. Auras attached to the exiled permanent will be put into their owners' graveyards. Equipment attached to the exiled permanent will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist.
+2018/03/16: If a token is exiled this way, it won't return to the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -393,9 +395,7 @@ Prevent all combat damage that would be dealt to and dealt by enchanted creature
 <Flavor>"In these halls there is no pass or fail. Your true test comes with the first full moon."</Flavor>
 <Artist>Jana Schirmer & Johannes Voss</Artist>
 <Multiverseid>244682</Multiverseid>
-<Rulings>2011/09/22: You only check the power of the other creature when it enters the battlefield.
---If it's 2 or less, the ability will trigger. Once the ability triggers, raising that creature's power above 2 won't affect that ability.
---Similarly, reducing the creature's power to 2 or less after it enters the battlefield won't cause the ability to trigger.
+<Rulings>2011/09/22: You only check the power of the other creature when it enters the battlefield. --If it's 2 or less, the ability will trigger. Once the ability triggers, raising that creature's power above 2 won't affect that ability. --Similarly, reducing the creature's power to 2 or less after it enters the battlefield won't cause the ability to trigger.
 2011/09/22: Apply power bonuses from counters the creature enters the battlefield with and continuous effects like Mayor of Avabruck's when checking to see if <Mentor of the Meek>'s ability will trigger.
 2011/09/22: You choose whether or not to pay {1} when the triggered ability resolves.</Rulings>
 <Vintage>Legal</Vintage>
@@ -970,12 +970,11 @@ Whenever enchanted creature deals damage to an opponent, you may draw a card.</C
 <Flavor>"Surely you know the joy of the hunt, my furry friend. My kind of hunt just takes a different form than yours."</Flavor>
 <Artist>Igor Kieryluk</Artist>
 <Multiverseid>230767</Multiverseid>
-<Rulings>2007/02/01: You draw one card each time the enchanted creature damages the opponent. This is not one card per point of damage.
-2007/02/01: If put on your opponent's creature, you do not draw a card when that creature damages you. The creature has to damage your opponent in order to have this work.
-2007/02/01: Drawing a card is optional.
-2011/09/22: "You" refers to the controller of <Curiosity>, which may be different from the controller of the enchanted creature. "An opponent" refers to an opponent of <Curiosity>'s controller.
+<Rulings>2011/09/22: "You" refers to the controller of <Curiosity>, which may be different from the controller of the enchanted creature. "An opponent" refers to an opponent of <Curiosity>'s controller.
 2011/09/22: Any damage dealt by the enchanted creature to an opponent will cause <Curiosity> to trigger, not just combat damage.
-2011/09/22: <Curiosity> doesn't trigger if the enchanted creature deals damage to a planeswalker controlled by an opponent.</Rulings>
+2011/09/22: <Curiosity> doesn't trigger if the enchanted creature deals damage to a planeswalker controlled by an opponent.
+2018/03/16: You draw one card each time the enchanted creature deals damage to an opponent, no matter how much damage it deals or whether it was dealt in combat.
+2018/03/16: If this Aura enchants an opponent's creature, you won't draw a card when that creature damages you. The creature has to deal damage to one of your opponents for the ability to trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -990,11 +989,11 @@ Whenever enchanted creature deals damage to an opponent, you may draw a card.</C
 <Type>Enchantment — Aura Curse</Type>
 <ManaCost>2U (3)</ManaCost>
 <CardText>Enchant player
-At the beginning of enchanted player's upkeep, that player puts the top two cards of his or her library into his or her graveyard.</CardText>
+At the beginning of enchanted player's upkeep, that player puts the top two cards of their library into their graveyard.</CardText>
 <Flavor>After seeing his life's work drip away, the mage decided it was a good time to go crazy.</Flavor>
 <Artist>Jaime Jones</Artist>
 <Multiverseid>230627</Multiverseid>
-<Rulings>2011/09/22: If the enchanted player has only one card in his or her library, he or she puts that card into his or her graveyard.</Rulings>
+<Rulings>2011/09/22: If the enchanted player has only one card in their library, they put that card into their graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1046,7 +1045,7 @@ At the beginning of enchanted player's upkeep, that player puts the top two card
 <Name>Deranged Assistant</Name>
 <Type>Creature — Human Wizard 1/1</Type>
 <ManaCost>1U (2)</ManaCost>
-<CardText>{T}, Put the top card of your library into your graveyard: Add {C} to your mana pool.</CardText>
+<CardText>{T}, Put the top card of your library into your graveyard: Add {C}.</CardText>
 <Flavor>"Garl, adjust the slurry dispensers. Garl, fetch more corpses. Garl, quit crying and give me your brain tissue. If he doesn't stop being so rude, I'm quitting."</Flavor>
 <Artist>Nils Hamm</Artist>
 <Multiverseid>221171</Multiverseid>
@@ -1083,7 +1082,7 @@ At the beginning of enchanted player's upkeep, that player puts the top two card
 <Name>Dream Twist</Name>
 <Type>Instant</Type>
 <ManaCost>U (1)</ManaCost>
-<CardText>Target player puts the top three cards of his or her library into his or her graveyard.
+<CardText>Target player puts the top three cards of their library into their graveyard.
 Flashback {1}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</CardText>
 <Artist>Dan Scott</Artist>
 <Multiverseid>243213</Multiverseid>
@@ -1139,7 +1138,7 @@ Flashback {6}{B} (You may cast this card from your graveyard for its flashback c
 <Artist>Anthony Palumbo</Artist>
 <Multiverseid>220031</Multiverseid>
 <Rulings>2011/09/22: You must target a spell in order to cast <Frightful Delusion>. You can't cast it without a legal target just to make a player discard a card.
-2011/09/22: The player discards a card even if he or she pays {1}.</Rulings>
+2011/09/22: The player discards a card even if they pay {1}.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1251,7 +1250,7 @@ Invisible Stalker can't be blocked.</CardText>
 <Artist>David Palumbo</Artist>
 <Multiverseid>241982</Multiverseid>
 <Rulings>2011/09/22: <Lost in the Mist> targets both the spell and the permanent. You can only cast it if you can choose legal targets for both parts.
-2011/09/22: If one of <Lost in the Mist>'s targets is illegal by the time it resolves, <Lost in the Mist> will still affect the remaining legal target. If both targets are illegal at this time, <Lost in the Mist> will be countered.</Rulings>
+2011/09/22: If one of <Lost in the Mist>'s targets is illegal by the time it resolves, <Lost in the Mist> will still affect the remaining legal target. If both targets are illegal at this time, <Lost in the Mist> won't resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1302,7 +1301,7 @@ Invisible Stalker can't be blocked.</CardText>
 <Name>Makeshift Mauler</Name>
 <Type>Creature — Zombie Horror 4/5</Type>
 <ManaCost>3U (4)</ManaCost>
-<CardText>As an additional cost to cast Makeshift Mauler, exile a creature card from your graveyard.</CardText>
+<CardText>As an additional cost to cast this spell, exile a creature card from your graveyard.</CardText>
 <Flavor>"It always amazes me what perfectly good things people throw away."
 —Ludevic, necro-alchemist</Flavor>
 <Artist>James Ryman</Artist>
@@ -1322,14 +1321,14 @@ Invisible Stalker can't be blocked.</CardText>
 <Name>Memory's Journey</Name>
 <Type>Instant</Type>
 <ManaCost>1U (2)</ManaCost>
-<CardText>Target player shuffles up to three target cards from his or her graveyard into his or her library.
+<CardText>Target player shuffles up to three target cards from their graveyard into their library.
 Flashback {G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</CardText>
 <Artist>Slawomir Maniak</Artist>
 <Multiverseid>254134</Multiverseid>
 <Rulings>2011/09/22: You don't have to target any cards when you cast <Memory's Journey>, but you must target a player.
-2011/09/22: If the player is an illegal target by the time <Memory's Journey> resolves, the spell will have no effect, even if the cards are still legal targets. This is because a spell can't make an illegal target (the player) perform any actions (such as shuffling his or her library).
+2011/09/22: If the player is an illegal target by the time <Memory's Journey> resolves, the spell will have no effect, even if the cards are still legal targets. This is because a spell can't make an illegal target (the player) perform any actions (such as shuffling their library).
 2011/09/22: Any of the targeted cards that are illegal targets by the time <Memory's Journey> resolves aren't shuffled into their owner's library.
-2011/09/22: If no cards were targeted by <Memory's Journey> or if all the targeted cards are illegal targets by the time <Memory's Journey> resolves, the targeted player will still shuffle his or her library.
+2011/09/22: If no cards were targeted by <Memory's Journey> or if all the targeted cards are illegal targets by the time <Memory's Journey> resolves, the targeted player will still shuffle their library.
 2011/09/22: If you cast <Memory's Journey> with flashback, it won't be in the graveyard when you choose targets. It can't target itself.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1345,7 +1344,7 @@ Flashback {G} (You may cast this card from your graveyard for its flashback cost
 <Type>Creature — Spirit Bird 1/1</Type>
 <ManaCost>1U (2)</ManaCost>
 <CardText>Flying
-{2}: Target player puts the top card of his or her library into his or her graveyard. Mindshrieker gets +X/+X until end of turn, where X is that card's converted mana cost.</CardText>
+{2}: Target player puts the top card of their library into their graveyard. Mindshrieker gets +X/+X until end of turn, where X is that card's converted mana cost.</CardText>
 <Artist>Dave Kendall</Artist>
 <Multiverseid>229960</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1362,12 +1361,12 @@ Flashback {G} (You may cast this card from your graveyard for its flashback cost
 <Type>Creature — Spirit 5/1</Type>
 <ManaCost>3UU (5)</ManaCost>
 <CardText>Flying
-{1}{U}: Mirror-Mad Phantasm's owner shuffles it into his or her library. If that player does, he or she reveals cards from the top of that library until a card named Mirror-Mad Phantasm is revealed. The player puts that card onto the battlefield and all other cards revealed this way into his or her graveyard.</CardText>
+{1}{U}: Mirror-Mad Phantasm's owner shuffles it into their library. If that player does, they reveal cards from the top of that library until a card named Mirror-Mad Phantasm is revealed. The player puts that card onto the battlefield and all other cards revealed this way into their graveyard.</CardText>
 <Artist>Howard Lyon</Artist>
 <Multiverseid>227297</Multiverseid>
 <Rulings>2011/09/22: You can only activate the ability if you control <Mirror-Mad Phantasm>, even if you don't own it.
 2011/09/22: If no card named <Mirror-Mad Phantasm> is revealed (possibly because it was a card copying <Mirror-Mad Phantasm> or it was a token), all cards from that library will be put into their owner's graveyard.
-2011/09/22: If another creature (such as Necrotic Ooze) gains <Mirror-Mad Phantasm>'s activated ability, its owner reveals cards until he or she reveals a card named <Mirror-Mad Phantasm>.</Rulings>
+2011/09/22: If another creature (such as Necrotic Ooze) gains <Mirror-Mad Phantasm>'s activated ability, its owner reveals cards until they reveal a card named <Mirror-Mad Phantasm>.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1403,8 +1402,8 @@ Whenever another creature dies, you may draw a card. If you do, discard a card.<
 <Flavor>Even more than carrion, they crave the last words of the dying.</Flavor>
 <Artist>Drew Baker</Artist>
 <Multiverseid>230616</Multiverseid>
-<Rulings>2011/09/22: If you choose to draw a card, and that draw is replaced by another action, you'll still discard a card.
-2011/09/22: You can't do anything in between drawing a card and discarding a card, including casting the card you drew.</Rulings>
+<Rulings>2018/03/16: If another creature dies at the same time as <Murder of Crows>, its last ability triggers.
+2018/03/16: You can't do anything in between drawing a card and discarding a card, including casting or cycling the card you drew.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1458,7 +1457,7 @@ Whenever another creature dies, you may draw a card. If you do, discard a card.<
 <Name>Selhoff Occultist</Name>
 <Type>Creature — Human Rogue 2/3</Type>
 <ManaCost>2U (3)</ManaCost>
-<CardText>Whenever Selhoff Occultist or another creature dies, target player puts the top card of his or her library into his or her graveyard.</CardText>
+<CardText>Whenever Selhoff Occultist or another creature dies, target player puts the top card of their library into their graveyard.</CardText>
 <Flavor>"The mist whispers to those who know it to be more than a mundane fog."</Flavor>
 <Artist>Igor Kieryluk</Artist>
 <Multiverseid>233254</Multiverseid>
@@ -1511,8 +1510,8 @@ Flashback {4}{U} (You may cast this card from your graveyard for its flashback c
 <Name>Skaab Goliath</Name>
 <Type>Creature — Zombie Giant 6/9</Type>
 <ManaCost>5U (6)</ManaCost>
-<CardText>As an additional cost to cast Skaab Goliath, exile two creature cards from your graveyard.
-Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)</CardText>
+<CardText>As an additional cost to cast this spell, exile two creature cards from your graveyard.
+Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)</CardText>
 <Flavor>"Three heads, six arms, and some armor grafts are better than . . . the normal numbers of those things."
 —Stitcher Geralf</Flavor>
 <Artist>Volkan Baga</Artist>
@@ -1530,7 +1529,7 @@ Trample (This creature can deal excess combat damage to defending player or plan
 <Name>Skaab Ruinator</Name>
 <Type>Creature — Zombie Horror 5/6</Type>
 <ManaCost>1UU (3)</ManaCost>
-<CardText>As an additional cost to cast Skaab Ruinator, exile three creature cards from your graveyard.
+<CardText>As an additional cost to cast this spell, exile three creature cards from your graveyard.
 Flying
 You may cast Skaab Ruinator from your graveyard.</CardText>
 <Artist>Chris Rahn</Artist>
@@ -1590,7 +1589,7 @@ Enchanted creature gets +2/+2 and has flying.</CardText>
 <Name>Stitched Drake</Name>
 <Type>Creature — Zombie Drake 3/4</Type>
 <ManaCost>1UU (3)</ManaCost>
-<CardText>As an additional cost to cast Stitched Drake, exile a creature card from your graveyard.
+<CardText>As an additional cost to cast this spell, exile a creature card from your graveyard.
 Flying</CardText>
 <Flavor>"The best skaab are more powerful and more beautiful than the sum of their parts."
 —Stitcher Geralf</Flavor>
@@ -1667,12 +1666,12 @@ Flashback {2}{U} (You may cast this card from your graveyard for its flashback c
 <Name>Undead Alchemist</Name>
 <Type>Creature — Zombie 4/2</Type>
 <ManaCost>3U (4)</ManaCost>
-<CardText>If a Zombie you control would deal combat damage to a player, instead that player puts that many cards from the top of his or her library into his or her graveyard.
-Whenever a creature card is put into an opponent's graveyard from his or her library, exile that card and create a 2/2 black Zombie creature token.</CardText>
+<CardText>If a Zombie you control would deal combat damage to a player, instead that player puts that many cards from the top of their library into their graveyard.
+Whenever a creature card is put into an opponent's graveyard from their library, exile that card and create a 2/2 black Zombie creature token.</CardText>
 <Artist>Michael C. Hayes</Artist>
 <Multiverseid>244684</Multiverseid>
 <Rulings>2011/09/22: If you control multiple <Undead Alchemist>s, the multiple replacement abilities will have no added effect. Combat damage dealt to a player by a Zombie you control will be replaced only once with cards being put into that player's graveyard.
-2011/09/22: Whenever a creature card is put into an opponent's graveyard from his or her library, the triggered ability of each <Undead Alchemist> you control will trigger. The first such ability to resolve will exile that creature card and create a Zombie token. Subsequent abilities won't exile the creature card, but each will create another Zombie token.</Rulings>
+2011/09/22: Whenever a creature card is put into an opponent's graveyard from their library, the triggered ability of each <Undead Alchemist> you control will trigger. The first such ability to resolve will exile that creature card and create a Zombie token. Subsequent abilities won't exile the creature card, but each will create another Zombie token.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1705,7 +1704,7 @@ Whenever a creature dealt damage by Abattoir Ghoul this turn dies, you gain life
 <Name>Altar's Reap</Name>
 <Type>Instant</Type>
 <ManaCost>1B (2)</ManaCost>
-<CardText>As an additional cost to cast Altar's Reap, sacrifice a creature.
+<CardText>As an additional cost to cast this spell, sacrifice a creature.
 Draw two cards.</CardText>
 <Flavor>"The demons don't care if we mutter niceties and act out ceremonies. Just kill him."
 —Bishop Volpaig, servant of Griselbrand</Flavor>
@@ -1855,7 +1854,7 @@ Flashback {5}{R} (You may cast this card from your graveyard for its flashback c
 <Name>Corpse Lunge</Name>
 <Type>Instant</Type>
 <ManaCost>2B (3)</ManaCost>
-<CardText>As an additional cost to cast Corpse Lunge, exile a creature card from your graveyard.
+<CardText>As an additional cost to cast this spell, exile a creature card from your graveyard.
 Corpse Lunge deals damage equal to the exiled card's power to target creature.</CardText>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>244680</Multiverseid>
@@ -1893,11 +1892,11 @@ Creatures enchanted player controls get -1/-1.</CardText>
 <Type>Enchantment — Aura Curse</Type>
 <ManaCost>3B (4)</ManaCost>
 <CardText>Enchant player
-At the beginning of enchanted player's upkeep, that player exiles two cards from his or her graveyard.</CardText>
+At the beginning of enchanted player's upkeep, that player exiles two cards from their graveyard.</CardText>
 <Flavor>The first step to peace is to learn how to forget.</Flavor>
 <Artist>Jana Schirmer & Johannes Voss</Artist>
 <Multiverseid>237020</Multiverseid>
-<Rulings>2011/09/22: If the enchanted player has only one card in his or her graveyard, he or she exiles that card.</Rulings>
+<Rulings>2011/09/22: If the enchanted player has only one card in their graveyard, they exile that card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2081,7 +2080,7 @@ Creatures you control get -1/-1.</CardText>
 <ManaCost>1BB (3)</ManaCost>
 <CardText>+1: Each player discards a card.
 -2: Target player sacrifices a creature.
--6: Separate all permanents target player controls into two piles. That player sacrifices all permanents in the pile of his or her choice.</CardText>
+-6: Separate all permanents target player controls into two piles. That player sacrifices all permanents in the pile of their choice.</CardText>
 <Artist>Steve Argyle</Artist>
 <Multiverseid>235597</Multiverseid>
 <Rulings>2017/03/14: When Liliana's first ability resolves, first the player whose turn it is chooses a card to discard, then each other player in turn order chooses a card to discard, then those cards are discarded simultaneously. No one sees what the other players are discarding before deciding which card to discard.
@@ -2140,7 +2139,7 @@ Creatures you control get -1/-1.</CardText>
 <Flavor>As the chapel was dragged under, the bell in the tower rang until the murky depths forever silenced its toll.</Flavor>
 <Artist>Vincent Proce</Artist>
 <Multiverseid>246952</Multiverseid>
-<Rulings>2011/09/22: If the targeted land is an illegal target by the time <Maw of the Mire> resolves, it will be countered and none of its effects will occur. You won't gain 4 life.</Rulings>
+<Rulings>2011/09/22: If the targeted land is an illegal target by the time <Maw of the Mire> resolves, it won't resolve and none of its effects will occur. You won't gain 4 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2191,7 +2190,7 @@ Flashback {5}{B}{B} (You may cast this card from your graveyard for its flashbac
 <Name>Night Terrors</Name>
 <Type>Sorcery</Type>
 <ManaCost>2B (3)</ManaCost>
-<CardText>Target player reveals his or her hand. You choose a nonland card from it. Exile that card.</CardText>
+<CardText>Target player reveals their hand. You choose a nonland card from it. Exile that card.</CardText>
 <Flavor>Innistrad is a place where dreams invade the mind and mere shadows exact a terrible toll.</Flavor>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>246947</Multiverseid>
@@ -2287,7 +2286,7 @@ Flashback {5}{B}{B} (You may cast this card from your graveyard for its flashbac
 <Artist>Clint Cearley</Artist>
 <Multiverseid>245194</Multiverseid>
 <Rulings>2017/03/14: Only creatures on the battlefield will be exiled. In other zones, they're "creature cards," not "creatures."
-2017/03/14: If the targeted creature is an illegal target by the time <Sever the Bloodline> resolves, it will be countered and none of its effects will happen. No creatures will be exiled.
+2017/03/14: If the targeted creature is an illegal target by the time <Sever the Bloodline> resolves, it won't resolve and none of its effects will happen. No creatures will be exiled.
 2017/03/14: Unless a token is a copy of another creature or was explicitly given a name by the effect that created it, its name is the creature types it was given when it was created. For example, the Beast tokens created by Thragtusk and by Baloth Cage Trap are both named "Beast."
 2017/03/14: A double-faced creature only has the name of the face that's up. For example, if Village Ironsmith is targeted by <Sever the Bloodline>, Ironfang wouldn't be exiled.</Rulings>
 <Vintage>Legal</Vintage>
@@ -2555,7 +2554,7 @@ Whenever Balefire Dragon deals combat damage to a player, it deals that much dam
 <Name>Blasphemous Act</Name>
 <Type>Sorcery</Type>
 <ManaCost>8R (9)</ManaCost>
-<CardText>Blasphemous Act costs {1} less to cast for each creature on the battlefield.
+<CardText>This spell costs {1} less to cast for each creature on the battlefield.
 Blasphemous Act deals 13 damage to each creature.</CardText>
 <Flavor>"Holy places are no longer sanctuary from death, and death is no longer sanctuary from anything."
 —Thalia, Knight-Cathar</Flavor>
@@ -2595,8 +2594,8 @@ Whenever Bloodcrazed Neonate deals combat damage to a player, put a +1/+1 counte
 <Name>Brimstone Volley</Name>
 <Type>Instant</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>Brimstone Volley deals 3 damage to target creature or player.
-Morbid — Brimstone Volley deals 5 damage to that creature or player instead if a creature died this turn.</CardText>
+<CardText>Brimstone Volley deals 3 damage to any target.
+Morbid — Brimstone Volley deals 5 damage to that permanent or player instead if a creature died this turn.</CardText>
 <Artist>Eytan Zana</Artist>
 <Multiverseid>233253</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2612,7 +2611,7 @@ Morbid — Brimstone Volley deals 5 damage to that creature or player instead if
 <Name>Burning Vengeance</Name>
 <Type>Enchantment</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>Whenever you cast a spell from your graveyard, Burning Vengeance deals 2 damage to target creature or player.</CardText>
+<CardText>Whenever you cast a spell from your graveyard, Burning Vengeance deals 2 damage to any target.</CardText>
 <Flavor>Mist is the geists' sorrow. Wind is their pain. Fire is their vengeance.</Flavor>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>243211</Multiverseid>
@@ -2694,8 +2693,8 @@ Creatures enchanted player controls attack each combat if able.</CardText>
 <Flavor>When the moon rises and the bloodlust takes hold, nothing matters but the kill.</Flavor>
 <Artist>Daarken</Artist>
 <Multiverseid>226881</Multiverseid>
-<Rulings>2011/09/22: The enchanted player still chooses which player or planeswalker each creature he or she controls attacks.
-2011/09/22: If, during the enchanted player's declare attackers step, a creature he or she controls is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having the creature attack, the player isn't forced to pay that cost, so it doesn't have to attack in that case either.</Rulings>
+<Rulings>2011/09/22: The enchanted player still chooses which player or planeswalker each creature they control attacks.
+2011/09/22: If, during the enchanted player's declare attackers step, a creature they control is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having the creature attack, the player isn't forced to pay that cost, so it doesn't have to attack in that case either.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2710,7 +2709,7 @@ Creatures enchanted player controls attack each combat if able.</CardText>
 <Type>Enchantment — Aura Curse</Type>
 <ManaCost>1R (2)</ManaCost>
 <CardText>Enchant player
-At the beginning of enchanted player's upkeep, Curse of the Pierced Heart deals 1 damage to that player.</CardText>
+At the beginning of enchanted player's upkeep, Curse of the Pierced Heart deals 1 damage to that player or a planeswalker that player controls.</CardText>
 <Flavor>"May your veins weep, and may every vampire take notice."
 —Stensian curse</Flavor>
 <Artist>E. M. Gist</Artist>
@@ -2747,7 +2746,7 @@ Flashback {2}{U} (You may cast this card from your graveyard for its flashback c
 <Name>Devil's Play</Name>
 <Type>Sorcery</Type>
 <ManaCost>XR (1)</ManaCost>
-<CardText>Devil's Play deals X damage to target creature or player.
+<CardText>Devil's Play deals X damage to any target.
 Flashback {X}{R}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</CardText>
 <Flavor>A devil's hands are never idle.</Flavor>
 <Artist>Austin Hsu</Artist>
@@ -2822,7 +2821,7 @@ Enchanted creature gets +2/+2 and attacks each combat if able.</CardText>
 <Name>Geistflame</Name>
 <Type>Instant</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>Geistflame deals 1 damage to target creature or player.
+<CardText>Geistflame deals 1 damage to any target.
 Flashback {3}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</CardText>
 <Flavor>Innistrad pyromancers find their best raw materials in the fury of the dead.</Flavor>
 <Artist>Scott Chou</Artist>
@@ -2879,7 +2878,7 @@ At the beginning of each upkeep, if a player cast two or more spells last turn, 
 <Name>Harvest Pyre</Name>
 <Type>Instant</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>As an additional cost to cast Harvest Pyre, exile X cards from your graveyard.
+<CardText>As an additional cost to cast this spell, exile X cards from your graveyard.
 Harvest Pyre deals X damage to target creature.</CardText>
 <Flavor>Corpses destroyed by fire form the most destructive geists.</Flavor>
 <Artist>Ryan Yee</Artist>
@@ -2897,10 +2896,10 @@ Harvest Pyre deals X damage to target creature.</CardText>
 <Name>Heretic's Punishment</Name>
 <Type>Enchantment</Type>
 <ManaCost>4R (5)</ManaCost>
-<CardText>{3}{R}: Choose target creature or player, then put the top three cards of your library into your graveyard. Heretic's Punishment deals damage to that creature or player equal to the highest converted mana cost among those cards.</CardText>
+<CardText>{3}{R}: Choose any target, then put the top three cards of your library into your graveyard. Heretic's Punishment deals damage to that permanent or player equal to the highest converted mana cost among those cards.</CardText>
 <Artist>Vincent Proce</Artist>
 <Multiverseid>249974</Multiverseid>
-<Rulings>2011/09/22: If the targeted creature or player is an illegal target by the time the ability resolves, the entire ability will be countered. No cards will be put into your graveyard, and no damage will be dealt.
+<Rulings>2011/09/22: If the targeted permanent or player is an illegal target by the time the ability resolves, the entire ability won't resolve. No cards will be put into your graveyard, and no damage will be dealt.
 2011/09/22: If you have two or fewer cards in your library when the ability resolves, all of them will be put into your graveyard. <Heretic's Punishment> will still deal damage equal to the highest converted mana cost among those cards.
 2011/09/22: The converted mana cost of a double-faced card in your graveyard is the converted mana cost of the front face.
 2011/09/22: If all three cards have a converted mana cost of 0, no damage will be dealt.</Rulings>
@@ -2917,8 +2916,8 @@ Harvest Pyre deals X damage to target creature.</CardText>
 <Name>Infernal Plunge</Name>
 <Type>Sorcery</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>As an additional cost to cast Infernal Plunge, sacrifice a creature.
-Add {R}{R}{R} to your mana pool.</CardText>
+<CardText>As an additional cost to cast this spell, sacrifice a creature.
+Add {R}{R}{R}.</CardText>
 <Flavor>"Oh mighty Griselbrand, Scourge of the Heedless World, gladly I consume myself for thee!"</Flavor>
 <Artist>Daarken</Artist>
 <Multiverseid>235603</Multiverseid>
@@ -2980,7 +2979,7 @@ At the beginning of each upkeep, if a player cast two or more spells last turn, 
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>220035</Multiverseid>
 <Rulings>2011/09/22: <Into the Maw of Hell> targets both the land and the creature. You can only cast it if you can choose a legal target for both.
-2011/09/22: If one of <Into the Maw of Hell>'s targets is illegal by the time it resolves, <Into the Maw of Hell> will still affect the remaining legal target. If both targets are illegal at this time, <Into the Maw of Hell> will be countered.</Rulings>
+2011/09/22: If one of <Into the Maw of Hell>'s targets is illegal by the time it resolves, <Into the Maw of Hell> will still affect the remaining legal target. If both targets are illegal at this time, <Into the Maw of Hell> won't resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3109,7 +3108,7 @@ Flashback {4}{R} (You may cast this card from your graveyard for its flashback c
 <Name>Pitchburn Devils</Name>
 <Type>Creature — Devil 3/3</Type>
 <ManaCost>4R (5)</ManaCost>
-<CardText>When Pitchburn Devils dies, it deals 3 damage to target creature or player.</CardText>
+<CardText>When Pitchburn Devils dies, it deals 3 damage to any target.</CardText>
 <Flavor>The ingenuity of goblins, the depravity of demons, and the smarts of sheep.</Flavor>
 <Artist>Johann Bodin</Artist>
 <Multiverseid>222904</Multiverseid>
@@ -3126,7 +3125,7 @@ Flashback {4}{R} (You may cast this card from your graveyard for its flashback c
 <Name>Rage Thrower</Name>
 <Type>Creature — Human Shaman 4/2</Type>
 <ManaCost>5R (6)</ManaCost>
-<CardText>Whenever another creature dies, Rage Thrower deals 2 damage to target player.</CardText>
+<CardText>Whenever another creature dies, Rage Thrower deals 2 damage to target player or planeswalker.</CardText>
 <Flavor>"Some lament these haunted times, but I'm a geistflame-tank-half-full kind of person."</Flavor>
 <Artist>Peter Mohrbacher</Artist>
 <Multiverseid>222921</Multiverseid>
@@ -3249,7 +3248,7 @@ Flashback {4}{R}{R} (You may cast this card from your graveyard for its flashbac
 <Name>Skirsdag Cultist</Name>
 <Type>Creature — Human Shaman 2/2</Type>
 <ManaCost>2RR (4)</ManaCost>
-<CardText>{R}, {T}, Sacrifice a creature: Skirsdag Cultist deals 2 damage to target creature or player.</CardText>
+<CardText>{R}, {T}, Sacrifice a creature: Skirsdag Cultist deals 2 damage to any target.</CardText>
 <Flavor>"Within blood is life. Within life is fire. Within fire is the path to our masters' glory!"</Flavor>
 <Artist>Slawomir Maniak</Artist>
 <Multiverseid>220638</Multiverseid>
@@ -3417,7 +3416,7 @@ Deathtouch (Any amount of damage this deals to a creature is enough to destroy i
 <Name>Avacyn's Pilgrim</Name>
 <Type>Creature — Human Monk 1/1</Type>
 <ManaCost>G (1)</ManaCost>
-<CardText>{T}: Add {W} to your mana pool.</CardText>
+<CardText>{T}: Add {W}.</CardText>
 <Flavor>"Avacyn's protection is everywhere. From the holy church to the sacred glade, all that we see is under her blessed watch."</Flavor>
 <Artist>Jana Schirmer & Johannes Voss</Artist>
 <Multiverseid>243212</Multiverseid>
@@ -4174,7 +4173,7 @@ At the beginning of your upkeep, put the top two cards of your library into your
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>227301</Multiverseid>
 <Rulings>2011/09/22: The ability that defines <Splinterfright>'s power and toughness works in all zones, not just the battlefield. If <Splinterfright> is in your graveyard, it will count itself.
-2011/09/22: If <Splinterfright>'s controller has only one card in his or her library, he or she puts that card into his or her graveyard.</Rulings>
+2011/09/22: If <Splinterfright>'s controller has only one card in their library, they put that card into their graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4213,9 +4212,9 @@ Flashback {1}{W} (You may cast this card from your graveyard for its flashback c
 <Flavor>The executioner's tree in Thraben Cathedral holds the power to absolve more than the souls of the hanged.</Flavor>
 <Artist>Vincent Proce</Artist>
 <Multiverseid>247421</Multiverseid>
-<Rulings>2011/09/22: When the ability resolves, <Tree of Redemption>'s toughness will become your former life total and you will gain or lose an amount of life necessary so that your life total equals <Tree of Redemption>'s former toughness. Other effects that interact with life gain or life loss will interact with this effect accordingly.
-2011/09/22: Any toughness-modifying effects, counters, Auras, or Equipment will apply after its toughness is set to your former life total. For example, say <Tree of Redemption> is enchanted with Spectral Flight (which makes it 2/15) and your life total is 7. After the exchange, <Tree of Redemption> would be a 2/9 creature (its toughness became 7, which was then modified by Spectral Flight) and your life total would be 15.
-2011/09/22: If <Tree of Redemption> isn't on the battlefield when the ability resolves, the exchange can't happen and the ability will have no effect.</Rulings>
+<Rulings>2018/03/16: If <Tree of Redemption> isn't on the battlefield when its activated ability resolves, the exchange can't happen and the ability will have no effect.
+2018/03/16: When its activated ability resolves, <Tree of Redemption>'s toughness will become your former life total and you will gain or lose an amount of life necessary so that your life total equals <Tree of Redemption>'s former toughness. Other effects that interact with life gain or life loss will interact with this effect accordingly.
+2018/03/16: Any toughness-modifying effects, counters, Auras, or Equipment will apply after its toughness is set to your former life total. For example, say <Tree of Redemption> is enchanted with Lunarch Mantle (which makes it 2/15) and your life total is 7. After the exchange, <Tree of Redemption> would be a 2/9 creature (its toughness became 7, which was then modified by Lunarch Mantle) and your life total would be 15.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4393,7 +4392,7 @@ Sacrifice another creature: Untap Grimgrin and put a +1/+1 counter on it.
 Whenever Grimgrin attacks, destroy target creature defending player controls, then put a +1/+1 counter on Grimgrin.</CardText>
 <Artist>Peter Mohrbacher</Artist>
 <Multiverseid>247237</Multiverseid>
-<Rulings>2011/09/22: If the targeted creature is an illegal target by the time Grimgrin's last ability resolves, the entire ability is countered and none of its effects will occur. You won't put a +1/+1 counter on Grimgrin.
+<Rulings>2011/09/22: If the targeted creature is an illegal target by the time Grimgrin's last ability resolves, the entire ability doesn't resolve and none of its effects will occur. You won't put a +1/+1 counter on Grimgrin.
 2011/09/22: If the defending player controls no creatures when Grimgrin attacks, the last ability will be removed from the stack and have no effect.
 2013/07/01: If Grimgrin's last ability resolves, but the targeted creature isn't destroyed (perhaps because it regenerated or has indestructible), you'll still put a +1/+1 on Grimgrin.</Rulings>
 <Vintage>Legal</Vintage>
@@ -4430,12 +4429,12 @@ Whenever Grimgrin attacks, destroy target creature defending player controls, th
 <Type>Artifact — Equipment</Type>
 <ManaCost>1 (1)</ManaCost>
 <CardText>Equipped creature can't be blocked by Vampires or Zombies.
-Equipped creature has "{T}, Sacrifice Blazing Torch: Blazing Torch deals 2 damage to target creature or player."
+Equipped creature has "{T}, Sacrifice Blazing Torch: Blazing Torch deals 2 damage to any target."
 Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)</CardText>
 <Artist>Scott Chou</Artist>
 <Multiverseid>221284</Multiverseid>
-<Rulings>2009/10/01: If a <Blazing Torch> controlled by one player somehow winds up equipping a creature a different player controls, the damage ability can't be activated by either player. Only the creature's controller may activate the ability — but since that player can't sacrifice <Blazing Torch> (a permanent he or she doesn't control), the ability's cost can't be paid.
-2009/10/01: The source of the damage is <Blazing Torch>, not the equipped creature. However, the equipped creature's ability is what targets the creature or player. If <Blazing Torch> is equipped to a red creature, for example, the ability couldn't target a creature with protection from red. It could target a creature with protection from artifacts, but all the damage would be prevented.</Rulings>
+<Rulings>2009/10/01: If a <Blazing Torch> controlled by one player somehow winds up equipping a creature a different player controls, the damage ability can't be activated by either player. Only the creature's controller may activate the ability — but since that player can't sacrifice <Blazing Torch> (a permanent they don't control), the ability's cost can't be paid.
+2009/10/01: The source of the damage is <Blazing Torch>, not the equipped creature. However, the equipped creature's ability is what targets the permanent or player. If <Blazing Torch> is equipped to a red creature, for example, the ability couldn't target a creature with protection from red. It could target a creature with protection from artifacts, but all the damage would be prevented.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4468,7 +4467,7 @@ Equip {3}</CardText>
 <Name>Cellar Door</Name>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{3}, {T}: Target player puts the bottom card of his or her library into his or her graveyard. If it's a creature card, you create a 2/2 black Zombie creature token.</CardText>
+<CardText>{3}, {T}: Target player puts the bottom card of their library into their graveyard. If it's a creature card, you create a 2/2 black Zombie creature token.</CardText>
 <Flavor>As if anyone needed another reason to avoid dark, dank cellars.</Flavor>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>220390</Multiverseid>
@@ -4578,7 +4577,7 @@ Whenever another creature dies, untap Galvanic Juggernaut.</CardText>
 <Name>Ghoulcaller's Bell</Name>
 <Type>Artifact</Type>
 <ManaCost>1 (1)</ManaCost>
-<CardText>{T}: Each player puts the top card of his or her library into his or her graveyard.</CardText>
+<CardText>{T}: Each player puts the top card of their library into their graveyard.</CardText>
 <Flavor>The bell's chime heralds the rise of the unhallowed from the grave and the fall of their victims into the earth.</Flavor>
 <Artist>Lars Grant-West</Artist>
 <Multiverseid>237362</Multiverseid>
@@ -4595,7 +4594,7 @@ Whenever another creature dies, untap Galvanic Juggernaut.</CardText>
 <Name>Graveyard Shovel</Name>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{2}, {T}: Target player exiles a card from his or her graveyard. If it's a creature card, you gain 2 life.</CardText>
+<CardText>{2}, {T}: Target player exiles a card from their graveyard. If it's a creature card, you gain 2 life.</CardText>
 <Flavor>Thanks to Havengul's thriving illegal market for corpses, the shovel that interred a body during the day is usually the same one digging it out at night.</Flavor>
 <Artist>Martina Pilcerova</Artist>
 <Multiverseid>221288</Multiverseid>
@@ -4782,13 +4781,12 @@ Equip {2}</CardText>
 <Name>Trepanation Blade</Name>
 <Type>Artifact — Equipment</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>Whenever equipped creature attacks, defending player reveals cards from the top of his or her library until he or she reveals a land card. The creature gets +1/+0 until end of turn for each card revealed this way. That player puts the revealed cards into his or her graveyard.
+<CardText>Whenever equipped creature attacks, defending player reveals cards from the top of their library until they reveal a land card. The creature gets +1/+0 until end of turn for each card revealed this way. That player puts the revealed cards into their graveyard.
 Equip {2}</CardText>
 <Artist>Daniel Ljunggren</Artist>
 <Multiverseid>221186</Multiverseid>
 <Rulings>2017/11/17: The land card is counted when calculating the bonus, and it will be put into the graveyard with the other revealed cards.
-2017/11/17: If the equipped creature is attacking a planeswalker in any game except a Two-Headed Giant game, the controller of the planeswalker is the defending player.
-2017/11/17: If the equipped creature is attacking in a Two-Headed Giant game, the controller of the attacking creature chooses one of the two defending players, even if the creature is attacking a planeswalker.</Rulings>
+2017/11/17: If the equipped creature is attacking a planeswalker, the controller of the planeswalker is the defending player.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4838,7 +4836,7 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <Name>Clifftop Retreat</Name>
 <Type>Land</Type>
 <CardText>Clifftop Retreat enters the battlefield tapped unless you control a Mountain or a Plains.
-{T}: Add {R} or {W} to your mana pool.</CardText>
+{T}: Add {R} or {W}.</CardText>
 <Flavor>Where cathars learn to fight not only demons and vampires, but ignorance as well.</Flavor>
 <Artist>John Avon</Artist>
 <Multiverseid>241980</Multiverseid>
@@ -4854,7 +4852,7 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <No>239</No>
 <Name>Gavony Township</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {2}{G}{W}, {T}: Put a +1/+1 counter on each creature you control.</CardText>
 <Flavor>"The protective wards of the church have weakened, and no one can tell us why. It's time to look to our own defenses."
 —Gregel, militia leader</Flavor>
@@ -4872,13 +4870,13 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <No>240</No>
 <Name>Ghost Quarter</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{T}, Sacrifice Ghost Quarter: Destroy target land. Its controller may search his or her library for a basic land card, put it onto the battlefield, then shuffle his or her library.</CardText>
+<CardText>{T}: Add {C}.
+{T}, Sacrifice Ghost Quarter: Destroy target land. Its controller may search their library for a basic land card, put it onto the battlefield, then shuffle their library.</CardText>
 <Flavor>Deserted, but not uninhabited.</Flavor>
 <Artist>Peter Mohrbacher</Artist>
 <Multiverseid>220371</Multiverseid>
-<Rulings>2006/05/01: If you target <Ghost Quarter> with its own ability, the ability will be countered because its target is no longer on the battlefield. You won't get to search for a land card.
-2011/09/22: If the targeted land is an illegal target by the time <Ghost Quarter>'s ability resolves, it will be countered and none of its effects will happen. The land's controller won't get to search for a basic land card.
+<Rulings>2006/05/01: If you target <Ghost Quarter> with its own ability, the ability won't resolve because its target is no longer on the battlefield. You won't get to search for a land card.
+2011/09/22: If the targeted land is an illegal target by the time <Ghost Quarter>'s ability resolves, it won't resolve and none of its effects will happen. The land's controller won't get to search for a basic land card.
 2013/07/01: The target land's controller gets to search for a basic land card even if that land wasn't destroyed by <Ghost Quarter>'s ability. This may happen because the land has indestructible or because it was regenerated.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -4893,7 +4891,7 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <Name>Hinterland Harbor</Name>
 <Type>Land</Type>
 <CardText>Hinterland Harbor enters the battlefield tapped unless you control a Forest or an Island.
-{T}: Add {G} or {U} to your mana pool.</CardText>
+{T}: Add {G} or {U}.</CardText>
 <Flavor>In places where the sea meets the trees, it's easy to forget the darkness that rules most of Innistrad.</Flavor>
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>241988</Multiverseid>
@@ -4910,7 +4908,7 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <Name>Isolated Chapel</Name>
 <Type>Land</Type>
 <CardText>Isolated Chapel enters the battlefield tapped unless you control a Plains or a Swamp.
-{T}: Add {W} or {B} to your mana pool.</CardText>
+{T}: Add {W} or {B}.</CardText>
 <Flavor>Not every church is a place of faith.</Flavor>
 <Artist>Cliff Childs</Artist>
 <Multiverseid>241979</Multiverseid>
@@ -4926,7 +4924,7 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <No>243</No>
 <Name>Kessig Wolf Run</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {X}{R}{G}, {T}: Target creature gets +X/+0 and gains trample until end of turn.</CardText>
 <Flavor>When a werewolf changes for the first time, that first howl is said to echo through the wilds till moonset.</Flavor>
 <Artist>Eytan Zana</Artist>
@@ -4943,7 +4941,7 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <No>244</No>
 <Name>Moorland Haunt</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {W}{U}, {T}, Exile a creature card from your graveyard: Create a 1/1 white Spirit creature token with flying.</CardText>
 <Artist>James Paick</Artist>
 <Multiverseid>233239</Multiverseid>
@@ -4959,8 +4957,8 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <No>245</No>
 <Name>Nephalia Drownyard</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{1}{U}{B}, {T}: Target player puts the top three cards of his or her library into his or her graveyard.</CardText>
+<CardText>{T}: Add {C}.
+{1}{U}{B}, {T}: Target player puts the top three cards of their library into their graveyard.</CardText>
 <Flavor>"Some see a coastal disaster. I see a fully-stocked seagraf."
 —Jadar, ghoulcaller of Nephalia</Flavor>
 <Artist>Cliff Childs</Artist>
@@ -4977,8 +4975,8 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <No>246</No>
 <Name>Shimmering Grotto</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{1}, {T}: Add one mana of any color to your mana pool.</CardText>
+<CardText>{T}: Add {C}.
+{1}, {T}: Add one mana of any color.</CardText>
 <Flavor>"This is the price of being last in the food chain. We must keep our places of beauty hidden away instead of displayed for all to see."
 —Hildin, priest of Avacyn</Flavor>
 <Artist>Cliff Childs</Artist>
@@ -4995,8 +4993,8 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <No>247</No>
 <Name>Stensia Bloodhall</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{3}{B}{R}, {T}: Stensia Bloodhall deals 2 damage to target player.</CardText>
+<CardText>{T}: Add {C}.
+{3}{B}{R}, {T}: Stensia Bloodhall deals 2 damage to target player or planeswalker.</CardText>
 <Flavor>The revelry ends when the supply of fresh ingenues runs dry.</Flavor>
 <Artist>John Avon</Artist>
 <Multiverseid>233244</Multiverseid>
@@ -5014,7 +5012,7 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <Name>Sulfur Falls</Name>
 <Type>Land</Type>
 <CardText>Sulfur Falls enters the battlefield tapped unless you control an Island or a Mountain.
-{T}: Add {U} or {R} to your mana pool.</CardText>
+{T}: Add {U} or {R}.</CardText>
 <Flavor>Skirsdag cultists meet behind a waterfall's curtain and plot with demonic forces.</Flavor>
 <Artist>Cliff Childs</Artist>
 <Multiverseid>241987</Multiverseid>
@@ -5031,7 +5029,7 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <Name>Woodland Cemetery</Name>
 <Type>Land</Type>
 <CardText>Woodland Cemetery enters the battlefield tapped unless you control a Swamp or a Forest.
-{T}: Add {B} or {G} to your mana pool.</CardText>
+{T}: Add {B} or {G}.</CardText>
 <Flavor>Farmers cut the trees and buried their dead. The dead rose up and killed the farmers. The trees grew back and strangled the dead.</Flavor>
 <Artist>Lars Grant-West</Artist>
 <Multiverseid>241983</Multiverseid>
@@ -5047,7 +5045,7 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <No>250</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>245230</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5062,7 +5060,7 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <No>251</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>245233</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5077,7 +5075,7 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <No>252</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Eytan Zana</Artist>
 <Multiverseid>245231</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5092,7 +5090,7 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <No>253</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>James Paick</Artist>
 <Multiverseid>245235</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5107,7 +5105,7 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <No>254</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>245237</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5122,7 +5120,7 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <No>255</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>245236</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5137,7 +5135,7 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <No>256</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>James Paick</Artist>
 <Multiverseid>245240</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5152,7 +5150,7 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <No>257</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>245239</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5167,7 +5165,7 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <No>258</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>245241</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5182,7 +5180,7 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <No>259</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>James Paick</Artist>
 <Multiverseid>245242</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5197,7 +5195,7 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <No>260</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>245245</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5212,7 +5210,7 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <No>261</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Eytan Zana</Artist>
 <Multiverseid>245243</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5227,7 +5225,7 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <No>262</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>James Paick</Artist>
 <Multiverseid>245247</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5242,7 +5240,7 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <No>263</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>245248</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5257,7 +5255,7 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <No>264</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Eytan Zana</Artist>
 <Multiverseid>245246</Multiverseid>
 <Vintage>Legal</Vintage>

@@ -22,7 +22,7 @@ When Aven Riftwatcher enters the battlefield or leaves the battlefield, you gain
 <Name>Balance</Name>
 <Type>Sorcery</Type>
 <ManaCost>1W (2)</ManaCost>
-<CardText>Each player chooses a number of lands he or she controls equal to the number of lands controlled by the player who controls the fewest, then sacrifices the rest. Players discard cards and sacrifice creatures the same way.</CardText>
+<CardText>Each player chooses a number of lands they control equal to the number of lands controlled by the player who controls the fewest, then sacrifices the rest. Players discard cards and sacrifice creatures the same way.</CardText>
 <Artist>Kev Walker</Artist>
 <Multiverseid>413544</Multiverseid>
 <Rulings>2016/06/08: First the player whose turn it is chooses which lands (if any) to keep, then each other player in turn order does the same. Each player will know the choices made by the players who chose before them. All of the unchosen lands are then sacrificed simultaneously. Then the process is repeated for cards in hand, except that no cards are revealed until all players have chosen what to discard, at which point those cards are all discarded simultaneously. Lastly, the process is repeated for creatures, and players will again know earlier choices made when deciding what to sacrifice. All of the unchosen creatures are then sacrificed simultaneously.
@@ -474,7 +474,7 @@ Draw a card.</CardText>
 <Flavor>It suddenly dawned on Jorin that farming was quite a noble profession.</Flavor>
 <Artist>Ray Lago</Artist>
 <Multiverseid>413569</Multiverseid>
-<Rulings>2016/06/08: If the targeted creature is an illegal target when <Second Thoughts> tries to resolve, the entire spell is countered. You won't draw a card.</Rulings>
+<Rulings>2016/06/08: If the targeted creature is an illegal target when <Second Thoughts> tries to resolve, the entire spell doesn't resolve. You won't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Eternal Masters</Set>
@@ -487,8 +487,7 @@ Draw a card.</CardText>
 <Name>Serra Angel</Name>
 <Type>Creature — Angel 4/4</Type>
 <ManaCost>3WW (5)</ManaCost>
-<CardText>Flying (This creature can't be blocked except by creatures with flying or reach.)
-Vigilance (Attacking doesn't cause this creature to tap.)</CardText>
+<CardText>Flying, vigilance</CardText>
 <Flavor>Follow the light. In its absence, follow her.</Flavor>
 <Artist>Greg Staples</Artist>
 <Multiverseid>413570</Multiverseid>
@@ -562,8 +561,8 @@ When Squadron Hawk enters the battlefield, you may search your library for up to
 <Flavor>The smallest seed of regret can bloom into redemption.</Flavor>
 <Artist>Terese Nielsen</Artist>
 <Multiverseid>413574</Multiverseid>
-<Rulings>2017/11/17: The amount of life gained is equal to the power of the target creature as it last existed on the battlefield.
-2017/11/17: If the creature's power is negative, its controller doesn't lose or gain life.</Rulings>
+<Rulings>2018/03/16: The amount of life gained is equal to the power of the targeted creature as it last existed on the battlefield.
+2018/03/16: If the creature's power is negative, its controller doesn't lose or gain life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Eternal Masters</Set>
@@ -708,7 +707,7 @@ When Whitemane Lion enters the battlefield, return a creature you control to its
 <Flavor>The mizzium-sphere array drove her mind deep into the thought field, where only the rarest motes of genius may be plucked.</Flavor>
 <Artist>Willian Murai</Artist>
 <Multiverseid>413582</Multiverseid>
-<Rulings>2016/06/08: You draw three cards and put two cards back all while <Brainstorm> is resolving. Nothing can happen between the two, and no player may choose to take actions.</Rulings>
+<Rulings>2018/03/16: You draw three cards and put two cards back all while <Brainstorm> is resolving. Nothing can happen between the two, and no player may choose to take actions.</Rulings>
 <Vintage>Restricted</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Eternal Masters</Set>
@@ -771,7 +770,7 @@ You control enchanted creature.</CardText>
 <Name>Daze</Name>
 <Type>Instant</Type>
 <ManaCost>1U (2)</ManaCost>
-<CardText>You may return an Island you control to its owner's hand rather than pay Daze's mana cost.
+<CardText>You may return an Island you control to its owner's hand rather than pay this spell's mana cost.
 Counter target spell unless its controller pays {1}.</CardText>
 <Artist>Min Yum</Artist>
 <Multiverseid>413586</Multiverseid>
@@ -805,7 +804,7 @@ Flashback—{1}{U}, Pay 3 life. (You may cast this card from your graveyard for 
 <Name>Diminishing Returns</Name>
 <Type>Sorcery</Type>
 <ManaCost>2UU (4)</ManaCost>
-<CardText>Each player shuffles his or her hand and graveyard into his or her library. You exile the top ten cards of your library. Then each player draws up to seven cards.</CardText>
+<CardText>Each player shuffles their hand and graveyard into their library. You exile the top ten cards of your library. Then each player draws up to seven cards.</CardText>
 <Artist>Greg Opalinski</Artist>
 <Multiverseid>413588</Multiverseid>
 <Rulings>2016/06/08: Each player chooses to draw any number of cards from zero to seven. First the player whose turn it is chooses how many cards to draw, then draws those cards, then each other player in turn order does the same.
@@ -823,7 +822,7 @@ Flashback—{1}{U}, Pay 3 life. (You may cast this card from your graveyard for 
 <Name>Dream Twist</Name>
 <Type>Instant</Type>
 <ManaCost>U (1)</ManaCost>
-<CardText>Target player puts the top three cards of his or her library into his or her graveyard.
+<CardText>Target player puts the top three cards of their library into their graveyard.
 Flashback {1}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</CardText>
 <Artist>Dan Scott</Artist>
 <Multiverseid>413589</Multiverseid>
@@ -857,7 +856,7 @@ Flashback {1}{U} (You may cast this card from your graveyard for its flashback c
 <Name>Force of Will</Name>
 <Type>Instant</Type>
 <ManaCost>3UU (5)</ManaCost>
-<CardText>You may pay 1 life and exile a blue card from your hand rather than pay Force of Will's mana cost.
+<CardText>You may pay 1 life and exile a blue card from your hand rather than pay this spell's mana cost.
 Counter target spell.</CardText>
 <Flavor>"I alone determine my destiny."</Flavor>
 <Artist>Terese Nielsen</Artist>
@@ -1010,11 +1009,11 @@ Shroud (This creature can't be the target of spells or abilities.)</CardText>
 <CardText>+2: Look at the top card of target player's library. You may put that card on the bottom of that player's library.
 0: Draw three cards, then put two cards from your hand on top of your library in any order.
 -1: Return target creature to its owner's hand.
--12: Exile all cards from target player's library, then that player shuffles his or her hand into his or her library.</CardText>
+-12: Exile all cards from target player's library, then that player shuffles their hand into their library.</CardText>
 <Artist>Jason Chan</Artist>
 <Multiverseid>413599</Multiverseid>
-<Rulings>2016/06/08: You draw three cards and put two cards back all while Jace's second ability is resolving. Nothing can happen between the two, and no player may choose to take actions.
-2016/06/08: If the targeted player for Jace's last ability has no cards in hand, that player shuffles nothing into his or her library, and that player's library will remain empty. That player won't lose the game until he or she tries to draw from the empty library.</Rulings>
+<Rulings>2018/03/16: You draw three cards and put two cards back all while Jace's second ability is resolving. Nothing can happen between the two, and no player may choose to take actions.
+2018/03/16: If the targeted player for Jace's last ability has no cards in hand, that player shuffles nothing into their library, and that player's library will remain empty. That player won't lose the game until they try to draw from the empty library.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1085,6 +1084,7 @@ Whenever Jetting Glasskite becomes the target of a spell or ability for the firs
 <Flavor>Merfolk don't always know what they're looking for, but they're certain once they find it.</Flavor>
 <Artist>Austin Hsu</Artist>
 <Multiverseid>413603</Multiverseid>
+<Rulings>2018/03/16: You can't do anything in between drawing a card and discarding a card, including casting or cycling the card you drew.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1122,8 +1122,8 @@ Retrace (You may cast this card from your graveyard by discarding a land card in
 <Multiverseid>413605</Multiverseid>
 <Rulings>2008/08/01: Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You're casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs.
 2008/08/01: A retrace card cast from your graveyard follows the normal timing rules for its card type.
-2008/08/01: When a retrace card you cast from your graveyard resolves or is countered, it's put back into your graveyard. You may use the retrace ability to cast it again.
-2008/08/01: If the active player casts a spell that has retrace, that player may cast that card again after it resolves, before another player can remove the card from the graveyard. The active player has priority after the spell resolves, so he or she can immediately cast a new spell. Since casting a card with retrace from the graveyard moves that card onto the stack, no one else would have the chance to affect it while it's still in the graveyard.</Rulings>
+2008/08/01: When a retrace card you cast from your graveyard resolves, fails to resolve, or is countered, it's put back into your graveyard. You may use the retrace ability to cast it again.
+2008/08/01: If the active player casts a spell that has retrace, that player may cast that card again after it resolves, before another player can remove the card from the graveyard. The active player has priority after the spell resolves, so they can immediately cast a new spell. Since casting a card with retrace from the graveyard moves that card onto the stack, no one else would have the chance to affect it while it's still in the graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1192,7 +1192,7 @@ Phyrexian Ingester gets +X/+Y, where X is the exiled creature card's power and Y
 <Name>Prodigal Sorcerer</Name>
 <Type>Creature — Human Wizard 1/1</Type>
 <ManaCost>2U (3)</ManaCost>
-<CardText>{T}: Prodigal Sorcerer deals 1 damage to target creature or player.</CardText>
+<CardText>{T}: Prodigal Sorcerer deals 1 damage to any target.</CardText>
 <Flavor>"You can't learn to enjoy life's amusements in the pages of books. You must seek them out in earnest."</Flavor>
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>413609</Multiverseid>
@@ -1209,7 +1209,7 @@ Phyrexian Ingester gets +X/+Y, where X is the exiled creature card's power and Y
 <Name>Quiet Speculation</Name>
 <Type>Sorcery</Type>
 <ManaCost>1U (2)</ManaCost>
-<CardText>Search target player's library for up to three cards with flashback and put them into that player's graveyard. Then the player shuffles his or her library.</CardText>
+<CardText>Search target player's library for up to three cards with flashback and put them into that player's graveyard. Then the player shuffles their library.</CardText>
 <Flavor>"The best foresight is hindsight."
 —Empress Llawan</Flavor>
 <Artist>John Avon</Artist>
@@ -1336,7 +1336,7 @@ Enchanted creature's activated abilities can't be activated.</CardText>
 <CardText>Create a 5/5 blue Wall creature token with defender. Sacrifice it at the beginning of the next end step.</CardText>
 <Flavor>"The floor of the sea is paved with the shattered remnants of vessels that navigated its surface unwelcomed."
 —Thassa, god of the sea</Flavor>
-<Artist>Brian Snoddy</Artist>
+<Artist>Brian Snõddy</Artist>
 <Multiverseid>413617</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1416,7 +1416,7 @@ Draw a card.</CardText>
 —Tsabo Tavoc, Phyrexian general</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>413621</Multiverseid>
-<Rulings>2016/06/08: If the targeted creature is an illegal target when <Annihilate> tries to resolve, the entire spell is countered. You won't draw a card.</Rulings>
+<Rulings>2016/06/08: If the targeted creature is an illegal target when <Annihilate> tries to resolve, the entire spell doesn't resolve. You won't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Eternal Masters</Set>
@@ -1429,7 +1429,7 @@ Draw a card.</CardText>
 <Name>Blightsoil Druid</Name>
 <Type>Creature — Elf Druid 1/2</Type>
 <ManaCost>1B (2)</ManaCost>
-<CardText>{T}, Pay 1 life: Add {G} to your mana pool.</CardText>
+<CardText>{T}, Pay 1 life: Add {G}.</CardText>
 <Flavor>"See the beauty in death: the clean white bones lying in the fertile soil and the brightly colored moonglove sprouting from the fell earth."</Flavor>
 <Artist>Nils Hamm</Artist>
 <Multiverseid>413622</Multiverseid>
@@ -1481,11 +1481,11 @@ Draw a card.</CardText>
 <Name>Cabal Therapy</Name>
 <Type>Sorcery</Type>
 <ManaCost>B (1)</ManaCost>
-<CardText>Choose a nonland card name. Target player reveals his or her hand and discards all cards with that name.
+<CardText>Choose a nonland card name. Target player reveals their hand and discards all cards with that name.
 Flashback—Sacrifice a creature. (You may cast this card from your graveyard for its flashback cost. Then exile it.)</CardText>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>413625</Multiverseid>
-<Rulings>2016/06/08: You name the card as <Cabal Therapy> resolves, not as you cast it. Then the targeted player reveals his or her hand and discards if appropriate. No player may choose to take actions between you naming the card and the targeted player revealing and discarding.</Rulings>
+<Rulings>2016/06/08: You name the card as <Cabal Therapy> resolves, not as you cast it. Then the targeted player reveals their hand and discards if appropriate. No player may choose to take actions between you naming the card and the targeted player revealing and discarding.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Eternal Masters</Set>
@@ -1501,7 +1501,7 @@ Flashback—Sacrifice a creature. (You may cast this card from your graveyard fo
 <CardText>Carrion Feeder can't block.
 Sacrifice a creature: Put a +1/+1 counter on Carrion Feeder.</CardText>
 <Flavor>Stinking of rot, it leaps between gravestones in search of its next meal.</Flavor>
-<Artist>Brian Snoddy</Artist>
+<Artist>Brian Snõddy</Artist>
 <Multiverseid>413626</Multiverseid>
 <Rulings>2016/06/08: You can sacrifice <Carrion Feeder> to activate its own ability. The ability will have no effect as it resolves.</Rulings>
 <Vintage>Legal</Vintage>
@@ -1533,7 +1533,7 @@ Sacrifice a creature: Put a +1/+1 counter on Carrion Feeder.</CardText>
 <Name>Duress</Name>
 <Type>Sorcery</Type>
 <ManaCost>B (1)</ManaCost>
-<CardText>Target opponent reveals his or her hand. You choose a noncreature, nonland card from it. That player discards that card.</CardText>
+<CardText>Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card.</CardText>
 <Flavor>"Don't worry. I'm not going to deprive you of all your secrets. Just your most precious one."
 —Liliana Vess</Flavor>
 <Artist>Steven Belledin</Artist>
@@ -1709,7 +1709,7 @@ At the beginning of your upkeep, if Ichorid is in your graveyard, you may exile 
 <Name>Malicious Affliction</Name>
 <Type>Instant</Type>
 <ManaCost>BB (2)</ManaCost>
-<CardText>Morbid — When you cast Malicious Affliction, if a creature died this turn, you may copy Malicious Affliction and may choose a new target for the copy.
+<CardText>Morbid — When you cast this spell, if a creature died this turn, you may copy Malicious Affliction and may choose a new target for the copy.
 Destroy target nonblack creature.</CardText>
 <Flavor>"Such an affliction appears to seek out the pure."
 —Byro, plague doctor</Flavor>
@@ -1926,7 +1926,7 @@ When Skulking Ghost becomes the target of a spell or ability, sacrifice it.</Car
 <Name>Toxic Deluge</Name>
 <Type>Sorcery</Type>
 <ManaCost>2B (3)</ManaCost>
-<CardText>As an additional cost to cast Toxic Deluge, pay X life.
+<CardText>As an additional cost to cast this spell, pay X life.
 All creatures get -X/-X until end of turn.</CardText>
 <Flavor>"It's a difficult task to quarantine a plague that moves with the clouds."
 —Esara, healer adept</Flavor>
@@ -2030,7 +2030,7 @@ Draw a card.</CardText>
 <Rulings>2016/06/08: You must choose two targets. You can't cast <Victimize> targeting only one creature card.
 2016/06/08: The creature you sacrifice isn't chosen until <Victimize> resolves. You can't return the creature you sacrifice because it will still be on the battlefield at the time targets are chosen.
 2016/06/08: As <Victimize> resolves, you must sacrifice a creature if able. You can't change your mind and choose not to sacrifice anything.
-2016/06/08: If one of the targeted creature cards is an illegal target (for instance, because it has left your graveyard before <Victimize> resolves), you'll still sacrifice a creature and put the other card onto the battlefield. If both are illegal targets, <Victimize> will be countered. You won't sacrifice a creature.
+2016/06/08: If one of the targeted creature cards is an illegal target (for instance, because it has left your graveyard before <Victimize> resolves), you'll still sacrifice a creature and put the other card onto the battlefield. If both are illegal targets, <Victimize> won't resolve. You won't sacrifice a creature.
 2016/06/08: <Victimize> can be used to put both parts of the B.F.M. onto the battlefield at once.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2165,7 +2165,7 @@ Battle Squadron's power and toughness are each equal to the number of creatures 
 <Name>Burning Vengeance</Name>
 <Type>Enchantment</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>Whenever you cast a spell from your graveyard, Burning Vengeance deals 2 damage to target creature or player.</CardText>
+<CardText>Whenever you cast a spell from your graveyard, Burning Vengeance deals 2 damage to any target.</CardText>
 <Flavor>Mist is the geists' sorrow. Wind is their pain. Fire is their vengeance.</Flavor>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>413663</Multiverseid>
@@ -2185,7 +2185,7 @@ Battle Squadron's power and toughness are each equal to the number of creatures 
 <Name>Carbonize</Name>
 <Type>Instant</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>Carbonize deals 3 damage to target creature or player. That creature can't be regenerated this turn. If the creature would die this turn, exile it instead.</CardText>
+<CardText>Carbonize deals 3 damage to any target. If it's a creature, it can't be regenerated this turn, and if it would die this turn, exile it instead.</CardText>
 <Flavor>"There's no coming back from that."
 —Jaya Ballard</Flavor>
 <Artist>Lake Hurwitz</Artist>
@@ -2203,7 +2203,7 @@ Battle Squadron's power and toughness are each equal to the number of creatures 
 <Name>Chain Lightning</Name>
 <Type>Sorcery</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>Chain Lightning deals 3 damage to target creature or player. Then that player or that creature's controller may pay {R}{R}. If the player does, he or she may copy this spell and may choose a new target for that copy.</CardText>
+<CardText>Chain Lightning deals 3 damage to any target. Then that player or that permanent's controller may pay {R}{R}. If the player does, they may copy this spell and may choose a new target for that copy.</CardText>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>413665</Multiverseid>
 <Rulings>2004/10/04: The copy is a spell, so it can be targeted by other spells and abilities that target a spell.
@@ -2212,7 +2212,7 @@ Battle Squadron's power and toughness are each equal to the number of creatures 
 2016/06/08: As <Chain Lightning> resolves, the targeted player or the controller of the targeted creature may copy it. The copy has the same text, target, and color of the resolving spell, though the player who's copying it may choose a new target for it. Once that copy is created (or not), the first <Chain Lightning> has finished resolving and leaves the stack.
 2016/06/08: The player putting the copy of the spell on the stack controls that copy.
 2016/06/08: The copy of <Chain Lightning> is created on the stack, so it's not cast. Abilities that trigger when a player casts a spell won't trigger. Players may respond to that spell before it resolves.
-2016/06/08: If the targeted creature or player is an illegal target when <Chain Lightning> tries to resolve, the spell is countered. It can't be copied.</Rulings>
+2016/06/08: If the targeted permanent or player is an illegal target when <Chain Lightning> tries to resolve, the spell doesn't resolve. It can't be copied.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Eternal Masters</Set>
@@ -2340,7 +2340,7 @@ When Fervent Cathar enters the battlefield, target creature can't block this tur
 <Name>Firebolt</Name>
 <Type>Sorcery</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>Firebolt deals 2 damage to target creature or player.
+<CardText>Firebolt deals 2 damage to any target.
 Flashback {4}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</CardText>
 <Flavor>"There's more where that came from!"</Flavor>
 <Artist>Chris Rallis</Artist>
@@ -2357,7 +2357,7 @@ Flashback {4}{R} (You may cast this card from your graveyard for its flashback c
 <Name>Flame Jab</Name>
 <Type>Sorcery</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>Flame Jab deals 1 damage to target creature or player.
+<CardText>Flame Jab deals 1 damage to any target.
 Retrace (You may cast this card from your graveyard by discarding a land card in addition to paying its other costs.)</CardText>
 <Flavor>"Fire's out. Should be safe now."
 —Gnarltrunk</Flavor>
@@ -2365,8 +2365,8 @@ Retrace (You may cast this card from your graveyard by discarding a land card in
 <Multiverseid>413673</Multiverseid>
 <Rulings>2008/08/01: Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You're casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs.
 2008/08/01: A retrace card cast from your graveyard follows the normal timing rules for its card type.
-2008/08/01: When a retrace card you cast from your graveyard resolves or is countered, it's put back into your graveyard. You may use the retrace ability to cast it again.
-2008/08/01: If the active player casts a spell that has retrace, that player may cast that card again after it resolves, before another player can remove the card from the graveyard. The active player has priority after the spell resolves, so he or she can immediately cast a new spell. Since casting a card with retrace from the graveyard moves that card onto the stack, no one else would have the chance to affect it while it's still in the graveyard.</Rulings>
+2008/08/01: When a retrace card you cast from your graveyard resolves, fails to resolve, or is countered, it's put back into your graveyard. You may use the retrace ability to cast it again.
+2008/08/01: If the active player casts a spell that has retrace, that player may cast that card again after it resolves, before another player can remove the card from the graveyard. The active player has priority after the spell resolves, so they can immediately cast a new spell. Since casting a card with retrace from the graveyard moves that card onto the stack, no one else would have the chance to affect it while it's still in the graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2399,7 +2399,7 @@ Retrace (You may cast this card from your graveyard by discarding a land card in
 <Type>Creature — Human Nomad 2/2</Type>
 <ManaCost>2R (3)</ManaCost>
 <CardText>Echo {2}{R} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
-When Ghitu Slinger enters the battlefield, it deals 2 damage to target creature or player.</CardText>
+When Ghitu Slinger enters the battlefield, it deals 2 damage to any target.</CardText>
 <Artist>Clint Cearley</Artist>
 <Multiverseid>413675</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2414,7 +2414,7 @@ When Ghitu Slinger enters the battlefield, it deals 2 damage to target creature 
 <Name>Honden of Infinite Rage</Name>
 <Type>Legendary Enchantment — Shrine</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>At the beginning of your upkeep, Honden of Infinite Rage deals damage to target creature or player equal to the number of Shrines you control.</CardText>
+<CardText>At the beginning of your upkeep, Honden of Infinite Rage deals damage to any target equal to the number of Shrines you control.</CardText>
 <Flavor>To the sorrow of all, its rage became focused on those who once stoked it.</Flavor>
 <Artist>John Avon</Artist>
 <Multiverseid>413676</Multiverseid>
@@ -2433,7 +2433,7 @@ When Ghitu Slinger enters the battlefield, it deals 2 damage to target creature 
 <ManaCost>2RR (4)</ManaCost>
 <CardText>Haste
 Echo {2}{R}{R} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
-When Keldon Champion enters the battlefield, it deals 3 damage to target player.</CardText>
+When Keldon Champion enters the battlefield, it deals 3 damage to target player or planeswalker.</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>413677</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2449,7 +2449,7 @@ When Keldon Champion enters the battlefield, it deals 3 damage to target player.
 <Type>Creature — Human Warrior 3/3</Type>
 <ManaCost>1R (2)</ManaCost>
 <CardText>Vanishing 2 (This creature enters the battlefield with two time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)
-When Keldon Marauders enters the battlefield or leaves the battlefield, it deals 1 damage to target player.</CardText>
+When Keldon Marauders enters the battlefield or leaves the battlefield, it deals 1 damage to target player or planeswalker.</CardText>
 <Artist>Alex Horley-Orlandelli</Artist>
 <Multiverseid>413678</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2482,7 +2482,7 @@ When Keldon Marauders enters the battlefield or leaves the battlefield, it deals
 <Name>Mogg Fanatic</Name>
 <Type>Creature — Goblin 1/1</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>Sacrifice Mogg Fanatic: Mogg Fanatic deals 1 damage to target creature or player.</CardText>
+<CardText>Sacrifice Mogg Fanatic: It deals 1 damage to any target.</CardText>
 <Flavor>"I got it! I got it! I—"</Flavor>
 <Artist>Brom</Artist>
 <Multiverseid>413680</Multiverseid>
@@ -2569,12 +2569,12 @@ When Mogg War Marshal enters the battlefield or dies, create a 1/1 red Goblin cr
 <Name>Pyrokinesis</Name>
 <Type>Instant</Type>
 <ManaCost>4RR (6)</ManaCost>
-<CardText>You may exile a red card from your hand rather than pay Pyrokinesis's mana cost.
+<CardText>You may exile a red card from your hand rather than pay this spell's mana cost.
 Pyrokinesis deals 4 damage divided as you choose among any number of target creatures.</CardText>
 <Artist>Igor Kieryluk</Artist>
 <Multiverseid>413685</Multiverseid>
 <Rulings>2016/06/08: The number of targets must be at least one and at most four. Each target must be assigned at least 1 damage.
-2016/06/08: You divide the damage as you cast <Pyrokinesis>, not as it resolves. If any of the targets become illegal, damage is dealt to the other targets as originally assigned. If all targets are illegal, <Pyrokinesis> is countered.
+2016/06/08: You divide the damage as you cast <Pyrokinesis>, not as it resolves. If any of the targets become illegal, damage is dealt to the other targets as originally assigned. If all targets are illegal, <Pyrokinesis> doesn't resolve.
 2016/06/08: If another effect causes <Pyrokinesis> to cost more, you must pay that additional cost even if you pay its alternative cost.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2640,11 +2640,10 @@ Flashback {2}{R} (You may cast this card from your graveyard for its flashback c
 <Type>Creature — Goblin 2/2</Type>
 <ManaCost>3RR (5)</ManaCost>
 <CardText>When Siege-Gang Commander enters the battlefield, create three 1/1 red Goblin creature tokens.
-{1}{R}, Sacrifice a Goblin: Siege-Gang Commander deals 2 damage to target creature or player.</CardText>
+{1}{R}, Sacrifice a Goblin: Siege-Gang Commander deals 2 damage to any target.</CardText>
 <Artist>Lucio Parrillo</Artist>
 <Multiverseid>413689</Multiverseid>
-<Rulings>2016/06/08: You can sacrifice any Goblin you control to activate <Siege-Gang Commander>'s activated ability, not just the ones its triggered ability puts onto the battlefield. You can even sacrifice <Siege-Gang Commander> itself.
-2016/06/08: If you sacrifice an attacking or blocking Goblin during the declare blockers step, it won't deal combat damage. If you wait until the combat damage step, but that Goblin has been dealt lethal damage, it'll be destroyed before you get a chance to sacrifice it.</Rulings>
+<Rulings>2018/04/27: You can sacrifice any Goblin you control to activate <Siege-Gang Commander>'s activated ability, not just the ones its triggered ability puts onto the battlefield. You can even sacrifice <Siege-Gang Commander> itself.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2731,7 +2730,7 @@ Enchanted creature gets +2/+2 and can't block.
 When Undying Rage is put into a graveyard from the battlefield, return Undying Rage to its owner's hand.</CardText>
 <Artist>Scott M. Fischer</Artist>
 <Multiverseid>413694</Multiverseid>
-<Rulings>2016/06/08: If the target of <Undying Rage> when it's cast as a spell is an illegal target when <Undying Rage> tries to resolve, <Undying Rage> will be countered and put into its owner's graveyard. It won't return to its owner's hand.</Rulings>
+<Rulings>2016/06/08: If the target of <Undying Rage> when it's cast as a spell is an illegal target when <Undying Rage> tries to resolve, <Undying Rage> won't resolve and will be put into its owner's graveyard. It won't return to its owner's hand.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2804,7 +2803,7 @@ When Worldgorger Dragon leaves the battlefield, return the exiled cards to the b
 <ManaCost>G (1)</ManaCost>
 <CardText>Enchant land
 When Abundant Growth enters the battlefield, draw a card.
-Enchanted land has "{T}: Add one mana of any color to your mana pool."</CardText>
+Enchanted land has "{T}: Add one mana of any color."</CardText>
 <Artist>Vincent Proce</Artist>
 <Multiverseid>413698</Multiverseid>
 <Rulings>2016/06/08: The enchanted land retains any other abilities it has. Activating one of the land's activated abilities won't cause the other(s) to be activated.</Rulings>
@@ -3017,13 +3016,13 @@ When enchanted creature dies, create a 3/3 green Elephant creature token.</CardT
 <Name>Gaea's Blessing</Name>
 <Type>Sorcery</Type>
 <ManaCost>1G (2)</ManaCost>
-<CardText>Target player shuffles up to three target cards from his or her graveyard into his or her library.
+<CardText>Target player shuffles up to three target cards from their graveyard into their library.
 Draw a card.
 When Gaea's Blessing is put into your graveyard from your library, shuffle your graveyard into your library.</CardText>
 <Artist>Rebecca Guay</Artist>
 <Multiverseid>413710</Multiverseid>
-<Rulings>2016/06/08: When you cast <Gaea's Blessing>, you can't choose it as one of its own targets. This is because you choose the targets when casting this spell, and spells are not put into your graveyard until after they resolve.
-2016/06/08: You must target a player as you cast <Gaea's Blessing>. You may target zero, one, two, or three cards in that player's graveyard.</Rulings>
+<Rulings>2018/04/27: If <Gaea's Blessing> has no legal target cards in a graveyard, either because its targets became illegal or because you didn't choose any, the target player shuffles their library.
+2018/04/27: If an effect puts multiple cards from your library into your graveyard at once, put all of those cards there before <Gaea's Blessing> shuffles your graveyard into your library.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3041,10 +3040,10 @@ When Gaea's Blessing is put into your graveyard from your library, shuffle your 
 <Flavor>As the green sun crowned, Phyrexian prophecies glowed on the Tree of Tales.</Flavor>
 <Artist>David Rapoza</Artist>
 <Multiverseid>413711</Multiverseid>
-<Rulings>2011/06/01: If this spell is countered, none of its effects occur. In particular, it will go to the graveyard rather than to its owner's library.
+<Rulings>2011/06/01: If this spell doesn't resolve, none of its effects occur. In particular, it will go to the graveyard rather than to its owner's library.
 2016/06/08: If <Green Sun's Zenith> is countered, none of its effects will happen. Notably, it will be put into its owner's graveyard rather than shuffled into its owner's library.
 2016/06/08: In most cases, if you own <Green Sun's Zenith> and cast it, you'll shuffle your library twice. In practice, shuffling once is sufficient, but effects that care about you shuffling your library (like Psychogenic Probe, for example) will see that you've shuffled twice.
-2016/06/08: If you own <Green Sun's Zenith>, but an opponent casts it (due to Knowledge Pool's effect, for example), that opponent searches his or her library for an appropriate creature card, then shuffles that library. That opponent then shuffles <Green Sun's Zenith> into your library. You won't shuffle any library in this case.</Rulings>
+2016/06/08: If you own <Green Sun's Zenith>, but an opponent casts it (due to Knowledge Pool's effect, for example), that opponent searches their library for an appropriate creature card, then shuffles that library. That opponent then shuffles <Green Sun's Zenith> into your library. You won't shuffle any library in this case.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Banned</Modern>
@@ -3076,7 +3075,7 @@ When Gaea's Blessing is put into your graveyard from your library, shuffle your 
 <Name>Heritage Druid</Name>
 <Type>Creature — Elf Druid 1/1</Type>
 <ManaCost>G (1)</ManaCost>
-<CardText>Tap three untapped Elves you control: Add {G}{G}{G} to your mana pool.</CardText>
+<CardText>Tap three untapped Elves you control: Add {G}{G}{G}.</CardText>
 <Flavor>"Study the great spirits of our age and those of the past. Prune secrets from the branching traceries of our lineage."
 —Twila, Gilt-Leaf archdruid</Flavor>
 <Artist>Larry MacDougall</Artist>
@@ -3130,7 +3129,7 @@ When Gaea's Blessing is put into your graveyard from your library, shuffle your 
 <Name>Invigorate</Name>
 <Type>Instant</Type>
 <ManaCost>2G (3)</ManaCost>
-<CardText>If you control a Forest, rather than pay Invigorate's mana cost, you may have an opponent gain 3 life.
+<CardText>If you control a Forest, rather than pay this spell's mana cost, you may have an opponent gain 3 life.
 Target creature gets +4/+4 until end of turn.</CardText>
 <Artist>Mark Zug</Artist>
 <Multiverseid>413716</Multiverseid>
@@ -3148,7 +3147,7 @@ Target creature gets +4/+4 until end of turn.</CardText>
 <Name>Llanowar Elves</Name>
 <Type>Creature — Elf Druid 1/1</Type>
 <ManaCost>G (1)</ManaCost>
-<CardText>{T}: Add {G} to your mana pool.</CardText>
+<CardText>{T}: Add {G}.</CardText>
 <Flavor>One bone broken for every twig snapped underfoot.
 —Llanowar penalty for trespassing</Flavor>
 <Artist>Kev Walker</Artist>
@@ -3184,7 +3183,7 @@ Target creature gets +4/+4 until end of turn.</CardText>
 <Name>Natural Order</Name>
 <Type>Sorcery</Type>
 <ManaCost>2GG (4)</ManaCost>
-<CardText>As an additional cost to cast Natural Order, sacrifice a green creature.
+<CardText>As an additional cost to cast this spell, sacrifice a green creature.
 Search your library for a green creature card and put it onto the battlefield. Then shuffle your library.</CardText>
 <Flavor>. . . but the price of Mangara's freedom was Asmira's life.</Flavor>
 <Artist>Terese Nielsen</Artist>
@@ -3208,7 +3207,7 @@ Search your library for a green creature card and put it onto the battlefield. T
 —Sildark, artificer of Omu</Flavor>
 <Artist>Raoul Vitale</Artist>
 <Multiverseid>413720</Multiverseid>
-<Rulings>2017/11/17: If the target artifact or enchantment is an illegal target when <Nature's Claim> tries to resolve, the entire spell is countered. No one gains any life.</Rulings>
+<Rulings>2017/11/17: If the target artifact or enchantment is an illegal target when <Nature's Claim> tries to resolve, the entire spell doesn't resolve. No one gains any life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3244,7 +3243,7 @@ Enchanted creature gets +2/+0 and has trample.
 When Rancor is put into a graveyard from the battlefield, return Rancor to its owner's hand.</CardText>
 <Artist>Kev Walker</Artist>
 <Multiverseid>413722</Multiverseid>
-<Rulings>2016/06/08: If the target of <Rancor> when it's cast as a spell is an illegal target when <Rancor> tries to resolve, <Rancor> will be countered and put into its owner's graveyard. It won't return to its owner's hand.</Rulings>
+<Rulings>2018/03/16: If the creature this Aura would enchant is an illegal target by the time <Rancor> tries to resolve, the Aura spell doesn't resolve. It won't enter the battlefield, so it won't be put into a graveyard from the battlefield and its ability won't trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3434,7 +3433,7 @@ Deathtouch (Any amount of damage this deals to a creature is enough to destroy i
 <Name>Werebear</Name>
 <Type>Creature — Human Bear Druid 1/1</Type>
 <ManaCost>1G (2)</ManaCost>
-<CardText>{T}: Add {G} to your mana pool.
+<CardText>{T}: Add {G}.
 Threshold — Werebear gets +3/+3 as long as seven or more cards are in your graveyard.</CardText>
 <Flavor>To become is to understand.</Flavor>
 <Artist>Filip Burburan</Artist>
@@ -3607,7 +3606,7 @@ Whenever Brago, King Eternal deals combat damage to a player, exile any number o
 <Name>Extract from Darkness</Name>
 <Type>Sorcery</Type>
 <ManaCost>3UB (5)</ManaCost>
-<CardText>Each player puts the top two cards of his or her library into his or her graveyard. Then put a creature card from a graveyard onto the battlefield under your control.</CardText>
+<CardText>Each player puts the top two cards of their library into their graveyard. Then you put a creature card from a graveyard onto the battlefield under your control.</CardText>
 <Flavor>If you want to wreak havoc above, sometimes it's best to look below.</Flavor>
 <Artist>Dallas Williams</Artist>
 <Multiverseid>413742</Multiverseid>
@@ -3800,7 +3799,7 @@ Whenever Trygon Predator deals combat damage to a player, you may destroy target
 <Name>Void</Name>
 <Type>Sorcery</Type>
 <ManaCost>3BR (5)</ManaCost>
-<CardText>Choose a number. Destroy all artifacts and creatures with converted mana cost equal to that number. Then target player reveals his or her hand and discards all nonland cards with converted mana cost equal to the number.</CardText>
+<CardText>Choose a number. Destroy all artifacts and creatures with converted mana cost equal to that number. Then target player reveals their hand and discards all nonland cards with converted mana cost equal to the number.</CardText>
 <Artist>Jakub Kasper</Artist>
 <Multiverseid>413753</Multiverseid>
 <Rulings>2016/06/08: You can choose 0. Artifact lands and most tokens have converted mana costs of 0, for example.
@@ -3863,8 +3862,8 @@ Retrace (You may cast this card from your graveyard by discarding a land card in
 <Multiverseid>413756</Multiverseid>
 <Rulings>2008/08/01: Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You're casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs.
 2008/08/01: A retrace card cast from your graveyard follows the normal timing rules for its card type.
-2008/08/01: When a retrace card you cast from your graveyard resolves or is countered, it's put back into your graveyard. You may use the retrace ability to cast it again.
-2008/08/01: If the active player casts a spell that has retrace, that player may cast that card again after it resolves, before another player can remove the card from the graveyard. The active player has priority after the spell resolves, so he or she can immediately cast a new spell. Since casting a card with retrace from the graveyard moves that card onto the stack, no one else would have the chance to affect it while it's still in the graveyard.</Rulings>
+2008/08/01: When a retrace card you cast from your graveyard resolves, fails to resolve, or is countered, it's put back into your graveyard. You may use the retrace ability to cast it again.
+2008/08/01: If the active player casts a spell that has retrace, that player may cast that card again after it resolves, before another player can remove the card from the graveyard. The active player has priority after the spell resolves, so they can immediately cast a new spell. Since casting a card with retrace from the graveyard moves that card onto the stack, no one else would have the chance to affect it while it's still in the graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3878,13 +3877,13 @@ Retrace (You may cast this card from your graveyard by discarding a land card in
 <Name>Deathrite Shaman</Name>
 <Type>Creature — Elf Shaman 1/2</Type>
 <ManaCost>{B/G} (1)</ManaCost>
-<CardText>{T}: Exile target land card from a graveyard. Add one mana of any color to your mana pool.
+<CardText>{T}: Exile target land card from a graveyard. Add one mana of any color.
 {B}, {T}: Exile target instant or sorcery card from a graveyard. Each opponent loses 2 life.
 {G}, {T}: Exile target creature card from a graveyard. You gain 2 life.</CardText>
 <Artist>Steve Argyle</Artist>
 <Multiverseid>413757</Multiverseid>
 <Rulings>2016/06/08: Because the first ability requires a target, it is not a mana ability. It uses the stack and can be responded to.
-2016/06/08: If the target of any of <Deathrite Shaman>'s three abilities is an illegal target when that ability tries to resolve, it will be countered and none of its effects will happen. You won't add mana to your mana pool, no opponent will lose life, or you won't gain life, as appropriate.</Rulings>
+2016/06/08: If the target of any of <Deathrite Shaman>'s three abilities is an illegal target when that ability tries to resolve, it won't resolve and none of its effects will happen. You won't add mana to your mana pool, no opponent will lose life, or you won't gain life, as appropriate.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Banned</Modern>
@@ -3936,7 +3935,7 @@ Trample; haste; shroud (This creature can't be the target of spells or abilities
 <Name>Ashnod's Altar</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>Sacrifice a creature: Add {C}{C} to your mana pool.</CardText>
+<CardText>Sacrifice a creature: Add {C}{C}.</CardText>
 <Flavor>"If you work at sawing up carcasses, you notice how the joints fit, how the nerves are arrayed, and how the skin peels back."
 —Ashnod, to Tawnos</Flavor>
 <Artist>Greg Staples</Artist>
@@ -3954,7 +3953,7 @@ Trample; haste; shroud (This creature can't be the target of spells or abilities
 <Type>Artifact</Type>
 <ManaCost>0 (0)</ManaCost>
 <CardText>Imprint — When Chrome Mox enters the battlefield, you may exile a nonartifact, nonland card from your hand.
-{T}: Add one mana of any of the exiled card's colors to your mana pool.</CardText>
+{T}: Add one mana of any of the exiled card's colors.</CardText>
 <Artist>Volkan Baga</Artist>
 <Multiverseid>413761</Multiverseid>
 <Rulings>2016/06/08: If no card is imprinted on <Chrome Mox>, it can't add mana to your mana pool. It can never add colorless mana to your mana pool, even if the imprinted card has a colorless mana symbol in its mana cost.
@@ -4010,7 +4009,7 @@ As long as a card exiled with Duplicant is a creature card, Duplicant has the po
 <Name>Goblin Charbelcher</Name>
 <Type>Artifact</Type>
 <ManaCost>4 (4)</ManaCost>
-<CardText>{3}, {T}: Reveal cards from the top of your library until you reveal a land card. Goblin Charbelcher deals damage equal to the number of nonland cards revealed this way to target creature or player. If the revealed land card was a Mountain, Goblin Charbelcher deals double that damage instead. Put the revealed cards on the bottom of your library in any order.</CardText>
+<CardText>{3}, {T}: Reveal cards from the top of your library until you reveal a land card. Goblin Charbelcher deals damage equal to the number of nonland cards revealed this way to any target. If the revealed land card was a Mountain, Goblin Charbelcher deals double that damage instead. Put the revealed cards on the bottom of your library in any order.</CardText>
 <Artist>Jesper Ejsing</Artist>
 <Multiverseid>413764</Multiverseid>
 <Rulings>2016/06/08: You must choose a target for <Goblin Charbelcher>'s ability as you activate it, before you reveal any cards.
@@ -4057,7 +4056,7 @@ Juggernaut can't be blocked by Walls.</CardText>
 <Flavor>Many a besieged city has surrendered upon hearing the distinctive rumble of the juggernaut.</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>413766</Multiverseid>
-<Rulings>2016/06/08: If, during your declare attackers step, <Juggernaut> is tapped, is affected by a spell or ability that says it can't attack, or you haven't controlled it continuously since the beginning of your turn, then it doesn't attack. If there's a cost associated with having <Juggernaut> attack, you aren't forced to pay that cost, so it doesn't have to attack in that case either.</Rulings>
+<Rulings>2018/04/27: If <Juggernaut> can't attack for any reason (such as being tapped or having come under that player's control that turn), then it doesn't attack. If there's a cost associated with having it attack, its controller isn't forced to pay that cost, so it doesn't have to attack in that case either.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4072,7 +4071,7 @@ Juggernaut can't be blocked by Walls.</CardText>
 <Type>Artifact</Type>
 <ManaCost>0 (0)</ManaCost>
 <CardText>At the beginning of your upkeep, flip a coin. If you lose the flip, Mana Crypt deals 3 damage to you.
-{T}: Add {C}{C} to your mana pool.</CardText>
+{T}: Add {C}{C}.</CardText>
 <Artist>Matt Stewart</Artist>
 <Multiverseid>413767</Multiverseid>
 <Rulings>2016/06/08: No player may choose to take actions between determining the result of the flip and damage being dealt if you lost the flip.</Rulings>
@@ -4088,7 +4087,7 @@ Juggernaut can't be blocked by Walls.</CardText>
 <Name>Millikin</Name>
 <Type>Artifact Creature — Construct 0/1</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{T}, Put the top card of your library into your graveyard: Add {C} to your mana pool.</CardText>
+<CardText>{T}, Put the top card of your library into your graveyard: Add {C}.</CardText>
 <Flavor>The toymaker frowned in bewilderment. None of his creations had ever sneezed before.</Flavor>
 <Artist>Alex Horley-Orlandelli</Artist>
 <Multiverseid>413768</Multiverseid>
@@ -4108,7 +4107,7 @@ Juggernaut can't be blocked by Walls.</CardText>
 <CardText>Mindless Automaton enters the battlefield with two +1/+1 counters on it.
 {1}, Discard a card: Put a +1/+1 counter on Mindless Automaton.
 Remove two +1/+1 counters from Mindless Automaton: Draw a card.</CardText>
-<Artist>Brian Snoddy</Artist>
+<Artist>Brian Snõddy</Artist>
 <Multiverseid>413769</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -4158,8 +4157,8 @@ When Pilgrim's Eye enters the battlefield, you may search your library for a bas
 <Name>Prismatic Lens</Name>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{T}: Add {C} to your mana pool.
-{1}, {T}: Add one mana of any color to your mana pool.</CardText>
+<CardText>{T}: Add {C}.
+{1}, {T}: Add one mana of any color.</CardText>
 <Flavor>It bends not light but mana, aligning its chaotic currents into the sharp angles necessary for the mystic's purposes.</Flavor>
 <Artist>Alan Pollack</Artist>
 <Multiverseid>413772</Multiverseid>
@@ -4176,7 +4175,7 @@ When Pilgrim's Eye enters the battlefield, you may search your library for a bas
 <Name>Relic of Progenitus</Name>
 <Type>Artifact</Type>
 <ManaCost>1 (1)</ManaCost>
-<CardText>{T}: Target player exiles a card from his or her graveyard.
+<CardText>{T}: Target player exiles a card from their graveyard.
 {1}, Exile Relic of Progenitus: Exile all cards from all graveyards. Draw a card.</CardText>
 <Flavor>Elves believe the hydra-god Progenitus sleeps beneath Naya, feeding on forgotten magics.</Flavor>
 <Artist>Jean-Sébastien Rossbach</Artist>
@@ -4216,7 +4215,7 @@ When Pilgrim's Eye enters the battlefield, you may search your library for a bas
 <Type>Artifact Creature — Gnome 3/3</Type>
 <ManaCost>3 (3)</ManaCost>
 <CardText>Echo {3} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
-Sacrifice Ticking Gnomes: Ticking Gnomes deals 1 damage to target creature or player.</CardText>
+Sacrifice Ticking Gnomes: It deals 1 damage to any target.</CardText>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>413775</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4234,7 +4233,7 @@ Sacrifice Ticking Gnomes: Ticking Gnomes deals 1 damage to target creature or pl
 <CardText>As long as Winter Orb is untapped, players can't untap more than one land during their untap steps.</CardText>
 <Flavor>"How could anyone survive this? There is some force at work that stifles even the will to go on."
 —Naromin, veteran explorer</Flavor>
-<Artist>Brian Snoddy</Artist>
+<Artist>Brian Snõddy</Artist>
 <Multiverseid>413776</Multiverseid>
 <Rulings>2016/06/08: All permanents untap during a player's untap step at once. If <Winter Orb> is tapped as your untap step begins, your lands will all untap.
 2016/06/08: You can't tap <Winter Orb> just because you want to. Another ability, such as that of Glare of Subdual, must instruct or allow you to do so.</Rulings>
@@ -4251,9 +4250,9 @@ Sacrifice Ticking Gnomes: Ticking Gnomes deals 1 damage to target creature or pl
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
 <CardText>Worn Powerstone enters the battlefield tapped.
-{T}: Add {C}{C} to your mana pool.</CardText>
+{T}: Add {C}{C}.</CardText>
 <Flavor>Even a fragment of a powerstone contains within it not just energy, but space—vast dimensions trapped in fragile crystal.</Flavor>
-<Artist>Henry G. Higginbotham</Artist>
+<Artist>Henry G. Higgenbotham</Artist>
 <Multiverseid>413777</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -4268,7 +4267,7 @@ Sacrifice Ticking Gnomes: Ticking Gnomes deals 1 damage to target creature or pl
 <Type>Land</Type>
 <CardText>Bloodfell Caves enters the battlefield tapped.
 When Bloodfell Caves enters the battlefield, you gain 1 life.
-{T}: Add {B} or {R} to your mana pool.</CardText>
+{T}: Add {B} or {R}.</CardText>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>413778</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4285,7 +4284,7 @@ When Bloodfell Caves enters the battlefield, you gain 1 life.
 <Type>Land</Type>
 <CardText>Blossoming Sands enters the battlefield tapped.
 When Blossoming Sands enters the battlefield, you gain 1 life.
-{T}: Add {G} or {W} to your mana pool.</CardText>
+{T}: Add {G} or {W}.</CardText>
 <Artist>Sam Burley</Artist>
 <Multiverseid>413779</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4302,7 +4301,7 @@ When Blossoming Sands enters the battlefield, you gain 1 life.
 <Type>Land</Type>
 <CardText>Dismal Backwater enters the battlefield tapped.
 When Dismal Backwater enters the battlefield, you gain 1 life.
-{T}: Add {U} or {B} to your mana pool.</CardText>
+{T}: Add {U} or {B}.</CardText>
 <Artist>Sam Burley</Artist>
 <Multiverseid>413780</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4319,7 +4318,7 @@ When Dismal Backwater enters the battlefield, you gain 1 life.
 <Type>Land</Type>
 <CardText>Jungle Hollow enters the battlefield tapped.
 When Jungle Hollow enters the battlefield, you gain 1 life.
-{T}: Add {B} or {G} to your mana pool.</CardText>
+{T}: Add {B} or {G}.</CardText>
 <Artist>Eytan Zana</Artist>
 <Multiverseid>413781</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4334,7 +4333,7 @@ When Jungle Hollow enters the battlefield, you gain 1 life.
 <No>240</No>
 <Name>Karakas</Name>
 <Type>Legendary Land</Type>
-<CardText>{T}: Add {W} to your mana pool.
+<CardText>{T}: Add {W}.
 {T}: Return target legendary creature to its owner's hand.</CardText>
 <Artist>Drew Baker</Artist>
 <Multiverseid>413782</Multiverseid>
@@ -4366,13 +4365,13 @@ When Jungle Hollow enters the battlefield, you gain 1 life.
 <No>242</No>
 <Name>Mishra's Factory</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {1}: Mishra's Factory becomes a 2/2 Assembly-Worker artifact creature until end of turn. It's still a land.
 {T}: Target Assembly-Worker creature gets +1/+1 until end of turn.</CardText>
 <Artist>Scott Chou</Artist>
 <Multiverseid>413784</Multiverseid>
 <Rulings>2005/08/01: If another player takes control of the Factory while it is animated, that player keeps control until the control effect ends. They do not lose control just because the card stops being an Assembly-Worker. Note that Auras which steal cards will go to the graveyard if the permanent they enchant is no longer valid.
-2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.
+2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
 2009/10/01: Activating the ability that turns it into a creature while it's already a creature will override any effects that set its power and/or toughness to a specific number. However, any effect that raises or lowers power and/or toughness (such as the effect created by Giant Growth, Glorious Anthem, or a +1/+1 counter) will continue to apply.
 2016/06/08: Once turned into a creature, <Mishra's Factory>'s last ability can target itself. If it's already blocking, this won't remove it from combat.
 2016/06/08: If you turn <Mishra's Factory> into a creature but haven't controlled it continuously since your most recent turn began, you won't be able to activate its first or last ability.</Rulings>
@@ -4389,7 +4388,7 @@ When Jungle Hollow enters the battlefield, you gain 1 life.
 <Type>Land</Type>
 <CardText>Rugged Highlands enters the battlefield tapped.
 When Rugged Highlands enters the battlefield, you gain 1 life.
-{T}: Add {R} or {G} to your mana pool.</CardText>
+{T}: Add {R} or {G}.</CardText>
 <Artist>Eytan Zana</Artist>
 <Multiverseid>413785</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4406,7 +4405,7 @@ When Rugged Highlands enters the battlefield, you gain 1 life.
 <Type>Land</Type>
 <CardText>Scoured Barrens enters the battlefield tapped.
 When Scoured Barrens enters the battlefield, you gain 1 life.
-{T}: Add {W} or {B} to your mana pool.</CardText>
+{T}: Add {W} or {B}.</CardText>
 <Artist>Eytan Zana</Artist>
 <Multiverseid>413786</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4423,7 +4422,7 @@ When Scoured Barrens enters the battlefield, you gain 1 life.
 <Type>Land</Type>
 <CardText>Swiftwater Cliffs enters the battlefield tapped.
 When Swiftwater Cliffs enters the battlefield, you gain 1 life.
-{T}: Add {U} or {R} to your mana pool.</CardText>
+{T}: Add {U} or {R}.</CardText>
 <Artist>Eytan Zana</Artist>
 <Multiverseid>413787</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4440,7 +4439,7 @@ When Swiftwater Cliffs enters the battlefield, you gain 1 life.
 <Type>Land</Type>
 <CardText>Thornwood Falls enters the battlefield tapped.
 When Thornwood Falls enters the battlefield, you gain 1 life.
-{T}: Add {G} or {U} to your mana pool.</CardText>
+{T}: Add {G} or {U}.</CardText>
 <Artist>Eytan Zana</Artist>
 <Multiverseid>413788</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4457,7 +4456,7 @@ When Thornwood Falls enters the battlefield, you gain 1 life.
 <Type>Land</Type>
 <CardText>Tranquil Cove enters the battlefield tapped.
 When Tranquil Cove enters the battlefield, you gain 1 life.
-{T}: Add {W} or {U} to your mana pool.</CardText>
+{T}: Add {W} or {U}.</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>413789</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4472,7 +4471,7 @@ When Tranquil Cove enters the battlefield, you gain 1 life.
 <No>248</No>
 <Name>Wasteland</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {T}, Sacrifice Wasteland: Destroy target nonbasic land.</CardText>
 <Flavor>"The land promises nothing and keeps its promise."
 —Oracle en-Vec</Flavor>
@@ -4491,7 +4490,7 @@ When Tranquil Cove enters the battlefield, you gain 1 life.
 <Type>Land</Type>
 <CardText>Wind-Scarred Crag enters the battlefield tapped.
 When Wind-Scarred Crag enters the battlefield, you gain 1 life.
-{T}: Add {R} or {W} to your mana pool.</CardText>
+{T}: Add {R} or {W}.</CardText>
 <Artist>Eytan Zana</Artist>
 <Multiverseid>413791</Multiverseid>
 <Vintage>Legal</Vintage>

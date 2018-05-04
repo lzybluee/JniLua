@@ -87,7 +87,7 @@ Creatures controlled by players who chose peace get +0/+3.</CardText>
 <Artist>Greg Staples</Artist>
 <Multiverseid>430224</Multiverseid>
 <Rulings>2011/09/22: <Archangel of Strife>'s second and third abilities are linked. Similarly, its second and fourth abilities are linked. The bonus a player's creatures get depends only on the choice that player made when <Archangel of Strife> entered the battlefield.
-2011/09/22: The active player chooses war or peace first, followed by each other player in turn order. Each player will know what previous players chose when making his or her choice.
+2011/09/22: The active player chooses war or peace first, followed by each other player in turn order. Each player will know what previous players chose when making their choice.
 2011/09/22: <Archangel of Strife>'s bonuses apply immediately. Depending on your choice, <Archangel of Strife> will enter the battlefield as either a 9/6 or 6/9 creature.
 2011/09/22: If there are two Archangels of Strife on the battlefield, and you choose war for one and peace for the other, your creatures get +3/+3.
 2011/09/22: As soon as <Archangel of Strife> leaves the battlefield, the bonus stops applying. If it returns to the battlefield, players will be able to make new choices.</Rulings>
@@ -112,7 +112,7 @@ Creatures controlled by players who chose peace get +0/+3.</CardText>
 2005/10/01: A creature "shares a color" with any creature that is at least one of its colors. For example, a green-white creature shares a color with creatures that are green, white, green-white, red-white, black-green, and so on.
 2005/10/01: If it targets a colorless creature, it doesn't affect any other creatures. A colorless creature shares a color with nothing, not even other colorless creatures.
 2005/10/01: You check which creatures share a color with the target when the spell resolves.
-2005/10/01: Only one creature is targeted. If that creature leaves the battlefield or otherwise becomes an illegal target, the entire spell is countered. No other creatures are affected.</Rulings>
+2005/10/01: Only one creature is targeted. If that creature leaves the battlefield or otherwise becomes an illegal target, the entire spell doesn't resolve. No other creatures are affected.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -197,7 +197,9 @@ Enchanted creature is an Insect artifact creature with base power and toughness 
 When Fiend Hunter leaves the battlefield, return the exiled card to the battlefield under its owner's control.</CardText>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>430229</Multiverseid>
-<Rulings>2011/09/22: If <Fiend Hunter> leaves the battlefield before its first ability has resolved, its second ability will trigger and do nothing. Then its first ability will resolve and exile the targeted creature indefinitely.</Rulings>
+<Rulings>2018/03/16: If <Fiend Hunter> leaves the battlefield before its first ability has resolved, its second ability will trigger and do nothing. Then its first ability will resolve and exile the targeted creature indefinitely.
+2018/03/16: Once the exiled permanent returns, it's considered a new object with no relation to the object that it was. Auras attached to the exiled permanent will be put into their owners' graveyards. Equipment attached to the exiled permanent will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist.
+2018/03/16: If a token is exiled this way, it won't return to the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -342,7 +344,7 @@ When Lightkeeper of Emeria enters the battlefield, you gain 2 life for each time
 <Type>Instant</Type>
 <ManaCost>2W (3)</ManaCost>
 <CardText>Kicker {R} (You may pay an additional {R} as you cast this spell.)
-Destroy target artifact or enchantment. If Orim's Thunder was kicked, it deals damage equal to that permanent's converted mana cost to target creature.</CardText>
+Destroy target artifact or enchantment. If this spell was kicked, it deals damage equal to that permanent's converted mana cost to target creature.</CardText>
 <Artist>Carl Critchlow</Artist>
 <Multiverseid>430237</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -357,11 +359,11 @@ Destroy target artifact or enchantment. If Orim's Thunder was kicked, it deals d
 <Name>Path to Exile</Name>
 <Type>Instant</Type>
 <ManaCost>W (1)</ManaCost>
-<CardText>Exile target creature. Its controller may search his or her library for a basic land card, put that card onto the battlefield tapped, then shuffle his or her library.</CardText>
+<CardText>Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle their library.</CardText>
 <Artist>Todd Lockwood</Artist>
 <Multiverseid>430238</Multiverseid>
-<Rulings>2017/03/14: If the targeted creature becomes an illegal target by the time <Path to Exile> would resolve, the entire spell is countered. The creature's controller won't search for a basic land card.
-2017/03/14: The controller of the exiled creature isn't required to search his or her library for a basic land. If that player doesn't, the player won't shuffle his or her library.</Rulings>
+<Rulings>2017/03/14: If the targeted creature becomes an illegal target by the time <Path to Exile> would resolve, the entire spell doesn't resolve. The creature's controller won't search for a basic land card.
+2017/03/14: The controller of the exiled creature isn't required to search their library for a basic land. If that player doesn't, the player won't shuffle their library.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -410,14 +412,12 @@ Destroy target artifact or enchantment. If Orim's Thunder was kicked, it deals d
 <Name>Serra Angel</Name>
 <Type>Creature — Angel 4/4</Type>
 <ManaCost>3WW (5)</ManaCost>
-<CardText>Flying (This creature can't be blocked except by creatures with flying or reach.)
-Vigilance (Attacking doesn't cause this creature to tap.)</CardText>
+<CardText>Flying, vigilance</CardText>
 <Flavor>Perfect justice in service of a perfect will.</Flavor>
 <Artist>Greg Staples</Artist>
 <Multiverseid>430241</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Uncommon</Rarity>
@@ -486,10 +486,10 @@ When Stonecloaker enters the battlefield, exile target card from a graveyard.</C
 <Name>Tempt with Glory</Name>
 <Type>Sorcery</Type>
 <ManaCost>5W (6)</ManaCost>
-<CardText>Tempting offer — Put a +1/+1 counter on each creature you control. Each opponent may put a +1/+1 counter on each creature he or she controls. For each opponent who does, put a +1/+1 counter on each creature you control.</CardText>
+<CardText>Tempting offer — Put a +1/+1 counter on each creature you control. Each opponent may put a +1/+1 counter on each creature they control. For each opponent who does, put a +1/+1 counter on each creature you control.</CardText>
 <Artist>Michael Komarck</Artist>
 <Multiverseid>430245</Multiverseid>
-<Rulings>2013/10/17: Your opponents decide in turn order whether or not they accept the offer, starting with the opponent on your left. Each opponent will know the decisions of previous opponents in turn order when making his or her decision.
+<Rulings>2013/10/17: Your opponents decide in turn order whether or not they accept the offer, starting with the opponent on your left. Each opponent will know the decisions of previous opponents in turn order when making their decision.
 2013/10/17: After each opponent has decided, the effect happens simultaneously for each one who accepted the offer. Then, the effect happens again for you a number of times equal to the number of opponents who accepted.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -561,7 +561,7 @@ Enchanted creature gets +2/+2, has vigilance, and can't attack you or a planeswa
 You draw a card at the beginning of the next turn's upkeep.</CardText>
 <Artist>Mark Zug</Artist>
 <Multiverseid>430249</Multiverseid>
-<Rulings>2007/09/16: The controller of the countered spell doesn't choose how many cards to draw until the relevant ability resolves. The player may draw 0, 1, or 2 cards. He or she chooses the number before drawing any cards.</Rulings>
+<Rulings>2007/09/16: The controller of the countered spell doesn't choose how many cards to draw until the relevant ability resolves. The player may draw 0, 1, or 2 cards. They choose the number before drawing any cards.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander Anthology</Set>
@@ -597,8 +597,8 @@ You draw a card at the beginning of the next turn's upkeep.</CardText>
 —Pelyus, vedalken ordinar</Flavor>
 <Artist>Izzy</Artist>
 <Multiverseid>430251</Multiverseid>
-<Rulings>2011/06/01: If this spell is countered, none of its effects occur. In particular, it will go to the graveyard rather than to its owner's library.
-2011/06/01: You follow the instructions in order. You won't be able to draw the same <Blue Sun's Zenith> that you cast.</Rulings>
+<Rulings>2011/06/01: If this spell doesn't resolve, none of its effects occur. In particular, it will go to the graveyard rather than to its owner's library.
+2018/03/16: Because you follow the spell's instructions in order, you won't be able to draw the same <Blue Sun's Zenith> that you cast.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -648,7 +648,7 @@ You control enchanted creature.</CardText>
 <Type>Enchantment — Aura Curse</Type>
 <ManaCost>2U (3)</ManaCost>
 <CardText>Enchant player
-Whenever a player attacks enchanted player with one or more creatures, that attacking player may tap or untap target permanent of his or her choice.</CardText>
+Whenever a player attacks enchanted player with one or more creatures, that attacking player may tap or untap target permanent of their choice.</CardText>
 <Flavor>"As long as I pull the strings, you will dance."
 —Tezzeret</Flavor>
 <Artist>Jasper Sandner</Artist>
@@ -715,7 +715,7 @@ When Deceiver Exarch enters the battlefield, choose one —
 <Multiverseid>430257</Multiverseid>
 <Rulings>2013/10/17: You don't have to control either target.
 2013/10/17: If the same player controls both creatures when the ability resolves, nothing happens.
-2013/10/17: If one of the creatures is an illegal target when the ability resolves, the exchange won't happen. If both creatures are illegal targets, the ability will be countered.</Rulings>
+2013/10/17: If one of the creatures is an illegal target when the ability resolves, the exchange won't happen. If both creatures are illegal targets, the ability won't resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander Anthology</Set>
@@ -795,7 +795,7 @@ Whenever Lu Xun, Scholar General deals damage to an opponent, you may draw a car
 <Type>Creature — Faerie 1/1</Type>
 <ManaCost>1UU (3)</ManaCost>
 <CardText>Flying
-{T}: Thornwind Faeries deals 1 damage to target creature or player.</CardText>
+{T}: Thornwind Faeries deals 1 damage to any target.</CardText>
 <Flavor>Guarding the ship is the Thornwinds' first concern. Getting along with the locals ranks fourth or fifth at best.</Flavor>
 <Artist>Rebecca Guay</Artist>
 <Multiverseid>430261</Multiverseid>
@@ -846,7 +846,7 @@ As long as Wonder is in your graveyard and you control an Island, creatures you 
 <Name>Altar's Reap</Name>
 <Type>Instant</Type>
 <ManaCost>1B (2)</ManaCost>
-<CardText>As an additional cost to cast Altar's Reap, sacrifice a creature.
+<CardText>As an additional cost to cast this spell, sacrifice a creature.
 Draw two cards.</CardText>
 <Flavor>"Don't worry, your death will be as informative as possible."
 —Gorghul, augur of skulls</Flavor>
@@ -884,18 +884,18 @@ Draw two cards.</CardText>
 <Name>Banshee of the Dread Choir</Name>
 <Type>Creature — Spirit 4/4</Type>
 <ManaCost>3BB (5)</ManaCost>
-<CardText>Myriad (Whenever this creature attacks, for each opponent other than defending player, you may create a token that's a copy of this creature that's tapped and attacking that player or a planeswalker he or she controls. Exile the tokens at end of combat.)
+<CardText>Myriad (Whenever this creature attacks, for each opponent other than defending player, you may create a token that's a copy of this creature that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)
 Whenever Banshee of the Dread Choir deals combat damage to a player, that player discards a card.</CardText>
 <Artist>Anthony Palumbo</Artist>
 <Multiverseid>430266</Multiverseid>
 <Rulings>2015/11/04: The term "defending player" in the myriad rules (or any other ability of an attacking creature) refers to the player the creature with myriad was attacking at the time it became an attacking creature this combat, or the controller of the planeswalker the creature was attacking at the time it became an attacking creature this combat.
 2015/11/04: If the defending player is your only opponent, no tokens are put onto the battlefield.
-2015/11/04: You choose whether each token is attacking the player or a planeswalker he or she controls as the token is created.
+2015/11/04: You choose whether each token is attacking the player or a planeswalker they control as the token is created.
 2015/11/04: Although the tokens enter the battlefield attacking, they were never declared as attackers. Abilities that trigger whenever a creature attacks won't trigger, including the myriad ability of the tokens. If there any costs to have a creature attack, those costs won't apply to the tokens.
 2015/11/04: The token creatures all enter the battlefield at the same time.
 2015/11/04: Each token copies exactly what was printed on the original creature and nothing else. It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
 2015/11/04: Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any "as [this permanent] enters the battlefield" or "[this permanent] enters the battlefield with" abilities of the copied creature will also work.
-2015/11/04: If myriad creates more than one token for any given player (due to an effect such as the one Doubling Season creates), you may choose separately for each token whether it's attacking the player or a planeswalker he or she controls.</Rulings>
+2015/11/04: If myriad creates more than one token for any given player (due to an effect such as the one Doubling Season creates), you may choose separately for each token whether it's attacking the player or a planeswalker they control.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander Anthology</Set>
@@ -951,7 +951,7 @@ Whenever Butcher of Malakir or another creature you control dies, each opponent 
 <Flavor>His verdict is always guilty. His sentence is always death.</Flavor>
 <Artist>Jason Chan</Artist>
 <Multiverseid>430269</Multiverseid>
-<Rulings>2010/03/01: When the triggered ability resolves, first the player whose turn it is (if that player is an opponent) chooses which creature he or she will sacrifice, then each other opponent in turn order does the same, then all chosen creatures are sacrificed at the same time.
+<Rulings>2010/03/01: When the triggered ability resolves, first the player whose turn it is (if that player is an opponent) chooses which creature they will sacrifice, then each other opponent in turn order does the same, then all chosen creatures are sacrificed at the same time.
 2010/03/01: If multiple creatures you control (possibly including <Butcher of Malakir> itself) are put into their owners' graveyards at the same time, <Butcher of Malakir>'s triggered ability will trigger that many times.
 2010/03/01: If you control more than one <Butcher of Malakir> and a creature you control is put into a graveyard, each of those Butchers' abilities will trigger. Each opponent will sacrifice a creature each time one of those abilities resolves.
 2010/03/01: If you and an opponent each control a <Butcher of Malakir> and a creature is put into a graveyard, a chain reaction happens. First the ability of one player's Butcher will trigger, causing each opponent to sacrifice a creature. That sacrifice causes the ability of the other player's Butcher to trigger, and so on.</Rulings>
@@ -1028,7 +1028,6 @@ When Diabolic Servitude leaves the battlefield, exile the creature put onto the 
 <Multiverseid>430273</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Uncommon</Rarity>
@@ -1058,7 +1057,7 @@ When Diabolic Servitude leaves the battlefield, exile the creature put onto the 
 <Name>Dread Summons</Name>
 <Type>Sorcery</Type>
 <ManaCost>XBB (2)</ManaCost>
-<CardText>Each player puts the top X cards of his or her library into his or her graveyard. For each creature card put into a graveyard this way, you create a tapped 2/2 black Zombie creature token.</CardText>
+<CardText>Each player puts the top X cards of their library into their graveyard. For each creature card put into a graveyard this way, you create a tapped 2/2 black Zombie creature token.</CardText>
 <Flavor>"Did you have a nice nap?"
 —Liliana Vess</Flavor>
 <Artist>Izzy</Artist>
@@ -1112,7 +1111,7 @@ Evincar's Justice deals 2 damage to each creature and each player.</CardText>
 <Type>Creature — Demon 5/5</Type>
 <ManaCost>4BB (6)</ManaCost>
 <CardText>Flying
-Whenever another creature leaves the battlefield, you may have target player put the top two cards of his or her library into his or her graveyard.
+Whenever another creature leaves the battlefield, you may have target player put the top two cards of their library into their graveyard.
 Unearth {2}{B} ({2}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)</CardText>
 <Artist>Carl Critchlow</Artist>
 <Multiverseid>430278</Multiverseid>
@@ -1270,7 +1269,7 @@ Flashback {5}{B}{B} (You may cast this card from your graveyard for its flashbac
 <Artist>Clint Cearley</Artist>
 <Multiverseid>430286</Multiverseid>
 <Rulings>2017/03/14: Only creatures on the battlefield will be exiled. In other zones, they're "creature cards," not "creatures."
-2017/03/14: If the targeted creature is an illegal target by the time <Sever the Bloodline> resolves, it will be countered and none of its effects will happen. No creatures will be exiled.
+2017/03/14: If the targeted creature is an illegal target by the time <Sever the Bloodline> resolves, it won't resolve and none of its effects will happen. No creatures will be exiled.
 2017/03/14: Unless a token is a copy of another creature or was explicitly given a name by the effect that created it, its name is the creature types it was given when it was created. For example, the Beast tokens created by Thragtusk and by Baloth Cage Trap are both named "Beast."
 2017/03/14: A double-faced creature only has the name of the face that's up. For example, if Village Ironsmith is targeted by <Sever the Bloodline>, Ironfang wouldn't be exiled.</Rulings>
 <Vintage>Legal</Vintage>
@@ -1364,7 +1363,7 @@ As Thief of Blood enters the battlefield, remove all counters from all permanent
 <Rulings>2016/06/08: You must choose two targets. You can't cast <Victimize> targeting only one creature card.
 2016/06/08: The creature you sacrifice isn't chosen until <Victimize> resolves. You can't return the creature you sacrifice because it will still be on the battlefield at the time targets are chosen.
 2016/06/08: As <Victimize> resolves, you must sacrifice a creature if able. You can't change your mind and choose not to sacrifice anything.
-2016/06/08: If one of the targeted creature cards is an illegal target (for instance, because it has left your graveyard before <Victimize> resolves), you'll still sacrifice a creature and put the other card onto the battlefield. If both are illegal targets, <Victimize> will be countered. You won't sacrifice a creature.
+2016/06/08: If one of the targeted creature cards is an illegal target (for instance, because it has left your graveyard before <Victimize> resolves), you'll still sacrifice a creature and put the other card onto the battlefield. If both are illegal targets, <Victimize> won't resolve. You won't sacrifice a creature.
 2016/06/08: <Victimize> can be used to put both parts of the B.F.M. onto the battlefield at once.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1405,7 +1404,7 @@ Enchanted creature gets +2/+2, has intimidate, and can't attack you or a planesw
 2015/11/04: No matter which combination of modes you choose, you always follow the instructions of a Confluence in the order they are written. If the same mode is chosen more than once, you choose their relative order as you cast the spell.
 2015/11/04: No player can cast spells or activate abilities in between the modes of a resolving spell.
 2015/11/04: If a Confluence is copied, the effect that creates the copy will usually allow you to choose new targets, but you can't choose new modes.
-2015/11/04: If all targets for the chosen modes become illegal before the Confluence resolves, the spell will be countered and none of its effects will happen. If at least one target is still legal, the spell will resolve but will have no effect on any illegal targets.</Rulings>
+2015/11/04: If all targets for the chosen modes become illegal before the Confluence resolves, the spell won't resolve and none of its effects will happen. If at least one target is still legal, the spell will resolve but will have no effect on any illegal targets.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander Anthology</Set>
@@ -1418,7 +1417,7 @@ Enchanted creature gets +2/+2, has intimidate, and can't attack you or a planesw
 <Name>Akroma, Angel of Fury</Name>
 <Type>Legendary Creature — Angel 6/6</Type>
 <ManaCost>5RRR (8)</ManaCost>
-<CardText>Akroma, Angel of Fury can't be countered.
+<CardText>This spell can't be countered.
 Flying, trample, protection from white and from blue
 {R}: Akroma, Angel of Fury gets +1/+0 until end of turn.
 Morph {3}{R}{R}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)</CardText>
@@ -1426,7 +1425,8 @@ Morph {3}{R}{R}{R} (You may cast this card face down as a 2/2 creature for {3}. 
 <Multiverseid>430294</Multiverseid>
 <Rulings>2007/02/01: If <Akroma, Angel of Fury> is cast face down, it can be countered.
 2007/02/01: <Akroma, Angel of Fury> and Akroma, Angel of Wrath do not have the same name, so the legend rule does not apply.
-2013/07/01: In a Commander game where this card is your commander, you may cast it face-down from the Command zone by paying {3} plus {2} for each time it has been cast from your command zone. The cost to turn it face-up is unaffected.</Rulings>
+2013/07/01: In a Commander game where this card is your commander, you may cast it face-down from the Command zone by paying {3} plus {2} for each time it has been cast from your command zone. The cost to turn it face-up is unaffected.
+2018/03/16: The "legend rule" cares about legendary permanents with the exact same English name. You can control <Akroma, Angel of Fury> and Akroma, Angel of Wrath at the same time.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1486,7 +1486,7 @@ As long as Anger is in your graveyard and you control a Mountain, creatures you 
 2005/10/01: A creature "shares a color" with any creature that is at least one of its colors. For example, a green-white creature shares a color with creatures that are green, white, green-white, red-white, black-green, and so on.
 2005/10/01: If it targets a colorless creature, it doesn't affect any other creatures. A colorless creature shares a color with nothing, not even other colorless creatures.
 2005/10/01: You check which creatures share a color with the target when the spell resolves.
-2005/10/01: Only one creature is targeted. If that creature leaves the battlefield or otherwise becomes an illegal target, the entire spell is countered. No other creatures are affected.</Rulings>
+2005/10/01: Only one creature is targeted. If that creature leaves the battlefield or otherwise becomes an illegal target, the entire spell doesn't resolve. No other creatures are affected.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1501,7 +1501,7 @@ As long as Anger is in your graveyard and you control a Mountain, creatures you 
 <Type>Instant</Type>
 <ManaCost>XRR (2)</ManaCost>
 <CardText>Multikicker {1} (You may pay an additional {1} any number of times as you cast this spell.)
-Choose target creature or player, then choose another target creature or player for each time Comet Storm was kicked. Comet Storm deals X damage to each of them.</CardText>
+Choose any target, then choose another target for each time this spell was kicked. Comet Storm deals X damage to each of them.</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>430298</Multiverseid>
 <Rulings>2010/03/01: The number of targets you choose for <Comet Storm> is one more than the number of times it's kicked. First you declare how many times you're going to kick the spell (at the same time you declare the value of X), then you choose the targets accordingly, then you pay the costs. No player can respond between the time you declare how many times you'll kick the spell and the time you choose the targets.
@@ -1525,7 +1525,7 @@ Choose target creature or player, then choose another target creature or player 
 <Flavor>Suddenly, Eldo felt very alone.</Flavor>
 <Artist>Austin Hsu</Artist>
 <Multiverseid>430299</Multiverseid>
-<Rulings>2011/09/22: If the player is an illegal target when <Death by Dragons> tries to resolve, it will be countered and none of its effects will happen. No player will put a Dragon token onto the battlefield.
+<Rulings>2011/09/22: If the player is an illegal target when <Death by Dragons> tries to resolve, it won't resolve and none of its effects will happen. No player will put a Dragon token onto the battlefield.
 2011/09/22: If <Death by Dragons> resolves, the player who's targeted is the only one who won't put a Dragon token onto the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1778,17 +1778,17 @@ Each other creature you control enters the battlefield with an additional X +1/+
 <Type>Creature — Beast 8/6</Type>
 <ManaCost>5GG (7)</ManaCost>
 <CardText>Trample
-Myriad (Whenever this creature attacks, for each opponent other than defending player, you may create a token that's a copy of this creature that's tapped and attacking that player or a planeswalker he or she controls. Exile the tokens at end of combat.)</CardText>
+Myriad (Whenever this creature attacks, for each opponent other than defending player, you may create a token that's a copy of this creature that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)</CardText>
 <Artist>Ryan Yee</Artist>
 <Multiverseid>430313</Multiverseid>
 <Rulings>2015/11/04: The term "defending player" in the myriad rules (or any other ability of an attacking creature) refers to the player the creature with myriad was attacking at the time it became an attacking creature this combat, or the controller of the planeswalker the creature was attacking at the time it became an attacking creature this combat.
 2015/11/04: If the defending player is your only opponent, no tokens are put onto the battlefield.
-2015/11/04: You choose whether each token is attacking the player or a planeswalker he or she controls as the token is created.
+2015/11/04: You choose whether each token is attacking the player or a planeswalker they control as the token is created.
 2015/11/04: Although the tokens enter the battlefield attacking, they were never declared as attackers. Abilities that trigger whenever a creature attacks won't trigger, including the myriad ability of the tokens. If there any costs to have a creature attack, those costs won't apply to the tokens.
 2015/11/04: The token creatures all enter the battlefield at the same time.
 2015/11/04: Each token copies exactly what was printed on the original creature and nothing else. It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
 2015/11/04: Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any "as [this permanent] enters the battlefield" or "[this permanent] enters the battlefield with" abilities of the copied creature will also work.
-2015/11/04: If myriad creates more than one token for any given player (due to an effect such as the one Doubling Season creates), you may choose separately for each token whether it's attacking the player or a planeswalker he or she controls.</Rulings>
+2015/11/04: If myriad creates more than one token for any given player (due to an effect such as the one Doubling Season creates), you may choose separately for each token whether it's attacking the player or a planeswalker they control.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander Anthology</Set>
@@ -1934,7 +1934,7 @@ Drove of Elves's power and toughness are each equal to the number of green perma
 <Type>Creature — Elf Druid 2/2</Type>
 <ManaCost>1GG (3)</ManaCost>
 <CardText>Other Elf creatures you control get +1/+1.
-{T}: Add {G} to your mana pool for each Elf you control.</CardText>
+{T}: Add {G} for each Elf you control.</CardText>
 <Flavor>He knows the name of every elf born in the last four centuries. More importantly, they all know his.</Flavor>
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>430321</Multiverseid>
@@ -1953,7 +1953,7 @@ Drove of Elves's power and toughness are each equal to the number of green perma
 <Name>Elvish Mystic</Name>
 <Type>Creature — Elf Druid 1/1</Type>
 <ManaCost>G (1)</ManaCost>
-<CardText>{T}: Add {G} to your mana pool.</CardText>
+<CardText>{T}: Add {G}.</CardText>
 <Flavor>"Life grows everywhere. My kin merely find those places where it grows strongest."
 —Nissa Revane</Flavor>
 <Artist>Wesley Burt</Artist>
@@ -1994,7 +1994,6 @@ Drove of Elves's power and toughness are each equal to the number of green perma
 <Multiverseid>430324</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Common</Rarity>
@@ -2099,7 +2098,7 @@ Drove of Elves's power and toughness are each equal to the number of green perma
 <Name>Freyalise, Llanowar's Fury</Name>
 <Type>Legendary Planeswalker — Freyalise (Loyalty: 3)</Type>
 <ManaCost>3GG (5)</ManaCost>
-<CardText>+2: Create a 1/1 green Elf Druid creature token with "{T}: Add {G} to your mana pool."
+<CardText>+2: Create a 1/1 green Elf Druid creature token with "{T}: Add {G}."
 -2: Destroy target artifact or enchantment.
 -6: Draw a card for each green creature you control.
 Freyalise, Llanowar's Fury can be your commander.</CardText>
@@ -2117,7 +2116,7 @@ Freyalise, Llanowar's Fury can be your commander.</CardText>
 <Name>Grave Sifter</Name>
 <Type>Creature — Elemental Beast 5/7</Type>
 <ManaCost>5G (6)</ManaCost>
-<CardText>When Grave Sifter enters the battlefield, each player chooses a creature type and returns any number of cards of that type from his or her graveyard to his or her hand.</CardText>
+<CardText>When Grave Sifter enters the battlefield, each player chooses a creature type and returns any number of cards of that type from their graveyard to their hand.</CardText>
 <Flavor>It claws at the earth in a vain attempt to reclaim what it once was.</Flavor>
 <Artist>Jesper Ejsing</Artist>
 <Multiverseid>430331</Multiverseid>
@@ -2173,7 +2172,7 @@ When Great Oak Guardian enters the battlefield, creatures target player controls
 <Name>Harrow</Name>
 <Type>Instant</Type>
 <ManaCost>2G (3)</ManaCost>
-<CardText>As an additional cost to cast Harrow, sacrifice a land.
+<CardText>As an additional cost to cast this spell, sacrifice a land.
 Search your library for up to two basic land cards and put them onto the battlefield. Then shuffle your library.</CardText>
 <Flavor>No spot in nature is truly barren.</Flavor>
 <Artist>Rob Alexander</Artist>
@@ -2375,7 +2374,7 @@ When Lifeblood Hydra dies, you gain life and draw cards equal to its power.</Car
 <Name>Llanowar Elves</Name>
 <Type>Creature — Elf Druid 1/1</Type>
 <ManaCost>G (1)</ManaCost>
-<CardText>{T}: Add {G} to your mana pool.</CardText>
+<CardText>{T}: Add {G}.</CardText>
 <Flavor>One bone broken for every twig snapped underfoot.
 —Llanowar penalty for trespassing</Flavor>
 <Artist>Kev Walker</Artist>
@@ -2584,7 +2583,7 @@ Enchanted creature has "{T}: Create a 1/1 green Elf Warrior creature token."</Ca
 <Name>Priest of Titania</Name>
 <Type>Creature — Elf Druid 1/1</Type>
 <ManaCost>1G (2)</ManaCost>
-<CardText>{T}: Add {G} to your mana pool for each Elf on the battlefield.</CardText>
+<CardText>{T}: Add {G} for each Elf on the battlefield.</CardText>
 <Flavor>Titania rewards all who honor the forest by making them a living part of it.</Flavor>
 <Artist>Rebecca Guay</Artist>
 <Multiverseid>430355</Multiverseid>
@@ -2602,7 +2601,7 @@ Enchanted creature has "{T}: Create a 1/1 green Elf Warrior creature token."</Ca
 <Type>Sorcery</Type>
 <ManaCost>2G (3)</ManaCost>
 <CardText>Kicker—Sacrifice a creature. (You may sacrifice a creature in addition to any other costs as you cast this spell.)
-Search your library for a basic land card, put that card onto the battlefield, then shuffle your library. If Primal Growth was kicked, instead search your library for up to two basic land cards, put them onto the battlefield, then shuffle your library.</CardText>
+Search your library for a basic land card, put that card onto the battlefield, then shuffle your library. If this spell was kicked, instead search your library for up to two basic land cards, put them onto the battlefield, then shuffle your library.</CardText>
 <Artist>rk post</Artist>
 <Multiverseid>430356</Multiverseid>
 <Rulings>2004/10/04: You may choose not to find any basic lands when you search.
@@ -2763,11 +2762,11 @@ As long as Siege Behemoth is attacking, for each creature you control, you may h
 <Type>Creature — Snake 1/3</Type>
 <ManaCost>2G (3)</ManaCost>
 <CardText>Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
-When Skullwinder enters the battlefield, return target card from your graveyard to your hand, then choose an opponent. That player returns a card from his or her graveyard to his or her hand.</CardText>
+When Skullwinder enters the battlefield, return target card from your graveyard to your hand, then choose an opponent. That player returns a card from their graveyard to their hand.</CardText>
 <Artist>James Paick</Artist>
 <Multiverseid>430365</Multiverseid>
-<Rulings>2015/11/04: <Skullwinder>'s enters-the-battlefield ability targets only the card in your graveyard. If that card is an illegal target as the ability tries to resolve, the ability will be countered and none of its effects will happen. No cards will be returned to any player's hand.
-2015/11/04: You choose the opponent as the ability is resolving. You may choose an opponent with no cards in his or her graveyard.</Rulings>
+<Rulings>2015/11/04: <Skullwinder>'s enters-the-battlefield ability targets only the card in your graveyard. If that card is an illegal target as the ability tries to resolve, the ability won't resolve and none of its effects will happen. No cards will be returned to any player's hand.
+2015/11/04: You choose the opponent as the ability is resolving. You may choose an opponent with no cards in their graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander Anthology</Set>
@@ -2785,7 +2784,7 @@ Enchanted permanent is a colorless Forest land.</CardText>
 <Flavor>Few who encounter the strange, human-like grove leave once the lilting chorus of the dryads reaches their ears.</Flavor>
 <Artist>Lars Grant-West</Artist>
 <Multiverseid>430366</Multiverseid>
-<Rulings>2014/11/07: The enchanted permanent loses any card types, subtypes, and colors it previously had. It keeps any supertypes it had and its name remains unchanged. It gains "{T}: Add {G} to your mana pool" and loses all other abilities from its rules text. It will still have any abilities it gained from other effects.
+<Rulings>2014/11/07: The enchanted permanent loses any card types, subtypes, and colors it previously had. It keeps any supertypes it had and its name remains unchanged. It gains "{T}: Add {G}" and loses all other abilities from its rules text. It will still have any abilities it gained from other effects.
 2014/11/07: If the permanent was an Aura or an Equipment, it becomes unattached from whatever it was attached to.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2931,7 +2930,7 @@ Lieutenant — As long as you control your commander, Thunderfoot Baloth gets +2
 <Multiverseid>430374</Multiverseid>
 <Rulings>2014/11/07: Lieutenant abilities apply only if your commander is on the battlefield and under your control.
 2014/11/07: Lieutenant abilities refer only to whether you control your commander, not any other player's commander.
-2014/11/07: If you gain control of a creature with a lieutenant ability owned by another player, that ability will check to see if you control your commander and will apply if you do. It won't check whether its owner controls his or her commander.
+2014/11/07: If you gain control of a creature with a lieutenant ability owned by another player, that ability will check to see if you control your commander and will apply if you do. It won't check whether its owner controls their commander.
 2014/11/07: If you lose control of your commander, lieutenant abilities of creatures you control will immediately stop applying. If this causes a creature's toughness to become less than or equal to the amount of damage marked on it, the creature will be destroyed.
 2014/11/07: If a triggered ability granted by a lieutenant ability triggers, and in response to that trigger you lose control of your commander (causing the lieutenant to lose that ability), that triggered ability will still resolve.</Rulings>
 <Vintage>Legal</Vintage>
@@ -3000,10 +2999,9 @@ Whenever a land you control is put into a graveyard from the battlefield, create
 You may have Tornado Elemental assign its combat damage as though it weren't blocked.</CardText>
 <Artist>Richard Wright</Artist>
 <Multiverseid>430378</Multiverseid>
-<Rulings>2008/04/01: If this creature is attacking a planeswalker, assigning its damage as though it weren't blocked means the damage is assigned to the planeswalker, not to the defending player.
-2008/04/01: When assigning combat damage, you choose whether you want to assign all damage to blocking creatures, or if you want to assign all of it to the defending player or planeswalker. You can't split the damage assignment between them.
-2008/04/01: You can decide to assign damage to the defending player or planeswalker even if the blocking creature has protection from green or damage preventing effects on it.
-2008/04/01: If blocked by a creature with banding, the defending player decides whether or not the damage is assigned "as though it weren't blocked".</Rulings>
+<Rulings>2018/04/27: You can decide to assign damage to the defending player or planeswalker even if the blocking creature has protection from green or damage preventing effects on it.
+2018/04/27: When assigning combat damage, you choose whether you want to assign all damage to blocking creatures, or if you want to assign all of it to the player or planeswalker this creature is attacking. You can't split the damage assignment between them.
+2018/04/27: If blocked by a creature with banding, the defending player decides whether or not the damage is assigned "as though it weren't blocked".</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3038,9 +3036,8 @@ You may have Tornado Elemental assign its combat damage as though it weren't blo
 <Flavor>Left to itself, nature overflows any container, overthrows any restriction, and overreaches any boundary.</Flavor>
 <Artist>DiTerlizzi</Artist>
 <Multiverseid>430380</Multiverseid>
-<Rulings>2004/10/04: <Verdant Force>'s controller gets the tokens. That is the controller at the beginning of upkeep.
-2005/08/01: Once created, the tokens are independent of <Verdant Force>. If <Verdant Force> changes controllers, the new controller will put tokens onto the battlefield, but existing tokens will stay where they are.
-2006/05/01: In Two-Headed Giant, triggers only once per upkeep, not once for each player.</Rulings>
+<Rulings>2006/05/01: In Two-Headed Giant, triggers only once per upkeep, not once for each player.
+2018/04/27: <Verdant Force>'s ability triggers at the beginning of each upkeep, not just each of your upkeeps.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3104,7 +3101,7 @@ When Wall of Blossoms enters the battlefield, draw a card.</CardText>
 <Name>Wave of Vitriol</Name>
 <Type>Sorcery</Type>
 <ManaCost>5GG (7)</ManaCost>
-<CardText>Each player sacrifices all artifacts, enchantments, and nonbasic lands he or she controls. For each land sacrificed this way, its controller may search his or her library for a basic land card and put it onto the battlefield tapped. Then each player who searched his or her library this way shuffles it.</CardText>
+<CardText>Each player sacrifices all artifacts, enchantments, and nonbasic lands they control. For each land sacrificed this way, its controller may search their library for a basic land card and put it onto the battlefield tapped. Then each player who searched their library this way shuffles it.</CardText>
 <Artist>Zoltan Boros</Artist>
 <Multiverseid>430384</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -3462,7 +3459,7 @@ When Malfegor enters the battlefield, discard your hand. Each opponent sacrifice
 <Artist>Jason Chan</Artist>
 <Multiverseid>430403</Multiverseid>
 <Rulings>2017/11/17: <Malfegor>'s ability is not optional. You must discard your entire hand no matter how many creatures your opponents control.
-2017/11/17: After you discard your hand and the number of creatures each opponent must sacrifice has been determined, each opponent in turn order, starting with the player whose turn it is if that player is your opponent, chooses which creatures he or she will sacrifice, then all the chosen creatures are all sacrificed at the same time.</Rulings>
+2017/11/17: After you discard your hand and the number of creatures each opponent must sacrifice has been determined, each opponent in turn order, starting with the player whose turn it is if that player is your opponent, chooses which creatures they will sacrifice, then all the chosen creatures are all sacrificed at the same time.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3691,7 +3688,7 @@ Whenever a card is put into an opponent's graveyard from anywhere, put a +1/+1 c
 —Ezoc, Golgari rot farmer</Flavor>
 <Artist>Greg Staples</Artist>
 <Multiverseid>430415</Multiverseid>
-<Rulings>2005/10/01: The ability doesn't care why a card goes to your opponent's graveyard — only that it does. The ability triggers when a card is put into your opponent's graveyard from the stack (a spell resolves or is countered), from the battlefield (a permanent is destroyed or sacrificed), from the player's hand (a card is discarded), from the player's library (from a Millstone-like effect), or from any other zone.
+<Rulings>2005/10/01: The ability doesn't care why a card goes to your opponent's graveyard — only that it does. The ability triggers when a card is put into your opponent's graveyard from the stack (a spell resolves, fails to resolve, or is countered), from the battlefield (a permanent is destroyed or sacrificed), from the player's hand (a card is discarded), from the player's library (from a Millstone-like effect), or from any other zone.
 2005/10/01: This ability triggers only on cards, so it won't trigger when a token is put into your opponent's graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3744,7 +3741,7 @@ Deathtouch (Any amount of damage this deals to a creature is enough to destroy i
 <ManaCost>{R/W}{R/W} (2)</ManaCost>
 <CardText>{1}{R}: Target creature gains haste until end of turn.
 {1}{W}: Target creature gains first strike until end of turn.</CardText>
-<Artist>Parente</Artist>
+<Artist>Paolo Parente</Artist>
 <Multiverseid>430418</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3801,7 +3798,7 @@ When Gwyllion Hedge-Mage enters the battlefield, if you control two or more Swam
 <Name>Master Warcraft</Name>
 <Type>Instant</Type>
 <ManaCost>2{R/W}{R/W} (4)</ManaCost>
-<CardText>Cast Master Warcraft only before attackers are declared.
+<CardText>Cast this spell only before attackers are declared.
 You choose which creatures attack this turn.
 You choose which creatures block this turn and how those creatures block.</CardText>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
@@ -3932,7 +3929,7 @@ Equip {3}</CardText>
 <Name>Azorius Keyrune</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {W} or {U} to your mana pool.
+<CardText>{T}: Add {W} or {U}.
 {W}{U}: Azorius Keyrune becomes a 2/2 white and blue Bird artifact creature with flying until end of turn.</CardText>
 <Flavor>"The higher the mind soars, the greater its understanding of the law."
 —Isperia</Flavor>
@@ -3954,7 +3951,7 @@ Equip {3}</CardText>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
 <CardText>Basalt Monolith doesn't untap during your untap step.
-{T}: Add {C}{C}{C} to your mana pool.
+{T}: Add {C}{C}{C}.
 {3}: Untap Basalt Monolith.</CardText>
 <Artist>Yeong-Hao Han</Artist>
 <Multiverseid>430429</Multiverseid>
@@ -3993,7 +3990,7 @@ Equip {2}</CardText>
 <Name>Boros Signet</Name>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{1}, {T}: Add {R}{W} to your mana pool.</CardText>
+<CardText>{1}, {T}: Add {R}{W}.</CardText>
 <Flavor>"Have you ever held a Boros signet? There's a weight to it that belies its size—a weight of strength and of pride."
 —Agrus Kos</Flavor>
 <Artist>Greg Hildebrandt</Artist>
@@ -4011,7 +4008,7 @@ Equip {2}</CardText>
 <Name>Commander's Sphere</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add to your mana pool one mana of any color in your commander's color identity.
+<CardText>{T}: Add one mana of any color in your commander's color identity.
 Sacrifice Commander's Sphere: Draw a card.</CardText>
 <Flavor>It harmonizes with the essence of its master.</Flavor>
 <Artist>Ryan Alexander Lee</Artist>
@@ -4050,7 +4047,7 @@ Sacrifice Commander's Sphere: Draw a card.</CardText>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
 <CardText>Indestructible
-{T}: Add one mana of any color to your mana pool.</CardText>
+{T}: Add one mana of any color.</CardText>
 <Flavor>"It reflects the purity of Mirrodin-that-was."
 —Koth of the Hammer</Flavor>
 <Artist>Martina Pilcerova</Artist>
@@ -4110,7 +4107,7 @@ At the beginning of your upkeep, sacrifice a creature. If you can't, sacrifice E
 <Name>Golgari Signet</Name>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{1}, {T}: Add {B}{G} to your mana pool.</CardText>
+<CardText>{1}, {T}: Add {B}{G}.</CardText>
 <Flavor>Depending on your point of view, the seal represents a proud guardian of the natural cycle or one who has sold her soul to darkness for eternal life.</Flavor>
 <Artist>Raoul Vitale</Artist>
 <Multiverseid>430437</Multiverseid>
@@ -4128,7 +4125,7 @@ At the beginning of your upkeep, sacrifice a creature. If you can't, sacrifice E
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
 <CardText>Flash (You may cast this spell any time you could cast an instant.)
-{2}, Sacrifice Leonin Bladetrap: Leonin Bladetrap deals 2 damage to each attacking creature without flying.</CardText>
+{2}, Sacrifice Leonin Bladetrap: It deals 2 damage to each attacking creature without flying.</CardText>
 <Artist>Randy Gallegos</Artist>
 <Multiverseid>430438</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4181,7 +4178,7 @@ Equip {0}</CardText>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
 <CardText>Moss Diamond enters the battlefield tapped.
-{T}: Add {G} to your mana pool.</CardText>
+{T}: Add {G}.</CardText>
 <Artist>Lindsey Look</Artist>
 <Multiverseid>430441</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4196,7 +4193,7 @@ Equip {0}</CardText>
 <Name>Orzhov Signet</Name>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{1}, {T}: Add {W}{B} to your mana pool.</CardText>
+<CardText>{1}, {T}: Add {W}{B}.</CardText>
 <Flavor>The form of the sigil is just as important as the sigil itself. If it's carried on a medallion, its bearer is a master. If it's tattooed on the body, its bearer is a slave.</Flavor>
 <Artist>Greg Hildebrandt</Artist>
 <Multiverseid>430442</Multiverseid>
@@ -4249,7 +4246,7 @@ When Pilgrim's Eye enters the battlefield, you may search your library for a bas
 <Name>Rakdos Signet</Name>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{1}, {T}: Add {B}{R} to your mana pool.</CardText>
+<CardText>{1}, {T}: Add {B}{R}.</CardText>
 <Flavor>Made of bone and boiled in blood, a Rakdos signet is not considered finished until it has been used as a murder weapon.</Flavor>
 <Artist>Greg Hildebrandt</Artist>
 <Multiverseid>430445</Multiverseid>
@@ -4286,7 +4283,7 @@ When Pilgrim's Eye enters the battlefield, you may search your library for a bas
 <Name>Selesnya Signet</Name>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{1}, {T}: Add {G}{W} to your mana pool.</CardText>
+<CardText>{1}, {T}: Add {G}{W}.</CardText>
 <Flavor>The symbol of the Conclave is one of unity, with tree supporting sun and sun feeding tree.</Flavor>
 <Artist>Raoul Vitale</Artist>
 <Multiverseid>430447</Multiverseid>
@@ -4303,7 +4300,7 @@ When Pilgrim's Eye enters the battlefield, you may search your library for a bas
 <Name>Simic Signet</Name>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{1}, {T}: Add {G}{U} to your mana pool.</CardText>
+<CardText>{1}, {T}: Add {G}{U}.</CardText>
 <Flavor>For the Simic Combine, its sigil serves not as an emblem of honor but as a trademark. Its familiar image on any biological commodity attests to superb craftsmanship, ingenious innovation, and higher cost.</Flavor>
 <Artist>Mike Sass</Artist>
 <Multiverseid>430448</Multiverseid>
@@ -4339,7 +4336,7 @@ Equip {1}</CardText>
 <Name>Sol Ring</Name>
 <Type>Artifact</Type>
 <ManaCost>1 (1)</ManaCost>
-<CardText>{T}: Add {C}{C} to your mana pool.</CardText>
+<CardText>{T}: Add {C}{C}.</CardText>
 <Flavor>Lost to time is the artificer's art of trapping light from a distant star in a ring of purest gold.</Flavor>
 <Artist>Mike Bierek</Artist>
 <Multiverseid>430450</Multiverseid>
@@ -4378,7 +4375,7 @@ Equip {1}</CardText>
 —Kenjek, captain of the Thousand Swords</Flavor>
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>430452</Multiverseid>
-<Rulings>2011/09/22: If an opponent gains control of a creature equipped by your <Swiftfoot Boots>, that creature can't be the target of spells and abilities you control.</Rulings>
+<Rulings>2018/03/16: If a creature enters the battlefield under your control and gains haste, but then loses it before attacking, it won't be able to attack that turn. This means that you can't use one <Swiftfoot Boots> to allow two new creatures to attack in the same turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4412,7 +4409,7 @@ Equip {3}</CardText>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
 <CardText>You have no maximum hand size.
-{T}: Add {C} to your mana pool.</CardText>
+{T}: Add {C}.</CardText>
 <Flavor>Infinite possibilities contained in a finite space.</Flavor>
 <Artist>rk post</Artist>
 <Multiverseid>430454</Multiverseid>
@@ -4467,7 +4464,7 @@ Equip {3}</CardText>
 <Type>Land</Type>
 <CardText>Akoum Refuge enters the battlefield tapped.
 When Akoum Refuge enters the battlefield, you gain 1 life.
-{T}: Add {B} or {R} to your mana pool.</CardText>
+{T}: Add {B} or {R}.</CardText>
 <Artist>Fred Fields</Artist>
 <Multiverseid>430457</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4484,7 +4481,7 @@ When Akoum Refuge enters the battlefield, you gain 1 life.
 <Type>Land</Type>
 <CardText>Azorius Chancery enters the battlefield tapped.
 When Azorius Chancery enters the battlefield, return a land you control to its owner's hand.
-{T}: Add {W}{U} to your mana pool.</CardText>
+{T}: Add {W}{U}.</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>430458</Multiverseid>
 <Rulings>2013/04/15: If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.</Rulings>
@@ -4501,7 +4498,7 @@ When Azorius Chancery enters the battlefield, return a land you control to its o
 <Name>Azorius Guildgate</Name>
 <Type>Land — Gate</Type>
 <CardText>Azorius Guildgate enters the battlefield tapped.
-{T}: Add {W} or {U} to your mana pool.</CardText>
+{T}: Add {W} or {U}.</CardText>
 <Flavor>Enter the Senate, the seat of justice and the foundation of Ravnican society.</Flavor>
 <Artist>Drew Baker</Artist>
 <Multiverseid>430459</Multiverseid>
@@ -4519,7 +4516,7 @@ When Azorius Chancery enters the battlefield, return a land you control to its o
 <No>241</No>
 <Name>Bant Panorama</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {1}, {T}, Sacrifice Bant Panorama: Search your library for a basic Forest, Plains, or Island card and put it onto the battlefield tapped. Then shuffle your library.</CardText>
 <Flavor>Bant's hearts are as pure as its air and as bright as its skies.</Flavor>
 <Artist>Donato Giancola</Artist>
@@ -4537,7 +4534,7 @@ When Azorius Chancery enters the battlefield, return a land you control to its o
 <Name>Barren Moor</Name>
 <Type>Land</Type>
 <CardText>Barren Moor enters the battlefield tapped.
-{T}: Add {B} to your mana pool.
+{T}: Add {B}.
 Cycling {B} ({B}, Discard this card: Draw a card.)</CardText>
 <Artist>Heather Hudson</Artist>
 <Multiverseid>430461</Multiverseid>
@@ -4555,7 +4552,7 @@ Cycling {B} ({B}, Discard this card: Draw a card.)</CardText>
 <Type>Land</Type>
 <CardText>Bojuka Bog enters the battlefield tapped.
 When Bojuka Bog enters the battlefield, exile all cards from target player's graveyard.
-{T}: Add {B} to your mana pool.</CardText>
+{T}: Add {B}.</CardText>
 <Artist>Howard Lyon</Artist>
 <Multiverseid>430462</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4572,7 +4569,7 @@ When Bojuka Bog enters the battlefield, exile all cards from target player's gra
 <Type>Land</Type>
 <CardText>Boros Garrison enters the battlefield tapped.
 When Boros Garrison enters the battlefield, return a land you control to its owner's hand.
-{T}: Add {R}{W} to your mana pool.</CardText>
+{T}: Add {R}{W}.</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>430463</Multiverseid>
 <Rulings>2013/04/15: If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.</Rulings>
@@ -4588,7 +4585,7 @@ When Boros Garrison enters the battlefield, return a land you control to its own
 <No>245</No>
 <Name>Command Tower</Name>
 <Type>Land</Type>
-<CardText>{T}: Add to your mana pool one mana of any color in your commander's color identity.</CardText>
+<CardText>{T}: Add one mana of any color in your commander's color identity.</CardText>
 <Flavor>When defeat is near and guidance is scarce, all eyes look in one direction.</Flavor>
 <Artist>Ryan Yee</Artist>
 <Multiverseid>430464</Multiverseid>
@@ -4606,8 +4603,8 @@ When Boros Garrison enters the battlefield, return a land you control to its own
 <No>246</No>
 <Name>Crystal Vein</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{T}, Sacrifice Crystal Vein: Add {C}{C} to your mana pool.</CardText>
+<CardText>{T}: Add {C}.
+{T}, Sacrifice Crystal Vein: Add {C}{C}.</CardText>
 <Artist>Pat Lewis</Artist>
 <Multiverseid>430465</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4627,7 +4624,6 @@ When Boros Garrison enters the battlefield, return a land you control to its own
 <Multiverseid>430466</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Common</Rarity>
@@ -4639,11 +4635,11 @@ When Boros Garrison enters the battlefield, return a land you control to its own
 <Name>Faerie Conclave</Name>
 <Type>Land</Type>
 <CardText>Faerie Conclave enters the battlefield tapped.
-{T}: Add {U} to your mana pool.
+{T}: Add {U}.
 {1}{U}: Faerie Conclave becomes a 2/1 blue Faerie creature with flying until end of turn. It's still a land.</CardText>
 <Artist>Stephan Martiniere</Artist>
 <Multiverseid>430467</Multiverseid>
-<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.
+<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
 2009/10/01: Activating the ability that turns it into a creature while it's already a creature will override any effects that set its power and/or toughness to a specific number. However, any effect that raises or lowers power and/or toughness (such as the effect created by Giant Growth, Glorious Anthem, or a +1/+1 counter) will continue to apply.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -4658,7 +4654,7 @@ When Boros Garrison enters the battlefield, return a land you control to its own
 <Name>Forgotten Cave</Name>
 <Type>Land</Type>
 <CardText>Forgotten Cave enters the battlefield tapped.
-{T}: Add {R} to your mana pool.
+{T}: Add {R}.
 Cycling {R} ({R}, Discard this card: Draw a card.)</CardText>
 <Artist>Tony Szczudlo</Artist>
 <Multiverseid>430468</Multiverseid>
@@ -4674,7 +4670,7 @@ Cycling {R} ({R}, Discard this card: Draw a card.)</CardText>
 <No>250</No>
 <Name>Gargoyle Castle</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {5}, {T}, Sacrifice Gargoyle Castle: Create a 3/4 colorless Gargoyle artifact creature token with flying.</CardText>
 <Flavor>Most knew of the tower's wizard and gargoyle. Few realized which was guardian and which was master.</Flavor>
 <Artist>Paul Bonner</Artist>
@@ -4691,13 +4687,13 @@ Cycling {R} ({R}, Discard this card: Draw a card.)</CardText>
 <No>251</No>
 <Name>Ghost Quarter</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{T}, Sacrifice Ghost Quarter: Destroy target land. Its controller may search his or her library for a basic land card, put it onto the battlefield, then shuffle his or her library.</CardText>
+<CardText>{T}: Add {C}.
+{T}, Sacrifice Ghost Quarter: Destroy target land. Its controller may search their library for a basic land card, put it onto the battlefield, then shuffle their library.</CardText>
 <Flavor>Deserted, but not uninhabited.</Flavor>
 <Artist>Peter Mohrbacher</Artist>
 <Multiverseid>430470</Multiverseid>
-<Rulings>2006/05/01: If you target <Ghost Quarter> with its own ability, the ability will be countered because its target is no longer on the battlefield. You won't get to search for a land card.
-2011/09/22: If the targeted land is an illegal target by the time <Ghost Quarter>'s ability resolves, it will be countered and none of its effects will happen. The land's controller won't get to search for a basic land card.
+<Rulings>2006/05/01: If you target <Ghost Quarter> with its own ability, the ability won't resolve because its target is no longer on the battlefield. You won't get to search for a land card.
+2011/09/22: If the targeted land is an illegal target by the time <Ghost Quarter>'s ability resolves, it won't resolve and none of its effects will happen. The land's controller won't get to search for a basic land card.
 2013/07/01: The target land's controller gets to search for a basic land card even if that land wasn't destroyed by <Ghost Quarter>'s ability. This may happen because the land has indestructible or because it was regenerated.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -4712,7 +4708,7 @@ Cycling {R} ({R}, Discard this card: Draw a card.)</CardText>
 <Name>Golgari Guildgate</Name>
 <Type>Land — Gate</Type>
 <CardText>Golgari Guildgate enters the battlefield tapped.
-{T}: Add {B} or {G} to your mana pool.</CardText>
+{T}: Add {B} or {G}.</CardText>
 <Flavor>Enter those who are starving and sick. You are welcome among the Swarm when the rest of Ravnica rejects you.</Flavor>
 <Artist>Eytan Zana</Artist>
 <Multiverseid>430471</Multiverseid>
@@ -4732,7 +4728,7 @@ Cycling {R} ({R}, Discard this card: Draw a card.)</CardText>
 <Type>Land</Type>
 <CardText>Golgari Rot Farm enters the battlefield tapped.
 When Golgari Rot Farm enters the battlefield, return a land you control to its owner's hand.
-{T}: Add {B}{G} to your mana pool.</CardText>
+{T}: Add {B}{G}.</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>430472</Multiverseid>
 <Rulings>2013/04/15: If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.</Rulings>
@@ -4748,7 +4744,7 @@ When Golgari Rot Farm enters the battlefield, return a land you control to its o
 <No>254</No>
 <Name>Grim Backwoods</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {2}{B}{G}, {T}, Sacrifice a creature: Draw a card.</CardText>
 <Flavor>"I love what they've done with the place."
 —Liliana Vess</Flavor>
@@ -4766,13 +4762,14 @@ When Golgari Rot Farm enters the battlefield, return a land you control to its o
 <No>255</No>
 <Name>Haunted Fengraf</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {3}, {T}, Sacrifice Haunted Fengraf: Return a creature card at random from your graveyard to your hand.</CardText>
 <Flavor>A ghoulcaller's playground.</Flavor>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>430474</Multiverseid>
-<Rulings>2011/01/22: The creature card returned to your hand is chosen at random as the ability resolves. If any player responds to the ability, that player won't yet know what card will be returned.
-2011/01/22: Because the ability doesn't target any creature card, any creature card put into the graveyard in response to that ability may be returned to your hand.</Rulings>
+<Rulings>2018/03/16: The creature card returned to your hand is chosen at random as the ability resolves. If any player responds to the ability, that player won't yet know what card will be returned.
+2018/03/16: Because <Haunted Fengraf>'s ability doesn't target any creature card, any creature card put into the graveyard in response to that ability may be returned to your hand.
+2018/03/16: All players get to see which card you return to your hand.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4786,8 +4783,8 @@ When Golgari Rot Farm enters the battlefield, return a land you control to its o
 <Name>Havenwood Battleground</Name>
 <Type>Land</Type>
 <CardText>Havenwood Battleground enters the battlefield tapped.
-{T}: Add {G} to your mana pool.
-{T}, Sacrifice Havenwood Battleground: Add {G}{G} to your mana pool.</CardText>
+{T}: Add {G}.
+{T}, Sacrifice Havenwood Battleground: Add {G}{G}.</CardText>
 <Artist>Liz Danforth</Artist>
 <Multiverseid>430475</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4801,7 +4798,7 @@ When Golgari Rot Farm enters the battlefield, return a land you control to its o
 <No>257</No>
 <Name>High Market</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {T}, Sacrifice a creature: You gain 1 life.</CardText>
 <Flavor>If it can't be had here, it can't be had on any world.</Flavor>
 <Artist>Carl Critchlow</Artist>
@@ -4819,7 +4816,7 @@ When Golgari Rot Farm enters the battlefield, return a land you control to its o
 <Type>Land</Type>
 <CardText>Jungle Basin enters the battlefield tapped.
 When Jungle Basin enters the battlefield, sacrifice it unless you return an untapped Forest you control to its owner's hand.
-{T}: Add {C}{G} to your mana pool.</CardText>
+{T}: Add {C}{G}.</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>430477</Multiverseid>
 <Rulings>2006/02/01: This has a triggered ability when it enters the battlefield, not a replacement effect, as previously worded.</Rulings>
@@ -4836,7 +4833,7 @@ When Jungle Basin enters the battlefield, sacrifice it unless you return an unta
 <Type>Land</Type>
 <CardText>Jungle Hollow enters the battlefield tapped.
 When Jungle Hollow enters the battlefield, you gain 1 life.
-{T}: Add {B} or {G} to your mana pool.</CardText>
+{T}: Add {B} or {G}.</CardText>
 <Artist>Eytan Zana</Artist>
 <Multiverseid>430478</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4851,9 +4848,9 @@ When Jungle Hollow enters the battlefield, you gain 1 life.
 <No>260</No>
 <Name>Molten Slagheap</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {1}, {T}: Put a storage counter on Molten Slagheap.
-{1}, Remove X storage counters from Molten Slagheap: Add X mana in any combination of {B} and/or {R} to your mana pool.</CardText>
+{1}, Remove X storage counters from Molten Slagheap: Add X mana in any combination of {B} and/or {R}.</CardText>
 <Artist>Daren Bader</Artist>
 <Multiverseid>430479</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4869,11 +4866,11 @@ When Jungle Hollow enters the battlefield, you gain 1 life.
 <Name>Myriad Landscape</Name>
 <Type>Land</Type>
 <CardText>Myriad Landscape enters the battlefield tapped.
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {2}, {T}, Sacrifice Myriad Landscape: Search your library for up to two basic land cards that share a land type, put them onto the battlefield tapped, then shuffle your library.</CardText>
 <Artist>Richard Wright</Artist>
 <Multiverseid>430480</Multiverseid>
-<Rulings>2014/11/07: You can choose to find one basic land card with the second activated ability and put it onto the battlefield tapped.</Rulings>
+<Rulings>2018/03/16: You can choose to find one basic land card with <Myriad Landscape>'s last ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander Anthology</Set>
@@ -4885,8 +4882,8 @@ When Jungle Hollow enters the battlefield, you gain 1 life.
 <No>262</No>
 <Name>Opal Palace</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{1}, {T}: Add to your mana pool one mana of any color in your commander's color identity. If you spend this mana to cast your commander, it enters the battlefield with a number of additional +1/+1 counters on it equal to the number of times it's been cast from the command zone this game.</CardText>
+<CardText>{T}: Add {C}.
+{1}, {T}: Add one mana of any color in your commander's color identity. If you spend this mana to cast your commander, it enters the battlefield with a number of additional +1/+1 counters on it equal to the number of times it's been cast from the command zone this game.</CardText>
 <Artist>Andreas Rocha</Artist>
 <Multiverseid>430481</Multiverseid>
 <Rulings>2013/10/17: The "number of times it's been cast from the command zone" includes the most recent time. For example, the first time you cast your commander from the command zone in a game, if you spent mana from <Opal Palace>'s last ability to do so, it will enter the battlefield with a +1/+1 counter.
@@ -4905,7 +4902,7 @@ When Jungle Hollow enters the battlefield, you gain 1 life.
 <Name>Oran-Rief, the Vastwood</Name>
 <Type>Land</Type>
 <CardText>Oran-Rief, the Vastwood enters the battlefield tapped.
-{T}: Add {G} to your mana pool.
+{T}: Add {G}.
 {T}: Put a +1/+1 counter on each green creature that entered the battlefield this turn.</CardText>
 <Artist>Mike Bierek</Artist>
 <Multiverseid>430482</Multiverseid>
@@ -4925,7 +4922,7 @@ When Jungle Hollow enters the battlefield, you gain 1 life.
 <Type>Land</Type>
 <CardText>Orzhov Basilica enters the battlefield tapped.
 When Orzhov Basilica enters the battlefield, return a land you control to its owner's hand.
-{T}: Add {W}{B} to your mana pool.</CardText>
+{T}: Add {W}{B}.</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>430483</Multiverseid>
 <Rulings>2013/04/15: If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.</Rulings>
@@ -4942,7 +4939,7 @@ When Orzhov Basilica enters the battlefield, return a land you control to its ow
 <Name>Polluted Mire</Name>
 <Type>Land</Type>
 <CardText>Polluted Mire enters the battlefield tapped.
-{T}: Add {B} to your mana pool.
+{T}: Add {B}.
 Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <Artist>Stephen Daniele</Artist>
 <Multiverseid>430484</Multiverseid>
@@ -4960,7 +4957,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <Type>Land</Type>
 <CardText>Rakdos Carnarium enters the battlefield tapped.
 When Rakdos Carnarium enters the battlefield, return a land you control to its owner's hand.
-{T}: Add {B}{R} to your mana pool.</CardText>
+{T}: Add {B}{R}.</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>430485</Multiverseid>
 <Rulings>2013/04/15: If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.</Rulings>
@@ -4978,7 +4975,7 @@ When Rakdos Carnarium enters the battlefield, return a land you control to its o
 <Type>Land</Type>
 <CardText>Rupture Spire enters the battlefield tapped.
 When Rupture Spire enters the battlefield, sacrifice it unless you pay {1}.
-{T}: Add one mana of any color to your mana pool.</CardText>
+{T}: Add one mana of any color.</CardText>
 <Artist>Jaime Jones</Artist>
 <Multiverseid>430486</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4993,9 +4990,9 @@ When Rupture Spire enters the battlefield, sacrifice it unless you pay {1}.
 <No>268</No>
 <Name>Saltcrusted Steppe</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {1}, {T}: Put a storage counter on Saltcrusted Steppe.
-{1}, Remove X storage counters from Saltcrusted Steppe: Add X mana in any combination of {G} and/or {W} to your mana pool.</CardText>
+{1}, Remove X storage counters from Saltcrusted Steppe: Add X mana in any combination of {G} and/or {W}.</CardText>
 <Artist>Greg Staples</Artist>
 <Multiverseid>430487</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5011,7 +5008,7 @@ When Rupture Spire enters the battlefield, sacrifice it unless you pay {1}.
 <Name>Seaside Citadel</Name>
 <Type>Land</Type>
 <CardText>Seaside Citadel enters the battlefield tapped.
-{T}: Add {G}, {W}, or {U} to your mana pool.</CardText>
+{T}: Add {G}, {W}, or {U}.</CardText>
 <Flavor>For wisdom's sake, it was built high to gaze on all things. For glory's sake, it was built high as a testament of power. For strength's sake, it was built high to repel all attacks.</Flavor>
 <Artist>Volkan Baga</Artist>
 <Multiverseid>430488</Multiverseid>
@@ -5028,7 +5025,7 @@ When Rupture Spire enters the battlefield, sacrifice it unless you pay {1}.
 <Name>Secluded Steppe</Name>
 <Type>Land</Type>
 <CardText>Secluded Steppe enters the battlefield tapped.
-{T}: Add {W} to your mana pool.
+{T}: Add {W}.
 Cycling {W} ({W}, Discard this card: Draw a card.)</CardText>
 <Artist>Heather Hudson</Artist>
 <Multiverseid>430489</Multiverseid>
@@ -5046,7 +5043,7 @@ Cycling {W} ({W}, Discard this card: Draw a card.)</CardText>
 <Type>Land</Type>
 <CardText>Sejiri Refuge enters the battlefield tapped.
 When Sejiri Refuge enters the battlefield, you gain 1 life.
-{T}: Add {W} or {U} to your mana pool.</CardText>
+{T}: Add {W} or {U}.</CardText>
 <Artist>Ryan Pancoast</Artist>
 <Multiverseid>430490</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5062,7 +5059,7 @@ When Sejiri Refuge enters the battlefield, you gain 1 life.
 <Name>Selesnya Guildgate</Name>
 <Type>Land — Gate</Type>
 <CardText>Selesnya Guildgate enters the battlefield tapped.
-{T}: Add {G} or {W} to your mana pool.</CardText>
+{T}: Add {G} or {W}.</CardText>
 <Flavor>Enter and rejoice! The Conclave stands united, open to one and all.</Flavor>
 <Artist>Howard Lyon</Artist>
 <Multiverseid>430491</Multiverseid>
@@ -5082,7 +5079,7 @@ When Sejiri Refuge enters the battlefield, you gain 1 life.
 <Type>Land</Type>
 <CardText>Selesnya Sanctuary enters the battlefield tapped.
 When Selesnya Sanctuary enters the battlefield, return a land you control to its owner's hand.
-{T}: Add {G}{W} to your mana pool.</CardText>
+{T}: Add {G}{W}.</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>430492</Multiverseid>
 <Rulings>2013/04/15: If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.</Rulings>
@@ -5099,7 +5096,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <Name>Simic Guildgate</Name>
 <Type>Land — Gate</Type>
 <CardText>Simic Guildgate enters the battlefield tapped.
-{T}: Add {G} or {U} to your mana pool.</CardText>
+{T}: Add {G} or {U}.</CardText>
 <Flavor>Enter and comprehend the perfection of orchestrated life.</Flavor>
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>430493</Multiverseid>
@@ -5118,7 +5115,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <Name>Slippery Karst</Name>
 <Type>Land</Type>
 <CardText>Slippery Karst enters the battlefield tapped.
-{T}: Add {G} to your mana pool.
+{T}: Add {G}.
 Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <Artist>Stephen Daniele</Artist>
 <Multiverseid>430494</Multiverseid>
@@ -5134,8 +5131,8 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <No>276</No>
 <Name>Tainted Wood</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{T}: Add {B} or {G} to your mana pool. Activate this ability only if you control a Swamp.</CardText>
+<CardText>{T}: Add {C}.
+{T}: Add {B} or {G}. Activate this ability only if you control a Swamp.</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>430495</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5149,9 +5146,9 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <No>277</No>
 <Name>Temple of the False God</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C}{C} to your mana pool. Activate this ability only if you control five or more lands.</CardText>
+<CardText>{T}: Add {C}{C}. Activate this ability only if you control five or more lands.</CardText>
 <Flavor>Those who bring nothing to the temple take nothing away.</Flavor>
-<Artist>Brian Snoddy</Artist>
+<Artist>Brian Snõddy</Artist>
 <Multiverseid>430496</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -5180,7 +5177,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <Name>Tranquil Thicket</Name>
 <Type>Land</Type>
 <CardText>Tranquil Thicket enters the battlefield tapped.
-{T}: Add {G} to your mana pool.
+{T}: Add {G}.
 Cycling {G} ({G}, Discard this card: Draw a card.)</CardText>
 <Artist>Heather Hudson</Artist>
 <Multiverseid>430498</Multiverseid>
@@ -5198,7 +5195,7 @@ Cycling {G} ({G}, Discard this card: Draw a card.)</CardText>
 <Type>Land</Type>
 <CardText>Transguild Promenade enters the battlefield tapped.
 When Transguild Promenade enters the battlefield, sacrifice it unless you pay {1}.
-{T}: Add one mana of any color to your mana pool.</CardText>
+{T}: Add one mana of any color.</CardText>
 <Artist>Noah Bradley</Artist>
 <Multiverseid>430499</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5214,8 +5211,8 @@ When Transguild Promenade enters the battlefield, sacrifice it unless you pay {1
 <Name>Vivid Grove</Name>
 <Type>Land</Type>
 <CardText>Vivid Grove enters the battlefield tapped with two charge counters on it.
-{T}: Add {G} to your mana pool.
-{T}, Remove a charge counter from Vivid Grove: Add one mana of any color to your mana pool.</CardText>
+{T}: Add {G}.
+{T}, Remove a charge counter from Vivid Grove: Add one mana of any color.</CardText>
 <Artist>Howard Lyon</Artist>
 <Multiverseid>430500</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5231,8 +5228,8 @@ When Transguild Promenade enters the battlefield, sacrifice it unless you pay {1
 <Name>Vivid Marsh</Name>
 <Type>Land</Type>
 <CardText>Vivid Marsh enters the battlefield tapped with two charge counters on it.
-{T}: Add {B} to your mana pool.
-{T}, Remove a charge counter from Vivid Marsh: Add one mana of any color to your mana pool.</CardText>
+{T}: Add {B}.
+{T}, Remove a charge counter from Vivid Marsh: Add one mana of any color.</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>430501</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5248,8 +5245,8 @@ When Transguild Promenade enters the battlefield, sacrifice it unless you pay {1
 <Name>Vivid Meadow</Name>
 <Type>Land</Type>
 <CardText>Vivid Meadow enters the battlefield tapped with two charge counters on it.
-{T}: Add {W} to your mana pool.
-{T}, Remove a charge counter from Vivid Meadow: Add one mana of any color to your mana pool.</CardText>
+{T}: Add {W}.
+{T}, Remove a charge counter from Vivid Meadow: Add one mana of any color.</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>430502</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5264,11 +5261,13 @@ When Transguild Promenade enters the battlefield, sacrifice it unless you pay {1
 <No>284</No>
 <Name>Zoetic Cavern</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)</CardText>
 <Flavor>Nothing lives within it, yet there is life.</Flavor>
 <Artist>Lars Grant-West</Artist>
 <Multiverseid>430503</Multiverseid>
+<Rulings>2018/03/16: When <Zoetic Cavern> is turned face up, any Auras on it that can't legally enchant it will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on it will remain on it.
+2018/03/16: If Blood Moon is on the battlefield and a player controls a face-down <Zoetic Cavern>, it can't be turned face up since it won't have a morph cost.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -5281,12 +5280,11 @@ Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 <No>285</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>430504</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Land</Rarity>
@@ -5297,12 +5295,11 @@ Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 <No>286</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>430505</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Land</Rarity>
@@ -5313,12 +5310,11 @@ Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 <No>287</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>430506</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Land</Rarity>
@@ -5329,12 +5325,11 @@ Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 <No>288</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Michael Komarck</Artist>
 <Multiverseid>430507</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Land</Rarity>
@@ -5345,12 +5340,11 @@ Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 <No>289</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Michael Komarck</Artist>
 <Multiverseid>430508</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Land</Rarity>
@@ -5361,12 +5355,11 @@ Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 <No>290</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Matthew Mitchell</Artist>
 <Multiverseid>430509</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Land</Rarity>
@@ -5377,12 +5370,11 @@ Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 <No>291</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>430510</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Land</Rarity>
@@ -5393,12 +5385,11 @@ Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 <No>292</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Andreas Rocha</Artist>
 <Multiverseid>430511</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Land</Rarity>
@@ -5409,12 +5400,11 @@ Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 <No>293</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Noah Bradley</Artist>
 <Multiverseid>430512</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Land</Rarity>
@@ -5425,12 +5415,11 @@ Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 <No>294</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Cliff Childs</Artist>
 <Multiverseid>430513</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Land</Rarity>
@@ -5441,12 +5430,11 @@ Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 <No>295</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Michael Komarck</Artist>
 <Multiverseid>430514</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Land</Rarity>
@@ -5457,12 +5445,11 @@ Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 <No>296</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>430515</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Land</Rarity>
@@ -5473,12 +5460,11 @@ Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 <No>297</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>430516</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Land</Rarity>
@@ -5489,12 +5475,11 @@ Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 <No>298</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Cliff Childs</Artist>
 <Multiverseid>430517</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Land</Rarity>
@@ -5505,12 +5490,11 @@ Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 <No>299</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Jonas De Ro</Artist>
 <Multiverseid>430518</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Land</Rarity>
@@ -5521,12 +5505,11 @@ Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 <No>300</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Dan Frazier</Artist>
 <Multiverseid>430519</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Land</Rarity>
@@ -5537,12 +5520,11 @@ Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 <No>301</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>430520</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Land</Rarity>
@@ -5553,12 +5535,11 @@ Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 <No>302</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>430521</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Land</Rarity>
@@ -5569,12 +5550,11 @@ Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 <No>303</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Jim Pavelec</Artist>
 <Multiverseid>430522</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Land</Rarity>
@@ -5585,12 +5565,11 @@ Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 <No>304</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Richard Wright</Artist>
 <Multiverseid>430523</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Land</Rarity>
@@ -5601,12 +5580,11 @@ Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 <No>305</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>430524</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Land</Rarity>
@@ -5617,12 +5595,11 @@ Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 <No>306</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>430525</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Land</Rarity>
@@ -5633,12 +5610,11 @@ Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 <No>307</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>430526</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Land</Rarity>
@@ -5649,12 +5625,11 @@ Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 <No>308</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Martina Pilcerova</Artist>
 <Multiverseid>430527</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Land</Rarity>
@@ -5665,12 +5640,11 @@ Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 <No>309</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>430528</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Land</Rarity>
@@ -5681,12 +5655,11 @@ Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 <No>310</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>430529</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Land</Rarity>
@@ -5697,12 +5670,11 @@ Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 <No>311</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>430530</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Land</Rarity>
@@ -5713,12 +5685,11 @@ Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 <No>312</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>430531</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Land</Rarity>
@@ -5729,12 +5700,11 @@ Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 <No>313</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Noah Bradley</Artist>
 <Multiverseid>430532</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Land</Rarity>
@@ -5745,12 +5715,11 @@ Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 <No>314</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Jonas De Ro</Artist>
 <Multiverseid>430533</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Land</Rarity>
@@ -5761,12 +5730,11 @@ Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 <No>315</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Vance Kovacs</Artist>
 <Multiverseid>430534</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Land</Rarity>
@@ -5777,12 +5745,11 @@ Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 <No>316</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Craig Mullins</Artist>
 <Multiverseid>430535</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Land</Rarity>
@@ -5793,12 +5760,11 @@ Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 <No>317</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>430536</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Land</Rarity>
@@ -5809,12 +5775,11 @@ Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 <No>318</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>430537</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Land</Rarity>
@@ -5825,12 +5790,11 @@ Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 <No>319</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Stephen Tappin</Artist>
 <Multiverseid>430538</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Land</Rarity>
@@ -5841,12 +5805,11 @@ Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 <No>320</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Eytan Zana</Artist>
 <Multiverseid>430539</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Commander Anthology</Set>
 <Rarity>Land</Rarity>

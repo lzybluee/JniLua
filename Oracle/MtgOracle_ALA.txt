@@ -435,7 +435,7 @@ When you cycle Resounding Silence, exile up to two target attacking creatures.</
 <Multiverseid>174985</Multiverseid>
 <Rulings>2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
 2008/10/01: When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
-2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability is countered (with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.
+2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (due to being countered with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.
 2008/10/01: You can cycle this card even if there are no targets for the triggered ability. That's because the cycling ability itself has no targets.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -572,7 +572,7 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 <Type>Creature — Human Druid Wizard 1/1</Type>
 <ManaCost>2W (3)</ManaCost>
 <CardText>At the beginning of your end step, if you control a creature with power 5 or greater, you may gain 2 life.
-{T}: Add {C} to your mana pool.</CardText>
+{T}: Add {C}.</CardText>
 <Flavor>Sunseeders quest for areas of open sky. They train plowbeasts to beat back the dense jungle long enough to cultivate a crop.</Flavor>
 <Artist>Steve Argyle</Artist>
 <Multiverseid>175122</Multiverseid>
@@ -633,7 +633,7 @@ When Welkin Guide enters the battlefield, target creature gets +2/+2 and gains f
 <Artist>Randy Gallegos</Artist>
 <Multiverseid>175053</Multiverseid>
 <Rulings>2008/10/01: The player who draws a card is the player who controls the creature when <Call to Heel> resolves. This may not be the player whose hand the creature is put into.
-2008/10/01: If the targeted creature becomes an illegal target before <Call to Heel> resolves, <Call to Heel> is countered. No one draws a card.</Rulings>
+2008/10/01: If the targeted creature becomes an illegal target before <Call to Heel> resolves, <Call to Heel> doesn't resolve. No one draws a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -664,7 +664,7 @@ When Welkin Guide enters the battlefield, target creature gets +2/+2 and gains f
 <Name>Cathartic Adept</Name>
 <Type>Creature — Human Wizard 1/1</Type>
 <ManaCost>U (1)</ManaCost>
-<CardText>{T}: Target player puts the top card of his or her library into his or her graveyard.</CardText>
+<CardText>{T}: Target player puts the top card of their library into their graveyard.</CardText>
 <Flavor>"Forget. Only then will there be space for hope between the pain and fear."</Flavor>
 <Artist>Carl Critchlow</Artist>
 <Multiverseid>176433</Multiverseid>
@@ -737,7 +737,7 @@ Enchanted permanent doesn't untap during its controller's untap step.</CardText>
 <Name>Covenant of Minds</Name>
 <Type>Sorcery</Type>
 <ManaCost>4U (5)</ManaCost>
-<CardText>Reveal the top three cards of your library. Target opponent may choose to put those cards into your hand. If he or she doesn't, put those cards into your graveyard and draw five cards.</CardText>
+<CardText>Reveal the top three cards of your library. Target opponent may choose to put those cards into your hand. If they don't, put those cards into your graveyard and draw five cards.</CardText>
 <Flavor>Before signing anything on Grixis, always read the fine print.</Flavor>
 <Artist>Dan Seagrave</Artist>
 <Multiverseid>178091</Multiverseid>
@@ -886,12 +886,7 @@ Unearth {U} ({U}: Return this card from your graveyard to the battlefield. It ga
 <Rulings>2008/10/01: <Gather Specimens> isn't targeted. It affects creatures that would enter the battlefield under any opponent's control.
 2008/10/01: <Gather Specimens> affects both token creatures and nontoken creatures. It affects creatures that would enter the battlefield by any means. This includes, of course, creature spells that resolve. It also includes creatures put onto the battlefield as a result of a resolving spell (such as Call of the Herd or Zombify), resolving ability (such as Verdant Force's ability or Doomed Necromancer's ability), cost (such as Varchild's War-Riders's cumulative upkeep cost), replacement effect (such as the one created by Words of Wilding), or any other means.
 2008/10/01: If a creature spell controlled by an opponent would resolve, it resolves, but the creature enters the battlefield under your control instead of the opponent's control. Choices made when casting that spell (such as whether it was kicked or the value of X in the spell's cost) are remembered. Any "enters the battlefield" triggered abilities will trigger after the creature is on the battlefield under your control.
-2008/10/01: The <Gather Specimens> replacement effect is applied before any other replacement effects that would also modify how the creature enters the battlefield. These are usually worded "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with." For example, if your <Gather Specimens> has resolved, then the following things are true:
--- If a creature with devour would enter the battlefield under an opponent's control, you choose and sacrifice your creatures as it enters the battlefield under your control.
--- If Voice of All would enter the battlefield under an opponent's control, you choose a color as it enters the battlefield under your control.
--- If Clone would enter the battlefield under an opponent's control, you choose which creature it copies as it enters the battlefield under your control.
--- If a Wizard would enter the battlefield under an opponent's control and that player controls Sage of Fables, the Wizard will not enter the battlefield with a +1/+1 counter on it as it enters the battlefield under your control.
--- If a Wizard would enter the battlefield under an opponent's control and you control Sage of Fables, the Wizard will enter the battlefield with a +1/+1 counter on it as it enters the battlefield under your control.
+2008/10/01: The <Gather Specimens> replacement effect is applied before any other replacement effects that would also modify how the creature enters the battlefield. These are usually worded "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with." For example, if your <Gather Specimens> has resolved, then the following things are true: -- If a creature with devour would enter the battlefield under an opponent's control, you choose and sacrifice your creatures as it enters the battlefield under your control. -- If Voice of All would enter the battlefield under an opponent's control, you choose a color as it enters the battlefield under your control. -- If Clone would enter the battlefield under an opponent's control, you choose which creature it copies as it enters the battlefield under your control. -- If a Wizard would enter the battlefield under an opponent's control and that player controls Sage of Fables, the Wizard will not enter the battlefield with a +1/+1 counter on it as it enters the battlefield under your control. -- If a Wizard would enter the battlefield under an opponent's control and you control Sage of Fables, the Wizard will enter the battlefield with a +1/+1 counter on it as it enters the battlefield under your control.
 2008/10/01: <Gather Specimens> won't retroactively change the control of creatures that have already enter the battlefield that turn.
 2008/10/01: Some effects that put creatures onto the battlefield continue to affect those creatures later on. Although <Gather Specimens> changes whose control the creature enters the battlefield under, the rest of the effect works as normal. For example, if your opponent activates a creature card's unearth ability and you cast <Gather Specimens>, that creature enters the battlefield under your control, but the rest of the unearth ability is unchanged. The creature has haste. It's exiled at the beginning of the end step. If it would leave the battlefield, it's exiled instead of being put anywhere else.
 2008/10/01: If the effect that puts a creature onto the battlefield also creates a delayed triggered ability, <Gather Specimens> doesn't change who controls that ability. In the unearth example above, your opponent controls the ability that exiles the creature at the beginning of the end step. On the other hand, if the effect that puts a creature onto the battlefield grants a triggered ability to the creature (with "gains" or "has"), the player who controls the creature at the time the ability triggers will be the player who controls that ability. For example, if your opponent casts Makeshift Mannequin and you cast <Gather Specimens> in response, the creature will return to the battlefield under your control with a mannequin counter and it will have the ability "When this creature becomes the target of a spell or ability, sacrifice it." If the ability triggers, you'll control it, so you'll have to sacrifice the creature.
@@ -991,7 +986,7 @@ Other artifact creatures you control get +1/+1.</CardText>
 <Name>Memory Erosion</Name>
 <Type>Enchantment</Type>
 <ManaCost>1UU (3)</ManaCost>
-<CardText>Whenever an opponent casts a spell, that player puts the top two cards of his or her library into his or her graveyard.</CardText>
+<CardText>Whenever an opponent casts a spell, that player puts the top two cards of their library into their graveyard.</CardText>
 <Flavor>"The Filigree Texts do not compel you to act in accordance with their precepts. They only specify the consequences should you fail."
 —Lodus of the Ethersworn</Flavor>
 <Artist>Howard Lyon</Artist>
@@ -1081,7 +1076,7 @@ When you cycle Resounding Wave, return two target permanents to their owners' ha
 <Multiverseid>175098</Multiverseid>
 <Rulings>2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
 2008/10/01: When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
-2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability is countered (with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.
+2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (due to being countered with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.
 2008/10/01: You can cycle this card even if there are no targets for the triggered ability. That's because the cycling ability itself has no targets.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1208,7 +1203,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 2008/10/01: For the second ability, you choose the value of X when you activate it. You don't look through your library until the ability resolves. (In other words, you can't look through your library, decide what artifact card you want, and then determine what X is.) You can't choose an X that's greater than the number of loyalty counters on Tezzeret.
 2008/10/01: The third ability affects all artifacts you control, including artifacts that are already creatures.
 2008/10/01: The third ability causes artifacts you control to become creatures in addition to their other card types.
-2009/10/01: A noncreature permanent that turns into a creature is subject to the "summoning sickness" rule: It can only attack, and its {T} abilities can only be activated, if its controller has continuously controlled that permanent since the beginning of his or her most recent turn.
+2009/10/01: A noncreature permanent that turns into a creature is subject to the "summoning sickness" rule: It can only attack, and its {T} abilities can only be activated, if its controller has continuously controlled that permanent since the beginning of their most recent turn.
 2009/10/01: The effect from the ability overwrites other effects that set power and/or toughness if and only if those effects existed before the ability resolved. It will not overwrite effects that modify power or toughness (whether from a static ability, counters, or a resolved spell or ability), nor will it overwrite effects that set power and toughness which come into existence after the ability resolves. Effects that switch the creature's power and toughness are always applied after any other power or toughness changing effects, including this one, regardless of the order in which they are created.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1335,14 +1330,14 @@ When enchanted creature dies, that creature's controller loses life equal to its
 <Name>Bone Splinters</Name>
 <Type>Sorcery</Type>
 <ManaCost>B (1)</ManaCost>
-<CardText>As an additional cost to cast Bone Splinters, sacrifice a creature.
+<CardText>As an additional cost to cast this spell, sacrifice a creature.
 Destroy target creature.</CardText>
 <Flavor>Witches of the Split-Eye Coven speak of a future when Grixis will overflow with life energy. For now, they must harvest vis from the living to fuel their dark magics.</Flavor>
 <Artist>Cole Eastburn</Artist>
 <Multiverseid>174967</Multiverseid>
 <Rulings>2017/03/14: You must sacrifice exactly one creature to cast this spell; you can't cast it without sacrificing a creature, and you can't sacrifice additional creatures.
 2017/03/14: Once you begin to cast <Bone Splinters>, no player may take actions until you're done. Notably, opponents can't try to remove the creature you wish to sacrifice.
-2017/03/14: You can cast <Bone Splinters> targeting the creature you intend to sacrifice for its cost. This is because targets are chosen before costs are paid. <Bone Splinters> will be countered as it tries to resolve in this case.</Rulings>
+2017/03/14: You can cast <Bone Splinters> targeting the creature you intend to sacrifice for its cost. This is because targets are chosen before costs are paid. <Bone Splinters> won't resolve as it tries to resolve in this case.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1575,10 +1570,7 @@ When there are no cards in your graveyard, you lose the game.</CardText>
 2008/10/01: The second ability prevents all damage that would be dealt to you, regardless of how many cards are in your graveyard. For example, if you have three cards in your graveyard and would be dealt 5 damage, <Immortal Coil> prevents all 5 damage and exiles all the cards in your graveyard.
 2008/10/01: The third ability checks whether your graveyard is empty only at the time it triggers. Putting a card into your graveyard after that doesn't help. You'll lose the game when the ability resolves.
 2008/10/01: If the third ability is countered, but your graveyard is still empty, the ability will immediately trigger again.
-2008/10/01: Similarly, if the third ability resolves but you don't lose the game for some reason (because you control Platinum Angel, perhaps), it will immediately trigger again if your graveyard is still empty. <Immortal Coil> + Platinum Angel + an empty graveyard is an involuntary infinite loop. Unless a player disrupts it, the game will end in a draw.
-2008/10/01: Suppose you control <Immortal Coil> and a planeswalker, and a source controlled by an opponent would deal noncombat damage to you. Both <Immortal Coil> and the planeswalker have effects that could affect that damage. You choose one to apply.
--- If you apply <Immortal Coil>'s effect, the damage is prevented. The planeswalker replacement effect is no longer applicable.
--- If you apply the planeswalker replacement effect, your opponent then chooses whether he or she wants to redirect the damage to your planeswalker. If your opponent does, then that many loyalty counters are removed from the planeswalker, and <Immortal Coil>'s effect is no longer applicable. If your opponent doesn't, then <Immortal Coil>'s effect applies and the damage is prevented.</Rulings>
+2008/10/01: Similarly, if the third ability resolves but you don't lose the game for some reason (because you control Platinum Angel, perhaps), it will immediately trigger again if your graveyard is still empty. <Immortal Coil> + Platinum Angel + an empty graveyard is an involuntary infinite loop. Unless a player disrupts it, the game will end in a draw.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1656,7 +1648,7 @@ When you cycle Resounding Scream, target player discards two cards at random.</C
 <Multiverseid>176444</Multiverseid>
 <Rulings>2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
 2008/10/01: When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
-2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability is countered (with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.
+2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (due to being countered with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.
 2008/10/01: You can cycle this card even if there are no targets for the triggered ability. That's because the cycling ability itself has no targets.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1671,7 +1663,7 @@ When you cycle Resounding Scream, target player discards two cards at random.</C
 <Name>Salvage Titan</Name>
 <Type>Artifact Creature — Golem 6/4</Type>
 <ManaCost>4BB (6)</ManaCost>
-<CardText>You may sacrifice three artifacts rather than pay Salvage Titan's mana cost.
+<CardText>You may sacrifice three artifacts rather than pay this spell's mana cost.
 Exile three artifact cards from your graveyard: Return Salvage Titan from your graveyard to your hand.</CardText>
 <Artist>Anthony Francisco</Artist>
 <Multiverseid>174900</Multiverseid>
@@ -1714,7 +1706,7 @@ Whenever another creature dies, you may put a +1/+1 counter on Scavenger Drake.<
 —Sedris, the Traitor King</Flavor>
 <Artist>Dave Kendall</Artist>
 <Multiverseid>177473</Multiverseid>
-<Rulings>2008/10/01: If the targeted card is removed from the graveyard before <Shadowfeed> resolves, <Shadowfeed> is countered. You won't gain 3 life.</Rulings>
+<Rulings>2008/10/01: If the targeted card is removed from the graveyard before <Shadowfeed> resolves, <Shadowfeed> doesn't resolve. You won't gain 3 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1812,7 +1804,7 @@ Unearth {2}{B} ({2}{B}: Return this card from your graveyard to the battlefield.
 Whenever a creature dealt damage by Vein Drinker this turn dies, put a +1/+1 counter on Vein Drinker.</CardText>
 <Artist>Lars Grant-West</Artist>
 <Multiverseid>175004</Multiverseid>
-<Rulings>2008/10/01: When the first ability resolves, if the targeted creature is no longer on the battlefield, the ability is countered for having no legal targets. No damage is dealt.
+<Rulings>2008/10/01: When the first ability resolves, if the targeted creature is no longer on the battlefield, the ability doesn't resolve for having no legal targets. No damage is dealt.
 2008/10/01: When the first ability resolves, if the targeted creature is still on the battlefield but <Vein Drinker> is not, <Vein Drinker> will still deal damage equal to its power as it last existed on the battlefield to the targeted creature.
 2008/10/01: Each time a creature is put into a graveyard from the battlefield, check whether <Vein Drinker> had dealt damage to it at any time during that turn. If so, <Vein Drinker>'s third ability will trigger. It doesn't matter whether the damage was combat damage or not. It also doesn't matter who controlled the creature or whose graveyard it was put into.
 2008/10/01: If <Vein Drinker>'s first ability causes <Vein Drinker> and the targeted creature to deal lethal damage to each other, they'll be destroyed at the same time. <Vein Drinker>'s triggered ability will trigger, but it will have been put into a graveyard before it would receive any counters. The ability will do nothing when it resolves.</Rulings>
@@ -1852,7 +1844,7 @@ Unearth {1}{B} ({1}{B}: Return this card from your graveyard to the battlefield.
 <Name>Bloodpyre Elemental</Name>
 <Type>Creature — Elemental 4/1</Type>
 <ManaCost>4R (5)</ManaCost>
-<CardText>Sacrifice Bloodpyre Elemental: Bloodpyre Elemental deals 4 damage to target creature. Activate this ability only any time you could cast a sorcery.</CardText>
+<CardText>Sacrifice Bloodpyre Elemental: It deals 4 damage to target creature. Activate this ability only any time you could cast a sorcery.</CardText>
 <Flavor>Elementals born of Jund are as cruel and unstable as the plane itself.</Flavor>
 <Artist>Trevor Claxton</Artist>
 <Multiverseid>175117</Multiverseid>
@@ -1966,8 +1958,8 @@ When Caldera Hellion enters the battlefield, it deals 3 damage to each creature.
 <Name>Exuberant Firestoker</Name>
 <Type>Creature — Human Druid Shaman 1/1</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>At the beginning of your end step, if you control a creature with power 5 or greater, you may have Exuberant Firestoker deal 2 damage to target player.
-{T}: Add {C} to your mana pool.</CardText>
+<CardText>At the beginning of your end step, if you control a creature with power 5 or greater, you may have Exuberant Firestoker deal 2 damage to target player or planeswalker.
+{T}: Add {C}.</CardText>
 <Flavor>The artistry of Etlan's firedancers is more spectacular when behemoths join in.</Flavor>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Multiverseid>175049</Multiverseid>
@@ -1986,7 +1978,7 @@ When Caldera Hellion enters the battlefield, it deals 3 damage to each creature.
 <Type>Creature — Dragon 5/5</Type>
 <ManaCost>4RR (6)</ManaCost>
 <CardText>Flying
-Whenever Flameblast Dragon attacks, you may pay {X}{R}. If you do, Flameblast Dragon deals X damage to target creature or player.</CardText>
+Whenever Flameblast Dragon attacks, you may pay {X}{R}. If you do, Flameblast Dragon deals X damage to any target.</CardText>
 <Flavor>Dragon lords of Jund rule by edicts of flame.</Flavor>
 <Artist>Jaime Jones</Artist>
 <Multiverseid>177476</Multiverseid>
@@ -2063,7 +2055,7 @@ Unearth {4}{R} ({4}{R}: Return this card from your graveyard to the battlefield.
 <Name>Hissing Iguanar</Name>
 <Type>Creature — Lizard 3/1</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>Whenever another creature dies, you may have Hissing Iguanar deal 1 damage to target player.</CardText>
+<CardText>Whenever another creature dies, you may have Hissing Iguanar deal 1 damage to target player or planeswalker.</CardText>
 <Flavor>Viashino thrashes keep iguanars as hunting companions, giving them wounded captives as playthings.</Flavor>
 <Artist>Brandon Kitkouski</Artist>
 <Multiverseid>174873</Multiverseid>
@@ -2174,14 +2166,14 @@ Devour 2 (As this enters the battlefield, you may sacrifice any number of creatu
 <Name>Resounding Thunder</Name>
 <Type>Instant</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>Resounding Thunder deals 3 damage to target creature or player.
+<CardText>Resounding Thunder deals 3 damage to any target.
 Cycling {5}{B}{R}{G} ({5}{B}{R}{G}, Discard this card: Draw a card.)
-When you cycle Resounding Thunder, it deals 6 damage to target creature or player.</CardText>
+When you cycle Resounding Thunder, it deals 6 damage to any target.</CardText>
 <Artist>Jon Foster</Artist>
 <Multiverseid>175043</Multiverseid>
 <Rulings>2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
 2008/10/01: When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
-2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability is countered (with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.
+2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (due to being countered with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.
 2008/10/01: You can cycle this card even if there are no targets for the triggered ability. That's because the cycling ability itself has no targets.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2260,8 +2252,7 @@ Unearth {2}{R} ({2}{R}: Return this card from your graveyard to the battlefield.
 <Flavor>Fire burns away both flesh and freedom.</Flavor>
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>175070</Multiverseid>
-<Rulings>2008/10/01: Each time a creature is put into a graveyard from the battlefield, check whether <Skeletonize> had dealt damage to it during that turn. If so, <Skeletonize>'s delayed triggered ability will trigger.
-2008/10/01: You get the token, regardless of who controlled the creature or whose graveyard it was put into.</Rulings>
+<Rulings>2018/03/16: You get the token created by <Skeletonize>'s delayed triggered ability regardless of who controlled the creature.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2275,11 +2266,11 @@ Unearth {2}{R} ({2}{R}: Return this card from your graveyard to the battlefield.
 <Name>Soul's Fire</Name>
 <Type>Instant</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>Target creature you control on the battlefield deals damage equal to its power to target creature or player.</CardText>
+<CardText>Target creature you control deals damage equal to its power to any target.</CardText>
 <Flavor>An avatar he sculpts of anger and flame.</Flavor>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>174951</Multiverseid>
-<Rulings>2008/10/01: If either target has become illegal by the time <Soul's Fire> resolves, the spell will still resolve but have no effect. If the first target is illegal, it can't perform any actions, so it can't deal damage. If the second target is illegal, there's nothing for the first target to deal damage to. If both targets have become illegal, the spell will be countered.</Rulings>
+<Rulings>2008/10/01: If either target has become illegal by the time <Soul's Fire> resolves, the spell will still resolve but have no effect. If the first target is illegal, it can't perform any actions, so it can't deal damage. If the second target is illegal, there's nothing for the first target to deal damage to. If both targets have become illegal, the spell won't resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2372,7 +2363,7 @@ Unearth {2}{R} ({2}{R}: Return this card from your graveyard to the battlefield.
 <Name>Vithian Stinger</Name>
 <Type>Creature — Human Shaman 0/1</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>{T}: Vithian Stinger deals 1 damage to target creature or player.
+<CardText>{T}: Vithian Stinger deals 1 damage to any target.
 Unearth {1}{R} ({1}{R}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)</CardText>
 <Artist>Dave Kendall</Artist>
 <Multiverseid>174922</Multiverseid>
@@ -2413,7 +2404,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <Name>Where Ancients Tread</Name>
 <Type>Enchantment</Type>
 <ManaCost>4R (5)</ManaCost>
-<CardText>Whenever a creature with power 5 or greater enters the battlefield under your control, you may have Where Ancients Tread deal 5 damage to target creature or player.</CardText>
+<CardText>Whenever a creature with power 5 or greater enters the battlefield under your control, you may have Where Ancients Tread deal 5 damage to any target.</CardText>
 <Flavor>"Never subtle nor cryptic is the reckoning of the mighty."
 —Mayael the Anima</Flavor>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
@@ -2452,7 +2443,7 @@ Whenever another creature dies, you may put a +1/+1 counter on Algae Gharial.</C
 <ManaCost>G (1)</ManaCost>
 <CardText>{2}{G}, {T}, Sacrifice a red creature, a green creature, and a white creature: Search your library for a card named Godsire and put it onto the battlefield. Then shuffle your library.</CardText>
 <Flavor>"Mine is an insatiable god, with appetites as magnificent as the jungle itself."</Flavor>
-<Artist>Parente</Artist>
+<Artist>Paolo Parente</Artist>
 <Multiverseid>175263</Multiverseid>
 <Rulings>2008/10/01: To activate the ability, you must sacrifice three different creatures. You can't sacrifice just one three-colored creature, for example.
 2008/10/01: You may sacrifice multicolored creatures as part of the cost of the search ability. If you sacrifice a multicolored creature this way, specify which part of the cost that creature is satisfying.
@@ -2527,7 +2518,7 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 <Name>Druid of the Anima</Name>
 <Type>Creature — Elf Druid 1/1</Type>
 <ManaCost>1G (2)</ManaCost>
-<CardText>{T}: Add {R}, {G}, or {W} to your mana pool.</CardText>
+<CardText>{T}: Add {R}, {G}, or {W}.</CardText>
 <Flavor>Although the Anima herself remains at the Sacellum, her druids roam Naya, collecting mana bonds with every location in the world.</Flavor>
 <Artist>Jim Murray</Artist>
 <Multiverseid>174903</Multiverseid>
@@ -2545,7 +2536,7 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 <Type>Creature — Human Druid Warrior 2/2</Type>
 <ManaCost>3G (4)</ManaCost>
 <CardText>At the beginning of your end step, if you control a creature with power 5 or greater, you may draw a card.
-{T}: Add {C} to your mana pool.</CardText>
+{T}: Add {C}.</CardText>
 <Flavor>"I feel the vine-rhythm as my friends drive the beast to me. I will not miss my mark."</Flavor>
 <Artist>Jim Murray</Artist>
 <Multiverseid>174943</Multiverseid>
@@ -2653,7 +2644,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <Name>Keeper of Progenitus</Name>
 <Type>Creature — Elf Druid 1/3</Type>
 <ManaCost>3G (4)</ManaCost>
-<CardText>Whenever a player taps a Mountain, Forest, or Plains for mana, that player adds one mana to his or her mana pool of any type that land produced.</CardText>
+<CardText>Whenever a player taps a Mountain, Forest, or Plains for mana, that player adds one mana of any type that land produced.</CardText>
 <Flavor>He watches over the valley where Progenitus sleeps, culling signs from its steaming breaths.</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>175033</Multiverseid>
@@ -2728,7 +2719,7 @@ Enchanted land is a Mountain, Forest, and Plains.</CardText>
 <ManaCost>4G (5)</ManaCost>
 <CardText>{1}: Target creature with power 5 or greater gains trample until end of turn.</CardText>
 <Flavor>Whether gargantuans are the manifested will of Progenitus or simply the result of overabundant resources is moot when a herd of them is thundering at you.</Flavor>
-<Artist>Parente</Artist>
+<Artist>Paolo Parente</Artist>
 <Multiverseid>174787</Multiverseid>
 <Rulings>2008/10/01: The ability checks the targeted creature's power twice: when the creature becomes the target, and when the ability resolves. Once the ability resolves, it will continue to apply to the affected creature no matter what its power may become later in the turn.</Rulings>
 <Vintage>Legal</Vintage>
@@ -2826,7 +2817,7 @@ When you cycle Resounding Roar, target creature gets +6/+6 until end of turn.</C
 <Multiverseid>174901</Multiverseid>
 <Rulings>2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
 2008/10/01: When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
-2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability is countered (with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.
+2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (due to being countered with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.
 2008/10/01: You can cycle this card even if there are no targets for the triggered ability. That's because the cycling ability itself has no targets.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2865,7 +2856,7 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 <Name>Sacellum Godspeaker</Name>
 <Type>Creature — Elf Druid 2/2</Type>
 <ManaCost>2G (3)</ManaCost>
-<CardText>{T}: Reveal any number of creature cards with power 5 or greater from your hand. Add {G} to your mana pool for each card revealed this way.</CardText>
+<CardText>{T}: Reveal any number of creature cards with power 5 or greater from your hand. Add {G} for each card revealed this way.</CardText>
 <Flavor>Her connection to the gargantuans puts her in line to become Anima, a sacred but daunting duty.</Flavor>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>174828</Multiverseid>
@@ -3019,7 +3010,7 @@ Target creature gets -0/-3 until end of turn.</CardText>
 <Type>Legendary Planeswalker — Ajani (Loyalty: 3)</Type>
 <ManaCost>2WR (4)</ManaCost>
 <CardText>+1: Target permanent doesn't untap during its controller's next untap step.
--2: Ajani Vengeant deals 3 damage to target creature or player and you gain 3 life.
+-2: Ajani Vengeant deals 3 damage to any target and you gain 3 life.
 -7: Destroy all lands target player controls.</CardText>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>174852</Multiverseid>
@@ -3061,7 +3052,7 @@ Target creature gets -0/-3 until end of turn.</CardText>
 <Name>Blightning</Name>
 <Type>Sorcery</Type>
 <ManaCost>1BR (3)</ManaCost>
-<CardText>Blightning deals 3 damage to target player. That player discards two cards.</CardText>
+<CardText>Blightning deals 3 damage to target player or planeswalker. That player or that planeswalker's controller discards two cards.</CardText>
 <Flavor>While the smell of burning flesh is common in Grixis, the odor of smoldering brain matter is a rare treat.</Flavor>
 <Artist>Thomas M. Baxa</Artist>
 <Multiverseid>174917</Multiverseid>
@@ -3226,7 +3217,7 @@ When Broodmate Dragon enters the battlefield, create a 4/4 red Dragon creature t
 <Artist>Ralph Horsley</Artist>
 <Multiverseid>175079</Multiverseid>
 <Rulings>2017/03/14: <Cruel Ultimatum>'s only target is an opponent. You don't choose which creature card in your graveyard you'll return to your hand until <Cruel Ultimatum> resolves.
-2017/03/14: All of the actions for <Cruel Ultimatum> are performed sequentially, in the order listed. Earlier actions may affect how you perform later actions. For example, if the opponent sacrifices a creature that he or she controls but you own, it will end up in your graveyard. When <Cruel Ultimatum> lets you return a creature card from your graveyard to your hand, you can choose that one.
+2017/03/14: All of the actions for <Cruel Ultimatum> are performed sequentially, in the order listed. Earlier actions may affect how you perform later actions. For example, if the opponent sacrifices a creature that they control but you own, it will end up in your graveyard. When <Cruel Ultimatum> lets you return a creature card from your graveyard to your hand, you can choose that one.
 2017/03/14: If, as <Cruel Ultimatum> begins to resolve, your opponent's life total is 5 or less and you have two or fewer cards in your library, the game will result in a draw. Your opponent's life total will drop to 0 or less, but <Cruel Ultimatum> must finish resolving completely before state-based actions are performed. You'll then be forced to draw three cards and fail to draw one. When state-based actions are finally performed, you and your opponent will both lose the game at the same time, which means the game is a draw.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3265,9 +3256,6 @@ All damage that would be dealt to you is dealt to Empyrial Archangel instead.</C
 <Flavor>Her wings are the prayers of the devoted; her sword, the despair of the vile.</Flavor>
 <Artist>Greg Staples</Artist>
 <Multiverseid>175104</Multiverseid>
-<Rulings>2008/10/01: Suppose you control <Empyrial Archangel> and a planeswalker, and a source controlled by an opponent would deal noncombat damage to you. Both <Empyrial Archangel> and the planeswalker have effects that change (or could change) what that damage would be dealt to. You choose one to apply.
--- If you apply <Empyrial Archangel>'s effect, the damage is redirected to it. The planeswalker replacement effect is no longer applicable.
--- If you apply the planeswalker replacement effect, your opponent then chooses whether he or she wants to redirect the damage to your planeswalker. If your opponent does, that many loyalty counters are removed from the it. If your opponent doesn't, then <Empyrial Archangel>'s effect applies and the damage is redirected to it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3565,7 +3553,7 @@ Deathtouch (Any amount of damage this deals to a creature is enough to destroy i
 —Rakka Mar</Flavor>
 <Artist>Trevor Claxton</Artist>
 <Multiverseid>175023</Multiverseid>
-<Rulings>2008/10/01: If the targeted card is removed from the graveyard before the ability resolves, the ability is countered. You won't get a Saproling token.</Rulings>
+<Rulings>2008/10/01: If the targeted card is removed from the graveyard before the ability resolves, the ability doesn't resolve. You won't get a Saproling token.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3625,8 +3613,9 @@ If a creature is attacking you and you control a Forest and a Plains, you may ca
 <Multiverseid>174869</Multiverseid>
 <Rulings>2008/10/01: Casting <Qasali Ambusher> as described in its second ability still uses the stack. The spell can be countered.
 2008/10/01: If you want to cast <Qasali Ambusher> by using its second ability, you don't necessarily have to do it during the declare attackers step. You can do it later in combat (including all the way up through the end of combat step) as long as there's still a creature attacking you. Of course, if you cast <Qasali Ambusher> later than the declare attackers step, it won't be able to block.
-2008/10/01: For you to cast <Qasali Ambusher> as described in its second ability, a creature has to be attacking *you*. If creatures are attacking only planeswalkers, you won't be able to cast <Qasali Ambusher> this way. If you're playing a Two-Headed Giant game and a creature is attacking your team, you will be able to cast <Qasali Ambusher> this way.
-2008/10/01: <Qasali Ambusher>'s second ability is looking for lands with the subtypes Forest and Plains. Those lands don't need to be named Forest and Plains. It's okay if both subtypes are from the same land (such as Savannah or Temple Garden).</Rulings>
+2008/10/01: For you to cast <Qasali Ambusher> as described in its second ability, a creature has to be attacking *you*. If creatures are attacking only planeswalkers, you won't be able to cast <Qasali Ambusher> this way.
+2008/10/01: <Qasali Ambusher>'s second ability is looking for lands with the subtypes Forest and Plains. Those lands don't need to be named Forest and Plains. It's okay if both subtypes are from the same land (such as Savannah or Temple Garden).
+2018/04/27: If you're playing a Two-Headed Giant game and a creature is attacking your teammate, you won't be able to cast <Qasali Ambusher> this way.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3842,7 +3831,7 @@ When Sharuum the Hegemon enters the battlefield, you may return target artifact 
 <Flavor>"For unwavering commitment and unflinching strength, the Order of the White Orchid confers its sigil. Rise, knight-captain, and do your duty."</Flavor>
 <Artist>Matt Stewart</Artist>
 <Multiverseid>177597</Multiverseid>
-<Rulings>2008/10/01: If the targeted creature becomes an illegal target by the time <Sigil Blessing> resolves, the entire spell will be countered. Your other creatures won't get +1/+1.</Rulings>
+<Rulings>2008/10/01: If the targeted creature becomes an illegal target by the time <Sigil Blessing> resolves, the entire spell won't resolve. Your other creatures won't get +1/+1.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3893,7 +3882,7 @@ At the beginning of your end step, you gain 3 life if Sphinx Sovereign is untapp
 <Type>Creature — Human Druid Knight 2/2</Type>
 <ManaCost>WG (2)</ManaCost>
 <CardText>Vigilance
-{T}: Add {G} to your mana pool.</CardText>
+{T}: Add {G}.</CardText>
 <Flavor>Knight-stewards guard the Sun-Dappled Court, a grove of immense, sculptured olive trees that represent Valeron's twelve noble families.</Flavor>
 <Artist>Greg Staples</Artist>
 <Multiverseid>175134</Multiverseid>
@@ -3915,7 +3904,7 @@ Players can't untap more than one creature during their untap steps.</CardText>
 <Flavor>Even the most battle-hardened soldiers pause in her presence for a moment of introspection.</Flavor>
 <Artist>Volkan Baga</Artist>
 <Multiverseid>175396</Multiverseid>
-<Rulings>2017/03/14: If multiple <Stoic Angel>s are on the battlefield, their effects are redundant. Each player will still be able to untap no more than one creature during his or her untap step.
+<Rulings>2017/03/14: If multiple <Stoic Angel>s are on the battlefield, their effects are redundant. Each player will still be able to untap no more than one creature during their untap step.
 2017/03/14: Noncreature permanents will untap as normal during their controllers' untap steps.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3937,7 +3926,7 @@ Players can't untap more than one creature during their untap steps.</CardText>
 <Multiverseid>175010</Multiverseid>
 <Rulings>2008/10/01: <Swerve> targets only the spell whose target will be changed. It doesn't directly affect the original target of that spell or the new target of that spell.
 2008/10/01: You don't choose the new target for the spell until <Swerve> resolves. You must change the target if possible. However, you can't change the target to an illegal target. If there are no legal targets, the target isn't changed. It doesn't matter if the original target of that spell has somehow become illegal.
-2008/10/01: If you cast <Swerve> on a spell that targets a spell on the stack (like Cancel does, for example), you can't change that spell's target to itself. You can, however, change that spell's target to <Swerve>. If you do, that spell will be countered when it tries to resolve because <Swerve> will have left the stack by then.
+2008/10/01: If you cast <Swerve> on a spell that targets a spell on the stack (like Cancel does, for example), you can't change that spell's target to itself. You can, however, change that spell's target to <Swerve>. If you do, that spell won't resolve when it tries to resolve because <Swerve> will have left the stack by then.
 2008/10/01: If a spell targets multiple things, you can't target it with <Swerve>, even if all but one of those targets has become illegal.
 2008/10/01: If a spell targets the same player or object multiple times, you can't target it with <Swerve>.
 2010/03/01: An Aura spell on the stack targets the object or player which it will enchant upon entering the battlefield. Thus, an Aura spell is a "spell with a single target", which means you may use <Swerve> to change that target. Doing so will cause it to enter the battlefield enchanting the new target rather than the original one.</Rulings>
@@ -3954,7 +3943,7 @@ Players can't untap more than one creature during their untap steps.</CardText>
 <Name>Thoughtcutter Agent</Name>
 <Type>Artifact Creature — Human Rogue 1/1</Type>
 <ManaCost>UB (2)</ManaCost>
-<CardText>{U}{B}, {T}: Target player loses 1 life and reveals his or her hand.</CardText>
+<CardText>{U}{B}, {T}: Target player loses 1 life and reveals their hand.</CardText>
 <Flavor>Agents of the Architects of Will mark their victims as a reminder that their secrets are secret no longer.</Flavor>
 <Artist>Cyril Van Der Haegen</Artist>
 <Multiverseid>177601</Multiverseid>
@@ -3971,7 +3960,7 @@ Players can't untap more than one creature during their untap steps.</CardText>
 <Name>Tidehollow Sculler</Name>
 <Type>Artifact Creature — Zombie 2/2</Type>
 <ManaCost>WB (2)</ManaCost>
-<CardText>When Tidehollow Sculler enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card.
+<CardText>When Tidehollow Sculler enters the battlefield, target opponent reveals their hand and you choose a nonland card from it. Exile that card.
 When Tidehollow Sculler leaves the battlefield, return the exiled card to its owner's hand.</CardText>
 <Artist>rk post</Artist>
 <Multiverseid>175054</Multiverseid>
@@ -4127,11 +4116,7 @@ Windwright Mage has flying as long as an artifact card is in your graveyard.</Ca
 <Flavor>It shows not what you are but what you were.</Flavor>
 <Artist>Ash Wood</Artist>
 <Multiverseid>174818</Multiverseid>
-<Rulings>2008/10/01: <Lich's Mirror> replaces the game-loss event if you would lose the game in the following ways:
--- As a state-based action for having 0 or less life.
--- As a state-based action for having tried to draw a card from an empty library since the last time state-based actions were checked.
--- As a state-based action for having ten or more poison counters (though this isn't that helpful; see below).
--- Because an ability (such as the one from Immortal Coil) states that you do so.
+<Rulings>2008/10/01: <Lich's Mirror> replaces the game-loss event if you would lose the game in the following ways: -- As a state-based action for having 0 or less life. -- As a state-based action for having tried to draw a card from an empty library since the last time state-based actions were checked. -- As a state-based action for having ten or more poison counters (though this isn't that helpful; see below). -- Because an ability (such as the one from Immortal Coil) states that you do so.
 2008/10/01: <Lich's Mirror> has no effect if a spell or ability (such as the one from Helix Pinnacle) states that a player "wins the game." If a player wins the game, the game ends immediately.
 2008/10/01: <Lich's Mirror> has no effect if you concede the game. If you concede, you'll lose.
 2008/10/01: If you can't lose the game (for example, you control a Platinum Angel), <Lich's Mirror> won't do anything.
@@ -4141,18 +4126,14 @@ Windwright Mage has flying as long as an artifact card is in your graveyard.</Ca
 2008/10/01: <Lich's Mirror> doesn't affect spells on the stack, cards that have been exiled, or permanents you control but don't own. They'll stay where they are. Spells on the stack will then resolve as normal.
 2008/10/01: Although <Lich's Mirror> has you draw a hand of seven cards and sets your life total to 20, this isn't a game restart. You can't take a mulligan if you don't like your new hand of cards.
 2008/10/01: For your life total to become 20, you actually gain or lose the necessary amount of life. Keep in mind that you may have a negative life total when this happens. For example, if your life total is -4 when you would lose the game, <Lich's Mirror>'s effect will cause you to gain 24 life. Other cards that interact with life gain or life loss will interact with this effect accordingly.
-2008/10/01: As part of <Lich's Mirror>'s effect, it typically shuffles itself into your library. If it does, that means that if you'd lose the game *again* immediately after its effect is finished, it can't help you a second time. This can occur in a few different ways. For example:
--- You have ten or more poison counters. <Lich's Mirror> doesn't remove poison counters. If you'd lose the game this way, you'll do what <Lich's Mirror> says, then you'll lose the game the next time state-based actions are checked.
--- Your life total is 0 or less and an effect says that you can't gain life. Since your life total can't be raised, it stays at whatever it is rather than becoming 20, and you'll lose the game the next time state-based actions are checked.
--- The number of nontoken permanents you own plus the number of cards in your hand, graveyard, and library is less than seven. When you try to draw seven cards as part of <Lich's Mirror>'s effect, you'll be unable to complete at least one of those draws and you'll lose the game the next time state-based actions are checked.
--- You control *but don't own* a permanent such as Immortal Coil with a triggered ability that causes you to lose the game when a certain game state happens (also known as a "state trigger"), and the condition that causes the "lose the game" ability to trigger hasn't changed. If you owned the permanent, <Lich's Mirror> would shuffle it into your library. In this case, however, it remains on the battlefield and its ability will trigger again.
+2008/10/01: As part of <Lich's Mirror>'s effect, it typically shuffles itself into your library. If it does, that means that if you'd lose the game *again* immediately after its effect is finished, it can't help you a second time. This can occur in a few different ways. For example: -- You have ten or more poison counters. <Lich's Mirror> doesn't remove poison counters. If you'd lose the game this way, you'll do what <Lich's Mirror> says, then you'll lose the game the next time state-based actions are checked. -- Your life total is 0 or less and an effect says that you can't gain life. Since your life total can't be raised, it stays at whatever it is rather than becoming 20, and you'll lose the game the next time state-based actions are checked. -- The number of nontoken permanents you own plus the number of cards in your hand, graveyard, and library is less than seven. When you try to draw seven cards as part of <Lich's Mirror>'s effect, you'll be unable to complete at least one of those draws and you'll lose the game the next time state-based actions are checked. -- You control *but don't own* a permanent such as Immortal Coil with a triggered ability that causes you to lose the game when a certain game state happens (also known as a "state trigger"), and the condition that causes the "lose the game" ability to trigger hasn't changed. If you owned the permanent, <Lich's Mirror> would shuffle it into your library. In this case, however, it remains on the battlefield and its ability will trigger again.
 2008/10/01: If you control *but don't own* <Lich's Mirror>, <Lich's Mirror> itself will still be on the battlefield after its effect is finished. If you would lose the game again for any of the reasons above, <Lich's Mirror> has its effect again . . . and again . . . and again. An involuntary infinite loop will be created, and the game will end in a draw. (In the case of the triggered ability example given last in the list above, it's possible that a player could cause the loop to end while the ability is on the stack. None of the loops caused by state-based actions can be stopped at all.)
-2008/10/01: If all the players remaining in a game would lose simultaneously but one of them controls <Lich's Mirror>, that player does what <Lich's Mirror> says instead of losing, and everyone else loses. As a result, the controller of <Lich's Mirror> wins the game because all of his or her opponents have lost. (If <Lich's Mirror> weren't in the picture, then the game would be a draw.)
+2008/10/01: If all the players remaining in a game would lose simultaneously but one of them controls <Lich's Mirror>, that player does what <Lich's Mirror> says instead of losing, and everyone else loses. As a result, the controller of <Lich's Mirror> wins the game because all of their opponents have lost. (If <Lich's Mirror> weren't in the picture, then the game would be a draw.)
 2008/10/01: If a spell causes you to lose the game the next time state-based actions are checked (by dealing damage to you greater than your life total, for example), that spell will already be in the graveyard by the time <Lich's Mirror>'s effect happens. If it's in your graveyard, it will be shuffled into your library.
 2008/10/01: If, during a check of state-based actions, you'd lose the game at the same time a creature you own would be put into your graveyard (due to an Earthquake for 10 or combat damage dealt to both you and the creature, for example), that creature's controller has a choice to make. The state-based actions rule is trying to simultaneously (a) shuffle that creature card into your library (due to <Lich's Mirror>'s replacement effect) and (b) put it into your graveyard. Only one of those things can happen. The creature's controller chooses which one. If the creature is put into your graveyard, it isn't shuffled into your library. Abilities that trigger when that creature is put into a graveyard will trigger only if that option is chosen.
 2008/10/01: If, during a check of state-based actions, you'd lose the game for multiple reasons (for example, if you were at 1 life and had one card in your library, then Night's Whisper caused you to draw two cards and lose 2 life), a single <Lich's Mirror> will replace all of them. You'll do what <Lich's Mirror> says just once.
 2009/10/01: A token's owner is the player under whose control it entered the battlefield.
-2010/06/15: In a Two-Headed Giant game, if your team would lose the game and you control <Lich's Mirror>, your team won't lose. Instead, you'll do what <Lich's Mirror> says and your teammate won't do anything. This is true even if the reason your team would lose is because your teammate tried to draw a card with an empty library or was affected by an ability that said he or she lost the game. Your life total (which is the same as your team's life total) becomes 20. Your team's life total is adjusted by the amount of life you gain or lose as a result of this, which basically means your team's life total becomes 20.</Rulings>
+2010/06/15: In a Two-Headed Giant game, if your team would lose the game and you control <Lich's Mirror>, your team won't lose. Instead, you'll do what <Lich's Mirror> says and your teammate won't do anything. This is true even if the reason your team would lose is because your teammate tried to draw a card with an empty library or was affected by an ability that said they lost the game. Your life total (which is the same as your team's life total) becomes 20. Your team's life total is adjusted by the amount of life you gain or lose as a result of this, which basically means your team's life total becomes 20.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4186,7 +4167,7 @@ Windwright Mage has flying as long as an artifact card is in your graveyard.</Ca
 <Name>Obelisk of Bant</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {G}, {W}, or {U} to your mana pool.</CardText>
+<CardText>{T}: Add {G}, {W}, or {U}.</CardText>
 <Flavor>Whether incorporated into the structure of castles or admired as lone symbols, the obelisks stand for Bant's values of loyalty, honor, and truth.</Flavor>
 <Artist>David Palumbo</Artist>
 <Multiverseid>175102</Multiverseid>
@@ -4203,7 +4184,7 @@ Windwright Mage has flying as long as an artifact card is in your graveyard.</Ca
 <Name>Obelisk of Esper</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {W}, {U}, or {B} to your mana pool.</CardText>
+<CardText>{T}: Add {W}, {U}, or {B}.</CardText>
 <Flavor>It is a monument as austere, unyielding, and inscrutable as Esper itself.</Flavor>
 <Artist>Francis Tsai</Artist>
 <Multiverseid>174906</Multiverseid>
@@ -4220,7 +4201,7 @@ Windwright Mage has flying as long as an artifact card is in your graveyard.</Ca
 <Name>Obelisk of Grixis</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {U}, {B}, or {R} to your mana pool.</CardText>
+<CardText>{T}: Add {U}, {B}, or {R}.</CardText>
 <Flavor>Like most features of Grixis, the obelisks that remain from the time of Alara now exist only for dark exploitation.</Flavor>
 <Artist>Nils Hamm</Artist>
 <Multiverseid>174887</Multiverseid>
@@ -4237,7 +4218,7 @@ Windwright Mage has flying as long as an artifact card is in your graveyard.</Ca
 <Name>Obelisk of Jund</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {B}, {R}, or {G} to your mana pool.</CardText>
+<CardText>{T}: Add {B}, {R}, or {G}.</CardText>
 <Flavor>Volcanic ash-winds batter it, climbing vines overwhelm it, dragonfire roasts it, and yet it still stands as a testament to a forgotten world.</Flavor>
 <Artist>Brandon Kitkouski</Artist>
 <Multiverseid>174892</Multiverseid>
@@ -4254,7 +4235,7 @@ Windwright Mage has flying as long as an artifact card is in your graveyard.</Ca
 <Name>Obelisk of Naya</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {R}, {G}, or {W} to your mana pool.</CardText>
+<CardText>{T}: Add {R}, {G}, or {W}.</CardText>
 <Flavor>Centuries have passed since the plane shattered, yet the obelisks of each shard faithfully serve their long-forgotten purpose.</Flavor>
 <Artist>Steve Prescott</Artist>
 <Multiverseid>175061</Multiverseid>
@@ -4272,13 +4253,13 @@ Windwright Mage has flying as long as an artifact card is in your graveyard.</Ca
 <Type>Artifact — Equipment</Type>
 <ManaCost>3 (3)</ManaCost>
 <CardText>Equipped creature has deathtouch.
-Whenever equipped creature deals combat damage to a player, that player loses half his or her life, rounded up.
+Whenever equipped creature deals combat damage to a player, that player loses half their life, rounded up.
 Equip {3}</CardText>
 <Artist>Mark Brill</Artist>
 <Multiverseid>185774</Multiverseid>
-<Rulings>2008/10/01: That player loses half his or her life after combat damage has been subtracted from the player's life total. The amount of life the player loses is determined as the triggered ability resolves.
-2008/10/01: If multiple <Quietus Spike>s trigger at the same time, that player loses half his or her life when the first ability resolves, then loses half of the remainder when the next ability resolves, and so on. The player does not lose the same amount each time.
-2010/06/15: In a Two-Headed Giant game, if a creature equipped with <Quietus Spike> would assign combat damage to the defending team, its damage is assigned to only one of the defending players. After combat damage is dealt, <Quietus Spike> looks at that player's life total (which is the same as the team's life total) when determining how much life the team will lose, which basically means the team's life total is halved. Here's an example of the math: The team has 19 life, so the player has 19 life. <Quietus Spike> causes the team to lose 10 life (19 divided by 2, rounded up). The team's life total becomes 9 (19 minus 10).</Rulings>
+<Rulings>2008/10/01: That player loses half their life after combat damage has been subtracted from the player's life total. The amount of life the player loses is determined as the triggered ability resolves.
+2008/10/01: If multiple <Quietus Spike>s trigger at the same time, that player loses half their life when the first ability resolves, then loses half of the remainder when the next ability resolves, and so on. The player does not lose the same amount each time.
+2010/06/15: In a Two-Headed Giant game, after combat damage is dealt, <Quietus Spike> looks at that player's life total (which is the same as the team's life total) when determining how much life the team will lose, which basically means the team's life total is halved. Here's an example of the math: The team has 19 life, so the player has 19 life. <Quietus Spike> causes the team to lose 10 life (19 divided by 2, rounded up). The team's life total becomes 9 (19 minus 10).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4292,7 +4273,7 @@ Equip {3}</CardText>
 <Name>Relic of Progenitus</Name>
 <Type>Artifact</Type>
 <ManaCost>1 (1)</ManaCost>
-<CardText>{T}: Target player exiles a card from his or her graveyard.
+<CardText>{T}: Target player exiles a card from their graveyard.
 {1}, Exile Relic of Progenitus: Exile all cards from all graveyards. Draw a card.</CardText>
 <Flavor>Elves believe the hydra-god Progenitus sleeps beneath Naya, feeding on forgotten magics.</Flavor>
 <Artist>Jean-Sébastien Rossbach</Artist>
@@ -4332,7 +4313,7 @@ Equip—Remove a charge counter from Sigil of Distinction.</CardText>
 <Name>Arcane Sanctum</Name>
 <Type>Land</Type>
 <CardText>Arcane Sanctum enters the battlefield tapped.
-{T}: Add {W}, {U}, or {B} to your mana pool.</CardText>
+{T}: Add {W}, {U}, or {B}.</CardText>
 <Flavor>"We must rely on our own knowledge, not on the dogma of the seekers or the mutterings of the sphinxes."
 —Tullus of Palandius</Flavor>
 <Artist>Anthony Francisco</Artist>
@@ -4349,7 +4330,7 @@ Equip—Remove a charge counter from Sigil of Distinction.</CardText>
 <No>221</No>
 <Name>Bant Panorama</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {1}, {T}, Sacrifice Bant Panorama: Search your library for a basic Forest, Plains, or Island card and put it onto the battlefield tapped. Then shuffle your library.</CardText>
 <Flavor>Bant's hearts are as pure as its air and as bright as its skies.</Flavor>
 <Artist>Donato Giancola</Artist>
@@ -4367,7 +4348,7 @@ Equip—Remove a charge counter from Sigil of Distinction.</CardText>
 <Name>Crumbling Necropolis</Name>
 <Type>Land</Type>
 <CardText>Crumbling Necropolis enters the battlefield tapped.
-{T}: Add {U}, {B}, or {R} to your mana pool.</CardText>
+{T}: Add {U}, {B}, or {R}.</CardText>
 <Flavor>"They say the ruins of Sedraxis were once a shining capital in Vithia. Now it is a blight, a place to be avoided by the living."
 —Olcot, Rider of Joffik</Flavor>
 <Artist>Dave Kendall</Artist>
@@ -4384,7 +4365,7 @@ Equip—Remove a charge counter from Sigil of Distinction.</CardText>
 <No>223</No>
 <Name>Esper Panorama</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {1}, {T}, Sacrifice Esper Panorama: Search your library for a basic Plains, Island, or Swamp card and put it onto the battlefield tapped. Then shuffle your library.</CardText>
 <Flavor>Esper is an expansive canvas painted by precise, controlling hands.</Flavor>
 <Artist>Franz Vohwinkel</Artist>
@@ -4401,7 +4382,7 @@ Equip—Remove a charge counter from Sigil of Distinction.</CardText>
 <No>224</No>
 <Name>Grixis Panorama</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {1}, {T}, Sacrifice Grixis Panorama: Search your library for a basic Island, Swamp, or Mountain card and put it onto the battlefield tapped. Then shuffle your library.</CardText>
 <Flavor>There is no height above Grixis that is free from the stench of death.</Flavor>
 <Artist>Nils Hamm</Artist>
@@ -4418,7 +4399,7 @@ Equip—Remove a charge counter from Sigil of Distinction.</CardText>
 <No>225</No>
 <Name>Jund Panorama</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {1}, {T}, Sacrifice Jund Panorama: Search your library for a basic Swamp, Mountain, or Forest card and put it onto the battlefield tapped. Then shuffle your library.</CardText>
 <Flavor>The sky is the dragon's throne, the seat from which it issues its fiery decrees.</Flavor>
 <Artist>Jaime Jones</Artist>
@@ -4436,7 +4417,7 @@ Equip—Remove a charge counter from Sigil of Distinction.</CardText>
 <Name>Jungle Shrine</Name>
 <Type>Land</Type>
 <CardText>Jungle Shrine enters the battlefield tapped.
-{T}: Add {R}, {G}, or {W} to your mana pool.</CardText>
+{T}: Add {R}, {G}, or {W}.</CardText>
 <Flavor>On Naya, ambition and treachery are scarce, hunted nearly to extinction by the awe owed to terrestrial gods.</Flavor>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>175060</Multiverseid>
@@ -4452,7 +4433,7 @@ Equip—Remove a charge counter from Sigil of Distinction.</CardText>
 <No>227</No>
 <Name>Naya Panorama</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {1}, {T}, Sacrifice Naya Panorama: Search your library for a basic Mountain, Forest, or Plains card and put it onto the battlefield tapped. Then shuffle your library.</CardText>
 <Flavor>Between the thunderous footfalls of Naya's behemoths lie moments of perfect quiet.</Flavor>
 <Artist>Hideaki Takamura</Artist>
@@ -4470,7 +4451,7 @@ Equip—Remove a charge counter from Sigil of Distinction.</CardText>
 <Name>Savage Lands</Name>
 <Type>Land</Type>
 <CardText>Savage Lands enters the battlefield tapped.
-{T}: Add {B}, {R}, or {G} to your mana pool.</CardText>
+{T}: Add {B}, {R}, or {G}.</CardText>
 <Flavor>Jund is a world as cruel as those who call it home. Their brutal struggles scar the land even as it carves them in its image, a vicious circle spiraling out of control.</Flavor>
 <Artist>Vance Kovacs</Artist>
 <Multiverseid>174877</Multiverseid>
@@ -4487,7 +4468,7 @@ Equip—Remove a charge counter from Sigil of Distinction.</CardText>
 <Name>Seaside Citadel</Name>
 <Type>Land</Type>
 <CardText>Seaside Citadel enters the battlefield tapped.
-{T}: Add {G}, {W}, or {U} to your mana pool.</CardText>
+{T}: Add {G}, {W}, or {U}.</CardText>
 <Flavor>For wisdom's sake, it was built high to gaze on all things. For glory's sake, it was built high as a testament of power. For strength's sake, it was built high to repel all attacks.</Flavor>
 <Artist>Volkan Baga</Artist>
 <Multiverseid>174950</Multiverseid>
@@ -4503,7 +4484,7 @@ Equip—Remove a charge counter from Sigil of Distinction.</CardText>
 <No>230</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Multiverseid>175029</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4518,7 +4499,7 @@ Equip—Remove a charge counter from Sigil of Distinction.</CardText>
 <No>231</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Michael Komarck</Artist>
 <Multiverseid>175030</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4533,7 +4514,7 @@ Equip—Remove a charge counter from Sigil of Distinction.</CardText>
 <No>232</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Michael Komarck</Artist>
 <Multiverseid>175031</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4548,7 +4529,7 @@ Equip—Remove a charge counter from Sigil of Distinction.</CardText>
 <No>233</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Chippy</Artist>
 <Multiverseid>175032</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4563,7 +4544,7 @@ Equip—Remove a charge counter from Sigil of Distinction.</CardText>
 <No>234</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Michael Komarck</Artist>
 <Multiverseid>174977</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4578,7 +4559,7 @@ Equip—Remove a charge counter from Sigil of Distinction.</CardText>
 <No>235</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Chippy</Artist>
 <Multiverseid>174978</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4593,7 +4574,7 @@ Equip—Remove a charge counter from Sigil of Distinction.</CardText>
 <No>236</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Chippy</Artist>
 <Multiverseid>174980</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4608,7 +4589,7 @@ Equip—Remove a charge counter from Sigil of Distinction.</CardText>
 <No>237</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>174979</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4623,7 +4604,7 @@ Equip—Remove a charge counter from Sigil of Distinction.</CardText>
 <No>238</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Chippy</Artist>
 <Multiverseid>175090</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4638,7 +4619,7 @@ Equip—Remove a charge counter from Sigil of Distinction.</CardText>
 <No>239</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>175089</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4653,7 +4634,7 @@ Equip—Remove a charge counter from Sigil of Distinction.</CardText>
 <No>240</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>175088</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4668,7 +4649,7 @@ Equip—Remove a charge counter from Sigil of Distinction.</CardText>
 <No>241</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Aleksi Briclot</Artist>
 <Multiverseid>175091</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4683,7 +4664,7 @@ Equip—Remove a charge counter from Sigil of Distinction.</CardText>
 <No>242</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>175019</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4698,7 +4679,7 @@ Equip—Remove a charge counter from Sigil of Distinction.</CardText>
 <No>243</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Aleksi Briclot</Artist>
 <Multiverseid>175018</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4713,7 +4694,7 @@ Equip—Remove a charge counter from Sigil of Distinction.</CardText>
 <No>244</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Aleksi Briclot</Artist>
 <Multiverseid>175017</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4728,7 +4709,7 @@ Equip—Remove a charge counter from Sigil of Distinction.</CardText>
 <No>245</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Multiverseid>175020</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4743,7 +4724,7 @@ Equip—Remove a charge counter from Sigil of Distinction.</CardText>
 <No>246</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Aleksi Briclot</Artist>
 <Multiverseid>174927</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4758,7 +4739,7 @@ Equip—Remove a charge counter from Sigil of Distinction.</CardText>
 <No>247</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Multiverseid>174929</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4773,7 +4754,7 @@ Equip—Remove a charge counter from Sigil of Distinction.</CardText>
 <No>248</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Multiverseid>174928</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4788,7 +4769,7 @@ Equip—Remove a charge counter from Sigil of Distinction.</CardText>
 <No>249</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Michael Komarck</Artist>
 <Multiverseid>174930</Multiverseid>
 <Vintage>Legal</Vintage>

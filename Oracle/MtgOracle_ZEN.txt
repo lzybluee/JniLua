@@ -21,7 +21,7 @@
 <Name>Arrow Volley Trap</Name>
 <Type>Instant — Trap</Type>
 <ManaCost>3WW (5)</ManaCost>
-<CardText>If four or more creatures are attacking, you may pay {1}{W} rather than pay Arrow Volley Trap's mana cost.
+<CardText>If four or more creatures are attacking, you may pay {1}{W} rather than pay this spell's mana cost.
 Arrow Volley Trap deals 5 damage divided as you choose among any number of target attacking creatures.</CardText>
 <Artist>Steve Argyle</Artist>
 <Multiverseid>193404</Multiverseid>
@@ -43,7 +43,7 @@ Arrow Volley Trap deals 5 damage divided as you choose among any number of targe
 <Type>Instant</Type>
 <ManaCost>2W (3)</ManaCost>
 <CardText>Kicker {3}{W} (You may pay an additional {3}{W} as you cast this spell.)
-Creatures you control get +1/+1 until end of turn. If Bold Defense was kicked, instead creatures you control get +2/+2 and gain first strike until end of turn.</CardText>
+Creatures you control get +1/+1 until end of turn. If this spell was kicked, instead creatures you control get +2/+2 and gain first strike until end of turn.</CardText>
 <Artist>Scott Chou</Artist>
 <Multiverseid>180509</Multiverseid>
 <Rulings>2009/10/01: Only creatures you control as <Bold Defense> resolves are affected.
@@ -141,7 +141,7 @@ Whenever enchanted creature deals combat damage to a player, double its controll
 <Type>Sorcery</Type>
 <ManaCost>2WWW (5)</ManaCost>
 <CardText>Kicker {6} (You may pay an additional {6} as you cast this spell.)
-Create six 1/1 white Kor Soldier creature tokens. If Conqueror's Pledge was kicked, create twelve of those tokens instead.</CardText>
+Create six 1/1 white Kor Soldier creature tokens. If this spell was kicked, create twelve of those tokens instead.</CardText>
 <Artist>Kev Walker</Artist>
 <Multiverseid>195626</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -386,7 +386,7 @@ When Kor Aeronaut enters the battlefield, if it was kicked, target creature gain
 <Artist>Kieran Yanner</Artist>
 <Multiverseid>189637</Multiverseid>
 <Rulings>2009/10/01: You may target <Kor Outfitter> with its ability.
-2009/10/01: If either target is illegal by the time the ability resolves, the ability won't do anything. If both targets are illegal, the ability is countered.</Rulings>
+2009/10/01: If either target is illegal by the time the ability resolves, the ability won't do anything. If both targets are illegal, the ability doesn't resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -460,11 +460,10 @@ When Kor Skyfisher enters the battlefield, return a permanent you control to its
 {1}{W}: Create a 4/4 white Angel creature token with flying. Activate this ability only if Luminarch Ascension has four or more quest counters on it.</CardText>
 <Artist>Michael Komarck</Artist>
 <Multiverseid>197889</Multiverseid>
-<Rulings>2009/10/01: <Luminarch Ascension>'s first ability has an "intervening 'if' clause." It checks whether you've lost life during the turn both as it would trigger and as it resolves.
-2009/10/01: Life lost during the end step after <Luminarch Ascension>'s first ability resolves has no bearing on it.
-2009/10/01: <Luminarch Ascension>'s first ability checks only whether life was lost. It doesn't care whether life was also gained. For example, if you lost 4 life and gained 6 life during the turn, you'll have a higher life total than you started the turn with — but <Luminarch Ascension>'s first ability won't trigger.
-2009/10/01: <Luminarch Ascension>'s second ability checks how many quest counters are on it only at the time you activate the ability. Once activated, the ability will resolve as normal even if quest counters are removed from <Luminarch Ascension>.
-2009/10/01: In a Two-Headed Giant game, <Luminarch Ascension>'s first ability will trigger twice at the beginning of the opposing team's end step if you didn't lose life that turn. If both abilities resolve, it will get two quest counters. (It doesn't matter whether your teammate lost life or not.)</Rulings>
+<Rulings>2018/03/16: <Luminarch Ascension>'s first ability doesn't trigger if you have lost life before an opponent's end step begins. If it does trigger but you lose life before it resolves, it does nothing and you won't put a quest counter on <Luminarch Ascension>.
+2018/03/16: <Luminarch Ascension>'s first ability cares only whether you lost life this turn, even if <Luminarch Ascension> wasn't on the battlefield when that happened. It doesn't care how much you lost, whether you also gained life, or even whether you gained more life than you lost.
+2018/03/16: You can activate <Luminarch Ascension>'s last ability during the end step in which it receives its fourth quest counter.
+2018/03/16: In a Two-Headed Giant game, <Luminarch Ascension>'s first ability will trigger twice at the beginning of the opposing team's end step if you didn't lose life that turn. It doesn't matter whether your teammate lost life or not.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -534,7 +533,7 @@ Enchanted creature gets +1/+2 and has flying.</CardText>
 <Type>Creature — Spirit 1/2</Type>
 <ManaCost>2W (3)</ManaCost>
 <CardText>Flying
-{T}: Prevent the next 1 damage that would be dealt to target player this turn.</CardText>
+{T}: Prevent the next 1 damage that would be dealt to target player or planeswalker this turn.</CardText>
 <Flavor>Most spirits are chained to this world by their despair, but he remains tethered by his hope for better days.</Flavor>
 <Artist>Jason Chan</Artist>
 <Multiverseid>171001</Multiverseid>
@@ -585,7 +584,7 @@ Enchanted creature gets +1/+2 and has flying.</CardText>
 <Name>Pitfall Trap</Name>
 <Type>Instant — Trap</Type>
 <ManaCost>2W (3)</ManaCost>
-<CardText>If exactly one creature is attacking, you may pay {W} rather than pay Pitfall Trap's mana cost.
+<CardText>If exactly one creature is attacking, you may pay {W} rather than pay this spell's mana cost.
 Destroy target attacking creature without flying.</CardText>
 <Flavor>Each spike is poisoned—the trapmaker's idea of mercy.</Flavor>
 <Artist>Franz Vohwinkel</Artist>
@@ -644,7 +643,7 @@ Remove five quest counters from Quest for the Holy Relic and sacrifice it: Searc
 <Name>Shieldmate's Blessing</Name>
 <Type>Instant</Type>
 <ManaCost>W (1)</ManaCost>
-<CardText>Prevent the next 3 damage that would be dealt to target creature or player this turn.</CardText>
+<CardText>Prevent the next 3 damage that would be dealt to any target this turn.</CardText>
 <Flavor>"Even land dwellers may call for Emeria's grace in times of need."
 —Emeria's Creed</Flavor>
 <Artist>Mike Bierek</Artist>
@@ -757,18 +756,18 @@ If Aether Figment was kicked, it enters the battlefield with two +1/+1 counters 
 <Name>Archive Trap</Name>
 <Type>Instant — Trap</Type>
 <ManaCost>3UU (5)</ManaCost>
-<CardText>If an opponent searched his or her library this turn, you may pay {0} rather than pay Archive Trap's mana cost.
-Target opponent puts the top thirteen cards of his or her library into his or her graveyard.</CardText>
+<CardText>If an opponent searched their library this turn, you may pay {0} rather than pay this spell's mana cost.
+Target opponent puts the top thirteen cards of their library into their graveyard.</CardText>
 <Artist>Jason Felix</Artist>
 <Multiverseid>197538</Multiverseid>
 <Rulings>2009/10/01: You may ignore a Trap's alternative cost condition and simply cast it for its normal mana cost. This is true even if its alternative cost condition has been met.
 2009/10/01: Casting a Trap by paying its alternative cost doesn't change its mana cost or converted mana cost. The only difference is the cost you actually pay.
 2009/10/01: Effects that increase or reduce the cost to cast a Trap will apply to whichever cost you chose to pay.
-2009/10/01: <Archive Trap> checks only whether an opponent searched his or her library. It doesn't matter whether that player found a card during the search.
-2009/10/01: A spell or ability causes a player to search his or her library only if it specifically contains the word "search" in its text. For example, if a spell or ability lets a player look at the top four cards of his or her library and do something with one of those cards, that's not a search.
-2009/10/01: If a search effect is affected by Aven Mindcensor's ability (which causes a player to search the top four cards of his or her library instead), that still counts as searching that library.
-2009/10/01: The opponent you target doesn't have to be the opponent who searched his or her library.
-2009/10/01: If the targeted opponent has fewer than thirteen cards in his or her library, that player puts his or her entire library into his or her graveyard.</Rulings>
+2009/10/01: <Archive Trap> checks only whether an opponent searched their library. It doesn't matter whether that player found a card during the search.
+2009/10/01: A spell or ability causes a player to search their library only if it specifically contains the word "search" in its text. For example, if a spell or ability lets a player look at the top four cards of their library and do something with one of those cards, that's not a search.
+2009/10/01: If a search effect is affected by Aven Mindcensor's ability (which causes a player to search the top four cards of their library instead), that still counts as searching that library.
+2009/10/01: The opponent you target doesn't have to be the opponent who searched their library.
+2009/10/01: If the targeted opponent has fewer than thirteen cards in their library, that player puts their entire library into their graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -837,13 +836,13 @@ As long as Archmage Ascension has six or more quest counters on it, if you would
 <Name>Cosi's Trickster</Name>
 <Type>Creature — Merfolk Wizard 1/1</Type>
 <ManaCost>U (1)</ManaCost>
-<CardText>Whenever an opponent shuffles his or her library, you may put a +1/+1 counter on Cosi's Trickster.</CardText>
+<CardText>Whenever an opponent shuffles their library, you may put a +1/+1 counter on Cosi's Trickster.</CardText>
 <Flavor>She watches the chaos created by the Roil, seeking strength in the patterns of anarchy.</Flavor>
 <Artist>Igor Kieryluk</Artist>
 <Multiverseid>186322</Multiverseid>
-<Rulings>2009/10/01: <Cosi's Trickster>'s ability triggers when an opponent shuffles his or her library because that player was instructed to do so by a spell or ability that specifically contains the word "shuffle" in its text or (in the case of a keyword ability) in its rules.
-2009/10/01: The cascade ability doesn't cause a player to shuffle his or her library, even if that player revealed his or her entire library. The revealed cards are put on the bottom of their owner's library in a random order, but they're not "shuffled."
-2009/10/01: If an opponent's library is empty or has just a single card in it when a spell or ability instructs that player to shuffle his or her library, <Cosi's Trickster>'s ability will still trigger.</Rulings>
+<Rulings>2009/10/01: <Cosi's Trickster>'s ability triggers when an opponent shuffles their library because that player was instructed to do so by a spell or ability that specifically contains the word "shuffle" in its text or (in the case of a keyword ability) in its rules.
+2009/10/01: The cascade ability doesn't cause a player to shuffle their library, even if that player revealed their entire library. The revealed cards are put on the bottom of their owner's library in a random order, but they're not "shuffled."
+2009/10/01: If an opponent's library is empty or has just a single card in it when a spell or ability instructs that player to shuffle their library, <Cosi's Trickster>'s ability will still trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -863,7 +862,7 @@ As long as Archmage Ascension has six or more quest counters on it, if you would
 <Artist>Chippy</Artist>
 <Multiverseid>198523</Multiverseid>
 <Rulings>2009/10/01: <Gomazoa>'s ability can be activated any time its controller has priority. It doesn't need to be blocking any creatures.
-2009/10/01: If <Gomazoa> isn't blocking a creature at the time its ability resolves, only <Gomazoa> is put on top of its owner's library, and only that player shuffles his or her library.</Rulings>
+2009/10/01: If <Gomazoa> isn't blocking a creature at the time its ability resolves, only <Gomazoa> is put on top of its owner's library, and only that player shuffles their library.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -877,7 +876,7 @@ As long as Archmage Ascension has six or more quest counters on it, if you would
 <Name>Hedron Crab</Name>
 <Type>Creature — Crab 0/2</Type>
 <ManaCost>U (1)</ManaCost>
-<CardText>Landfall — Whenever a land enters the battlefield under your control, target player puts the top three cards of his or her library into his or her graveyard.</CardText>
+<CardText>Landfall — Whenever a land enters the battlefield under your control, target player puts the top three cards of their library into their graveyard.</CardText>
 <Flavor>Hedrons perplex minds both great and small.</Flavor>
 <Artist>Jesper Ejsing</Artist>
 <Multiverseid>180348</Multiverseid>
@@ -897,11 +896,11 @@ As long as Archmage Ascension has six or more quest counters on it, if you would
 <Type>Instant</Type>
 <ManaCost>1U (2)</ManaCost>
 <CardText>Kicker {1}{U} (You may pay an additional {1}{U} as you cast this spell.)
-Return target nonland permanent to its owner's hand. If Into the Roil was kicked, draw a card.</CardText>
+Return target nonland permanent to its owner's hand. If this spell was kicked, draw a card.</CardText>
 <Flavor>"Roil tide! Roil tide! Tie yourselves down!"</Flavor>
 <Artist>Kieran Yanner</Artist>
 <Multiverseid>178151</Multiverseid>
-<Rulings>2009/10/01: If the targeted permanent is an illegal target by the time <Into the Roil> resolves, the entire spell is countered. You don't draw a card.</Rulings>
+<Rulings>2009/10/01: If the targeted permanent is an illegal target by the time <Into the Roil> resolves, the entire spell doesn't resolve. You don't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -950,7 +949,7 @@ Remove three quest counters from Ior Ruin Expedition and sacrifice it: Draw two 
 <Name>Lethargy Trap</Name>
 <Type>Instant — Trap</Type>
 <ManaCost>3U (4)</ManaCost>
-<CardText>If three or more creatures are attacking, you may pay {U} rather than pay Lethargy Trap's mana cost.
+<CardText>If three or more creatures are attacking, you may pay {U} rather than pay this spell's mana cost.
 Attacking creatures get -3/-0 until end of turn.</CardText>
 <Flavor>Suddenly, Zurdi didn't care about treasure, glory, food . . . or the drakes circling above.</Flavor>
 <Artist>Anthony Francisco</Artist>
@@ -1014,7 +1013,7 @@ Tap seven untapped Merfolk you control: Counter target spell.</CardText>
 <Flavor>"Many voices are needed to quiet this land."</Flavor>
 <Artist>Jaime Jones</Artist>
 <Multiverseid>190404</Multiverseid>
-<Rulings>2009/10/01: A spell or ability counters a spell only if it specifically contains the word "counter" in its text. If a spell or ability you control causes all the targets of a spell to become illegal, that spell is countered by the game rules, not the spell or ability you control. For example, if you control <Lullmage Mentor> and cast Doom Blade to destroy a creature targeted by Giant Growth, you do not get a Merfolk token when the game rules counter Giant Growth.
+<Rulings>2009/10/01: A spell or ability counters a spell only if it specifically contains the word "counter" in its text. If a spell or ability you control causes all the targets of a spell to become illegal, that spell doesn't resolve but is not countered.
 2009/10/01: <Lullmage Mentor>'s second ability will cause its first ability to trigger.
 2009/10/01: Since the second ability doesn't have a tap symbol in its cost, you can tap creatures (including <Lullmage Mentor> itself) that haven't been under your control since your most recent turn began to pay the cost.</Rulings>
 <Vintage>Legal</Vintage>
@@ -1067,7 +1066,7 @@ When Merfolk Wayfinder enters the battlefield, reveal the top three cards of you
 <Name>Mindbreak Trap</Name>
 <Type>Instant — Trap</Type>
 <ManaCost>2UU (4)</ManaCost>
-<CardText>If an opponent cast three or more spells this turn, you may pay {0} rather than pay Mindbreak Trap's mana cost.
+<CardText>If an opponent cast three or more spells this turn, you may pay {0} rather than pay this spell's mana cost.
 Exile any number of target spells.</CardText>
 <Flavor>"Life is a maze. This is one of its dead ends."
 —Noyan Dar, Tazeem lullmage</Flavor>
@@ -1112,7 +1111,7 @@ Enchanted creature doesn't untap during its controller's untap step.</CardText>
 <Type>Enchantment</Type>
 <ManaCost>U (1)</ManaCost>
 <CardText>Whenever a card is put into your graveyard from anywhere, you may put a quest counter on Quest for Ancient Secrets.
-Remove five quest counters from Quest for Ancient Secrets and sacrifice it: Target player shuffles his or her graveyard into his or her library.</CardText>
+Remove five quest counters from Quest for Ancient Secrets and sacrifice it: Target player shuffles their graveyard into their library.</CardText>
 <Artist>Mike Bierek</Artist>
 <Multiverseid>195635</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1146,10 +1145,10 @@ Remove five quest counters from Quest for Ancient Secrets and sacrifice it: Targ
 <Type>Sorcery</Type>
 <ManaCost>2UU (4)</ManaCost>
 <CardText>Kicker {5} (You may pay an additional {5} as you cast this spell.)
-Create a token that's a copy of target creature. If Rite of Replication was kicked, create five of those tokens instead.</CardText>
+Create a token that's a copy of target creature. If this spell was kicked, create five of those tokens instead.</CardText>
 <Artist>Matt Cavotta</Artist>
 <Multiverseid>195630</Multiverseid>
-<Rulings>2009/10/01: If the targeted creature is an illegal target by the time <Rite of Replication> resolves, the entire spell is countered. You won't get any tokens.
+<Rulings>2009/10/01: If the targeted creature is an illegal target by the time <Rite of Replication> resolves, the entire spell doesn't resolve. You won't get any tokens.
 2009/10/01: As the token or tokens are created, they check the printed values of the creature they're copying — or, if that creature is itself a token, the original characteristics of that token as stated by the effect that put it onto the battlefield — as well as any copy effects that have been applied to it. It won't copy counters on the creature, nor will it copy other effects that have changed the creature's power, toughness, types, color, or so on.
 2009/10/01: The tokens see each other enter the battlefield. If they have a triggered ability that triggers when a creature enters the battlefield, they'll all trigger for one another.</Rulings>
 <Vintage>Legal</Vintage>
@@ -1308,9 +1307,7 @@ Flying
 When Sphinx of Lost Truths enters the battlefield, draw three cards. Then if it wasn't kicked, discard three cards.</CardText>
 <Artist>Shelly Wan</Artist>
 <Multiverseid>185751</Multiverseid>
-<Rulings>2009/10/01: <Sphinx of Lost Truths> behaves differently than other cards with kicker. Its enters-the-battlefield ability always triggers, and it checks whether it *wasn't* kicked. The two possible results are as follows:
--- When an unkicked <Sphinx of Lost Truths> enters the battlefield, you draw three cards, then discard three cards.
--- When a kicked <Sphinx of Lost Truths> enters the battlefield, you draw three cards.</Rulings>
+<Rulings>2009/10/01: <Sphinx of Lost Truths> behaves differently than other cards with kicker. Its enters-the-battlefield ability always triggers, and it checks whether it *wasn't* kicked. The two possible results are as follows: -- When an unkicked <Sphinx of Lost Truths> enters the battlefield, you draw three cards, then discard three cards. -- When a kicked <Sphinx of Lost Truths> enters the battlefield, you draw three cards.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1349,7 +1346,7 @@ Enchanted land is an Island.</CardText>
 —Jace Beleren</Flavor>
 <Artist>Cyril Van Der Haegen</Artist>
 <Multiverseid>191360</Multiverseid>
-<Rulings>2009/10/01: If the targeted spell is an illegal target by the time <Summoner's Bane> resolves, the entire spell is countered. You won't get a creature token.
+<Rulings>2009/10/01: If the targeted spell is an illegal target by the time <Summoner's Bane> resolves, the entire spell doesn't resolve. You won't get a creature token.
 2009/10/01: You get the token creature, not the controller of the creature spell.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1383,7 +1380,7 @@ When Tempest Owl enters the battlefield, if it was kicked, tap up to three targe
 <Name>Trapfinder's Trick</Name>
 <Type>Sorcery</Type>
 <ManaCost>1U (2)</ManaCost>
-<CardText>Target player reveals his or her hand and discards all Trap cards.</CardText>
+<CardText>Target player reveals their hand and discards all Trap cards.</CardText>
 <Flavor>"At some point, every trapfinder will lose a hunk of flesh. It's just a question of how much—and whether it'll grow back."
 —Arhana, Kazandu trapfinder</Flavor>
 <Artist>Philip Straub</Artist>
@@ -1456,7 +1453,7 @@ Welkin Tern can block only creatures with flying.</CardText>
 <Name>Whiplash Trap</Name>
 <Type>Instant — Trap</Type>
 <ManaCost>3UU (5)</ManaCost>
-<CardText>If an opponent had two or more creatures enter the battlefield under his or her control this turn, you may pay {U} rather than pay Whiplash Trap's mana cost.
+<CardText>If an opponent had two or more creatures enter the battlefield under their control this turn, you may pay {U} rather than pay this spell's mana cost.
 Return two target creatures to their owners' hands.</CardText>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Multiverseid>197526</Multiverseid>
@@ -1499,11 +1496,11 @@ Landfall — Whenever a land enters the battlefield under your control, Windride
 <Name>Bala Ged Thief</Name>
 <Type>Creature — Human Rogue Ally 2/2</Type>
 <ManaCost>3B (4)</ManaCost>
-<CardText>Whenever Bala Ged Thief or another Ally enters the battlefield under your control, target player reveals a number of cards from his or her hand equal to the number of Allies you control. You choose one of them. That player discards that card.</CardText>
+<CardText>Whenever Bala Ged Thief or another Ally enters the battlefield under your control, target player reveals a number of cards from their hand equal to the number of Allies you control. You choose one of them. That player discards that card.</CardText>
 <Artist>Matt Cavotta</Artist>
 <Multiverseid>197402</Multiverseid>
 <Rulings>2009/10/01: The ability counts the number of Allies you control as it resolves.
-2009/10/01: If the number of Allies you control as the ability resolves is greater than the number of cards in the targeted player's hand, that player reveals his or her entire hand. You choose one of the cards revealed this way and that player discards it.</Rulings>
+2009/10/01: If the number of Allies you control as the ability resolves is greater than the number of cards in the targeted player's hand, that player reveals their entire hand. You choose one of the cards revealed this way and that player discards it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1536,7 +1533,7 @@ Landfall — Whenever a land enters the battlefield under your control, Windride
 <Type>Sorcery</Type>
 <ManaCost>4BB (6)</ManaCost>
 <CardText>Kicker—Tap an untapped Vampire you control. (You may tap a Vampire you control in addition to any other costs as you cast this spell.)
-Target opponent loses half his or her life, rounded up. If Blood Tribute was kicked, you gain life equal to the life lost this way.</CardText>
+Target opponent loses half their life, rounded up. If this spell was kicked, you gain life equal to the life lost this way.</CardText>
 <Artist>Alex Horley-Orlandelli</Artist>
 <Multiverseid>170995</Multiverseid>
 <Rulings>2009/10/01: You can tap a creature that hasn't been under your control since your most recent turn began to pay the kicker cost.</Rulings>
@@ -1560,7 +1557,7 @@ Whenever a card is put into an opponent's graveyard from anywhere, if Bloodchief
 <Rulings>2009/10/01: <Bloodchief Ascension>'s first ability has an "intervening 'if' clause." It won't trigger at all unless an opponent has already lost 2 or more life by the time the end step begins.
 2009/10/01: <Bloodchief Ascension>'s first ability checks how much life was lost by each opponent over the course of the entire turn, even if <Bloodchief Ascension> wasn't on the battlefield the whole time.
 2009/10/01: For the first ability to trigger, a single opponent must have lost 2 life. Two opponents each losing 1 life won't cause it to trigger. It will trigger a maximum of once per turn, no matter how many opponents have lost 2 or more life.
-2009/10/01: <Bloodchief Ascension>'s first ability checks only whether life was lost. It doesn't care whether life was also gained. For example, if an opponent lost 4 life and gained 6 life during the turn, that player will have a higher life total than he or she started the turn with — but <Bloodchief Ascension>'s first ability will still trigger.
+2009/10/01: <Bloodchief Ascension>'s first ability checks only whether life was lost. It doesn't care whether life was also gained. For example, if an opponent lost 4 life and gained 6 life during the turn, that player will have a higher life total than they started the turn with — but <Bloodchief Ascension>'s first ability will still trigger.
 2009/10/01: <Bloodchief Ascension>'s second ability doesn't behave like a leaves-the-battlefield triggered ability, since the card put into an opponent's graveyard may come from anywhere. If a <Bloodchief Ascension> with three quest counters on it and a permanent an opponent owns are destroyed at the same time, for example, the game will not "look back in time" at the game state, and <Bloodchief Ascension>'s second ability won't trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1636,7 +1633,7 @@ Landfall — Whenever a land enters the battlefield under your control, you may 
 —Javad Nasrin, Ondu relic hunter</Flavor>
 <Artist>Daarken</Artist>
 <Multiverseid>178137</Multiverseid>
-<Rulings>2009/10/01: If the targeted land is an illegal target by the time <Desecrated Earth> resolves, the entire spell is countered. No one discards a card.</Rulings>
+<Rulings>2009/10/01: If the targeted land is an illegal target by the time <Desecrated Earth> resolves, the entire spell doesn't resolve. No one discards a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1667,14 +1664,14 @@ Landfall — Whenever a land enters the battlefield under your control, you may 
 <Name>Feast of Blood</Name>
 <Type>Sorcery</Type>
 <ManaCost>1B (2)</ManaCost>
-<CardText>Cast Feast of Blood only if you control two or more Vampires.
+<CardText>Cast this spell only if you control two or more Vampires.
 Destroy target creature. You gain 4 life.</CardText>
 <Flavor>"The vampires of this world don't know the pleasures of hunger. They gorge themselves without savoring the kill."
 —Sorin Markov</Flavor>
 <Artist>Jason Felix</Artist>
 <Multiverseid>189629</Multiverseid>
 <Rulings>2009/10/01: Whether you control two or more Vampires is checked only as you try to move <Feast of Blood> to the stack as the first step of casting it. It doesn't matter whether you still control two or more Vampires as you finish casting <Feast of Blood> (in case you somehow sacrifice one to produce mana) or as <Feast of Blood> resolves.
-2009/10/01: If the targeted creature is an illegal target by the time <Feast of Blood> resolves, the entire spell is countered. You don't gain life.</Rulings>
+2009/10/01: If the targeted creature is an illegal target by the time <Feast of Blood> resolves, the entire spell doesn't resolve. You don't gain life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1861,7 +1858,7 @@ When Heartstabber Mosquito enters the battlefield, if it was kicked, destroy tar
 —Radavi, Joraga relic hunter, last words</Flavor>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Multiverseid>180435</Multiverseid>
-<Rulings>2009/10/01: If the targeted creature is an illegal target by the time <Hideous End> resolves, the entire spell is countered. No one loses life.</Rulings>
+<Rulings>2009/10/01: If the targeted creature is an illegal target by the time <Hideous End> resolves, the entire spell doesn't resolve. No one loses life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1912,7 +1909,7 @@ When Malakir Bloodwitch enters the battlefield, each opponent loses life equal t
 <Type>Sorcery</Type>
 <ManaCost>BB (2)</ManaCost>
 <CardText>Kicker {3} (You may pay an additional {3} as you cast this spell.)
-Creatures target player controls get -1/-1 until end of turn. If Marsh Casualties was kicked, those creatures get -2/-2 until end of turn instead.</CardText>
+Creatures target player controls get -1/-1 until end of turn. If this spell was kicked, those creatures get -2/-2 until end of turn instead.</CardText>
 <Artist>Scott Chou</Artist>
 <Multiverseid>177543</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1985,7 +1982,7 @@ When enchanted creature is dealt damage, destroy it.</CardText>
 <Name>Needlebite Trap</Name>
 <Type>Instant — Trap</Type>
 <ManaCost>5BB (7)</ManaCost>
-<CardText>If an opponent gained life this turn, you may pay {B} rather than pay Needlebite Trap's mana cost.
+<CardText>If an opponent gained life this turn, you may pay {B} rather than pay this spell's mana cost.
 Target player loses 5 life and you gain 5 life.</CardText>
 <Flavor>The traps around the vampire city of Malakir hint at the thirst of its inhabitants.</Flavor>
 <Artist>Daarken</Artist>
@@ -1993,7 +1990,7 @@ Target player loses 5 life and you gain 5 life.</CardText>
 <Rulings>2009/10/01: You may ignore a Trap's alternative cost condition and simply cast it for its normal mana cost. This is true even if its alternative cost condition has been met.
 2009/10/01: Casting a Trap by paying its alternative cost doesn't change its mana cost or converted mana cost. The only difference is the cost you actually pay.
 2009/10/01: Effects that increase or reduce the cost to cast a Trap will apply to whichever cost you chose to pay.
-2009/10/01: <Needlebite Trap>'s alternative cost condition checks only whether life was gained. It doesn't care whether life was also lost. For example, if an opponent gained 4 life and lost 6 life during the turn, that player will have a lower life total than he or she started the turn with — but you can still cast <Needlebite Trap> by paying {B}.</Rulings>
+2009/10/01: <Needlebite Trap>'s alternative cost condition checks only whether life was gained. It doesn't care whether life was also lost. For example, if an opponent gained 4 life and lost 6 life during the turn, that player will have a lower life total than they started the turn with — but you can still cast <Needlebite Trap> by paying {B}.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2063,7 +2060,7 @@ Remove three quest counters from Quest for the Gravelord and sacrifice it: Creat
 <Name>Ravenous Trap</Name>
 <Type>Instant — Trap</Type>
 <ManaCost>2BB (4)</ManaCost>
-<CardText>If an opponent had three or more cards put into his or her graveyard from anywhere this turn, you may pay {0} rather than pay Ravenous Trap's mana cost.
+<CardText>If an opponent had three or more cards put into their graveyard from anywhere this turn, you may pay {0} rather than pay this spell's mana cost.
 Exile all cards from target player's graveyard.</CardText>
 <Artist>Cyril Van Der Haegen</Artist>
 <Multiverseid>197537</Multiverseid>
@@ -2084,7 +2081,7 @@ Exile all cards from target player's graveyard.</CardText>
 <Type>Sorcery</Type>
 <ManaCost>BBB (3)</ManaCost>
 <CardText>Kicker {7} (You may pay an additional {7} as you cast this spell.)
-Search target player's library for up to three cards, exile them, then that player shuffles his or her library. If Sadistic Sacrament was kicked, instead search that player's library for up to fifteen cards, exile them, then that player shuffles his or her library.</CardText>
+Search target player's library for up to three cards, exile them, then that player shuffles their library. If this spell was kicked, instead search that player's library for up to fifteen cards, exile them, then that player shuffles their library.</CardText>
 <Artist>Dan Scott</Artist>
 <Multiverseid>195632</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2100,28 +2097,22 @@ Search target player's library for up to three cards, exile them, then that play
 <Name>Sorin Markov</Name>
 <Type>Legendary Planeswalker — Sorin (Loyalty: 4)</Type>
 <ManaCost>3BBB (6)</ManaCost>
-<CardText>+2: Sorin Markov deals 2 damage to target creature or player and you gain 2 life.
+<CardText>+2: Sorin Markov deals 2 damage to any target and you gain 2 life.
 -3: Target opponent's life total becomes 10.
 -7: You control target player during that player's next turn.</CardText>
 <Artist>Michael Komarck</Artist>
 <Multiverseid>195403</Multiverseid>
-<Rulings>2009/10/01: If the targeted creature or player is an illegal target by the time Sorin's first ability resolves, the entire ability is countered. You won't gain life.
+<Rulings>2009/10/01: If the targeted permanent or player is an illegal target by the time Sorin's first ability resolves, the entire ability doesn't resolve. You won't gain life.
 2009/10/01: For a player's life total to become 10, what actually happens is that the player gains or loses the appropriate amount of life. For example, if the targeted opponent's life total is 4 when this ability resolves, it will cause that player to gain 6 life; alternately, if the targeted player's life total is 17 when this ability resolves, it will cause that player to lose 7 life. Other cards that interact with life gain or life loss will interact with this effect accordingly.
 2009/10/01: Sorin's third ability allows you to control another player. This effect applies to the next turn that the affected player actually takes.
 2009/10/01: The player who is being controlled is still the active player.
 2009/10/01: While controlling another player, you also continue to make your own choices and decisions.
-2009/10/01: While controlling another player, you make all choices and decisions that player is allowed to make or is told to make during that turn. For example:
--- You choose which lands the other player plays.
--- You choose which spells the other player casts, and make all decisions as those spells are cast and as they resolve. For example, you choose the value of X for that player's Earthquake, the target for that player's Lightning Bolt, what mana that player spends to cast Day of Judgment, and what card that player gets with Diabolic Tutor.
--- You choose which activated abilities the other player activates, and make all decisions as those abilities are activated and as they resolve. For example, you can have your opponent sacrifice his or her creatures to his or her Vampire Aristocrat or have your opponent's Caller of Gales give one of your creatures flying.
--- You make all decisions for the other player's triggered abilities, including what they target and any decisions made when they resolve.
--- You choose which creatures controlled by the other player attack, who or what they attack, and how they assign their combat damage.
--- You make any choices and decisions that player would make for any other reason. For example, you could cast Fact or Fiction, choose that player to divide the revealed cards into piles, and thus divide those cards into piles yourself.
-2009/10/01: You can't make the affected player concede. That player may choose to concede at any time, even while you're controlling his or her turn.
-2009/10/01: You can't make any illegal decisions or illegal choices — you can't do anything that player couldn't do. You can't make choices or decisions for that player that aren't called for by the game rules or by any cards, permanents, spells, abilities, and so on. If an effect causes another player to make decisions that the affected player would normally make (such as Master Warcraft does), that effect takes precedence. (In other words, if the affected player wouldn't make a decision, you wouldn't make that decision on his or her behalf.) You also can't make any choices or decisions for the player that would be called for by the tournament rules (such as whether to take an intentional draw or whether to call a judge).
+2009/10/01: While controlling another player, you make all choices and decisions that player is allowed to make or is told to make during that turn. For example: -- You choose which lands the other player plays. -- You choose which spells the other player casts, and make all decisions as those spells are cast and as they resolve. For example, you choose the value of X for that player's Earthquake, the target for that player's Lightning Bolt, what mana that player spends to cast Day of Judgment, and what card that player gets with Diabolic Tutor. -- You choose which activated abilities the other player activates, and make all decisions as those abilities are activated and as they resolve. For example, you can have your opponent sacrifice their creatures to their Vampire Aristocrat or have your opponent's Caller of Gales give one of your creatures flying. -- You make all decisions for the other player's triggered abilities, including what they target and any decisions made when they resolve. -- You choose which creatures controlled by the other player attack, who or what they attack, and how they assign their combat damage. -- You make any choices and decisions that player would make for any other reason. For example, you could cast Fact or Fiction, choose that player to divide the revealed cards into piles, and thus divide those cards into piles yourself.
+2009/10/01: You can't make the affected player concede. That player may choose to concede at any time, even while you're controlling their turn.
+2009/10/01: You can't make any illegal decisions or illegal choices — you can't do anything that player couldn't do. You can't make choices or decisions for that player that aren't called for by the game rules or by any cards, permanents, spells, abilities, and so on. If an effect causes another player to make decisions that the affected player would normally make (such as Master Warcraft does), that effect takes precedence. (In other words, if the affected player wouldn't make a decision, you wouldn't make that decision on their behalf.) You also can't make any choices or decisions for the player that would be called for by the tournament rules (such as whether to take an intentional draw or whether to call a judge).
 2009/10/01: You can use only the affected player's resources (cards, mana, and so on) to pay costs for that player; you can't use your own. Similarly, you can use the affected player's resources only to pay that player's costs; you can't spend them on your costs.
 2009/10/01: You only control the player. You don't control any of the other player's permanents, spells, or abilities.
-2009/10/01: If the player affected by Sorin's third ability skips his or her next turn, the ability will wait. You'll control the next turn the affected player actually takes.
+2009/10/01: If the player affected by Sorin's third ability skips their next turn, the ability will wait. You'll control the next turn the affected player actually takes.
 2009/10/01: Multiple player-controlling effects that affect the same player overwrite each other. The last one to be created is the one that works.
 2009/10/01: You could gain control of yourself using Sorin's third ability, but unless you do so to overwrite someone else's player-controlling effect, this doesn't do anything.
 2010/06/15: In a Two-Headed Giant game, Sorin's second ability causes the targeted opponent's team's life total to become 10. Only the targeted player is actually considered to have actually gained or lost life.
@@ -2203,7 +2194,7 @@ Sacrifice Vampire Hexmage: Remove all counters from target permanent.</CardText>
 <Flavor>The lacerators cut themselves before each hunt. They must feed before the sun rises or bleed to death.</Flavor>
 <Artist>Steve Argyle</Artist>
 <Multiverseid>192225</Multiverseid>
-<Rulings>2009/10/01: Whether an opponent has 10 or less life is checked only as the ability resolves.</Rulings>
+<Rulings>2018/03/16: Whether an opponent has 10 or less life is checked only as <Vampire Lacerator>'s ability resolves.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2234,7 +2225,7 @@ Sacrifice Vampire Hexmage: Remove all counters from target permanent.</CardText>
 <Type>Instant</Type>
 <ManaCost>B (1)</ManaCost>
 <CardText>Kicker {2}{B} (You may pay an additional {2}{B} as you cast this spell.)
-Target creature gets +3/+0 until end of turn. If Vampire's Bite was kicked, that creature gains lifelink until end of turn. (Damage dealt by the creature also causes its controller to gain that much life.)</CardText>
+Target creature gets +3/+0 until end of turn. If this spell was kicked, that creature gains lifelink until end of turn. (Damage dealt by the creature also causes its controller to gain that much life.)</CardText>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>178150</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2270,7 +2261,7 @@ Target creature gets +3/+0 until end of turn. If Vampire's Bite was kicked, that
 <Type>Instant</Type>
 <ManaCost>R (1)</ManaCost>
 <CardText>Kicker {4} (You may pay an additional {4} as you cast this spell.)
-Burst Lightning deals 2 damage to target creature or player. If Burst Lightning was kicked, it deals 4 damage to that creature or player instead.</CardText>
+Burst Lightning deals 2 damage to any target. If this spell was kicked, it deals 4 damage to that permanent or player instead.</CardText>
 <Artist>Vance Kovacs</Artist>
 <Multiverseid>177558</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2286,14 +2277,14 @@ Burst Lightning deals 2 damage to target creature or player. If Burst Lightning 
 <Name>Chandra Ablaze</Name>
 <Type>Legendary Planeswalker — Chandra (Loyalty: 5)</Type>
 <ManaCost>4RR (6)</ManaCost>
-<CardText>+1: Discard a card. If a red card is discarded this way, Chandra Ablaze deals 4 damage to target creature or player.
--2: Each player discards his or her hand, then draws three cards.
+<CardText>+1: Discard a card. If a red card is discarded this way, Chandra Ablaze deals 4 damage to any target.
+-2: Each player discards their hand, then draws three cards.
 -7: Cast any number of red instant and/or sorcery cards from your graveyard without paying their mana costs.</CardText>
 <Artist>Steve Argyle</Artist>
 <Multiverseid>195402</Multiverseid>
 <Rulings>2009/10/01: If you activate <Chandra Ablaze>'s first ability, you don't discard a card until the ability resolves. You may activate the ability even if your hand is empty. You choose a target as you activate the ability even if you have no red cards in hand at that time.
 2009/10/01: As the first ability resolves, nothing happens if your hand is empty. But if you have any cards in hand, you must discard one. If you discard a nonred card, Chandra doesn't deal any damage.
-2009/10/01: If the creature targeted by the first ability is an illegal target by the time it resolves, the entire ability is countered. You won't discard a card.
+2009/10/01: If the creature targeted by the first ability is an illegal target by the time it resolves, the entire ability doesn't resolve. You won't discard a card.
 2009/10/01: You may activate Chandra's second ability even if your hand is empty. As it resolves, a player whose hand is empty simply draws three cards.
 2009/10/01: You cast red instant cards and red sorcery cards from your graveyard as part of the resolution of <Chandra Ablaze>'s third ability. You don't choose which ones to cast until you're actually doing so as the ability resolves. You cast only the ones you want to, and you may cast them in any order. Timing restrictions based on the card's type (if it's a sorcery) are ignored. Other restrictions are not (such as "Cast [this card] only during combat"). Each card you cast this way is put on the stack, then the ability finishes resolving. Those spells will then resolve as normal, one at a time, in the opposite order that they were put on the stack. They'll go back to the graveyard as they resolve.
 2009/10/01: If you cast a card "without paying its mana cost," you can't pay any alternative costs. You can pay additional costs, such as kicker costs.</Rulings>
@@ -2328,13 +2319,13 @@ Burst Lightning deals 2 damage to target creature or player. If Burst Lightning 
 <Name>Electropotence</Name>
 <Type>Enchantment</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>Whenever a creature enters the battlefield under your control, you may pay {2}{R}. If you do, that creature deals damage equal to its power to target creature or player.</CardText>
+<CardText>Whenever a creature enters the battlefield under your control, you may pay {2}{R}. If you do, that creature deals damage equal to its power to any target.</CardText>
 <Flavor>Where life and force collide.</Flavor>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>191373</Multiverseid>
-<Rulings>2009/10/01: You target a creature or player when the ability triggers. You decide whether or not to pay {2}{R} as the ability resolves.
+<Rulings>2009/10/01: You target a permanent or player when the ability triggers. You decide whether or not to pay {2}{R} as the ability resolves.
 2009/10/01: Once you decide to pay {2}{R}, it's too late for anyone to respond (such as by activating a regeneration ability the targeted creature has).
-2009/10/01: If you pay {2}{R}, the creature that entered the battlefield deals damage equal to its current power to the targeted creature or player. If it's no longer on the battlefield, its last known existence on the battlefield is checked to determine its power.
+2009/10/01: If you pay {2}{R}, the creature that entered the battlefield deals damage equal to its current power to the targeted permanent or player. If it's no longer on the battlefield, its last known existence on the battlefield is checked to determine its power.
 2009/10/01: <Electropotence> is the source of the ability, but the creature is the source of the damage. The ability couldn't target a creature with protection from red, for example. It could target a creature with protection from creatures, but all the damage would be prevented. Since damage is dealt by the creature, lifelink, deathtouch, and wither are taken into account, even if the creature has left the battlefield by the time it deals damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2350,7 +2341,7 @@ Burst Lightning deals 2 damage to target creature or player. If Burst Lightning 
 <Type>Sorcery</Type>
 <ManaCost>RRRR (4)</ManaCost>
 <CardText>Kicker {5} (You may pay an additional {5} as you cast this spell.)
-Create a 7/1 red Elemental creature token with trample and haste. Exile it at the beginning of the next end step. If Elemental Appeal was kicked, that creature gets +7/+0 until end of turn.</CardText>
+Create a 7/1 red Elemental creature token with trample and haste. Exile it at the beginning of the next end step. If this spell was kicked, that creature gets +7/+0 until end of turn.</CardText>
 <Artist>Anthony Francisco</Artist>
 <Multiverseid>192221</Multiverseid>
 <Rulings>2009/10/01: If <Elemental Appeal> was kicked, it creates a 7/1 token with trample and haste that gets +7/+0 until end of turn. It doesn't create a 14/1 token. This matters in case something copies that token (the copy will be just 7/1), or in case <Elemental Appeal> is somehow cast during an end step (in which case the +7/+0 lasts just for that turn).</Rulings>
@@ -2406,7 +2397,7 @@ When Goblin Bushwhacker enters the battlefield, if it was kicked, creatures you 
 <Type>Creature — Goblin Scout 2/2</Type>
 <ManaCost>R (1)</ManaCost>
 <CardText>Haste
-Whenever Goblin Guide attacks, defending player reveals the top card of his or her library. If it's a land card, that player puts it into his or her hand.</CardText>
+Whenever Goblin Guide attacks, defending player reveals the top card of their library. If it's a land card, that player puts it into their hand.</CardText>
 <Flavor>"I've been all over this world. I even remember some of those places."</Flavor>
 <Artist>Warren Mahy</Artist>
 <Multiverseid>170987</Multiverseid>
@@ -2477,11 +2468,11 @@ Enchanted creature gets +2/+2 and has haste.</CardText>
 <Name>Hellfire Mongrel</Name>
 <Type>Creature — Elemental Hound 2/2</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>At the beginning of each opponent's upkeep, if that player has two or fewer cards in hand, Hellfire Mongrel deals 2 damage to him or her.</CardText>
+<CardText>At the beginning of each opponent's upkeep, if that player has two or fewer cards in hand, Hellfire Mongrel deals 2 damage to that player.</CardText>
 <Flavor>There is no fondness between the hound and its master. There is only a common appreciation of the hunt.</Flavor>
 <Artist>Dan Scott</Artist>
 <Multiverseid>192215</Multiverseid>
-<Rulings>2009/10/01: <Hellfire Mongrel>'s triggered ability has an "intervening 'if' clause." That means (1) the ability won't trigger at all unless the opponent whose turn it is has two or fewer cards in hand as his or her upkeep starts, and (2) the ability will do nothing if that player has three or more cards in hand by the time it resolves.
+<Rulings>2009/10/01: <Hellfire Mongrel>'s triggered ability has an "intervening 'if' clause." That means (1) the ability won't trigger at all unless the opponent whose turn it is has two or fewer cards in hand as their upkeep starts, and (2) the ability will do nothing if that player has three or more cards in hand by the time it resolves.
 2009/10/01: In a Two-Headed Giant game, this ability will potentially trigger twice at the beginning of the opposing team's upkeep — once for each player on that team.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2535,7 +2526,7 @@ Whenever Hellkite Charger attacks, you may pay {5}{R}{R}. If you do, untap all a
 <Name>Inferno Trap</Name>
 <Type>Instant — Trap</Type>
 <ManaCost>3R (4)</ManaCost>
-<CardText>If you've been dealt damage by two or more creatures this turn, you may pay {R} rather than pay Inferno Trap's mana cost.
+<CardText>If you've been dealt damage by two or more creatures this turn, you may pay {R} rather than pay this spell's mana cost.
 Inferno Trap deals 4 damage to target creature.</CardText>
 <Flavor>"Do you smell something burning?"</Flavor>
 <Artist>Philip Straub</Artist>
@@ -2579,7 +2570,7 @@ Inferno Trap deals 4 damage to target creature.</CardText>
 <Name>Lavaball Trap</Name>
 <Type>Instant — Trap</Type>
 <ManaCost>6RR (8)</ManaCost>
-<CardText>If an opponent had two or more lands enter the battlefield under his or her control this turn, you may pay {3}{R}{R} rather than pay Lavaball Trap's mana cost.
+<CardText>If an opponent had two or more lands enter the battlefield under their control this turn, you may pay {3}{R}{R} rather than pay this spell's mana cost.
 Destroy two target lands. Lavaball Trap deals 4 damage to each creature.</CardText>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Multiverseid>197528</Multiverseid>
@@ -2588,7 +2579,7 @@ Destroy two target lands. Lavaball Trap deals 4 damage to each creature.</CardTe
 2009/10/01: Effects that increase or reduce the cost to cast a Trap will apply to whichever cost you chose to pay.
 2009/10/01: You may target any two lands, not just ones that entered the battlefield this turn.
 2009/10/01: All creatures are dealt damage, not just ones controlled by the targeted lands' controller(s).
-2009/10/01: If both targeted lands are illegal targets by the time <Lavaball Trap> resolves, the entire spell is countered. No creatures are dealt damage.</Rulings>
+2009/10/01: If both targeted lands are illegal targets by the time <Lavaball Trap> resolves, the entire spell doesn't resolve. No creatures are dealt damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2602,7 +2593,7 @@ Destroy two target lands. Lavaball Trap deals 4 damage to each creature.</CardTe
 <Name>Magma Rift</Name>
 <Type>Sorcery</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>As an additional cost to cast Magma Rift, sacrifice a land.
+<CardText>As an additional cost to cast this spell, sacrifice a land.
 Magma Rift deals 5 damage to target creature.</CardText>
 <Flavor>"Lighting a fire needs kindling and heat. You be the kindling. I'll bring the heat."
 —Chandra Nalaar</Flavor>
@@ -2682,7 +2673,7 @@ Magma Rift deals 5 damage to target creature.</CardText>
 <Multiverseid>192224</Multiverseid>
 <Rulings>2009/10/01: As the reminder text indicates, whether the targeted land has the triggered ability that's been granted to it depends only on whether it has a blaze counter on it, not on whether <Obsidian Fireheart> is still on the battlefield.
 2009/10/01: The ability gained by the land triggers at the beginning of the upkeep of the land's controller, not the beginning of the upkeep of <Obsidian Fireheart>'s controller. The player who controls the land at the time the ability triggers is the one who's dealt damage.
-2009/10/01: A land with a blaze counter on it is an illegal target for this ability. You may activate the ability targeting a land, then activate the ability in response to itself targeting the same land. Although the first ability to resolve will put a blaze counter on that land, the second ability to resolve will be countered.
+2009/10/01: A land with a blaze counter on it is an illegal target for this ability. You may activate the ability targeting a land, then activate the ability in response to itself targeting the same land. Although the first ability to resolve will put a blaze counter on that land, the second ability to resolve won't resolve.
 2009/10/01: If all blaze counters on a land are moved to a different land, the triggered ability doesn't follow them. The first land no longer has the ability because it no longer has a blaze counter on it. The second land doesn't have the ability because <Obsidian Fireheart> didn't target it.
 2009/10/01: If a land ends up with more than one blaze counter on it (thanks to Doubling Season or Gilder Bairn, for example), the ability still only causes it to deal 1 damage to its controller each turn.</Rulings>
 <Vintage>Legal</Vintage>
@@ -2719,7 +2710,7 @@ Landfall — Whenever a land enters the battlefield under your control, Plated G
 <Name>Punishing Fire</Name>
 <Type>Instant</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>Punishing Fire deals 2 damage to target creature or player.
+<CardText>Punishing Fire deals 2 damage to any target.
 Whenever an opponent gains life, you may pay {R}. If you do, return Punishing Fire from your graveyard to your hand.</CardText>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>192217</Multiverseid>
@@ -2768,19 +2759,18 @@ Whenever you cast an instant or sorcery spell while Pyromancer Ascension has two
 <Type>Enchantment</Type>
 <ManaCost>R (1)</ManaCost>
 <CardText>Whenever a source you control deals damage to an opponent, you may put a quest counter on Quest for Pure Flame.
-Remove four quest counters from Quest for Pure Flame and sacrifice it: If any source you control would deal damage to a creature or player this turn, it deals double that damage to that creature or player instead.</CardText>
+Remove four quest counters from Quest for Pure Flame and sacrifice it: If any source you control would deal damage to a permanent or player this turn, it deals double that damage to that permanent or player instead.</CardText>
 <Artist>Cyril Van Der Haegen</Artist>
 <Multiverseid>197407</Multiverseid>
 <Rulings>2009/10/01: Both of <Quest for Pure Flame>'s abilities interact with any kind of damage, not just combat damage.
 2009/10/01: The source of combat damage is the creature that dealt it.
-2009/10/01: If a spell causes damage to be dealt, that spell will always identify the source of the damage. In most cases, the source is the spell itself. For example, Lightning Bolt says "Lightning Bolt deals 3 damage to target creature or player."
-2009/10/01: If an ability causes damage to be dealt, that ability will always identify the source of the damage. The ability itself is never the source. However, the source of the ability is often the source of the damage. For example, Prodigal Pyromancer's ability says "Prodigal Pyromancer deals 1 damage to target creature or player."
+2009/10/01: If a spell causes damage to be dealt, that spell will always identify the source of the damage. In most cases, the source is the spell itself. For example, Lightning Bolt says "Lightning Bolt deals 3 damage to any target."
+2009/10/01: If an ability causes damage to be dealt, that ability will always identify the source of the damage. The ability itself is never the source. However, the source of the ability is often the source of the damage. For example, Prodigal Pyromancer's ability says "Prodigal Pyromancer deals 1 damage to any target."
 2009/10/01: If the source of the damage is a permanent, <Quest for Pure Flame> checks whether you control that permanent at the time that damage is dealt. If the permanent has left the battlefield by then, its last known information is used. If the source of the damage is a spell, whether you control it is obvious. If the source of the damage is a card in some other zone (such as a cycled Jund Sojourners), <Quest for Pure Flame> checks whether you're the card's owner, rather than whether you're its controller.
 2009/10/01: When the first ability resolves, you may put just one quest counter on <Quest for Pure Flame>. It doesn't matter how much damage the source dealt.
 2009/10/01: The first ability will trigger multiple times if multiple sources you control deal damage to a single opponent at once, or if a single source you control deals damage to multiple opponents at once.
-2009/10/01: The second ability affects all sources you control that would deal damage to a creature or player at any point in the rest of the turn.
-2009/10/01: If multiple effects modify how damage will be dealt, the player who would be dealt damage or the controller of the creature that would be dealt damage chooses the order to apply the effects. For example, Mending Hands says, "Prevent the next 4 damage that would be dealt to target creature or player this turn." Suppose a spell controlled by a player who has activated Quest for Pure Fire's second ability would deal 5 damage to a player who has cast Mending Hands targeting him or herself. The player who would be dealt damage can either (a) prevent 4 damage first and then let Quest for Pure Fire's effect double the remaining 1 damage, taking 2 damage, or (b) double the damage to 10 and then prevent 4 damage, taking 6 damage.
-2009/10/01: Combat damage that a source you control would deal to a planeswalker is not doubled. However, if a source you control would deal noncombat damage to that player, and that player chooses to apply Quest for Pure Fire's replacement effect before applying the planeswalker redirection effect, the damage will be doubled before you choose whether to deal it to a planeswalker that player controls. (If your opponents always apply the planeswalker redirection effect first, Quest for Pure Fire's effect will never double damage that a source you control would deal to a planeswalker.)
+2009/10/01: The second ability affects all sources you control that would deal damage to a permanent or player at any point in the rest of the turn.
+2009/10/01: If multiple effects modify how damage will be dealt, the player who would be dealt damage or the controller of the creature that would be dealt damage chooses the order to apply the effects. For example, Mending Hands says, "Prevent the next 4 damage that would be dealt to any target." Suppose a spell controlled by a player who has activated Quest for Pure Fire's second ability would deal 5 damage to a player who has cast Mending Hands targeting themselves. The player who would be dealt damage can either (a) prevent 4 damage first and then let Quest for Pure Fire's effect double the remaining 1 damage, taking 2 damage, or (b) double the damage to 10 and then prevent 4 damage, taking 6 damage.
 2009/10/01: If a spell or ability divides damage among multiple recipients (such as Arrow Volley Trap does), the damage is divided before Quest for Pure Fire's effect doubles it. The same is true for combat damage.
 2009/10/01: If you activate the second ability of more than one <Quest for Pure Flame> in the same turn, the effects are cumulative. Two such effects will cause damage from sources you control to be multiplied by four; three such effects will cause damage from sources you control to be multiplied by eight.</Rulings>
 <Vintage>Legal</Vintage>
@@ -2815,7 +2805,7 @@ Remove four quest counters from Quest for Pure Flame and sacrifice it: If any so
 <Name>Runeflare Trap</Name>
 <Type>Instant — Trap</Type>
 <ManaCost>4RR (6)</ManaCost>
-<CardText>If an opponent drew three or more cards this turn, you may pay {R} rather than pay Runeflare Trap's mana cost.
+<CardText>If an opponent drew three or more cards this turn, you may pay {R} rather than pay this spell's mana cost.
 Runeflare Trap deals damage to target player equal to the number of cards in that player's hand.</CardText>
 <Artist>Franz Vohwinkel</Artist>
 <Multiverseid>197536</Multiverseid>
@@ -2890,7 +2880,7 @@ Runeflare Trap deals damage to target player equal to the number of cards in tha
 <Name>Spire Barrage</Name>
 <Type>Sorcery</Type>
 <ManaCost>4R (5)</ManaCost>
-<CardText>Spire Barrage deals damage to target creature or player equal to the number of Mountains you control.</CardText>
+<CardText>Spire Barrage deals damage to any target equal to the number of Mountains you control.</CardText>
 <Flavor>Goblin lessons include the 2,071 tips for survival. Frek only remembered 2,070.</Flavor>
 <Artist>Ryan Pancoast</Artist>
 <Multiverseid>180495</Multiverseid>
@@ -2945,7 +2935,7 @@ Whenever Tuktuk Grunts or another Ally enters the battlefield under your control
 <Type>Instant</Type>
 <ManaCost>R (1)</ManaCost>
 <CardText>Kicker {3}{R} (You may pay an additional {3}{R} as you cast this spell.)
-Damage can't be prevented this turn. If Unstable Footing was kicked, it deals 5 damage to target player.</CardText>
+Damage can't be prevented this turn. If this spell was kicked, it deals 5 damage to target player or planeswalker.</CardText>
 <Flavor>A long way down is shorter than you think.</Flavor>
 <Artist>Nic Klein</Artist>
 <Multiverseid>192209</Multiverseid>
@@ -2954,7 +2944,7 @@ Damage can't be prevented this turn. If Unstable Footing was kicked, it deals 5 
 2009/10/01: If damage can't be prevented, static abilities that prevent damage (including protection abilities) don't do so. If they have additional effects that don't depend on the amount of damage prevented, those additional effects will still work. Such effects are applied only once per source of damage.
 2009/10/01: Effects that replace or redirect damage without using the word "prevent" are not affected by <Unstable Footing>.
 2009/10/01: If a creature is dealt lethal damage, it can still regenerate. If it does, the damage marked on it will be removed from it.
-2009/10/01: If <Unstable Footing> is kicked and the targeted player is an illegal target by the time it resolves, the entire spell is countered. Damage can still be prevented.</Rulings>
+2009/10/01: If <Unstable Footing> is kicked and the targeted player is an illegal target by the time it resolves, the entire spell doesn't resolve. Damage can still be prevented.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3007,7 +2997,7 @@ Remove three quest counters from Zektar Shrine Expedition and sacrifice it: Crea
 <Name>Baloth Cage Trap</Name>
 <Type>Instant — Trap</Type>
 <ManaCost>3GG (5)</ManaCost>
-<CardText>If an opponent had an artifact enter the battlefield under his or her control this turn, you may pay {1}{G} rather than pay Baloth Cage Trap's mana cost.
+<CardText>If an opponent had an artifact enter the battlefield under their control this turn, you may pay {1}{G} rather than pay this spell's mana cost.
 Create a 4/4 green Beast creature token.</CardText>
 <Artist>Austin Hsu</Artist>
 <Multiverseid>197531</Multiverseid>
@@ -3083,7 +3073,7 @@ As long as Beastmaster Ascension has seven or more quest counters on it, creatur
 <Name>Cobra Trap</Name>
 <Type>Instant — Trap</Type>
 <ManaCost>4GG (6)</ManaCost>
-<CardText>If a noncreature permanent under your control was destroyed this turn by a spell or ability an opponent controlled, you may pay {G} rather than pay Cobra Trap's mana cost.
+<CardText>If a noncreature permanent under your control was destroyed this turn by a spell or ability an opponent controlled, you may pay {G} rather than pay this spell's mana cost.
 Create four 1/1 green Snake creature tokens.</CardText>
 <Artist>Scott Chou</Artist>
 <Multiverseid>197535</Multiverseid>
@@ -3127,7 +3117,7 @@ Enchanted creature has base power and toughness 8/8 and has trample.
 When Gigantiform enters the battlefield, if it was kicked, you may search your library for a card named Gigantiform, put it onto the battlefield, then shuffle your library.</CardText>
 <Artist>Justin Sweet</Artist>
 <Multiverseid>195627</Multiverseid>
-<Rulings>2009/10/01: If the creature targeted by the <Gigantiform> spell is an illegal target by the time <Gigantiform> resolves, the spell is countered. It won't enter the battlefield, so you won't get to search your library for another <Gigantiform>.
+<Rulings>2009/10/01: If the creature targeted by the <Gigantiform> spell is an illegal target by the time <Gigantiform> resolves, the spell doesn't resolve. It won't enter the battlefield, so you won't get to search your library for another <Gigantiform>.
 2009/10/01: <Gigantiform> overwrites all previous effects that set the enchanted creature's power and toughness to specific values. Other effects that set its power or toughness to specific values that start to apply after <Gigantiform> becomes attached to it will overwrite <Gigantiform>.
 2009/10/01: Effects that modify the enchanted creature's power or toughness, such as the effects of Giant Growth or Glorious Anthem, will apply to it no matter when they started to take effect. The same is true for counters that change the creature's power or toughness (such as +1/+1 counters) and effects that switch its power and toughness.
 2009/10/01: Although the <Gigantiform> cast as a spell targets a creature, the <Gigantiform> put onto the battlefield as a result of the first one's triggered ability does not. It may be attached to a creature with shroud, for example. However, it may not be attached to a creature that couldn't be enchanted by it, such as a creature with protection from green. You don't choose which creature it will be attached to until it enters the battlefield. Once you choose which creature to attach it to, it's too late for players to respond.</Rulings>
@@ -3164,7 +3154,7 @@ When Gigantiform enters the battlefield, if it was kicked, you may search your l
 <Name>Greenweaver Druid</Name>
 <Type>Creature — Elf Druid 1/1</Type>
 <ManaCost>2G (3)</ManaCost>
-<CardText>{T}: Add {G}{G} to your mana pool.</CardText>
+<CardText>{T}: Add {G}{G}.</CardText>
 <Flavor>The other tribes call them fanatics, but none deny that the Mul Daya elves have an iron-strong bond to some force greater than themselves.</Flavor>
 <Artist>Justin Sweet</Artist>
 <Multiverseid>185694</Multiverseid>
@@ -3181,7 +3171,7 @@ When Gigantiform enters the battlefield, if it was kicked, you may search your l
 <Name>Harrow</Name>
 <Type>Instant</Type>
 <ManaCost>2G (3)</ManaCost>
-<CardText>As an additional cost to cast Harrow, sacrifice a land.
+<CardText>As an additional cost to cast this spell, sacrifice a land.
 Search your library for up to two basic land cards and put them onto the battlefield. Then shuffle your library.</CardText>
 <Flavor>The Roil redraws the world as it passes, leaving only the hedrons unchanged.</Flavor>
 <Artist>Izzy</Artist>
@@ -3239,7 +3229,7 @@ Remove three quest counters from Khalni Heart Expedition and sacrifice it: Searc
 <Name>Lotus Cobra</Name>
 <Type>Creature — Snake 2/1</Type>
 <ManaCost>1G (2)</ManaCost>
-<CardText>Landfall — Whenever a land enters the battlefield under your control, you may add one mana of any color to your mana pool.</CardText>
+<CardText>Landfall — Whenever a land enters the battlefield under your control, you may add one mana of any color.</CardText>
 <Flavor>Its scales contain the essence of thousands of lotus blooms.</Flavor>
 <Artist>Chippy</Artist>
 <Multiverseid>185749</Multiverseid>
@@ -3380,7 +3370,7 @@ Enchanted creature has "{T}: This creature deals damage equal to its power to ta
 <Multiverseid>169958</Multiverseid>
 <Rulings>2009/10/01: The controller of the enchanted creature may activate the ability, not the controller of <Predatory Urge>.
 2009/10/01: If the enchanted creature's ability is activated, that creature is the one that will deal and be dealt damage when the ability resolves. It doesn't matter if <Predatory Urge> leaves the battlefield or somehow becomes attached to another creature by that time.
-2009/10/01: If the targeted creature leaves the battlefield (or otherwise becomes an illegal target) before the ability resolves, the ability is countered. The enchanted creature isn't dealt damage.
+2009/10/01: If the targeted creature leaves the battlefield (or otherwise becomes an illegal target) before the ability resolves, the ability doesn't resolve. The enchanted creature isn't dealt damage.
 2009/10/01: On the other hand, if the enchanted creature leaves the battlefield before the ability resolves, the ability continues to resolve. The enchanted creature deals damage to the targeted creature equal to the power the enchanted creature had as it last existed on the battlefield.
 2009/10/01: You may have the enchanted creature target itself with its own ability. If you do, it will deal damage to itself equal to its power, then immediately do it again.</Rulings>
 <Vintage>Legal</Vintage>
@@ -3547,7 +3537,7 @@ When Scythe Tiger enters the battlefield, sacrifice it unless you sacrifice a la
 <Name>Summoning Trap</Name>
 <Type>Instant — Trap</Type>
 <ManaCost>4GG (6)</ManaCost>
-<CardText>If a creature spell you cast this turn was countered by a spell or ability an opponent controlled, you may pay {0} rather than pay Summoning Trap's mana cost.
+<CardText>If a creature spell you cast this turn was countered by a spell or ability an opponent controlled, you may pay {0} rather than pay this spell's mana cost.
 Look at the top seven cards of your library. You may put a creature card from among them onto the battlefield. Put the rest on the bottom of your library in any order.</CardText>
 <Artist>Kieran Yanner</Artist>
 <Multiverseid>197527</Multiverseid>
@@ -3606,8 +3596,8 @@ Look at the top seven cards of your library. You may put a creature card from am
 <Name>Terra Stomper</Name>
 <Type>Creature — Beast 8/8</Type>
 <ManaCost>3GGG (6)</ManaCost>
-<CardText>Terra Stomper can't be countered.
-Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)</CardText>
+<CardText>This spell can't be countered.
+Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)</CardText>
 <Flavor>Sometimes violent earthquakes, hurtling boulders, and unseasonable dust storms are wrongly attributed to the Roil.</Flavor>
 <Artist>Goran Josic</Artist>
 <Multiverseid>186321</Multiverseid>
@@ -3725,7 +3715,7 @@ Landfall — Whenever a land enters the battlefield under your control, you may 
 <Type>Instant</Type>
 <ManaCost>G (1)</ManaCost>
 <CardText>Kicker {G} (You may pay an additional {G} as you cast this spell.)
-Target creature can't be the target of spells or abilities your opponents control this turn. If Vines of Vastwood was kicked, that creature gets +4/+4 until end of turn.</CardText>
+Target creature can't be the target of spells or abilities your opponents control this turn. If this spell was kicked, that creature gets +4/+4 until end of turn.</CardText>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>177571</Multiverseid>
 <Rulings>2013/04/15: This is not the same as hexproof. If, for example, you target one of your opponent's creatures, your opponents won't be able to target their own creature with spells or abilities.</Rulings>
@@ -3805,12 +3795,12 @@ Equip {1}</CardText>
 <Type>Artifact — Equipment</Type>
 <ManaCost>1 (1)</ManaCost>
 <CardText>Equipped creature can't be blocked by Vampires or Zombies.
-Equipped creature has "{T}, Sacrifice Blazing Torch: Blazing Torch deals 2 damage to target creature or player."
+Equipped creature has "{T}, Sacrifice Blazing Torch: Blazing Torch deals 2 damage to any target."
 Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)</CardText>
 <Artist>Vance Kovacs</Artist>
 <Multiverseid>191372</Multiverseid>
-<Rulings>2009/10/01: If a <Blazing Torch> controlled by one player somehow winds up equipping a creature a different player controls, the damage ability can't be activated by either player. Only the creature's controller may activate the ability — but since that player can't sacrifice <Blazing Torch> (a permanent he or she doesn't control), the ability's cost can't be paid.
-2009/10/01: The source of the damage is <Blazing Torch>, not the equipped creature. However, the equipped creature's ability is what targets the creature or player. If <Blazing Torch> is equipped to a red creature, for example, the ability couldn't target a creature with protection from red. It could target a creature with protection from artifacts, but all the damage would be prevented.</Rulings>
+<Rulings>2009/10/01: If a <Blazing Torch> controlled by one player somehow winds up equipping a creature a different player controls, the damage ability can't be activated by either player. Only the creature's controller may activate the ability — but since that player can't sacrifice <Blazing Torch> (a permanent they don't control), the ability's cost can't be paid.
+2009/10/01: The source of the damage is <Blazing Torch>, not the equipped creature. However, the equipped creature's ability is what targets the permanent or player. If <Blazing Torch> is equipped to a red creature, for example, the ability couldn't target a creature with protection from red. It could target a creature with protection from artifacts, but all the damage would be prevented.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3965,7 +3955,7 @@ Equip {4}</CardText>
 <Type>Artifact</Type>
 <ManaCost>4 (4)</ManaCost>
 <CardText>When Khalni Gem enters the battlefield, return two lands you control to their owner's hand.
-{T}: Add two mana of any one color to your mana pool.</CardText>
+{T}: Add two mana of any one color.</CardText>
 <Flavor>A fragment of ancient power lost in the heart of Ora Ondar.</Flavor>
 <Artist>Franz Vohwinkel</Artist>
 <Multiverseid>198519</Multiverseid>
@@ -4055,7 +4045,7 @@ Equip {2}</CardText>
 <Type>Land</Type>
 <CardText>Akoum Refuge enters the battlefield tapped.
 When Akoum Refuge enters the battlefield, you gain 1 life.
-{T}: Add {B} or {R} to your mana pool.</CardText>
+{T}: Add {B} or {R}.</CardText>
 <Artist>Fred Fields</Artist>
 <Multiverseid>189638</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4086,8 +4076,8 @@ When Akoum Refuge enters the battlefield, you gain 1 life.
 <Name>Crypt of Agadeem</Name>
 <Type>Land</Type>
 <CardText>Crypt of Agadeem enters the battlefield tapped.
-{T}: Add {B} to your mana pool.
-{2}, {T}: Add {B} to your mana pool for each black creature card in your graveyard.</CardText>
+{T}: Add {B}.
+{2}, {T}: Add {B} for each black creature card in your graveyard.</CardText>
 <Artist>Jason Felix</Artist>
 <Multiverseid>190394</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4104,7 +4094,7 @@ When Akoum Refuge enters the battlefield, you gain 1 life.
 <Type>Land</Type>
 <CardText>Emeria, the Sky Ruin enters the battlefield tapped.
 At the beginning of your upkeep, if you control seven or more Plains, you may return target creature card from your graveyard to the battlefield.
-{T}: Add {W} to your mana pool.</CardText>
+{T}: Add {W}.</CardText>
 <Artist>Jaime Jones</Artist>
 <Multiverseid>190414</Multiverseid>
 <Rulings>2009/10/01: <Emeria, the Sky Ruin>'s triggered ability has an "intervening 'if' clause." That means (1) the ability won't trigger at all unless you control seven or more Plains as your upkeep starts, and (2) the ability will do nothing if you control fewer than seven Plains by the time it resolves.</Rulings>
@@ -4122,7 +4112,7 @@ At the beginning of your upkeep, if you control seven or more Plains, you may re
 <Type>Land</Type>
 <CardText>Graypelt Refuge enters the battlefield tapped.
 When Graypelt Refuge enters the battlefield, you gain 1 life.
-{T}: Add {G} or {W} to your mana pool.</CardText>
+{T}: Add {G} or {W}.</CardText>
 <Artist>Philip Straub</Artist>
 <Multiverseid>189631</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4139,7 +4129,7 @@ When Graypelt Refuge enters the battlefield, you gain 1 life.
 <Type>Land</Type>
 <CardText>Jwar Isle Refuge enters the battlefield tapped.
 When Jwar Isle Refuge enters the battlefield, you gain 1 life.
-{T}: Add {U} or {B} to your mana pool.</CardText>
+{T}: Add {U} or {B}.</CardText>
 <Artist>Cyril Van Der Haegen</Artist>
 <Multiverseid>189627</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4156,7 +4146,7 @@ When Jwar Isle Refuge enters the battlefield, you gain 1 life.
 <Type>Land</Type>
 <CardText>Kabira Crossroads enters the battlefield tapped.
 When Kabira Crossroads enters the battlefield, you gain 2 life.
-{T}: Add {W} to your mana pool.</CardText>
+{T}: Add {W}.</CardText>
 <Artist>James Paick</Artist>
 <Multiverseid>169963</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4173,7 +4163,7 @@ When Kabira Crossroads enters the battlefield, you gain 2 life.
 <Type>Land</Type>
 <CardText>Kazandu Refuge enters the battlefield tapped.
 When Kazandu Refuge enters the battlefield, you gain 1 life.
-{T}: Add {R} or {G} to your mana pool.</CardText>
+{T}: Add {R} or {G}.</CardText>
 <Artist>Franz Vohwinkel</Artist>
 <Multiverseid>189635</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4189,7 +4179,7 @@ When Kazandu Refuge enters the battlefield, you gain 1 life.
 <Name>Magosi, the Waterveil</Name>
 <Type>Land</Type>
 <CardText>Magosi, the Waterveil enters the battlefield tapped.
-{T}: Add {U} to your mana pool.
+{T}: Add {U}.
 {U}, {T}: Put an eon counter on Magosi, the Waterveil. Skip your next turn.
 {T}, Remove an eon counter from Magosi, the Waterveil and return it to its owner's hand: Take an extra turn after this one.</CardText>
 <Artist>Eric Deschamps</Artist>
@@ -4242,7 +4232,7 @@ When Kazandu Refuge enters the battlefield, you gain 1 life.
 <Name>Oran-Rief, the Vastwood</Name>
 <Type>Land</Type>
 <CardText>Oran-Rief, the Vastwood enters the battlefield tapped.
-{T}: Add {G} to your mana pool.
+{T}: Add {G}.
 {T}: Put a +1/+1 counter on each green creature that entered the battlefield this turn.</CardText>
 <Artist>Mike Bierek</Artist>
 <Multiverseid>190417</Multiverseid>
@@ -4262,7 +4252,7 @@ When Kazandu Refuge enters the battlefield, you gain 1 life.
 <Type>Land</Type>
 <CardText>Piranha Marsh enters the battlefield tapped.
 When Piranha Marsh enters the battlefield, target player loses 1 life.
-{T}: Add {B} to your mana pool.</CardText>
+{T}: Add {B}.</CardText>
 <Artist>Nic Klein</Artist>
 <Multiverseid>169975</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4294,7 +4284,7 @@ When Piranha Marsh enters the battlefield, target player loses 1 life.
 <Type>Land</Type>
 <CardText>Sejiri Refuge enters the battlefield tapped.
 When Sejiri Refuge enters the battlefield, you gain 1 life.
-{T}: Add {W} or {U} to your mana pool.</CardText>
+{T}: Add {W} or {U}.</CardText>
 <Artist>Ryan Pancoast</Artist>
 <Multiverseid>189626</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4311,7 +4301,7 @@ When Sejiri Refuge enters the battlefield, you gain 1 life.
 <Type>Land</Type>
 <CardText>Soaring Seacliff enters the battlefield tapped.
 When Soaring Seacliff enters the battlefield, target creature gains flying until end of turn.
-{T}: Add {U} to your mana pool.</CardText>
+{T}: Add {U}.</CardText>
 <Artist>Izzy</Artist>
 <Multiverseid>177541</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4328,7 +4318,7 @@ When Soaring Seacliff enters the battlefield, target creature gains flying until
 <Type>Land</Type>
 <CardText>Teetering Peaks enters the battlefield tapped.
 When Teetering Peaks enters the battlefield, target creature gets +2/+0 until end of turn.
-{T}: Add {R} to your mana pool.</CardText>
+{T}: Add {R}.</CardText>
 <Artist>Fred Fields</Artist>
 <Multiverseid>177549</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4345,7 +4335,7 @@ When Teetering Peaks enters the battlefield, target creature gets +2/+0 until en
 <Type>Land</Type>
 <CardText>Turntimber Grove enters the battlefield tapped.
 When Turntimber Grove enters the battlefield, target creature gets +1/+1 until end of turn.
-{T}: Add {G} to your mana pool.</CardText>
+{T}: Add {G}.</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>169977</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4361,14 +4351,14 @@ When Turntimber Grove enters the battlefield, target creature gets +1/+1 until e
 <Name>Valakut, the Molten Pinnacle</Name>
 <Type>Land</Type>
 <CardText>Valakut, the Molten Pinnacle enters the battlefield tapped.
-Whenever a Mountain enters the battlefield under your control, if you control at least five other Mountains, you may have Valakut, the Molten Pinnacle deal 3 damage to target creature or player.
-{T}: Add {R} to your mana pool.</CardText>
+Whenever a Mountain enters the battlefield under your control, if you control at least five other Mountains, you may have Valakut, the Molten Pinnacle deal 3 damage to any target.
+{T}: Add {R}.</CardText>
 <Artist>Kieran Yanner</Artist>
 <Multiverseid>190400</Multiverseid>
 <Rulings>2009/10/01: <Valakut, the Molten Pinnacle>'s triggered ability has an "intervening 'if' clause." That means (1) the ability won't trigger at all unless, at the time a Mountain enters the battlefield under your control, you control five or more Mountains other than that new one, and (2) the ability will do nothing if you control fewer than five Mountains other than that new one by the time it resolves.
 2009/10/01: If a Mountain you control leaves the battlefield between the time Valakut's second ability triggers and the time it resolves, be aware if that was the Mountain that caused Valakut's ability to trigger or not. If it was, Valakut's count isn't affected; if it wasn't, Valakut's count goes down by one.
 2009/10/01: If multiple Mountains enter the battlefield under your control at the same time, Valakut's second ability could trigger that many times. Each ability takes into consideration the other Mountains that entered the battlefield at the same time as the one that caused it to trigger.
-2009/10/01: You target a creature or player when the ability triggers. You decide whether to have Valakut deal damage to that creature or player as the ability resolves.</Rulings>
+2009/10/01: You target a permanent or player when the ability triggers. You decide whether to have Valakut deal damage to that permanent or player as the ability resolves.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4396,7 +4386,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>230a</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>195179</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4411,7 +4401,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>230b</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>201973</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4426,7 +4416,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>231a</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>195173</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4441,7 +4431,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>231b</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>201972</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4456,7 +4446,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>232a</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Véronique Meignaud</Artist>
 <Multiverseid>195196</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4471,7 +4461,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>232b</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Véronique Meignaud</Artist>
 <Multiverseid>201974</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4486,7 +4476,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>233a</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Vincent Proce</Artist>
 <Multiverseid>195163</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4501,7 +4491,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>233b</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Vincent Proce</Artist>
 <Multiverseid>201971</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4516,7 +4506,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>234a</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>195187</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4531,7 +4521,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>234b</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>201966</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4546,7 +4536,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>235a</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>195165</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4561,7 +4551,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>235b</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>201964</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4576,7 +4566,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>236a</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Véronique Meignaud</Artist>
 <Multiverseid>195161</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4591,7 +4581,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>236b</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Véronique Meignaud</Artist>
 <Multiverseid>201963</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4606,7 +4596,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>237a</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Vincent Proce</Artist>
 <Multiverseid>195170</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4621,7 +4611,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>237b</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Vincent Proce</Artist>
 <Multiverseid>201965</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4636,7 +4626,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>238a</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>195172</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4651,7 +4641,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>238b</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>201977</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4666,7 +4656,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>239a</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>195194</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4681,7 +4671,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>239b</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>201978</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4696,7 +4686,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>240a</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Véronique Meignaud</Artist>
 <Multiverseid>195159</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4711,7 +4701,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>240b</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Véronique Meignaud</Artist>
 <Multiverseid>201976</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4726,7 +4716,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>241a</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Vincent Proce</Artist>
 <Multiverseid>195157</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4741,7 +4731,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>241b</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Vincent Proce</Artist>
 <Multiverseid>201975</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4756,7 +4746,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>242a</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>195178</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4771,7 +4761,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>242b</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>201968</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4786,7 +4776,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>243a</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>195171</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4801,7 +4791,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>243b</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>201967</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4816,7 +4806,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>244a</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Véronique Meignaud</Artist>
 <Multiverseid>195181</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4831,7 +4821,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>244b</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Véronique Meignaud</Artist>
 <Multiverseid>201969</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4846,7 +4836,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>245a</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Vincent Proce</Artist>
 <Multiverseid>195184</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4861,7 +4851,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>245b</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Vincent Proce</Artist>
 <Multiverseid>201970</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4876,7 +4866,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>246a</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>195158</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4891,7 +4881,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>246b</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>201959</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4906,7 +4896,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>247a</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>195192</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4921,7 +4911,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>247b</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>201962</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4936,7 +4926,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>248a</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Véronique Meignaud</Artist>
 <Multiverseid>195177</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4951,7 +4941,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>248b</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Véronique Meignaud</Artist>
 <Multiverseid>201960</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4966,7 +4956,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>249a</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Vincent Proce</Artist>
 <Multiverseid>195183</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4981,7 +4971,7 @@ Whenever a Mountain enters the battlefield under your control, if you control at
 <No>249b</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Vincent Proce</Artist>
 <Multiverseid>201961</Multiverseid>
 <Vintage>Legal</Vintage>

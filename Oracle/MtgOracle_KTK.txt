@@ -490,7 +490,7 @@ Enchanted creature gets +2/+4.</CardText>
 <Artist>Seb McKinnon</Artist>
 <Multiverseid>386682</Multiverseid>
 <Rulings>2014/09/20: <Suspension Field>'s ability causes a zone change with a duration. It's a single ability that creates two one-shot effects: one that exiles the creature when the ability resolves, and another that returns the exiled card to the battlefield immediately after <Suspension Field> leaves the battlefield.
-2014/09/20: If the target creature becomes an illegal target before the ability resolves, perhaps because its toughness was lowered, the ability will be countered and none of its effects will happen. No creature will be exiled, and <Suspension Field> will remain on the battlefield.
+2014/09/20: If the target creature becomes an illegal target before the ability resolves, perhaps because its toughness was lowered, the ability won't resolve and none of its effects will happen. No creature will be exiled, and <Suspension Field> will remain on the battlefield.
 2014/09/20: If <Suspension Field> leaves the battlefield before its enters-the-battlefield ability resolves, the target creature won't be exiled.
 2014/09/20: Auras attached to the exiled creature will be put into their owners' graveyards. Equipment attached to the exiled creature will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist.
 2014/09/20: If a token is exiled this way, it ceases to exist. It won't be returned to the battlefield.
@@ -1022,8 +1022,7 @@ Morph {2}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn i
 <Artist>Ryan Alexander Lee</Artist>
 <Watermark>Jeskai</Watermark>
 <Multiverseid>386615</Multiverseid>
-<Rulings>2014/09/20: If a face-down <Mystic of the Hidden Way> is blocked and then turned face up, it stays blocked.
-2014/09/20: Morph lets you cast a card face down by paying {3}, and lets you turn the face-down permanent face up any time you have priority by paying its morph cost.
+<Rulings>2014/09/20: Morph lets you cast a card face down by paying {3}, and lets you turn the face-down permanent face up any time you have priority by paying its morph cost.
 2014/09/20: The face-down spell has no mana cost and has a converted mana cost of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3}. This is an alternative cost.
 2014/09/20: When the spell resolves, it enters the battlefield as a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a converted mana cost of 0. Other effects that apply to the creature can still grant it any of these characteristics.
 2014/09/20: Any time you have priority, you may turn the face-down creature face up by revealing what its morph cost is and paying that cost. This is a special action. It doesn't use the stack and can't be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot.
@@ -1031,7 +1030,8 @@ Morph {2}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn i
 2014/09/20: A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren't affected.
 2014/09/20: At any time, you can look at a face-down spell or permanent you control. You can't look at face-down spells or permanents you don't control unless an effect instructs you to do so.
 2014/09/20: You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
-2014/09/20: If a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends.</Rulings>
+2014/09/20: If a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends.
+2018/03/16: If a face-down <Mystic of the Hidden Way> is blocked and then turned face up, it stays blocked.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1046,7 +1046,7 @@ Morph {2}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn i
 <Type>Creature — Leviathan 6/7</Type>
 <ManaCost>5UU (7)</ManaCost>
 <CardText>Flash
-Pearl Lake Ancient can't be countered.
+This spell can't be countered.
 Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
 Return three lands you control to their owner's hand: Return Pearl Lake Ancient to its owner's hand.</CardText>
 <Artist>Richard Wright</Artist>
@@ -1112,7 +1112,7 @@ Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until e
 <Type>Creature — Elemental 2/2</Type>
 <ManaCost>3U (4)</ManaCost>
 <CardText>Flying
-{2}{R}, Sacrifice Scaldkin: Scaldkin deals 2 damage to target creature or player.</CardText>
+{2}{R}, Sacrifice Scaldkin: Scaldkin deals 2 damage to any target.</CardText>
 <Flavor>The Temur believe that scaldkin are born when eruptions melt the frozen whispers of sleeping ancestors.</Flavor>
 <Artist>Cliff Childs</Artist>
 <Watermark>Temur</Watermark>
@@ -1425,7 +1425,7 @@ Target player sacrifices two creatures.</CardText>
 <Artist>Greg Staples</Artist>
 <Watermark>Sultai</Watermark>
 <Multiverseid>386512</Multiverseid>
-<Rulings>2014/09/20: The target player chooses which creatures he or she will sacrifice as <Dead Drop> resolves. If the player controls only one creature at that time, he or she will sacrifice it.
+<Rulings>2014/09/20: The target player chooses which creatures they will sacrifice as <Dead Drop> resolves. If the player controls only one creature at that time, they will sacrifice it.
 2014/09/20: <Dead Drop> doesn't target any creature. The target player could sacrifice a creature with hexproof, for example.
 2014/09/20: The rules for delve have changed slightly since it was last in an expansion. Previously, delve reduced the cost to cast a spell. Under the current rules, you exile cards from your graveyard at the same time you pay the spell's cost. Exiling a card this way is simply another way to pay that cost.
 2014/09/20: Delve doesn't change a spell's mana cost or converted mana cost. For example, <Dead Drop>'s converted mana cost is 10 even if you exiled three cards to cast it.
@@ -1464,7 +1464,7 @@ Enchanted creature gets -2/-2.</CardText>
 <Name>Despise</Name>
 <Type>Sorcery</Type>
 <ManaCost>B (1)</ManaCost>
-<CardText>Target opponent reveals his or her hand. You choose a creature or planeswalker card from it. That player discards that card.</CardText>
+<CardText>Target opponent reveals their hand. You choose a creature or planeswalker card from it. That player discards that card.</CardText>
 <Flavor>"You have returned from fire, traitor. This time I will see you leave as ashes."
 —Zurgo, to Sarkhan Vol</Flavor>
 <Artist>Todd Lockwood</Artist>
@@ -1827,7 +1827,7 @@ Whenever a Warrior you control deals combat damage to a player, you may pay 1 li
 <Multiverseid>386637</Multiverseid>
 <Rulings>2014/09/20: You get the Snake token no matter who controlled the target creature.
 2014/09/20: <Rite of the Serpent> won't create more than one Snake token, even if the target creature had more than one +1/+1 counter on it.
-2014/09/20: If the creature is an illegal target as <Rite of the Serpent> tries to resolve, <Rite of the Serpent> will be countered and none of its effects will occur. You won't get a Snake token.
+2014/09/20: If the creature is an illegal target as <Rite of the Serpent> tries to resolve, <Rite of the Serpent> won't resolve and none of its effects will occur. You won't get a Snake token.
 2014/09/20: If <Rite of the Serpent> resolves but the creature isn't destroyed (perhaps because it has indestructible or it regenerated), you'll get a Snake token if the creature has a +1/+1 counter on it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2067,12 +2067,12 @@ Morph {4}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn i
 <Name>Arc Lightning</Name>
 <Type>Sorcery</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>Arc Lightning deals 3 damage divided as you choose among one, two, or three target creatures and/or players.</CardText>
+<CardText>Arc Lightning deals 3 damage divided as you choose among one, two, or three targets.</CardText>
 <Flavor>Lightning burns its own path.</Flavor>
 <Artist>Seb McKinnon</Artist>
 <Multiverseid>386478</Multiverseid>
 <Rulings>2014/09/20: You choose how many targets <Arc Lightning> has and how the damage is divided as you cast the spell. Each target must receive at least 1 damage.
-2014/09/20: If some of the creatures are illegal targets as <Arc Lightning> tries to resolve, the original division of damage still applies but no damage is dealt to the illegal targets. If all targets are illegal, <Arc Lightning> is countered.</Rulings>
+2014/09/20: If some of the creatures are illegal targets as <Arc Lightning> tries to resolve, the original division of damage still applies but no damage is dealt to the illegal targets. If all targets are illegal, <Arc Lightning> doesn't resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2086,8 +2086,8 @@ Morph {4}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn i
 <Name>Arrow Storm</Name>
 <Type>Sorcery</Type>
 <ManaCost>3RR (5)</ManaCost>
-<CardText>Arrow Storm deals 4 damage to target creature or player.
-Raid — If you attacked with a creature this turn, instead Arrow Storm deals 5 damage to that creature or player and the damage can't be prevented.</CardText>
+<CardText>Arrow Storm deals 4 damage to any target.
+Raid — If you attacked with a creature this turn, instead Arrow Storm deals 5 damage to that permanent or player and the damage can't be prevented.</CardText>
 <Flavor>First the thunder, then the rain.</Flavor>
 <Artist>Steve Prescott</Artist>
 <Watermark>Mardu</Watermark>
@@ -2263,8 +2263,8 @@ Ferocious — If you control a creature with power 4 or greater, creatures can't
 <Name>Crater's Claws</Name>
 <Type>Sorcery</Type>
 <ManaCost>XR (1)</ManaCost>
-<CardText>Crater's Claws deals X damage to target creature or player.
-Ferocious — Crater's Claws deals X plus 2 damage to that creature or player instead if you control a creature with power 4 or greater.</CardText>
+<CardText>Crater's Claws deals X damage to any target.
+Ferocious — Crater's Claws deals X plus 2 damage to that permanent or player instead if you control a creature with power 4 or greater.</CardText>
 <Artist>Noah Bradley</Artist>
 <Watermark>Temur</Watermark>
 <Multiverseid>386509</Multiverseid>
@@ -2486,7 +2486,7 @@ When Jeering Instigator is turned face up, if it's your turn, gain control of an
 <Name>Mardu Heart-Piercer</Name>
 <Type>Creature — Human Archer 2/3</Type>
 <ManaCost>3R (4)</ManaCost>
-<CardText>Raid — When Mardu Heart-Piercer enters the battlefield, if you attacked with a creature this turn, Mardu Heart-Piercer deals 2 damage to target creature or player.</CardText>
+<CardText>Raid — When Mardu Heart-Piercer enters the battlefield, if you attacked with a creature this turn, Mardu Heart-Piercer deals 2 damage to any target.</CardText>
 <Flavor>"Those who have never ridden before the wind do not know the true joy of war."</Flavor>
 <Artist>Karl Kopinski</Artist>
 <Watermark>Mardu</Watermark>
@@ -2506,7 +2506,7 @@ When Jeering Instigator is turned face up, if it's your turn, gain control of an
 <Name>Mardu Warshrieker</Name>
 <Type>Creature — Orc Shaman 3/3</Type>
 <ManaCost>3R (4)</ManaCost>
-<CardText>Raid — When Mardu Warshrieker enters the battlefield, if you attacked with a creature this turn, add {R}{W}{B} to your mana pool.</CardText>
+<CardText>Raid — When Mardu Warshrieker enters the battlefield, if you attacked with a creature this turn, add {R}{W}{B}.</CardText>
 <Flavor>"No body can contain so much fury. It reminds me of another battle, long past."
 —Sarkhan Vol</Flavor>
 <Artist>Yefim Kligerman</Artist>
@@ -2626,7 +2626,7 @@ Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until e
 <Name>Tormenting Voice</Name>
 <Type>Sorcery</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>As an additional cost to cast Tormenting Voice, discard a card.
+<CardText>As an additional cost to cast this spell, discard a card.
 Draw two cards.</CardText>
 <Flavor>"Unwelcome thoughts crowd my mind. Are they my own madness, or the whispers of another?"
 —Sarkhan Vol</Flavor>
@@ -2941,7 +2941,7 @@ Trample</CardText>
 <Artist>Clint Cearley</Artist>
 <Multiverseid>386564</Multiverseid>
 <Rulings>2014/09/20: You must choose three different targets in order to cast <Incremental Growth>. You decide how many +1/+1 counters each creature will get as part of casting the spell.
-2014/09/20: If some of the creatures are illegal targets as <Incremental Growth> tries to resolve, the remaining legal targets still get the appropriate number of +1/+1 counters. If all targets are illegal, <Incremental Growth> is countered.</Rulings>
+2014/09/20: If some of the creatures are illegal targets as <Incremental Growth> tries to resolve, the remaining legal targets still get the appropriate number of +1/+1 counters. If all targets are illegal, <Incremental Growth> doesn't resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3070,9 +3070,9 @@ Whenever Pine Walker or another creature you control is turned face up, untap th
 <Name>Rattleclaw Mystic</Name>
 <Type>Creature — Human Shaman 2/1</Type>
 <ManaCost>1G (2)</ManaCost>
-<CardText>{T}: Add {G}, {U}, or {R} to your mana pool.
+<CardText>{T}: Add {G}, {U}, or {R}.
 Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
-When Rattleclaw Mystic is turned face up, add {G}{U}{R} to your mana pool.</CardText>
+When Rattleclaw Mystic is turned face up, add {G}{U}{R}.</CardText>
 <Artist>Tyler Jacobson</Artist>
 <Watermark>Temur</Watermark>
 <Multiverseid>386634</Multiverseid>
@@ -3647,15 +3647,15 @@ Sacrifice another creature: Butcher of the Horde gains your choice of vigilance,
 <Name>Crackling Doom</Name>
 <Type>Instant</Type>
 <ManaCost>WBR (3)</ManaCost>
-<CardText>Crackling Doom deals 2 damage to each opponent. Each opponent sacrifices a creature with the greatest power among creatures he or she controls.</CardText>
+<CardText>Crackling Doom deals 2 damage to each opponent. Each opponent sacrifices a creature with the greatest power among creatures that player controls.</CardText>
 <Flavor>Do not fear the lightning. Fear the one it obeys.</Flavor>
 <Artist>Yohann Schepacz</Artist>
 <Watermark>Mardu</Watermark>
 <Multiverseid>386507</Multiverseid>
-<Rulings>2014/09/20: If a player controls two or more creatures tied for the greatest power among creatures he or she controls, that player chooses one of them to sacrifice.
+<Rulings>2014/09/20: If a player controls two or more creatures tied for the greatest power among creatures they control, that player chooses one of them to sacrifice.
 2014/09/20: The sacrifice is not dependent on the damage being dealt. It doesn't matter if that damage is prevented or redirected.
 2014/09/20: <Crackling Doom> doesn't target any player or creature. For example, a creature with protection from black could be sacrificed.
-2014/09/20: In a multiplayer game, each opponent, starting with the active player and proceeding in turn order, chooses which creature he or she will sacrifice and then all creatures are sacrificed at the same time. Each successive player will know what the players before him or her chose to sacrifice.</Rulings>
+2014/09/20: In a multiplayer game, each opponent, starting with the active player and proceeding in turn order, chooses which creature they will sacrifice and then all creatures are sacrificed at the same time. Each successive player will know what the players before them chose to sacrifice.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3692,8 +3692,8 @@ Sacrifice another creature: Butcher of the Horde gains your choice of vigilance,
 <CardText>The next time a source of your choice would deal damage to you this turn, prevent that damage. If damage is prevented this way, Deflecting Palm deals that much damage to that source's controller.</CardText>
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>386516</Multiverseid>
-<Rulings>2014/09/20: <Deflecting Palm> doesn't target any creature or player. You choose a source of damage as <Deflecting Palm> resolves.
-2014/09/20: If multiple prevention and/or replacement effects are trying to apply to the same damage, the player who would be dealt damage chooses the order in which to apply them. Notably, if noncombat damage would be dealt to you by a source controlled by an opponent, you choose the order in which to apply <Deflecting Palm> and the planeswalker redirection effect. If you apply <Deflecting Palm> first, the damage will be prevented (and damage will be dealt to the source's controller) and the planeswalker redirection effect won't apply.</Rulings>
+<Rulings>2014/09/20: <Deflecting Palm> doesn't target any permanent or player. You choose a source of damage as <Deflecting Palm> resolves.
+2014/09/20: If multiple prevention and/or replacement effects are trying to apply to the same damage, the player who would be dealt damage chooses the order in which to apply them.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3861,7 +3861,7 @@ Whenever you cast a noncreature spell, you may draw a card. If you do, discard a
 <ManaCost>WUR (3)</ManaCost>
 <CardText>Choose one —
 • Put target creature on top of its owner's library.
-• Jeskai Charm deals 4 damage to target opponent.
+• Jeskai Charm deals 4 damage to target opponent or planeswalker.
 • Creatures you control get +1/+1 and gain lifelink until end of turn.</CardText>
 <Artist>Mathias Kollros</Artist>
 <Watermark>Jeskai</Watermark>
@@ -3963,7 +3963,7 @@ Sacrifice Mardu Ascendancy: Creatures you control get +0/+3 until end of turn.</
 <CardText>Choose one —
 • Mardu Charm deals 4 damage to target creature.
 • Create two 1/1 white Warrior creature tokens. They gain first strike until end of turn.
-• Target opponent reveals his or her hand. You choose a noncreature, nonland card from it. That player discards that card.</CardText>
+• Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card.</CardText>
 <Artist>Mathias Kollros</Artist>
 <Watermark>Mardu</Watermark>
 <Multiverseid>386593</Multiverseid>
@@ -3998,13 +3998,13 @@ Sacrifice Mardu Ascendancy: Creatures you control get +0/+3 until end of turn.</
 <Name>Master the Way</Name>
 <Type>Sorcery</Type>
 <ManaCost>3UR (5)</ManaCost>
-<CardText>Draw a card. Master the Way deals damage to target creature or player equal to the number of cards in your hand.</CardText>
+<CardText>Draw a card. Master the Way deals damage to any target equal to the number of cards in your hand.</CardText>
 <Flavor>"The Way has no beginning and no end. It is simply the path."
 —Narset, khan of the Jeskai</Flavor>
 <Artist>Howard Lyon</Artist>
 <Multiverseid>386601</Multiverseid>
-<Rulings>2014/09/20: Use the number of cards in your hand after you draw the card to determine how much damage <Master the Way> deals to the target creature or player. (Remember that <Master the Way> is not in your hand; it's on the stack.)
-2014/09/20: If the creature or player is an illegal target as <Master the Way> tries to resolve, <Master the Way> will be countered and none of its effects will happen. You won't draw a card.</Rulings>
+<Rulings>2014/09/20: Use the number of cards in your hand after you draw the card to determine how much damage <Master the Way> deals to the target permanent or player. (Remember that <Master the Way> is not in your hand; it's on the stack.)
+2014/09/20: If the permanent or player is an illegal target as <Master the Way> tries to resolve, <Master the Way> won't resolve and none of its effects will happen. You won't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4024,7 +4024,7 @@ Sacrifice Mardu Ascendancy: Creatures you control get +0/+3 until end of turn.</
 <Artist>Ryan Alexander Lee</Artist>
 <Multiverseid>386604</Multiverseid>
 <Rulings>2014/09/20: If the controller of the target spell pays {X}, the spell won't be countered. <Mindswipe> will still deal damage to that player.
-2014/09/20: If the target spell is an illegal target as <Mindswipe> tries to resolve (perhaps because it was countered by another spell or ability), <Mindswipe> will be countered and none of its effects will happen. No damage will be dealt.</Rulings>
+2014/09/20: If the target spell is an illegal target as <Mindswipe> tries to resolve (perhaps because it was countered by another spell or ability), <Mindswipe> won't resolve and none of its effects will happen. No damage will be dealt.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4377,7 +4377,7 @@ Morph {2}{G}{U}{R} (You may cast this card face down as a 2/2 creature for {3}. 
 <Type>Legendary Creature — Human Warrior 6/6</Type>
 <ManaCost>2URG (5)</ManaCost>
 <CardText>Flash
-Surrak Dragonclaw can't be countered.
+This spell can't be countered.
 Creature spells you control can't be countered.
 Other creatures you control have trample.</CardText>
 <Flavor>Both his rank and his scars were earned in single combat against a cave bear.</Flavor>
@@ -4478,7 +4478,7 @@ Whenever a creature with power 4 or greater enters the battlefield under your co
 <Name>Villainous Wealth</Name>
 <Type>Sorcery</Type>
 <ManaCost>XUBG (3)</ManaCost>
-<CardText>Target opponent exiles the top X cards of his or her library. You may cast any number of nonland cards with converted mana cost X or less from among them without paying their mana costs.</CardText>
+<CardText>Target opponent exiles the top X cards of their library. You may cast any number of nonland cards with converted mana cost X or less from among them without paying their mana costs.</CardText>
 <Flavor>Gold buys death. Death earns gold.</Flavor>
 <Artist>Erica Yang</Artist>
 <Watermark>Sultai</Watermark>
@@ -4527,7 +4527,7 @@ Whenever a creature with power 4 or greater enters the battlefield under your co
 <Multiverseid>386727</Multiverseid>
 <Rulings>2014/09/20: You choose which mode you're using—or that you're using both modes—as you're casting the spell. Once this choice is made, it can't be changed later while the spell is on the stack.
 2014/09/20: If you choose both modes, they can each target the same creature or they can target different creatures.
-2014/09/20: <Winterflame> won't affect any target that's illegal as it tries to resolve. If you choose to use both modes and both targets are illegal at that time, <Winterflame> will be countered.</Rulings>
+2014/09/20: <Winterflame> won't affect any target that's illegal as it tries to resolve. If you choose to use both modes and both targets are illegal at that time, <Winterflame> won't resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4565,7 +4565,7 @@ Whenever a creature dealt damage by Zurgo Helmsmasher this turn dies, put a +1/+
 <Name>Abzan Banner</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {W}, {B}, or {G} to your mana pool.
+<CardText>{T}: Add {W}, {B}, or {G}.
 {W}{B}{G}, {T}, Sacrifice Abzan Banner: Draw a card.</CardText>
 <Flavor>Stone to endure, roots to remember.</Flavor>
 <Artist>Daniel Ljunggren</Artist>
@@ -4584,7 +4584,7 @@ Whenever a creature dealt damage by Zurgo Helmsmasher this turn dies, put a +1/+
 <Name>Altar of the Brood</Name>
 <Type>Artifact</Type>
 <ManaCost>1 (1)</ManaCost>
-<CardText>Whenever another permanent enters the battlefield under your control, each opponent puts the top card of his or her library into his or her graveyard.</CardText>
+<CardText>Whenever another permanent enters the battlefield under your control, each opponent puts the top card of their library into their graveyard.</CardText>
 <Flavor>Supplicants offer flesh and silver, flowers and blood. The altar takes what it will, eyes gleaming with unspoken promises.</Flavor>
 <Artist>Erica Yang</Artist>
 <Multiverseid>386475</Multiverseid>
@@ -4622,11 +4622,11 @@ Whenever a creature dealt damage by Zurgo Helmsmasher this turn dies, put a +1/+
 <Name>Cranial Archive</Name>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{2}, Exile Cranial Archive: Target player shuffles his or her graveyard into his or her library. Draw a card.</CardText>
+<CardText>{2}, Exile Cranial Archive: Target player shuffles their graveyard into their library. Draw a card.</CardText>
 <Flavor>The greatest idea the zombie ever had in its head wasn't even its own.</Flavor>
 <Artist>Volkan Baga</Artist>
 <Multiverseid>386508</Multiverseid>
-<Rulings>2014/09/20: If the player's graveyard is empty, the player will shuffle his or her library, then you'll draw a card.</Rulings>
+<Rulings>2014/09/20: If the player's graveyard is empty, the player will shuffle their library, then you'll draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4701,7 +4701,7 @@ Equip {1}</CardText>
 <Name>Jeskai Banner</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {U}, {R}, or {W} to your mana pool.
+<CardText>{T}: Add {U}, {R}, or {W}.
 {U}{R}{W}, {T}, Sacrifice Jeskai Banner: Draw a card.</CardText>
 <Flavor>Discipline to persevere, insight to discover.</Flavor>
 <Artist>Daniel Ljunggren</Artist>
@@ -4741,7 +4741,7 @@ Equip {1}</CardText>
 <Name>Mardu Banner</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {R}, {W}, or {B} to your mana pool.
+<CardText>{T}: Add {R}, {W}, or {B}.
 {R}{W}{B}, {T}, Sacrifice Mardu Banner: Draw a card.</CardText>
 <Flavor>Speed to strike, fury to smash.</Flavor>
 <Artist>Daniel Ljunggren</Artist>
@@ -4760,7 +4760,7 @@ Equip {1}</CardText>
 <Name>Sultai Banner</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {B}, {G}, or {U} to your mana pool.
+<CardText>{T}: Add {B}, {G}, or {U}.
 {B}{G}{U}, {T}, Sacrifice Sultai Banner: Draw a card.</CardText>
 <Flavor>Power to dominate, cruelty to rule.</Flavor>
 <Artist>Daniel Ljunggren</Artist>
@@ -4779,7 +4779,7 @@ Equip {1}</CardText>
 <Name>Temur Banner</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {G}, {U}, or {R} to your mana pool.
+<CardText>{T}: Add {G}, {U}, or {R}.
 {G}{U}{R}, {T}, Sacrifice Temur Banner: Draw a card.</CardText>
 <Flavor>Savagery to survive, courage to triumph.</Flavor>
 <Artist>Daniel Ljunggren</Artist>
@@ -4845,7 +4845,7 @@ If Ugin's Nexus would be put into a graveyard from the battlefield, instead exil
 <Type>Land</Type>
 <CardText>Bloodfell Caves enters the battlefield tapped.
 When Bloodfell Caves enters the battlefield, you gain 1 life.
-{T}: Add {B} or {R} to your mana pool.</CardText>
+{T}: Add {B} or {R}.</CardText>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>386491</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4878,7 +4878,7 @@ When Bloodfell Caves enters the battlefield, you gain 1 life.
 <Type>Land</Type>
 <CardText>Blossoming Sands enters the battlefield tapped.
 When Blossoming Sands enters the battlefield, you gain 1 life.
-{T}: Add {G} or {W} to your mana pool.</CardText>
+{T}: Add {G} or {W}.</CardText>
 <Artist>Sam Burley</Artist>
 <Multiverseid>386496</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4895,7 +4895,7 @@ When Blossoming Sands enters the battlefield, you gain 1 life.
 <Type>Land</Type>
 <CardText>Dismal Backwater enters the battlefield tapped.
 When Dismal Backwater enters the battlefield, you gain 1 life.
-{T}: Add {U} or {B} to your mana pool.</CardText>
+{T}: Add {U} or {B}.</CardText>
 <Artist>Sam Burley</Artist>
 <Multiverseid>386520</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4927,7 +4927,7 @@ When Dismal Backwater enters the battlefield, you gain 1 life.
 <Name>Frontier Bivouac</Name>
 <Type>Land</Type>
 <CardText>Frontier Bivouac enters the battlefield tapped.
-{T}: Add {G}, {U}, or {R} to your mana pool.</CardText>
+{T}: Add {G}, {U}, or {R}.</CardText>
 <Flavor>"The most powerful dreams visit those who shelter in a dragon's skull."
 —Chianul, Who Whispers Twice</Flavor>
 <Artist>Titus Lunter</Artist>
@@ -4947,7 +4947,7 @@ When Dismal Backwater enters the battlefield, you gain 1 life.
 <Type>Land</Type>
 <CardText>Jungle Hollow enters the battlefield tapped.
 When Jungle Hollow enters the battlefield, you gain 1 life.
-{T}: Add {B} or {G} to your mana pool.</CardText>
+{T}: Add {B} or {G}.</CardText>
 <Artist>Eytan Zana</Artist>
 <Multiverseid>386577</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4963,7 +4963,7 @@ When Jungle Hollow enters the battlefield, you gain 1 life.
 <Name>Mystic Monastery</Name>
 <Type>Land</Type>
 <CardText>Mystic Monastery enters the battlefield tapped.
-{T}: Add {U}, {R}, or {W} to your mana pool.</CardText>
+{T}: Add {U}, {R}, or {W}.</CardText>
 <Flavor>When asked how many paths reach enlightenment, the monk kicked a heap of sand. "Count," he smiled, "and then find more grains."</Flavor>
 <Artist>Florian de Gesincourt</Artist>
 <Watermark>Jeskai</Watermark>
@@ -4981,7 +4981,7 @@ When Jungle Hollow enters the battlefield, you gain 1 life.
 <Name>Nomad Outpost</Name>
 <Type>Land</Type>
 <CardText>Nomad Outpost enters the battlefield tapped.
-{T}: Add {R}, {W}, or {B} to your mana pool.</CardText>
+{T}: Add {R}, {W}, or {B}.</CardText>
 <Flavor>"Only the weak imprison themselves behind walls. We live free under the wind, and our freedom makes us strong."
 —Zurgo, khan of the Mardu</Flavor>
 <Artist>Noah Bradley</Artist>
@@ -5000,7 +5000,7 @@ When Jungle Hollow enters the battlefield, you gain 1 life.
 <Name>Opulent Palace</Name>
 <Type>Land</Type>
 <CardText>Opulent Palace enters the battlefield tapped.
-{T}: Add {B}, {G}, or {U} to your mana pool.</CardText>
+{T}: Add {B}, {G}, or {U}.</CardText>
 <Flavor>The dense jungle surrenders to a lush and lavish expanse. At its center uncoil the spires of Qarsi Palace.</Flavor>
 <Artist>Adam Paquette</Artist>
 <Watermark>Sultai</Watermark>
@@ -5035,7 +5035,7 @@ When Jungle Hollow enters the battlefield, you gain 1 life.
 <Type>Land</Type>
 <CardText>Rugged Highlands enters the battlefield tapped.
 When Rugged Highlands enters the battlefield, you gain 1 life.
-{T}: Add {R} or {G} to your mana pool.</CardText>
+{T}: Add {R} or {G}.</CardText>
 <Artist>Eytan Zana</Artist>
 <Multiverseid>386641</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5051,7 +5051,7 @@ When Rugged Highlands enters the battlefield, you gain 1 life.
 <Name>Sandsteppe Citadel</Name>
 <Type>Land</Type>
 <CardText>Sandsteppe Citadel enters the battlefield tapped.
-{T}: Add {W}, {B}, or {G} to your mana pool.</CardText>
+{T}: Add {W}, {B}, or {G}.</CardText>
 <Flavor>That which endures, survives.</Flavor>
 <Artist>Sam Burley</Artist>
 <Watermark>Abzan</Watermark>
@@ -5070,7 +5070,7 @@ When Rugged Highlands enters the battlefield, you gain 1 life.
 <Type>Land</Type>
 <CardText>Scoured Barrens enters the battlefield tapped.
 When Scoured Barrens enters the battlefield, you gain 1 life.
-{T}: Add {W} or {B} to your mana pool.</CardText>
+{T}: Add {W} or {B}.</CardText>
 <Artist>Eytan Zana</Artist>
 <Multiverseid>386655</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5087,7 +5087,7 @@ When Scoured Barrens enters the battlefield, you gain 1 life.
 <Type>Land</Type>
 <CardText>Swiftwater Cliffs enters the battlefield tapped.
 When Swiftwater Cliffs enters the battlefield, you gain 1 life.
-{T}: Add {U} or {R} to your mana pool.</CardText>
+{T}: Add {U} or {R}.</CardText>
 <Artist>Eytan Zana</Artist>
 <Multiverseid>386689</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5104,7 +5104,7 @@ When Swiftwater Cliffs enters the battlefield, you gain 1 life.
 <Type>Land</Type>
 <CardText>Thornwood Falls enters the battlefield tapped.
 When Thornwood Falls enters the battlefield, you gain 1 life.
-{T}: Add {G} or {U} to your mana pool.</CardText>
+{T}: Add {G} or {U}.</CardText>
 <Artist>Eytan Zana</Artist>
 <Multiverseid>386696</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5119,7 +5119,7 @@ When Thornwood Falls enters the battlefield, you gain 1 life.
 <No>245</No>
 <Name>Tomb of the Spirit Dragon</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {2}, {T}: You gain 1 life for each colorless creature you control.</CardText>
 <Flavor>"The voice calls me here, yet I see only bones. Is this more dragon trickery?"
 —Sarkhan Vol</Flavor>
@@ -5140,7 +5140,7 @@ When Thornwood Falls enters the battlefield, you gain 1 life.
 <Type>Land</Type>
 <CardText>Tranquil Cove enters the battlefield tapped.
 When Tranquil Cove enters the battlefield, you gain 1 life.
-{T}: Add {W} or {U} to your mana pool.</CardText>
+{T}: Add {W} or {U}.</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>386703</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5157,7 +5157,7 @@ When Tranquil Cove enters the battlefield, you gain 1 life.
 <Type>Land</Type>
 <CardText>Wind-Scarred Crag enters the battlefield tapped.
 When Wind-Scarred Crag enters the battlefield, you gain 1 life.
-{T}: Add {R} or {W} to your mana pool.</CardText>
+{T}: Add {R} or {W}.</CardText>
 <Artist>Eytan Zana</Artist>
 <Multiverseid>386723</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5204,7 +5204,7 @@ When Wind-Scarred Crag enters the battlefield, you gain 1 life.
 <No>250</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Noah Bradley</Artist>
 <Multiverseid>386624</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5219,7 +5219,7 @@ When Wind-Scarred Crag enters the battlefield, you gain 1 life.
 <No>251</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Sam Burley</Artist>
 <Multiverseid>386625</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5234,7 +5234,7 @@ When Wind-Scarred Crag enters the battlefield, you gain 1 life.
 <No>252</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Sam Burley</Artist>
 <Multiverseid>386623</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5249,7 +5249,7 @@ When Wind-Scarred Crag enters the battlefield, you gain 1 life.
 <No>253</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Florian de Gesincourt</Artist>
 <Multiverseid>386626</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5264,7 +5264,7 @@ When Wind-Scarred Crag enters the battlefield, you gain 1 life.
 <No>254</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Florian de Gesincourt</Artist>
 <Multiverseid>386565</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5279,7 +5279,7 @@ When Wind-Scarred Crag enters the battlefield, you gain 1 life.
 <No>255</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Florian de Gesincourt</Artist>
 <Multiverseid>386566</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5294,7 +5294,7 @@ When Wind-Scarred Crag enters the battlefield, you gain 1 life.
 <No>256</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Titus Lunter</Artist>
 <Multiverseid>386567</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5309,7 +5309,7 @@ When Wind-Scarred Crag enters the battlefield, you gain 1 life.
 <No>257</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>386568</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5324,7 +5324,7 @@ When Wind-Scarred Crag enters the battlefield, you gain 1 life.
 <No>258</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Noah Bradley</Artist>
 <Multiverseid>386685</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5339,7 +5339,7 @@ When Wind-Scarred Crag enters the battlefield, you gain 1 life.
 <No>259</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Sam Burley</Artist>
 <Multiverseid>386686</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5354,7 +5354,7 @@ When Wind-Scarred Crag enters the battlefield, you gain 1 life.
 <No>260</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>386683</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5369,7 +5369,7 @@ When Wind-Scarred Crag enters the battlefield, you gain 1 life.
 <No>261</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>386684</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5384,7 +5384,7 @@ When Wind-Scarred Crag enters the battlefield, you gain 1 life.
 <No>262</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Noah Bradley</Artist>
 <Multiverseid>386612</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5399,7 +5399,7 @@ When Wind-Scarred Crag enters the battlefield, you gain 1 life.
 <No>263</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Noah Bradley</Artist>
 <Multiverseid>386611</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5414,7 +5414,7 @@ When Wind-Scarred Crag enters the battlefield, you gain 1 life.
 <No>264</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Florian de Gesincourt</Artist>
 <Multiverseid>386609</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5429,7 +5429,7 @@ When Wind-Scarred Crag enters the battlefield, you gain 1 life.
 <No>265</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Titus Lunter</Artist>
 <Multiverseid>386610</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5444,7 +5444,7 @@ When Wind-Scarred Crag enters the battlefield, you gain 1 life.
 <No>266</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Sam Burley</Artist>
 <Multiverseid>386542</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5459,7 +5459,7 @@ When Wind-Scarred Crag enters the battlefield, you gain 1 life.
 <No>267</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Titus Lunter</Artist>
 <Multiverseid>386540</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5474,7 +5474,7 @@ When Wind-Scarred Crag enters the battlefield, you gain 1 life.
 <No>268</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Titus Lunter</Artist>
 <Multiverseid>386541</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5489,7 +5489,7 @@ When Wind-Scarred Crag enters the battlefield, you gain 1 life.
 <No>269</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>386543</Multiverseid>
 <Vintage>Legal</Vintage>

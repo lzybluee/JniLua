@@ -128,7 +128,7 @@ Protection from red</CardText>
 <Name>Expendable Troops</Name>
 <Type>Creature — Human Soldier 2/1</Type>
 <ManaCost>1W (2)</ManaCost>
-<CardText>{T}, Sacrifice Expendable Troops: Expendable Troops deals 2 damage to target attacking or blocking creature.</CardText>
+<CardText>{T}, Sacrifice Expendable Troops: It deals 2 damage to target attacking or blocking creature.</CardText>
 <Flavor>No doubt in their minds, no fear in their hearts.</Flavor>
 <Artist>Carl Critchlow</Artist>
 <Multiverseid>12356</Multiverseid>
@@ -213,7 +213,7 @@ When Karmic Guide enters the battlefield, return target creature card from your 
 <Name>Martyr's Cause</Name>
 <Type>Enchantment</Type>
 <ManaCost>2W (3)</ManaCost>
-<CardText>Sacrifice a creature: The next time a source of your choice would deal damage to target creature or player this turn, prevent that damage.</CardText>
+<CardText>Sacrifice a creature: The next time a source of your choice would deal damage to any target this turn, prevent that damage.</CardText>
 <Flavor>Dying is a soldier's talent.</Flavor>
 <Artist>Jeff Laubenstein</Artist>
 <Multiverseid>9712</Multiverseid>
@@ -250,7 +250,7 @@ When Karmic Guide enters the battlefield, return target creature card from your 
 <Artist>Edward P. Beard, Jr.</Artist>
 <Multiverseid>8814</Multiverseid>
 <Rulings>2004/10/04: When it turns into a creature, it is no longer an enchantment.
-2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
+2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Urza's Legacy</Set>
@@ -270,7 +270,7 @@ When Karmic Guide enters the battlefield, return target creature card from your 
 2004/10/04: When it turns into a creature, it is no longer an enchantment.
 2004/10/04: It changes into a creature even if the spell is countered.
 2008/04/01: A "creature spell" is any spell with the type Creature, even if it has other types such as Artifact or Enchantment. Older cards of type Summon are also Creature spells.
-2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
+2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Urza's Legacy</Set>
@@ -572,7 +572,7 @@ When Delusions of Mediocrity leaves the battlefield, you lose 10 life.</CardText
 <Rulings>2004/10/04: If a spell is modal, use the target(s) of the current mode only for this check. Targets for the other modes are never selected.
 2004/10/04: <Intervene> can only target a spell that is currently targeting a creature.
 2004/10/04: It means "targeting at least one creature" not "exactly one creature".
-2004/10/04: If the spell's target leaves the battlefield before this spell resolves, <Intervene> will be countered since it no longer targets a spell that targets a creature.</Rulings>
+2004/10/04: If the spell's target leaves the battlefield before this spell resolves, <Intervene> won't resolve since it no longer targets a spell that targets a creature.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Urza's Legacy</Set>
@@ -657,7 +657,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <CardText>Flying
 When Palinchron enters the battlefield, untap up to seven lands.
 {2}{U}{U}: Return Palinchron to its owner's hand.</CardText>
-<Artist>Matthew Wilson</Artist>
+<Artist>Matthew D. Wilson</Artist>
 <Multiverseid>12580</Multiverseid>
 <Rulings>2004/10/04: You can untap 0 to 7 lands.
 2016/06/08: You choose which lands to untap as the triggered ability resolves. They aren't targeted, and they don't have to be lands that you control.</Rulings>
@@ -732,7 +732,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <Type>Enchantment — Aura</Type>
 <ManaCost>2U (3)</ManaCost>
 <CardText>Enchant creature
-At the beginning of the upkeep of enchanted creature's controller, that player sacrifices that creature unless he or she pays {2}.
+At the beginning of the upkeep of enchanted creature's controller, that player sacrifices that creature unless they pay {2}.
 When Slow Motion is put into a graveyard from the battlefield, return Slow Motion to its owner's hand.</CardText>
 <Artist>Todd Lockwood</Artist>
 <Multiverseid>12384</Multiverseid>
@@ -768,7 +768,7 @@ When Slow Motion is put into a graveyard from the battlefield, return Slow Motio
 <Type>Creature — Faerie 1/1</Type>
 <ManaCost>1UU (3)</ManaCost>
 <CardText>Flying
-{T}: Thornwind Faeries deals 1 damage to target creature or player.</CardText>
+{T}: Thornwind Faeries deals 1 damage to any target.</CardText>
 <Flavor>Guarding the ship is the Thornwinds' first concern. Getting along with the locals ranks fourth or fifth at best.</Flavor>
 <Artist>Rebecca Guay</Artist>
 <Multiverseid>12369</Multiverseid>
@@ -784,7 +784,7 @@ When Slow Motion is put into a graveyard from the battlefield, return Slow Motio
 <Name>Tinker</Name>
 <Type>Sorcery</Type>
 <ManaCost>2U (3)</ManaCost>
-<CardText>As an additional cost to cast Tinker, sacrifice an artifact.
+<CardText>As an additional cost to cast this spell, sacrifice an artifact.
 Search your library for an artifact card and put that card onto the battlefield. Then shuffle your library.</CardText>
 <Flavor>"I wonder how it feels to be bored."
 —Jhoira, artificer</Flavor>
@@ -870,13 +870,13 @@ When Bone Shredder enters the battlefield, destroy target nonartifact, nonblack 
 <Name>Brink of Madness</Name>
 <Type>Enchantment</Type>
 <ManaCost>2BB (4)</ManaCost>
-<CardText>At the beginning of your upkeep, if you have no cards in hand, sacrifice Brink of Madness and target opponent discards his or her hand.</CardText>
+<CardText>At the beginning of your upkeep, if you have no cards in hand, sacrifice Brink of Madness and target opponent discards their hand.</CardText>
 <Flavor>"The fools thought me dead. But I built an empire inside my tomb."
 —Kerrick, sleeper agent</Flavor>
 <Artist>Donato Giancola</Artist>
 <Multiverseid>12406</Multiverseid>
 <Rulings>2010/06/15: The ability only triggers if you have no cards in your hand as your upkeep step begins.
-2010/06/15: You must sacrifice <Brink of Madness> if possible, but the opponent discards his or her hand even if you can't sacrifice it for some reason (for example, if it were returned to its owner's hand before the ability resolved).</Rulings>
+2010/06/15: You must sacrifice <Brink of Madness> if possible, but the opponent discards their hand even if you can't sacrifice it for some reason (for example, if it were returned to its owner's hand before the ability resolved).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Urza's Legacy</Set>
@@ -962,7 +962,7 @@ When Eviscerator enters the battlefield, you lose 5 life.</CardText>
 <Flavor>They never miss a funeral.</Flavor>
 <Artist>Daren Bader</Artist>
 <Multiverseid>12386</Multiverseid>
-<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
+<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Urza's Legacy</Set>
@@ -993,11 +993,10 @@ When Eviscerator enters the battlefield, you lose 5 life.</CardText>
 <Name>Ostracize</Name>
 <Type>Sorcery</Type>
 <ManaCost>B (1)</ManaCost>
-<CardText>Target opponent reveals his or her hand. You choose a creature card from it. That player discards that card.</CardText>
+<CardText>Target opponent reveals their hand. You choose a creature card from it. That player discards that card.</CardText>
 <Flavor>Kerrick was to find that some borders can never be crossed.</Flavor>
 <Artist>Chippy</Artist>
 <Multiverseid>8786</Multiverseid>
-<Rulings>2008/04/01: A "creature card" is any card with the type creature, even if it has other types such as artifact, enchantment, or land. Older cards of type summon are also creature cards.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Urza's Legacy</Set>
@@ -1101,7 +1100,6 @@ Sacrifice a creature: Target creature gets -1/-1 until end of turn.</CardText>
 <Flavor>Death is no excuse to stop working.</Flavor>
 <Artist>rk post</Artist>
 <Multiverseid>12945</Multiverseid>
-<Rulings>2008/04/01: A "creature card" is any card with the type creature, even if it has other types such as artifact, enchantment, or land. Older cards of type summon are also creature cards.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Urza's Legacy</Set>
@@ -1255,8 +1253,7 @@ All damage that would be dealt to enchanted creature is dealt to its controller 
 Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <Artist>Hazeltine</Artist>
 <Multiverseid>12398</Multiverseid>
-<Rulings>2008/04/01: A "creature card" is any card with the type creature, even if it has other types such as artifact, enchantment, or land. Older cards of type summon are also creature cards.
-2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.</Rulings>
+<Rulings>2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Urza's Legacy</Set>
@@ -1324,7 +1321,7 @@ Protection from white</CardText>
 <Name>Ghitu Fire-Eater</Name>
 <Type>Creature — Human Nomad 2/2</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>{T}, Sacrifice Ghitu Fire-Eater: Ghitu Fire-Eater deals damage equal to its power to target creature or player.</CardText>
+<CardText>{T}, Sacrifice Ghitu Fire-Eater: It deals damage equal to its power to any target.</CardText>
 <Flavor>"They are called 'Mi'uto,' which means 'one use.'"
 —Jhoira, artificer</Flavor>
 <Artist>Melissa A. Benson</Artist>
@@ -1342,7 +1339,7 @@ Protection from white</CardText>
 <Type>Creature — Human Nomad 2/2</Type>
 <ManaCost>2R (3)</ManaCost>
 <CardText>Echo {2}{R} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
-When Ghitu Slinger enters the battlefield, it deals 2 damage to target creature or player.</CardText>
+When Ghitu Slinger enters the battlefield, it deals 2 damage to any target.</CardText>
 <Flavor>If you survive a slinger attack, the slinger wished you to live.</Flavor>
 <Artist>Melissa A. Benson</Artist>
 <Multiverseid>12475</Multiverseid>
@@ -1374,7 +1371,7 @@ When Ghitu Slinger enters the battlefield, it deals 2 damage to target creature 
 <Name>Goblin Medics</Name>
 <Type>Creature — Goblin Shaman 1/1</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>Whenever Goblin Medics becomes tapped, it deals 1 damage to target creature or player.</CardText>
+<CardText>Whenever Goblin Medics becomes tapped, it deals 1 damage to any target.</CardText>
 <Flavor>"First, do some harm."
 —Oath of Goblins</Flavor>
 <Artist>Jeff Laubenstein</Artist>
@@ -1446,7 +1443,7 @@ Enchanted creature gets +1/+0 for each Mountain you control.</CardText>
 <Name>Last-Ditch Effort</Name>
 <Type>Instant</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>Sacrifice any number of creatures. Last-Ditch Effort deals that much damage to target creature or player.</CardText>
+<CardText>Sacrifice any number of creatures. Last-Ditch Effort deals that much damage to any target.</CardText>
 <Flavor>"If you're gonna lose, at least make sure they don't win as much."
 —Jula, goblin raider</Flavor>
 <Artist>Dan Frazier</Artist>
@@ -1465,7 +1462,7 @@ Enchanted creature gets +1/+0 for each Mountain you control.</CardText>
 <Name>Lava Axe</Name>
 <Type>Sorcery</Type>
 <ManaCost>4R (5)</ManaCost>
-<CardText>Lava Axe deals 5 damage to target player.</CardText>
+<CardText>Lava Axe deals 5 damage to target player or planeswalker.</CardText>
 <Flavor>"Catch!"</Flavor>
 <Artist>Brian Snõddy</Artist>
 <Multiverseid>12947</Multiverseid>
@@ -1483,7 +1480,7 @@ Enchanted creature gets +1/+0 for each Mountain you control.</CardText>
 <Type>Creature — Hydra 1/1</Type>
 <ManaCost>1R (2)</ManaCost>
 <CardText>{1}{R}{R}: Put a +1/+1 counter on Molten Hydra.
-{T}, Remove all +1/+1 counters from Molten Hydra: Molten Hydra deals damage to target creature or player equal to the number of +1/+1 counters removed this way.</CardText>
+{T}, Remove all +1/+1 counters from Molten Hydra: Molten Hydra deals damage to any target equal to the number of +1/+1 counters removed this way.</CardText>
 <Flavor>Keep off the glass. —Hydra warning sign</Flavor>
 <Artist>Greg Staples</Artist>
 <Multiverseid>9689</Multiverseid>
@@ -1500,7 +1497,7 @@ Enchanted creature gets +1/+0 for each Mountain you control.</CardText>
 <Type>Instant</Type>
 <ManaCost>1R (2)</ManaCost>
 <CardText>Choose one —
-• Parch deals 2 damage to target creature or player.
+• Parch deals 2 damage to any target.
 • Parch deals 4 damage to target blue creature.</CardText>
 <Flavor>"Your porous flesh betrays you."
 —Fire Eye, viashino bey</Flavor>
@@ -1538,7 +1535,7 @@ Enchanted creature gets +1/+0 for each Mountain you control.</CardText>
 <Name>Pyromancy</Name>
 <Type>Enchantment</Type>
 <ManaCost>2RR (4)</ManaCost>
-<CardText>{3}, Discard a card at random: Pyromancy deals damage to target creature or player equal to the converted mana cost of the discarded card.</CardText>
+<CardText>{3}, Discard a card at random: Pyromancy deals damage to any target equal to the converted mana cost of the discarded card.</CardText>
 <Flavor>Who harnesses fire controls the world.
 —Ghitu proverb</Flavor>
 <Artist>Quinton Hoover</Artist>
@@ -1575,7 +1572,7 @@ Enchanted creature gets +1/+0 for each Mountain you control.</CardText>
 <Name>Rivalry</Name>
 <Type>Enchantment</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>At the beginning of each player's upkeep, if that player controls more lands than each other player, Rivalry deals 2 damage to him or her.</CardText>
+<CardText>At the beginning of each player's upkeep, if that player controls more lands than each other player, Rivalry deals 2 damage to them.</CardText>
 <Flavor>The goblins revered it; the viashino defended it. Only Urza understood it.</Flavor>
 <Artist>Brian Snõddy</Artist>
 <Multiverseid>8903</Multiverseid>
@@ -1715,7 +1712,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <Name>Crop Rotation</Name>
 <Type>Instant</Type>
 <ManaCost>G (1)</ManaCost>
-<CardText>As an additional cost to cast Crop Rotation, sacrifice a land.
+<CardText>As an additional cost to cast this spell, sacrifice a land.
 Search your library for a land card and put that card onto the battlefield. Then shuffle your library.</CardText>
 <Flavor>"Hmm . . . maybe lotuses this year."</Flavor>
 <Artist>DiTerlizzi</Artist>
@@ -1755,7 +1752,6 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <Rulings>2004/10/04: In a multiplayer game, it triggers if at least one opponent controls three or more creatures.
 2004/10/04: You choose how many cards to put onto the battlefield during the resolution after you look through your library. You do not choose as the ability goes on the stack.
 2004/10/04: This triggered ability only triggers if your opponent controls 3 or more creatures at the beginning of upkeep. This condition is checked again on resolution.
-2008/04/01: A "creature card" is any card with the type creature, even if it has other types such as artifact, enchantment, or land. Older cards of type summon are also creature cards.
 2010/06/15: If this card is not on the battlefield at the time it resolves, then you can't sacrifice it. You still perform the search and put any creature cards you find onto the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1829,7 +1825,7 @@ Squirrel creatures get +1/+1.</CardText>
 <Rulings>2004/10/04: When it turns into a creature, it is no longer an enchantment.
 2004/10/04: It changes into a creature even if the spell is countered.
 2008/08/01: The ability triggers when the spell is cast, so it becomes a creature before the spell resolves.
-2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
+2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Urza's Legacy</Set>
@@ -1846,10 +1842,9 @@ Squirrel creatures get +1/+1.</CardText>
 <Flavor>A wolf without a pack is either a survivor or a brute.</Flavor>
 <Artist>Una Fricker</Artist>
 <Multiverseid>12436</Multiverseid>
-<Rulings>2008/04/01: If this creature is attacking a planeswalker, assigning its damage as though it weren't blocked means the damage is assigned to the planeswalker, not to the defending player.
-2008/04/01: When assigning combat damage, you choose whether you want to assign all damage to blocking creatures, or if you want to assign all of it to the defending player or planeswalker. You can't split the damage assignment between them.
-2008/04/01: You can decide to assign damage to the defending player or planeswalker even if the blocking creature has protection from green or damage preventing effects on it.
-2008/04/01: If blocked by a creature with banding, the defending player decides whether or not the damage is assigned "as though it weren't blocked".</Rulings>
+<Rulings>2018/04/27: You can decide to assign damage to the defending player or planeswalker even if the blocking creature has protection from green or damage preventing effects on it.
+2018/04/27: When assigning combat damage, you choose whether you want to assign all damage to blocking creatures, or if you want to assign all of it to the player or planeswalker this creature is attacking. You can't split the damage assignment between them.
+2018/04/27: If blocked by a creature with banding, the defending player decides whether or not the damage is assigned "as though it weren't blocked".</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1919,7 +1914,7 @@ When Multani's Acolyte enters the battlefield, draw a card.</CardText>
 <Flavor>When a tree falls in the forest, Multani hears it.</Flavor>
 <Artist>Scott M. Fischer</Artist>
 <Multiverseid>12490</Multiverseid>
-<Rulings>2004/10/04: Will trigger when a spell is countered due to all of its targets being illegal.</Rulings>
+<Rulings>2018/04/27: A spell that doesn't resolve because its targets are illegal isn't countered, so this ability won't trigger. This is a change from previous rules.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Urza's Legacy</Set>
@@ -1938,7 +1933,7 @@ When Rancor is put into a graveyard from the battlefield, return Rancor to its o
 <Flavor>Hatred outlives the hateful.</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>12433</Multiverseid>
-<Rulings>2016/06/08: If the target of <Rancor> when it's cast as a spell is an illegal target when <Rancor> tries to resolve, <Rancor> will be countered and put into its owner's graveyard. It won't return to its owner's hand.</Rulings>
+<Rulings>2018/03/16: If the creature this Aura would enchant is an illegal target by the time <Rancor> tries to resolve, the Aura spell doesn't resolve. It won't enter the battlefield, so it won't be put into a graveyard from the battlefield and its ability won't trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1956,8 +1951,7 @@ When Rancor is put into a graveyard from the battlefield, return Rancor to its o
 Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <Artist>Una Fricker</Artist>
 <Multiverseid>12672</Multiverseid>
-<Rulings>2008/04/01: A "creature card" is any card with the type creature, even if it has other types such as artifact, enchantment, or land. Older cards of type summon are also creature cards.
-2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.</Rulings>
+<Rulings>2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Urza's Legacy</Set>
@@ -2106,7 +2100,7 @@ When Yavimaya Granger enters the battlefield, you may search your library for a 
 <Name>Yavimaya Wurm</Name>
 <Type>Creature — Wurm 6/4</Type>
 <ManaCost>4GG (6)</ManaCost>
-<CardText>Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)</CardText>
+<CardText>Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)</CardText>
 <Flavor>When the gorilla playfully grabbed the wurm's tail, the wurm doubled back and playfully ate the gorilla's head.</Flavor>
 <Artist>Melissa A. Benson</Artist>
 <Multiverseid>5571</Multiverseid>
@@ -2178,8 +2172,8 @@ At the beginning of each player's end step, tap all untapped creatures that play
 <CardText>A player who controls more permanents than each other player can't play lands or cast artifact, creature, or enchantment spells. That player may sacrifice a permanent for that player to ignore this effect until end of turn.</CardText>
 <Artist>rk post</Artist>
 <Multiverseid>12503</Multiverseid>
-<Rulings>2008/08/01: A player affected by this card can sacrifice a permanent any time he or she could cast an instant. This is a special action that doesn't use the stack and can't be responded to.
-2008/08/01: A player can only sacrifice a permanent to end this effect if he or she has more permanents than any other player, and he or she hasn't already sacrificed a permanent to end the effect this turn. The ability to sacrifice a creature is granted by the same effect that is being ended.</Rulings>
+<Rulings>2008/08/01: A player affected by this card can sacrifice a permanent any time they could cast an instant. This is a special action that doesn't use the stack and can't be responded to.
+2008/08/01: A player can only sacrifice a permanent to end this effect if they have more permanents than any other player, and they haven't already sacrificed a permanent to end the effect this turn. The ability to sacrifice a creature is granted by the same effect that is being ended.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Urza's Legacy</Set>
@@ -2213,7 +2207,7 @@ At the beginning of each player's end step, tap all untapped creatures that play
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
 <CardText>Grim Monolith doesn't untap during your untap step.
-{T}: Add {C}{C}{C} to your mana pool.
+{T}: Add {C}{C}{C}.
 {4}: Untap Grim Monolith.</CardText>
 <Flavor>Part prison, part home.</Flavor>
 <Artist>Chippy</Artist>
@@ -2231,7 +2225,7 @@ At the beginning of each player's end step, tap all untapped creatures that play
 <Name>Iron Maiden</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>At the beginning of each opponent's upkeep, Iron Maiden deals X damage to that player, where X is the number of cards in his or her hand minus 4.</CardText>
+<CardText>At the beginning of each opponent's upkeep, Iron Maiden deals X damage to that player, where X is the number of cards in their hand minus 4.</CardText>
 <Flavor>The maiden is a jealous lover.</Flavor>
 <Artist>Tom Wänerstrand</Artist>
 <Multiverseid>9705</Multiverseid>
@@ -2263,7 +2257,7 @@ At the beginning of each player's end step, tap all untapped creatures that play
 <Name>Memory Jar</Name>
 <Type>Artifact</Type>
 <ManaCost>5 (5)</ManaCost>
-<CardText>{T}, Sacrifice Memory Jar: Each player exiles all cards from his or her hand face down and draws seven cards. At the beginning of the next end step, each player discards his or her hand and returns to his or her hand each card he or she exiled this way.</CardText>
+<CardText>{T}, Sacrifice Memory Jar: Each player exiles all cards from their hand face down and draws seven cards. At the beginning of the next end step, each player discards their hand and returns to their hand each card they exiled this way.</CardText>
 <Artist>Donato Giancola</Artist>
 <Multiverseid>8841</Multiverseid>
 <Rulings>2004/10/04: You can't look at the cards you exiled until they return to your hand.</Rulings>
@@ -2286,7 +2280,6 @@ At the beginning of each player's end step, tap all untapped creatures that play
 <Multiverseid>8831</Multiverseid>
 <Rulings>2004/10/04: Any 'X' in the creature's cost is treated as zero.
 2007/05/01: Putting the card onto the battlefield is optional. When the ability resolves, you can choose not to.
-2008/04/01: A "creature card" is any card with the type creature, even if it has other types such as artifact, enchantment, or land. Older cards of type summon are also creature cards.
 2011/09/22: You don't pay any costs of that creature card, including additional costs.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2388,7 +2381,7 @@ You may choose not to untap Thran Weaponry during your untap step.
 <Type>Artifact Creature — Gnome 3/3</Type>
 <ManaCost>3 (3)</ManaCost>
 <CardText>Echo {3} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
-Sacrifice Ticking Gnomes: Ticking Gnomes deals 1 damage to target creature or player.</CardText>
+Sacrifice Ticking Gnomes: It deals 1 damage to any target.</CardText>
 <Artist>Henry Van Der Linde</Artist>
 <Multiverseid>12647</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2420,7 +2413,7 @@ Sacrifice Ticking Gnomes: Ticking Gnomes deals 1 damage to target creature or pl
 <Name>Wheel of Torture</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>At the beginning of each opponent's upkeep, Wheel of Torture deals X damage to that player, where X is 3 minus the number of cards in his or her hand.</CardText>
+<CardText>At the beginning of each opponent's upkeep, Wheel of Torture deals X damage to that player, where X is 3 minus the number of cards in their hand.</CardText>
 <Flavor>"I'd like to buy a bowel."</Flavor>
 <Artist>Henry Van Der Linde</Artist>
 <Multiverseid>9706</Multiverseid>
@@ -2437,11 +2430,11 @@ Sacrifice Ticking Gnomes: Ticking Gnomes deals 1 damage to target creature or pl
 <Name>Faerie Conclave</Name>
 <Type>Land</Type>
 <CardText>Faerie Conclave enters the battlefield tapped.
-{T}: Add {U} to your mana pool.
+{T}: Add {U}.
 {1}{U}: Faerie Conclave becomes a 2/1 blue Faerie creature with flying until end of turn. It's still a land.</CardText>
 <Artist>Val Mayerik</Artist>
 <Multiverseid>12495</Multiverseid>
-<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.
+<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
 2009/10/01: Activating the ability that turns it into a creature while it's already a creature will override any effects that set its power and/or toughness to a specific number. However, any effect that raises or lowers power and/or toughness (such as the effect created by Giant Growth, Glorious Anthem, or a +1/+1 counter) will continue to apply.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2456,11 +2449,11 @@ Sacrifice Ticking Gnomes: Ticking Gnomes deals 1 damage to target creature or pl
 <Name>Forbidding Watchtower</Name>
 <Type>Land</Type>
 <CardText>Forbidding Watchtower enters the battlefield tapped.
-{T}: Add {W} to your mana pool.
+{T}: Add {W}.
 {1}{W}: Forbidding Watchtower becomes a 1/5 white Soldier creature until end of turn. It's still a land.</CardText>
 <Artist>Mark Brill</Artist>
 <Multiverseid>12494</Multiverseid>
-<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.
+<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
 2009/10/01: Activating the ability that turns it into a creature while it's already a creature will override any effects that set its power and/or toughness to a specific number. However, any effect that raises or lowers power and/or toughness (such as the effect created by Giant Growth, Glorious Anthem, or a +1/+1 counter) will continue to apply.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2475,11 +2468,11 @@ Sacrifice Ticking Gnomes: Ticking Gnomes deals 1 damage to target creature or pl
 <Name>Ghitu Encampment</Name>
 <Type>Land</Type>
 <CardText>Ghitu Encampment enters the battlefield tapped.
-{T}: Add {R} to your mana pool.
+{T}: Add {R}.
 {1}{R}: Ghitu Encampment becomes a 2/1 red Warrior creature with first strike until end of turn. It's still a land. (It deals combat damage before creatures without first strike.)</CardText>
 <Artist>Hazeltine</Artist>
 <Multiverseid>12497</Multiverseid>
-<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.
+<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
 2009/10/01: Activating the ability that turns it into a creature while it's already a creature will override any effects that set its power and/or toughness to a specific number. However, any effect that raises or lowers power and/or toughness (such as the effect created by Giant Growth, Glorious Anthem, or a +1/+1 counter) will continue to apply.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2494,11 +2487,11 @@ Sacrifice Ticking Gnomes: Ticking Gnomes deals 1 damage to target creature or pl
 <Name>Spawning Pool</Name>
 <Type>Land</Type>
 <CardText>Spawning Pool enters the battlefield tapped.
-{T}: Add {B} to your mana pool.
+{T}: Add {B}.
 {1}{B}: Spawning Pool becomes a 1/1 black Skeleton creature with "{B}: Regenerate this creature" until end of turn. It's still a land. (If it regenerates, the next time it would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>12496</Multiverseid>
-<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.
+<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
 2009/10/01: Activating the ability that turns it into a creature while it's already a creature will override any effects that set its power and/or toughness to a specific number. However, any effect that raises or lowers power and/or toughness (such as the effect created by Giant Growth, Glorious Anthem, or a +1/+1 counter) will continue to apply.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2513,11 +2506,11 @@ Sacrifice Ticking Gnomes: Ticking Gnomes deals 1 damage to target creature or pl
 <Name>Treetop Village</Name>
 <Type>Land</Type>
 <CardText>Treetop Village enters the battlefield tapped.
-{T}: Add {G} to your mana pool.
-{1}{G}: Treetop Village becomes a 3/3 green Ape creature with trample until end of turn. It's still a land. (It can deal excess combat damage to defending player or planeswalker while attacking.)</CardText>
+{T}: Add {G}.
+{1}{G}: Treetop Village becomes a 3/3 green Ape creature with trample until end of turn. It's still a land. (It can deal excess combat damage to the player or planeswalker it's attacking.)</CardText>
 <Artist>Anthony S. Waters</Artist>
 <Multiverseid>12498</Multiverseid>
-<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.
+<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
 2009/10/01: Activating the ability that turns it into a creature while it's already a creature will override any effects that set its power and/or toughness to a specific number. However, any effect that raises or lowers power and/or toughness (such as the effect created by Giant Growth, Glorious Anthem, or a +1/+1 counter) will continue to apply.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>

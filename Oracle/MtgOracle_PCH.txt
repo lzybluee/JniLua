@@ -81,7 +81,7 @@ When Oblivion Ring leaves the battlefield, return the exiled card to the battlef
 <Type>Instant</Type>
 <ManaCost>2W (3)</ManaCost>
 <CardText>Kicker {R} (You may pay an additional {R} as you cast this spell.)
-Destroy target artifact or enchantment. If Orim's Thunder was kicked, it deals damage equal to that permanent's converted mana cost to target creature.</CardText>
+Destroy target artifact or enchantment. If this spell was kicked, it deals damage equal to that permanent's converted mana cost to target creature.</CardText>
 <Artist>Carl Critchlow</Artist>
 <Multiverseid>205385</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -265,7 +265,7 @@ Flying</CardText>
 <Name>Vedalken Engineer</Name>
 <Type>Creature — Vedalken Artificer 1/1</Type>
 <ManaCost>1U (2)</ManaCost>
-<CardText>{T}: Add two mana of any one color to your mana pool. Spend this mana only to cast artifact spells or activate abilities of artifacts.</CardText>
+<CardText>{T}: Add two mana of any one color. Spend this mana only to cast artifact spells or activate abilities of artifacts.</CardText>
 <Flavor>Art is unknown to the vedalken—for them, all creations must serve a purpose.</Flavor>
 <Artist>Lars Grant-West</Artist>
 <Multiverseid>205338</Multiverseid>
@@ -282,7 +282,7 @@ Flying</CardText>
 <Name>Whiplash Trap</Name>
 <Type>Instant — Trap</Type>
 <ManaCost>3UU (5)</ManaCost>
-<CardText>If an opponent had two or more creatures enter the battlefield under his or her control this turn, you may pay {U} rather than pay Whiplash Trap's mana cost.
+<CardText>If an opponent had two or more creatures enter the battlefield under their control this turn, you may pay {U} rather than pay this spell's mana cost.
 Return two target creatures to their owners' hands.</CardText>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Multiverseid>205343</Multiverseid>
@@ -328,7 +328,7 @@ Nonblack creatures get -1/-1.</CardText>
 <Flavor>A vertical scream pierces the night air and echoes doom through the clouds.</Flavor>
 <Artist>Alan Pollack</Artist>
 <Multiverseid>205418</Multiverseid>
-<Rulings>2007/07/15: If a Beacon is countered, it's put into its owner's graveyard, not shuffled into the library.</Rulings>
+<Rulings>2007/07/15: If a Beacon is countered or doesn't resolve, it's put into its owner's graveyard, not shuffled into the library.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -383,11 +383,11 @@ Search your library for a card with converted mana cost less than or equal to th
 <Type>Sorcery</Type>
 <ManaCost>X1B (2)</ManaCost>
 <CardText>Spend only black mana on X.
-Consume Spirit deals X damage to target creature or player and you gain X life.</CardText>
+Consume Spirit deals X damage to any target and you gain X life.</CardText>
 <Artist>Justin Sweet</Artist>
 <Multiverseid>205347</Multiverseid>
 <Rulings>2009/10/01: The amount of life you gain is equal to the number chosen for X, not the amount of damage <Consume Spirit> deals (in case some of it is prevented).
-2009/10/01: If the targeted creature or player is an illegal target by the time <Consume Spirit> would resolve, the entire spell is countered. You won't gain any life.</Rulings>
+2009/10/01: If the targeted permanent or player is an illegal target by the time <Consume Spirit> would resolve, the entire spell doesn't resolve. You won't gain any life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -434,7 +434,7 @@ Consume Spirit deals X damage to target creature or player and you gain X life.<
 <Name>Dark Ritual</Name>
 <Type>Instant</Type>
 <ManaCost>B (1)</ManaCost>
-<CardText>Add {B}{B}{B} to your mana pool.</CardText>
+<CardText>Add {B}{B}{B}.</CardText>
 <Flavor>"If there is such a thing as too much power, I have not discovered it."
 —Volrath</Flavor>
 <Artist>Clint Langley</Artist>
@@ -568,7 +568,7 @@ Consume Spirit deals X damage to target creature or player and you gain X life.<
 —Radavi, Joraga relic hunter, last words</Flavor>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Multiverseid>205341</Multiverseid>
-<Rulings>2009/10/01: If the targeted creature is an illegal target by the time <Hideous End> resolves, the entire spell is countered. No one loses life.</Rulings>
+<Rulings>2009/10/01: If the targeted creature is an illegal target by the time <Hideous End> resolves, the entire spell doesn't resolve. No one loses life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -821,12 +821,12 @@ Zombie creatures you control get +2/+1.</CardText>
 <Name>Arc Lightning</Name>
 <Type>Sorcery</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>Arc Lightning deals 3 damage divided as you choose among one, two, or three target creatures and/or players.</CardText>
+<CardText>Arc Lightning deals 3 damage divided as you choose among one, two, or three targets.</CardText>
 <Flavor>Rainclouds don't last long in Shiv, but that doesn't stop the lightning.</Flavor>
 <Artist>Andrew Goldhawk</Artist>
 <Multiverseid>205386</Multiverseid>
 <Rulings>2014/09/20: You choose how many targets <Arc Lightning> has and how the damage is divided as you cast the spell. Each target must receive at least 1 damage.
-2014/09/20: If some of the creatures are illegal targets as <Arc Lightning> tries to resolve, the original division of damage still applies but no damage is dealt to the illegal targets. If all targets are illegal, <Arc Lightning> is countered.</Rulings>
+2014/09/20: If some of the creatures are illegal targets as <Arc Lightning> tries to resolve, the original division of damage still applies but no damage is dealt to the illegal targets. If all targets are illegal, <Arc Lightning> doesn't resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -840,7 +840,7 @@ Zombie creatures you control get +2/+1.</CardText>
 <Name>Blaze</Name>
 <Type>Sorcery</Type>
 <ManaCost>XR (1)</ManaCost>
-<CardText>Blaze deals X damage to target creature or player.</CardText>
+<CardText>Blaze deals X damage to any target.</CardText>
 <Flavor>Fire never dies alone.</Flavor>
 <Artist>Alex Horley-Orlandelli</Artist>
 <Multiverseid>205264</Multiverseid>
@@ -894,7 +894,7 @@ When Bogardan Rager enters the battlefield, target creature gets +4/+0 until end
 <Name>Browbeat</Name>
 <Type>Sorcery</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>Any player may have Browbeat deal 5 damage to him or her. If no one does, target player draws three cards.</CardText>
+<CardText>Any player may have Browbeat deal 5 damage to them. If no one does, target player draws three cards.</CardText>
 <Flavor>"Even the threat of power has power."
 —Jeska, warrior adept</Flavor>
 <Artist>Mark Tedin</Artist>
@@ -912,7 +912,7 @@ When Bogardan Rager enters the battlefield, target creature gets +4/+0 until end
 <Name>Cinder Elemental</Name>
 <Type>Creature — Elemental 2/2</Type>
 <ManaCost>3R (4)</ManaCost>
-<CardText>{X}{R}, {T}, Sacrifice Cinder Elemental: Cinder Elemental deals X damage to target creature or player.</CardText>
+<CardText>{X}{R}, {T}, Sacrifice Cinder Elemental: Cinder Elemental deals X damage to any target.</CardText>
 <Flavor>Their rage can grow to such proportions that they explode in a cloud of fire.</Flavor>
 <Artist>Greg Staples</Artist>
 <Multiverseid>205414</Multiverseid>
@@ -929,7 +929,7 @@ When Bogardan Rager enters the battlefield, target creature gets +4/+0 until end
 <Name>Cone of Flame</Name>
 <Type>Sorcery</Type>
 <ManaCost>3RR (5)</ManaCost>
-<CardText>Cone of Flame deals 1 damage to target creature or player, 2 damage to another target creature or player, and 3 damage to a third target creature or player.</CardText>
+<CardText>Cone of Flame deals 1 damage to any target, 2 damage to another target, and 3 damage to a third target.</CardText>
 <Artist>Chippy</Artist>
 <Multiverseid>205266</Multiverseid>
 <Rulings>2014/07/18: Each of the three targets must be different. If there aren't three different legal targets available, you can't cast the spell.
@@ -981,7 +981,7 @@ When Bogardan Rager enters the battlefield, target creature gets +4/+0 until end
 <Name>Furnace of Rath</Name>
 <Type>Enchantment</Type>
 <ManaCost>1RRR (4)</ManaCost>
-<CardText>If a source would deal damage to a creature or player, it deals double that damage to that creature or player instead.</CardText>
+<CardText>If a source would deal damage to a permanent or player, it deals double that damage to that permanent or player instead.</CardText>
 <Flavor>The furnace awaits the next master who would stoke the fires of apocalypse.</Flavor>
 <Artist>John Matson</Artist>
 <Multiverseid>205268</Multiverseid>
@@ -989,7 +989,7 @@ When Bogardan Rager enters the battlefield, target creature gets +4/+0 until end
 2004/10/04: The trample rules cause damage to be divided before it is doubled.
 2004/10/04: If you have two of these on the battlefield, the damage is multiplied by 4.
 2004/10/04: The multiplied damage counts in all ways as if it came from the original source. <Furnace of Rath> is not the source.
-2005/08/01: If multiple effects modify how damage will be dealt, the player who would be dealt damage or the controller of the creature that would be dealt damage chooses the order to apply the effects. For example, Mending Hands says, "Prevent the next 4 damage that would be dealt to target creature or player this turn." Suppose a spell would deal 5 damage to a player who has cast Mending Hands targeting himself or herself. That player can either (a) prevent 4 damage first and then let <Furnace of Rath> double the remaining 1 damage, taking 2 damage, or (b) double the damage to 10 and then prevent 4 damage, taking 6 damage.</Rulings>
+2005/08/01: If multiple effects modify how damage will be dealt, the player who would be dealt damage or the controller of the creature that would be dealt damage chooses the order to apply the effects. For example, Mending Hands says, "Prevent the next 4 damage that would be dealt to any target this turn." Suppose a spell would deal 5 damage to a player who has cast Mending Hands targeting themselves. That player can either (a) prevent 4 damage first and then let <Furnace of Rath> double the remaining 1 damage, taking 2 damage, or (b) double the damage to 10 and then prevent 4 damage, taking 6 damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1040,7 +1040,7 @@ When Bogardan Rager enters the battlefield, target creature gets +4/+0 until end
 <ManaCost>2RR (4)</ManaCost>
 <CardText>Haste
 Echo {2}{R}{R} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
-When Keldon Champion enters the battlefield, it deals 3 damage to target player.</CardText>
+When Keldon Champion enters the battlefield, it deals 3 damage to target player or planeswalker.</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>205801</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1072,14 +1072,13 @@ When Menacing Ogre enters the battlefield, each player secretly chooses a number
 <Name>Pyrotechnics</Name>
 <Type>Sorcery</Type>
 <ManaCost>4R (5)</ManaCost>
-<CardText>Pyrotechnics deals 4 damage divided as you choose among any number of target creatures and/or players.</CardText>
+<CardText>Pyrotechnics deals 4 damage divided as you choose among any number of targets.</CardText>
 <Flavor>"Who says lightning never strikes twice?"
 —Storm shaman</Flavor>
 <Artist>John Avon</Artist>
 <Multiverseid>205405</Multiverseid>
 <Rulings>2014/11/24: The number of targets chosen for <Pyrotechnics> must be at least one and at most four. You choose how the damage is divided as you cast the spell, not as it resolves. Each target must be assigned at least 1 damage.
 2014/11/24: If some but not all of <Pyrotechnics>'s targets become illegal, you can't change the division of damage. Damage that would have been dealt to illegal targets simply isn't dealt.
-2014/11/24: You can't deal damage to both a player and a planeswalker that player controls using <Pyrotechnics>. You also can't deal damage to more than one planeswalker controlled by the same player. If you choose to redirect the damage being dealt to a player to a planeswalker, you must redirect all the damage to a single planeswalker.
 2014/11/24: If an effect creates a copy of <Pyrotechnics>, the number of targets and division of damage can't be changed. The effect that creates the copy may allow you to change the targets, however.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1149,13 +1148,13 @@ Whenever another creature dies, you may put a +1/+1 counter on Rockslide Element
 <Name>Rolling Thunder</Name>
 <Type>Sorcery</Type>
 <ManaCost>XRR (2)</ManaCost>
-<CardText>Rolling Thunder deals X damage divided as you choose among any number of target creatures and/or players.</CardText>
+<CardText>Rolling Thunder deals X damage divided as you choose among any number of targets.</CardText>
 <Flavor>"Such rage," thought Vhati, gazing up at the thunderhead from the Predator. "It is Greven's mind manifest."</Flavor>
 <Artist>Richard Thomas</Artist>
 <Multiverseid>205391</Multiverseid>
 <Rulings>2004/10/04: If X is greater than 0, you can't choose zero targets. You must choose between one and X targets. If X is 0, you can't choose any targets.
 2015/08/25: You choose how many targets <Rolling Thunder> has and how the damage is divided as you cast the spell. Each target must receive at least 1 damage.
-2015/08/25: If some, but not all, of the targets become illegal by the time <Rolling Thunder> tries to resolve, the original division of damage still applies, but no damage is dealt to illegal targets. If all the targets are illegal, the spell will be countered.
+2015/08/25: If some, but not all, of the targets become illegal by the time <Rolling Thunder> tries to resolve, the original division of damage still applies, but no damage is dealt to illegal targets. If all the targets are illegal, the spell won't resolve.
 2015/08/25: If <Rolling Thunder> is copied, the copy will retain the original damage divsion. The spell or ability will likely allow you to choose new targets, but you can't change the way damage is divided.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1186,7 +1185,7 @@ Whenever another creature dies, you may put a +1/+1 counter on Rockslide Element
 <Name>Smokebraider</Name>
 <Type>Creature — Elemental Shaman 1/1</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>{T}: Add two mana in any combination of colors to your mana pool. Spend this mana only to cast Elemental spells or activate abilities of Elementals.</CardText>
+<CardText>{T}: Add two mana in any combination of colors. Spend this mana only to cast Elemental spells or activate abilities of Elementals.</CardText>
 <Flavor>"Be silent and listen to your inner fire. Only then can you walk the Path of Flame."</Flavor>
 <Artist>Anthony S. Waters</Artist>
 <Multiverseid>205398</Multiverseid>
@@ -1280,7 +1279,7 @@ Evoke {1}{G} (You may cast this spell for its evoke cost. If you do, it's sacrif
 <Type>Enchantment — Aura</Type>
 <ManaCost>1G (2)</ManaCost>
 <CardText>Enchant land
-Whenever enchanted land is tapped for mana, its controller adds one mana of any color to his or her mana pool (in addition to the mana the land produces).</CardText>
+Whenever enchanted land is tapped for mana, its controller adds an additional one mana of any color.</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>205394</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1297,10 +1296,10 @@ Whenever enchanted land is tapped for mana, its controller adds one mana of any 
 <Type>Creature — Elemental 0/0</Type>
 <ManaCost>2G (3)</ManaCost>
 <CardText>Fertilid enters the battlefield with two +1/+1 counters on it.
-{1}{G}, Remove a +1/+1 counter from Fertilid: Target player searches his or her library for a basic land card and puts it onto the battlefield tapped. Then that player shuffles his or her library.</CardText>
+{1}{G}, Remove a +1/+1 counter from Fertilid: Target player searches their library for a basic land card and puts it onto the battlefield tapped. Then that player shuffles their library.</CardText>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>205403</Multiverseid>
-<Rulings>2008/04/01: Although the targeted player doesn't need to find a basic land card if he or she doesn't want to, that player must shuffle his or her library.</Rulings>
+<Rulings>2008/04/01: Although the targeted player doesn't need to find a basic land card if they don't want to, that player must shuffle their library.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1435,10 +1434,9 @@ Suspend 2—{G} (Rather than cast this card from your hand, you may pay {G} and 
 You may have Tornado Elemental assign its combat damage as though it weren't blocked.</CardText>
 <Artist>Alex Horley-Orlandelli</Artist>
 <Multiverseid>205333</Multiverseid>
-<Rulings>2008/04/01: If this creature is attacking a planeswalker, assigning its damage as though it weren't blocked means the damage is assigned to the planeswalker, not to the defending player.
-2008/04/01: When assigning combat damage, you choose whether you want to assign all damage to blocking creatures, or if you want to assign all of it to the defending player or planeswalker. You can't split the damage assignment between them.
-2008/04/01: You can decide to assign damage to the defending player or planeswalker even if the blocking creature has protection from green or damage preventing effects on it.
-2008/04/01: If blocked by a creature with banding, the defending player decides whether or not the damage is assigned "as though it weren't blocked".</Rulings>
+<Rulings>2018/04/27: You can decide to assign damage to the defending player or planeswalker even if the blocking creature has protection from green or damage preventing effects on it.
+2018/04/27: When assigning combat damage, you choose whether you want to assign all damage to blocking creatures, or if you want to assign all of it to the player or planeswalker this creature is attacking. You can't split the damage assignment between them.
+2018/04/27: If blocked by a creature with banding, the defending player decides whether or not the damage is assigned "as though it weren't blocked".</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1472,9 +1470,8 @@ You may have Tornado Elemental assign its combat damage as though it weren't blo
 <Flavor>Left to itself, nature overflows any container, overthrows any restriction, and overreaches any boundary.</Flavor>
 <Artist>DiTerlizzi</Artist>
 <Multiverseid>205272</Multiverseid>
-<Rulings>2004/10/04: <Verdant Force>'s controller gets the tokens. That is the controller at the beginning of upkeep.
-2005/08/01: Once created, the tokens are independent of <Verdant Force>. If <Verdant Force> changes controllers, the new controller will put tokens onto the battlefield, but existing tokens will stay where they are.
-2006/05/01: In Two-Headed Giant, triggers only once per upkeep, not once for each player.</Rulings>
+<Rulings>2006/05/01: In Two-Headed Giant, triggers only once per upkeep, not once for each player.
+2018/04/27: <Verdant Force>'s ability triggers at the beginning of each upkeep, not just each of your upkeeps.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1543,11 +1540,11 @@ You may have Tornado Elemental assign its combat damage as though it weren't blo
 <Name>Captain's Maneuver</Name>
 <Type>Instant</Type>
 <ManaCost>XWR (2)</ManaCost>
-<CardText>The next X damage that would be dealt to target creature or player this turn is dealt to another target creature or player instead.</CardText>
+<CardText>The next X damage that would be dealt to target creature, planeswalker, or player this turn is dealt to another target creature, planeswalker, or player instead.</CardText>
 <Flavor>Sisay discovered that the mirrored hull of the Weatherlight could be used as a defensive weapon.</Flavor>
 <Artist>Ben Thompson</Artist>
 <Multiverseid>205382</Multiverseid>
-<Rulings>2004/10/04: If the second target is no longer on the battlefield, or if the second target is no longer a creature or player when the damage would be redirected, the damage is dealt to the first target as if this spell was not cast.
+<Rulings>2004/10/04: If the second target is no longer on the battlefield, or if the second target is no longer a creature, player, or planeswalker when the damage would be redirected, the damage is dealt to the first target as if this spell was not cast.
 2004/10/04: If the first target is no longer on the battlefield, then the damage will not be dealt at all, so it can't be redirected by this ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1597,7 +1594,7 @@ Sacrifice Fires of Yavimaya: Target creature gets +2/+2 until end of turn.</Card
 <CardText>As long as it's your turn, creatures you control get +2/+0.
 As long as it's not your turn, creatures you control get +0/+2.</CardText>
 <Flavor>"Their hopes dashed on our shields! Their victory slashed by our swords!"</Flavor>
-<Artist>Parente</Artist>
+<Artist>Paolo Parente</Artist>
 <Multiverseid>205318</Multiverseid>
 <Rulings>2009/05/01: There is never a point at which <Glory of Warfare> will give a creature you control +2/+2 or +0/+0. A creature that's normally 1/1, for example, will change from being 3/1 to being 1/3 when your turn ends and another player's turn begins. At no time will it be 3/3 or 1/1.</Rulings>
 <Vintage>Legal</Vintage>
@@ -1632,11 +1629,11 @@ As long as it's not your turn, creatures you control get +0/+2.</CardText>
 <Name>Lightning Helix</Name>
 <Type>Instant</Type>
 <ManaCost>WR (2)</ManaCost>
-<CardText>Lightning Helix deals 3 damage to target creature or player and you gain 3 life.</CardText>
+<CardText>Lightning Helix deals 3 damage to any target and you gain 3 life.</CardText>
 <Flavor>Though less well-known than its army of soldiers, the Boros Legion's mage-priests are as respected by the innocent as they are hated by the ghosts of the guilty.</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>205361</Multiverseid>
-<Rulings>2017/11/17: If the chosen target is illegal when <Lightning Helix> tries to resolve, it will be countered and none of its effects will happen. You won't gain 3 life.</Rulings>
+<Rulings>2017/11/17: If the chosen target is illegal when <Lightning Helix> tries to resolve, it won't resolve and none of its effects will happen. You won't gain 3 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1650,14 +1647,14 @@ As long as it's not your turn, creatures you control get +0/+2.</CardText>
 <Name>Mage Slayer</Name>
 <Type>Artifact — Equipment</Type>
 <ManaCost>1RG (3)</ManaCost>
-<CardText>Whenever equipped creature attacks, it deals damage equal to its power to defending player.
+<CardText>Whenever equipped creature attacks, it deals damage equal to its power to the player or planeswalker it's attacking.
 Equip {3}</CardText>
 <Flavor>"When the wielder is strong enough, any sword will do."
 —Kresh the Bloodbraided</Flavor>
 <Artist>Lars Grant-West</Artist>
 <Multiverseid>205319</Multiverseid>
 <Rulings>2009/05/01: This ability triggers and resolves in the declare attackers step. The creature will still deal its combat damage as normal later on during the combat phase.
-2009/05/01: When the equipped creature attacks, the first ability will trigger. When that ability resolves, that creature will deal damage equal to its power to defending player, even if <Mage Slayer> has left the battlefield or is equipping a different creature by that time.</Rulings>
+2009/05/01: When the equipped creature attacks, the first ability will trigger. When that ability resolves, that creature will deal damage equal to its power to player or planeswalker it's attacking, even if <Mage Slayer> has left the battlefield or is equipping a different creature by that time.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1765,7 +1762,7 @@ Equip {3}</CardText>
 <ManaCost>2{R/W}{R/W}{R/W} (5)</ManaCost>
 <CardText>Other red creatures you control get +1/+1.
 Other white creatures you control get +1/+1.
-Whenever you cast a red spell, Balefire Liege deals 3 damage to target player.
+Whenever you cast a red spell, Balefire Liege deals 3 damage to target player or planeswalker.
 Whenever you cast a white spell, you gain 3 life.</CardText>
 <Artist>Ralph Horsley</Artist>
 <Multiverseid>205377</Multiverseid>
@@ -1806,7 +1803,7 @@ Whenever you cast a white spell, you gain 3 life.</CardText>
 <ManaCost>{R/W}{R/W} (2)</ManaCost>
 <CardText>{1}{R}: Target creature gains haste until end of turn.
 {1}{W}: Target creature gains first strike until end of turn.</CardText>
-<Artist>Parente</Artist>
+<Artist>Paolo Parente</Artist>
 <Multiverseid>205357</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1876,7 +1873,7 @@ When Duergar Hedge-Mage enters the battlefield, if you control two or more Plain
 <Name>Assault (Assault/Battery)</Name>
 <Type>Sorcery</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>Assault deals 2 damage to target creature or player.</CardText>
+<CardText>Assault deals 2 damage to any target.</CardText>
 <Artist>Ben Thompson</Artist>
 <Multiverseid>205409</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1979,7 +1976,7 @@ Modular 1 (This enters the battlefield with a +1/+1 counter on it. When it dies,
 <Name>Boros Signet</Name>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{1}, {T}: Add {R}{W} to your mana pool.</CardText>
+<CardText>{1}, {T}: Add {R}{W}.</CardText>
 <Flavor>"Have you ever held a Boros signet? There's a weight to it that belies its size—a weight of strength and of pride."
 —Agrus Kos</Flavor>
 <Artist>Greg Hildebrandt</Artist>
@@ -1998,7 +1995,7 @@ Modular 1 (This enters the battlefield with a +1/+1 counter on it. When it dies,
 <Type>Legendary Artifact Creature — Golem 6/7</Type>
 <ManaCost>8 (8)</ManaCost>
 <CardText>Trample
-{3}{R}, Sacrifice an artifact: Bosh, Iron Golem deals damage equal to the sacrificed artifact's converted mana cost to target creature or player.</CardText>
+{3}{R}, Sacrifice an artifact: Bosh, Iron Golem deals damage equal to the sacrificed artifact's converted mana cost to any target.</CardText>
 <Flavor>As Glissa searches for the truth about Memnarch, Bosh searches to unearth the secrets of his past.</Flavor>
 <Artist>Brom</Artist>
 <Multiverseid>205276</Multiverseid>
@@ -2015,7 +2012,7 @@ Modular 1 (This enters the battlefield with a +1/+1 counter on it. When it dies,
 <Name>Copper Myr</Name>
 <Type>Artifact Creature — Myr 1/1</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{T}: Add {G} to your mana pool.</CardText>
+<CardText>{T}: Add {G}.</CardText>
 <Flavor>The elves thought of the myr as minor threats, just as the myr thought of the elves.</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>205278</Multiverseid>
@@ -2104,7 +2101,7 @@ Equip {1}</CardText>
 <Name>Gold Myr</Name>
 <Type>Artifact Creature — Myr 1/1</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{T}: Add {W} to your mana pool.</CardText>
+<CardText>{T}: Add {W}.</CardText>
 <Flavor>The leonin thought of the myr as omens, never imagining the sinister fate they foretold.</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>205283</Multiverseid>
@@ -2121,7 +2118,7 @@ Equip {1}</CardText>
 <Name>Iron Myr</Name>
 <Type>Artifact Creature — Myr 1/1</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{T}: Add {R} to your mana pool.</CardText>
+<CardText>{T}: Add {R}.</CardText>
 <Flavor>The goblins didn't think of the myr at all, which allowed the myr to observe everywhere unhindered.</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>205285</Multiverseid>
@@ -2138,7 +2135,7 @@ Equip {1}</CardText>
 <Name>Leaden Myr</Name>
 <Type>Artifact Creature — Myr 1/1</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{T}: Add {B} to your mana pool.</CardText>
+<CardText>{T}: Add {B}.</CardText>
 <Flavor>The Moriok saw the myr as fellow scavengers, never knowing just who the myr were scavenging for.</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>205290</Multiverseid>
@@ -2242,7 +2239,7 @@ Equip {1}</CardText>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
 <CardText>Sunburst (This enters the battlefield with a charge counter on it for each color of mana spent to cast it.)
-Remove a charge counter from Pentad Prism: Add one mana of any color to your mana pool.</CardText>
+Remove a charge counter from Pentad Prism: Add one mana of any color.</CardText>
 <Artist>David Martin</Artist>
 <Multiverseid>205331</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2278,7 +2275,7 @@ Remove a charge counter from Pentad Prism: Add one mana of any color to your man
 <Name>Relic of Progenitus</Name>
 <Type>Artifact</Type>
 <ManaCost>1 (1)</ManaCost>
-<CardText>{T}: Target player exiles a card from his or her graveyard.
+<CardText>{T}: Target player exiles a card from their graveyard.
 {1}, Exile Relic of Progenitus: Exile all cards from all graveyards. Draw a card.</CardText>
 <Flavor>Elves believe the hydra-god Progenitus sleeps beneath Naya, feeding on forgotten magics.</Flavor>
 <Artist>Jean-Sébastien Rossbach</Artist>
@@ -2315,7 +2312,7 @@ Remove a charge counter from Pentad Prism: Add one mana of any color to your man
 <Name>Silver Myr</Name>
 <Type>Artifact Creature — Myr 1/1</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{T}: Add {U} to your mana pool.</CardText>
+<CardText>{T}: Add {U}.</CardText>
 <Flavor>The vedalken saw the myr as toys, unaware of the intelligence lurking behind their empty eyes.</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>205305</Multiverseid>
@@ -2385,7 +2382,7 @@ Remove a charge counter from Pentad Prism: Add one mana of any color to your man
 <Name>Ancient Den</Name>
 <Type>Artifact Land</Type>
 <CardText>(Ancient Den isn't a spell.)
-{T}: Add {W} to your mana pool.</CardText>
+{T}: Add {W}.</CardText>
 <Flavor>Taj-Nar, throne of Raksha Golden Cub, destined leader of the leonin prides.</Flavor>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>205275</Multiverseid>
@@ -2403,7 +2400,7 @@ Remove a charge counter from Pentad Prism: Add one mana of any color to your man
 <Type>Land</Type>
 <CardText>Boros Garrison enters the battlefield tapped.
 When Boros Garrison enters the battlefield, return a land you control to its owner's hand.
-{T}: Add {R}{W} to your mana pool.</CardText>
+{T}: Add {R}{W}.</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>205356</Multiverseid>
 <Rulings>2013/04/15: If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.</Rulings>
@@ -2419,7 +2416,7 @@ When Boros Garrison enters the battlefield, return a land you control to its own
 <No>132</No>
 <Name>Cabal Coffers</Name>
 <Type>Land</Type>
-<CardText>{2}, {T}: Add {B} to your mana pool for each Swamp you control.</CardText>
+<CardText>{2}, {T}: Add {B} for each Swamp you control.</CardText>
 <Flavor>Deep within the Cabal's vault, the Mirari pulsed like a dead sun—and its darkness radiated across Otaria.</Flavor>
 <Artist>Don Hazeltine</Artist>
 <Multiverseid>205421</Multiverseid>
@@ -2435,7 +2432,7 @@ When Boros Garrison enters the battlefield, return a land you control to its own
 <Name>Great Furnace</Name>
 <Type>Artifact Land</Type>
 <CardText>(Great Furnace isn't a spell.)
-{T}: Add {R} to your mana pool.</CardText>
+{T}: Add {R}.</CardText>
 <Flavor>Kuldotha, wellspring of molten metal, temple of the goblin horde.</Flavor>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>205284</Multiverseid>
@@ -2453,7 +2450,7 @@ When Boros Garrison enters the battlefield, return a land you control to its own
 <Type>Land</Type>
 <CardText>Gruul Turf enters the battlefield tapped.
 When Gruul Turf enters the battlefield, return a land you control to its owner's hand.
-{T}: Add {R}{G} to your mana pool.</CardText>
+{T}: Add {R}{G}.</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>205353</Multiverseid>
 <Rulings>2013/04/15: If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.</Rulings>
@@ -2469,7 +2466,7 @@ When Gruul Turf enters the battlefield, return a land you control to its owner's
 <No>135</No>
 <Name>Leechridden Swamp</Name>
 <Type>Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)
+<CardText>({T}: Add {B}.)
 Leechridden Swamp enters the battlefield tapped.
 {B}, {T}: Each opponent loses 1 life. Activate this ability only if you control two or more black permanents.</CardText>
 <Artist>Lars Grant-West</Artist>
@@ -2487,7 +2484,7 @@ Leechridden Swamp enters the battlefield tapped.
 <Name>Seat of the Synod</Name>
 <Type>Artifact Land</Type>
 <CardText>(Seat of the Synod isn't a spell.)
-{T}: Add {U} to your mana pool.</CardText>
+{T}: Add {U}.</CardText>
 <Flavor>Lumengrid, site of the Knowledge Pool, source of vedalken arcana.</Flavor>
 <Artist>John Avon</Artist>
 <Multiverseid>205303</Multiverseid>
@@ -2504,7 +2501,7 @@ Leechridden Swamp enters the battlefield tapped.
 <Name>Shivan Oasis</Name>
 <Type>Land</Type>
 <CardText>Shivan Oasis enters the battlefield tapped.
-{T}: Add {R} or {G} to your mana pool.</CardText>
+{T}: Add {R} or {G}.</CardText>
 <Flavor>Only the hardiest explorers survive to eat the fruit.</Flavor>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>205406</Multiverseid>
@@ -2520,7 +2517,7 @@ Leechridden Swamp enters the battlefield tapped.
 <No>138</No>
 <Name>Sunhome, Fortress of the Legion</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {2}{R}{W}, {T}: Target creature gains double strike until end of turn.</CardText>
 <Flavor>Sunhome—the stalwart shield, the towering sentinel, the seat of justice.</Flavor>
 <Artist>Martina Pilcerova</Artist>
@@ -2555,7 +2552,7 @@ Leechridden Swamp enters the battlefield tapped.
 <Name>Tree of Tales</Name>
 <Type>Artifact Land</Type>
 <CardText>(Tree of Tales isn't a spell.)
-{T}: Add {G} to your mana pool.</CardText>
+{T}: Add {G}.</CardText>
 <Flavor>Tel-Jilad, sanctum of the ancient trolls, keepers of the secret of Mirrodin's origin.</Flavor>
 <Artist>John Avon</Artist>
 <Multiverseid>205312</Multiverseid>
@@ -2572,7 +2569,7 @@ Leechridden Swamp enters the battlefield tapped.
 <Name>Vault of Whispers</Name>
 <Type>Artifact Land</Type>
 <CardText>(Vault of Whispers isn't a spell.)
-{T}: Add {B} to your mana pool.</CardText>
+{T}: Add {B}.</CardText>
 <Flavor>Ish Sah, den of the warlord Geth, commander of countless nim.</Flavor>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>205313</Multiverseid>
@@ -2588,7 +2585,7 @@ Leechridden Swamp enters the battlefield tapped.
 <No>142</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Martina Pilcerova</Artist>
 <Multiverseid>205301</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2603,7 +2600,7 @@ Leechridden Swamp enters the battlefield tapped.
 <No>143</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Larry MacDougall</Artist>
 <Multiverseid>205430</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2618,7 +2615,7 @@ Leechridden Swamp enters the battlefield tapped.
 <No>144</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Richard Wright</Artist>
 <Multiverseid>205428</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2633,7 +2630,7 @@ Leechridden Swamp enters the battlefield tapped.
 <No>145</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Dave Kendall</Artist>
 <Multiverseid>205436</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2648,7 +2645,7 @@ Leechridden Swamp enters the battlefield tapped.
 <No>146</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Stephan Martiniere</Artist>
 <Multiverseid>205440</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2663,7 +2660,7 @@ Leechridden Swamp enters the battlefield tapped.
 <No>147</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>205286</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2678,7 +2675,7 @@ Leechridden Swamp enters the battlefield tapped.
 <No>148</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>205287</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2693,7 +2690,7 @@ Leechridden Swamp enters the battlefield tapped.
 <No>149</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Martina Pilcerova</Artist>
 <Multiverseid>205288</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2708,7 +2705,7 @@ Leechridden Swamp enters the battlefield tapped.
 <No>150</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>205289</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2723,7 +2720,7 @@ Leechridden Swamp enters the battlefield tapped.
 <No>151</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Martina Pilcerova</Artist>
 <Multiverseid>205309</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2738,7 +2735,7 @@ Leechridden Swamp enters the battlefield tapped.
 <No>152</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Vance Kovacs</Artist>
 <Multiverseid>205443</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2753,7 +2750,7 @@ Leechridden Swamp enters the battlefield tapped.
 <No>153</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Craig Mullins</Artist>
 <Multiverseid>205434</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2768,7 +2765,7 @@ Leechridden Swamp enters the battlefield tapped.
 <No>154</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>205442</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2783,7 +2780,7 @@ Leechridden Swamp enters the battlefield tapped.
 <No>155</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>205446</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2798,7 +2795,7 @@ Leechridden Swamp enters the battlefield tapped.
 <No>156</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Craig Mullins</Artist>
 <Multiverseid>205468</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2813,7 +2810,7 @@ Leechridden Swamp enters the battlefield tapped.
 <No>157</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Aleksi Briclot</Artist>
 <Multiverseid>205471</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2828,7 +2825,7 @@ Leechridden Swamp enters the battlefield tapped.
 <No>158</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Aleksi Briclot</Artist>
 <Multiverseid>205470</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2843,7 +2840,7 @@ Leechridden Swamp enters the battlefield tapped.
 <No>159</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Nils Hamm</Artist>
 <Multiverseid>205469</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2858,7 +2855,7 @@ Leechridden Swamp enters the battlefield tapped.
 <No>160</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>205292</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2873,7 +2870,7 @@ Leechridden Swamp enters the battlefield tapped.
 <No>161</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Stephan Martiniere</Artist>
 <Multiverseid>205447</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2888,7 +2885,7 @@ Leechridden Swamp enters the battlefield tapped.
 <No>162</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Richard Wright</Artist>
 <Multiverseid>205432</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2903,7 +2900,7 @@ Leechridden Swamp enters the battlefield tapped.
 <No>163</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Dave Kendall</Artist>
 <Multiverseid>205441</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2918,7 +2915,7 @@ Leechridden Swamp enters the battlefield tapped.
 <No>164</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Brandon Kitkouski</Artist>
 <Multiverseid>205435</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2933,7 +2930,7 @@ Leechridden Swamp enters the battlefield tapped.
 <No>165</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>205464</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2948,7 +2945,7 @@ Leechridden Swamp enters the battlefield tapped.
 <No>166</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Craig Mullins</Artist>
 <Multiverseid>205466</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2963,7 +2960,7 @@ Leechridden Swamp enters the battlefield tapped.
 <No>167</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Chippy</Artist>
 <Multiverseid>205467</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2978,7 +2975,7 @@ Leechridden Swamp enters the battlefield tapped.
 <No>168</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Glen Angus</Artist>
 <Multiverseid>205465</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2993,7 +2990,7 @@ Leechridden Swamp enters the battlefield tapped.
 <No>169</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>205279</Multiverseid>
 <Vintage>Legal</Vintage>

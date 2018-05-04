@@ -4,18 +4,18 @@
 <Name>Acolyte's Reward</Name>
 <Type>Instant</Type>
 <ManaCost>1W (2)</ManaCost>
-<CardText>Prevent the next X damage that would be dealt to target creature this turn, where X is your devotion to white. If damage is prevented this way, Acolyte's Reward deals that much damage to target creature or player. (Each {W} in the mana costs of permanents you control counts toward your devotion to white.)</CardText>
+<CardText>Prevent the next X damage that would be dealt to target creature this turn, where X is your devotion to white. If damage is prevented this way, Acolyte's Reward deals that much damage to any target. (Each {W} in the mana costs of permanents you control counts toward your devotion to white.)</CardText>
 <Artist>Slawomir Maniak</Artist>
 <Multiverseid>378373</Multiverseid>
 <Rulings>2013/09/15: Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
 2013/09/15: Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
 2013/09/15: Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
 2013/09/15: If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it's still on the battlefield at that time.
-2014/02/01: <Acolyte's Reward> has two targets: the creature that would be dealt damage and the creature or player that <Acolyte's Reward> will deal damage to. These targets are chosen as you cast <Acolyte's Reward>.
+2014/02/01: <Acolyte's Reward> has two targets: the creature that would be dealt damage and the permanent or player that <Acolyte's Reward> will deal damage to. These targets are chosen as you cast <Acolyte's Reward>.
 2014/02/01: The amount of damage the prevention shield will prevent is based on your devotion to white as <Acolyte's Reward> resolves. That amount won't change later in the turn, even if your devotion to white does.
 2014/02/01: You don't choose a source of damage. The prevention shield will apply to the next X damage that would be dealt to the first target, no matter where that damage comes from. It also doesn't matter whether the damage is dealt at the same time. For example, if the shield prevents the next 5 damage to the first target, and that creature would be dealt 3 damage by Lightning Strike, that 3 damage is prevented and <Acolyte's Reward> deals 3 damage to the second target. The prevention effect will still apply to the next 2 damage the first target would be dealt that turn.
-2014/02/01: The effect of <Acolyte's Reward> isn't a redirection effect. If it prevents damage, <Acolyte's Reward> (not the source of that damage) deals damage to the second target as part of that prevention effect. <Acolyte's Reward> is the source of the new damage, so the characteristics of the original source (such as its color or whether it had lifelink) don't apply. The new damage isn't combat damage, even if the prevented damage was. Since you control the source of the new damage, if the second target is an opponent, you may have <Acolyte's Reward> deal its damage to a planeswalker that opponent controls.
-2014/02/01: As <Acolyte's Reward> tries to resolve, if only the first target is illegal, <Acolyte's Reward> won't prevent any damage that would be dealt to that creature and, because of this, <Acolyte's Reward> won't deal damage to the second target. If only the second target is illegal, damage that would be dealt to the first target will be prevented, but <Acolyte's Reward> won't deal damage. If both targets are illegal, <Acolyte's Reward> will be countered.
+2014/02/01: The effect of <Acolyte's Reward> isn't a redirection effect. If it prevents damage, <Acolyte's Reward> (not the source of that damage) deals damage to the second target as part of that prevention effect. <Acolyte's Reward> is the source of the new damage, so the characteristics of the original source (such as its color or whether it had lifelink) don't apply. The new damage isn't combat damage, even if the prevented damage was.
+2014/02/01: As <Acolyte's Reward> tries to resolve, if only the first target is illegal, <Acolyte's Reward> won't prevent any damage that would be dealt to that creature and, because of this, <Acolyte's Reward> won't deal damage to the second target. If only the second target is illegal, damage that would be dealt to the first target will be prevented, but <Acolyte's Reward> won't deal damage. If both targets are illegal, <Acolyte's Reward> won't resolve.
 2014/02/01: After <Acolyte's Reward> resolves, it no longer matters whether either target is still legal. For example, if the second target is a creature controlled by an opponent, and it gains hexproof after <Acolyte's Reward> resolves but before it prevents damage, <Acolyte's Reward> will still deal damage to that creature. If <Acolyte's Reward> can't deal damage to the second target (perhaps because it's a creature that has left the battlefield), <Acolyte's Reward> will still prevent damage; it just won't deal any damage itself.
 2014/02/01: If <Acolyte's Reward> prevents damage, it deals its damage immediately afterward as part of that same prevention effect. This happens before state-based actions are performed, and before any player can cast spells or activate abilities. If the source of the original damage was a spell or ability, this happens before that spell or ability resumes its resolution.
 2014/02/01: If the amount of damage that would be dealt to the first target is in excess of the amount of damage that <Acolyte's Reward> would prevent, the source deals its excess damage to the first target at the same time that the rest of it is prevented. Then <Acolyte's Reward> deals its damage.
@@ -80,7 +80,7 @@ Creatures your opponents control lose first strike and can't have or gain first 
 <Artist>Willian Murai</Artist>
 <Multiverseid>378376</Multiverseid>
 <Rulings>2014/02/01: The Archetype's second ability applies to each creature controlled by any of your opponents, no matter when it entered the battlefield.
-2014/02/01: While you control an Archetype, continuous effects generated by the resolution of spells and abilities that would give the specified ability to creatures your opponents control aren't created. For example, if you control <Archetype of Courage>, a spell cast by an opponent that gives creatures he or she controls first strike wouldn't cause the creatures to have first strike, even if later in the turn <Archetype of Courage> left the battlefield. (If the spell has additional effects, such as raising the power of the creatures, those effects will apply as normal.)
+2014/02/01: While you control an Archetype, continuous effects generated by the resolution of spells and abilities that would give the specified ability to creatures your opponents control aren't created. For example, if you control <Archetype of Courage>, a spell cast by an opponent that gives creatures they control first strike wouldn't cause the creatures to have first strike, even if later in the turn <Archetype of Courage> left the battlefield. (If the spell has additional effects, such as raising the power of the creatures, those effects will apply as normal.)
 2014/02/01: Conversely, continuous effects generated by static abilities (such as an Aura that granted the appropriate ability) would resume applying if the Archetype left the battlefield.
 2014/02/01: If you and an opponent each control the same Archetype, no creature controlled by any player will have the appropriate ability.</Rulings>
 <Vintage>Legal</Vintage>
@@ -124,7 +124,7 @@ Whenever Brimaz blocks a creature, create a 1/1 white Cat Soldier creature token
 <Artist>Robbie Trevino</Artist>
 <Multiverseid>378378</Multiverseid>
 <Rulings>2014/02/01: You choose which mode you're using—or that you're using both modes—as you're casting the spell. Once this choice is made, it can't be changed later while the spell is on the stack.
-2014/02/01: <Dawn to Dusk> won't affect any target that is illegal when it tries to resolve. If you chose to use both modes and both targets are illegal at that time, <Dawn to Dusk> will be countered.</Rulings>
+2014/02/01: <Dawn to Dusk> won't affect any target that is illegal when it tries to resolve. If you chose to use both modes and both targets are illegal at that time, <Dawn to Dusk> won't resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -226,7 +226,7 @@ Enchanted creature has "{1}{W}, {T}: You gain 3 life."</CardText>
 <Rulings>2013/09/15: When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
 2013/09/15: You choose how to order cards returned to your library after scrying no matter where you put them.
 2013/09/15: You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
-2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it will be countered and none of its effects will happen. You won't scry.</Rulings>
+2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -272,8 +272,8 @@ Enchanted creature gets +1/+1 and has double strike.</CardText>
 <Rulings>2013/09/15: When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
 2013/09/15: You choose how to order cards returned to your library after scrying no matter where you put them.
 2013/09/15: You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
-2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it will be countered and none of its effects will happen. You won't scry.
-2014/02/01: If you choose zero targets, you'll just scry 1 when the spell resolves. However, if you choose at least one target and all of <Glimpse the Sun God>'s targets are illegal as it tries to resolve, the spell will be countered and none of its effects will happen. You won't scry in that case.</Rulings>
+2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.
+2014/02/01: If you choose zero targets, you'll just scry 1 when the spell resolves. However, if you choose at least one target and all of <Glimpse the Sun God>'s targets are illegal as it tries to resolve, the spell won't resolve and none of its effects will happen. You won't scry in that case.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -365,7 +365,7 @@ Heroic — Whenever you cast a spell that targets Hero of Iroas, put a +1/+1 cou
 <Name>Hold at Bay</Name>
 <Type>Instant</Type>
 <ManaCost>1W (2)</ManaCost>
-<CardText>Prevent the next 7 damage that would be dealt to target creature or player this turn.</CardText>
+<CardText>Prevent the next 7 damage that would be dealt to any target this turn.</CardText>
 <Flavor>It was Daeron's bravery that brought him to Odunos. But it was the magic of Meletis that brought him home.</Flavor>
 <Artist>Nils Hamm</Artist>
 <Multiverseid>378390</Multiverseid>
@@ -663,7 +663,7 @@ Creatures your opponents control lose flying and can't have or gain flying.</Car
 <Artist>Robbie Trevino</Artist>
 <Multiverseid>378404</Multiverseid>
 <Rulings>2014/02/01: The Archetype's second ability applies to each creature controlled by any of your opponents, no matter when it entered the battlefield.
-2014/02/01: While you control an Archetype, continuous effects generated by the resolution of spells and abilities that would give the specified ability to creatures your opponents control aren't created. For example, if you control Archetype of Courage, a spell cast by an opponent that gives creatures he or she controls first strike wouldn't cause the creatures to have first strike, even if later in the turn Archetype of Courage left the battlefield. (If the spell has additional effects, such as raising the power of the creatures, those effects will apply as normal.)
+2014/02/01: While you control an Archetype, continuous effects generated by the resolution of spells and abilities that would give the specified ability to creatures your opponents control aren't created. For example, if you control Archetype of Courage, a spell cast by an opponent that gives creatures they control first strike wouldn't cause the creatures to have first strike, even if later in the turn Archetype of Courage left the battlefield. (If the spell has additional effects, such as raising the power of the creatures, those effects will apply as normal.)
 2014/02/01: Conversely, continuous effects generated by static abilities (such as an Aura that granted the appropriate ability) would resume applying if the Archetype left the battlefield.
 2014/02/01: If you and an opponent each control the same Archetype, no creature controlled by any player will have the appropriate ability.</Rulings>
 <Vintage>Legal</Vintage>
@@ -689,7 +689,7 @@ Heroic — Whenever you cast a spell that targets Chorus of the Tides, scry 1. (
 2013/09/15: When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
 2013/09/15: You choose how to order cards returned to your library after scrying no matter where you put them.
 2013/09/15: You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
-2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it will be countered and none of its effects will happen. You won't scry.</Rulings>
+2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -780,7 +780,7 @@ Enchanted creature doesn't untap during its controller's untap step.</CardText>
 <Type>Enchantment — Aura</Type>
 <ManaCost>U (1)</ManaCost>
 <CardText>Enchant creature
-Enchanted creature has "{1}{U}, {T}: Target player puts the top three cards of his or her library into his or her graveyard."</CardText>
+Enchanted creature has "{1}{U}, {T}: Target player puts the top three cards of their library into their graveyard."</CardText>
 <Flavor>The mind is a vessel that may be emptied like any other.</Flavor>
 <Artist>Dan Scott</Artist>
 <Multiverseid>378410</Multiverseid>
@@ -803,7 +803,7 @@ Enchanted creature has "{1}{U}, {T}: Target player puts the top three cards of h
 <Rulings>2013/09/15: When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
 2013/09/15: You choose how to order cards returned to your library after scrying no matter where you put them.
 2013/09/15: You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
-2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it will be countered and none of its effects will happen. You won't scry.
+2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.
 2014/02/01: The token copies exactly what was printed on the original creature and nothing else (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
 2014/02/01: If the copied creature has {X} in its mana cost, X is considered to be zero.
 2014/02/01: If the copied creature is copying something else (for example, if the copied creature is a Clone), then the token enters the battlefield as whatever that creature copied.
@@ -976,7 +976,7 @@ Enchanted creature has "{T}: Scry 1, then draw a card." (To scry 1, look at the 
 <Rulings>2013/09/15: When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
 2013/09/15: You choose how to order cards returned to your library after scrying no matter where you put them.
 2013/09/15: You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
-2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it will be countered and none of its effects will happen. You won't scry.</Rulings>
+2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -997,10 +997,10 @@ Enchanted creature has "{T}: Scry 1, then draw a card." (To scry 1, look at the 
 2014/02/01: You make the decision whether to exchange control of <Perplexing Chimera> and the spell as the triggered ability resolves.
 2014/02/01: If <Perplexing Chimera> leaves the battlefield or the spell leaves the stack before the triggered ability resolves, you can't make the exchange.
 2014/02/01: Neither <Perplexing Chimera> nor the spell changes zones. Only control of them is exchanged.
-2014/02/01: After the ability resolves, you control the spell. Any instance of "you" in that spell's text now refers to you, "an opponent" refers to one of your opponents, and so on. The change of control happens before new targets are chosen, so any targeting restrictions such as "target opponent" or "target creature you control" are now made in reference to you, not the spell's original controller. You may change those targets to be legal in reference to you, or, if those are the spell's only targets, the spell will be countered on resolution for having illegal targets. When the spell resolves, any illegal targets are unaffected by it and you make all decisions the spell's effect calls for.
+2014/02/01: After the ability resolves, you control the spell. Any instance of "you" in that spell's text now refers to you, "an opponent" refers to one of your opponents, and so on. The change of control happens before new targets are chosen, so any targeting restrictions such as "target opponent" or "target creature you control" are now made in reference to you, not the spell's original controller. You may change those targets to be legal in reference to you, or, if those are the spell's only targets, the spell will doesn't resolve for having illegal targets. When the spell resolves, any illegal targets are unaffected by it and you make all decisions the spell's effect calls for.
 2014/02/01: You may change any of the spell's targets. If you change a target, you must choose a legal target for the spell. If you can't, you must leave the target the same (even if that target is now illegal).
 2014/02/01: Gaining control of a spell and changing its targets won't cause any heroic abilities of the new targets to trigger.
-2014/02/01: If you gain control of an instant or sorcery spell, it will be put into its owner's graveyard as it resolves or is countered.
+2014/02/01: If you gain control of an instant or sorcery spell, it will be put into its owner's graveyard as it resolves, fails to resolve, or is countered.
 2014/02/01: In some unusual cases, you may not control <Perplexing Chimera> when its triggered ability resolves (perhaps because the triggered ability triggered again and resolved while the original ability was on the stack). In these cases, you can exchange control of <Perplexing Chimera> and the spell that causes the ability to trigger, even if you control neither of them. If you do, you'll be able to change targets of the spell, not the spell's new controller.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1104,11 +1104,11 @@ Enchanted creature can block only creatures with flying.</CardText>
 <Rulings>2013/09/15: When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
 2013/09/15: You choose how to order cards returned to your library after scrying no matter where you put them.
 2013/09/15: You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
-2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it will be countered and none of its effects will happen. You won't scry.
+2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.
 2014/02/01: If a creature affected by <Sudden Storm> changes controllers before its old controller's next untap step, <Sudden Storm> will prevent it from becoming untapped during its new controller's next untap step.
 2014/02/01: This spell can target tapped creatures. If a targeted creature is already tapped when the spell resolves, that creature remains tapped and doesn't untap during its controller's next untap step.
 2014/02/01: If you chose two targets and one is an illegal target when <Sudden Storm> resolves, that creature won't become tapped and it won't be stopped from untapping during its controller's next untap step. It won't be affected by <Sudden Storm> in any way.
-2014/02/01: If you choose zero targets, you'll just scry 1 when the ability resolves. However, if you choose at least one target and all of <Sudden Storm>'s targets are illegal as it tries to resolve, the spell will be countered and none of its effects will happen. You won't scry in that case.</Rulings>
+2014/02/01: If you choose zero targets, you'll just scry 1 when the ability resolves. However, if you choose at least one target and all of <Sudden Storm>'s targets are illegal as it tries to resolve, the spell won't resolve and none of its effects will happen. You won't scry in that case.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1143,7 +1143,7 @@ Enchanted creature can block only creatures with flying.</CardText>
 Tromokratis can't be blocked unless all creatures defending player controls block it. (If any creature that player controls doesn't block this creature, it can't be blocked.)</CardText>
 <Artist>Matt Stewart</Artist>
 <Multiverseid>378427</Multiverseid>
-<Rulings>2014/02/01: The defending player may block <Tromokratis> with each creature he or she controls. If that player can't, perhaps because one of those creatures is tapped, or chooses not to, <Tromokratis> can't be blocked.
+<Rulings>2014/02/01: The defending player may block <Tromokratis> with each creature they control. If that player can't, perhaps because one of those creatures is tapped, or chooses not to, <Tromokratis> can't be blocked.
 2014/02/01: <Tromokratis> (like all attacking and blocking creatures) remains an attacking or blocking creature until the end of combat step is over. Notably, it will still be an attacking or blocking creature during the combat damage step, so any abilities an opponent controls that trigger when a creature dies as a result of combat damage could target <Tromokratis>.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1203,7 +1203,7 @@ Creatures your opponents control lose deathtouch and can't have or gain deathtou
 <Artist>Chris Rahn</Artist>
 <Multiverseid>378430</Multiverseid>
 <Rulings>2014/02/01: The Archetype's second ability applies to each creature controlled by any of your opponents, no matter when it entered the battlefield.
-2014/02/01: While you control an Archetype, continuous effects generated by the resolution of spells and abilities that would give the specified ability to creatures your opponents control aren't created. For example, if you control Archetype of Courage, a spell cast by an opponent that gives creatures he or she controls first strike wouldn't cause the creatures to have first strike, even if later in the turn Archetype of Courage left the battlefield. (If the spell has additional effects, such as raising the power of the creatures, those effects will apply as normal.)
+2014/02/01: While you control an Archetype, continuous effects generated by the resolution of spells and abilities that would give the specified ability to creatures your opponents control aren't created. For example, if you control Archetype of Courage, a spell cast by an opponent that gives creatures they control first strike wouldn't cause the creatures to have first strike, even if later in the turn Archetype of Courage left the battlefield. (If the spell has additional effects, such as raising the power of the creatures, those effects will apply as normal.)
 2014/02/01: Conversely, continuous effects generated by static abilities (such as an Aura that granted the appropriate ability) would resume applying if the Archetype left the battlefield.
 2014/02/01: If you and an opponent each control the same Archetype, no creature controlled by any player will have the appropriate ability.</Rulings>
 <Vintage>Legal</Vintage>
@@ -1263,7 +1263,7 @@ Creatures your opponents control lose deathtouch and can't have or gain deathtou
 <Artist>Vincent Proce</Artist>
 <Multiverseid>378433</Multiverseid>
 <Rulings>2014/02/01: <Bile Blight> has only one target. Other creatures with that name are not targeted. For example, a creature with hexproof will still get -3/-3 if it has the same name as the target creature.
-2014/02/01: If the target creature is an illegal target as <Bile Blight> tries to resolve, it will be countered and none of its effects will happen. No creature will get -3/-3.
+2014/02/01: If the target creature is an illegal target as <Bile Blight> tries to resolve, it won't resolve and none of its effects will happen. No creature will get -3/-3.
 2014/02/01: The name of a creature token is the same as its creature types, unless the token is a copy of another creature or the effect that created the token specifically gives it a different name. For example, a 1/1 Cat Soldier creature token is named "Cat Soldier."</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1342,7 +1342,7 @@ Enchanted creature has "{1}{B}, {T}: Target player loses 2 life."</CardText>
 <Rulings>2013/09/15: When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
 2013/09/15: You choose how to order cards returned to your library after scrying no matter where you put them.
 2013/09/15: You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
-2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it will be countered and none of its effects will happen. You won't scry.
+2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.
 2014/02/01: Only creatures on the battlefield when <Drown in Sorrow> resolves will get -2/-2. Creatures that enter the battlefield later in the turn will not.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1418,7 +1418,7 @@ Enchanted creature has "{1}{B}, {T}: Target player loses 2 life."</CardText>
 <Rulings>2013/09/15: When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
 2013/09/15: You choose how to order cards returned to your library after scrying no matter where you put them.
 2013/09/15: You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
-2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it will be countered and none of its effects will happen. You won't scry.
+2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.
 2014/02/01: The effect that causes the creature to gain indestructible doesn't have a duration. It lasts until the creature leaves the battlefield.
 2014/02/01: The indestructible granted by <Fated Return> isn't part of the creature's copiable values. If the creature is copied, the copy won't have indestructible (unless the creature otherwise has indestructible).</Rulings>
 <Vintage>Legal</Vintage>
@@ -1492,12 +1492,12 @@ Inspired — Whenever Forlorn Pseudamma becomes untapped, you may pay {2}{B}. If
 <Name>Gild</Name>
 <Type>Sorcery</Type>
 <ManaCost>3B (4)</ManaCost>
-<CardText>Exile target creature. Create a colorless artifact token named Gold. It has "Sacrifice this artifact: Add one mana of any color to your mana pool."</CardText>
+<CardText>Exile target creature. Create a colorless artifact token named Gold. It has "Sacrifice this artifact: Add one mana of any color."</CardText>
 <Flavor>Merchants of the Underworld trade in coins of clay. Gold serves another purpose.</Flavor>
 <Artist>Richard Wright</Artist>
 <Multiverseid>378445</Multiverseid>
 <Rulings>2014/02/01: You will control the token, no matter who controls the target creature.
-2014/02/01: If the creature isn't a legal target as <Gild> tries to resolve, the spell will be countered and none of its effects will happen. No token will be created.</Rulings>
+2014/02/01: If the creature isn't a legal target as <Gild> tries to resolve, the spell won't resolve and none of its effects will happen. No token will be created.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1556,7 +1556,7 @@ Enchanted creature gets +3/+3 and has flying.</CardText>
 <Name>Marshmist Titan</Name>
 <Type>Creature — Giant 4/5</Type>
 <ManaCost>6B (7)</ManaCost>
-<CardText>Marshmist Titan costs {X} less to cast, where X is your devotion to black. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)</CardText>
+<CardText>This spell costs {X} less to cast, where X is your devotion to black. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)</CardText>
 <Flavor>A favorite of Erebos, for it has sent many to the Underworld.</Flavor>
 <Artist>Volkan Baga</Artist>
 <Multiverseid>378448</Multiverseid>
@@ -1821,7 +1821,7 @@ Creatures your opponents control lose trample and can't have or gain trample.</C
 <Artist>Mathias Kollros</Artist>
 <Multiverseid>378460</Multiverseid>
 <Rulings>2014/02/01: The Archetype's second ability applies to each creature controlled by any of your opponents, no matter when it entered the battlefield.
-2014/02/01: While you control an Archetype, continuous effects generated by the resolution of spells and abilities that would give the specified ability to creatures your opponents control aren't created. For example, if you control Archetype of Courage, a spell cast by an opponent that gives creatures he or she controls first strike wouldn't cause the creatures to have first strike, even if later in the turn Archetype of Courage left the battlefield. (If the spell has additional effects, such as raising the power of the creatures, those effects will apply as normal.)
+2014/02/01: While you control an Archetype, continuous effects generated by the resolution of spells and abilities that would give the specified ability to creatures your opponents control aren't created. For example, if you control Archetype of Courage, a spell cast by an opponent that gives creatures they control first strike wouldn't cause the creatures to have first strike, even if later in the turn Archetype of Courage left the battlefield. (If the spell has additional effects, such as raising the power of the creatures, those effects will apply as normal.)
 2014/02/01: Conversely, continuous effects generated by static abilities (such as an Aura that granted the appropriate ability) would resume applying if the Archetype left the battlefield.
 2014/02/01: If you and an opponent each control the same Archetype, no creature controlled by any player will have the appropriate ability.</Rulings>
 <Vintage>Legal</Vintage>
@@ -1837,14 +1837,14 @@ Creatures your opponents control lose trample and can't have or gain trample.</C
 <Name>Bolt of Keranos</Name>
 <Type>Sorcery</Type>
 <ManaCost>1RR (3)</ManaCost>
-<CardText>Bolt of Keranos deals 3 damage to target creature or player. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)</CardText>
+<CardText>Bolt of Keranos deals 3 damage to any target. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)</CardText>
 <Flavor>The breakthroughs granted by Keranos, god of epiphany, can be surprisingly literal.</Flavor>
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>378461</Multiverseid>
 <Rulings>2013/09/15: When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
 2013/09/15: You choose how to order cards returned to your library after scrying no matter where you put them.
 2013/09/15: You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
-2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it will be countered and none of its effects will happen. You won't scry.</Rulings>
+2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1946,7 +1946,7 @@ Enchanted creature gets +1/+1.</CardText>
 <Rulings>2013/09/15: When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
 2013/09/15: You choose how to order cards returned to your library after scrying no matter where you put them.
 2013/09/15: You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
-2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it will be countered and none of its effects will happen. You won't scry.</Rulings>
+2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2091,7 +2091,7 @@ Impetuous Sunchaser attacks each combat if able.</CardText>
 <Name>Lightning Volley</Name>
 <Type>Instant</Type>
 <ManaCost>3R (4)</ManaCost>
-<CardText>Until end of turn, creatures you control gain "{T}: This creature deals 1 damage to target creature or player."</CardText>
+<CardText>Until end of turn, creatures you control gain "{T}: This creature deals 1 damage to any target."</CardText>
 <Flavor>"We are the motes of rain that join to make the thundercloud. The power of the storm god surges through us!"</Flavor>
 <Artist>John Avon</Artist>
 <Multiverseid>378473</Multiverseid>
@@ -2183,12 +2183,11 @@ When Pharagax Giant enters the battlefield, if tribute wasn't paid, Pharagax Gia
 <Name>Pinnacle of Rage</Name>
 <Type>Sorcery</Type>
 <ManaCost>4RR (6)</ManaCost>
-<CardText>Pinnacle of Rage deals 3 damage to each of two target creatures and/or players.</CardText>
+<CardText>Pinnacle of Rage deals 3 damage to each of two targets.</CardText>
 <Flavor>Mount Sulano erupted not in magma but in anger.</Flavor>
 <Artist>Noah Bradley</Artist>
 <Multiverseid>378477</Multiverseid>
-<Rulings>2014/02/01: You must choose two legal targets to cast <Pinnacle of Rage>.
-2014/02/01: If one of the targets is a player, you can redirect the damage dealt by <Pinnacle of Rage> to a planeswalker that player controls. However, <Pinnacle of Rage> can't be used to deal damage to both a player and a planeswalker he or she controls.</Rulings>
+<Rulings>2014/02/01: You must choose two legal targets to cast <Pinnacle of Rage>.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2282,7 +2281,7 @@ Inspired — Whenever Satyr Nyx-Smith becomes untapped, you may pay {2}{R}. If y
 <Rulings>2013/09/15: When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
 2013/09/15: You choose how to order cards returned to your library after scrying no matter where you put them.
 2013/09/15: You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
-2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it will be countered and none of its effects will happen. You won't scry.</Rulings>
+2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2322,7 +2321,7 @@ Inspired — Whenever Satyr Nyx-Smith becomes untapped, you may pay {2}{R}. If y
 <Rulings>2013/09/15: When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
 2013/09/15: You choose how to order cards returned to your library after scrying no matter where you put them.
 2013/09/15: You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
-2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it will be countered and none of its effects will happen. You won't scry.</Rulings>
+2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2381,7 +2380,7 @@ Whenever enchanted creature attacks, it gets +X/+0 until end of turn, where X is
 <Name>Whims of the Fates</Name>
 <Type>Sorcery</Type>
 <ManaCost>5R (6)</ManaCost>
-<CardText>Starting with you, each player separates all permanents he or she controls into three piles. Then each player chooses one of his or her piles at random and sacrifices those permanents. (Piles can be empty.)</CardText>
+<CardText>Starting with you, each player separates all permanents they control into three piles. Then each player chooses one of their piles at random and sacrifices those permanents. (Piles can be empty.)</CardText>
 <Artist>Seb McKinnon</Artist>
 <Multiverseid>378487</Multiverseid>
 <Rulings>2014/02/01: To choose a pile at random, each pile must have an equal chance of being chosen. There are many ways to do this, including assigning each pile a number and rolling a die.
@@ -2406,7 +2405,7 @@ Creatures your opponents control lose hexproof and can't have or gain hexproof.<
 <Artist>Slawomir Maniak</Artist>
 <Multiverseid>378488</Multiverseid>
 <Rulings>2014/02/01: The Archetype's second ability applies to each creature controlled by any of your opponents, no matter when it entered the battlefield.
-2014/02/01: While you control an Archetype, continuous effects generated by the resolution of spells and abilities that would give the specified ability to creatures your opponents control aren't created. For example, if you control Archetype of Courage, a spell cast by an opponent that gives creatures he or she controls first strike wouldn't cause the creatures to have first strike, even if later in the turn Archetype of Courage left the battlefield. (If the spell has additional effects, such as raising the power of the creatures, those effects will apply as normal.)
+2014/02/01: While you control an Archetype, continuous effects generated by the resolution of spells and abilities that would give the specified ability to creatures your opponents control aren't created. For example, if you control Archetype of Courage, a spell cast by an opponent that gives creatures they control first strike wouldn't cause the creatures to have first strike, even if later in the turn Archetype of Courage left the battlefield. (If the spell has additional effects, such as raising the power of the creatures, those effects will apply as normal.)
 2014/02/01: Conversely, continuous effects generated by static abilities (such as an Aura that granted the appropriate ability) would resume applying if the Archetype left the battlefield.
 2014/02/01: If you and an opponent each control the same Archetype, no creature controlled by any player will have the appropriate ability.</Rulings>
 <Vintage>Legal</Vintage>
@@ -2467,10 +2466,10 @@ You may play the top card of your library if it's a land card.
 Whenever a land enters the battlefield under your control, you gain 1 life.</CardText>
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>378491</Multiverseid>
-<Rulings>2014/02/01: <Courser of Kruphix> doesn't change when you can play lands. You can do so only during your main phase when you have priority and the stack is empty.
-2014/02/01: Playing a land with the second ability counts as your land play for the turn. If you play a land from your hand during your turn, you won't be able to play an additional land from the top of your library unless another effect allows you to.
-2014/02/01: The last ability triggers whenever a land enters the battlefield under your control for any reason. It triggers whenever you play a land, as well as whenever a spell or ability (such as Rampant Growth) causes you to put a land onto the battlefield under your control. It will even trigger when a spell or ability causes another player to put a land onto the battlefield under your control (as can happen with Yavimaya Dryad's ability, for example).
-2014/02/01: While playing with the top card of your library revealed, if you draw multiple cards, reveal each one before you draw it.</Rulings>
+<Rulings>2018/03/16: While playing with the top card of your library revealed, if you draw multiple cards, reveal each one before you draw it. If you put multiple cards on top of your library at once, reveal only the one new top card.
+2018/03/16: If the top card of your library changes while you're casting a spell or activating an ability, you don't reveal the new top card until you finish casting that spell or activating that ability.
+2018/03/16: <Courser of Kruphix> doesn't change when you can play lands. You can do so only during your main phase when you have priority and the stack is empty.
+2018/03/16: Playing a land from the top of your library counts as your land play for the turn. Once you play a land during your turn, you won't be able to play an additional land from the top of your library unless another effect (such as that of Azusa, Lost but Seeking) allows you to.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2509,7 +2508,7 @@ Whenever a land enters the battlefield under your control, you gain 1 life.</Car
 <Rulings>2013/09/15: When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
 2013/09/15: You choose how to order cards returned to your library after scrying no matter where you put them.
 2013/09/15: You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
-2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it will be countered and none of its effects will happen. You won't scry.</Rulings>
+2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2582,7 +2581,7 @@ Whenever a land enters the battlefield under your control, you gain 1 life.</Car
 <ManaCost>1G (2)</ManaCost>
 <CardText>Enchant creature
 When Karametra's Favor enters the battlefield, draw a card.
-Enchanted creature has "{T}: Add one mana of any color to your mana pool."</CardText>
+Enchanted creature has "{T}: Add one mana of any color."</CardText>
 <Flavor>The harvest god's cornucopia contains the fruits of the fields, the forest, and beyond.</Flavor>
 <Artist>Chase Stone</Artist>
 <Multiverseid>378497</Multiverseid>
@@ -2735,7 +2734,7 @@ Enchanted creature gets +3/+1.</CardText>
 <Rulings>2013/09/15: When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
 2013/09/15: You choose how to order cards returned to your library after scrying no matter where you put them.
 2013/09/15: You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
-2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it will be countered and none of its effects will happen. You won't scry.
+2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.
 2014/02/01: You can choose to search for only one basic land card with <Peregrination>. If you do, you'll put that card onto the battlefield tapped.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2945,11 +2944,11 @@ When Snake of the Golden Grove enters the battlefield, if tribute wasn't paid, y
 <Name>Unravel the Aether</Name>
 <Type>Instant</Type>
 <ManaCost>1G (2)</ManaCost>
-<CardText>Choose target artifact or enchantment. Its owner shuffles it into his or her library.</CardText>
+<CardText>Choose target artifact or enchantment. Its owner shuffles it into their library.</CardText>
 <Flavor>Thaumaturges of Theros have learned to weave their magic into the world around them, but it can be pulled apart strand by strand.</Flavor>
 <Artist>Jung Park</Artist>
 <Multiverseid>378515</Multiverseid>
-<Rulings>2014/02/01: If the artifact or enchantment is an illegal target as <Unravel the Aether> tries to resolve, it will be countered and none of its effects will happen. No library will be shuffled.
+<Rulings>2014/02/01: If the artifact or enchantment is an illegal target as <Unravel the Aether> tries to resolve, it won't resolve and none of its effects will happen. No library will be shuffled.
 2014/02/01: If the artifact or enchantment is a token, it will be shuffled into its owner's library when <Unravel the Aether> resolves, then will cease to exist. For practical purposes, whatever item is representing the token should not actually be put into the library, though the library is still shuffled.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3137,7 +3136,7 @@ Whenever you cast a creature spell, you may search your library for a Forest or 
 <ManaCost>2BR (4)</ManaCost>
 <CardText>Indestructible
 As long as your devotion to black and red is less than seven, Mogis isn't a creature.
-At the beginning of each opponent's upkeep, Mogis deals 2 damage to that player unless he or she sacrifices a creature.</CardText>
+At the beginning of each opponent's upkeep, Mogis deals 2 damage to that player unless they sacrifice a creature.</CardText>
 <Artist>Peter Mohrbacher</Artist>
 <Multiverseid>378523</Multiverseid>
 <Rulings>2013/09/15: Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
@@ -3150,7 +3149,7 @@ At the beginning of each opponent's upkeep, Mogis deals 2 damage to that player 
 2013/09/15: The abilities of Gods function as long as they're on the battlefield, regardless of whether they're creatures.
 2013/09/15: If a God is attacking or blocking and it stops being a creature, it will be removed from combat.
 2013/09/15: If a God is dealt damage, then stops being a creature, then becomes a creature again later in the same turn, the damage will still be marked on it. This is also true for any effects that were affecting the God when it was originally a creature. (Note that in most cases, the damage marked on the God won't matter because it has indestructible.)
-2014/02/01: If the player can't sacrifice a creature (usually because he or she doesn't control one), Mogis will deal 2 damage to him or her.</Rulings>
+2014/02/01: If the player can't sacrifice a creature (usually because they don't control one), Mogis will deal 2 damage to them.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3166,7 +3165,7 @@ At the beginning of each opponent's upkeep, Mogis deals 2 damage to that player 
 <ManaCost>3UB (5)</ManaCost>
 <CardText>Indestructible
 As long as your devotion to blue and black is less than seven, Phenax isn't a creature.
-Creatures you control have "{T}: Target player puts the top X cards of his or her library into his or her graveyard, where X is this creature's toughness."</CardText>
+Creatures you control have "{T}: Target player puts the top X cards of their library into their graveyard, where X is this creature's toughness."</CardText>
 <Artist>Ryan Barger</Artist>
 <Multiverseid>378524</Multiverseid>
 <Rulings>2013/09/15: Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
@@ -3233,7 +3232,7 @@ Creatures you control have "{T}: Target player puts the top X cards of his or he
 <Type>Creature — Zombie Siren 2/1</Type>
 <ManaCost>1UB (3)</ManaCost>
 <CardText>Flying
-Inspired — Whenever Siren of the Silent Song becomes untapped, each opponent discards a card, then puts the top card of his or her library into his or her graveyard.</CardText>
+Inspired — Whenever Siren of the Silent Song becomes untapped, each opponent discards a card, then puts the top card of their library into their graveyard.</CardText>
 <Artist>Anthony Palumbo</Artist>
 <Multiverseid>378527</Multiverseid>
 <Rulings>2014/02/01: Inspired abilities trigger no matter how the creature becomes untapped: by the turn-based action at the beginning of the untap step or by a spell or ability.
@@ -3283,7 +3282,7 @@ At the beginning of combat on your turn, another target creature you control gai
 <Type>Artifact</Type>
 <ManaCost>XXX (0)</ManaCost>
 <CardText>Astral Cornucopia enters the battlefield with X charge counters on it.
-{T}: Choose a color. Add one mana of that color to your mana pool for each charge counter on Astral Cornucopia.</CardText>
+{T}: Choose a color. Add one mana of that color for each charge counter on Astral Cornucopia.</CardText>
 <Artist>Aleksi Briclot</Artist>
 <Multiverseid>378529</Multiverseid>
 <Rulings>2014/02/01: If you choose 1 for the value of X, <Astral Cornucopia> will cost {3} to cast and enter the battlefield with one charge counter. If you choose 2 for the value of X, it will cost {6} to cast and enter the battlefield with two charge counters, and so on.
@@ -3376,7 +3375,7 @@ Equip {2}</CardText>
 <Name>Springleaf Drum</Name>
 <Type>Artifact</Type>
 <ManaCost>1 (1)</ManaCost>
-<CardText>{T}, Tap an untapped creature you control: Add one mana of any color to your mana pool.</CardText>
+<CardText>{T}, Tap an untapped creature you control: Add one mana of any color.</CardText>
 <Flavor>"The music is in the drum. I simply coax it out to be heard."</Flavor>
 <Artist>Seb McKinnon</Artist>
 <Multiverseid>378534</Multiverseid>
@@ -3395,13 +3394,13 @@ Equip {2}</CardText>
 <Type>Land</Type>
 <CardText>Temple of Enlightenment enters the battlefield tapped.
 When Temple of Enlightenment enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
-{T}: Add {W} or {U} to your mana pool.</CardText>
+{T}: Add {W} or {U}.</CardText>
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>378535</Multiverseid>
 <Rulings>2013/09/15: When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
 2013/09/15: You choose how to order cards returned to your library after scrying no matter where you put them.
 2013/09/15: You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
-2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it will be countered and none of its effects will happen. You won't scry.</Rulings>
+2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3416,13 +3415,13 @@ When Temple of Enlightenment enters the battlefield, scry 1. (Look at the top ca
 <Type>Land</Type>
 <CardText>Temple of Malice enters the battlefield tapped.
 When Temple of Malice enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
-{T}: Add {B} or {R} to your mana pool.</CardText>
+{T}: Add {B} or {R}.</CardText>
 <Artist>Sam Burley</Artist>
 <Multiverseid>378536</Multiverseid>
 <Rulings>2013/09/15: When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
 2013/09/15: You choose how to order cards returned to your library after scrying no matter where you put them.
 2013/09/15: You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
-2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it will be countered and none of its effects will happen. You won't scry.</Rulings>
+2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3437,13 +3436,13 @@ When Temple of Malice enters the battlefield, scry 1. (Look at the top card of y
 <Type>Land</Type>
 <CardText>Temple of Plenty enters the battlefield tapped.
 When Temple of Plenty enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
-{T}: Add {G} or {W} to your mana pool.</CardText>
+{T}: Add {G} or {W}.</CardText>
 <Artist>Noah Bradley</Artist>
 <Multiverseid>378537</Multiverseid>
 <Rulings>2013/09/15: When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
 2013/09/15: You choose how to order cards returned to your library after scrying no matter where you put them.
 2013/09/15: You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
-2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it will be countered and none of its effects will happen. You won't scry.</Rulings>
+2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

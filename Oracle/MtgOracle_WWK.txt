@@ -199,6 +199,7 @@ Whenever a player casts a red spell, you may gain 1 life.</CardText>
 <Flavor>"A river of lava is just another river to cross."</Flavor>
 <Artist>Matt Stewart</Artist>
 <Multiverseid>194708</Multiverseid>
+<Rulings>2018/03/16: <Kor Firewalker>'s triggered ability resolves before the red spell that caused it to trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -301,18 +302,18 @@ Whenever a creature you control with defender blocks, you may gain 2 life.</Card
 <Name>Refraction Trap</Name>
 <Type>Instant — Trap</Type>
 <ManaCost>3W (4)</ManaCost>
-<CardText>If an opponent cast a red instant or sorcery spell this turn, you may pay {W} rather than pay Refraction Trap's mana cost.
-Prevent the next 3 damage that a source of your choice would deal to you and/or permanents you control this turn. If damage is prevented this way, Refraction Trap deals that much damage to target creature or player.</CardText>
+<CardText>If an opponent cast a red instant or sorcery spell this turn, you may pay {W} rather than pay this spell's mana cost.
+Prevent the next 3 damage that a source of your choice would deal to you and/or permanents you control this turn. If damage is prevented this way, Refraction Trap deals that much damage to any target.</CardText>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Multiverseid>189163</Multiverseid>
-<Rulings>2010/03/01: <Refraction Trap>'s only target is the creature or player it may deal damage to. You choose that target as you cast <Refraction Trap>, not at the time it prevents damage.
+<Rulings>2010/03/01: <Refraction Trap>'s only target is the permanent or player it may deal damage to. You choose that target as you cast <Refraction Trap>, not at the time it prevents damage.
 2010/03/01: <Refraction Trap> doesn't target the source of the damage it prevents. You choose that source as <Refraction Trap> resolves. If you cast <Refraction Trap> for {W}, the source you choose doesn't have to be the red instant or sorcery spell an opponent cast.
-2010/03/01: If the targeted creature or player is an illegal target by the time <Refraction Trap> resolves, the entire spell is countered. No damage will be prevented.
+2010/03/01: If the targeted permanent or player is an illegal target by the time <Refraction Trap> resolves, the entire spell doesn't resolve. No damage will be prevented.
 2010/03/01: <Refraction Trap> can prevent damage that would be dealt to you, one or more creatures you control, and/or one or more planeswalkers you control.
 2010/03/01: If the chosen source would simultaneously deal damage to multiple permanents you control, or would simultaneously deal damage to you and at least one permanent you control, you choose which of that damage to prevent. For example, if the chosen source is Earthquake, you might choose to prevent the next 2 damage it would deal to you and the next 1 damage it would deal to a creature you control. You don't decide until the point at which the source would deal its damage.
-2010/03/01: <Refraction Trap>'s effect is not a redirection effect. If it prevents damage, <Refraction Trap> (not the chosen source) deals damage to the targeted creature or player as part of that prevention effect. <Refraction Trap> is the source of the new damage, so the characteristics of the original source (such as its color, or whether it had lifelink or deathtouch) don't affect this damage. The new damage is not combat damage, even if the prevented damage was. Since you control the source of the new damage, if you targeted an opponent with <Refraction Trap>, you may have <Refraction Trap> deal its damage to a planeswalker that opponent controls.
+2010/03/01: <Refraction Trap>'s effect is not a redirection effect. If it prevents damage, <Refraction Trap> (not the chosen source) deals damage to the targeted permanent or player as part of that prevention effect. <Refraction Trap> is the source of the new damage, so the characteristics of the original source (such as its color, or whether it had lifelink or deathtouch) don't affect this damage. The new damage is not combat damage, even if the prevented damage was.
 2010/03/01: If the chosen source would deal damage, <Refraction Trap> prevents 3 of that source's damage and the source deals its excess damage (if any) at the same time. Immediately afterward, as part of that same prevention effect, <Refraction Trap> deals its damage. This happens before state-based actions are checked, and before the spell or ability that caused damage to be dealt resumes its resolution.
-2010/03/01: Whether the targeted creature or player is still a legal target is no longer checked after <Refraction Trap> resolves. For example, if a creature targeted by <Refraction Trap> gains shroud after <Refraction Trap> resolves but before it prevents damage, <Refraction Trap> will still prevent damage and still deal damage to that creature. If <Refraction Trap> can't deal damage to the targeted creature or player (because the creature has gained protection from white, is no longer on the battlefield, or is no longer a creature, or the player is no longer in the game, for example), it will still prevent damage. It just won't deal any damage itself.
+2010/03/01: Whether the targeted permanent or player is still a legal target is no longer checked after <Refraction Trap> resolves. For example, if a creature targeted by <Refraction Trap> gains shroud after <Refraction Trap> resolves but before it prevents damage, <Refraction Trap> will still prevent damage and still deal damage to that creature. If <Refraction Trap> can't deal damage to the targeted permanent or player (because the creature is no longer on the battlefield, or is no longer a creature, or the player is no longer in the game, for example), it will still prevent damage. It just won't deal any damage itself.
 2010/03/01: If <Refraction Trap> doesn't prevent any damage (perhaps because a different prevention effect is applied to the damage the source would deal, or because the damage is unpreventable), <Refraction Trap> won't deal any damage itself.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -447,7 +448,7 @@ Landfall — If you had a land enter the battlefield under your control this tur
 —Anitan, Ondu cleric</Flavor>
 <Artist>Kieran Yanner</Artist>
 <Multiverseid>201568</Multiverseid>
-<Rulings>2016/09/20: If one target permanent becomes an illegal target, the other will be returned to its owner's hand. If both targets become illegal, <Aether Tradewinds> will be countered.</Rulings>
+<Rulings>2016/09/20: If one target permanent becomes an illegal target, the other will be returned to its owner's hand. If both targets become illegal, <Aether Tradewinds> won't resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -534,7 +535,7 @@ Enclave Elite enters the battlefield with a +1/+1 counter on it for each time it
 <Name>Halimar Excavator</Name>
 <Type>Creature — Human Wizard Ally 1/3</Type>
 <ManaCost>1U (2)</ManaCost>
-<CardText>Whenever Halimar Excavator or another Ally enters the battlefield under your control, target player puts the top X cards of his or her library into his or her graveyard, where X is the number of Allies you control.</CardText>
+<CardText>Whenever Halimar Excavator or another Ally enters the battlefield under your control, target player puts the top X cards of their library into their graveyard, where X is the number of Allies you control.</CardText>
 <Artist>Kev Walker</Artist>
 <Multiverseid>197129</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -571,11 +572,11 @@ Enclave Elite enters the battlefield with a +1/+1 counter on it for each time it
 <CardText>+2: Look at the top card of target player's library. You may put that card on the bottom of that player's library.
 0: Draw three cards, then put two cards from your hand on top of your library in any order.
 -1: Return target creature to its owner's hand.
--12: Exile all cards from target player's library, then that player shuffles his or her hand into his or her library.</CardText>
+-12: Exile all cards from target player's library, then that player shuffles their hand into their library.</CardText>
 <Artist>Jason Chan</Artist>
 <Multiverseid>195297</Multiverseid>
-<Rulings>2016/06/08: You draw three cards and put two cards back all while Jace's second ability is resolving. Nothing can happen between the two, and no player may choose to take actions.
-2016/06/08: If the targeted player for Jace's last ability has no cards in hand, that player shuffles nothing into his or her library, and that player's library will remain empty. That player won't lose the game until he or she tries to draw from the empty library.</Rulings>
+<Rulings>2018/03/16: You draw three cards and put two cards back all while Jace's second ability is resolving. Nothing can happen between the two, and no player may choose to take actions.
+2018/03/16: If the targeted player for Jace's last ability has no cards in hand, that player shuffles nothing into their library, and that player's library will remain empty. That player won't lose the game until they try to draw from the empty library.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -635,7 +636,7 @@ Landfall — If you had a land enter the battlefield under your control this tur
 <Name>Permafrost Trap</Name>
 <Type>Instant — Trap</Type>
 <ManaCost>2UU (4)</ManaCost>
-<CardText>If an opponent had a green creature enter the battlefield under his or her control this turn, you may pay {U} rather than pay Permafrost Trap's mana cost.
+<CardText>If an opponent had a green creature enter the battlefield under their control this turn, you may pay {U} rather than pay this spell's mana cost.
 Tap up to two target creatures. Those creatures don't untap during their controller's next untap step.</CardText>
 <Artist>Howard Lyon</Artist>
 <Multiverseid>194703</Multiverseid>
@@ -713,7 +714,7 @@ At the beginning of each end step, if there are three or more quest counters on 
 Counter target spell unless its controller pays {2}. Draw a card for each time Spell Contortion was kicked.</CardText>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>194714</Multiverseid>
-<Rulings>2010/03/01: If the targeted spell is an illegal target by the time <Spell Contortion> resolves, <Spell Contortion> is countered. You won't draw any cards.
+<Rulings>2010/03/01: If the targeted spell is an illegal target by the time <Spell Contortion> resolves, <Spell Contortion> doesn't resolve. You won't draw any cards.
 2010/03/01: If <Spell Contortion> resolves, you draw a card for each time <Spell Contortion> was kicked, regardless of whether the targeted spell's controller pays {2} or whether the targeted spell is countered this way.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -746,10 +747,10 @@ Counter target spell unless its controller pays {2}. Draw a card for each time S
 <Type>Legendary Creature — Merfolk Rogue 2/2</Type>
 <ManaCost>1UU (3)</ManaCost>
 <CardText>Islandwalk (This creature can't be blocked as long as defending player controls an Island.)
-Whenever Thada Adel, Acquisitor deals combat damage to a player, search that player's library for an artifact card and exile it. Then that player shuffles his or her library. Until end of turn, you may play that card.</CardText>
+Whenever Thada Adel, Acquisitor deals combat damage to a player, search that player's library for an artifact card and exile it. Then that player shuffles their library. Until end of turn, you may play that card.</CardText>
 <Artist>Andrew Robinson</Artist>
 <Multiverseid>197973</Multiverseid>
-<Rulings>2010/03/01: When the triggered ability resolves, you must search that player's library (and he or she must shuffle it) even if there are no artifact cards in it or you choose not to find one.
+<Rulings>2010/03/01: When the triggered ability resolves, you must search that player's library (and they must shuffle it) even if there are no artifact cards in it or you choose not to find one.
 2010/03/01: The exiled card is played using the normal timing rules for an artifact, as well as any other applicable restrictions. For example, you can't play the card during your combat phase unless it has flash. Similarly, if the exiled card is an artifact land, you can't play it if you've already played a land that turn. If it's a nonland card, you'll have to pay its mana cost. The only thing that's different is you're playing it from the exile zone.
 2010/03/01: If you don't play the card before the turn ends, it simply remains exiled.</Rulings>
 <Vintage>Legal</Vintage>
@@ -811,7 +812,7 @@ Draw a card.</CardText>
 —Maizah Shere, Tazeem lullmage</Flavor>
 <Artist>Scott Chou</Artist>
 <Multiverseid>198396</Multiverseid>
-<Rulings>2010/03/01: If the targeted permanent is an illegal target by the time <Twitch> resolves, the entire spell is countered. You don't draw a card.</Rulings>
+<Rulings>2010/03/01: If the targeted permanent is an illegal target by the time <Twitch> resolves, the entire spell doesn't resolve. You don't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -890,12 +891,12 @@ You can't win the game and your opponents can't lose the game.</CardText>
 <Flavor>His slaves crave death more than they desire freedom. He denies them both.</Flavor>
 <Artist>Chippy</Artist>
 <Multiverseid>197869</Multiverseid>
-<Rulings>2017/11/17: No game effect can cause you to win the game or cause any opponent to lose the game while you control <Abyssal Persecutor>. It doesn't matter whether an opponent has 0 or less life, an opponent is forced to draw a card while his or her library is empty, an opponent has ten or more poison counters, an opponent is dealt combat damage by Phage the Untouchable, you control Felidar Sovereign and have 40 or more life, or so on. You keep playing.
-2017/11/17: Other circumstances can still cause an opponent to lose the game, however. An opponent will lose a game if he or she concedes, if that player is penalized with a Game Loss or a Match Loss during a sanctioned tournament due to a DCI rules infraction, or if that player's Magic Online® game clock runs out of time.
+<Rulings>2017/11/17: No game effect can cause you to win the game or cause any opponent to lose the game while you control <Abyssal Persecutor>. It doesn't matter whether an opponent has 0 or less life, an opponent is forced to draw a card while their library is empty, an opponent has ten or more poison counters, an opponent is dealt combat damage by Phage the Untouchable, you control Felidar Sovereign and have 40 or more life, or so on. You keep playing.
+2017/11/17: Other circumstances can still cause an opponent to lose the game, however. An opponent will lose a game if they concede, if that player is penalized with a Game Loss or a Match Loss during a sanctioned tournament due to a DCI rules infraction, or if that player's Magic Online® game clock runs out of time.
 2017/11/17: Effects that say the game is a draw, such as the _Legends_(TM) card Divine Intervention, are not affected by <Abyssal Persecutor>.
 2017/11/17: <Abyssal Persecutor> won't preclude an opponent's life total from reaching 0 or less. It will just preclude that player from losing the game as a result.
 2017/11/17: If <Abyssal Persecutor> leaves the battlefield while an opponent has 0 or less life, that opponent will lose the game as a state-based action. No player can respond between the time <Abyssal Persecutor> leaves the battlefield and the time that player loses the game.
-2017/11/17: Even though your opponents can't lose the game, a player can't pay an amount of life that's greater than his or her life total. If a player's life total is 0 or less, that player can't pay life at all, with one exception: a player may always pay 0 life.</Rulings>
+2017/11/17: Even though your opponents can't lose the game, a player can't pay an amount of life that's greater than their life total. If a player's life total is 0 or less, that player can't pay life at all, with one exception: a player may always pay 0 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1008,7 +1009,7 @@ Whenever Butcher of Malakir or another creature you control dies, each opponent 
 <Flavor>His verdict is always guilty. His sentence is always death.</Flavor>
 <Artist>Jason Chan</Artist>
 <Multiverseid>197125</Multiverseid>
-<Rulings>2010/03/01: When the triggered ability resolves, first the player whose turn it is (if that player is an opponent) chooses which creature he or she will sacrifice, then each other opponent in turn order does the same, then all chosen creatures are sacrificed at the same time.
+<Rulings>2010/03/01: When the triggered ability resolves, first the player whose turn it is (if that player is an opponent) chooses which creature they will sacrifice, then each other opponent in turn order does the same, then all chosen creatures are sacrificed at the same time.
 2010/03/01: If multiple creatures you control (possibly including <Butcher of Malakir> itself) are put into their owners' graveyards at the same time, <Butcher of Malakir>'s triggered ability will trigger that many times.
 2010/03/01: If you control more than one <Butcher of Malakir> and a creature you control is put into a graveyard, each of those Butchers' abilities will trigger. Each opponent will sacrifice a creature each time one of those abilities resolves.
 2010/03/01: If you and an opponent each control a <Butcher of Malakir> and a creature is put into a graveyard, a chain reaction happens. First the ability of one player's Butcher will trigger, causing each opponent to sacrifice a creature. That sacrifice causes the ability of the other player's Butcher to trigger, and so on.</Rulings>
@@ -1135,7 +1136,7 @@ When enchanted land dies, return that card to its owner's hand.</CardText>
 <Multiverseid>197118</Multiverseid>
 <Rulings>2010/03/01: If multiple Vampires you control (possibly including <Kalastria Highborn> itself) are put into their owners' graveyards at the same time, <Kalastria Highborn>'s ability triggers that many times.
 2010/03/01: You target a player when the ability triggers. You choose whether to pay {B} as the ability resolves. You may pay {B} only once per resolution.
-2010/03/01: If the targeted player is an illegal target by the time the ability resolves (for example, if that player has left a multiplayer game), the entire ability is countered. You can't pay {B} and you don't gain life.</Rulings>
+2010/03/01: If the targeted player is an illegal target by the time the ability resolves (for example, if that player has left a multiplayer game), the entire ability doesn't resolve. You can't pay {B} and you don't gain life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1149,11 +1150,11 @@ When enchanted land dies, return that card to its owner's hand.</CardText>
 <Name>Mire's Toll</Name>
 <Type>Sorcery</Type>
 <ManaCost>B (1)</ManaCost>
-<CardText>Target player reveals a number of cards from his or her hand equal to the number of Swamps you control. You choose one of them. That player discards that card.</CardText>
+<CardText>Target player reveals a number of cards from their hand equal to the number of Swamps you control. You choose one of them. That player discards that card.</CardText>
 <Flavor>As the bridge snapped, Berko was sure he heard the swamp laughing at him.</Flavor>
 <Artist>Alex Horley-Orlandelli</Artist>
 <Multiverseid>194002</Multiverseid>
-<Rulings>2010/03/01: If the number of Swamps you control exceeds the number of cards in the targeted player's hand, that player reveals all the cards in his or her hand.</Rulings>
+<Rulings>2010/03/01: If the number of Swamps you control exceeds the number of cards in the targeted player's hand, that player reveals all the cards in their hand.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1167,7 +1168,7 @@ When enchanted land dies, return that card to its owner's hand.</CardText>
 <Name>Nemesis Trap</Name>
 <Type>Instant — Trap</Type>
 <ManaCost>4BB (6)</ManaCost>
-<CardText>If a white creature is attacking, you may pay {B}{B} rather than pay Nemesis Trap's mana cost.
+<CardText>If a white creature is attacking, you may pay {B}{B} rather than pay this spell's mana cost.
 Exile target attacking creature. Create a token that's a copy of that creature. Exile it at the beginning of the next end step.</CardText>
 <Artist>Ryan Pancoast</Artist>
 <Multiverseid>197836</Multiverseid>
@@ -1179,7 +1180,7 @@ Exile target attacking creature. Create a token that's a copy of that creature. 
 2010/03/01: If the exiled creature was a token, your token copies the original characteristics of that token as stated by the effect that put it onto the battlefield.
 2010/03/01: If the exiled creature has {X} in its mana cost (such as Protean Hydra), X is considered to be zero.
 2010/03/01: Any enters-the-battlefield abilities of the exiled creature will trigger when the token is put onto the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the chosen creature will also work.
-2010/03/01: If the targeted creature is an illegal target by the time <Nemesis Trap> resolves, the entire spell is countered. You won't get a token.</Rulings>
+2010/03/01: If the targeted creature is an illegal target by the time <Nemesis Trap> resolves, the entire spell doesn't resolve. You won't get a token.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1348,7 +1349,7 @@ Landfall — If you had a land enter the battlefield under your control this tur
 <Multiverseid>198368</Multiverseid>
 <Rulings>2010/03/01: You don't choose which untapped Vampire creatures you control to tap (if any) until <Urge to Feed> resolves.
 2010/03/01: If you cast <Urge to Feed> targeting an untapped Vampire creature you control with toughness 3, its toughness will be reduced to 0 by the -3/-3 effect. However, state-based actions aren't checked until the spell has finished resolving. You may then tap that Vampire and put a +1/+1 counter on it, raising its toughness to 1. It will remain on the battlefield.
-2010/03/01: If the targeted creature is an illegal target by the time <Urge to Feed> resolves, the entire spell is countered. You can't tap any Vampires.</Rulings>
+2010/03/01: If the targeted creature is an illegal target by the time <Urge to Feed> resolves, the entire spell doesn't resolve. You can't tap any Vampires.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1454,7 +1455,7 @@ Enchanted creature gets +1/+0 for each Mountain you control and has first strike
 <Type>Instant</Type>
 <ManaCost>XRR (2)</ManaCost>
 <CardText>Multikicker {1} (You may pay an additional {1} any number of times as you cast this spell.)
-Choose target creature or player, then choose another target creature or player for each time Comet Storm was kicked. Comet Storm deals X damage to each of them.</CardText>
+Choose any target, then choose another target for each time this spell was kicked. Comet Storm deals X damage to each of them.</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>197766</Multiverseid>
 <Rulings>2010/03/01: The number of targets you choose for <Comet Storm> is one more than the number of times it's kicked. First you declare how many times you're going to kick the spell (at the same time you declare the value of X), then you choose the targets accordingly, then you pay the costs. No player can respond between the time you declare how many times you'll kick the spell and the time you choose the targets.
@@ -1474,7 +1475,7 @@ Choose target creature or player, then choose another target creature or player 
 <Name>Cosi's Ravager</Name>
 <Type>Creature — Elemental 2/2</Type>
 <ManaCost>3R (4)</ManaCost>
-<CardText>Landfall — Whenever a land enters the battlefield under your control, you may have Cosi's Ravager deal 1 damage to target player.</CardText>
+<CardText>Landfall — Whenever a land enters the battlefield under your control, you may have Cosi's Ravager deal 1 damage to target player or planeswalker.</CardText>
 <Flavor>"Cosi has many followers. Even the volcano finds a way to do his bidding."
 —Zakken, Enclave cleric</Flavor>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
@@ -1519,7 +1520,7 @@ When enchanted land dies, return that card to its owner's hand.</CardText>
 <Type>Creature — Human Shaman 0/1</Type>
 <ManaCost>2R (3)</ManaCost>
 <CardText>Haste
-{T}: Cunning Sparkmage deals 1 damage to target creature or player.</CardText>
+{T}: Cunning Sparkmage deals 1 damage to any target.</CardText>
 <Flavor>"I see the weaknesses you hide even from yourself."</Flavor>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>201563</Multiverseid>
@@ -1537,7 +1538,7 @@ When enchanted land dies, return that card to its owner's hand.</CardText>
 <Type>Creature — Ogre Shaman 4/3</Type>
 <ManaCost>4R (5)</ManaCost>
 <CardText>Multikicker {R} (You may pay an additional {R} any number of times as you cast this spell.)
-When Deathforge Shaman enters the battlefield, it deals damage to target player equal to twice the number of times it was kicked.</CardText>
+When Deathforge Shaman enters the battlefield, it deals damage to target player or planeswalker equal to twice the number of times it was kicked.</CardText>
 <Artist>Dave Kendall</Artist>
 <Multiverseid>191540</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1664,7 +1665,7 @@ As long as Quest for the Goblin Lord has five or more quest counters on it, crea
 <Name>Ricochet Trap</Name>
 <Type>Instant — Trap</Type>
 <ManaCost>3R (4)</ManaCost>
-<CardText>If an opponent cast a blue spell this turn, you may pay {R} rather than pay Ricochet Trap's mana cost.
+<CardText>If an opponent cast a blue spell this turn, you may pay {R} rather than pay this spell's mana cost.
 Change the target of target spell with a single target.</CardText>
 <Flavor>In his last seconds, Remhas regretted using his most powerful spell.</Flavor>
 <Artist>Jaime Jones</Artist>
@@ -1672,7 +1673,7 @@ Change the target of target spell with a single target.</CardText>
 <Rulings>2010/03/01: If you cast <Ricochet Trap> for {R}, you don't have to target the blue spell an opponent cast.
 2010/03/01: <Ricochet Trap> targets only the spell whose target will be changed. It doesn't directly affect the original target of that spell or the new target of that spell.
 2010/03/01: You don't choose the new target for the spell until <Ricochet Trap> resolves. You must change the target if possible. However, you can't change the target to an illegal target. If there are no legal targets to choose from, the target isn't changed. It doesn't matter if the original target of that spell has somehow become illegal itself.
-2010/03/01: If you cast <Ricochet Trap> targeting a spell that targets a spell on the stack (like Cancel does, for example), you can't change that spell's target to itself. You can, however, change that spell's target to <Ricochet Trap>. If you do, that spell will be countered when it tries to resolve because <Ricochet Trap> will have left the stack by then.
+2010/03/01: If you cast <Ricochet Trap> targeting a spell that targets a spell on the stack (like Cancel does, for example), you can't change that spell's target to itself. You can, however, change that spell's target to <Ricochet Trap>. If you do, that spell won't resolve when it tries to resolve because <Ricochet Trap> will have left the stack by then.
 2010/03/01: If a spell targets multiple things, you can't target it with <Ricochet Trap>, even if all but one of those targets have become illegal.
 2010/03/01: If a spell targets the same player or object multiple times, you can't target it with <Ricochet Trap>.</Rulings>
 <Vintage>Legal</Vintage>
@@ -1693,7 +1694,7 @@ Change the target of target spell with a single target.</CardText>
 —Screed of the Mul Daya</Flavor>
 <Artist>Steve Prescott</Artist>
 <Multiverseid>194671</Multiverseid>
-<Rulings>2010/03/01: If the targeted land is an illegal target by the time <Roiling Terrain> resolves, the entire spell is countered. No damage will be dealt.
+<Rulings>2010/03/01: If the targeted land is an illegal target by the time <Roiling Terrain> resolves, the entire spell doesn't resolve. No damage will be dealt.
 2010/03/01: The effects of the spell happen in sequence. By the time <Roiling Terrain> checks how many land cards are in the affected player's graveyard, the land <Roiling Terrain> destroyed is (most likely) already in that graveyard.
 2013/07/01: If the targeted land regenerates or has indestructible, <Roiling Terrain> still deals damage to the targeted land's controller.</Rulings>
 <Vintage>Legal</Vintage>
@@ -1709,7 +1710,7 @@ Change the target of target spell with a single target.</CardText>
 <Name>Rumbling Aftershocks</Name>
 <Type>Enchantment</Type>
 <ManaCost>4R (5)</ManaCost>
-<CardText>Whenever you cast a kicked spell, you may have Rumbling Aftershocks deal damage to target creature or player equal to the number of times that spell was kicked.</CardText>
+<CardText>Whenever you cast a kicked spell, you may have Rumbling Aftershocks deal damage to any target equal to the number of times that spell was kicked.</CardText>
 <Flavor>"I like it here. You always get a little more for your mana."
 —Chandra Nalaar</Flavor>
 <Artist>Tomasz Jedruszek</Artist>
@@ -1729,8 +1730,8 @@ Change the target of target spell with a single target.</CardText>
 <Name>Searing Blaze</Name>
 <Type>Instant</Type>
 <ManaCost>RR (2)</ManaCost>
-<CardText>Searing Blaze deals 1 damage to target player and 1 damage to target creature that player controls.
-Landfall — If you had a land enter the battlefield under your control this turn, Searing Blaze deals 3 damage to that player and 3 damage to that creature instead.</CardText>
+<CardText>Searing Blaze deals 1 damage to target player or planeswalker and 1 damage to target creature that player or that planeswalker's controller controls.
+Landfall — If you had a land enter the battlefield under your control this turn, Searing Blaze deals 3 damage to that player or planeswalker and 3 damage to that creature instead.</CardText>
 <Artist>James Paick</Artist>
 <Multiverseid>193982</Multiverseid>
 <Rulings>2010/03/01: Whether you had a land enter the battlefield under your control this turn is checked as this spell resolves, not as you cast it.
@@ -1788,7 +1789,7 @@ Skitter of Lizards enters the battlefield with a +1/+1 counter on it for each ti
 <Name>Stone Idol Trap</Name>
 <Type>Instant — Trap</Type>
 <ManaCost>5R (6)</ManaCost>
-<CardText>Stone Idol Trap costs {1} less to cast for each attacking creature.
+<CardText>This spell costs {1} less to cast for each attacking creature.
 Create a 6/12 colorless Construct artifact creature token with trample. Exile it at the beginning of your next end step.</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>191552</Multiverseid>
@@ -2020,7 +2021,7 @@ Landfall — If you had a land enter the battlefield under your control this tur
 <Name>Harabaz Druid</Name>
 <Type>Creature — Human Druid Ally 0/1</Type>
 <ManaCost>1G (2)</ManaCost>
-<CardText>{T}: Add X mana of any one color to your mana pool, where X is the number of Allies you control.</CardText>
+<CardText>{T}: Add X mana of any one color, where X is the number of Allies you control.</CardText>
 <Flavor>"I care nothing for treasure. The land beckons me, and I cannot rest until my feet have touched every inch of it."</Flavor>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>194675</Multiverseid>
@@ -2078,7 +2079,7 @@ Other Elf creatures you control get +1/+1 for each +1/+1 counter on Joraga Warca
 —Jace Beleren</Flavor>
 <Artist>Daarken</Artist>
 <Multiverseid>198357</Multiverseid>
-<Rulings>2017/11/17: If the target artifact or enchantment is an illegal target when <Nature's Claim> tries to resolve, the entire spell is countered. No one gains any life.</Rulings>
+<Rulings>2017/11/17: If the target artifact or enchantment is an illegal target when <Nature's Claim> tries to resolve, the entire spell doesn't resolve. No one gains any life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2092,8 +2093,8 @@ Other Elf creatures you control get +1/+1 for each +1/+1 counter on Joraga Warca
 <Name>Omnath, Locus of Mana</Name>
 <Type>Legendary Creature — Elemental 1/1</Type>
 <ManaCost>2G (3)</ManaCost>
-<CardText>Green mana doesn't empty from your mana pool as steps and phases end.
-Omnath, Locus of Mana gets +1/+1 for each green mana in your mana pool.</CardText>
+<CardText>You don't lose unspent green mana as steps and phases end.
+Omnath, Locus of Mana gets +1/+1 for each unspent green mana you have.</CardText>
 <Flavor>It gathers against the coming storm.</Flavor>
 <Artist>Mike Bierek</Artist>
 <Multiverseid>197759</Multiverseid>
@@ -2134,7 +2135,7 @@ As long as there are four or more quest counters on Quest for Renewal, untap all
 <Name>Slingbow Trap</Name>
 <Type>Instant — Trap</Type>
 <ManaCost>3G (4)</ManaCost>
-<CardText>If a black creature with flying is attacking, you may pay {G} rather than pay Slingbow Trap's mana cost.
+<CardText>If a black creature with flying is attacking, you may pay {G} rather than pay this spell's mana cost.
 Destroy target attacking creature with flying.</CardText>
 <Flavor>The Tajuru elves devised ways to let the forest defend itself.</Flavor>
 <Artist>Daniel Ljunggren</Artist>
@@ -2174,7 +2175,7 @@ Destroy target attacking creature with flying.</CardText>
 <Type>Instant</Type>
 <ManaCost>XGG (2)</ManaCost>
 <CardText>Multikicker {1} (You may pay an additional {1} any number of times as you cast this spell.)
-Choose target creature, then choose another target creature for each time Strength of the Tajuru was kicked. Put X +1/+1 counters on each of them.</CardText>
+Choose target creature, then choose another target creature for each time this spell was kicked. Put X +1/+1 counters on each of them.</CardText>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>197875</Multiverseid>
 <Rulings>2010/03/01: The number of targets you choose for <Strength of the Tajuru> is one more than the number of times it's kicked. First you declare how many times you're going to kick the spell (at the same time you declare the value of X), then you choose the targets accordingly, then you pay the costs. No player can respond between the time you declare how many times you'll kick the spell and the time you choose the targets.
@@ -2375,7 +2376,7 @@ Equip {2}</CardText>
 <ManaCost>0 (0)</ManaCost>
 <CardText>Multikicker {2} (You may pay an additional {2} any number of times as you cast this spell.)
 Everflowing Chalice enters the battlefield with a charge counter on it for each time it was kicked.
-{T}: Add {C} to your mana pool for each charge counter on Everflowing Chalice.</CardText>
+{T}: Add {C} for each charge counter on Everflowing Chalice.</CardText>
 <Artist>Steve Argyle</Artist>
 <Multiverseid>198374</Multiverseid>
 <Rulings>2010/03/01: If <Everflowing Chalice> has no charge counters on it, you can still activate its last ability. That ability is still a mana ability, even though it produces no mana as it resolves.</Rulings>
@@ -2488,15 +2489,15 @@ When Pilgrim's Eye enters the battlefield, you may search your library for a bas
 <Name>Razor Boomerang</Name>
 <Type>Artifact — Equipment</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>Equipped creature has "{T}, Unattach Razor Boomerang: Razor Boomerang deals 1 damage to target creature or player. Return Razor Boomerang to its owner's hand."
+<CardText>Equipped creature has "{T}, Unattach Razor Boomerang: It deals 1 damage to any target. Return Razor Boomerang to its owner's hand."
 Equip {2}</CardText>
 <Flavor>Few can catch it without losing a finger.</Flavor>
 <Artist>Franz Vohwinkel</Artist>
 <Multiverseid>198395</Multiverseid>
-<Rulings>2010/03/01: The source of the damage is <Razor Boomerang>, not the equipped creature. However, the equipped creature's ability is what targets the creature or player. If <Razor Boomerang> is equipped to a red creature, for example, the ability couldn't target a creature with protection from red. It could target a creature with protection from artifacts, but all the damage would be prevented.
+<Rulings>2010/03/01: The source of the damage is <Razor Boomerang>, not the equipped creature. However, the equipped creature's ability is what targets the permanent or player. If <Razor Boomerang> is equipped to a red creature, for example, the ability couldn't target a creature with protection from red. It could target a creature with protection from artifacts, but all the damage would be prevented.
 2010/03/01: Unattaching <Razor Boomerang> is a cost to activate the equipped creature's ability.
 2010/03/01: If <Razor Boomerang> is no longer on the battlefield by time the equipped creature's ability resolves, it's not returned to its owner's hand. The rest of the ability resolves as normal, so <Razor Boomerang> will still deal damage to the targeted creature.
-2010/03/01: If the targeted creature is an illegal target by the time the equipped creature's ability resolves, the entire ability is countered. <Razor Boomerang> remains on the battlefield unattached.</Rulings>
+2010/03/01: If the targeted creature is an illegal target by the time the equipped creature's ability resolves, the entire ability doesn't resolve. <Razor Boomerang> remains on the battlefield unattached.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2550,7 +2551,7 @@ Equip {2}</CardText>
 <Type>Land</Type>
 <CardText>Bojuka Bog enters the battlefield tapped.
 When Bojuka Bog enters the battlefield, exile all cards from target player's graveyard.
-{T}: Add {B} to your mana pool.</CardText>
+{T}: Add {B}.</CardText>
 <Artist>Howard Lyon</Artist>
 <Multiverseid>197786</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2566,7 +2567,7 @@ When Bojuka Bog enters the battlefield, exile all cards from target player's gra
 <Name>Celestial Colonnade</Name>
 <Type>Land</Type>
 <CardText>Celestial Colonnade enters the battlefield tapped.
-{T}: Add {W} or {U} to your mana pool.
+{T}: Add {W} or {U}.
 {3}{W}{U}: Until end of turn, Celestial Colonnade becomes a 4/4 white and blue Elemental creature with flying and vigilance. It's still a land.</CardText>
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>177545</Multiverseid>
@@ -2585,7 +2586,7 @@ When Bojuka Bog enters the battlefield, exile all cards from target player's gra
 <Name>Creeping Tar Pit</Name>
 <Type>Land</Type>
 <CardText>Creeping Tar Pit enters the battlefield tapped.
-{T}: Add {U} or {B} to your mana pool.
+{T}: Add {U} or {B}.
 {1}{U}{B}: Creeping Tar Pit becomes a 3/2 blue and black Elemental creature until end of turn and can't be blocked this turn. It's still a land.</CardText>
 <Artist>Jason Felix</Artist>
 <Multiverseid>177520</Multiverseid>
@@ -2603,7 +2604,7 @@ When Bojuka Bog enters the battlefield, exile all cards from target player's gra
 <No>135</No>
 <Name>Dread Statuary</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {4}: Dread Statuary becomes a 4/2 Golem artifact creature until end of turn. It's still a land.</CardText>
 <Flavor>The last reliable landmark in Tazeem just walked away.</Flavor>
 <Artist>Jason A. Engle</Artist>
@@ -2644,7 +2645,7 @@ When Bojuka Bog enters the battlefield, exile all cards from target player's gra
 <Type>Land</Type>
 <CardText>Halimar Depths enters the battlefield tapped.
 When Halimar Depths enters the battlefield, look at the top three cards of your library, then put them back in any order.
-{T}: Add {U} to your mana pool.</CardText>
+{T}: Add {U}.</CardText>
 <Artist>Volkan Baga</Artist>
 <Multiverseid>197787</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2661,7 +2662,7 @@ When Halimar Depths enters the battlefield, look at the top three cards of your 
 <Type>Land</Type>
 <CardText>Khalni Garden enters the battlefield tapped.
 When Khalni Garden enters the battlefield, create a 0/1 green Plant creature token.
-{T}: Add {G} to your mana pool.</CardText>
+{T}: Add {G}.</CardText>
 <Artist>Ryan Pancoast</Artist>
 <Multiverseid>197789</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2677,7 +2678,7 @@ When Khalni Garden enters the battlefield, create a 0/1 green Plant creature tok
 <Name>Lavaclaw Reaches</Name>
 <Type>Land</Type>
 <CardText>Lavaclaw Reaches enters the battlefield tapped.
-{T}: Add {B} or {R} to your mana pool.
+{T}: Add {B} or {R}.
 {1}{B}{R}: Until end of turn, Lavaclaw Reaches becomes a 2/2 black and red Elemental creature with "{X}: This creature gets +X/+0 until end of turn." It's still a land.</CardText>
 <Artist>Véronique Meignaud</Artist>
 <Multiverseid>171007</Multiverseid>
@@ -2695,7 +2696,7 @@ When Khalni Garden enters the battlefield, create a 0/1 green Plant creature tok
 <No>140</No>
 <Name>Quicksand</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {T}, Sacrifice Quicksand: Target attacking creature without flying gets -1/-2 until end of turn.</CardText>
 <Flavor>Not all deaths are etched with mythic meaning and iconic glory.</Flavor>
 <Artist>Matt Stewart</Artist>
@@ -2713,7 +2714,7 @@ When Khalni Garden enters the battlefield, create a 0/1 green Plant creature tok
 <Name>Raging Ravine</Name>
 <Type>Land</Type>
 <CardText>Raging Ravine enters the battlefield tapped.
-{T}: Add {R} or {G} to your mana pool.
+{T}: Add {R} or {G}.
 {2}{R}{G}: Until end of turn, Raging Ravine becomes a 3/3 red and green Elemental creature with "Whenever this creature attacks, put a +1/+1 counter on it." It's still a land.</CardText>
 <Artist>Todd Lockwood</Artist>
 <Multiverseid>177583</Multiverseid>
@@ -2735,7 +2736,7 @@ When Khalni Garden enters the battlefield, create a 0/1 green Plant creature tok
 <Type>Land</Type>
 <CardText>Sejiri Steppe enters the battlefield tapped.
 When Sejiri Steppe enters the battlefield, target creature you control gains protection from the color of your choice until end of turn.
-{T}: Add {W} to your mana pool.</CardText>
+{T}: Add {W}.</CardText>
 <Artist>Anthony Francisco</Artist>
 <Multiverseid>197788</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2752,7 +2753,7 @@ When Sejiri Steppe enters the battlefield, target creature you control gains pro
 <Type>Land</Type>
 <CardText>Smoldering Spires enters the battlefield tapped.
 When Smoldering Spires enters the battlefield, target creature can't block this turn.
-{T}: Add {R} to your mana pool.</CardText>
+{T}: Add {R}.</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>197785</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2768,7 +2769,7 @@ When Smoldering Spires enters the battlefield, target creature can't block this 
 <Name>Stirring Wildwood</Name>
 <Type>Land</Type>
 <CardText>Stirring Wildwood enters the battlefield tapped.
-{T}: Add {G} or {W} to your mana pool.
+{T}: Add {G} or {W}.
 {1}{G}{W}: Until end of turn, Stirring Wildwood becomes a 3/4 green and white Elemental creature with reach. It's still a land.</CardText>
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>177560</Multiverseid>
@@ -2786,7 +2787,7 @@ When Smoldering Spires enters the battlefield, target creature can't block this 
 <No>145</No>
 <Name>Tectonic Edge</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {1}, {T}, Sacrifice Tectonic Edge: Destroy target nonbasic land. Activate this ability only if an opponent controls four or more lands.</CardText>
 <Flavor>"We move because the earth does."
 —Bruse Tarl, Goma Fada nomad</Flavor>

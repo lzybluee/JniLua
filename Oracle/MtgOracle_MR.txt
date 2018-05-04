@@ -144,7 +144,7 @@ Draw a card at the beginning of the next turn's upkeep.</CardText>
 <Name>Carrion</Name>
 <Type>Instant</Type>
 <ManaCost>1BB (3)</ManaCost>
-<CardText>As an additional cost to cast Carrion, sacrifice a creature.
+<CardText>As an additional cost to cast this spell, sacrifice a creature.
 Create X 0/1 black Insect creature tokens, where X is the sacrificed creature's power.</CardText>
 <Flavor>King or herder, the maggots care not.</Flavor>
 <Artist>Geofrey Darrow</Artist>
@@ -233,7 +233,7 @@ Whenever Catacomb Dragon becomes blocked by a nonartifact, non-Dragon creature, 
 <Name>Dark Ritual</Name>
 <Type>Instant</Type>
 <ManaCost>B (1)</ManaCost>
-<CardText>Add {B}{B}{B} to your mana pool.</CardText>
+<CardText>Add {B}{B}{B}.</CardText>
 <Flavor>"The ceremony ended with a voice from the shadows, a voice with vast, ominous power."
 —Kifimbo, Shadow Guildmage</Flavor>
 <Artist>John Coulthart</Artist>
@@ -269,7 +269,7 @@ Whenever Catacomb Dragon becomes blocked by a nonartifact, non-Dragon creature, 
 <Type>Sorcery</Type>
 <ManaCost>X1B (2)</ManaCost>
 <CardText>Spend only black mana on X.
-Drain Life deals X damage to target creature or player. You gain life equal to the damage dealt, but not more life than the player's life total before Drain Life dealt damage or the creature's toughness.</CardText>
+Drain Life deals X damage to any target. You gain life equal to the damage dealt, but not more life than the player's life total before the damage was dealt, the planeswalker's loyalty before the damage was dealt, or the creature's toughness.</CardText>
 <Artist>Richard Kane Ferguson</Artist>
 <Multiverseid>3287</Multiverseid>
 <Rulings>2004/10/04: Cost reducers can be used to reduce the X part of the mana cost.
@@ -564,7 +564,7 @@ Enchanted creature gets +3/-1 and is black.</CardText>
 <Name>Phyrexian Tribute</Name>
 <Type>Sorcery</Type>
 <ManaCost>2B (3)</ManaCost>
-<CardText>As an additional cost to cast Phyrexian Tribute, sacrifice two creatures.
+<CardText>As an additional cost to cast this spell, sacrifice two creatures.
 Destroy target artifact.</CardText>
 <Flavor>"In your final breath you still have something to offer Phyrexia."
 —Afari, Tales</Flavor>
@@ -669,7 +669,7 @@ At the beginning of your upkeep, you may sacrifice a nonartifact creature. If yo
 <Type>Creature — Human Wizard 1/1</Type>
 <ManaCost>B (1)</ManaCost>
 <CardText>{U}, {T}: Put target creature you control on top of its owner's library.
-{R}, {T}: Shadow Guildmage deals 1 damage to target creature or player and 1 damage to you.</CardText>
+{R}, {T}: Shadow Guildmage deals 1 damage to any target and 1 damage to you.</CardText>
 <Flavor>To keep the dead so others may live.
 —Shadow Guild maxim</Flavor>
 <Artist>Mike Kimble</Artist>
@@ -815,7 +815,7 @@ Spirit of the Night has first strike as long as it's attacking.</CardText>
 <Type>Creature — Specter 2/2</Type>
 <ManaCost>3B (4)</ManaCost>
 <CardText>Flying
-{1}{B}{B}, {T}: Target player discards a card unless he or she puts a card from his or her hand on top of his or her library. If that player discards a card this way, Tainted Specter deals 1 damage to each creature and each player. Activate this ability only any time you could cast a sorcery.</CardText>
+{1}{B}{B}, {T}: Target player discards a card unless they put a card from their hand on top of their library. If that player discards a card this way, Tainted Specter deals 1 damage to each creature and each player. Activate this ability only any time you could cast a sorcery.</CardText>
 <Artist>Chippy</Artist>
 <Multiverseid>3317</Multiverseid>
 <Rulings>2009/02/01: <Tainted Specter> used to have errata causing the card to be put into the graveyard without being discarded. The current wording returns it to being a discard, so it will trigger abilities appropriately.</Rulings>
@@ -833,9 +833,9 @@ Spirit of the Night has first strike as long as it's attacking.</CardText>
 <Type>World Enchantment</Type>
 <ManaCost>2BB (4)</ManaCost>
 <CardText>Cumulative upkeep {1}{B} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)
-At the beginning of each upkeep, if Tombstone Stairwell is on the battlefield, each player creates a 2/2 black Zombie creature token with haste named Tombspawn for each creature card in his or her graveyard.
+At the beginning of each upkeep, if Tombstone Stairwell is on the battlefield, each player creates a 2/2 black Zombie creature token with haste named Tombspawn for each creature card in their graveyard.
 At the beginning of each end step or when Tombstone Stairwell leaves the battlefield, destroy all tokens created with Tombstone Stairwell. They can't be regenerated.</CardText>
-<Artist>Dom</Artist>
+<Artist>Dom!</Artist>
 <Multiverseid>3318</Multiverseid>
 <Rulings>2004/10/04: All the tokens are put onto the battlefield simultaneously.
 2004/10/04: Both the cumulative upkeep and the triggered ability trigger at the beginning of upkeep, so you can choose what order they resolve.
@@ -890,7 +890,7 @@ Sacrifice a creature named Feral Shadow, a creature named Breathstealer, and Urb
 <Name>Withering Boon</Name>
 <Type>Instant</Type>
 <ManaCost>1B (2)</ManaCost>
-<CardText>As an additional cost to cast Withering Boon, pay 3 life.
+<CardText>As an additional cost to cast this spell, pay 3 life.
 Counter target creature spell.</CardText>
 <Flavor>"Life for life: this is the immutable law."
 —Panya, Granger Guildmage</Flavor>
@@ -914,7 +914,6 @@ Counter target creature spell.</CardText>
 When Zombie Mob enters the battlefield, exile all creature cards from your graveyard.</CardText>
 <Artist>Terese Nielsen</Artist>
 <Multiverseid>3322</Multiverseid>
-<Rulings>2008/04/01: A "creature card" is any card with the type creature, even if it has other types such as artifact, enchantment, or land. Older cards of type summon are also creature cards.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Mirage</Set>
@@ -1035,7 +1034,7 @@ Whenever a player casts a spell, counter it if a card with the same name is in a
 <Type>Enchantment — Aura</Type>
 <ManaCost>U (1)</ManaCost>
 <CardText>Enchant creature
-Enchanted creature has phasing and can't be blocked except by Walls. (It phases in or out before its controller untaps during each of his or her untap steps. While it's phased out, it's treated as though it doesn't exist.)</CardText>
+Enchanted creature has phasing and can't be blocked except by Walls. (It phases in or out before its controller untaps during each of their untap steps. While it's phased out, it's treated as though it doesn't exist.)</CardText>
 <Flavor>"Useful . . . if you can find it."
 —Pashad ibn Asim, Suq'Ata trader</Flavor>
 <Artist>John Coulthart</Artist>
@@ -1122,7 +1121,7 @@ Enchanted creature has phasing and can't be blocked except by Walls. (It phases 
 <Name>Dream Fighter</Name>
 <Type>Creature — Human Soldier 1/1</Type>
 <ManaCost>2U (3)</ManaCost>
-<CardText>Whenever Dream Fighter blocks or becomes blocked by a creature, Dream Fighter and that creature phase out. (While they're phased out, they're treated as though they don't exist. Each one phases in before its controller untaps during his or her next untap step.)</CardText>
+<CardText>Whenever Dream Fighter blocks or becomes blocked by a creature, Dream Fighter and that creature phase out. (While they're phased out, they're treated as though they don't exist. Each one phases in before its controller untaps during their next untap step.)</CardText>
 <Flavor>Not only the sleeping should fear dreams.</Flavor>
 <Artist>Drew Tucker</Artist>
 <Multiverseid>3334</Multiverseid>
@@ -1142,7 +1141,7 @@ Enchanted creature has phasing and can't be blocked except by Walls. (It phases 
 <ManaCost>3UU (5)</ManaCost>
 <CardText>As Energy Vortex enters the battlefield, choose an opponent.
 At the beginning of your upkeep, remove all vortex counters from Energy Vortex.
-At the beginning of the chosen player's upkeep, Energy Vortex deals 3 damage to that player unless he or she pays {1} for each vortex counter on Energy Vortex.
+At the beginning of the chosen player's upkeep, Energy Vortex deals 3 damage to that player unless they pay {1} for each vortex counter on Energy Vortex.
 {X}: Put X vortex counters on Energy Vortex. Activate this ability only during your upkeep.</CardText>
 <Artist>Tom Wänerstrand</Artist>
 <Multiverseid>3335</Multiverseid>
@@ -1180,10 +1179,10 @@ At the beginning of the chosen player's upkeep, Energy Vortex deals 3 damage to 
 <CardText>You may put a creature card from your hand onto the battlefield. If you do, sacrifice it unless you pay its mana cost reduced by up to {2}.</CardText>
 <Artist>David Ho</Artist>
 <Multiverseid>3337</Multiverseid>
-<Rulings>2004/10/04: Any X in the creature's mana cost is zero.
-2004/10/04: The mana cost you pay includes colored mana.
-2007/05/01: The creature enters the battlefield, so it will trigger enters-the-battlefield abilities even if you have chosen to not pay.
-2009/10/01: If you choose not to pay, the creature is sacrificed immediately. No player will get priority in between the creature entering the battlefield and being sacrificed. Sacrificing the creature this way will trigger any abilities that trigger when a creature leaves the battlefield.</Rulings>
+<Rulings>2018/03/16: If the creature has {X} in its mana cost, X is considered to be 0.
+2018/03/16: Only the generic mana in that creature's mana cost is reduced. For example, if that creature's mana cost is {1}{R}, you'll have to pay {R} to keep it.
+2018/03/16: The creature enters the battlefield, so it will trigger enters-the-battlefield abilities even if you choose not to pay.
+2018/03/16: If you choose not to pay, the creature is sacrificed immediately. No player will get priority in between the creature entering the battlefield and being sacrificed. Sacrificing the creature this way will trigger any abilities that trigger when it leaves the battlefield, and those abilities will be put onto the stack at the same time as those that triggered when it entered the battlefield.</Rulings>
 <Vintage>Restricted</Vintage>
 <Legacy>Banned</Legacy>
 <Set>Mirage</Set>
@@ -1475,12 +1474,12 @@ You control enchanted creature.</CardText>
 <Name>Polymorph</Name>
 <Type>Sorcery</Type>
 <ManaCost>3U (4)</ManaCost>
-<CardText>Destroy target creature. It can't be regenerated. Its controller reveals cards from the top of his or her library until he or she reveals a creature card. The player puts that card onto the battlefield, then shuffles all other cards revealed this way into his or her library.</CardText>
+<CardText>Destroy target creature. It can't be regenerated. Its controller reveals cards from the top of their library until they reveal a creature card. The player puts that card onto the battlefield, then shuffles all other cards revealed this way into their library.</CardText>
 <Flavor>"Ahh! Opposable digits!"</Flavor>
 <Artist>Robert Bliss</Artist>
 <Multiverseid>3353</Multiverseid>
 <Rulings>2004/10/04: If there are no creatures in the player's library, then the target creature is still destroyed, you see all the cards in that player's library, and then they shuffle and continue play.
-2009/10/01: If the targeted creature is an illegal target by the time <Polymorph> would resolve, the entire spell is countered. Nothing else happens.
+2009/10/01: If the targeted creature is an illegal target by the time <Polymorph> would resolve, the entire spell doesn't resolve. Nothing else happens.
 2009/10/01: If there are no creature cards in the player's library, all the cards in that library are revealed, then the library is shuffled. (The targeted creature remains destroyed.)
 2009/10/01: A "creature card" is any card with the type creature, even if it has other types such as artifact, enchantment, or land. Older cards of type summon are also creature cards.
 2013/07/01: If the targeted creature has indestructible, it's still a legal target — it just isn't destroyed. The rest of <Polymorph>'s effect happens as normal.</Rulings>
@@ -1497,7 +1496,7 @@ You control enchanted creature.</CardText>
 <Name>Power Sink</Name>
 <Type>Instant</Type>
 <ManaCost>XU (1)</ManaCost>
-<CardText>Counter target spell unless its controller pays {X}. If he or she doesn't, that player taps all lands with mana abilities he or she controls and empties his or her mana pool.</CardText>
+<CardText>Counter target spell unless its controller pays {X}. If that player doesn't, they tap all lands with mana abilities they control and lose all unspent mana.</CardText>
 <Artist>Charles Gillespie</Artist>
 <Multiverseid>3354</Multiverseid>
 <Rulings>2004/10/04: Does not increase the mana cost of the spell. It just requires a separate expenditure in order for it to succeed.
@@ -1534,7 +1533,7 @@ You control enchanted creature.</CardText>
 <CardText>If the difference between your life total and target player's life total is 5 or less, exchange life totals with that player.</CardText>
 <Flavor>"The memory of your existence will fade like the final stars of morning."
 —Kaervek</Flavor>
-<Artist>Dom</Artist>
+<Artist>Dom!</Artist>
 <Multiverseid>3356</Multiverseid>
 <Rulings>2008/08/01: If one of the players has a negative life total, you use their actual life total for determining the difference. If that difference is five or less, then the other player receives the negative life total.
 2011/01/01: If an effect says that a player can't lose life, that player can't exchange life totals with a player who has a lower life total; in that case, the exchange won't happen.</Rulings>
@@ -1569,7 +1568,7 @@ You control enchanted creature.</CardText>
 <Name>Reality Ripple</Name>
 <Type>Instant</Type>
 <ManaCost>1U (2)</ManaCost>
-<CardText>Target artifact, creature, or land phases out. (While it's phased out, it's treated as though it doesn't exist. It phases in before its controller untaps during his or her next untap step.)</CardText>
+<CardText>Target artifact, creature, or land phases out. (While it's phased out, it's treated as though it doesn't exist. It phases in before its controller untaps during their next untap step.)</CardText>
 <Flavor>"Can you prepare for the unexpected? No, you cannot. You can prepare only to be surprised."
 —Teferi</Flavor>
 <Artist>Alan Rabinowitz</Artist>
@@ -1606,7 +1605,7 @@ You control enchanted creature.</CardText>
 <CardText>Choose one —
 • Target player draws a card at the beginning of the next turn's upkeep.
 • Target creature gains flying until end of turn.
-• Target creature an opponent controls phases out. (While it's phased out, it's treated as though it doesn't exist. It phases in before its controller untaps during his or her next untap step.)</CardText>
+• Target creature an opponent controls phases out. (While it's phased out, it's treated as though it doesn't exist. It phases in before its controller untaps during their next untap step.)</CardText>
 <Artist>Steve Luke</Artist>
 <Multiverseid>3360</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1621,8 +1620,8 @@ You control enchanted creature.</CardText>
 <Name>Sea Scryer</Name>
 <Type>Creature — Merfolk Wizard 1/1</Type>
 <ManaCost>1U (2)</ManaCost>
-<CardText>{T}: Add {C} to your mana pool.
-{1}, {T}: Add {U} to your mana pool.</CardText>
+<CardText>{T}: Add {C}.
+{1}, {T}: Add {U}.</CardText>
 <Artist>Martin McKenna</Artist>
 <Multiverseid>3361</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1656,7 +1655,7 @@ You control enchanted creature.</CardText>
 <Type>Enchantment</Type>
 <ManaCost>2UU (4)</ManaCost>
 <CardText>As Shimmer enters the battlefield, choose a land type.
-Each land of the chosen type has phasing. (It phases in or out before its controller untaps during each of his or her untap steps. While it's phased out, it's treated as though it doesn't exist.)</CardText>
+Each land of the chosen type has phasing. (It phases in or out before its controller untaps during each of their untap steps. While it's phased out, it's treated as though it doesn't exist.)</CardText>
 <Flavor>To buy unseen land, pay in unseen coin.
 —Suq'Ata maxim</Flavor>
 <Artist>David A. Cherry</Artist>
@@ -1696,7 +1695,7 @@ Enchanted creature gets +0/+1 and has flying.</CardText>
 <Type>Creature — Human Wizard 0/1</Type>
 <ManaCost>1UU (3)</ManaCost>
 <CardText>Suq'Ata Firewalker can't be the target of red spells or abilities from red sources.
-{T}: Suq'Ata Firewalker deals 1 damage to target creature or player.</CardText>
+{T}: Suq'Ata Firewalker deals 1 damage to any target.</CardText>
 <Flavor>"Comfortable even in a furnace? I've never met one who'd accept my wager."
 —Talibah, embermage</Flavor>
 <Artist>David O'Connor</Artist>
@@ -1734,7 +1733,7 @@ At the beginning of your upkeep, all lands you control phase out. (They phase in
 <Type>Enchantment — Aura</Type>
 <ManaCost>1U (2)</ManaCost>
 <CardText>Enchant artifact or creature
-Enchanted permanent has phasing. (It phases in or out before its controller untaps during each of his or her untap steps. While it's phased out, it's treated as though it doesn't exist.)</CardText>
+Enchanted permanent has phasing. (It phases in or out before its controller untaps during each of their untap steps. While it's phased out, it's treated as though it doesn't exist.)</CardText>
 <Flavor>"Stepping through time is like riding a camel. It may get you where you want to go, but the ride is rarely pleasant."
 —Teferi</Flavor>
 <Artist>Robert Bliss</Artist>
@@ -1986,7 +1985,7 @@ Whenever a creature without flying attacks you, Barbed Foliage deals 1 damage to
 <Type>Enchantment — Aura</Type>
 <ManaCost>1G (2)</ManaCost>
 <CardText>Enchant black creature
-Enchanted creature has "Cumulative upkeep—Pay 1 life." (At the beginning of its controller's upkeep, that player puts an age counter on it, then sacrifices it unless he or she pays its upkeep cost for each age counter on it.)
+Enchanted creature has "Cumulative upkeep—Pay 1 life." (At the beginning of its controller's upkeep, that player puts an age counter on it, then sacrifices it unless they pay its upkeep cost for each age counter on it.)
 When enchanted creature dies, its controller loses 2 life.</CardText>
 <Artist>Drew Tucker</Artist>
 <Multiverseid>3381</Multiverseid>
@@ -2003,7 +2002,7 @@ When enchanted creature dies, its controller loses 2 life.</CardText>
 <Name>Early Harvest</Name>
 <Type>Instant</Type>
 <ManaCost>1GG (3)</ManaCost>
-<CardText>Target player untaps all basic lands he or she controls.</CardText>
+<CardText>Target player untaps all basic lands they control.</CardText>
 <Flavor>"Tonight we'll eat a farewell feast. Cold corn porridge is not enough. / Let's peel papayas, pineapples, and mangoes, drink coconut milk, / and bake bananas."
 —"Love Song of Night and Day"</Flavor>
 <Artist>Janine Johnston</Artist>
@@ -2127,7 +2126,7 @@ When enchanted creature dies, its controller loses 2 life.</CardText>
 <Name>Granger Guildmage</Name>
 <Type>Creature — Human Wizard 1/1</Type>
 <ManaCost>G (1)</ManaCost>
-<CardText>{R}, {T}: Granger Guildmage deals 1 damage to target creature or player and 1 damage to you.
+<CardText>{R}, {T}: Granger Guildmage deals 1 damage to any target and 1 damage to you.
 {W}, {T}: Target creature gains first strike until end of turn.</CardText>
 <Flavor>Leave no mouth agape, no stomach unfilled.
 —Granger Guild maxim</Flavor>
@@ -2184,7 +2183,7 @@ Flanking (Whenever a creature without flanking blocks this creature, the blockin
 <Type>Creature — Human Soldier 3/2</Type>
 <ManaCost>3G (4)</ManaCost>
 <CardText>{1}{G}, {T}: Create a 0/1 green Wall creature token with defender named Wood.
-Sacrifice a token named Wood: Add {R} to your mana pool.</CardText>
+Sacrifice a token named Wood: Add {R}.</CardText>
 <Artist>Mark Poole</Artist>
 <Multiverseid>3392</Multiverseid>
 <Reserved>This card is on the reserved list</Reserved>
@@ -2251,7 +2250,7 @@ Sacrifice a token named Wood: Add {R} to your mana pool.</CardText>
 <Name>Lure of Prey</Name>
 <Type>Instant</Type>
 <ManaCost>2GG (4)</ManaCost>
-<CardText>Cast Lure of Prey only if an opponent cast a creature spell this turn.
+<CardText>Cast this spell only if an opponent cast a creature spell this turn.
 You may put a green creature card from your hand onto the battlefield.</CardText>
 <Artist>Andrew Robinson</Artist>
 <Multiverseid>3396</Multiverseid>
@@ -2323,7 +2322,7 @@ Whenever Mindbender Spores blocks a creature, put four fungus counters on that c
 <Name>Natural Balance</Name>
 <Type>Sorcery</Type>
 <ManaCost>2GG (4)</ManaCost>
-<CardText>Each player who controls six or more lands chooses five lands he or she controls and sacrifices the rest. Each player who controls four or fewer lands may search his or her library for up to X basic land cards and put them onto the battlefield, where X is five minus the number of lands he or she controls. Then each player who searched his or her library this way shuffles it.</CardText>
+<CardText>Each player who controls six or more lands chooses five lands they control and sacrifices the rest. Each player who controls four or fewer lands may search their library for up to X basic land cards and put them onto the battlefield, where X is five minus the number of lands they control. Then each player who searched their library this way shuffles it.</CardText>
 <Artist>John Malloy</Artist>
 <Multiverseid>3400</Multiverseid>
 <Rulings>2004/10/04: You are not required to find all the basic lands you are entitled to.</Rulings>
@@ -2375,8 +2374,8 @@ Whenever Mindbender Spores blocks a creature, put four fungus counters on that c
 <Type>Creature — Elf Druid 1/1</Type>
 <ManaCost>1G (2)</ManaCost>
 <CardText>As Quirion Elves enters the battlefield, choose a color.
-{T}: Add {G} to your mana pool.
-{T}: Add one mana of the chosen color to your mana pool.</CardText>
+{T}: Add {G}.
+{T}: Add one mana of the chosen color.</CardText>
 <Artist>Randy Gallegos</Artist>
 <Multiverseid>3403</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2447,7 +2446,7 @@ Whenever a land of the chosen type an opponent controls becomes tapped, you gain
 <Name>Sabertooth Cobra</Name>
 <Type>Creature — Snake 2/2</Type>
 <ManaCost>2G (3)</ManaCost>
-<CardText>Whenever Sabertooth Cobra deals damage to a player, he or she gets a poison counter. That player gets another poison counter at the beginning of his or her next upkeep unless he or she pays {2} before that step. (A player with ten or more poison counters loses the game.)</CardText>
+<CardText>Whenever Sabertooth Cobra deals damage to a player, that player gets a poison counter. The player gets another poison counter at the beginning of their next upkeep unless they pay {2} before that step. (A player with ten or more poison counters loses the game.)</CardText>
 <Artist>Andrew Robinson</Artist>
 <Multiverseid>3407</Multiverseid>
 <Rulings>2004/10/04: The ability still gives a poison counter even if <Sabertooth Cobra> leaves the battlefield before the next upkeep.</Rulings>
@@ -2654,7 +2653,7 @@ Whenever a land of the chosen type an opponent controls becomes tapped, you gain
 <Name>Unyaro Bee Sting</Name>
 <Type>Sorcery</Type>
 <ManaCost>3G (4)</ManaCost>
-<CardText>Unyaro Bee Sting deals 2 damage to target creature or player.</CardText>
+<CardText>Unyaro Bee Sting deals 2 damage to any target.</CardText>
 <Flavor>"Much can be learned from the bees about dying for a cause."
 —Asmira, Holy Avenger</Flavor>
 <Artist>Pat Morrissey</Artist>
@@ -2688,7 +2687,7 @@ Whenever a land of the chosen type an opponent controls becomes tapped, you gain
 <Name>Waiting in the Weeds</Name>
 <Type>Sorcery</Type>
 <ManaCost>1GG (3)</ManaCost>
-<CardText>Each player creates a 1/1 green Cat creature token for each untapped Forest he or she controls.</CardText>
+<CardText>Each player creates a 1/1 green Cat creature token for each untapped Forest they control.</CardText>
 <Flavor>The trees have ears, eyes, and teeth.</Flavor>
 <Artist>Susan Van Camp</Artist>
 <Multiverseid>3421</Multiverseid>
@@ -2705,7 +2704,7 @@ Whenever a land of the chosen type an opponent controls becomes tapped, you gain
 <Type>Creature — Plant Wall 0/5</Type>
 <ManaCost>1G (2)</ManaCost>
 <CardText>Defender
-Put a -0/-1 counter on Wall of Roots: Add {G} to your mana pool. Activate this ability only once each turn.</CardText>
+Put a -0/-1 counter on Wall of Roots: Add {G}. Activate this ability only once each turn.</CardText>
 <Flavor>Sometimes the wise ones wove their magic into living plants; as the plant grew, so grew the magic.</Flavor>
 <Artist>John Matson</Artist>
 <Multiverseid>3422</Multiverseid>
@@ -2775,7 +2774,7 @@ Enchanted creature gets +1/+1 and has flanking. (Whenever a creature without fla
 <Name>Aleatory</Name>
 <Type>Instant</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>Cast Aleatory only during combat after blockers are declared.
+<CardText>Cast this spell only during combat after blockers are declared.
 Flip a coin. If you win the flip, target creature gets +1/+1 until end of turn.
 Draw a card at the beginning of the next turn's upkeep.</CardText>
 <Artist>Kev Walker</Artist>
@@ -2866,7 +2865,7 @@ Draw a card at the beginning of the next turn's upkeep.</CardText>
 <Name>Builder's Bane</Name>
 <Type>Sorcery</Type>
 <ManaCost>XXR (1)</ManaCost>
-<CardText>Destroy X target artifacts. Builder's Bane deals damage to each player equal to the number of artifacts he or she controlled put into a graveyard this way.</CardText>
+<CardText>Destroy X target artifacts. Builder's Bane deals damage to each player equal to the number of artifacts they controlled that were put into a graveyard this way.</CardText>
 <Flavor>There is only so much a person may be buried with.</Flavor>
 <Artist>Charles Gillespie</Artist>
 <Multiverseid>3431</Multiverseid>
@@ -3075,7 +3074,7 @@ Two-eye die!"
 <Type>Creature — Djinn 5/4</Type>
 <ManaCost>2RR (4)</ManaCost>
 <CardText>Flying
-At the beginning of each player's upkeep, that player may pay {R}{R} or 2 life. If he or she does, the player gains control of Emberwilde Djinn.</CardText>
+At the beginning of each player's upkeep, that player may pay {R}{R} or 2 life. If the player does, they gain control of Emberwilde Djinn.</CardText>
 <Flavor>A hefty price is no guarantee of quality merchandise.</Flavor>
 <Artist>Mike Dringenberg</Artist>
 <Multiverseid>3443</Multiverseid>
@@ -3132,7 +3131,7 @@ At the beginning of each player's upkeep, that player may pay {R}{R} or 2 life. 
 <Name>Flame Elemental</Name>
 <Type>Creature — Elemental 3/2</Type>
 <ManaCost>2RR (4)</ManaCost>
-<CardText>{R}, {T}, Sacrifice Flame Elemental: Flame Elemental deals damage equal to its power to target creature.</CardText>
+<CardText>{R}, {T}, Sacrifice Flame Elemental: It deals damage equal to its power to target creature.</CardText>
 <Flavor>Storyteller: By my hand in the fire, this story is a tale of power.
 Listeners: May it give you strength.</Flavor>
 <Artist>Richard Kane Ferguson</Artist>
@@ -3149,7 +3148,7 @@ Listeners: May it give you strength.</Flavor>
 <Name>Flare</Name>
 <Type>Instant</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>Flare deals 1 damage to target creature or player.
+<CardText>Flare deals 1 damage to any target.
 Draw a card at the beginning of the next turn's upkeep.</CardText>
 <Flavor>"In the forest, fires light the sky as black clouds unfold their weight."
 —"Love Song of Night and Day"</Flavor>
@@ -3237,7 +3236,7 @@ Draw a card at the beginning of the next turn's upkeep.</CardText>
 <Name>Hammer of Bogardan</Name>
 <Type>Sorcery</Type>
 <ManaCost>1RR (3)</ManaCost>
-<CardText>Hammer of Bogardan deals 3 damage to target creature or player.
+<CardText>Hammer of Bogardan deals 3 damage to any target.
 {2}{R}{R}{R}: Return Hammer of Bogardan from your graveyard to your hand. Activate this ability only during your upkeep.</CardText>
 <Artist>Ron Spencer</Artist>
 <Multiverseid>3452</Multiverseid>
@@ -3287,7 +3286,7 @@ Draw a card at the beginning of the next turn's upkeep.</CardText>
 <Name>Incinerate</Name>
 <Type>Instant</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>Incinerate deals 3 damage to target creature or player. A creature dealt damage this way can't be regenerated this turn.</CardText>
+<CardText>Incinerate deals 3 damage to any target. A creature dealt damage this way can't be regenerated this turn.</CardText>
 <Flavor>"Never taunt an embermage, 'What are you going to do about it?'"
 —Akin, seasoned askari</Flavor>
 <Artist>Brian Snõddy</Artist>
@@ -3307,7 +3306,7 @@ Draw a card at the beginning of the next turn's upkeep.</CardText>
 <Type>Sorcery</Type>
 <ManaCost>XR (1)</ManaCost>
 <CardText>As long as Kaervek's Torch is on the stack, spells that target it cost {2} more to cast.
-Kaervek's Torch deals X damage to target creature or player.</CardText>
+Kaervek's Torch deals X damage to any target.</CardText>
 <Flavor>The pulsing heat of the midday Sun burns in the Lion's eye.
 —Stone inscription, source unknown</Flavor>
 <Artist>John Coulthart</Artist>
@@ -3377,7 +3376,7 @@ Enchanted creature gets +1/+0 and has first strike.</CardText>
 <Name>Reckless Embermage</Name>
 <Type>Creature — Human Wizard 2/2</Type>
 <ManaCost>3R (4)</ManaCost>
-<CardText>{1}{R}: Reckless Embermage deals 1 damage to target creature or player and 1 damage to itself.</CardText>
+<CardText>{1}{R}: Reckless Embermage deals 1 damage to any target and 1 damage to itself.</CardText>
 <Flavor>Many mages have been consumed by their work.</Flavor>
 <Artist>Tom Kyffin</Artist>
 <Multiverseid>3460</Multiverseid>
@@ -3430,7 +3429,7 @@ Enchanted creature gets +1/+0 and has first strike.</CardText>
 <Name>Sirocco</Name>
 <Type>Instant</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>Target player reveals his or her hand. For each blue instant card revealed this way, that player discards that card unless he or she pays 4 life.</CardText>
+<CardText>Target player reveals their hand. For each blue instant card revealed this way, that player discards that card unless they pay 4 life.</CardText>
 <Flavor>"Blow, fiery wind, / strip illusion from the eye. / Blow, fiery wind of truth."
 —Femeref chant</Flavor>
 <Artist>Alan Rabinowitz</Artist>
@@ -3612,7 +3611,7 @@ Haste (This creature can attack and {T} as soon as it comes under your control.)
 <Name>Volcanic Geyser</Name>
 <Type>Instant</Type>
 <ManaCost>XRR (2)</ManaCost>
-<CardText>Volcanic Geyser deals X damage to target creature or player.</CardText>
+<CardText>Volcanic Geyser deals X damage to any target.</CardText>
 <Flavor>My thunder comes before the lightning; my lightning comes before the clouds; my rain dries all the land it touches. What am I?
 —Femeref riddle</Flavor>
 <Artist>David O'Connor</Artist>
@@ -3717,7 +3716,7 @@ Whenever a player casts a white spell, you may pay {1}. If you do, you gain 1 li
 <Name>Benevolent Unicorn</Name>
 <Type>Creature — Unicorn 1/2</Type>
 <ManaCost>1W (2)</ManaCost>
-<CardText>If a spell would deal damage to a creature or player, it deals that much damage minus 1 to that creature or player instead.</CardText>
+<CardText>If a spell would deal damage to a permanent or player, it deals that much damage minus 1 to that permanent or player instead.</CardText>
 <Flavor>The best use for a unicorn's horn is to adorn a unicorn.
 —Femeref adage</Flavor>
 <Artist>David A. Cherry</Artist>
@@ -3800,7 +3799,7 @@ You may spend white mana as though it were mana of any color. You may spend othe
 <Name>Dazzling Beauty</Name>
 <Type>Instant</Type>
 <ManaCost>2W (3)</ManaCost>
-<CardText>Cast Dazzling Beauty only during the declare blockers step.
+<CardText>Cast this spell only during the declare blockers step.
 Target unblocked attacking creature becomes blocked. (This spell works on creatures that can't be blocked.)
 Draw a card at the beginning of the next turn's upkeep.</CardText>
 <Artist>Harold McNeill</Artist>
@@ -3962,7 +3961,7 @@ Enchanted creature has shroud as long as its controller controls another creatur
 <Name>Femeref Healer</Name>
 <Type>Creature — Human Cleric 1/1</Type>
 <ManaCost>1W (2)</ManaCost>
-<CardText>{T}: Prevent the next 1 damage that would be dealt to target creature or player this turn.</CardText>
+<CardText>{T}: Prevent the next 1 damage that would be dealt to any target this turn.</CardText>
 <Flavor>"Faith is my shield, and hope is my armor; I am vulnerable only to myself."
 —Asmira, Holy Avenger</Flavor>
 <Artist>Steve Luke</Artist>
@@ -4014,7 +4013,7 @@ Enchanted creature has shroud as long as its controller controls another creatur
 <ManaCost>W (1)</ManaCost>
 <CardText>Choose one —
 • Target player gains 3 life.
-• Prevent the next 3 damage that would be dealt to target creature or player this turn.</CardText>
+• Prevent the next 3 damage that would be dealt to any target this turn.</CardText>
 <Flavor>"The Femeref look only to the Sun for healing; they have never truly understood life's cycle."
 —Kifimbo, Shadow Guildmage</Flavor>
 <Artist>Hannibal King</Artist>
@@ -4072,7 +4071,7 @@ are one within the iron tusk's stride."
 <CardText>Choose one —
 • All creatures get -2/-0 until end of turn.
 • Tap target creature.
-• Prevent the next 1 damage that would be dealt to target creature or player this turn.</CardText>
+• Prevent the next 1 damage that would be dealt to any target this turn.</CardText>
 <Artist>Gerry Grace</Artist>
 <Multiverseid>3498</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4087,7 +4086,7 @@ are one within the iron tusk's stride."
 <Name>Jabari's Influence</Name>
 <Type>Instant</Type>
 <ManaCost>3WW (5)</ManaCost>
-<CardText>Cast Jabari's Influence only after combat.
+<CardText>Cast this spell only after combat.
 Gain control of target nonartifact, nonblack creature that attacked you this turn and put a -1/-0 counter on it.</CardText>
 <Flavor>"Common soldiers can't understand what a sidar knows: the enemy can be a resource."
 —Sidar Jabari</Flavor>
@@ -4658,7 +4657,7 @@ Other Griffin creatures get +1/+1.</CardText>
 <Type>Artifact Creature — Golem 2/4</Type>
 <ManaCost>5 (5)</ManaCost>
 <CardText>Basalt Golem can't be blocked by artifact creatures.
-Whenever Basalt Golem becomes blocked by a creature, that creature's controller sacrifices it at end of combat. If the player does, he or she creates a 0/2 colorless Wall artifact creature token with defender.</CardText>
+Whenever Basalt Golem becomes blocked by a creature, that creature's controller sacrifices it at end of combat. If the player does, they create a 0/2 colorless Wall artifact creature token with defender.</CardText>
 <Artist>Scott Kirschner</Artist>
 <Multiverseid>3242</Multiverseid>
 <Rulings>2005/11/01: The token creature is put onto the battlefield at the end of combat only if the blocking creature is sacrificed during the resolution of the triggered ability.</Rulings>
@@ -4694,7 +4693,7 @@ Whenever Basalt Golem becomes blocked by a creature, that creature's controller 
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
 <CardText>Charcoal Diamond enters the battlefield tapped.
-{T}: Add {B} to your mana pool.</CardText>
+{T}: Add {B}.</CardText>
 <Artist>Drew Tucker</Artist>
 <Multiverseid>3244</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4803,7 +4802,7 @@ Whenever Basalt Golem becomes blocked by a creature, that creature's controller 
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
 <CardText>Fire Diamond enters the battlefield tapped.
-{T}: Add {R} to your mana pool.</CardText>
+{T}: Add {R}.</CardText>
 <Artist>Richard Thomas</Artist>
 <Multiverseid>3250</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4818,7 +4817,7 @@ Whenever Basalt Golem becomes blocked by a creature, that creature's controller 
 <Name>Grinning Totem</Name>
 <Type>Artifact</Type>
 <ManaCost>4 (4)</ManaCost>
-<CardText>{2}, {T}, Sacrifice Grinning Totem: Search target opponent's library for a card and exile it. Then that player shuffles his or her library. Until the beginning of your next upkeep, you may play that card. At the beginning of your next upkeep, if you haven't played it, put it into its owner's graveyard.</CardText>
+<CardText>{2}, {T}, Sacrifice Grinning Totem: Search target opponent's library for a card and exile it. Then that player shuffles their library. Until the beginning of your next upkeep, you may play that card. At the beginning of your next upkeep, if you haven't played it, put it into its owner's graveyard.</CardText>
 <Artist>Donato Giancola</Artist>
 <Multiverseid>3251</Multiverseid>
 <Rulings>2006/09/25: You may choose to find any kind of card, including a land. You must exile a card (unless the opponent's library is empty); you can't fail to find anything.
@@ -4886,7 +4885,7 @@ Whenever Basalt Golem becomes blocked by a creature, that creature's controller 
 <Name>Lion's Eye Diamond</Name>
 <Type>Artifact</Type>
 <ManaCost>0 (0)</ManaCost>
-<CardText>Discard your hand, Sacrifice Lion's Eye Diamond: Add three mana of any one color to your mana pool. Activate this ability only any time you could cast an instant.</CardText>
+<CardText>Discard your hand, Sacrifice Lion's Eye Diamond: Add three mana of any one color. Activate this ability only any time you could cast an instant.</CardText>
 <Flavor>Held in the lion's eye
 —Zhalfirin saying meaning "caught in the moment of crisis"</Flavor>
 <Artist>Margaret Organ-Kean</Artist>
@@ -4905,8 +4904,8 @@ Whenever Basalt Golem becomes blocked by a creature, that creature's controller 
 <Name>Mana Prism</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {C} to your mana pool.
-{1}, {T}: Add one mana of any color to your mana pool.</CardText>
+<CardText>{T}: Add {C}.
+{1}, {T}: Add one mana of any color.</CardText>
 <Artist>Margaret Organ-Kean</Artist>
 <Multiverseid>3256</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4941,7 +4940,7 @@ Whenever Basalt Golem becomes blocked by a creature, that creature's controller 
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
 <CardText>Marble Diamond enters the battlefield tapped.
-{T}: Add {W} to your mana pool.</CardText>
+{T}: Add {W}.</CardText>
 <Artist>Jeff Miracola</Artist>
 <Multiverseid>3258</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4956,7 +4955,7 @@ Whenever Basalt Golem becomes blocked by a creature, that creature's controller 
 <Name>Misers' Cage</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>At the beginning of each opponent's upkeep, if that player has five or more cards in hand, Misers' Cage deals 2 damage to him or her.</CardText>
+<CardText>At the beginning of each opponent's upkeep, if that player has five or more cards in hand, Misers' Cage deals 2 damage to that player.</CardText>
 <Flavor>"Let him be imprisoned while his possessions wander free."
 —Suq'Ata legal decree</Flavor>
 <Artist>Jeff Miracola</Artist>
@@ -4976,7 +4975,7 @@ Whenever Basalt Golem becomes blocked by a creature, that creature's controller 
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
 <CardText>Moss Diamond enters the battlefield tapped.
-{T}: Add {G} to your mana pool.</CardText>
+{T}: Add {G}.</CardText>
 <Artist>Donato Giancola</Artist>
 <Multiverseid>3260</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5008,7 +5007,7 @@ Whenever Basalt Golem becomes blocked by a creature, that creature's controller 
 <Name>Paupers' Cage</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>At the beginning of each opponent's upkeep, if that player has two or fewer cards in hand, Paupers' Cage deals 2 damage to him or her.</CardText>
+<CardText>At the beginning of each opponent's upkeep, if that player has two or fewer cards in hand, Paupers' Cage deals 2 damage to that player.</CardText>
 <Flavor>A cage may keep you in, but it does not keep the stones out.</Flavor>
 <Artist>Mike Kimble</Artist>
 <Multiverseid>3262</Multiverseid>
@@ -5065,7 +5064,7 @@ When Phyrexian Dreadnought enters the battlefield, sacrifice it unless you sacri
 <Name>Razor Pendulum</Name>
 <Type>Artifact</Type>
 <ManaCost>4 (4)</ManaCost>
-<CardText>At the beginning of each player's end step, if that player has 5 or less life, Razor Pendulum deals 2 damage to him or her.</CardText>
+<CardText>At the beginning of each player's end step, if that player has 5 or less life, Razor Pendulum deals 2 damage to that player.</CardText>
 <Flavor>"Amazing thing, gravity. It seems to work every time."
 —Telim'Tor</Flavor>
 <Artist>Zak Plucinski</Artist>
@@ -5099,7 +5098,7 @@ When Phyrexian Dreadnought enters the battlefield, sacrifice it unless you sacri
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
 <CardText>Sky Diamond enters the battlefield tapped.
-{T}: Add {U} to your mana pool.</CardText>
+{T}: Add {U}.</CardText>
 <Artist>D. Alexander Gregory</Artist>
 <Multiverseid>3267</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5130,7 +5129,7 @@ When Phyrexian Dreadnought enters the battlefield, sacrifice it unless you sacri
 <Name>Telim'Tor's Darts</Name>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{2}, {T}: Telim'Tor's Darts deals 1 damage to target player.</CardText>
+<CardText>{2}, {T}: Telim'Tor's Darts deals 1 damage to target player or planeswalker.</CardText>
 <Flavor>"People laughed at my darts—once."
 —Telim'Tor</Flavor>
 <Artist>Kev Walker</Artist>
@@ -5163,7 +5162,7 @@ When Phyrexian Dreadnought enters the battlefield, sacrifice it unless you sacri
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
 <CardText>{X}{1}, {T}: Put X charge counters on Ventifact Bottle. Activate this ability only any time you could cast a sorcery.
-At the beginning of your precombat main phase, if Ventifact Bottle has a charge counter on it, tap it and remove all charge counters from it. Add {C} to your mana pool for each charge counter removed this way.</CardText>
+At the beginning of your precombat main phase, if Ventifact Bottle has a charge counter on it, tap it and remove all charge counters from it. Add {C} for each charge counter removed this way.</CardText>
 <Artist>Ron Spencer</Artist>
 <Multiverseid>3271</Multiverseid>
 <Reserved>This card is on the reserved list</Reserved>
@@ -5194,8 +5193,8 @@ At the beginning of your precombat main phase, if Ventifact Bottle has a charge 
 <No>290</No>
 <Name>Crystal Vein</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{T}, Sacrifice Crystal Vein: Add {C}{C} to your mana pool.</CardText>
+<CardText>{T}: Add {C}.
+{T}, Sacrifice Crystal Vein: Add {C}{C}.</CardText>
 <Artist>Pat Morrissey</Artist>
 <Multiverseid>3571</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5225,7 +5224,7 @@ At the beginning of your precombat main phase, if Ventifact Bottle has a charge 
 <No>292</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Tony Roberts</Artist>
 <Multiverseid>3569</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5240,7 +5239,7 @@ At the beginning of your precombat main phase, if Ventifact Bottle has a charge 
 <No>293</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Tony Roberts</Artist>
 <Multiverseid>3567</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5255,7 +5254,7 @@ At the beginning of your precombat main phase, if Ventifact Bottle has a charge 
 <No>294</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Tony Roberts</Artist>
 <Multiverseid>3568</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5270,7 +5269,7 @@ At the beginning of your precombat main phase, if Ventifact Bottle has a charge 
 <No>295</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Tony Roberts</Artist>
 <Multiverseid>3566</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5301,7 +5300,7 @@ At the beginning of your precombat main phase, if Ventifact Bottle has a charge 
 <No>297</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Douglas Shuler</Artist>
 <Multiverseid>3581</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5316,7 +5315,7 @@ At the beginning of your precombat main phase, if Ventifact Bottle has a charge 
 <No>298</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Douglas Shuler</Artist>
 <Multiverseid>3582</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5331,7 +5330,7 @@ At the beginning of your precombat main phase, if Ventifact Bottle has a charge 
 <No>299</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Douglas Shuler</Artist>
 <Multiverseid>3583</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5346,7 +5345,7 @@ At the beginning of your precombat main phase, if Ventifact Bottle has a charge 
 <No>300</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Douglas Shuler</Artist>
 <Multiverseid>3584</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5361,7 +5360,7 @@ At the beginning of your precombat main phase, if Ventifact Bottle has a charge 
 <No>301</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>3580</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5376,7 +5375,7 @@ At the beginning of your precombat main phase, if Ventifact Bottle has a charge 
 <No>302</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>3578</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5391,7 +5390,7 @@ At the beginning of your precombat main phase, if Ventifact Bottle has a charge 
 <No>303</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>3579</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5406,7 +5405,7 @@ At the beginning of your precombat main phase, if Ventifact Bottle has a charge 
 <No>304</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>3577</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5437,7 +5436,7 @@ At the beginning of your precombat main phase, if Ventifact Bottle has a charge 
 <No>306</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Tom Wänerstrand</Artist>
 <Multiverseid>3588</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5452,7 +5451,7 @@ At the beginning of your precombat main phase, if Ventifact Bottle has a charge 
 <No>307</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Tom Wänerstrand</Artist>
 <Multiverseid>3587</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5467,7 +5466,7 @@ At the beginning of your precombat main phase, if Ventifact Bottle has a charge 
 <No>308</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Tom Wänerstrand</Artist>
 <Multiverseid>3586</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5482,7 +5481,7 @@ At the beginning of your precombat main phase, if Ventifact Bottle has a charge 
 <No>309</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Tom Wänerstrand</Artist>
 <Multiverseid>3585</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5513,7 +5512,7 @@ At the beginning of your precombat main phase, if Ventifact Bottle has a charge 
 <No>311</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Bob Eggleton</Artist>
 <Multiverseid>3562</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5528,7 +5527,7 @@ At the beginning of your precombat main phase, if Ventifact Bottle has a charge 
 <No>312</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Bob Eggleton</Artist>
 <Multiverseid>3563</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5543,7 +5542,7 @@ At the beginning of your precombat main phase, if Ventifact Bottle has a charge 
 <No>313</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Bob Eggleton</Artist>
 <Multiverseid>3564</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5558,7 +5557,7 @@ At the beginning of your precombat main phase, if Ventifact Bottle has a charge 
 <No>314</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Bob Eggleton</Artist>
 <Multiverseid>3565</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5575,7 +5574,7 @@ At the beginning of your precombat main phase, if Ventifact Bottle has a charge 
 <Type>Legendary Land</Type>
 <CardText>Phasing (This phases in or out before you untap during each of your untap steps. While it's phased out, it's treated as though it doesn't exist.)
 Teferi's Isle enters the battlefield tapped.
-{T}: Add {U}{U} to your mana pool.</CardText>
+{T}: Add {U}{U}.</CardText>
 <Flavor>The three wizards knew only that this isle held a great mystery—and that patience alone would solve it.</Flavor>
 <Artist>Gerry Grace</Artist>
 <Multiverseid>3576</Multiverseid>
@@ -5631,7 +5630,7 @@ At the beginning of your upkeep, you lose 2 life.</CardText>
 <Name>Cadaverous Bloom</Name>
 <Type>Enchantment</Type>
 <ManaCost>3BG (5)</ManaCost>
-<CardText>Exile a card from your hand: Add {B}{B} or {G}{G} to your mana pool.</CardText>
+<CardText>Exile a card from your hand: Add {B}{B} or {G}{G}.</CardText>
 <Flavor>"It's filthy work, planting them."
 —Kifimbo, Shadow Guildmage</Flavor>
 <Artist>Alan Rabinowitz</Artist>
@@ -5649,7 +5648,7 @@ At the beginning of your upkeep, you lose 2 life.</CardText>
 <Name>Circle of Despair</Name>
 <Type>Enchantment</Type>
 <ManaCost>1WB (3)</ManaCost>
-<CardText>{1}, Sacrifice a creature: The next time a source of your choice would deal damage to target creature or player this turn, prevent that damage.</CardText>
+<CardText>{1}, Sacrifice a creature: The next time a source of your choice would deal damage to any target this turn, prevent that damage.</CardText>
 <Flavor>"Life is a resource that should belong only to the strong."
 —Shauku, Endbringer</Flavor>
 <Artist>Scott M. Fischer</Artist>
@@ -5667,7 +5666,7 @@ At the beginning of your upkeep, you lose 2 life.</CardText>
 <Name>Delirium</Name>
 <Type>Instant</Type>
 <ManaCost>1BR (3)</ManaCost>
-<CardText>Cast Delirium only during an opponent's turn.
+<CardText>Cast this spell only during an opponent's turn.
 Tap target creature that player controls. That creature deals damage equal to its power to the player. Prevent all combat damage that would be dealt to and dealt by the creature this turn.</CardText>
 <Artist>Terese Nielsen</Artist>
 <Multiverseid>3531</Multiverseid>
@@ -5723,7 +5722,7 @@ Whenever Emberwilde Caliph deals damage, you lose that much life.</CardText>
 <Type>Sorcery</Type>
 <ManaCost>XWR (2)</ManaCost>
 <CardText>Choose one —
-• Energy Bolt deals X damage to target player.
+• Energy Bolt deals X damage to target player or planeswalker.
 • Target player gains X life.</CardText>
 <Flavor>Life and death are two faces of the same coin.</Flavor>
 <Artist>Scott Kirschner</Artist>
@@ -5885,7 +5884,7 @@ Haunting Apparition's power is equal to 1 plus the number of green creature card
 <ManaCost>3UG (5)</ManaCost>
 <CardText>Cumulative upkeep {1} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)
 At the beginning of your upkeep, put a growth counter on Malignant Growth.
-At the beginning of each opponent's draw step, that player draws an additional card for each growth counter on Malignant Growth, then Malignant Growth deals damage to the player equal to the number of cards he or she drew this way.</CardText>
+At the beginning of each opponent's draw step, that player draws an additional card for each growth counter on Malignant Growth, then Malignant Growth deals damage to the player equal to the number of cards they drew this way.</CardText>
 <Artist>Scott M. Fischer</Artist>
 <Multiverseid>3543</Multiverseid>
 <Rulings>2004/10/04: In multiplayer games it affects all opponents.
@@ -5903,8 +5902,8 @@ At the beginning of each opponent's draw step, that player draws an additional c
 <Name>Phyrexian Purge</Name>
 <Type>Sorcery</Type>
 <ManaCost>2BR (4)</ManaCost>
-<CardText>Destroy any number of target creatures.
-Phyrexian Purge costs 3 life more to cast for each target.</CardText>
+<CardText>This spell costs 3 life more to cast for each target.
+Destroy any number of target creatures.</CardText>
 <Flavor>Only those who have nothing have nothing to fear.</Flavor>
 <Artist>Robert Bliss</Artist>
 <Multiverseid>3544</Multiverseid>
@@ -6102,7 +6101,7 @@ At the beginning of your upkeep, you may pay {4} and 2 life. If you do, return a
 <CardText>Pay 1 life: Until your next upkeep, target permanent can't phase out.</CardText>
 <Flavor>Time is the one shackle you can't break.
 —Zhalfirin aphorism</Flavor>
-<Artist>Dom</Artist>
+<Artist>Dom!</Artist>
 <Multiverseid>3555</Multiverseid>
 <Rulings>2012/07/01: If used on an Aura and the permanent enchanted by that Aura phases out, the Aura will not phase out. It will stay on the battlefield and then immediately be put into the graveyard since the permanent it was enchanting is phased out.</Rulings>
 <Vintage>Legal</Vintage>

@@ -49,7 +49,7 @@ Whenever a creature dies, you gain 1 life.</CardText>
 <Rulings>2017/09/29: If one of the targeted players is an illegal target when the triggered ability of <Axis of Mortality> tries to resolve, the exchange won't happen. Neither player's life total will change.
 2017/09/29: When the life totals are exchanged, each player gains or loses the amount of life necessary to equal the other player's previous life total. For example, if player A has 5 life and player B has 3 life before the exchange, player A will lose 2 life and player B will gain 2 life. Replacement effects may modify these gains and losses, and triggered abilities may trigger on them.
 2017/09/29: If a player can't gain life, that player can't exchange life totals with a player with a higher life total. If a player can't lose life, that player can't exchange life totals with a player with a lower life total. In either of these cases, neither player's life total will change.
-2017/09/29: In a Two-Headed Giant game, each player is considered to have the same life total as his or her team. If the two targeted players are on different teams, those players gain or lose the appropriate amount of life so that the teams end up exchanging life totals. If the two targeted players are teammates, they can't exchange life totals.</Rulings>
+2017/09/29: In a Two-Headed Giant game, each player is considered to have the same life total as their team. If the two targeted players are on different teams, those players gain or lose the appropriate amount of life so that the teams end up exchanging life totals. If the two targeted players are teammates, they can't exchange life totals.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -68,8 +68,8 @@ Whenever a creature dies, you gain 1 life.</CardText>
 <Artist>Craig J Spearing</Artist>
 <Multiverseid>435155</Multiverseid>
 <Rulings>2017/09/29: If another creature you control is dealt lethal damage at the same time that <Bellowing Aegisaur> is dealt damage, the other creature won't be saved by the +1/+1 counter that would have been put on it.
-2017/09/29: If multiple sources deal damage to a creature with an enrage ability at the same time, most likely because multiple creatures blocked that creature, the enrage ability triggers only once.
-2017/09/29: If lethal damage is dealt to a creature with an enrage ability, that ability triggers. The creature with that enrage ability leaves the battlefield before that ability resolves, so it won't be affected by the resolving ability.</Rulings>
+2018/01/19: If multiple sources deal damage to a creature with an enrage ability at the same time, most likely because multiple creatures blocked that creature, the enrage ability triggers only once.
+2018/01/19: If lethal damage is dealt to a creature with an enrage ability, that ability triggers. The creature with that enrage ability leaves the battlefield before that ability resolves, so it won't be affected by the resolving ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -126,7 +126,7 @@ Draw a card.</CardText>
 <Flavor>Vampires know blood and the systems that carry it. And they know exactly where to strike to set it free.</Flavor>
 <Artist>Ryan Alexander Lee</Artist>
 <Multiverseid>435158</Multiverseid>
-<Rulings>2017/09/29: If the target creature is an illegal target by the time <Bright Reprisal> resolves, the entire spell is countered. You won't draw a card. If, on the other hand, the target is a legal target but isn't destroyed (most likely because it has indestructible), you'll draw a card.</Rulings>
+<Rulings>2017/09/29: If the target creature is an illegal target by the time <Bright Reprisal> resolves, the entire spell doesn't resolve. You won't draw a card. If, on the other hand, the target is a legal target but isn't destroyed (most likely because it has indestructible), you'll draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -179,9 +179,9 @@ Draw a card.</CardText>
 When Emissary of Sunrise enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)</CardText>
 <Artist>Deruchenko Alexander</Artist>
 <Multiverseid>435161</Multiverseid>
-<Rulings>2017/09/29: Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
-2017/09/29: If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
-2017/09/29: If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature you control explores" trigger if appropriate.</Rulings>
+<Rulings>2018/01/19: Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
+2018/01/19: If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
+2018/01/19: If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature you control explores" trigger if appropriate.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -335,7 +335,7 @@ Your opponents can't cast spells with the same name as the exiled card.</CardTex
 <Artist>Sara Winters</Artist>
 <Multiverseid>435169</Multiverseid>
 <Rulings>2017/09/29: To determine the total cost of a Dinosaur spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The converted mana cost of the creature remains unchanged, no matter what the total cost to cast it was.
-2017/09/29: If an effect refers to a "[subtype] spell" or "[subtype] card," it refers only to a spell or card that has that subtype. For example, March of the Drowned is a card that benefits Pirates and features Pirates in its illustration, but it isn't a Pirate card.</Rulings>
+2018/01/19: If an effect refers to a "[subtype] spell" or "[subtype] card," it refers only to a spell or card that has that subtype. For example, March of the Drowned is a card that benefits Pirates and features Pirates in its illustration, but it isn't a Pirate card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -426,7 +426,7 @@ When you attack with three or more creatures, transform Legion's Landing.</CardT
 <Name>Adanto, the First Fort</Name>
 <Type>Legendary Land</Type>
 <CardText>(Transforms from Legion's Landing.)
-{T}: Add {W} to your mana pool.
+{T}: Add {W}.
 {2}{W}, {T}: Create a 1/1 white Vampire creature token with lifelink.</CardText>
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>435174</Multiverseid>
@@ -501,7 +501,7 @@ Enchanted creature can't attack or block.</CardText>
 <Flavor>"Ours is the true and righteous path. You will bow before our might."</Flavor>
 <Artist>Lake Hurwitz</Artist>
 <Multiverseid>435178</Multiverseid>
-<Rulings>2017/09/29: If the creature this Aura would enchant is an illegal target by the time <Pious Interdiction> resolves, the entire spell is countered. It won't enter the battlefield, so its ability won't trigger.</Rulings>
+<Rulings>2017/09/29: If the creature this Aura would enchant is an illegal target by the time <Pious Interdiction> resolves, the entire spell doesn't resolve. It won't enter the battlefield, so its ability won't trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -522,7 +522,7 @@ Enchanted creature can't attack or block.</CardText>
 <Rulings>2017/09/29: You don't choose whether to reveal a Dinosaur card from your hand until the triggered ability of <Priest of the Wakening Sun> resolves. You may respond to the triggered ability by taking an action to get a Dinosaur card into your hand, such as activating its second ability.
 2017/09/29: While resolving <Priest of the Wakening Sun>'s triggered ability, you can't reveal multiple Dinosaur cards to gain more life.
 2017/09/29: You can reveal the same Dinosaur card for multiple Priests of the Wakening Sun or for the same one over multiple turns.
-2017/09/29: If an effect refers to a "[subtype] spell" or "[subtype] card," it refers only to a spell or card that has that subtype. For example, March of the Drowned is a card that benefits Pirates and features Pirates in its illustration, but it isn't a Pirate card.</Rulings>
+2018/01/19: If an effect refers to a "[subtype] spell" or "[subtype] card," it refers only to a spell or card that has that subtype. For example, March of the Drowned is a card that benefits Pirates and features Pirates in its illustration, but it isn't a Pirate card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -643,11 +643,11 @@ Draw a card.</CardText>
 <Name>Settle the Wreckage</Name>
 <Type>Instant</Type>
 <ManaCost>2WW (4)</ManaCost>
-<CardText>Exile all attacking creatures target player controls. That player may search his or her library for that many basic land cards, put those cards onto the battlefield tapped, then shuffle his or her library.</CardText>
+<CardText>Exile all attacking creatures target player controls. That player may search their library for that many basic land cards, put those cards onto the battlefield tapped, then shuffle their library.</CardText>
 <Artist>Dimitar</Artist>
 <Multiverseid>435186</Multiverseid>
 <Rulings>2017/09/29: <Settle the Wreckage> targets only the player. Creatures with hexproof that player controls will be exiled as this spell resolves.
-2017/09/29: That player can find fewer basic land cards than the number of exiled creatures, whether because he or she wants to or because he or she doesn't have that many basic land cards left.
+2017/09/29: That player can find fewer basic land cards than the number of exiled creatures, whether because they want to or because they don't have that many basic land cards left.
 2017/09/29: The number of lands that player may find is the number of attacking creatures that were exiled, even if some of those creatures were tokens, weren't creature cards, or didn't end up in exile (most likely because one was that player's commander in the Commander variant).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -757,9 +757,9 @@ Draw a card.</CardText>
 When Sunrise Seeker enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)</CardText>
 <Artist>Filip Burburan</Artist>
 <Multiverseid>435192</Multiverseid>
-<Rulings>2017/09/29: Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
-2017/09/29: If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
-2017/09/29: If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature you control explores" trigger if appropriate.</Rulings>
+<Rulings>2018/01/19: Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
+2018/01/19: If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
+2018/01/19: If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature you control explores" trigger if appropriate.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -873,7 +873,7 @@ Creatures you control are the chosen type in addition to their other types. The 
 <Artist>Mark Behm</Artist>
 <Multiverseid>435198</Multiverseid>
 <Rulings>2017/09/29: Replacement effects that modify creatures of a certain type as they enter the battlefield will apply after you apply <Arcane Adaptation>'s effect. This is a change from previous rules. If you control <Arcane Adaptation> and the Aether Revolt card Metallic Mimic, with the same creature type chosen for both, then any creature you control will enter the battlefield with an additional +1/+1 counter on it.
-2017/09/29: To choose a creature type, you must choose an existing creature type, such as Vampire or Knight. You can't choose multiple creature types, such as "Vampire Knight." Card types such as artifact can't be chosen, nor can subtypes that aren't creature types, such as Jace, Vehicle, or Treasure.</Rulings>
+2018/01/19: To choose a creature type, you must choose an existing creature type, such as Vampire or Knight. You can't choose multiple creature types, such as "Vampire Knight." Card types such as artifact can't be chosen, nor can subtypes that aren't creature types, such as Jace, Vehicle, or Treasure.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -963,7 +963,7 @@ Whenever Daring Saboteur deals combat damage to a player, you may draw a card. I
 <Artist>Zezhou Chen</Artist>
 <Multiverseid>435203</Multiverseid>
 <Rulings>2017/09/29: The ability of <Deeproot Waters> resolves before the spell that caused it to trigger.
-2017/09/29: If an effect refers to a "[subtype] spell" or "[subtype] card," it refers only to a spell or card that has that subtype. For example, March of the Drowned is a card that benefits Pirates and features Pirates in its illustration, but it isn't a Pirate card.</Rulings>
+2018/01/19: If an effect refers to a "[subtype] spell" or "[subtype] card," it refers only to a spell or card that has that subtype. For example, March of the Drowned is a card that benefits Pirates and features Pirates in its illustration, but it isn't a Pirate card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -977,7 +977,7 @@ Whenever Daring Saboteur deals combat damage to a player, you may draw a card. I
 <Name>Depths of Desire</Name>
 <Type>Instant</Type>
 <ManaCost>2U (3)</ManaCost>
-<CardText>Return target creature to its owner's hand. Create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."</CardText>
+<CardText>Return target creature to its owner's hand. Create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color."</CardText>
 <Flavor>Pockets full of gold, lungs full of brine.</Flavor>
 <Artist>John Stanko</Artist>
 <Multiverseid>435204</Multiverseid>
@@ -1069,12 +1069,12 @@ When Dreamcaller Siren enters the battlefield, if you control another Pirate, ta
 <Name>Fleet Swallower</Name>
 <Type>Creature — Fish 6/6</Type>
 <ManaCost>5UU (7)</ManaCost>
-<CardText>Whenever Fleet Swallower attacks, target player puts the top half of his or her library, rounded up, into his or her graveyard.</CardText>
+<CardText>Whenever Fleet Swallower attacks, target player puts the top half of their library, rounded up, into their graveyard.</CardText>
 <Flavor>"Captain, I think that island is following us."</Flavor>
 <Artist>Tomasz Jedruszek</Artist>
 <Multiverseid>435209</Multiverseid>
 <Rulings>2017/09/29: <Fleet Swallower>'s triggered ability can target any player, not just the player it's attacking.
-2017/09/29: If two <Fleet Swallower>s attack, each trigger determines the top half of that player's library separately. For example, if the target player has fifteen cards in his or her library, that player puts the top eight cards into the graveyard, then puts the top four cards into the graveyard.</Rulings>
+2017/09/29: If two <Fleet Swallower>s attack, each trigger determines the top half of that player's library separately. For example, if the target player has fifteen cards in their library, that player puts the top eight cards into the graveyard, then puts the top four cards into the graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1167,7 +1167,7 @@ Abilities your opponents activate that target a Merfolk you control cost {2} mor
 <Name>Lookout's Dispersal</Name>
 <Type>Instant</Type>
 <ManaCost>2U (3)</ManaCost>
-<CardText>Lookout's Dispersal costs {1} less to cast if you control a Pirate.
+<CardText>This spell costs {1} less to cast if you control a Pirate.
 Counter target spell unless its controller pays {4}.</CardText>
 <Flavor>Her song plucks the strings of the storm, shifting wind and storm into a harmony that will carry her ship to safety.</Flavor>
 <Artist>Ryan Yee</Artist>
@@ -1186,13 +1186,13 @@ Counter target spell unless its controller pays {4}.</CardText>
 <Name>Navigator's Ruin</Name>
 <Type>Enchantment</Type>
 <ManaCost>2U (3)</ManaCost>
-<CardText>Raid — At the beginning of your end step, if you attacked with a creature this turn, target opponent puts the top four cards of his or her library into his or her graveyard.</CardText>
+<CardText>Raid — At the beginning of your end step, if you attacked with a creature this turn, target opponent puts the top four cards of their library into their graveyard.</CardText>
 <Flavor>"You won't be needing this. Or this. Or these . . ."</Flavor>
 <Artist>Zoltan Boros</Artist>
 <Multiverseid>435215</Multiverseid>
 <Rulings>2018/01/19: Raid abilities care only that you attacked with a creature. It doesn't matter how many creatures you attacked with, or which opponent or planeswalker controlled by an opponent those creatures attacked.
 2018/01/19: Raid abilities evaluate the entire turn to see if you attacked with a creature. That creature doesn't have to still be on the battlefield. Similarly, the player or planeswalker it attacked doesn't have to still be in the game or on the battlefield, respectively.
-2017/09/29: Some raid abilities trigger at the beginning of your end step. These abilities trigger if you attacked with a creature that turn, even if the card with that raid ability wasn't on the battlefield when you attacked.</Rulings>
+2018/01/19: Some raid abilities trigger at the beginning of your end step. These abilities trigger if you attacked with a creature that turn, even if the card with that raid ability wasn't on the battlefield when you attacked.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1264,7 +1264,7 @@ Draw a card.</CardText>
 <Flavor>For the first time in her life, Vraska tried to prevent death.</Flavor>
 <Artist>Wesley Burt</Artist>
 <Multiverseid>435219</Multiverseid>
-<Rulings>2017/09/29: If the target permanent is an illegal target by the time <Perilous Voyage> resolves, the entire spell is countered. You won't scry.
+<Rulings>2017/09/29: If the target permanent is an illegal target by the time <Perilous Voyage> resolves, the entire spell doesn't resolve. You won't scry.
 2017/09/29: Use the permanent's converted mana cost as it existed on the battlefield to determine whether you scry.
 2017/09/29: If a permanent has {X} in its mana cost, X is considered to be 0.
 2018/01/19: There are many important moments in the story, but the most crucial—called "story spotlights"—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.</Rulings>
@@ -1281,7 +1281,7 @@ Draw a card.</CardText>
 <Name>Pirate's Prize</Name>
 <Type>Sorcery</Type>
 <ManaCost>3U (4)</ManaCost>
-<CardText>Draw two cards. Create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."</CardText>
+<CardText>Draw two cards. Create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color."</CardText>
 <Flavor>Nothing warms the heart like plunder.</Flavor>
 <Artist>Deruchenko Alexander</Artist>
 <Multiverseid>435220</Multiverseid>
@@ -1298,7 +1298,7 @@ Draw a card.</CardText>
 <Name>Prosperous Pirates</Name>
 <Type>Creature — Human Pirate 3/4</Type>
 <ManaCost>4U (5)</ManaCost>
-<CardText>When Prosperous Pirates enters the battlefield, create two colorless Treasure artifact tokens with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."</CardText>
+<CardText>When Prosperous Pirates enters the battlefield, create two colorless Treasure artifact tokens with "{T}, Sacrifice this artifact: Add one mana of any color."</CardText>
 <Flavor>The floating city of High and Dry hasn't yet sunk under the weight of gold, but it's not for want of trying.</Flavor>
 <Artist>Josh Hass</Artist>
 <Multiverseid>435221</Multiverseid>
@@ -1369,7 +1369,7 @@ Whenever another Merfolk enters the battlefield under your control, River Sneak 
 <Name>Sailor of Means</Name>
 <Type>Creature — Human Pirate 1/4</Type>
 <ManaCost>2U (3)</ManaCost>
-<CardText>When Sailor of Means enters the battlefield, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."</CardText>
+<CardText>When Sailor of Means enters the battlefield, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color."</CardText>
 <Flavor>In the Brazen Coalition, the wheels of business are greased with plunder.</Flavor>
 <Artist>Ryan Pancoast</Artist>
 <Multiverseid>435225</Multiverseid>
@@ -1408,7 +1408,7 @@ Whenever another Merfolk enters the battlefield under your control, River Sneak 
 <Name>Azcanta, the Sunken Ruin</Name>
 <Type>Legendary Land</Type>
 <CardText>(Transforms from Search for Azcanta.)
-{T}: Add {U} to your mana pool.
+{T}: Add {U}.
 {2}{U}, {T}: Look at the top four cards of your library. You may reveal a noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom of your library in any order.</CardText>
 <Artist>Magali Villeneuve</Artist>
 <Multiverseid>435227</Multiverseid>
@@ -1483,9 +1483,9 @@ Whenever another Merfolk enters the battlefield under your control, River Sneak 
 When Siren Lookout enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)</CardText>
 <Artist>Chris Rallis</Artist>
 <Multiverseid>435231</Multiverseid>
-<Rulings>2017/09/29: Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
-2017/09/29: If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
-2017/09/29: If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature you control explores" trigger if appropriate.</Rulings>
+<Rulings>2018/01/19: Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
+2018/01/19: If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
+2018/01/19: If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature you control explores" trigger if appropriate.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1557,7 +1557,7 @@ When Siren Lookout enters the battlefield, it explores. (Reveal the top card of 
 <Name>Spell Swindle</Name>
 <Type>Instant</Type>
 <ManaCost>3UU (5)</ManaCost>
-<CardText>Counter target spell. Create X colorless Treasure artifact tokens, where X is that spell's converted mana cost. They have "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."</CardText>
+<CardText>Counter target spell. Create X colorless Treasure artifact tokens, where X is that spell's converted mana cost. They have "{T}, Sacrifice this artifact: Add one mana of any color."</CardText>
 <Artist>Victor Adame Minguez</Artist>
 <Multiverseid>435235</Multiverseid>
 <Rulings>2017/09/29: For spells with {X} in their mana costs, use the value chosen for X to determine the spell's converted mana cost.
@@ -1727,7 +1727,7 @@ At the beginning of your upkeep, if you have 5 or less life, you may transform A
 <Name>Temple of Aclazotz</Name>
 <Type>Legendary Land</Type>
 <CardText>(Transforms from Arguel's Blood Fast.)
-{T}: Add {B} to your mana pool.
+{T}: Add {B}.
 {T}, Sacrifice a creature: You gain life equal to the sacrificed creature's toughness.</CardText>
 <Flavor>. . . to the lost temple of a bat-god of night, eternal enemy to the Threefold Sun.</Flavor>
 <Artist>Daarken</Artist>
@@ -1825,11 +1825,11 @@ Bloodcrazed Paladin enters the battlefield with a +1/+1 counter on it for each c
 <Name>Contract Killing</Name>
 <Type>Sorcery</Type>
 <ManaCost>3BB (5)</ManaCost>
-<CardText>Destroy target creature. Create two colorless Treasure artifact tokens with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."</CardText>
+<CardText>Destroy target creature. Create two colorless Treasure artifact tokens with "{T}, Sacrifice this artifact: Add one mana of any color."</CardText>
 <Flavor>For a price, the floating city of High and Dry offers all the amenities a pirate could want: rest, recreation, and revenge.</Flavor>
 <Artist>Winona Nelson</Artist>
 <Multiverseid>435249</Multiverseid>
-<Rulings>2017/09/29: If the target creature is an illegal target by the time <Contract Killing> resolves, the entire spell is countered. You won't get Treasures. If, on the other hand, the target is a legal target but isn't destroyed (most likely because it has indestructible), you'll get Treasures.</Rulings>
+<Rulings>2017/09/29: If the target creature is an illegal target by the time <Contract Killing> resolves, the entire spell doesn't resolve. You won't get Treasures. If, on the other hand, the target is a legal target but isn't destroyed (most likely because it has indestructible), you'll get Treasures.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1843,7 +1843,7 @@ Bloodcrazed Paladin enters the battlefield with a +1/+1 counter on it for each c
 <Name>Costly Plunder</Name>
 <Type>Instant</Type>
 <ManaCost>1B (2)</ManaCost>
-<CardText>As an additional cost to cast Costly Plunder, sacrifice an artifact or creature.
+<CardText>As an additional cost to cast this spell, sacrifice an artifact or creature.
 Draw two cards.</CardText>
 <Flavor>No lock of iron is a match for Vraska's will of stone.</Flavor>
 <Artist>Ben Maier</Artist>
@@ -1862,11 +1862,11 @@ Draw two cards.</CardText>
 <Name>Dark Nourishment</Name>
 <Type>Instant</Type>
 <ManaCost>4B (5)</ManaCost>
-<CardText>Dark Nourishment deals 3 damage to target creature or player. You gain 3 life.</CardText>
+<CardText>Dark Nourishment deals 3 damage to any target. You gain 3 life.</CardText>
 <Flavor>Demons lurk in the shadows of ancient ruins, spreading plague and corruption across the land.</Flavor>
 <Artist>Josh Hass</Artist>
 <Multiverseid>435251</Multiverseid>
-<Rulings>2017/09/29: If the target creature or player is an illegal target by the time <Dark Nourishment> resolves, the entire spell is countered. You won't gain life.</Rulings>
+<Rulings>2017/09/29: If the target permanent or player is an illegal target by the time <Dark Nourishment> resolves, the entire spell doesn't resolve. You won't gain life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1904,10 +1904,10 @@ Draw two cards.</CardText>
 <Multiverseid>435253</Multiverseid>
 <Rulings>2017/09/29: You can't activate <Deadeye Tracker>'s ability without targeting two cards in a single opponent's graveyard.
 2017/09/29: If one target card is an illegal target by the time <Deadeye Tracker>'s ability resolves, the remaining legal target is exiled and <Deadeye Tracker> explores.
-2017/09/29: If each target card is an illegal target by the time <Deadeye Tracker>'s ability resolves, the entire ability is countered. <Deadeye Tracker> won't explore.
-2017/09/29: Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
-2017/09/29: If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
-2017/09/29: If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature you control explores" trigger if appropriate.</Rulings>
+2017/09/29: If each target card is an illegal target by the time <Deadeye Tracker>'s ability resolves, the entire ability doesn't resolve. <Deadeye Tracker> won't explore.
+2018/01/19: Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
+2018/01/19: If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
+2018/01/19: If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature you control explores" trigger if appropriate.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1960,7 +1960,7 @@ Tap three untapped Vampires you control: Return Deathless Ancient from your grav
 <Name>Dire Fleet Hoarder</Name>
 <Type>Creature — Human Pirate 2/1</Type>
 <ManaCost>1B (2)</ManaCost>
-<CardText>When Dire Fleet Hoarder dies, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."</CardText>
+<CardText>When Dire Fleet Hoarder dies, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color."</CardText>
 <Flavor>Among the pirates of the Brazen Coalition, the only thing more dangerous than failure is success.</Flavor>
 <Artist>Deruchenko Alexander</Artist>
 <Multiverseid>435256</Multiverseid>
@@ -1981,9 +1981,9 @@ Tap three untapped Vampires you control: Return Deathless Ancient from your grav
 When Dire Fleet Interloper enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)</CardText>
 <Artist>John Severin Brassell</Artist>
 <Multiverseid>435257</Multiverseid>
-<Rulings>2017/09/29: Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
-2017/09/29: If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
-2017/09/29: If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature you control explores" trigger if appropriate.</Rulings>
+<Rulings>2018/01/19: Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
+2018/01/19: If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
+2018/01/19: If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature you control explores" trigger if appropriate.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1998,7 +1998,7 @@ When Dire Fleet Interloper enters the battlefield, it explores. (Reveal the top 
 <Type>Creature — Orc Pirate Wizard 4/4</Type>
 <ManaCost>3BB (5)</ManaCost>
 <CardText>Menace, deathtouch
-When Dire Fleet Ravager enters the battlefield, each player loses a third of his or her life, rounded up.</CardText>
+When Dire Fleet Ravager enters the battlefield, each player loses a third of their life, rounded up.</CardText>
 <Flavor>His fists fume with the decay of death, each strike a plague on the hearts of his enemies.</Flavor>
 <Artist>Bram Sels</Artist>
 <Multiverseid>435258</Multiverseid>
@@ -2018,7 +2018,7 @@ When Dire Fleet Ravager enters the battlefield, each player loses a third of his
 <Name>Duress</Name>
 <Type>Sorcery</Type>
 <ManaCost>B (1)</ManaCost>
-<CardText>Target opponent reveals his or her hand. You choose a noncreature, nonland card from it. That player discards that card.</CardText>
+<CardText>Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card.</CardText>
 <Flavor>Solitude and starvation are brutal punishments, but even worse is all that time to think.</Flavor>
 <Artist>Lucas Graciano</Artist>
 <Multiverseid>435259</Multiverseid>
@@ -2079,7 +2079,7 @@ Whenever Fathom Fleet Captain attacks, if you control another nontoken Pirate, y
 <Rulings>2017/09/29: <Grim Captain's Call> doesn't target the cards to return. You choose them while it's resolving. No players may take actions between the time you make each choice and the time you return each card to your hand.
 2017/09/29: If a card in your graveyard has more than one of these types (such as a Dinosaur that's a Vampire Dinosaur due to Arcane Adaptation's effect), you may choose to return it for one of its types and return another card of the other type.
 2017/09/29: If you don't have a card in your graveyard of one of the listed creature types, you just continue to the next listed type.
-2017/09/29: If an effect refers to a "[subtype] spell" or "[subtype] card," it refers only to a spell or card that has that subtype. For example, March of the Drowned is a card that benefits Pirates and features Pirates in its illustration, but it isn't a Pirate card.</Rulings>
+2018/01/19: If an effect refers to a "[subtype] spell" or "[subtype] card," it refers only to a spell or card that has that subtype. For example, March of the Drowned is a card that benefits Pirates and features Pirates in its illustration, but it isn't a Pirate card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2094,10 +2094,11 @@ Whenever Fathom Fleet Captain attacks, if you control another nontoken Pirate, y
 <Type>Sorcery</Type>
 <ManaCost>2B (3)</ManaCost>
 <CardText>Target opponent discards two cards.
-Raid — If you attacked with a creature this turn, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."</CardText>
+Raid — If you attacked with a creature this turn, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color."</CardText>
 <Artist>Sara Winters</Artist>
 <Multiverseid>435263</Multiverseid>
-<Rulings>2018/01/19: Raid abilities care only that you attacked with a creature. It doesn't matter how many creatures you attacked with, or which opponent or planeswalker controlled by an opponent those creatures attacked.
+<Rulings>2017/09/29: If you've attacked with a creature this turn, you'll get a Treasure even if the target opponent discards one or zero cards.
+2018/01/19: Raid abilities care only that you attacked with a creature. It doesn't matter how many creatures you attacked with, or which opponent or planeswalker controlled by an opponent those creatures attacked.
 2018/01/19: Raid abilities evaluate the entire turn to see if you attacked with a creature. That creature doesn't have to still be on the battlefield. Similarly, the player or planeswalker it attacked doesn't have to still be in the game or on the battlefield, respectively.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2113,10 +2114,10 @@ Raid — If you attacked with a creature this turn, create a colorless Treasure 
 <Type>Creature — Human Pirate 1/2</Type>
 <ManaCost>1B (2)</ManaCost>
 <CardText>Flying
-When Kitesail Freebooter enters the battlefield, target opponent reveals his or her hand. You choose a noncreature, nonland card from it. Exile that card until Kitesail Freebooter leaves the battlefield.</CardText>
+When Kitesail Freebooter enters the battlefield, target opponent reveals their hand. You choose a noncreature, nonland card from it. Exile that card until Kitesail Freebooter leaves the battlefield.</CardText>
 <Artist>Dan Scott</Artist>
 <Multiverseid>435264</Multiverseid>
-<Rulings>2017/09/29: If <Kitesail Freebooter> leaves the battlefield before its enters-the-battlefield ability resolves, the opponent will reveal his or her hand, but no card will be exiled.
+<Rulings>2017/09/29: If <Kitesail Freebooter> leaves the battlefield before its enters-the-battlefield ability resolves, the opponent will reveal their hand, but no card will be exiled.
 2017/09/29: The exiled card returns to its owner's hand immediately after <Kitesail Freebooter> leaves the battlefield. Nothing happens between the two events, including state-based actions.
 2017/09/29: In a multiplayer game, if <Kitesail Freebooter>'s owner leaves the game, the exiled card will return to its owner's hand. Because the one-shot effect that returns the card isn't an ability that goes on the stack, it won't cease to exist along with the leaving player's spells and abilities on the stack.</Rulings>
 <Vintage>Legal</Vintage>
@@ -2157,7 +2158,7 @@ When Kitesail Freebooter enters the battlefield, target opponent reveals his or 
 • Return two target Pirate cards from your graveyard to your hand.</CardText>
 <Artist>Ben Wootten</Artist>
 <Multiverseid>435266</Multiverseid>
-<Rulings>2017/09/29: If an effect refers to a "[subtype] spell" or "[subtype] card," it refers only to a spell or card that has that subtype. For example, <March of the Drowned> is a card that benefits Pirates and features Pirates in its illustration, but it isn't a Pirate card.</Rulings>
+<Rulings>2018/01/19: If an effect refers to a "[subtype] spell" or "[subtype] card," it refers only to a spell or card that has that subtype. For example, <March of the Drowned> is a card that benefits Pirates and features Pirates in its illustration, but it isn't a Pirate card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2195,9 +2196,9 @@ Enchanted creature gets +2/+2 and has lifelink.</CardText>
 When Queen's Agent enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)</CardText>
 <Artist>Winona Nelson</Artist>
 <Multiverseid>435268</Multiverseid>
-<Rulings>2017/09/29: Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
-2017/09/29: If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
-2017/09/29: If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature you control explores" trigger if appropriate.</Rulings>
+<Rulings>2018/01/19: Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
+2018/01/19: If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
+2018/01/19: If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature you control explores" trigger if appropriate.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2234,7 +2235,7 @@ Raid — At the beginning of your end step, if you attacked with a creature this
 <Multiverseid>435270</Multiverseid>
 <Rulings>2018/01/19: Raid abilities care only that you attacked with a creature. It doesn't matter how many creatures you attacked with, or which opponent or planeswalker controlled by an opponent those creatures attacked.
 2018/01/19: Raid abilities evaluate the entire turn to see if you attacked with a creature. That creature doesn't have to still be on the battlefield. Similarly, the player or planeswalker it attacked doesn't have to still be in the game or on the battlefield, respectively.
-2017/09/29: Some raid abilities trigger at the beginning of your end step. These abilities trigger if you attacked with a creature that turn, even if the card with that raid ability wasn't on the battlefield when you attacked.</Rulings>
+2018/01/19: Some raid abilities trigger at the beginning of your end step. These abilities trigger if you attacked with a creature that turn, even if the card with that raid ability wasn't on the battlefield when you attacked.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2248,7 +2249,7 @@ Raid — At the beginning of your end step, if you attacked with a creature this
 <Name>Revel in Riches</Name>
 <Type>Enchantment</Type>
 <ManaCost>4B (5)</ManaCost>
-<CardText>Whenever a creature an opponent controls dies, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
+<CardText>Whenever a creature an opponent controls dies, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color."
 At the beginning of your upkeep, if you control ten or more Treasures, you win the game.</CardText>
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>435271</Multiverseid>
@@ -2277,7 +2278,7 @@ At the beginning of your upkeep, if you control ten or more Treasures, you win t
 2017/09/29: The converted mana cost of a split card, such as cards with aftermath from the Amonkhet block, is based on the combined mana cost of its two halves.
 2018/01/19: Raid abilities care only that you attacked with a creature. It doesn't matter how many creatures you attacked with, or which opponent or planeswalker controlled by an opponent those creatures attacked.
 2018/01/19: Raid abilities evaluate the entire turn to see if you attacked with a creature. That creature doesn't have to still be on the battlefield. Similarly, the player or planeswalker it attacked doesn't have to still be in the game or on the battlefield, respectively.
-2017/09/29: Some raid abilities trigger at the beginning of your end step. These abilities trigger if you attacked with a creature that turn, even if the card with that raid ability wasn't on the battlefield when you attacked.</Rulings>
+2018/01/19: Some raid abilities trigger at the beginning of your end step. These abilities trigger if you attacked with a creature that turn, even if the card with that raid ability wasn't on the battlefield when you attacked.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2291,7 +2292,7 @@ At the beginning of your upkeep, if you control ten or more Treasures, you win t
 <Name>Ruthless Knave</Name>
 <Type>Creature — Orc Pirate 3/2</Type>
 <ManaCost>2B (3)</ManaCost>
-<CardText>{2}{B}, Sacrifice a creature: Create two colorless Treasure artifact tokens with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
+<CardText>{2}{B}, Sacrifice a creature: Create two colorless Treasure artifact tokens with "{T}, Sacrifice this artifact: Add one mana of any color."
 Sacrifice three Treasures: Draw a card.</CardText>
 <Flavor>"This scum is barely worth the trouble."</Flavor>
 <Artist>Aaron Miller</Artist>
@@ -2333,9 +2334,9 @@ Sacrifice three Treasures: Draw a card.</CardText>
 <Flavor>Dusk follows the light.</Flavor>
 <Artist>Anthony Palumbo</Artist>
 <Multiverseid>435275</Multiverseid>
-<Rulings>2017/09/29: Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
-2017/09/29: If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
-2017/09/29: If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature you control explores" trigger if appropriate.</Rulings>
+<Rulings>2018/01/19: Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
+2018/01/19: If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
+2018/01/19: If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature you control explores" trigger if appropriate.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2479,7 +2480,7 @@ When Skymarch Bloodletter enters the battlefield, target opponent loses 1 life a
 <Flavor>It wasn't long before the taverns of High and Dry were full of whispers about the new captain who could turn a person to stone with a glance.</Flavor>
 <Artist>Clint Cearley</Artist>
 <Multiverseid>435283</Multiverseid>
-<Rulings>2017/09/29: If the target creature or planeswalker is an illegal target by the time <Vraska's Contempt> resolves, the entire spell is countered. You won't gain life.
+<Rulings>2017/09/29: If the target creature or planeswalker is an illegal target by the time <Vraska's Contempt> resolves, the entire spell doesn't resolve. You won't gain life.
 2018/01/19: There are many important moments in the story, but the most crucial—called "story spotlights"—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2511,7 +2512,7 @@ When Skymarch Bloodletter enters the battlefield, target opponent loses 1 life a
 <Name>Wanted Scoundrels</Name>
 <Type>Creature — Human Pirate 4/3</Type>
 <ManaCost>1B (2)</ManaCost>
-<CardText>When Wanted Scoundrels dies, target opponent creates two colorless Treasure artifact tokens with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."</CardText>
+<CardText>When Wanted Scoundrels dies, target opponent creates two colorless Treasure artifact tokens with "{T}, Sacrifice this artifact: Add one mana of any color."</CardText>
 <Flavor>"Trust me. The reward's not worth it."</Flavor>
 <Artist>Volkan Baga</Artist>
 <Multiverseid>435285</Multiverseid>
@@ -2575,9 +2576,9 @@ When Skymarch Bloodletter enters the battlefield, target opponent loses 1 life a
 When Brazen Buccaneers enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)</CardText>
 <Artist>Joseph Meehan</Artist>
 <Multiverseid>435288</Multiverseid>
-<Rulings>2017/09/29: Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
-2017/09/29: If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
-2017/09/29: If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature you control explores" trigger if appropriate.</Rulings>
+<Rulings>2018/01/19: Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
+2018/01/19: If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
+2018/01/19: If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature you control explores" trigger if appropriate.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2591,7 +2592,7 @@ When Brazen Buccaneers enters the battlefield, it explores. (Reveal the top card
 <Name>Burning Sun's Avatar</Name>
 <Type>Creature — Dinosaur Avatar 6/6</Type>
 <ManaCost>3RRR (6)</ManaCost>
-<CardText>When Burning Sun's Avatar enters the battlefield, it deals 3 damage to target opponent and 3 damage to up to one target creature.</CardText>
+<CardText>When Burning Sun's Avatar enters the battlefield, it deals 3 damage to target opponent or planeswalker and 3 damage to up to one target creature.</CardText>
 <Flavor>"Tilonalli's searing rays carry the spark of life's eventual destruction as all light fades."
 —Chitlati, Lightning Rider</Flavor>
 <Artist>Randy Vargas</Artist>
@@ -2612,7 +2613,7 @@ When Brazen Buccaneers enters the battlefield, it explores. (Reveal the top card
 <Type>Legendary Creature — Human Pirate 2/2</Type>
 <ManaCost>2R (3)</ManaCost>
 <CardText>Haste
-Whenever Captain Lannery Storm attacks, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
+Whenever Captain Lannery Storm attacks, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color."
 Whenever you sacrifice a Treasure, Captain Lannery Storm gets +1/+0 until end of turn.</CardText>
 <Artist>Chris Rallis</Artist>
 <Multiverseid>435290</Multiverseid>
@@ -2846,7 +2847,7 @@ Headstrong Brute has menace as long as you control another Pirate.</CardText>
 <Name>Lightning Strike</Name>
 <Type>Instant</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>Lightning Strike deals 3 damage to target creature or player.</CardText>
+<CardText>Lightning Strike deals 3 damage to any target.</CardText>
 <Flavor>"Storm on the horizon, cap'n!"
 —Grick Doobin, last words</Flavor>
 <Artist>Craig J Spearing</Artist>
@@ -2884,7 +2885,7 @@ Whenever you cast a Pirate spell, untap Lightning-Rig Crew.</CardText>
 <Name>Makeshift Munitions</Name>
 <Type>Enchantment</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>{1}, Sacrifice an artifact or creature: Makeshift Munitions deals 1 damage to target creature or player.</CardText>
+<CardText>{1}, Sacrifice an artifact or creature: Makeshift Munitions deals 1 damage to any target.</CardText>
 <Flavor>"Grease up a firecannon good and proper with dinosaur-liver oil, and it'll shoot just about anything."</Flavor>
 <Artist>Filip Burburan</Artist>
 <Multiverseid>435305</Multiverseid>
@@ -2926,7 +2927,7 @@ Whenever you cast a Pirate spell, untap Lightning-Rig Crew.</CardText>
 <Artist>Daarken</Artist>
 <Multiverseid>435307</Multiverseid>
 <Rulings>2017/09/29: To determine the total cost of a Dinosaur spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The converted mana cost of the creature remains unchanged, no matter what the total cost to cast it was.
-2017/09/29: If an effect refers to a "[subtype] spell" or "[subtype] card," it refers only to a spell or card that has that subtype. For example, March of the Drowned is a card that benefits Pirates and features Pirates in its illustration, but it isn't a Pirate card.</Rulings>
+2018/01/19: If an effect refers to a "[subtype] spell" or "[subtype] card," it refers only to a spell or card that has that subtype. For example, March of the Drowned is a card that benefits Pirates and features Pirates in its illustration, but it isn't a Pirate card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2968,8 +2969,8 @@ Whenever another creature enters the battlefield, Rampaging Ferocidon deals 1 da
 —Sun Empire saying</Flavor>
 <Artist>Even Amundsen</Artist>
 <Multiverseid>435309</Multiverseid>
-<Rulings>2017/09/29: If multiple sources deal damage to a creature with an enrage ability at the same time, most likely because multiple creatures blocked that creature, the enrage ability triggers only once.
-2017/09/29: If lethal damage is dealt to a creature with an enrage ability, that ability triggers. The creature with that enrage ability leaves the battlefield before that ability resolves, so it won't be affected by the resolving ability.</Rulings>
+<Rulings>2018/01/19: If multiple sources deal damage to a creature with an enrage ability at the same time, most likely because multiple creatures blocked that creature, the enrage ability triggers only once.
+2018/01/19: If lethal damage is dealt to a creature with an enrage ability, that ability triggers. The creature with that enrage ability leaves the battlefield before that ability resolves, so it won't be affected by the resolving ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2983,7 +2984,7 @@ Whenever another creature enters the battlefield, Rampaging Ferocidon deals 1 da
 <Name>Repeating Barrage</Name>
 <Type>Sorcery</Type>
 <ManaCost>1RR (3)</ManaCost>
-<CardText>Repeating Barrage deals 3 damage to target creature or player.
+<CardText>Repeating Barrage deals 3 damage to any target.
 Raid — {3}{R}{R}: Return Repeating Barrage from your graveyard to your hand. Activate this ability only if you attacked with a creature this turn.</CardText>
 <Artist>Dan Scott</Artist>
 <Multiverseid>435310</Multiverseid>
@@ -3029,7 +3030,7 @@ Draw a card.</CardText>
 <Multiverseid>435312</Multiverseid>
 <Rulings>2017/09/29: If <Rile> targets a creature with 1 toughness, that creature won't be destroyed until after you've drawn a card. Its abilities may affect that draw or trigger on that draw if appropriate.
 2017/09/29: If the damage that would be dealt by <Rile> is prevented, the creature still gains trample until end of turn.
-2017/09/29: If the target creature is an illegal target by the time <Rile> resolves, the entire spell is countered. You won't draw a card.</Rulings>
+2017/09/29: If the target creature is an illegal target by the time <Rile> resolves, the entire spell doesn't resolve. You won't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3119,7 +3120,7 @@ When Rowdy Crew enters the battlefield, draw three cards, then discard two cards
 <Name>Storm Fleet Pyromancer</Name>
 <Type>Creature — Human Pirate Wizard 3/2</Type>
 <ManaCost>4R (5)</ManaCost>
-<CardText>Raid — When Storm Fleet Pyromancer enters the battlefield, if you attacked with a creature this turn, Storm Fleet Pyromancer deals 2 damage to target creature or player.</CardText>
+<CardText>Raid — When Storm Fleet Pyromancer enters the battlefield, if you attacked with a creature this turn, Storm Fleet Pyromancer deals 2 damage to any target.</CardText>
 <Artist>Kieran Yanner</Artist>
 <Multiverseid>435317</Multiverseid>
 <Rulings>2018/01/19: Raid abilities care only that you attacked with a creature. It doesn't matter how many creatures you attacked with, or which opponent or planeswalker controlled by an opponent those creatures attacked.
@@ -3137,13 +3138,13 @@ When Rowdy Crew enters the battlefield, draw three cards, then discard two cards
 <Name>Sun-Crowned Hunters</Name>
 <Type>Creature — Dinosaur 5/4</Type>
 <ManaCost>4RR (6)</ManaCost>
-<CardText>Enrage — Whenever Sun-Crowned Hunters is dealt damage, it deals 3 damage to target opponent.</CardText>
+<CardText>Enrage — Whenever Sun-Crowned Hunters is dealt damage, it deals 3 damage to target opponent or planeswalker.</CardText>
 <Flavor>One alone is dangerous, and they are never alone.</Flavor>
 <Artist>Aaron Miller</Artist>
 <Multiverseid>435318</Multiverseid>
 <Rulings>2017/09/29: If your life total is brought to 0 or less at the same time that <Sun-Crowned Hunters> is dealt damage, you lose the game before its enrage ability resolves.
-2017/09/29: If multiple sources deal damage to a creature with an enrage ability at the same time, most likely because multiple creatures blocked that creature, the enrage ability triggers only once.
-2017/09/29: If lethal damage is dealt to a creature with an enrage ability, that ability triggers. The creature with that enrage ability leaves the battlefield before that ability resolves, so it won't be affected by the resolving ability.</Rulings>
+2018/01/19: If multiple sources deal damage to a creature with an enrage ability at the same time, most likely because multiple creatures blocked that creature, the enrage ability triggers only once.
+2018/01/19: If lethal damage is dealt to a creature with an enrage ability, that ability triggers. The creature with that enrage ability leaves the battlefield before that ability resolves, so it won't be affected by the resolving ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3167,7 +3168,7 @@ When Rowdy Crew enters the battlefield, draw three cards, then discard two cards
 2017/09/29: If a revealed card in your library has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
 2017/09/29: If you cast one of the revealed cards, you do so as part of the resolution of the triggered ability. You can't wait to cast it later in the turn. Timing permissions based on the card's type are ignored, but other restrictions (such as "Cast [this card] only during combat") are not.
 2017/09/29: If you cast a card "without paying its mana cost," you can't pay any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Costly Plunder, those must be paid to cast the card.
-2017/09/29: The converted mana cost of a split card, such as cards with aftermath from the Amonkhet block, is based on the combined mana cost of its two halves.</Rulings>
+2017/09/29: The converted mana cost of a split card, such as cards with aftermath from the Amonkhet block, is based on the combined mana cost of its two halves. The converted mana cost of the resulting spell is based only on the half you cast.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3279,12 +3280,12 @@ Whenever Tilonalli's Skinshifter attacks, it becomes a copy of another target no
 <Type>Enchantment</Type>
 <ManaCost>3R (4)</ManaCost>
 <CardText>Each opponent must attack you or a planeswalker you control with at least one creature each combat if able.
-At the beginning of your end step, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."</CardText>
+At the beginning of your end step, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color."</CardText>
 <Artist>Jonas De Ro</Artist>
 <Multiverseid>435325</Multiverseid>
 <Rulings>2017/09/29: Each opponent only has to attack you or a planeswalker you control with one creature total, not one creature for you and one for each planeswalker you control. Other creatures are free to attack other players or other planeswalkers, or to not attack at all.
 2017/09/29: If a creature isn't able to attack you or a planeswalker you control for any reason (such as being tapped as its controller's declare attackers step begins or being affected by "summoning sickness"), that creature doesn't have to attack. If no creatures a player controls are able to attack you or a planeswalker you control, <Trove of Temptation>'s requirement has no effect during that combat. If there's a cost associated with having a creature attack, its controller isn't forced to pay that cost, so it doesn't have to attack in that case either.
-2017/09/29: In a Two-Headed Giant game, each of your two opponents must attack your team or a planeswalker you control with at least one creature if able. Attacking a planeswalker your teammate controls doesn't satisfy <Trove of Temptation>'s requirement. Combat damage from creatures attacking your team may be assigned to your teammate.</Rulings>
+2017/09/29: In a Two-Headed Giant game, each of your two opponents must attack you or a planeswalker you control with at least one creature if able. Attacking your teammate or a planeswalker your teammate controls doesn't satisfy <Trove of Temptation>'s requirement.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3298,7 +3299,7 @@ At the beginning of your end step, create a colorless Treasure artifact token wi
 <Name>Unfriendly Fire</Name>
 <Type>Instant</Type>
 <ManaCost>4R (5)</ManaCost>
-<CardText>Unfriendly Fire deals 4 damage to target creature or player.</CardText>
+<CardText>Unfriendly Fire deals 4 damage to any target.</CardText>
 <Flavor>Disputes within the Brazen Coalition can escalate from insult to broadside in the blink of an eye.</Flavor>
 <Artist>Josu Hernaiz</Artist>
 <Multiverseid>435326</Multiverseid>
@@ -3340,8 +3341,8 @@ Whenever you cast your third spell in a turn, you may transform Vance's Blasting
 <Name>Spitfire Bastion</Name>
 <Type>Legendary Land</Type>
 <CardText>(Transforms from Vance's Blasting Cannons.)
-{T}: Add {R} to your mana pool.
-{2}{R}, {T}: Spitfire Bastion deals 3 damage to target creature or player.</CardText>
+{T}: Add {R}.
+{2}{R}, {T}: Spitfire Bastion deals 3 damage to any target.</CardText>
 <Flavor>Now instead of a ship, Ripley Vance commands a fortress.</Flavor>
 <Artist>Jonas De Ro</Artist>
 <Multiverseid>435328</Multiverseid>
@@ -3359,7 +3360,7 @@ Whenever you cast your third spell in a turn, you may transform Vance's Blasting
 <Name>Wily Goblin</Name>
 <Type>Creature — Goblin Pirate 1/1</Type>
 <ManaCost>RR (2)</ManaCost>
-<CardText>When Wily Goblin enters the battlefield, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."</CardText>
+<CardText>When Wily Goblin enters the battlefield, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color."</CardText>
 <Flavor>Goblins climb and swing with ease, whether through a pirate ship's rigging or a tree's branches.</Flavor>
 <Artist>Steve Prescott</Artist>
 <Multiverseid>435329</Multiverseid>
@@ -3449,7 +3450,7 @@ When Atzocan Archer enters the battlefield, you may have it fight another target
 <Name>Carnage Tyrant</Name>
 <Type>Creature — Dinosaur 7/6</Type>
 <ManaCost>4GG (6)</ManaCost>
-<CardText>Carnage Tyrant can't be countered.
+<CardText>This spell can't be countered.
 Trample, hexproof</CardText>
 <Flavor>Sun Empire commanders are well versed in advanced martial strategy. Still, the correct maneuver is usually to deploy the giant, implacable death lizard.</Flavor>
 <Artist>Yeong-Hao Han</Artist>
@@ -3487,7 +3488,7 @@ Trample, hexproof</CardText>
 <CardText>Look at the top five cards of your library. You may reveal a Dinosaur or land card from among them and put it into your hand. Put the rest on the bottom of your library in any order.</CardText>
 <Artist>Jonathan Kuo</Artist>
 <Multiverseid>435336</Multiverseid>
-<Rulings>2017/09/29: If an effect refers to a "[subtype] spell" or "[subtype] card," it refers only to a spell or card that has that subtype. For example, March of the Drowned is a card that benefits Pirates and features Pirates in its illustration, but it isn't a Pirate card.</Rulings>
+<Rulings>2018/01/19: If an effect refers to a "[subtype] spell" or "[subtype] card," it refers only to a spell or card that has that subtype. For example, March of the Drowned is a card that benefits Pirates and features Pirates in its illustration, but it isn't a Pirate card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3593,7 +3594,7 @@ Trample, hexproof</CardText>
 <Type>Creature — Human Druid 1/1</Type>
 <ManaCost>1G (2)</ManaCost>
 <CardText>Drover of the Mighty gets +2/+2 as long as you control a Dinosaur.
-{T}: Add one mana of any color to your mana pool.</CardText>
+{T}: Add one mana of any color.</CardText>
 <Flavor>"I do not lead. They do not follow. We walk together."</Flavor>
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>435342</Multiverseid>
@@ -3632,9 +3633,9 @@ Trample, hexproof</CardText>
 <CardText>Whenever Emperor's Vanguard deals combat damage to a player, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)</CardText>
 <Artist>Victor Adame Minguez</Artist>
 <Multiverseid>435344</Multiverseid>
-<Rulings>2017/09/29: Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
-2017/09/29: If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
-2017/09/29: If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature you control explores" trigger if appropriate.</Rulings>
+<Rulings>2018/01/19: Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
+2018/01/19: If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
+2018/01/19: If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature you control explores" trigger if appropriate.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3672,7 +3673,6 @@ At the beginning of your end step, if you control four or more creatures, transf
 <Rulings>2017/09/29: The last ability of <Growing Rites of Itlimoc> doesn't trigger if you don't control four or more creatures as your end step begins. If you don't control four or more creatures as it resolves, it does nothing.
 2017/09/29: If you control a creature that will be removed from the battlefield "at the beginning of the next end step," you can resolve the ability of <Growing Rites of Itlimoc> before that creature leaves the battlefield.
 2017/09/29: If you gain control of a creature "until end of turn," or if a noncreature permanent you control becomes a creature "until end of turn," it'll be a creature under your control through the entire end step.
-2017/09/29: If you've attacked with a creature this turn, you'll get a Treasure even if the target opponent discards one or zero cards.
 2018/01/19: For more information on double-faced cards, see the Ixalan mechanics article (http://magic.wizards.com/en/articles/archive/feature/ixalan-mechanics).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3688,8 +3688,8 @@ At the beginning of your end step, if you control four or more creatures, transf
 <Name>Itlimoc, Cradle of the Sun</Name>
 <Type>Legendary Land</Type>
 <CardText>(Transforms from Growing Rites of Itlimoc.)
-{T}: Add {G} to your mana pool.
-{T}: Add {G} to your mana pool for each creature you control.</CardText>
+{T}: Add {G}.
+{T}: Add {G} for each creature you control.</CardText>
 <Flavor>Before the Sun Empire was born, humans and merfolk joined their magic to invoke a blessing of fertility on the land.</Flavor>
 <Artist>Grzegorz Rutkowski</Artist>
 <Multiverseid>435347</Multiverseid>
@@ -3710,9 +3710,9 @@ At the beginning of your end step, if you control four or more creatures, transf
 <CardText>When Ixalli's Diviner enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)</CardText>
 <Artist>Lucas Graciano</Artist>
 <Multiverseid>435348</Multiverseid>
-<Rulings>2017/09/29: Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
-2017/09/29: If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
-2017/09/29: If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature you control explores" trigger if appropriate.</Rulings>
+<Rulings>2018/01/19: Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
+2018/01/19: If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
+2018/01/19: If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature you control explores" trigger if appropriate.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3802,9 +3802,9 @@ When Jade Guardian enters the battlefield, put a +1/+1 counter on target Merfolk
 <CardText>When Merfolk Branchwalker enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)</CardText>
 <Artist>Kieran Yanner</Artist>
 <Multiverseid>435353</Multiverseid>
-<Rulings>2017/09/29: Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
-2017/09/29: If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
-2017/09/29: If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature you control explores" trigger if appropriate.</Rulings>
+<Rulings>2018/01/19: Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
+2018/01/19: If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
+2018/01/19: If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature you control explores" trigger if appropriate.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3820,11 +3820,11 @@ When Jade Guardian enters the battlefield, put a +1/+1 counter on target Merfolk
 <ManaCost>2G (3)</ManaCost>
 <CardText>Enchant land
 When New Horizons enters the battlefield, put a +1/+1 counter on target creature you control.
-Enchanted land has "{T}: Add two mana of any one color to your mana pool."</CardText>
+Enchanted land has "{T}: Add two mana of any one color."</CardText>
 <Artist>Noah Bradley</Artist>
 <Multiverseid>435354</Multiverseid>
 <Rulings>2017/09/29: You can cast <New Horizons> even if you control no creatures.
-2017/09/29: If the land this Aura would enchant is an illegal target by the time <New Horizons> resolves, the entire spell is countered. It won't enter the battlefield, so its ability won't trigger.</Rulings>
+2017/09/29: If the land this Aura would enchant is an illegal target by the time <New Horizons> resolves, the entire spell doesn't resolve. It won't enter the battlefield, so its ability won't trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3838,7 +3838,7 @@ Enchanted land has "{T}: Add two mana of any one color to your mana pool."</Card
 <Name>Old-Growth Dryads</Name>
 <Type>Creature — Dryad 3/3</Type>
 <ManaCost>G (1)</ManaCost>
-<CardText>When Old-Growth Dryads enters the battlefield, each opponent may search his or her library for a basic land card, put it onto the battlefield tapped, then shuffle his or her library.</CardText>
+<CardText>When Old-Growth Dryads enters the battlefield, each opponent may search their library for a basic land card, put it onto the battlefield tapped, then shuffle their library.</CardText>
 <Flavor>"The jungle was here before any city. It will be here after the last city falls."</Flavor>
 <Artist>Yongjae Choi</Artist>
 <Multiverseid>435355</Multiverseid>
@@ -3877,8 +3877,8 @@ Enchanted land has "{T}: Add two mana of any one color to your mana pool."</Card
 <Flavor>They cover their territory like a tide of teeth and claws.</Flavor>
 <Artist>Simon Dominic</Artist>
 <Multiverseid>435357</Multiverseid>
-<Rulings>2017/09/29: If multiple sources deal damage to a creature with an enrage ability at the same time, most likely because multiple creatures blocked that creature, the enrage ability triggers only once.
-2017/09/29: If lethal damage is dealt to a creature with an enrage ability, that ability triggers. The creature with that enrage ability leaves the battlefield before that ability resolves, so it won't be affected by the resolving ability.</Rulings>
+<Rulings>2018/01/19: If multiple sources deal damage to a creature with an enrage ability at the same time, most likely because multiple creatures blocked that creature, the enrage ability triggers only once.
+2018/01/19: If lethal damage is dealt to a creature with an enrage ability, that ability triggers. The creature with that enrage ability leaves the battlefield before that ability resolves, so it won't be affected by the resolving ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3897,8 +3897,8 @@ Enchanted land has "{T}: Add two mana of any one color to your mana pool."</Card
 <Artist>Jakub Kasper</Artist>
 <Multiverseid>435358</Multiverseid>
 <Rulings>2017/09/29: If your life total is brought to 0 or less at the same time that <Ravenous Daggertooth> is dealt damage, you lose the game before its enrage ability resolves.
-2017/09/29: If multiple sources deal damage to a creature with an enrage ability at the same time, most likely because multiple creatures blocked that creature, the enrage ability triggers only once.
-2017/09/29: If lethal damage is dealt to a creature with an enrage ability, that ability triggers. The creature with that enrage ability leaves the battlefield before that ability resolves, so it won't be affected by the resolving ability.</Rulings>
+2018/01/19: If multiple sources deal damage to a creature with an enrage ability at the same time, most likely because multiple creatures blocked that creature, the enrage ability triggers only once.
+2018/01/19: If lethal damage is dealt to a creature with an enrage ability, that ability triggers. The creature with that enrage ability leaves the battlefield before that ability resolves, so it won't be affected by the resolving ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3916,8 +3916,8 @@ Enchanted land has "{T}: Add two mana of any one color to your mana pool."</Card
 <Flavor>Raptors are clever enough to tear away a hard metal shell to get at the tasty morsel inside.</Flavor>
 <Artist>Ryan Pancoast</Artist>
 <Multiverseid>435359</Multiverseid>
-<Rulings>2017/09/29: If multiple sources deal damage to a creature with an enrage ability at the same time, most likely because multiple creatures blocked that creature, the enrage ability triggers only once.
-2017/09/29: If lethal damage is dealt to a creature with an enrage ability, that ability triggers. The creature with that enrage ability leaves the battlefield before that ability resolves, so it won't be affected by the resolving ability.</Rulings>
+<Rulings>2018/01/19: If multiple sources deal damage to a creature with an enrage ability at the same time, most likely because multiple creatures blocked that creature, the enrage ability triggers only once.
+2018/01/19: If lethal damage is dealt to a creature with an enrage ability, that ability triggers. The creature with that enrage ability leaves the battlefield before that ability resolves, so it won't be affected by the resolving ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3949,7 +3949,7 @@ Enchanted land has "{T}: Add two mana of any one color to your mana pool."</Card
 <Name>Savage Stomp</Name>
 <Type>Sorcery</Type>
 <ManaCost>2G (3)</ManaCost>
-<CardText>Savage Stomp costs {2} less to cast if it targets a Dinosaur you control.
+<CardText>This spell costs {2} less to cast if it targets a Dinosaur you control.
 Put a +1/+1 counter on target creature you control. Then that creature fights target creature you don't control. (Each deals damage equal to its power to the other.)</CardText>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>435361</Multiverseid>
@@ -3993,7 +3993,7 @@ Draw a card.</CardText>
 <Flavor>The magic of the River Heralds is so great that even a single shaman can fend off a pirate landing party.</Flavor>
 <Artist>Even Amundsen</Artist>
 <Multiverseid>435363</Multiverseid>
-<Rulings>2017/09/29: If the target artifact or enchantment is an illegal target by the time <Slice in Twain> resolves, the entire spell is countered. You won't draw a card. If, on the other hand, the target is a legal target but isn't destroyed (most likely because it has indestructible), you'll draw a card.</Rulings>
+<Rulings>2017/09/29: If the target artifact or enchantment is an illegal target by the time <Slice in Twain> resolves, the entire spell doesn't resolve. You won't draw a card. If, on the other hand, the target is a legal target but isn't destroyed (most likely because it has indestructible), you'll draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4012,8 +4012,8 @@ Enrage — Whenever Snapping Sailback is dealt damage, put a +1/+1 counter on it
 <Flavor>Lurking beneath the murky waters of Ixalan's rivers, sailbacks can rip a meal off the shore in the blink of an eye.</Flavor>
 <Artist>Dan Scott</Artist>
 <Multiverseid>435364</Multiverseid>
-<Rulings>2017/09/29: If multiple sources deal damage to a creature with an enrage ability at the same time, most likely because multiple creatures blocked that creature, the enrage ability triggers only once.
-2017/09/29: If lethal damage is dealt to a creature with an enrage ability, that ability triggers. The creature with that enrage ability leaves the battlefield before that ability resolves, so it won't be affected by the resolving ability.</Rulings>
+<Rulings>2018/01/19: If multiple sources deal damage to a creature with an enrage ability at the same time, most likely because multiple creatures blocked that creature, the enrage ability triggers only once.
+2018/01/19: If lethal damage is dealt to a creature with an enrage ability, that ability triggers. The creature with that enrage ability leaves the battlefield before that ability resolves, so it won't be affected by the resolving ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4067,9 +4067,9 @@ Enrage — Whenever Snapping Sailback is dealt damage, put a +1/+1 counter on it
 <Flavor>"There is always another way."</Flavor>
 <Artist>Shreya Shetty</Artist>
 <Multiverseid>435367</Multiverseid>
-<Rulings>2017/09/29: Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
-2017/09/29: If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
-2017/09/29: If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature you control explores" trigger if appropriate.</Rulings>
+<Rulings>2018/01/19: Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
+2018/01/19: If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
+2018/01/19: If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature you control explores" trigger if appropriate.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4088,7 +4088,7 @@ Draw a card.</CardText>
 <Flavor>The dryads of the forest have no stake in Ixalan's conflict, but they hate to see any living being suffer.</Flavor>
 <Artist>Josu Hernaiz</Artist>
 <Multiverseid>435368</Multiverseid>
-<Rulings>2017/09/29: If the target creature is an illegal target by the time <Verdant Rebirth> resolves, the entire spell is countered. You won't draw a card.</Rulings>
+<Rulings>2017/09/29: If the target creature is an illegal target by the time <Verdant Rebirth> resolves, the entire spell doesn't resolve. You won't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4189,7 +4189,7 @@ At the beginning of your end step, gain control of target nonland permanent cont
 2017/09/29: If more than one player was dealt combat damage by three Pirates, you target only one permanent. It may be controlled by either of those players.
 2017/09/29: The control-change effect of <Admiral Beckett Brass>'s triggered ability lasts indefinitely. It doesn't wear off during the cleanup step or when you lose control of <Admiral Beckett Brass>.
 2017/09/29: In a multiplayer game, if a player leaves the game, all cards that player owns leave as well, and any effects that give the player control of permanents immediately end.
-2017/09/29: In a Two-Headed Giant game, an unblocked attacking creature deals its combat damage to one of the two players it's attacking. The attacking team chooses which player that is for each creature as combat damage is assigned. Combat damage dealt by Pirates your teammate controls will count when checking for <Admiral Beckett Brass>'s ability.</Rulings>
+2017/09/29: In a Two-Headed Giant game, combat damage dealt by Pirates your teammate controls will count when checking for <Admiral Beckett Brass>'s ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4239,7 +4239,7 @@ At the beginning of your end step, gain control of target nonland permanent cont
 <Type>Creature — Human Pirate 3/3</Type>
 <ManaCost>3UB (5)</ManaCost>
 <CardText>Deadeye Plunderers gets +1/+1 for each artifact you control.
-{2}{U}{B}: Create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."</CardText>
+{2}{U}{B}: Create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color."</CardText>
 <Flavor>"Keep your friends close and your enemies within range."</Flavor>
 <Artist>Greg Opalinski</Artist>
 <Multiverseid>435376</Multiverseid>
@@ -4277,7 +4277,7 @@ At the beginning of your end step, gain control of target nonland permanent cont
 <Name>Gishath, Sun's Avatar</Name>
 <Type>Legendary Creature — Dinosaur Avatar 7/6</Type>
 <ManaCost>5WRG (8)</ManaCost>
-<CardText>Trample, vigilance, haste
+<CardText>Vigilance, trample, haste
 Whenever Gishath, Sun's Avatar deals combat damage to a player, reveal that many cards from the top of your library. Put any number of Dinosaur creature cards from among them onto the battlefield and the rest on the bottom of your library in a random order.</CardText>
 <Artist>Zack Stella</Artist>
 <Multiverseid>435378</Multiverseid>
@@ -4327,7 +4327,7 @@ Whenever Gishath, Sun's Avatar deals combat damage to a player, reveal that many
 <Rulings>2017/09/29: The greatest power among creatures you control is determined as Huatli's first ability resolves. If that number is negative, you won't gain or lose any life.
 2017/09/29: You can activate Huatli's first ability even if you control no creatures. You simply won't gain any life.
 2017/09/29: You divide the damage among the target creatures as you activate Huatli's last ability. Each target must be assigned at least 1 damage. If X is 0, you can't choose any targets.
-2017/09/29: If some (but not all) of the targets become illegal, the original division of damage still applies, but no damage is dealt to illegal targets. If all targets become illegal, the ability will be countered.</Rulings>
+2017/09/29: If some (but not all) of the targets become illegal, the original division of damage still applies, but no damage is dealt to illegal targets. If all targets become illegal, the ability won't resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4347,7 +4347,7 @@ Whenever Gishath, Sun's Avatar deals combat damage to a player, reveal that many
 <Multiverseid>435381</Multiverseid>
 <Rulings>2018/01/19: Raid abilities care only that you attacked with a creature. It doesn't matter how many creatures you attacked with, or which opponent or planeswalker controlled by an opponent those creatures attacked.
 2018/01/19: Raid abilities evaluate the entire turn to see if you attacked with a creature. That creature doesn't have to still be on the battlefield. Similarly, the player or planeswalker it attacked doesn't have to still be in the game or on the battlefield, respectively.
-2017/09/29: Some raid abilities trigger at the beginning of your end step. These abilities trigger if you attacked with a creature that turn, even if the card with that raid ability wasn't on the battlefield when you attacked.</Rulings>
+2018/01/19: Some raid abilities trigger at the beginning of your end step. These abilities trigger if you attacked with a creature that turn, even if the card with that raid ability wasn't on the battlefield when you attacked.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4475,11 +4475,11 @@ When Tishana enters the battlefield, draw a card for each creature you control.<
 <Type>Legendary Planeswalker — Vraska (Loyalty: 6)</Type>
 <ManaCost>4BG (6)</ManaCost>
 <CardText>+2: Create a 2/2 black Pirate creature token with menace.
--3: Destroy target artifact, creature, or enchantment. Create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
+-3: Destroy target artifact, creature, or enchantment. Create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color."
 -10: Target player's life total becomes 1.</CardText>
 <Artist>Chris Rahn</Artist>
 <Multiverseid>435388</Multiverseid>
-<Rulings>2017/09/29: If the target artifact, creature, or enchantment is an illegal target by the time Vraska's second ability resolves, the entire ability is countered. You won't get a Treasure. If, on the other hand, the target is a legal target but isn't destroyed (most likely because it has indestructible), you will get a Treasure.
+<Rulings>2017/09/29: If the target artifact, creature, or enchantment is an illegal target by the time Vraska's second ability resolves, the entire ability doesn't resolve. You won't get a Treasure. If, on the other hand, the target is a legal target but isn't destroyed (most likely because it has indestructible), you will get a Treasure.
 2017/09/29: For a player's life total to become 1, what actually happens is that the player loses the appropriate amount of life (or in some rare cases, gains the appropriate amount of life). For example, if the targeted player's life total is 4 when this ability resolves, that player loses 3 life. Other cards that interact with life loss will interact with this effect accordingly.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -4518,11 +4518,10 @@ Crew 4 (Tap any number of creatures you control with total power 4 or more: This
 <Multiverseid>435390</Multiverseid>
 <Rulings>2017/09/29: <Conqueror's Galleon> won't be exiled if it doesn't survive combat.
 2017/09/29: Unlike the other double-faced cards in the Ixalan set, <Conqueror's Galleon> is exiled and then returned to battlefield transformed. It will be considered a new object entering the battlefield. Notably, it will return to the battlefield untapped.
-2018/01/19: For more information on double-faced cards, see the Ixalan mechanics article (http://magic.wizards.com/en/articles/archive/feature/ixalan-mechanics).
 2017/09/29: Each Vehicle is printed with a power and toughness, but it's not a creature. If it becomes a creature (most likely through its crew ability), it will have that power and toughness.
 2017/09/29: If an effect causes a Vehicle to become an artifact creature with a specified power and toughness, that effect overwrites the Vehicle's printed power and toughness.
 2017/09/29: Vehicle is an artifact type, not a creature type. A Vehicle that's crewed won't normally have any creature type.
-2017/09/29: Once a player announces that he or she is activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
+2017/09/29: Once a player announces that they are activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
 2017/09/29: Any untapped creature you control can be tapped to pay a crew cost, even one that just came under your control.
 2017/09/29: You may tap more creatures than necessary to activate a crew ability.
 2017/09/29: Creatures that crew a Vehicle aren't attached to it or related in any other way. Effects that affect the Vehicle, such as by destroying it or giving it a +1/+1 counter, don't affect the creatures that crewed it.
@@ -4530,7 +4529,8 @@ Crew 4 (Tap any number of creatures you control with total power 4 or more: This
 2017/09/29: You may activate a crew ability of a Vehicle even if it's already an artifact creature. Doing so has no effect on the Vehicle. It doesn't change its power and toughness.
 2017/09/29: For a Vehicle to be able to attack, it must be a creature as the declare attackers step begins, so the latest you can activate its crew ability to attack with it is during the beginning of combat step. For a Vehicle to be able to block, it must be a creature as the declare blockers step begins, so the latest you can activate its crew ability to block with it is during the declare attackers step. In either case, players may take actions after the crew ability resolves but before the Vehicle has been declared as an attacking or blocking creature.
 2017/09/29: When a Vehicle becomes a creature, that doesn't count as having a creature enter the battlefield. The permanent was already on the battlefield; it only changed its types. Abilities that trigger whenever a creature enters the battlefield won't trigger.
-2017/09/29: If a permanent becomes a copy of a Vehicle, the copy won't be a creature, even if the Vehicle it's copying has become an artifact creature.</Rulings>
+2017/09/29: If a permanent becomes a copy of a Vehicle, the copy won't be a creature, even if the Vehicle it's copying has become an artifact creature.
+2018/01/19: For more information on double-faced cards, see the Ixalan mechanics article (http://magic.wizards.com/en/articles/archive/feature/ixalan-mechanics).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4545,7 +4545,7 @@ Crew 4 (Tap any number of creatures you control with total power 4 or more: This
 <Name>Conqueror's Foothold</Name>
 <Type>Land</Type>
 <CardText>(Transforms from Conqueror's Galleon.)
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {2}, {T}: Draw a card, then discard a card.
 {4}, {T}: Draw a card.
 {6}, {T}: Return target card from your graveyard to your hand.</CardText>
@@ -4587,7 +4587,7 @@ Equip {2}</CardText>
 <Name>Lost Vale</Name>
 <Type>Land</Type>
 <CardText>(Transforms from Dowsing Dagger.)
-{T}: Add three mana of any one color to your mana pool.</CardText>
+{T}: Add three mana of any one color.</CardText>
 <Flavor>The pirates had ventured into the interior for treasure. They found something far greater.</Flavor>
 <Artist>Florian de Gesincourt</Artist>
 <Multiverseid>435393</Multiverseid>
@@ -4613,7 +4613,7 @@ Crew 2 (Tap any number of creatures you control with total power 2 or more: This
 <Rulings>2017/09/29: Each Vehicle is printed with a power and toughness, but it's not a creature. If it becomes a creature (most likely through its crew ability), it will have that power and toughness.
 2017/09/29: If an effect causes a Vehicle to become an artifact creature with a specified power and toughness, that effect overwrites the Vehicle's printed power and toughness.
 2017/09/29: Vehicle is an artifact type, not a creature type. A Vehicle that's crewed won't normally have any creature type.
-2017/09/29: Once a player announces that he or she is activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
+2017/09/29: Once a player announces that they are activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
 2017/09/29: Any untapped creature you control can be tapped to pay a crew cost, even one that just came under your control.
 2017/09/29: You may tap more creatures than necessary to activate a crew ability.
 2017/09/29: Creatures that crew a Vehicle aren't attached to it or related in any other way. Effects that affect the Vehicle, such as by destroying it or giving it a +1/+1 counter, don't affect the creatures that crewed it.
@@ -4636,7 +4636,7 @@ Crew 2 (Tap any number of creatures you control with total power 2 or more: This
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
 <CardText>Elaborate Firecannon doesn't untap during your untap step.
-{4}, {T}: Elaborate Firecannon deals 2 damage to target creature or player.
+{4}, {T}: Elaborate Firecannon deals 2 damage to any target.
 At the beginning of your upkeep, you may discard a card. If you do, untap Elaborate Firecannon.</CardText>
 <Artist>Adrian Majkrzak</Artist>
 <Multiverseid>435395</Multiverseid>
@@ -4661,7 +4661,7 @@ Crew 3 (Tap any number of creatures you control with total power 3 or more: This
 <Rulings>2017/09/29: Each Vehicle is printed with a power and toughness, but it's not a creature. If it becomes a creature (most likely through its crew ability), it will have that power and toughness.
 2017/09/29: If an effect causes a Vehicle to become an artifact creature with a specified power and toughness, that effect overwrites the Vehicle's printed power and toughness.
 2017/09/29: Vehicle is an artifact type, not a creature type. A Vehicle that's crewed won't normally have any creature type.
-2017/09/29: Once a player announces that he or she is activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
+2017/09/29: Once a player announces that they are activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
 2017/09/29: Any untapped creature you control can be tapped to pay a crew cost, even one that just came under your control.
 2017/09/29: You may tap more creatures than necessary to activate a crew ability.
 2017/09/29: Creatures that crew a Vehicle aren't attached to it or related in any other way. Effects that affect the Vehicle, such as by destroying it or giving it a +1/+1 counter, don't affect the creatures that crewed it.
@@ -4700,7 +4700,7 @@ Crew 3 (Tap any number of creatures you control with total power 3 or more: This
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
 <CardText>When Hierophant's Chalice enters the battlefield, target opponent loses 1 life and you gain 1 life.
-{T}: Add {C} to your mana pool.</CardText>
+{T}: Add {C}.</CardText>
 <Flavor>In the Rite of Redemption, nobles take the same vows as Elenda, the first vampire, and make the same eternal sacrifice.</Flavor>
 <Artist>John Stanko</Artist>
 <Multiverseid>435398</Multiverseid>
@@ -4718,10 +4718,10 @@ Crew 3 (Tap any number of creatures you control with total power 3 or more: This
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
 <CardText>As Pillar of Origins enters the battlefield, choose a creature type.
-{T}: Add one mana of any color to your mana pool. Spend this mana only to cast a creature spell of the chosen type.</CardText>
+{T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type.</CardText>
 <Artist>Dimitar</Artist>
 <Multiverseid>435399</Multiverseid>
-<Rulings>2017/09/29: To choose a creature type, you must choose an existing creature type, such as Vampire or Knight. You can't choose multiple creature types, such as "Vampire Knight." Card types such as artifact can't be chosen, nor can subtypes that aren't creature types, such as Jace, Vehicle, or Treasure.</Rulings>
+<Rulings>2018/01/19: To choose a creature type, you must choose an existing creature type, such as Vampire or Knight. You can't choose multiple creature types, such as "Vampire Knight." Card types such as artifact can't be chosen, nor can subtypes that aren't creature types, such as Jace, Vehicle, or Treasure.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4777,7 +4777,7 @@ Whenever you cast an instant or sorcery spell, put a charge counter on Primal Am
 <Name>Primal Wellspring</Name>
 <Type>Land</Type>
 <CardText>(Transforms from Primal Amulet.)
-{T}: Add one mana of any color to your mana pool. When that mana is spent to cast an instant or sorcery spell, copy that spell and you may choose new targets for the copy.</CardText>
+{T}: Add one mana of any color. When that mana is spent to cast an instant or sorcery spell, copy that spell and you may choose new targets for the copy.</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>435402</Multiverseid>
 <Rulings>2017/09/29: The mana produced by <Primal Wellspring> can be spent on anything, not just an instant or sorcery spell.
@@ -4805,7 +4805,7 @@ Whenever you cast an instant or sorcery spell, put a charge counter on Primal Am
 <Type>Artifact — Equipment</Type>
 <ManaCost>1 (1)</ManaCost>
 <CardText>Equipped creature gets +1/+0.
-Whenever equipped creature deals combat damage to a player, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
+Whenever equipped creature deals combat damage to a player, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color."
 Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)</CardText>
 <Artist>Aaron Miller</Artist>
 <Multiverseid>435403</Multiverseid>
@@ -4848,7 +4848,7 @@ Crew 2 (Tap any number of creatures you control with total power 2 or more: This
 2017/09/29: Each Vehicle is printed with a power and toughness, but it's not a creature. If it becomes a creature (most likely through its crew ability), it will have that power and toughness.
 2017/09/29: If an effect causes a Vehicle to become an artifact creature with a specified power and toughness, that effect overwrites the Vehicle's printed power and toughness.
 2017/09/29: Vehicle is an artifact type, not a creature type. A Vehicle that's crewed won't normally have any creature type.
-2017/09/29: Once a player announces that he or she is activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
+2017/09/29: Once a player announces that they are activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
 2017/09/29: Any untapped creature you control can be tapped to pay a crew cost, even one that just came under your control.
 2017/09/29: You may tap more creatures than necessary to activate a crew ability.
 2017/09/29: Creatures that crew a Vehicle aren't attached to it or related in any other way. Effects that affect the Vehicle, such as by destroying it or giving it a +1/+1 counter, don't affect the creatures that crewed it.
@@ -4877,7 +4877,7 @@ Crew 2 (Tap any number of creatures you control with total power 2 or more: This
 <Rulings>2017/09/29: Each Vehicle is printed with a power and toughness, but it's not a creature. If it becomes a creature (most likely through its crew ability), it will have that power and toughness.
 2017/09/29: If an effect causes a Vehicle to become an artifact creature with a specified power and toughness, that effect overwrites the Vehicle's printed power and toughness.
 2017/09/29: Vehicle is an artifact type, not a creature type. A Vehicle that's crewed won't normally have any creature type.
-2017/09/29: Once a player announces that he or she is activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
+2017/09/29: Once a player announces that they are activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
 2017/09/29: Any untapped creature you control can be tapped to pay a crew cost, even one that just came under your control.
 2017/09/29: You may tap more creatures than necessary to activate a crew ability.
 2017/09/29: Creatures that crew a Vehicle aren't attached to it or related in any other way. Effects that affect the Vehicle, such as by destroying it or giving it a +1/+1 counter, don't affect the creatures that crewed it.
@@ -4943,7 +4943,7 @@ At the beginning of your end step, if you control seven or more lands, transform
 <Name>Spires of Orazca</Name>
 <Type>Land</Type>
 <CardText>(Transforms from Thaumatic Compass.)
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {T}: Untap target attacking creature an opponent controls and remove it from combat.</CardText>
 <Flavor>". . . a cryptic objective."
 —Jace Beleren</Flavor>
@@ -4964,7 +4964,7 @@ At the beginning of your end step, if you control seven or more lands, transform
 <Name>Treasure Map</Name>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{1}, {T}: Scry 1. Put a landmark counter on Treasure Map. Then if there are three or more landmark counters on it, remove those counters, transform Treasure Map, and create three colorless Treasure artifact tokens with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."</CardText>
+<CardText>{1}, {T}: Scry 1. Put a landmark counter on Treasure Map. Then if there are three or more landmark counters on it, remove those counters, transform Treasure Map, and create three colorless Treasure artifact tokens with "{T}, Sacrifice this artifact: Add one mana of any color."</CardText>
 <Artist>Cliff Childs</Artist>
 <Multiverseid>435410</Multiverseid>
 <Rulings>2017/09/29: If a third landmark counter is put on <Treasure Map> by something other than the resolution of its first ability (as modified by any applicable replacement effects), you won't remove those counters, transform <Treasure Map>, or get Treasures yet. You'll have to wait until you activate its first ability again.
@@ -4984,7 +4984,7 @@ At the beginning of your end step, if you control seven or more lands, transform
 <Name>Treasure Cove</Name>
 <Type>Land</Type>
 <CardText>(Transforms from Treasure Map.)
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {T}, Sacrifice a Treasure: Draw a card.</CardText>
 <Flavor>Half the treasure is the glory of finding it.</Flavor>
 <Artist>Cliff Childs</Artist>
@@ -5010,7 +5010,7 @@ Whenever you cast a creature spell of the chosen type, draw a card.</CardText>
 <Multiverseid>435412</Multiverseid>
 <Rulings>2017/09/29: The choice of creature type is made as <Vanquisher's Banner> enters the battlefield. Players can't respond to this choice. The bonus starts applying immediately.
 2017/09/29: The last ability of <Vanquisher's Banner> resolves before the spell that caused it to trigger. The ability will resolve even if the creature spell is countered.
-2017/09/29: To choose a creature type, you must choose an existing creature type, such as Vampire or Knight. You can't choose multiple creature types, such as "Vampire Knight." Card types such as artifact can't be chosen, nor can subtypes that aren't creature types, such as Jace, Vehicle, or Treasure.</Rulings>
+2018/01/19: To choose a creature type, you must choose an existing creature type, such as Vampire or Knight. You can't choose multiple creature types, such as "Vampire Knight." Card types such as artifact can't be chosen, nor can subtypes that aren't creature types, such as Jace, Vehicle, or Treasure.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -5024,7 +5024,7 @@ Whenever you cast a creature spell of the chosen type, draw a card.</CardText>
 <Name>Dragonskull Summit</Name>
 <Type>Land</Type>
 <CardText>Dragonskull Summit enters the battlefield tapped unless you control a Swamp or a Mountain.
-{T}: Add {B} or {R} to your mana pool.</CardText>
+{T}: Add {B} or {R}.</CardText>
 <Flavor>When the Planeswalker Angrath called dinosaurs "dragons," the name stuck in certain pirate circles.</Flavor>
 <Artist>Alayna Danner</Artist>
 <Multiverseid>435413</Multiverseid>
@@ -5043,7 +5043,7 @@ Whenever you cast a creature spell of the chosen type, draw a card.</CardText>
 <Name>Drowned Catacomb</Name>
 <Type>Land</Type>
 <CardText>Drowned Catacomb enters the battlefield tapped unless you control an Island or a Swamp.
-{T}: Add {U} or {B} to your mana pool.</CardText>
+{T}: Add {U} or {B}.</CardText>
 <Flavor>None can tell how many vessels are tangled up on the sea floor—or how much treasure remains unclaimed.</Flavor>
 <Artist>Jung Park</Artist>
 <Multiverseid>435414</Multiverseid>
@@ -5061,8 +5061,8 @@ Whenever you cast a creature spell of the chosen type, draw a card.</CardText>
 <No>254</No>
 <Name>Field of Ruin</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{2}, {T}, Sacrifice Field of Ruin: Destroy target nonbasic land an opponent controls. Each player searches his or her library for a basic land card, puts it onto the battlefield, then shuffles his or her library.</CardText>
+<CardText>{T}: Add {C}.
+{2}, {T}, Sacrifice Field of Ruin: Destroy target nonbasic land an opponent controls. Each player searches their library for a basic land card, puts it onto the battlefield, then shuffles their library.</CardText>
 <Artist>Dimitar</Artist>
 <Multiverseid>435415</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5078,7 +5078,7 @@ Whenever you cast a creature spell of the chosen type, draw a card.</CardText>
 <Name>Glacial Fortress</Name>
 <Type>Land</Type>
 <CardText>Glacial Fortress enters the battlefield tapped unless you control a Plains or an Island.
-{T}: Add {W} or {U} to your mana pool.</CardText>
+{T}: Add {W} or {U}.</CardText>
 <Flavor>Ships blown north in their voyage across the Stormwreck Sea become trapped in the unmelting ice.</Flavor>
 <Artist>James Paick</Artist>
 <Multiverseid>435416</Multiverseid>
@@ -5097,7 +5097,7 @@ Whenever you cast a creature spell of the chosen type, draw a card.</CardText>
 <Name>Rootbound Crag</Name>
 <Type>Land</Type>
 <CardText>Rootbound Crag enters the battlefield tapped unless you control a Mountain or a Forest.
-{T}: Add {R} or {G} to your mana pool.</CardText>
+{T}: Add {R} or {G}.</CardText>
 <Flavor>Cliffs echo and branches quake at the roar of life.</Flavor>
 <Artist>Grzegorz Rutkowski</Artist>
 <Multiverseid>435417</Multiverseid>
@@ -5116,7 +5116,7 @@ Whenever you cast a creature spell of the chosen type, draw a card.</CardText>
 <Name>Sunpetal Grove</Name>
 <Type>Land</Type>
 <CardText>Sunpetal Grove enters the battlefield tapped unless you control a Forest or a Plains.
-{T}: Add {G} or {W} to your mana pool.</CardText>
+{T}: Add {G} or {W}.</CardText>
 <Flavor>To the Sun Empire, any place where daylight brightens the jungle floor is sacred ground.</Flavor>
 <Artist>Dimitar</Artist>
 <Multiverseid>435418</Multiverseid>
@@ -5135,11 +5135,11 @@ Whenever you cast a creature spell of the chosen type, draw a card.</CardText>
 <Name>Unclaimed Territory</Name>
 <Type>Land</Type>
 <CardText>As Unclaimed Territory enters the battlefield, choose a creature type.
-{T}: Add {C} to your mana pool.
-{T}: Add one mana of any color to your mana pool. Spend this mana only to cast a creature spell of the chosen type.</CardText>
+{T}: Add {C}.
+{T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type.</CardText>
 <Artist>Dimitar</Artist>
 <Multiverseid>435419</Multiverseid>
-<Rulings>2017/09/29: To choose a creature type, you must choose an existing creature type, such as Vampire or Knight. You can't choose multiple creature types, such as "Vampire Knight." Card types such as artifact can't be chosen, nor can subtypes that aren't creature types, such as Jace, Vehicle, or Treasure.</Rulings>
+<Rulings>2018/01/19: To choose a creature type, you must choose an existing creature type, such as Vampire or Knight. You can't choose multiple creature types, such as "Vampire Knight." Card types such as artifact can't be chosen, nor can subtypes that aren't creature types, such as Jace, Vehicle, or Treasure.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -5152,8 +5152,8 @@ Whenever you cast a creature spell of the chosen type, draw a card.</CardText>
 <No>259</No>
 <Name>Unknown Shores</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{1}, {T}: Add one mana of any color to your mana pool.</CardText>
+<CardText>{T}: Add {C}.
+{1}, {T}: Add one mana of any color.</CardText>
 <Flavor>"Just imagine what's waiting around the bend. Adventure. Discovery. Riches for the taking. This is why I sail."
 —Captain Lannery Storm</Flavor>
 <Artist>Rob Alexander</Artist>
@@ -5170,7 +5170,7 @@ Whenever you cast a creature spell of the chosen type, draw a card.</CardText>
 <No>260</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Christine Choi</Artist>
 <Multiverseid>435421</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5185,7 +5185,7 @@ Whenever you cast a creature spell of the chosen type, draw a card.</CardText>
 <No>261</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Titus Lunter</Artist>
 <Multiverseid>435422</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5200,7 +5200,7 @@ Whenever you cast a creature spell of the chosen type, draw a card.</CardText>
 <No>262</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Raoul Vitale</Artist>
 <Multiverseid>435423</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5215,7 +5215,7 @@ Whenever you cast a creature spell of the chosen type, draw a card.</CardText>
 <No>263</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Min Yum</Artist>
 <Multiverseid>435424</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5230,7 +5230,7 @@ Whenever you cast a creature spell of the chosen type, draw a card.</CardText>
 <No>264</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Christine Choi</Artist>
 <Multiverseid>435425</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5245,7 +5245,7 @@ Whenever you cast a creature spell of the chosen type, draw a card.</CardText>
 <No>265</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Titus Lunter</Artist>
 <Multiverseid>435426</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5260,7 +5260,7 @@ Whenever you cast a creature spell of the chosen type, draw a card.</CardText>
 <No>266</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Raoul Vitale</Artist>
 <Multiverseid>435427</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5275,7 +5275,7 @@ Whenever you cast a creature spell of the chosen type, draw a card.</CardText>
 <No>267</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Min Yum</Artist>
 <Multiverseid>435428</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5290,7 +5290,7 @@ Whenever you cast a creature spell of the chosen type, draw a card.</CardText>
 <No>268</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Christine Choi</Artist>
 <Multiverseid>435429</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5305,7 +5305,7 @@ Whenever you cast a creature spell of the chosen type, draw a card.</CardText>
 <No>269</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Titus Lunter</Artist>
 <Multiverseid>435430</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5320,7 +5320,7 @@ Whenever you cast a creature spell of the chosen type, draw a card.</CardText>
 <No>270</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Raoul Vitale</Artist>
 <Multiverseid>435431</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5335,7 +5335,7 @@ Whenever you cast a creature spell of the chosen type, draw a card.</CardText>
 <No>271</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Min Yum</Artist>
 <Multiverseid>435432</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5350,7 +5350,7 @@ Whenever you cast a creature spell of the chosen type, draw a card.</CardText>
 <No>272</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Christine Choi</Artist>
 <Multiverseid>435433</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5365,7 +5365,7 @@ Whenever you cast a creature spell of the chosen type, draw a card.</CardText>
 <No>273</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Titus Lunter</Artist>
 <Multiverseid>435434</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5380,7 +5380,7 @@ Whenever you cast a creature spell of the chosen type, draw a card.</CardText>
 <No>274</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Raoul Vitale</Artist>
 <Multiverseid>435435</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5395,7 +5395,7 @@ Whenever you cast a creature spell of the chosen type, draw a card.</CardText>
 <No>275</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Min Yum</Artist>
 <Multiverseid>435436</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5410,7 +5410,7 @@ Whenever you cast a creature spell of the chosen type, draw a card.</CardText>
 <No>276</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Christine Choi</Artist>
 <Multiverseid>435437</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5425,7 +5425,7 @@ Whenever you cast a creature spell of the chosen type, draw a card.</CardText>
 <No>277</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Titus Lunter</Artist>
 <Multiverseid>435438</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5440,7 +5440,7 @@ Whenever you cast a creature spell of the chosen type, draw a card.</CardText>
 <No>278</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Raoul Vitale</Artist>
 <Multiverseid>435439</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5455,7 +5455,7 @@ Whenever you cast a creature spell of the chosen type, draw a card.</CardText>
 <No>279</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Min Yum</Artist>
 <Multiverseid>435440</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5514,7 +5514,7 @@ Enchanted creature doesn't untap during its controller's untap step.</CardText>
 Search your library and/or graveyard for a card named Jace, Ingenious Mind-Mage, reveal it, and put it into your hand. If you searched your library this way, shuffle it.</CardText>
 <Artist>Yongjae Choi</Artist>
 <Multiverseid>435443</Multiverseid>
-<Rulings>2017/09/29: You may cast <Grasping Current> without choosing any target creatures. You'll just search for Jace, Ingenious Mind-Mage. However, if you choose any targets and all of those targets become illegal before <Grasping Current> resolves, the spell will be countered and you won't search.</Rulings>
+<Rulings>2017/09/29: You may cast <Grasping Current> without choosing any target creatures. You'll just search for Jace, Ingenious Mind-Mage. However, if you choose any targets and all of those targets become illegal before <Grasping Current> resolves, the spell won't resolve and you won't search.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -5545,7 +5545,7 @@ Search your library and/or graveyard for a card named Jace, Ingenious Mind-Mage,
 <Name>Woodland Stream</Name>
 <Type>Land</Type>
 <CardText>Woodland Stream enters the battlefield tapped.
-{T}: Add {G} or {U} to your mana pool.</CardText>
+{T}: Add {G} or {U}.</CardText>
 <Flavor>Countless streams flow into the nine rivers, and the nine rivers flow into the Great River. The River Heralds guard them all.</Flavor>
 <Artist>James Paick</Artist>
 <Multiverseid>435445</Multiverseid>
@@ -5634,7 +5634,7 @@ Search your library and/or graveyard for a card named Jace, Ingenious Mind-Mage,
 <Name>Stone Quarry</Name>
 <Type>Land</Type>
 <CardText>Stone Quarry enters the battlefield tapped.
-{T}: Add {R} or {W} to your mana pool.</CardText>
+{T}: Add {R} or {W}.</CardText>
 <Flavor>The Sun Empire's cities are built from the bones of the earth.</Flavor>
 <Artist>Noah Bradley</Artist>
 <Multiverseid>435450</Multiverseid>

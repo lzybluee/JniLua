@@ -23,11 +23,11 @@
 <Name>Banshee</Name>
 <Type>Creature — Spirit 0/1</Type>
 <ManaCost>2BB (4)</ManaCost>
-<CardText>{X}, {T}: Banshee deals half X damage, rounded down, to target creature or player, and half X damage, rounded up, to you.</CardText>
+<CardText>{X}, {T}: Banshee deals half X damage, rounded down, to any target, and half X damage, rounded up, to you.</CardText>
 <Flavor>Some say Banshees are the hounds of Death, baying to herd their prey into the arms of their master.</Flavor>
 <Artist>Jesper Myrfors</Artist>
 <Multiverseid>1729</Multiverseid>
-<Rulings>2009/10/01: If the targeted creature or player is an illegal target by the time <Banshee>'s ability resolves, the ability is countered. You won't be dealt damage.</Rulings>
+<Rulings>2009/10/01: If the targeted permanent or player is an illegal target by the time <Banshee>'s ability resolves, the ability doesn't resolve. You won't be dealt damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>The Dark</Set>
@@ -74,7 +74,7 @@
 <Type>Enchantment — Aura</Type>
 <ManaCost>2BB (4)</ManaCost>
 <CardText>Enchant artifact
-At the beginning of the upkeep of enchanted artifact's controller, Curse Artifact deals 2 damage to that player unless he or she sacrifices that artifact.</CardText>
+At the beginning of the upkeep of enchanted artifact's controller, Curse Artifact deals 2 damage to that player unless they sacrifice that artifact.</CardText>
 <Flavor>Voska feared the artifact had come too easily.</Flavor>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>1732</Multiverseid>
@@ -95,8 +95,7 @@ At the beginning of the upkeep of enchanted artifact's controller, Curse Artifac
 <Artist>Jesper Myrfors</Artist>
 <Multiverseid>1733</Multiverseid>
 <Rulings>2004/10/04: It untaps during the resolution of its ability.
-2007/09/16: You can activate the ability whether or not <Eater of the Dead> is tapped. However, if <Eater of the Dead> is untapped when the ability resolves, the ability won't do anything.
-2008/04/01: A "creature card" is any card with the type creature, even if it has other types such as artifact, enchantment, or land. Older cards of type summon are also creature cards.</Rulings>
+2007/09/16: You can activate the ability whether or not <Eater of the Dead> is tapped. However, if <Eater of the Dead> is untapped when the ability resolves, the ability won't do anything.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>The Dark</Set>
@@ -112,8 +111,7 @@ At the beginning of the upkeep of enchanted artifact's controller, Curse Artifac
 <CardText>As Frankenstein's Monster enters the battlefield, exile X creature cards from your graveyard. If you can't, put Frankenstein's Monster into its owner's graveyard instead of onto the battlefield. For each creature card exiled this way, Frankenstein's Monster enters the battlefield with a +2/+0, +1/+1, or +0/+2 counter on it.</CardText>
 <Artist>Anson Maddocks</Artist>
 <Multiverseid>1734</Multiverseid>
-<Rulings>2004/10/04: X can be any number and it does not have to match the total contents of your graveyard.
-2008/04/01: A "creature card" is any card with the type creature, even if it has other types such as artifact, enchantment, or land. Older cards of type summon are also creature cards.</Rulings>
+<Rulings>2004/10/04: X can be any number and it does not have to match the total contents of your graveyard.</Rulings>
 <Reserved>This card is on the reserved list</Reserved>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -146,7 +144,7 @@ At the beginning of the upkeep of enchanted artifact's controller, Curse Artifac
 <Name>Inquisition</Name>
 <Type>Sorcery</Type>
 <ManaCost>2B (3)</ManaCost>
-<CardText>Target player reveals his or her hand. Inquisition deals damage to that player equal to the number of white cards in his or her hand.</CardText>
+<CardText>Target player reveals their hand. Inquisition deals damage to that player equal to the number of white cards in their hand.</CardText>
 <Flavor>Many of those entrusted to Primata Delphine's care tended to express themselves with screams.</Flavor>
 <Artist>Anson Maddocks</Artist>
 <Multiverseid>1736</Multiverseid>
@@ -217,7 +215,7 @@ Nameless Race's power and toughness are each equal to the life paid as it entere
 <Name>Rag Man</Name>
 <Type>Creature — Human Minion 2/1</Type>
 <ManaCost>2BB (4)</ManaCost>
-<CardText>{B}{B}{B}, {T}: Target opponent reveals his or her hand and discards a creature card at random. Activate this ability only during your turn.</CardText>
+<CardText>{B}{B}{B}, {T}: Target opponent reveals their hand and discards a creature card at random. Activate this ability only during your turn.</CardText>
 <Flavor>"Aw, he's just a silly, dirty little man. What's to be afraid of?"</Flavor>
 <Artist>Daniel Gelon</Artist>
 <Multiverseid>1740</Multiverseid>
@@ -252,7 +250,7 @@ At the beginning of the end step, destroy all untapped creatures that didn't att
 <Name>The Fallen</Name>
 <Type>Creature — Zombie 2/3</Type>
 <ManaCost>1BBB (4)</ManaCost>
-<CardText>At the beginning of your upkeep, The Fallen deals 1 damage to each opponent it has dealt damage to this game.</CardText>
+<CardText>At the beginning of your upkeep, The Fallen deals 1 damage to each opponent and planeswalker it has dealt damage to this game.</CardText>
 <Flavor>Magic often masters those who cannot master it.</Flavor>
 <Artist>Jesper Myrfors</Artist>
 <Multiverseid>1742</Multiverseid>
@@ -308,7 +306,7 @@ At the beginning of the end step, destroy all untapped creatures that didn't att
 <ManaCost>2BBB (5)</ManaCost>
 <CardText>Players can't play lands.
 Lands can't enter the battlefield.
-At the beginning of each upkeep, any player may sacrifice two lands or have Worms of the Earth deal 5 damage to him or her. If a player does either, destroy Worms of the Earth.</CardText>
+At the beginning of each upkeep, any player may sacrifice two lands or have Worms of the Earth deal 5 damage to that player. If a player does either, destroy Worms of the Earth.</CardText>
 <Flavor>The ground collapsed, leaving nothing but the great Worms' mucous residues.</Flavor>
 <Artist>Anson Maddocks</Artist>
 <Multiverseid>1745</Multiverseid>
@@ -329,7 +327,7 @@ At the beginning of each upkeep, any player may sacrifice two lands or have Worm
 <Name>Amnesia</Name>
 <Type>Sorcery</Type>
 <ManaCost>3UUU (6)</ManaCost>
-<CardText>Target player reveals his or her hand and discards all nonland cards.</CardText>
+<CardText>Target player reveals their hand and discards all nonland cards.</CardText>
 <Flavor>"When one has witnessed the unspeakable, 'tis sometimes better to forget." —Vervamon the Elder</Flavor>
 <Artist>Mark Poole</Artist>
 <Multiverseid>1746</Multiverseid>
@@ -346,7 +344,7 @@ At the beginning of each upkeep, any player may sacrifice two lands or have Worm
 <Name>Apprentice Wizard</Name>
 <Type>Creature — Human Wizard 0/1</Type>
 <ManaCost>1UU (3)</ManaCost>
-<CardText>{U}, {T}: Add {C}{C}{C} to your mana pool.</CardText>
+<CardText>{U}, {T}: Add {C}{C}{C}.</CardText>
 <Artist>Dan Frazier</Artist>
 <Multiverseid>1747</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -369,7 +367,7 @@ At the beginning of your upkeep, sacrifice Dance of Many unless you pay {U}{U}.<
 <Multiverseid>1748</Multiverseid>
 <Rulings>2004/10/04: Destroying the creature that was copied will not cause the token creature to be destroyed as well.
 2004/10/04: Each <Dance of Many> is associated only with its token creature. If one Dance leaves the battlefield, only the corresponding token is affected, not all tokens from all instances of <Dance of Many>.
-2004/10/04: The ability is targeted and checks the validity of the target when put on the stack and when resolving. If the creature is not still there when the copy ability resolves, the ability is countered and no token is put onto the battlefield. This card remains on the battlefield as an enchantment with no token.
+2004/10/04: The ability is targeted and checks the validity of the target when put on the stack and when resolving. If the creature is not still there when the copy ability resolves, the ability doesn't resolve and no token is put onto the battlefield. This card remains on the battlefield as an enchantment with no token.
 2004/10/04: The mana cost is copied.
 2004/10/04: Treat the token as entering the battlefield as a copy of the chosen creature. If that creature normally gets counters when entering the battlefield, the token creature gets counters.
 2009/10/01: If <Dance of Many> leaves the battlefield before its first ability has resolved, its second ability will trigger and do nothing. Then its first ability will resolve and put a token onto the battlefield. That token won't have any connection to a <Dance of Many> permanent, so it won't be exiled when a <Dance of Many> leaves the battlefield.</Rulings>
@@ -453,7 +451,7 @@ At the beginning of the upkeep of enchanted land's controller, destroy that land
 <CardText>{U}{U}: Tap target creature without flying.</CardText>
 <Flavor>"A dash of cool water does wonders to clear a cluttered battlefield."
 —Vibekke Ragnild, Witches and War</Flavor>
-<Artist>Denise Detwiler</Artist>
+<Artist>Dennis Detwiller</Artist>
 <Multiverseid>1753</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -526,7 +524,7 @@ Leviathan can't attack unless you sacrifice two Islands. (This cost is paid as a
 <Name>Mana Vortex</Name>
 <Type>Enchantment</Type>
 <ManaCost>1UU (3)</ManaCost>
-<CardText>When you cast Mana Vortex, counter it unless you sacrifice a land.
+<CardText>When you cast this spell, counter it unless you sacrifice a land.
 At the beginning of each player's upkeep, that player sacrifices a land.
 When there are no lands on the battlefield, sacrifice Mana Vortex.</CardText>
 <Artist>Douglas Shuler</Artist>
@@ -547,7 +545,7 @@ When there are no lands on the battlefield, sacrifice Mana Vortex.</CardText>
 <Type>Creature — Merfolk Assassin 1/2</Type>
 <ManaCost>UU (2)</ManaCost>
 <CardText>{T}: Destroy target creature with islandwalk.</CardText>
-<Artist>Denise Detwiler</Artist>
+<Artist>Dennis Detwiller</Artist>
 <Multiverseid>1758</Multiverseid>
 <Rulings>2006/10/15: Can target a creature with snow islandwalk.</Rulings>
 <Vintage>Legal</Vintage>
@@ -563,7 +561,7 @@ When there are no lands on the battlefield, sacrifice Mana Vortex.</CardText>
 <Name>Mind Bomb</Name>
 <Type>Sorcery</Type>
 <ManaCost>U (1)</ManaCost>
-<CardText>Each player may discard up to three cards. Mind Bomb deals damage to each player equal to 3 minus the number of cards he or she discarded this way.</CardText>
+<CardText>Each player may discard up to three cards. Mind Bomb deals damage to each player equal to 3 minus the number of cards they discarded this way.</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>1759</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -579,7 +577,7 @@ When there are no lands on the battlefield, sacrifice Mana Vortex.</CardText>
 <Type>Enchantment</Type>
 <ManaCost>3UU (5)</ManaCost>
 <CardText>As Psychic Allergy enters the battlefield, choose a color.
-At the beginning of each opponent's upkeep, Psychic Allergy deals X damage to that player, where X is the number of nontoken permanents of the chosen color he or she controls.
+At the beginning of each opponent's upkeep, Psychic Allergy deals X damage to that player, where X is the number of nontoken permanents of the chosen color they control.
 At the beginning of your upkeep, destroy Psychic Allergy unless you sacrifice two Islands.</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>1760</Multiverseid>
@@ -676,7 +674,7 @@ Enchanted creature doesn't untap during its controller's untap step if it attack
 <Name>Elves of Deep Shadow</Name>
 <Type>Creature — Elf Druid 1/1</Type>
 <ManaCost>G (1)</ManaCost>
-<CardText>{T}: Add {B} to your mana pool. Elves of Deep Shadow deals 1 damage to you.</CardText>
+<CardText>{T}: Add {B}. Elves of Deep Shadow deals 1 damage to you.</CardText>
 <Flavor>"They are aberrations who have turned on everything we hold sacred. Let them be cast out." —Ailheen, Speaker of the Council</Flavor>
 <Artist>Jesper Myrfors</Artist>
 <Multiverseid>1766</Multiverseid>
@@ -694,7 +692,7 @@ Enchanted creature doesn't untap during its controller's untap step if it attack
 <Type>Enchantment</Type>
 <ManaCost>GG (2)</ManaCost>
 <CardText>{0}: You may put a basic Forest card from your hand onto the battlefield. Activate this ability only any time you could cast a sorcery and only once each turn.
-Sacrifice Gaea's Touch: Add {G}{G} to your mana pool.</CardText>
+Sacrifice Gaea's Touch: Add {G}{G}.</CardText>
 <Artist>Mark Poole</Artist>
 <Multiverseid>1767</Multiverseid>
 <Rulings>2014/02/01: The land enters the battlefield directly from your hand, but it is not "played". This means it does not count towards the number of lands played this turn and doesn't trigger abilities that would trigger if the Forest had been played.</Rulings>
@@ -862,7 +860,7 @@ Sacrifice Gaea's Touch: Add {G}{G} to your mana pool.</CardText>
 <ManaCost>G (1)</ManaCost>
 <CardText>{G}, {T}, Sacrifice Scavenger Folk: Destroy target artifact.</CardText>
 <Flavor>String, weapons, wax, or jewels—it makes no difference. Leave nothing unguarded in Scarwood.</Flavor>
-<Artist>Denise Detwiler</Artist>
+<Artist>Dennis Detwiller</Artist>
 <Multiverseid>1777</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -896,7 +894,7 @@ Sacrifice Gaea's Touch: Add {G}{G} to your mana pool.</CardText>
 <Artist>Jeff A. Menges</Artist>
 <Multiverseid>1779</Multiverseid>
 <Rulings>2004/10/04: Giving either creature first strike does not affect the ability.
-2004/10/04: If this leaves the battlefield before its activated ability resolves, it will still deal damage to the targeted creature. On the other hand, if the targeted creature leaves the battlefield before the ability resolves, the ability will be countered and no damage will be dealt.
+2004/10/04: If this leaves the battlefield before its activated ability resolves, it will still deal damage to the targeted creature. On the other hand, if the targeted creature leaves the battlefield before the ability resolves, the ability won't resolve and no damage will be dealt.
 2009/10/01: You may have <Tracker> target itself with its own ability. If you do, <Tracker> will deal damage to itself equal to its power, then immediately do it again.</Rulings>
 <Reserved>This card is on the reserved list</Reserved>
 <Vintage>Legal</Vintage>
@@ -929,7 +927,7 @@ Whenever enchanted creature blocks or becomes blocked by a non-Wall creature, de
 <Name>Whippoorwill</Name>
 <Type>Creature — Bird 1/1</Type>
 <ManaCost>G (1)</ManaCost>
-<CardText>{G}{G}, {T}: Target creature can't be regenerated this turn. Damage that would be dealt to that creature this turn can't be prevented or dealt instead to another creature or player. When the creature dies this turn, exile the creature.</CardText>
+<CardText>{G}{G}, {T}: Target creature can't be regenerated this turn. Damage that would be dealt to that creature this turn can't be prevented or dealt instead to another permanent or player. When the creature dies this turn, exile the creature.</CardText>
 <Flavor>If the Whippoorwill remains silent, the soul has not reached its reward.</Flavor>
 <Artist>Douglas Shuler</Artist>
 <Multiverseid>1781</Multiverseid>
@@ -963,7 +961,7 @@ Whenever enchanted creature blocks or becomes blocked by a non-Wall creature, de
 <Name>Ball Lightning</Name>
 <Type>Creature — Elemental 6/1</Type>
 <ManaCost>RRR (3)</ManaCost>
-<CardText>Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)
+<CardText>Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)
 Haste (This creature can attack and {T} as soon as it comes under your control.)
 At the beginning of the end step, sacrifice Ball Lightning.</CardText>
 <Artist>Quinton Hoover</Artist>
@@ -986,10 +984,10 @@ At the beginning of the end step, sacrifice Ball Lightning.</CardText>
 <Flavor>Heavy light flooded across the landscape, cloaking everything in deep crimson.</Flavor>
 <Artist>Tom Wänerstrand</Artist>
 <Multiverseid>1784</Multiverseid>
-<Rulings>2017/03/14: Nonbasic lands will lose any other land types and abilities they had. They will gain the land type Mountain and gain the ability "{T}: Add {R} to your mana pool."
-2017/03/14: <Blood Moon>'s effect doesn't affect names or supertypes. It won't turn any land into a basic land or remove the legendary supertype from a legendary land, and the lands won't be named "Mountain."
-2017/03/14: If a nonbasic land has an ability that triggers "when" it enters the battlefield, it will lose that ability before it triggers.
-2017/09/29: If a nonbasic land has an ability that causes it to enter the battlefield tapped, it will lose that ability before it applies. The same is also true of any other abilities that modify how a land enters the battlefield or apply "as" a land enters the battlefield, such as the first ability of Cavern of Souls. This is a change from previous rulings.</Rulings>
+<Rulings>2017/09/29: If a nonbasic land has an ability that causes it to enter the battlefield tapped, it will lose that ability before it applies. The same is also true of any other abilities that modify how a land enters the battlefield or apply "as" a land enters the battlefield, such as the first ability of Cavern of Souls. This is a change from previous rulings.
+2018/03/16: Nonbasic lands will lose any other land types and abilities they had. They will gain the land type Mountain and gain the ability "{T}: Add {R}."
+2018/03/16: This effect doesn't affect names or supertypes. It won't turn any land into a basic land or remove the legendary supertype from a legendary land, and the lands won't be named "Mountain."
+2018/03/16: If a nonbasic land has an ability that triggers "when" it enters the battlefield, it will lose that ability before it triggers.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1003,7 +1001,7 @@ At the beginning of the end step, sacrifice Ball Lightning.</CardText>
 <Name>Brothers of Fire</Name>
 <Type>Creature — Human Shaman 2/2</Type>
 <ManaCost>1RR (3)</ManaCost>
-<CardText>{1}{R}{R}: Brothers of Fire deals 1 damage to target creature or player and 1 damage to you.</CardText>
+<CardText>{1}{R}{R}: Brothers of Fire deals 1 damage to any target and 1 damage to you.</CardText>
 <Flavor>Fire is never a gentle master.</Flavor>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>1785</Multiverseid>
@@ -1035,7 +1033,7 @@ At the beginning of the end step, sacrifice Ball Lightning.</CardText>
 <Name>Eternal Flame</Name>
 <Type>Sorcery</Type>
 <ManaCost>2RR (4)</ManaCost>
-<CardText>Eternal Flame deals X damage to target opponent, where X is the number of Mountains you control. It deals half X damage, rounded up, to you.</CardText>
+<CardText>Eternal Flame deals X damage to target opponent or planeswalker and half X damage, rounded up, to you, where X is the number of Mountains you control.</CardText>
 <Artist>Mark Poole</Artist>
 <Multiverseid>1787</Multiverseid>
 <Reserved>This card is on the reserved list</Reserved>
@@ -1136,7 +1134,7 @@ As long as enchanted land is a basic Mountain, Goblin creatures get +0/+2.</Card
 <CardText>Trample
 Goblin Rock Sled doesn't untap during your untap step if it attacked during your last turn.
 Goblin Rock Sled can't attack unless defending player controls a Mountain.</CardText>
-<Artist>Denise Detwiler</Artist>
+<Artist>Dennis Detwiller</Artist>
 <Multiverseid>1793</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1223,7 +1221,7 @@ When you control a Dwarf, sacrifice Goblins of the Flarg.</CardText>
 <CardText>You and target opponent each flip a coin. Mana Clash deals 1 damage to each player whose coin comes up tails. Repeat this process until both players' coins come up heads on the same flip.</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>1798</Multiverseid>
-<Rulings>2004/10/04: Always affects the player and targets one of his or her opponents.
+<Rulings>2004/10/04: Always affects the player and targets one of their opponents.
 2004/10/04: Each point of damage is dealt separately, so if you are damaged twice by this spell, each time is considered a separate time this source deals damage.
 2004/10/04: This card's coin flip has no winner or loser.</Rulings>
 <Vintage>Legal</Vintage>
@@ -1255,7 +1253,7 @@ When you control a Dwarf, sacrifice Goblins of the Flarg.</CardText>
 <Name>Sisters of the Flame</Name>
 <Type>Creature — Human Shaman 2/2</Type>
 <ManaCost>1RR (3)</ManaCost>
-<CardText>{T}: Add {R} to your mana pool.</CardText>
+<CardText>{T}: Add {R}.</CardText>
 <Flavor>We are many wicks sharing a common tallow; we feed the skies with the ashes of our prey.</Flavor>
 <Artist>Jesper Myrfors</Artist>
 <Multiverseid>1800</Multiverseid>
@@ -1392,7 +1390,7 @@ When you draw a card, destroy Fasting.</CardText>
 <Name>Festival</Name>
 <Type>Instant</Type>
 <ManaCost>W (1)</ManaCost>
-<CardText>Cast Festival only during an opponent's upkeep.
+<CardText>Cast this spell only during an opponent's upkeep.
 Creatures can't attack this turn.</CardText>
 <Flavor>Only after the townsfolk had drawn us into their merry celebration did we discover that their holiday rituals held a deeper purpose.</Flavor>
 <Artist>Mark Poole</Artist>
@@ -1513,7 +1511,7 @@ Creatures can't attack this turn.</CardText>
 <ManaCost>1W (2)</ManaCost>
 <CardText>First strike; banding (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)</CardText>
 <Flavor>"As the cavalry bore down, we faced them with swords drawn and pikes hidden in the grass at our feet. 'Don't lift your pikes 'til I give the word,' I said." —Maeveen O'Donagh, Memoirs of a Soldier</Flavor>
-<Artist>Denise Detwiler</Artist>
+<Artist>Dennis Detwiller</Artist>
 <Multiverseid>1815</Multiverseid>
 <Rulings>2008/10/01: If a creature with banding attacks, it can team up with any number of other attacking creatures with banding (and up to one nonbanding creature) and attack as a unit called a "band." The band can be blocked by any creature that could block a single creature in the band. Blocking any creature in a band blocks the entire band. If a creature with banding is blocked, the attacking player chooses how the blockers' damage is assigned.
 2008/10/01: A maximum of one nonbanding creature can join an attacking band no matter how many creatures with banding are in it.
@@ -1532,10 +1530,10 @@ Creatures can't attack this turn.</CardText>
 <Type>Creature — Human Cleric 1/1</Type>
 <ManaCost>1WW (3)</ManaCost>
 <CardText>You may choose not to untap Preacher during your untap step.
-{T}: For as long as Preacher remains tapped, gain control of target creature of an opponent's choice he or she controls.</CardText>
+{T}: For as long as Preacher remains tapped, gain control of target creature of an opponent's choice they control.</CardText>
 <Artist>Quinton Hoover</Artist>
 <Multiverseid>1816</Multiverseid>
-<Rulings>2004/10/04: The target of the ability is a creature the chosen opponent controls. As the ability resolves, if the target isn't a creature controlled by the chosen opponent, the ability will be countered. If the ability's target is changed somehow, the new target must be a creature controlled by the chosen opponent.
+<Rulings>2004/10/04: The target of the ability is a creature the chosen opponent controls. As the ability resolves, if the target isn't a creature controlled by the chosen opponent, the ability won't resolve. If the ability's target is changed somehow, the new target must be a creature controlled by the chosen opponent.
 2007/09/16: Whether <Preacher> is tapped is checked continually, starting when the ability is activated. If, before the ability resolves, there's any point at which <Preacher> is untapped, the ability has no effect — even if <Preacher> is tapped again by the time the ability resolves.
 2007/09/16: When you activate the ability, you choose an opponent, then that opponent chooses the target.</Rulings>
 <Reserved>This card is on the reserved list</Reserved>
@@ -1552,7 +1550,7 @@ Creatures can't attack this turn.</CardText>
 <Type>Creature — Human Soldier 1/2</Type>
 <ManaCost>1W (2)</ManaCost>
 <Flavor>"Of twenty yeer of age he was, I gesse. Of his stature he was of even lengthe. And wonderly deliver, and greete of strengthe." —Geoffrey Chaucer, The Canterbury Tales</Flavor>
-<Artist>Denise Detwiler</Artist>
+<Artist>Dennis Detwiller</Artist>
 <Multiverseid>1817</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1568,7 +1566,7 @@ Creatures can't attack this turn.</CardText>
 <Type>Sorcery</Type>
 <ManaCost>1WW (3)</ManaCost>
 <CardText>Destroy all Goblins.</CardText>
-<Artist>Denise Detwiler</Artist>
+<Artist>Dennis Detwiller</Artist>
 <Multiverseid>1818</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1582,7 +1580,7 @@ Creatures can't attack this turn.</CardText>
 <Name>Witch Hunter</Name>
 <Type>Creature — Human Cleric 1/1</Type>
 <ManaCost>2WW (4)</ManaCost>
-<CardText>{T}: Witch Hunter deals 1 damage to target player.
+<CardText>{T}: Witch Hunter deals 1 damage to target player or planeswalker.
 {1}{W}{W}, {T}: Return target creature an opponent controls to its owner's hand.</CardText>
 <Artist>Jesper Myrfors</Artist>
 <Multiverseid>1819</Multiverseid>
@@ -1652,7 +1650,7 @@ Creatures can't attack this turn.</CardText>
 <Name>Coal Golem</Name>
 <Type>Artifact Creature — Golem 3/3</Type>
 <ManaCost>5 (5)</ManaCost>
-<CardText>{3}, Sacrifice Coal Golem: Add {R}{R}{R} to your mana pool.</CardText>
+<CardText>{3}, Sacrifice Coal Golem: Add {R}{R}{R}.</CardText>
 <Flavor>"Three such creatures stood burning at the crest of the hill. Only seconds later, the Fireball struck our front line." —Lydia, Countess Brellis</Flavor>
 <Artist>Christopher Rush</Artist>
 <Multiverseid>1711</Multiverseid>
@@ -1701,7 +1699,7 @@ Creatures can't attack this turn.</CardText>
 <Name>Fellwar Stone</Name>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{T}: Add to your mana pool one mana of any color that a land an opponent controls could produce.</CardText>
+<CardText>{T}: Add one mana of any color that a land an opponent controls could produce.</CardText>
 <Flavor>"What do you have that I cannot obtain?"
 —Mairsil, called the Pretender</Flavor>
 <Artist>Quinton Hoover</Artist>
@@ -1710,7 +1708,7 @@ Creatures can't attack this turn.</CardText>
 2004/10/04: This works even if the opponent's lands are tapped. It only checks what kinds of mana can be produced, not if the abilities that produce them are usable right now.
 2004/10/04: The ability can be activated if the opponent has no lands that produce mana, but the effect will not be able to generate any mana.
 2009/10/01: The colors of mana are white, blue, black, red, and green. <Fellwar Stone> can't be tapped for colorless mana, even if a land an opponent controls could produce colorless mana.
-2009/10/01: <Fellwar Stone> checks the effects of all mana-producing abilities of lands your opponents control, but it doesn't check their costs. For example, Vivid Crag has the ability "{T}, Remove a charge counter from Vivid Crag: Add one mana of any color to your mana pool." If an opponent controls Vivid Crag and you control <Fellwar Stone>, you can tap <Fellwar Stone> for any color of mana. It doesn't matter whether Vivid Crag has a charge counter on it, and it doesn't matter whether it's untapped.
+2009/10/01: <Fellwar Stone> checks the effects of all mana-producing abilities of lands your opponents control, but it doesn't check their costs. For example, Vivid Crag has the ability "{T}, Remove a charge counter from Vivid Crag: Add one mana of any color." If an opponent controls Vivid Crag and you control <Fellwar Stone>, you can tap <Fellwar Stone> for any color of mana. It doesn't matter whether Vivid Crag has a charge counter on it, and it doesn't matter whether it's untapped.
 2009/10/01: When determining what colors of mana your opponents' lands could produce, take into account any applicable replacement effects that would apply to those lands' mana abilities (such as Contamination's effect, for example). If there is more than one, consider them in any possible order.
 2009/10/01: <Fellwar Stone> doesn't care about any restrictions or riders your opponents' lands (such as Ancient Ziggurat or Hall of the Bandit Lord) put on the mana they produce. It just cares about colors of mana.</Rulings>
 <Vintage>Legal</Vintage>
@@ -1763,7 +1761,6 @@ Creatures can't attack this turn.</CardText>
 Exile a creature card from your graveyard: Put X +0/+1 counters on Necropolis, where X is the exiled card's converted mana cost.</CardText>
 <Artist>NéNé Thomas</Artist>
 <Multiverseid>1717</Multiverseid>
-<Rulings>2008/04/01: A "creature card" is any card with the type creature, even if it has other types such as artifact, enchantment, or land. Older cards of type summon are also creature cards.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>The Dark</Set>
@@ -1844,7 +1841,7 @@ Exile a creature card from your graveyard: Put X +0/+1 counters on Necropolis, w
 <Name>Standing Stones</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{1}, {T}, Pay 1 life: Add one mana of any color to your mana pool.</CardText>
+<CardText>{1}, {T}, Pay 1 life: Add one mana of any color.</CardText>
 <Artist>Sandra Everingham</Artist>
 <Multiverseid>1722</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1910,7 +1907,7 @@ Exile a creature card from your graveyard: Put X +0/+1 counters on Necropolis, w
 <Name>Wand of Ith</Name>
 <Type>Artifact</Type>
 <ManaCost>4 (4)</ManaCost>
-<CardText>{3}, {T}: Target player reveals a card at random from his or her hand. If it's a land card, that player discards it unless he or she pays 1 life. If it isn't a land card, the player discards it unless he or she pays life equal to its converted mana cost. Activate this ability only during your turn.</CardText>
+<CardText>{3}, {T}: Target player reveals a card at random from their hand. If it's a land card, that player discards it unless they pay 1 life. If it isn't a land card, the player discards it unless they pay life equal to its converted mana cost. Activate this ability only during your turn.</CardText>
 <Artist>Quinton Hoover</Artist>
 <Multiverseid>1726</Multiverseid>
 <Rulings>2004/10/04: Any X in the mana cost of a card is zero for purposes of the Wand.</Rulings>
@@ -1942,7 +1939,7 @@ Exile a creature card from your graveyard: Put X +0/+1 counters on Necropolis, w
 <Name>City of Shadows</Name>
 <Type>Land</Type>
 <CardText>{T}, Exile a creature you control: Put a storage counter on City of Shadows.
-{T}: Add {C} to your mana pool for each storage counter on City of Shadows.</CardText>
+{T}: Add {C} for each storage counter on City of Shadows.</CardText>
 <Artist>Tom Wänerstrand</Artist>
 <Multiverseid>1823</Multiverseid>
 <Rulings>2004/10/04: The storage counters aren't removed when you activate the mana ability.

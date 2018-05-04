@@ -31,6 +31,7 @@ Whenever a creature dealt damage by Zurgo Helmsmasher this turn dies, put a +1/+
 <Flavor>The upside to not thinking about the consequences is that you'll always surprise those who do.</Flavor>
 <Artist>Carl Critchlow</Artist>
 <Multiverseid>386319</Multiverseid>
+<Rulings>2018/03/16: <Frenzied Goblin>'s ability has only one target. You can't pay {R} multiple times to stop multiple creatures from blocking.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -157,10 +158,11 @@ Whenever a creature dealt damage by Zurgo Helmsmasher this turn dies, put a +1/+
 <Type>Creature — Goblin Warrior 2/2</Type>
 <ManaCost>1RR (3)</ManaCost>
 <CardText>Goblin spells you cast cost {1} less to cast.
-Goblin creatures you control have haste.</CardText>
+Goblins you control have haste.</CardText>
 <Flavor>They poured from the Skirk Ridge like lava, burning and devouring everything in their path.</Flavor>
 <Artist>Greg & Tim Hildebrandt</Artist>
 <Multiverseid>386325</Multiverseid>
+<Rulings>2018/04/27: <Goblin Warchief>'s effect reduces only generic mana in the cost of Goblin spells you cast. For example, it doesn't reduce the cost of Skirk Prospector below {R}.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Duel Decks: Speed vs. Cunning</Set>
@@ -232,7 +234,7 @@ Unearth {B}{R} ({B}{R}: Return this card from your graveyard to the battlefield.
 <Name>Mardu Heart-Piercer</Name>
 <Type>Creature — Human Archer 2/3</Type>
 <ManaCost>3R (4)</ManaCost>
-<CardText>Raid — When Mardu Heart-Piercer enters the battlefield, if you attacked with a creature this turn, Mardu Heart-Piercer deals 2 damage to target creature or player.</CardText>
+<CardText>Raid — When Mardu Heart-Piercer enters the battlefield, if you attacked with a creature this turn, Mardu Heart-Piercer deals 2 damage to any target.</CardText>
 <Flavor>"Those who have never ridden before the wind do not know the true joy of war."</Flavor>
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>386346</Multiverseid>
@@ -362,8 +364,8 @@ At the beginning of your upkeep, return a red creature you control to its owner'
 <Name>Reckless Abandon</Name>
 <Type>Sorcery</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>As an additional cost to cast Reckless Abandon, sacrifice a creature.
-Reckless Abandon deals 4 damage to target creature or player.</CardText>
+<CardText>As an additional cost to cast this spell, sacrifice a creature.
+Reckless Abandon deals 4 damage to any target.</CardText>
 <Flavor>The climax of a warlord's career is always death.</Flavor>
 <Artist>Ron Spears</Artist>
 <Multiverseid>386361</Multiverseid>
@@ -381,7 +383,7 @@ Reckless Abandon deals 4 damage to target creature or player.</CardText>
 <Name>Shock</Name>
 <Type>Instant</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>Shock deals 2 damage to target creature or player.</CardText>
+<CardText>Shock deals 2 damage to any target.</CardText>
 <Flavor>"The beauty of it is they never see it coming. Ever."
 —Razzix, sparkmage</Flavor>
 <Artist>Jon Foster</Artist>
@@ -399,14 +401,14 @@ Reckless Abandon deals 4 damage to target creature or player.</CardText>
 <Name>Bone Splinters</Name>
 <Type>Sorcery</Type>
 <ManaCost>B (1)</ManaCost>
-<CardText>As an additional cost to cast Bone Splinters, sacrifice a creature.
+<CardText>As an additional cost to cast this spell, sacrifice a creature.
 Destroy target creature.</CardText>
 <Flavor>Witches of the Split-Eye Coven speak of a future when Grixis will overflow with life energy. For now, they must harvest vis from the living to fuel their dark magics.</Flavor>
 <Artist>Cole Eastburn</Artist>
 <Multiverseid>386306</Multiverseid>
 <Rulings>2017/03/14: You must sacrifice exactly one creature to cast this spell; you can't cast it without sacrificing a creature, and you can't sacrifice additional creatures.
 2017/03/14: Once you begin to cast <Bone Splinters>, no player may take actions until you're done. Notably, opponents can't try to remove the creature you wish to sacrifice.
-2017/03/14: You can cast <Bone Splinters> targeting the creature you intend to sacrifice for its cost. This is because targets are chosen before costs are paid. <Bone Splinters> will be countered as it tries to resolve in this case.</Rulings>
+2017/03/14: You can cast <Bone Splinters> targeting the creature you intend to sacrifice for its cost. This is because targets are chosen before costs are paid. <Bone Splinters> won't resolve as it tries to resolve in this case.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -420,7 +422,7 @@ Destroy target creature.</CardText>
 <Name>Arc Trail</Name>
 <Type>Sorcery</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>Arc Trail deals 2 damage to target creature or player and 1 damage to another target creature or player.</CardText>
+<CardText>Arc Trail deals 2 damage to any target and 1 damage to another target.</CardText>
 <Flavor>"Don't try to hit your enemies. Concentrate on the space between them, and fill the air with doom."
 —Spear-Tribe teaching</Flavor>
 <Artist>Marc Simonetti</Artist>
@@ -438,7 +440,7 @@ Destroy target creature.</CardText>
 <Name>Goblin Bombardment</Name>
 <Type>Enchantment</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>Sacrifice a creature: Goblin Bombardment deals 1 damage to target creature or player.</CardText>
+<CardText>Sacrifice a creature: Goblin Bombardment deals 1 damage to any target.</CardText>
 <Flavor>With one motion, a pest is removed and a scourge inflicted.</Flavor>
 <Artist>Dave Kendall</Artist>
 <Multiverseid>386323</Multiverseid>
@@ -510,7 +512,7 @@ Destroy target creature.</CardText>
 <Name>Orcish Cannonade</Name>
 <Type>Instant</Type>
 <ManaCost>1RR (3)</ManaCost>
-<CardText>Orcish Cannonade deals 2 damage to target creature or player and 3 damage to you.
+<CardText>Orcish Cannonade deals 2 damage to any target and 3 damage to you.
 Draw a card.</CardText>
 <Flavor>"Crispy! Scarback! Load another volcano-ball."
 —Stumphobbler Thuj, orcish captain</Flavor>
@@ -530,7 +532,7 @@ Draw a card.</CardText>
 <Type>Instant</Type>
 <ManaCost>5R (6)</ManaCost>
 <CardText>Fiery Fall deals 5 damage to target creature.
-Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)</CardText>
+Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.)</CardText>
 <Flavor>Jund feasts on the unprepared.</Flavor>
 <Artist>Daarken</Artist>
 <Multiverseid>386315</Multiverseid>
@@ -551,7 +553,7 @@ Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a b
 <Name>Fury of the Horde</Name>
 <Type>Sorcery</Type>
 <ManaCost>5RR (7)</ManaCost>
-<CardText>You may exile two red cards from your hand rather than pay Fury of the Horde's mana cost.
+<CardText>You may exile two red cards from your hand rather than pay this spell's mana cost.
 Untap all creatures that attacked this turn. After this main phase, there is an additional combat phase followed by an additional main phase.</CardText>
 <Artist>Stephen Tappin</Artist>
 <Multiverseid>386320</Multiverseid>
@@ -573,14 +575,13 @@ Untap all creatures that attacked this turn. After this main phase, there is an 
 <Name>Banefire</Name>
 <Type>Sorcery</Type>
 <ManaCost>XR (1)</ManaCost>
-<CardText>Banefire deals X damage to target creature or player.
-If X is 5 or more, Banefire can't be countered by spells or abilities and the damage can't be prevented.</CardText>
+<CardText>Banefire deals X damage to any target.
+If X is 5 or more, this spell can't be countered and the damage can't be prevented.</CardText>
 <Flavor>For Sarkhan Vol, the dragon is the purest expression of life's savage splendor.</Flavor>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>386304</Multiverseid>
 <Rulings>2009/02/01: <Banefire> checks the number you chose for X, not the amount of mana you actually spent.
-2009/02/01: <Banefire> can be targeted by spells that try to counter it (such as Countersquall) regardless of what the value of X is. If X is 5 or more, those spells will still resolve, but the part of their effect that would counter <Banefire> won't do anything. Any other effects those spells have will work as normal.
-2009/02/01: <Banefire>'s ability won't prevent it from being countered by the game rules if its target has become an illegal target.</Rulings>
+2009/02/01: <Banefire> can be targeted by spells that try to counter it (such as Countersquall) regardless of what the value of X is. If X is 5 or more, those spells will still resolve, but the part of their effect that would counter <Banefire> won't do anything. Any other effects those spells have will work as normal.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -610,11 +611,11 @@ If X is 5 or more, Banefire can't be countered by spells or abilities and the da
 <Name>Ghitu Encampment</Name>
 <Type>Land</Type>
 <CardText>Ghitu Encampment enters the battlefield tapped.
-{T}: Add {R} to your mana pool.
+{T}: Add {R}.
 {1}{R}: Ghitu Encampment becomes a 2/1 red Warrior creature with first strike until end of turn. It's still a land. (It deals combat damage before creatures without first strike.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>386321</Multiverseid>
-<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.
+<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
 2009/10/01: Activating the ability that turns it into a creature while it's already a creature will override any effects that set its power and/or toughness to a specific number. However, any effect that raises or lowers power and/or toughness (such as the effect created by Giant Growth, Glorious Anthem, or a +1/+1 counter) will continue to apply.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -629,7 +630,7 @@ If X is 5 or more, Banefire can't be countered by spells or abilities and the da
 <Name>Nomad Outpost</Name>
 <Type>Land</Type>
 <CardText>Nomad Outpost enters the battlefield tapped.
-{T}: Add {R}, {W}, or {B} to your mana pool.</CardText>
+{T}: Add {R}, {W}, or {B}.</CardText>
 <Flavor>"Only the weak imprison themselves behind walls. We live free under the wind, and our freedom makes us strong."
 —Zurgo, khan of the Mardu</Flavor>
 <Artist>Noah Bradley</Artist>
@@ -646,7 +647,7 @@ If X is 5 or more, Banefire can't be countered by spells or abilities and the da
 <No>35</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Jonas De Ro</Artist>
 <Multiverseid>386348</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -661,7 +662,7 @@ If X is 5 or more, Banefire can't be countered by spells or abilities and the da
 <No>36</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>386351</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -676,7 +677,7 @@ If X is 5 or more, Banefire can't be countered by spells or abilities and the da
 <No>37</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Andreas Rocha</Artist>
 <Multiverseid>386349</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -691,7 +692,7 @@ If X is 5 or more, Banefire can't be countered by spells or abilities and the da
 <No>38</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Jonas De Ro</Artist>
 <Multiverseid>386360</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -706,7 +707,7 @@ If X is 5 or more, Banefire can't be countered by spells or abilities and the da
 <No>39</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>386372</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -721,7 +722,7 @@ If X is 5 or more, Banefire can't be countered by spells or abilities and the da
 <No>40</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>386373</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -736,7 +737,7 @@ If X is 5 or more, Banefire can't be countered by spells or abilities and the da
 <No>41</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Andreas Rocha</Artist>
 <Multiverseid>386371</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -850,7 +851,10 @@ When Willbender is turned face up, change the target of target spell or ability 
 <Artist>Eric Peterson</Artist>
 <Multiverseid>386379</Multiverseid>
 <Rulings>2004/10/04: The trigger occurs when you use the Morph ability to turn the card face up, or when an effect turns it face up. It will not trigger on being revealed or on leaving the battlefield.
-2013/04/15: If a spell with split second is on the stack, you can still respond by turning this creature face up and targeting that spell with the trigger. This is because split second only stops players from casting spells or activating abilities, while turning a creature face up is a special action.</Rulings>
+2013/04/15: If a spell with split second is on the stack, you can still respond by turning this creature face up and targeting that spell with the trigger. This is because split second only stops players from casting spells or activating abilities, while turning a creature face up is a special action.
+2018/03/16: You don't choose the new target for the spell until <Willbender>'s triggered ability resolves. You must change the target if possible. However, you can't change the target to an illegal target. If there are no legal targets to choose from, the target isn't changed. It doesn't matter if the original target of that spell has somehow become illegal itself.
+2018/03/16: If a spell or ability targets multiple things, you can't target it with <Willbender>'s triggered ability, even if all but one of those targets have become illegal.
+2018/03/16: If a spell or ability targets the same player or object multiple times, you can't target it with <Willbender>'s ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -864,7 +868,7 @@ When Willbender is turned face up, change the target of target spell or ability 
 <Name>Sparkmage Apprentice</Name>
 <Type>Creature — Human Wizard 1/1</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>When Sparkmage Apprentice enters the battlefield, it deals 1 damage to target creature or player.</CardText>
+<CardText>When Sparkmage Apprentice enters the battlefield, it deals 1 damage to any target.</CardText>
 <Flavor>Sparkmages are performance artists of sorts, but pain is the price of admission.</Flavor>
 <Artist>Jaime Jones</Artist>
 <Multiverseid>386366</Multiverseid>
@@ -1099,8 +1103,8 @@ Draw a card.</CardText>
 <Flavor>The first spell taught to young mages, it has spared the lives of many whose hands are too small to hold a sword.</Flavor>
 <Artist>Ryan Yee</Artist>
 <Multiverseid>386317</Multiverseid>
-<Rulings>2010/06/15: If the targeted creature is an illegal target by the time <Fleeting Distraction> resolves, the spell is countered. You won't draw a card.
-2012/05/01: If the targeted creature is an illegal target when <Fleeting Distraction> tries to resolve, it will be countered and none of its effects will happen. You won't draw a card.</Rulings>
+<Rulings>2010/06/15: If the targeted creature is an illegal target by the time <Fleeting Distraction> resolves, the spell doesn't resolve. You won't draw a card.
+2012/05/01: If the targeted creature is an illegal target when <Fleeting Distraction> tries to resolve, it won't resolve and none of its effects will happen. You won't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1184,11 +1188,11 @@ Draw a card.</CardText>
 <Name>Lightning Helix</Name>
 <Type>Instant</Type>
 <ManaCost>WR (2)</ManaCost>
-<CardText>Lightning Helix deals 3 damage to target creature or player and you gain 3 life.</CardText>
+<CardText>Lightning Helix deals 3 damage to any target and you gain 3 life.</CardText>
 <Flavor>Though less well-known than its army of soldiers, the Boros Legion's mage-priests are as respected by the innocent as they are hated by the ghosts of the guilty.</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>386343</Multiverseid>
-<Rulings>2017/11/17: If the chosen target is illegal when <Lightning Helix> tries to resolve, it will be countered and none of its effects will happen. You won't gain 3 life.</Rulings>
+<Rulings>2017/11/17: If the chosen target is illegal when <Lightning Helix> tries to resolve, it won't resolve and none of its effects will happen. You won't gain 3 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1219,7 +1223,7 @@ Draw a card.</CardText>
 <Name>Inferno Trap</Name>
 <Type>Instant — Trap</Type>
 <ManaCost>3R (4)</ManaCost>
-<CardText>If you've been dealt damage by two or more creatures this turn, you may pay {R} rather than pay Inferno Trap's mana cost.
+<CardText>If you've been dealt damage by two or more creatures this turn, you may pay {R} rather than pay this spell's mana cost.
 Inferno Trap deals 4 damage to target creature.</CardText>
 <Flavor>"Do you smell something burning?"</Flavor>
 <Artist>Philip Straub</Artist>
@@ -1264,7 +1268,7 @@ Inferno Trap deals 4 damage to target creature.</CardText>
 <Type>Instant</Type>
 <ManaCost>3UU (5)</ManaCost>
 <CardText>Counter target spell.
-Basic landcycling {1}{U} ({1}{U}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)</CardText>
+Basic landcycling {1}{U} ({1}{U}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.)</CardText>
 <Artist>Cyril Van Der Haegen</Artist>
 <Multiverseid>386377</Multiverseid>
 <Rulings>2009/02/01: Unlike the normal cycling ability, basic landcycling doesn't allow you to draw a card. Instead, it lets you search your library for a basic land card. You don't choose the type of basic land card you'll find until you're performing the search. After you choose a basic land card in your library, you reveal it, put it into your hand, then shuffle your library.
@@ -1284,7 +1288,7 @@ Basic landcycling {1}{U} ({1}{U}, Discard this card: Search your library for a b
 <Name>Whiplash Trap</Name>
 <Type>Instant — Trap</Type>
 <ManaCost>3UU (5)</ManaCost>
-<CardText>If an opponent had two or more creatures enter the battlefield under his or her control this turn, you may pay {U} rather than pay Whiplash Trap's mana cost.
+<CardText>If an opponent had two or more creatures enter the battlefield under their control this turn, you may pay {U} rather than pay this spell's mana cost.
 Return two target creatures to their owners' hands.</CardText>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Multiverseid>386378</Multiverseid>
@@ -1306,7 +1310,7 @@ Return two target creatures to their owners' hands.</CardText>
 <Name>Arrow Volley Trap</Name>
 <Type>Instant — Trap</Type>
 <ManaCost>3WW (5)</ManaCost>
-<CardText>If four or more creatures are attacking, you may pay {1}{W} rather than pay Arrow Volley Trap's mana cost.
+<CardText>If four or more creatures are attacking, you may pay {1}{W} rather than pay this spell's mana cost.
 Arrow Volley Trap deals 5 damage divided as you choose among any number of target attacking creatures.</CardText>
 <Artist>Steve Argyle</Artist>
 <Multiverseid>386303</Multiverseid>
@@ -1346,7 +1350,7 @@ Draw a card.</CardText>
 <Name>Mystic Monastery</Name>
 <Type>Land</Type>
 <CardText>Mystic Monastery enters the battlefield tapped.
-{T}: Add {U}, {R}, or {W} to your mana pool.</CardText>
+{T}: Add {U}, {R}, or {W}.</CardText>
 <Flavor>When asked how many paths reach enlightenment, the monk kicked a heap of sand. "Count," he smiled, "and then find more grains."</Flavor>
 <Artist>Florian de Gesincourt</Artist>
 <Multiverseid>386352</Multiverseid>
@@ -1378,7 +1382,7 @@ Draw a card.</CardText>
 <No>75</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>386333</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1393,7 +1397,7 @@ Draw a card.</CardText>
 <No>76</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>386335</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1408,7 +1412,7 @@ Draw a card.</CardText>
 <No>77</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Andreas Rocha</Artist>
 <Multiverseid>386334</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1423,7 +1427,7 @@ Draw a card.</CardText>
 <No>78</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Raoul Vitale</Artist>
 <Multiverseid>386350</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1438,7 +1442,7 @@ Draw a card.</CardText>
 <No>79</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>386357</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1453,7 +1457,7 @@ Draw a card.</CardText>
 <No>80</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>386359</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1468,7 +1472,7 @@ Draw a card.</CardText>
 <No>81</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Andreas Rocha</Artist>
 <Multiverseid>386358</Multiverseid>
 <Vintage>Legal</Vintage>

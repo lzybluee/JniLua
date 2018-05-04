@@ -200,7 +200,7 @@ Enchanted creature gets +1/+3.</CardText>
 <Flavor>With an armory of light, even the squire may champion her people.</Flavor>
 <Artist>Allen Williams</Artist>
 <Multiverseid>259709</Multiverseid>
-<Rulings>2014/07/18: If the creature targeted by <Divine Favor> is an illegal target when <Divine Favor> tries to resolve, <Divine Favor> will be countered. It won't enter the battlefield and its enters-the-battlefield ability won't trigger.</Rulings>
+<Rulings>2014/07/18: If the creature targeted by <Divine Favor> is an illegal target when <Divine Favor> tries to resolve, <Divine Favor> won't resolve. It won't enter the battlefield and its enters-the-battlefield ability won't trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -377,7 +377,7 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 <Flavor>A fool knows no fear. A hero shows no fear.</Flavor>
 <Artist>Greg Hildebrandt</Artist>
 <Multiverseid>280320</Multiverseid>
-<Rulings>2004/10/04: The power of the creature is checked on activation and on resolution. If the targeted creature's power is not 4 or greater on resolution, the ability is countered.</Rulings>
+<Rulings>2004/10/04: The power of the creature is checked on activation and on resolution. If the targeted creature's power is not 4 or greater on resolution, the ability doesn't resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -503,7 +503,7 @@ Enchanted creature can't attack or block.</CardText>
 <Type>Creature — Elephant 3/3</Type>
 <ManaCost>3W (4)</ManaCost>
 <CardText>Prized Elephant gets +1/+1 as long as you control a Forest.
-{G}: Prized Elephant gains trample until end of turn. (This creature can deal excess combat damage to defending player or planeswalker while attacking.)</CardText>
+{G}: Prized Elephant gains trample until end of turn. (This creature can deal excess combat damage to the player or planeswalker it's attacking.)</CardText>
 <Artist>Ioan Dumitrescu</Artist>
 <Multiverseid>253719</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -563,7 +563,7 @@ If you would gain life, you gain twice that much life instead.</CardText>
 <Multiverseid>276224</Multiverseid>
 <Rulings>2009/10/01: <Safe Passage> prevents all damage, not just combat damage, that would be dealt to you and creatures you control this turn.
 2009/10/01: <Safe Passage> will prevent damage dealt to creatures that weren't on the battlefield at the time it resolved.
-2009/10/01: <Safe Passage> doesn't prevent damage that would be dealt to planeswalkers you control. Although it can't prevent combat damage that would be dealt to your planeswalkers, it can still prevent noncombat damage that your opponent would want to redirect from you to one of your planeswalkers. Just apply <Safe Passage>'s prevention effect to that damage first, and there won't be any damage to redirect.
+2009/10/01: <Safe Passage> doesn't prevent damage that would be dealt to planeswalkers you control.
 2009/10/01: <Safe Passage> has no effect on damage that's already been dealt.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -578,8 +578,7 @@ If you would gain life, you gain twice that much life instead.</CardText>
 <Name>Serra Angel</Name>
 <Type>Creature — Angel 4/4</Type>
 <ManaCost>3WW (5)</ManaCost>
-<CardText>Flying (This creature can't be blocked except by creatures with flying or reach.)
-Vigilance (Attacking doesn't cause this creature to tap.)</CardText>
+<CardText>Flying, vigilance</CardText>
 <Flavor>Follow the light. In its absence, follow her.</Flavor>
 <Artist>Greg Staples</Artist>
 <Multiverseid>270376</Multiverseid>
@@ -618,7 +617,7 @@ When Serra Avatar is put into a graveyard from anywhere, shuffle it into its own
 <Name>Serra Avenger</Name>
 <Type>Creature — Angel 3/3</Type>
 <ManaCost>WW (2)</ManaCost>
-<CardText>You can't cast Serra Avenger during your first, second, or third turns of the game.
+<CardText>You can't cast this spell during your first, second, or third turns of the game.
 Flying
 Vigilance (Attacking doesn't cause this creature to tap.)</CardText>
 <Artist>Scott M. Fischer</Artist>
@@ -1059,14 +1058,14 @@ Harbor Serpent can't attack unless there are five or more Islands on the battlef
 <Name>Jace, Memory Adept</Name>
 <Type>Legendary Planeswalker — Jace (Loyalty: 4)</Type>
 <ManaCost>3UU (5)</ManaCost>
-<CardText>+1: Draw a card. Target player puts the top card of his or her library into his or her graveyard.
-0: Target player puts the top ten cards of his or her library into his or her graveyard.
+<CardText>+1: Draw a card. Target player puts the top card of their library into their graveyard.
+0: Target player puts the top ten cards of their library into their graveyard.
 -7: Any number of target players each draw twenty cards.</CardText>
 <Artist>D. Alexander Gregory</Artist>
 <Multiverseid>254107</Multiverseid>
 <Rulings>2011/09/22: If you target yourself with Jace's first ability, you'll draw a card first, then put the top card of your library into your graveyard.
-2011/09/22: If you activate Jace's first ability, and the player is an illegal target when the ability tries to resolve, it will be countered and none of its effects will happen. You won't draw a card.
-2011/09/22: If Jace's third ability causes a player to draw more cards than are left in his or her library, that player loses the game as a state-based action. If this ability causes all players to do this, the game is a draw.</Rulings>
+2011/09/22: If you activate Jace's first ability, and the player is an illegal target when the ability tries to resolve, it won't resolve and none of its effects will happen. You won't draw a card.
+2011/09/22: If Jace's third ability causes a player to draw more cards than are left in their library, that player loses the game as a state-based action. If this ability causes all players to do this, the game is a draw.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1081,13 +1080,13 @@ Harbor Serpent can't attack unless there are five or more Islands on the battlef
 <Type>Creature — Illusion 1/1</Type>
 <ManaCost>U (1)</ManaCost>
 <CardText>Flying
-Jace's Phantasm gets +4/+4 as long as an opponent has ten or more cards in his or her graveyard.</CardText>
+Jace's Phantasm gets +4/+4 as long as an opponent has ten or more cards in their graveyard.</CardText>
 <Flavor>In the abstract memories of the Iquati, Jace found interesting ideas to improve upon.</Flavor>
 <Artist>Johann Bodin</Artist>
 <Multiverseid>249672</Multiverseid>
 <Rulings>2017/11/17: The last ability of <Jace's Phantasm> constantly monitors each opponent's graveyard to see if the bonus applies. If the stated condition becomes no longer true, the bonus immediately stops applying.
-2017/11/17: If <Jace's Phantasm> is dealt lethal damage at the same time as an opponent's creature, and that creature will become that opponent's tenth card in his or her graveyard, <Jace's Phantasm> will be destroyed before it gets +4/+4. This is because all creatures that have been dealt lethal damage are destroyed at the same time.
-2017/11/17: In a multiplayer game, a single opponent must have ten or more cards in his or her graveyard for the bonus to apply, although this opponent may change over the course of the game. You don't have to pick a single opponent; the ability will monitor each opponent's graveyard.</Rulings>
+2017/11/17: If <Jace's Phantasm> is dealt lethal damage at the same time as an opponent's creature, and that creature will become that opponent's tenth card in their graveyard, <Jace's Phantasm> will be destroyed before it gets +4/+4. This is because all creatures that have been dealt lethal damage are destroyed at the same time.
+2017/11/17: In a multiplayer game, a single opponent must have ten or more cards in their graveyard for the bonus to apply, although this opponent may change over the course of the game. You don't have to pick a single opponent; the ability will monitor each opponent's graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1151,12 +1150,12 @@ Jace's Phantasm gets +4/+4 as long as an opponent has ten or more cards in his o
 <Name>Mind Sculpt</Name>
 <Type>Sorcery</Type>
 <ManaCost>1U (2)</ManaCost>
-<CardText>Target opponent puts the top seven cards of his or her library into his or her graveyard.</CardText>
+<CardText>Target opponent puts the top seven cards of their library into their graveyard.</CardText>
 <Flavor>"Your mind was a curious mix of madness and genius. I just took away the genius."
 —Jace Beleren</Flavor>
 <Artist>Michael C. Hayes</Artist>
 <Multiverseid>266487</Multiverseid>
-<Rulings>2012/07/01: You can cast <Mind Sculpt> no matter how many cards are in the opponent's library. If there are fewer than seven, the opponent will put all of them into his or her graveyard.</Rulings>
+<Rulings>2012/07/01: You can cast <Mind Sculpt> no matter how many cards are in the opponent's library. If there are fewer than seven, the opponent will put all of them into their graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1216,7 +1215,7 @@ Jace's Phantasm gets +4/+4 as long as an opponent has ten or more cards in his o
 <Multiverseid>290288</Multiverseid>
 <Rulings>2010/08/15: You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
 2010/08/15: If the targeted spell is modal (that is, it says "Choose one —" or the like), you can't choose a different mode.
-2010/08/15: If you cast <Redirect> targeting a spell that targets a spell on the stack (like Cancel does, for example), you can't change that spell's target to itself. You can, however, change that spell's target to <Redirect>. If you do, that spell will be countered when it tries to resolve because <Redirect> will have left the stack by then.
+2010/08/15: If you cast <Redirect> targeting a spell that targets a spell on the stack (like Cancel does, for example), you can't change that spell's target to itself. You can, however, change that spell's target to <Redirect>. If you do, that spell won't resolve when it tries to resolve because <Redirect> will have left the stack by then.
 2010/08/15: <Redirect> can target any spell, not just an instant or sorcery spell. For example, you could use it to change the target of an Aura spell. However, if the targeted spell has no targets (for example, if it's an instant or sorcery spell that doesn't specifically use the word "target," or if it's a creature spell), <Redirect> won't have any effect on it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1237,7 +1236,7 @@ Jace's Phantasm gets +4/+4 as long as an opponent has ten or more cards in his o
 <Multiverseid>280222</Multiverseid>
 <Rulings>2017/03/14: <Rewind> targets only a spell. It doesn't target any lands. The lands are chosen as <Rewind> resolves.
 2017/03/14: You can choose up to four lands, no matter who controls any of them. Those lands untap once. You can't choose one land and have it untap four times, for example.
-2017/03/14: If the spell is an illegal target when <Rewind> tries to resolve, perhaps because it was countered by another spell or ability, <Rewind> will be countered and none of its effects will happen. You won't untap any lands.
+2017/03/14: If the spell is an illegal target when <Rewind> tries to resolve, perhaps because it was countered by another spell or ability, <Rewind> won't resolve and none of its effects will happen. You won't untap any lands.
 2017/03/14: If <Rewind> resolves but the target spell can't be countered, you'll still untap lands.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1339,7 +1338,7 @@ All lands are Islands in addition to their other types.
 Creatures without flying or islandwalk can't attack.</CardText>
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>278198</Multiverseid>
-<Rulings>2014/07/18: <Stormtide Leviathan>'s second ability causes each land on the battlefield to have the land type Island. Each land thus has the ability "{T}: Add {U} to your mana pool." Nothing else changes about those lands, including their names, other subtypes, other abilities, and whether they're legendary or basic.
+<Rulings>2014/07/18: <Stormtide Leviathan>'s second ability causes each land on the battlefield to have the land type Island. Each land thus has the ability "{T}: Add {U}." Nothing else changes about those lands, including their names, other subtypes, other abilities, and whether they're legendary or basic.
 2014/07/18: If <Stormtide Leviathan> loses its abilities, all lands on the battlefield (including those that enter the battlefield later on) will still be Islands in addition to their other types and will still be able to tap to produce {U}. The way continuous effects work, <Stormtide Leviathan>'s type-changing ability is applied before the effect that removes that ability is applied.
 2014/07/18: <Stormtide Leviathan>'s third ability affects all creatures with neither flying nor islandwalk, regardless of who controls them. They can't attack any player or planeswalker.
 2014/07/18: Islandwalk cares about lands with the land type Island, not necessarily lands named Island.</Rulings>
@@ -1360,7 +1359,7 @@ Creatures without flying or islandwalk can't attack.</CardText>
 <Flavor>Say hello to your new friend.</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>253704</Multiverseid>
-<Rulings>2012/07/01: If one of the target creatures is an illegal target when <Switcheroo> resolves, the exchange won't happen. If both creatures are illegal targets, <Switcheroo> will be countered.
+<Rulings>2012/07/01: If one of the target creatures is an illegal target when <Switcheroo> resolves, the exchange won't happen. If both creatures are illegal targets, <Switcheroo> won't resolve.
 2012/07/01: You don't have to control either target.
 2012/07/01: If the same player controls both creatures when <Switcheroo> resolves, nothing happens.</Rulings>
 <Vintage>Legal</Vintage>
@@ -1447,7 +1446,7 @@ Enchanted creature gets +2/+0 and can't be blocked.</CardText>
 <Name>Vedalken Entrancer</Name>
 <Type>Creature — Vedalken Wizard 1/4</Type>
 <ManaCost>3U (4)</ManaCost>
-<CardText>{U}, {T}: Target player puts the top two cards of his or her library into his or her graveyard.</CardText>
+<CardText>{U}, {T}: Target player puts the top two cards of their library into their graveyard.</CardText>
 <Flavor>"Don't get any ideas."</Flavor>
 <Artist>Dan Scott</Artist>
 <Multiverseid>254121</Multiverseid>
@@ -1469,7 +1468,7 @@ Enchanted creature gets +2/+0 and can't be blocked.</CardText>
 <Artist>Marco Nelor</Artist>
 <Multiverseid>270997</Multiverseid>
 <Rulings>2012/07/01: You can activate <Void Stalker>'s ability targeting a creature you control, including <Void Stalker> itself. In that case, only you will shuffle your library.
-2012/07/01: If the target creature is an illegal target when the ability tries to resolve, it will be countered and none of its effects will happen. No creature will leave the battlefield and no library will be shuffled.
+2012/07/01: If the target creature is an illegal target when the ability tries to resolve, it won't resolve and none of its effects will happen. No creature will leave the battlefield and no library will be shuffled.
 2012/07/01: If <Void Stalker> leaves the battlefield before its ability resolves, the target creature will be shuffled into its owner's library but <Void Stalker> will remain wherever it is.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1639,7 +1638,7 @@ Enchanted creature gets +3/+1.</CardText>
 <Flavor>When he began to curse what he held holy, his strength grew unrivaled.</Flavor>
 <Artist>Allen Williams</Artist>
 <Multiverseid>260975</Multiverseid>
-<Rulings>2011/09/22: If the creature targeted by <Dark Favor> is an illegal target when <Dark Favor> tries to resolve, <Dark Favor> will be countered. It won't enter the battlefield and its enters-the-battlefield ability won't trigger.</Rulings>
+<Rulings>2011/09/22: If the creature targeted by <Dark Favor> is an illegal target when <Dark Favor> tries to resolve, <Dark Favor> won't resolve. It won't enter the battlefield and its enters-the-battlefield ability won't trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1711,7 +1710,7 @@ Enchanted creature gets +3/+1.</CardText>
 <Name>Duress</Name>
 <Type>Sorcery</Type>
 <ManaCost>B (1)</ManaCost>
-<CardText>Target opponent reveals his or her hand. You choose a noncreature, nonland card from it. That player discards that card.</CardText>
+<CardText>Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card.</CardText>
 <Flavor>"Don't worry. I'm not going to deprive you of all your secrets. Just your most precious one."
 —Liliana Vess</Flavor>
 <Artist>Steven Belledin</Artist>
@@ -1763,12 +1762,12 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 <Name>Essence Drain</Name>
 <Type>Sorcery</Type>
 <ManaCost>4B (5)</ManaCost>
-<CardText>Essence Drain deals 3 damage to target creature or player and you gain 3 life.</CardText>
+<CardText>Essence Drain deals 3 damage to any target and you gain 3 life.</CardText>
 <Flavor>"Life's essence is a nectar unlike any I tasted when I lived as a mortal."
 —Zul Ashur, lich lord</Flavor>
 <Artist>Jim Nelson</Artist>
 <Multiverseid>276300</Multiverseid>
-<Rulings>2012/07/01: If the target creature or player is an illegal target when <Essence Drain> tries to resolve, it will be countered and none of its effects will happen. You won't gain 3 life.</Rulings>
+<Rulings>2012/07/01: If the target permanent or player is an illegal target when <Essence Drain> tries to resolve, it won't resolve and none of its effects will happen. You won't gain 3 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1838,7 +1837,7 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 <ManaCost>2BB (4)</ManaCost>
 <CardText>+1: Search your library for a Swamp card, reveal it, and put it into your hand. Then shuffle your library.
 -3: Target creature gets +X/+X or -X/-X until end of turn, where X is the number of Swamps you control.
--6: You get an emblem with "Swamps you control have '{T}: Add {B}{B}{B}{B} to your mana pool.'"</CardText>
+-6: You get an emblem with "Swamps you control have '{T}: Add {B}{B}{B}{B}.'"</CardText>
 <Artist>D. Alexander Gregory</Artist>
 <Multiverseid>259695</Multiverseid>
 <Rulings>2012/07/01: You can activate Liliana's first ability even if your library contains no Swamp cards (or you don't want to find one). You'll still search your library and shuffle it.
@@ -1953,8 +1952,7 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 Whenever Nefarox, Overlord of Grixis attacks alone, defending player sacrifices a creature.</CardText>
 <Artist>Aleksi Briclot</Artist>
 <Multiverseid>259679</Multiverseid>
-<Rulings>2012/07/01: Nefarox's last ability will trigger and resolve before blockers are declared.
-2012/07/01: In a Two-Headed Giant game, you'll choose one player on the defending team to sacrifice a creature.</Rulings>
+<Rulings>2012/07/01: Nefarox's last ability will trigger and resolve before blockers are declared.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1999,7 +1997,7 @@ When you control no permanents with phylactery counters on them, sacrifice Phyla
 <Artist>Anthony Palumbo</Artist>
 <Multiverseid>253738</Multiverseid>
 <Rulings>2012/07/01: Only creatures controlled by the player when <Public Execution> resolves will get -2/-0. Creatures that enter the battlefield under that player's control or that the player gains control of later in the turn are unaffected.
-2012/07/01: <Public Execution> targets only the creature it destroys. If that creature is an illegal target when <Public Execution> tries to resolve, it will be countered and none of its effects will happen. No creature will get -2/-0.
+2012/07/01: <Public Execution> targets only the creature it destroys. If that creature is an illegal target when <Public Execution> tries to resolve, it won't resolve and none of its effects will happen. No creature will get -2/-0.
 2013/07/01: If the target creature regenerates or has indestructible, each other creature controlled by that creature's controller will still get -2/-0.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2071,11 +2069,11 @@ When you control no permanents with phylactery counters on them, sacrifice Phyla
 <Type>Creature — Specter 2/2</Type>
 <ManaCost>2BB (4)</ManaCost>
 <CardText>Flying
-Whenever Shimian Specter deals combat damage to a player, that player reveals his or her hand. You choose a nonland card from it. Search that player's graveyard, hand, and library for all cards with the same name as that card and exile them. Then that player shuffles his or her library.</CardText>
+Whenever Shimian Specter deals combat damage to a player, that player reveals their hand. You choose a nonland card from it. Search that player's graveyard, hand, and library for all cards with the same name as that card and exile them. Then that player shuffles their library.</CardText>
 <Artist>Anthony S. Waters</Artist>
 <Multiverseid>278072</Multiverseid>
 <Rulings>2012/07/01: The cards you're searching for must be found and exiled if they're in the graveyard because it's a public zone. Finding those cards in the hand and library is optional, because those zones are hidden (even if the hand is temporarily revealed).
-2012/07/01: If the player has no nonland cards in his or her hand, you can still search that player's library and have him or her shuffle it.</Rulings>
+2012/07/01: If the player has no nonland cards in their hand, you can still search that player's library and have them shuffle it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2186,7 +2184,7 @@ Whenever a Swamp enters the battlefield under your control, you may return Veilb
 —Jadar, ghoulcaller of Nephalia</Flavor>
 <Artist>Erica Yang</Artist>
 <Multiverseid>253703</Multiverseid>
-<Rulings>2012/07/01: If the creature card is an illegal target when <Vile Rebirth> tries to resolve, it will be countered and none of its effects will happen. You won't put a Zombie token onto the battlefield.</Rulings>
+<Rulings>2012/07/01: If the creature card is an illegal target when <Vile Rebirth> tries to resolve, it won't resolve and none of its effects will happen. You won't put a Zombie token onto the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2217,7 +2215,7 @@ Whenever a Swamp enters the battlefield under your control, you may return Veilb
 <Name>Wit's End</Name>
 <Type>Sorcery</Type>
 <ManaCost>5BB (7)</ManaCost>
-<CardText>Target player discards his or her hand.</CardText>
+<CardText>Target player discards their hand.</CardText>
 <Flavor>"Your pathetic ideas lie in shambles, Planeswalker. Where is your arrogant pride now?"
 —Nicol Bolas</Flavor>
 <Artist>Chris Rahn</Artist>
@@ -2329,9 +2327,9 @@ Whenever a Swamp enters the battlefield under your control, you may return Veilb
 <Name>Chandra, the Firebrand</Name>
 <Type>Legendary Planeswalker — Chandra (Loyalty: 3)</Type>
 <ManaCost>3R (4)</ManaCost>
-<CardText>+1: Chandra, the Firebrand deals 1 damage to target creature or player.
+<CardText>+1: Chandra, the Firebrand deals 1 damage to any target.
 -2: When you cast your next instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.
--6: Chandra, the Firebrand deals 6 damage to each of up to six target creatures and/or players.</CardText>
+-6: Chandra, the Firebrand deals 6 damage to each of up to six targets.</CardText>
 <Artist>D. Alexander Gregory</Artist>
 <Multiverseid>259205</Multiverseid>
 <Rulings>2011/09/22: Chandra's second ability creates a delayed triggered ability that will copy the next instant or sorcery spell you cast that turn, regardless of whether that spell has targets.
@@ -2354,7 +2352,7 @@ Whenever a Swamp enters the battlefield under your control, you may return Veilb
 <Name>Chandra's Fury</Name>
 <Type>Instant</Type>
 <ManaCost>4R (5)</ManaCost>
-<CardText>Chandra's Fury deals 4 damage to target player and 1 damage to each creature that player controls.</CardText>
+<CardText>Chandra's Fury deals 4 damage to target player or planeswalker and 1 damage to each creature that player or that planeswalker's controller controls.</CardText>
 <Flavor>"I asked if they wanted to do things the easy way. I meant easy for me."</Flavor>
 <Artist>Volkan Baga</Artist>
 <Multiverseid>249682</Multiverseid>
@@ -2500,13 +2498,12 @@ Whenever a Swamp enters the battlefield under your control, you may return Veilb
 <Name>Flames of the Firebrand</Name>
 <Type>Sorcery</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>Flames of the Firebrand deals 3 damage divided as you choose among one, two, or three target creatures and/or players.</CardText>
+<CardText>Flames of the Firebrand deals 3 damage divided as you choose among one, two, or three targets.</CardText>
 <Flavor>"You're in luck. I brought enough to share."
 —Chandra Nalaar</Flavor>
 <Artist>Steve Argyle</Artist>
 <Multiverseid>259219</Multiverseid>
-<Rulings>2012/07/01: You divide the damage as you cast <Flames of the Firebrand>, not as it resolves. Each target must be assigned at least 1 damage. (In other words, as you put the spell on the stack, you choose whether to have it deal 3 damage to a single target, 2 damage to one target and 1 damage to another target, or 1 damage to each of three targets.)
-2012/07/01: You can't deal damage to both a player and a planeswalker controlled by that player with <Flames of the Firebrand>.</Rulings>
+<Rulings>2012/07/01: You divide the damage as you cast <Flames of the Firebrand>, not as it resolves. Each target must be assigned at least 1 damage. (In other words, as you put the spell on the stack, you choose whether to have it deal 3 damage to a single target, 2 damage to one target and 1 damage to another target, or 1 damage to each of three targets.)</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2538,7 +2535,7 @@ Whenever a Swamp enters the battlefield under your control, you may return Veilb
 <Name>Goblin Arsonist</Name>
 <Type>Creature — Goblin Shaman 1/1</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>When Goblin Arsonist dies, you may have it deal 1 damage to target creature or player.</CardText>
+<CardText>When Goblin Arsonist dies, you may have it deal 1 damage to any target.</CardText>
 <Flavor>With great power comes great risk of getting yourself killed.</Flavor>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>266050</Multiverseid>
@@ -2575,7 +2572,7 @@ Whenever a Swamp enters the battlefield under your control, you may return Veilb
 <CardText>Whenever another creature enters the battlefield, you may put X +1/+1 counters on Hamletback Goliath, where X is that creature's power.</CardText>
 <Flavor>"If you live on a giant's back, there's only one individual you'll ever need to fear."
 —Gaddock Teeg</Flavor>
-<Artist>Parente & Brian Snoddy</Artist>
+<Artist>Paolo Parente & Brian Snõddy</Artist>
 <Multiverseid>279708</Multiverseid>
 <Rulings>2012/07/01: The value of X is determined as the ability begins resolving. If the other creature is no longer on the battlefield, its last known existence on the battlefield is checked to determine its power.</Rulings>
 <Vintage>Legal</Vintage>
@@ -2684,11 +2681,11 @@ Whenever a Swamp enters the battlefield under your control, you may return Veilb
 <Name>Mindclaw Shaman</Name>
 <Type>Creature — Viashino Shaman 2/2</Type>
 <ManaCost>4R (5)</ManaCost>
-<CardText>When Mindclaw Shaman enters the battlefield, target opponent reveals his or her hand. You may cast an instant or sorcery card from it without paying its mana cost.</CardText>
+<CardText>When Mindclaw Shaman enters the battlefield, target opponent reveals their hand. You may cast an instant or sorcery card from it without paying its mana cost.</CardText>
 <Flavor>Nicol Bolas gives power to those who will abuse it most.</Flavor>
 <Artist>Slawomir Maniak</Artist>
 <Multiverseid>249715</Multiverseid>
-<Rulings>2012/07/01: Any player can respond to <Mindclaw Shaman>'s triggered ability. However, once that ability starts resolving and the target opponent reveals his or her hand, players can't respond until after the ability finishes resolving. For example, the opponent can't cast the instant or sorcery card you choose to cast in order to stop you from casting it.
+<Rulings>2012/07/01: Any player can respond to <Mindclaw Shaman>'s triggered ability. However, once that ability starts resolving and the target opponent reveals their hand, players can't respond until after the ability finishes resolving. For example, the opponent can't cast the instant or sorcery card you choose to cast in order to stop you from casting it.
 2012/07/01: You cast the card from the opponent's hand immediately. Ignore timing restrictions based on the card's type. Other timing restrictions, such as "Cast [this card] only during combat," must be followed.
 2012/07/01: The card goes to its owner's graveyard after it resolves (or otherwise leaves the stack), not yours.
 2012/07/01: If you can't cast any instant or sorcery card (perhaps because there are no legal targets available) or if you choose not to cast one, then <Mindclaw Shaman>'s ability finishes resolving and the game moves on.
@@ -2711,11 +2708,11 @@ Whenever a Swamp enters the battlefield under your control, you may return Veilb
 <Flavor>They'll attack whatever's in front of them—as long as you tell them where that is.</Flavor>
 <Artist>Brom</Artist>
 <Multiverseid>249706</Multiverseid>
-<Rulings>2017/03/14: <Mogg Flunkies> can be declared as an attacker only if another creature is declared as an attacker at the same time. Similarly, <Mogg Flunkies> can be declared as a blocker only if another creature is declared as a blocker at the same time.
-2017/03/14: Two or more <Mogg Flunkies> can attack or block together.
-2017/03/14: Although <Mogg Flunkies> can't attack alone, other attacking creature(s) don't have to attack the same player or planeswalker. For example, <Mogg Flunkies> could attack an opponent and another creature could attack a planeswalker that opponent controls.
-2017/03/14: If an effect says that <Mogg Flunkies> attacks or blocks if able and you control another creature able to attack or block, you must attack or block with <Mogg Flunkies> and that creature.
-2017/03/14: In a Two-Headed Giant game (or in another format using the shared team turns option), <Mogg Flunkies> can attack or block with a creature controlled by your teammate, even if no other creatures you control are attacking or blocking. In any other multiplayer variant, it ignores each other player's blocking creatures.</Rulings>
+<Rulings>2018/03/16: If you control more than one <Mogg Flunkies>, they can attack or block together, even if no other creatures attack or block.
+2018/03/16: Although <Mogg Flunkies> can't attack alone, other attacking creatures don't have to attack the same player or planeswalker. For example, <Mogg Flunkies> could attack an opponent and another creature could attack a planeswalker that opponent controls. Similarly, other blocking creatures don't have to block the same creature that <Mogg Flunkies> blocks.
+2018/03/16: Once <Mogg Flunkies> has attacked or blocked, it will remain in combat even if you no longer control another attacking or blocking creature.
+2018/03/16: If an effect says that <Mogg Flunkies> attacks or blocks if able and you control another creature able to attack or block, you must attack or block with <Mogg Flunkies> and that creature.
+2018/03/16: In a Two-Headed Giant game, <Mogg Flunkies> can attack or block with a creature controlled by your teammate, even if no other creatures you control are attacking or blocking.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2791,7 +2788,7 @@ Reckless Brute attacks each combat if able.</CardText>
 <Name>Searing Spear</Name>
 <Type>Instant</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>Searing Spear deals 3 damage to target creature or player.</CardText>
+<CardText>Searing Spear deals 3 damage to any target.</CardText>
 <Flavor>Sometimes you die a glorious death with your sword held high. Sometimes you're just target practice.</Flavor>
 <Artist>Chris Rahn</Artist>
 <Multiverseid>249684</Multiverseid>
@@ -2910,7 +2907,7 @@ When Thundermaw Hellkite enters the battlefield, it deals 1 damage to each creat
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Multiverseid>276212</Multiverseid>
 <Rulings>2011/01/01: You may target any creature, not just one with Equipment attached to it. The targeted creature will still be dealt damage even if no Equipment is attached to it.
-2011/01/01: If the targeted creature is an illegal target by the time <Turn to Slag> resolves, the spell is countered. No Equipment is destroyed.</Rulings>
+2011/01/01: If the targeted creature is an illegal target by the time <Turn to Slag> resolves, the spell doesn't resolve. No Equipment is destroyed.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2924,7 +2921,7 @@ When Thundermaw Hellkite enters the battlefield, it deals 1 damage to each creat
 <Name>Volcanic Geyser</Name>
 <Type>Instant</Type>
 <ManaCost>XRR (2)</ManaCost>
-<CardText>Volcanic Geyser deals X damage to target creature or player.</CardText>
+<CardText>Volcanic Geyser deals X damage to any target.</CardText>
 <Flavor>"The mountain's fire surges beneath your feet, demanding release. Can you not feel it?"</Flavor>
 <Artist>Clint Cearley</Artist>
 <Multiverseid>276214</Multiverseid>
@@ -2977,7 +2974,7 @@ Enchanted creature gets +2/+2 and has mountainwalk. (It can't be blocked as long
 <Name>Wild Guess</Name>
 <Type>Sorcery</Type>
 <ManaCost>RR (2)</ManaCost>
-<CardText>As an additional cost to cast Wild Guess, discard a card.
+<CardText>As an additional cost to cast this spell, discard a card.
 Draw two cards.</CardText>
 <Flavor>No guts, no glory.</Flavor>
 <Artist>Lucas Graciano</Artist>
@@ -3142,7 +3139,7 @@ Deathtouch (Any amount of damage this deals to a creature is enough to destroy i
 <Name>Duskdale Wurm</Name>
 <Type>Creature — Wurm 7/7</Type>
 <ManaCost>5GG (7)</ManaCost>
-<CardText>Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)</CardText>
+<CardText>Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)</CardText>
 <Artist>Dan Dos Santos</Artist>
 <Multiverseid>276474</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -3182,7 +3179,7 @@ As long as you have 7 or more life, damage that would reduce your life total to 
 <Type>Creature — Elf Druid 2/2</Type>
 <ManaCost>1GG (3)</ManaCost>
 <CardText>Other Elf creatures you control get +1/+1.
-{T}: Add {G} to your mana pool for each Elf you control.</CardText>
+{T}: Add {G} for each Elf you control.</CardText>
 <Flavor>He knows the name of every elf born in the last four centuries. More importantly, they all know his.</Flavor>
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>253678</Multiverseid>
@@ -3417,7 +3414,7 @@ Cards in graveyards can't be the targets of spells or abilities.</CardText>
 2012/07/01: Each creature your opponents control blocks if able, even if that creature wasn't on the battlefield or wasn't controlled by an opponent when <Predatory Rampage> resolved.
 2012/07/01: <Predatory Rampage> doesn't force any creature to attack.
 2012/07/01: Each creature controlled by an opponent blocks only if it's able to do so as the declare blockers step begins. If, at that time, the creature is tapped, is affected by a spell or ability that says it can't block, or no creatures are attacking that player or a planeswalker controlled by that player, then it doesn't block. If there's a cost associated with having the creature block, the player isn't forced to pay that cost, so it doesn't block in that case either.
-2012/07/01: Your opponent still chooses which attacking creature each creature he or she controls blocks.</Rulings>
+2012/07/01: Your opponent still chooses which attacking creature each creature they control blocks.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3512,7 +3509,7 @@ Enchanted creature gets +2/+0 and has trample.
 When Rancor is put into a graveyard from the battlefield, return Rancor to its owner's hand.</CardText>
 <Artist>Kev Walker</Artist>
 <Multiverseid>253686</Multiverseid>
-<Rulings>2016/06/08: If the target of <Rancor> when it's cast as a spell is an illegal target when <Rancor> tries to resolve, <Rancor> will be countered and put into its owner's graveyard. It won't return to its owner's hand.</Rulings>
+<Rulings>2018/03/16: If the creature this Aura would enchant is an illegal target by the time <Rancor> tries to resolve, the Aura spell doesn't resolve. It won't enter the battlefield, so it won't be put into a graveyard from the battlefield and its ability won't trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3634,7 +3631,7 @@ Reach (This creature can block creatures with flying.)</CardText>
 <Name>Spiked Baloth</Name>
 <Type>Creature — Beast 4/2</Type>
 <ManaCost>3G (4)</ManaCost>
-<CardText>Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)</CardText>
+<CardText>Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)</CardText>
 <Flavor>If a baloth isn't hungry, it's dead.</Flavor>
 <Artist>Daarken</Artist>
 <Multiverseid>249702</Multiverseid>
@@ -3676,6 +3673,7 @@ When Thragtusk leaves the battlefield, create a 3/3 green Beast creature token.<
 —Garruk Wildspeaker</Flavor>
 <Artist>John Avon</Artist>
 <Multiverseid>249694</Multiverseid>
+<Rulings>2018/03/16: Because damage remains marked on a creature until it's removed as the turn ends, nonlethal damage dealt to <Timberpack Wolf> may become lethal if other Timberpack Wolves leave the battlefield during that turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3763,12 +3761,12 @@ You may cast green creature spells as though they had flash.</CardText>
 <ManaCost>4UBBR (8)</ManaCost>
 <CardText>+3: Destroy target noncreature permanent.
 -2: Gain control of target creature.
--9: Nicol Bolas, Planeswalker deals 7 damage to target player. That player discards seven cards, then sacrifices seven permanents.</CardText>
+-9: Nicol Bolas, Planeswalker deals 7 damage to target player or planeswalker. That player or that planeswalker's controller discards seven cards, then sacrifices seven permanents.</CardText>
 <Artist>D. Alexander Gregory</Artist>
 <Multiverseid>260991</Multiverseid>
 <Rulings>2009/02/01: The control-change effect has no duration. It will last until the game ends or the affected creature leaves the battlefield. It may be superseded by a later control-change effect.
 2012/07/01: If the damage from Nicol Bolas's third ability is prevented or redirected, the rest of the effect will still happen. Specifically, the number of cards discarded and permanents sacrificed isn't tied to the amount of damage dealt.
-2012/07/01: For the third ability, if the player is an illegal target when the ability tries to resolve, the ability is countered and none of its effects will happen. No damage will be dealt, no cards will be discarded, and no permanents will be sacrificed.</Rulings>
+2012/07/01: For the third ability, if the player is an illegal target when the ability tries to resolve, the ability doesn't resolve and none of its effects will happen. No damage will be dealt, no cards will be discarded, and no permanents will be sacrificed.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3860,7 +3858,7 @@ You may cast green creature spells as though they had flash.</CardText>
 <Rulings>2010/08/15: Paying the activation cost of <Elixir of Immortality>'s ability doesn't cause it to leave the battlefield. If you have a way to untap it, you can activate the ability multiple times in response to itself.
 2011/09/22: As the ability resolves, you'll shuffle <Elixir of Immortality> into its owner's library directly from the battlefield, if it's still there.
 2011/09/22: If <Elixir of Immortality> is in your graveyard at the time the ability resolves, you'll still wind up shuffling it into your library because you shuffle your entire graveyard into your library. If it's anywhere else by that time, including in another player's graveyard, it remains where it is and you shuffle just your graveyard into your library.
-2011/09/22: If you gain control of another player's <Elixir of Immortality> and activate it, the <Elixir of Immortality> will be shuffled into its owner's library and the cards in your graveyard will be shuffled into your library. You are considered to have shuffled each affected library (even if, as a shortcut, each player physically shuffles his or her own library).</Rulings>
+2011/09/22: If you gain control of another player's <Elixir of Immortality> and activate it, the <Elixir of Immortality> will be shuffled into its owner's library and the cards in your graveyard will be shuffled into your library. You are considered to have shuffled each affected library (even if, as a shortcut, each player physically shuffles their own library).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3891,7 +3889,7 @@ You may cast green creature spells as though they had flash.</CardText>
 <Name>Gilded Lotus</Name>
 <Type>Artifact</Type>
 <ManaCost>5 (5)</ManaCost>
-<CardText>{T}: Add three mana of any one color to your mana pool.</CardText>
+<CardText>{T}: Add three mana of any one color.</CardText>
 <Flavor>Over such beauty, wars are fought. With such power, wars are won.</Flavor>
 <Artist>Martina Pilcerova</Artist>
 <Multiverseid>249742</Multiverseid>
@@ -3962,9 +3960,9 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <CardText>As Primal Clay enters the battlefield, it becomes your choice of a 3/3 artifact creature, a 2/2 artifact creature with flying, or a 1/6 Wall artifact creature with defender in addition to its other types. (A creature with defender can't attack.)</CardText>
 <Artist>Lucas Graciano</Artist>
 <Multiverseid>268530</Multiverseid>
-<Rulings>2012/07/01: In zones other than the battlefield, <Primal Clay> is 0/0.
-2012/07/01: If another permanent enters the battlefield as a copy of <Primal Clay>, the controller of that permanent will get to make a new choice. The copy won't necessarily have the same power, toughness, and abilities as the original.
-2012/07/01: If a creature that's already on the battlefield becomes a copy of <Primal Clay>, it copies the power, toughness, and abilities that were chosen for <Primal Clay> when it entered the battlefield.</Rulings>
+<Rulings>2018/03/16: In zones other than the battlefield, this creature card is 0/0.
+2018/03/16: If another permanent enters the battlefield as a copy of this creature, the controller of that permanent will get to make a new choice. The copy won't necessarily have the same power, toughness, and abilities as the original.
+2018/03/16: If a creature that's already on the battlefield becomes a copy of this creature, it copies the power, toughness, and abilities that were chosen for this creature as it entered the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3996,7 +3994,7 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <Name>Ring of Kalonia</Name>
 <Type>Artifact — Equipment</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>Equipped creature has trample. (It can deal excess combat damage to defending player or planeswalker while attacking.)
+<CardText>Equipped creature has trample. (It can deal excess combat damage to the player or planeswalker it's attacking.)
 At the beginning of your upkeep, put a +1/+1 counter on equipped creature if it's green.
 Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)</CardText>
 <Artist>Erica Yang</Artist>
@@ -4068,11 +4066,11 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <Name>Sands of Delirium</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{X}, {T}: Target player puts the top X cards of his or her library into his or her graveyard.</CardText>
+<CardText>{X}, {T}: Target player puts the top X cards of their library into their graveyard.</CardText>
 <Flavor>It counts down your last few moments of sanity.</Flavor>
 <Artist>Charles Urbach</Artist>
 <Multiverseid>265133</Multiverseid>
-<Rulings>2012/07/01: If the player has fewer than X cards in his or her library, he or she puts all of them into his or her graveyard.</Rulings>
+<Rulings>2012/07/01: If the player has fewer than X cards in their library, they put all of them into their graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4087,7 +4085,7 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <Type>Artifact</Type>
 <ManaCost>6 (6)</ManaCost>
 <CardText>At the beginning of your upkeep, draw a card.
-{T}: Staff of Nin deals 1 damage to target creature or player.</CardText>
+{T}: Staff of Nin deals 1 damage to any target.</CardText>
 <Flavor>"I have attuned the staff to your screams so that only I may benefit from your pain."
 —Volux, disciple of Nin</Flavor>
 <Artist>Dan Scott</Artist>
@@ -4161,7 +4159,7 @@ Whenever Stuffy Doll is dealt damage, it deals that much damage to the chosen pl
 <Type>Land</Type>
 <CardText>Cathedral of War enters the battlefield tapped.
 Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)
-{T}: Add {C} to your mana pool.</CardText>
+{T}: Add {C}.</CardText>
 <Artist>Kekai Kotaki</Artist>
 <Multiverseid>259680</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4177,7 +4175,7 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 <Name>Dragonskull Summit</Name>
 <Type>Land</Type>
 <CardText>Dragonskull Summit enters the battlefield tapped unless you control a Swamp or a Mountain.
-{T}: Add {B} or {R} to your mana pool.</CardText>
+{T}: Add {B} or {R}.</CardText>
 <Artist>Jon Foster</Artist>
 <Multiverseid>249716</Multiverseid>
 <Rulings>2009/10/01: This checks for lands you control with the land type Swamp or Mountain, not for lands named Swamp or Mountain. The lands it checks for don't have to be basic lands. For example, if you control Stomping Ground (a nonbasic land with the land types Mountain and Forest), <Dragonskull Summit> will enter the battlefield untapped.
@@ -4195,7 +4193,7 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 <Name>Drowned Catacomb</Name>
 <Type>Land</Type>
 <CardText>Drowned Catacomb enters the battlefield tapped unless you control an Island or a Swamp.
-{T}: Add {U} or {B} to your mana pool.</CardText>
+{T}: Add {U} or {B}.</CardText>
 <Artist>Dave Kendall</Artist>
 <Multiverseid>249717</Multiverseid>
 <Rulings>2009/10/01: This checks for lands you control with the land type Island or Swamp, not for lands named Island or Swamp. The lands it checks for don't have to be basic lands. For example, if you control Blood Crypt (a nonbasic land with the land types Swamp and Mountain), <Drowned Catacomb> will enter the battlefield untapped.
@@ -4229,7 +4227,7 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 <Name>Glacial Fortress</Name>
 <Type>Land</Type>
 <CardText>Glacial Fortress enters the battlefield tapped unless you control a Plains or an Island.
-{T}: Add {W} or {U} to your mana pool.</CardText>
+{T}: Add {W} or {U}.</CardText>
 <Artist>Franz Vohwinkel</Artist>
 <Multiverseid>249722</Multiverseid>
 <Rulings>2009/10/01: This checks for lands you control with the land type Plains or Island, not for lands named Plains or Island. The lands it checks for don't have to be basic lands. For example, if you control Watery Grave (a nonbasic land with the land types Island and Swamp), <Glacial Fortress> will enter the battlefield untapped.
@@ -4246,7 +4244,7 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 <No>226</No>
 <Name>Hellion Crucible</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {1}{R}, {T}: Put a pressure counter on Hellion Crucible.
 {1}{R}, {T}, Remove two pressure counters from Hellion Crucible and sacrifice it: Create a 4/4 red Hellion creature token with haste. (It can attack and {T} as soon as it comes under your control.)</CardText>
 <Artist>Trevor Claxton</Artist>
@@ -4264,7 +4262,7 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 <Name>Reliquary Tower</Name>
 <Type>Land</Type>
 <CardText>You have no maximum hand size.
-{T}: Add {C} to your mana pool.</CardText>
+{T}: Add {C}.</CardText>
 <Flavor>Once guarded by the Knights of the Reliquary, the tower stands now protected only by its own remoteness, its dusty treasures open to plunder by anyone.</Flavor>
 <Artist>Jesper Ejsing</Artist>
 <Multiverseid>288876</Multiverseid>
@@ -4282,7 +4280,7 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 <Name>Rootbound Crag</Name>
 <Type>Land</Type>
 <CardText>Rootbound Crag enters the battlefield tapped unless you control a Mountain or a Forest.
-{T}: Add {R} or {G} to your mana pool.</CardText>
+{T}: Add {R} or {G}.</CardText>
 <Artist>Matt Stewart</Artist>
 <Multiverseid>249735</Multiverseid>
 <Rulings>2009/10/01: This checks for lands you control with the land type Mountain or Forest, not for lands named Mountain or Forest. The lands it checks for don't have to be basic lands. For example, if you control Temple Garden (a nonbasic land with the land types Forest and Plains), <Rootbound Crag> will enter the battlefield untapped.
@@ -4300,7 +4298,7 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 <Name>Sunpetal Grove</Name>
 <Type>Land</Type>
 <CardText>Sunpetal Grove enters the battlefield tapped unless you control a Forest or a Plains.
-{T}: Add {G} or {W} to your mana pool.</CardText>
+{T}: Add {G} or {W}.</CardText>
 <Artist>Jason Chan</Artist>
 <Multiverseid>249736</Multiverseid>
 <Rulings>2009/10/01: This checks for lands you control with the land type Forest or Plains, not for lands named Forest or Plains. The lands it checks for don't have to be basic lands. For example, if you control Hallowed Fountain (a nonbasic land with the land types Plains and Island), <Sunpetal Grove> will enter the battlefield untapped.
@@ -4317,7 +4315,7 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 <No>230</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>249733</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4332,7 +4330,7 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 <No>231</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Noah Bradley</Artist>
 <Multiverseid>249732</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4347,7 +4345,7 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 <No>232</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Nils Hamm</Artist>
 <Multiverseid>249731</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4362,7 +4360,7 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 <No>233</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Charles Urbach</Artist>
 <Multiverseid>249734</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4377,7 +4375,7 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 <No>234</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>249726</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4392,7 +4390,7 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 <No>235</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Noah Bradley</Artist>
 <Multiverseid>249725</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4407,7 +4405,7 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 <No>236</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Cliff Childs</Artist>
 <Multiverseid>249723</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4422,7 +4420,7 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 <No>237</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Peter Mohrbacher</Artist>
 <Multiverseid>249724</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4437,7 +4435,7 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 <No>238</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Mike Bierek</Artist>
 <Multiverseid>249739</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4452,7 +4450,7 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 <No>239</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Mike Bierek</Artist>
 <Multiverseid>249740</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4467,7 +4465,7 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 <No>240</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Cliff Childs</Artist>
 <Multiverseid>249738</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4482,7 +4480,7 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 <No>241</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>249737</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4497,7 +4495,7 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 <No>242</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Cliff Childs</Artist>
 <Multiverseid>249729</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4512,7 +4510,7 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 <No>243</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Nils Hamm</Artist>
 <Multiverseid>249730</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4527,7 +4525,7 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 <No>244</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>249728</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4542,7 +4540,7 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 <No>245</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Robh Ruppel</Artist>
 <Multiverseid>249727</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4557,7 +4555,7 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 <No>246</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Volkan Baga</Artist>
 <Multiverseid>249718</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4572,7 +4570,7 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 <No>247</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>249719</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4587,7 +4585,7 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 <No>248</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Noah Bradley</Artist>
 <Multiverseid>249720</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4602,7 +4600,7 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 <No>249</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Jim Nelson</Artist>
 <Multiverseid>249721</Multiverseid>
 <Vintage>Legal</Vintage>

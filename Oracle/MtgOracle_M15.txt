@@ -51,13 +51,12 @@
 <ManaCost>2WWW (5)</ManaCost>
 <CardText>Flying, vigilance
 {1}{W}: Prevent all damage that would be dealt to another target creature this turn by sources of the color of your choice.
-{5}{W}{W}: Prevent all damage that would be dealt to target player this turn by sources of the color of your choice.</CardText>
+{5}{W}{W}: Prevent all damage that would be dealt to target player or planeswalker this turn by sources of the color of your choice.</CardText>
 <Artist>Winona Nelson</Artist>
 <Multiverseid>383185</Multiverseid>
 <Rulings>2014/07/18: The possible color choices are white, blue, black, red, and green. You can't choose artifact, colorless, or any other word.
-2014/07/18: For each activated ability, you choose the color as the ability resolves. However, the color of a source that would deal damage to the creature or player is checked only when it would deal that damage, not as Avacyn's ability resolves. For example, if you choose blue, damage a blue creature would deal is prevented, even if that creature wasn't blue (or wasn't on the battlefield) when Avacyn's ability resolved.
-2014/07/18: Whether the target creature or player is still a legal target is no longer checked after the appropriate ability resolves. For example, if a creature targeted by the first ability gains protection from white after the ability resolves but before it prevents damage, the effect will still prevent damage.
-2014/07/18: The second activated ability doesn't prevent damage that would be dealt to planeswalkers the target player controls. If that player is you, it can still prevent noncombat damage that your opponent would want to redirect from you to one of your planeswalkers. Just apply the ability's prevention effect to that damage first, and there won't be any damage to redirect.
+2014/07/18: For each activated ability, you choose the color as the ability resolves. However, the color of a source that would deal damage to the permanent or player is checked only when it would deal that damage, not as Avacyn's ability resolves. For example, if you choose blue, damage a blue creature would deal is prevented, even if that creature wasn't blue (or wasn't on the battlefield) when Avacyn's ability resolved.
+2014/07/18: Whether the target permanent or player is still a legal target is no longer checked after the appropriate ability resolves. For example, if a creature targeted by the first ability gains protection from white after the ability resolves but before it prevents damage, the effect will still prevent damage.
 2014/07/18: Both activated abilities prevent all damage of the chosen color, not just combat damage.
 2014/07/18: Neither activated ability has any effect on damage that's already been dealt.</Rulings>
 <Vintage>Legal</Vintage>
@@ -212,7 +211,7 @@ Enchanted creature gets +1/+3.</CardText>
 <Flavor>With an armory of light, even the squire may champion her people.</Flavor>
 <Artist>Allen Williams</Artist>
 <Multiverseid>383228</Multiverseid>
-<Rulings>2014/07/18: If the creature targeted by <Divine Favor> is an illegal target when <Divine Favor> tries to resolve, <Divine Favor> will be countered. It won't enter the battlefield and its enters-the-battlefield ability won't trigger.</Rulings>
+<Rulings>2014/07/18: If the creature targeted by <Divine Favor> is an illegal target when <Divine Favor> tries to resolve, <Divine Favor> won't resolve. It won't enter the battlefield and its enters-the-battlefield ability won't trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -669,7 +668,7 @@ Seraph of the Masses's power and toughness are each equal to the number of creat
 —Temple signs</Flavor>
 <Artist>Sam Wood</Artist>
 <Multiverseid>383386</Multiverseid>
-<Rulings>2009/10/01: If the targeted permanent is an illegal target by the time <Solemn Offering> would resolve, the entire spell is countered. You won't gain any life.</Rulings>
+<Rulings>2009/10/01: If the targeted permanent is an illegal target by the time <Solemn Offering> would resolve, the entire spell doesn't resolve. You won't gain any life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -875,13 +874,13 @@ Designed by Isaiah Cartwright</Flavor>
 <Name>Aetherspouts</Name>
 <Type>Instant</Type>
 <ManaCost>3UU (5)</ManaCost>
-<CardText>For each attacking creature, its owner puts it on the top or bottom of his or her library.</CardText>
+<CardText>For each attacking creature, its owner puts it on the top or bottom of their library.</CardText>
 <Flavor>"Don't worry, there's plenty for everyone."
 —Vickon, Eleventh Company battlemage</Flavor>
 <Artist>Dan Scott</Artist>
 <Multiverseid>383178</Multiverseid>
-<Rulings>2014/07/18: The owner of each attacking creature chooses whether to put it on the top or bottom of his or her library. The active player (the player whose turn it is) makes all of his or her choices first, followed by each other player in turn order.
-2014/07/18: If an effect puts two or more cards on the top or bottom of a library at the same time, the owner of those cards may arrange them in any order. That library's owner doesn't reveal the order in which the cards go into his or her library.</Rulings>
+<Rulings>2014/07/18: The owner of each attacking creature chooses whether to put it on the top or bottom of their library. The active player (the player whose turn it is) makes all of their choices first, followed by each other player in turn order.
+2014/07/18: If an effect puts two or more cards on the top or bottom of a library at the same time, the owner of those cards may arrange them in any order. That library's owner doesn't reveal the order in which the cards go into their library.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1132,7 +1131,7 @@ Enchanted artifact is a creature with base power and toughness 5/5 in addition t
 <Name>Glacial Crasher</Name>
 <Type>Creature — Elemental 5/5</Type>
 <ManaCost>4UU (6)</ManaCost>
-<CardText>Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)
+<CardText>Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)
 Glacial Crasher can't attack unless there is a Mountain on the battlefield.</CardText>
 <Artist>Mark Winters</Artist>
 <Multiverseid>383256</Multiverseid>
@@ -1169,8 +1168,8 @@ Glacial Crasher can't attack unless there is a Mountain on the battlefield.</Car
 <Name>Illusory Angel</Name>
 <Type>Creature — Angel Illusion 4/4</Type>
 <ManaCost>2U (3)</ManaCost>
-<CardText>Flying
-Cast Illusory Angel only if you've cast another spell this turn.</CardText>
+<CardText>Cast this spell only if you've cast another spell this turn.
+Flying</CardText>
 <Flavor>"In a daze, I woke and looked upon the battlefield, where I could swear my dreams were laying waste to the enemy."
 —Letter from a soldier</Flavor>
 <Artist>Allen Williams</Artist>
@@ -1227,11 +1226,11 @@ Enchanted creature can't be blocked except by Walls.</CardText>
 <ManaCost>2UU (4)</ManaCost>
 <CardText>+1: Look at the top two cards of your library. Put one of them into your graveyard.
 -3: Return another target nonland permanent to its owner's hand.
--8: Each player shuffles his or her hand and graveyard into his or her library. You draw seven cards.</CardText>
+-8: Each player shuffles their hand and graveyard into their library. You draw seven cards.</CardText>
 <Artist>Chase Stone</Artist>
 <Multiverseid>383285</Multiverseid>
 <Rulings>2014/07/18: When the first ability resolves, the card you don't put into your graveyard stays on top of your library.
-2014/07/18: If a player has no cards in his or her hand and no cards in his or her graveyard when the third ability resolves, that player won't shuffle his or her library.</Rulings>
+2014/07/18: If a player has no cards in their hand and no cards in their graveyard when the third ability resolves, that player won't shuffle their library.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1266,7 +1265,7 @@ Enchanted creature can't be blocked except by Walls.</CardText>
 <Flavor>"You can become anything if I just put my mind to it."</Flavor>
 <Artist>Steve Prescott</Artist>
 <Multiverseid>383287</Multiverseid>
-<Rulings>2014/07/18: If your library has no nonlegendary creature cards in it, you'll reveal all the cards in your library, then put them in a random order. Although this is not technically shuffling your library, no player is allowed to know the order of those cards.</Rulings>
+<Rulings>2018/03/16: If your library has no nonlegendary creature cards in it, you'll reveal all the cards in your library, then put them in a random order. Although this is not technically shuffling your library, no player is allowed to know the order of those cards and you will randomize the cards in your deck.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1388,12 +1387,12 @@ Whenever Master of Predicaments deals combat damage to a player, choose a card i
 <Name>Mind Sculpt</Name>
 <Type>Sorcery</Type>
 <ManaCost>1U (2)</ManaCost>
-<CardText>Target opponent puts the top seven cards of his or her library into his or her graveyard.</CardText>
+<CardText>Target opponent puts the top seven cards of their library into their graveyard.</CardText>
 <Flavor>"Your mind was a curious mix of madness and genius. I just took away the genius."
 —Jace Beleren</Flavor>
 <Artist>Michael C. Hayes</Artist>
 <Multiverseid>383313</Multiverseid>
-<Rulings>2012/07/01: You can cast <Mind Sculpt> no matter how many cards are in the opponent's library. If there are fewer than seven, the opponent will put all of them into his or her graveyard.</Rulings>
+<Rulings>2012/07/01: You can cast <Mind Sculpt> no matter how many cards are in the opponent's library. If there are fewer than seven, the opponent will put all of them into their graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1582,7 +1581,7 @@ All lands are Islands in addition to their other types.
 Creatures without flying or islandwalk can't attack.</CardText>
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>383405</Multiverseid>
-<Rulings>2014/07/18: <Stormtide Leviathan>'s second ability causes each land on the battlefield to have the land type Island. Each land thus has the ability "{T}: Add {U} to your mana pool." Nothing else changes about those lands, including their names, other subtypes, other abilities, and whether they're legendary or basic.
+<Rulings>2014/07/18: <Stormtide Leviathan>'s second ability causes each land on the battlefield to have the land type Island. Each land thus has the ability "{T}: Add {U}." Nothing else changes about those lands, including their names, other subtypes, other abilities, and whether they're legendary or basic.
 2014/07/18: If <Stormtide Leviathan> loses its abilities, all lands on the battlefield (including those that enter the battlefield later on) will still be Islands in addition to their other types and will still be able to tap to produce {U}. The way continuous effects work, <Stormtide Leviathan>'s type-changing ability is applied before the effect that removes that ability is applied.
 2014/07/18: <Stormtide Leviathan>'s third ability affects all creatures with neither flying nor islandwalk, regardless of who controls them. They can't attack any player or planeswalker.
 2014/07/18: Islandwalk cares about lands with the land type Island, not necessarily lands named Island.</Rulings>
@@ -1785,10 +1784,10 @@ Enchanted land has "{T}: Target player loses 3 life."</CardText>
 <Type>Sorcery</Type>
 <ManaCost>6B (7)</ManaCost>
 <CardText>Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
-Covenant of Blood deals 4 damage to target creature or player and you gain 4 life.</CardText>
+Covenant of Blood deals 4 damage to any target and you gain 4 life.</CardText>
 <Artist>Seb McKinnon</Artist>
 <Multiverseid>383217</Multiverseid>
-<Rulings>2014/07/18: If the target creature or player is an illegal target when <Covenant of Blood> tries to resolve, it will be countered and none of its effects will happen. You won't gain any life. (Any creatures you tapped to cast <Covenant of Blood> remain tapped.)
+<Rulings>2014/07/18: If the target permanent or player is an illegal target when <Covenant of Blood> tries to resolve, it won't resolve and none of its effects will happen. You won't gain any life. (Any creatures you tapped to cast <Covenant of Blood> remain tapped.)
 2014/07/18: The rules for convoke have changed slightly since it last appeared in an expansion. Previously, convoke reduced the cost to cast a spell. Under current rules, you tap creatures at the same time you pay the spell's costs. Tapping a creature this way is simply another way to pay.
 2014/07/18: Convoke doesn't change a spell's mana cost or converted mana cost.
 2014/07/18: When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated.
@@ -1988,7 +1987,7 @@ At the beginning of your upkeep, draw a card unless target opponent sacrifices a
 <Flavor>The promise of anguish is payment enough for services rendered.</Flavor>
 <Artist>Wesley Burt</Artist>
 <Multiverseid>383276</Multiverseid>
-<Rulings>2017/11/17: The opponent chooses whether he or she sacrifices a creature, pays 3 life, or allows you to draw a card. That player can't make an impossible choice, such as sacrificing a creature while he or she controls no creatures.
+<Rulings>2017/11/17: The opponent chooses whether they sacrifice a creature, pays 3 life, or allows you to draw a card. That player can't make an impossible choice, such as sacrificing a creature while they control no creatures.
 2017/11/17: If there are no legal targets to choose, perhaps because all your opponents have hexproof, the ability is removed from the stack with no effect. You won't draw a card. This is also true if the target opponent becomes an illegal target in response to the ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2130,7 +2129,7 @@ When Necrogen Scudder enters the battlefield, you lose 3 life.</CardText>
 <Type>Creature — Zombie Giant 4/3</Type>
 <ManaCost>4B (5)</ManaCost>
 <CardText>Nightfire Giant gets +1/+1 as long as you control a Mountain.
-{4}{R}: Nightfire Giant deals 2 damage to target creature or player.</CardText>
+{4}{R}: Nightfire Giant deals 2 damage to any target.</CardText>
 <Flavor>Nightfire turns the greatest weakness of the undead into formidable strength.</Flavor>
 <Artist>Dave Kendall</Artist>
 <Multiverseid>383326</Multiverseid>
@@ -2148,14 +2147,14 @@ When Necrogen Scudder enters the battlefield, you lose 3 life.</CardText>
 <Type>Legendary Creature — Demon 4/4</Type>
 <ManaCost>4BB (6)</ManaCost>
 <CardText>Flying, trample
-Whenever an opponent searches his or her library, that player sacrifices a creature and loses 10 life.
+Whenever an opponent searches their library, that player sacrifices a creature and loses 10 life.
 Whenever another creature dies, put a +1/+1 counter on Ob Nixilis, Unshackled.</CardText>
 <Flavor>Designed by Brad Muir</Flavor>
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>383330</Multiverseid>
 <Rulings>2014/07/18: Ob Nixilis's first triggered ability won't trigger if you search an opponent's library or if an opponent searches another player's library.
 2014/07/18: If the opponent controls no creatures when the first triggered ability resolves, that player still loses 10 life.
-2014/07/18: The first triggered ability won't be put on the stack until after the spell or ability causing the opponent to search his or her library finishes resolving. Notably, if that spell or ability causes any other abilities to trigger (for example, if the opponent searched for a creature card and put it onto the battlefield), those abilities and Ob Nixilis's triggered ability will go on the stack together. The active player puts all of his or her abilities on the stack in any order, then each other player in turn order does the same. The last ability put onto the stack this way will be the first to resolve, and so on.</Rulings>
+2014/07/18: The first triggered ability won't be put on the stack until after the spell or ability causing the opponent to search their library finishes resolving. Notably, if that spell or ability causes any other abilities to trigger (for example, if the opponent searched for a creature card and put it onto the battlefield), those abilities and Ob Nixilis's triggered ability will go on the stack together. The active player puts all of their abilities on the stack in any order, then each other player in turn order does the same. The last ability put onto the stack this way will be the first to resolve, and so on.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2277,7 +2276,7 @@ At the beginning of the upkeep of enchanted creature's controller, that player l
 <Type>Sorcery</Type>
 <ManaCost>4B (5)</ManaCost>
 <CardText>Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
-Choose a nonland card name. Search target player's graveyard, hand, and library for any number of cards with that name and exile them. Then that player shuffles his or her library.</CardText>
+Choose a nonland card name. Search target player's graveyard, hand, and library for any number of cards with that name and exile them. Then that player shuffles their library.</CardText>
 <Artist>Jason Rainville</Artist>
 <Multiverseid>383402</Multiverseid>
 <Rulings>2014/07/18: You can leave any cards with that name in the zone they're in. You don't have to exile them.
@@ -2323,7 +2322,7 @@ Choose a nonland card name. Search target player's graveyard, hand, and library 
 —Liliana Vess</Flavor>
 <Artist>Johann Bodin</Artist>
 <Multiverseid>383422</Multiverseid>
-<Rulings>2017/11/17: The loss of life isn't a cost. If the target creature is an illegal target when <Ulcerate> tries to resolve, it will be countered and none of its effects will happen. You won't lose any life.</Rulings>
+<Rulings>2017/11/17: The loss of life isn't a cost. If the target creature is an illegal target when <Ulcerate> tries to resolve, it won't resolve and none of its effects will happen. You won't lose any life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2384,7 +2383,7 @@ Whenever you gain life, put a +1/+1 counter on Wall of Limbs.
 <Type>Enchantment</Type>
 <ManaCost>1B (2)</ManaCost>
 <CardText>Whenever an opponent discards a creature card, create a 2/2 black Zombie creature token.
-Whenever an opponent discards a land card, add {B}{B} to your mana pool.
+Whenever an opponent discards a land card, add {B}{B}.
 Whenever an opponent discards a noncreature, nonland card, draw a card.</CardText>
 <Flavor>Designed by the Magic community</Flavor>
 <Artist>Matt Stewart</Artist>
@@ -2539,7 +2538,7 @@ Sacrifice a land: Draw two cards. Activate this ability only once each turn.</Ca
 <Artist>Phill Simmer</Artist>
 <Multiverseid>383192</Multiverseid>
 <Rulings>2014/07/18: <Blastfire Bolt> can target any creature, not just one with Equipment attached to it. The damage will be dealt to the creature even if it doesn't have any Equipment attached to it.
-2014/07/18: If the target creature is an illegal target when <Blastfire Bolt> tries to resolve, it will be countered and none of its effects will happen. No Equipment will be destroyed.</Rulings>
+2014/07/18: If the target creature is an illegal target when <Blastfire Bolt> tries to resolve, it won't resolve and none of its effects will happen. No Equipment will be destroyed.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2590,7 +2589,7 @@ Sacrifice a land: Draw two cards. Activate this ability only once each turn.</Ca
 <Type>Enchantment — Aura</Type>
 <ManaCost>4R (5)</ManaCost>
 <CardText>Enchant creature
-Enchanted creature has "{T}: This creature deals damage equal to its power to target creature or player."</CardText>
+Enchanted creature has "{T}: This creature deals damage equal to its power to any target."</CardText>
 <Flavor>"With rage as your forge, your hammer can smite anything."</Flavor>
 <Artist>Anthony Palumbo</Artist>
 <Multiverseid>383199</Multiverseid>
@@ -2609,7 +2608,7 @@ Enchanted creature has "{T}: This creature deals damage equal to its power to ta
 <Name>Chandra, Pyromaster</Name>
 <Type>Legendary Planeswalker — Chandra (Loyalty: 4)</Type>
 <ManaCost>2RR (4)</ManaCost>
-<CardText>+1: Chandra, Pyromaster deals 1 damage to target player and 1 damage to up to one target creature that player controls. That creature can't block this turn.
+<CardText>+1: Chandra, Pyromaster deals 1 damage to target player or planeswalker and 1 damage to up to one target creature that player or that planeswalker's controller controls. That creature can't block this turn.
 0: Exile the top card of your library. You may play it this turn.
 -7: Exile the top ten cards of your library. Choose an instant or sorcery card exiled this way and copy it three times. You may cast the copies without paying their mana costs.</CardText>
 <Artist>Winona Nelson</Artist>
@@ -2673,7 +2672,7 @@ Enchanted creature has "{T}: This creature deals damage equal to its power to ta
 <Name>Cone of Flame</Name>
 <Type>Sorcery</Type>
 <ManaCost>3RR (5)</ManaCost>
-<CardText>Cone of Flame deals 1 damage to target creature or player, 2 damage to another target creature or player, and 3 damage to a third target creature or player.</CardText>
+<CardText>Cone of Flame deals 1 damage to any target, 2 damage to another target, and 3 damage to a third target.</CardText>
 <Artist>Chippy</Artist>
 <Multiverseid>383213</Multiverseid>
 <Rulings>2014/07/18: Each of the three targets must be different. If there aren't three different legal targets available, you can't cast the spell.
@@ -2772,6 +2771,7 @@ Target creature gets +1/+0 and gains first strike until end of turn. (It deals c
 <Flavor>What he lacks in stature, he makes up for with enthusiasm.</Flavor>
 <Artist>Carl Critchlow</Artist>
 <Multiverseid>383247</Multiverseid>
+<Rulings>2018/03/16: <Frenzied Goblin>'s ability has only one target. You can't pay {R} multiple times to stop multiple creatures from blocking.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2785,7 +2785,7 @@ Target creature gets +1/+0 and gains first strike until end of turn. (It deals c
 <Name>Generator Servant</Name>
 <Type>Creature — Elemental 2/1</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>{T}, Sacrifice Generator Servant: Add {C}{C} to your mana pool. If that mana is spent on a creature spell, it gains haste until end of turn. (That creature can attack and {T} as soon as it comes under your control.)</CardText>
+<CardText>{T}, Sacrifice Generator Servant: Add {C}{C}. If that mana is spent on a creature spell, it gains haste until end of turn. (That creature can attack and {T} as soon as it comes under your control.)</CardText>
 <Artist>Mathias Kollros</Artist>
 <Multiverseid>383254</Multiverseid>
 <Rulings>2014/07/18: If the mana is spent on two different creature spells, each of those spells (and resulting creatures) will gain haste until end of turn.
@@ -2919,7 +2919,7 @@ When Hoarding Dragon dies, you may put the exiled card into its owner's hand.</C
 <ManaCost>1R (2)</ManaCost>
 <CardText>Enchant creature you control
 Enchanted creature gets +2/+0.
-{R}, Sacrifice Inferno Fist: Inferno Fist deals 2 damage to target creature or player.</CardText>
+{R}, Sacrifice Inferno Fist: Inferno Fist deals 2 damage to any target.</CardText>
 <Flavor>"I've never been above throwing the first punch."</Flavor>
 <Artist>James Ryman</Artist>
 <Multiverseid>383277</Multiverseid>
@@ -2939,7 +2939,7 @@ Enchanted creature gets +2/+0.
 <Type>Creature — Ape 3/3</Type>
 <ManaCost>3R (4)</ManaCost>
 <CardText>Kird Chieftain gets +1/+1 as long as you control a Forest.
-{4}{G}: Target creature gets +2/+2 and gains trample until end of turn. (It can deal excess combat damage to defending player or planeswalker while attacking.)</CardText>
+{4}{G}: Target creature gets +2/+2 and gains trample until end of turn. (It can deal excess combat damage to the player or planeswalker it's attacking.)</CardText>
 <Artist>Lars Grant-West</Artist>
 <Multiverseid>383293</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2995,9 +2995,9 @@ Enchanted creature gets +2/+0.
 <Name>Lava Axe</Name>
 <Type>Sorcery</Type>
 <ManaCost>4R (5)</ManaCost>
-<CardText>Lava Axe deals 5 damage to target player.</CardText>
+<CardText>Lava Axe deals 5 damage to target player or planeswalker.</CardText>
 <Flavor>A strict upgrade over the cinder hatchet.</Flavor>
-<Artist>Brian Snoddy</Artist>
+<Artist>Brian Snõddy</Artist>
 <Multiverseid>383296</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3012,7 +3012,7 @@ Enchanted creature gets +2/+0.
 <Name>Lightning Strike</Name>
 <Type>Instant</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>Lightning Strike deals 3 damage to target creature or player.</CardText>
+<CardText>Lightning Strike deals 3 damage to any target.</CardText>
 <Flavor>To wield lightning is to tame chaos.</Flavor>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>383299</Multiverseid>
@@ -3051,7 +3051,7 @@ Enchanted creature gets +2/+0.
 <Name>Miner's Bane</Name>
 <Type>Creature — Elemental 6/3</Type>
 <ManaCost>4RR (6)</ManaCost>
-<CardText>{2}{R}: Miner's Bane gets +1/+0 and gains trample until end of turn. (It can deal excess combat damage to defending player or planeswalker while attacking.)</CardText>
+<CardText>{2}{R}: Miner's Bane gets +1/+0 and gains trample until end of turn. (It can deal excess combat damage to the player or planeswalker it's attacking.)</CardText>
 <Flavor>There are certain stones even dwarves know to leave in the earth.</Flavor>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>383314</Multiverseid>
@@ -3103,7 +3103,7 @@ Enchanted creature gets +2/+0.
 <Name>Scrapyard Mongrel</Name>
 <Type>Creature — Hound 3/3</Type>
 <ManaCost>3R (4)</ManaCost>
-<CardText>As long as you control an artifact, Scrapyard Mongrel gets +2/+0 and has trample. (It can deal excess combat damage to defending player or planeswalker while attacking.)</CardText>
+<CardText>As long as you control an artifact, Scrapyard Mongrel gets +2/+0 and has trample. (It can deal excess combat damage to the player or planeswalker it's attacking.)</CardText>
 <Flavor>Trespassers are welcome to try.</Flavor>
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>383372</Multiverseid>
@@ -3120,8 +3120,8 @@ Enchanted creature gets +2/+0.
 <Name>Shrapnel Blast</Name>
 <Type>Instant</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>As an additional cost to cast Shrapnel Blast, sacrifice an artifact.
-Shrapnel Blast deals 5 damage to target creature or player.</CardText>
+<CardText>As an additional cost to cast this spell, sacrifice an artifact.
+Shrapnel Blast deals 5 damage to any target.</CardText>
 <Flavor>It requires immense pressure to imbue an item with magic. If the spell is broken . . .</Flavor>
 <Artist>Hideaki Takamura</Artist>
 <Multiverseid>383380</Multiverseid>
@@ -3159,8 +3159,8 @@ Whenever Siege Dragon attacks, if defending player controls no Walls, it deals 2
 <Type>Creature — Avatar 6/6</Type>
 <ManaCost>4RR (6)</ManaCost>
 <CardText>First strike
-{3}{R}{R}: Soul of Shandalar deals 3 damage to target player and 3 damage to up to one target creature that player controls.
-{3}{R}{R}, Exile Soul of Shandalar from your graveyard: Soul of Shandalar deals 3 damage to target player and 3 damage to up to one target creature that player controls.</CardText>
+{3}{R}{R}: Soul of Shandalar deals 3 damage to target player or planeswalker and 3 damage to up to one target creature that player or that planeswalker's controller controls.
+{3}{R}{R}, Exile Soul of Shandalar from your graveyard: Soul of Shandalar deals 3 damage to target player or planeswalker and 3 damage to up to one target creature that player or that planeswalker's controller controls.</CardText>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>383390</Multiverseid>
 <Rulings>2014/07/18: You can activate the last ability only if the Soul is in your graveyard.
@@ -3180,7 +3180,7 @@ Whenever Siege Dragon attacks, if defending player controls no Walls, it deals 2
 <Type>Instant</Type>
 <ManaCost>2RR (4)</ManaCost>
 <CardText>Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
-Stoke the Flames deals 4 damage to target creature or player.</CardText>
+Stoke the Flames deals 4 damage to any target.</CardText>
 <Artist>Ryan Barger</Artist>
 <Multiverseid>383404</Multiverseid>
 <Rulings>2014/07/18: The rules for convoke have changed slightly since it last appeared in an expansion. Previously, convoke reduced the cost to cast a spell. Under current rules, you tap creatures at the same time you pay the spell's costs. Tapping a creature this way is simply another way to pay.
@@ -3346,7 +3346,7 @@ Search your library for a creature card with converted mana cost X or less and p
 <Name>Elvish Mystic</Name>
 <Type>Creature — Elf Druid 1/1</Type>
 <ManaCost>G (1)</ManaCost>
-<CardText>{T}: Add {G} to your mana pool.</CardText>
+<CardText>{T}: Add {G}.</CardText>
 <Flavor>"Life grows everywhere. My kin merely find those places where it grows strongest."
 —Nissa Revane</Flavor>
 <Artist>Wesley Burt</Artist>
@@ -3413,7 +3413,7 @@ Target creature gets +2/+2 until end of turn.</CardText>
 <Name>Genesis Hydra</Name>
 <Type>Creature — Plant Hydra 0/0</Type>
 <ManaCost>XGG (2)</ManaCost>
-<CardText>When you cast Genesis Hydra, reveal the top X cards of your library. You may put a nonland permanent card with converted mana cost X or less from among them onto the battlefield. Then shuffle the rest into your library.
+<CardText>When you cast this spell, reveal the top X cards of your library. You may put a nonland permanent card with converted mana cost X or less from among them onto the battlefield. Then shuffle the rest into your library.
 Genesis Hydra enters the battlefield with X +1/+1 counters on it.</CardText>
 <Flavor>Designed by George Fan</Flavor>
 <Artist>Peter Mohrbacher</Artist>
@@ -3548,7 +3548,7 @@ When Kalonian Twingrove enters the battlefield, create a green Treefolk Warrior 
 <Name>Life's Legacy</Name>
 <Type>Sorcery</Type>
 <ManaCost>1G (2)</ManaCost>
-<CardText>As an additional cost to cast Life's Legacy, sacrifice a creature.
+<CardText>As an additional cost to cast this spell, sacrifice a creature.
 Draw cards equal to the sacrificed creature's power.</CardText>
 <Flavor>At the instant of death, the mystery of life.</Flavor>
 <Artist>Howard Lyon</Artist>
@@ -3698,7 +3698,7 @@ Creatures you control get +3/+3 until end of turn.</CardText>
 <Type>Creature — Human Druid 2/2</Type>
 <ManaCost>3G (4)</ManaCost>
 <CardText>Other green creatures you control get +1/+1.
-{G}, {T}: Another target green creature you control gains trample until end of turn. (It can deal excess combat damage to defending player or planeswalker while attacking.)</CardText>
+{G}, {T}: Another target green creature you control gains trample until end of turn. (It can deal excess combat damage to the player or planeswalker it's attacking.)</CardText>
 <Artist>Winona Nelson</Artist>
 <Multiverseid>383336</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -3714,7 +3714,7 @@ Creatures you control get +3/+3 until end of turn.</CardText>
 <Name>Phytotitan</Name>
 <Type>Creature — Plant Elemental 7/2</Type>
 <ManaCost>4GG (6)</ManaCost>
-<CardText>When Phytotitan dies, return it to the battlefield tapped under its owner's control at the beginning of his or her next upkeep.</CardText>
+<CardText>When Phytotitan dies, return it to the battlefield tapped under its owner's control at the beginning of their next upkeep.</CardText>
 <Flavor>Its root system spans the entire floor of the jungle, making eradication impossible.</Flavor>
 <Artist>Marco Nelor</Artist>
 <Multiverseid>383344</Multiverseid>
@@ -3873,7 +3873,7 @@ Creatures you control get +3/+3 until end of turn.</CardText>
 <Type>Creature — Wurm 5/5</Type>
 <ManaCost>5GG (7)</ManaCost>
 <CardText>Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
-Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)</CardText>
+Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)</CardText>
 <Artist>Carl Critchlow</Artist>
 <Multiverseid>383382</Multiverseid>
 <Rulings>2014/07/18: The rules for convoke have changed slightly since it last appeared in an expansion. Previously, convoke reduced the cost to cast a spell. Under current rules, you tap creatures at the same time you pay the spell's costs. Tapping a creature this way is simply another way to pay.
@@ -3992,10 +3992,10 @@ Trample (This creature can deal excess combat damage to defending player or plan
 <ManaCost>2G (3)</ManaCost>
 <CardText>Enchant land
 When Verdant Haven enters the battlefield, you gain 2 life.
-Whenever enchanted land is tapped for mana, its controller adds one mana of any color to his or her mana pool (in addition to the mana the land produces).</CardText>
+Whenever enchanted land is tapped for mana, its controller adds an additional one mana of any color.</CardText>
 <Artist>Daniel Ljunggren</Artist>
 <Multiverseid>383427</Multiverseid>
-<Rulings>2014/07/18: If the land targeted by <Verdant Haven> is an illegal target when Verdan Haven tries to resolve, <Verdant Haven> will be countered. It won't enter the battlefield and its enters-the-battlefield ability won't trigger.</Rulings>
+<Rulings>2014/07/18: If the land targeted by <Verdant Haven> is an illegal target when Verdan Haven tries to resolve, <Verdant Haven> won't resolve. It won't enter the battlefield and its enters-the-battlefield ability won't trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4073,7 +4073,7 @@ Enchanted creature gets +1/+1.
 <Artist>Tyler Jacobson</Artist>
 <Multiverseid>383251</Multiverseid>
 <Rulings>2014/07/18: The first ability can target and destroy a Garruk planeswalker controlled by another player.
-2014/07/18: If you activate the third ability, and the target creature is an illegal target when the ability tries to resolve, it will be countered and none of its effects will happen. You won't gain any life.
+2014/07/18: If you activate the third ability, and the target creature is an illegal target when the ability tries to resolve, it won't resolve and none of its effects will happen. You won't gain any life.
 2014/07/18: The emblem's ability won't trigger if a creature attacks a planeswalker.
 2014/07/18: The emblem is owned and controlled by the target of the ability that created it. In a multiplayer game, if Garruk's owner leaves the game, the emblem does not.</Rulings>
 <Vintage>Legal</Vintage>
@@ -4130,7 +4130,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <Name>Brawler's Plate</Name>
 <Type>Artifact — Equipment</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>Equipped creature gets +2/+2 and has trample. (It can deal excess combat damage to defending player or planeswalker while attacking.)
+<CardText>Equipped creature gets +2/+2 and has trample. (It can deal excess combat damage to the player or planeswalker it's attacking.)
 Equip {4} ({4}: Attach to target creature you control. Equip only as a sorcery.)</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>383196</Multiverseid>
@@ -4205,7 +4205,7 @@ Equip {4} ({4}: Attach to target creature you control. Equip only as a sorcery.)
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
 <CardText>{T}: Put a charge counter on Grindclock.
-{T}: Target player puts the top X cards of his or her library into his or her graveyard, where X is the number of charge counters on Grindclock.</CardText>
+{T}: Target player puts the top X cards of their library into their graveyard, where X is the number of charge counters on Grindclock.</CardText>
 <Flavor>Pray you never hear it chime.</Flavor>
 <Artist>Nils Hamm</Artist>
 <Multiverseid>383261</Multiverseid>
@@ -4269,7 +4269,7 @@ Juggernaut can't be blocked by Walls.</CardText>
 <Flavor>Many a besieged city has surrendered upon hearing the distinctive rumble of the juggernaut.</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>383289</Multiverseid>
-<Rulings>2016/06/08: If, during your declare attackers step, <Juggernaut> is tapped, is affected by a spell or ability that says it can't attack, or you haven't controlled it continuously since the beginning of your turn, then it doesn't attack. If there's a cost associated with having <Juggernaut> attack, you aren't forced to pay that cost, so it doesn't have to attack in that case either.</Rulings>
+<Rulings>2018/04/27: If <Juggernaut> can't attack for any reason (such as being tapped or having come under that player's control that turn), then it doesn't attack. If there's a cost associated with having it attack, its controller isn't forced to pay that cost, so it doesn't have to attack in that case either.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4283,8 +4283,8 @@ Juggernaut can't be blocked by Walls.</CardText>
 <Name>Meteorite</Name>
 <Type>Artifact</Type>
 <ManaCost>5 (5)</ManaCost>
-<CardText>When Meteorite enters the battlefield, it deals 2 damage to target creature or player.
-{T}: Add one mana of any color to your mana pool.</CardText>
+<CardText>When Meteorite enters the battlefield, it deals 2 damage to any target.
+{T}: Add one mana of any color.</CardText>
 <Flavor>"And if I'm lying," he began . . .</Flavor>
 <Artist>Scott Murphy</Artist>
 <Multiverseid>383308</Multiverseid>
@@ -4440,7 +4440,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <Type>Artifact Creature — Construct 6/6</Type>
 <ManaCost>6 (6)</ManaCost>
 <CardText>Scuttling Doom Engine can't be blocked by creatures with power 2 or less.
-When Scuttling Doom Engine dies, it deals 6 damage to target opponent.</CardText>
+When Scuttling Doom Engine dies, it deals 6 damage to target opponent or planeswalker.</CardText>
 <Flavor>A masterwork of spite, inspired by madness.</Flavor>
 <Artist>Filip Burburan</Artist>
 <Multiverseid>383373</Multiverseid>
@@ -4657,8 +4657,8 @@ Designed by Richard Garriott</Flavor>
 <No>240</No>
 <Name>Battlefield Forge</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{T}: Add {R} or {W} to your mana pool. Battlefield Forge deals 1 damage to you.</CardText>
+<CardText>{T}: Add {C}.
+{T}: Add {R} or {W}. Battlefield Forge deals 1 damage to you.</CardText>
 <Artist>Darrell Riche</Artist>
 <Multiverseid>383189</Multiverseid>
 <Rulings>2015/06/22: The damage dealt to you is part of the second mana ability. It doesn't use the stack and can't be responded to.
@@ -4675,8 +4675,8 @@ Designed by Richard Garriott</Flavor>
 <No>241</No>
 <Name>Caves of Koilos</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{T}: Add {W} or {B} to your mana pool. Caves of Koilos deals 1 damage to you.</CardText>
+<CardText>{T}: Add {C}.
+{T}: Add {W} or {B}. Caves of Koilos deals 1 damage to you.</CardText>
 <Artist>Jim Nelson</Artist>
 <Multiverseid>383203</Multiverseid>
 <Rulings>2015/06/22: The damage dealt to you is part of the second mana ability. It doesn't use the stack and can't be responded to.
@@ -4694,7 +4694,7 @@ Designed by Richard Garriott</Flavor>
 <Name>Darksteel Citadel</Name>
 <Type>Artifact Land</Type>
 <CardText>Indestructible
-{T}: Add {C} to your mana pool.</CardText>
+{T}: Add {C}.</CardText>
 <Flavor>Structures built from darksteel yield to neither assault nor age.</Flavor>
 <Artist>John Avon</Artist>
 <Multiverseid>383222</Multiverseid>
@@ -4727,8 +4727,8 @@ Designed by Richard Garriott</Flavor>
 <No>244</No>
 <Name>Llanowar Wastes</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{T}: Add {B} or {G} to your mana pool. Llanowar Wastes deals 1 damage to you.</CardText>
+<CardText>{T}: Add {C}.
+{T}: Add {B} or {G}. Llanowar Wastes deals 1 damage to you.</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>383302</Multiverseid>
 <Rulings>2015/06/22: The damage dealt to you is part of the second mana ability. It doesn't use the stack and can't be responded to.
@@ -4746,7 +4746,7 @@ Designed by Richard Garriott</Flavor>
 <Name>Radiant Fountain</Name>
 <Type>Land</Type>
 <CardText>When Radiant Fountain enters the battlefield, you gain 2 life.
-{T}: Add {C} to your mana pool.</CardText>
+{T}: Add {C}.</CardText>
 <Flavor>"All peoples treasure a place where the weary traveler may drink in peace."
 —Ajani Goldmane</Flavor>
 <Artist>Adam Paquette</Artist>
@@ -4763,8 +4763,8 @@ Designed by Richard Garriott</Flavor>
 <No>246</No>
 <Name>Shivan Reef</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{T}: Add {U} or {R} to your mana pool. Shivan Reef deals 1 damage to you.</CardText>
+<CardText>{T}: Add {C}.
+{T}: Add {U} or {R}. Shivan Reef deals 1 damage to you.</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>383379</Multiverseid>
 <Rulings>2015/06/22: The damage dealt to you is part of the second mana ability. It doesn't use the stack and can't be responded to.
@@ -4781,8 +4781,8 @@ Designed by Richard Garriott</Flavor>
 <No>247</No>
 <Name>Sliver Hive</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{T}: Add one mana of any color to your mana pool. Spend this mana only to cast a Sliver spell.
+<CardText>{T}: Add {C}.
+{T}: Add one mana of any color. Spend this mana only to cast a Sliver spell.
 {5}, {T}: Create a 1/1 colorless Sliver creature token. Activate this ability only if you control a Sliver.</CardText>
 <Artist>Igor Kieryluk</Artist>
 <Multiverseid>383384</Multiverseid>
@@ -4804,9 +4804,9 @@ Designed by Richard Garriott</Flavor>
 —Lord Windgrace</Flavor>
 <Artist>John Avon</Artist>
 <Multiverseid>383425</Multiverseid>
-<Rulings>2008/04/01: If <Urborg, Tomb of Yawgmoth> and either Blood Moon or Magus of the Moon are on the battlefield, all nonbasic lands will be Mountains, not Swamps. <Urborg, Tomb of Yawgmoth> will be a Mountain as well. It will have "{T}: Add {R} to your mana pool" and no other abilities.
+<Rulings>2008/04/01: If <Urborg, Tomb of Yawgmoth> and either Blood Moon or Magus of the Moon are on the battlefield, all nonbasic lands will be Mountains, not Swamps. <Urborg, Tomb of Yawgmoth> will be a Mountain as well. It will have "{T}: Add {R}" and no other abilities.
 2014/07/18: <Urborg, Tomb of Yawgmoth> isn't a Swamp while it's not on the battlefield.
-2014/07/18: Urborg's ability causes each land on the battlefield to have the land type Swamp. Each land thus has the ability "{T}: Add {B} to your mana pool." Nothing else changes about those lands, including their names, other subtypes, other abilities, and whether they're legendary or basic.
+2014/07/18: Urborg's ability causes each land on the battlefield to have the land type Swamp. Each land thus has the ability "{T}: Add {B}." Nothing else changes about those lands, including their names, other subtypes, other abilities, and whether they're legendary or basic.
 2014/07/18: If Urborg loses its abilities (for example, if it becomes a creature and then Turn to Frog targets it), all lands on the battlefield, including Urborg, will still be Swamps, but Urborg won't have the ability "Each land is a Swamp in addition to its other land types." Urborg also won't be able to tap to produce {B}, but other lands (including those that enter the battlefield later in the turn) will. The way continuous effects work, Urborg's type-changing ability is applied before the effect that removes both the type-changing ability and its own mana ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -4820,8 +4820,8 @@ Designed by Richard Garriott</Flavor>
 <No>249</No>
 <Name>Yavimaya Coast</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{T}: Add {G} or {U} to your mana pool. Yavimaya Coast deals 1 damage to you.</CardText>
+<CardText>{T}: Add {C}.
+{T}: Add {G} or {U}. Yavimaya Coast deals 1 damage to you.</CardText>
 <Artist>Anthony S. Waters</Artist>
 <Multiverseid>383441</Multiverseid>
 <Rulings>2015/06/22: The damage dealt to you is part of the second mana ability. It doesn't use the stack and can't be responded to.
@@ -4838,7 +4838,7 @@ Designed by Richard Garriott</Flavor>
 <No>250</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>383347</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4853,7 +4853,7 @@ Designed by Richard Garriott</Flavor>
 <No>251</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Nils Hamm</Artist>
 <Multiverseid>383346</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4868,7 +4868,7 @@ Designed by Richard Garriott</Flavor>
 <No>252</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Howard Lyon</Artist>
 <Multiverseid>383348</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4883,7 +4883,7 @@ Designed by Richard Garriott</Flavor>
 <No>253</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Andreas Rocha</Artist>
 <Multiverseid>383349</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4898,7 +4898,7 @@ Designed by Richard Garriott</Flavor>
 <No>254</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Cliff Childs</Artist>
 <Multiverseid>383284</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4913,7 +4913,7 @@ Designed by Richard Garriott</Flavor>
 <No>255</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Florian de Gesincourt</Artist>
 <Multiverseid>383281</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4928,7 +4928,7 @@ Designed by Richard Garriott</Flavor>
 <No>256</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Peter Mohrbacher</Artist>
 <Multiverseid>383283</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4943,7 +4943,7 @@ Designed by Richard Garriott</Flavor>
 <No>257</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Andreas Rocha</Artist>
 <Multiverseid>383282</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4958,7 +4958,7 @@ Designed by Richard Garriott</Flavor>
 <No>258</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>383409</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4973,7 +4973,7 @@ Designed by Richard Garriott</Flavor>
 <No>259</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Cliff Childs</Artist>
 <Multiverseid>383410</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4988,7 +4988,7 @@ Designed by Richard Garriott</Flavor>
 <No>260</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Jonas De Ro</Artist>
 <Multiverseid>383411</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5003,7 +5003,7 @@ Designed by Richard Garriott</Flavor>
 <No>261</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>383408</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5018,7 +5018,7 @@ Designed by Richard Garriott</Flavor>
 <No>262</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Cliff Childs</Artist>
 <Multiverseid>383315</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5033,7 +5033,7 @@ Designed by Richard Garriott</Flavor>
 <No>263</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Florian de Gesincourt</Artist>
 <Multiverseid>383317</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5048,7 +5048,7 @@ Designed by Richard Garriott</Flavor>
 <No>264</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Nils Hamm</Artist>
 <Multiverseid>383318</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5063,7 +5063,7 @@ Designed by Richard Garriott</Flavor>
 <No>265</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>383316</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5078,7 +5078,7 @@ Designed by Richard Garriott</Flavor>
 <No>266</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>383244</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5093,7 +5093,7 @@ Designed by Richard Garriott</Flavor>
 <No>267</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>383242</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5108,7 +5108,7 @@ Designed by Richard Garriott</Flavor>
 <No>268</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Noah Bradley</Artist>
 <Multiverseid>383243</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5123,7 +5123,7 @@ Designed by Richard Garriott</Flavor>
 <No>269</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Jonas De Ro</Artist>
 <Multiverseid>383241</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5184,8 +5184,7 @@ When Aegis Angel enters the battlefield, another target permanent gains indestru
 —General Avitora</Flavor>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>383166</Multiverseid>
-<Rulings>2010/08/15: Only creatures you control as <Inspired Charge> resolves are affected.
-2016/09/20: The set of creatures affected by <Inspired Charge> is determined as the spell resolves. Creatures you begin to control later in the turn and noncreature permanents that become creatures later in the turn won't get +2/+1.</Rulings>
+<Rulings>2016/09/20: The set of creatures affected by <Inspired Charge> is determined as the spell resolves. Creatures you begin to control later in the turn and noncreature permanents that become creatures later in the turn won't get +2/+1.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -5199,8 +5198,7 @@ When Aegis Angel enters the battlefield, another target permanent gains indestru
 <Name>Serra Angel</Name>
 <Type>Creature — Angel 4/4</Type>
 <ManaCost>3WW (5)</ManaCost>
-<CardText>Flying (This creature can't be blocked except by creatures with flying or reach.)
-Vigilance (Attacking doesn't cause this creature to tap.)</CardText>
+<CardText>Flying, vigilance</CardText>
 <Flavor>Follow the light. In its absence, follow her.</Flavor>
 <Artist>Greg Staples</Artist>
 <Multiverseid>383171</Multiverseid>
@@ -5403,8 +5401,8 @@ Whenever a creature dealt damage by Sengir Vampire this turn dies, put a +1/+1 c
 <Name>Terra Stomper</Name>
 <Type>Creature — Beast 8/8</Type>
 <ManaCost>3GGG (6)</ManaCost>
-<CardText>Terra Stomper can't be countered.
-Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)</CardText>
+<CardText>This spell can't be countered.
+Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)</CardText>
 <Flavor>Its footfalls cause violent earthquakes, hurtling boulders, and unseasonable dust storms.</Flavor>
 <Artist>Goran Josic</Artist>
 <Multiverseid>383173</Multiverseid>

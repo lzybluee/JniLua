@@ -288,7 +288,7 @@ Attacking creatures you control get +2/+0.</CardText>
 <Type>Legendary Creature — Human Barbarian 6/1</Type>
 <ManaCost>4RR (6)</ManaCost>
 <CardText>Haste (This creature can attack and {T} as soon as it comes under your control.)
-{T}: Kamahl, Pit Fighter deals 3 damage to target creature or player.</CardText>
+{T}: Kamahl, Pit Fighter deals 3 damage to any target.</CardText>
 <Flavor>In times when freedom seems lost, great souls arise to reclaim it.</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>373338</Multiverseid>
@@ -397,13 +397,13 @@ Attacking creatures you control get +2/+0.</CardText>
 <Name>Magma Jet</Name>
 <Type>Instant</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>Magma Jet deals 2 damage to target creature or player. Scry 2.</CardText>
+<CardText>Magma Jet deals 2 damage to any target. Scry 2.</CardText>
 <Artist>Justin Sweet</Artist>
 <Multiverseid>373400</Multiverseid>
 <Rulings>2013/09/15: When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
 2013/09/15: You choose how to order cards returned to your library after scrying no matter where you put them.
 2013/09/15: You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
-2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it will be countered and none of its effects will happen. You won't scry.</Rulings>
+2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -419,7 +419,7 @@ Attacking creatures you control get +2/+0.</CardText>
 <ManaCost>1R (2)</ManaCost>
 <CardText>Enchant creature
 Whenever enchanted creature attacks, put a +1/+1 counter on it. Then if it has three or more +1/+1 counters on it, sacrifice Ordeal of Purphoros.
-When you sacrifice Ordeal of Purphoros, it deals 3 damage to target creature or player.</CardText>
+When you sacrifice Ordeal of Purphoros, it deals 3 damage to any target.</CardText>
 <Artist>Maciej Kuciara</Artist>
 <Multiverseid>373406</Multiverseid>
 <Rulings>2013/09/15: The +1/+1 counter is put on the creature before blockers are declared and before combat damage is dealt.
@@ -481,7 +481,7 @@ Enchanted creature gets +2/+2 and can't block.
 When Undying Rage is put into a graveyard from the battlefield, return Undying Rage to its owner's hand.</CardText>
 <Artist>Scott M. Fischer</Artist>
 <Multiverseid>373347</Multiverseid>
-<Rulings>2016/06/08: If the target of <Undying Rage> when it's cast as a spell is an illegal target when <Undying Rage> tries to resolve, <Undying Rage> will be countered and put into its owner's graveyard. It won't return to its owner's hand.</Rulings>
+<Rulings>2016/06/08: If the target of <Undying Rage> when it's cast as a spell is an illegal target when <Undying Rage> tries to resolve, <Undying Rage> won't resolve and will be put into its owner's graveyard. It won't return to its owner's hand.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -585,12 +585,12 @@ When enchanted creature dies, create a 2/2 white Griffin creature token with fly
 <Name>Pyrokinesis</Name>
 <Type>Instant</Type>
 <ManaCost>4RR (6)</ManaCost>
-<CardText>You may exile a red card from your hand rather than pay Pyrokinesis's mana cost.
+<CardText>You may exile a red card from your hand rather than pay this spell's mana cost.
 Pyrokinesis deals 4 damage divided as you choose among any number of target creatures.</CardText>
 <Artist>Igor Kieryluk</Artist>
 <Multiverseid>373356</Multiverseid>
 <Rulings>2016/06/08: The number of targets must be at least one and at most four. Each target must be assigned at least 1 damage.
-2016/06/08: You divide the damage as you cast <Pyrokinesis>, not as it resolves. If any of the targets become illegal, damage is dealt to the other targets as originally assigned. If all targets are illegal, <Pyrokinesis> is countered.
+2016/06/08: You divide the damage as you cast <Pyrokinesis>, not as it resolves. If any of the targets become illegal, damage is dealt to the other targets as originally assigned. If all targets are illegal, <Pyrokinesis> doesn't resolve.
 2016/06/08: If another effect causes <Pyrokinesis> to cost more, you must pay that additional cost even if you pay its alternative cost.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -604,7 +604,7 @@ Pyrokinesis deals 4 damage divided as you choose among any number of target crea
 <Name>Boros Guildgate</Name>
 <Type>Land — Gate</Type>
 <CardText>Boros Guildgate enters the battlefield tapped.
-{T}: Add {R} or {W} to your mana pool.</CardText>
+{T}: Add {R} or {W}.</CardText>
 <Flavor>Enter with merciful hearts. Exit with battle cries.</Flavor>
 <Artist>Noah Bradley</Artist>
 <Multiverseid>373389</Multiverseid>
@@ -624,7 +624,7 @@ Pyrokinesis deals 4 damage divided as you choose among any number of target crea
 <Type>Land</Type>
 <CardText>New Benalia enters the battlefield tapped.
 When New Benalia enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
-{T}: Add {W} to your mana pool.</CardText>
+{T}: Add {W}.</CardText>
 <Artist>Richard Wright</Artist>
 <Multiverseid>373401</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -639,7 +639,7 @@ When New Benalia enters the battlefield, scry 1. (Look at the top card of your l
 <No>35</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Cliff Childs</Artist>
 <Multiverseid>373387</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -654,7 +654,7 @@ When New Benalia enters the battlefield, scry 1. (Look at the top card of your l
 <No>36</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Jonas De Ro</Artist>
 <Multiverseid>373382</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -669,7 +669,7 @@ When New Benalia enters the battlefield, scry 1. (Look at the top card of your l
 <No>37</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>373346</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -684,7 +684,7 @@ When New Benalia enters the battlefield, scry 1. (Look at the top card of your l
 <No>38</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>373411</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -699,7 +699,7 @@ When New Benalia enters the battlefield, scry 1. (Look at the top card of your l
 <No>39</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>373341</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -714,7 +714,7 @@ When New Benalia enters the battlefield, scry 1. (Look at the top card of your l
 <No>40</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>373369</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -729,7 +729,7 @@ When New Benalia enters the battlefield, scry 1. (Look at the top card of your l
 <No>41</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Michael Komarck</Artist>
 <Multiverseid>373386</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -744,7 +744,7 @@ When New Benalia enters the battlefield, scry 1. (Look at the top card of your l
 <No>42</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>373361</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -784,7 +784,7 @@ When Polukranos, World Eater becomes monstrous, it deals X damage divided as you
 <Name>Orcish Lumberjack</Name>
 <Type>Creature — Orc 1/1</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>{T}, Sacrifice a Forest: Add three mana in any combination of {R} and/or {G} to your mana pool.</CardText>
+<CardText>{T}, Sacrifice a Forest: Add three mana in any combination of {R} and/or {G}.</CardText>
 <Flavor>"Wood is wasted in the dirt."
 —Orcish proverb</Flavor>
 <Artist>Steve Prescott</Artist>
@@ -824,6 +824,9 @@ Whenever an opponent gains life, put that many +1/+1 counters on Kavu Predator.<
 <Flavor>In a withered world, the scent of healthy prey is enough to drive a predator to frenzy.</Flavor>
 <Artist>Dan Scott</Artist>
 <Multiverseid>373377</Multiverseid>
+<Rulings>2018/03/16: <Kavu Predator>'s last ability triggers just once for each life-gaining event, whether it's 1 life from Kor Firewalker or 6 life from Renewed Faith.
+2018/03/16: Each creature with lifelink dealing combat damage is a single life-gaining event. For example, if two creatures an opponent controls with lifelink deal combat damage at the same time, <Kavu Predator>'s ability will trigger twice. However, if a single creature an opponent controls with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+2018/03/16: If an opponent gains an amount of life "for each" of something (such as from Congregate), that life is gained as one event and <Kavu Predator>'s ability triggers only once.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -837,7 +840,7 @@ Whenever an opponent gains life, put that many +1/+1 counters on Kavu Predator.<
 <Name>Satyr Hedonist</Name>
 <Type>Creature — Satyr 2/1</Type>
 <ManaCost>1G (2)</ManaCost>
-<CardText>{R}, Sacrifice Satyr Hedonist: Add {R}{R}{R} to your mana pool.</CardText>
+<CardText>{R}, Sacrifice Satyr Hedonist: Add {R}{R}{R}.</CardText>
 <Flavor>"Any festival you can walk away from wasn't worth attending in the first place."</Flavor>
 <Artist>Chase Stone</Artist>
 <Multiverseid>373340</Multiverseid>
@@ -855,7 +858,7 @@ Whenever an opponent gains life, put that many +1/+1 counters on Kavu Predator.<
 <Name>Zhur-Taa Druid</Name>
 <Type>Creature — Human Druid 1/1</Type>
 <ManaCost>RG (2)</ManaCost>
-<CardText>{T}: Add {G} to your mana pool.
+<CardText>{T}: Add {G}.
 Whenever you tap Zhur-Taa Druid for mana, it deals 1 damage to each opponent.</CardText>
 <Flavor>"Only the decadent think magic should be pristine and without cost."</Flavor>
 <Artist>Mark Winters</Artist>
@@ -1039,7 +1042,7 @@ Flying
 <Name>Valley Rannet</Name>
 <Type>Creature — Beast 6/3</Type>
 <ManaCost>4RG (6)</ManaCost>
-<CardText>Mountaincycling {2}, forestcycling {2} ({2}, Discard this card: Search your library for a Mountain or Forest card, reveal it, and put it into your hand. Then shuffle your library.)</CardText>
+<CardText>Mountaincycling {2}, forestcycling {2} ({2}, Discard this card: Search your library for a Mountain or Forest card, reveal it, put it into your hand, then shuffle your library.)</CardText>
 <Artist>Dave Allsop</Artist>
 <Multiverseid>373390</Multiverseid>
 <Rulings>2009/05/01: Unlike the normal cycling ability, landcycling doesn't allow you to draw a card. Instead, it lets you search your library for a land card of the specified land type, reveal it, put it into your hand, then shuffle your library.
@@ -1066,7 +1069,7 @@ When you cycle Krosan Tusker, you may search your library for a basic land card,
 <Multiverseid>373394</Multiverseid>
 <Rulings>2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
 2008/10/01: When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
-2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability is countered (with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.</Rulings>
+2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (due to being countered with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Duel Decks: Heroes vs. Monsters</Set>
@@ -1080,7 +1083,7 @@ When you cycle Krosan Tusker, you may search your library for a basic land card,
 <Type>Creature — Giant Shaman 3/3</Type>
 <ManaCost>4RRG (7)</ManaCost>
 <CardText>Bloodthirst 3 (If an opponent was dealt damage this turn, this creature enters the battlefield with three +1/+1 counters on it.)
-{1}, Sacrifice Skarrgan Skybreaker: Skarrgan Skybreaker deals damage equal to its power to target creature or player.</CardText>
+{1}, Sacrifice Skarrgan Skybreaker: It deals damage equal to its power to any target.</CardText>
 <Flavor>"The sky isn't falling—it's being thrown at us!"
 —Otak, Tin Street shopkeep</Flavor>
 <Artist>Dan Scott</Artist>
@@ -1098,7 +1101,7 @@ When you cycle Krosan Tusker, you may search your library for a basic land card,
 <Name>Shower of Sparks</Name>
 <Type>Instant</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>Shower of Sparks deals 1 damage to target creature and 1 damage to target player.</CardText>
+<CardText>Shower of Sparks deals 1 damage to target creature and 1 damage to target player or planeswalker.</CardText>
 <Flavor>The viashino had learned how to operate the rig through trial and error—mostly error.</Flavor>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>373355</Multiverseid>
@@ -1172,7 +1175,7 @@ When you cycle Krosan Tusker, you may search your library for a basic land card,
 <Flavor>Elmut had slaughtered vampires, slain werewolves, and destroyed hordes of zombies. Sadly, he never got over his fear of spiders.</Flavor>
 <Artist>Jaime Jones</Artist>
 <Multiverseid>373380</Multiverseid>
-<Rulings>2012/05/01: Although <Terrifying Presence> doesn't affect the target creature, if that creature is an illegal target when <Terrifying Presence> tries to resolve, it will be countered and none of its effects will happen. No damage will be prevented.</Rulings>
+<Rulings>2012/05/01: Although <Terrifying Presence> doesn't affect the target creature, if that creature is an illegal target when <Terrifying Presence> tries to resolve, it won't resolve and none of its effects will happen. No damage will be prevented.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1191,7 +1194,7 @@ When you cycle Krosan Tusker, you may search your library for a basic land card,
 —Xenagos, the Reveler</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>373351</Multiverseid>
-<Rulings>2013/09/15: You must target an artifact or enchantment to cast <Destructive Revelry>. If that artifact or enchantment is an illegal target when <Destructive Revelry> tries to resolve, it will be countered and none of its effects will happen. No damage will be dealt. However, if <Destructive Revelry> resolves and the artifact or enchantment isn't destroyed (perhaps because it has indestructible), damage will be dealt.</Rulings>
+<Rulings>2013/09/15: You must target an artifact or enchantment to cast <Destructive Revelry>. If that artifact or enchantment is an illegal target when <Destructive Revelry> tries to resolve, it won't resolve and none of its effects will happen. No damage will be dealt. However, if <Destructive Revelry> resolves and the artifact or enchantment isn't destroyed (perhaps because it has indestructible), damage will be dealt.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1222,10 +1225,10 @@ When you cycle Krosan Tusker, you may search your library for a basic land card,
 <Name>Volt Charge</Name>
 <Type>Instant</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>Volt Charge deals 3 damage to target creature or player. Proliferate. (You choose any number of permanents and/or players with counters on them, then give each another counter of a kind already there.)</CardText>
+<CardText>Volt Charge deals 3 damage to any target. Proliferate. (You choose any number of permanents and/or players with counters on them, then give each another counter of a kind already there.)</CardText>
 <Artist>Jana Schirmer & Johannes Voss</Artist>
 <Multiverseid>373414</Multiverseid>
-<Rulings>2011/06/01: If the creature or player is an illegal target when <Volt Charge> tries to resolve, it will be countered and none of its effects will happen. You won't proliferate.</Rulings>
+<Rulings>2011/06/01: If the permanent or player is an illegal target when <Volt Charge> tries to resolve, it won't resolve and none of its effects will happen. You won't proliferate.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1244,7 +1247,7 @@ When you cycle Krosan Tusker, you may search your library for a basic land card,
 —Euphemia, Nexus watcher</Flavor>
 <Artist>Jesper Ejsing</Artist>
 <Multiverseid>373352</Multiverseid>
-<Rulings>2011/06/01: If the permanent is an illegal target when <Beast Within> tries to resolve, the spell will be countered and none of its effects will happen. The permanent's controller won't get a Beast token.
+<Rulings>2011/06/01: If the permanent is an illegal target when <Beast Within> tries to resolve, the spell won't resolve and none of its effects will happen. The permanent's controller won't get a Beast token.
 2013/07/01: If the permanent is still a legal target but is not destroyed (perhaps because it regenerated or has indestructible), its controller still gets the Beast token.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1277,7 +1280,7 @@ Sacrifice Fires of Yavimaya: Target creature gets +2/+2 until end of turn.</Card
 <Type>Land</Type>
 <CardText>Kazandu Refuge enters the battlefield tapped.
 When Kazandu Refuge enters the battlefield, you gain 1 life.
-{T}: Add {R} or {G} to your mana pool.</CardText>
+{T}: Add {R} or {G}.</CardText>
 <Artist>Franz Vohwinkel</Artist>
 <Multiverseid>373412</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1293,7 +1296,7 @@ When Kazandu Refuge enters the battlefield, you gain 1 life.
 <Name>Llanowar Reborn</Name>
 <Type>Land</Type>
 <CardText>Llanowar Reborn enters the battlefield tapped.
-{T}: Add {G} to your mana pool.
+{T}: Add {G}.
 Graft 1 (This land enters the battlefield with a +1/+1 counter on it. Whenever a creature enters the battlefield, you may move a +1/+1 counter from this land onto it.)</CardText>
 <Artist>Philip Straub</Artist>
 <Multiverseid>373368</Multiverseid>
@@ -1310,7 +1313,7 @@ Graft 1 (This land enters the battlefield with a +1/+1 counter on it. Whenever a
 <No>73</No>
 <Name>Skarrg, the Rage Pits</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {R}{G}, {T}: Target creature gets +1/+1 and gains trample until end of turn.</CardText>
 <Flavor>"This palace will be our fire-spit, and roasted prince our victory meal. Send in the torch-pigs!"
 —Ghut Rak, Gruul guildmage</Flavor>
@@ -1328,7 +1331,7 @@ Graft 1 (This land enters the battlefield with a +1/+1 counter on it. Whenever a
 <No>74</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>373392</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1343,7 +1346,7 @@ Graft 1 (This land enters the battlefield with a +1/+1 counter on it. Whenever a
 <No>75</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>D. Alexander Gregory</Artist>
 <Multiverseid>373359</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1358,7 +1361,7 @@ Graft 1 (This land enters the battlefield with a +1/+1 counter on it. Whenever a
 <No>76</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Dave Kendall</Artist>
 <Multiverseid>373403</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1373,7 +1376,7 @@ Graft 1 (This land enters the battlefield with a +1/+1 counter on it. Whenever a
 <No>77</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Andreas Rocha</Artist>
 <Multiverseid>373378</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1388,7 +1391,7 @@ Graft 1 (This land enters the battlefield with a +1/+1 counter on it. Whenever a
 <No>78</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>373349</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1403,7 +1406,7 @@ Graft 1 (This land enters the battlefield with a +1/+1 counter on it. Whenever a
 <No>79</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Chippy</Artist>
 <Multiverseid>373375</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1418,7 +1421,7 @@ Graft 1 (This land enters the battlefield with a +1/+1 counter on it. Whenever a
 <No>80</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Jonas De Ro</Artist>
 <Multiverseid>373404</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1433,7 +1436,7 @@ Graft 1 (This land enters the battlefield with a +1/+1 counter on it. Whenever a
 <No>81</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Ryan Pancoast</Artist>
 <Multiverseid>373374</Multiverseid>
 <Vintage>Legal</Vintage>

@@ -123,7 +123,7 @@ When Elgaud Inquisitor dies, create a 1/1 white Spirit creature token with flyin
 Fateful hour — If you have 5 or less life, instead you and each permanent you control gain protection from the color of your choice until end of turn.</CardText>
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>262696</Multiverseid>
-<Rulings>2011/01/22: <Faith's Shield> targets a permanent regardless of how much life you have. If that permanent is an illegal target when <Faith's Shield> tries to resolve, <Faith's Shield> will be countered and none of its effects will happen. Neither you nor any of your permanents will gain protection from a color.
+<Rulings>2011/01/22: <Faith's Shield> targets a permanent regardless of how much life you have. If that permanent is an illegal target when <Faith's Shield> tries to resolve, <Faith's Shield> won't resolve and none of its effects will happen. Neither you nor any of your permanents will gain protection from a color.
 2011/01/22: You choose only one color (not one color per player and permanent). You choose the color as <Faith's Shield> resolves.
 2011/01/22: A player with protection from a color can't be damaged, enchanted (including by Curses), or targeted by anything of that color.</Rulings>
 <Vintage>Legal</Vintage>
@@ -463,9 +463,8 @@ Noncreature spells cost {1} more to cast.</CardText>
 <Flavor>"Thraben is our home and I will not see it fall to this unhallowed horde."</Flavor>
 <Artist>Jana Schirmer & Johannes Voss</Artist>
 <Multiverseid>270445</Multiverseid>
-<Rulings>2011/01/22: The ability affects each spell that's not a creature spell, including your own.
-2011/01/22: The ability affects the total cost of each noncreature spell, but it doesn't change that spell's mana cost or converted mana cost.
-2011/01/22: When determining a spell's total cost, effects that increase the cost are applied before effects that reduce the cost.</Rulings>
+<Rulings>2018/03/16: Thalia's ability affects each spell that's not a creature spell, including your own.
+2018/03/16: To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The converted mana cost of the spell remains unchanged, no matter what the total cost to cast it was.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -538,7 +537,7 @@ Flashback {U} (You may cast this card from your graveyard for its flashback cost
 <Flavor>"Come, let me free you of the tyranny of thought."</Flavor>
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>227080</Multiverseid>
-<Rulings>2011/01/22: In order to activate the ability, you must be able to target a creature with power less than or equal to the number of creatures you control. The comparison is made again when the ability resolves. If the power is greater than the number of creatures you control at that time, the target is illegal and the ability is countered.
+<Rulings>2011/01/22: In order to activate the ability, you must be able to target a creature with power less than or equal to the number of creatures you control. The comparison is made again when the ability resolves. If the power is greater than the number of creatures you control at that time, the target is illegal and the ability doesn't resolve.
 2011/01/22: The control-changing effect lasts indefinitely, even if the power of the creature becomes greater than the number of creatures you control after the ability resolves.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -559,7 +558,7 @@ Draw a card.</CardText>
 —Ludevic, necro-alchemist</Flavor>
 <Artist>Clint Cearley</Artist>
 <Multiverseid>262845</Multiverseid>
-<Rulings>2011/01/22: If the creature spell is an illegal target (because it's left the stack, for example) when <Bone to Ash> tries to resolve, <Bone to Ash> will be countered and none of its effects will happen. You won't draw a card.
+<Rulings>2011/01/22: If the creature spell is an illegal target (because it's left the stack, for example) when <Bone to Ash> tries to resolve, <Bone to Ash> won't resolve and none of its effects will happen. You won't draw a card.
 2011/01/22: A creature spell that can't be countered by spells and abilities is a legal target for <Bone to Ash>. The creature spell won't be countered when <Bone to Ash> resolves, but you'll still draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -611,7 +610,7 @@ Enchanted creature gets -13/-0.</CardText>
 <Name>Chill of Foreboding</Name>
 <Type>Sorcery</Type>
 <ManaCost>2U (3)</ManaCost>
-<CardText>Each player puts the top five cards of his or her library into his or her graveyard.
+<CardText>Each player puts the top five cards of their library into their graveyard.
 Flashback {7}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</CardText>
 <Flavor>"Wait . . . did you fellows hear something?"</Flavor>
 <Artist>Terese Nielsen</Artist>
@@ -650,10 +649,10 @@ Flashback {7}{U} (You may cast this card from your graveyard for its flashback c
 <Type>Enchantment — Aura Curse</Type>
 <ManaCost>4U (5)</ManaCost>
 <CardText>Enchant player
-Whenever enchanted player casts an instant or sorcery spell, each other player may copy that spell and may choose new targets for the copy he or she controls.</CardText>
+Whenever enchanted player casts an instant or sorcery spell, each other player may copy that spell and may choose new targets for the copy they control.</CardText>
 <Artist>Slawomir Maniak</Artist>
 <Multiverseid>262841</Multiverseid>
-<Rulings>2011/01/22: When the triggered ability resolves, it creates a copy of that spell for each other player. The active player creates his or her copy and may choose new targets first (if that player isn't the enchanted player), then each other player (except the enchanted player) creates his or her copy and may choose new targets in turn order. The last player who creates his or her copy controls the copy that will resolve first.
+<Rulings>2011/01/22: When the triggered ability resolves, it creates a copy of that spell for each other player. The active player creates their copy and may choose new targets first (if that player isn't the enchanted player), then each other player (except the enchanted player) creates their copy and may choose new targets in turn order. The last player who creates their copy controls the copy that will resolve first.
 2011/01/22: All the copies are created on the stack, so none of them are cast. Abilities that trigger when a player casts a spell won't trigger. The copies will then resolve as normal, after players get a chance to cast spells and activate abilities.
 2011/01/22: Each copy will have the same targets as the spell it's copying unless its controller chooses new ones. That player may change any number of the targets, including all of them or none of them. If, for one of the targets, that player can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
 2011/01/22: If the original spell is modal (that is, it says "Choose one —" or the like), each copy will have the same mode(s). You can't choose different ones.
@@ -709,7 +708,7 @@ When Dungeon Geists enters the battlefield, tap target creature an opponent cont
 <Name>Geralf's Mindcrusher</Name>
 <Type>Creature — Zombie Horror 5/5</Type>
 <ManaCost>4UU (6)</ManaCost>
-<CardText>When Geralf's Mindcrusher enters the battlefield, target player puts the top five cards of his or her library into his or her graveyard.
+<CardText>When Geralf's Mindcrusher enters the battlefield, target player puts the top five cards of their library into their graveyard.
 Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)</CardText>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>262839</Multiverseid>
@@ -763,7 +762,7 @@ Undying (When this creature dies, if it had no +1/+1 counters on it, return it t
 <Name>Headless Skaab</Name>
 <Type>Creature — Zombie Warrior 3/6</Type>
 <ManaCost>2U (3)</ManaCost>
-<CardText>As an additional cost to cast Headless Skaab, exile a creature card from your graveyard.
+<CardText>As an additional cost to cast this spell, exile a creature card from your graveyard.
 Headless Skaab enters the battlefield tapped.</CardText>
 <Flavor>A head is a needless encumbrance when muscle is all that's required.</Flavor>
 <Artist>Johann Bodin</Artist>
@@ -783,7 +782,7 @@ Headless Skaab enters the battlefield tapped.</CardText>
 <Name>Increasing Confusion</Name>
 <Type>Sorcery</Type>
 <ManaCost>XU (1)</ManaCost>
-<CardText>Target player puts the top X cards of his or her library into his or her graveyard. If Increasing Confusion was cast from a graveyard, that player puts twice that many cards into his or her graveyard instead.
+<CardText>Target player puts the top X cards of their library into their graveyard. If Increasing Confusion was cast from a graveyard, that player puts twice that many cards into their graveyard instead.
 Flashback {X}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</CardText>
 <Artist>Dan Scott</Artist>
 <Multiverseid>262856</Multiverseid>
@@ -857,7 +856,7 @@ Flying</CardText>
 <Name>Relentless Skaabs</Name>
 <Type>Creature — Zombie 4/4</Type>
 <ManaCost>3UU (5)</ManaCost>
-<CardText>As an additional cost to cast Relentless Skaabs, exile a creature card from your graveyard.
+<CardText>As an additional cost to cast this spell, exile a creature card from your graveyard.
 Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)</CardText>
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>262701</Multiverseid>
@@ -933,7 +932,7 @@ Flashback {W} (You may cast this card from your graveyard for its flashback cost
 <Type>Creature — Spirit 1/1</Type>
 <ManaCost>1U (2)</ManaCost>
 <CardText>Flying
-Whenever Shriekgeist deals combat damage to a player, that player puts the top two cards of his or her library into his or her graveyard.</CardText>
+Whenever Shriekgeist deals combat damage to a player, that player puts the top two cards of their library into their graveyard.</CardText>
 <Flavor>Wounds of the flesh are easy to heal. Wounds of the mind may never be undone.</Flavor>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>242525</Multiverseid>
@@ -954,7 +953,7 @@ Whenever Shriekgeist deals combat damage to a player, that player puts the top t
 When Soul Seizer deals combat damage to a player, you may transform it. If you do, attach it to target creature that player controls.</CardText>
 <Artist>Lucas Graciano</Artist>
 <Multiverseid>222178</Multiverseid>
-<Rulings>2011/01/22: You choose the target for <Soul Seizer>'s triggered ability when that ability triggers and goes on the stack. You choose whether or not to transform it when that ability resolves. If the creature is an illegal target by that time, the ability is countered and none of its effects happen. You can't have <Soul Seizer> transform.
+<Rulings>2011/01/22: You choose the target for <Soul Seizer>'s triggered ability when that ability triggers and goes on the stack. You choose whether or not to transform it when that ability resolves. If the creature is an illegal target by that time, the ability doesn't resolve and none of its effects happen. You can't have <Soul Seizer> transform.
 2011/01/22: If <Soul Seizer> leaves the battlefield in response to its triggered ability, you won't be able to transform it and it won't return to the battlefield or become attached to the target.
 2011/01/22: If <Soul Seizer> has any +1/+1 counters on it when it transforms, they remain on Ghastly Haunting. They won't affect the power or toughness of the enchanted creature, however.
 2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).</Rulings>
@@ -1009,13 +1008,13 @@ Undying (When this creature dies, if it had no +1/+1 counters on it, return it t
 <Name>Thought Scour</Name>
 <Type>Instant</Type>
 <ManaCost>U (1)</ManaCost>
-<CardText>Target player puts the top two cards of his or her library into his or her graveyard.
+<CardText>Target player puts the top two cards of their library into their graveyard.
 Draw a card.</CardText>
 <Flavor>"As you inject the viscus vitae into the brain stem, don't let the spastic moaning bother you. It will soon become music to your ears."
 —Stitcher Geralf</Flavor>
 <Artist>David Rapoza</Artist>
 <Multiverseid>262838</Multiverseid>
-<Rulings>2011/01/22: If the target player is an illegal target when <Thought Scour> tries to resolve, it will be countered and none of its effects will happen. You won't draw a card.
+<Rulings>2011/01/22: If the target player is an illegal target when <Thought Scour> tries to resolve, it won't resolve and none of its effects will happen. You won't draw a card.
 2011/01/22: Follow the instructions in the order listed on the card: if you target yourself, you'll put the top two cards of your library into your graveyard and then draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1122,7 +1121,7 @@ At the beginning of your upkeep, you may search your library for a Curse card th
 <Type>Enchantment — Aura Curse</Type>
 <ManaCost>4B (5)</ManaCost>
 <CardText>Enchant player
-At the beginning of enchanted player's upkeep, Curse of Thirst deals damage to that player equal to the number of Curses attached to him or her.</CardText>
+At the beginning of enchanted player's upkeep, Curse of Thirst deals damage to that player equal to the number of Curses attached to them.</CardText>
 <Flavor>"May you drink until you drown but never be sated."
 —Odila, witch of Morkrut</Flavor>
 <Artist>Christopher Moeller</Artist>
@@ -1165,7 +1164,7 @@ Flashback {G} (You may cast this card from your graveyard for its flashback cost
 <Artist>James Ryman</Artist>
 <Multiverseid>262854</Multiverseid>
 <Rulings>2011/01/22: Check the creature as it last existed on the battlefield to determine if it was a Human. If it was, use its toughness as it last existed on the battlefield to determine how much life is gained.
-2011/01/22: If the target creature isn't on the battlefield or is otherwise an illegal target when <Death's Caress> tries to resolve, <Death's Caress> is countered and none of its effects will happen. You won't gain any life.
+2011/01/22: If the target creature isn't on the battlefield or is otherwise an illegal target when <Death's Caress> tries to resolve, <Death's Caress> doesn't resolve and none of its effects will happen. You won't gain any life.
 2013/07/01: If <Death's Caress> resolves but the target creature isn't destroyed, perhaps because it has indestructible or it regenerated, you still check if it's a Human. If so, you'll gain life equal to its toughness.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1219,7 +1218,7 @@ Flashback {G} (You may cast this card from your graveyard for its flashback cost
 <Type>Creature — Vampire Wizard 3/3</Type>
 <ManaCost>3BB (5)</ManaCost>
 <CardText>Flying
-Whenever Fiend of the Shadows deals combat damage to a player, that player exiles a card from his or her hand. You may play that card for as long as it remains exiled.
+Whenever Fiend of the Shadows deals combat damage to a player, that player exiles a card from their hand. You may play that card for as long as it remains exiled.
 Sacrifice a Human: Regenerate Fiend of the Shadows.</CardText>
 <Artist>Igor Kieryluk</Artist>
 <Multiverseid>262837</Multiverseid>
@@ -1287,8 +1286,8 @@ Draw a card.</CardText>
 <Multiverseid>220056</Multiverseid>
 <Rulings>2011/01/22: You choose the order of the cards you put on top of your library.
 2011/01/22: You can cast <Gravepurge> with zero targets. If you do, you'll draw a card as the spell resolves.
-2011/01/22: If you cast <Gravepurge> with at least one target and all of those targets become illegal, the spell will be countered and you won't get to draw a card.
-2015/02/25: You can cast <Gravepurge> with no targets. If you do, you'll just draw a card. However, if you cast it with at least one target and all of those targets become illegal, the spell will be countered and you won't draw a card.</Rulings>
+2011/01/22: If you cast <Gravepurge> with at least one target and all of those targets become illegal, the spell won't resolve and you won't get to draw a card.
+2015/02/25: You can cast <Gravepurge> with no targets. If you do, you'll just draw a card. However, if you cast it with at least one target and all of those targets become illegal, the spell won't resolve and you won't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1303,7 +1302,7 @@ Draw a card.</CardText>
 <Type>Sorcery</Type>
 <ManaCost>2BB (4)</ManaCost>
 <CardText>Target player discards two cards.
-Morbid — If a creature died this turn, instead that player reveals his or her hand, you choose two cards from it, then that player discards those cards.</CardText>
+Morbid — If a creature died this turn, instead that player reveals their hand, you choose two cards from it, then that player discards those cards.</CardText>
 <Artist>John Stanko</Artist>
 <Multiverseid>262843</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1705,8 +1704,7 @@ If a source would deal damage to enchanted player, it deals double that damage t
 <Rulings>2011/01/22: <Curse of Bloodletting> works with any damage, not just combat damage. It also doesn't matter who controls the source of the damage that's being dealt.
 2011/01/22: The source of the damage doesn't change. A spell that deals damage will specify the source of the damage, often the spell itself. An ability that deals damage will also specify the source of the damage, although the ability itself will never be that source. Often the source of the ability is also the source of the damage.
 2011/01/22: If more than one <Curse of Bloodletting> enchants the same player, damage dealt to that player will double for each one (two of them will end up multiplying the damage by four, three of them by eight, and four of them by sixteen).
-2011/01/22: If multiple effects modify how damage will be dealt to the enchanted player, that player chooses the order to apply the effects. For example, Mending Hands says, "Prevent the next 4 damage that would be dealt to target creature or player this turn." Suppose a spell would deal 5 damage to enchanted player and that player has cast Mending Hands targeting him or herself. The enchanted player can either (a) prevent 4 damage first and then let <Curse of Bloodletting>'s effect double the remaining 1 damage, taking 2 damage, or (b) double the damage to 10 and then prevent 4 damage, taking 6 damage.
-2011/01/22: If the enchanted player controls a planeswalker and noncombat damage is being dealt to the player from a source controlled by an opponent, the enchanted player will choose whether to apply <Curse of Bloodletting> or the planeswalker redirection effect first. If the player chooses to apply the planeswalker redirection effect first, and the opponent chooses to redirect the damage to the planeswalker, then <Curse of Bloodletting> won't double the damage.</Rulings>
+2011/01/22: If multiple effects modify how damage will be dealt to the enchanted player, that player chooses the order to apply the effects. For example, Mending Hands says, "Prevent the next 4 damage that would be dealt to any target this turn." Suppose a spell would deal 5 damage to enchanted player and that player has cast Mending Hands targeting themselves. The enchanted player can either (a) prevent 4 damage first and then let <Curse of Bloodletting>'s effect double the remaining 1 damage, taking 2 damage, or (b) double the damage to 10 and then prevent 4 damage, taking 6 damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1759,7 +1757,7 @@ Flashback {2}{R} (You may cast this card from your graveyard for its flashback c
 <Name>Fires of Undeath</Name>
 <Type>Instant</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>Fires of Undeath deals 2 damage to target creature or player.
+<CardText>Fires of Undeath deals 2 damage to any target.
 Flashback {5}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</CardText>
 <Flavor>"I drink of those who are worthy of my palate. The rest I burn."</Flavor>
 <Artist>Jason Chan</Artist>
@@ -1778,11 +1776,11 @@ Flashback {5}{B} (You may cast this card from your graveyard for its flashback c
 <Type>Creature — Devil 4/2</Type>
 <ManaCost>5R (6)</ManaCost>
 <CardText>Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)
-Whenever Flayer of the Hatebound or another creature enters the battlefield from your graveyard, that creature deals damage equal to its power to target creature or player.</CardText>
+Whenever Flayer of the Hatebound or another creature enters the battlefield from your graveyard, that creature deals damage equal to its power to any target.</CardText>
 <Artist>Jana Schirmer & Johannes Voss</Artist>
 <Multiverseid>262853</Multiverseid>
 <Rulings>2011/01/22: <Flayer of the Hatebound>'s last ability will trigger even if a creature enters the battlefield from your graveyard under another player's control.
-2011/01/22: The creature that entered the battlefield from your graveyard deals damage equal to its current power (including any +1/+1 counters it entered the battlefield with) to the target creature or player. If it's no longer on the battlefield when the ability resolves, its last known existence on the battlefield is checked to determine its power.
+2011/01/22: The creature that entered the battlefield from your graveyard deals damage equal to its current power (including any +1/+1 counters it entered the battlefield with) to the target permanent or player. If it's no longer on the battlefield when the ability resolves, its last known existence on the battlefield is checked to determine its power.
 2011/01/22: <Flayer of the Hatebound> is the source of the ability, but it may be another creature that is the source of the damage. If a black creature enters the battlefield from your graveyard, the ability could target a creature with protection from black, although the damage will be prevented. It couldn't target a creature with protection from red.
 2011/01/22: Since damage is dealt by the creature, abilities like lifelink and deathtouch are taken into account, even if the creature has left the battlefield by the time it deals damage.
 2011/01/22: If you cast a creature card from your graveyard, that card will be put on the stack before entering the battlefield. <Flayer of the Hatebound> won't trigger.</Rulings>
@@ -1799,8 +1797,8 @@ Whenever Flayer of the Hatebound or another creature enters the battlefield from
 <Name>Fling</Name>
 <Type>Instant</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>As an additional cost to cast Fling, sacrifice a creature.
-Fling deals damage equal to the sacrificed creature's power to target creature or player.</CardText>
+<CardText>As an additional cost to cast this spell, sacrifice a creature.
+Fling deals damage equal to the sacrificed creature's power to any target.</CardText>
 <Flavor>Masters of the sword know the blade is not the only weapon at their disposal.</Flavor>
 <Artist>Izzy</Artist>
 <Multiverseid>262871</Multiverseid>
@@ -1859,14 +1857,12 @@ Fling deals damage equal to the sacrificed creature's power to target creature o
 <Type>Creature — Devil 3/3</Type>
 <ManaCost>2RR (4)</ManaCost>
 <CardText>Haste
-Whenever a creature you control attacks, Hellrider deals 1 damage to defending player.</CardText>
+Whenever a creature you control attacks, Hellrider deals 1 damage to the player or planeswalker it's attacking.</CardText>
 <Flavor>"Behind every devil's mayhem lurks a demon's scheme."
 —Rem Karolus, Blade of the Inquisitors</Flavor>
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>226874</Multiverseid>
-<Rulings>2017/03/14: The damage dealt by <Hellrider>'s triggered ability isn't combat damage and may be redirected to a planeswalker controlled by the defending player.
-2017/03/14: If a creature you control attacks a planeswalker, the defending player is the controller of that planeswalker.
-2017/03/14: In some multiplayer variants, creatures you control may attack multiple players and/or planeswalkers. For each attacking creature, <Hellrider> will deal damage to the corresponding defending player.</Rulings>
+<Rulings>2017/03/14: Creatures you control may attack multiple players and/or planeswalkers. For each attacking creature, <Hellrider> will deal damage to the corresponding player or planeswalker.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2095,7 +2091,7 @@ Undying (When this creature dies, if it had no +1/+1 counters on it, return it t
 —Minaldra, the Vizag Atum</Flavor>
 <Artist>Jaime Jones</Artist>
 <Multiverseid>262828</Multiverseid>
-<Rulings>2011/01/22: If the targeted land is an illegal target when <Scorch the Fields> tries to resolve, it will be countered and none of its effects will happen. No damage will be dealt to any Human.
+<Rulings>2011/01/22: If the targeted land is an illegal target when <Scorch the Fields> tries to resolve, it won't resolve and none of its effects will happen. No damage will be dealt to any Human.
 2011/01/22: <Scorch the Fields> doesn't target any Humans. You can cast <Scorch the Fields> even if there aren't any Humans on the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2313,7 +2309,7 @@ Whenever enchanted creature blocks, you gain 3 life.</CardText>
 <Name>Ghoultree</Name>
 <Type>Creature — Zombie Treefolk 10/10</Type>
 <ManaCost>7G (8)</ManaCost>
-<CardText>Ghoultree costs {1} less to cast for each creature card in your graveyard.</CardText>
+<CardText>This spell costs {1} less to cast for each creature card in your graveyard.</CardText>
 <Flavor>It uproots entire fengrafs to add to its twisted frame.</Flavor>
 <Artist>Volkan Baga</Artist>
 <Multiverseid>262662</Multiverseid>
@@ -2514,7 +2510,7 @@ Whenever a creature dealt damage by Predator Ooze this turn dies, put a +1/+1 co
 <Name>Scorned Villager</Name>
 <Type>Creature — Human Werewolf 1/1</Type>
 <ManaCost>1G (2)</ManaCost>
-<CardText>{T}: Add {G} to your mana pool.
+<CardText>{T}: Add {G}.
 At the beginning of each upkeep, if no spells were cast last turn, transform Scorned Villager.</CardText>
 <Flavor>"My village's fear drove me into the wild . . ."</Flavor>
 <Artist>Cynthia Sheppard</Artist>
@@ -2535,7 +2531,7 @@ At the beginning of each upkeep, if no spells were cast last turn, transform Sco
 <Type>Creature — Werewolf 2/2</Type>
 <ColorIndicator>Green</ColorIndicator>
 <CardText>Vigilance
-{T}: Add {G}{G} to your mana pool.
+{T}: Add {G}{G}.
 At the beginning of each upkeep, if a player cast two or more spells last turn, transform Moonscarred Werewolf.</CardText>
 <Flavor>". . . and I will bring the fury of the wild back to my village."</Flavor>
 <Artist>Cynthia Sheppard</Artist>
@@ -2859,11 +2855,10 @@ At the beginning of each upkeep, if no spells were cast last turn, transform Hun
 <Type>Creature — Werewolf 4/4</Type>
 <ColorIndicator>Red Green</ColorIndicator>
 <CardText>Trample
-Whenever this creature transforms into Ravager of the Fells, it deals 2 damage to target opponent and 2 damage to up to one target creature that player controls.
+Whenever this creature transforms into Ravager of the Fells, it deals 2 damage to target opponent or planeswalker and 2 damage to up to one target creature that player or that planeswalker's controller controls.
 At the beginning of each upkeep, if a player cast two or more spells last turn, transform Ravager of the Fells.</CardText>
 <Artist>Chris Rahn</Artist>
 <Multiverseid>262699</Multiverseid>
-<Rulings>2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2942,7 +2937,7 @@ Other Vampire creatures you control get +1/+1 and have first strike.</CardText>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
 <CardText>Altar of the Lost enters the battlefield tapped.
-{T}: Add two mana in any combination of colors to your mana pool. Spend this mana only to cast spells with flashback from a graveyard.</CardText>
+{T}: Add two mana in any combination of colors. Spend this mana only to cast spells with flashback from a graveyard.</CardText>
 <Artist>Daarken</Artist>
 <Multiverseid>262846</Multiverseid>
 <Rulings>2011/01/22: <Altar of the Lost> doesn't allow you to cast spells from any other player's graveyard, although you can spend the mana it produces on such spells if something else allows you to.
@@ -3047,11 +3042,6 @@ Whenever a player loses the game, put thirteen +1/+1 counters on Withengar Unbou
 <Flavor>There are not enough lives on Innistrad to satisfy his thirst for retribution.</Flavor>
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>244738</Multiverseid>
-<Rulings>2011/01/22: The "legend rule" checks only for permanents with exactly the same name. Elbrus, the Binding Blade and <Withengar Unbound> can be on the battlefield at the same time without either going to its owner's graveyard.
-2011/01/22: Elbrus will transform even if you are unable to unattach it (most likely because the equipped creature died).
-2011/01/22: Withengar's triggered ability will trigger no matter how a player loses the game: due to a state-based action (as a result of having a life total of 0 or less, trying to draw a card from an empty library, or having ten poison counters), a spell or ability that says that player loses the game, a concession, or a game loss awarded by a judge.
-2011/01/22: In a multiplayer game using the limited range of influence option (such as a Grand Melee game), if a spell or ability says that you win the game, it instead causes all of your opponents within your range of influence to lose the game. This is another way by which Withengar's ability can trigger.
-2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3159,7 +3149,7 @@ When Helvault is put into a graveyard from the battlefield, return all cards exi
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
 <CardText>Warden of the Wall enters the battlefield tapped.
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 As long as it's not your turn, Warden of the Wall is a 2/3 Gargoyle artifact creature with flying.</CardText>
 <Artist>Daniel Ljunggren</Artist>
 <Multiverseid>247130</Multiverseid>
@@ -3177,7 +3167,7 @@ As long as it's not your turn, Warden of the Wall is a 2/3 Gargoyle artifact cre
 <Name>Wolfhunter's Quiver</Name>
 <Type>Artifact — Equipment</Type>
 <ManaCost>1 (1)</ManaCost>
-<CardText>Equipped creature has "{T}: This creature deals 1 damage to target creature or player" and "{T}: This creature deals 3 damage to target Werewolf creature."
+<CardText>Equipped creature has "{T}: This creature deals 1 damage to any target" and "{T}: This creature deals 3 damage to target Werewolf creature."
 Equip {5}</CardText>
 <Flavor>"Steel in the heart, silver in the bow."
 —Wolfhunter's creed</Flavor>
@@ -3215,7 +3205,7 @@ Equip {5}</CardText>
 <No>156</No>
 <Name>Grim Backwoods</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {2}{B}{G}, {T}, Sacrifice a creature: Draw a card.</CardText>
 <Flavor>"I love what they've done with the place."
 —Liliana Vess</Flavor>
@@ -3233,13 +3223,14 @@ Equip {5}</CardText>
 <No>157</No>
 <Name>Haunted Fengraf</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {3}, {T}, Sacrifice Haunted Fengraf: Return a creature card at random from your graveyard to your hand.</CardText>
 <Flavor>A ghoulcaller's playground.</Flavor>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>245289</Multiverseid>
-<Rulings>2011/01/22: The creature card returned to your hand is chosen at random as the ability resolves. If any player responds to the ability, that player won't yet know what card will be returned.
-2011/01/22: Because the ability doesn't target any creature card, any creature card put into the graveyard in response to that ability may be returned to your hand.</Rulings>
+<Rulings>2018/03/16: The creature card returned to your hand is chosen at random as the ability resolves. If any player responds to the ability, that player won't yet know what card will be returned.
+2018/03/16: Because <Haunted Fengraf>'s ability doesn't target any creature card, any creature card put into the graveyard in response to that ability may be returned to your hand.
+2018/03/16: All players get to see which card you return to your hand.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3252,7 +3243,7 @@ Equip {5}</CardText>
 <No>158</No>
 <Name>Vault of the Archangel</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {2}{W}{B}, {T}: Creatures you control gain deathtouch and lifelink until end of turn.</CardText>
 <Flavor>"For centuries my creation kept this world in balance. Now only her shadow remains."
 —Sorin Markov</Flavor>

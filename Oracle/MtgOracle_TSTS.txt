@@ -8,6 +8,7 @@
 <Flavor>"No rest. No mercy. No matter what."</Flavor>
 <Artist>Ron Spears</Artist>
 <Multiverseid>106645</Multiverseid>
+<Rulings>2018/03/16: The "legend rule" cares about legendary permanents with the exact same English name. You can control <Akroma, Angel of Wrath> and Akroma, Angel of Fury at the same time.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -133,8 +134,7 @@ Whenever a creature is put into your graveyard from the battlefield, return it t
 2004/10/04: Token creatures cease to exist if they leave the battlefield, so this effect will not let you get them in your hand.
 2006/07/15: The last ability is now a triggered ability, not a replacement effect. That means your opponent has the opportunity to remove the card from your graveyard while the triggered ability is still on the stack.
 2006/09/25: Unless something weird happens, the card you draw as a result of the second ability will be the card you revealed.
-2006/09/25: If, after the last ability triggers, the creature card is removed from your graveyard in response, it won't be returned to your hand.
-2008/04/01: A "creature card" is any card with the type creature, even if it has other types such as artifact, enchantment, or land. Older cards of type summon are also creature cards.</Rulings>
+2006/09/25: If, after the last ability triggers, the creature card is removed from your graveyard in response, it won't be returned to your hand.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -168,7 +168,7 @@ Whenever a creature is put into your graveyard from the battlefield, return it t
 <Name>Honorable Passage</Name>
 <Type>Instant</Type>
 <ManaCost>1W (2)</ManaCost>
-<CardText>The next time a source of your choice would deal damage to target creature or player this turn, prevent that damage. If damage from a red source is prevented this way, Honorable Passage deals that much damage to the source's controller.</CardText>
+<CardText>The next time a source of your choice would deal damage to any target this turn, prevent that damage. If damage from a red source is prevented this way, Honorable Passage deals that much damage to the source's controller.</CardText>
 <Artist>Jeff Miracola</Artist>
 <Multiverseid>108879</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -185,7 +185,7 @@ Whenever a creature is put into your graveyard from the battlefield, return it t
 <Type>Creature — Human Soldier 1/1</Type>
 <ManaCost>W (1)</ManaCost>
 <CardText>Icatian Javelineers enters the battlefield with a javelin counter on it.
-{T}, Remove a javelin counter from Icatian Javelineers: Icatian Javelineers deals 1 damage to target creature or player.</CardText>
+{T}, Remove a javelin counter from Icatian Javelineers: Icatian Javelineers deals 1 damage to any target.</CardText>
 <Artist>Scott Kirschner</Artist>
 <Multiverseid>107283</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -311,7 +311,7 @@ As long as Valor is in your graveyard and you control a Plains, creatures you co
 <Name>Witch Hunter</Name>
 <Type>Creature — Human Cleric 1/1</Type>
 <ManaCost>2WW (4)</ManaCost>
-<CardText>{T}: Witch Hunter deals 1 damage to target player.
+<CardText>{T}: Witch Hunter deals 1 damage to target player or planeswalker.
 {1}{W}{W}, {T}: Return target creature an opponent controls to its owner's hand.</CardText>
 <Artist>Jesper Myrfors</Artist>
 <Multiverseid>108794</Multiverseid>
@@ -516,7 +516,7 @@ Leviathan can't attack unless you sacrifice two Islands. (This cost is paid as a
 <Type>Creature — Human Pirate 4/3</Type>
 <ManaCost>4U (5)</ManaCost>
 <CardText>Pirate Ship can't attack unless defending player controls an Island.
-{T}: Pirate Ship deals 1 damage to target creature or player.
+{T}: Pirate Ship deals 1 damage to any target.
 When you control no Islands, sacrifice Pirate Ship.</CardText>
 <Artist>Tom Wänerstrand</Artist>
 <Multiverseid>108925</Multiverseid>
@@ -533,7 +533,7 @@ When you control no Islands, sacrifice Pirate Ship.</CardText>
 <Name>Prodigal Sorcerer</Name>
 <Type>Creature — Human Wizard 1/1</Type>
 <ManaCost>2U (3)</ManaCost>
-<CardText>{T}: Prodigal Sorcerer deals 1 damage to target creature or player.</CardText>
+<CardText>{T}: Prodigal Sorcerer deals 1 damage to any target.</CardText>
 <Flavor>Occasionally, members of the Institute of Arcane Study acquire a taste for worldly pleasures. Seldom do they have trouble finding employment.</Flavor>
 <Artist>Douglas Shuler</Artist>
 <Multiverseid>108906</Multiverseid>
@@ -550,7 +550,7 @@ When you control no Islands, sacrifice Pirate Ship.</CardText>
 <Name>Psionic Blast</Name>
 <Type>Instant</Type>
 <ManaCost>2U (3)</ManaCost>
-<CardText>Psionic Blast deals 4 damage to target creature or player and 2 damage to you.</CardText>
+<CardText>Psionic Blast deals 4 damage to any target and 2 damage to you.</CardText>
 <Artist>Douglas Shuler</Artist>
 <Multiverseid>108812</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -669,7 +669,10 @@ When Willbender is turned face up, change the target of target spell or ability 
 <Artist>Eric Peterson</Artist>
 <Multiverseid>108861</Multiverseid>
 <Rulings>2004/10/04: The trigger occurs when you use the Morph ability to turn the card face up, or when an effect turns it face up. It will not trigger on being revealed or on leaving the battlefield.
-2013/04/15: If a spell with split second is on the stack, you can still respond by turning this creature face up and targeting that spell with the trigger. This is because split second only stops players from casting spells or activating abilities, while turning a creature face up is a special action.</Rulings>
+2013/04/15: If a spell with split second is on the stack, you can still respond by turning this creature face up and targeting that spell with the trigger. This is because split second only stops players from casting spells or activating abilities, while turning a creature face up is a special action.
+2018/03/16: You don't choose the new target for the spell until <Willbender>'s triggered ability resolves. You must change the target if possible. However, you can't change the target to an illegal target. If there are no legal targets to choose from, the target isn't changed. It doesn't matter if the original target of that spell has somehow become illegal itself.
+2018/03/16: If a spell or ability targets multiple things, you can't target it with <Willbender>'s triggered ability, even if all but one of those targets have become illegal.
+2018/03/16: If a spell or ability targets the same player or object multiple times, you can't target it with <Willbender>'s ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -683,7 +686,7 @@ When Willbender is turned face up, change the target of target spell or ability 
 <Name>Avatar of Woe</Name>
 <Type>Creature — Avatar 6/5</Type>
 <ManaCost>6BB (8)</ManaCost>
-<CardText>If there are ten or more creature cards total in all graveyards, Avatar of Woe costs {6} less to cast.
+<CardText>If there are ten or more creature cards total in all graveyards, this spell costs {6} less to cast.
 Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)
 {T}: Destroy target creature. It can't be regenerated.</CardText>
 <Artist>rk post</Artist>
@@ -856,7 +859,7 @@ When Sengir Autocrat leaves the battlefield, exile all Serf tokens.</CardText>
 <Type>Creature — Human Wizard 1/1</Type>
 <ManaCost>B (1)</ManaCost>
 <CardText>{U}, {T}: Put target creature you control on top of its owner's library.
-{R}, {T}: Shadow Guildmage deals 1 damage to target creature or player and 1 damage to you.</CardText>
+{R}, {T}: Shadow Guildmage deals 1 damage to any target and 1 damage to you.</CardText>
 <Flavor>To keep the dead so others may live.
 —Shadow Guild maxim</Flavor>
 <Artist>Mike Kimble</Artist>
@@ -1039,7 +1042,7 @@ When Avalanche Riders enters the battlefield, destroy target land.</CardText>
 <Name>Browbeat</Name>
 <Type>Sorcery</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>Any player may have Browbeat deal 5 damage to him or her. If no one does, target player draws three cards.</CardText>
+<CardText>Any player may have Browbeat deal 5 damage to them. If no one does, target player draws three cards.</CardText>
 <Flavor>"Even the threat of power has power."
 —Jeska, warrior adept</Flavor>
 <Artist>Mark Tedin</Artist>
@@ -1074,7 +1077,7 @@ When Desolation Giant enters the battlefield, destroy all other creatures you co
 <Name>Disintegrate</Name>
 <Type>Sorcery</Type>
 <ManaCost>XR (1)</ManaCost>
-<CardText>Disintegrate deals X damage to target creature or player. That creature can't be regenerated this turn. If the creature would die this turn, exile it instead.</CardText>
+<CardText>Disintegrate deals X damage to any target. If it's a creature, it can't be regenerated this turn, and if it would die this turn, exile it instead.</CardText>
 <Artist>Anson Maddocks</Artist>
 <Multiverseid>106636</Multiverseid>
 <Rulings>2004/10/04: The "can't regenerate" is an effect of <Disintegrate> and not an effect of the damage. It works even if the damage is prevented or redirected. If redirected, the damage does not take this effect with it.
@@ -1151,7 +1154,7 @@ Storm (When you cast this spell, copy it for each spell cast before it this turn
 <Name>Fiery Temper</Name>
 <Type>Instant</Type>
 <ManaCost>1RR (3)</ManaCost>
-<CardText>Fiery Temper deals 3 damage to target creature or player.
+<CardText>Fiery Temper deals 3 damage to any target.
 Madness {R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)</CardText>
 <Artist>Greg & Tim Hildebrandt</Artist>
 <Multiverseid>108880</Multiverseid>
@@ -1178,8 +1181,8 @@ Madness {R} (If you discard this card, discard it into exile. When you do, cast 
 <Type>Enchantment — Aura</Type>
 <ManaCost>1R (2)</ManaCost>
 <CardText>Enchant creature you control
-Enchanted creature has "{T}: This creature deals 1 damage to target creature or player."
-Sacrifice Fire Whip: Fire Whip deals 1 damage to target creature or player.</CardText>
+Enchanted creature has "{T}: This creature deals 1 damage to any target."
+Sacrifice Fire Whip: Fire Whip deals 1 damage to any target.</CardText>
 <Artist>Jeff Miracola</Artist>
 <Multiverseid>108877</Multiverseid>
 <Rulings>2004/10/04: Remember that you tap the creature as part of the cost of activating <Fire Whip>'s granted ability. So, if you have two <Fire Whip>s on a creature activating the first one will tap the creature, so you can't use the second one or any other ability which requires tapping the creature until you find a way to untap it.
@@ -1218,7 +1221,7 @@ Sacrifice Fire Whip: Fire Whip deals 1 damage to target creature or player.</Car
 <ManaCost>1R (2)</ManaCost>
 <CardText>Other Kobold creatures you control get +1/+0.</CardText>
 <Flavor>The taskmaster knows that there is no cure for the common kobold.</Flavor>
-<Artist>Randy Asplund</Artist>
+<Artist>Randy Asplund-Faith</Artist>
 <Multiverseid>106664</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1271,7 +1274,7 @@ Orgg can't block creatures with power 3 or greater.</CardText>
 <Name>Pandemonium</Name>
 <Type>Enchantment</Type>
 <ManaCost>3R (4)</ManaCost>
-<CardText>Whenever a creature enters the battlefield, that creature's controller may have it deal damage equal to its power to target creature or player of his or her choice.</CardText>
+<CardText>Whenever a creature enters the battlefield, that creature's controller may have it deal damage equal to its power to any target of their choice.</CardText>
 <Flavor>"If we cannot live proudly, we die so!"
 —Eladamri, Lord of Leaves</Flavor>
 <Artist>Pete Venters</Artist>
@@ -1310,7 +1313,7 @@ Flanking (Whenever a creature without flanking blocks this creature, the blockin
 <Name>Tribal Flames</Name>
 <Type>Sorcery</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>Domain — Tribal Flames deals X damage to target creature or player, where X is the number of basic land types among lands you control.</CardText>
+<CardText>Domain — Tribal Flames deals X damage to any target, where X is the number of basic land types among lands you control.</CardText>
 <Flavor>"Fire is the universal language."
 —Jhoira, master artificer</Flavor>
 <Artist>Tony Szczudlo</Artist>
@@ -1440,13 +1443,13 @@ Rampage 2 (Whenever this creature becomes blocked, it gets +2/+2 until end of tu
 <Name>Gaea's Blessing</Name>
 <Type>Sorcery</Type>
 <ManaCost>1G (2)</ManaCost>
-<CardText>Target player shuffles up to three target cards from his or her graveyard into his or her library.
+<CardText>Target player shuffles up to three target cards from their graveyard into their library.
 Draw a card.
 When Gaea's Blessing is put into your graveyard from your library, shuffle your graveyard into your library.</CardText>
 <Artist>Rebecca Guay</Artist>
 <Multiverseid>108789</Multiverseid>
-<Rulings>2016/06/08: When you cast <Gaea's Blessing>, you can't choose it as one of its own targets. This is because you choose the targets when casting this spell, and spells are not put into your graveyard until after they resolve.
-2016/06/08: You must target a player as you cast <Gaea's Blessing>. You may target zero, one, two, or three cards in that player's graveyard.</Rulings>
+<Rulings>2018/04/27: If <Gaea's Blessing> has no legal target cards in a graveyard, either because its targets became illegal or because you didn't choose any, the target player shuffles their library.
+2018/04/27: If an effect puts multiple cards from your library into your graveyard at once, put all of those cards there before <Gaea's Blessing> shuffles your graveyard into your library.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1465,7 +1468,7 @@ When Gaea's Blessing is put into your graveyard from your library, shuffle your 
 <Artist>Dameon Willich</Artist>
 <Multiverseid>109744</Multiverseid>
 <Rulings>2004/10/04: When being declared as an attacker, use the "not attacking" power and toughness. It only changes after declaration is complete.
-2006/09/25: The activated ability doesn't affect whether the land is basic or not. It overwrites any other land types. Being a Forest gives the affected land the ability "{T}: Add {G} to your mana pool."
+2006/09/25: The activated ability doesn't affect whether the land is basic or not. It overwrites any other land types. Being a Forest gives the affected land the ability "{T}: Add {G}."
 2006/10/15: Will not add or remove Snow Supertype to or from a land.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1523,7 +1526,7 @@ When Hunting Moa enters the battlefield or dies, put a +1/+1 counter on target c
 <Rulings>2004/10/04: Only affects lands the target player controls when the ability resolves.
 2004/10/04: The lands do not get a creature type.
 2004/10/04: The lands retain their abilities.
-2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
+2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1554,7 +1557,7 @@ Morph {7}{G}{G} (You may cast this card face down as a 2/2 creature for {3}. Tur
 <Name>Scragnoth</Name>
 <Type>Creature — Beast 3/4</Type>
 <ManaCost>4G (5)</ManaCost>
-<CardText>Scragnoth can't be countered.
+<CardText>This spell can't be countered.
 Protection from blue</CardText>
 <Flavor>It possesses no intelligence, only counter-intelligence.</Flavor>
 <Artist>Jeff Laubenstein</Artist>
@@ -1627,7 +1630,7 @@ Remove three spore counters from Thallid: Create a 1/1 green Saproling creature 
 <Type>Creature — Elf Wizard 2/2</Type>
 <ManaCost>2G (3)</ManaCost>
 <CardText>Kicker {R} and/or {W} (You may pay an additional {R} and/or {W} as you cast this spell.)
-When Thornscape Battlemage enters the battlefield, if it was kicked with its {R} kicker, it deals 2 damage to target creature or player.
+When Thornscape Battlemage enters the battlefield, if it was kicked with its {R} kicker, it deals 2 damage to any target.
 When Thornscape Battlemage enters the battlefield, if it was kicked with its {W} kicker, destroy target artifact.</CardText>
 <Artist>Matt Cavotta</Artist>
 <Multiverseid>109745</Multiverseid>
@@ -1668,7 +1671,7 @@ When Verdeloth the Ancient enters the battlefield, if it was kicked, create X 1/
 <Type>Creature — Plant Wall 0/5</Type>
 <ManaCost>1G (2)</ManaCost>
 <CardText>Defender
-Put a -0/-1 counter on Wall of Roots: Add {G} to your mana pool. Activate this ability only once each turn.</CardText>
+Put a -0/-1 counter on Wall of Roots: Add {G}. Activate this ability only once each turn.</CardText>
 <Flavor>Sometimes the wise ones wove their magic into living plants; as the plant grew, so grew the magic.</Flavor>
 <Artist>John Matson</Artist>
 <Multiverseid>106662</Multiverseid>
@@ -1723,14 +1726,14 @@ At the beginning of each end step, if Whirling Dervish dealt damage to an oppone
 <Name>Fiery Justice</Name>
 <Type>Sorcery</Type>
 <ManaCost>WRG (3)</ManaCost>
-<CardText>Fiery Justice deals 5 damage divided as you choose among any number of target creatures and/or players. Target opponent gains 5 life.</CardText>
+<CardText>Fiery Justice deals 5 damage divided as you choose among any number of targets. Target opponent gains 5 life.</CardText>
 <Flavor>"The fire of justice burns like nothing else."
 —Lovisa Coldeyes, Balduvian chieftain</Flavor>
 <Artist>Melissa A. Benson</Artist>
 <Multiverseid>108893</Multiverseid>
 <Rulings>2017/03/14: You choose how many targets <Fiery Justice> has and how the damage is divided as you cast it. Each target for its damage-dealing effect must receive at least 1 damage.
-2017/03/14: If some (but not all) of the targets become illegal, the original division of damage still applies, but no damage is dealt to illegal targets. If all targets become illegal, including the target opponent for the life-gaining effect, <Fiery Justice> is countered. If each target for the damage-dealing effect becomes illegal while the target for the life-gaining effect remains legal, that player gains 5 life even though no damage is dealt.
-2017/03/14: The target opponent for the life-gaining effect may also be a target for the damage-dealing effect. If this happens and the damage brings that player's life total to 0 or less, the life-gaining effect will raise his or her life total above 0 again before the player would lose the game.</Rulings>
+2017/03/14: If some (but not all) of the targets become illegal, the original division of damage still applies, but no damage is dealt to illegal targets. If all targets become illegal, including the target opponent for the life-gaining effect, <Fiery Justice> doesn't resolve. If each target for the damage-dealing effect becomes illegal while the target for the life-gaining effect remains legal, that player gains 5 life even though no damage is dealt.
+2017/03/14: The target opponent for the life-gaining effect may also be a target for the damage-dealing effect. If this happens and the damage brings that player's life total to 0 or less, the life-gaining effect will raise their life total above 0 again before the player would lose the game.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1833,7 +1836,7 @@ When Mystic Snake enters the battlefield, counter target spell.</CardText>
 <ManaCost>2UUBBRR (8)</ManaCost>
 <CardText>Flying
 At the beginning of your upkeep, sacrifice Nicol Bolas unless you pay {U}{B}{R}.
-Whenever Nicol Bolas deals damage to an opponent, that player discards his or her hand.</CardText>
+Whenever Nicol Bolas deals damage to an opponent, that player discards their hand.</CardText>
 <Artist>Edward P. Beard, Jr.</Artist>
 <Multiverseid>109754</Multiverseid>
 <Rulings>2009/10/01: <Nicol Bolas>'s third ability triggers whenever it deals damage to an opponent for any reason. It's not limited to combat damage.</Rulings>
@@ -1907,7 +1910,7 @@ And if you get eaten, then no one will cry."
 <Name>Stormbind</Name>
 <Type>Enchantment</Type>
 <ManaCost>1RG (3)</ManaCost>
-<CardText>{2}, Discard a card at random: Stormbind deals 2 damage to target creature or player.</CardText>
+<CardText>{2}, Discard a card at random: Stormbind deals 2 damage to any target.</CardText>
 <Flavor>"Once, our people could call down the storm itself to do our bidding."
 —Lovisa Coldeyes, Balduvian chieftain</Flavor>
 <Artist>NéNé Thomas & Phillip Mosness</Artist>
@@ -1965,7 +1968,7 @@ Creatures of the chosen color without flying can't attack you.</CardText>
 <Name>Void</Name>
 <Type>Sorcery</Type>
 <ManaCost>3BR (5)</ManaCost>
-<CardText>Choose a number. Destroy all artifacts and creatures with converted mana cost equal to that number. Then target player reveals his or her hand and discards all nonland cards with converted mana cost equal to the number.</CardText>
+<CardText>Choose a number. Destroy all artifacts and creatures with converted mana cost equal to that number. Then target player reveals their hand and discards all nonland cards with converted mana cost equal to the number.</CardText>
 <Artist>Kev Walker</Artist>
 <Multiverseid>109677</Multiverseid>
 <Rulings>2016/06/08: You can choose 0. Artifact lands and most tokens have converted mana costs of 0, for example.
@@ -1983,7 +1986,7 @@ Creatures of the chosen color without flying can't attack you.</CardText>
 <Name>Assault (Assault/Battery)</Name>
 <Type>Sorcery</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>Assault deals 2 damage to target creature or player.</CardText>
+<CardText>Assault deals 2 damage to any target.</CardText>
 <Artist>Ben Thompson</Artist>
 <Multiverseid>109704</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2067,7 +2070,7 @@ Creatures of the chosen color without flying can't attack you.</CardText>
 <Name>Grinning Totem</Name>
 <Type>Artifact</Type>
 <ManaCost>4 (4)</ManaCost>
-<CardText>{2}, {T}, Sacrifice Grinning Totem: Search target opponent's library for a card and exile it. Then that player shuffles his or her library. Until the beginning of your next upkeep, you may play that card. At the beginning of your next upkeep, if you haven't played it, put it into its owner's graveyard.</CardText>
+<CardText>{2}, {T}, Sacrifice Grinning Totem: Search target opponent's library for a card and exile it. Then that player shuffles their library. Until the beginning of your next upkeep, you may play that card. At the beginning of your next upkeep, if you haven't played it, put it into its owner's graveyard.</CardText>
 <Artist>Donato Giancola</Artist>
 <Multiverseid>109708</Multiverseid>
 <Rulings>2006/09/25: You may choose to find any kind of card, including a land. You must exile a card (unless the opponent's library is empty); you can't fail to find anything.
@@ -2130,7 +2133,7 @@ Remove two +1/+1 counters from Mindless Automaton: Draw a card.</CardText>
 <Type>Artifact</Type>
 <ManaCost>1 (1)</ManaCost>
 <CardText>As The Rack enters the battlefield, choose an opponent.
-At the beginning of the chosen player's upkeep, The Rack deals X damage to that player, where X is 3 minus the number of cards in his or her hand.</CardText>
+At the beginning of the chosen player's upkeep, The Rack deals X damage to that player, where X is 3 minus the number of cards in their hand.</CardText>
 <Flavor>Invented in Mishra's earlier days, the rack was once his most feared creation.</Flavor>
 <Artist>Richard Thomas</Artist>
 <Multiverseid>109725</Multiverseid>
@@ -2199,13 +2202,13 @@ At the beginning of your upkeep, if there are no arrowhead counters on Serrated 
 <No>117</No>
 <Name>Arena</Name>
 <Type>Land</Type>
-<CardText>{3}, {T}: Tap target creature you control and target creature of an opponent's choice he or she controls. Those creatures fight each other. (Each deals damage equal to its power to the other.)</CardText>
+<CardText>{3}, {T}: Tap target creature you control and target creature of an opponent's choice they control. Those creatures fight each other. (Each deals damage equal to its power to the other.)</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>109739</Multiverseid>
 <Rulings>2004/10/04: The power of the creatures when the effect resolves is used to determine how much damage is done.
 2004/10/04: In multiplayer games, you can choose a different opposing player each time it the ability is activated.
 2004/10/04: Either or both creatures can be tapped prior to using the ability and it still works.
-2006/09/25: If either target is illegal at the time the ability resolves (whether because it has left the battlefield, because it has gained Shroud or Protection, or for any other reason), the ability taps the remaining target, but no damage is dealt. If both targets are illegal, the ability is countered.</Rulings>
+2006/09/25: If either target is illegal at the time the ability resolves (whether because it has left the battlefield, because it has gained Shroud or Protection, or for any other reason), the ability taps the remaining target, but no damage is dealt. If both targets are illegal, the ability doesn't resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2218,7 +2221,7 @@ At the beginning of your upkeep, if there are no arrowhead counters on Serrated 
 <No>118</No>
 <Name>Desert</Name>
 <Type>Land — Desert</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {T}: Desert deals 1 damage to target attacking creature. Activate this ability only during the end of combat step.</CardText>
 <Artist>Jesper Myrfors</Artist>
 <Multiverseid>109713</Multiverseid>
@@ -2237,7 +2240,7 @@ At the beginning of your upkeep, if there are no arrowhead counters on Serrated 
 <Name>Gemstone Mine</Name>
 <Type>Land</Type>
 <CardText>Gemstone Mine enters the battlefield with three mining counters on it.
-{T}, Remove a mining counter from Gemstone Mine: Add one mana of any color to your mana pool. If there are no mining counters on Gemstone Mine, sacrifice it.</CardText>
+{T}, Remove a mining counter from Gemstone Mine: Add one mana of any color. If there are no mining counters on Gemstone Mine, sacrifice it.</CardText>
 <Artist>Brom</Artist>
 <Multiverseid>109761</Multiverseid>
 <Rulings>2004/10/04: Sacrificing this card when the last counter is removed is part of the effect of tapping it for mana.
@@ -2254,7 +2257,7 @@ At the beginning of your upkeep, if there are no arrowhead counters on Serrated 
 <No>120</No>
 <Name>Pendelhaven</Name>
 <Type>Legendary Land</Type>
-<CardText>{T}: Add {G} to your mana pool.
+<CardText>{T}: Add {G}.
 {T}: Target 1/1 creature gets +1/+2 until end of turn.</CardText>
 <Flavor>"This is the forest primeval. The murmuring pines and the hemlocks . . . Stand like Druids of eld."
 —Henry Wadsworth Longfellow,

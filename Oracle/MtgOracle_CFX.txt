@@ -136,7 +136,7 @@ Domain — Aven Trailblazer's toughness is equal to the number of basic land typ
 <Type>Instant</Type>
 <ManaCost>4W (5)</ManaCost>
 <CardText>Creatures you control get +1/+2 until end of turn. Untap those creatures.
-Basic landcycling {1}{W} ({1}{W}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)</CardText>
+Basic landcycling {1}{W} ({1}{W}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.)</CardText>
 <Artist>Matt Stewart</Artist>
 <Multiverseid>179505</Multiverseid>
 <Rulings>2009/02/01: Unlike the normal cycling ability, basic landcycling doesn't allow you to draw a card. Instead, it lets you search your library for a basic land card. You don't choose the type of basic land card you'll find until you're performing the search. After you choose a basic land card in your library, you reveal it, put it into your hand, then shuffle your library.
@@ -220,9 +220,7 @@ At the beginning of your upkeep, if you control a blue permanent, you may create
 2009/02/01: Normally, when a token is created by this ability, it will simply be a <Mirror-Sigil Sergeant>, so it'll also have the token-creating ability. (See the other ruling for weird exceptions.) At the beginning of your next upkeep, if you still control the original Sergeant, the token copy, and a blue permanent, you'll get two more token copies; the turn after that you'll get four; then eight; and so on.
 2009/02/01: Here's the detailed version of what happens. As the token is created, it checks the printed values of the <Mirror-Sigil Sergeant> it's copying — or, if the <Mirror-Sigil Sergeant> whose ability triggered was itself a token, the original characteristics of that token as stated by the effect that put it onto the battlefield — as well as any copy effects that have been applied to it. It won't copy counters on the <Mirror-Sigil Sergeant>, nor will it copy other effects that have changed <Mirror-Sigil Sergeant>'s power, toughness, types, color, or so on.
 2009/02/01: If <Mirror-Sigil Sergeant> has left the battlefield by the time its triggered ability resolves, you'll still put a token onto the battlefield. That token has the copiable values of the characteristics of <Mirror-Sigil Sergeant> as it last existed on the battlefield.
-2009/02/01: Here are the weird exceptions. If any copy effects have affected the <Mirror-Sigil Sergeant> whose ability triggered, they're taken into account when the token is created. For example:
--- If <Mirror-Sigil Sergeant>'s ability triggers, then <Mirror-Sigil Sergeant> temporarily becomes a copy of another creature before its ability resolves (due to Mirrorweave, perhaps), the token will be a copy of whatever creature the <Mirror-Sigil Sergeant> is currently a copy of. After the turn ends, the Mirrorweaved <Mirror-Sigil Sergeant> reverts back to what it was, but the token will stay as it is.
--- If the copy ability of a creature (such as Cemetery Puca, perhaps) makes it become a copy of <Mirror-Sigil Sergeant> and gain another ability, the token created by this creature at the beginning of your upkeep will be a <Mirror-Sigil Sergeant> with that additional ability.</Rulings>
+2009/02/01: Here are the weird exceptions. If any copy effects have affected the <Mirror-Sigil Sergeant> whose ability triggered, they're taken into account when the token is created. For example: -- If <Mirror-Sigil Sergeant>'s ability triggers, then <Mirror-Sigil Sergeant> temporarily becomes a copy of another creature before its ability resolves (due to Mirrorweave, perhaps), the token will be a copy of whatever creature the <Mirror-Sigil Sergeant> is currently a copy of. After the turn ends, the Mirrorweaved <Mirror-Sigil Sergeant> reverts back to what it was, but the token will stay as it is. -- If the copy ability of a creature (such as Cemetery Puca, perhaps) makes it become a copy of <Mirror-Sigil Sergeant> and gain another ability, the token created by this creature at the beginning of your upkeep will be a <Mirror-Sigil Sergeant> with that additional ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -278,11 +276,11 @@ At the beginning of your upkeep, if you control a blue permanent, you may create
 <Name>Path to Exile</Name>
 <Type>Instant</Type>
 <ManaCost>W (1)</ManaCost>
-<CardText>Exile target creature. Its controller may search his or her library for a basic land card, put that card onto the battlefield tapped, then shuffle his or her library.</CardText>
+<CardText>Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle their library.</CardText>
 <Artist>Todd Lockwood</Artist>
 <Multiverseid>179235</Multiverseid>
-<Rulings>2017/03/14: If the targeted creature becomes an illegal target by the time <Path to Exile> would resolve, the entire spell is countered. The creature's controller won't search for a basic land card.
-2017/03/14: The controller of the exiled creature isn't required to search his or her library for a basic land. If that player doesn't, the player won't shuffle his or her library.</Rulings>
+<Rulings>2017/03/14: If the targeted creature becomes an illegal target by the time <Path to Exile> would resolve, the entire spell doesn't resolve. The creature's controller won't search for a basic land card.
+2017/03/14: The controller of the exiled creature isn't required to search their library for a basic land. If that player doesn't, the player won't shuffle their library.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -648,10 +646,10 @@ When Parasitic Strix enters the battlefield, if you control a black permanent, t
 <Name>Telemin Performance</Name>
 <Type>Sorcery</Type>
 <ManaCost>3UU (5)</ManaCost>
-<CardText>Target opponent reveals cards from the top of his or her library until he or she reveals a creature card. That player puts all noncreature cards revealed this way into his or her graveyard, then you put the creature card onto the battlefield under your control.</CardText>
+<CardText>Target opponent reveals cards from the top of their library until they reveal a creature card. That player puts all noncreature cards revealed this way into their graveyard, then you put the creature card onto the battlefield under your control.</CardText>
 <Artist>Izzy</Artist>
 <Multiverseid>189085</Multiverseid>
-<Rulings>2009/02/01: If there are no creature cards in the targeted opponent's library, that player will put his or her entire library into his or her graveyard.</Rulings>
+<Rulings>2009/02/01: If there are no creature cards in the targeted opponent's library, that player will put their entire library into their graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -666,7 +664,7 @@ When Parasitic Strix enters the battlefield, if you control a black permanent, t
 <Type>Instant</Type>
 <ManaCost>3UU (5)</ManaCost>
 <CardText>Counter target spell.
-Basic landcycling {1}{U} ({1}{U}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)</CardText>
+Basic landcycling {1}{U} ({1}{U}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.)</CardText>
 <Artist>Cyril Van Der Haegen</Artist>
 <Multiverseid>179508</Multiverseid>
 <Rulings>2009/02/01: Unlike the normal cycling ability, basic landcycling doesn't allow you to draw a card. Instead, it lets you search your library for a basic land card. You don't choose the type of basic land card you'll find until you're performing the search. After you choose a basic land card in your library, you reveal it, put it into your hand, then shuffle your library.
@@ -710,7 +708,7 @@ Basic landcycling {1}{U} ({1}{U}, Discard this card: Search your library for a b
 <Multiverseid>183058</Multiverseid>
 <Rulings>2009/02/01: This checks the colors of permanents you control as it resolves.
 2009/02/01: If you control a white permanent, <View from Above> moves from the stack to your hand as part of its resolution. It never hits the graveyard. If you don't control a white permanent, <View from Above> is put into the graveyard from the stack as normal.
-2009/02/01: If <View from Above> is countered for any reason (for example, if its target has become illegal), none of its effects happen. It will be put into your graveyard as normal.</Rulings>
+2009/02/01: If <View from Above> doesn't resolve for any reason (for example, if its target has become illegal), none of its effects happen. It will be put into your graveyard as normal.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -746,7 +744,7 @@ Basic landcycling {1}{U} ({1}{U}, Discard this card: Search your library for a b
 <Type>Sorcery</Type>
 <ManaCost>6B (7)</ManaCost>
 <CardText>Target player loses 4 life and you gain 4 life.
-Basic landcycling {1}{B} ({1}{B}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)</CardText>
+Basic landcycling {1}{B} ({1}{B}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.)</CardText>
 <Artist>Brandon Kitkouski</Artist>
 <Multiverseid>179513</Multiverseid>
 <Rulings>2009/02/01: Unlike the normal cycling ability, basic landcycling doesn't allow you to draw a card. Instead, it lets you search your library for a basic land card. You don't choose the type of basic land card you'll find until you're performing the search. After you choose a basic land card in your library, you reveal it, put it into your hand, then shuffle your library.
@@ -824,7 +822,7 @@ Whenever enchanted land becomes tapped, its controller loses 2 life.</CardText>
 <Type>Creature — Demon 5/5</Type>
 <ManaCost>4BB (6)</ManaCost>
 <CardText>Flying
-Whenever another creature leaves the battlefield, you may have target player put the top two cards of his or her library into his or her graveyard.
+Whenever another creature leaves the battlefield, you may have target player put the top two cards of their library into their graveyard.
 Unearth {2}{B} ({2}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)</CardText>
 <Artist>Carl Critchlow</Artist>
 <Multiverseid>189082</Multiverseid>
@@ -847,7 +845,7 @@ Unearth {2}{B} ({2}{B}: Return this card from your graveyard to the battlefield.
 <Flavor>Necromancers who discovered the new sources of mana were quick to dream up new nightmares with them.</Flavor>
 <Artist>Dave Kendall</Artist>
 <Multiverseid>179884</Multiverseid>
-<Rulings>2009/02/01: <Fleshformer>'s ability has only one target: the creature. If that creature becomes an illegal target by the time <Fleshformer>'s ability would resolve, the entire ability is countered. <Fleshformer> won't get +2/+2 and won't gain fear.
+<Rulings>2009/02/01: <Fleshformer>'s ability has only one target: the creature. If that creature becomes an illegal target by the time <Fleshformer>'s ability would resolve, the entire ability doesn't resolve. <Fleshformer> won't get +2/+2 and won't gain fear.
 2009/02/01: <Fleshformer> can target itself with its ability. The result is that <Fleshformer> gains fear, since the +2/+2 and -2/-2 parts of the effect will balance each other out. (<Fleshformer>'s power and toughness will each momentarily go up by 2, in case anything cares about that.)</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1082,14 +1080,13 @@ When a creature dies, destroy enchanted creature.</CardText>
 <Name>Banefire</Name>
 <Type>Sorcery</Type>
 <ManaCost>XR (1)</ManaCost>
-<CardText>Banefire deals X damage to target creature or player.
-If X is 5 or more, Banefire can't be countered by spells or abilities and the damage can't be prevented.</CardText>
+<CardText>Banefire deals X damage to any target.
+If X is 5 or more, this spell can't be countered and the damage can't be prevented.</CardText>
 <Flavor>For Sarkhan Vol, the dragon is the purest expression of life's savage splendor.</Flavor>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>186613</Multiverseid>
 <Rulings>2009/02/01: <Banefire> checks the number you chose for X, not the amount of mana you actually spent.
-2009/02/01: <Banefire> can be targeted by spells that try to counter it (such as Countersquall) regardless of what the value of X is. If X is 5 or more, those spells will still resolve, but the part of their effect that would counter <Banefire> won't do anything. Any other effects those spells have will work as normal.
-2009/02/01: <Banefire>'s ability won't prevent it from being countered by the game rules if its target has become an illegal target.</Rulings>
+2009/02/01: <Banefire> can be targeted by spells that try to counter it (such as Countersquall) regardless of what the value of X is. If X is 5 or more, those spells will still resolve, but the part of their effect that would counter <Banefire> won't do anything. Any other effects those spells have will work as normal.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1180,7 +1177,7 @@ At the beginning of your upkeep, if you control a green permanent, you may put a
 <Type>Instant</Type>
 <ManaCost>5R (6)</ManaCost>
 <CardText>Fiery Fall deals 5 damage to target creature.
-Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)</CardText>
+Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.)</CardText>
 <Flavor>Jund feasts on the unprepared.</Flavor>
 <Artist>Daarken</Artist>
 <Multiverseid>179519</Multiverseid>
@@ -1202,7 +1199,7 @@ Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a b
 <Type>Creature — Goblin Warrior 3/4</Type>
 <ManaCost>2RR (4)</ManaCost>
 <CardText>{1}{R}, Sacrifice a land: Put a +1/+1 counter on Goblin Razerunners.
-At the beginning of your end step, you may have Goblin Razerunners deal damage equal to the number of +1/+1 counters on it to target player.</CardText>
+At the beginning of your end step, you may have Goblin Razerunners deal damage equal to the number of +1/+1 counters on it to target player or planeswalker.</CardText>
 <Flavor>Finding themselves in a new and unexplored world, they immediately set it on fire.</Flavor>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>179487</Multiverseid>
@@ -1315,12 +1312,12 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <Name>Quenchable Fire</Name>
 <Type>Sorcery</Type>
 <ManaCost>3R (4)</ManaCost>
-<CardText>Quenchable Fire deals 3 damage to target player. It deals an additional 3 damage to that player at the beginning of your next upkeep step unless he or she pays {U} before that step.</CardText>
+<CardText>Quenchable Fire deals 3 damage to target player or planeswalker. It deals an additional 3 damage to that player or planeswalker at the beginning of your next upkeep step unless that player or that planeswalker's controller pays {U} before that step.</CardText>
 <Flavor>You'd better know how to pray for rain.</Flavor>
 <Artist>Jean-Sébastien Rossbach</Artist>
 <Multiverseid>179440</Multiverseid>
 <Rulings>2009/02/01: After <Quenchable Fire> resolves, the targeted player becomes able to perform a special action of paying {U}. This action may be performed any time the player has priority, and it doesn't use the stack. It may be performed only once, and only before your next upkeep begins. If the player has performed the action by then, the "deal an additional 3 damage" ability won't trigger. Otherwise, it will. If it triggers, the player can't stop it by paying {U}.
-2009/02/01: <Quenchable Fire>'s delayed triggered ability (and the special action of paying {U}) will affect the player who was targeted by the spell, even if the original 3 damage is prevented or redirected to a different creature or player.</Rulings>
+2009/02/01: <Quenchable Fire>'s delayed triggered ability (and the special action of paying {U}) will affect the player who was targeted by the spell, even if the original 3 damage is prevented or redirected to a different permanent or player.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1390,7 +1387,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <Name>Volcanic Fallout</Name>
 <Type>Instant</Type>
 <ManaCost>1RR (3)</ManaCost>
-<CardText>Volcanic Fallout can't be countered.
+<CardText>This spell can't be countered.
 Volcanic Fallout deals 2 damage to each creature and each player.</CardText>
 <Flavor>"How can we outrun the sky?"
 —Hadran, sunseeder of Naya</Flavor>
@@ -1412,7 +1409,7 @@ Volcanic Fallout deals 2 damage to each creature and each player.</CardText>
 <ManaCost>3RR (5)</ManaCost>
 <CardText>Flying
 Devour 1 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with that many +1/+1 counters on it.)
-When Voracious Dragon enters the battlefield, it deals damage to target creature or player equal to twice the number of Goblins it devoured.</CardText>
+When Voracious Dragon enters the battlefield, it deals damage to any target equal to twice the number of Goblins it devoured.</CardText>
 <Artist>Dominick Domingo</Artist>
 <Multiverseid>186329</Multiverseid>
 <Rulings>2009/02/01: <Voracious Dragon> can devour any type of creatures, not just Goblins.
@@ -1534,9 +1531,7 @@ As long as you control a red permanent, Ember Weaver gets +1/+0 and has first st
 <Artist>Steve Prescott</Artist>
 <Multiverseid>184990</Multiverseid>
 <Rulings>2009/02/01: As long as at least one permanent you control is the specified color, the ability will "work" and grant this creature the bonus. Otherwise, it won't have the bonus.
-2009/02/01: Whether <Ember Weaver> has first strike matters only at the point that the normal combat damage step would begin, and only if there hasn't already been a first-strike combat damage step that turn. If any of your creatures has first strike at that point, a first-strike combat damage step is created.
--- If <Ember Weaver> has first strike at that point, it will assign and deal combat damage during that step (even if it loses first strike before that damage is dealt) and it won't deal combat damage during the normal combat damage step.
--- If <Ember Weaver> doesn't have first strike at that point, it will assign and deal its combat damage during the normal combat damage step (even if it gains first strike before then).</Rulings>
+2009/02/01: Whether <Ember Weaver> has first strike matters only at the point that the normal combat damage step would begin, and only if there hasn't already been a first-strike combat damage step that turn. If any of your creatures has first strike at that point, a first-strike combat damage step is created. -- If <Ember Weaver> has first strike at that point, it will assign and deal combat damage during that step (even if it loses first strike before that damage is dealt) and it won't deal combat damage during the normal combat damage step. -- If <Ember Weaver> doesn't have first strike at that point, it will assign and deal its combat damage during the normal combat damage step (even if it gains first strike before then).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1629,13 +1624,9 @@ Devour 1 (As this enters the battlefield, you may sacrifice any number of creatu
 <CardText>Protection from artifacts</CardText>
 <Flavor>"Blades dull and armor dents. Marisi taught us that instinct is the only thing a true warrior needs."
 —Ajani</Flavor>
-<Artist>Parente</Artist>
+<Artist>Paolo Parente</Artist>
 <Multiverseid>183022</Multiverseid>
-<Rulings>2009/02/01: "Protection from artifacts" means the following:
--- <Nacatl Savage> can't be blocked by artifact creatures.
--- <Nacatl Savage> can't be equipped. It also can't be enchanted by Auras that have somehow become artifacts in addition to enchantments.
--- <Nacatl Savage> can't be targeted by abilities from artifact sources.
--- All damage that would be dealt to <Nacatl Savage> by artifact sources is prevented.</Rulings>
+<Rulings>2009/02/01: "Protection from artifacts" means the following: -- <Nacatl Savage> can't be blocked by artifact creatures. -- <Nacatl Savage> can't be equipped. It also can't be enchanted by Auras that have somehow become artifacts in addition to enchantments. -- <Nacatl Savage> can't be targeted by abilities from artifact sources. -- All damage that would be dealt to <Nacatl Savage> by artifact sources is prevented.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1650,7 +1641,7 @@ Devour 1 (As this enters the battlefield, you may sacrifice any number of creatu
 <Type>Creature — Human Druid 0/1</Type>
 <ManaCost>G (1)</ManaCost>
 <CardText>Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)
-{T}: Add {G}, {W}, or {U} to your mana pool.</CardText>
+{T}: Add {G}, {W}, or {U}.</CardText>
 <Flavor>She protects the sacred groves from blight, drought, and the Unbeholden.</Flavor>
 <Artist>Mark Zug</Artist>
 <Multiverseid>179434</Multiverseid>
@@ -1744,7 +1735,7 @@ Devour 1 (As this enters the battlefield, you may sacrifice any number of creatu
 <Flavor>An avatar he sculpts of wisdom and strength.</Flavor>
 <Artist>Jesper Ejsing</Artist>
 <Multiverseid>185137</Multiverseid>
-<Rulings>2009/02/01: <Soul's Majesty>'s only target is the creature. If that creature becomes an illegal target by the time <Soul's Majesty> would resolve, the entire spell is countered. You won't draw any cards.</Rulings>
+<Rulings>2009/02/01: <Soul's Majesty>'s only target is the creature. If that creature becomes an illegal target by the time <Soul's Majesty> would resolve, the entire spell doesn't resolve. You won't draw any cards.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1779,7 +1770,7 @@ Devour 1 (As this enters the battlefield, you may sacrifice any number of creatu
 <Type>Instant</Type>
 <ManaCost>5G (6)</ManaCost>
 <CardText>Target player gains 8 life.
-Basic landcycling {1}{G} ({1}{G}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)</CardText>
+Basic landcycling {1}{G} ({1}{G}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.)</CardText>
 <Flavor>Some who scouted new lands chose to stay.</Flavor>
 <Artist>Chris Rahn</Artist>
 <Multiverseid>179523</Multiverseid>
@@ -1857,7 +1848,7 @@ Basic landcycling {1}{G} ({1}{G}, Discard this card: Search your library for a b
 <Type>Creature — Hydra 0/0</Type>
 <ManaCost>XRG (2)</ManaCost>
 <CardText>Apocalypse Hydra enters the battlefield with X +1/+1 counters on it. If X is 5 or more, it enters the battlefield with an additional X +1/+1 counters on it.
-{1}{R}, Remove a +1/+1 counter from Apocalypse Hydra: Apocalypse Hydra deals 1 damage to target creature or player.</CardText>
+{1}{R}, Remove a +1/+1 counter from Apocalypse Hydra: Apocalypse Hydra deals 1 damage to any target.</CardText>
 <Artist>Jason Chan</Artist>
 <Multiverseid>183068</Multiverseid>
 <Rulings>2009/02/01: For example, if X is 4, <Apocalypse Hydra> enters the battlefield with four +1/+1 counters on it, but if X is 5, it enters the battlefield with ten +1/+1 counters on it.
@@ -1937,8 +1928,8 @@ When Child of Alara dies, destroy all nonland permanents. They can't be regenera
 <Flavor>After years of world-bending machinations, Bolas's triumph is at hand.</Flavor>
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>179437</Multiverseid>
-<Rulings>2009/02/01: You don't have to find all five cards.
-2009/02/01: You may find multicolored cards with <Conflux>. The white card you find, for example, can be any number of colors, as long as white is one of them. What colors it is won't impact what other cards you can find. For example, you may find a white-blue card as the white card and another white-blue card as the blue card.</Rulings>
+<Rulings>2018/03/16: You don't have to find all five cards.
+2018/03/16: You may find multicolored cards with <Conflux>. The white card you find, for example, can be any number of colors, as long as white is one of them. What colors it is won't impact what other cards you can find. For example, you may find a white-blue card as the white card and another white-blue card as the blue card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2007,7 +1998,7 @@ Whenever enchanted creature deals damage to a player, that player discards two c
 <Name>Exploding Borders</Name>
 <Type>Sorcery</Type>
 <ManaCost>2RG (4)</ManaCost>
-<CardText>Domain — Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle your library. Exploding Borders deals X damage to target player, where X is the number of basic land types among lands you control.</CardText>
+<CardText>Domain — Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle your library. Exploding Borders deals X damage to target player or planeswalker, where X is the number of basic land types among lands you control.</CardText>
 <Flavor>Reuniting a world is not a gentle process.</Flavor>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Multiverseid>189378</Multiverseid>
@@ -2016,7 +2007,7 @@ Whenever enchanted creature deals damage to a player, that player discards two c
 2009/02/01: A number of nonbasic lands have basic land types. Domain abilities don't count the number of lands you control — they count the number of basic land types among lands you control, even if that means checking the same land twice. For example, if you control a Tundra, an Overgrown Tomb, and a Madblind Mountain, you'll have a Plains, Island, Swamp, Mountain, and Forest among the lands you control. Your domain abilities will be maxed out.
 2009/02/01: You do what the spell says in order, so you'll put a new basic land card onto the battlefield before you determine the value of X.
 2009/02/01: <Exploding Borders> will still deal damage even if you don't put a land card onto the battlefield.
-2009/02/01: <Exploding Borders> has only one target: the player. If that player becomes an illegal target by the time <Exploding Borders> would resolve, the entire spell is countered. You won't get to search for a basic land card.</Rulings>
+2009/02/01: <Exploding Borders> has only one target: the player. If that player becomes an illegal target by the time <Exploding Borders> would resolve, the entire spell doesn't resolve. You won't get to search for a basic land card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2121,7 +2112,7 @@ Hellkite Hatchling has flying and trample if it devoured a creature.</CardText>
 <Name>Jhessian Balmgiver</Name>
 <Type>Creature — Human Cleric 1/1</Type>
 <ManaCost>1WU (3)</ManaCost>
-<CardText>{T}: Prevent the next 1 damage that would be dealt to target creature or player this turn.
+<CardText>{T}: Prevent the next 1 damage that would be dealt to any target this turn.
 {T}: Target creature can't be blocked this turn.</CardText>
 <Flavor>"You have two choices: heed my advice now or need my healing later."</Flavor>
 <Artist>David Palumbo</Artist>
@@ -2163,7 +2154,7 @@ Hellkite Hatchling has flying and trample if it devoured a creature.</CardText>
 <Name>Knotvine Mystic</Name>
 <Type>Creature — Elf Druid 2/2</Type>
 <ManaCost>WRG (3)</ManaCost>
-<CardText>{1}, {T}: Add {R}{G}{W} to your mana pool.</CardText>
+<CardText>{1}, {T}: Add {R}{G}{W}.</CardText>
 <Flavor>The elves of Naya were the last to acknowledge the massive shift of mana in their world.</Flavor>
 <Artist>Ariel Olivetti</Artist>
 <Multiverseid>180265</Multiverseid>
@@ -2188,7 +2179,7 @@ Whenever Maelstrom Archangel deals combat damage to a player, you may cast a non
 <Rulings>2009/02/01: If you want to cast a card this way, you cast it as part of the resolution of Maelstrom Angel's triggered ability. Timing restrictions based on the card's type (such as creature or sorcery) are ignored. Other casting restrictions are not (such as "Cast [this card] only before attackers are declared").
 2009/02/01: If you cast a card this way, you're casting it as a spell. It can be countered.
 2009/02/01: If you cast a card with X in its cost this way, X must be 0.
-2009/02/01: If you cast a card "without paying its mana cost," you can't pay any alternative costs, such as evoke or the alternative cost provided by the morph ability. However, you can pay optional additional costs, such as conspire, and you must still pay mandatory additional costs, such as the one on Goldmeadow Stalwart.</Rulings>
+2009/02/01: If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs, such as evoke or the alternative cost provided by the morph ability. However, you can pay optional additional costs, such as conspire, and you must still pay mandatory additional costs, such as the one on Goldmeadow Stalwart.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2229,7 +2220,7 @@ When Malfegor enters the battlefield, discard your hand. Each opponent sacrifice
 <Artist>Jason Chan</Artist>
 <Multiverseid>185812</Multiverseid>
 <Rulings>2017/11/17: <Malfegor>'s ability is not optional. You must discard your entire hand no matter how many creatures your opponents control.
-2017/11/17: After you discard your hand and the number of creatures each opponent must sacrifice has been determined, each opponent in turn order, starting with the player whose turn it is if that player is your opponent, chooses which creatures he or she will sacrifice, then all the chosen creatures are all sacrificed at the same time.</Rulings>
+2017/11/17: After you discard your hand and the number of creatures each opponent must sacrifice has been determined, each opponent in turn order, starting with the player whose turn it is if that player is your opponent, chooses which creatures they will sacrifice, then all the chosen creatures are all sacrificed at the same time.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2283,12 +2274,12 @@ Whenever Meglonoth blocks a creature, Meglonoth deals damage to that creature's 
 <ManaCost>4UBBR (8)</ManaCost>
 <CardText>+3: Destroy target noncreature permanent.
 -2: Gain control of target creature.
--9: Nicol Bolas, Planeswalker deals 7 damage to target player. That player discards seven cards, then sacrifices seven permanents.</CardText>
+-9: Nicol Bolas, Planeswalker deals 7 damage to target player or planeswalker. That player or that planeswalker's controller discards seven cards, then sacrifices seven permanents.</CardText>
 <Artist>D. Alexander Gregory</Artist>
 <Multiverseid>179441</Multiverseid>
 <Rulings>2009/02/01: The control-change effect has no duration. It will last until the game ends or the affected creature leaves the battlefield. It may be superseded by a later control-change effect.
 2012/07/01: If the damage from Nicol Bolas's third ability is prevented or redirected, the rest of the effect will still happen. Specifically, the number of cards discarded and permanents sacrificed isn't tied to the amount of damage dealt.
-2012/07/01: For the third ability, if the player is an illegal target when the ability tries to resolve, the ability is countered and none of its effects will happen. No damage will be dealt, no cards will be discarded, and no permanents will be sacrificed.</Rulings>
+2012/07/01: For the third ability, if the player is an illegal target when the ability tries to resolve, the ability doesn't resolve and none of its effects will happen. No damage will be dealt, no cards will be discarded, and no permanents will be sacrificed.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2589,7 +2580,7 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
 <CardText>When Kaleidostone enters the battlefield, draw a card.
-{5}, {T}, Sacrifice Kaleidostone: Add {W}{U}{B}{R}{G} to your mana pool.</CardText>
+{5}, {T}, Sacrifice Kaleidostone: Add {W}{U}{B}{R}{G}.</CardText>
 <Flavor>Once broken, who knows what worlds might grow from its shards?</Flavor>
 <Artist>Chippy</Artist>
 <Multiverseid>189272</Multiverseid>
@@ -2606,7 +2597,7 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <Name>Mana Cylix</Name>
 <Type>Artifact</Type>
 <ManaCost>1 (1)</ManaCost>
-<CardText>{1}, {T}: Add one mana of any color to your mana pool.</CardText>
+<CardText>{1}, {T}: Add one mana of any color.</CardText>
 <Flavor>Those who dismiss the cylix as an ordinary wooden bowl are blind to the true measure of its worth.</Flavor>
 <Artist>Howard Lyon</Artist>
 <Multiverseid>189269</Multiverseid>
@@ -2647,7 +2638,7 @@ Equip {3}</CardText>
 <CardText>{1}{W}, {T}: You gain 5 life.
 {1}{U}, {T}: Draw a card, then discard a card.
 {1}{B}, {T}: Target creature gets -2/-2 until end of turn.
-{1}{R}, {T}: Obelisk of Alara deals 3 damage to target player.
+{1}{R}, {T}: Obelisk of Alara deals 3 damage to target player or planeswalker.
 {1}{G}, {T}: Target creature gets +4/+4 until end of turn.</CardText>
 <Artist>Jeremy Jarvis</Artist>
 <Multiverseid>183018</Multiverseid>
@@ -2663,7 +2654,7 @@ Equip {3}</CardText>
 <No>141</No>
 <Name>Ancient Ziggurat</Name>
 <Type>Land</Type>
-<CardText>{T}: Add one mana of any color to your mana pool. Spend this mana only to cast a creature spell.</CardText>
+<CardText>{T}: Add one mana of any color. Spend this mana only to cast a creature spell.</CardText>
 <Flavor>Built in honor of Alara's creatures, the ziggurat vanished long ago. When Progenitus awakened, the temple emerged again.</Flavor>
 <Artist>John Avon</Artist>
 <Multiverseid>189271</Multiverseid>
@@ -2681,13 +2672,13 @@ Equip {3}</CardText>
 <No>142</No>
 <Name>Exotic Orchard</Name>
 <Type>Land</Type>
-<CardText>{T}: Add to your mana pool one mana of any color that a land an opponent controls could produce.</CardText>
+<CardText>{T}: Add one mana of any color that a land an opponent controls could produce.</CardText>
 <Flavor>"It was a strange morning. When we awoke, we found our trees transformed. We didn't know whether to water them or polish them."
 —Pulan, Bant orchardist</Flavor>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>189273</Multiverseid>
 <Rulings>2009/02/01: The colors of mana are white, blue, black, red, and green. <Exotic Orchard> can't be tapped for colorless mana, even if a land an opponent controls could produce colorless mana.
-2009/02/01: <Exotic Orchard> checks the effects of all mana-producing abilities of lands your opponents control, but it doesn't check their costs. For example, Vivid Crag has the ability "{T}, Remove a charge counter from Vivid Crag: Add one mana of any color to your mana pool." If an opponent controls Vivid Crag and you control <Exotic Orchard>, you can tap <Exotic Orchard> for any color of mana. It doesn't matter whether Vivid Crag has a charge counter on it, and it doesn't matter whether it's untapped.
+2009/02/01: <Exotic Orchard> checks the effects of all mana-producing abilities of lands your opponents control, but it doesn't check their costs. For example, Vivid Crag has the ability "{T}, Remove a charge counter from Vivid Crag: Add one mana of any color." If an opponent controls Vivid Crag and you control <Exotic Orchard>, you can tap <Exotic Orchard> for any color of mana. It doesn't matter whether Vivid Crag has a charge counter on it, and it doesn't matter whether it's untapped.
 2009/02/01: When determining what colors of mana your opponents' lands could produce, <Exotic Orchard> takes into account any applicable replacement effects that would apply to those lands' mana abilities (such as Contamination's effect, for example). If there are more than one, consider them in any possible order.
 2009/02/01: <Exotic Orchard> doesn't care about any restrictions or riders your opponents' lands (such as Ancient Ziggurat or Hall of the Bandit Lord) put on the mana they produce. It just cares about colors of mana.
 2009/02/01: Lands that produce mana based only on what other lands "could produce" won't help each other unless some other land allows one of them to actually produce some type of mana. For example, if you control an <Exotic Orchard> and your opponent controls an <Exotic Orchard> and a Reflecting Pool, none of those lands would produce mana if their mana abilities were activated. On the other hand, if you control a Forest and an <Exotic Orchard>, and your opponent controls an <Exotic Orchard> and a Reflecting Pool, then each of those lands can be tapped to produce {G}. Your opponent's <Exotic Orchard> can produce {G} because you control a Forest. Your <Exotic Orchard> and your opponent's Reflecting Pool can each produce {G} because your opponent's <Exotic Orchard> can produce {G}.</Rulings>
@@ -2704,7 +2695,7 @@ Equip {3}</CardText>
 <Name>Reliquary Tower</Name>
 <Type>Land</Type>
 <CardText>You have no maximum hand size.
-{T}: Add {C} to your mana pool.</CardText>
+{T}: Add {C}.</CardText>
 <Flavor>When the aven scouts located the tower in Esper, the Knights of the Reliquary set off on a righteous crusade to recover their lost treasures.</Flavor>
 <Artist>Jesper Ejsing</Artist>
 <Multiverseid>150807</Multiverseid>
@@ -2723,7 +2714,7 @@ Equip {3}</CardText>
 <Type>Land</Type>
 <CardText>Rupture Spire enters the battlefield tapped.
 When Rupture Spire enters the battlefield, sacrifice it unless you pay {1}.
-{T}: Add one mana of any color to your mana pool.</CardText>
+{T}: Add one mana of any color.</CardText>
 <Artist>Jaime Jones</Artist>
 <Multiverseid>142301</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2738,7 +2729,7 @@ When Rupture Spire enters the battlefield, sacrifice it unless you pay {1}.
 <No>145</No>
 <Name>Unstable Frontier</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {T}: Target land you control becomes the basic land type of your choice until end of turn.</CardText>
 <Flavor>The goblins went to sleep in Jund and awoke in Grixis. They'd never seen a zombie before. They would never see one again.</Flavor>
 <Artist>John Avon</Artist>

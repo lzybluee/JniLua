@@ -31,7 +31,7 @@
 2005/10/01: A creature "shares a color" with any creature that is at least one of its colors. For example, a green-white creature shares a color with creatures that are green, white, green-white, red-white, black-green, and so on.
 2005/10/01: If it targets a colorless creature, it doesn't affect any other creatures. A colorless creature shares a color with nothing, not even other colorless creatures.
 2005/10/01: You check which creatures share a color with the target when the spell resolves.
-2005/10/01: Only one creature is targeted. If that creature leaves the battlefield or otherwise becomes an illegal target, the entire spell is countered. No other creatures are affected.</Rulings>
+2005/10/01: Only one creature is targeted. If that creature leaves the battlefield or otherwise becomes an illegal target, the entire spell doesn't resolve. No other creatures are affected.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -46,11 +46,11 @@
 <Type>Creature — Spirit 0/4</Type>
 <ManaCost>2W (3)</ManaCost>
 <CardText>Defender (This creature can't attack.)
-{T}: Prevent the next 1 damage that would be dealt to target creature or player this turn.</CardText>
+{T}: Prevent the next 1 damage that would be dealt to any target this turn.</CardText>
 <Flavor>Although the door is flimsy and the lock pathetically small, Josuri's family never fears the night outside.</Flavor>
 <Artist>Nick Percival</Artist>
 <Multiverseid>89047</Multiverseid>
-<Rulings>2017/11/17: If the target creature or player would be dealt damage by multiple sources at once, that player or that creature's controller chooses one of those sources at the time damage would be dealt, and 1 of that damage from that source is prevented.</Rulings>
+<Rulings>2017/11/17: If the target would be dealt damage by multiple sources at once, that player or that permanent's controller chooses one of those sources at the time damage would be dealt, and 1 of that damage from that source is prevented.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -102,7 +102,7 @@ Creatures can't attack you.</CardText>
 <Name>Caregiver</Name>
 <Type>Creature — Human Cleric 1/1</Type>
 <ManaCost>W (1)</ManaCost>
-<CardText>{W}, Sacrifice a creature: Prevent the next 1 damage that would be dealt to target creature or player this turn.</CardText>
+<CardText>{W}, Sacrifice a creature: Prevent the next 1 damage that would be dealt to any target this turn.</CardText>
 <Flavor>"The guilds each believe its way is right, but their ways only bring blood to Ravnica's streets and tears to Ravnica's families."</Flavor>
 <Artist>William Simpson</Artist>
 <Multiverseid>83612</Multiverseid>
@@ -287,7 +287,7 @@ Exile target attacking or blocking creature.</CardText>
 <Type>Creature — Griffin 3/2</Type>
 <ManaCost>3WW (5)</ManaCost>
 <CardText>Flying
-{T}, Sacrifice Divebomber Griffin: Divebomber Griffin deals 3 damage to target attacking or blocking creature.</CardText>
+{T}, Sacrifice Divebomber Griffin: It deals 3 damage to target attacking or blocking creature.</CardText>
 <Flavor>Justice flies swiftly on angry wings.</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>88975</Multiverseid>
@@ -401,17 +401,17 @@ Draw a card.</CardText>
 <Name>Ghosts of the Innocent</Name>
 <Type>Creature — Spirit 4/5</Type>
 <ManaCost>5WW (7)</ManaCost>
-<CardText>If a source would deal damage to a creature or player, it deals half that damage, rounded down, to that creature or player instead.</CardText>
+<CardText>If a source would deal damage to a permanent or player, it deals half that damage, rounded down, to that permanent or player instead.</CardText>
 <Flavor>"Ma said we should offer up blini-cakes and salt to the good ones, but I get that chill up my spine and just shut the door."
 —Otak, Tin Street shopkeep</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>89042</Multiverseid>
 <Rulings>2005/10/01: If a damage prevention effect and <Ghosts of the Innocent>'s effect would apply to the same damage, the player or the controller of the creature being dealt damage may apply the effects in either order (most likely applying the halving effect first).
-2005/10/01: Half of 1 rounded down is 0. A source that would deal 1 damage to a creature or player won't deal damage to that creature or player at all.
+2005/10/01: Half of 1 rounded down is 0. A source that would deal 1 damage won't deal damage at all.
 2005/10/01: Multiple <Ghosts of the Innocent> effects are cumulative, and each will halve the damage, rounded down. For example, with three on the battlefield, 14 damage becomes 7, then 3, then finally 1, and only 1 damage would actually be dealt.
-2005/10/01: This isn't a damage prevention effect. If Excruciator ("Damage that would be dealt by Excruciator can't be prevented") would deal 7 damage to a creature or player, it deals 3 damage instead.
+2005/10/01: This isn't a damage prevention effect. If Excruciator ("Damage that would be dealt by Excruciator can't be prevented") would deal 7 damage to a permanent or player, it deals 3 damage instead.
 2005/10/01: If damage is redirected, it's only halved once.
-2005/10/01: If both <Ghosts of the Innocent> and Furnace of Rath (which doubles damage) are on the battlefield, the controller of the creature being dealt damage or the player being dealt damage can apply the effects in either order. This can matter if the original amount of damage is odd. For example, if a source would deal 3 damage, <Ghosts of the Innocent> would make it 1 damage, then Furnace of Rath would make it 2 damage, if the player chose to apply the effects in that order.</Rulings>
+2005/10/01: If both <Ghosts of the Innocent> and Furnace of Rath (which doubles damage) are on the battlefield, the controller of the permanent being dealt damage or the player being dealt damage can apply the effects in either order. This can matter if the original amount of damage is odd. For example, if a source would deal 3 damage, <Ghosts of the Innocent> would make it 1 damage, then Furnace of Rath would make it 2 damage, if the player chose to apply the effects in that order.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -743,7 +743,7 @@ Other creatures you control get +0/+2 and have vigilance.</CardText>
 <Type>Creature — Sphinx 2/5</Type>
 <ManaCost>4U (5)</ManaCost>
 <CardText>Flying
-Whenever a source deals damage to Belltower Sphinx, that source's controller puts that many cards from the top of his or her library into his or her graveyard.</CardText>
+Whenever a source deals damage to Belltower Sphinx, that source's controller puts that many cards from the top of their library into their graveyard.</CardText>
 <Artist>Jim Nelson</Artist>
 <Multiverseid>88981</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -760,7 +760,7 @@ Whenever a source deals damage to Belltower Sphinx, that source's controller put
 <Type>Creature — Sphinx 5/5</Type>
 <ManaCost>4UU (6)</ManaCost>
 <CardText>Flying
-{U}: Cerulean Sphinx's owner shuffles it into his or her library.</CardText>
+{U}: Cerulean Sphinx's owner shuffles it into their library.</CardText>
 <Flavor>"About the sphinx, I have mixed feelings. Their wisdom I crave, but their secrecy I can't tolerate."
 —Szadek</Flavor>
 <Artist>Jim Murray</Artist>
@@ -778,11 +778,11 @@ Whenever a source deals damage to Belltower Sphinx, that source's controller put
 <Name>Compulsive Research</Name>
 <Type>Sorcery</Type>
 <ManaCost>2U (3)</ManaCost>
-<CardText>Target player draws three cards. Then that player discards two cards unless he or she discards a land card.</CardText>
+<CardText>Target player draws three cards. Then that player discards two cards unless they discard a land card.</CardText>
 <Flavor>"Four parts molten bronze, yes . . . one part frozen mercury, yes, yes . . . but then what?"</Flavor>
 <Artist>Michael Sutfin</Artist>
 <Multiverseid>87991</Multiverseid>
-<Rulings>2017/03/14: The target player can discard either one land card or two cards which may or may not be lands. The player can discard one land and one other card or two land cards if he or she chooses.</Rulings>
+<Rulings>2017/03/14: The target player can discard either one land card or two cards which may or may not be lands. The player can discard one land and one other card or two land cards if they choose.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -874,7 +874,7 @@ When Drake Familiar enters the battlefield, sacrifice it unless you return an en
 <Type>Enchantment — Aura</Type>
 <ManaCost>3UU (5)</ManaCost>
 <CardText>Enchant permanent
-You can't choose an untapped permanent as Dream Leash's target as you cast Dream Leash.
+You can't choose an untapped permanent as this spell's target as you cast it.
 You control enchanted permanent.</CardText>
 <Flavor>The tendrils of sorcery find easy purchase on the soft underbelly of dreams.</Flavor>
 <Artist>Alex Horley-Orlandelli</Artist>
@@ -935,7 +935,7 @@ Transmute {1}{U}{U} ({1}{U}{U}, Discard this card: Search your library for a car
 <Artist>Hideaki Takamura</Artist>
 <Multiverseid>83791</Multiverseid>
 <Rulings>2005/10/01: The ability triggers when a player casts an instant or sorcery *card*. A copy of a card (such as those generated by <Eye of the Storm> itself) won't trigger this ability. The card that was cast is exiled and won't resolve, but the player will get a copy of the spell from <Eye of the Storm>.
-2005/10/01: When the ability resolves, the player copies all cards exiled with <Eye of the Storm>, not just the cards he or she owns. That player then chooses which of those copies to cast, if any. All chosen copies are cast in the order the player chooses.
+2005/10/01: When the ability resolves, the player copies all cards exiled with <Eye of the Storm>, not just the cards they own. That player then chooses which of those copies to cast, if any. All chosen copies are cast in the order the player chooses.
 2005/10/01: The player chooses modes, pays additional costs, chooses targets, and so on for the copies when casting them. Any X in the mana cost of a copy cast this way will be 0. Alternative costs can't be paid.
 2006/01/01: You must still follow any restrictions on when you can cast the spell, such as "cast only during combat" or "cast only on your own turn."
 2006/02/01: When a spell with Replicate is copied by <Eye of the Storm>, you have the opportunity to pay additional costs, so you may Replicate as much as you like (assuming you have the mana available).</Rulings>
@@ -1053,7 +1053,7 @@ Transmute {1}{U}{U} ({1}{U}{U}, Discard this card: Search your library for a car
 —Glazing incantation</Flavor>
 <Artist>John Avon</Artist>
 <Multiverseid>83764</Multiverseid>
-<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
+<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1084,7 +1084,7 @@ When Hunted Phantasm enters the battlefield, target opponent creates five 1/1 re
 <Name>Induce Paranoia</Name>
 <Type>Instant</Type>
 <ManaCost>2UU (4)</ManaCost>
-<CardText>Counter target spell. If {B} was spent to cast Induce Paranoia, that spell's controller puts the top X cards of his or her library into his or her graveyard, where X is the spell's converted mana cost.</CardText>
+<CardText>Counter target spell. If {B} was spent to cast Induce Paranoia, that spell's controller puts the top X cards of their library into their graveyard, where X is the spell's converted mana cost.</CardText>
 <Artist>Jim Murray</Artist>
 <Watermark>Dimir</Watermark>
 <Multiverseid>87924</Multiverseid>
@@ -1136,7 +1136,7 @@ At the beginning of your upkeep, return enchanted creature and all Auras attache
 <Name>Mnemonic Nexus</Name>
 <Type>Instant</Type>
 <ManaCost>3U (4)</ManaCost>
-<CardText>Each player shuffles his or her graveyard into his or her library.</CardText>
+<CardText>Each player shuffles their graveyard into their library.</CardText>
 <Flavor>True enlightenment comes not with a new thought, but with understanding of all the old ones.</Flavor>
 <Artist>Stephen Tappin</Artist>
 <Multiverseid>88963</Multiverseid>
@@ -1377,7 +1377,7 @@ When Surveilling Sprite dies, you may draw a card.</CardText>
 <Name>Tunnel Vision</Name>
 <Type>Sorcery</Type>
 <ManaCost>5U (6)</ManaCost>
-<CardText>Choose a card name. Target player reveals cards from the top of his or her library until a card with that name is revealed. If it is, that player puts the rest of the revealed cards into his or her graveyard and puts the card with the chosen name on top of his or her library. Otherwise, the player shuffles his or her library.</CardText>
+<CardText>Choose a card name. Target player reveals cards from the top of their library until a card with that name is revealed. If it is, that player puts the rest of the revealed cards into their graveyard and puts the card with the chosen name on top of their library. Otherwise, the player shuffles their library.</CardText>
 <Artist>Dany Orizio</Artist>
 <Multiverseid>89022</Multiverseid>
 <Rulings>2005/10/01: If the named card is found, everything from the top of the library down to the named card is put into the graveyard and the library isn't shuffled. If the named card isn't in the library, no cards are put into the graveyard and the library is shuffled.</Rulings>
@@ -1413,7 +1413,7 @@ When Surveilling Sprite dies, you may draw a card.</CardText>
 <Name>Vedalken Entrancer</Name>
 <Type>Creature — Vedalken Wizard 1/4</Type>
 <ManaCost>3U (4)</ManaCost>
-<CardText>{U}, {T}: Target player puts the top two cards of his or her library into his or her graveyard.</CardText>
+<CardText>{U}, {T}: Target player puts the top two cards of their library into their graveyard.</CardText>
 <Flavor>Their denial reaches far into your future.</Flavor>
 <Artist>Dan Scott</Artist>
 <Multiverseid>89028</Multiverseid>
@@ -1632,7 +1632,7 @@ Transmute {1}{B}{B} ({1}{B}{B}, Discard this card: Search your library for a car
 <Name>Empty the Catacombs</Name>
 <Type>Sorcery</Type>
 <ManaCost>3B (4)</ManaCost>
-<CardText>Each player returns all creature cards from his or her graveyard to his or her hand.</CardText>
+<CardText>Each player returns all creature cards from their graveyard to their hand.</CardText>
 <Flavor>When the dead are laid to rest in Ravnica, it's usually just a nap.</Flavor>
 <Artist>Mark A. Nelson</Artist>
 <Multiverseid>89015</Multiverseid>
@@ -1868,7 +1868,7 @@ Dredge 2 (If you would draw a card, instead you may put exactly two cards from t
 <Name>Netherborn Phalanx</Name>
 <Type>Creature — Horror 2/4</Type>
 <ManaCost>5B (6)</ManaCost>
-<CardText>When Netherborn Phalanx enters the battlefield, each opponent loses 1 life for each creature he or she controls.
+<CardText>When Netherborn Phalanx enters the battlefield, each opponent loses 1 life for each creature they control.
 Transmute {1}{B}{B} ({1}{B}{B}, Discard this card: Search your library for a card with the same converted mana cost as this card, reveal it, and put it into your hand. Then shuffle your library. Transmute only as a sorcery.)</CardText>
 <Artist>Christopher Rush</Artist>
 <Watermark>Dimir</Watermark>
@@ -1886,7 +1886,7 @@ Transmute {1}{B}{B} ({1}{B}{B}, Discard this card: Search your library for a car
 <Name>Nightmare Void</Name>
 <Type>Sorcery</Type>
 <ManaCost>3B (4)</ManaCost>
-<CardText>Target player reveals his or her hand. You choose a card from it. That player discards that card.
+<CardText>Target player reveals their hand. You choose a card from it. That player discards that card.
 Dredge 2 (If you would draw a card, instead you may put exactly two cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)</CardText>
 <Artist>Chippy</Artist>
 <Watermark>Golgari</Watermark>
@@ -1945,7 +1945,7 @@ Dredge 2 (If you would draw a card, instead you may put exactly two cards from t
 <Name>Sadistic Augermage</Name>
 <Type>Creature — Human Wizard 3/1</Type>
 <ManaCost>2B (3)</ManaCost>
-<CardText>When Sadistic Augermage dies, each player puts a card from his or her hand on top of his or her library.</CardText>
+<CardText>When Sadistic Augermage dies, each player puts a card from their hand on top of their library.</CardText>
 <Flavor>"Don't worry. I know the drill."</Flavor>
 <Artist>Nick Percival</Artist>
 <Multiverseid>83745</Multiverseid>
@@ -2168,7 +2168,7 @@ At the beginning of each player's upkeep, that player sacrifices a creature. If 
 <Name>Blockbuster</Name>
 <Type>Enchantment</Type>
 <ManaCost>3RR (5)</ManaCost>
-<CardText>{1}{R}, Sacrifice Blockbuster: Blockbuster deals 3 damage to each tapped creature and each player.</CardText>
+<CardText>{1}{R}, Sacrifice Blockbuster: It deals 3 damage to each tapped creature and each player.</CardText>
 <Flavor>Vendors hung cords heavy with roots and laid out boxes of salted meat, unaware of the fiery disaster swiftly approaching.</Flavor>
 <Artist>Dave Dorman</Artist>
 <Multiverseid>87977</Multiverseid>
@@ -2203,7 +2203,7 @@ When enchanted creature deals combat damage to a player, sacrifice it and attach
 <Name>Char</Name>
 <Type>Instant</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>Char deals 4 damage to target creature or player and 2 damage to you.</CardText>
+<CardText>Char deals 4 damage to any target and 2 damage to you.</CardText>
 <Flavor>Izzet mages often acquire their magic reagents from dubious sources, so the potency of their spells is never predictable.</Flavor>
 <Artist>Adam Rex</Artist>
 <Multiverseid>87942</Multiverseid>
@@ -2230,7 +2230,7 @@ When enchanted creature deals combat damage to a player, sacrifice it and attach
 2005/10/01: A creature "shares a color" with any creature that is at least one of its colors. For example, a green-white creature shares a color with creatures that are green, white, green-white, red-white, black-green, and so on.
 2005/10/01: If it targets a colorless creature, it doesn't affect any other creatures. A colorless creature shares a color with nothing, not even other colorless creatures.
 2005/10/01: You check which creatures share a color with the target when the spell resolves.
-2005/10/01: Only one creature is targeted. If that creature leaves the battlefield or otherwise becomes an illegal target, the entire spell is countered. No other creatures are affected.</Rulings>
+2005/10/01: Only one creature is targeted. If that creature leaves the battlefield or otherwise becomes an illegal target, the entire spell doesn't resolve. No other creatures are affected.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2261,7 +2261,7 @@ When enchanted creature deals combat damage to a player, sacrifice it and attach
 <Name>Dogpile</Name>
 <Type>Instant</Type>
 <ManaCost>3R (4)</ManaCost>
-<CardText>Dogpile deals damage to target creature or player equal to the number of attacking creatures you control.</CardText>
+<CardText>Dogpile deals damage to any target equal to the number of attacking creatures you control.</CardText>
 <Flavor>There is no shelter from this storm, its rain of fists, or the thunderous cackles of bloodlust.</Flavor>
 <Artist>Jeff Miracola</Artist>
 <Multiverseid>87921</Multiverseid>
@@ -2301,7 +2301,7 @@ When enchanted creature deals combat damage to a player, sacrifice it and attach
 <Name>Fiery Conclusion</Name>
 <Type>Instant</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>As an additional cost to cast Fiery Conclusion, sacrifice a creature.
+<CardText>As an additional cost to cast this spell, sacrifice a creature.
 Fiery Conclusion deals 5 damage to target creature.</CardText>
 <Flavor>The Boros legionnaire saw a noble sacrifice, the Rakdos thug a blazing suicide, and the Izzet alchemist an experiment gone awry.</Flavor>
 <Artist>Paolo Parente</Artist>
@@ -2321,7 +2321,7 @@ Fiery Conclusion deals 5 damage to target creature.</CardText>
 <Name>Flame Fusillade</Name>
 <Type>Sorcery</Type>
 <ManaCost>3R (4)</ManaCost>
-<CardText>Until end of turn, permanents you control gain "{T}: This permanent deals 1 damage to target creature or player."</CardText>
+<CardText>Until end of turn, permanents you control gain "{T}: This permanent deals 1 damage to any target."</CardText>
 <Flavor>"A single item acting as lantern and lance? Now that's military efficiency."
 —Brev Grezar, Boros lieutenant</Flavor>
 <Artist>Dany Orizio</Artist>
@@ -2363,6 +2363,7 @@ Fiery Conclusion deals 5 damage to target creature.</CardText>
 <Flavor>The upside to not thinking about the consequences is that you'll always surprise those who do.</Flavor>
 <Artist>Carl Critchlow</Artist>
 <Multiverseid>87947</Multiverseid>
+<Rulings>2018/03/16: <Frenzied Goblin>'s ability has only one target. You can't pay {R} multiple times to stop multiple creatures from blocking.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2377,7 +2378,7 @@ Fiery Conclusion deals 5 damage to target creature.</CardText>
 <Type>Enchantment — Aura</Type>
 <ManaCost>2R (3)</ManaCost>
 <CardText>Enchant creature
-When Galvanic Arc enters the battlefield, it deals 3 damage to target creature or player.
+When Galvanic Arc enters the battlefield, it deals 3 damage to any target.
 Enchanted creature has first strike.</CardText>
 <Artist>Michael Sutfin</Artist>
 <Multiverseid>87968</Multiverseid>
@@ -2494,7 +2495,7 @@ When Hunted Dragon enters the battlefield, target opponent creates three 2/2 whi
 2005/10/01: A creature "shares a color" with any creature that is at least one of its colors. For example, a green-white creature shares a color with creatures that are green, white, green-white, red-white, black-green, and so on.
 2005/10/01: If it targets a colorless creature, it doesn't affect any other creatures. A colorless creature shares a color with nothing, not even other colorless creatures.
 2005/10/01: You check which creatures share a color with the target when the spell resolves.
-2005/10/01: Only one creature is targeted. If that creature leaves the battlefield or otherwise becomes an illegal target, the entire spell is countered. No other creatures are affected.
+2005/10/01: Only one creature is targeted. If that creature leaves the battlefield or otherwise becomes an illegal target, the entire spell doesn't resolve. No other creatures are affected.
 2005/11/01: The targeted creature and the creatures that share a color with it at the time <Incite Hysteria> resolves gain an ability that says they can't block this turn. It doesn't matter if those creatures change colors before blockers are declared.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2659,7 +2660,7 @@ Draw a card.</CardText>
 <Name>Seismic Spike</Name>
 <Type>Sorcery</Type>
 <ManaCost>2RR (4)</ManaCost>
-<CardText>Destroy target land. Add {R}{R} to your mana pool.</CardText>
+<CardText>Destroy target land. Add {R}{R}.</CardText>
 <Flavor>Natural disasters in Ravnica are largely nullified by the Izzet. Unnatural disasters, on the other hand, happen all of the time.</Flavor>
 <Artist>John Avon</Artist>
 <Multiverseid>83829</Multiverseid>
@@ -2711,7 +2712,7 @@ Draw a card.</CardText>
 <Name>Sparkmage Apprentice</Name>
 <Type>Creature — Human Wizard 1/1</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>When Sparkmage Apprentice enters the battlefield, it deals 1 damage to target creature or player.</CardText>
+<CardText>When Sparkmage Apprentice enters the battlefield, it deals 1 damage to any target.</CardText>
 <Flavor>Pajik was amazed and pleased at his newfound powers. His pet cat Rivin was slightly less enthusiastic.</Flavor>
 <Artist>Mark Poole</Artist>
 <Multiverseid>87967</Multiverseid>
@@ -2783,7 +2784,7 @@ Sacrifice three lands: Torpid Moloch loses defender until end of turn.</CardText
 <Name>Viashino Fangtail</Name>
 <Type>Creature — Viashino Warrior 3/3</Type>
 <ManaCost>2RR (4)</ManaCost>
-<CardText>{T}: Viashino Fangtail deals 1 damage to target creature or player.</CardText>
+<CardText>{T}: Viashino Fangtail deals 1 damage to any target.</CardText>
 <Flavor>"When the bony terminus gets too large, it's shed from the tail in coinciding periods of heightened aggression and hunger."
 —Simic research notes</Flavor>
 <Artist>Alex Horley-Orlandelli</Artist>
@@ -2818,17 +2819,11 @@ Sacrifice three lands: Torpid Moloch loses defender until end of turn.</CardText
 <Name>Warp World</Name>
 <Type>Sorcery</Type>
 <ManaCost>5RRR (8)</ManaCost>
-<CardText>Each player shuffles all permanents he or she owns into his or her library, then reveals that many cards from the top of his or her library. Each player puts all artifact, creature, and land cards revealed this way onto the battlefield, then does the same for enchantment cards, then puts all cards revealed this way that weren't put onto the battlefield on the bottom of his or her library.</CardText>
+<CardText>Each player shuffles all permanents they own into their library, then reveals that many cards from the top of their library. Each player puts all artifact, creature, and land cards revealed this way onto the battlefield, then does the same for enchantment cards, then puts all cards revealed this way that weren't put onto the battlefield on the bottom of their library.</CardText>
 <Artist>Ron Spencer</Artist>
 <Multiverseid>89084</Multiverseid>
-<Rulings>2006/10/15: Anything that triggers during the resolution of this will wait to be put on the stack until everything is put onto the battlefield and resolution is complete. The player whose turn it is will put all of his or her triggered abilities on the stack in any order, then each other player in turn order will do the same. (The last ability put on the stack will be the first one that resolves.)
-2009/10/01: Taking it slowly, here's what happens when <Warp World> resolves:
-1) Each player counts the number of permanents he or she owns.
-2) Each player shuffles those permanents into his or her library.
-3) Each player reveals cards from the top of his or her library equal to the number that player counted.
-4) Each player puts all artifact, land, and creature cards revealed this way onto the battlefield. All of these cards enter the battlefield at the same time.
-5) Each player puts all enchantment cards revealed this way onto the battlefield. An Aura put onto the battlefield this way can enchant an artifact, land, or creature that was already put onto the battlefield, but can't enchant an enchantment that's being put onto the battlefield at the same time as it. If multiple players have Auras to put onto the battlefield, the player whose turn it is announces what his or her Auras will enchant, then each other player in turn order does the same, then all enchantments (both Auras and non-Auras) enter the battlefield at the same time.
-6) Each player puts all of his or her other revealed cards (instants, sorceries, planeswalkers, and Auras that can't enchant anything) on the bottom of his or her library in any order.
+<Rulings>2006/10/15: Anything that triggers during the resolution of this will wait to be put on the stack until everything is put onto the battlefield and resolution is complete. The player whose turn it is will put all of their triggered abilities on the stack in any order, then each other player in turn order will do the same. (The last ability put on the stack will be the first one that resolves.)
+2009/10/01: Taking it slowly, here's what happens when <Warp World> resolves: 1) Each player counts the number of permanents they own. 2) Each player shuffles those permanents into their library. 3) Each player reveals cards from the top of their library equal to the number that player counted. 4) Each player puts all artifact, land, and creature cards revealed this way onto the battlefield. All of these cards enter the battlefield at the same time. 5) Each player puts all enchantment cards revealed this way onto the battlefield. An Aura put onto the battlefield this way can enchant an artifact, land, or creature that was already put onto the battlefield, but can't enchant an enchantment that's being put onto the battlefield at the same time as it. If multiple players have Auras to put onto the battlefield, the player whose turn it is announces what their Auras will enchant, then each other player in turn order does the same, then all enchantments (both Auras and non-Auras) enter the battlefield at the same time. 6) Each player puts all of their other revealed cards (instants, sorceries, planeswalkers, and Auras that can't enchant anything) on the bottom of their library in any order.
 2009/10/01: Tokens are permanents but not cards. They'll count toward the number of permanents shuffled into your library, so you'll get a card back for each token you owned. But the tokens themselves should be ignored while you're revealing *cards* from your library. In practice, you shouldn't actually shuffle them into your library since they'll cease to exist as soon as <Warp World> finishes resolving. Note that a token's owner is the player under whose control it first entered the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2843,7 +2838,7 @@ Sacrifice three lands: Torpid Moloch loses defender until end of turn.</CardText
 <Name>War-Torch Goblin</Name>
 <Type>Creature — Goblin Warrior 1/1</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>{R}, Sacrifice War-Torch Goblin: War-Torch Goblin deals 2 damage to target blocking creature.</CardText>
+<CardText>{R}, Sacrifice War-Torch Goblin: It deals 2 damage to target blocking creature.</CardText>
 <Flavor>"In a town shaped by the subtle machinations and political intrigue of its guilds, it's reassuring to see a goblin waving his torch and screaming about some nonsense or other."
 —Agrus Kos</Flavor>
 <Artist>Alex Horley-Orlandelli</Artist>
@@ -2880,7 +2875,7 @@ Sacrifice three lands: Torpid Moloch loses defender until end of turn.</CardText
 <Type>Creature — Bird 0/1</Type>
 <ManaCost>G (1)</ManaCost>
 <CardText>Flying
-{T}: Add one mana of any color to your mana pool.</CardText>
+{T}: Add one mana of any color.</CardText>
 <Flavor>Long ago, birds of paradise littered the skies. Thanks to the city's sprawl, most now exist as pets of society's elite.</Flavor>
 <Artist>Marcelo Vignali</Artist>
 <Multiverseid>83688</Multiverseid>
@@ -3033,7 +3028,7 @@ If an effect would put one or more counters on a permanent you control, it puts 
 <Name>Elves of Deep Shadow</Name>
 <Type>Creature — Elf Druid 1/1</Type>
 <ManaCost>G (1)</ManaCost>
-<CardText>{T}: Add {B} to your mana pool. Elves of Deep Shadow deals 1 damage to you.</CardText>
+<CardText>{T}: Add {B}. Elves of Deep Shadow deals 1 damage to you.</CardText>
 <Flavor>Cast out of the Conclave generations ago, these elves found a home in the corrupted districts of the Golgari.</Flavor>
 <Artist>Justin Sweet</Artist>
 <Watermark>Golgari</Watermark>
@@ -3094,7 +3089,7 @@ Enchanted creature has trample.</CardText>
 <Multiverseid>83672</Multiverseid>
 <Rulings>2017/03/14: You create the Saproling tokens, even if <Fists of Ironwood> enters the battlefield attached to another player's creature.
 2017/03/14: The Saproling tokens aren't created until after <Fists of Ironwood> is on the battlefield, so you can't cast <Fists of Ironwood> on one of those tokens.
-2017/03/14: If the target creature is an illegal target when <Fists of Ironwood> tries to resolve, <Fists of Ironwood> will be countered and won't enter the battlefield. You won't create Saproling tokens.</Rulings>
+2017/03/14: If the target creature is an illegal target when <Fists of Ironwood> tries to resolve, <Fists of Ironwood> won't resolve and won't enter the battlefield. You won't create Saproling tokens.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3477,7 +3472,7 @@ Create three 1/1 green Saproling creature tokens.</CardText>
 <Type>Creature — Wurm 5/5</Type>
 <ManaCost>5GG (7)</ManaCost>
 <CardText>Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
-Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)</CardText>
+Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)</CardText>
 <Flavor>The Rubblefield was once among the wealthiest districts in Ravnica. All it took was a single wurm to reduce it to ruins.</Flavor>
 <Artist>Carl Critchlow</Artist>
 <Watermark>Selesnya</Watermark>
@@ -3662,7 +3657,7 @@ Trample</CardText>
 <Name>Bloodbond March</Name>
 <Type>Enchantment</Type>
 <ManaCost>2BG (4)</ManaCost>
-<CardText>Whenever a player casts a creature spell, each player returns all cards with the same name as that spell from his or her graveyard to the battlefield.</CardText>
+<CardText>Whenever a player casts a creature spell, each player returns all cards with the same name as that spell from their graveyard to the battlefield.</CardText>
 <Flavor>The Golgari support a vast army because death never ends its soldiers' service.</Flavor>
 <Artist>Jim Nelson</Artist>
 <Watermark>Golgari</Watermark>
@@ -3709,7 +3704,7 @@ Trample</CardText>
 2005/10/01: A creature "shares a color" with any creature that is at least one of its colors. For example, a green-white creature shares a color with creatures that are green, white, green-white, red-white, black-green, and so on.
 2005/10/01: If it targets a colorless creature, it doesn't affect any other creatures. A colorless creature shares a color with nothing, not even other colorless creatures.
 2005/10/01: You check which creatures share a color with the target when the spell resolves.
-2005/10/01: Only one creature is targeted. If that creature leaves the battlefield or otherwise becomes an illegal target, the entire spell is countered. No other creatures are affected.</Rulings>
+2005/10/01: Only one creature is targeted. If that creature leaves the battlefield or otherwise becomes an illegal target, the entire spell doesn't resolve. No other creatures are affected.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3977,7 +3972,7 @@ At the beginning of your upkeep, if Firemane Angel is in your graveyard or on th
 <Name>Glimpse the Unthinkable</Name>
 <Type>Sorcery</Type>
 <ManaCost>UB (2)</ManaCost>
-<CardText>Target player puts the top ten cards of his or her library into his or her graveyard.</CardText>
+<CardText>Target player puts the top ten cards of their library into their graveyard.</CardText>
 <Flavor>"I am confident that if anyone actually penetrates our facades, even the most perceptive would still be fundamentally unprepared for the truth of House Dimir."
 —Szadek</Flavor>
 <Artist>Brandon Kitkouski</Artist>
@@ -4077,12 +4072,12 @@ Vigilance</CardText>
 <Name>Lightning Helix</Name>
 <Type>Instant</Type>
 <ManaCost>WR (2)</ManaCost>
-<CardText>Lightning Helix deals 3 damage to target creature or player and you gain 3 life.</CardText>
+<CardText>Lightning Helix deals 3 damage to any target and you gain 3 life.</CardText>
 <Flavor>Though less well-known than its army of soldiers, the Boros Legion's mage-priests are as respected by the innocent as they are hated by the ghosts of the guilty.</Flavor>
 <Artist>Kev Walker</Artist>
 <Watermark>Boros</Watermark>
 <Multiverseid>87908</Multiverseid>
-<Rulings>2017/11/17: If the chosen target is illegal when <Lightning Helix> tries to resolve, it will be countered and none of its effects will happen. You won't gain 3 life.</Rulings>
+<Rulings>2017/11/17: If the chosen target is illegal when <Lightning Helix> tries to resolve, it won't resolve and none of its effects will happen. You won't gain 3 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4158,12 +4153,12 @@ At the beginning of your upkeep, you lose 1 life.</CardText>
 <Name>Perplex</Name>
 <Type>Instant</Type>
 <ManaCost>1UB (3)</ManaCost>
-<CardText>Counter target spell unless its controller discards his or her hand.
+<CardText>Counter target spell unless its controller discards their hand.
 Transmute {1}{U}{B} ({1}{U}{B}, Discard this card: Search your library for a card with the same converted mana cost as this card, reveal it, and put it into your hand. Then shuffle your library. Transmute only as a sorcery.)</CardText>
 <Artist>Tsutomu Kawade</Artist>
 <Watermark>Dimir</Watermark>
 <Multiverseid>87992</Multiverseid>
-<Rulings>2005/10/01: If the spell's controller has no cards in his or her hand, that player can still choose to discard his or her hand and prevent the spell from being countered.</Rulings>
+<Rulings>2005/10/01: If the spell's controller has no cards in their hand, that player can still choose to discard their hand and prevent the spell from being countered.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4217,7 +4212,7 @@ Whenever enchanted creature deals combat damage to a player, create that many 1/
 <Name>Psychic Drain</Name>
 <Type>Sorcery</Type>
 <ManaCost>XUB (2)</ManaCost>
-<CardText>Target player puts the top X cards of his or her library into his or her graveyard and you gain X life.</CardText>
+<CardText>Target player puts the top X cards of their library into their graveyard and you gain X life.</CardText>
 <Flavor>"Gold can be reearned, goods restored. The moroii steal youth, more precious than either, and once gone, it's gone forever."
 —Berta Suszat, civic healer</Flavor>
 <Artist>Nick Percival</Artist>
@@ -4295,12 +4290,12 @@ Whenever enchanted creature deals combat damage to a player, create that many 1/
 <Name>Razia's Purification</Name>
 <Type>Sorcery</Type>
 <ManaCost>4WR (6)</ManaCost>
-<CardText>Each player chooses three permanents he or she controls, then sacrifices the rest.</CardText>
+<CardText>Each player chooses three permanents they control, then sacrifices the rest.</CardText>
 <Flavor>Only the chosen ones are spared.</Flavor>
 <Artist>Shishizaru</Artist>
 <Watermark>Boros</Watermark>
 <Multiverseid>89115</Multiverseid>
-<Rulings>2005/10/01: If a player doesn't control three permanents, that player chooses all the permanents he or she does control and doesn't sacrifice anything.
+<Rulings>2005/10/01: If a player doesn't control three permanents, that player chooses all the permanents they do control and doesn't sacrifice anything.
 2005/10/01: Players choose permanents in turn order around the table, then simultaneously sacrifice all permanents not chosen.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -4337,7 +4332,7 @@ Whenever you sacrifice a green creature, you may gain 2 life.</CardText>
 <Name>Searing Meditation</Name>
 <Type>Enchantment</Type>
 <ManaCost>1WR (3)</ManaCost>
-<CardText>Whenever you gain life, you may pay {2}. If you do, Searing Meditation deals 2 damage to target creature or player.</CardText>
+<CardText>Whenever you gain life, you may pay {2}. If you do, Searing Meditation deals 2 damage to any target.</CardText>
 <Flavor>"When I meditate I see the world as it should be. All that does not fit, I remove."
 —Alovnek, Boros guildmage</Flavor>
 <Artist>Dave Dorman</Artist>
@@ -4494,7 +4489,7 @@ Dredge 3 (If you would draw a card, instead you may put exactly three cards from
 <Type>Legendary Creature — Vampire 5/5</Type>
 <ManaCost>3UUBB (7)</ManaCost>
 <CardText>Flying
-If Szadek, Lord of Secrets would deal combat damage to a player, instead put that many +1/+1 counters on Szadek and that player puts that many cards from the top of his or her library into his or her graveyard.</CardText>
+If Szadek, Lord of Secrets would deal combat damage to a player, instead put that many +1/+1 counters on Szadek and that player puts that many cards from the top of their library into their graveyard.</CardText>
 <Artist>Donato Giancola</Artist>
 <Watermark>Dimir</Watermark>
 <Multiverseid>89092</Multiverseid>
@@ -4578,7 +4573,7 @@ Whenever a card is put into an opponent's graveyard from anywhere, put a +1/+1 c
 <Artist>Greg Staples</Artist>
 <Watermark>Golgari</Watermark>
 <Multiverseid>89082</Multiverseid>
-<Rulings>2005/10/01: The ability doesn't care why a card goes to your opponent's graveyard — only that it does. The ability triggers when a card is put into your opponent's graveyard from the stack (a spell resolves or is countered), from the battlefield (a permanent is destroyed or sacrificed), from the player's hand (a card is discarded), from the player's library (from a Millstone-like effect), or from any other zone.
+<Rulings>2005/10/01: The ability doesn't care why a card goes to your opponent's graveyard — only that it does. The ability triggers when a card is put into your opponent's graveyard from the stack (a spell resolves, fails to resolve, or is countered), from the battlefield (a permanent is destroyed or sacrificed), from the player's hand (a card is discarded), from the player's library (from a Millstone-like effect), or from any other zone.
 2005/10/01: This ability triggers only on cards, so it won't trigger when a token is put into your opponent's graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -4617,7 +4612,7 @@ Whenever a card is put into an opponent's graveyard from anywhere, put a +1/+1 c
 <Watermark>Golgari</Watermark>
 <Multiverseid>83747</Multiverseid>
 <Rulings>2005/10/01: The effect has no stated duration, so a land turned into a creature this way continues being a creature as long as the land is on the battlefield.
-2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
+2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4803,7 +4798,7 @@ At the beginning of your end step, return to your hand all creature cards in you
 <Name>Master Warcraft</Name>
 <Type>Instant</Type>
 <ManaCost>2{R/W}{R/W} (4)</ManaCost>
-<CardText>Cast Master Warcraft only before attackers are declared.
+<CardText>Cast this spell only before attackers are declared.
 You choose which creatures attack this turn.
 You choose which creatures block this turn and how those creatures block.</CardText>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
@@ -4906,7 +4901,7 @@ Draw a card.</CardText>
 <Name>Boros Signet</Name>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{1}, {T}: Add {R}{W} to your mana pool.</CardText>
+<CardText>{1}, {T}: Add {R}{W}.</CardText>
 <Flavor>"Have you ever held a Boros signet? There's a weight to it that belies its size—a weight of strength and of pride."
 —Agrus Kos</Flavor>
 <Artist>Tim Hildebrandt</Artist>
@@ -5000,7 +4995,7 @@ As long as the top card of your library is a creature card, creatures you contro
 <Name>Dimir Signet</Name>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{1}, {T}: Add {U}{B} to your mana pool.</CardText>
+<CardText>{1}, {T}: Add {U}{B}.</CardText>
 <Flavor>An emblem of a secret guild, the Dimir insignia is seen only by its own members—and the doomed.</Flavor>
 <Artist>Tim Hildebrandt</Artist>
 <Watermark>Dimir</Watermark>
@@ -5034,7 +5029,7 @@ As long as the top card of your library is a creature card, creatures you contro
 <Name>Golgari Signet</Name>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{1}, {T}: Add {B}{G} to your mana pool.</CardText>
+<CardText>{1}, {T}: Add {B}{G}.</CardText>
 <Flavor>Depending on your point of view, the seal represents a proud guardian of the natural cycle or one who has sold her soul to darkness for eternal life.</Flavor>
 <Artist>Greg Hildebrandt</Artist>
 <Watermark>Golgari</Watermark>
@@ -5187,7 +5182,7 @@ When Plague Boiler has three or more plague counters on it, sacrifice it. If you
 <Name>Selesnya Signet</Name>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{1}, {T}: Add {G}{W} to your mana pool.</CardText>
+<CardText>{1}, {T}: Add {G}{W}.</CardText>
 <Flavor>The symbol of the Conclave is one of unity, with tree supporting sun and sun feeding tree.</Flavor>
 <Artist>Greg Hildebrandt</Artist>
 <Watermark>Selesnya</Watermark>
@@ -5205,7 +5200,7 @@ When Plague Boiler has three or more plague counters on it, sacrifice it. If you
 <Name>Spectral Searchlight</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Choose a player. That player adds one mana of any color he or she chooses to his or her mana pool.</CardText>
+<CardText>{T}: Choose a player. That player adds one mana of any color they choose.</CardText>
 <Flavor>The first searchlights were given as gifts, symbols of cooperation, to the emissaries present at the signing of the Guildpact.</Flavor>
 <Artist>Martina Pilcerova</Artist>
 <Multiverseid>89003</Multiverseid>
@@ -5246,7 +5241,7 @@ Equip {3}</CardText>
 <Type>Artifact</Type>
 <ManaCost>1 (1)</ManaCost>
 <CardText>Terrarion enters the battlefield tapped.
-{2}, {T}, Sacrifice Terrarion: Add two mana in any combination of colors to your mana pool.
+{2}, {T}, Sacrifice Terrarion: Add two mana in any combination of colors.
 When Terrarion is put into a graveyard from the battlefield, draw a card.</CardText>
 <Artist>Luca Zontini</Artist>
 <Multiverseid>83629</Multiverseid>
@@ -5286,7 +5281,7 @@ When Terrarion is put into a graveyard from the battlefield, draw a card.</CardT
 <Type>Land</Type>
 <CardText>Boros Garrison enters the battlefield tapped.
 When Boros Garrison enters the battlefield, return a land you control to its owner's hand.
-{T}: Add {R}{W} to your mana pool.</CardText>
+{T}: Add {R}{W}.</CardText>
 <Artist>John Avon</Artist>
 <Watermark>Boros</Watermark>
 <Multiverseid>83900</Multiverseid>
@@ -5305,7 +5300,7 @@ When Boros Garrison enters the battlefield, return a land you control to its own
 <Type>Land</Type>
 <CardText>Dimir Aqueduct enters the battlefield tapped.
 When Dimir Aqueduct enters the battlefield, return a land you control to its owner's hand.
-{T}: Add {U}{B} to your mana pool.</CardText>
+{T}: Add {U}{B}.</CardText>
 <Artist>John Avon</Artist>
 <Watermark>Dimir</Watermark>
 <Multiverseid>87929</Multiverseid>
@@ -5322,8 +5317,8 @@ When Dimir Aqueduct enters the battlefield, return a land you control to its own
 <No>277</No>
 <Name>Duskmantle, House of Shadow</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{U}{B}, {T}: Target player puts the top card of his or her library into his or her graveyard.</CardText>
+<CardText>{T}: Add {C}.
+{U}{B}, {T}: Target player puts the top card of their library into their graveyard.</CardText>
 <Flavor>In a space where there is no room, in a structure that was never built, meets the guild that doesn't exist.</Flavor>
 <Artist>Martina Pilcerova</Artist>
 <Watermark>Dimir</Watermark>
@@ -5342,7 +5337,7 @@ When Dimir Aqueduct enters the battlefield, return a land you control to its own
 <Type>Land</Type>
 <CardText>Golgari Rot Farm enters the battlefield tapped.
 When Golgari Rot Farm enters the battlefield, return a land you control to its owner's hand.
-{T}: Add {B}{G} to your mana pool.</CardText>
+{T}: Add {B}{G}.</CardText>
 <Artist>John Avon</Artist>
 <Watermark>Golgari</Watermark>
 <Multiverseid>87939</Multiverseid>
@@ -5359,7 +5354,7 @@ When Golgari Rot Farm enters the battlefield, return a land you control to its o
 <No>279</No>
 <Name>Overgrown Tomb</Name>
 <Type>Land — Swamp Forest</Type>
-<CardText>({T}: Add {B} or {G} to your mana pool.)
+<CardText>({T}: Add {B} or {G}.)
 As Overgrown Tomb enters the battlefield, you may pay 2 life. If you don't, Overgrown Tomb enters the battlefield tapped.</CardText>
 <Artist>Rob Alexander</Artist>
 <Watermark>Golgari</Watermark>
@@ -5379,7 +5374,7 @@ As Overgrown Tomb enters the battlefield, you may pay 2 life. If you don't, Over
 <No>280</No>
 <Name>Sacred Foundry</Name>
 <Type>Land — Mountain Plains</Type>
-<CardText>({T}: Add {R} or {W} to your mana pool.)
+<CardText>({T}: Add {R} or {W}.)
 As Sacred Foundry enters the battlefield, you may pay 2 life. If you don't, Sacred Foundry enters the battlefield tapped.</CardText>
 <Artist>Rob Alexander</Artist>
 <Watermark>Boros</Watermark>
@@ -5401,7 +5396,7 @@ As Sacred Foundry enters the battlefield, you may pay 2 life. If you don't, Sacr
 <Type>Land</Type>
 <CardText>Selesnya Sanctuary enters the battlefield tapped.
 When Selesnya Sanctuary enters the battlefield, return a land you control to its owner's hand.
-{T}: Add {G}{W} to your mana pool.</CardText>
+{T}: Add {G}{W}.</CardText>
 <Artist>John Avon</Artist>
 <Watermark>Selesnya</Watermark>
 <Multiverseid>87963</Multiverseid>
@@ -5418,7 +5413,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <No>282</No>
 <Name>Sunhome, Fortress of the Legion</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {2}{R}{W}, {T}: Target creature gains double strike until end of turn.</CardText>
 <Flavor>Sunhome—the stalwart shield, the towering sentinel, the seat of justice.</Flavor>
 <Artist>Martina Pilcerova</Artist>
@@ -5438,13 +5433,13 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <No>283</No>
 <Name>Svogthos, the Restless Tomb</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {3}{B}{G}: Until end of turn, Svogthos, the Restless Tomb becomes a black and green Plant Zombie creature with "This creature's power and toughness are each equal to the number of creature cards in your graveyard." It's still a land.</CardText>
 <Artist>Martina Pilcerova</Artist>
 <Watermark>Golgari</Watermark>
 <Multiverseid>89045</Multiverseid>
 <Rulings>2005/10/01: While animated, Svogthos's power and toughness changes each time a creature card enters or leaves its controller's graveyard.
-2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.
+2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
 2009/10/01: Activating the ability that turns it into a creature while it's already a creature will override any effects that set its power and/or toughness to a specific number. However, any effect that raises or lowers power and/or toughness (such as the effect created by Giant Growth, Glorious Anthem, or a +1/+1 counter) will continue to apply.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -5458,7 +5453,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <No>284</No>
 <Name>Temple Garden</Name>
 <Type>Land — Forest Plains</Type>
-<CardText>({T}: Add {G} or {W} to your mana pool.)
+<CardText>({T}: Add {G} or {W}.)
 As Temple Garden enters the battlefield, you may pay 2 life. If you don't, Temple Garden enters the battlefield tapped.</CardText>
 <Artist>Rob Alexander</Artist>
 <Watermark>Selesnya</Watermark>
@@ -5478,7 +5473,7 @@ As Temple Garden enters the battlefield, you may pay 2 life. If you don't, Templ
 <No>285</No>
 <Name>Vitu-Ghazi, the City-Tree</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {2}{G}{W}, {T}: Create a 1/1 green Saproling creature token.</CardText>
 <Flavor>In the autumn, she casts her seeds across the streets below, and come spring, her children rise in service to the Conclave.</Flavor>
 <Artist>Martina Pilcerova</Artist>
@@ -5496,7 +5491,7 @@ As Temple Garden enters the battlefield, you may pay 2 life. If you don't, Templ
 <No>286</No>
 <Name>Watery Grave</Name>
 <Type>Land — Island Swamp</Type>
-<CardText>({T}: Add {U} or {B} to your mana pool.)
+<CardText>({T}: Add {U} or {B}.)
 As Watery Grave enters the battlefield, you may pay 2 life. If you don't, Watery Grave enters the battlefield tapped.</CardText>
 <Artist>Rob Alexander</Artist>
 <Watermark>Dimir</Watermark>
@@ -5516,7 +5511,7 @@ As Watery Grave enters the battlefield, you may pay 2 life. If you don't, Watery
 <No>287</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Stephan Martiniere</Artist>
 <Multiverseid>95108</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5531,7 +5526,7 @@ As Watery Grave enters the battlefield, you may pay 2 life. If you don't, Watery
 <No>288</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>95112</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5546,7 +5541,7 @@ As Watery Grave enters the battlefield, you may pay 2 life. If you don't, Watery
 <No>289</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Anthony S. Waters</Artist>
 <Multiverseid>95105</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5561,7 +5556,7 @@ As Watery Grave enters the battlefield, you may pay 2 life. If you don't, Watery
 <No>290</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Richard Wright</Artist>
 <Multiverseid>95115</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5576,7 +5571,7 @@ As Watery Grave enters the battlefield, you may pay 2 life. If you don't, Watery
 <No>291</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Stephan Martiniere</Artist>
 <Multiverseid>95103</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5591,7 +5586,7 @@ As Watery Grave enters the battlefield, you may pay 2 life. If you don't, Watery
 <No>292</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>95107</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5606,7 +5601,7 @@ As Watery Grave enters the battlefield, you may pay 2 life. If you don't, Watery
 <No>293</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Anthony S. Waters</Artist>
 <Multiverseid>95100</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5621,7 +5616,7 @@ As Watery Grave enters the battlefield, you may pay 2 life. If you don't, Watery
 <No>294</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Richard Wright</Artist>
 <Multiverseid>95113</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5636,7 +5631,7 @@ As Watery Grave enters the battlefield, you may pay 2 life. If you don't, Watery
 <No>295</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Stephan Martiniere</Artist>
 <Multiverseid>95111</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5651,7 +5646,7 @@ As Watery Grave enters the battlefield, you may pay 2 life. If you don't, Watery
 <No>296</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>95110</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5666,7 +5661,7 @@ As Watery Grave enters the battlefield, you may pay 2 life. If you don't, Watery
 <No>297</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Anthony S. Waters</Artist>
 <Multiverseid>95101</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5681,7 +5676,7 @@ As Watery Grave enters the battlefield, you may pay 2 life. If you don't, Watery
 <No>298</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Richard Wright</Artist>
 <Multiverseid>95114</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5696,7 +5691,7 @@ As Watery Grave enters the battlefield, you may pay 2 life. If you don't, Watery
 <No>299</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Stephan Martiniere</Artist>
 <Multiverseid>95096</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5711,7 +5706,7 @@ As Watery Grave enters the battlefield, you may pay 2 life. If you don't, Watery
 <No>300</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>95104</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5726,7 +5721,7 @@ As Watery Grave enters the battlefield, you may pay 2 life. If you don't, Watery
 <No>301</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Anthony S. Waters</Artist>
 <Multiverseid>95102</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5741,7 +5736,7 @@ As Watery Grave enters the battlefield, you may pay 2 life. If you don't, Watery
 <No>302</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Richard Wright</Artist>
 <Multiverseid>95109</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5756,7 +5751,7 @@ As Watery Grave enters the battlefield, you may pay 2 life. If you don't, Watery
 <No>303</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Stephan Martiniere</Artist>
 <Multiverseid>95097</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5771,7 +5766,7 @@ As Watery Grave enters the battlefield, you may pay 2 life. If you don't, Watery
 <No>304</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>95099</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5786,7 +5781,7 @@ As Watery Grave enters the battlefield, you may pay 2 life. If you don't, Watery
 <No>305</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Anthony S. Waters</Artist>
 <Multiverseid>95098</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5801,7 +5796,7 @@ As Watery Grave enters the battlefield, you may pay 2 life. If you don't, Watery
 <No>306</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Richard Wright</Artist>
 <Multiverseid>95106</Multiverseid>
 <Vintage>Legal</Vintage>

@@ -226,11 +226,10 @@ Crusading Knight gets +1/+1 for each Swamp your opponents control.</CardText>
 <Type>Instant</Type>
 <ManaCost>2W (3)</ManaCost>
 <CardText>Kicker {2}{U} (You may pay an additional {2}{U} as you cast this spell.)
-Destroy target artifact or enchantment.
-If Dismantling Blow was kicked, draw two cards.</CardText>
+Destroy target artifact or enchantment. If this spell was kicked, draw two cards.</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>22946</Multiverseid>
-<Rulings>2004/10/04: If the target is not legal on resolution, the spell is countered and you do not get to draw the two cards.</Rulings>
+<Rulings>2004/10/04: If the target is not legal on resolution, the spell doesn't resolve and you do not get to draw the two cards.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Invasion</Set>
@@ -243,7 +242,7 @@ If Dismantling Blow was kicked, draw two cards.</CardText>
 <Name>Divine Presence</Name>
 <Type>Enchantment</Type>
 <ManaCost>2W (3)</ManaCost>
-<CardText>If a source would deal 4 or more damage to a creature or player, that source deals 3 damage to that creature or player instead.</CardText>
+<CardText>If a source would deal 4 or more damage to a permanent or player, that source deals 3 damage to that permanent or player instead.</CardText>
 <Flavor>"Serra's light isn't easily extinguished."
 —Reya Dawnbringer</Flavor>
 <Artist>Ron Spears</Artist>
@@ -261,7 +260,7 @@ If Dismantling Blow was kicked, draw two cards.</CardText>
 <Name>Fight or Flight</Name>
 <Type>Enchantment</Type>
 <ManaCost>3W (4)</ManaCost>
-<CardText>At the beginning of combat on each opponent's turn, separate all creatures that player controls into two piles. Only creatures in the pile of his or her choice can attack this turn.</CardText>
+<CardText>At the beginning of combat on each opponent's turn, separate all creatures that player controls into two piles. Only creatures in the pile of their choice can attack this turn.</CardText>
 <Artist>Randy Gallegos</Artist>
 <Multiverseid>22970</Multiverseid>
 <Rulings>2008/08/01: Creatures which enter the battlefield (or cards which become creatures) after the beginning of combat ability resolves are not placed in either pile. Since they weren't in the chosen pile, they won't be able to attack.
@@ -285,7 +284,7 @@ If Dismantling Blow was kicked, draw two cards.</CardText>
 —Capashen lord</Flavor>
 <Artist>Ciruelo</Artist>
 <Multiverseid>22929</Multiverseid>
-<Rulings>2004/10/04: You can activate the ability that grants shroud in response to this card being targeted by a spell or ability. If you do so, then (if this is the spell or abilities only target) the spell or ability will be countered since this card will now be an illegal target.</Rulings>
+<Rulings>2004/10/04: You can activate the ability that grants shroud in response to this card being targeted by a spell or ability. If you do so, then (if this is the spell or abilities only target) the spell or ability won't resolve since this card will now be an illegal target.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Invasion</Set>
@@ -298,7 +297,7 @@ If Dismantling Blow was kicked, draw two cards.</CardText>
 <Name>Global Ruin</Name>
 <Type>Sorcery</Type>
 <ManaCost>4W (5)</ManaCost>
-<CardText>Each player chooses from the lands he or she controls a land of each basic land type, then sacrifices the rest.</CardText>
+<CardText>Each player chooses from the lands they control a land of each basic land type, then sacrifices the rest.</CardText>
 <Flavor>"The earth shook, the sky rained fire, and it seemed the world was ending."
 —Benalish refugee</Flavor>
 <Artist>Greg Staples</Artist>
@@ -390,7 +389,7 @@ If an instant or sorcery spell of the chosen color would deal damage to you, it 
 <Type>Instant</Type>
 <ManaCost>W (1)</ManaCost>
 <CardText>Kicker {1} (You may pay an additional {1} as you cast this spell.)
-Prevent the next 2 damage that would be dealt to target creature or player this turn. If Orim's Touch was kicked, prevent the next 4 damage that would be dealt to that creature or player this turn instead.</CardText>
+Prevent the next 2 damage that would be dealt to any target this turn. If this spell was kicked, prevent the next 4 damage that would be dealt to that permanent or player this turn instead.</CardText>
 <Artist>Roger Raupp</Artist>
 <Multiverseid>22945</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -834,7 +833,7 @@ Simultaneously untap all tapped creatures and tap all untapped creatures.</CardT
 <Name>Collective Restraint</Name>
 <Type>Enchantment</Type>
 <ManaCost>3U (4)</ManaCost>
-<CardText>Domain — Creatures can't attack you unless their controller pays {X} for each creature he or she controls that's attacking you, where X is the number of basic land types among lands you control.</CardText>
+<CardText>Domain — Creatures can't attack you unless their controller pays {X} for each creature they control that's attacking you, where X is the number of basic land types among lands you control.</CardText>
 <Artist>Alan Rabinowitz</Artist>
 <Multiverseid>23001</Multiverseid>
 <Rulings>2007/02/01: In the Two-Headed Giant format, you still only have to pay once per creature.
@@ -971,6 +970,7 @@ Draw a card.</CardText>
 —Teferi</Flavor>
 <Artist>Mark Romanoski</Artist>
 <Multiverseid>22986</Multiverseid>
+<Rulings>2018/03/16: <Exclude> can target a creature spell that can't be countered. When <Exclude> resolves, that spell won't be countered, but you'll still draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Invasion</Set>
@@ -1139,8 +1139,7 @@ Enchanted land is the chosen type.</CardText>
 <Type>Sorcery</Type>
 <ManaCost>2U (3)</ManaCost>
 <CardText>Kicker {1}{B} (You may pay an additional {1}{B} as you cast this spell.)
-Draw three cards, then discard two cards.
-If Probe was kicked, target player discards two cards.</CardText>
+Draw three cards, then discard two cards. If this spell was kicked, target player discards two cards.</CardText>
 <Artist>Eric Peterson</Artist>
 <Multiverseid>22990</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1156,7 +1155,7 @@ If Probe was kicked, target player discards two cards.</CardText>
 <Type>Instant</Type>
 <ManaCost>1U (2)</ManaCost>
 <CardText>Kicker {2} (You may pay an additional {2} as you cast this spell.)
-Counter target spell if its converted mana cost is 2 or less. If Prohibit was kicked, counter that spell if its converted mana cost is 4 or less instead.</CardText>
+Counter target spell if its converted mana cost is 2 or less. If this spell was kicked, counter that spell if its converted mana cost is 4 or less instead.</CardText>
 <Artist>Adam Rex</Artist>
 <Multiverseid>22989</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1171,7 +1170,7 @@ Counter target spell if its converted mana cost is 2 or less. If Prohibit was ki
 <Name>Psychic Battle</Name>
 <Type>Enchantment</Type>
 <ManaCost>3UU (5)</ManaCost>
-<CardText>Whenever a player chooses one or more targets, each player reveals the top card of his or her library. The player who reveals the card with the highest converted mana cost may change the target or targets. If two or more cards are tied for highest cost, the target or targets remain unchanged. Changing targets this way doesn't trigger abilities of permanents named Psychic Battle.</CardText>
+<CardText>Whenever a player chooses one or more targets, each player reveals the top card of their library. The player who reveals the card with the highest converted mana cost may change the target or targets. If two or more cards are tied for highest cost, the target or targets remain unchanged. Changing targets this way doesn't trigger abilities of permanents named Psychic Battle.</CardText>
 <Artist>Ray Lago</Artist>
 <Multiverseid>26287</Multiverseid>
 <Rulings>2004/10/04: You can change all, some, or none of the targets.
@@ -1352,7 +1351,7 @@ Draw two cards.</CardText>
 <Artist>Scott Bailey</Artist>
 <Multiverseid>23015</Multiverseid>
 <Rulings>2006/01/01: Remember that a spell only targets something if it is an Aura or uses the phrase "target" in its text.
-2006/01/01: If none of the targeted spell's targets is a land when <Teferi's Response> would resolve, <Teferi's Response> is countered on resolution due to having no legal targets.</Rulings>
+2006/01/01: If none of the targeted spell's targets is a land when <Teferi's Response> would resolve, <Teferi's Response> doesn't resolve due to having no legal targets.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Invasion</Set>
@@ -1570,7 +1569,7 @@ Zanam Djinn gets -2/-2 as long as blue is the most common color among all perman
 <Name>Addle</Name>
 <Type>Sorcery</Type>
 <ManaCost>1B (2)</ManaCost>
-<CardText>Choose a color. Target player reveals his or her hand and you choose a card of that color from it. That player discards that card.</CardText>
+<CardText>Choose a color. Target player reveals their hand and you choose a card of that color from it. That player discards that card.</CardText>
 <Flavor>"I'll wring out your tiny mind like a sponge."
 —Urborg witch</Flavor>
 <Artist>Ron Spears</Artist>
@@ -1588,7 +1587,7 @@ Zanam Djinn gets -2/-2 as long as blue is the most common color among all perman
 <Type>Instant</Type>
 <ManaCost>3B (4)</ManaCost>
 <CardText>Kicker {1}{R} (You may pay an additional {1}{R} as you cast this spell.)
-Destroy target nonblack creature. It can't be regenerated. If Agonizing Demise was kicked, it deals damage equal to that creature's power to the creature's controller.</CardText>
+Destroy target nonblack creature. It can't be regenerated. If this spell was kicked, Agonizing Demise deals damage equal to that creature's power to the creature's controller.</CardText>
 <Artist>Mark Brill</Artist>
 <Multiverseid>23034</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1627,7 +1626,7 @@ Draw a card.</CardText>
 —Tsabo Tavoc, Phyrexian general</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>23042</Multiverseid>
-<Rulings>2016/06/08: If the targeted creature is an illegal target when <Annihilate> tries to resolve, the entire spell is countered. You won't draw a card.</Rulings>
+<Rulings>2016/06/08: If the targeted creature is an illegal target when <Annihilate> tries to resolve, the entire spell doesn't resolve. You won't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Invasion</Set>
@@ -1640,7 +1639,7 @@ Draw a card.</CardText>
 <Name>Bog Initiate</Name>
 <Type>Creature — Human Wizard 1/1</Type>
 <ManaCost>1B (2)</ManaCost>
-<CardText>{1}: Add {B} to your mana pool.</CardText>
+<CardText>{1}: Add {B}.</CardText>
 <Flavor>"Urborg's magic is strong. Did Urza send you to protect us or to protect against us?"
 —Urborg witch, to Barrin</Flavor>
 <Artist>rk post</Artist>
@@ -1663,7 +1662,7 @@ Draw a card.</CardText>
 <Artist>Andrew Goldhawk</Artist>
 <Multiverseid>24119</Multiverseid>
 <Rulings>2012/10/01: You must be able to target a card in a graveyard to cast <Cremate>.
-2012/10/01: If the target card is no longer in the graveyard when <Cremate> tries to resolve, it will be countered and none of its effects will happen. You won't draw a card.</Rulings>
+2012/10/01: If the target card is no longer in the graveyard when <Cremate> tries to resolve, it won't resolve and none of its effects will happen. You won't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1879,7 +1878,7 @@ Goham Djinn gets -2/-2 as long as black is the most common color among all perma
 <Type>Sorcery</Type>
 <ManaCost>1B (2)</ManaCost>
 <CardText>Kicker {4} (You may pay an additional {4} as you cast this spell.)
-Target player discards a card. If Hypnotic Cloud was kicked, that player discards three cards instead.</CardText>
+Target player discards a card. If this spell was kicked, that player discards three cards instead.</CardText>
 <Artist>Randy Gallegos</Artist>
 <Multiverseid>23033</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2135,7 +2134,7 @@ Enchanted creature gets +1/+1.</CardText>
 <Type>Sorcery</Type>
 <ManaCost>X2B (3)</ManaCost>
 <CardText>Spend only black and/or red mana on X.
-Soul Burn deals X damage to target creature or player. You gain life equal to the damage dealt, but not more than the amount of {B} spent on X, the player's life total before Soul Burn dealt damage, or the creature's toughness.</CardText>
+Soul Burn deals X damage to any target. You gain life equal to the damage dealt, but not more than the amount of {B} spent on X, the player's life total before the damage was dealt, the planeswalker's loyalty before the damage was dealt, or the creature's toughness.</CardText>
 <Artist>Andrew Goldhawk</Artist>
 <Multiverseid>23026</Multiverseid>
 <Rulings>2004/10/04: Will give 1 life for each black mana used, but not more life than the amount of unprevented damage that is dealt.</Rulings>
@@ -2218,7 +2217,7 @@ Enchanted land is a Swamp.</CardText>
 <Name>Tsabo's Decree</Name>
 <Type>Instant</Type>
 <ManaCost>5B (6)</ManaCost>
-<CardText>Choose a creature type. Target player reveals his or her hand and discards all creature cards of that type. Then destroy all creatures of that type that player controls. They can't be regenerated.</CardText>
+<CardText>Choose a creature type. Target player reveals their hand and discards all creature cards of that type. Then destroy all creatures of that type that player controls. They can't be regenerated.</CardText>
 <Artist>Thomas M. Baxa</Artist>
 <Multiverseid>26380</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2234,7 +2233,7 @@ Enchanted land is a Swamp.</CardText>
 <Type>Sorcery</Type>
 <ManaCost>4BB (6)</ManaCost>
 <CardText>You may cast Twilight's Call as though it had flash if you pay {2} more to cast it. (You may cast it any time you could cast an instant.)
-Each player returns all creature cards from his or her graveyard to the battlefield.</CardText>
+Each player returns all creature cards from their graveyard to the battlefield.</CardText>
 <Flavor>Twilight falls. We rise.
 —Necropolis inscription</Flavor>
 <Artist>Mark Romanoski</Artist>
@@ -2356,7 +2355,7 @@ If a card would be put into your graveyard from anywhere, exile it instead.</Car
 <Name>Bend or Break</Name>
 <Type>Sorcery</Type>
 <ManaCost>3R (4)</ManaCost>
-<CardText>Each player separates all nontoken lands he or she controls into two piles. For each player, one of his or her piles is chosen by one of his or her opponents of his or her choice. Destroy all lands in the chosen piles. Tap all lands in the other piles.</CardText>
+<CardText>Each player separates all nontoken lands they control into two piles. For each player, one of their piles is chosen by one of their opponents of their choice. Destroy all lands in the chosen piles. Tap all lands in the other piles.</CardText>
 <Artist>Arnie Swekel</Artist>
 <Multiverseid>23099</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2372,7 +2371,7 @@ If a card would be put into your graveyard from anywhere, exile it instead.</Car
 <Type>Sorcery</Type>
 <ManaCost>1R (2)</ManaCost>
 <CardText>Kicker {2} (You may pay an additional {2} as you cast this spell.)
-Breath of Darigaaz deals 1 damage to each creature without flying and each player. If Breath of Darigaaz was kicked, it deals 4 damage to each creature without flying and each player instead.</CardText>
+Breath of Darigaaz deals 1 damage to each creature without flying and each player. If this spell was kicked, it deals 4 damage to each creature without flying and each player instead.</CardText>
 <Artist>Greg & Tim Hildebrandt</Artist>
 <Multiverseid>23090</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2403,7 +2402,7 @@ Breath of Darigaaz deals 1 damage to each creature without flying and each playe
 <Name>Chaotic Strike</Name>
 <Type>Instant</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>Cast Chaotic Strike only during combat after blockers are declared.
+<CardText>Cast this spell only during combat after blockers are declared.
 Flip a coin. If you win the flip, target creature gets +1/+1 until end of turn.
 Draw a card.</CardText>
 <Artist>Massimilano Frezzato</Artist>
@@ -2421,7 +2420,7 @@ Draw a card.</CardText>
 <Name>Collapsing Borders</Name>
 <Type>Enchantment</Type>
 <ManaCost>3R (4)</ManaCost>
-<CardText>Domain — At the beginning of each player's upkeep, that player gains 1 life for each basic land type among lands he or she controls. Then Collapsing Borders deals 3 damage to him or her.</CardText>
+<CardText>Domain — At the beginning of each player's upkeep, that player gains 1 life for each basic land type among lands they control. Then Collapsing Borders deals 3 damage to that player.</CardText>
 <Artist>Glen Angus</Artist>
 <Multiverseid>23089</Multiverseid>
 <Rulings>2009/02/01: To determine the number of basic land types among lands you control, look at the lands you have on the battlefield and ask yourself whether the subtypes Plains, Island, Swamp, Mountain, and Forest appear within that group. The number of times you say yes (topping out at five) tells you how powerful your domain abilities will be.
@@ -2477,7 +2476,7 @@ Draw a card.</CardText>
 <Type>Sorcery</Type>
 <ManaCost>XR (1)</ManaCost>
 <CardText>You may cast Ghitu Fire as though it had flash if you pay {2} more to cast it. (You may cast it any time you could cast an instant.)
-Ghitu Fire deals X damage to target creature or player.</CardText>
+Ghitu Fire deals X damage to any target.</CardText>
 <Artist>Glen Angus</Artist>
 <Multiverseid>23086</Multiverseid>
 <Rulings>2004/10/04: The extra 2 mana to cast it as an instant does not count as part of the mana cost.</Rulings>
@@ -2682,7 +2681,7 @@ Enchanted creature gets +2/+2 and can't block.</CardText>
 <Name>Obliterate</Name>
 <Type>Sorcery</Type>
 <ManaCost>6RR (8)</ManaCost>
-<CardText>Obliterate can't be countered.
+<CardText>This spell can't be countered.
 Destroy all artifacts, creatures, and lands. They can't be regenerated.</CardText>
 <Flavor>For his family, Barrin made a funeral pyre of Tolaria.</Flavor>
 <Artist>Kev Walker</Artist>
@@ -2702,7 +2701,7 @@ Destroy all artifacts, creatures, and lands. They can't be regenerated.</CardTex
 <Type>Instant</Type>
 <ManaCost>R (1)</ManaCost>
 <CardText>Kicker {2} (You may pay an additional {2} as you cast this spell.)
-Destroy target artifact if its converted mana cost is 2 or less. If Overload was kicked, destroy that artifact if its converted mana cost is 5 or less instead.</CardText>
+Destroy target artifact if its converted mana cost is 2 or less. If this spell was kicked, destroy that artifact if its converted mana cost is 5 or less instead.</CardText>
 <Artist>Gary Ruddell</Artist>
 <Multiverseid>23070</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2788,7 +2787,7 @@ Red spells you cast cost {R} more to cast.</CardText>
 <Type>Sorcery</Type>
 <ManaCost>1R (2)</ManaCost>
 <CardText>Kicker {G} (You may pay an additional {G} as you cast this spell.)
-Creatures you control gain first strike until end of turn. If Savage Offensive was kicked, they get +1/+1 until end of turn.</CardText>
+Creatures you control gain first strike until end of turn. If this spell was kicked, they get +1/+1 until end of turn.</CardText>
 <Artist>Greg & Tim Hildebrandt</Artist>
 <Multiverseid>23078</Multiverseid>
 <Rulings>2004/10/04: Only affects creatures you control when this spell resolves.</Rulings>
@@ -2822,7 +2821,7 @@ Creatures you control gain first strike until end of turn. If Savage Offensive w
 <Type>Instant</Type>
 <ManaCost>1R (2)</ManaCost>
 <CardText>Kicker {R} (You may pay an additional {R} as you cast this spell.)
-Scorching Lava deals 2 damage to target creature or player. If Scorching Lava was kicked, that creature can't be regenerated this turn and if it would die this turn, exile it instead.</CardText>
+Scorching Lava deals 2 damage to any target. If this spell was kicked, that creature can't be regenerated this turn and if it would die this turn, exile it instead.</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>23077</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2906,9 +2905,10 @@ When Shivan Emissary enters the battlefield, if it was kicked, destroy target no
 <ManaCost>3R (4)</ManaCost>
 <CardText>Kicker {R} (You may pay an additional {R} as you cast this spell.)
 Trample, haste
-At the beginning of the end step, sacrifice Skizzik unless it was kicked.</CardText>
+At the beginning of the end step, if Skizzik wasn't kicked, sacrifice it.</CardText>
 <Artist>Ron Spencer</Artist>
 <Multiverseid>23096</Multiverseid>
+<Rulings>2018/04/27: <Skizzik>'s ability checks at each end step whether it was kicked while it was being cast. You don't have to pay its kicker cost each turn (and can't do so, even if you really want to kick it again).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Invasion</Set>
@@ -3022,7 +3022,7 @@ Draw a card.</CardText>
 <Name>Tribal Flames</Name>
 <Type>Sorcery</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>Domain — Tribal Flames deals X damage to target creature or player, where X is the number of basic land types among lands you control.</CardText>
+<CardText>Domain — Tribal Flames deals X damage to any target, where X is the number of basic land types among lands you control.</CardText>
 <Flavor>"Fire is the universal language."
 —Jhoira, master artificer</Flavor>
 <Artist>Tony Szczudlo</Artist>
@@ -3063,14 +3063,13 @@ Draw a card.</CardText>
 <Type>Instant</Type>
 <ManaCost>2R (3)</ManaCost>
 <CardText>Kicker {8}{R} (You may pay an additional {8}{R} as you cast this spell.)
-Urza's Rage can't be countered by spells or abilities.
-Urza's Rage deals 3 damage to target creature or player. If Urza's Rage was kicked, instead it deals 10 damage to that creature or player and the damage can't be prevented.</CardText>
+This spell can't be countered.
+Urza's Rage deals 3 damage to any target. If this spell was kicked, instead it deals 10 damage to that permanent or player and the damage can't be prevented.</CardText>
 <Artist>Matthew D. Wilson</Artist>
 <Multiverseid>23087</Multiverseid>
 <Rulings>2004/10/04: This spell has a self-replacement in it . This means that if <Urza's Rage> is kicked, the 3 damage is replaced with 10 unpreventable damage before any other replacements can be applied. For example, you can't use Healing Salve to prevent the 3 damage before it gets changed.
 2004/10/04: You can target this spell with spells and abilities, so you can change its target. Those spells and abilities just can't counter it.
 2004/10/04: The damage is unpreventable, but it can be affected by replacement effects.
-2004/10/04: It can be countered by game rules, such as by having all its targets be illegal. Game rules are neither spells or abilities.
 2004/10/04: Counterspells can be cast that target it, but when they resolve they simply don't counter it since it can't be countered.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3101,7 +3100,7 @@ Urza's Rage deals 3 damage to target creature or player. If Urza's Rage was kick
 <Name>Zap</Name>
 <Type>Instant</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>Zap deals 1 damage to target creature or player.
+<CardText>Zap deals 1 damage to any target.
 Draw a card.</CardText>
 <Flavor>"All this time I thought Squee was useless," chuckled Sisay. "Who knew he'd be such a good shot?"</Flavor>
 <Artist>John Matson</Artist>
@@ -3123,7 +3122,7 @@ Draw a card.</CardText>
 <Flavor>The power of the wild, concentrated in a single charge.</Flavor>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>24127</Multiverseid>
-<Rulings>2018/01/19: If the target creature is an illegal target by the time <Aggressive Urge> tries to resolve, the spell is countered. You won't draw a card.</Rulings>
+<Rulings>2018/01/19: If the target creature is an illegal target by the time <Aggressive Urge> tries to resolve, the spell doesn't resolve. You won't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3156,7 +3155,7 @@ Draw a card.</CardText>
 <Name>Blurred Mongoose</Name>
 <Type>Creature — Mongoose 2/1</Type>
 <ManaCost>1G (2)</ManaCost>
-<CardText>Blurred Mongoose can't be countered.
+<CardText>This spell can't be countered.
 Shroud (This creature can't be the target of spells or abilities.)</CardText>
 <Flavor>"The mongoose blew out its candle and was asleep in bed before the room went dark."
 —Llanowar fable</Flavor>
@@ -3177,7 +3176,7 @@ Shroud (This creature can't be the target of spells or abilities.)</CardText>
 <Type>Sorcery</Type>
 <ManaCost>1G (2)</ManaCost>
 <CardText>Kicker {2} (You may pay an additional {2} as you cast this spell.)
-Canopy Surge deals 1 damage to each creature with flying and each player. If Canopy Surge was kicked, it deals 4 damage to each creature with flying and each player instead.</CardText>
+Canopy Surge deals 1 damage to each creature with flying and each player. If this spell was kicked, it deals 4 damage to each creature with flying and each player instead.</CardText>
 <Artist>Matt Cavotta</Artist>
 <Multiverseid>23134</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -3232,7 +3231,7 @@ To fight a countless foe on high."
 <Type>Instant</Type>
 <ManaCost>G (1)</ManaCost>
 <CardText>Kicker {5} (You may pay an additional {5} as you cast this spell.)
-Target creature gets +2/+2 until end of turn. If Explosive Growth was kicked, that creature gets +5/+5 until end of turn instead.</CardText>
+Target creature gets +2/+2 until end of turn. If this spell was kicked, that creature gets +5/+5 until end of turn instead.</CardText>
 <Artist>Arnie Swekel</Artist>
 <Multiverseid>23120</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -3248,7 +3247,7 @@ Target creature gets +2/+2 until end of turn. If Explosive Growth was kicked, th
 <Type>Enchantment — Aura</Type>
 <ManaCost>1G (2)</ManaCost>
 <CardText>Enchant land
-Whenever enchanted land is tapped for mana, its controller adds one mana of any color to his or her mana pool (in addition to the mana the land produces).</CardText>
+Whenever enchanted land is tapped for mana, its controller adds an additional one mana of any color.</CardText>
 <Flavor>As Phyrexians descended, Multani paused to reflect on the beauty that might never be seen again.</Flavor>
 <Artist>Carl Critchlow</Artist>
 <Multiverseid>23114</Multiverseid>
@@ -3265,7 +3264,7 @@ Whenever enchanted land is tapped for mana, its controller adds one mana of any 
 <Name>Harrow</Name>
 <Type>Instant</Type>
 <ManaCost>2G (3)</ManaCost>
-<CardText>As an additional cost to cast Harrow, sacrifice a land.
+<CardText>As an additional cost to cast this spell, sacrifice a land.
 Search your library for up to two basic land cards and put them onto the battlefield. Then shuffle your library.</CardText>
 <Flavor>No spot in nature is truly barren.</Flavor>
 <Artist>Rob Alexander</Artist>
@@ -3303,7 +3302,7 @@ Search your library for up to two basic land cards and put them onto the battlef
 <Name>Kavu Chameleon</Name>
 <Type>Creature — Kavu 4/4</Type>
 <ManaCost>3GG (5)</ManaCost>
-<CardText>Kavu Chameleon can't be countered.
+<CardText>This spell can't be countered.
 {G}: Kavu Chameleon becomes the color of your choice until end of turn.</CardText>
 <Flavor>"They weren't part of my plan, but Gaea insisted."
 —Urza</Flavor>
@@ -3422,7 +3421,7 @@ If Llanowar Elite was kicked, it enters the battlefield with five +1/+1 counters
 <Name>Might Weaver</Name>
 <Type>Creature — Human Wizard 2/1</Type>
 <ManaCost>1G (2)</ManaCost>
-<CardText>{2}: Target red or white creature gains trample until end of turn. (It can deal excess combat damage to defending player or planeswalker while attacking.)</CardText>
+<CardText>{2}: Target red or white creature gains trample until end of turn. (If the creature would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to the player or planeswalker it's attacking.)</CardText>
 <Flavor>"Let my strength harden your resolve."</Flavor>
 <Artist>Larry Elmore</Artist>
 <Multiverseid>23124</Multiverseid>
@@ -3439,7 +3438,7 @@ If Llanowar Elite was kicked, it enters the battlefield with five +1/+1 counters
 <Name>Molimo, Maro-Sorcerer</Name>
 <Type>Legendary Creature — Elemental */*</Type>
 <ManaCost>4GGG (7)</ManaCost>
-<CardText>Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)
+<CardText>Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)
 Molimo, Maro-Sorcerer's power and toughness are each equal to the number of lands you control.</CardText>
 <Flavor>"The world calls and I answer."</Flavor>
 <Artist>Mark Zug</Artist>
@@ -3457,7 +3456,7 @@ Molimo, Maro-Sorcerer's power and toughness are each equal to the number of land
 <Name>Nomadic Elf</Name>
 <Type>Creature — Elf Nomad 2/2</Type>
 <ManaCost>1G (2)</ManaCost>
-<CardText>{1}{G}: Add one mana of any color to your mana pool.</CardText>
+<CardText>{1}{G}: Add one mana of any color.</CardText>
 <Flavor>"I've journeyed across Dominaria. Phyrexians are everywhere. Plague is everywhere. There's no place left to hide."</Flavor>
 <Artist>D. J. Cleland-Hura</Artist>
 <Multiverseid>23111</Multiverseid>
@@ -3511,8 +3510,8 @@ If Pincer Spider was kicked, it enters the battlefield with a +1/+1 counter on i
 <Type>Creature — Elf Druid 1/1</Type>
 <ManaCost>1G (2)</ManaCost>
 <CardText>As Quirion Elves enters the battlefield, choose a color.
-{T}: Add {G} to your mana pool.
-{T}: Add one mana of the chosen color to your mana pool.</CardText>
+{T}: Add {G}.
+{T}: Add one mana of the chosen color.</CardText>
 <Artist>Douglas Shuler</Artist>
 <Multiverseid>23112</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -3527,7 +3526,7 @@ If Pincer Spider was kicked, it enters the battlefield with a +1/+1 counter on i
 <Name>Quirion Sentinel</Name>
 <Type>Creature — Elf Druid 2/1</Type>
 <ManaCost>1G (2)</ManaCost>
-<CardText>When Quirion Sentinel enters the battlefield, add one mana of any color to your mana pool.</CardText>
+<CardText>When Quirion Sentinel enters the battlefield, add one mana of any color.</CardText>
 <Flavor>All elvenkind stood against Phyrexia. The Quirion nation deployed its most spiritual adepts, who wielded the power of their native soil.</Flavor>
 <Artist>Heather Hudson</Artist>
 <Multiverseid>26416</Multiverseid>
@@ -3760,7 +3759,7 @@ When Thicket Elemental enters the battlefield, if it was kicked, you may reveal 
 <Name>Treefolk Healer</Name>
 <Type>Creature — Treefolk Cleric 2/3</Type>
 <ManaCost>4G (5)</ManaCost>
-<CardText>{2}{W}, {T}: Prevent the next 2 damage that would be dealt to target creature or player this turn.</CardText>
+<CardText>{2}{W}, {T}: Prevent the next 2 damage that would be dealt to any target this turn.</CardText>
 <Flavor>Protected by druids for untold centuries, the forest began to return the favor.</Flavor>
 <Artist>Matt Cavotta</Artist>
 <Multiverseid>23128</Multiverseid>
@@ -3776,7 +3775,7 @@ When Thicket Elemental enters the battlefield, if it was kicked, you may reveal 
 <Name>Utopia Tree</Name>
 <Type>Creature — Plant 0/2</Type>
 <ManaCost>1G (2)</ManaCost>
-<CardText>{T}: Add one mana of any color to your mana pool.</CardText>
+<CardText>{T}: Add one mana of any color.</CardText>
 <Flavor>The fruit of this fabled tree takes on the flavor of whatever food you love most.</Flavor>
 <Artist>Gary Ruddell</Artist>
 <Multiverseid>12605</Multiverseid>
@@ -3829,7 +3828,7 @@ When Verduran Emissary enters the battlefield, if it was kicked, destroy target 
 <Type>Instant</Type>
 <ManaCost>G (1)</ManaCost>
 <CardText>Kicker {W} (You may pay an additional {W} as you cast this spell.)
-Target creature gains trample until end of turn. Whenever that creature deals combat damage this turn, if Vigorous Charge was kicked, you gain life equal to that damage.</CardText>
+Target creature gains trample until end of turn. Whenever that creature deals combat damage this turn, if this spell was kicked, you gain life equal to that damage.</CardText>
 <Artist>Scott M. Fischer</Artist>
 <Multiverseid>23121</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -3976,7 +3975,7 @@ Whenever enchanted creature deals damage, you gain that much life.</CardText>
 {1}{U}{U}: Armored Guardian gains shroud until end of turn. (It can't be the target of spells or abilities.)</CardText>
 <Artist>Arnie Swekel</Artist>
 <Multiverseid>23197</Multiverseid>
-<Rulings>2004/10/04: You can activate the ability that grants shroud in response to this card being targeted by a spell or ability. If you do so, then (if this is the spell or abilities only target) the spell or ability will be countered since this card will now be an illegal target.</Rulings>
+<Rulings>2004/10/04: You can activate the ability that grants shroud in response to this card being targeted by a spell or ability. If you do so, then (if this is the spell or abilities only target) the spell or ability won't resolve since this card will now be an illegal target.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Invasion</Set>
@@ -4012,7 +4011,7 @@ Whenever enchanted creature deals damage, you gain that much life.</CardText>
 —Multani, maro-sorcerer</Flavor>
 <Artist>Pete Venters</Artist>
 <Multiverseid>23184</Multiverseid>
-<Rulings>2004/10/04: This spell is countered and you get no Saprolings if the enchantment is an illegal target on resolution.</Rulings>
+<Rulings>2004/10/04: This spell doesn't resolve and you get no Saprolings if the enchantment is an illegal target on resolution.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Invasion</Set>
@@ -4045,7 +4044,7 @@ Whenever enchanted creature deals damage, you gain that much life.</CardText>
 <Flavor>Darigaaz decided his foe would be more useful as a weapon.</Flavor>
 <Artist>Chippy</Artist>
 <Multiverseid>23171</Multiverseid>
-<Rulings>2004/10/04: Being untapped is a targeting restriction. If the target is tapped before this spell resolves, then this spell is countered.</Rulings>
+<Rulings>2004/10/04: Being untapped is a targeting restriction. If the target is tapped before this spell resolves, then this spell doesn't resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Invasion</Set>
@@ -4109,12 +4108,12 @@ Whenever Blazing Specter deals combat damage to a player, that player discards a
 <Name>Cauldron Dance</Name>
 <Type>Instant</Type>
 <ManaCost>4BR (6)</ManaCost>
-<CardText>Cast Cauldron Dance only during combat.
+<CardText>Cast this spell only during combat.
 Return target creature card from your graveyard to the battlefield. That creature gains haste. Return it to your hand at the beginning of the next end step.
 You may put a creature card from your hand onto the battlefield. That creature gains haste. Its controller sacrifices it at the beginning of the next end step.</CardText>
 <Artist>Donato Giancola</Artist>
 <Multiverseid>23173</Multiverseid>
-<Rulings>2004/10/04: If the targeted creature card in the graveyard is removed before resolution, this spell will be countered since its only target will be invalid.
+<Rulings>2004/10/04: If the targeted creature card in the graveyard is removed before resolution, this spell won't resolve since its only target will be invalid.
 2004/10/04: You can cast this spell when you have no creature card in your hand. If this happens, simply ignore that part of the spell. You still put the graveyard creature onto the battlefield and still return it to your hand at the beginning of the end step.
 2004/10/04: You must have a creature in your graveyard to cast this spell since it requires a valid target.</Rulings>
 <Vintage>Legal</Vintage>
@@ -4147,7 +4146,7 @@ You may put a creature card from your hand onto the battlefield. That creature g
 <Type>Creature — Shade 1/1</Type>
 <ManaCost>1BR (3)</ManaCost>
 <CardText>{B}: Cinder Shade gets +1/+1 until end of turn.
-{R}, Sacrifice Cinder Shade: Cinder Shade deals damage equal to its power to target creature.</CardText>
+{R}, Sacrifice Cinder Shade: It deals damage equal to its power to target creature.</CardText>
 <Artist>Nelson DeCastro</Artist>
 <Multiverseid>23172</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4182,7 +4181,7 @@ You may put a creature card from your hand onto the battlefield. That creature g
 <Type>Legendary Creature — Dragon 6/6</Type>
 <ManaCost>3UBR (6)</ManaCost>
 <CardText>Flying
-Whenever Crosis, the Purger deals combat damage to a player, you may pay {2}{B}. If you do, choose a color, then that player reveals his or her hand and discards all cards of that color.</CardText>
+Whenever Crosis, the Purger deals combat damage to a player, you may pay {2}{B}. If you do, choose a color, then that player reveals their hand and discards all cards of that color.</CardText>
 <Artist>Pete Venters</Artist>
 <Multiverseid>23207</Multiverseid>
 <Rulings>2004/10/04: You choose the color during resolution. This means your opponent does not get to react after knowing the color you chose.</Rulings>
@@ -4199,7 +4198,7 @@ Whenever Crosis, the Purger deals combat damage to a player, you may pay {2}{B}.
 <Type>Legendary Creature — Dragon 6/6</Type>
 <ManaCost>3BRG (6)</ManaCost>
 <CardText>Flying
-Whenever Darigaaz, the Igniter deals combat damage to a player, you may pay {2}{R}. If you do, choose a color, then that player reveals his or her hand and Darigaaz deals damage to the player equal to the number of cards of that color revealed this way.</CardText>
+Whenever Darigaaz, the Igniter deals combat damage to a player, you may pay {2}{R}. If you do, choose a color, then that player reveals their hand and Darigaaz deals damage to the player equal to the number of cards of that color revealed this way.</CardText>
 <Artist>Mark Zug</Artist>
 <Multiverseid>23208</Multiverseid>
 <Rulings>2004/10/04: You choose the color during resolution. This means your opponent does not get to react after knowing the color you chose.</Rulings>
@@ -4273,7 +4272,7 @@ Sacrifice Fires of Yavimaya: Target creature gets +2/+2 until end of turn.</Card
 <Artist>Mike Raabe</Artist>
 <Multiverseid>23156</Multiverseid>
 <Rulings>2004/10/04: Because the "search" requires you to find a card with certain characteristics, you don't have to find the card if you don't want to.
-2013/01/24: If the target land is an illegal target when <Frenzied Tilling> tries to resolve, the spell will be countered and none of its effects will happen. You won't search your library for a basic land card.</Rulings>
+2013/01/24: If the target land is an illegal target when <Frenzied Tilling> tries to resolve, the spell won't resolve and none of its effects will happen. You won't search your library for a basic land card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4358,7 +4357,7 @@ Sacrifice Fires of Yavimaya: Target creature gets +2/+2 until end of turn.</Card
 <Flavor>Dominarians gladly fought alongside kavu . . . until the kavu figured out some Dominarians were quite tasty.</Flavor>
 <Artist>Scott M. Fischer</Artist>
 <Multiverseid>23176</Multiverseid>
-<Rulings>2004/10/04: Being "without flying" is a targeting restriction. The ability will be countered if the target gains flying before the ability resolves.</Rulings>
+<Rulings>2004/10/04: Being "without flying" is a targeting restriction. The ability won't resolve if the target gains flying before the ability resolves.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Invasion</Set>
@@ -4405,7 +4404,7 @@ Other Bird creatures get +1/+1 for each feather counter on Kangee, Aerie Keeper.
 <Name>Lobotomy</Name>
 <Type>Sorcery</Type>
 <ManaCost>2UB (4)</ManaCost>
-<CardText>Target player reveals his or her hand, then you choose a card other than a basic land card from it. Search that player's graveyard, hand, and library for all cards with the same name as the chosen card and exile them. Then that player shuffles his or her library.</CardText>
+<CardText>Target player reveals their hand, then you choose a card other than a basic land card from it. Search that player's graveyard, hand, and library for all cards with the same name as the chosen card and exile them. Then that player shuffles their library.</CardText>
 <Artist>D. Alexander Gregory</Artist>
 <Multiverseid>23170</Multiverseid>
 <Rulings>2004/10/04: You only get to pick one card from the player's hand.
@@ -4425,7 +4424,7 @@ Other Bird creatures get +1/+1 for each feather counter on Kangee, Aerie Keeper.
 <Name>Meteor Storm</Name>
 <Type>Enchantment</Type>
 <ManaCost>RG (2)</ManaCost>
-<CardText>{2}{R}{G}, Discard two cards at random: Meteor Storm deals 4 damage to target creature or player.</CardText>
+<CardText>{2}{R}{G}, Discard two cards at random: Meteor Storm deals 4 damage to any target.</CardText>
 <Flavor>The storm wasn't an omen. It was the fulfillment of one.</Flavor>
 <Artist>John Avon</Artist>
 <Multiverseid>23193</Multiverseid>
@@ -4476,7 +4475,7 @@ Other Bird creatures get +1/+1 for each feather counter on Kangee, Aerie Keeper.
 <Name>Overabundance</Name>
 <Type>Enchantment</Type>
 <ManaCost>1RG (3)</ManaCost>
-<CardText>Whenever a player taps a land for mana, that player adds one mana to his or her mana pool of any type that land produced, and Overabundance deals 1 damage to him or her.</CardText>
+<CardText>Whenever a player taps a land for mana, that player adds one mana of any type that land produced, and Overabundance deals 1 damage to the player.</CardText>
 <Artist>Ben Thompson</Artist>
 <Multiverseid>23202</Multiverseid>
 <Rulings>2004/10/04: The ability deals one damage even if the land produces no mana when it was tapped to use a mana ability. This can happen with lands that produce a variable amount of mana.
@@ -4511,7 +4510,7 @@ Other Bird creatures get +1/+1 for each feather counter on Kangee, Aerie Keeper.
 <Type>Creature — Zombie 2/1</Type>
 <ManaCost>1BR (3)</ManaCost>
 <CardText>At the beginning of your upkeep, if Pyre Zombie is in your graveyard, you may pay {1}{B}{B}. If you do, return Pyre Zombie to your hand.
-{1}{R}{R}, Sacrifice Pyre Zombie: Pyre Zombie deals 2 damage to target creature or player.</CardText>
+{1}{R}{R}, Sacrifice Pyre Zombie: It deals 2 damage to any target.</CardText>
 <Artist>Nelson DeCastro</Artist>
 <Multiverseid>23201</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4543,7 +4542,7 @@ Haste</CardText>
 <Name>Reckless Assault</Name>
 <Type>Enchantment</Type>
 <ManaCost>2BR (4)</ManaCost>
-<CardText>{1}, Pay 2 life: Reckless Assault deals 1 damage to target creature or player.</CardText>
+<CardText>{1}, Pay 2 life: Reckless Assault deals 1 damage to any target.</CardText>
 <Flavor>"How will you fight an enemy that cares nothing for itself?"
 —The Blind Seer</Flavor>
 <Artist>Jeff Easley</Artist>
@@ -4641,8 +4640,8 @@ Whenever Rith, the Awakener deals combat damage to a player, you may pay {2}{G}.
 <Name>Samite Archer</Name>
 <Type>Creature — Human Cleric Archer 1/1</Type>
 <ManaCost>1WU (3)</ManaCost>
-<CardText>{T}: Prevent the next 1 damage that would be dealt to target creature or player this turn.
-{T}: Samite Archer deals 1 damage to target creature or player.</CardText>
+<CardText>{T}: Prevent the next 1 damage that would be dealt to any target this turn.
+{T}: Samite Archer deals 1 damage to any target.</CardText>
 <Flavor>"I can preserve ten lives by taking one."</Flavor>
 <Artist>Scott M. Fischer</Artist>
 <Multiverseid>23165</Multiverseid>
@@ -4740,7 +4739,7 @@ Whenever enchanted creature deals combat damage to an opponent, you may draw a c
 <Type>Enchantment</Type>
 <ManaCost>2BR (4)</ManaCost>
 <CardText>At the beginning of your upkeep, target player loses 1 life.
-Sacrifice Smoldering Tar: Smoldering Tar deals 4 damage to target creature. Activate this ability only any time you could cast a sorcery.</CardText>
+Sacrifice Smoldering Tar: It deals 4 damage to target creature. Activate this ability only any time you could cast a sorcery.</CardText>
 <Artist>David Day</Artist>
 <Multiverseid>23179</Multiverseid>
 <Rulings>2013/04/15: If you cast this as normal during your main phase, it will enter the battlefield and you'll receive priority. If no abilities trigger because of this, you can activate its ability immediately, before any other player has a chance to remove it from the battlefield.</Rulings>
@@ -4756,7 +4755,7 @@ Sacrifice Smoldering Tar: Smoldering Tar deals 4 damage to target creature. Acti
 <Name>Spinal Embrace</Name>
 <Type>Instant</Type>
 <ManaCost>3UUB (6)</ManaCost>
-<CardText>Cast Spinal Embrace only during combat.
+<CardText>Cast this spell only during combat.
 Untap target creature you don't control and gain control of it. It gains haste until end of turn. At the beginning of the next end step, sacrifice it. If you do, you gain life equal to its toughness.</CardText>
 <Artist>Donato Giancola</Artist>
 <Multiverseid>23189</Multiverseid>
@@ -4942,7 +4941,7 @@ Urborg Drake attacks each combat if able.</CardText>
 <Name>Void</Name>
 <Type>Sorcery</Type>
 <ManaCost>3BR (5)</ManaCost>
-<CardText>Choose a number. Destroy all artifacts and creatures with converted mana cost equal to that number. Then target player reveals his or her hand and discards all nonland cards with converted mana cost equal to the number.</CardText>
+<CardText>Choose a number. Destroy all artifacts and creatures with converted mana cost equal to that number. Then target player reveals their hand and discards all nonland cards with converted mana cost equal to the number.</CardText>
 <Artist>Kev Walker</Artist>
 <Multiverseid>23200</Multiverseid>
 <Rulings>2016/06/08: You can choose 0. Artifact lands and most tokens have converted mana costs of 0, for example.
@@ -5045,7 +5044,7 @@ Yavimaya Kavu's toughness is equal to the number of green creatures on the battl
 <ManaCost>2U (3)</ManaCost>
 <CardText>Return target permanent to its owner's hand.</CardText>
 <Artist>David Martin</Artist>
-<Multiverseid>20574</Multiverseid>
+<Multiverseid>20573</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Invasion</Set>
@@ -5061,7 +5060,7 @@ Yavimaya Kavu's toughness is equal to the number of green creatures on the battl
 <ManaCost>3U (4)</ManaCost>
 <CardText>Counter target noncreature spell.</CardText>
 <Artist>David Martin</Artist>
-<Multiverseid>20575</Multiverseid>
+<Multiverseid>20576</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Invasion</Set>
@@ -5109,7 +5108,7 @@ Yavimaya Kavu's toughness is equal to the number of green creatures on the battl
 <ManaCost>3R (4)</ManaCost>
 <CardText>Destroy target land.</CardText>
 <Artist>David Martin</Artist>
-<Multiverseid>20578</Multiverseid>
+<Multiverseid>20577</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Invasion</Set>
@@ -5123,7 +5122,7 @@ Yavimaya Kavu's toughness is equal to the number of green creatures on the battl
 <Name>Assault (Assault/Battery)</Name>
 <Type>Sorcery</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>Assault deals 2 damage to target creature or player.</CardText>
+<CardText>Assault deals 2 damage to any target.</CardText>
 <Artist>Ben Thompson</Artist>
 <Multiverseid>20579</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5142,7 +5141,7 @@ Yavimaya Kavu's toughness is equal to the number of green creatures on the battl
 <ManaCost>3G (4)</ManaCost>
 <CardText>Create a 3/3 green Elephant creature token.</CardText>
 <Artist>Ben Thompson</Artist>
-<Multiverseid>20580</Multiverseid>
+<Multiverseid>20579</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -5159,7 +5158,7 @@ Yavimaya Kavu's toughness is equal to the number of green creatures on the battl
 <ManaCost>G (1)</ManaCost>
 <CardText>Target creature gets +2/+2 until end of turn.</CardText>
 <Artist>Ben Thompson</Artist>
-<Multiverseid>20581</Multiverseid>
+<Multiverseid>20582</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Invasion</Set>
@@ -5208,7 +5207,7 @@ Alloy Golem is the chosen color. (It's still an artifact.)</CardText>
 <Name>Bloodstone Cameo</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {B} or {R} to your mana pool.</CardText>
+<CardText>{T}: Add {B} or {R}.</CardText>
 <Flavor>"The stone whispers to me of dragon's fire and darkness. I wish I'd never pried it from the figurehead of that sunken Keldon longship."
 —Isel, master carver</Flavor>
 <Artist>Tony Szczudlo</Artist>
@@ -5225,7 +5224,7 @@ Alloy Golem is the chosen color. (It's still an artifact.)</CardText>
 <Name>Chromatic Sphere</Name>
 <Type>Artifact</Type>
 <ManaCost>1 (1)</ManaCost>
-<CardText>{1}, {T}, Sacrifice Chromatic Sphere: Add one mana of any color to your mana pool. Draw a card.</CardText>
+<CardText>{1}, {T}, Sacrifice Chromatic Sphere: Add one mana of any color. Draw a card.</CardText>
 <Flavor>"Let insight and energy be your guides."
 —The Blind Seer, to Gerrard</Flavor>
 <Artist>Luca Zontini</Artist>
@@ -5244,7 +5243,7 @@ Alloy Golem is the chosen color. (It's still an artifact.)</CardText>
 <Name>Crosis's Attendant</Name>
 <Type>Artifact Creature — Golem 3/3</Type>
 <ManaCost>5 (5)</ManaCost>
-<CardText>{1}, Sacrifice Crosis's Attendant: Add {U}{B}{R} to your mana pool.</CardText>
+<CardText>{1}, Sacrifice Crosis's Attendant: Add {U}{B}{R}.</CardText>
 <Flavor>"Crosis is the eye of the ur-dragon, piercing illusion and darkness."</Flavor>
 <Artist>Arnie Swekel</Artist>
 <Multiverseid>25837</Multiverseid>
@@ -5260,7 +5259,7 @@ Alloy Golem is the chosen color. (It's still an artifact.)</CardText>
 <Name>Darigaaz's Attendant</Name>
 <Type>Artifact Creature — Golem 3/3</Type>
 <ManaCost>5 (5)</ManaCost>
-<CardText>{1}, Sacrifice Darigaaz's Attendant: Add {B}{R}{G} to your mana pool.</CardText>
+<CardText>{1}, Sacrifice Darigaaz's Attendant: Add {B}{R}{G}.</CardText>
 <Flavor>"Darigaaz is the breath of the ur-dragon, burning away the burdens of mortality."</Flavor>
 <Artist>Brom</Artist>
 <Multiverseid>25838</Multiverseid>
@@ -5276,7 +5275,7 @@ Alloy Golem is the chosen color. (It's still an artifact.)</CardText>
 <Name>Drake-Skull Cameo</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {U} or {B} to your mana pool.</CardText>
+<CardText>{T}: Add {U} or {B}.</CardText>
 <Flavor>"A strange skull was turned up by an Ephran farmer's plow. I traded a copper ring for the 'ox skull.' It resonates of the sea and danger."
 —Isel, master carver</Flavor>
 <Artist>Dan Frazier</Artist>
@@ -5293,7 +5292,7 @@ Alloy Golem is the chosen color. (It's still an artifact.)</CardText>
 <Name>Dromar's Attendant</Name>
 <Type>Artifact Creature — Golem 3/3</Type>
 <ManaCost>5 (5)</ManaCost>
-<CardText>{1}, Sacrifice Dromar's Attendant: Add {W}{U}{B} to your mana pool.</CardText>
+<CardText>{1}, Sacrifice Dromar's Attendant: Add {W}{U}{B}.</CardText>
 <Flavor>"Dromar is the wings of the ur-dragon, sweeping away all opposition."</Flavor>
 <Artist>Carl Critchlow</Artist>
 <Multiverseid>25836</Multiverseid>
@@ -5327,7 +5326,7 @@ Alloy Golem is the chosen color. (It's still an artifact.)</CardText>
 <Type>Artifact Creature — Dragon 4/4</Type>
 <ManaCost>7 (7)</ManaCost>
 <CardText>Flying
-{T}: Add one mana of any color to your mana pool.</CardText>
+{T}: Add one mana of any color.</CardText>
 <Flavor>Lotus fields are too valuable to leave undefended.</Flavor>
 <Artist>Dana Knutson</Artist>
 <Multiverseid>23233</Multiverseid>
@@ -5343,7 +5342,7 @@ Alloy Golem is the chosen color. (It's still an artifact.)</CardText>
 <Name>Phyrexian Altar</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>Sacrifice a creature: Add one mana of any color to your mana pool.</CardText>
+<CardText>Sacrifice a creature: Add one mana of any color.</CardText>
 <Flavor>"Your life was meaningless, but your death will glorify Yawgmoth."
 —Tsabo Tavoc</Flavor>
 <Artist>Ron Spears</Artist>
@@ -5360,7 +5359,7 @@ Alloy Golem is the chosen color. (It's still an artifact.)</CardText>
 <Name>Phyrexian Lens</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}, Pay 1 life: Add one mana of any color to your mana pool.</CardText>
+<CardText>{T}, Pay 1 life: Add one mana of any color.</CardText>
 <Flavor>"There's nothing I wouldn't give to achieve victory. Can you say the same?"
 —Tsabo Tavoc, to Gerrard</Flavor>
 <Artist>Matt Cavotta</Artist>
@@ -5414,7 +5413,7 @@ Alloy Golem is the chosen color. (It's still an artifact.)</CardText>
 <Name>Rith's Attendant</Name>
 <Type>Artifact Creature — Golem 3/3</Type>
 <ManaCost>5 (5)</ManaCost>
-<CardText>{1}, Sacrifice Rith's Attendant: Add {R}{G}{W} to your mana pool.</CardText>
+<CardText>{1}, Sacrifice Rith's Attendant: Add {R}{G}{W}.</CardText>
 <Flavor>"Rith is the claw of the ur-dragon, scattering seeds of devastation."</Flavor>
 <Artist>Adam Rex</Artist>
 <Multiverseid>25839</Multiverseid>
@@ -5430,7 +5429,7 @@ Alloy Golem is the chosen color. (It's still an artifact.)</CardText>
 <Name>Seashell Cameo</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {W} or {U} to your mana pool.</CardText>
+<CardText>{T}: Add {W} or {U}.</CardText>
 <Flavor>"Today a seashell fell from the empty sky here in Kinymu, a hundred leagues from the sea. I'm torn—shall I carve a woman or a bird?"
 —Isel, master carver</Flavor>
 <Artist>Tony Szczudlo</Artist>
@@ -5478,7 +5477,7 @@ Alloy Golem is the chosen color. (It's still an artifact.)</CardText>
 <Name>Tigereye Cameo</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {G} or {W} to your mana pool.</CardText>
+<CardText>{T}: Add {G} or {W}.</CardText>
 <Flavor>"An elvish adventurer unearthed this stone in Jolrael's jungle. Now it's truly fit for display in one of her palaces."
 —Isel, master carver</Flavor>
 <Artist>Donato Giancola</Artist>
@@ -5495,7 +5494,7 @@ Alloy Golem is the chosen color. (It's still an artifact.)</CardText>
 <Name>Treva's Attendant</Name>
 <Type>Artifact Creature — Golem 3/3</Type>
 <ManaCost>5 (5)</ManaCost>
-<CardText>{1}, Sacrifice Treva's Attendant: Add {G}{W}{U} to your mana pool.</CardText>
+<CardText>{1}, Sacrifice Treva's Attendant: Add {G}{W}{U}.</CardText>
 <Flavor>"Treva is the voice of the ur-dragon, demanding cries of worship."</Flavor>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>25840</Multiverseid>
@@ -5511,7 +5510,7 @@ Alloy Golem is the chosen color. (It's still an artifact.)</CardText>
 <Name>Troll-Horn Cameo</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {R} or {G} to your mana pool.</CardText>
+<CardText>{T}: Add {R} or {G}.</CardText>
 <Flavor>"I found a troll-horn fragment in the wooded foothills of Hurloon, and it keeps growing larger. I wonder, is the horn recreating itself or the troll?"
 —Isel, master carver</Flavor>
 <Artist>Donato Giancola</Artist>
@@ -5562,8 +5561,8 @@ Each land with an activated ability that isn't a mana ability doesn't untap duri
 <Name>Ancient Spring</Name>
 <Type>Land</Type>
 <CardText>Ancient Spring enters the battlefield tapped.
-{T}: Add {U} to your mana pool.
-{T}, Sacrifice Ancient Spring: Add {W}{B} to your mana pool.</CardText>
+{T}: Add {U}.
+{T}, Sacrifice Ancient Spring: Add {W}{B}.</CardText>
 <Artist>Don Hazeltine</Artist>
 <Multiverseid>23236</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5577,8 +5576,8 @@ Each land with an activated ability that isn't a mana ability doesn't untap duri
 <No>320</No>
 <Name>Archaeological Dig</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{T}, Sacrifice Archaeological Dig: Add one mana of any color to your mana pool.</CardText>
+<CardText>{T}: Add {C}.
+{T}, Sacrifice Archaeological Dig: Add one mana of any color.</CardText>
 <Artist>Don Hazeltine</Artist>
 <Multiverseid>23245</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5593,7 +5592,7 @@ Each land with an activated ability that isn't a mana ability doesn't untap duri
 <Name>Coastal Tower</Name>
 <Type>Land</Type>
 <CardText>Coastal Tower enters the battlefield tapped.
-{T}: Add {W} or {U} to your mana pool.</CardText>
+{T}: Add {W} or {U}.</CardText>
 <Flavor>The Capashen built the highest towers in Benalia to afford themselves the best view.</Flavor>
 <Artist>Don Hazeltine</Artist>
 <Multiverseid>23240</Multiverseid>
@@ -5610,7 +5609,7 @@ Each land with an activated ability that isn't a mana ability doesn't untap duri
 <Name>Elfhame Palace</Name>
 <Type>Land</Type>
 <CardText>Elfhame Palace enters the battlefield tapped.
-{T}: Add {G} or {W} to your mana pool.</CardText>
+{T}: Add {G} or {W}.</CardText>
 <Flavor>Llanowar has seven elfhames, or kingdoms, each with its own ruler. Their palaces are objects of awe, wonder, and envy.</Flavor>
 <Artist>Jerry Tiritilli</Artist>
 <Multiverseid>23244</Multiverseid>
@@ -5627,8 +5626,8 @@ Each land with an activated ability that isn't a mana ability doesn't untap duri
 <Name>Geothermal Crevice</Name>
 <Type>Land</Type>
 <CardText>Geothermal Crevice enters the battlefield tapped.
-{T}: Add {R} to your mana pool.
-{T}, Sacrifice Geothermal Crevice: Add {B}{G} to your mana pool.</CardText>
+{T}: Add {R}.
+{T}, Sacrifice Geothermal Crevice: Add {B}{G}.</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>23238</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5643,8 +5642,8 @@ Each land with an activated ability that isn't a mana ability doesn't untap duri
 <Name>Irrigation Ditch</Name>
 <Type>Land</Type>
 <CardText>Irrigation Ditch enters the battlefield tapped.
-{T}: Add {W} to your mana pool.
-{T}, Sacrifice Irrigation Ditch: Add {G}{U} to your mana pool.</CardText>
+{T}: Add {W}.
+{T}, Sacrifice Irrigation Ditch: Add {G}{U}.</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>23235</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5658,8 +5657,8 @@ Each land with an activated ability that isn't a mana ability doesn't untap duri
 <No>325</No>
 <Name>Keldon Necropolis</Name>
 <Type>Legendary Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{4}{R}, {T}, Sacrifice a creature: Keldon Necropolis deals 2 damage to target creature or player.</CardText>
+<CardText>{T}: Add {C}.
+{4}{R}, {T}, Sacrifice a creature: Keldon Necropolis deals 2 damage to any target.</CardText>
 <Artist>Franz Vohwinkel</Artist>
 <Multiverseid>25930</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5674,7 +5673,7 @@ Each land with an activated ability that isn't a mana ability doesn't untap duri
 <Name>Salt Marsh</Name>
 <Type>Land</Type>
 <CardText>Salt Marsh enters the battlefield tapped.
-{T}: Add {U} or {B} to your mana pool.</CardText>
+{T}: Add {U} or {B}.</CardText>
 <Flavor>Only death breeds in stagnant water.
 —Urborg saying</Flavor>
 <Artist>Jerry Tiritilli</Artist>
@@ -5692,7 +5691,7 @@ Each land with an activated ability that isn't a mana ability doesn't untap duri
 <Name>Shivan Oasis</Name>
 <Type>Land</Type>
 <CardText>Shivan Oasis enters the battlefield tapped.
-{T}: Add {R} or {G} to your mana pool.</CardText>
+{T}: Add {R} or {G}.</CardText>
 <Flavor>Only the hardiest explorers survive to eat the fruit.</Flavor>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>23243</Multiverseid>
@@ -5709,8 +5708,8 @@ Each land with an activated ability that isn't a mana ability doesn't untap duri
 <Name>Sulfur Vent</Name>
 <Type>Land</Type>
 <CardText>Sulfur Vent enters the battlefield tapped.
-{T}: Add {B} to your mana pool.
-{T}, Sacrifice Sulfur Vent: Add {U}{R} to your mana pool.</CardText>
+{T}: Add {B}.
+{T}, Sacrifice Sulfur Vent: Add {U}{R}.</CardText>
 <Artist>Edward P. Beard, Jr.</Artist>
 <Multiverseid>23237</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5725,8 +5724,8 @@ Each land with an activated ability that isn't a mana ability doesn't untap duri
 <Name>Tinder Farm</Name>
 <Type>Land</Type>
 <CardText>Tinder Farm enters the battlefield tapped.
-{T}: Add {G} to your mana pool.
-{T}, Sacrifice Tinder Farm: Add {R}{W} to your mana pool.</CardText>
+{T}: Add {G}.
+{T}, Sacrifice Tinder Farm: Add {R}{W}.</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>23239</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5741,7 +5740,7 @@ Each land with an activated ability that isn't a mana ability doesn't untap duri
 <Name>Urborg Volcano</Name>
 <Type>Land</Type>
 <CardText>Urborg Volcano enters the battlefield tapped.
-{T}: Add {B} or {R} to your mana pool.</CardText>
+{T}: Add {B} or {R}.</CardText>
 <Flavor>Deep in the heart of Urborg lie massive volcanoes whose thick black smoke covers the land with perpetual darkness.</Flavor>
 <Artist>Tony Szczudlo</Artist>
 <Multiverseid>23242</Multiverseid>
@@ -5757,7 +5756,7 @@ Each land with an activated ability that isn't a mana ability doesn't untap duri
 <No>331</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>25963</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5772,7 +5771,7 @@ Each land with an activated ability that isn't a mana ability doesn't untap duri
 <No>332</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Ben Thompson</Artist>
 <Multiverseid>26298</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5787,7 +5786,7 @@ Each land with an activated ability that isn't a mana ability doesn't untap duri
 <No>333</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>D. J. Cleland-Hura</Artist>
 <Multiverseid>26299</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5802,7 +5801,7 @@ Each land with an activated ability that isn't a mana ability doesn't untap duri
 <No>334</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Scott Bailey</Artist>
 <Multiverseid>26300</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5817,7 +5816,7 @@ Each land with an activated ability that isn't a mana ability doesn't untap duri
 <No>335</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Tony Szczudlo</Artist>
 <Multiverseid>25964</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5832,7 +5831,7 @@ Each land with an activated ability that isn't a mana ability doesn't untap duri
 <No>336</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>26301</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5847,7 +5846,7 @@ Each land with an activated ability that isn't a mana ability doesn't untap duri
 <No>337</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Terese Nielsen</Artist>
 <Multiverseid>26302</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5862,7 +5861,7 @@ Each land with an activated ability that isn't a mana ability doesn't untap duri
 <No>338</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Darrell Riche</Artist>
 <Multiverseid>26303</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5877,7 +5876,7 @@ Each land with an activated ability that isn't a mana ability doesn't untap duri
 <No>339</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Ron Spencer</Artist>
 <Multiverseid>25965</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5892,7 +5891,7 @@ Each land with an activated ability that isn't a mana ability doesn't untap duri
 <No>340</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>26304</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5907,7 +5906,7 @@ Each land with an activated ability that isn't a mana ability doesn't untap duri
 <No>341</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>26305</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5922,7 +5921,7 @@ Each land with an activated ability that isn't a mana ability doesn't untap duri
 <No>342</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Ron Spencer</Artist>
 <Multiverseid>26306</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5937,7 +5936,7 @@ Each land with an activated ability that isn't a mana ability doesn't untap duri
 <No>343</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Matt Cavotta</Artist>
 <Multiverseid>25966</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5952,7 +5951,7 @@ Each land with an activated ability that isn't a mana ability doesn't untap duri
 <No>344</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Jeff Miracola</Artist>
 <Multiverseid>26307</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5967,7 +5966,7 @@ Each land with an activated ability that isn't a mana ability doesn't untap duri
 <No>345</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Glen Angus</Artist>
 <Multiverseid>26308</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5982,7 +5981,7 @@ Each land with an activated ability that isn't a mana ability doesn't untap duri
 <No>346</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Scott Bailey</Artist>
 <Multiverseid>26309</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5997,7 +5996,7 @@ Each land with an activated ability that isn't a mana ability doesn't untap duri
 <No>347</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>25967</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -6012,7 +6011,7 @@ Each land with an activated ability that isn't a mana ability doesn't untap duri
 <No>348</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Alan Pollack</Artist>
 <Multiverseid>26310</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -6027,7 +6026,7 @@ Each land with an activated ability that isn't a mana ability doesn't untap duri
 <No>349</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Alan Pollack</Artist>
 <Multiverseid>26311</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -6042,7 +6041,7 @@ Each land with an activated ability that isn't a mana ability doesn't untap duri
 <No>350</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Glen Angus</Artist>
 <Multiverseid>26312</Multiverseid>
 <Vintage>Legal</Vintage>

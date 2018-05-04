@@ -45,7 +45,7 @@ At the beginning of combat on your turn, reveal the top card of your library. If
 <Type>Creature — Eldrazi 5/5</Type>
 <ManaCost>5C (6)</ManaCost>
 <CardText>Untap Endbringer during each other player's untap step.
-{T}: Endbringer deals 1 damage to target creature or player.
+{T}: Endbringer deals 1 damage to any target.
 {C}, {T}: Target creature can't attack or block this turn.
 {C}{C}, {T}: Draw a card.</CardText>
 <Artist>Vincent Proce</Artist>
@@ -66,7 +66,7 @@ At the beginning of combat on your turn, reveal the top card of your library. If
 <Name>Kozilek, the Great Distortion</Name>
 <Type>Legendary Creature — Eldrazi 12/12</Type>
 <ManaCost>8CC (10)</ManaCost>
-<CardText>When you cast Kozilek, the Great Distortion, if you have fewer than seven cards in hand, draw cards equal to the difference.
+<CardText>When you cast this spell, if you have fewer than seven cards in hand, draw cards equal to the difference.
 Menace
 Discard a card with converted mana cost X: Counter target spell with converted mana cost X.</CardText>
 <Flavor>A void as cryptic as reality itself.</Flavor>
@@ -167,7 +167,7 @@ Target creature gets +3/-3 until end of turn.</CardText>
 <Type>Creature — Eldrazi 4/4</Type>
 <ManaCost>3C (4)</ManaCost>
 <CardText>({C} represents colorless mana.)
-When Thought-Knot Seer enters the battlefield, target opponent reveals his or her hand. You choose a nonland card from it and exile that card.
+When Thought-Knot Seer enters the battlefield, target opponent reveals their hand. You choose a nonland card from it and exile that card.
 When Thought-Knot Seer leaves the battlefield, target opponent draws a card.</CardText>
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>407519</Multiverseid>
@@ -205,7 +205,7 @@ Walker of the Wastes gets +1/+1 for each land you control named Wastes.</CardTex
 <Type>Creature — Eldrazi Drone 2/3</Type>
 <ManaCost>4 (4)</ManaCost>
 <CardText>Vigilance
-{T}: Add {C} to your mana pool. ({C} represents colorless mana.)</CardText>
+{T}: Add {C}. ({C} represents colorless mana.)</CardText>
 <Flavor>The wastelands disorient even the most experienced scouts, making them easy prey for Kozilek's drones.</Flavor>
 <Artist>Jason Felix</Artist>
 <Multiverseid>407521</Multiverseid>
@@ -226,7 +226,7 @@ Walker of the Wastes gets +1/+1 for each land you control named Wastes.</CardTex
 Choose one —
 • Exile target creature with power or toughness 1 or less.
 • Counter target sorcery spell.
-• Create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this creature: Add {C} to your mana pool."</CardText>
+• Create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this creature: Add {C}."</CardText>
 <Artist>Jason Felix</Artist>
 <Multiverseid>407522</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -750,7 +750,7 @@ When Wall of Resurgence enters the battlefield, you may put three +1/+1 counters
 <Type>Instant</Type>
 <ManaCost>2U (3)</ManaCost>
 <CardText>Devoid (This card has no color.)
-Counter target spell unless its controller pays {1}. You create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this creature: Add {C} to your mana pool." ({C} represents colorless mana.)</CardText>
+Counter target spell unless its controller pays {1}. You create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this creature: Add {C}." ({C} represents colorless mana.)</CardText>
 <Artist>Igor Kieryluk</Artist>
 <Multiverseid>407550</Multiverseid>
 <Rulings>2016/01/22: You get the Eldrazi Scion even if the controller of the spell pays {1}.</Rulings>
@@ -787,7 +787,7 @@ Counter target spell unless its controller pays {1}. You create a 1/1 colorless 
 <Type>Creature — Eldrazi Drone 2/3</Type>
 <ManaCost>2U (3)</ManaCost>
 <CardText>Devoid (This card has no color.)
-{T}: Add {C} to your mana pool. Spend this mana only to cast a colorless spell, activate an ability of a colorless permanent, or pay a cost that contains {C}. ({C} represents colorless mana.)</CardText>
+{T}: Add {C}. Spend this mana only to cast a colorless spell, activate an ability of a colorless permanent, or pay a cost that contains {C}. ({C} represents colorless mana.)</CardText>
 <Artist>Slawomir Maniak</Artist>
 <Multiverseid>407552</Multiverseid>
 <Rulings>2016/01/22: Mana produced by <Cultivator Drone> may be used to cast any colorless spell, including most artifact spells, face-down spells, and spells with devoid.
@@ -827,7 +827,7 @@ Whenever a creature you control deals combat damage to a player, you may draw a 
 <CardText>Devoid (This card has no color.)
 Flash
 Flying
-{1}{C}: Target opponent exiles the top card of his or her library. If it's a land card, you may return Dimensional Infiltrator to its owner's hand. ({C} represents colorless mana.)</CardText>
+{1}{C}: Target opponent exiles the top card of their library. If it's a land card, you may return Dimensional Infiltrator to its owner's hand. ({C} represents colorless mana.)</CardText>
 <Artist>Chase Stone</Artist>
 <Multiverseid>407554</Multiverseid>
 <Rulings>2016/01/22: You choose whether to return <Dimensional Infiltrator> to its owner's hand as its ability resolves. If the exiled card is a land card, you can't wait and return <Dimensional Infiltrator> at a later time.</Rulings>
@@ -901,7 +901,7 @@ Draw a card.</CardText>
 <ManaCost>3U (4)</ManaCost>
 <CardText>Devoid (This card has no color.)
 Flying
-Whenever you cast a colorless spell, target opponent exiles the top card of his or her library.</CardText>
+Whenever you cast a colorless spell, target opponent exiles the top card of their library.</CardText>
 <Flavor>"I never thought I'd miss the gomazoa."
 —Trinda, Hada spy patrol</Flavor>
 <Artist>Winona Nelson</Artist>
@@ -1173,7 +1173,7 @@ At the beginning of your upkeep, scry X, where X is the number of planeswalkers 
 <Type>Instant</Type>
 <ManaCost>2UU (4)</ManaCost>
 <CardText>Surge {U}{U} (You may cast this spell for its surge cost if you or a teammate has cast another spell this turn.)
-Overwhelming Denial can't be countered by spells or abilities.
+This spell can't be countered.
 Counter target spell.</CardText>
 <Artist>Jama Jurabaev</Artist>
 <Multiverseid>407571</Multiverseid>
@@ -1212,14 +1212,13 @@ Counter target spell.</CardText>
 <Name>Sphinx of the Final Word</Name>
 <Type>Creature — Sphinx 5/5</Type>
 <ManaCost>5UU (7)</ManaCost>
-<CardText>Sphinx of the Final Word can't be countered.
+<CardText>This spell can't be countered.
 Flying, hexproof
-Instant and sorcery spells you control can't be countered by spells or abilities.</CardText>
+Instant and sorcery spells you control can't be countered.</CardText>
 <Flavor>He answers questions as readily as he asks them, but his answer is always "no."</Flavor>
 <Artist>Lius Lasahido</Artist>
 <Multiverseid>407573</Multiverseid>
-<Rulings>2016/01/22: A spell that can't be countered can still be targeted by spells or abilities that would counter it. The part of their effect that would counter the spell won't do anything, but any other effects those spells or abilities may have will still happen, if applicable.
-2016/01/22: There's no functional difference between "can't be countered" and "can't be countered by spells or abilities," but the latter is used for classes of spells that might require a target. Spells with targets can still be countered by the game rules if all of their targets become illegal before they resolve.</Rulings>
+<Rulings>2016/01/22: A spell that can't be countered can still be targeted by spells or abilities that would counter it. The part of their effect that would counter the spell won't do anything, but any other effects those spells or abilities may have will still happen, if applicable.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1289,7 +1288,7 @@ Untap each creature you control with a +1/+1 counter on it.</CardText>
 <Type>Creature — Eldrazi 2/1</Type>
 <ManaCost>1B (2)</ManaCost>
 <CardText>Devoid (This card has no color.)
-When you cast Bearer of Silence, you may pay {1}{C}. If you do, target opponent sacrifices a creature. ({C} represents colorless mana.)
+When you cast this spell, you may pay {1}{C}. If you do, target opponent sacrifices a creature. ({C} represents colorless mana.)
 Flying
 Bearer of Silence can't block.</CardText>
 <Artist>Tyler Jacobson</Artist>
@@ -1427,7 +1426,7 @@ When Inverter of Truth enters the battlefield, exile all cards from your library
 <Type>Creature — Eldrazi Drone 3/5</Type>
 <ManaCost>4B (5)</ManaCost>
 <CardText>Devoid (This card has no color.)
-Pay 1 life: Add {C} to your mana pool. Activate this ability only once each turn. ({C} represents colorless mana.)</CardText>
+Pay 1 life: Add {C}. Activate this ability only once each turn. ({C} represents colorless mana.)</CardText>
 <Flavor>From nothingness, sustenance.</Flavor>
 <Artist>Izzy</Artist>
 <Multiverseid>407584</Multiverseid>
@@ -1482,7 +1481,7 @@ At the beginning of your upkeep, you lose 1 life unless you control another colo
 <Type>Creature — Eldrazi 4/3</Type>
 <ManaCost>3B (4)</ManaCost>
 <CardText>Devoid (This card has no color.)
-Whenever another nontoken creature you control dies, create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this creature: Add {C} to your mana pool." ({C} represents colorless mana.)</CardText>
+Whenever another nontoken creature you control dies, create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this creature: Add {C}." ({C} represents colorless mana.)</CardText>
 <Artist>Slawomir Maniak</Artist>
 <Multiverseid>407587</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1575,12 +1574,12 @@ Whenever enchanted creature deals damage, its controller loses that much life.</
 <Type>Sorcery</Type>
 <ManaCost>3B (4)</ManaCost>
 <CardText>Devoid (This card has no color.)
-Target opponent exiles two cards from his or her hand and loses 2 life.</CardText>
+Target opponent exiles two cards from their hand and loses 2 life.</CardText>
 <Flavor>"Ulamog stood before us at Sea Gate, ready to succumb . . . and then Kozilek arose. Whatever hope I had for our world died."
 —Vandri, Kalastria emissary</Flavor>
 <Artist>Igor Kieryluk</Artist>
 <Multiverseid>407592</Multiverseid>
-<Rulings>2016/01/22: If that player has only one card in hand, that card will be exiled. If the player has no cards in hand, no cards will be exiled, but he or she will still lose 2 life.</Rulings>
+<Rulings>2016/01/22: If that player has only one card in hand, that card will be exiled. If the player has no cards in hand, no cards will be exiled, but they will still lose 2 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1712,7 +1711,7 @@ If a nontoken creature an opponent controls would die, instead exile that card a
 —Ob Nixilis</Flavor>
 <Artist>Ryan Barger</Artist>
 <Multiverseid>407599</Multiverseid>
-<Rulings>2016/01/22: The player can't choose to discard two cards unless he or she has at least two cards in hand. Similarly, that player can't choose to sacrifice a creature or planeswalker unless he or she controls one. This means that if the target opponent doesn't have two cards in hand and doesn't control a creature or planeswalker, that player will lose 5 life and then lose 5 life again.
+<Rulings>2016/01/22: The player can't choose to discard two cards unless they have at least two cards in hand. Similarly, that player can't choose to sacrifice a creature or planeswalker unless they control one. This means that if the target opponent doesn't have two cards in hand and doesn't control a creature or planeswalker, that player will lose 5 life and then lose 5 life again.
 2016/01/22: No player may take any actions between the two times the player goes through the process.
 2016/01/22: Any abilities that trigger while <Remorseless Punishment> is resolving will be put on the stack after it has completely resolved.
 2016/04/08: The same player chooses both times. In a multiplayer game, you can't choose a different opponent to repeat the process.</Rulings>
@@ -1805,7 +1804,7 @@ Whenever Vampire Envoy becomes tapped, you gain 1 life.</CardText>
 <CardText>Devoid (This card has no color.)
 Choose one —
 • Exile target land creature.
-• Consuming Sinkhole deals 4 damage to target player.</CardText>
+• Consuming Sinkhole deals 4 damage to target player or planeswalker.</CardText>
 <Flavor>"What will not yield will be consumed."
 —Ayli, high priest of the Eternal Pilgrims</Flavor>
 <Artist>Igor Kieryluk</Artist>
@@ -1845,7 +1844,7 @@ Eldrazi Aggressor has haste as long as you control another colorless creature.</
 <Type>Creature — Eldrazi 3/1</Type>
 <ManaCost>2R (3)</ManaCost>
 <CardText>Devoid (This card has no color.)
-When you cast Eldrazi Obligator, you may pay {1}{C}. If you do, gain control of target creature until end of turn, untap that creature, and it gains haste until end of turn. ({C} represents colorless mana.)
+When you cast this spell, you may pay {1}{C}. If you do, gain control of target creature until end of turn, untap that creature, and it gains haste until end of turn. ({C} represents colorless mana.)
 Haste</CardText>
 <Artist>Jason Felix</Artist>
 <Multiverseid>407606</Multiverseid>
@@ -1923,7 +1922,7 @@ Whenever you cast an Eldrazi creature spell with converted mana cost 7 or greate
 <Type>Instant</Type>
 <ManaCost>1R (2)</ManaCost>
 <CardText>Devoid (This card has no color.)
-Reality Hemorrhage deals 2 damage to target creature or player.</CardText>
+Reality Hemorrhage deals 2 damage to any target.</CardText>
 <Flavor>Tarek could not tell whether he was losing his blood or his mind.</Flavor>
 <Artist>Chris Rallis</Artist>
 <Multiverseid>407610</Multiverseid>
@@ -2020,7 +2019,7 @@ Boulder Salvo deals 4 damage to target creature.</CardText>
 <Type>Creature — Hellion 4/4</Type>
 <ManaCost>4R (5)</ManaCost>
 <CardText>Trample
-When Cinder Hellion enters the battlefield, it deals 2 damage to target opponent.</CardText>
+When Cinder Hellion enters the battlefield, it deals 2 damage to target opponent or planeswalker.</CardText>
 <Flavor>Chandra used jets of flame to lure hellions into the path of oncoming Eldrazi.</Flavor>
 <Artist>Jason Kang</Artist>
 <Multiverseid>407615</Multiverseid>
@@ -2037,7 +2036,7 @@ When Cinder Hellion enters the battlefield, it deals 2 damage to target opponent
 <Name>Devour in Flames</Name>
 <Type>Sorcery</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>As an additional cost to cast Devour in Flames, return a land you control to its owner's hand.
+<CardText>As an additional cost to cast this spell, return a land you control to its owner's hand.
 Devour in Flames deals 5 damage to target creature or planeswalker.</CardText>
 <Flavor>Ob Nixilis had prepared for every eventuality—except Chandra Nalaar.</Flavor>
 <Artist>Svetlin Velinov</Artist>
@@ -2095,12 +2094,11 @@ Draw a card.</CardText>
 <Type>Instant</Type>
 <ManaCost>XXR (1)</ManaCost>
 <CardText>Surge {X}{R} (You may cast this spell for its surge cost if you or a teammate has cast another spell this turn.)
-Fall of the Titans deals X damage to each of up to two target creatures and/or players.</CardText>
+Fall of the Titans deals X damage to each of up to two targets.</CardText>
 <Flavor>As Gideon kept the brood lineages at bay, Chandra incinerated the bound Eldrazi titans.</Flavor>
 <Artist>Chris Rallis</Artist>
 <Multiverseid>407619</Multiverseid>
-<Rulings>2016/01/22: If one of the targets is a player, you can redirect the damage dealt by <Fall of the Titans> to a planeswalker that player controls. However, <Fall of the Titans> can't be used to deal damage to both a player and a planeswalker he or she controls (unless a separate redirection effect applies).
-2016/01/22: Fall of the Titan's converted mana cost is based on its mana cost of {X}{X}{R}, even if you're casting it for its surge cost. For example, if you cast <Fall of the Titans> for its surge cost and choose 4 for X, its converted mana cost will be 9.
+<Rulings>2016/01/22: Fall of the Titan's converted mana cost is based on its mana cost of {X}{X}{R}, even if you're casting it for its surge cost. For example, if you cast <Fall of the Titans> for its surge cost and choose 4 for X, its converted mana cost will be 9.
 2016/01/22: For some cards, surge represents only an alternative cost, a discount that applies if you or a teammate has cast another spell this turn. Other cards, like Reckless Bushwhacker, have additional abilities or effects if you paid the surge cost to cast the spell.
 2016/01/22: The other spell that you or a teammate cast can be one that's resolved, one that was countered, or (for instants with surge) one that's still on the stack.
 2016/01/22: If an instant or sorcery spell cast for its surge cost is copied, the copy is also considered to have had its surge cost paid.
@@ -2209,7 +2207,7 @@ Gain control of target creature until end of turn. Untap that creature. It gains
 <Multiverseid>407624</Multiverseid>
 <Rulings>2016/01/22: The last target of <Press into Service> can be any creature, even one that's untapped, one you already control, or one targeted by the support part of the spell.
 2016/01/22: Gaining control of a creature doesn't cause you to gain control of any Auras or Equipment attached to it.
-2016/01/22: As <Press into Service> resolves, if at least one of its targets is still legal, it will resolve, affecting only targets that are still legal at that time. If none of its targets are still legal at that time, it will be countered and none of its effects will happen.
+2016/01/22: As <Press into Service> resolves, if at least one of its targets is still legal, it will resolve, affecting only targets that are still legal at that time. If none of its targets are still legal at that time, it won't resolve and none of its effects will happen.
 2016/01/22: You can't put more than one +1/+1 counter on any one target using the support action.
 2016/01/22: Support can target a creature you don't control.
 2016/01/22: If a spell with support has other abilities that target creatures, those abilities and the support ability can target the same creature.</Rulings>
@@ -2226,7 +2224,7 @@ Gain control of target creature until end of turn. Untap that creature. It gains
 <Name>Pyromancer's Assault</Name>
 <Type>Enchantment</Type>
 <ManaCost>3R (4)</ManaCost>
-<CardText>Whenever you cast your second spell each turn, Pyromancer's Assault deals 2 damage to target creature or player.</CardText>
+<CardText>Whenever you cast your second spell each turn, Pyromancer's Assault deals 2 damage to any target.</CardText>
 <Flavor>Never ask a pyromancer if that's the best she's got.</Flavor>
 <Artist>Todd Lockwood</Artist>
 <Multiverseid>407625</Multiverseid>
@@ -2271,7 +2269,7 @@ When Reckless Bushwhacker enters the battlefield, if its surge cost was paid, ot
 —Tobin, sparkmage</Flavor>
 <Artist>Mathias Kollros</Artist>
 <Multiverseid>407627</Multiverseid>
-<Rulings>2016/01/22: If <Sparkmage's Gambit> has two targets, and one of them is illegal as <Sparkmage's Gambit> resolves, only the remaining legal target will be affected. The illegal target won't be dealt damage and will be able to block that turn. If both targets are illegal as <Sparkmage's Gambit> tries to resolve, it will be countered and none of its effects will happen.
+<Rulings>2016/01/22: If <Sparkmage's Gambit> has two targets, and one of them is illegal as <Sparkmage's Gambit> resolves, only the remaining legal target will be affected. The illegal target won't be dealt damage and will be able to block that turn. If both targets are illegal as <Sparkmage's Gambit> tries to resolve, it won't resolve and none of its effects will happen.
 2016/01/22: If <Sparkmage's Gambit> resolves, but the damage is prevented or redirected, the target creatures still won't be able to block that turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2286,7 +2284,7 @@ When Reckless Bushwhacker enters the battlefield, if its surge cost was paid, ot
 <Name>Tears of Valakut</Name>
 <Type>Instant</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>Tears of Valakut can't be countered by spells or abilities.
+<CardText>This spell can't be countered.
 Tears of Valakut deals 5 damage to target creature with flying.</CardText>
 <Flavor>When Kozilek destroyed Sea Gate, distant Valakut could not contain its grief.</Flavor>
 <Artist>Noah Bradley</Artist>
@@ -2306,7 +2304,7 @@ Tears of Valakut deals 5 damage to target creature with flying.</CardText>
 <ManaCost>5RR (7)</ManaCost>
 <CardText>Surge {3}{R}{R} (You may cast this spell for its surge cost if you or a teammate has cast another spell this turn.)
 Flying
-When Tyrant of Valakut enters the battlefield, if its surge cost was paid, it deals 3 damage to target creature or player.</CardText>
+When Tyrant of Valakut enters the battlefield, if its surge cost was paid, it deals 3 damage to any target.</CardText>
 <Artist>Tyler Jacobson</Artist>
 <Multiverseid>407629</Multiverseid>
 <Rulings>2016/01/22: For some cards, surge represents only an alternative cost, a discount that applies if you or a teammate has cast another spell this turn. Other cards, like Reckless Bushwhacker, have additional abilities or effects if you paid the surge cost to cast the spell.
@@ -2327,7 +2325,7 @@ When Tyrant of Valakut enters the battlefield, if its surge cost was paid, it de
 <Type>Creature — Goblin Archer Ally 2/1</Type>
 <ManaCost>1R (2)</ManaCost>
 <CardText>First strike
-Cohort — {T}, Tap an untapped Ally you control: Zada's Commando deals 1 damage to target opponent.</CardText>
+Cohort — {T}, Tap an untapped Ally you control: Zada's Commando deals 1 damage to target opponent or planeswalker.</CardText>
 <Flavor>"There's a word for someone who brings too much gear to battle: 'survivor.'"
 —Zada of Slab Haven</Flavor>
 <Artist>Zack Stella</Artist>
@@ -2347,7 +2345,7 @@ Cohort — {T}, Tap an untapped Ally you control: Zada's Commando deals 1 damage
 <Type>Creature — Eldrazi Drone 5/4</Type>
 <ManaCost>6G (7)</ManaCost>
 <CardText>Devoid (This card has no color.)
-When Birthing Hulk enters the battlefield, create two 1/1 colorless Eldrazi Scion creature tokens. They have "Sacrifice this creature: Add {C} to your mana pool." ({C} represents colorless mana.)
+When Birthing Hulk enters the battlefield, create two 1/1 colorless Eldrazi Scion creature tokens. They have "Sacrifice this creature: Add {C}." ({C} represents colorless mana.)
 {1}{C}: Regenerate Birthing Hulk.</CardText>
 <Artist>Jack Wang</Artist>
 <Multiverseid>407631</Multiverseid>
@@ -2382,7 +2380,7 @@ Search your library for a basic land card and reveal it. You may put that card o
 <Type>Creature — Eldrazi Drone 2/2</Type>
 <ManaCost>2G (3)</ManaCost>
 <CardText>Devoid (This card has no color.)
-When Scion Summoner enters the battlefield, create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this creature: Add {C} to your mana pool." ({C} represents colorless mana.)</CardText>
+When Scion Summoner enters the battlefield, create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this creature: Add {C}." ({C} represents colorless mana.)</CardText>
 <Artist>Johann Bodin</Artist>
 <Multiverseid>407633</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2418,7 +2416,7 @@ When Scion Summoner enters the battlefield, create a 1/1 colorless Eldrazi Scion
 <ManaCost>2G (3)</ManaCost>
 <CardText>Devoid (This card has no color.)
 Flash
-When you cast Vile Redeemer, you may pay {C}. If you do, create a 1/1 colorless Eldrazi Scion creature token for each nontoken creature that died under your control this turn. Those tokens have "Sacrifice this creature: Add {C} to your mana pool."</CardText>
+When you cast this spell, you may pay {C}. If you do, create a 1/1 colorless Eldrazi Scion creature token for each nontoken creature that died under your control this turn. Those tokens have "Sacrifice this creature: Add {C}."</CardText>
 <Artist>Jason Rainville</Artist>
 <Multiverseid>407635</Multiverseid>
 <Rulings>2016/01/22: <Vile Redeemer>'s last ability will count any nontoken creature that died while under your control, even if you weren't the creature's owner. It doesn't matter where the card is as the ability resolves. It doesn't have to still be in a graveyard.
@@ -2437,7 +2435,7 @@ When you cast Vile Redeemer, you may pay {C}. If you do, create a 1/1 colorless 
 <Type>Creature — Eldrazi 5/7</Type>
 <ManaCost>6G (7)</ManaCost>
 <CardText>Devoid (This card has no color.)
-When you cast World Breaker, exile target artifact, enchantment, or land.
+When you cast this spell, exile target artifact, enchantment, or land.
 Reach
 {2}{C}, Sacrifice a land: Return World Breaker from your graveyard to your hand. ({C} represents colorless mana.)</CardText>
 <Artist>Jaime Jones</Artist>
@@ -2687,7 +2685,7 @@ Choose up to one target creature an opponent controls. Each creature you control
 <Artist>Tyler Jacobson</Artist>
 <Multiverseid>407649</Multiverseid>
 <Rulings>2016/01/22: You finish the support action before any creatures deal damage. Creatures that get a +1/+1 counter will deal damage to the creature an opponent controls, if applicable.
-2016/01/22: As <Nissa's Judgment> resolves, if at least one of its targets is still legal, it will resolve, affecting only targets that are still legal at that time. If none of its targets are still legal at that time, it will be countered and none of its effects will happen.
+2016/01/22: As <Nissa's Judgment> resolves, if at least one of its targets is still legal, it will resolve, affecting only targets that are still legal at that time. If none of its targets are still legal at that time, it won't resolve and none of its effects will happen.
 2016/01/22: You can't put more than one +1/+1 counter on any one target using the support action.
 2016/01/22: Support can target a creature you don't control.
 2016/01/22: If a spell with support has other abilities that target creatures, those abilities and the support ability can target the same creature.</Rulings>
@@ -2838,7 +2836,7 @@ As long as you control six or more lands, Sylvan Advocate and land creatures you
 <Name>Zendikar Resurgent</Name>
 <Type>Enchantment</Type>
 <ManaCost>5GG (7)</ManaCost>
-<CardText>Whenever you tap a land for mana, add one mana to your mana pool of any type that land produced. (The types of mana are white, blue, black, red, green, and colorless.)
+<CardText>Whenever you tap a land for mana, add one mana of any type that land produced. (The types of mana are white, blue, black, red, green, and colorless.)
 Whenever you cast a creature spell, draw a card.</CardText>
 <Artist>Chris Rallis</Artist>
 <Multiverseid>407657</Multiverseid>
@@ -2877,7 +2875,7 @@ Whenever another colorless creature enters the battlefield under your control, t
 <ManaCost>1UB (3)</ManaCost>
 <CardText>Devoid (This card has no color.)
 Mindmelter can't be blocked.
-{3}{C}: Target opponent exiles a card from his or her hand. Activate this ability only any time you could cast a sorcery. ({C} represents colorless mana.)</CardText>
+{3}{C}: Target opponent exiles a card from their hand. Activate this ability only any time you could cast a sorcery. ({C} represents colorless mana.)</CardText>
 <Artist>Jason Felix</Artist>
 <Multiverseid>407659</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -3159,7 +3157,7 @@ Equip {3}</CardText>
 <Name>Hedron Crawler</Name>
 <Type>Artifact Creature — Construct 0/1</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{T}: Add {C} to your mana pool. ({C} represents colorless mana.)</CardText>
+<CardText>{T}: Add {C}. ({C} represents colorless mana.)</CardText>
 <Flavor>"It's endearing, in a mystical, pointy sort of way."
 —General Tazri, allied commander</Flavor>
 <Artist>Daniel Ljunggren</Artist>
@@ -3177,7 +3175,7 @@ Equip {3}</CardText>
 <Name>Seer's Lantern</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {C} to your mana pool. ({C} represents colorless mana.)
+<CardText>{T}: Add {C}. ({C} represents colorless mana.)
 {2}, {T}: Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)</CardText>
 <Flavor>A light to bring hope in dark times.</Flavor>
 <Artist>Jung Park</Artist>
@@ -3235,7 +3233,7 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <Name>Cinder Barrens</Name>
 <Type>Land</Type>
 <CardText>Cinder Barrens enters the battlefield tapped.
-{T}: Add {B} or {R} to your mana pool.</CardText>
+{T}: Add {B} or {R}.</CardText>
 <Flavor>A mudflow swallowed the lowlands years ago. All that remains are a bottomless mire and an endless rain of ash.</Flavor>
 <Artist>Cliff Childs</Artist>
 <Multiverseid>407678</Multiverseid>
@@ -3251,8 +3249,8 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <No>169</No>
 <Name>Corrupted Crossroads</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool. ({C} represents colorless mana.)
-{T}, Pay 1 life: Add one mana of any color to your mana pool. Spend this mana only to cast a spell with devoid.</CardText>
+<CardText>{T}: Add {C}. ({C} represents colorless mana.)
+{T}, Pay 1 life: Add one mana of any color. Spend this mana only to cast a spell with devoid.</CardText>
 <Flavor>"Look, and see the future."
 —Ayli, high priest of the Eternal Pilgrims</Flavor>
 <Artist>Ryan Pancoast</Artist>
@@ -3271,8 +3269,8 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <Name>Crumbling Vestige</Name>
 <Type>Land</Type>
 <CardText>Crumbling Vestige enters the battlefield tapped.
-When Crumbling Vestige enters the battlefield, add one mana of any color to your mana pool.
-{T}: Add {C} to your mana pool. ({C} represents colorless mana.)</CardText>
+When Crumbling Vestige enters the battlefield, add one mana of any color.
+{T}: Add {C}. ({C} represents colorless mana.)</CardText>
 <Artist>Zack Stella</Artist>
 <Multiverseid>407680</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -3288,7 +3286,7 @@ When Crumbling Vestige enters the battlefield, add one mana of any color to your
 <Name>Hissing Quagmire</Name>
 <Type>Land</Type>
 <CardText>Hissing Quagmire enters the battlefield tapped.
-{T}: Add {B} or {G} to your mana pool.
+{T}: Add {B} or {G}.
 {1}{B}{G}: Hissing Quagmire becomes a 2/2 black and green Elemental creature with deathtouch until end of turn. It's still a land.</CardText>
 <Artist>Cliff Childs</Artist>
 <Multiverseid>407681</Multiverseid>
@@ -3308,8 +3306,8 @@ When Crumbling Vestige enters the battlefield, add one mana of any color to your
 <No>172</No>
 <Name>Holdout Settlement</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool. ({C} represents colorless mana.)
-{T}, Tap an untapped creature you control: Add one mana of any color to your mana pool.</CardText>
+<CardText>{T}: Add {C}. ({C} represents colorless mana.)
+{T}, Tap an untapped creature you control: Add one mana of any color.</CardText>
 <Flavor>Even in areas of profound devastation, the hedrons remained intact.</Flavor>
 <Artist>Kieran Yanner</Artist>
 <Multiverseid>407682</Multiverseid>
@@ -3327,7 +3325,7 @@ When Crumbling Vestige enters the battlefield, add one mana of any color to your
 <Name>Meandering River</Name>
 <Type>Land</Type>
 <CardText>Meandering River enters the battlefield tapped.
-{T}: Add {W} or {U} to your mana pool.</CardText>
+{T}: Add {W} or {U}.</CardText>
 <Flavor>The river split into many channels as it flowed to the Halimar Sea. Few travelers could follow the same one twice.</Flavor>
 <Artist>Cliff Childs</Artist>
 <Multiverseid>407683</Multiverseid>
@@ -3344,7 +3342,7 @@ When Crumbling Vestige enters the battlefield, add one mana of any color to your
 <Name>Mirrorpool</Name>
 <Type>Land</Type>
 <CardText>Mirrorpool enters the battlefield tapped.
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {2}{C}, {T}, Sacrifice Mirrorpool: Copy target instant or sorcery spell you control. You may choose new targets for the copy.
 {4}{C}, {T}, Sacrifice Mirrorpool: Create a token that's a copy of target creature you control.</CardText>
 <Artist>Cliff Childs</Artist>
@@ -3373,7 +3371,7 @@ When Crumbling Vestige enters the battlefield, add one mana of any color to your
 <Name>Needle Spires</Name>
 <Type>Land</Type>
 <CardText>Needle Spires enters the battlefield tapped.
-{T}: Add {R} or {W} to your mana pool.
+{T}: Add {R} or {W}.
 {2}{R}{W}: Needle Spires becomes a 2/1 red and white Elemental creature with double strike until end of turn. It's still a land.</CardText>
 <Artist>Jonas De Ro</Artist>
 <Multiverseid>407685</Multiverseid>
@@ -3394,7 +3392,7 @@ When Crumbling Vestige enters the battlefield, add one mana of any color to your
 <Name>Ruins of Oran-Rief</Name>
 <Type>Land</Type>
 <CardText>Ruins of Oran-Rief enters the battlefield tapped.
-{T}: Add {C} to your mana pool. ({C} represents colorless mana.)
+{T}: Add {C}. ({C} represents colorless mana.)
 {T}: Put a +1/+1 counter on target colorless creature that entered the battlefield this turn.</CardText>
 <Artist>Jason Felix</Artist>
 <Multiverseid>407686</Multiverseid>
@@ -3411,7 +3409,7 @@ When Crumbling Vestige enters the battlefield, add one mana of any color to your
 <No>177</No>
 <Name>Sea Gate Wreckage</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool. ({C} represents colorless mana.)
+<CardText>{T}: Add {C}. ({C} represents colorless mana.)
 {2}{C}, {T}: Draw a card. Activate this ability only if you have no cards in hand.</CardText>
 <Flavor>Once a center for knowledge, Sea Gate now serves as a reminder of what was lost.</Flavor>
 <Artist>Zack Stella</Artist>
@@ -3430,7 +3428,7 @@ When Crumbling Vestige enters the battlefield, add one mana of any color to your
 <Name>Submerged Boneyard</Name>
 <Type>Land</Type>
 <CardText>Submerged Boneyard enters the battlefield tapped.
-{T}: Add {U} or {B} to your mana pool.</CardText>
+{T}: Add {U} or {B}.</CardText>
 <Flavor>"Long after the land has given up the last of its secrets, there will still be mysteries in the depths of the sea."
 —Kiora</Flavor>
 <Artist>Cliff Childs</Artist>
@@ -3448,7 +3446,7 @@ When Crumbling Vestige enters the battlefield, add one mana of any color to your
 <Name>Timber Gorge</Name>
 <Type>Land</Type>
 <CardText>Timber Gorge enters the battlefield tapped.
-{T}: Add {R} or {G} to your mana pool.</CardText>
+{T}: Add {R} or {G}.</CardText>
 <Flavor>Tazeem's embrace is harsh, but for those that call it home, nothing else will do.</Flavor>
 <Artist>Cliff Childs</Artist>
 <Multiverseid>407689</Multiverseid>
@@ -3465,7 +3463,7 @@ When Crumbling Vestige enters the battlefield, add one mana of any color to your
 <Name>Tranquil Expanse</Name>
 <Type>Land</Type>
 <CardText>Tranquil Expanse enters the battlefield tapped.
-{T}: Add {G} or {W} to your mana pool.</CardText>
+{T}: Add {G} or {W}.</CardText>
 <Flavor>Despite the chaos of the Roil and the devastation of the Eldrazi, Zendikar is a world of breathtaking beauty.</Flavor>
 <Artist>Cliff Childs</Artist>
 <Multiverseid>407690</Multiverseid>
@@ -3481,8 +3479,8 @@ When Crumbling Vestige enters the battlefield, add one mana of any color to your
 <No>181</No>
 <Name>Unknown Shores</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{1}, {T}: Add one mana of any color to your mana pool.</CardText>
+<CardText>{T}: Add {C}.
+{1}, {T}: Add one mana of any color.</CardText>
 <Flavor>Kozilek's presence warped the land, stripping away layer after layer.</Flavor>
 <Artist>Jung Park</Artist>
 <Multiverseid>407691</Multiverseid>
@@ -3499,7 +3497,7 @@ When Crumbling Vestige enters the battlefield, add one mana of any color to your
 <Name>Wandering Fumarole</Name>
 <Type>Land</Type>
 <CardText>Wandering Fumarole enters the battlefield tapped.
-{T}: Add {U} or {R} to your mana pool.
+{T}: Add {U} or {R}.
 {2}{U}{R}: Until end of turn, Wandering Fumarole becomes a 1/4 blue and red Elemental creature with "{0}: Switch this creature's power and toughness until end of turn." It's still a land.</CardText>
 <Artist>Florian de Gesincourt</Artist>
 <Multiverseid>407692</Multiverseid>
@@ -3521,7 +3519,7 @@ When Crumbling Vestige enters the battlefield, add one mana of any color to your
 <No>183a</No>
 <Name>Wastes</Name>
 <Type>Basic Land</Type>
-<CardText>{T}: Add {C} to your mana pool.</CardText>
+<CardText>{T}: Add {C}.</CardText>
 <Artist>Jason Felix</Artist>
 <Multiverseid>407694</Multiverseid>
 <Rulings>2016/01/22: The mana ability of <Wastes> doesn't appear on the printed cards, but it is in its official Oracle text. (A card's Oracle text (in English) can be found using the Gatherer card database at Gatherer.Wizards.com.) The printed cards display a large colorless mana symbol in a design that's similar to other basic land cards.
@@ -3541,7 +3539,7 @@ When Crumbling Vestige enters the battlefield, add one mana of any color to your
 <No>183b</No>
 <Name>Wastes</Name>
 <Type>Basic Land</Type>
-<CardText>{T}: Add {C} to your mana pool.</CardText>
+<CardText>{T}: Add {C}.</CardText>
 <Artist>Jason Felix</Artist>
 <Multiverseid>407693</Multiverseid>
 <Rulings>2016/01/22: The mana ability of <Wastes> doesn't appear on the printed cards, but it is in its official Oracle text. (A card's Oracle text (in English) can be found using the Gatherer card database at Gatherer.Wizards.com.) The printed cards display a large colorless mana symbol in a design that's similar to other basic land cards.
@@ -3561,7 +3559,7 @@ When Crumbling Vestige enters the battlefield, add one mana of any color to your
 <No>184a</No>
 <Name>Wastes</Name>
 <Type>Basic Land</Type>
-<CardText>{T}: Add {C} to your mana pool.</CardText>
+<CardText>{T}: Add {C}.</CardText>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>407696</Multiverseid>
 <Rulings>2016/01/22: The mana ability of <Wastes> doesn't appear on the printed cards, but it is in its official Oracle text. (A card's Oracle text (in English) can be found using the Gatherer card database at Gatherer.Wizards.com.) The printed cards display a large colorless mana symbol in a design that's similar to other basic land cards.
@@ -3581,7 +3579,7 @@ When Crumbling Vestige enters the battlefield, add one mana of any color to your
 <No>184b</No>
 <Name>Wastes</Name>
 <Type>Basic Land</Type>
-<CardText>{T}: Add {C} to your mana pool.</CardText>
+<CardText>{T}: Add {C}.</CardText>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>407695</Multiverseid>
 <Rulings>2016/01/22: The mana ability of <Wastes> doesn't appear on the printed cards, but it is in its official Oracle text. (A card's Oracle text (in English) can be found using the Gatherer card database at Gatherer.Wizards.com.) The printed cards display a large colorless mana symbol in a design that's similar to other basic land cards.

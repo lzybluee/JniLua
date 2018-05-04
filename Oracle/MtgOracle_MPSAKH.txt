@@ -32,7 +32,7 @@ Flying
 If an opponent would search a library, that player searches the top four cards of that library instead.</CardText>
 <Artist>Jose Cabrera</Artist>
 <Multiverseid>429861</Multiverseid>
-<Rulings>2017/04/18: Each search works exactly the same as normal except that the opponent doing the searching sees only the top four cards of that library. He or she can't look at the other cards in that library at all. Cards not in the top four cards of the library can't be found in the search, even if they're identifiable in some manner.
+<Rulings>2017/04/18: Each search works exactly the same as normal except that the opponent doing the searching sees only the top four cards of that library. They can't look at the other cards in that library at all. Cards not in the top four cards of the library can't be found in the search, even if they're identifiable in some manner.
 2017/04/18: For effects that check whether a player searched a library, searching the top four cards of that library counts as searching that library.
 2017/04/18: If an effect uses the word "search" once but allows an opponent to search for multiple cards, the top four cards remain the same throughout the entire search. Finding one card won't cause the fifth card to be included in the search.
 2017/04/18: After the search is complete, the entire library is shuffled.</Rulings>
@@ -200,7 +200,7 @@ Whenever an opponent draws a card, you may draw two cards.</CardText>
 <Artist>Richard Wright</Artist>
 <Multiverseid>429870</Multiverseid>
 <Rulings>2017/11/17: You choose both modes as you cast <Cryptic Command>. You must choose two different modes.
-2017/11/17: Look at both chosen modes to determine how many targets <Cryptic Command> has, if any. If it has at least one target, and all its targets are illegal when it tries to resolve, then it will be countered and none of its effects will happen. For example, if you choose the second and fourth modes, and the permanent is an illegal target when <Cryptic Command> tries to resolve, you won't draw a card.</Rulings>
+2017/11/17: Look at both chosen modes to determine how many targets <Cryptic Command> has, if any. If it has at least one target, and all its targets are illegal when it tries to resolve, then it won't resolve and none of its effects will happen. For example, if you choose the second and fourth modes, and the permanent is an illegal target when <Cryptic Command> tries to resolve, you won't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -214,7 +214,7 @@ Whenever an opponent draws a card, you may draw two cards.</CardText>
 <Name>Daze</Name>
 <Type>Instant</Type>
 <ManaCost>1U (2)</ManaCost>
-<CardText>You may return an Island you control to its owner's hand rather than pay Daze's mana cost.
+<CardText>You may return an Island you control to its owner's hand rather than pay this spell's mana cost.
 Counter target spell unless its controller pays {1}.</CardText>
 <Artist>Richard Wright</Artist>
 <Multiverseid>429871</Multiverseid>
@@ -246,7 +246,7 @@ Counter target spell unless its controller pays {1}.</CardText>
 <Name>Force of Will</Name>
 <Type>Instant</Type>
 <ManaCost>3UU (5)</ManaCost>
-<CardText>You may pay 1 life and exile a blue card from your hand rather than pay Force of Will's mana cost.
+<CardText>You may pay 1 life and exile a blue card from your hand rather than pay this spell's mana cost.
 Counter target spell.</CardText>
 <Artist>Jaime Jones</Artist>
 <Multiverseid>429873</Multiverseid>
@@ -373,7 +373,7 @@ Bontu the Glorified can't attack or block unless a creature died under your cont
 <Name>Dark Ritual</Name>
 <Type>Instant</Type>
 <ManaCost>B (1)</ManaCost>
-<CardText>Add {B}{B}{B} to your mana pool.</CardText>
+<CardText>Add {B}{B}{B}.</CardText>
 <Artist>Richard Wright</Artist>
 <Multiverseid>429880</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -388,7 +388,7 @@ Bontu the Glorified can't attack or block unless a creature died under your cont
 <Name>Diabolic Intent</Name>
 <Type>Sorcery</Type>
 <ManaCost>1B (2)</ManaCost>
-<CardText>As an additional cost to cast Diabolic Intent, sacrifice a creature.
+<CardText>As an additional cost to cast this spell, sacrifice a creature.
 Search your library for a card and put that card into your hand. Then shuffle your library.</CardText>
 <Artist>Joseph Meehan</Artist>
 <Multiverseid>429881</Multiverseid>
@@ -454,7 +454,7 @@ Search your library for a card and put that card into your hand. Then shuffle yo
 <Name>Chain Lightning</Name>
 <Type>Sorcery</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>Chain Lightning deals 3 damage to target creature or player. Then that player or that creature's controller may pay {R}{R}. If the player does, he or she may copy this spell and may choose a new target for that copy.</CardText>
+<CardText>Chain Lightning deals 3 damage to any target. Then that player or that permanent's controller may pay {R}{R}. If the player does, they may copy this spell and may choose a new target for that copy.</CardText>
 <Artist>Igor Kieryluk</Artist>
 <Multiverseid>429885</Multiverseid>
 <Rulings>2004/10/04: The copy is a spell, so it can be targeted by other spells and abilities that target a spell.
@@ -463,7 +463,7 @@ Search your library for a card and put that card into your hand. Then shuffle yo
 2016/06/08: As <Chain Lightning> resolves, the targeted player or the controller of the targeted creature may copy it. The copy has the same text, target, and color of the resolving spell, though the player who's copying it may choose a new target for it. Once that copy is created (or not), the first <Chain Lightning> has finished resolving and leaves the stack.
 2016/06/08: The player putting the copy of the spell on the stack controls that copy.
 2016/06/08: The copy of <Chain Lightning> is created on the stack, so it's not cast. Abilities that trigger when a player casts a spell won't trigger. Players may respond to that spell before it resolves.
-2016/06/08: If the targeted creature or player is an illegal target when <Chain Lightning> tries to resolve, the spell is countered. It can't be copied.</Rulings>
+2016/06/08: If the targeted permanent or player is an illegal target when <Chain Lightning> tries to resolve, the spell doesn't resolve. It can't be copied.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Amonkhet Invocations</Set>
@@ -519,7 +519,7 @@ Rhonas the Indomitable can't attack or block unless you control another creature
 <CardText>Destroy target nonland permanent and all other permanents with the same name as that permanent.</CardText>
 <Artist>Igor Kieryluk</Artist>
 <Multiverseid>429888</Multiverseid>
-<Rulings>2009/05/01: <Maelstrom Pulse> has only one target. If that permanent is an illegal target as <Maelstrom Pulse> tries to resolve, it will be countered and none of its effects will happen. Nothing will be destroyed.
+<Rulings>2009/05/01: <Maelstrom Pulse> has only one target. If that permanent is an illegal target as <Maelstrom Pulse> tries to resolve, it won't resolve and none of its effects will happen. Nothing will be destroyed.
 2009/05/01: The name of a creature token is the same as its creature types unless the token is a copy of another creature or the effect that created the token specifically gives it a different name. For example, a 1/1 Soldier creature token is named "Soldier."
 2009/05/01: A face-down creature has no name, so it doesn't have the same name as anything else.
 2013/07/01: If <Maelstrom Pulse> resolves but the targeted permanent isn't destroyed (perhaps because it regenerates or has indestructible), all other permanents with the same name as it will still be destroyed (unless they also have indestructible.</Rulings>
@@ -668,7 +668,7 @@ You control enchanted creature.</CardText>
 <Name>Avatar of Woe</Name>
 <Type>Creature — Avatar 6/5</Type>
 <ManaCost>6BB (8)</ManaCost>
-<CardText>If there are ten or more creature cards total in all graveyards, Avatar of Woe costs {6} less to cast.
+<CardText>If there are ten or more creature cards total in all graveyards, this spell costs {6} less to cast.
 Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)
 {T}: Destroy target creature. It can't be regenerated.</CardText>
 <Artist>Igor Kieryluk</Artist>
@@ -739,9 +739,8 @@ When Desolation Angel enters the battlefield, destroy all lands you control. If 
 <CardText>Search your library and graveyard for five cards and exile the rest. Put the chosen cards on top of your library in any order. You lose half your life, rounded up.</CardText>
 <Artist>Jaime Jones</Artist>
 <Multiverseid>430677</Multiverseid>
-<Rulings>2004/10/04: You lose the life during resolution.
-2008/04/01: If your graveyard and library combined contain five or more cards, you must choose five cards from among them. You can't choose to find fewer than that.
-2008/04/01: If your graveyard and library combined contain fewer than five cards, all of those cards will wind up in your library.</Rulings>
+<Rulings>2018/03/16: If your graveyard and library combined contain five or more cards, you must choose five cards from among them. You can't choose to find fewer than that.
+2018/03/16: If your graveyard and library combined contain fewer than five cards, all of those cards will wind up in your library.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Amonkhet Invocations</Set>
@@ -789,10 +788,10 @@ At the beginning of your next upkeep, pay {2}{B}. If you don't, you lose the gam
 <Name>Thoughtseize</Name>
 <Type>Sorcery</Type>
 <ManaCost>B (1)</ManaCost>
-<CardText>Target player reveals his or her hand. You choose a nonland card from it. That player discards that card. You lose 2 life.</CardText>
+<CardText>Target player reveals their hand. You choose a nonland card from it. That player discards that card. You lose 2 life.</CardText>
 <Artist>James Ryman</Artist>
 <Multiverseid>430680</Multiverseid>
-<Rulings>2013/09/15: The loss of life is part of the spell's effect. It's not an additional cost. If <Thoughtseize> is countered, you won't lose life.
+<Rulings>2013/09/15: The loss of life is part of the spell's effect. It's not an additional cost. If <Thoughtseize> doesn't resolve, you won't lose life.
 2014/02/01: If you target yourself with this spell, you must reveal your entire hand to the other players just as any other player would.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -810,10 +809,10 @@ At the beginning of your next upkeep, pay {2}{B}. If you don't, you lose the gam
 <CardText>Nonbasic lands are Mountains.</CardText>
 <Artist>Christine Choi</Artist>
 <Multiverseid>430681</Multiverseid>
-<Rulings>2017/03/14: Nonbasic lands will lose any other land types and abilities they had. They will gain the land type Mountain and gain the ability "{T}: Add {R} to your mana pool."
-2017/03/14: <Blood Moon>'s effect doesn't affect names or supertypes. It won't turn any land into a basic land or remove the legendary supertype from a legendary land, and the lands won't be named "Mountain."
-2017/03/14: If a nonbasic land has an ability that triggers "when" it enters the battlefield, it will lose that ability before it triggers.
-2017/09/29: If a nonbasic land has an ability that causes it to enter the battlefield tapped, it will lose that ability before it applies. The same is also true of any other abilities that modify how a land enters the battlefield or apply "as" a land enters the battlefield, such as the first ability of Cavern of Souls. This is a change from previous rulings.</Rulings>
+<Rulings>2017/09/29: If a nonbasic land has an ability that causes it to enter the battlefield tapped, it will lose that ability before it applies. The same is also true of any other abilities that modify how a land enters the battlefield or apply "as" a land enters the battlefield, such as the first ability of Cavern of Souls. This is a change from previous rulings.
+2018/03/16: Nonbasic lands will lose any other land types and abilities they had. They will gain the land type Mountain and gain the ability "{T}: Add {R}."
+2018/03/16: This effect doesn't affect names or supertypes. It won't turn any land into a basic land or remove the legendary supertype from a legendary land, and the lands won't be named "Mountain."
+2018/03/16: If a nonbasic land has an ability that triggers "when" it enters the battlefield, it will lose that ability before it triggers.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -867,7 +866,7 @@ Splice onto Arcane {2}{R}{R} (As you cast an Arcane spell, you may reveal this c
 2013/06/07: You reveal all cards you intend to splice at the same time. Each individual card can be spliced only once onto any one spell.
 2013/06/07: A card with a splice ability can't be spliced onto itself because the spell is on the stack (and not in your hand) when you reveal the cards you want to splice onto it.
 2013/06/07: You choose all targets for the spell after revealing cards you want to splice, including any targets required by the text of any of those cards. You may choose a different target for each instance of the word "target" on the resulting spell.
-2013/06/07: If all of the spell's targets are illegal when the spell tries to resolve, it will be countered and none of its effects will happen.</Rulings>
+2013/06/07: If all of the spell's targets are illegal when the spell tries to resolve, it won't resolve and none of its effects will happen.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

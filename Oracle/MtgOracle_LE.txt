@@ -8,6 +8,7 @@
 <Flavor>"No rest. No mercy. No matter what."</Flavor>
 <Artist>Ron Spears</Artist>
 <Multiverseid>42049</Multiverseid>
+<Rulings>2018/03/16: The "legend rule" cares about legendary permanents with the exact same English name. You can control <Akroma, Angel of Wrath> and Akroma, Angel of Fury at the same time.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -38,7 +39,7 @@
 <Type>Creature — Bird Cleric 2/2</Type>
 <ManaCost>3W (4)</ManaCost>
 <CardText>Flying
-{T}: Prevent the next 2 damage that would be dealt to target creature or player this turn.</CardText>
+{T}: Prevent the next 2 damage that would be dealt to any target this turn.</CardText>
 <Flavor>Redeemers rise with the sun, and the spirits of the people rise with them.</Flavor>
 <Artist>Tim Hildebrandt</Artist>
 <Multiverseid>43497</Multiverseid>
@@ -228,7 +229,7 @@ When you cycle Gempalm Avenger, Soldier creatures get +1/+1 and gain first strik
 <Multiverseid>43791</Multiverseid>
 <Rulings>2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
 2008/10/01: When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
-2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability is countered (with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.</Rulings>
+2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (due to being countered with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Legions</Set>
@@ -471,7 +472,7 @@ Protection from black (This creature can't be blocked, targeted, dealt damage, o
 <Type>Creature — Spirit 2/3</Type>
 <ManaCost>3W (4)</ManaCost>
 <CardText>Flying
-Creatures can't attack you unless their controller pays {2} for each creature he or she controls that's attacking you.</CardText>
+Creatures can't attack you unless their controller pays {2} for each creature they control that's attacking you.</CardText>
 <Flavor>"Her voice is justice, clear and relentless."
 —Akroma, angelic avenger</Flavor>
 <Artist>Adam Rex</Artist>
@@ -615,7 +616,7 @@ When Dermoplasm is turned face up, you may put a creature card with a morph abil
 <Name>Dreamborn Muse</Name>
 <Type>Creature — Spirit 2/2</Type>
 <ManaCost>2UU (4)</ManaCost>
-<CardText>At the beginning of each player's upkeep, that player puts the top X cards of his or her library into his or her graveyard, where X is the number of cards in his or her hand.</CardText>
+<CardText>At the beginning of each player's upkeep, that player puts the top X cards of their library into their graveyard, where X is the number of cards in their hand.</CardText>
 <Flavor>"Her voice is insight, piercing and true."
 —Ixidor, reality sculptor</Flavor>
 <Artist>Kev Walker</Artist>
@@ -672,7 +673,7 @@ When you cycle Gempalm Sorcerer, Wizard creatures gain flying until end of turn.
 <Multiverseid>42064</Multiverseid>
 <Rulings>2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
 2008/10/01: When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
-2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability is countered (with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.</Rulings>
+2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (due to being countered with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Legions</Set>
@@ -1007,7 +1008,10 @@ When Willbender is turned face up, change the target of target spell or ability 
 <Artist>Eric Peterson</Artist>
 <Multiverseid>42054</Multiverseid>
 <Rulings>2004/10/04: The trigger occurs when you use the Morph ability to turn the card face up, or when an effect turns it face up. It will not trigger on being revealed or on leaving the battlefield.
-2013/04/15: If a spell with split second is on the stack, you can still respond by turning this creature face up and targeting that spell with the trigger. This is because split second only stops players from casting spells or activating abilities, while turning a creature face up is a special action.</Rulings>
+2013/04/15: If a spell with split second is on the stack, you can still respond by turning this creature face up and targeting that spell with the trigger. This is because split second only stops players from casting spells or activating abilities, while turning a creature face up is a special action.
+2018/03/16: You don't choose the new target for the spell until <Willbender>'s triggered ability resolves. You must change the target if possible. However, you can't change the target to an illegal target. If there are no legal targets to choose from, the target isn't changed. It doesn't matter if the original target of that spell has somehow become illegal itself.
+2018/03/16: If a spell or ability targets multiple things, you can't target it with <Willbender>'s triggered ability, even if all but one of those targets have become illegal.
+2018/03/16: If a spell or ability targets the same player or object multiple times, you can't target it with <Willbender>'s ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1056,7 +1060,7 @@ When Bane of the Living is turned face up, all creatures get -X/-X until end of 
 <Name>Blood Celebrant</Name>
 <Type>Creature — Human Cleric 1/1</Type>
 <ManaCost>B (1)</ManaCost>
-<CardText>{B}, Pay 1 life: Add one mana of any color to your mana pool.</CardText>
+<CardText>{B}, Pay 1 life: Add one mana of any color.</CardText>
 <Flavor>"Their blood is the nectar that nourishes the Cabal."
 —Phage the Untouchable</Flavor>
 <Artist>Ben Thompson</Artist>
@@ -1215,7 +1219,7 @@ When you cycle Gempalm Polluter, you may have target player lose life equal to t
 <Multiverseid>42065</Multiverseid>
 <Rulings>2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
 2008/10/01: When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
-2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability is countered (with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.
+2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (due to being countered with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.
 2008/10/01: You can cycle this card even if there are no targets for the triggered ability. That's because the cycling ability itself has no targets.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1299,7 +1303,7 @@ When Havoc Demon dies, all creatures get -5/-5 until end of turn.</CardText>
 <Type>Creature — Specter 2/2</Type>
 <ManaCost>1BB (3)</ManaCost>
 <CardText>Flying
-Whenever Hollow Specter deals combat damage to a player, you may pay {X}. If you do, that player reveals X cards from his or her hand and you choose one of them. That player discards that card.</CardText>
+Whenever Hollow Specter deals combat damage to a player, you may pay {X}. If you do, that player reveals X cards from their hand and you choose one of them. That player discards that card.</CardText>
 <Artist>rk post</Artist>
 <Multiverseid>8829</Multiverseid>
 <Rulings>2004/10/04: You decide on the value of X and pay {X} during resolution.
@@ -1595,7 +1599,7 @@ Provoke (Whenever this creature attacks, you may have target creature defending 
 <Name>Flamewave Invoker</Name>
 <Type>Creature — Goblin Mutant 2/2</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>{7}{R}: Flamewave Invoker deals 5 damage to target player.</CardText>
+<CardText>{7}{R}: Flamewave Invoker deals 5 damage to target player or planeswalker.</CardText>
 <Flavor>The Mirari burns in his heart.</Flavor>
 <Artist>Dave Dorman</Artist>
 <Multiverseid>43523</Multiverseid>
@@ -1636,7 +1640,7 @@ When you cycle Gempalm Incinerator, you may have it deal X damage to target crea
 <Rulings>2004/10/04: The target of the ability can't be a creature with Protection from Creatures, with Protection from Goblins, or with Protection from Red.
 2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
 2008/10/01: When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
-2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability is countered (with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.
+2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (due to being countered with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.
 2008/10/01: You can cycle this card even if there are no targets for the triggered ability. That's because the cycling ability itself has no targets.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1667,7 +1671,7 @@ When you cycle Gempalm Incinerator, you may have it deal X damage to target crea
 <Name>Goblin Clearcutter</Name>
 <Type>Creature — Goblin 3/3</Type>
 <ManaCost>3R (4)</ManaCost>
-<CardText>{T}, Sacrifice a Forest: Add three mana in any combination of {R} and/or {G} to your mana pool.</CardText>
+<CardText>{T}, Sacrifice a Forest: Add three mana in any combination of {R} and/or {G}.</CardText>
 <Flavor>"Did you know that wood burns even better than rocks?"
 —Toggo, goblin weaponsmith</Flavor>
 <Artist>Eric Peterson</Artist>
@@ -1685,8 +1689,8 @@ When you cycle Gempalm Incinerator, you may have it deal X damage to target crea
 <Name>Goblin Dynamo</Name>
 <Type>Creature — Goblin Mutant 4/4</Type>
 <ManaCost>5RR (7)</ManaCost>
-<CardText>{T}: Goblin Dynamo deals 1 damage to target creature or player.
-{X}{R}, {T}, Sacrifice Goblin Dynamo: Goblin Dynamo deals X damage to target creature or player.</CardText>
+<CardText>{T}: Goblin Dynamo deals 1 damage to any target.
+{X}{R}, {T}, Sacrifice Goblin Dynamo: It deals X damage to any target.</CardText>
 <Artist>Ron Spencer</Artist>
 <Multiverseid>42274</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1805,7 +1809,7 @@ When Imperial Hellkite is turned face up, you may search your library for a Drag
 <ManaCost>5RR (7)</ManaCost>
 <CardText>Amplify 3 (As this creature enters the battlefield, put three +1/+1 counters on it for each Dragon card you reveal in your hand.)
 Flying
-{T}: Kilnmouth Dragon deals damage equal to the number of +1/+1 counters on it to target creature or player.</CardText>
+{T}: Kilnmouth Dragon deals damage equal to the number of +1/+1 counters on it to any target.</CardText>
 <Artist>Carl Critchlow</Artist>
 <Multiverseid>39653</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1820,7 +1824,7 @@ Flying
 <Name>Lavaborn Muse</Name>
 <Type>Creature — Spirit 3/3</Type>
 <ManaCost>3R (4)</ManaCost>
-<CardText>At the beginning of each opponent's upkeep, if that player has two or fewer cards in hand, Lavaborn Muse deals 3 damage to him or her.</CardText>
+<CardText>At the beginning of each opponent's upkeep, if that player has two or fewer cards in hand, Lavaborn Muse deals 3 damage to that player.</CardText>
 <Flavor>"Her voice is disaster, painful and final."
 —Matoc, lavamancer</Flavor>
 <Artist>Brian Snõddy</Artist>
@@ -1960,7 +1964,7 @@ When Shaleskin Plower is turned face up, destroy target land.</CardText>
 <Type>Creature — Goblin 2/1</Type>
 <ManaCost>1R (2)</ManaCost>
 <CardText>Morph {2}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
-When Skirk Marauder is turned face up, it deals 2 damage to target creature or player.</CardText>
+When Skirk Marauder is turned face up, it deals 2 damage to any target.</CardText>
 <Artist>Pete Venters</Artist>
 <Multiverseid>42056</Multiverseid>
 <Rulings>2004/10/04: The trigger occurs when you use the Morph ability to turn the card face up, or when an effect turns it face up. It will not trigger on being revealed or on leaving the battlefield.</Rulings>
@@ -2200,7 +2204,7 @@ When you cycle Gempalm Strider, Elf creatures get +2/+2 until end of turn.</Card
 <Multiverseid>42067</Multiverseid>
 <Rulings>2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
 2008/10/01: When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
-2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability is countered (with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.
+2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (due to being countered with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.
 2008/10/01: You can cycle this card even if there are no targets for the triggered ability. That's because the cycling ability itself has no targets.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2367,14 +2371,13 @@ Any player may cast Sliver spells as though they had flash.</CardText>
 <Name>Root Sliver</Name>
 <Type>Creature — Sliver 2/2</Type>
 <ManaCost>3G (4)</ManaCost>
-<CardText>Root Sliver can't be countered.
-Sliver spells can't be countered by spells or abilities.</CardText>
+<CardText>This spell can't be countered.
+Sliver spells can't be countered.</CardText>
 <Flavor>"It would take another apocalypse to stop the slivers now."
 —Riptide Project researcher</Flavor>
 <Artist>Matt Thompson</Artist>
 <Multiverseid>44271</Multiverseid>
 <Rulings>2004/10/04: The first ability applies when this card is not on the battlefield. The second ability applies when this card is on the battlefield.
-2008/04/01: The addition of "by spells or abilities" to the second ability is so that tribal instant or sorcery spells that happen to be Slivers (such as Crib Swap) can be countered by the rules if all of their targets become illegal.
 2013/07/01: Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn't provide any additional benefit.
 2013/07/01: If the creature type of a Sliver changes so it's no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures.</Rulings>
 <Vintage>Legal</Vintage>
@@ -2475,7 +2478,7 @@ When Tribal Forcemage is turned face up, creatures of the creature type of your 
 <Name>Vexing Beetle</Name>
 <Type>Creature — Insect 3/3</Type>
 <ManaCost>4G (5)</ManaCost>
-<CardText>Vexing Beetle can't be countered.
+<CardText>This spell can't be countered.
 Vexing Beetle gets +3/+3 as long as no opponent controls a creature.</CardText>
 <Flavor>As the Mirari's mutating effects grew out of control, centaurs and druids fled—but insects swarmed closer.</Flavor>
 <Artist>Matt Thompson</Artist>
@@ -2492,7 +2495,7 @@ Vexing Beetle gets +3/+3 as long as no opponent controls a creature.</CardText>
 <Name>Wirewood Channeler</Name>
 <Type>Creature — Elf Druid 2/2</Type>
 <ManaCost>3G (4)</ManaCost>
-<CardText>{T}: Add X mana of any one color to your mana pool, where X is the number of Elves on the battlefield.</CardText>
+<CardText>{T}: Add X mana of any one color, where X is the number of Elves on the battlefield.</CardText>
 <Flavor>"Your words are meaningless. The rustling of leaves is the only language that makes any sense."</Flavor>
 <Artist>Alan Pollack</Artist>
 <Multiverseid>35299</Multiverseid>

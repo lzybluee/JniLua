@@ -143,11 +143,11 @@ Flying, vigilance</CardText>
 —Gideon Jura</Flavor>
 <Artist>Mike Bierek</Artist>
 <Multiverseid>401649</Multiverseid>
-<Rulings>2010/06/15: If the targeted creature's owner has one or more cards in his or her library, that creature is put into that library directly under the top card.
-2010/06/15: If the targeted creature's owner has no cards left in his or her library, that creature is put into that library as the only card there.
+<Rulings>2010/06/15: If the targeted creature's owner has one or more cards in their library, that creature is put into that library directly under the top card.
+2010/06/15: If the targeted creature's owner has no cards left in their library, that creature is put into that library as the only card there.
 2010/06/15: If the targeted creature is a token, it will cease to exist after it's put into its owner's library.
 2010/06/15: Note that the creature's controller, not its owner, is the one who gains life.
-2010/06/15: If the targeted creature is an illegal target by the time <Oust> resolves, the spell is countered. No one gains life.</Rulings>
+2010/06/15: If the targeted creature is an illegal target by the time <Oust> resolves, the spell doesn't resolve. No one gains life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -168,8 +168,8 @@ Draw a card.</CardText>
 <Multiverseid>401650</Multiverseid>
 <Rulings>2010/06/15: You may target zero, one, or two creatures. The creatures don't need to be untapped.
 2010/06/15: If you target zero creatures, <Repel the Darkness> can't be countered for having no legal targets. When it resolves, all that happens is that you draw a card.
-2010/06/15: If you target one creature and that target is illegal as <Repel the Darkness> resolves, the spell is countered. You don't draw a card.
-2010/06/15: If you target two creatures and they're both illegal as <Repel the Darkness> resolves, the spell is countered; you don't draw a card. If just one is illegal, the spell does resolve; the remaining legal target becomes tapped (if it's untapped at that time) and you draw a card.</Rulings>
+2010/06/15: If you target one creature and that target is illegal as <Repel the Darkness> resolves, the spell doesn't resolve. You don't draw a card.
+2010/06/15: If you target two creatures and they're both illegal as <Repel the Darkness> resolves, the spell doesn't resolve; you don't draw a card. If just one is illegal, the spell does resolve; the remaining legal target becomes tapped (if it's untapped at that time) and you draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -190,7 +190,7 @@ Awaken 3—{5}{W} (If you cast this spell for {5}{W}, also put three +1/+1 count
 <Rulings>2015/08/25: You can cast a spell with awaken for its mana cost and get only its first effect. If you cast a spell for its awaken cost, you'll get both effects.
 2015/08/25: If the non-awaken part of the spell requires a target, you must choose a legal target. You can't cast the spell if you can't choose a legal target for each instance of the word "target" (though you only need a legal target for the awaken ability if you're casting the spell for its awaken cost).
 2015/08/25: If a spell with awaken has multiple targets (including the land you control), and some but not all of those targets become illegal by the time the spell tries to resolve, the spell won't affect the illegal targets in any way.
-2015/08/25: If the non-awaken part of the spell doesn't require a target and you cast the spell for its awaken cost, then the spell will be countered if the target land you control becomes illegal before the spell resolves (such as due to being destroyed in response to the spell being cast).
+2015/08/25: If the non-awaken part of the spell doesn't require a target and you cast the spell for its awaken cost, then the spell won't resolve if the target land you control becomes illegal before the spell resolves (such as due to being destroyed in response to the spell being cast).
 2015/08/25: The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that's turned into a creature this way can still be tapped for {G}.
 2015/08/25: Awaken doesn't give the land you control a color. As most lands are colorless, in most cases the resulting land creature will also be colorless.</Rulings>
 <Vintage>Legal</Vintage>
@@ -328,7 +328,7 @@ Landfall — If you had a land enter the battlefield under your control this tur
 <Name>Harrow</Name>
 <Type>Instant</Type>
 <ManaCost>2G (3)</ManaCost>
-<CardText>As an additional cost to cast Harrow, sacrifice a land.
+<CardText>As an additional cost to cast this spell, sacrifice a land.
 Search your library for up to two basic land cards and put them onto the battlefield. Then shuffle your library.</CardText>
 <Flavor>The Roil redraws the world as it passes, leaving only the hedrons unchanged.</Flavor>
 <Artist>Izzy</Artist>
@@ -406,11 +406,11 @@ Remove three quest counters from Khalni Heart Expedition and sacrifice it: Searc
 <CardText>Choose two —
 • Target player gains 7 life.
 • Put target noncreature permanent on top of its owner's library.
-• Target player shuffles his or her graveyard into his or her library.
+• Target player shuffles their graveyard into their library.
 • Search your library for a creature card, reveal it, put it into your hand, then shuffle your library.</CardText>
 <Artist>Magali Villeneuve</Artist>
 <Multiverseid>401662</Multiverseid>
-<Rulings>2017/03/14: <Primal Command>'s modes are performed in the order listed. If you put a noncreature permanent on top of its owner's library and have that player shuffle his or her graveyard into his or her library, that card is shuffled away.
+<Rulings>2017/03/14: <Primal Command>'s modes are performed in the order listed. If you put a noncreature permanent on top of its owner's library and have that player shuffle their graveyard into their library, that card is shuffled away.
 2017/03/14: <Primal Command> won't be put into your graveyard until after it's finished resolving, which means it won't be shuffled into your library as part of its own effect if you target yourself with its third mode.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -639,7 +639,7 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <Type>Land</Type>
 <CardText>Graypelt Refuge enters the battlefield tapped.
 When Graypelt Refuge enters the battlefield, you gain 1 life.
-{T}: Add {G} or {W} to your mana pool.</CardText>
+{T}: Add {G} or {W}.</CardText>
 <Artist>Philip Straub</Artist>
 <Multiverseid>401674</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -655,7 +655,7 @@ When Graypelt Refuge enters the battlefield, you gain 1 life.
 <Name>Stirring Wildwood</Name>
 <Type>Land</Type>
 <CardText>Stirring Wildwood enters the battlefield tapped.
-{T}: Add {G} or {W} to your mana pool.
+{T}: Add {G} or {W}.
 {1}{G}{W}: Until end of turn, Stirring Wildwood becomes a 3/4 green and white Elemental creature with reach. It's still a land.</CardText>
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>401675</Multiverseid>
@@ -675,7 +675,7 @@ When Graypelt Refuge enters the battlefield, you gain 1 life.
 <Type>Land</Type>
 <CardText>Turntimber Grove enters the battlefield tapped.
 When Turntimber Grove enters the battlefield, target creature gets +1/+1 until end of turn.
-{T}: Add {G} to your mana pool.</CardText>
+{T}: Add {G}.</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>401676</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -690,7 +690,7 @@ When Turntimber Grove enters the battlefield, target creature gets +1/+1 until e
 <No>35</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>401677</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -705,7 +705,7 @@ When Turntimber Grove enters the battlefield, target creature gets +1/+1 until e
 <No>36</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>401678</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -720,7 +720,7 @@ When Turntimber Grove enters the battlefield, target creature gets +1/+1 until e
 <No>37</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Vincent Proce</Artist>
 <Multiverseid>401679</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -735,7 +735,7 @@ When Turntimber Grove enters the battlefield, target creature gets +1/+1 until e
 <No>38</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>401680</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -750,7 +750,7 @@ When Turntimber Grove enters the battlefield, target creature gets +1/+1 until e
 <No>39</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Véronique Meignaud</Artist>
 <Multiverseid>401681</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -765,7 +765,7 @@ When Turntimber Grove enters the battlefield, target creature gets +1/+1 until e
 <No>40</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Vincent Proce</Artist>
 <Multiverseid>401682</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -781,7 +781,7 @@ When Turntimber Grove enters the battlefield, target creature gets +1/+1 until e
 <Name>Oblivion Sower</Name>
 <Type>Creature — Eldrazi 5/8</Type>
 <ManaCost>6 (6)</ManaCost>
-<CardText>When you cast Oblivion Sower, target opponent exiles the top four cards of his or her library, then you may put any number of land cards that player owns from exile onto the battlefield under your control.</CardText>
+<CardText>When you cast this spell, target opponent exiles the top four cards of their library, then you may put any number of land cards that player owns from exile onto the battlefield under your control.</CardText>
 <Flavor>The Eldrazi hunger without limit and consume without pause.</Flavor>
 <Artist>Aleksi Briclot</Artist>
 <Multiverseid>401683</Multiverseid>
@@ -800,13 +800,12 @@ When Turntimber Grove enters the battlefield, target creature gets +1/+1 until e
 <Name>Artisan of Kozilek</Name>
 <Type>Creature — Eldrazi 10/9</Type>
 <ManaCost>9 (9)</ManaCost>
-<CardText>When you cast Artisan of Kozilek, you may return target creature card from your graveyard to the battlefield.
+<CardText>When you cast this spell, you may return target creature card from your graveyard to the battlefield.
 Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)</CardText>
 <Artist>Jason Felix</Artist>
 <Multiverseid>401684</Multiverseid>
-<Rulings>2010/06/15: Annihilator abilities trigger and resolve during the declare attackers step. The defending player chooses and sacrifices the required number of permanents before he or she declares blockers. Any creatures sacrificed this way won't be able to block.
-2010/06/15: If a creature with annihilator is attacking a planeswalker, and the defending player chooses to sacrifice that planeswalker, the attacking creature continues to attack. It may be blocked. If it isn't blocked, it simply won't deal combat damage to anything.
-2010/06/15: In a Two-Headed Giant game, the controller of an attacking creature with annihilator chooses which of the defending players is affected by the ability. Only that player sacrifices permanents. The choice is made as the ability resolves; once a player is chosen, it's too late for anyone to respond.</Rulings>
+<Rulings>2010/06/15: Annihilator abilities trigger and resolve during the declare attackers step. The defending player chooses and sacrifices the required number of permanents before they declare blockers. Any creatures sacrificed this way won't be able to block.
+2010/06/15: If a creature with annihilator is attacking a planeswalker, and the defending player chooses to sacrifice that planeswalker, the attacking creature continues to attack. It may be blocked. If it isn't blocked, it simply won't deal combat damage to anything.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -825,9 +824,8 @@ Whenever an opponent sacrifices a nontoken permanent, put that card onto the bat
 <Flavor>Your pleas for death shall go unheard.</Flavor>
 <Artist>Tomasz Jedruszek</Artist>
 <Multiverseid>401685</Multiverseid>
-<Rulings>2010/06/15: Annihilator abilities trigger and resolve during the declare attackers step. The defending player chooses and sacrifices the required number of permanents before he or she declares blockers. Any creatures sacrificed this way won't be able to block.
+<Rulings>2010/06/15: Annihilator abilities trigger and resolve during the declare attackers step. The defending player chooses and sacrifices the required number of permanents before they declare blockers. Any creatures sacrificed this way won't be able to block.
 2010/06/15: If a creature with annihilator is attacking a planeswalker, and the defending player chooses to sacrifice that planeswalker, the attacking creature continues to attack. It may be blocked. If it isn't blocked, it simply won't deal combat damage to anything.
-2010/06/15: In a Two-Headed Giant game, the controller of an attacking creature with annihilator chooses which of the defending players is affected by the ability. Only that player sacrifices permanents. The choice is made as the ability resolves; once a player is chosen, it's too late for anyone to respond.
 2010/06/15: The second ability triggers whenever an opponent sacrifices a nontoken permanent for any reason, not just due to the annihilator ability.
 2010/06/15: It doesn't matter whose graveyard the permanent is put into, only that it was last controlled by, and sacrificed by, an opponent.
 2010/06/15: If an opponent sacrifices a nontoken permanent as part of paying the cost of a spell or ability, the second ability triggers and goes on the stack on top of it. This ability will resolve, causing you to return the card to the battlefield before the other spell or ability resolves.
@@ -853,9 +851,8 @@ Ulamog's Crusher attacks each combat if able.</CardText>
 —Nirthu, lone missionary</Flavor>
 <Artist>Todd Lockwood</Artist>
 <Multiverseid>401686</Multiverseid>
-<Rulings>2010/06/15: Annihilator abilities trigger and resolve during the declare attackers step. The defending player chooses and sacrifices the required number of permanents before he or she declares blockers. Any creatures sacrificed this way won't be able to block.
+<Rulings>2010/06/15: Annihilator abilities trigger and resolve during the declare attackers step. The defending player chooses and sacrifices the required number of permanents before they declare blockers. Any creatures sacrificed this way won't be able to block.
 2010/06/15: If a creature with annihilator is attacking a planeswalker, and the defending player chooses to sacrifice that planeswalker, the attacking creature continues to attack. It may be blocked. If it isn't blocked, it simply won't deal combat damage to anything.
-2010/06/15: In a Two-Headed Giant game, the controller of an attacking creature with annihilator chooses which of the defending players is affected by the ability. Only that player sacrifices permanents. The choice is made as the ability resolves; once a player is chosen, it's too late for anyone to respond.
 2010/06/15: If, during your declare attackers step, <Ulamog's Crusher> is tapped, is affected by a spell or ability that says it can't attack, or is affected by "summoning sickness," then it doesn't attack. If there's a cost associated with having <Ulamog's Crusher> attack, you aren't forced to pay that cost, so it doesn't have to attack in that case either.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -912,7 +909,7 @@ Whenever Butcher of Malakir or another creature you control dies, each opponent 
 <Flavor>His verdict is always guilty. His sentence is always death.</Flavor>
 <Artist>Jason Chan</Artist>
 <Multiverseid>401689</Multiverseid>
-<Rulings>2010/03/01: When the triggered ability resolves, first the player whose turn it is (if that player is an opponent) chooses which creature he or she will sacrifice, then each other opponent in turn order does the same, then all chosen creatures are sacrificed at the same time.
+<Rulings>2010/03/01: When the triggered ability resolves, first the player whose turn it is (if that player is an opponent) chooses which creature they will sacrifice, then each other opponent in turn order does the same, then all chosen creatures are sacrificed at the same time.
 2010/03/01: If multiple creatures you control (possibly including <Butcher of Malakir> itself) are put into their owners' graveyards at the same time, <Butcher of Malakir>'s triggered ability will trigger that many times.
 2010/03/01: If you control more than one <Butcher of Malakir> and a creature you control is put into a graveyard, each of those Butchers' abilities will trigger. Each opponent will sacrifice a creature each time one of those abilities resolves.
 2010/03/01: If you and an opponent each control a <Butcher of Malakir> and a creature is put into a graveyard, a chain reaction happens. First the ability of one player's Butcher will trigger, causing each opponent to sacrifice a creature. That sacrifice causes the ability of the other player's Butcher to trigger, and so on.</Rulings>
@@ -965,7 +962,7 @@ When Cadaver Imp enters the battlefield, you may return target creature card fro
 <Name>Corpsehatch</Name>
 <Type>Sorcery</Type>
 <ManaCost>3BB (5)</ManaCost>
-<CardText>Destroy target nonblack creature. Create two 0/1 colorless Eldrazi Spawn creature tokens. They have "Sacrifice this creature: Add {C} to your mana pool."</CardText>
+<CardText>Destroy target nonblack creature. Create two 0/1 colorless Eldrazi Spawn creature tokens. They have "Sacrifice this creature: Add {C}."</CardText>
 <Artist>Kekai Kotaki</Artist>
 <Multiverseid>401692</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -982,7 +979,7 @@ When Cadaver Imp enters the battlefield, you may return target creature card fro
 <Type>Creature — Eldrazi Drone 3/2</Type>
 <ManaCost>2B (3)</ManaCost>
 <CardText>Devoid (This card has no color.)
-Ingest (Whenever this creature deals combat damage to a player, that player exiles the top card of his or her library.)
+Ingest (Whenever this creature deals combat damage to a player, that player exiles the top card of their library.)
 When Dominator Drone enters the battlefield, if you control another colorless creature, each opponent loses 2 life.</CardText>
 <Artist>James Zapata</Artist>
 <Multiverseid>401693</Multiverseid>
@@ -993,7 +990,7 @@ When Dominator Drone enters the battlefield, if you control another colorless cr
 2015/08/25: Devoid works in all zones, not just on the battlefield.
 2015/08/25: If a card loses devoid, it will still be colorless. This is because effects that change an object's color (like the one created by devoid) are considered before the object loses devoid.
 2015/08/25: The card exiled by the ingest ability is exiled face up.
-2015/08/25: If the player has no cards in his or her library when the ingest ability resolves, nothing happens. That player won't lose the game (until he or she has to draw a card from an empty library).</Rulings>
+2015/08/25: If the player has no cards in their library when the ingest ability resolves, nothing happens. That player won't lose the game (until they have to draw a card from an empty library).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1025,7 +1022,7 @@ When Heartstabber Mosquito enters the battlefield, if it was kicked, destroy tar
 <Name>Induce Despair</Name>
 <Type>Instant</Type>
 <ManaCost>2B (3)</ManaCost>
-<CardText>As an additional cost to cast Induce Despair, reveal a creature card from your hand.
+<CardText>As an additional cost to cast this spell, reveal a creature card from your hand.
 Target creature gets -X/-X until end of turn, where X is the revealed card's converted mana cost.</CardText>
 <Flavor>All the angel saw was her doom.</Flavor>
 <Artist>Igor Kieryluk</Artist>
@@ -1044,7 +1041,7 @@ Target creature gets -X/-X until end of turn, where X is the revealed card's con
 <Type>Sorcery</Type>
 <ManaCost>BB (2)</ManaCost>
 <CardText>Kicker {3} (You may pay an additional {3} as you cast this spell.)
-Creatures target player controls get -1/-1 until end of turn. If Marsh Casualties was kicked, those creatures get -2/-2 until end of turn instead.</CardText>
+Creatures target player controls get -1/-1 until end of turn. If this spell was kicked, those creatures get -2/-2 until end of turn instead.</CardText>
 <Artist>Scott Chou</Artist>
 <Multiverseid>401696</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1060,7 +1057,7 @@ Creatures target player controls get -1/-1 until end of turn. If Marsh Casualtie
 <Name>Pawn of Ulamog</Name>
 <Type>Creature — Vampire Shaman 2/2</Type>
 <ManaCost>1BB (3)</ManaCost>
-<CardText>Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C} to your mana pool."</CardText>
+<CardText>Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."</CardText>
 <Artist>Daarken</Artist>
 <Multiverseid>401697</Multiverseid>
 <Rulings>2010/06/15: If multiple nontoken creatures you control (possibly including <Pawn of Ulamog> itself) are put into their owners' graveyards at the same time, <Pawn of Ulamog>'s triggered ability will trigger that many times.
@@ -1082,11 +1079,11 @@ Creatures target player controls get -1/-1 until end of turn. If Marsh Casualtie
 <Flavor>The dead know lessons the living haven't learned.</Flavor>
 <Artist>Lars Grant-West</Artist>
 <Multiverseid>401698</Multiverseid>
-<Rulings>2013/09/15: The loss of life is part of the spell's effect. It's not an additional cost. If <Read the Bones> is countered, you won't lose life.
+<Rulings>2013/09/15: The loss of life is part of the spell's effect. It's not an additional cost. If <Read the Bones> doesn't resolve, you won't lose life.
 2013/09/15: When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
 2013/09/15: You choose how to order cards returned to your library after scrying no matter where you put them.
 2013/09/15: You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
-2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it will be countered and none of its effects will happen. You won't scry.</Rulings>
+2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1137,7 +1134,7 @@ Creatures target player controls get -1/-1 until end of turn. If Marsh Casualtie
 <Name>Emrakul's Hatcher</Name>
 <Type>Creature — Eldrazi Drone 3/3</Type>
 <ManaCost>4R (5)</ManaCost>
-<CardText>When Emrakul's Hatcher enters the battlefield, create three 0/1 colorless Eldrazi Spawn creature tokens. They have "Sacrifice this creature: Add {C} to your mana pool."</CardText>
+<CardText>When Emrakul's Hatcher enters the battlefield, create three 0/1 colorless Eldrazi Spawn creature tokens. They have "Sacrifice this creature: Add {C}."</CardText>
 <Flavor>Wordlessly it leads its abhorrent brood.</Flavor>
 <Artist>Jaime Jones</Artist>
 <Multiverseid>401701</Multiverseid>
@@ -1154,7 +1151,7 @@ Creatures target player controls get -1/-1 until end of turn. If Marsh Casualtie
 <Name>Forked Bolt</Name>
 <Type>Sorcery</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>Forked Bolt deals 2 damage divided as you choose among one or two target creatures and/or players.</CardText>
+<CardText>Forked Bolt deals 2 damage divided as you choose among one or two targets.</CardText>
 <Flavor>"Play no favorites. Everybody dies."
 —Sparkmage saying</Flavor>
 <Artist>Tomasz Jedruszek</Artist>
@@ -1190,12 +1187,12 @@ Creatures target player controls get -1/-1 until end of turn. If Marsh Casualtie
 <Name>Magmaw</Name>
 <Type>Creature — Elemental 4/4</Type>
 <ManaCost>3RR (5)</ManaCost>
-<CardText>{1}, Sacrifice a nonland permanent: Magmaw deals 1 damage to target creature or player.</CardText>
+<CardText>{1}, Sacrifice a nonland permanent: Magmaw deals 1 damage to any target.</CardText>
 <Flavor>"The purpose of existence is simple: everything is fuel for the magmaw."
 —Jaji, magmaw worshipper</Flavor>
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>401704</Multiverseid>
-<Rulings>2010/06/15: You may sacrifice <Magmaw> to pay its own activation cost. If you do, <Magmaw> will still deal 1 damage to the targeted creature or player (unless, for some reason, you targeted <Magmaw> itself, in which case the ability will be countered for having no legal targets).</Rulings>
+<Rulings>2010/06/15: You may sacrifice <Magmaw> to pay its own activation cost. If you do, <Magmaw> will still deal 1 damage to the targeted permanent or player (unless, for some reason, you targeted <Magmaw> itself, in which case the ability won't resolve for having no legal targets).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1251,7 +1248,7 @@ When Torch Slinger enters the battlefield, if it was kicked, it deals 2 damage t
 <Name>Mind Stone</Name>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {1}, {T}, Sacrifice Mind Stone: Draw a card.</CardText>
 <Flavor>What is mana but possibility, an idea not yet given form?</Flavor>
 <Artist>Adam Rex</Artist>
@@ -1287,7 +1284,7 @@ When Torch Slinger enters the battlefield, if it was kicked, it deals 2 damage t
 <Type>Land</Type>
 <CardText>Akoum Refuge enters the battlefield tapped.
 When Akoum Refuge enters the battlefield, you gain 1 life.
-{T}: Add {B} or {R} to your mana pool.</CardText>
+{T}: Add {B} or {R}.</CardText>
 <Artist>Fred Fields</Artist>
 <Multiverseid>401709</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1302,8 +1299,8 @@ When Akoum Refuge enters the battlefield, you gain 1 life.
 <No>68</No>
 <Name>Eldrazi Temple</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{T}: Add {C}{C} to your mana pool. Spend this mana only to cast colorless Eldrazi spells or activate abilities of colorless Eldrazi.</CardText>
+<CardText>{T}: Add {C}.
+{T}: Add {C}{C}. Spend this mana only to cast colorless Eldrazi spells or activate abilities of colorless Eldrazi.</CardText>
 <Flavor>Each temple is a door to a horrible future.</Flavor>
 <Artist>James Paick</Artist>
 <Multiverseid>401710</Multiverseid>
@@ -1336,7 +1333,7 @@ When Akoum Refuge enters the battlefield, you gain 1 life.
 <No>70</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Véronique Meignaud</Artist>
 <Multiverseid>401712</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1351,7 +1348,7 @@ When Akoum Refuge enters the battlefield, you gain 1 life.
 <No>71</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Véronique Meignaud</Artist>
 <Multiverseid>401713</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1366,7 +1363,7 @@ When Akoum Refuge enters the battlefield, you gain 1 life.
 <No>72</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Véronique Meignaud</Artist>
 <Multiverseid>401714</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1381,7 +1378,7 @@ When Akoum Refuge enters the battlefield, you gain 1 life.
 <No>73</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>James Paick</Artist>
 <Multiverseid>401715</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1396,7 +1393,7 @@ When Akoum Refuge enters the battlefield, you gain 1 life.
 <No>74</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>James Paick</Artist>
 <Multiverseid>401716</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1411,7 +1408,7 @@ When Akoum Refuge enters the battlefield, you gain 1 life.
 <No>75</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>James Paick</Artist>
 <Multiverseid>401717</Multiverseid>
 <Vintage>Legal</Vintage>

@@ -253,7 +253,7 @@ When Knightly Valor enters the battlefield, create a 2/2 white Knight creature t
 Enchanted creature gets +2/+2 and has vigilance.</CardText>
 <Artist>Matt Stewart</Artist>
 <Multiverseid>253646</Multiverseid>
-<Rulings>2015/06/22: You must target a creature to cast <Knightly Valor>. If that creature is an illegal target when <Knightly Valor> tries to resolve, it will be countered and won't enter the battlefield. You won't get the Knight token.</Rulings>
+<Rulings>2015/06/22: You must target a creature to cast <Knightly Valor>. If that creature is an illegal target when <Knightly Valor> tries to resolve, it won't resolve and won't enter the battlefield. You won't get the Knight token.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -297,7 +297,6 @@ Enchanted creature gets +2/+2 and has vigilance.</CardText>
 <Artist>Greg Staples</Artist>
 <Multiverseid>253567</Multiverseid>
 <Rulings>2012/10/01: Applying this redirection effect doesn't change whether the damage is combat damage.
-2012/10/01: If noncombat damage would be dealt to a planeswalker you control, the planeswalker redirection effect and <Palisade Giant>'s redirection effect apply in whichever order you choose. No matter which order you choose to apply them in, that damage will be dealt to <Palisade Giant> instead.
 2012/10/01: If you control more than one <Palisade Giant>, you choose which redirection effect to apply. You can't divide damage dealt by one source. For example, if an attacking creature would deal 8 damage to you and you control two <Palisade Giant>s, you may have that damage dealt to either of the <Palisade Giant>s. You can't have 4 damage dealt to each Giant or choose to have the 8 damage dealt to you.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -353,9 +352,9 @@ If a card or token would be put into a graveyard from anywhere, exile it instead
 <Flavor>Some corpses the Golgari cannot claim. Some souls the Orzhov cannot shackle.</Flavor>
 <Artist>Terese Nielsen</Artist>
 <Multiverseid>277995</Multiverseid>
-<Rulings>2012/10/01: While <Rest in Peace> is on the battlefield, abilities that trigger whenever a creature dies won't trigger because cards and tokens never reach a player's graveyard.
-2012/10/01: If <Rest in Peace> is destroyed by a spell, <Rest in Peace> will be exiled and then the spell will be put into its owner's graveyard.
-2012/10/01: If a card is discarded while <Rest in Peace> is on the battlefield, abilities that function when a card is discarded (such as madness) still work, even though that card never reaches a graveyard. In addition, spells or abilities that check the characteristics of a discarded card (such as Chandra Ablaze's first ability) can find that card in exile.</Rulings>
+<Rulings>2018/03/16: While <Rest in Peace> is on the battlefield, abilities that trigger whenever a creature dies won't trigger because cards and tokens are never put into a player's graveyard.
+2018/03/16: If <Rest in Peace> is destroyed by a spell, <Rest in Peace> will be exiled and then the spell will be put into its owner's graveyard.
+2018/03/16: If a card is discarded while <Rest in Peace> is on the battlefield, abilities that function when a card is discarded (such as madness) still work, even though that card never reaches a graveyard. In addition, spells or abilities that check the characteristics of a discarded card (such as Chandra Ablaze's first ability) can find that card in exile.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -398,7 +397,7 @@ When Security Blockade enters the battlefield, create a 2/2 white Knight creatur
 Enchanted land has "{T}: Prevent the next 1 damage that would be dealt to you this turn."</CardText>
 <Artist>James Ryman</Artist>
 <Multiverseid>270790</Multiverseid>
-<Rulings>2012/10/01: You must target a land to cast <Security Blockade>. If that land is an illegal target when <Security Blockade> tries to resolve, it will be countered and won't enter the battlefield. You won't get the Knight token.</Rulings>
+<Rulings>2012/10/01: You must target a land to cast <Security Blockade>. If that land is an illegal target when <Security Blockade> tries to resolve, it won't resolve and won't enter the battlefield. You won't get the Knight token.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -449,7 +448,7 @@ Enchanted land has "{T}: Prevent the next 1 damage that would be dealt to you th
 <Type>Enchantment — Aura</Type>
 <ManaCost>1W (2)</ManaCost>
 <CardText>Enchant nonland permanent
-At the beginning of the upkeep of enchanted permanent's controller, that player sacrifices it unless he or she pays {X}, where X is its converted mana cost.</CardText>
+At the beginning of the upkeep of enchanted permanent's controller, that player sacrifices it unless they pay {X}, where X is its converted mana cost.</CardText>
 <Artist>Dave Kendall</Artist>
 <Multiverseid>265372</Multiverseid>
 <Rulings>2012/10/01: The converted mana cost of a creature token is 0, unless that token is a copy of another creature, in which case it copies that creature's mana cost.
@@ -471,8 +470,7 @@ At the beginning of the upkeep of enchanted permanent's controller, that player 
 <Flavor>The Rakdos believe that all are eager to join their revels, even when told otherwise.</Flavor>
 <Artist>Slawomir Maniak</Artist>
 <Multiverseid>270969</Multiverseid>
-<Rulings>2012/10/01: If you control <Sphere of Safety>, your opponents can choose not to attack with a creature with an ability that says it attacks if able.
-2012/10/01: In a Two-Headed Giant game, if one player controls <Sphere of Safety>, creatures can't attack that player's team or a planeswalker that player controls unless their controller pays {X} for each of those creatures he or she controls. Creatures can attack planeswalkers controlled by that player's teammate without having to pay this cost.</Rulings>
+<Rulings>2012/10/01: If you control <Sphere of Safety>, your opponents can choose not to attack with a creature with an ability that says it attacks if able.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -545,7 +543,7 @@ At the beginning of the upkeep of enchanted permanent's controller, that player 
 <Artist>Christopher Moeller</Artist>
 <Watermark>Selesnya</Watermark>
 <Multiverseid>289225</Multiverseid>
-<Rulings>2012/10/01: You must target a creature to cast <Trostani's Judgment>. If that creature is an illegal target when <Trostani's Judgment> tries to resolve, it will be countered and none of its effects will happen. You won't populate.
+<Rulings>2012/10/01: You must target a creature to cast <Trostani's Judgment>. If that creature is an illegal target when <Trostani's Judgment> tries to resolve, it won't resolve and none of its effects will happen. You won't populate.
 2012/10/01: If you choose a creature token you control as the target, it will be exiled before you populate and you won't be able to choose that creature to copy.
 2013/04/15: You can choose any creature token you control for populate. If a spell or ability puts a token onto the battlefield under your control and then instructs you to populate (as Coursers' Accord does), you may choose to copy the token you just created, or you may choose to copy another creature token you control.
 2013/04/15: If you choose to copy a creature token that's a copy of another creature, the new creature token will copy the characteristics of whatever the original token is copying.
@@ -628,7 +626,7 @@ Overload {3}{U} (You may cast this spell for its overload cost. If you do, chang
 <Type>Enchantment — Aura</Type>
 <ManaCost>1U (2)</ManaCost>
 <CardText>Enchant land
-Whenever enchanted land becomes tapped, its controller puts the top three cards of his or her library into his or her graveyard.</CardText>
+Whenever enchanted land becomes tapped, its controller puts the top three cards of their library into their graveyard.</CardText>
 <Flavor>With the Izzet occupied elsewhere, many of their public works fell into disrepair.</Flavor>
 <Artist>Scott Chou</Artist>
 <Multiverseid>270786</Multiverseid>
@@ -667,7 +665,7 @@ Whenever enchanted land becomes tapped, its controller puts the top three cards 
 <Name>Crosstown Courier</Name>
 <Type>Creature — Vedalken 2/1</Type>
 <ManaCost>1U (2)</ManaCost>
-<CardText>Whenever Crosstown Courier deals combat damage to a player, that player puts that many cards from the top of his or her library into his or her graveyard.</CardText>
+<CardText>Whenever Crosstown Courier deals combat damage to a player, that player puts that many cards from the top of their library into their graveyard.</CardText>
 <Flavor>Information travels quickly through Ravnica's network of messengers and thought agents.</Flavor>
 <Artist>Chase Stone</Artist>
 <Multiverseid>277991</Multiverseid>
@@ -729,7 +727,7 @@ Overload {6}{U} (You may cast this spell for its overload cost. If you do, chang
 <Type>Creature — Homunculus 0/4</Type>
 <ManaCost>1U (2)</ManaCost>
 <CardText>Defender
-{2}{U}, {T}: Target player puts the top X cards of his or her library into his or her graveyard, where X is the number of creatures with defender you control.</CardText>
+{2}{U}, {T}: Target player puts the top X cards of their library into their graveyard, where X is the number of creatures with defender you control.</CardText>
 <Flavor>One piercing stare usually convinces thieves to go elsewhere.</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>265417</Multiverseid>
@@ -879,7 +877,7 @@ When Isperia's Skywatch enters the battlefield, detain target creature an oppone
 <ManaCost>2UU (4)</ManaCost>
 <CardText>+1: Until your next turn, whenever a creature an opponent controls attacks, it gets -1/-0 until end of turn.
 -2: Reveal the top three cards of your library. An opponent separates those cards into two piles. Put one pile into your hand and the other on the bottom of your library in any order.
--8: For each player, search that player's library for a nonland card and exile it, then that player shuffles his or her library. You may cast those cards without paying their mana costs.</CardText>
+-8: For each player, search that player's library for a nonland card and exile it, then that player shuffles their library. You may cast those cards without paying their mana costs.</CardText>
 <Artist>Jaime Jones</Artist>
 <Multiverseid>253653</Multiverseid>
 <Rulings>2012/10/01: Jace's first ability creates a delayed triggered ability that triggers whenever a creature an opponent controls attacks. It doesn't matter which player or planeswalker that creature is attacking.
@@ -951,11 +949,11 @@ Enchanted creature doesn't untap during its controller's untap step.</CardText>
 <Name>Psychic Spiral</Name>
 <Type>Instant</Type>
 <ManaCost>4U (5)</ManaCost>
-<CardText>Shuffle all cards from your graveyard into your library. Target player puts that many cards from the top of his or her library into his or her graveyard.</CardText>
+<CardText>Shuffle all cards from your graveyard into your library. Target player puts that many cards from the top of their library into their graveyard.</CardText>
 <Flavor>An elocutor forces criminals to confess to the laws they merely intended to break.</Flavor>
 <Artist>Ryan Pancoast</Artist>
 <Multiverseid>270794</Multiverseid>
-<Rulings>2012/10/01: <Psychic Spiral> won't be shuffled into your library, and it won't be counted when determining how many cards the target player puts into his or her graveyard. It will be put into your graveyard after you follow its instructions.
+<Rulings>2012/10/01: <Psychic Spiral> won't be shuffled into your library, and it won't be counted when determining how many cards the target player puts into their graveyard. It will be put into your graveyard after you follow its instructions.
 2012/10/01: If you cast <Psychic Spiral> when there are no cards in your graveyard, you'll still shuffle your library.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1146,7 +1144,7 @@ Discard two nonland cards with the same name: Draw four cards.</CardText>
 <Artist>Chase Stone</Artist>
 <Multiverseid>289216</Multiverseid>
 <Rulings>2012/10/01: You must be able to target a creature to cast <Assassin's Strike>.
-2012/10/01: If the creature is an illegal target when <Assassin's Strike> tries to resolve, it will be countered and none of its effects will happen. Its controller won't discard a card.
+2012/10/01: If the creature is an illegal target when <Assassin's Strike> tries to resolve, it won't resolve and none of its effects will happen. Its controller won't discard a card.
 2013/07/01: If <Assassin's Strike> resolves but the creature isn't destroyed (perhaps because it regenerated or has indestructible), its controller will discard a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1185,7 +1183,7 @@ Draw a card.</CardText>
 <Artist>Cynthia Sheppard</Artist>
 <Multiverseid>277990</Multiverseid>
 <Rulings>2012/10/01: You must be able to target a card in a graveyard to cast <Cremate>.
-2012/10/01: If the target card is no longer in the graveyard when <Cremate> tries to resolve, it will be countered and none of its effects will happen. You won't draw a card.</Rulings>
+2012/10/01: If the target card is no longer in the graveyard when <Cremate> tries to resolve, it won't resolve and none of its effects will happen. You won't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1277,11 +1275,11 @@ At the beginning of each combat, any opponent may sacrifice a creature. If a pla
 <Name>Destroy the Evidence</Name>
 <Type>Sorcery</Type>
 <ManaCost>4B (5)</ManaCost>
-<CardText>Destroy target land. Its controller reveals cards from the top of his or her library until he or she reveals a land card, then puts those cards into his or her graveyard.</CardText>
+<CardText>Destroy target land. Its controller reveals cards from the top of their library until they reveal a land card, then puts those cards into their graveyard.</CardText>
 <Flavor>Everyone knew the Dimir had done the damage. Everyone suspected the Izzet had hired them.</Flavor>
 <Artist>Clint Cearley</Artist>
 <Multiverseid>253571</Multiverseid>
-<Rulings>2012/10/01: If the controller of the target land has no land cards in his or her library, all cards from that library will be revealed and put into his or her graveyard.</Rulings>
+<Rulings>2012/10/01: If the controller of the target land has no land cards in their library, all cards from that library will be revealed and put into their graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1379,13 +1377,13 @@ Enchanted creature gets +2/+1 and has "{R}: This creature gains trample until en
 <Name>Launch Party</Name>
 <Type>Instant</Type>
 <ManaCost>3B (4)</ManaCost>
-<CardText>As an additional cost to cast Launch Party, sacrifice a creature.
+<CardText>As an additional cost to cast this spell, sacrifice a creature.
 Destroy target creature. Its controller loses 2 life.</CardText>
 <Flavor>Life's too short to not do the things you love.</Flavor>
 <Artist>Lucas Graciano</Artist>
 <Multiverseid>270781</Multiverseid>
 <Rulings>2012/10/01: If you sacrifice an attacking or blocking creature during the declare blockers step, it won't deal combat damage. If you wait until the combat damage step, but that creature is dealt lethal damage, it'll be destroyed before you get a chance to sacrifice it.
-2012/10/01: If the target creature is an illegal target when <Launch Party> tries to resolve, it will be countered and none of its effects will happen. No player will lose 2 life.
+2012/10/01: If the target creature is an illegal target when <Launch Party> tries to resolve, it won't resolve and none of its effects will happen. No player will lose 2 life.
 2013/04/15: You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures.
 2013/04/15: Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell.</Rulings>
 <Vintage>Legal</Vintage>
@@ -1513,11 +1511,11 @@ Scavenge {2}{B} ({2}{B}, Exile this card from your graveyard: Put a number of +1
 <Name>Shrieking Affliction</Name>
 <Type>Enchantment</Type>
 <ManaCost>B (1)</ManaCost>
-<CardText>At the beginning of each opponent's upkeep, if that player has one or fewer cards in hand, he or she loses 3 life.</CardText>
+<CardText>At the beginning of each opponent's upkeep, if that player has one or fewer cards in hand, they lose 3 life.</CardText>
 <Flavor>A gargoyle's voice reaches pitches that will shatter glass and warp bone.</Flavor>
 <Artist>Johann Bodin</Artist>
 <Multiverseid>265409</Multiverseid>
-<Rulings>2012/10/01: <Shrieking Affliction>'s ability will trigger only if an opponent begins his or her upkeep with one or fewer cards in hand. The ability will check the number of cards in that player's hand again when it tries to resolve. If that player has two or more cards in hand at that time, that player won't lose life.</Rulings>
+<Rulings>2012/10/01: <Shrieking Affliction>'s ability will trigger only if an opponent begins their upkeep with one or fewer cards in hand. The ability will check the number of cards in that player's hand again when it tries to resolve. If that player has two or more cards in hand at that time, that player won't lose life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1685,7 +1683,7 @@ Scavenge {2}{B}{B} ({2}{B}{B}, Exile this card from your graveyard: Put a number
 <Name>Annihilating Fire</Name>
 <Type>Instant</Type>
 <ManaCost>1RR (3)</ManaCost>
-<CardText>Annihilating Fire deals 3 damage to target creature or player. If a creature dealt damage this way would die this turn, exile it instead.</CardText>
+<CardText>Annihilating Fire deals 3 damage to any target. If a creature dealt damage this way would die this turn, exile it instead.</CardText>
 <Flavor>"The most impressive performances can be done only once."
 —Mote, Rakdos madcap</Flavor>
 <Artist>Clint Cearley</Artist>
@@ -1876,7 +1874,7 @@ Overload {1}{R} (You may cast this spell for its overload cost. If you do, chang
 <Name>Explosive Impact</Name>
 <Type>Instant</Type>
 <ManaCost>5R (6)</ManaCost>
-<CardText>Explosive Impact deals 5 damage to target creature or player.</CardText>
+<CardText>Explosive Impact deals 5 damage to any target.</CardText>
 <Flavor>"Such boorish noise is what passes for subtlety among the Boros."
 —Vraska</Flavor>
 <Artist>Steve Argyle</Artist>
@@ -1933,7 +1931,7 @@ Overload {1}{R} (You may cast this spell for its overload cost. If you do, chang
 <Name>Guild Feud</Name>
 <Type>Enchantment</Type>
 <ManaCost>5R (6)</ManaCost>
-<CardText>At the beginning of your upkeep, target opponent reveals the top three cards of his or her library, may put a creature card from among them onto the battlefield, then puts the rest into his or her graveyard. You do the same with the top three cards of your library. If two creatures are put onto the battlefield this way, those creatures fight each other.</CardText>
+<CardText>At the beginning of your upkeep, target opponent reveals the top three cards of their library, may put a creature card from among them onto the battlefield, then puts the rest into their graveyard. You do the same with the top three cards of your library. If two creatures are put onto the battlefield this way, those creatures fight each other.</CardText>
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>265406</Multiverseid>
 <Rulings>2012/10/01: <Guild Feud> has one target: the opponent. You'll see what creature that player puts onto the battlefield before revealing the top three cards of your library and deciding whether to put a creature onto the battlefield yourself.
@@ -2055,7 +2053,7 @@ Enchanted creature gets +2/+2 and has "{U}: This creature gains flying until end
 <Name>Pyroconvergence</Name>
 <Type>Enchantment</Type>
 <ManaCost>4R (5)</ManaCost>
-<CardText>Whenever you cast a multicolored spell, Pyroconvergence deals 2 damage to target creature or player.</CardText>
+<CardText>Whenever you cast a multicolored spell, Pyroconvergence deals 2 damage to any target.</CardText>
 <Flavor>"The Izzet are an equation that turns lunacy into explosions."
 —Leonos, Azorius arbiter</Flavor>
 <Artist>Jack Wang</Artist>
@@ -2145,7 +2143,7 @@ Overload {X}{X}{R}{R} (You may cast this spell for its overload cost. If you do,
 <Flavor>Goblins and architects seldom get along.</Flavor>
 <Artist>Warren Mahy</Artist>
 <Multiverseid>270804</Multiverseid>
-<Rulings>2012/10/01: If the target land is an illegal target when <Survey the Wreckage> tries to resolve, it will be countered and none of its effects will happen. You won't get the creature token.</Rulings>
+<Rulings>2012/10/01: If the target land is an illegal target when <Survey the Wreckage> tries to resolve, it won't resolve and none of its effects will happen. You won't get the creature token.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2260,7 +2258,7 @@ Overload {4}{R} (You may cast this spell for its overload cost. If you do, chang
 <Artist>BD</Artist>
 <Multiverseid>289227</Multiverseid>
 <Rulings>2017/11/17: You must be able to target a creature with flying to cast <Aerial Predation>.
-2017/11/17: If the creature with flying is an illegal target when <Aerial Predation> tries to resolve, it will be countered and none of its effects will happen. You won't gain 2 life.</Rulings>
+2017/11/17: If the creature with flying is an illegal target when <Aerial Predation> tries to resolve, it won't resolve and none of its effects will happen. You won't gain 2 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2292,7 +2290,7 @@ Overload {4}{R} (You may cast this spell for its overload cost. If you do, chang
 <Type>Creature — Human Druid 0/3</Type>
 <ManaCost>2G (3)</ManaCost>
 <CardText>Defender
-{T}: Add X mana in any combination of colors to your mana pool, where X is the number of creatures with defender you control.</CardText>
+{T}: Add X mana in any combination of colors, where X is the number of creatures with defender you control.</CardText>
 <Flavor>Only a worthy few are permitted within the sentient forest known as Axebane.</Flavor>
 <Artist>Slawomir Maniak</Artist>
 <Multiverseid>253556</Multiverseid>
@@ -2583,7 +2581,7 @@ Scavenge {5}{G}{G} ({5}{G}{G}, Exile this card from your graveyard: Put a number
 <Type>Enchantment</Type>
 <ManaCost>XG (1)</ManaCost>
 <CardText>Mana Bloom enters the battlefield with X charge counters on it.
-Remove a charge counter from Mana Bloom: Add one mana of any color to your mana pool. Activate this ability only once each turn.
+Remove a charge counter from Mana Bloom: Add one mana of any color. Activate this ability only once each turn.
 At the beginning of your upkeep, if Mana Bloom has no charge counters on it, return it to its owner's hand.</CardText>
 <Artist>Mike Bierek</Artist>
 <Multiverseid>253592</Multiverseid>
@@ -2782,7 +2780,7 @@ When Worldspine Wurm is put into a graveyard from anywhere, shuffle it into its 
 <Name>Abrupt Decay</Name>
 <Type>Instant</Type>
 <ManaCost>BG (2)</ManaCost>
-<CardText>Abrupt Decay can't be countered by spells or abilities.
+<CardText>This spell can't be countered.
 Destroy target nonland permanent with converted mana cost 3 or less.</CardText>
 <Flavor>The Izzet quickly suspended their policy of lifetime guarantees.</Flavor>
 <Artist>Svetlin Velinov</Artist>
@@ -3035,7 +3033,7 @@ Put a +1/+1 counter on target creature.</CardText>
 <Name>Counterflux</Name>
 <Type>Instant</Type>
 <ManaCost>UUR (3)</ManaCost>
-<CardText>Counterflux can't be countered by spells or abilities.
+<CardText>This spell can't be countered.
 Counter target spell you don't control.
 Overload {1}{U}{U}{R} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of "target" with "each.")</CardText>
 <Artist>Scott M. Fischer</Artist>
@@ -3092,7 +3090,7 @@ When Detention Sphere leaves the battlefield, return the exiled cards to the bat
 <Multiverseid>270356</Multiverseid>
 <Rulings>2012/10/01: Although the target of the enters-the-battlefield ability must not be a land, lands with the same name as that permanent will be exiled.
 2012/10/01: The enters-the-battlefield ability has only one target. The other permanents with that name aren't targeted. For example, a permanent with protection from white will be exiled if it has the same name as the target nonland permanent.
-2012/10/01: If the target nonland permanent is an illegal target when the enters-the-battlefield ability tries to resolve, it will be countered and none of its effects will happen. No permanents will be exiled, including those with the same name as the target.
+2012/10/01: If the target nonland permanent is an illegal target when the enters-the-battlefield ability tries to resolve, it won't resolve and none of its effects will happen. No permanents will be exiled, including those with the same name as the target.
 2012/10/01: If <Detention Sphere> leaves the battlefield before its enters-the-battlefield ability has resolved, its leaves-the-battlefield ability will trigger and do nothing. Then the enters-the-battlefield ability will resolve and exile the targeted nonland permanent and other permanents with that name indefinitely.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3114,7 +3112,7 @@ When Detention Sphere leaves the battlefield, return the exiled cards to the bat
 <Watermark>Azorius</Watermark>
 <Multiverseid>253544</Multiverseid>
 <Rulings>2012/10/01: You must be able to target a creature to cast <Dramatic Rescue>.
-2012/10/01: If the target creature is an illegal target when <Dramatic Rescue> tries to resolve, it will be countered and none of its effects will happen. You won't gain 2 life.</Rulings>
+2012/10/01: If the target creature is an illegal target when <Dramatic Rescue> tries to resolve, it won't resolve and none of its effects will happen. You won't gain 2 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3215,7 +3213,7 @@ Scavenge {3}{B}{G} ({3}{B}{G}, Exile this card from your graveyard: Put a number
 <Watermark>Azorius</Watermark>
 <Multiverseid>290536</Multiverseid>
 <Rulings>2012/10/01: You must be able to target a spell to cast <Fall of the Gavel>.
-2012/10/01: If the target spell is an illegal target when <Fall of the Gavel> tries to resolve (perhaps because it's been countered by another spell), <Fall of the Gavel> will be countered and none of its effects will happen. You won't gain 5 life.</Rulings>
+2012/10/01: If the target spell is an illegal target when <Fall of the Gavel> tries to resolve (perhaps because it's been countered by another spell), <Fall of the Gavel> won't resolve and none of its effects will happen. You won't gain 5 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3311,7 +3309,7 @@ Scavenge {3}{B}{G} ({3}{B}{G}, Exile this card from your graveyard: Put a number
 <Type>Enchantment</Type>
 <ManaCost>4BR (6)</ManaCost>
 <CardText>Players can't gain life.
-At the beginning of each player's upkeep, that player loses half his or her life, rounded up.</CardText>
+At the beginning of each player's upkeep, that player loses half their life, rounded up.</CardText>
 <Flavor>"We can't control enemies who have no regard for their own survival."
 —Arrester Lavinia, Tenth Precinct</Flavor>
 <Artist>Johannes Voss</Artist>
@@ -3336,7 +3334,7 @@ At the beginning of each player's upkeep, that player loses half his or her life
 <Type>Creature — Ogre Warrior 3/2</Type>
 <ManaCost>1BR (3)</ManaCost>
 <CardText>Unleash (You may have this creature enter the battlefield with a +1/+1 counter on it. It can't block as long as it has a +1/+1 counter on it.)
-{2}{B}{R}, Sacrifice Hellhole Flailer: Hellhole Flailer deals damage equal to its power to target player.</CardText>
+{2}{B}{R}, Sacrifice Hellhole Flailer: Hellhole Flailer deals damage equal to its power to target player or planeswalker.</CardText>
 <Artist>Steve Prescott</Artist>
 <Watermark>Rakdos</Watermark>
 <Multiverseid>289211</Multiverseid>
@@ -3424,7 +3422,6 @@ Whenever a creature attacks you or a planeswalker you control, you may draw a ca
 <Artist>Scott M. Fischer</Artist>
 <Watermark>Azorius</Watermark>
 <Multiverseid>290531</Multiverseid>
-<Rulings>2012/10/01: In a Two-Headed Giant game, Isperia's ability will trigger whenever a creature attacks your team or a planeswalker you control. It won't trigger when a creature attacks a planeswalker controlled by your teammate.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3560,7 +3557,7 @@ Discard a creature card: Put a +1/+1 counter on Lotleth Troll.
 <Name>Loxodon Smiter</Name>
 <Type>Creature — Elephant Soldier 4/4</Type>
 <ManaCost>1WG (3)</ManaCost>
-<CardText>Loxodon Smiter can't be countered.
+<CardText>This spell can't be countered.
 If a spell or ability an opponent controls causes you to discard Loxodon Smiter, put it onto the battlefield instead of putting it into your graveyard.</CardText>
 <Artist>Ryan Barger</Artist>
 <Watermark>Selesnya</Watermark>
@@ -3675,7 +3672,7 @@ When Lyev Skyknight enters the battlefield, detain target nonland permanent an o
 <ManaCost>2UURR (6)</ManaCost>
 <CardText>Flying
 Whenever Niv-Mizzet, Dracogenius deals damage to a player, you may draw a card.
-{U}{R}: Niv-Mizzet, Dracogenius deals 1 damage to target creature or player.</CardText>
+{U}{R}: Niv-Mizzet, Dracogenius deals 1 damage to any target.</CardText>
 <Flavor>He has no patience for minds that do not inspire him or explode by trying.</Flavor>
 <Artist>Todd Lockwood</Artist>
 <Watermark>Izzet</Watermark>
@@ -3702,7 +3699,6 @@ Whenever Niv-Mizzet, Dracogenius deals damage to a player, you may draw a card.
 <Artist>Zoltan Boros</Artist>
 <Watermark>Rakdos</Watermark>
 <Multiverseid>253590</Multiverseid>
-<Rulings>2012/10/01: Damage dealt by creatures because of the third mode can't be redirected to a planeswalker.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3753,7 +3749,7 @@ Whenever Rakdos Ringleader deals combat damage to a player, that player discards
 <Name>Rakdos, Lord of Riots</Name>
 <Type>Legendary Creature — Demon 6/6</Type>
 <ManaCost>BBRR (4)</ManaCost>
-<CardText>You can't cast Rakdos, Lord of Riots unless an opponent lost life this turn.
+<CardText>You can't cast this spell unless an opponent lost life this turn.
 Flying, trample
 Creature spells you cast cost {1} less to cast for each 1 life your opponents have lost this turn.</CardText>
 <Artist>Vincent Proce</Artist>
@@ -3778,7 +3774,7 @@ Creature spells you cast cost {1} less to cast for each 1 life your opponents ha
 <Name>Rakdos's Return</Name>
 <Type>Sorcery</Type>
 <ManaCost>XBR (2)</ManaCost>
-<CardText>Rakdos's Return deals X damage to target opponent. That player discards X cards.</CardText>
+<CardText>Rakdos's Return deals X damage to target opponent or planeswalker. That player or that planeswalker's controller discards X cards.</CardText>
 <Flavor>When Lord Rakdos stirred from his slumber, everyone else's nightmare began.</Flavor>
 <Artist>Daarken</Artist>
 <Watermark>Rakdos</Watermark>
@@ -3873,7 +3869,7 @@ At the beginning of the draw step of enchanted creature's controller, that playe
 <Name>Search Warrant</Name>
 <Type>Sorcery</Type>
 <ManaCost>WU (2)</ManaCost>
-<CardText>Target player reveals his or her hand. You gain life equal to the number of cards in that player's hand.</CardText>
+<CardText>Target player reveals their hand. You gain life equal to the number of cards in that player's hand.</CardText>
 <Flavor>"And would you care to explain why your satchel is radiating an aura of unstable energy?"</Flavor>
 <Artist>Steven Belledin</Artist>
 <Watermark>Azorius</Watermark>
@@ -3953,8 +3949,8 @@ Whenever Skymark Roc attacks, you may return target creature defending player co
 <Name>Slaughter Games</Name>
 <Type>Sorcery</Type>
 <ManaCost>2BR (4)</ManaCost>
-<CardText>Slaughter Games can't be countered by spells or abilities.
-Choose a nonland card name. Search target opponent's graveyard, hand, and library for any number of cards with that name and exile them. Then that player shuffles his or her library.</CardText>
+<CardText>This spell can't be countered.
+Choose a nonland card name. Search target opponent's graveyard, hand, and library for any number of cards with that name and exile them. Then that player shuffles their library.</CardText>
 <Artist>Steve Prescott</Artist>
 <Watermark>Rakdos</Watermark>
 <Multiverseid>290532</Multiverseid>
@@ -4033,7 +4029,7 @@ Scavenge {1}{B}{G} ({1}{B}{G}, Exile this card from your graveyard: Put a number
 <Name>Supreme Verdict</Name>
 <Type>Sorcery</Type>
 <ManaCost>1WWU (4)</ManaCost>
-<CardText>Supreme Verdict can't be countered.
+<CardText>This spell can't be countered.
 Destroy all creatures.</CardText>
 <Flavor>Leonos had no second thoughts about the abolishment edict. He'd left skyrunes warning of the eviction, even though it was cloudy.</Flavor>
 <Artist>Sam Burley</Artist>
@@ -4294,14 +4290,14 @@ Cryptborn Horror enters the battlefield with X +1/+1 counters on it, where X is 
 <Name>Deathrite Shaman</Name>
 <Type>Creature — Elf Shaman 1/2</Type>
 <ManaCost>{B/G} (1)</ManaCost>
-<CardText>{T}: Exile target land card from a graveyard. Add one mana of any color to your mana pool.
+<CardText>{T}: Exile target land card from a graveyard. Add one mana of any color.
 {B}, {T}: Exile target instant or sorcery card from a graveyard. Each opponent loses 2 life.
 {G}, {T}: Exile target creature card from a graveyard. You gain 2 life.</CardText>
 <Artist>Steve Argyle</Artist>
 <Watermark>Golgari</Watermark>
 <Multiverseid>290529</Multiverseid>
 <Rulings>2016/06/08: Because the first ability requires a target, it is not a mana ability. It uses the stack and can be responded to.
-2016/06/08: If the target of any of <Deathrite Shaman>'s three abilities is an illegal target when that ability tries to resolve, it will be countered and none of its effects will happen. You won't add mana to your mana pool, no opponent will lose life, or you won't gain life, as appropriate.</Rulings>
+2016/06/08: If the target of any of <Deathrite Shaman>'s three abilities is an illegal target when that ability tries to resolve, it won't resolve and none of its effects will happen. You won't add mana to your mana pool, no opponent will lose life, or you won't gain life, as appropriate.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Banned</Modern>
@@ -4508,7 +4504,7 @@ Sacrifice Judge's Familiar: Counter target instant or sorcery spell unless its c
 2013/04/15: The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
 2013/04/15: Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the new token will work.
 2013/04/15: If you control no creature tokens when you populate, nothing will happen.
-2017/03/14: You must target an artifact or enchantment to cast <Sundering Growth>. If that artifact or enchantment is an illegal target when <Sundering Growth> tries to resolve, it will be countered and none of its effects will happen. You won't populate.</Rulings>
+2017/03/14: You must target an artifact or enchantment to cast <Sundering Growth>. If that artifact or enchantment is an illegal target when <Sundering Growth> tries to resolve, it won't resolve and none of its effects will happen. You won't populate.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4540,7 +4536,7 @@ Sacrifice Judge's Familiar: Counter target instant or sorcery spell unless its c
 <Name>Azorius Keyrune</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {W} or {U} to your mana pool.
+<CardText>{T}: Add {W} or {U}.
 {W}{U}: Azorius Keyrune becomes a 2/2 white and blue Bird artifact creature with flying until end of turn.</CardText>
 <Flavor>"The higher the mind soars, the greater its understanding of the law."
 —Isperia</Flavor>
@@ -4562,8 +4558,8 @@ Sacrifice Judge's Familiar: Counter target instant or sorcery spell unless its c
 <Name>Chromatic Lantern</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>Lands you control have "{T}: Add one mana of any color to your mana pool."
-{T}: Add one mana of any color to your mana pool.</CardText>
+<CardText>Lands you control have "{T}: Add one mana of any color."
+{T}: Add one mana of any color.</CardText>
 <Flavor>Dimir mages put the lanterns to good use, creating shapeshifters and sleeper agents from mana foreign to them.</Flavor>
 <Artist>Jung Park</Artist>
 <Multiverseid>290542</Multiverseid>
@@ -4601,7 +4597,7 @@ Equip {1}</CardText>
 <Name>Codex Shredder</Name>
 <Type>Artifact</Type>
 <ManaCost>1 (1)</ManaCost>
-<CardText>{T}: Target player puts the top card of his or her library into his or her graveyard.
+<CardText>{T}: Target player puts the top card of their library into their graveyard.
 {5}, {T}, Sacrifice Codex Shredder: Return target card from your graveyard to your hand.</CardText>
 <Artist>Jason Felix</Artist>
 <Multiverseid>253635</Multiverseid>
@@ -4619,7 +4615,7 @@ Equip {1}</CardText>
 <Name>Golgari Keyrune</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {B} or {G} to your mana pool.
+<CardText>{T}: Add {B} or {G}.
 {B}{G}: Golgari Keyrune becomes a 2/2 black and green Insect artifact creature with deathtouch until end of turn.</CardText>
 <Flavor>Like a single ant, it only hints at the colony below.</Flavor>
 <Artist>Daniel Ljunggren</Artist>
@@ -4640,7 +4636,7 @@ Equip {1}</CardText>
 <Name>Izzet Keyrune</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {U} or {R} to your mana pool.
+<CardText>{T}: Add {U} or {R}.
 {U}{R}: Until end of turn, Izzet Keyrune becomes a 2/1 blue and red Elemental artifact creature.
 Whenever Izzet Keyrune deals combat damage to a player, you may draw a card. If you do, discard a card.</CardText>
 <Artist>Daniel Ljunggren</Artist>
@@ -4667,7 +4663,7 @@ Activated abilities of sources with the chosen name can't be activated unless th
 <Flavor>The fearful want the procedure before a blood festival. The guilty seek it afterward.</Flavor>
 <Artist>Anthony Palumbo</Artist>
 <Multiverseid>253581</Multiverseid>
-<Rulings>2005/06/01: <Pithing Needle> affects cards regardless of what zone they're in. This includes cards in hand, cards in the graveyard, and exiled cards. For example, a player can't cycle Eternal Dragon or return an Eternal Dragon from his or her graveyard to hand if <Pithing Needle> naming Eternal Dragon is on the battlefield.
+<Rulings>2005/06/01: <Pithing Needle> affects cards regardless of what zone they're in. This includes cards in hand, cards in the graveyard, and exiled cards. For example, a player can't cycle Eternal Dragon or return an Eternal Dragon from their graveyard to hand if <Pithing Needle> naming Eternal Dragon is on the battlefield.
 2005/06/01: You can name any card, even if that card doesn't normally have an activated ability. You can't name a token unless that token has the same name as a card.
 2005/06/01: If you name a card that has both a mana ability and another activated ability, the mana ability can be activated but the other ability can't be activated.
 2009/10/01: Once <Pithing Needle> has left the battlefield, activated abilities of sources with the chosen name can be activated again.
@@ -4685,7 +4681,7 @@ Activated abilities of sources with the chosen name can't be activated unless th
 <Name>Rakdos Keyrune</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {B} or {R} to your mana pool.
+<CardText>{T}: Add {B} or {R}.
 {B}{R}: Rakdos Keyrune becomes a 3/1 black and red Devil artifact creature with first strike until end of turn.</CardText>
 <Flavor>The Rakdos use it for everything you can think of and plenty more than that.</Flavor>
 <Artist>Daniel Ljunggren</Artist>
@@ -4706,7 +4702,7 @@ Activated abilities of sources with the chosen name can't be activated unless th
 <Name>Selesnya Keyrune</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {G} or {W} to your mana pool.
+<CardText>{T}: Add {G} or {W}.
 {G}{W}: Selesnya Keyrune becomes a 3/3 green and white Wolf artifact creature until end of turn.</CardText>
 <Flavor>A mark of unity when you want one; a fierce guardian when you need one.</Flavor>
 <Artist>Daniel Ljunggren</Artist>
@@ -4784,7 +4780,7 @@ When Volatile Rig dies, flip a coin. If you lose the flip, it deals 4 damage to 
 <Name>Azorius Guildgate</Name>
 <Type>Land — Gate</Type>
 <CardText>Azorius Guildgate enters the battlefield tapped.
-{T}: Add {W} or {U} to your mana pool.</CardText>
+{T}: Add {W} or {U}.</CardText>
 <Flavor>Enter the Senate, the seat of justice and the foundation of Ravnican society.</Flavor>
 <Artist>Drew Baker</Artist>
 <Watermark>Azorius</Watermark>
@@ -4803,7 +4799,7 @@ When Volatile Rig dies, flip a coin. If you lose the flip, it deals 4 damage to 
 <No>238</No>
 <Name>Blood Crypt</Name>
 <Type>Land — Swamp Mountain</Type>
-<CardText>({T}: Add {B} or {R} to your mana pool.)
+<CardText>({T}: Add {B} or {R}.)
 As Blood Crypt enters the battlefield, you may pay 2 life. If you don't, Blood Crypt enters the battlefield tapped.</CardText>
 <Flavor>Where the dead serve as diversion, decor, and dessert.</Flavor>
 <Artist>Vincent Proce</Artist>
@@ -4825,7 +4821,7 @@ As Blood Crypt enters the battlefield, you may pay 2 life. If you don't, Blood C
 <Name>Golgari Guildgate</Name>
 <Type>Land — Gate</Type>
 <CardText>Golgari Guildgate enters the battlefield tapped.
-{T}: Add {B} or {G} to your mana pool.</CardText>
+{T}: Add {B} or {G}.</CardText>
 <Flavor>Enter those who are starving and sick. You are welcome among the Swarm when the rest of Ravnica rejects you.</Flavor>
 <Artist>Eytan Zana</Artist>
 <Watermark>Golgari</Watermark>
@@ -4844,7 +4840,7 @@ As Blood Crypt enters the battlefield, you may pay 2 life. If you don't, Blood C
 <No>240</No>
 <Name>Grove of the Guardian</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {3}{G}{W}, {T}, Tap two untapped creatures you control, Sacrifice Grove of the Guardian: Create an 8/8 green and white Elemental creature token with vigilance.</CardText>
 <Artist>Christine Choi</Artist>
 <Watermark>Selesnya</Watermark>
@@ -4863,7 +4859,7 @@ As Blood Crypt enters the battlefield, you may pay 2 life. If you don't, Blood C
 <No>241</No>
 <Name>Hallowed Fountain</Name>
 <Type>Land — Plains Island</Type>
-<CardText>({T}: Add {W} or {U} to your mana pool.)
+<CardText>({T}: Add {W} or {U}.)
 As Hallowed Fountain enters the battlefield, you may pay 2 life. If you don't, Hallowed Fountain enters the battlefield tapped.</CardText>
 <Flavor>A place to relax, if you have the proper permit.</Flavor>
 <Artist>Jung Park</Artist>
@@ -4885,7 +4881,7 @@ As Hallowed Fountain enters the battlefield, you may pay 2 life. If you don't, H
 <Name>Izzet Guildgate</Name>
 <Type>Land — Gate</Type>
 <CardText>Izzet Guildgate enters the battlefield tapped.
-{T}: Add {U} or {R} to your mana pool.</CardText>
+{T}: Add {U} or {R}.</CardText>
 <Flavor>Enter those with the vision to create and the daring to release their creations.</Flavor>
 <Artist>Noah Bradley</Artist>
 <Watermark>Izzet</Watermark>
@@ -4904,7 +4900,7 @@ As Hallowed Fountain enters the battlefield, you may pay 2 life. If you don't, H
 <No>243</No>
 <Name>Overgrown Tomb</Name>
 <Type>Land — Swamp Forest</Type>
-<CardText>({T}: Add {B} or {G} to your mana pool.)
+<CardText>({T}: Add {B} or {G}.)
 As Overgrown Tomb enters the battlefield, you may pay 2 life. If you don't, Overgrown Tomb enters the battlefield tapped.</CardText>
 <Flavor>The best funeral shroud is the fabric of new life.</Flavor>
 <Artist>Steven Belledin</Artist>
@@ -4926,7 +4922,7 @@ As Overgrown Tomb enters the battlefield, you may pay 2 life. If you don't, Over
 <Name>Rakdos Guildgate</Name>
 <Type>Land — Gate</Type>
 <CardText>Rakdos Guildgate enters the battlefield tapped.
-{T}: Add {B} or {R} to your mana pool.</CardText>
+{T}: Add {B} or {R}.</CardText>
 <Flavor>Enter and indulge your darkest fantasies, for you may never pass this way again.</Flavor>
 <Artist>Eytan Zana</Artist>
 <Watermark>Rakdos</Watermark>
@@ -4945,7 +4941,7 @@ As Overgrown Tomb enters the battlefield, you may pay 2 life. If you don't, Over
 <No>245</No>
 <Name>Rogue's Passage</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {4}, {T}: Target creature can't be blocked this turn.</CardText>
 <Flavor>Rumors quickly spread among thieves about a labyrinth without walls and a prize beyond all measures of worth.</Flavor>
 <Artist>Christine Choi</Artist>
@@ -4964,7 +4960,7 @@ As Overgrown Tomb enters the battlefield, you may pay 2 life. If you don't, Over
 <Name>Selesnya Guildgate</Name>
 <Type>Land — Gate</Type>
 <CardText>Selesnya Guildgate enters the battlefield tapped.
-{T}: Add {G} or {W} to your mana pool.</CardText>
+{T}: Add {G} or {W}.</CardText>
 <Flavor>Enter and rejoice! The Conclave stands united, open to one and all.</Flavor>
 <Artist>Howard Lyon</Artist>
 <Watermark>Selesnya</Watermark>
@@ -4983,7 +4979,7 @@ As Overgrown Tomb enters the battlefield, you may pay 2 life. If you don't, Over
 <No>247</No>
 <Name>Steam Vents</Name>
 <Type>Land — Island Mountain</Type>
-<CardText>({T}: Add {U} or {R} to your mana pool.)
+<CardText>({T}: Add {U} or {R}.)
 As Steam Vents enters the battlefield, you may pay 2 life. If you don't, Steam Vents enters the battlefield tapped.</CardText>
 <Flavor>Crafted with genius, energized with madness.</Flavor>
 <Artist>Yeong-Hao Han</Artist>
@@ -5004,7 +5000,7 @@ As Steam Vents enters the battlefield, you may pay 2 life. If you don't, Steam V
 <No>248</No>
 <Name>Temple Garden</Name>
 <Type>Land — Forest Plains</Type>
-<CardText>({T}: Add {G} or {W} to your mana pool.)
+<CardText>({T}: Add {G} or {W}.)
 As Temple Garden enters the battlefield, you may pay 2 life. If you don't, Temple Garden enters the battlefield tapped.</CardText>
 <Flavor>In the gardens of the Conclave, order and beauty are the roots of power.</Flavor>
 <Artist>Volkan Baga</Artist>
@@ -5027,7 +5023,7 @@ As Temple Garden enters the battlefield, you may pay 2 life. If you don't, Templ
 <Type>Land</Type>
 <CardText>Transguild Promenade enters the battlefield tapped.
 When Transguild Promenade enters the battlefield, sacrifice it unless you pay {1}.
-{T}: Add one mana of any color to your mana pool.</CardText>
+{T}: Add one mana of any color.</CardText>
 <Artist>Noah Bradley</Artist>
 <Multiverseid>253550</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5042,7 +5038,7 @@ When Transguild Promenade enters the battlefield, sacrifice it unless you pay {1
 <No>250</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>289310</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5057,7 +5053,7 @@ When Transguild Promenade enters the battlefield, sacrifice it unless you pay {1
 <No>251</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Yeong-Hao Han</Artist>
 <Multiverseid>289311</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5072,7 +5068,7 @@ When Transguild Promenade enters the battlefield, sacrifice it unless you pay {1
 <No>252</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>289309</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5087,7 +5083,7 @@ When Transguild Promenade enters the battlefield, sacrifice it unless you pay {1
 <No>253</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Richard Wright</Artist>
 <Multiverseid>289312</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5102,7 +5098,7 @@ When Transguild Promenade enters the battlefield, sacrifice it unless you pay {1
 <No>254</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Richard Wright</Artist>
 <Multiverseid>333721</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5117,7 +5113,7 @@ When Transguild Promenade enters the battlefield, sacrifice it unless you pay {1
 <No>255</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>289316</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5132,7 +5128,7 @@ When Transguild Promenade enters the battlefield, sacrifice it unless you pay {1
 <No>256</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Yeong-Hao Han</Artist>
 <Multiverseid>289315</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5147,7 +5143,7 @@ When Transguild Promenade enters the battlefield, sacrifice it unless you pay {1
 <No>257</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>289313</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5162,7 +5158,7 @@ When Transguild Promenade enters the battlefield, sacrifice it unless you pay {1
 <No>258</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Richard Wright</Artist>
 <Multiverseid>289314</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5177,7 +5173,7 @@ When Transguild Promenade enters the battlefield, sacrifice it unless you pay {1
 <No>259</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Richard Wright</Artist>
 <Multiverseid>333719</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5192,7 +5188,7 @@ When Transguild Promenade enters the battlefield, sacrifice it unless you pay {1
 <No>260</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>289317</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5207,7 +5203,7 @@ When Transguild Promenade enters the battlefield, sacrifice it unless you pay {1
 <No>261</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Yeong-Hao Han</Artist>
 <Multiverseid>289320</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5222,7 +5218,7 @@ When Transguild Promenade enters the battlefield, sacrifice it unless you pay {1
 <No>262</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>289318</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5237,7 +5233,7 @@ When Transguild Promenade enters the battlefield, sacrifice it unless you pay {1
 <No>263</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Richard Wright</Artist>
 <Multiverseid>289319</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5252,7 +5248,7 @@ When Transguild Promenade enters the battlefield, sacrifice it unless you pay {1
 <No>264</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Richard Wright</Artist>
 <Multiverseid>333722</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5267,7 +5263,7 @@ When Transguild Promenade enters the battlefield, sacrifice it unless you pay {1
 <No>265</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>289321</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5282,7 +5278,7 @@ When Transguild Promenade enters the battlefield, sacrifice it unless you pay {1
 <No>266</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Yeong-Hao Han</Artist>
 <Multiverseid>289324</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5297,7 +5293,7 @@ When Transguild Promenade enters the battlefield, sacrifice it unless you pay {1
 <No>267</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>289322</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5312,7 +5308,7 @@ When Transguild Promenade enters the battlefield, sacrifice it unless you pay {1
 <No>268</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Richard Wright</Artist>
 <Multiverseid>289323</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5327,7 +5323,7 @@ When Transguild Promenade enters the battlefield, sacrifice it unless you pay {1
 <No>269</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Richard Wright</Artist>
 <Multiverseid>333720</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5342,7 +5338,7 @@ When Transguild Promenade enters the battlefield, sacrifice it unless you pay {1
 <No>270</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>289325</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5357,7 +5353,7 @@ When Transguild Promenade enters the battlefield, sacrifice it unless you pay {1
 <No>271</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Yeong-Hao Han</Artist>
 <Multiverseid>289326</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5372,7 +5368,7 @@ When Transguild Promenade enters the battlefield, sacrifice it unless you pay {1
 <No>272</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>289328</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5387,7 +5383,7 @@ When Transguild Promenade enters the battlefield, sacrifice it unless you pay {1
 <No>273</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Richard Wright</Artist>
 <Multiverseid>289327</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5402,7 +5398,7 @@ When Transguild Promenade enters the battlefield, sacrifice it unless you pay {1
 <No>274</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Richard Wright</Artist>
 <Multiverseid>333718</Multiverseid>
 <Vintage>Legal</Vintage>

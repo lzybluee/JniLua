@@ -6,10 +6,10 @@
 <ManaCost>1UU (3)</ManaCost>
 <CardText>+2: Each player draws a card.
 -1: Target player draws a card.
--10: Target player puts the top twenty cards of his or her library into his or her graveyard.</CardText>
+-10: Target player puts the top twenty cards of their library into their graveyard.</CardText>
 <Artist>Kev Walker</Artist>
 <Multiverseid>185816</Multiverseid>
-<Rulings>2009/10/01: If there are fewer than twenty cards in the targeted player's library, that player puts all the cards from his or her library into his or her graveyard.</Rulings>
+<Rulings>2009/10/01: If there are fewer than twenty cards in the targeted player's library, that player puts all the cards from their library into their graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -101,7 +101,10 @@ When Willbender is turned face up, change the target of target spell or ability 
 <Artist>Eric Peterson</Artist>
 <Multiverseid>189252</Multiverseid>
 <Rulings>2004/10/04: The trigger occurs when you use the Morph ability to turn the card face up, or when an effect turns it face up. It will not trigger on being revealed or on leaving the battlefield.
-2013/04/15: If a spell with split second is on the stack, you can still respond by turning this creature face up and targeting that spell with the trigger. This is because split second only stops players from casting spells or activating abilities, while turning a creature face up is a special action.</Rulings>
+2013/04/15: If a spell with split second is on the stack, you can still respond by turning this creature face up and targeting that spell with the trigger. This is because split second only stops players from casting spells or activating abilities, while turning a creature face up is a special action.
+2018/03/16: You don't choose the new target for the spell until <Willbender>'s triggered ability resolves. You must change the target if possible. However, you can't change the target to an illegal target. If there are no legal targets to choose from, the target isn't changed. It doesn't matter if the original target of that spell has somehow become illegal itself.
+2018/03/16: If a spell or ability targets multiple things, you can't target it with <Willbender>'s triggered ability, even if all but one of those targets have become illegal.
+2018/03/16: If a spell or ability targets the same player or object multiple times, you can't target it with <Willbender>'s ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -167,7 +170,7 @@ When Willbender is turned face up, change the target of target spell or ability 
 <Type>Creature — Beast 2/2</Type>
 <ManaCost>3U (4)</ManaCost>
 <CardText>Flying
-{T}: Fledgling Mawcor deals 1 damage to target creature or player.
+{T}: Fledgling Mawcor deals 1 damage to any target.
 Morph {U}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)</CardText>
 <Artist>Kev Walker</Artist>
 <Multiverseid>189248</Multiverseid>
@@ -250,7 +253,7 @@ When Guile is put into a graveyard from anywhere, shuffle it into its owner's li
 2007/10/01: The last ability triggers when the Incarnation is put into its owner's graveyard from any zone, not just from on the battlefield.
 2007/10/01: Although this ability triggers when the Incarnation is put into a graveyard from the battlefield, it doesn't *specifically* trigger on leaving the battlefield, so it doesn't behave like other leaves-the-battlefield abilities. The ability will trigger from the graveyard.
 2007/10/01: If the Incarnation had lost this ability while on the battlefield (due to Lignify, for example) and then was destroyed, the ability would still trigger and it would get shuffled into its owner's library. However, if the Incarnation lost this ability when it was put into the graveyard (due to Yixlid Jailer, for example), the ability wouldn't trigger and the Incarnation would remain in the graveyard.
-2007/10/01: If the Incarnation is removed from the graveyard after the ability triggers but before it resolves, it will remain in its new zone when its owner shuffles his or her library. Similarly, if a replacement effect has the Incarnation move to a different zone instead of being put into the graveyard, the ability won't trigger at all.</Rulings>
+2007/10/01: If the Incarnation is removed from the graveyard after the ability triggers but before it resolves, it will remain in its new zone when its owner shuffles their library. Similarly, if a replacement effect has the Incarnation move to a different zone instead of being put into the graveyard, the ability won't trigger at all.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -329,11 +332,11 @@ Evoke {1}{U}{U} (You may cast this spell for its evoke cost. If you do, it's sac
 <Type>Creature — Elemental 5/4</Type>
 <ManaCost>4UU (6)</ManaCost>
 <CardText>Morph {5}{U}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
-When Brine Elemental is turned face up, each opponent skips his or her next untap step.</CardText>
+When Brine Elemental is turned face up, each opponent skips their next untap step.</CardText>
 <Flavor>Water calls to water, and the world is left exhausted and withered in its wake.</Flavor>
 <Artist>Stephen Tappin</Artist>
 <Multiverseid>189245</Multiverseid>
-<Rulings>2006/09/25: Skipping the "next" step is cumulative. If a player turns two <Brine Elemental>s face up on the same turn, that player's opponents will each skip their next two untap steps.</Rulings>
+<Rulings>2018/03/16: Skipping your "next" untap step is cumulative. If a player turns two <Brine Elemental>s face up on the same turn, that player's opponents will each skip their next two untap steps.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -420,7 +423,7 @@ Target player draws three cards.</CardText>
 <Name>Mind Stone</Name>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {1}, {T}, Sacrifice Mind Stone: Draw a card.</CardText>
 <Flavor>"What is mana but possibility, an idea not yet given form?"
 —Jhoira, master artificer</Flavor>
@@ -439,7 +442,7 @@ Target player draws three cards.</CardText>
 <Name>Daze</Name>
 <Type>Instant</Type>
 <ManaCost>1U (2)</ManaCost>
-<CardText>You may return an Island you control to its owner's hand rather than pay Daze's mana cost.
+<CardText>You may return an Island you control to its owner's hand rather than pay this spell's mana cost.
 Counter target spell unless its controller pays {1}.</CardText>
 <Artist>Matthew D. Wilson</Artist>
 <Multiverseid>189255</Multiverseid>
@@ -507,7 +510,7 @@ Draw a card.</CardText>
 <Name>Gush</Name>
 <Type>Instant</Type>
 <ManaCost>4U (5)</ManaCost>
-<CardText>You may return two Islands you control to their owner's hand rather than pay Gush's mana cost.
+<CardText>You may return two Islands you control to their owner's hand rather than pay this spell's mana cost.
 Draw two cards.</CardText>
 <Flavor>Don't trust your secrets to the sea.</Flavor>
 <Artist>Kev Walker</Artist>
@@ -541,7 +544,7 @@ Draw two cards.</CardText>
 <No>29</No>
 <Name>Terrain Generator</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {2}, {T}: You may put a basic land card from your hand onto the battlefield tapped.</CardText>
 <Artist>Alan Pollack</Artist>
 <Multiverseid>189256</Multiverseid>
@@ -558,7 +561,7 @@ Draw two cards.</CardText>
 <No>30</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>190588</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -573,7 +576,7 @@ Draw two cards.</CardText>
 <No>31</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Scott Bailey</Artist>
 <Multiverseid>190583</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -588,7 +591,7 @@ Draw two cards.</CardText>
 <No>32</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Donato Giancola</Artist>
 <Multiverseid>190590</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -603,7 +606,7 @@ Draw two cards.</CardText>
 <No>33</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>190589</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -619,9 +622,9 @@ Draw two cards.</CardText>
 <Name>Chandra Nalaar</Name>
 <Type>Legendary Planeswalker — Chandra (Loyalty: 6)</Type>
 <ManaCost>3RR (5)</ManaCost>
-<CardText>+1: Chandra Nalaar deals 1 damage to target player.
+<CardText>+1: Chandra Nalaar deals 1 damage to target player or planeswalker.
 -X: Chandra Nalaar deals X damage to target creature.
--8: Chandra Nalaar deals 10 damage to target player and each creature he or she controls.</CardText>
+-8: Chandra Nalaar deals 10 damage to target player or planeswalker and each creature that player or that planeswalker's controller controls.</CardText>
 <Artist>Kev Walker</Artist>
 <Multiverseid>185815</Multiverseid>
 <Rulings>2007/10/01: To activate the second ability, you choose a value of X equal to or less than the number of loyalty counters on <Chandra Nalaar>. You may choose 0. You can't choose a negative number.</Rulings>
@@ -655,7 +658,7 @@ Draw two cards.</CardText>
 <Name>Fireslinger</Name>
 <Type>Creature — Human Wizard 1/1</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>{T}: Fireslinger deals 1 damage to target creature or player and 1 damage to you.</CardText>
+<CardText>{T}: Fireslinger deals 1 damage to any target and 1 damage to you.</CardText>
 <Flavor>"Remember the moral of the fireslinger fable: with power comes isolation."
 —Karn, silver golem</Flavor>
 <Artist>Jeff Reitz</Artist>
@@ -672,14 +675,13 @@ Draw two cards.</CardText>
 <Name>Soulbright Flamekin</Name>
 <Type>Creature — Elemental Shaman 2/1</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>{2}: Target creature gains trample until end of turn. If this is the third time this ability has resolved this turn, you may add {R}{R}{R}{R}{R}{R}{R}{R} to your mana pool.</CardText>
+<CardText>{2}: Target creature gains trample until end of turn. If this is the third time this ability has resolved this turn, you may add {R}{R}{R}{R}{R}{R}{R}{R}.</CardText>
 <Flavor>When provoked, a flamekin's inner fire burns far hotter than any giant's forge.</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>189218</Multiverseid>
-<Rulings>2007/10/01: <Soulbright Flamekin>'s ability uses the stack and can be responded to. It's not a mana ability because it has a target.
-2007/10/01: Counts resolutions, not activations. Any such abilities that are still on the stack won't count toward the total.
-2007/10/01: When the ability resolves, it counts the number of times that same ability from that this creature has already resolved that turn. It doesn't matter who controlled the creature or the previous abilities when they resolved. A copy of this ability (created by Rings of Brighthearth, for example) will count toward the total. Abilities from other creatures with the same name don't count towards the total. Neither does an ability that's been countered.
-2007/10/01: You get the bonus only the third time the ability resolves. You won't get the bonus the fourth, fifth, sixth, or any subsequent times.</Rulings>
+<Rulings>2018/03/16: You add eight red mana only the third time <Soulbright Flamekin>'s ability resolves in a turn. You won't get the bonus the fourth, fifth, sixth, or any subsequent times in that same turn.
+2018/03/16: When <Soulbright Flamekin>'s ability resolves, it counts the number of times that same ability from that same creature has already resolved that turn. A copy of this ability (created by Rings of Brighthearth, for example) will count toward the total. Abilities from other creatures with the same name don't count towards the total. Neither does an ability that's been countered.
+2018/03/16: <Soulbright Flamekin>'s ability uses the stack and can be responded to. Because it has a target, it's not a mana ability, even if you know that it will produce mana.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -729,7 +731,7 @@ Whenever Slith Firewalker deals combat damage to a player, put a +1/+1 counter o
 <Name>Flamewave Invoker</Name>
 <Type>Creature — Goblin Mutant 2/2</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>{7}{R}: Flamewave Invoker deals 5 damage to target player.</CardText>
+<CardText>{7}{R}: Flamewave Invoker deals 5 damage to target player or planeswalker.</CardText>
 <Flavor>Inside even the humblest goblin lurks the potential for far greater things—and far worse.</Flavor>
 <Artist>Dave Dorman</Artist>
 <Multiverseid>189226</Multiverseid>
@@ -881,11 +883,10 @@ If a spell you control would deal damage to an opponent, prevent that damage. Cr
 When Hostility is put into a graveyard from anywhere, shuffle it into its owner's library.</CardText>
 <Artist>Omar Rayyan</Artist>
 <Multiverseid>189214</Multiverseid>
-<Rulings>2007/10/01: If a spell you control would deal damage to an opponent and that opponent controls a planeswalker, that opponent chooses which of your effects to apply first. — If that player chooses to apply <Hostility>'s effect first, the damage is prevented, you put some tokens onto the battlefield, and the planeswalker redirection effect is moot because there's no damage to redirect. — If that player chooses to apply the planeswalker redirection effect first, you have a choice. You can redirect the damage to the planeswalker (in which case <Hostility>'s prevention effect is moot because nothing's dealing damage to the player anymore) or you can have your spell continue to deal damage to the opponent. If you choose the latter, <Hostility>'s effect then applies, the damage is prevented, and you get the tokens.
-2007/10/01: The last ability triggers when the Incarnation is put into its owner's graveyard from any zone, not just from on the battlefield.
+<Rulings>2007/10/01: The last ability triggers when the Incarnation is put into its owner's graveyard from any zone, not just from on the battlefield.
 2007/10/01: Although this ability triggers when the Incarnation is put into a graveyard from the battlefield, it doesn't *specifically* trigger on leaving the battlefield, so it doesn't behave like other leaves-the-battlefield abilities. The ability will trigger from the graveyard.
 2007/10/01: If the Incarnation had lost this ability while on the battlefield (due to Lignify, for example) and then was destroyed, the ability would still trigger and it would get shuffled into its owner's library. However, if the Incarnation lost this ability when it was put into the graveyard (due to Yixlid Jailer, for example), the ability wouldn't trigger and the Incarnation would remain in the graveyard.
-2007/10/01: If the Incarnation is removed from the graveyard after the ability triggers but before it resolves, it will remain in its new zone when its owner shuffles his or her library. Similarly, if a replacement effect has the Incarnation move to a different zone instead of being put into the graveyard, the ability won't trigger at all.</Rulings>
+2007/10/01: If the Incarnation is removed from the graveyard after the ability triggers but before it resolves, it will remain in its new zone when its owner shuffles their library. Similarly, if a replacement effect has the Incarnation move to a different zone instead of being put into the graveyard, the ability won't trigger at all.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -899,7 +900,7 @@ When Hostility is put into a graveyard from anywhere, shuffle it into its owner'
 <Name>Firebolt</Name>
 <Type>Sorcery</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>Firebolt deals 2 damage to target creature or player.
+<CardText>Firebolt deals 2 damage to any target.
 Flashback {4}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</CardText>
 <Flavor>Reach out and torch someone.</Flavor>
 <Artist>Ron Spencer</Artist>
@@ -916,7 +917,7 @@ Flashback {4}{R} (You may cast this card from your graveyard for its flashback c
 <Name>Seal of Fire</Name>
 <Type>Enchantment</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>Sacrifice Seal of Fire: Seal of Fire deals 2 damage to target creature or player.</CardText>
+<CardText>Sacrifice Seal of Fire: It deals 2 damage to any target.</CardText>
 <Flavor>After the fourth time Chandra left a place engulfed in flames, she decided to just go ahead and make it her thing.</Flavor>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>185817</Multiverseid>
@@ -933,7 +934,7 @@ Flashback {4}{R} (You may cast this card from your graveyard for its flashback c
 <Name>Incinerate</Name>
 <Type>Instant</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>Incinerate deals 3 damage to target creature or player. A creature dealt damage this way can't be regenerated this turn.</CardText>
+<CardText>Incinerate deals 3 damage to any target. A creature dealt damage this way can't be regenerated this turn.</CardText>
 <Flavor>"Who said there are no assurances in life? I assure you this is going to hurt."</Flavor>
 <Artist>Steve Prescott</Artist>
 <Multiverseid>185818</Multiverseid>
@@ -951,13 +952,13 @@ Flashback {4}{R} (You may cast this card from your graveyard for its flashback c
 <Name>Magma Jet</Name>
 <Type>Instant</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>Magma Jet deals 2 damage to target creature or player. Scry 2.</CardText>
+<CardText>Magma Jet deals 2 damage to any target. Scry 2.</CardText>
 <Artist>Justin Sweet</Artist>
 <Multiverseid>189238</Multiverseid>
 <Rulings>2013/09/15: When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
 2013/09/15: You choose how to order cards returned to your library after scrying no matter where you put them.
 2013/09/15: You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
-2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it will be countered and none of its effects will happen. You won't scry.</Rulings>
+2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -972,7 +973,7 @@ Flashback {4}{R} (You may cast this card from your graveyard for its flashback c
 <Type>Instant</Type>
 <ManaCost>{2/R}{2/R}{2/R} (6)</ManaCost>
 <CardText>({2/R} can be paid with any two mana or with {R}. This card's converted mana cost is 6.)
-Flame Javelin deals 4 damage to target creature or player.</CardText>
+Flame Javelin deals 4 damage to any target.</CardText>
 <Flavor>Gyara Spearhurler would have been renowned for her deadly accuracy, if it weren't for her deadly accuracy.</Flavor>
 <Artist>Trevor Hairsine</Artist>
 <Multiverseid>189220</Multiverseid>
@@ -993,7 +994,7 @@ Flame Javelin deals 4 damage to target creature or player.</CardText>
 <Name>Cone of Flame</Name>
 <Type>Sorcery</Type>
 <ManaCost>3RR (5)</ManaCost>
-<CardText>Cone of Flame deals 1 damage to target creature or player, 2 damage to another target creature or player, and 3 damage to a third target creature or player.</CardText>
+<CardText>Cone of Flame deals 1 damage to any target, 2 damage to another target, and 3 damage to a third target.</CardText>
 <Artist>Chippy</Artist>
 <Multiverseid>189225</Multiverseid>
 <Rulings>2014/07/18: Each of the three targets must be different. If there aren't three different legal targets available, you can't cast the spell.
@@ -1011,8 +1012,8 @@ Flame Javelin deals 4 damage to target creature or player.</CardText>
 <Name>Fireblast</Name>
 <Type>Instant</Type>
 <ManaCost>4RR (6)</ManaCost>
-<CardText>You may sacrifice two Mountains rather than pay Fireblast's mana cost.
-Fireblast deals 4 damage to target creature or player.</CardText>
+<CardText>You may sacrifice two Mountains rather than pay this spell's mana cost.
+Fireblast deals 4 damage to any target.</CardText>
 <Flavor>Embermages aren't well known for their diplomatic skills.</Flavor>
 <Artist>Michael Danza</Artist>
 <Multiverseid>189239</Multiverseid>
@@ -1028,8 +1029,8 @@ Fireblast deals 4 damage to target creature or player.</CardText>
 <Name>Fireball</Name>
 <Type>Sorcery</Type>
 <ManaCost>XR (1)</ManaCost>
-<CardText>Fireball deals X damage divided evenly, rounded down, among any number of target creatures and/or players.
-Fireball costs {1} more to cast for each target beyond the first.</CardText>
+<CardText>This spell costs {1} more to cast for each target beyond the first.
+Fireball deals X damage divided evenly, rounded down, among any number of targets.</CardText>
 <Flavor>The spell fell upon the crowd like a dragon, ancient and full of death.</Flavor>
 <Artist>Dave Dorman</Artist>
 <Multiverseid>189231</Multiverseid>
@@ -1050,8 +1051,8 @@ Fireball costs {1} more to cast for each target beyond the first.</CardText>
 <Name>Demonfire</Name>
 <Type>Sorcery</Type>
 <ManaCost>XR (1)</ManaCost>
-<CardText>Demonfire deals X damage to target creature or player. If a creature dealt damage this way would die this turn, exile it instead.
-Hellbent — If you have no cards in hand, Demonfire can't be countered by spells or abilities and the damage can't be prevented.</CardText>
+<CardText>Demonfire deals X damage to any target. If a creature dealt damage this way would die this turn, exile it instead.
+Hellbent — If you have no cards in hand, this spell can't be countered and the damage can't be prevented.</CardText>
 <Artist>Greg Staples</Artist>
 <Multiverseid>189229</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1067,8 +1068,8 @@ Hellbent — If you have no cards in hand, Demonfire can't be countered by spell
 <Name>Keldon Megaliths</Name>
 <Type>Land</Type>
 <CardText>Keldon Megaliths enters the battlefield tapped.
-{T}: Add {R} to your mana pool.
-Hellbent — {1}{R}, {T}: Keldon Megaliths deals 1 damage to target creature or player. Activate this ability only if you have no cards in hand.</CardText>
+{T}: Add {R}.
+Hellbent — {1}{R}, {T}: Keldon Megaliths deals 1 damage to any target. Activate this ability only if you have no cards in hand.</CardText>
 <Artist>Philip Straub</Artist>
 <Multiverseid>189242</Multiverseid>
 <Rulings>2007/05/01: It doesn't matter how many cards you have in your hand when the ability resolves.</Rulings>
@@ -1084,7 +1085,7 @@ Hellbent — {1}{R}, {T}: Keldon Megaliths deals 1 damage to target creature or 
 <No>59</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>190584</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1099,7 +1100,7 @@ Hellbent — {1}{R}, {T}: Keldon Megaliths deals 1 damage to target creature or 
 <No>60</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>190586</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1114,7 +1115,7 @@ Hellbent — {1}{R}, {T}: Keldon Megaliths deals 1 damage to target creature or 
 <No>61</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Greg Staples</Artist>
 <Multiverseid>190587</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1129,7 +1130,7 @@ Hellbent — {1}{R}, {T}: Keldon Megaliths deals 1 damage to target creature or 
 <No>62</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>190585</Multiverseid>
 <Vintage>Legal</Vintage>

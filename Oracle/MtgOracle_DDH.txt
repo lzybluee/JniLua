@@ -5,7 +5,7 @@
 <Type>Legendary Planeswalker — Ajani (Loyalty: 3)</Type>
 <ManaCost>2WR (4)</ManaCost>
 <CardText>+1: Target permanent doesn't untap during its controller's next untap step.
--2: Ajani Vengeant deals 3 damage to target creature or player and you gain 3 life.
+-2: Ajani Vengeant deals 3 damage to any target and you gain 3 life.
 -7: Destroy all lands target player controls.</CardText>
 <Artist>Izzy</Artist>
 <Multiverseid>266299</Multiverseid>
@@ -282,7 +282,7 @@ Evoke {1}{G} (You may cast this spell for its evoke cost. If you do, it's sacrif
 <Name>Spitemare</Name>
 <Type>Creature — Elemental 3/3</Type>
 <ManaCost>2{R/W}{R/W} (4)</ManaCost>
-<CardText>Whenever Spitemare is dealt damage, it deals that much damage to target creature or player.</CardText>
+<CardText>Whenever Spitemare is dealt damage, it deals that much damage to any target.</CardText>
 <Flavor>"I knew a creature carved from a dream of wild freedom. Any attempt to leash or exploit it failed, and at terrible cost."
 —Ashling</Flavor>
 <Artist>Matt Cavotta</Artist>
@@ -340,10 +340,9 @@ Evoke {1}{G} (You may cast this spell for its evoke cost. If you do, it's sacrif
 <Flavor>There's only one thing worse than a hungry lion—many hungry lions.</Flavor>
 <Artist>Carl Critchlow</Artist>
 <Multiverseid>249371</Multiverseid>
-<Rulings>2008/04/01: If this creature is attacking a planeswalker, assigning its damage as though it weren't blocked means the damage is assigned to the planeswalker, not to the defending player.
-2008/04/01: When assigning combat damage, you choose whether you want to assign all damage to blocking creatures, or if you want to assign all of it to the defending player or planeswalker. You can't split the damage assignment between them.
-2008/04/01: You can decide to assign damage to the defending player or planeswalker even if the blocking creature has protection from green or damage preventing effects on it.
-2008/04/01: If blocked by a creature with banding, the defending player decides whether or not the damage is assigned "as though it weren't blocked".</Rulings>
+<Rulings>2018/04/27: You can decide to assign damage to the defending player or planeswalker even if the blocking creature has protection from green or damage preventing effects on it.
+2018/04/27: When assigning combat damage, you choose whether you want to assign all damage to blocking creatures, or if you want to assign all of it to the player or planeswalker this creature is attacking. You can't split the damage assignment between them.
+2018/04/27: If blocked by a creature with banding, the defending player decides whether or not the damage is assigned "as though it weren't blocked".</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Duel Decks: Ajani vs. Nicol Bolas</Set>
@@ -414,12 +413,12 @@ At the beginning of your upkeep, if Firemane Angel is in your graveyard or on th
 <Name>Lightning Helix</Name>
 <Type>Instant</Type>
 <ManaCost>WR (2)</ManaCost>
-<CardText>Lightning Helix deals 3 damage to target creature or player and you gain 3 life.</CardText>
+<CardText>Lightning Helix deals 3 damage to any target and you gain 3 life.</CardText>
 <Flavor>"Rage is not the answer. Rage followed by fitting vengeance is the answer."
 —Ajani</Flavor>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>249386</Multiverseid>
-<Rulings>2017/11/17: If the chosen target is illegal when <Lightning Helix> tries to resolve, it will be countered and none of its effects will happen. You won't gain 3 life.</Rulings>
+<Rulings>2017/11/17: If the chosen target is illegal when <Lightning Helix> tries to resolve, it won't resolve and none of its effects will happen. You won't gain 3 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -488,7 +487,7 @@ At the beginning of your upkeep, you may gain 1 life.</CardText>
 <Name>Searing Meditation</Name>
 <Type>Enchantment</Type>
 <ManaCost>1WR (3)</ManaCost>
-<CardText>Whenever you gain life, you may pay {2}. If you do, Searing Meditation deals 2 damage to target creature or player.</CardText>
+<CardText>Whenever you gain life, you may pay {2}. If you do, Searing Meditation deals 2 damage to any target.</CardText>
 <Flavor>"When I meditate I see the world as it should be. All that does not fit, I remove."
 —Alovnek, Boros guildmage</Flavor>
 <Artist>Dave Dorman</Artist>
@@ -551,7 +550,7 @@ Equip {3}</CardText>
 <Type>Instant</Type>
 <ManaCost>5G (6)</ManaCost>
 <CardText>Target player gains 8 life.
-Basic landcycling {1}{G} ({1}{G}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)</CardText>
+Basic landcycling {1}{G} ({1}{G}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.)</CardText>
 <Flavor>Some who scouted new lands chose to stay.</Flavor>
 <Artist>Chris Rahn</Artist>
 <Multiverseid>249392</Multiverseid>
@@ -610,7 +609,7 @@ Basic landcycling {1}{G} ({1}{G}, Discard this card: Search your library for a b
 <Type>Land</Type>
 <CardText>Graypelt Refuge enters the battlefield tapped.
 When Graypelt Refuge enters the battlefield, you gain 1 life.
-{T}: Add {G} or {W} to your mana pool.</CardText>
+{T}: Add {G} or {W}.</CardText>
 <Artist>Philip Straub</Artist>
 <Multiverseid>249379</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -626,7 +625,7 @@ When Graypelt Refuge enters the battlefield, you gain 1 life.
 <Name>Jungle Shrine</Name>
 <Type>Land</Type>
 <CardText>Jungle Shrine enters the battlefield tapped.
-{T}: Add {R}, {G}, or {W} to your mana pool.</CardText>
+{T}: Add {R}, {G}, or {W}.</CardText>
 <Flavor>On Naya, ambition and treachery are scarce, hunted nearly to extinction by the awe owed to terrestrial gods.</Flavor>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>249403</Multiverseid>
@@ -644,7 +643,7 @@ When Graypelt Refuge enters the battlefield, you gain 1 life.
 <Type>Land</Type>
 <CardText>Kazandu Refuge enters the battlefield tapped.
 When Kazandu Refuge enters the battlefield, you gain 1 life.
-{T}: Add {R} or {G} to your mana pool.</CardText>
+{T}: Add {R} or {G}.</CardText>
 <Artist>Franz Vohwinkel</Artist>
 <Multiverseid>249402</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -659,7 +658,7 @@ When Kazandu Refuge enters the battlefield, you gain 1 life.
 <No>36</No>
 <Name>Sapseep Forest</Name>
 <Type>Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)
+<CardText>({T}: Add {G}.)
 Sapseep Forest enters the battlefield tapped.
 {G}, {T}: You gain 1 life. Activate this ability only if you control two or more green permanents.</CardText>
 <Artist>Aleksi Briclot</Artist>
@@ -676,7 +675,7 @@ Sapseep Forest enters the battlefield tapped.
 <No>37</No>
 <Name>Vitu-Ghazi, the City-Tree</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {2}{G}{W}, {T}: Create a 1/1 green Saproling creature token.</CardText>
 <Flavor>In the autumn, she casts her seeds across the streets below, and come spring, her children rise in service to the Conclave.</Flavor>
 <Artist>Martina Pilcerova</Artist>
@@ -693,7 +692,7 @@ Sapseep Forest enters the battlefield tapped.
 <No>38</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Multiverseid>262651</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -708,7 +707,7 @@ Sapseep Forest enters the battlefield tapped.
 <No>39</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Multiverseid>259285</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -723,7 +722,7 @@ Sapseep Forest enters the battlefield tapped.
 <No>40</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Multiverseid>249376</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -738,7 +737,7 @@ Sapseep Forest enters the battlefield tapped.
 <No>41</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Multiverseid>259284</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -756,12 +755,12 @@ Sapseep Forest enters the battlefield tapped.
 <ManaCost>4UBBR (8)</ManaCost>
 <CardText>+3: Destroy target noncreature permanent.
 -2: Gain control of target creature.
--9: Nicol Bolas, Planeswalker deals 7 damage to target player. That player discards seven cards, then sacrifices seven permanents.</CardText>
+-9: Nicol Bolas, Planeswalker deals 7 damage to target player or planeswalker. That player or that planeswalker's controller discards seven cards, then sacrifices seven permanents.</CardText>
 <Artist>Izzy</Artist>
 <Multiverseid>266154</Multiverseid>
 <Rulings>2009/02/01: The control-change effect has no duration. It will last until the game ends or the affected creature leaves the battlefield. It may be superseded by a later control-change effect.
 2012/07/01: If the damage from Nicol Bolas's third ability is prevented or redirected, the rest of the effect will still happen. Specifically, the number of cards discarded and permanents sacrificed isn't tied to the amount of damage dealt.
-2012/07/01: For the third ability, if the player is an illegal target when the ability tries to resolve, the ability is countered and none of its effects will happen. No damage will be dealt, no cards will be discarded, and no permanents will be sacrificed.</Rulings>
+2012/07/01: For the third ability, if the player is an illegal target when the ability tries to resolve, the ability doesn't resolve and none of its effects will happen. No damage will be dealt, no cards will be discarded, and no permanents will be sacrificed.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -851,7 +850,7 @@ Unearth {2}{U} ({2}{U}: Return this card from your graveyard to the battlefield.
 <Name>Morgue Toad</Name>
 <Type>Creature — Frog 2/2</Type>
 <ManaCost>2B (3)</ManaCost>
-<CardText>Sacrifice Morgue Toad: Add {U}{R} to your mana pool.</CardText>
+<CardText>Sacrifice Morgue Toad: Add {U}{R}.</CardText>
 <Flavor>"The toads of Urborg aren't fast, powerful, or pleasant, but they have their uses."
 —Ertai</Flavor>
 <Artist>Franz Vohwinkel</Artist>
@@ -868,11 +867,11 @@ Unearth {2}{U} ({2}{U}: Return this card from your graveyard to the battlefield.
 <Name>Hellfire Mongrel</Name>
 <Type>Creature — Elemental Hound 2/2</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>At the beginning of each opponent's upkeep, if that player has two or fewer cards in hand, Hellfire Mongrel deals 2 damage to him or her.</CardText>
+<CardText>At the beginning of each opponent's upkeep, if that player has two or fewer cards in hand, Hellfire Mongrel deals 2 damage to that player.</CardText>
 <Flavor>There is no fondness between the hound and its master. There is only a common appreciation of the hunt.</Flavor>
 <Artist>Dan Scott</Artist>
 <Multiverseid>249408</Multiverseid>
-<Rulings>2009/10/01: <Hellfire Mongrel>'s triggered ability has an "intervening 'if' clause." That means (1) the ability won't trigger at all unless the opponent whose turn it is has two or fewer cards in hand as his or her upkeep starts, and (2) the ability will do nothing if that player has three or more cards in hand by the time it resolves.
+<Rulings>2009/10/01: <Hellfire Mongrel>'s triggered ability has an "intervening 'if' clause." That means (1) the ability won't trigger at all unless the opponent whose turn it is has two or fewer cards in hand as their upkeep starts, and (2) the ability will do nothing if that player has three or more cards in hand by the time it resolves.
 2009/10/01: In a Two-Headed Giant game, this ability will potentially trigger twice at the beginning of the opposing team's upkeep — once for each player on that team.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -904,7 +903,7 @@ Unearth {2}{U} ({2}{U}: Return this card from your graveyard to the battlefield.
 <Name>Steamcore Weird</Name>
 <Type>Creature — Weird 1/3</Type>
 <ManaCost>3U (4)</ManaCost>
-<CardText>When Steamcore Weird enters the battlefield, if {R} was spent to cast Steamcore Weird, it deals 2 damage to target creature or player.</CardText>
+<CardText>When Steamcore Weird enters the battlefield, if {R} was spent to cast Steamcore Weird, it deals 2 damage to any target.</CardText>
 <Flavor>Like many Izzet creations, weirds are based on wild contradictions yet somehow manage to work.</Flavor>
 <Artist>Justin Norman</Artist>
 <Multiverseid>259273</Multiverseid>
@@ -999,7 +998,7 @@ Evoke {1}{B} (You may cast this spell for its evoke cost. If you do, it's sacrif
 <ManaCost>4R (5)</ManaCost>
 <CardText>When Ogre Savant enters the battlefield, if {U} was spent to cast Ogre Savant, return target creature to its owner's hand.</CardText>
 <Flavor>He's an oxymoron.</Flavor>
-<Artist>Parente</Artist>
+<Artist>Paolo Parente</Artist>
 <Multiverseid>249387</Multiverseid>
 <Rulings>2006/02/01: If {U} was spent to cast <Ogre Savant> and no other creatures are on the battlefield, the Ogre will have to return itself.
 2006/02/01: The ability is not optional.</Rulings>
@@ -1017,7 +1016,7 @@ Evoke {1}{B} (You may cast this spell for its evoke cost. If you do, it's sacrif
 <Type>Creature — Zombie 2/4</Type>
 <ManaCost>4UB (6)</ManaCost>
 <CardText>Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)
-Islandcycling {2}, swampcycling {2} ({2}, Discard this card: Search your library for an Island or Swamp card, reveal it, and put it into your hand. Then shuffle your library.)</CardText>
+Islandcycling {2}, swampcycling {2} ({2}, Discard this card: Search your library for an Island or Swamp card, reveal it, put it into your hand, then shuffle your library.)</CardText>
 <Artist>Ash Wood</Artist>
 <Multiverseid>259277</Multiverseid>
 <Rulings>2009/05/01: Unlike the normal cycling ability, landcycling doesn't allow you to draw a card. Instead, it lets you search your library for a land card of the specified land type, reveal it, put it into your hand, then shuffle your library.
@@ -1039,7 +1038,7 @@ Islandcycling {2}, swampcycling {2} ({2}, Discard this card: Search your library
 <Type>Creature — Elemental 5/1</Type>
 <ManaCost>4BR (6)</ManaCost>
 <CardText>Haste
-Swampcycling {2}, mountaincycling {2} ({2}, Discard this card: Search your library for a Swamp or Mountain card, reveal it, and put it into your hand. Then shuffle your library.)</CardText>
+Swampcycling {2}, mountaincycling {2} ({2}, Discard this card: Search your library for a Swamp or Mountain card, reveal it, put it into your hand, then shuffle your library.)</CardText>
 <Artist>Chippy</Artist>
 <Multiverseid>249410</Multiverseid>
 <Rulings>2009/05/01: Unlike the normal cycling ability, landcycling doesn't allow you to draw a card. Instead, it lets you search your library for a land card of the specified land type, reveal it, put it into your hand, then shuffle your library.
@@ -1096,7 +1095,7 @@ Swampcycling {2}, mountaincycling {2} ({2}, Discard this card: Search your libra
 <Name>Obelisk of Grixis</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {U}, {B}, or {R} to your mana pool.</CardText>
+<CardText>{T}: Add {U}, {B}, or {R}.</CardText>
 <Flavor>Like most features of Grixis, the obelisks that remain from the time of Alara now exist only for dark exploitation.</Flavor>
 <Artist>Nils Hamm</Artist>
 <Multiverseid>259279</Multiverseid>
@@ -1173,11 +1172,7 @@ Swampcycling {2}, mountaincycling {2} ({2}, Discard this card: Search your libra
 <Flavor>In fire there is the spark of chaos and destruction, the seed of life. In ice there is perfect tranquility, perfect order, and the silence of death.</Flavor>
 <Artist>Matt Cavotta</Artist>
 <Multiverseid>249384</Multiverseid>
-<Rulings>2004/10/04: Tapping a card with an effect like this will never pay the cost of an ability. For example, tapping a land with this card will not put mana into a player's pool.
-2004/10/04: <Icy Manipulator> can't be used to stop someone from using an ability of the permanent you plan to tap. It can be used to make a player use the ability now or to not use it.
-2004/10/04: The ability can target a tapped card, but tapping a tapped card does nothing useful. And it will not trigger "if the card becomes tapped" effects.
-2004/10/04: If you want to stop someone from attacking with a creature by using this card, you must do so before attackers are declared. You can't wait until after attackers are declared and then try to use it to make a creature stop attacking. Note that your opponent can't start declaring attackers without letting you use the <Icy Manipulator>.
-2004/10/04: Tapping an attacking creature which did not tap to attack does not remove the creature from the attack or cause the creature to stop dealing damage.</Rulings>
+<Rulings>2018/04/27: Once a player announces that they're casting a spell or activating an ability, no player may take other actions until the spell or ability has been paid for. Notably, other players can't try to tap that player's permanents to stop them from paying {T} or to stop them from producing enough mana.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1209,7 +1204,7 @@ Flashback—{1}{U}, Pay 3 life. (You may cast this card from your graveyard for 
 <Type>Instant</Type>
 <ManaCost>3B (4)</ManaCost>
 <CardText>Kicker {1}{R} (You may pay an additional {1}{R} as you cast this spell.)
-Destroy target nonblack creature. It can't be regenerated. If Agonizing Demise was kicked, it deals damage equal to that creature's power to the creature's controller.</CardText>
+Destroy target nonblack creature. It can't be regenerated. If this spell was kicked, Agonizing Demise deals damage equal to that creature's power to the creature's controller.</CardText>
 <Artist>Mark Brill</Artist>
 <Multiverseid>259268</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1268,7 +1263,7 @@ Whenever enchanted creature deals damage to a player, that player discards two c
 <Artist>Ralph Horsley</Artist>
 <Multiverseid>259262</Multiverseid>
 <Rulings>2017/03/14: <Cruel Ultimatum>'s only target is an opponent. You don't choose which creature card in your graveyard you'll return to your hand until <Cruel Ultimatum> resolves.
-2017/03/14: All of the actions for <Cruel Ultimatum> are performed sequentially, in the order listed. Earlier actions may affect how you perform later actions. For example, if the opponent sacrifices a creature that he or she controls but you own, it will end up in your graveyard. When <Cruel Ultimatum> lets you return a creature card from your graveyard to your hand, you can choose that one.
+2017/03/14: All of the actions for <Cruel Ultimatum> are performed sequentially, in the order listed. Earlier actions may affect how you perform later actions. For example, if the opponent sacrifices a creature that they control but you own, it will end up in your graveyard. When <Cruel Ultimatum> lets you return a creature card from your graveyard to your hand, you can choose that one.
 2017/03/14: If, as <Cruel Ultimatum> begins to resolve, your opponent's life total is 5 or less and you have two or fewer cards in your library, the game will result in a draw. Your opponent's life total will drop to 0 or less, but <Cruel Ultimatum> must finish resolving completely before state-based actions are performed. You'll then be forced to draw three cards and fail to draw one. When state-based actions are finally performed, you and your opponent will both lose the game at the same time, which means the game is a draw.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1385,7 +1380,7 @@ Whenever enchanted creature deals damage to a player, that player discards two c
 <Name>Fall (Rise/Fall)</Name>
 <Type>Sorcery</Type>
 <ManaCost>BR (2)</ManaCost>
-<CardText>Target player reveals two cards at random from his or her hand, then discards each nonland card revealed this way.</CardText>
+<CardText>Target player reveals two cards at random from their hand, then discards each nonland card revealed this way.</CardText>
 <Artist>Pete Venters</Artist>
 <Multiverseid>259266</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1402,7 +1397,7 @@ Whenever enchanted creature deals damage to a player, that player discards two c
 <Name>Crumbling Necropolis</Name>
 <Type>Land</Type>
 <CardText>Crumbling Necropolis enters the battlefield tapped.
-{T}: Add {U}, {B}, or {R} to your mana pool.</CardText>
+{T}: Add {U}, {B}, or {R}.</CardText>
 <Flavor>"They say the ruins of Sedraxis were once a shining capital in Vithia. Now it is a blight, a place to be avoided by the living."
 —Olcot, Rider of Joffik</Flavor>
 <Artist>Dave Kendall</Artist>
@@ -1421,7 +1416,7 @@ Whenever enchanted creature deals damage to a player, that player discards two c
 <Type>Land</Type>
 <CardText>Rupture Spire enters the battlefield tapped.
 When Rupture Spire enters the battlefield, sacrifice it unless you pay {1}.
-{T}: Add one mana of any color to your mana pool.</CardText>
+{T}: Add one mana of any color.</CardText>
 <Artist>Jaime Jones</Artist>
 <Multiverseid>259282</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1452,7 +1447,7 @@ When Rupture Spire enters the battlefield, sacrifice it unless you pay {1}.
 <No>77</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>262652</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1467,7 +1462,7 @@ When Rupture Spire enters the battlefield, sacrifice it unless you pay {1}.
 <No>78</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>259283</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1482,7 +1477,7 @@ When Rupture Spire enters the battlefield, sacrifice it unless you pay {1}.
 <No>79</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>259287</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1497,7 +1492,7 @@ When Rupture Spire enters the battlefield, sacrifice it unless you pay {1}.
 <No>80</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>259286</Multiverseid>
 <Vintage>Legal</Vintage>

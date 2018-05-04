@@ -135,7 +135,7 @@
 <Name>Gemhide Sliver</Name>
 <Type>Creature — Sliver 1/1</Type>
 <ManaCost>1G (2)</ManaCost>
-<CardText>All Slivers have "{T}: Add one mana of any color to your mana pool."</CardText>
+<CardText>All Slivers have "{T}: Add one mana of any color."</CardText>
 <Flavor>"The land is weary. Even Skyshroud is depleted. We must find another source of mana—one that is growing despite our withering world."
 —Freyalise</Flavor>
 <Artist>John Matson</Artist>
@@ -231,7 +231,7 @@ Any player may cast Sliver spells as though they had flash.</CardText>
 <Name>Acidic Sliver</Name>
 <Type>Creature — Sliver 2/2</Type>
 <ManaCost>BR (2)</ManaCost>
-<CardText>All Slivers have "{2}, Sacrifice this permanent: This permanent deals 2 damage to target creature or player."</CardText>
+<CardText>All Slivers have "{2}, Sacrifice this permanent: This permanent deals 2 damage to any target."</CardText>
 <Flavor>The first sliver burst against the cave wall, and others piled in behind to deepen the new tunnel.</Flavor>
 <Artist>Jeff Miracola</Artist>
 <Multiverseid>207897</Multiverseid>
@@ -346,7 +346,7 @@ Mirri: "After they're done trying to kill us, all right?"</Flavor>
 <Type>Creature — Sliver 2/2</Type>
 <ManaCost>2R (3)</ManaCost>
 <CardText>Each Sliver card in each player's hand has slivercycling {3}.
-Slivercycling {3} ({3}, Discard this card: Search your library for a Sliver card, reveal it, and put it into your hand. Then shuffle your library.)</CardText>
+Slivercycling {3} ({3}, Discard this card: Search your library for a Sliver card, reveal it, put it into your hand, then shuffle your library.)</CardText>
 <Artist>Trevor Hairsine</Artist>
 <Multiverseid>207908</Multiverseid>
 <Rulings>2009/02/01: Unlike the normal cycling ability, Slivercycling doesn't allow you to draw a card. Instead, it lets you search your library for a Sliver card. After you find a Sliver card in your library, you reveal it, put it into your hand, then shuffle your library.
@@ -466,7 +466,7 @@ Slivercycling {3} ({3}, Discard this card: Search your library for a Sliver card
 <CardText>All Sliver creatures have double strike.</CardText>
 <Flavor>"A rift opened, and our arrows were abruptly stilled. To move was to push the world. But the sliver's claw still twitched, red wounds appeared in Thed's chest, and ribbons of blood hung in the air."
 —Adom Capashen, Benalish hero</Flavor>
-<Artist>Parente</Artist>
+<Artist>Paolo Parente</Artist>
 <Multiverseid>207904</Multiverseid>
 <Rulings>2013/07/01: Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn't provide any additional benefit.
 2013/07/01: If the creature type of a Sliver changes so it's no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures.</Rulings>
@@ -580,7 +580,7 @@ Dunno how to count no more."
 <No>31</No>
 <Name>Ancient Ziggurat</Name>
 <Type>Land</Type>
-<CardText>{T}: Add one mana of any color to your mana pool. Spend this mana only to cast a creature spell.</CardText>
+<CardText>{T}: Add one mana of any color. Spend this mana only to cast a creature spell.</CardText>
 <Flavor>Built in honor of Alara's creatures, the ziggurat vanished long ago. When Progenitus awakened, the temple emerged again.</Flavor>
 <Artist>John Avon</Artist>
 <Multiverseid>207930</Multiverseid>
@@ -599,7 +599,7 @@ Dunno how to count no more."
 <Name>Rootbound Crag</Name>
 <Type>Land</Type>
 <CardText>Rootbound Crag enters the battlefield tapped unless you control a Mountain or a Forest.
-{T}: Add {R} or {G} to your mana pool.</CardText>
+{T}: Add {R} or {G}.</CardText>
 <Artist>Matt Stewart</Artist>
 <Multiverseid>208042</Multiverseid>
 <Rulings>2009/10/01: This checks for lands you control with the land type Mountain or Forest, not for lands named Mountain or Forest. The lands it checks for don't have to be basic lands. For example, if you control Temple Garden (a nonbasic land with the land types Forest and Plains), <Rootbound Crag> will enter the battlefield untapped.
@@ -618,7 +618,7 @@ Dunno how to count no more."
 <Type>Land</Type>
 <CardText>Rupture Spire enters the battlefield tapped.
 When Rupture Spire enters the battlefield, sacrifice it unless you pay {1}.
-{T}: Add one mana of any color to your mana pool.</CardText>
+{T}: Add one mana of any color.</CardText>
 <Artist>Jaime Jones</Artist>
 <Multiverseid>207933</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -649,8 +649,8 @@ When Rupture Spire enters the battlefield, sacrifice it unless you pay {1}.
 <Name>Vivid Creek</Name>
 <Type>Land</Type>
 <CardText>Vivid Creek enters the battlefield tapped with two charge counters on it.
-{T}: Add {U} to your mana pool.
-{T}, Remove a charge counter from Vivid Creek: Add one mana of any color to your mana pool.</CardText>
+{T}: Add {U}.
+{T}, Remove a charge counter from Vivid Creek: Add one mana of any color.</CardText>
 <Artist>Fred Fields</Artist>
 <Multiverseid>208043</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -666,8 +666,8 @@ When Rupture Spire enters the battlefield, sacrifice it unless you pay {1}.
 <Name>Vivid Grove</Name>
 <Type>Land</Type>
 <CardText>Vivid Grove enters the battlefield tapped with two charge counters on it.
-{T}: Add {G} to your mana pool.
-{T}, Remove a charge counter from Vivid Grove: Add one mana of any color to your mana pool.</CardText>
+{T}: Add {G}.
+{T}, Remove a charge counter from Vivid Grove: Add one mana of any color.</CardText>
 <Artist>Howard Lyon</Artist>
 <Multiverseid>207922</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -682,7 +682,7 @@ When Rupture Spire enters the battlefield, sacrifice it unless you pay {1}.
 <No>37</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Terese Nielsen</Artist>
 <Multiverseid>207937</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -697,7 +697,7 @@ When Rupture Spire enters the battlefield, sacrifice it unless you pay {1}.
 <No>38</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Randy Gallegos</Artist>
 <Multiverseid>207935</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -712,7 +712,7 @@ When Rupture Spire enters the battlefield, sacrifice it unless you pay {1}.
 <No>39</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Brom</Artist>
 <Multiverseid>207938</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -727,7 +727,7 @@ When Rupture Spire enters the battlefield, sacrifice it unless you pay {1}.
 <No>40</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Mark Poole</Artist>
 <Multiverseid>207936</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -742,7 +742,7 @@ When Rupture Spire enters the battlefield, sacrifice it unless you pay {1}.
 <No>41</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Douglas Shuler</Artist>
 <Multiverseid>207934</Multiverseid>
 <Vintage>Legal</Vintage>

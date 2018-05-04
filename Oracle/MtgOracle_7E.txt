@@ -307,7 +307,7 @@ Voices resound with a righteous ring."
 <ManaCost>W (1)</ManaCost>
 <CardText>Choose one —
 • Target player gains 3 life.
-• Prevent the next 3 damage that would be dealt to target creature or player this turn.</CardText>
+• Prevent the next 3 damage that would be dealt to any target this turn.</CardText>
 <Artist>Greg & Tim Hildebrandt</Artist>
 <Multiverseid>25545</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -378,7 +378,7 @@ Enchanted creature gets +1/+2.</CardText>
 <Flavor>A fool knows no fear. A hero shows no fear.</Flavor>
 <Artist>Mike Ploog</Artist>
 <Multiverseid>13117</Multiverseid>
-<Rulings>2004/10/04: The power of the creature is checked on activation and on resolution. If the targeted creature's power is not 4 or greater on resolution, the ability is countered.</Rulings>
+<Rulings>2004/10/04: The power of the creature is checked on activation and on resolution. If the targeted creature's power is not 4 or greater on resolution, the ability doesn't resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -459,7 +459,7 @@ Enchanted creature gets +1/+2.</CardText>
 <Name>Master Healer</Name>
 <Type>Creature — Human Cleric 1/4</Type>
 <ManaCost>4W (5)</ManaCost>
-<CardText>{T}: Prevent the next 4 damage that would be dealt to target creature or player this turn.</CardText>
+<CardText>{T}: Prevent the next 4 damage that would be dealt to any target this turn.</CardText>
 <Flavor>Her heart holds the pain of every soldier she's ever healed.</Flavor>
 <Artist>Greg & Tim Hildebrandt</Artist>
 <Multiverseid>15790</Multiverseid>
@@ -656,7 +656,7 @@ And drunk the milk of Paradise."
 <Name>Samite Healer</Name>
 <Type>Creature — Human Cleric 1/1</Type>
 <ManaCost>1W (2)</ManaCost>
-<CardText>{T}: Prevent the next 1 damage that would be dealt to target creature or player this turn.</CardText>
+<CardText>{T}: Prevent the next 1 damage that would be dealt to any target this turn.</CardText>
 <Flavor>Why does a Samite heal? You might as well ask why a bird flies.</Flavor>
 <Artist>Anson Maddocks</Artist>
 <Multiverseid>11478</Multiverseid>
@@ -726,8 +726,7 @@ And drunk the milk of Paradise."
 <Name>Serra Angel</Name>
 <Type>Creature — Angel 4/4</Type>
 <ManaCost>3WW (5)</ManaCost>
-<CardText>Flying (This creature can't be blocked except by creatures with flying or reach.)
-Vigilance (Attacking doesn't cause this creature to tap.)</CardText>
+<CardText>Flying, vigilance</CardText>
 <Flavor>Her sword sings more beautifully than any choir.</Flavor>
 <Artist>Mark Zug</Artist>
 <Multiverseid>25555</Multiverseid>
@@ -819,8 +818,7 @@ Whenever enchanted creature deals damage, you gain that much life.</CardText>
 <Flavor>The noble paladins draw strength from the courage of others.</Flavor>
 <Artist>Daren Bader</Artist>
 <Multiverseid>25547</Multiverseid>
-<Rulings>2004/10/04: Damage that is redirected is not dealt to the original creature or player, but it is dealt to the new creature or player.
-2004/10/04: You only gain the life when the triggered ability resolves. If you are reduced to zero life before the ability resolves, you will lose before gaining the life.
+<Rulings>2004/10/04: You only gain the life when the triggered ability resolves. If you are reduced to zero life before the ability resolves, you will lose before gaining the life.
 2008/04/01: You gain life for all damage which is not prevented, regardless of what the creature damages (player or another creature) or the toughness of the blocking creature. If you put this on a 5/5 and it is blocked by a 1/1, you still gain 5 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1088,7 +1086,7 @@ Through the Looking Glass</Flavor>
 <Name>Baleful Stare</Name>
 <Type>Sorcery</Type>
 <ManaCost>2U (3)</ManaCost>
-<CardText>Target opponent reveals his or her hand. You draw a card for each Mountain and red card in it.</CardText>
+<CardText>Target opponent reveals their hand. You draw a card for each Mountain and red card in it.</CardText>
 <Flavor>He can drown you in his eyes.</Flavor>
 <Artist>Eric Peterson</Artist>
 <Multiverseid>13124</Multiverseid>
@@ -1495,7 +1493,7 @@ Enchanted creature has flying.</CardText>
 <Name>Mana Breach</Name>
 <Type>Enchantment</Type>
 <ManaCost>2U (3)</ManaCost>
-<CardText>Whenever a player casts a spell, that player returns a land he or she controls to its owner's hand.</CardText>
+<CardText>Whenever a player casts a spell, that player returns a land they control to its owner's hand.</CardText>
 <Flavor>The mana that binds the world together can also tear it apart.</Flavor>
 <Artist>Gary Ruddell</Artist>
 <Multiverseid>25563</Multiverseid>
@@ -1513,7 +1511,7 @@ Enchanted creature has flying.</CardText>
 <Name>Mana Short</Name>
 <Type>Instant</Type>
 <ManaCost>2U (3)</ManaCost>
-<CardText>Tap all lands target player controls and empty his or her mana pool.</CardText>
+<CardText>Tap all lands target player controls and that player loses all unspent mana.</CardText>
 <Flavor>"Remove their power, and their will to fight will follow."
 —Tolarian wizard</Flavor>
 <Artist>Greg Staples</Artist>
@@ -1534,7 +1532,7 @@ Enchanted creature has flying.</CardText>
 <Type>Creature — Beast 3/3</Type>
 <ManaCost>3UU (5)</ManaCost>
 <CardText>Flying
-{T}: Mawcor deals 1 damage to target creature or player.</CardText>
+{T}: Mawcor deals 1 damage to any target.</CardText>
 <Flavor>Neither head holds a brain—that's located somewhere in the chest—but four eyes aim much better than two.</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>13035</Multiverseid>
@@ -1571,6 +1569,7 @@ Enchanted creature has flying.</CardText>
 <Flavor>When you sink a lot of ships, it's easy to find sunken treasure.</Flavor>
 <Artist>Tristan Elwell</Artist>
 <Multiverseid>13140</Multiverseid>
+<Rulings>2018/03/16: You can't do anything in between drawing a card and discarding a card, including casting or cycling the card you drew.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1652,7 +1651,7 @@ Enchanted creature has flying.</CardText>
 <Name>Prodigal Sorcerer</Name>
 <Type>Creature — Human Wizard 1/1</Type>
 <ManaCost>2U (3)</ManaCost>
-<CardText>{T}: Prodigal Sorcerer deals 1 damage to target creature or player.</CardText>
+<CardText>{T}: Prodigal Sorcerer deals 1 damage to any target.</CardText>
 <Flavor>He wastes his amazing talents on proving how amazing he really is.</Flavor>
 <Artist>Tony Szczudlo</Artist>
 <Multiverseid>11458</Multiverseid>
@@ -2126,7 +2125,7 @@ Whenever Bellowing Fiend deals damage to a creature, Bellowing Fiend deals 3 dam
 <Name>Blood Pet</Name>
 <Type>Creature — Thrull 1/1</Type>
 <ManaCost>B (1)</ManaCost>
-<CardText>Sacrifice Blood Pet: Add {B} to your mana pool.</CardText>
+<CardText>Sacrifice Blood Pet: Add {B}.</CardText>
 <Flavor>No thrull has ever been burdened with a long life.</Flavor>
 <Artist>Heather Hudson</Artist>
 <Multiverseid>25625</Multiverseid>
@@ -2177,7 +2176,7 @@ Whenever Bellowing Fiend deals damage to a creature, Bellowing Fiend deals 3 dam
 <Name>Corrupt</Name>
 <Type>Sorcery</Type>
 <ManaCost>5B (6)</ManaCost>
-<CardText>Corrupt deals damage to target creature or player equal to the number of Swamps you control. You gain life equal to the damage dealt this way.</CardText>
+<CardText>Corrupt deals damage to any target equal to the number of Swamps you control. You gain life equal to the damage dealt this way.</CardText>
 <Artist>Scott M. Fischer</Artist>
 <Multiverseid>25624</Multiverseid>
 <Rulings>2004/10/04: The swamps are counted on resolution.
@@ -2303,7 +2302,7 @@ Necromancer's Handbook</Flavor>
 <Name>Duress</Name>
 <Type>Sorcery</Type>
 <ManaCost>B (1)</ManaCost>
-<CardText>Target opponent reveals his or her hand. You choose a noncreature, nonland card from it. That player discards that card.</CardText>
+<CardText>Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card.</CardText>
 <Flavor>"Change your mind, or I'll change it for you."</Flavor>
 <Artist>Pete Venters</Artist>
 <Multiverseid>14557</Multiverseid>
@@ -2620,8 +2619,8 @@ Heed my will, to you I bind."
 <Name>Necrologia</Name>
 <Type>Instant</Type>
 <ManaCost>3BB (5)</ManaCost>
-<CardText>Cast Necrologia only during your end step.
-As an additional cost to cast Necrologia, pay X life.
+<CardText>Cast this spell only during your end step.
+As an additional cost to cast this spell, pay X life.
 Draw X cards.</CardText>
 <Artist>Scott M. Fischer</Artist>
 <Multiverseid>25635</Multiverseid>
@@ -2694,11 +2693,10 @@ Nightmare's power and toughness are each equal to the number of Swamps you contr
 <Name>Ostracize</Name>
 <Type>Sorcery</Type>
 <ManaCost>B (1)</ManaCost>
-<CardText>Target opponent reveals his or her hand. You choose a creature card from it. That player discards that card.</CardText>
+<CardText>Target opponent reveals their hand. You choose a creature card from it. That player discards that card.</CardText>
 <Flavor>"You won't be needing this."</Flavor>
 <Artist>Hannibal King</Artist>
 <Multiverseid>12980</Multiverseid>
-<Rulings>2008/04/01: A "creature card" is any card with the type creature, even if it has other types such as artifact, enchantment, or land. Older cards of type summon are also creature cards.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Seventh Edition</Set>
@@ -2711,7 +2709,7 @@ Nightmare's power and toughness are each equal to the number of Swamps you contr
 <Name>Persecute</Name>
 <Type>Sorcery</Type>
 <ManaCost>2BB (4)</ManaCost>
-<CardText>Choose a color. Target player reveals his or her hand and discards all cards of that color.</CardText>
+<CardText>Choose a color. Target player reveals their hand and discards all cards of that color.</CardText>
 <Flavor>"I want every last one of these tree-hugging, earth-loving, pointy-eared weaklings out of here. Now!"</Flavor>
 <Artist>Luca Zontini</Artist>
 <Multiverseid>25644</Multiverseid>
@@ -2746,7 +2744,7 @@ Nightmare's power and toughness are each equal to the number of Swamps you contr
 <Name>Rag Man</Name>
 <Type>Creature — Human Minion 2/1</Type>
 <ManaCost>2BB (4)</ManaCost>
-<CardText>{B}{B}{B}, {T}: Target opponent reveals his or her hand and discards a creature card at random. Activate this ability only during your turn.</CardText>
+<CardText>{B}{B}{B}, {T}: Target opponent reveals their hand and discards a creature card at random. Activate this ability only during your turn.</CardText>
 <Flavor>He hunts what might have been.</Flavor>
 <Artist>Scott M. Fischer</Artist>
 <Multiverseid>11464</Multiverseid>
@@ -2767,8 +2765,7 @@ Nightmare's power and toughness are each equal to the number of Swamps you contr
 <Artist>Carl Critchlow</Artist>
 <Multiverseid>11465</Multiverseid>
 <Rulings>2004/10/04: You must show the card you bring out of the graveyard to your opponent.
-2004/10/04: The creature being brought back is chosen on announcement and not on resolution of the spell because it is targeted.
-2008/04/01: A "creature card" is any card with the type creature, even if it has other types such as artifact, enchantment, or land. Older cards of type summon are also creature cards.</Rulings>
+2004/10/04: The creature being brought back is chosen on announcement and not on resolution of the spell because it is targeted.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3083,7 +3080,7 @@ As we were born to do."
 <Name>Blaze</Name>
 <Type>Sorcery</Type>
 <ManaCost>XR (1)</ManaCost>
-<CardText>Blaze deals X damage to target creature or player.</CardText>
+<CardText>Blaze deals X damage to any target.</CardText>
 <Flavor>Fire never dies alone.</Flavor>
 <Artist>Alex Horley-Orlandelli</Artist>
 <Multiverseid>13187</Multiverseid>
@@ -3100,7 +3097,7 @@ As we were born to do."
 <Name>Bloodshot Cyclops</Name>
 <Type>Creature — Cyclops Giant 4/4</Type>
 <ManaCost>5R (6)</ManaCost>
-<CardText>{T}, Sacrifice a creature: Bloodshot Cyclops deals damage equal to the sacrificed creature's power to target creature or player.</CardText>
+<CardText>{T}, Sacrifice a creature: Bloodshot Cyclops deals damage equal to the sacrificed creature's power to any target.</CardText>
 <Flavor>After their first encounter, the goblins named him Chuck.</Flavor>
 <Artist>Daren Bader</Artist>
 <Multiverseid>15792</Multiverseid>
@@ -3239,7 +3236,7 @@ As we were born to do."
 <Name>Ghitu Fire-Eater</Name>
 <Type>Creature — Human Nomad 2/2</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>{T}, Sacrifice Ghitu Fire-Eater: Ghitu Fire-Eater deals damage equal to its power to target creature or player.</CardText>
+<CardText>{T}, Sacrifice Ghitu Fire-Eater: It deals damage equal to its power to any target.</CardText>
 <Flavor>The Ghitu believe their race was born of fire, and it's an honor to return to it.</Flavor>
 <Artist>Eric Peterson</Artist>
 <Multiverseid>15809</Multiverseid>
@@ -3463,7 +3460,7 @@ Enchanted creature gets +1/+0 for each Mountain you control.</CardText>
 <Name>Impatience</Name>
 <Type>Enchantment</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>At the beginning of each player's end step, if that player didn't cast a spell this turn, Impatience deals 2 damage to him or her.</CardText>
+<CardText>At the beginning of each player's end step, if that player didn't cast a spell this turn, Impatience deals 2 damage to that player.</CardText>
 <Flavor>"I'm going to count to three. Three."</Flavor>
 <Artist>Kunio Hagio</Artist>
 <Multiverseid>25681</Multiverseid>
@@ -3498,7 +3495,7 @@ Enchanted creature gets +1/+0 for each Mountain you control.</CardText>
 <Name>Lava Axe</Name>
 <Type>Sorcery</Type>
 <ManaCost>4R (5)</ManaCost>
-<CardText>Lava Axe deals 5 damage to target player.</CardText>
+<CardText>Lava Axe deals 5 damage to target player or planeswalker.</CardText>
 <Flavor>"Catch!"</Flavor>
 <Artist>Ray Lago</Artist>
 <Multiverseid>13185</Multiverseid>
@@ -3515,7 +3512,7 @@ Enchanted creature gets +1/+0 for each Mountain you control.</CardText>
 <Name>Lightning Blast</Name>
 <Type>Instant</Type>
 <ManaCost>3R (4)</ManaCost>
-<CardText>Lightning Blast deals 4 damage to target creature or player.</CardText>
+<CardText>Lightning Blast deals 4 damage to any target.</CardText>
 <Flavor>"I'll climb down soon. Don't worry, it's just a thundersto—"
 —Former elvish scout</Flavor>
 <Artist>Ron Spencer</Artist>
@@ -3555,7 +3552,7 @@ He passes from life to his rest in the grave."
 <CardText>You and target opponent each flip a coin. Mana Clash deals 1 damage to each player whose coin comes up tails. Repeat this process until both players' coins come up heads on the same flip.</CardText>
 <Artist>Larry Elmore</Artist>
 <Multiverseid>25682</Multiverseid>
-<Rulings>2004/10/04: Always affects the player and targets one of his or her opponents.
+<Rulings>2004/10/04: Always affects the player and targets one of their opponents.
 2004/10/04: Each point of damage is dealt separately, so if you are damaged twice by this spell, each time is considered a separate time this source deals damage.
 2004/10/04: This card's coin flip has no winner or loser.</Rulings>
 <Vintage>Legal</Vintage>
@@ -3605,12 +3602,12 @@ Okk can't block unless a creature with greater power also blocks.</CardText>
 <Name>Orcish Artillery</Name>
 <Type>Creature — Orc Warrior 1/3</Type>
 <ManaCost>1RR (3)</ManaCost>
-<CardText>{T}: Orcish Artillery deals 2 damage to target creature or player and 3 damage to you.</CardText>
+<CardText>{T}: Orcish Artillery deals 2 damage to any target and 3 damage to you.</CardText>
 <Flavor>"Ready . . . aim . . . fire"
 "Ow"</Flavor>
 <Artist>Dan Frazier</Artist>
 <Multiverseid>15812</Multiverseid>
-<Rulings>2004/10/04: You do not take the 3 points of damage if the ability is countered because the target is illegal.</Rulings>
+<Rulings>2004/10/04: You do not take the 3 points of damage if the ability doesn't resolve because the target is illegal.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3692,14 +3689,13 @@ Okk can't block unless a creature with greater power also blocks.</CardText>
 <Name>Pyrotechnics</Name>
 <Type>Sorcery</Type>
 <ManaCost>4R (5)</ManaCost>
-<CardText>Pyrotechnics deals 4 damage divided as you choose among any number of target creatures and/or players.</CardText>
+<CardText>Pyrotechnics deals 4 damage divided as you choose among any number of targets.</CardText>
 <Flavor>"Who says lightning never strikes twice?"
 —Storm shaman</Flavor>
 <Artist>John Avon</Artist>
 <Multiverseid>25670</Multiverseid>
 <Rulings>2014/11/24: The number of targets chosen for <Pyrotechnics> must be at least one and at most four. You choose how the damage is divided as you cast the spell, not as it resolves. Each target must be assigned at least 1 damage.
 2014/11/24: If some but not all of <Pyrotechnics>'s targets become illegal, you can't change the division of damage. Damage that would have been dealt to illegal targets simply isn't dealt.
-2014/11/24: You can't deal damage to both a player and a planeswalker that player controls using <Pyrotechnics>. You also can't deal damage to more than one planeswalker controlled by the same player. If you choose to redirect the damage being dealt to a player to a planeswalker, you must redirect all the damage to a single planeswalker.
 2014/11/24: If an effect creates a copy of <Pyrotechnics>, the number of targets and division of damage can't be changed. The effect that creates the copy may allow you to change the targets, however.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3731,7 +3727,7 @@ Okk can't block unless a creature with greater power also blocks.</CardText>
 <Name>Reckless Embermage</Name>
 <Type>Creature — Human Wizard 2/2</Type>
 <ManaCost>3R (4)</ManaCost>
-<CardText>{1}{R}: Reckless Embermage deals 1 damage to target creature or player and 1 damage to itself.</CardText>
+<CardText>{1}{R}: Reckless Embermage deals 1 damage to any target and 1 damage to itself.</CardText>
 <Flavor>Those who play with fire are bound to get burned.</Flavor>
 <Artist>Bob Petillo</Artist>
 <Multiverseid>25687</Multiverseid>
@@ -3804,7 +3800,7 @@ Enchanted creature has first strike. (It deals combat damage before creatures wi
 <Name>Seismic Assault</Name>
 <Type>Enchantment</Type>
 <ManaCost>RRR (3)</ManaCost>
-<CardText>Discard a land card: Seismic Assault deals 2 damage to target creature or player.</CardText>
+<CardText>Discard a land card: Seismic Assault deals 2 damage to any target.</CardText>
 <Flavor>Earth arms itself with fire.</Flavor>
 <Artist>Greg Staples</Artist>
 <Multiverseid>11361</Multiverseid>
@@ -3856,7 +3852,7 @@ Enchanted creature has first strike. (It deals combat damage before creatures wi
 <Name>Shock</Name>
 <Type>Instant</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>Shock deals 2 damage to target creature or player.</CardText>
+<CardText>Shock deals 2 damage to any target.</CardText>
 <Artist>Mike Sass</Artist>
 <Multiverseid>13074</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -3972,7 +3968,7 @@ Enchanted creature has first strike. (It deals combat damage before creatures wi
 <Name>Volcanic Hammer</Name>
 <Type>Sorcery</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>Volcanic Hammer deals 3 damage to target creature or player.</CardText>
+<CardText>Volcanic Hammer deals 3 damage to any target.</CardText>
 <Flavor>Fire finds its form in the heat of the forge.</Flavor>
 <Artist>Ben Thompson</Artist>
 <Multiverseid>30171</Multiverseid>
@@ -4059,7 +4055,7 @@ Enchanted creature has first strike. (It deals combat damage before creatures wi
 <Type>Creature — Bird 0/1</Type>
 <ManaCost>G (1)</ManaCost>
 <CardText>Flying
-{T}: Add one mana of any color to your mana pool.</CardText>
+{T}: Add one mana of any color.</CardText>
 <Artist>Edward P. Beard, Jr.</Artist>
 <Multiverseid>11173</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4163,7 +4159,7 @@ Enchanted creature gets +1/+1 for each Forest you control.</CardText>
 <Name>Early Harvest</Name>
 <Type>Instant</Type>
 <ManaCost>1GG (3)</ManaCost>
-<CardText>Target player untaps all basic lands he or she controls.</CardText>
+<CardText>Target player untaps all basic lands they control.</CardText>
 <Flavor>"Give it a week and it will feed an army."</Flavor>
 <Artist>Heather Hudson</Artist>
 <Multiverseid>12962</Multiverseid>
@@ -4322,7 +4318,7 @@ To fight a countless foe on high."
 <Name>Fyndhorn Elder</Name>
 <Type>Creature — Elf Druid 1/1</Type>
 <ManaCost>2G (3)</ManaCost>
-<CardText>{T}: Add {G}{G} to your mana pool.</CardText>
+<CardText>{T}: Add {G}{G}.</CardText>
 <Flavor>"It is useful to be able to speak to the trees. But it is truly wondrous to be able to listen to them."</Flavor>
 <Artist>Greg Staples</Artist>
 <Multiverseid>11296</Multiverseid>
@@ -4442,7 +4438,7 @@ To fight a countless foe on high."
 <Name>Llanowar Elves</Name>
 <Type>Creature — Elf Druid 1/1</Type>
 <ManaCost>G (1)</ManaCost>
-<CardText>{T}: Add {G} to your mana pool.</CardText>
+<CardText>{T}: Add {G}.</CardText>
 <Flavor>Llanowar covers a million square miles, yet nobody enters the forest without the elves knowing it.</Flavor>
 <Artist>Jerry Tiritilli</Artist>
 <Multiverseid>11386</Multiverseid>
@@ -4463,10 +4459,9 @@ To fight a countless foe on high."
 <Flavor>A wolf without a pack is either a survivor or a brute.</Flavor>
 <Artist>Douglas Shuler</Artist>
 <Multiverseid>13161</Multiverseid>
-<Rulings>2008/04/01: If this creature is attacking a planeswalker, assigning its damage as though it weren't blocked means the damage is assigned to the planeswalker, not to the defending player.
-2008/04/01: When assigning combat damage, you choose whether you want to assign all damage to blocking creatures, or if you want to assign all of it to the defending player or planeswalker. You can't split the damage assignment between them.
-2008/04/01: You can decide to assign damage to the defending player or planeswalker even if the blocking creature has protection from green or damage preventing effects on it.
-2008/04/01: If blocked by a creature with banding, the defending player decides whether or not the damage is assigned "as though it weren't blocked".</Rulings>
+<Rulings>2018/04/27: You can decide to assign damage to the defending player or planeswalker even if the blocking creature has protection from green or damage preventing effects on it.
+2018/04/27: When assigning combat damage, you choose whether you want to assign all damage to blocking creatures, or if you want to assign all of it to the player or planeswalker this creature is attacking. You can't split the damage assignment between them.
+2018/04/27: If blocked by a creature with banding, the defending player decides whether or not the damage is assigned "as though it weren't blocked".</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4553,7 +4548,7 @@ All creatures able to block enchanted creature do so.</CardText>
 <Name>Nature's Resurgence</Name>
 <Type>Sorcery</Type>
 <ManaCost>2GG (4)</ManaCost>
-<CardText>Each player draws a card for each creature card in his or her graveyard.</CardText>
+<CardText>Each player draws a card for each creature card in their graveyard.</CardText>
 <Flavor>"The dead whisper to the living. If you listen, you will learn."
 —Maro</Flavor>
 <Artist>Gary Ruddell</Artist>
@@ -4574,7 +4569,7 @@ All creatures able to block enchanted creature do so.</CardText>
 <Flavor>The land rises up to defend against those who would spoil its beauty.</Flavor>
 <Artist>Dave Dorman</Artist>
 <Multiverseid>25592</Multiverseid>
-<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
+<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Seventh Edition</Set>
@@ -4591,10 +4586,9 @@ All creatures able to block enchanted creature do so.</CardText>
 <Flavor>There's only one thing worse than a hungry lion—many hungry lions.</Flavor>
 <Artist>Gary Ruddell</Artist>
 <Multiverseid>25667</Multiverseid>
-<Rulings>2008/04/01: If this creature is attacking a planeswalker, assigning its damage as though it weren't blocked means the damage is assigned to the planeswalker, not to the defending player.
-2008/04/01: When assigning combat damage, you choose whether you want to assign all damage to blocking creatures, or if you want to assign all of it to the defending player or planeswalker. You can't split the damage assignment between them.
-2008/04/01: You can decide to assign damage to the defending player or planeswalker even if the blocking creature has protection from green or damage preventing effects on it.
-2008/04/01: If blocked by a creature with banding, the defending player decides whether or not the damage is assigned "as though it weren't blocked".</Rulings>
+<Rulings>2018/04/27: You can decide to assign damage to the defending player or planeswalker even if the blocking creature has protection from green or damage preventing effects on it.
+2018/04/27: When assigning combat damage, you choose whether you want to assign all damage to blocking creatures, or if you want to assign all of it to the player or planeswalker this creature is attacking. You can't split the damage assignment between them.
+2018/04/27: If blocked by a creature with banding, the defending player decides whether or not the damage is assigned "as though it weren't blocked".</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Seventh Edition</Set>
@@ -4800,10 +4794,9 @@ Othello</Flavor>
 <Flavor>Rain from this storm leaves you pinned to the ground like an insect.</Flavor>
 <Artist>rk post</Artist>
 <Multiverseid>25596</Multiverseid>
-<Rulings>2008/04/01: If this creature is attacking a planeswalker, assigning its damage as though it weren't blocked means the damage is assigned to the planeswalker, not to the defending player.
-2008/04/01: When assigning combat damage, you choose whether you want to assign all damage to blocking creatures, or if you want to assign all of it to the defending player or planeswalker. You can't split the damage assignment between them.
-2008/04/01: You can decide to assign damage to the defending player or planeswalker even if the blocking creature has protection from green or damage preventing effects on it.
-2008/04/01: If blocked by a creature with banding, the defending player decides whether or not the damage is assigned "as though it weren't blocked".</Rulings>
+<Rulings>2018/04/27: You can decide to assign damage to the defending player or planeswalker even if the blocking creature has protection from green or damage preventing effects on it.
+2018/04/27: When assigning combat damage, you choose whether you want to assign all damage to blocking creatures, or if you want to assign all of it to the player or planeswalker this creature is attacking. You can't split the damage assignment between them.
+2018/04/27: If blocked by a creature with banding, the defending player decides whether or not the damage is assigned "as though it weren't blocked".</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4934,7 +4927,7 @@ Othello</Flavor>
 <Name>Vernal Bloom</Name>
 <Type>Enchantment</Type>
 <ManaCost>3G (4)</ManaCost>
-<CardText>Whenever a Forest is tapped for mana, its controller adds {G} to his or her mana pool (in addition to the mana the land produces).</CardText>
+<CardText>Whenever a Forest is tapped for mana, its controller adds an additional {G}.</CardText>
 <Flavor>Spring breathes the magic of new life.</Flavor>
 <Artist>Scott Bailey</Artist>
 <Multiverseid>13119</Multiverseid>
@@ -4953,7 +4946,7 @@ Othello</Flavor>
 <Type>Enchantment — Aura</Type>
 <ManaCost>G (1)</ManaCost>
 <CardText>Enchant land
-Whenever enchanted land is tapped for mana, its controller adds {G} to his or her mana pool (in addition to the mana the land produces).</CardText>
+Whenever enchanted land is tapped for mana, its controller adds an additional {G}.</CardText>
 <Flavor>If you stop to listen, you can hear it grow.</Flavor>
 <Artist>Tony Szczudlo</Artist>
 <Multiverseid>11573</Multiverseid>
@@ -5022,7 +5015,7 @@ Whenever enchanted land is tapped for mana, its controller adds {G} to his or he
 <Name>Aladdin's Ring</Name>
 <Type>Artifact</Type>
 <ManaCost>8 (8)</ManaCost>
-<CardText>{8}, {T}: Aladdin's Ring deals 4 damage to target creature or player.</CardText>
+<CardText>{8}, {T}: Aladdin's Ring deals 4 damage to any target.</CardText>
 <Flavor>Some say Aladdin's third wish was for this ring.</Flavor>
 <Artist>Dave Dorman</Artist>
 <Multiverseid>11145</Multiverseid>
@@ -5073,7 +5066,7 @@ Whenever enchanted land is tapped for mana, its controller adds {G} to his or he
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
 <CardText>Charcoal Diamond enters the battlefield tapped.
-{T}: Add {B} to your mana pool.</CardText>
+{T}: Add {B}.</CardText>
 <Artist>David Martin</Artist>
 <Multiverseid>15849</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5162,8 +5155,7 @@ Whenever enchanted land is tapped for mana, its controller adds {G} to his or he
 <Flavor>Bridges usually get you from one place to another. This one just gets you.</Flavor>
 <Artist>Ron Spencer</Artist>
 <Multiverseid>15866</Multiverseid>
-<Rulings>2004/10/04: All creatures on the battlefield (including yours) are subject to the restriction based on the number of cards in your hand.
-2004/10/04: It only checks the cards in your hand when declaring attackers. Once they are declared, changes to your hand size or to the power of the creatures will not remove creatures from the attack.</Rulings>
+<Rulings>2018/03/16: <Ensnaring Bridge>'s effect checks the number of cards in your hand only while a player (including you) is declaring attackers. Once a creature has legally attacked, changing its power or the number of cards in your hand won't remove it from combat.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -5195,7 +5187,7 @@ Whenever enchanted land is tapped for mana, its controller adds {G} to his or he
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
 <CardText>Fire Diamond enters the battlefield tapped.
-{T}: Add {R} to your mana pool.</CardText>
+{T}: Add {R}.</CardText>
 <Artist>David Martin</Artist>
 <Multiverseid>15853</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5368,7 +5360,7 @@ Meditationes Sacrae</Flavor>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
 <CardText>Marble Diamond enters the battlefield tapped.
-{T}: Add {W} to your mana pool.</CardText>
+{T}: Add {W}.</CardText>
 <Artist>David Martin</Artist>
 <Multiverseid>15850</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5399,7 +5391,7 @@ Meditationes Sacrae</Flavor>
 <Name>Millstone</Name>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{2}, {T}: Target player puts the top two cards of his or her library into his or her graveyard.</CardText>
+<CardText>{2}, {T}: Target player puts the top two cards of their library into their graveyard.</CardText>
 <Flavor>More than one mage has been driven insane by the sound of the millstone relentlessly grinding away.</Flavor>
 <Artist>John Avon</Artist>
 <Multiverseid>11403</Multiverseid>
@@ -5420,7 +5412,7 @@ Meditationes Sacrae</Flavor>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
 <CardText>Moss Diamond enters the battlefield tapped.
-{T}: Add {G} to your mana pool.</CardText>
+{T}: Add {G}.</CardText>
 <Artist>David Martin</Artist>
 <Multiverseid>15854</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5508,7 +5500,7 @@ Is make the soldiers die.
 <Name>Rod of Ruin</Name>
 <Type>Artifact</Type>
 <ManaCost>4 (4)</ManaCost>
-<CardText>{3}, {T}: Rod of Ruin deals 1 damage to target creature or player.</CardText>
+<CardText>{3}, {T}: Rod of Ruin deals 1 damage to any target.</CardText>
 <Flavor>The rod is a relic from ancient times . . . cruel, vicious, mean-spirited times.</Flavor>
 <Artist>Ciruelo</Artist>
 <Multiverseid>11474</Multiverseid>
@@ -5525,7 +5517,7 @@ Is make the soldiers die.
 <Name>Sisay's Ring</Name>
 <Type>Artifact</Type>
 <ManaCost>4 (4)</ManaCost>
-<CardText>{T}: Add {C}{C} to your mana pool.</CardText>
+<CardText>{T}: Add {C}{C}.</CardText>
 <Flavor>"I'm not one for pretty things," said Sisay. "Unless they're pretty useful as well."</Flavor>
 <Artist>David Martin</Artist>
 <Multiverseid>15846</Multiverseid>
@@ -5542,7 +5534,7 @@ Is make the soldiers die.
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
 <CardText>Sky Diamond enters the battlefield tapped.
-{T}: Add {U} to your mana pool.</CardText>
+{T}: Add {U}.</CardText>
 <Artist>Tony Szczudlo</Artist>
 <Multiverseid>15851</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5608,7 +5600,7 @@ Is make the soldiers die.
 <Name>Storm Cauldron</Name>
 <Type>Artifact</Type>
 <ManaCost>5 (5)</ManaCost>
-<CardText>Each player may play an additional land during each of his or her turns.
+<CardText>Each player may play an additional land during each of their turns.
 Whenever a land is tapped for mana, return it to its owner's hand.</CardText>
 <Artist>Doug Chaffee</Artist>
 <Multiverseid>25663</Multiverseid>
@@ -5627,7 +5619,7 @@ Whenever a land is tapped for mana, return it to its owner's hand.</CardText>
 <Name>Teferi's Puzzle Box</Name>
 <Type>Artifact</Type>
 <ManaCost>4 (4)</ManaCost>
-<CardText>At the beginning of each player's draw step, that player puts the cards in his or her hand on the bottom of his or her library in any order, then draws that many cards.</CardText>
+<CardText>At the beginning of each player's draw step, that player puts the cards in their hand on the bottom of their library in any order, then draws that many cards.</CardText>
 <Artist>Donato Giancola</Artist>
 <Multiverseid>25662</Multiverseid>
 <Rulings>2004/10/04: You do your normal draw before this ability is put on the stack.
@@ -5697,8 +5689,8 @@ First strike</CardText>
 <No>325</No>
 <Name>Adarkar Wastes</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{T}: Add {W} or {U} to your mana pool. Adarkar Wastes deals 1 damage to you.</CardText>
+<CardText>{T}: Add {C}.
+{T}: Add {W} or {U}. Adarkar Wastes deals 1 damage to you.</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>11140</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5713,8 +5705,8 @@ First strike</CardText>
 <No>326</No>
 <Name>Brushland</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{T}: Add {G} or {W} to your mana pool. Brushland deals 1 damage to you.</CardText>
+<CardText>{T}: Add {C}.
+{T}: Add {G} or {W}. Brushland deals 1 damage to you.</CardText>
 <Artist>Scott Bailey</Artist>
 <Multiverseid>11191</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5730,7 +5722,7 @@ First strike</CardText>
 <Name>City of Brass</Name>
 <Type>Land</Type>
 <CardText>Whenever City of Brass becomes tapped, it deals 1 damage to you.
-{T}: Add one mana of any color to your mana pool.</CardText>
+{T}: Add one mana of any color.</CardText>
 <Artist>Ron Walotsky</Artist>
 <Multiverseid>11205</Multiverseid>
 <Rulings>2004/10/04: The first ability triggers no matter how the land becomes tapped.
@@ -5748,7 +5740,7 @@ First strike</CardText>
 <No>328</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>D. J. Cleland-Hura</Artist>
 <Multiverseid>11286</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5763,7 +5755,7 @@ First strike</CardText>
 <No>329</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>11287</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5778,7 +5770,7 @@ First strike</CardText>
 <No>330</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>11288</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5793,7 +5785,7 @@ First strike</CardText>
 <No>331</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>11289</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5808,7 +5800,7 @@ First strike</CardText>
 <No>332</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Scott Bailey</Artist>
 <Multiverseid>11348</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5823,7 +5815,7 @@ First strike</CardText>
 <No>333</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>11349</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5838,7 +5830,7 @@ First strike</CardText>
 <No>334</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>11350</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5853,7 +5845,7 @@ First strike</CardText>
 <No>335</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Tony Szczudlo</Artist>
 <Multiverseid>11351</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5868,8 +5860,8 @@ First strike</CardText>
 <No>336</No>
 <Name>Karplusan Forest</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{T}: Add {R} or {G} to your mana pool. Karplusan Forest deals 1 damage to you.</CardText>
+<CardText>{T}: Add {C}.
+{T}: Add {R} or {G}. Karplusan Forest deals 1 damage to you.</CardText>
 <Artist>Scott Bailey</Artist>
 <Multiverseid>11366</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5884,7 +5876,7 @@ First strike</CardText>
 <No>337</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>D. J. Cleland-Hura</Artist>
 <Multiverseid>11410</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5899,7 +5891,7 @@ First strike</CardText>
 <No>338</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>11411</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5914,7 +5906,7 @@ First strike</CardText>
 <No>339</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>11412</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5929,7 +5921,7 @@ First strike</CardText>
 <No>340</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>11413</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5944,7 +5936,7 @@ First strike</CardText>
 <No>341</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Scott Bailey</Artist>
 <Multiverseid>11446</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5959,7 +5951,7 @@ First strike</CardText>
 <No>342</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>11447</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5974,7 +5966,7 @@ First strike</CardText>
 <No>343</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>11448</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5989,7 +5981,7 @@ First strike</CardText>
 <No>344</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>11449</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -6004,8 +5996,8 @@ First strike</CardText>
 <No>345</No>
 <Name>Sulfurous Springs</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{T}: Add {B} or {R} to your mana pool. Sulfurous Springs deals 1 damage to you.</CardText>
+<CardText>{T}: Add {C}.
+{T}: Add {B} or {R}. Sulfurous Springs deals 1 damage to you.</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>11519</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -6020,7 +6012,7 @@ First strike</CardText>
 <No>346</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>D. J. Cleland-Hura</Artist>
 <Multiverseid>11521</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -6035,7 +6027,7 @@ First strike</CardText>
 <No>347</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>11522</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -6050,7 +6042,7 @@ First strike</CardText>
 <No>348</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Larry Elmore</Artist>
 <Multiverseid>11523</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -6065,7 +6057,7 @@ First strike</CardText>
 <No>349</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Tony Szczudlo</Artist>
 <Multiverseid>11524</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -6080,8 +6072,8 @@ First strike</CardText>
 <No>350</No>
 <Name>Underground River</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{T}: Add {U} or {B} to your mana pool. Underground River deals 1 damage to you.</CardText>
+<CardText>{T}: Add {C}.
+{T}: Add {U} or {B}. Underground River deals 1 damage to you.</CardText>
 <Artist>Andrew Goldhawk</Artist>
 <Multiverseid>11545</Multiverseid>
 <Vintage>Legal</Vintage>

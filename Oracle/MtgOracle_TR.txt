@@ -55,7 +55,7 @@ Threshold — If seven or more cards are in your graveyard, instead destroy all 
 <Name>Equal Treatment</Name>
 <Type>Instant</Type>
 <ManaCost>1W (2)</ManaCost>
-<CardText>If any source would deal 1 or more damage to a creature or player this turn, it deals 2 damage to that creature or player instead.
+<CardText>If any source would deal 1 or more damage to a permanent or player this turn, it deals 2 damage to that permanent or player instead.
 Draw a card.</CardText>
 <Artist>Greg & Tim Hildebrandt</Artist>
 <Multiverseid>29571</Multiverseid>
@@ -106,8 +106,8 @@ Madness {W} (If you discard this card, discard it into exile. When you do, cast 
 <Name>Hypochondria</Name>
 <Type>Enchantment</Type>
 <ManaCost>1W (2)</ManaCost>
-<CardText>{W}, Discard a card: Prevent the next 3 damage that would be dealt to target creature or player this turn.
-{W}, Sacrifice Hypochondria: Prevent the next 3 damage that would be dealt to target creature or player this turn.</CardText>
+<CardText>{W}, Discard a card: Prevent the next 3 damage that would be dealt to any target this turn.
+{W}, Sacrifice Hypochondria: Prevent the next 3 damage that would be dealt to any target this turn.</CardText>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>29705</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -140,7 +140,7 @@ Madness {W} (If you discard this card, discard it into exile. When you do, cast 
 <Type>Creature — Human Monk Cleric 2/1</Type>
 <ManaCost>1WW (3)</ManaCost>
 <CardText>Vigilance
-{T}: Prevent the next 1 damage that would be dealt to target creature or player this turn.</CardText>
+{T}: Prevent the next 1 damage that would be dealt to any target this turn.</CardText>
 <Artist>Mark Brill</Artist>
 <Multiverseid>12363</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -259,7 +259,7 @@ Flashback—{1}{W}, Pay 3 life. (You may cast this card from your graveyard for 
 <Name>Stern Judge</Name>
 <Type>Creature — Human Cleric 2/2</Type>
 <ManaCost>2W (3)</ManaCost>
-<CardText>{T}: Each player loses 1 life for each Swamp he or she controls.</CardText>
+<CardText>{T}: Each player loses 1 life for each Swamp they control.</CardText>
 <Flavor>"How to punish the guilty is up to the Ancestor. Deciding who merits such punishment is up to me."</Flavor>
 <Artist>Matt Cavotta</Artist>
 <Multiverseid>35082</Multiverseid>
@@ -343,7 +343,7 @@ Whenever you lose life, you gain 2 life for each 1 life you lost. (Damage dealt 
 <Name>Vengeful Dreams</Name>
 <Type>Instant</Type>
 <ManaCost>WW (2)</ManaCost>
-<CardText>As an additional cost to cast Vengeful Dreams, discard X cards.
+<CardText>As an additional cost to cast this spell, discard X cards.
 Exile X target attacking creatures.</CardText>
 <Flavor>Teroh dreams of his enemies' doom.</Flavor>
 <Artist>Mark Tedin</Artist>
@@ -383,7 +383,7 @@ Flashback {1}{U} (You may cast this card from your graveyard for its flashback c
 <Name>Ambassador Laquatus</Name>
 <Type>Legendary Creature — Merfolk Wizard 1/3</Type>
 <ManaCost>1UU (3)</ManaCost>
-<CardText>{3}: Target player puts the top three cards of his or her library into his or her graveyard.</CardText>
+<CardText>{3}: Target player puts the top three cards of their library into their graveyard.</CardText>
 <Flavor>"He smiles with poisoned lips."
 —Empress Llawan</Flavor>
 <Artist>Eric Peterson</Artist>
@@ -826,7 +826,7 @@ Enchanted creature's activated abilities can't be activated.</CardText>
 <Name>Turbulent Dreams</Name>
 <Type>Sorcery</Type>
 <ManaCost>UU (2)</ManaCost>
-<CardText>As an additional cost to cast Turbulent Dreams, discard X cards.
+<CardText>As an additional cost to cast this spell, discard X cards.
 Return X target nonland permanents to their owners' hands.</CardText>
 <Flavor>Laquatus dreams of seizing control.</Flavor>
 <Artist>Wayne England</Artist>
@@ -859,8 +859,8 @@ Threshold — As long as seven or more cards are in your graveyard, Boneshard Sl
 <Name>Cabal Ritual</Name>
 <Type>Instant</Type>
 <ManaCost>1B (2)</ManaCost>
-<CardText>Add {B}{B}{B} to your mana pool.
-Threshold — Add {B}{B}{B}{B}{B} to your mana pool instead if seven or more cards are in your graveyard.</CardText>
+<CardText>Add {B}{B}{B}.
+Threshold — Add {B}{B}{B}{B}{B} instead if seven or more cards are in your graveyard.</CardText>
 <Flavor>"Each syllable chills your veins. Each word rattles your mind."
 —Cabal Patriarch</Flavor>
 <Artist>Greg & Tim Hildebrandt</Artist>
@@ -909,7 +909,7 @@ Threshold — {3}{B}{B}, {T}: Target creature gets -2/-2 until end of turn. Acti
 <Name>Carrion Rats</Name>
 <Type>Creature — Rat 2/1</Type>
 <ManaCost>B (1)</ManaCost>
-<CardText>Whenever Carrion Rats attacks or blocks, any player may exile a card from his or her graveyard. If a player does, Carrion Rats assigns no combat damage this turn.</CardText>
+<CardText>Whenever Carrion Rats attacks or blocks, any player may exile a card from their graveyard. If a player does, Carrion Rats assigns no combat damage this turn.</CardText>
 <Flavor>"Just what I need—more competition."
 —Cabal grave robber</Flavor>
 <Artist>Edward P. Beard, Jr.</Artist>
@@ -926,7 +926,7 @@ Threshold — {3}{B}{B}, {T}: Target creature gets -2/-2 until end of turn. Acti
 <Name>Carrion Wurm</Name>
 <Type>Creature — Zombie Wurm 6/5</Type>
 <ManaCost>3BB (5)</ManaCost>
-<CardText>Whenever Carrion Wurm attacks or blocks, any player may exile three cards from his or her graveyard. If a player does, Carrion Wurm assigns no combat damage this turn.</CardText>
+<CardText>Whenever Carrion Wurm attacks or blocks, any player may exile three cards from their graveyard. If a player does, Carrion Wurm assigns no combat damage this turn.</CardText>
 <Flavor>Since it eats only carrion, sometimes it needs to make some from scratch.</Flavor>
 <Artist>Glen Angus</Artist>
 <Multiverseid>26449</Multiverseid>
@@ -1113,7 +1113,7 @@ At the beginning of your upkeep, if Ichorid is in your graveyard, you may exile 
 <Name>Insidious Dreams</Name>
 <Type>Instant</Type>
 <ManaCost>3B (4)</ManaCost>
-<CardText>As an additional cost to cast Insidious Dreams, discard X cards.
+<CardText>As an additional cost to cast this spell, discard X cards.
 Search your library for X cards. Then shuffle your library and put those cards on top of it in any order.</CardText>
 <Flavor>Chainer dreams of ultimate knowledge.</Flavor>
 <Artist>John Avon</Artist>
@@ -1136,6 +1136,7 @@ When Laquatus's Champion leaves the battlefield, that player gains 6 life.
 <Flavor>Chainer's dark gift to a darker soul.</Flavor>
 <Artist>Greg Staples</Artist>
 <Multiverseid>31869</Multiverseid>
+<Rulings>2018/03/16: As <Laquatus's Champion>'s second ability resolves, the player who gains 6 life is the player who was the target of the first ability (or, if that ability is still on the stack, the player who is its target).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Torment</Set>
@@ -1164,10 +1165,11 @@ When no creatures are on the battlefield, sacrifice Last Laugh.</CardText>
 <Name>Mesmeric Fiend</Name>
 <Type>Creature — Nightmare Horror 1/1</Type>
 <ManaCost>1B (2)</ManaCost>
-<CardText>When Mesmeric Fiend enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card.
+<CardText>When Mesmeric Fiend enters the battlefield, target opponent reveals their hand and you choose a nonland card from it. Exile that card.
 When Mesmeric Fiend leaves the battlefield, return the exiled card to its owner's hand.</CardText>
 <Artist>Dana Knutson</Artist>
 <Multiverseid>32211</Multiverseid>
+<Rulings>2018/03/16: If <Mesmeric Fiend> leaves the battlefield before its first ability has resolved, its second ability will trigger and do nothing. Then its first ability will resolve and exile a nonland card from the target opponent's hand indefinitely.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Torment</Set>
@@ -1333,7 +1335,7 @@ Threshold — If seven or more cards are in your graveyard, instead destroy that
 <Name>Restless Dreams</Name>
 <Type>Sorcery</Type>
 <ManaCost>B (1)</ManaCost>
-<CardText>As an additional cost to cast Restless Dreams, discard X cards.
+<CardText>As an additional cost to cast this spell, discard X cards.
 Return X target creature cards from your graveyard to your hand.</CardText>
 <Flavor>Braids dreams of dark rebirth.</Flavor>
 <Artist>John Matson</Artist>
@@ -1405,7 +1407,7 @@ When enchanted creature dies, return that card to the battlefield under your con
 <Name>Sickening Dreams</Name>
 <Type>Sorcery</Type>
 <ManaCost>1B (2)</ManaCost>
-<CardText>As an additional cost to cast Sickening Dreams, discard X cards.
+<CardText>As an additional cost to cast this spell, discard X cards.
 Sickening Dreams deals X damage to each creature and each player.</CardText>
 <Flavor>The Patriarch dreams of vile plague.</Flavor>
 <Artist>Scott M. Fischer</Artist>
@@ -1492,7 +1494,7 @@ Draw a card.</CardText>
 <Name>Waste Away</Name>
 <Type>Instant</Type>
 <ManaCost>4B (5)</ManaCost>
-<CardText>As an additional cost to cast Waste Away, discard a card.
+<CardText>As an additional cost to cast this spell, discard a card.
 Target creature gets -5/-5 until end of turn.</CardText>
 <Flavor>Chainer's insanity touched nearly every living thing—including viruses.</Flavor>
 <Artist>Alan Pollack</Artist>
@@ -1582,7 +1584,7 @@ Draw a card.</CardText>
 <ManaCost>R (1)</ManaCost>
 <CardText>Enchant creature
 Enchanted creature gets +1/+0.
-Sacrifice Crackling Club: Crackling Club deals 1 damage to target creature.</CardText>
+Sacrifice Crackling Club: It deals 1 damage to target creature.</CardText>
 <Flavor>It adds injury to injury.</Flavor>
 <Artist>Mike Ploog</Artist>
 <Multiverseid>34278</Multiverseid>
@@ -1615,7 +1617,7 @@ Sacrifice Crackling Club: Crackling Club deals 1 damage to target creature.</Car
 <Name>Devastating Dreams</Name>
 <Type>Sorcery</Type>
 <ManaCost>RR (2)</ManaCost>
-<CardText>As an additional cost to cast Devastating Dreams, discard X cards at random.
+<CardText>As an additional cost to cast this spell, discard X cards at random.
 Each player sacrifices X lands. Devastating Dreams deals X damage to each creature.</CardText>
 <Flavor>Kamahl dreams of storms of fire.</Flavor>
 <Artist>Tony Szczudlo</Artist>
@@ -1648,7 +1650,7 @@ Each player sacrifices X lands. Devastating Dreams deals X damage to each creatu
 <Name>Fiery Temper</Name>
 <Type>Instant</Type>
 <ManaCost>1RR (3)</ManaCost>
-<CardText>Fiery Temper deals 3 damage to target creature or player.
+<CardText>Fiery Temper deals 3 damage to any target.
 Madness {R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)</CardText>
 <Artist>Greg & Tim Hildebrandt</Artist>
 <Multiverseid>32918</Multiverseid>
@@ -1674,7 +1676,7 @@ Madness {R} (If you discard this card, discard it into exile. When you do, cast 
 <Name>Flaming Gambit</Name>
 <Type>Instant</Type>
 <ManaCost>XR (1)</ManaCost>
-<CardText>Flaming Gambit deals X damage to target player. That player may choose a creature he or she controls and have Flaming Gambit deal that damage to it instead.
+<CardText>Flaming Gambit deals X damage to target player or planeswalker. That player or that planeswalker's controller may choose a creature they control and have Flaming Gambit deal that damage to it instead.
 Flashback {X}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</CardText>
 <Artist>Donato Giancola</Artist>
 <Multiverseid>32921</Multiverseid>
@@ -1706,7 +1708,7 @@ Flashback—{1}{R}, Pay 3 life. (You may cast this card from your graveyard for 
 <Name>Grim Lavamancer</Name>
 <Type>Creature — Human Wizard 1/1</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>{R}, {T}, Exile two cards from your graveyard: Grim Lavamancer deals 2 damage to target creature or player.</CardText>
+<CardText>{R}, {T}, Exile two cards from your graveyard: Grim Lavamancer deals 2 damage to any target.</CardText>
 <Flavor>"Fools dig for water, corpses, or gold. The earth's real treasure is far deeper."</Flavor>
 <Artist>Jim Nelson</Artist>
 <Multiverseid>36111</Multiverseid>
@@ -1757,7 +1759,7 @@ Threshold — If seven or more cards are in your graveyard, instead Kamahl's Sle
 <Name>Longhorn Firebeast</Name>
 <Type>Creature — Elemental Ox Beast 3/2</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>When Longhorn Firebeast enters the battlefield, any opponent may have it deal 5 damage to him or her. If a player does, sacrifice Longhorn Firebeast.</CardText>
+<CardText>When Longhorn Firebeast enters the battlefield, any opponent may have it deal 5 damage to them. If a player does, sacrifice Longhorn Firebeast.</CardText>
 <Flavor>Its blast can fuse armor to bone, leaving skeletons that glint brightly in the sun.</Flavor>
 <Artist>Glen Angus</Artist>
 <Multiverseid>29770</Multiverseid>
@@ -1773,7 +1775,7 @@ Threshold — If seven or more cards are in your graveyard, instead Kamahl's Sle
 <Name>Overmaster</Name>
 <Type>Sorcery</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>The next instant or sorcery spell you cast this turn can't be countered by spells or abilities.
+<CardText>The next instant or sorcery spell you cast this turn can't be countered.
 Draw a card.</CardText>
 <Flavor>"Trickery can't defeat raw power."
 —Matoc, lavamancer</Flavor>
@@ -1791,7 +1793,7 @@ Draw a card.</CardText>
 <Name>Pardic Arsonist</Name>
 <Type>Creature — Human Barbarian 3/3</Type>
 <ManaCost>2RR (4)</ManaCost>
-<CardText>Threshold — As long as seven or more cards are in your graveyard, Pardic Arsonist has "When Pardic Arsonist enters the battlefield, it deals 3 damage to target creature or player."</CardText>
+<CardText>Threshold — As long as seven or more cards are in your graveyard, Pardic Arsonist has "When Pardic Arsonist enters the battlefield, it deals 3 damage to any target."</CardText>
 <Flavor>Otaria's epidemic of insanity didn't affect certain barbarians—but no one noticed.</Flavor>
 <Artist>rk post</Artist>
 <Multiverseid>32213</Multiverseid>
@@ -1906,8 +1908,8 @@ Threshold — As long as seven or more cards are in your graveyard, Possessed Ba
 <Name>Pyromania</Name>
 <Type>Enchantment</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>{1}{R}, Discard a card at random: Pyromania deals 1 damage to target creature or player.
-{1}{R}, Sacrifice Pyromania: Pyromania deals 1 damage to target creature or player.</CardText>
+<CardText>{1}{R}, Discard a card at random: Pyromania deals 1 damage to any target.
+{1}{R}, Sacrifice Pyromania: It deals 1 damage to any target.</CardText>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>34390</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1937,7 +1939,7 @@ Threshold — As long as seven or more cards are in your graveyard, Possessed Ba
 <Name>Skullscorch</Name>
 <Type>Sorcery</Type>
 <ManaCost>RR (2)</ManaCost>
-<CardText>Target player discards two cards at random unless that player has Skullscorch deal 4 damage to him or her.</CardText>
+<CardText>Target player discards two cards at random unless that player has Skullscorch deal 4 damage to them.</CardText>
 <Flavor>"A good whack on the head usually has the same effect."
 —Kamahl, pit fighter</Flavor>
 <Artist>Bradley Williams</Artist>
@@ -1954,8 +1956,8 @@ Threshold — As long as seven or more cards are in your graveyard, Possessed Ba
 <Name>Sonic Seizure</Name>
 <Type>Instant</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>As an additional cost to cast Sonic Seizure, discard a card at random.
-Sonic Seizure deals 3 damage to target creature or player.</CardText>
+<CardText>As an additional cost to cast this spell, discard a card at random.
+Sonic Seizure deals 3 damage to any target.</CardText>
 <Artist>Terese Nielsen</Artist>
 <Multiverseid>35165</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1985,7 +1987,7 @@ Sonic Seizure deals 3 damage to target creature or player.</CardText>
 <Name>Violent Eruption</Name>
 <Type>Instant</Type>
 <ManaCost>1RRR (4)</ManaCost>
-<CardText>Violent Eruption deals 4 damage divided as you choose among any number of target creatures and/or players.
+<CardText>Violent Eruption deals 4 damage divided as you choose among any number of targets.
 Madness {1}{R}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)</CardText>
 <Artist>Bob Petillo</Artist>
 <Multiverseid>34253</Multiverseid>
@@ -2104,7 +2106,7 @@ Threshold — As long as seven or more cards are in your graveyard, Centaur Chie
 <Name>Dwell on the Past</Name>
 <Type>Sorcery</Type>
 <ManaCost>G (1)</ManaCost>
-<CardText>Target player shuffles up to four target cards from his or her graveyard into his or her library.</CardText>
+<CardText>Target player shuffles up to four target cards from their graveyard into their library.</CardText>
 <Flavor>None can find what hasn't been lost.
 —Nantuko teaching</Flavor>
 <Artist>Rebecca Guay</Artist>
@@ -2286,7 +2288,7 @@ Threshold — Nantuko Calmer gets +1/+1 as long as seven or more cards are in yo
 <Name>Nostalgic Dreams</Name>
 <Type>Sorcery</Type>
 <ManaCost>GG (2)</ManaCost>
-<CardText>As an additional cost to cast Nostalgic Dreams, discard X cards.
+<CardText>As an additional cost to cast this spell, discard X cards.
 Return X target cards from your graveyard to your hand. Exile Nostalgic Dreams.</CardText>
 <Flavor>Seton dreams of life renewed.</Flavor>
 <Artist>Darrell Riche</Artist>
@@ -2350,7 +2352,7 @@ Threshold — Seton's Scout gets +2/+2 as long as seven or more cards are in you
 <No>139</No>
 <Name>Cabal Coffers</Name>
 <Type>Land</Type>
-<CardText>{2}, {T}: Add {B} to your mana pool for each Swamp you control.</CardText>
+<CardText>{2}, {T}: Add {B} for each Swamp you control.</CardText>
 <Flavor>Deep within the Cabal's vault, the Mirari pulsed like a dead sun—and its darkness radiated across Otaria.</Flavor>
 <Artist>Don Hazeltine</Artist>
 <Multiverseid>29896</Multiverseid>
@@ -2365,8 +2367,8 @@ Threshold — Seton's Scout gets +2/+2 as long as seven or more cards are in you
 <No>140</No>
 <Name>Tainted Field</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{T}: Add {W} or {B} to your mana pool. Activate this ability only if you control a Swamp.</CardText>
+<CardText>{T}: Add {C}.
+{T}: Add {W} or {B}. Activate this ability only if you control a Swamp.</CardText>
 <Artist>Don Hazeltine</Artist>
 <Multiverseid>31757</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2380,8 +2382,8 @@ Threshold — Seton's Scout gets +2/+2 as long as seven or more cards are in you
 <No>141</No>
 <Name>Tainted Isle</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{T}: Add {U} or {B} to your mana pool. Activate this ability only if you control a Swamp.</CardText>
+<CardText>{T}: Add {C}.
+{T}: Add {U} or {B}. Activate this ability only if you control a Swamp.</CardText>
 <Artist>Alan Pollack</Artist>
 <Multiverseid>31758</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2395,8 +2397,8 @@ Threshold — Seton's Scout gets +2/+2 as long as seven or more cards are in you
 <No>142</No>
 <Name>Tainted Peak</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{T}: Add {B} or {R} to your mana pool. Activate this ability only if you control a Swamp.</CardText>
+<CardText>{T}: Add {C}.
+{T}: Add {B} or {R}. Activate this ability only if you control a Swamp.</CardText>
 <Artist>Tony Szczudlo</Artist>
 <Multiverseid>31759</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2410,8 +2412,8 @@ Threshold — Seton's Scout gets +2/+2 as long as seven or more cards are in you
 <No>143</No>
 <Name>Tainted Wood</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{T}: Add {B} or {G} to your mana pool. Activate this ability only if you control a Swamp.</CardText>
+<CardText>{T}: Add {C}.
+{T}: Add {B} or {G}. Activate this ability only if you control a Swamp.</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>31760</Multiverseid>
 <Vintage>Legal</Vintage>

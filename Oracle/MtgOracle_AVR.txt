@@ -214,6 +214,10 @@ Enchanted creature gets +1/+2, has flying, and is an Angel in addition to its ot
 —Elder Rimheit</Flavor>
 <Artist>Howard Lyon</Artist>
 <Multiverseid>240006</Multiverseid>
+<Rulings>2018/03/16: Once the exiled permanent returns, it's considered a new object with no relation to the object that it was. Auras attached to the exiled permanent will be put into their owners' graveyards. Equipment attached to the exiled permanent will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist.
+2018/03/16: The returned card won't be the target of any spells or abilities that targeted it before. Any spells that don't target, such as Akroma's Vengeance, will still affect it.
+2018/03/16: If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+2018/03/16: When an effect returns the exiled card "under your control," you control it indefinitely after that. In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any creatures you control from <Cloudshift>'s effect are exiled.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -319,18 +323,18 @@ Prevent all damage that would be dealt by enchanted creature.</CardText>
 <Name>Divine Deflection</Name>
 <Type>Instant</Type>
 <ManaCost>XW (1)</ManaCost>
-<CardText>Prevent the next X damage that would be dealt to you and/or permanents you control this turn. If damage is prevented this way, Divine Deflection deals that much damage to target creature or player.</CardText>
+<CardText>Prevent the next X damage that would be dealt to you and/or permanents you control this turn. If damage is prevented this way, Divine Deflection deals that much damage to any target.</CardText>
 <Artist>Steve Prescott</Artist>
 <Multiverseid>240072</Multiverseid>
-<Rulings>2012/05/01: <Divine Deflection>'s only target is the creature or player it may deal damage to. You choose that target as you cast <Divine Deflection>, not at the time it prevents damage.
-2012/05/01: If the targeted creature or player is an illegal target by the time <Divine Deflection> resolves, the entire spell is countered. No damage will be prevented.
+<Rulings>2012/05/01: <Divine Deflection>'s only target is the permanent or player it may deal damage to. You choose that target as you cast <Divine Deflection>, not at the time it prevents damage.
+2012/05/01: If the targeted permanent or player is an illegal target by the time <Divine Deflection> resolves, the entire spell doesn't resolve. No damage will be prevented.
 2012/05/01: <Divine Deflection> can prevent damage that would be dealt to you, one or more creatures you control, and/or one or more planeswalkers you control.
 2012/05/01: <Divine Deflection> can prevent damage from multiple sources dealing damage simultaneously (such as during combat). If the chosen value for X won't prevent all the damage, you choose which sources to prevent damage from.
 2012/05/01: If damage is dealt to multiple permanents you control, or is dealt to you and at least one permanent you control, you choose which of that damage to prevent if the chosen value for X won't prevent all the damage. For example, if 3 damage would be dealt to you and to each of two creatures you control, and <Divine Deflection> will prevent the next 3 damage, you might choose to prevent the next 2 damage it would deal to you and the next 1 damage it would deal to one of the creatures, among other choices. You don't decide until the point at which the damage would be dealt.
-2012/05/01: <Divine Deflection>'s effect is not a redirection effect. If it prevents damage, <Divine Deflection> (not the original source) deals damage to the targeted creature or player as part of that prevention effect. <Divine Deflection> is the source of the new damage, so the characteristics of the original source (such as its color, or whether it had lifelink or deathtouch) don't affect this damage. The new damage is not combat damage, even if the prevented damage was. Since you control the source of the new damage, if you targeted an opponent with <Divine Deflection>, you may have <Divine Deflection> deal its damage to a planeswalker that opponent controls.
+2012/05/01: <Divine Deflection>'s effect is not a redirection effect. If it prevents damage, <Divine Deflection> (not the original source) deals damage to the targeted permanent or player as part of that prevention effect. <Divine Deflection> is the source of the new damage, so the characteristics of the original source (such as its color, or whether it had lifelink or deathtouch) don't affect this damage. The new damage is not combat damage, even if the prevented damage was.
 2012/05/01: If <Divine Deflection> prevents damage, excess damage (if any) dealt by that source is dealt at the same time. Immediately afterward, as part of that same prevention effect, <Divine Deflection> deals its damage. This happens before state-based actions are checked, and before the spell or ability that caused damage to be dealt resumes its resolution.
-2012/05/01: Whether the targeted creature or player is still a legal target is not checked after <Divine Deflection> resolves. For example, if a creature targeted by <Divine Deflection> gains shroud after <Divine Deflection> resolves, <Divine Deflection> can still deal damage to that creature.
-2012/05/01: If <Divine Deflection> can't deal damage to the targeted creature or player (because the creature has gained protection from white, is no longer on the battlefield, or is no longer a creature, or the player is no longer in the game, for example), it will still prevent damage. It just won't deal any damage itself.</Rulings>
+2012/05/01: Whether the targeted permanent or player is still a legal target is not checked after <Divine Deflection> resolves. For example, if a creature targeted by <Divine Deflection> gains shroud after <Divine Deflection> resolves, <Divine Deflection> can still deal damage to that creature.
+2012/05/01: If <Divine Deflection> can't deal damage to the targeted permanent or player (because the creature is no longer on the battlefield, or is no longer a creature, or the player is no longer in the game, for example), it will still prevent damage. It just won't deal any damage itself.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -695,7 +699,7 @@ As long as Spectral Gateguards is paired with another creature, both creatures h
 Miracle {W} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)</CardText>
 <Artist>James Paick</Artist>
 <Multiverseid>262703</Multiverseid>
-<Rulings>2017/03/14: Each player chooses the order that creatures he or she owns are put onto the bottom of his or her library. This order isn't revealed to other players.</Rulings>
+<Rulings>2017/03/14: Each player chooses the order that creatures they own are put onto the bottom of their library. This order isn't revealed to other players.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -891,7 +895,7 @@ Miracle {1}{U} (You may cast this card for its miracle cost when you draw it if 
 <Name>Dreadwaters</Name>
 <Type>Sorcery</Type>
 <ManaCost>3U (4)</ManaCost>
-<CardText>Target player puts the top X cards of his or her library into his or her graveyard, where X is the number of lands you control.</CardText>
+<CardText>Target player puts the top X cards of their library into their graveyard, where X is the number of lands you control.</CardText>
 <Flavor>Stray into the Morkrut and it may rise to claim you.</Flavor>
 <Artist>Cliff Childs</Artist>
 <Multiverseid>240008</Multiverseid>
@@ -967,8 +971,8 @@ Draw a card.</CardText>
 <Flavor>The first spell taught to young mages, it has spared the lives of many whose hands are too small to hold a sword.</Flavor>
 <Artist>Ryan Yee</Artist>
 <Multiverseid>240162</Multiverseid>
-<Rulings>2010/06/15: If the targeted creature is an illegal target by the time <Fleeting Distraction> resolves, the spell is countered. You won't draw a card.
-2012/05/01: If the targeted creature is an illegal target when <Fleeting Distraction> tries to resolve, it will be countered and none of its effects will happen. You won't draw a card.</Rulings>
+<Rulings>2010/06/15: If the targeted creature is an illegal target by the time <Fleeting Distraction> resolves, the spell doesn't resolve. You won't draw a card.
+2012/05/01: If the targeted creature is an illegal target when <Fleeting Distraction> tries to resolve, it won't resolve and none of its effects will happen. You won't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1003,7 +1007,7 @@ As long as Galvanic Alchemist is paired with another creature, each of those cre
 <Flavor>Angels and demons aren't the only ones listening to your prayers.</Flavor>
 <Artist>Dan Scott</Artist>
 <Multiverseid>240021</Multiverseid>
-<Rulings>2012/05/01: If the target creature spell is an illegal target when <Geist Snatch> tries to resolve, <Geist Snatch> will be countered and none of its effects will happen. You won't put a Spirit token onto the battlefield.
+<Rulings>2012/05/01: If the target creature spell is an illegal target when <Geist Snatch> tries to resolve, <Geist Snatch> won't resolve and none of its effects will happen. You won't put a Spirit token onto the battlefield.
 2012/05/01: If <Geist Snatch> resolves but the creature spell can't be countered, you'll still put the Spirit token onto the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1325,7 +1329,7 @@ You may cast Misthollow Griffin from exile.</CardText>
 <Name>Rotcrown Ghoul</Name>
 <Type>Creature — Zombie 3/3</Type>
 <ManaCost>4U (5)</ManaCost>
-<CardText>When Rotcrown Ghoul dies, target player puts the top five cards of his or her library into his or her graveyard.</CardText>
+<CardText>When Rotcrown Ghoul dies, target player puts the top five cards of their library into their graveyard.</CardText>
 <Flavor>"Don't look into its eyes. It's thinking things no dead thing should think."
 —Captain Eberhart</Flavor>
 <Artist>Dave Kendall</Artist>
@@ -1421,7 +1425,7 @@ Enchanted creature gets +2/+2 and has flying.</CardText>
 <Type>Creature — Human Wizard 2/2</Type>
 <ManaCost>3U (4)</ManaCost>
 <CardText>Soulbond (You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them.)
-As long as Stern Mentor is paired with another creature, each of those creatures has "{T}: Target player puts the top two cards of his or her library into his or her graveyard."</CardText>
+As long as Stern Mentor is paired with another creature, each of those creatures has "{T}: Target player puts the top two cards of their library into their graveyard."</CardText>
 <Artist>Igor Kieryluk</Artist>
 <Multiverseid>240069</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1437,7 +1441,7 @@ As long as Stern Mentor is paired with another creature, each of those creatures
 <Name>Stolen Goods</Name>
 <Type>Sorcery</Type>
 <ManaCost>3U (4)</ManaCost>
-<CardText>Target opponent exiles cards from the top of his or her library until he or she exiles a nonland card. Until end of turn, you may cast that card without paying its mana cost.</CardText>
+<CardText>Target opponent exiles cards from the top of their library until they exile a nonland card. Until end of turn, you may cast that card without paying its mana cost.</CardText>
 <Artist>Anthony Francisco</Artist>
 <Multiverseid>275718</Multiverseid>
 <Rulings>2012/05/01: You cast the card from exile. Each land card exiled this way will remain exiled.
@@ -1445,7 +1449,7 @@ As long as Stern Mentor is paired with another creature, each of those creatures
 2012/05/01: You must follow the normal timing restrictions of the exiled card.
 2012/05/01: If you cast a card "without paying its mana cost," you can't pay any alternative costs. You can pay additional costs, such as kicker costs. If the card has mandatory additional costs, you must pay those.
 2012/05/01: If the card has {X} in its mana cost, you must choose 0 as its value.
-2012/05/01: If there are no nonland cards left in that library, the opponent will exile all cards from his or her library, and <Stolen Goods> will finish resolving.</Rulings>
+2012/05/01: If there are no nonland cards left in that library, the opponent will exile all cards from their library, and <Stolen Goods> will finish resolving.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1553,7 +1557,7 @@ As long as Wingcrafter is paired with another creature, both creatures have flyi
 <Name>Appetite for Brains</Name>
 <Type>Sorcery</Type>
 <ManaCost>B (1)</ManaCost>
-<CardText>Target opponent reveals his or her hand. You choose a card from it with converted mana cost 4 or greater and exile that card.</CardText>
+<CardText>Target opponent reveals their hand. You choose a card from it with converted mana cost 4 or greater and exile that card.</CardText>
 <Flavor>Just as with a peach, the first bite is always the juiciest.</Flavor>
 <Artist>Michael C. Hayes</Artist>
 <Multiverseid>279612</Multiverseid>
@@ -1628,7 +1632,7 @@ As long as Wingcrafter is paired with another creature, both creatures have flyi
 <Name>Bone Splinters</Name>
 <Type>Sorcery</Type>
 <ManaCost>B (1)</ManaCost>
-<CardText>As an additional cost to cast Bone Splinters, sacrifice a creature.
+<CardText>As an additional cost to cast this spell, sacrifice a creature.
 Destroy target creature.</CardText>
 <Flavor>"Which do you deserve, the heft of a femur or the graceful sharpness of a forearm? Decisions, decisions . . ."
 —Gisa the Mad</Flavor>
@@ -1636,7 +1640,7 @@ Destroy target creature.</CardText>
 <Multiverseid>239983</Multiverseid>
 <Rulings>2017/03/14: You must sacrifice exactly one creature to cast this spell; you can't cast it without sacrificing a creature, and you can't sacrifice additional creatures.
 2017/03/14: Once you begin to cast <Bone Splinters>, no player may take actions until you're done. Notably, opponents can't try to remove the creature you wish to sacrifice.
-2017/03/14: You can cast <Bone Splinters> targeting the creature you intend to sacrifice for its cost. This is because targets are chosen before costs are paid. <Bone Splinters> will be countered as it tries to resolve in this case.</Rulings>
+2017/03/14: You can cast <Bone Splinters> targeting the creature you intend to sacrifice for its cost. This is because targets are chosen before costs are paid. <Bone Splinters> won't resolve as it tries to resolve in this case.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1667,7 +1671,7 @@ Destroy target creature.</CardText>
 <Name>Corpse Traders</Name>
 <Type>Creature — Human Rogue 3/3</Type>
 <ManaCost>3B (4)</ManaCost>
-<CardText>{2}{B}, Sacrifice a creature: Target opponent reveals his or her hand. You choose a card from it. That player discards that card. Activate this ability only any time you could cast a sorcery.</CardText>
+<CardText>{2}{B}, Sacrifice a creature: Target opponent reveals their hand. You choose a card from it. That player discards that card. Activate this ability only any time you could cast a sorcery.</CardText>
 <Flavor>Those without breath can't complain.</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>239971</Multiverseid>
@@ -1804,7 +1808,7 @@ Undying (When this creature dies, if it had no +1/+1 counters on it, return it t
 <Name>Descent into Madness</Name>
 <Type>Enchantment</Type>
 <ManaCost>3BB (5)</ManaCost>
-<CardText>At the beginning of your upkeep, put a despair counter on Descent into Madness, then each player exiles X permanents he or she controls and/or cards from his or her hand, where X is the number of despair counters on Descent into Madness.</CardText>
+<CardText>At the beginning of your upkeep, put a despair counter on Descent into Madness, then each player exiles X permanents they control and/or cards from their hand, where X is the number of despair counters on Descent into Madness.</CardText>
 <Flavor>The stairs lead down in both directions.</Flavor>
 <Artist>Anthony Francisco</Artist>
 <Multiverseid>240119</Multiverseid>
@@ -1869,7 +1873,7 @@ Undying (When this creature dies, if it had no +1/+1 counters on it, return it t
 <Artist>Daarken</Artist>
 <Multiverseid>271114</Multiverseid>
 <Rulings>2012/05/01: The value of X is determined when <Essence Harvest> resolves. If you control no creatures that time, no life will be lost or gained.
-2012/05/01: <Essence Harvest> targets only the player. It doesn't target any creatures. If that player is an illegal target when <Essence Harvest> tries to resolve, it will be countered and none of its effects will happen. No life will be lost or gained.</Rulings>
+2012/05/01: <Essence Harvest> targets only the player. It doesn't target any creatures. If that player is an illegal target when <Essence Harvest> tries to resolve, it won't resolve and none of its effects will happen. No life will be lost or gained.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1964,7 +1968,7 @@ Enchanted creature gets -1/-1 and is a black Zombie in addition to its other col
 <Artist>Sam Wolfe Connelly</Artist>
 <Multiverseid>279611</Multiverseid>
 <Rulings>2012/05/01: <Grave Exchange> targets both a creature card in your graveyard and a player. You can't cast it unless there is a legal target to choose for both. You can target a player who controls no creatures.
-2012/05/01: If both targets are illegal when <Grave Exchange> tries to resolve, it will be countered and none of its effects will happen. If only one target is legal, the effect relevant to that target will happen and the other will not.</Rulings>
+2012/05/01: If both targets are illegal when <Grave Exchange> tries to resolve, it won't resolve and none of its effects will happen. If only one target is legal, the effect relevant to that target will happen and the other will not.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2070,12 +2074,12 @@ Whenever another nontoken creature dies, you may draw a card.</CardText>
 <Name>Killing Wave</Name>
 <Type>Sorcery</Type>
 <ManaCost>XB (1)</ManaCost>
-<CardText>For each creature, its controller sacrifices it unless he or she pays X life.</CardText>
+<CardText>For each creature, its controller sacrifices it unless they pay X life.</CardText>
 <Flavor>"I come looking for demons and I find a plane full of angels. I hate angels."
 —Liliana Vess</Flavor>
 <Artist>Steve Argyle</Artist>
 <Multiverseid>240180</Multiverseid>
-<Rulings>2012/05/01: First, the active player chooses whether to pay X life for each creature he or she controls. Then each other player in turn order chooses for his or her creatures. Then each player pays life and sacrifices creatures at the same time. Players will know the decisions of players who chose before them.
+<Rulings>2012/05/01: First, the active player chooses whether to pay X life for each creature they control. Then each other player in turn order chooses for their creatures. Then each player pays life and sacrifices creatures at the same time. Players will know the decisions of players who chose before them.
 2012/05/01: A player may choose to pay life for some creatures and sacrifice the rest. It's not an all-or-nothing decision.
 2012/05/01: You can't pay more life than you have.
 2012/05/01: If you can't sacrifice a creature (perhaps because of Sigarda, Host of Herons), you can choose not to pay life and nothing will happen.</Rulings>
@@ -2133,7 +2137,7 @@ Pay 4 life: Regenerate Marrow Bats.</CardText>
 <Flavor>"His mind is feeble. Feed him to the bats."</Flavor>
 <Artist>Greg Staples</Artist>
 <Multiverseid>239966</Multiverseid>
-<Rulings>2012/05/01: If the targeted player has fewer than two cards in his or her hand, that player will still lose 2 life (and discard one card, if applicable).</Rulings>
+<Rulings>2012/05/01: If the targeted player has fewer than two cards in their hand, that player will still lose 2 life (and discard one card, if applicable).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2382,7 +2386,7 @@ At the beginning of the end step, return Archwing Dragon to its owner's hand.</C
 <Name>Battle Hymn</Name>
 <Type>Instant</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>Add {R} to your mana pool for each creature you control.</CardText>
+<CardText>Add {R} for each creature you control.</CardText>
 <Flavor>"A church is just wood and walls. A congregation is the faithful praising the angels."
 —Kolman, elder of Gatstaf</Flavor>
 <Artist>Nils Hamm</Artist>
@@ -2401,14 +2405,14 @@ At the beginning of the end step, return Archwing Dragon to its owner's hand.</C
 <Name>Bonfire of the Damned</Name>
 <Type>Sorcery</Type>
 <ManaCost>XXR (1)</ManaCost>
-<CardText>Bonfire of the Damned deals X damage to target player and each creature he or she controls.
+<CardText>Bonfire of the Damned deals X damage to target player or planeswalker and each creature that player or that planeswalker's controller controls.
 Miracle {X}{R} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)</CardText>
 <Artist>James Paick</Artist>
 <Multiverseid>271095</Multiverseid>
 <Rulings>2017/03/14: <Bonfire of the Damned> targets only the player. Creatures with shroud or hexproof that player controls will be dealt damage by <Bonfire of the Damned> if it resolves.
 2017/03/14: A mana cost of {X}{X} means that you pay twice X. If you want X to be 3, you pay {6}{R} to cast <Bonfire of the Damned>.
 2017/03/14: <Bonfire of the Damned>'s converted mana cost is based on its mana cost of {X}{X}{R}, even if you're casting it for its miracle cost. For example, if you cast <Bonfire of the Damned> for its miracle cost and choose 4 for X, its converted mana cost is 9.
-2017/03/14: If the player is an illegal target when <Bonfire of the Damned> tries to resolve, the spell will be countered and none of its effects will happen. No damage will be dealt to any creature or player.
+2017/03/14: If the player is an illegal target when <Bonfire of the Damned> tries to resolve, the spell won't resolve and none of its effects will happen. No damage will be dealt to any permanent or player.
 2017/03/14: Preventing some or all of the damage dealt to the player won't affect the amount of damage dealt to each creature that player controls. The same is true for any effect that increases or decreases the amount of damage dealt to the player.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2423,8 +2427,8 @@ Miracle {X}{R} (You may cast this card for its miracle cost when you draw it if 
 <Name>Burn at the Stake</Name>
 <Type>Sorcery</Type>
 <ManaCost>2RRR (5)</ManaCost>
-<CardText>As an additional cost to cast Burn at the Stake, tap any number of untapped creatures you control.
-Burn at the Stake deals damage to target creature or player equal to three times the number of creatures tapped this way.</CardText>
+<CardText>As an additional cost to cast this spell, tap any number of untapped creatures you control.
+Burn at the Stake deals damage to any target equal to three times the number of creatures tapped this way.</CardText>
 <Artist>Zoltan Boros</Artist>
 <Multiverseid>271120</Multiverseid>
 <Rulings>2012/05/01: Players may not respond to the paying of costs. Once <Burn at the Stake> has been announced and put on the stack, no one can try to respond by tapping any creatures.
@@ -2540,7 +2544,7 @@ When Fervent Cathar enters the battlefield, target creature can't block this tur
 <Name>Gang of Devils</Name>
 <Type>Creature — Devil 3/3</Type>
 <ManaCost>5R (6)</ManaCost>
-<CardText>When Gang of Devils dies, it deals 3 damage divided as you choose among one, two, or three target creatures and/or players.</CardText>
+<CardText>When Gang of Devils dies, it deals 3 damage divided as you choose among one, two, or three targets.</CardText>
 <Flavor>"Well, how could I know they'd explode?"
 —Gregel, township militia</Flavor>
 <Artist>Erica Yang</Artist>
@@ -2649,7 +2653,7 @@ Undying (When this creature dies, if it had no +1/+1 counters on it, return it t
 <Name>Kessig Malcontents</Name>
 <Type>Creature — Human Warrior 3/1</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>When Kessig Malcontents enters the battlefield, it deals damage to target player equal to the number of Humans you control.</CardText>
+<CardText>When Kessig Malcontents enters the battlefield, it deals damage to target player or planeswalker equal to the number of Humans you control.</CardText>
 <Flavor>Discontent is a powerful weapon in the hands of a mob.</Flavor>
 <Artist>John Stanko</Artist>
 <Multiverseid>240114</Multiverseid>
@@ -2703,7 +2707,7 @@ As long as Lightning Mauler is paired with another creature, both creatures have
 <Type>Enchantment — Aura</Type>
 <ManaCost>2R (3)</ManaCost>
 <CardText>Enchant creature
-Enchanted creature has haste and "{T}: This creature deals 1 damage to target creature or player."</CardText>
+Enchanted creature has haste and "{T}: This creature deals 1 damage to any target."</CardText>
 <Flavor>"Undead flesh is dry and papery. A single spark and 'poof.' No more ghoul."</Flavor>
 <Artist>David Rapoza</Artist>
 <Multiverseid>240086</Multiverseid>
@@ -2777,7 +2781,7 @@ Damage that would be dealt by Malignus can't be prevented.</CardText>
 <Name>Pillar of Flame</Name>
 <Type>Sorcery</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>Pillar of Flame deals 2 damage to target creature or player. If a creature dealt damage this way would die this turn, exile it instead.</CardText>
+<CardText>Pillar of Flame deals 2 damage to any target. If a creature dealt damage this way would die this turn, exile it instead.</CardText>
 <Flavor>"May the worthy spend an eternity in Blessed Sleep. May the wicked find the peace of oblivion."</Flavor>
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>240013</Multiverseid>
@@ -2812,7 +2816,7 @@ Damage that would be dealt by Malignus can't be prevented.</CardText>
 <Name>Reforge the Soul</Name>
 <Type>Sorcery</Type>
 <ManaCost>3RR (5)</ManaCost>
-<CardText>Each player discards his or her hand, then draws seven cards.
+<CardText>Each player discards their hand, then draws seven cards.
 Miracle {1}{R} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)</CardText>
 <Flavor>In a wave of spells called the Cursemute, Avacyn cleansed the world with divine fire.</Flavor>
 <Artist>Jaime Jones</Artist>
@@ -2851,9 +2855,9 @@ Miracle {1}{R} (You may cast this card for its miracle cost when you draw it if 
 <Flavor>Skirsdag cultists refused to quietly accept Avacyn's ascendancy.</Flavor>
 <Artist>Clint Cearley</Artist>
 <Multiverseid>240126</Multiverseid>
-<Rulings>2012/05/01: First you choose the order for the card types. Then each player in turn order (starting with the active player) chooses one permanent he or she controls of the first card type. Then those permanents are sacrificed at the same time. Then each player in turn order chooses two permanents he or she controls of the second card type. Then those permanents are sacrificed at the same time. Finally, each player in turn order chooses three permanents of the third card type, then those permanents are sacrificed at the same time.
+<Rulings>2012/05/01: First you choose the order for the card types. Then each player in turn order (starting with the active player) chooses one permanent they control of the first card type. Then those permanents are sacrificed at the same time. Then each player in turn order chooses two permanents they control of the second card type. Then those permanents are sacrificed at the same time. Finally, each player in turn order chooses three permanents of the third card type, then those permanents are sacrificed at the same time.
 2012/05/01: Permanents sacrificed for one card type won't be on the battlefield to be chosen for subsequent card types.
-2012/05/01: If any abilities trigger while <Rite of Ruin> is resolving, those abilities will wait until <Rite of Ruin> finishes resolving before going on the stack. Starting with the active player, each player puts his or her abilities on the stack in any order.</Rulings>
+2012/05/01: If any abilities trigger while <Rite of Ruin> is resolving, those abilities will wait until <Rite of Ruin> finishes resolving before going on the stack. Starting with the active player, each player puts their abilities on the stack in any order.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2885,7 +2889,7 @@ Miracle {1}{R} (You may cast this card for its miracle cost when you draw it if 
 <Name>Scalding Devil</Name>
 <Type>Creature — Devil 1/1</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>{2}{R}: Scalding Devil deals 1 damage to target player.</CardText>
+<CardText>{2}{R}: Scalding Devil deals 1 damage to target player or planeswalker.</CardText>
 <Flavor>Demons massacre. Devils annoy.</Flavor>
 <Artist>Erica Yang</Artist>
 <Multiverseid>239984</Multiverseid>
@@ -2956,7 +2960,7 @@ As long as Stonewright is paired with another creature, each of those creatures 
 <Type>Instant</Type>
 <ManaCost>1R (2)</ManaCost>
 <CardText>Choose one —
-• Thunderbolt deals 3 damage to target player.
+• Thunderbolt deals 3 damage to target player or planeswalker.
 • Thunderbolt deals 4 damage to target creature with flying.</CardText>
 <Flavor>"My next aerial design will use less metal."
 —Hadaken, alchemist of Nephalia</Flavor>
@@ -2975,7 +2979,7 @@ As long as Stonewright is paired with another creature, each of those creatures 
 <Name>Thunderous Wrath</Name>
 <Type>Instant</Type>
 <ManaCost>4RR (6)</ManaCost>
-<CardText>Thunderous Wrath deals 5 damage to target creature or player.
+<CardText>Thunderous Wrath deals 5 damage to any target.
 Miracle {R} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)</CardText>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>239985</Multiverseid>
@@ -3012,12 +3016,12 @@ Miracle {R} (You may cast this card for its miracle cost when you draw it if it'
 <Name>Tyrant of Discord</Name>
 <Type>Creature — Elemental 7/7</Type>
 <ManaCost>4RRR (7)</ManaCost>
-<CardText>When Tyrant of Discord enters the battlefield, target opponent chooses a permanent he or she controls at random and sacrifices it. If a nonland permanent is sacrificed this way, repeat this process.</CardText>
+<CardText>When Tyrant of Discord enters the battlefield, target opponent chooses a permanent they control at random and sacrifices it. If a nonland permanent is sacrificed this way, repeat this process.</CardText>
 <Artist>Richard Wright</Artist>
 <Multiverseid>276194</Multiverseid>
-<Rulings>2012/05/01: Repeating the process includes the instruction to repeat the process. That is, the opponent will keep sacrificing permanents until he or she sacrifices a land.
+<Rulings>2012/05/01: Repeating the process includes the instruction to repeat the process. That is, the opponent will keep sacrificing permanents until they sacrifice a land.
 2012/05/01: Repeating the process does not include targeting an opponent. Only one opponent will have to sacrifice permanents.
-2012/05/01: If any abilities trigger while <Tyrant of Discord>'s enters-the-battlefield ability is resolving, those abilities will wait until the enters-the-battlefield ability finishes resolving before going on the stack. Starting with the active player, each player puts his or her abilities on the stack in any order.
+2012/05/01: If any abilities trigger while <Tyrant of Discord>'s enters-the-battlefield ability is resolving, those abilities will wait until the enters-the-battlefield ability finishes resolving before going on the stack. Starting with the active player, each player puts their abilities on the stack in any order.
 2012/05/01: If the target opponent can't sacrifice permanents (perhaps because of Sigarda, Host of Herons), the opponent will choose a permanent at random but not sacrifice it. The ability will then finish resolving.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3050,11 +3054,11 @@ Miracle {R} (You may cast this card for its miracle cost when you draw it if it'
 <Name>Vexing Devil</Name>
 <Type>Creature — Devil 4/3</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>When Vexing Devil enters the battlefield, any opponent may have it deal 4 damage to him or her. If a player does, sacrifice Vexing Devil.</CardText>
+<CardText>When Vexing Devil enters the battlefield, any opponent may have it deal 4 damage to them. If a player does, sacrifice Vexing Devil.</CardText>
 <Flavor>It's not any fun until someone loses an eye.</Flavor>
 <Artist>Lucas Graciano</Artist>
 <Multiverseid>278257</Multiverseid>
-<Rulings>2012/05/01: If a player chooses to have <Vexing Devil> deal 4 damage to him or her, but some or all of that damage is prevented or redirected, <Vexing Devil> will still be sacrificed.</Rulings>
+<Rulings>2012/05/01: If a player chooses to have <Vexing Devil> deal 4 damage to them, but some or all of that damage is prevented or redirected, <Vexing Devil> will still be sacrificed.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3068,7 +3072,7 @@ Miracle {R} (You may cast this card for its miracle cost when you draw it if it'
 <Name>Vigilante Justice</Name>
 <Type>Enchantment</Type>
 <ManaCost>3R (4)</ManaCost>
-<CardText>Whenever a Human enters the battlefield under your control, Vigilante Justice deals 1 damage to target creature or player.</CardText>
+<CardText>Whenever a Human enters the battlefield under your control, Vigilante Justice deals 1 damage to any target.</CardText>
 <Flavor>It begins as a whisper and ends with the red roar of fire.</Flavor>
 <Artist>Steve Prescott</Artist>
 <Multiverseid>240032</Multiverseid>
@@ -3105,7 +3109,7 @@ When Zealous Conscripts enters the battlefield, gain control of target permanent
 <ManaCost>G (1)</ManaCost>
 <CardText>Enchant land
 When Abundant Growth enters the battlefield, draw a card.
-Enchanted land has "{T}: Add one mana of any color to your mana pool."</CardText>
+Enchanted land has "{T}: Add one mana of any color."</CardText>
 <Artist>Vincent Proce</Artist>
 <Multiverseid>240017</Multiverseid>
 <Rulings>2016/06/08: The enchanted land retains any other abilities it has. Activating one of the land's activated abilities won't cause the other(s) to be activated.</Rulings>
@@ -3272,7 +3276,7 @@ As long as Druid's Familiar is paired with another creature, each of those creat
 <Type>Enchantment</Type>
 <ManaCost>1GG (3)</ManaCost>
 <CardText>Whenever a creature you control attacks, put a charge counter on Druids' Repository.
-Remove a charge counter from Druids' Repository: Add one mana of any color to your mana pool.</CardText>
+Remove a charge counter from Druids' Repository: Add one mana of any color.</CardText>
 <Artist>Daarken</Artist>
 <Multiverseid>240135</Multiverseid>
 <Rulings>2012/05/01: The first ability of <Druids' Repository> will trigger once for each creature you control that attacks.
@@ -3406,7 +3410,7 @@ Undying (When this creature dies, if it had no +1/+1 counters on it, return it t
 —Avacyn's Cursemute Decree</Flavor>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>240049</Multiverseid>
-<Rulings>2012/05/01: <Joint Assault> targets only one creature. If that creature is an illegal target when <Joint Assault> tries to resolve, it will be countered and none of its effects will happen. No creature will get +2/+2.
+<Rulings>2012/05/01: <Joint Assault> targets only one creature. If that creature is an illegal target when <Joint Assault> tries to resolve, it won't resolve and none of its effects will happen. No creature will get +2/+2.
 2012/05/01: <Joint Assault> checks whether the target creature is paired only when it resolves. If it becomes unpaired later in the turn, neither creature will lose the bonus. Similarly, if it becomes paired later in the turn, the creature it's paired with won't gain the bonus.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3442,7 +3446,7 @@ Undying (When this creature dies, if it had no +1/+1 counters on it, return it t
 <Flavor>The haunted blade shattered, and the geist drifted gratefully to the Blessed Sleep.</Flavor>
 <Artist>Scott Chou</Artist>
 <Multiverseid>240076</Multiverseid>
-<Rulings>2012/05/01: If the artifact or enchantment is an illegal target when <Natural End> tries to resolve, <Natural End> will be countered and none of its effects will happen. You won't gain 3 life.</Rulings>
+<Rulings>2012/05/01: If the artifact or enchantment is an illegal target when <Natural End> tries to resolve, <Natural End> won't resolve and none of its effects will happen. You won't gain 3 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3514,7 +3518,7 @@ As long as Pathbreaker Wurm is paired with another creature, both creatures have
 <Rulings>2012/05/01: A permanent card is an artifact, creature, enchantment, land, or planeswalker card.
 2012/05/01: Repeating the process includes the instruction to repeat the process. That is, you'll keep exiling cards and putting them onto the battlefield until you fail to put a permanent card onto the battlefield.
 2012/05/01: If you exile a permanent card that you can't put onto the battlefield (such as an Aura with nothing legal to enchant) or one you don't want to put onto the battlefield, <Primal Surge> finishes resolving.
-2012/05/01: If putting any of those permanent cards onto the battlefield causes abilities to trigger, those abilities will wait to go on the stack until <Primal Surge> has finished resolving. Starting with the active player, each player puts his or her abilities on the stack in any order.</Rulings>
+2012/05/01: If putting any of those permanent cards onto the battlefield causes abilities to trigger, those abilities will wait to go on the stack until <Primal Surge> has finished resolving. Starting with the active player, each player puts their abilities on the stack in any order.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3569,7 +3573,7 @@ Miracle {G} (You may cast this card for its miracle cost when you draw it if it'
 <CardText>Target creature you control gains hexproof until end of turn. You gain life equal to that creature's toughness. (A creature with hexproof can't be the target of spells or abilities your opponents control.)</CardText>
 <Artist>Igor Kieryluk</Artist>
 <Multiverseid>240004</Multiverseid>
-<Rulings>2012/05/01: If a creature gains hexproof in response to a spell or ability controlled by an opponent that targets only it, that spell or ability will countered for having an illegal target when it tries to resolve.</Rulings>
+<Rulings>2012/05/01: If a creature gains hexproof in response to a spell or ability controlled by an opponent that targets only it, that spell or ability doesn't resolve for having an illegal target when it tries to resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3600,7 +3604,7 @@ Miracle {G} (You may cast this card for its miracle cost when you draw it if it'
 <Name>Somberwald Sage</Name>
 <Type>Creature — Human Druid 0/1</Type>
 <ManaCost>2G (3)</ManaCost>
-<CardText>{T}: Add three mana of any one color to your mana pool. Spend this mana only to cast creature spells.</CardText>
+<CardText>{T}: Add three mana of any one color. Spend this mana only to cast creature spells.</CardText>
 <Flavor>"You can face any danger when all of nature is on your side."</Flavor>
 <Artist>Steve Argyle</Artist>
 <Multiverseid>275711</Multiverseid>
@@ -3643,7 +3647,7 @@ Whenever another nontoken creature enters the battlefield under your control, yo
 <Flavor>Elmut had slaughtered vampires, slain werewolves, and destroyed hordes of zombies. Sadly, he never got over his fear of spiders.</Flavor>
 <Artist>Jaime Jones</Artist>
 <Multiverseid>240066</Multiverseid>
-<Rulings>2012/05/01: Although <Terrifying Presence> doesn't affect the target creature, if that creature is an illegal target when <Terrifying Presence> tries to resolve, it will be countered and none of its effects will happen. No damage will be prevented.</Rulings>
+<Rulings>2012/05/01: Although <Terrifying Presence> doesn't affect the target creature, if that creature is an illegal target when <Terrifying Presence> tries to resolve, it won't resolve and none of its effects will happen. No damage will be prevented.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3881,9 +3885,9 @@ If a source would deal damage to an opponent or a permanent an opponent controls
 If a source would deal damage to you or a permanent you control, prevent half that damage, rounded up.</CardText>
 <Artist>Jason Chan</Artist>
 <Multiverseid>240034</Multiverseid>
-<Rulings>2012/05/01: Gisela doubles damage dealt to opponents and permanents your opponents control from any source, including sources controlled by those opponents.
-2012/05/01: If multiple replacement effects would modify how damage would be dealt, the player being dealt damage (or the controller of the permanent being dealt damage) chooses the order in which to apply those effects.
-2012/05/01: If damage dealt by a source you control is being divided among multiple permanents an opponent controls or among an opponent and one or more permanents he or she controls simultaneously, divide the original amount and double the results. For example, if you attack with a 5/5 creature with trample and your opponent blocks with a 2/2 creature, you can assign 2 damage to the blocker and 3 damage to the defending player. These amounts are then doubled to 4 and 6 damage, respectively. You can't double the damage to 10 first and then assign 2 to the creature and 8 to the player.</Rulings>
+<Rulings>2018/03/16: Gisela doubles damage dealt to opponents and permanents your opponents control from any source, including sources controlled by those opponents.
+2018/03/16: If multiple replacement effects would modify how damage would be dealt, the player being dealt damage (or the controller of the permanent being dealt damage) chooses the order in which to apply those effects.
+2018/03/16: If damage dealt by a source you control is being divided or assigned among multiple permanents an opponent controls or among an opponent and one or more permanents they control simultaneously, divide the original amount and double the results. For example, if you attack with a 5/5 creature with trample and your opponent blocks with a 2/2 creature, you can assign 2 damage to the blocker and 3 damage to the defending player. These amounts are then doubled to 4 and 6 damage, respectively. You can't double the damage to 10 first and then assign 2 to the creature and 8 to the player.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4000,7 +4004,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <Artist>John Avon</Artist>
 <Multiverseid>262674</Multiverseid>
 <Rulings>2012/05/01: You can tap any three untapped Humans you control, including ones you haven't controlled continuously since the beginning of your most recent turn, to pay the cost of the activated ability.
-2012/05/01: If the targeted creature is an illegal target when the ability tries to resolve, the ability will be countered and none of its effects will happen. The creature's controller won't put a Spirit token onto the battlefield.</Rulings>
+2012/05/01: If the targeted creature is an illegal target when the ability tries to resolve, the ability won't resolve and none of its effects will happen. The creature's controller won't put a Spirit token onto the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4163,7 +4167,7 @@ Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
 <CardText>When Vessel of Endless Rest enters the battlefield, put target card from a graveyard on the bottom of its owner's library.
-{T}: Add one mana of any color to your mana pool.</CardText>
+{T}: Add one mana of any color.</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>240149</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4178,7 +4182,7 @@ Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)
 <No>225</No>
 <Name>Alchemist's Refuge</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {G}{U}, {T}: You may cast spells this turn as though they had flash.</CardText>
 <Flavor>Persecuted alchemists fled deep into Kessig's wilds, seeking solitude to continue their ghoulish craft.</Flavor>
 <Artist>Dan Scott</Artist>
@@ -4198,8 +4202,8 @@ Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)
 <Name>Cavern of Souls</Name>
 <Type>Land</Type>
 <CardText>As Cavern of Souls enters the battlefield, choose a creature type.
-{T}: Add {C} to your mana pool.
-{T}: Add one mana of any color to your mana pool. Spend this mana only to cast a creature spell of the chosen type, and that spell can't be countered.</CardText>
+{T}: Add {C}.
+{T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type, and that spell can't be countered.</CardText>
 <Artist>Cliff Childs</Artist>
 <Multiverseid>278058</Multiverseid>
 <Rulings>2017/03/14: You must choose an existing creature type, such as Zombie or Warrior. Card types such as artifact can't be chosen.
@@ -4216,7 +4220,7 @@ Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)
 <No>227</No>
 <Name>Desolate Lighthouse</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {1}{U}{R}, {T}: Draw a card, then discard a card.</CardText>
 <Flavor>A lonely sentinel facing gales, hurricanes, and tides of homicidal spirits.</Flavor>
 <Artist>Scott Chou</Artist>
@@ -4235,7 +4239,7 @@ Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)
 <Type>Land</Type>
 <CardText>When Seraph Sanctuary enters the battlefield, you gain 1 life.
 Whenever an Angel enters the battlefield under your control, you gain 1 life.
-{T}: Add {C} to your mana pool.</CardText>
+{T}: Add {C}.</CardText>
 <Artist>David Palumbo</Artist>
 <Multiverseid>240175</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4250,7 +4254,7 @@ Whenever an Angel enters the battlefield under your control, you gain 1 life.
 <No>229</No>
 <Name>Slayers' Stronghold</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {R}{W}, {T}: Target creature gets +2/+0 and gains vigilance and haste until end of turn.</CardText>
 <Flavor>Its courtyards are lit during every hour of the day so that night may never fall within its walls.</Flavor>
 <Artist>Karl Kopinski</Artist>
@@ -4267,7 +4271,7 @@ Whenever an Angel enters the battlefield under your control, you gain 1 life.
 <No>230</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>269637</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4282,7 +4286,7 @@ Whenever an Angel enters the battlefield under your control, you gain 1 life.
 <No>231</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>269634</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4297,7 +4301,7 @@ Whenever an Angel enters the battlefield under your control, you gain 1 life.
 <No>232</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Eytan Zana</Artist>
 <Multiverseid>269638</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4312,7 +4316,7 @@ Whenever an Angel enters the battlefield under your control, you gain 1 life.
 <No>233</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>James Paick</Artist>
 <Multiverseid>269639</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4327,7 +4331,7 @@ Whenever an Angel enters the battlefield under your control, you gain 1 life.
 <No>234</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>269625</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4342,7 +4346,7 @@ Whenever an Angel enters the battlefield under your control, you gain 1 life.
 <No>235</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>269633</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4357,7 +4361,7 @@ Whenever an Angel enters the battlefield under your control, you gain 1 life.
 <No>236</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>James Paick</Artist>
 <Multiverseid>269631</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4372,7 +4376,7 @@ Whenever an Angel enters the battlefield under your control, you gain 1 life.
 <No>237</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>269627</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4387,7 +4391,7 @@ Whenever an Angel enters the battlefield under your control, you gain 1 life.
 <No>238</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>269641</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4402,7 +4406,7 @@ Whenever an Angel enters the battlefield under your control, you gain 1 life.
 <No>239</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>James Paick</Artist>
 <Multiverseid>269632</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4417,7 +4421,7 @@ Whenever an Angel enters the battlefield under your control, you gain 1 life.
 <No>240</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>269630</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4432,7 +4436,7 @@ Whenever an Angel enters the battlefield under your control, you gain 1 life.
 <No>241</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Eytan Zana</Artist>
 <Multiverseid>269622</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4447,7 +4451,7 @@ Whenever an Angel enters the battlefield under your control, you gain 1 life.
 <No>242</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>James Paick</Artist>
 <Multiverseid>269636</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4462,7 +4466,7 @@ Whenever an Angel enters the battlefield under your control, you gain 1 life.
 <No>243</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>269635</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -4477,7 +4481,7 @@ Whenever an Angel enters the battlefield under your control, you gain 1 life.
 <No>244</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Eytan Zana</Artist>
 <Multiverseid>269629</Multiverseid>
 <Vintage>Legal</Vintage>

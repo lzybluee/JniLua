@@ -134,12 +134,10 @@ Cycling {2}{W} ({2}{W}, Discard this card: Draw a card.)
 When you cycle Decree of Justice, you may pay {X}. If you do, create X 1/1 white Soldier creature tokens.</CardText>
 <Artist>Adam Rex</Artist>
 <Multiverseid>45141</Multiverseid>
-<Rulings>2004/10/04: The two X's in the mana cost mean that you pay 2 mana (above the {2}{W}{W} base cost) for each token you want to create.
-2004/10/04: When you cycle this card, the last ability triggers. When that ability resolves, you choose a value of X and pay it during resolution.
-2004/10/04: You can cast this with X=0.
-2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
+<Rulings>2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
 2008/10/01: When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
-2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability is countered (with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.</Rulings>
+2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (due to being countered with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.
+2018/03/16: A mana cost of {X}{X} means that you pay twice X. If you want X to be 3, you pay {8}{W}{W} to cast <Decree of Justice>.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Scourge</Set>
@@ -152,7 +150,7 @@ When you cycle Decree of Justice, you may pay {X}. If you do, create X 1/1 white
 <Name>Dimensional Breach</Name>
 <Type>Sorcery</Type>
 <ManaCost>5WW (7)</ManaCost>
-<CardText>Exile all permanents. For as long as any of those cards remain exiled, at the beginning of each player's upkeep, that player returns one of the exiled cards he or she owns to the battlefield.</CardText>
+<CardText>Exile all permanents. For as long as any of those cards remain exiled, at the beginning of each player's upkeep, that player returns one of the exiled cards they own to the battlefield.</CardText>
 <Artist>Dave Dorman</Artist>
 <Multiverseid>43573</Multiverseid>
 <Rulings>2004/10/04: Each player chooses which one of their exiled cards to return during each of their upkeeps.
@@ -318,7 +316,8 @@ Whenever enchanted creature deals damage, Guilty Conscience deals that much dama
 When Karona's Zealot is turned face up, all damage that would be dealt to it this turn is dealt to target creature instead.</CardText>
 <Artist>Alan Pollack</Artist>
 <Multiverseid>45858</Multiverseid>
-<Rulings>2004/10/04: If the targeted creature leaves the battlefield or stops being a creature before the damage would be dealt, then the damage is not redirected. For example, if you choose a 1/1 creature, then this card would take 3 damage, all 3 is directed to the 1/1 creature, which then dies. If this card would take an additional 3 damage later in the turn, the 1/1 creature is no longer on the battlefield so the damage is not redirected.</Rulings>
+<Rulings>2018/03/16: If the target creature leaves the battlefield or stops being a creature before damage would be dealt, that damage is not redirected. For example, if you choose a 1/1 creature, then <Karona's Zealot> would be dealt 3 damage, all 3 is dealt instead to the 1/1 creature, which then dies. If <Karona's Zealot> would be dealt 3 damage again later in the turn, the 1/1 creature is no longer on the battlefield, so the damage is not redirected.
+2018/03/16: If multiple replacement effects would modify how damage would be dealt, the player being dealt damage (or the controller of the permanent being dealt damage) chooses the order in which to apply those effects.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Scourge</Set>
@@ -504,7 +503,7 @@ Cycling {3} ({3}, Discard this card: Draw a card.)</CardText>
 <Name>Brain Freeze</Name>
 <Type>Instant</Type>
 <ManaCost>1U (2)</ManaCost>
-<CardText>Target player puts the top three cards of his or her library into his or her graveyard.
+<CardText>Target player puts the top three cards of their library into their graveyard.
 Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)</CardText>
 <Artist>Tim Hildebrandt</Artist>
 <Multiverseid>47599</Multiverseid>
@@ -568,7 +567,7 @@ When you cycle Decree of Silence, you may counter target spell.</CardText>
 <Multiverseid>46430</Multiverseid>
 <Rulings>2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
 2008/10/01: When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
-2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability is countered (with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.
+2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (due to being countered with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.
 2008/10/01: You can cycle this card even if there are no targets for the triggered ability. That's because the cycling ability itself has no targets.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -707,7 +706,7 @@ Whenever Mercurial Kite deals combat damage to a creature, tap that creature. Th
 <Name>Metamorphose</Name>
 <Type>Instant</Type>
 <ManaCost>1U (2)</ManaCost>
-<CardText>Put target permanent an opponent controls on top of its owner's library. That opponent may put an artifact, creature, enchantment, or land card from his or her hand onto the battlefield.</CardText>
+<CardText>Put target permanent an opponent controls on top of its owner's library. That opponent may put an artifact, creature, enchantment, or land card from their hand onto the battlefield.</CardText>
 <Flavor>If it's not one thing, it's another.</Flavor>
 <Artist>Ron Spencer</Artist>
 <Multiverseid>43733</Multiverseid>
@@ -833,7 +832,7 @@ If you would draw a card, you may instead put the top card of the pile you exile
 <Name>Raven Guild Master</Name>
 <Type>Creature — Human Wizard Mutant 1/1</Type>
 <ManaCost>1UU (3)</ManaCost>
-<CardText>Whenever Raven Guild Master deals combat damage to a player, that player exiles the top ten cards of his or her library.
+<CardText>Whenever Raven Guild Master deals combat damage to a player, that player exiles the top ten cards of their library.
 Morph {2}{U}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)</CardText>
 <Artist>Kev Walker</Artist>
 <Multiverseid>43582</Multiverseid>
@@ -1010,7 +1009,7 @@ Speak only the Cabal's word."
 <Name>Cabal Interrogator</Name>
 <Type>Creature — Zombie Wizard 1/1</Type>
 <ManaCost>1B (2)</ManaCost>
-<CardText>{X}{B}, {T}: Target player reveals X cards from his or her hand and you choose one of them. That player discards that card. Activate this ability only any time you could cast a sorcery.</CardText>
+<CardText>{X}{B}, {T}: Target player reveals X cards from their hand and you choose one of them. That player discards that card. Activate this ability only any time you could cast a sorcery.</CardText>
 <Artist>Tony Szczudlo</Artist>
 <Multiverseid>39750</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1029,7 +1028,7 @@ Speak only the Cabal's word."
 At the beginning of the end step, if no creatures are on the battlefield, sacrifice Call to the Grave.</CardText>
 <Artist>Daren Bader</Artist>
 <Multiverseid>43725</Multiverseid>
-<Rulings>2011/09/22: If a player controls no creatures, or each creature he or she controls is a Zombie, that player does nothing when the first ability resolves.
+<Rulings>2011/09/22: If a player controls no creatures, or each creature they control is a Zombie, that player does nothing when the first ability resolves.
 2011/09/22: If there is at least one creature on the battlefield at the beginning of the end step, the last ability won't trigger. If it does trigger, but a creature enters the battlefield before it resolves, the ability won't do anything when it resolves. <Call to the Grave>'s controller won't sacrifice it.
 2011/09/22: In a Two-Headed Giant game, <Call to the Grave> will trigger twice during each team's upkeep, once for each player. Each of the two players will sacrifice a non-Zombie creature when the ability referring to that player resolves.</Rulings>
 <Vintage>Legal</Vintage>
@@ -1063,7 +1062,7 @@ Sacrifice a creature: Put a +1/+1 counter on Carrion Feeder.</CardText>
 <Name>Chill Haunting</Name>
 <Type>Instant</Type>
 <ManaCost>1B (2)</ManaCost>
-<CardText>As an additional cost to cast Chill Haunting, exile X creature cards from your graveyard.
+<CardText>As an additional cost to cast this spell, exile X creature cards from your graveyard.
 Target creature gets -X/-X until end of turn.</CardText>
 <Artist>Brian Snõddy</Artist>
 <Multiverseid>45863</Multiverseid>
@@ -1118,6 +1117,7 @@ When Death's-Head Buzzard dies, all creatures get -1/-1 until end of turn.</Card
 <Flavor>Infested with vermin, ever hungering, dropping from night's sky.</Flavor>
 <Artist>Marcelo Vignali</Artist>
 <Multiverseid>47223</Multiverseid>
+<Rulings>2018/03/16: The last ability of <Death's-Head Buzzard> affects only creatures on the battlefield at the time it resolves. Creatures that enter the battlefield later in the turn won't get -1/-1.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Scourge</Set>
@@ -1137,7 +1137,7 @@ When you cycle Decree of Pain, all creatures get -2/-2 until end of turn.</CardT
 <Multiverseid>43522</Multiverseid>
 <Rulings>2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
 2008/10/01: When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
-2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability is countered (with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.</Rulings>
+2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (due to being countered with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Scourge</Set>
@@ -1185,7 +1185,7 @@ When enchanted creature is turned face up, destroy it. It can't be regenerated.<
 <Name>Final Punishment</Name>
 <Type>Sorcery</Type>
 <ManaCost>3BB (5)</ManaCost>
-<CardText>Target player loses life equal to the damage already dealt to him or her this turn.</CardText>
+<CardText>Target player loses life equal to the damage already dealt to that player this turn.</CardText>
 <Flavor>The pain of a lifetime—every scrape, illness, and bruise—condensed into a single moment.</Flavor>
 <Artist>Matt Thompson</Artist>
 <Multiverseid>43611</Multiverseid>
@@ -1292,7 +1292,7 @@ Storm (When you cast this spell, copy it for each spell cast before it this turn
 <Name>Skulltap</Name>
 <Type>Sorcery</Type>
 <ManaCost>1B (2)</ManaCost>
-<CardText>As an additional cost to cast Skulltap, sacrifice a creature.
+<CardText>As an additional cost to cast this spell, sacrifice a creature.
 Draw two cards.</CardText>
 <Flavor>"Finally, a use for that head of yours."
 —Braids, dementia summoner</Flavor>
@@ -1458,7 +1458,7 @@ Zombie creatures you control get +2/+1.</CardText>
 <Name>Bonethorn Valesk</Name>
 <Type>Creature — Beast 4/2</Type>
 <ManaCost>4R (5)</ManaCost>
-<CardText>Whenever a permanent is turned face up, Bonethorn Valesk deals 1 damage to target creature or player.</CardText>
+<CardText>Whenever a permanent is turned face up, Bonethorn Valesk deals 1 damage to any target.</CardText>
 <Flavor>Barbarians weave its spurs into ceremonial charms to proclaim their hardiness in battle.</Flavor>
 <Artist>Alan Pollack</Artist>
 <Multiverseid>44342</Multiverseid>
@@ -1475,7 +1475,7 @@ Zombie creatures you control get +2/+1.</CardText>
 <Name>Carbonize</Name>
 <Type>Instant</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>Carbonize deals 3 damage to target creature or player. That creature can't be regenerated this turn. If the creature would die this turn, exile it instead.</CardText>
+<CardText>Carbonize deals 3 damage to any target. If it's a creature, it can't be regenerated this turn, and if it would die this turn, exile it instead.</CardText>
 <Artist>Alex Horley-Orlandelli</Artist>
 <Multiverseid>47226</Multiverseid>
 <Rulings>2016/06/08: The targeted creature can't be regenerated and is exiled if it would die no matter why it would die this turn. It doesn't have to be destroyed because of the damage <Carbonize> deals to it.</Rulings>
@@ -1518,7 +1518,7 @@ When you cycle Decree of Annihilation, destroy all lands.</CardText>
 <Multiverseid>44335</Multiverseid>
 <Rulings>2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
 2008/10/01: When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
-2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability is countered (with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.</Rulings>
+2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (due to being countered with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Scourge</Set>
@@ -1550,7 +1550,7 @@ When a creature with converted mana cost 6 or greater enters the battlefield, yo
 <Type>Creature — Dragon Wizard 5/5</Type>
 <ManaCost>5RR (7)</ManaCost>
 <CardText>Flying
-Whenever Dragon Mage deals combat damage to a player, each player discards his or her hand, then draws seven cards.</CardText>
+Whenever Dragon Mage deals combat damage to a player, each player discards their hand, then draws seven cards.</CardText>
 <Flavor>"You'll bend to my will—with or without your precious sanity."</Flavor>
 <Artist>Matthew D. Wilson</Artist>
 <Multiverseid>43569</Multiverseid>
@@ -1640,7 +1640,7 @@ Storm (When you cast this spell, copy it for each spell cast before it this turn
 <Type>Enchantment — Aura</Type>
 <ManaCost>4R (5)</ManaCost>
 <CardText>Enchant creature
-Whenever enchanted creature attacks, it deals 2 damage to target creature or player.</CardText>
+Whenever enchanted creature attacks, it deals 2 damage to any target.</CardText>
 <Flavor>"Perhaps extra heads would have served them better."
 —Foothill guide</Flavor>
 <Artist>Greg Staples</Artist>
@@ -1657,7 +1657,7 @@ Whenever enchanted creature attacks, it deals 2 damage to target creature or pla
 <Name>Form of the Dragon</Name>
 <Type>Enchantment</Type>
 <ManaCost>4RRR (7)</ManaCost>
-<CardText>At the beginning of your upkeep, Form of the Dragon deals 5 damage to target creature or player.
+<CardText>At the beginning of your upkeep, Form of the Dragon deals 5 damage to any target.
 At the beginning of each end step, your life total becomes 5.
 Creatures without flying can't attack you.</CardText>
 <Artist>Carl Critchlow</Artist>
@@ -1712,7 +1712,7 @@ Creatures without flying can't attack you.</CardText>
 <Name>Goblin War Strike</Name>
 <Type>Sorcery</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>Goblin War Strike deals damage to target player equal to the number of Goblins you control.</CardText>
+<CardText>Goblin War Strike deals damage to target player or planeswalker equal to the number of Goblins you control.</CardText>
 <Flavor>"Fire, aim, ready!"</Flavor>
 <Artist>Pete Venters</Artist>
 <Multiverseid>44292</Multiverseid>
@@ -1729,10 +1729,11 @@ Creatures without flying can't attack you.</CardText>
 <Type>Creature — Goblin Warrior 2/2</Type>
 <ManaCost>1RR (3)</ManaCost>
 <CardText>Goblin spells you cast cost {1} less to cast.
-Goblin creatures you control have haste.</CardText>
+Goblins you control have haste.</CardText>
 <Flavor>They poured from the Skirk Ridge like lava, burning and devouring everything in their path.</Flavor>
 <Artist>Tim Hildebrandt</Artist>
 <Multiverseid>43591</Multiverseid>
+<Rulings>2018/04/27: <Goblin Warchief>'s effect reduces only generic mana in the cost of Goblin spells you cast. For example, it doesn't reduce the cost of Skirk Prospector below {R}.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Scourge</Set>
@@ -1795,7 +1796,7 @@ Goblin creatures you control have haste.</CardText>
 <Name>Rock Jockey</Name>
 <Type>Creature — Goblin 3/3</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>You can't cast Rock Jockey if you've played a land this turn.
+<CardText>You can't cast this spell if you've played a land this turn.
 You can't play lands if you've cast Rock Jockey this turn.</CardText>
 <Flavor>Goblins don't know much about physics, but they know lots about falling and rocks.</Flavor>
 <Artist>Glen Angus</Artist>
@@ -1836,11 +1837,10 @@ Storm (When you cast this spell, copy it for each spell cast before it this turn
 <Type>Creature — Goblin 2/2</Type>
 <ManaCost>3RR (5)</ManaCost>
 <CardText>When Siege-Gang Commander enters the battlefield, create three 1/1 red Goblin creature tokens.
-{1}{R}, Sacrifice a Goblin: Siege-Gang Commander deals 2 damage to target creature or player.</CardText>
+{1}{R}, Sacrifice a Goblin: Siege-Gang Commander deals 2 damage to any target.</CardText>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>43552</Multiverseid>
-<Rulings>2016/06/08: You can sacrifice any Goblin you control to activate <Siege-Gang Commander>'s activated ability, not just the ones its triggered ability puts onto the battlefield. You can even sacrifice <Siege-Gang Commander> itself.
-2016/06/08: If you sacrifice an attacking or blocking Goblin during the declare blockers step, it won't deal combat damage. If you wait until the combat damage step, but that Goblin has been dealt lethal damage, it'll be destroyed before you get a chance to sacrifice it.</Rulings>
+<Rulings>2018/04/27: You can sacrifice any Goblin you control to activate <Siege-Gang Commander>'s activated ability, not just the ones its triggered ability puts onto the battlefield. You can even sacrifice <Siege-Gang Commander> itself.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1870,7 +1870,7 @@ When Skirk Volcanist is turned face up, it deals 3 damage divided as you choose 
 <Name>Spark Spray</Name>
 <Type>Instant</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>Spark Spray deals 1 damage to target creature or player.
+<CardText>Spark Spray deals 1 damage to any target.
 Cycling {R} ({R}, Discard this card: Draw a card.)</CardText>
 <Flavor>It's the only kind of shower goblins will tolerate.</Flavor>
 <Artist>Pete Venters</Artist>
@@ -1904,7 +1904,7 @@ If a player would gain life, that player gains no life instead.</CardText>
 <Name>Torrent of Fire</Name>
 <Type>Sorcery</Type>
 <ManaCost>3RR (5)</ManaCost>
-<CardText>Torrent of Fire deals damage to target creature or player equal to the highest converted mana cost among permanents you control.</CardText>
+<CardText>Torrent of Fire deals damage to any target equal to the highest converted mana cost among permanents you control.</CardText>
 <Flavor>Dragon fire melts any instrument designed to measure it.</Flavor>
 <Artist>Thomas M. Baxa</Artist>
 <Multiverseid>43530</Multiverseid>
@@ -1976,7 +1976,7 @@ Enchanted creature gets +2/+2 for each other creature on the battlefield that sh
 {1}{G}, Sacrifice an Elf: Target creature gets +3/+3 until end of turn.</CardText>
 <Artist>Darrell Riche</Artist>
 <Multiverseid>43599</Multiverseid>
-<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
+<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Scourge</Set>
@@ -2049,7 +2049,7 @@ When you cycle Decree of Savagery, you may put four +1/+1 counters on target cre
 <Multiverseid>46423</Multiverseid>
 <Rulings>2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
 2008/10/01: When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
-2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability is countered (with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.
+2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (due to being countered with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.
 2008/10/01: You can cycle this card even if there are no targets for the triggered ability. That's because the cycling ability itself has no targets.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2063,7 +2063,7 @@ When you cycle Decree of Savagery, you may put four +1/+1 counters on target cre
 <Name>Divergent Growth</Name>
 <Type>Instant</Type>
 <ManaCost>G (1)</ManaCost>
-<CardText>Until end of turn, lands you control gain "{T}: Add one mana of any color to your mana pool."</CardText>
+<CardText>Until end of turn, lands you control gain "{T}: Add one mana of any color."</CardText>
 <Flavor>Nature has forgotten its own rules.</Flavor>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>45864</Multiverseid>
@@ -2096,8 +2096,8 @@ When a creature with converted mana cost 6 or greater enters the battlefield, yo
 <Name>Elvish Aberration</Name>
 <Type>Creature — Elf Mutant 4/5</Type>
 <ManaCost>5G (6)</ManaCost>
-<CardText>{T}: Add {G}{G}{G} to your mana pool.
-Forestcycling {2} ({2}, Discard this card: Search your library for a Forest card, reveal it, put it into your hand, then shuffle your library.)</CardText>
+<CardText>{T}: Add {G}{G}{G}.
+Forestcycling {2} ({2}, Discard this card: Search your library for a Forest card, reveal it, and put it into your hand, then shuffle your library.)</CardText>
 <Artist>Matt Cavotta</Artist>
 <Multiverseid>43538</Multiverseid>
 <Rulings>2009/02/01: Unlike the normal cycling ability, Forestcycling doesn't allow you to draw a card. Instead, it lets you search your library for a Forest card. After you find a Forest card in your library, you reveal it, put it into your hand, then shuffle your library.
@@ -2324,7 +2324,7 @@ Morph {4}{G}{G}{G} (You may cast this card face down as a 2/2 creature for {3}. 
 <Name>Upwelling</Name>
 <Type>Enchantment</Type>
 <ManaCost>3G (4)</ManaCost>
-<CardText>Mana pools don't empty as steps and phases end.</CardText>
+<CardText>Players don't lose unspent mana as steps and phases end.</CardText>
 <Flavor>Once again, Kamahl felt the full force of the Mirari's pull, but he had learned much since the last time.</Flavor>
 <Artist>John Avon</Artist>
 <Multiverseid>43558</Multiverseid>
@@ -2531,7 +2531,7 @@ When Proteus Machine is turned face up, it becomes the creature type of your cho
 <No>143</No>
 <Name>Temple of the False God</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C}{C} to your mana pool. Activate this ability only if you control five or more lands.</CardText>
+<CardText>{T}: Add {C}{C}. Activate this ability only if you control five or more lands.</CardText>
 <Flavor>Those who bring nothing to the temple take nothing away.</Flavor>
 <Artist>Brian Snõddy</Artist>
 <Multiverseid>44336</Multiverseid>

@@ -193,7 +193,9 @@ When Emancipation Angel enters the battlefield, return a permanent you control t
 When Fiend Hunter leaves the battlefield, return the exiled card to the battlefield under its owner's control.</CardText>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>409587</Multiverseid>
-<Rulings>2011/09/22: If <Fiend Hunter> leaves the battlefield before its first ability has resolved, its second ability will trigger and do nothing. Then its first ability will resolve and exile the targeted creature indefinitely.</Rulings>
+<Rulings>2018/03/16: If <Fiend Hunter> leaves the battlefield before its first ability has resolved, its second ability will trigger and do nothing. Then its first ability will resolve and exile the targeted creature indefinitely.
+2018/03/16: Once the exiled permanent returns, it's considered a new object with no relation to the object that it was. Auras attached to the exiled permanent will be put into their owners' graveyards. Equipment attached to the exiled permanent will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist.
+2018/03/16: If a token is exiled this way, it won't return to the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -596,7 +598,7 @@ Equip {1}</CardText>
 <Type>Land</Type>
 <CardText>When Seraph Sanctuary enters the battlefield, you gain 1 life.
 Whenever an Angel enters the battlefield under your control, you gain 1 life.
-{T}: Add {C} to your mana pool.</CardText>
+{T}: Add {C}.</CardText>
 <Artist>David Palumbo</Artist>
 <Multiverseid>409609</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -613,7 +615,7 @@ Whenever an Angel enters the battlefield under your control, you gain 1 life.
 <Type>Land</Type>
 <CardText>Tranquil Cove enters the battlefield tapped.
 When Tranquil Cove enters the battlefield, you gain 1 life.
-{T}: Add {W} or {U} to your mana pool.</CardText>
+{T}: Add {W} or {U}.</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>409610</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -628,7 +630,7 @@ When Tranquil Cove enters the battlefield, you gain 1 life.
 <No>35</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>James Paick</Artist>
 <Multiverseid>409611</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -643,7 +645,7 @@ When Tranquil Cove enters the battlefield, you gain 1 life.
 <No>36</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>409612</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -658,7 +660,7 @@ When Tranquil Cove enters the battlefield, you gain 1 life.
 <No>37</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>409613</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -673,7 +675,7 @@ When Tranquil Cove enters the battlefield, you gain 1 life.
 <No>38</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>409614</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -688,7 +690,7 @@ When Tranquil Cove enters the battlefield, you gain 1 life.
 <No>39</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>409615</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -703,7 +705,7 @@ When Tranquil Cove enters the battlefield, you gain 1 life.
 <No>40</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Eytan Zana</Artist>
 <Multiverseid>409616</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -746,8 +748,8 @@ Delirium — At the beginning of your upkeep, you lose 4 life unless there are f
 <Flavor>"So much for neighborly hospitality!"</Flavor>
 <Artist>Seb McKinnon</Artist>
 <Multiverseid>409618</Multiverseid>
-<Rulings>2016/04/08: The card returned to its owner's hand may be the card he or she discards. If it's the only card in that player's hand, it must be discarded.
-2016/04/08: <Compelling Deterrence> targets only the nonland permanent. If that permanent becomes an illegal target, <Compelling Deterrence> is countered and that player doesn't discard a card.
+<Rulings>2016/04/08: The card returned to its owner's hand may be the card they discard. If it's the only card in that player's hand, it must be discarded.
+2016/04/08: <Compelling Deterrence> targets only the nonland permanent. If that permanent becomes an illegal target, <Compelling Deterrence> doesn't resolve and that player doesn't discard a card.
 2016/04/08: If you target the only Zombie you control with <Compelling Deterrence>, you won't discard a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -799,7 +801,7 @@ Flashback {6}{B} (You may cast this card from your graveyard for its flashback c
 <Name>Makeshift Mauler</Name>
 <Type>Creature — Zombie Horror 4/5</Type>
 <ManaCost>3U (4)</ManaCost>
-<CardText>As an additional cost to cast Makeshift Mauler, exile a creature card from your graveyard.</CardText>
+<CardText>As an additional cost to cast this spell, exile a creature card from your graveyard.</CardText>
 <Flavor>"It always amazes me what perfectly good things people throw away."
 —Ludevic, necro-alchemist</Flavor>
 <Artist>James Ryman</Artist>
@@ -819,7 +821,7 @@ Flashback {6}{B} (You may cast this card from your graveyard for its flashback c
 <Name>Relentless Skaabs</Name>
 <Type>Creature — Zombie 4/4</Type>
 <ManaCost>3UU (5)</ManaCost>
-<CardText>As an additional cost to cast Relentless Skaabs, exile a creature card from your graveyard.
+<CardText>As an additional cost to cast this spell, exile a creature card from your graveyard.
 Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)</CardText>
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>409622</Multiverseid>
@@ -875,7 +877,7 @@ Scrapskin Drake can block only creatures with flying.</CardText>
 <Name>Stitched Drake</Name>
 <Type>Creature — Zombie Drake 3/4</Type>
 <ManaCost>1UU (3)</ManaCost>
-<CardText>As an additional cost to cast Stitched Drake, exile a creature card from your graveyard.
+<CardText>As an additional cost to cast this spell, exile a creature card from your graveyard.
 Flying</CardText>
 <Flavor>"The best skaabs are more powerful and more beautiful than the sum of their parts."
 —Stitcher Geralf</Flavor>
@@ -915,7 +917,7 @@ Whenever a creature dealt damage by Abattoir Ghoul this turn dies, you gain life
 <Name>Appetite for Brains</Name>
 <Type>Sorcery</Type>
 <ManaCost>B (1)</ManaCost>
-<CardText>Target opponent reveals his or her hand. You choose a card from it with converted mana cost 4 or greater and exile that card.</CardText>
+<CardText>Target opponent reveals their hand. You choose a card from it with converted mana cost 4 or greater and exile that card.</CardText>
 <Flavor>Just as with a peach, the first bite is always the juiciest.</Flavor>
 <Artist>Michael C. Hayes</Artist>
 <Multiverseid>409627</Multiverseid>
@@ -1143,7 +1145,7 @@ Flashback {5}{B}{B} (You may cast this card from your graveyard for its flashbac
 <Artist>Clint Cearley</Artist>
 <Multiverseid>409639</Multiverseid>
 <Rulings>2017/03/14: Only creatures on the battlefield will be exiled. In other zones, they're "creature cards," not "creatures."
-2017/03/14: If the targeted creature is an illegal target by the time <Sever the Bloodline> resolves, it will be countered and none of its effects will happen. No creatures will be exiled.
+2017/03/14: If the targeted creature is an illegal target by the time <Sever the Bloodline> resolves, it won't resolve and none of its effects will happen. No creatures will be exiled.
 2017/03/14: Unless a token is a copy of another creature or was explicitly given a name by the effect that created it, its name is the creature types it was given when it was created. For example, the Beast tokens created by Thragtusk and by Baloth Cage Trap are both named "Beast."
 2017/03/14: A double-faced creature only has the name of the face that's up. For example, if Village Ironsmith is targeted by <Sever the Bloodline>, Ironfang wouldn't be exiled.</Rulings>
 <Vintage>Legal</Vintage>
@@ -1275,7 +1277,7 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <Type>Land</Type>
 <CardText>Dismal Backwater enters the battlefield tapped.
 When Dismal Backwater enters the battlefield, you gain 1 life.
-{T}: Add {U} or {B} to your mana pool.</CardText>
+{T}: Add {U} or {B}.</CardText>
 <Artist>Sam Burley</Artist>
 <Multiverseid>409646</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1290,7 +1292,7 @@ When Dismal Backwater enters the battlefield, you gain 1 life.
 <No>71</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>James Paick</Artist>
 <Multiverseid>409647</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1305,7 +1307,7 @@ When Dismal Backwater enters the battlefield, you gain 1 life.
 <No>72</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>409648</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1320,7 +1322,7 @@ When Dismal Backwater enters the battlefield, you gain 1 life.
 <No>73</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>409649</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1335,7 +1337,7 @@ When Dismal Backwater enters the battlefield, you gain 1 life.
 <No>74</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>James Paick</Artist>
 <Multiverseid>409650</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1350,7 +1352,7 @@ When Dismal Backwater enters the battlefield, you gain 1 life.
 <No>75</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>409651</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1365,7 +1367,7 @@ When Dismal Backwater enters the battlefield, you gain 1 life.
 <No>76</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>409652</Multiverseid>
 <Vintage>Legal</Vintage>

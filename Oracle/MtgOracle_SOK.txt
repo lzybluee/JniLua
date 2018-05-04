@@ -96,7 +96,7 @@ Enchanted creature can't attack or block unless its controller pays {1} for each
 <Name>Curtain of Light</Name>
 <Type>Instant</Type>
 <ManaCost>1W (2)</ManaCost>
-<CardText>Cast Curtain of Light only during combat after blockers are declared.
+<CardText>Cast this spell only during combat after blockers are declared.
 Target unblocked attacking creature becomes blocked. (This spell works on creatures that can't be blocked.)
 Draw a card.</CardText>
 <Flavor>"Paint gold upon the wind,
@@ -437,7 +437,7 @@ Whenever you cast a Spirit or Arcane spell, you may return Nikko-Onna to its own
 <Flavor>"I am not afraid to die today nor afraid of what death will bring."</Flavor>
 <Artist>Stephen Tappin</Artist>
 <Multiverseid>84376</Multiverseid>
-<Rulings>2005/06/01: <Promise of Bunrei> must be sacrificed in order to get tokens. If multiple creatures are put into a graveyard at the same time, only the first triggered ability to resolve causes <Promise of Bunrei> to be sacrificed and therefore put tokens onto the battlefield.</Rulings>
+<Rulings>2018/03/16: <Promise of Bunrei>'s ability will trigger multiple times if multiple creatures die at once, but it will only be sacrificed once. You'll get only four Spirit tokens.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -550,7 +550,7 @@ Splice onto Arcane {W} (As you cast an Arcane spell, you may reveal this card fr
 <Rulings>2013/06/07: You reveal all cards you intend to splice at the same time. Each individual card can be spliced only once onto any one spell.
 2013/06/07: A card with a splice ability can't be spliced onto itself because the spell is on the stack (and not in your hand) when you reveal the cards you want to splice onto it.
 2013/06/07: You choose all targets for the spell after revealing cards you want to splice, including any targets required by the text of any of those cards. You may choose a different target for each instance of the word "target" on the resulting spell.
-2013/06/07: If all of the spell's targets are illegal when the spell tries to resolve, it will be countered and none of its effects will happen.</Rulings>
+2013/06/07: If all of the spell's targets are illegal when the spell tries to resolve, it won't resolve and none of its effects will happen.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -582,7 +582,7 @@ Soulshift 4 (When this creature dies, you may return target Spirit card with con
 <Type>Legendary Creature — Kirin Spirit 4/4</Type>
 <ManaCost>3UU (5)</ManaCost>
 <CardText>Flying
-Whenever you cast a Spirit or Arcane spell, you may have target player put the top X cards of his or her library into his or her graveyard, where X is that spell's converted mana cost.</CardText>
+Whenever you cast a Spirit or Arcane spell, you may have target player put the top X cards of their library into their graveyard, where X is that spell's converted mana cost.</CardText>
 <Artist>Randy Gallegos</Artist>
 <Multiverseid>89399</Multiverseid>
 <Rulings>2005/06/01: If the Spirit or Arcane spell has {X} in the mana cost, then you use the value of {X} on the stack. For example, Shining Shoal costs {X}{W}{W}. If you choose X = 2, then Shining Shoal's converted mana cost is 4. Shining Shoal also has an ability that says "You may exile a white card with converted mana cost X from your hand rather than pay Shining Shoal's mana cost"; if you choose to pay the alternative cost and exile a card with converted mana cost 2, then X is 2 while Shining Shoal is on the stack and its converted mana cost is 4.</Rulings>
@@ -674,7 +674,7 @@ Whenever the fourth spell of a turn is cast, flip Erayo, Soratami Ascendant.</Ca
 <Name>Erayo's Essence</Name>
 <Type>Legendary Enchantment</Type>
 <ManaCost>1U (2)</ManaCost>
-<CardText>Whenever an opponent casts his or her first spell each turn, counter that spell.</CardText>
+<CardText>Whenever an opponent casts their first spell each turn, counter that spell.</CardText>
 <Artist>Matt Cavotta</Artist>
 <Multiverseid>87599</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -691,7 +691,7 @@ Whenever the fourth spell of a turn is cast, flip Erayo, Soratami Ascendant.</Ca
 <Name>Eternal Dominion</Name>
 <Type>Sorcery</Type>
 <ManaCost>7UUU (10)</ManaCost>
-<CardText>Search target opponent's library for an artifact, creature, enchantment, or land card. Put that card onto the battlefield under your control. Then that player shuffles his or her library.
+<CardText>Search target opponent's library for an artifact, creature, enchantment, or land card. Put that card onto the battlefield under your control. Then that player shuffles their library.
 Epic (For the rest of the game, you can't cast spells. At the beginning of each of your upkeeps, copy this spell except for its epic ability. You may choose a new target for the copy.)</CardText>
 <Artist>Shishizaru</Artist>
 <Multiverseid>87593</Multiverseid>
@@ -720,7 +720,7 @@ Splice onto Arcane {1}{U} (As you cast an Arcane spell, you may reveal this card
 2013/06/07: You reveal all cards you intend to splice at the same time. Each individual card can be spliced only once onto any one spell.
 2013/06/07: A card with a splice ability can't be spliced onto itself because the spell is on the stack (and not in your hand) when you reveal the cards you want to splice onto it.
 2013/06/07: You choose all targets for the spell after revealing cards you want to splice, including any targets required by the text of any of those cards. You may choose a different target for each instance of the word "target" on the resulting spell.
-2013/06/07: If all of the spell's targets are illegal when the spell tries to resolve, it will be countered and none of its effects will happen.
+2013/06/07: If all of the spell's targets are illegal when the spell tries to resolve, it won't resolve and none of its effects will happen.
 2013/06/07: Although originally printed with a characteristic-defining ability that defined its color, this card now has a color indicator. This color indicator can't be affected by text-changing effects (such as the one created by Crystal Spray), although color-changing effects can still overwrite it.
 2016/09/20: This has no mana cost, which means its mana cost can't be paid for effects such as replicate from Djinn Illuminatus or flashback from Snapcaster Mage.</Rulings>
 <Vintage>Legal</Vintage>
@@ -742,6 +742,7 @@ Splice onto Arcane {1}{U} (As you cast an Arcane spell, you may reveal this card
 <Flavor>When a strong mind moves, form and energy shift to heed it.</Flavor>
 <Artist>Scott M. Fischer</Artist>
 <Multiverseid>87336</Multiverseid>
+<Rulings>2018/03/16: Only the player who controls <Freed from the Real> can activate its abilities. This might not be the controller of the enchanted creature.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1077,7 +1078,7 @@ Splice onto Arcane {3}{U} (As you cast an Arcane spell, you may reveal this card
 2013/06/07: You reveal all cards you intend to splice at the same time. Each individual card can be spliced only once onto any one spell.
 2013/06/07: A card with a splice ability can't be spliced onto itself because the spell is on the stack (and not in your hand) when you reveal the cards you want to splice onto it.
 2013/06/07: You choose all targets for the spell after revealing cards you want to splice, including any targets required by the text of any of those cards. You may choose a different target for each instance of the word "target" on the resulting spell.
-2013/06/07: If all of the spell's targets are illegal when the spell tries to resolve, it will be countered and none of its effects will happen.</Rulings>
+2013/06/07: If all of the spell's targets are illegal when the spell tries to resolve, it won't resolve and none of its effects will happen.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1367,7 +1368,7 @@ Bushido 1 (Whenever this creature blocks or becomes blocked, it gets +1/+1 until
 <Type>Legendary Creature — Kirin Spirit 3/3</Type>
 <ManaCost>2BB (4)</ManaCost>
 <CardText>Flying
-Whenever you cast a Spirit or Arcane spell, target player reveals his or her hand and discards all cards with that spell's converted mana cost.</CardText>
+Whenever you cast a Spirit or Arcane spell, target player reveals their hand and discards all cards with that spell's converted mana cost.</CardText>
 <Flavor>The kirin bellowed—an echoing, twisted parody of its once-inspirational call.</Flavor>
 <Artist>Carl Critchlow</Artist>
 <Multiverseid>74377</Multiverseid>
@@ -1580,7 +1581,7 @@ Whenever another card is put into your graveyard from anywhere, target opponent 
 <Name>Neverending Torment</Name>
 <Type>Sorcery</Type>
 <ManaCost>4BB (6)</ManaCost>
-<CardText>Search target player's library for X cards, where X is the number of cards in your hand, and exile them. Then that player shuffles his or her library.
+<CardText>Search target player's library for X cards, where X is the number of cards in your hand, and exile them. Then that player shuffles their library.
 Epic (For the rest of the game, you can't cast spells. At the beginning of each of your upkeeps, copy this spell except for its epic ability. You may choose a new target for the copy.)</CardText>
 <Artist>Thomas Gianni</Artist>
 <Multiverseid>87601</Multiverseid>
@@ -1618,7 +1619,7 @@ Epic (For the rest of the game, you can't cast spells. At the beginning of each 
 <Artist>Matt Cavotta</Artist>
 <Multiverseid>75340</Multiverseid>
 <Rulings>2005/06/01: Bidding continues until all players except the one with the current high bid have declined to top that bid.
-2005/06/01: A player may bid more life than he or she has.</Rulings>
+2005/06/01: A player may bid more life than they have.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1786,7 +1787,7 @@ Channel — {1}{B}, Discard Shinen of Fear's Chill: Target creature can't block 
 <Name>Burning-Eye Zubera</Name>
 <Type>Creature — Zubera Spirit 3/3</Type>
 <ManaCost>2RR (4)</ManaCost>
-<CardText>When Burning-Eye Zubera dies, if 4 or more damage was dealt to it this turn, Burning-Eye Zubera deals 3 damage to target creature or player.</CardText>
+<CardText>When Burning-Eye Zubera dies, if 4 or more damage was dealt to it this turn, Burning-Eye Zubera deals 3 damage to any target.</CardText>
 <Artist>Anthony S. Waters</Artist>
 <Multiverseid>50234</Multiverseid>
 <Rulings>2005/06/01: <Burning-Eye Zubera>'s ability counts all damage dealt to it this turn, from all sources.</Rulings>
@@ -1855,7 +1856,7 @@ Channel — {1}{B}, Discard Shinen of Fear's Chill: Target creature can't block 
 <Type>Creature — Spirit 2/1</Type>
 <ManaCost>2R (3)</ManaCost>
 <CardText>{2}{R}, {T}: Ghost-Lit Raider deals 2 damage to target creature.
-Channel — {3}{R}, Discard Ghost-Lit Raider: Ghost-Lit Raider deals 4 damage to target creature.</CardText>
+Channel — {3}{R}, Discard Ghost-Lit Raider: It deals 4 damage to target creature.</CardText>
 <Artist>Ittoku</Artist>
 <Multiverseid>87341</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1978,7 +1979,7 @@ When Homura dies, return it to the battlefield flipped.</CardText>
 <Name>Inner Fire</Name>
 <Type>Sorcery</Type>
 <ManaCost>3R (4)</ManaCost>
-<CardText>Add {R} to your mana pool for each card in your hand.</CardText>
+<CardText>Add {R} for each card in your hand.</CardText>
 <Flavor>"Heart of Sokenzan, I call to you! Lend me your fire."</Flavor>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>84711</Multiverseid>
@@ -2002,7 +2003,7 @@ Splice onto Arcane {R} (As you cast an Arcane spell, you may reveal this card fr
 <Rulings>2013/06/07: You reveal all cards you intend to splice at the same time. Each individual card can be spliced only once onto any one spell.
 2013/06/07: A card with a splice ability can't be spliced onto itself because the spell is on the stack (and not in your hand) when you reveal the cards you want to splice onto it.
 2013/06/07: You choose all targets for the spell after revealing cards you want to splice, including any targets required by the text of any of those cards. You may choose a different target for each instance of the word "target" on the resulting spell.
-2013/06/07: If all of the spell's targets are illegal when the spell tries to resolve, it will be countered and none of its effects will happen.</Rulings>
+2013/06/07: If all of the spell's targets are illegal when the spell tries to resolve, it won't resolve and none of its effects will happen.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2069,7 +2070,7 @@ At the beginning of your upkeep, return a red creature you control to its owner'
 <Name>Rally the Horde</Name>
 <Type>Sorcery</Type>
 <ManaCost>5R (6)</ManaCost>
-<CardText>Exile the top card of your library. Exile the top card of your library. Exile the top card of your library. If the last card exiled isn't a land, repeat this process. Create a 1/1 red Warrior creature token for each nonland card exiled this way.</CardText>
+<CardText>Exile the top card of your library. Exile the top card of your library. Exile the top card of your library. If the last card exiled isn't a land card, repeat this process. Create a 1/1 red Warrior creature token for each nonland card exiled this way.</CardText>
 <Artist>Paolo Parente</Artist>
 <Multiverseid>74411</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2173,7 +2174,7 @@ At the beginning of your upkeep, if a player has more cards in hand than each ot
 <Name>Spiraling Embers</Name>
 <Type>Sorcery — Arcane</Type>
 <ManaCost>3R (4)</ManaCost>
-<CardText>Spiraling Embers deals damage to target creature or player equal to the number of cards in your hand.</CardText>
+<CardText>Spiraling Embers deals damage to any target equal to the number of cards in your hand.</CardText>
 <Flavor>The akki knew to stay indoors on the days the oni flew their kites.</Flavor>
 <Artist>Chippy</Artist>
 <Multiverseid>74503</Multiverseid>
@@ -2225,7 +2226,7 @@ At the beginning of your upkeep, if a player has more cards in hand than each ot
 <Name>Undying Flames</Name>
 <Type>Sorcery</Type>
 <ManaCost>4RR (6)</ManaCost>
-<CardText>Exile cards from the top of your library until you exile a nonland card. Undying Flames deals damage to target creature or player equal to that card's converted mana cost.
+<CardText>Exile cards from the top of your library until you exile a nonland card. Undying Flames deals damage to any target equal to that card's converted mana cost.
 Epic (For the rest of the game, you can't cast spells. At the beginning of each of your upkeeps, copy this spell except for its epic ability. You may choose a new target for the copy.)</CardText>
 <Artist>Tsutomu Kawade</Artist>
 <Multiverseid>87602</Multiverseid>
@@ -2707,7 +2708,7 @@ Draw a card.</CardText>
 <Name>Sasaya's Essence</Name>
 <Type>Legendary Enchantment</Type>
 <ManaCost>1GG (3)</ManaCost>
-<CardText>Whenever a land you control is tapped for mana, for each other land you control with the same name, add one mana to your mana pool of any type that land produced.</CardText>
+<CardText>Whenever a land you control is tapped for mana, add an additional one mana of any type that land produced for each other land you control with the same name as it.</CardText>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>87595</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2859,7 +2860,7 @@ Each creature card in your graveyard has the chosen creature type in addition to
 <Name>Blood Clock</Name>
 <Type>Artifact</Type>
 <ManaCost>4 (4)</ManaCost>
-<CardText>At the beginning of each player's upkeep, that player returns a permanent he or she controls to its owner's hand unless he or she pays 2 life.</CardText>
+<CardText>At the beginning of each player's upkeep, that player returns a permanent they control to its owner's hand unless they pay 2 life.</CardText>
 <Flavor>In an age of war, time is measured not by sand but by blood.</Flavor>
 <Artist>Keith Garletts</Artist>
 <Multiverseid>84709</Multiverseid>
@@ -2879,7 +2880,7 @@ Each creature card in your graveyard has the chosen creature type in addition to
 <Name>Ebony Owl Netsuke</Name>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>At the beginning of each opponent's upkeep, if that player has seven or more cards in hand, Ebony Owl Netsuke deals 4 damage to him or her.</CardText>
+<CardText>At the beginning of each opponent's upkeep, if that player has seven or more cards in hand, Ebony Owl Netsuke deals 4 damage to that player.</CardText>
 <Flavor>"Owls filled the skies during the Kami War, harbingers of darker times to come."
 —The History of Kamigawa</Flavor>
 <Artist>Tim Hildebrandt</Artist>
@@ -2954,7 +2955,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 Activated abilities of sources with the chosen name can't be activated unless they're mana abilities.</CardText>
 <Artist>Pete Venters</Artist>
 <Multiverseid>74207</Multiverseid>
-<Rulings>2005/06/01: <Pithing Needle> affects cards regardless of what zone they're in. This includes cards in hand, cards in the graveyard, and exiled cards. For example, a player can't cycle Eternal Dragon or return an Eternal Dragon from his or her graveyard to hand if <Pithing Needle> naming Eternal Dragon is on the battlefield.
+<Rulings>2005/06/01: <Pithing Needle> affects cards regardless of what zone they're in. This includes cards in hand, cards in the graveyard, and exiled cards. For example, a player can't cycle Eternal Dragon or return an Eternal Dragon from their graveyard to hand if <Pithing Needle> naming Eternal Dragon is on the battlefield.
 2005/06/01: You can name any card, even if that card doesn't normally have an activated ability. You can't name a token unless that token has the same name as a card.
 2005/06/01: If you name a card that has both a mana ability and another activated ability, the mana ability can be activated but the other ability can't be activated.
 2009/10/01: Once <Pithing Needle> has left the battlefield, activated abilities of sources with the chosen name can be activated again.
@@ -3022,7 +3023,7 @@ Activated abilities of sources with the chosen name can't be activated unless th
 <No>162</No>
 <Name>Mikokoro, Center of the Sea</Name>
 <Type>Legendary Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {2}, {T}: Each player draws a card.</CardText>
 <Flavor>"Center of the Sea, Eye of the World, Shrine of Enlightenment. Seek it for answers. Seek it for healing. Seek it and return transformed."
 —Scroll fragment from the ruins of Minamo</Flavor>
@@ -3040,7 +3041,7 @@ Activated abilities of sources with the chosen name can't be activated unless th
 <No>163</No>
 <Name>Miren, the Moaning Well</Name>
 <Type>Legendary Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {3}, {T}, Sacrifice a creature: You gain life equal to the sacrificed creature's toughness.</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>88807</Multiverseid>
@@ -3056,7 +3057,7 @@ Activated abilities of sources with the chosen name can't be activated unless th
 <No>164</No>
 <Name>Oboro, Palace in the Clouds</Name>
 <Type>Legendary Land</Type>
-<CardText>{T}: Add {U} to your mana pool.
+<CardText>{T}: Add {U}.
 {1}: Return Oboro, Palace in the Clouds to its owner's hand.</CardText>
 <Flavor>Here the soratami wove their endless plots—graceful, artful, and deceitful, while the unwitting world moved below.</Flavor>
 <Artist>Rob Alexander</Artist>
@@ -3073,7 +3074,7 @@ Activated abilities of sources with the chosen name can't be activated unless th
 <No>165</No>
 <Name>Tomb of Urami</Name>
 <Type>Legendary Land</Type>
-<CardText>{T}: Add {B} to your mana pool. Tomb of Urami deals 1 damage to you if you don't control an Ogre.
+<CardText>{T}: Add {B}. Tomb of Urami deals 1 damage to you if you don't control an Ogre.
 {2}{B}{B}, {T}, Sacrifice all lands you control: Create a legendary 5/5 black Demon Spirit creature token with flying named Urami.</CardText>
 <Artist>Alex Horley-Orlandelli</Artist>
 <Multiverseid>74492</Multiverseid>

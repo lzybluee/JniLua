@@ -4,7 +4,7 @@
 <Name>Banshee</Name>
 <Type>Creature — Spirit 0/1</Type>
 <ManaCost>2BB (4)</ManaCost>
-<CardText>{X}, {T}: Banshee deals half X damage, rounded down, to target creature or player, and half X damage, rounded up, to you.</CardText>
+<CardText>{X}, {T}: Banshee deals half X damage, rounded down, to any target, and half X damage, rounded up, to you.</CardText>
 <Flavor>Some say Banshees are the hounds of Death, baying to herd their prey into the arms of their master.</Flavor>
 <Artist>Jesper Myrfors</Artist>
 <Multiverseid>2797</Multiverseid>
@@ -37,7 +37,7 @@
 <Name>Cuombajj Witches</Name>
 <Type>Creature — Human Wizard 1/3</Type>
 <ManaCost>BB (2)</ManaCost>
-<CardText>{T}: Cuombajj Witches deals 1 damage to target creature or player and 1 damage to target creature or player of an opponent's choice.</CardText>
+<CardText>{T}: Cuombajj Witches deals 1 damage to any target and 1 damage to any target of an opponent's choice.</CardText>
 <Artist>Kaja Foglio</Artist>
 <Multiverseid>2800</Multiverseid>
 <Rulings>2004/10/04: In multiplayer games you can choose a different opposing player each time it is used. You also don't have to choose the same player that you targeted with the effect (or whose creature you targeted).
@@ -148,7 +148,7 @@ Sacrifice a creature: Fallen Angel gets +2/+1 until end of turn.</CardText>
 <ManaCost>2BB (4)</ManaCost>
 <CardText>Enchant creature
 At the beginning of the upkeep of enchanted creature's controller, put a -0/-1 counter on that creature.
-When enchanted creature dies, that creature's controller chooses a creature that Takklemaggot could enchant. If he or she does, return Takklemaggot to the battlefield under your control attached to that creature. If he or she doesn't, return Takklemaggot to the battlefield under your control as a non-Aura enchantment. It loses "enchant creature" and gains "At the beginning of that player's upkeep, Takklemaggot deals 1 damage to him or her."</CardText>
+When enchanted creature dies, that creature's controller chooses a creature that Takklemaggot could enchant. If they do, return Takklemaggot to the battlefield under your control attached to that creature. If they don't, return Takklemaggot to the battlefield under your control as a non-Aura enchantment. It loses "enchant creature" and gains "At the beginning of that player's upkeep, Takklemaggot deals 1 damage to him or her."</CardText>
 <Artist>Daniel Gelon</Artist>
 <Multiverseid>2815</Multiverseid>
 <Rulings>2004/10/04: If the creature leaves the battlefield without going to the graveyard, <Takklemaggot> is simply put into its owner's graveyard.
@@ -536,7 +536,7 @@ Prevent all damage that would be dealt to Argothian Pixies by artifact creatures
 <ManaCost>1GG (3)</ManaCost>
 <CardText>Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)</CardText>
 <Flavor>These stealthy felines have survived so many battles that some believe they must possess many lives.</Flavor>
-<Artist>Melissa Benson</Artist>
+<Artist>Melissa A. Benson</Artist>
 <Multiverseid>2825</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -673,7 +673,7 @@ Rampage 2 (Whenever this creature becomes blocked, it gets +2/+2 until end of tu
 <Type>Sorcery</Type>
 <ManaCost>G (1)</ManaCost>
 <CardText>As an additional cost to cast Metamorphosis, sacrifice a creature.
-Add X mana of any one color to your mana pool, where X is one plus the sacrificed creature's converted mana cost. Spend this mana only to cast creature spells.</CardText>
+Add X mana of any one color, where X is one plus the sacrificed creature's converted mana cost. Spend this mana only to cast creature spells.</CardText>
 <Artist>Christopher Rush</Artist>
 <Multiverseid>2833</Multiverseid>
 <Rulings>2004/10/04: This mana may be used on additional costs to cast the spell, such as Kicker.
@@ -811,7 +811,7 @@ Beasts of Bogardan gets +1/+1 as long as an opponent controls a nontoken white p
 <Flavor>Heavy light flooded across the landscape, cloaking everything in deep crimson.</Flavor>
 <Artist>Tom Wänerstrand</Artist>
 <Multiverseid>2842</Multiverseid>
-<Rulings>2017/03/14: Nonbasic lands will lose any other land types and abilities they had. They will gain the land type Mountain and gain the ability "{T}: Add {R} to your mana pool."
+<Rulings>2017/03/14: Nonbasic lands will lose any other land types and abilities they had. They will gain the land type Mountain and gain the ability "{T}: Add {R}."
 2017/03/14: <Blood Moon>'s effect doesn't affect names or supertypes. It won't turn any land into a basic land or remove the legendary supertype from a legendary land, and the lands won't be named "Mountain."
 2017/03/14: If a nonbasic land has an ability that triggers "when" it enters the battlefield, it will lose that ability before it triggers.
 2017/09/29: If a nonbasic land has an ability that causes it to enter the battlefield tapped, it will lose that ability before it applies. The same is also true of any other abilities that modify how a land enters the battlefield or apply "as" a land enters the battlefield, such as the first ability of Cavern of Souls. This is a change from previous rulings.</Rulings>
@@ -1111,7 +1111,7 @@ At the beginning of your upkeep, put a +1/+1 counter on Primordial Ooze. Then yo
 <CardText>Protection from red
 Creatures named Ivory Guardians get +1/+1 as long as an opponent controls a nontoken red permanent.</CardText>
 <Flavor>The elite guard of the Mesa High Priests, the Ivory Guardians were created to protect the innocent and faithful.</Flavor>
-<Artist>Melissa Benson</Artist>
+<Artist>Melissa A. Benson</Artist>
 <Multiverseid>2859</Multiverseid>
 <Rulings>2009/10/01: The ability of an <Ivory Guardians> will affect itself as well as all other creatures named <Ivory Guardians> (not just the ones you control).
 2009/10/01: Each ability applies a maximum of once, even if an opponent controls multiple nontoken red permanents or multiple opponents each control a nontoken red permanent.
@@ -1143,7 +1143,7 @@ Creatures named Ivory Guardians get +1/+1 as long as an opponent controls a nont
 <Name>Petra Sphinx</Name>
 <Type>Creature — Sphinx 3/4</Type>
 <ManaCost>2WWW (5)</ManaCost>
-<CardText>{T}: Target player chooses a card name, then reveals the top card of his or her library. If that card has the chosen name, that player puts it into his or her hand. If it doesn't, the player puts it into his or her graveyard.</CardText>
+<CardText>{T}: Target player chooses a card name, then reveals the top card of their library. If that card has the chosen name, that player puts it into their hand. If it doesn't, the player puts it into their graveyard.</CardText>
 <Artist>Sandra Everingham</Artist>
 <Multiverseid>2861</Multiverseid>
 <Rulings>2004/10/04: If the targeted player's library is empty, that player still names a card, but nothing further happens. That player will not lose the game.</Rulings>
@@ -1246,7 +1246,7 @@ When Arena of the Ancients enters the battlefield, tap all legendary creatures.<
 <Name>Ashnod's Altar</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>Sacrifice a creature: Add {C}{C} to your mana pool.</CardText>
+<CardText>Sacrifice a creature: Add {C}{C}.</CardText>
 <Artist>Anson Maddocks</Artist>
 <Multiverseid>2776</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1462,7 +1462,7 @@ As long as you control another creature, prevent all damage that would be dealt 
 <Name>Rakalite</Name>
 <Type>Artifact</Type>
 <ManaCost>6 (6)</ManaCost>
-<CardText>{2}: Prevent the next 1 damage that would be dealt to target creature or player this turn. Return Rakalite to its owner's hand at the beginning of the next end step.</CardText>
+<CardText>{2}: Prevent the next 1 damage that would be dealt to any target this turn. Return Rakalite to its owner's hand at the beginning of the next end step.</CardText>
 <Flavor>Urza was the first to understand that the war would not be lost for lack of power, but for lack of troops.</Flavor>
 <Artist>Christopher Rush</Artist>
 <Multiverseid>2789</Multiverseid>
@@ -1566,7 +1566,7 @@ Sacrifice Triassic Egg: Choose one —
 <ManaCost>6 (6)</ManaCost>
 <CardText>At the beginning of your upkeep, put a pin counter on Voodoo Doll.
 At the beginning of your end step, if Voodoo Doll is untapped, destroy Voodoo Doll and it deals damage to you equal to the number of pin counters on it.
-{X}{X}, {T}: Voodoo Doll deals damage equal to the number of pin counters on it to target creature or player. X is the number of pin counters on Voodoo Doll.</CardText>
+{X}{X}, {T}: Voodoo Doll deals damage equal to the number of pin counters on it to any target. X is the number of pin counters on Voodoo Doll.</CardText>
 <Artist>Sandra Everingham</Artist>
 <Multiverseid>2795</Multiverseid>
 <Rulings>2009/10/01: <Voodoo Doll>'s second ability has an "intervening 'if' clause." That means (1) the ability won't trigger at all unless <Voodoo Doll> is untapped, and (2) the ability will do nothing if <Voodoo Doll> is tapped by the time it resolves. If <Voodoo Doll> is no longer on the battlefield as the ability resolves, its last existence on the battlefield is checked to see if it was tapped or untapped.
@@ -1584,7 +1584,7 @@ At the beginning of your end step, if Voodoo Doll is untapped, destroy Voodoo Do
 <Name>City of Brass</Name>
 <Type>Land</Type>
 <CardText>Whenever City of Brass becomes tapped, it deals 1 damage to you.
-{T}: Add one mana of any color to your mana pool.</CardText>
+{T}: Add one mana of any color.</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>2886</Multiverseid>
 <Rulings>2004/10/04: The first ability triggers no matter how the land becomes tapped.
@@ -1626,7 +1626,7 @@ At the beginning of your upkeep, you may sacrifice Safe Haven. If you do, return
 <No>94</No>
 <Name>Urza's Mine</Name>
 <Type>Land — Urza's Mine</Type>
-<CardText>{T}: Add {C} to your mana pool. If you control an Urza's Power-Plant and an Urza's Tower, add {C}{C} to your mana pool instead.</CardText>
+<CardText>{T}: Add {C}. If you control an Urza's Power-Plant and an Urza's Tower, add {C}{C} instead.</CardText>
 <Flavor>Mines became common as cities during the days of the artificers.</Flavor>
 <Artist>Anson Maddocks</Artist>
 <Multiverseid>2889</Multiverseid>
@@ -1643,7 +1643,7 @@ At the beginning of your upkeep, you may sacrifice Safe Haven. If you do, return
 <No>95</No>
 <Name>Urza's Mine</Name>
 <Type>Land — Urza's Mine</Type>
-<CardText>{T}: Add {C} to your mana pool. If you control an Urza's Power-Plant and an Urza's Tower, add {C}{C} to your mana pool instead.</CardText>
+<CardText>{T}: Add {C}. If you control an Urza's Power-Plant and an Urza's Tower, add {C}{C} instead.</CardText>
 <Flavor>Mines became common as cities during the days of the artificers.</Flavor>
 <Artist>Anson Maddocks</Artist>
 <Multiverseid>2888</Multiverseid>
@@ -1660,7 +1660,7 @@ At the beginning of your upkeep, you may sacrifice Safe Haven. If you do, return
 <No>96</No>
 <Name>Urza's Mine</Name>
 <Type>Land — Urza's Mine</Type>
-<CardText>{T}: Add {C} to your mana pool. If you control an Urza's Power-Plant and an Urza's Tower, add {C}{C} to your mana pool instead.</CardText>
+<CardText>{T}: Add {C}. If you control an Urza's Power-Plant and an Urza's Tower, add {C}{C} instead.</CardText>
 <Flavor>Mines became common as cities during the days of the artificers.</Flavor>
 <Artist>Anson Maddocks</Artist>
 <Multiverseid>2890</Multiverseid>
@@ -1677,7 +1677,7 @@ At the beginning of your upkeep, you may sacrifice Safe Haven. If you do, return
 <No>97</No>
 <Name>Urza's Mine</Name>
 <Type>Land — Urza's Mine</Type>
-<CardText>{T}: Add {C} to your mana pool. If you control an Urza's Power-Plant and an Urza's Tower, add {C}{C} to your mana pool instead.</CardText>
+<CardText>{T}: Add {C}. If you control an Urza's Power-Plant and an Urza's Tower, add {C}{C} instead.</CardText>
 <Flavor>Mines became common as cities during the days of the artificers.</Flavor>
 <Artist>Anson Maddocks</Artist>
 <Multiverseid>2891</Multiverseid>
@@ -1694,7 +1694,7 @@ At the beginning of your upkeep, you may sacrifice Safe Haven. If you do, return
 <No>98</No>
 <Name>Urza's Power Plant</Name>
 <Type>Land — Urza's Power-Plant</Type>
-<CardText>{T}: Add {C} to your mana pool. If you control an Urza's Mine and an Urza's Tower, add {C}{C} to your mana pool instead.</CardText>
+<CardText>{T}: Add {C}. If you control an Urza's Mine and an Urza's Tower, add {C}{C} instead.</CardText>
 <Flavor>Artifact construction required immense resources.</Flavor>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>2895</Multiverseid>
@@ -1711,7 +1711,7 @@ At the beginning of your upkeep, you may sacrifice Safe Haven. If you do, return
 <No>99</No>
 <Name>Urza's Power Plant</Name>
 <Type>Land — Urza's Power-Plant</Type>
-<CardText>{T}: Add {C} to your mana pool. If you control an Urza's Mine and an Urza's Tower, add {C}{C} to your mana pool instead.</CardText>
+<CardText>{T}: Add {C}. If you control an Urza's Mine and an Urza's Tower, add {C}{C} instead.</CardText>
 <Flavor>Artifact construction required immense resources.</Flavor>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>2893</Multiverseid>
@@ -1728,7 +1728,7 @@ At the beginning of your upkeep, you may sacrifice Safe Haven. If you do, return
 <No>100</No>
 <Name>Urza's Power Plant</Name>
 <Type>Land — Urza's Power-Plant</Type>
-<CardText>{T}: Add {C} to your mana pool. If you control an Urza's Mine and an Urza's Tower, add {C}{C} to your mana pool instead.</CardText>
+<CardText>{T}: Add {C}. If you control an Urza's Mine and an Urza's Tower, add {C}{C} instead.</CardText>
 <Flavor>Artifact construction required immense resources.</Flavor>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>2892</Multiverseid>
@@ -1745,7 +1745,7 @@ At the beginning of your upkeep, you may sacrifice Safe Haven. If you do, return
 <No>101</No>
 <Name>Urza's Power Plant</Name>
 <Type>Land — Urza's Power-Plant</Type>
-<CardText>{T}: Add {C} to your mana pool. If you control an Urza's Mine and an Urza's Tower, add {C}{C} to your mana pool instead.</CardText>
+<CardText>{T}: Add {C}. If you control an Urza's Mine and an Urza's Tower, add {C}{C} instead.</CardText>
 <Flavor>Artifact construction required immense resources.</Flavor>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>2894</Multiverseid>
@@ -1762,7 +1762,7 @@ At the beginning of your upkeep, you may sacrifice Safe Haven. If you do, return
 <No>102</No>
 <Name>Urza's Tower</Name>
 <Type>Land — Urza's Tower</Type>
-<CardText>{T}: Add {C} to your mana pool. If you control an Urza's Mine and an Urza's Power-Plant, add {C}{C}{C} to your mana pool instead.</CardText>
+<CardText>{T}: Add {C}. If you control an Urza's Mine and an Urza's Power-Plant, add {C}{C}{C} instead.</CardText>
 <Flavor>Urza always put Tocasia's lessons on resource-gathering to effective use.</Flavor>
 <Artist>Mark Poole</Artist>
 <Multiverseid>2899</Multiverseid>
@@ -1778,7 +1778,7 @@ At the beginning of your upkeep, you may sacrifice Safe Haven. If you do, return
 <No>103</No>
 <Name>Urza's Tower</Name>
 <Type>Land — Urza's Tower</Type>
-<CardText>{T}: Add {C} to your mana pool. If you control an Urza's Mine and an Urza's Power-Plant, add {C}{C}{C} to your mana pool instead.</CardText>
+<CardText>{T}: Add {C}. If you control an Urza's Mine and an Urza's Power-Plant, add {C}{C}{C} instead.</CardText>
 <Flavor>Urza always put Tocasia's lessons on resource-gathering to effective use.</Flavor>
 <Artist>Mark Poole</Artist>
 <Multiverseid>2898</Multiverseid>
@@ -1794,7 +1794,7 @@ At the beginning of your upkeep, you may sacrifice Safe Haven. If you do, return
 <No>104</No>
 <Name>Urza's Tower</Name>
 <Type>Land — Urza's Tower</Type>
-<CardText>{T}: Add {C} to your mana pool. If you control an Urza's Mine and an Urza's Power-Plant, add {C}{C}{C} to your mana pool instead.</CardText>
+<CardText>{T}: Add {C}. If you control an Urza's Mine and an Urza's Power-Plant, add {C}{C}{C} instead.</CardText>
 <Flavor>Urza always put Tocasia's lessons on resource-gathering to effective use.</Flavor>
 <Artist>Mark Poole</Artist>
 <Multiverseid>2897</Multiverseid>
@@ -1810,7 +1810,7 @@ At the beginning of your upkeep, you may sacrifice Safe Haven. If you do, return
 <No>105</No>
 <Name>Urza's Tower</Name>
 <Type>Land — Urza's Tower</Type>
-<CardText>{T}: Add {C} to your mana pool. If you control an Urza's Mine and an Urza's Power-Plant, add {C}{C}{C} to your mana pool instead.</CardText>
+<CardText>{T}: Add {C}. If you control an Urza's Mine and an Urza's Power-Plant, add {C}{C}{C} instead.</CardText>
 <Flavor>Urza always put Tocasia's lessons on resource-gathering to effective use.</Flavor>
 <Artist>Mark Poole</Artist>
 <Multiverseid>2896</Multiverseid>
@@ -1982,7 +1982,7 @@ At the beginning of your upkeep, sacrifice Chromium unless you pay {W}{U}{B}.</C
 <Name>Nebuchadnezzar</Name>
 <Type>Legendary Creature — Human Wizard 3/3</Type>
 <ManaCost>3UB (5)</ManaCost>
-<CardText>{X}, {T}: Choose a card name. Target opponent reveals X cards at random from his or her hand. Then that player discards all cards with that name revealed this way. Activate this ability only during your turn.</CardText>
+<CardText>{X}, {T}: Choose a card name. Target opponent reveals X cards at random from their hand. Then that player discards all cards with that name revealed this way. Activate this ability only during your turn.</CardText>
 <Artist>Richard Kane Ferguson</Artist>
 <Multiverseid>2875</Multiverseid>
 <Rulings>2009/10/01: You don't name a card until the ability resolves. Once you name a card, it's too late for the targeted opponent to respond.
@@ -2001,7 +2001,7 @@ At the beginning of your upkeep, sacrifice Chromium unless you pay {W}{U}{B}.</C
 <ManaCost>2UUBBRR (8)</ManaCost>
 <CardText>Flying
 At the beginning of your upkeep, sacrifice Nicol Bolas unless you pay {U}{B}{R}.
-Whenever Nicol Bolas deals damage to an opponent, that player discards his or her hand.</CardText>
+Whenever Nicol Bolas deals damage to an opponent, that player discards their hand.</CardText>
 <Artist>Edward Beard, Jr.</Artist>
 <Multiverseid>2876</Multiverseid>
 <Rulings>2009/10/01: <Nicol Bolas>'s third ability triggers whenever it deals damage to an opponent for any reason. It's not limited to combat damage.</Rulings>
@@ -2155,7 +2155,7 @@ At the beginning of your upkeep, sacrifice Vaevictis Asmadi unless you pay {B}{R
 <CardText>Flying
 {B}{R}{G}, {T}: Target player draws a card.</CardText>
 <Flavor>A regular guest at the Royal Masquerade, Arien is the envy of the Court. She appears in a new costume every hour.</Flavor>
-<Artist>Melissa Benson</Artist>
+<Artist>Melissa A. Benson</Artist>
 <Multiverseid>2885</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>

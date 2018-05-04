@@ -4,7 +4,7 @@
 <Name>Aurora Eidolon</Name>
 <Type>Creature — Spirit 2/2</Type>
 <ManaCost>3W (4)</ManaCost>
-<CardText>{W}, Sacrifice Aurora Eidolon: Prevent the next 3 damage that would be dealt to target creature or player this turn.
+<CardText>{W}, Sacrifice Aurora Eidolon: Prevent the next 3 damage that would be dealt to any target this turn.
 Whenever you cast a multicolored spell, you may return Aurora Eidolon from your graveyard to your hand.</CardText>
 <Artist>Justin Sweet</Artist>
 <Multiverseid>110639</Multiverseid>
@@ -427,7 +427,7 @@ When Court Hussar enters the battlefield, sacrifice it unless {W} was spent to c
 <Name>Enigma Eidolon</Name>
 <Type>Creature — Spirit 2/2</Type>
 <ManaCost>3U (4)</ManaCost>
-<CardText>{U}, Sacrifice Enigma Eidolon: Target player puts the top three cards of his or her library into his or her graveyard.
+<CardText>{U}, Sacrifice Enigma Eidolon: Target player puts the top three cards of their library into their graveyard.
 Whenever you cast a multicolored spell, you may return Enigma Eidolon from your graveyard to your hand.</CardText>
 <Artist>Shishizaru</Artist>
 <Multiverseid>110640</Multiverseid>
@@ -546,7 +546,7 @@ Whenever enchanted opponent draws a card, you may draw a card.</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>107254</Multiverseid>
 <Rulings>2006/05/01: Enchanting an opponent works very much like enchanting a permanent. The Aura spell targets the opponent. When it resolves, it enters the battlefield "attached" to that player. Once it's on the battlefield, it no longer targets that player.
-2006/05/01: <Psychic Possession>'s controller, not the enchanted player, skips his or her draw step.
+2006/05/01: <Psychic Possession>'s controller, not the enchanted player, skips their draw step.
 2006/05/01: If <Psychic Possession>'s controller ever happens to be the player it's enchanting, <Psychic Possession> will be put into its owner's graveyard as a state-based action.
 2006/05/01: An Aura with enchant opponent can't be attached to a permanent.
 2006/05/01: In a multiplayer game, if the enchanted opponent leaves the game, <Psychic Possession> will be put into its owner's graveyard as a state-based action. If <Psychic Possession>'s owner leaves the game, <Psychic Possession> immediately leaves the game; this is not a state-based action.</Rulings>
@@ -688,7 +688,7 @@ Forecast — {1}{U}, Reveal Writ of Passage from your hand: Target creature with
 <Name>Bond of Agony</Name>
 <Type>Sorcery</Type>
 <ManaCost>XB (1)</ManaCost>
-<CardText>As an additional cost to cast Bond of Agony, pay X life.
+<CardText>As an additional cost to cast this spell, pay X life.
 Each other player loses X life.</CardText>
 <Flavor>The Rakdos are unique in designing torture equipment they can operate while "suffering" alongside their victims.</Flavor>
 <Artist>Luca Zontini</Artist>
@@ -709,11 +709,11 @@ Each other player loses X life.</CardText>
 <Name>Brain Pry</Name>
 <Type>Sorcery</Type>
 <ManaCost>1B (2)</ManaCost>
-<CardText>Choose a nonland card name. Target player reveals his or her hand. That player discards a card with that name. If he or she can't, you draw a card.</CardText>
+<CardText>Choose a nonland card name. Target player reveals their hand. That player discards a card with that name. If they can't, you draw a card.</CardText>
 <Flavor>To the Rakdos, the fun is in the shakedown. The loot is usually discarded.</Flavor>
 <Artist>Jim Nelson</Artist>
 <Multiverseid>107340</Multiverseid>
-<Rulings>2006/05/01: You name the card during <Brain Pry>'s resolution, then the player reveals his or her hand and discards if appropriate. There is no way for the player to do anything between you naming the card and the player discarding.
+<Rulings>2006/05/01: You name the card during <Brain Pry>'s resolution, then the player reveals their hand and discards if appropriate. There is no way for the player to do anything between you naming the card and the player discarding.
 2014/02/01: If you target yourself with this spell, you must reveal your entire hand to the other players just as any other player would.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -729,12 +729,12 @@ Each other player loses X life.</CardText>
 <Type>Creature — Zombie 2/2</Type>
 <ManaCost>3B (4)</ManaCost>
 <CardText>Double strike
-When Crypt Champion enters the battlefield, each player puts a creature card with converted mana cost 3 or less from his or her graveyard onto the battlefield.
+When Crypt Champion enters the battlefield, each player puts a creature card with converted mana cost 3 or less from their graveyard onto the battlefield.
 When Crypt Champion enters the battlefield, sacrifice it unless {R} was spent to cast it.</CardText>
 <Artist>Pete Venters</Artist>
 <Watermark>Rakdos</Watermark>
 <Multiverseid>107336</Multiverseid>
-<Rulings>2006/05/01: The first triggered ability isn't targeted, so the creature cards aren't chosen until the ability resolves. Each player chooses which creature card from his or her own graveyard to return. If a player doesn't have an applicable creature card, that player does nothing. If a player does have any applicable cards, that player must return one to the battlefield.
+<Rulings>2006/05/01: The first triggered ability isn't targeted, so the creature cards aren't chosen until the ability resolves. Each player chooses which creature card from their own graveyard to return. If a player doesn't have an applicable creature card, that player does nothing. If a player does have any applicable cards, that player must return one to the battlefield.
 2006/05/01: If this enters the battlefield in a way other than announcing it as a spell, then the appropriate mana can't have been paid, and you'll have to sacrifice it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -902,8 +902,8 @@ Whenever enchanted creature attacks or blocks, its controller loses 3 life.
 <Artist>Jeff Miracola</Artist>
 <Multiverseid>107415</Multiverseid>
 <Rulings>2006/05/01: This effect overwrites all creatures' colors. Creatures will be black instead of any other color or colors.
-2006/05/01: This effect overwrites all lands' land types. Lands will be Swamps instead of any other land types. This won't affect a land's supertypes (such as basic or legendary). Lands will lose their normal abilities and have the ability "{T}: Add {B} to your mana pool" instead.
-2006/05/01: If a permanent is both a creature and a land, <Nightcreep> replaces all of its land types with Swamp, but it doesn't affect its creature types. The creature land loses all abilities generated by its rules text and its previous land types but retains any abilities granted to it by other effects. For example, an animated Blinkmoth Nexus becomes a black creature land with the land subtype Swamp whose only abilities are flying and "{T}: Add {B} to your mana pool."
+2006/05/01: This effect overwrites all lands' land types. Lands will be Swamps instead of any other land types. This won't affect a land's supertypes (such as basic or legendary). Lands will lose their normal abilities and have the ability "{T}: Add {B}" instead.
+2006/05/01: If a permanent is both a creature and a land, <Nightcreep> replaces all of its land types with Swamp, but it doesn't affect its creature types. The creature land loses all abilities generated by its rules text and its previous land types but retains any abilities granted to it by other effects. For example, an animated Blinkmoth Nexus becomes a black creature land with the land subtype Swamp whose only abilities are flying and "{T}: Add {B}."
 2006/05/01: A land or creature that enters the battlefield after <Nightcreep> resolves won't be affected by it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1049,7 +1049,7 @@ Hellbent — Slithering Shade can attack as though it didn't have defender as lo
 <Name>Vesper Ghoul</Name>
 <Type>Creature — Zombie Druid 1/1</Type>
 <ManaCost>2B (3)</ManaCost>
-<CardText>{T}, Pay 1 life: Add one mana of any color to your mana pool.</CardText>
+<CardText>{T}, Pay 1 life: Add one mana of any color.</CardText>
 <Flavor>"Nature's exceptions remind us not to think in absolutes. Just as the orchid blossoms on blackened stone, so does the gift of mana occasionally manifest in the undead."
 —Bougrat, druid of the Cult of Yore</Flavor>
 <Artist>Thomas M. Baxa</Artist>
@@ -1067,7 +1067,7 @@ Hellbent — Slithering Shade can attack as though it didn't have defender as lo
 <Name>Wit's End</Name>
 <Type>Sorcery</Type>
 <ManaCost>5BB (7)</ManaCost>
-<CardText>Target player discards his or her hand.</CardText>
+<CardText>Target player discards their hand.</CardText>
 <Flavor>"Some images are so powerful that one glance burns them into your mind forever. Come, let us gaze on nothingness."
 —Szadek</Flavor>
 <Artist>Kev Walker</Artist>
@@ -1085,8 +1085,8 @@ Hellbent — Slithering Shade can attack as though it didn't have defender as lo
 <Name>Cackling Flames</Name>
 <Type>Instant</Type>
 <ManaCost>3R (4)</ManaCost>
-<CardText>Cackling Flames deals 3 damage to target creature or player.
-Hellbent — Cackling Flames deals 5 damage to that creature or player instead if you have no cards in hand.</CardText>
+<CardText>Cackling Flames deals 3 damage to any target.
+Hellbent — Cackling Flames deals 5 damage to that permanent or player instead if you have no cards in hand.</CardText>
 <Flavor>"I like a little entertainment with my dinner."
 —Rakdos</Flavor>
 <Artist>Shishizaru</Artist>
@@ -1105,8 +1105,8 @@ Hellbent — Cackling Flames deals 5 damage to that creature or player instead i
 <Name>Demonfire</Name>
 <Type>Sorcery</Type>
 <ManaCost>XR (1)</ManaCost>
-<CardText>Demonfire deals X damage to target creature or player. If a creature dealt damage this way would die this turn, exile it instead.
-Hellbent — If you have no cards in hand, Demonfire can't be countered by spells or abilities and the damage can't be prevented.</CardText>
+<CardText>Demonfire deals X damage to any target. If a creature dealt damage this way would die this turn, exile it instead.
+Hellbent — If you have no cards in hand, this spell can't be countered and the damage can't be prevented.</CardText>
 <Artist>Greg Staples</Artist>
 <Watermark>Rakdos</Watermark>
 <Multiverseid>107252</Multiverseid>
@@ -1313,7 +1313,7 @@ Whenever you cast a multicolored spell, you may return Sandstorm Eidolon from yo
 <Name>Seal of Fire</Name>
 <Type>Enchantment</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>Sacrifice Seal of Fire: Seal of Fire deals 2 damage to target creature or player.</CardText>
+<CardText>Sacrifice Seal of Fire: It deals 2 damage to any target.</CardText>
 <Flavor>"If it breathes, it will burn."
 —Rakdos pyromancers' creed</Flavor>
 <Artist>Ralph Horsley</Artist>
@@ -1354,7 +1354,7 @@ When Squealing Devil enters the battlefield, sacrifice it unless {B} was spent t
 <Type>Creature — Avatar 5/5</Type>
 <ManaCost>5RR (7)</ManaCost>
 <CardText>Haste
-Whenever another creature you control dies, it deals damage equal to its power to target player.</CardText>
+Whenever another creature you control dies, it deals damage equal to its power to target player or planeswalker.</CardText>
 <Flavor>Something roams the killing places, sniffing the guilt of the slayers, stalking them on iron paws.</Flavor>
 <Artist>Anthony S. Waters</Artist>
 <Multiverseid>107301</Multiverseid>
@@ -1371,7 +1371,7 @@ Whenever another creature you control dies, it deals damage equal to its power t
 <Name>Stormscale Anarch</Name>
 <Type>Creature — Viashino Shaman 2/2</Type>
 <ManaCost>2RR (4)</ManaCost>
-<CardText>{2}{R}, Discard a card at random: Stormscale Anarch deals 2 damage to target creature or player. If the discarded card was multicolored, Stormscale Anarch deals 4 damage to that creature or player instead.</CardText>
+<CardText>{2}{R}, Discard a card at random: Stormscale Anarch deals 2 damage to any target. If the discarded card was multicolored, Stormscale Anarch deals 4 damage to that permanent or player instead.</CardText>
 <Artist>Ralph Horsley</Artist>
 <Multiverseid>107300</Multiverseid>
 <Rulings>2006/05/01: You can't discard a card at random, see what it is, and then decide whether or not to pay the mana. Mana abilities must be activated before costs are paid. At the time you pay the cost of discarding a card, you either have enough mana in your mana pool to pay the {2}{R}, in which case you must continue no matter what you discarded, or you don't have enough mana in your mana pool to pay the {2}{R}, in which case you must back up no matter what you discarded.</Rulings>
@@ -1537,10 +1537,10 @@ When Cytoplast Root-Kin enters the battlefield, put a +1/+1 counter on each othe
 <Type>Enchantment — Aura</Type>
 <ManaCost>2GG (4)</ManaCost>
 <CardText>Enchant permanent
-At the beginning of your precombat main phase, add mana equal to enchanted permanent's mana cost to your mana pool. (Mana cost includes color. If a mana symbol has multiple colors, choose one.)</CardText>
+At the beginning of your precombat main phase, add mana equal to enchanted permanent's mana cost. (Mana cost includes color. If a mana symbol has multiple colors, choose one.)</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>107369</Multiverseid>
-<Rulings>2006/05/01: If the enchanted permanent's mana cost is {2}{W}{U}, this Aura's controller adds {C}{C}{W}{U} to his or her mana pool. If its mana cost is {X}{G}, this Aura's controller adds {G} to his or her mana pool. If its mana cost is (W/U)(W/U), this Aura's controller chooses whether to add {W}{W}, {W}{U}, or {U}{U} to his or her mana pool. The choice may be different each time the ability resolves.
+<Rulings>2006/05/01: If the enchanted permanent's mana cost is {2}{W}{U}, this Aura's controller adds {C}{C}{W}{U} to their mana pool. If its mana cost is {X}{G}, this Aura's controller adds {G} to their mana pool. If its mana cost is (W/U)(W/U), this Aura's controller chooses whether to add {W}{W}, {W}{U}, or {U}{U} to their mana pool. The choice may be different each time the ability resolves.
 2006/05/01: This ability isn't a mana ability. It uses the stack.
 2006/05/01: Only the first main phase in a turn is the "precombat main phase," even if additional main phases are generated by some effect.
 2009/10/01: You get the mana whether you want it or not. If you don't spend it, it will disappear at the end of the current step (or phase).</Rulings>
@@ -1557,7 +1557,7 @@ At the beginning of your precombat main phase, add mana equal to enchanted perma
 <Name>Fertile Imagination</Name>
 <Type>Sorcery</Type>
 <ManaCost>2GG (4)</ManaCost>
-<CardText>Choose a card type. Target opponent reveals his or her hand. Create two 1/1 green Saproling creature tokens for each card of the chosen type revealed this way. (Artifact, creature, enchantment, instant, land, planeswalker, sorcery, and tribal are card types.)</CardText>
+<CardText>Choose a card type. Target opponent reveals their hand. Create two 1/1 green Saproling creature tokens for each card of the chosen type revealed this way. (Artifact, creature, enchantment, instant, land, planeswalker, sorcery, and tribal are card types.)</CardText>
 <Artist>Dan Scott</Artist>
 <Multiverseid>111203</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1573,7 +1573,7 @@ At the beginning of your precombat main phase, add mana equal to enchanted perma
 <Name>Flash Foliage</Name>
 <Type>Instant</Type>
 <ManaCost>2G (3)</ManaCost>
-<CardText>Cast Flash Foliage only during combat after blockers are declared.
+<CardText>Cast this spell only during combat after blockers are declared.
 Create a 1/1 green Saproling creature token that's blocking target creature attacking you.
 Draw a card.</CardText>
 <Flavor>"This undemanding vegetation takes root in a mote of dust but grows incredibly quickly."
@@ -1618,7 +1618,7 @@ Draw a card.</CardText>
 <Name>Loaming Shaman</Name>
 <Type>Creature — Centaur Shaman 3/2</Type>
 <ManaCost>2G (3)</ManaCost>
-<CardText>When Loaming Shaman enters the battlefield, target player shuffles any number of target cards from his or her graveyard into his or her library.</CardText>
+<CardText>When Loaming Shaman enters the battlefield, target player shuffles any number of target cards from their graveyard into their library.</CardText>
 <Flavor>His work determines who is remembered and who feeds the worms.</Flavor>
 <Artist>Carl Critchlow</Artist>
 <Multiverseid>107568</Multiverseid>
@@ -1639,7 +1639,7 @@ Draw a card.</CardText>
 <CardText>Target creature gets +2/+2 until end of turn for each of its colors.</CardText>
 <Flavor>"Send a runner to Tin Street, and tell 'em the delivery has been . . . uh . . . held up."
 —Bonmod, caravan rear guard</Flavor>
-<Artist>Parente</Artist>
+<Artist>Paolo Parente</Artist>
 <Multiverseid>107320</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1679,6 +1679,8 @@ When Patagia Viper enters the battlefield, sacrifice it unless {U} was spent to 
 —Borborygmos</Flavor>
 <Artist>Matt Cavotta</Artist>
 <Multiverseid>107598</Multiverseid>
+<Rulings>2018/03/16: If a card in your library has {X} in its mana cost, X is considered to be 0.
+2018/03/16: You can find any number of creature cards, so long as their total converted mana cost is 6 or less. For example, you could find eight creature cards with converted mana cost 0 and three with converted mana cost 2, but you couldn't find two with converted mana cost 4.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1844,7 +1846,7 @@ Enchanted creature gets +0/+2 and can block creatures with landwalk abilities as
 <ManaCost>G (1)</ManaCost>
 <CardText>Enchant Forest
 As Utopia Sprawl enters the battlefield, choose a color.
-Whenever enchanted Forest is tapped for mana, its controller adds one mana of the chosen color to his or her mana pool (in addition to the mana the land produces).</CardText>
+Whenever enchanted Forest is tapped for mana, its controller adds an additional one mana of the chosen color.</CardText>
 <Artist>Ron Spears</Artist>
 <Multiverseid>107569</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1860,7 +1862,7 @@ Whenever enchanted Forest is tapped for mana, its controller adds one mana of th
 <Name>Verdant Eidolon</Name>
 <Type>Creature — Spirit 2/2</Type>
 <ManaCost>3G (4)</ManaCost>
-<CardText>{G}, Sacrifice Verdant Eidolon: Add three mana of any one color to your mana pool.
+<CardText>{G}, Sacrifice Verdant Eidolon: Add three mana of any one color.
 Whenever you cast a multicolored spell, you may return Verdant Eidolon from your graveyard to your hand.</CardText>
 <Artist>Tsutomu Kawade</Artist>
 <Multiverseid>110638</Multiverseid>
@@ -1899,7 +1901,7 @@ Whenever you cast a multicolored spell, you may return Verdant Eidolon from your
 <Type>Enchantment</Type>
 <ManaCost>2BRR (5)</ManaCost>
 <CardText>Whenever a creature you control attacks, it gets +2/+0 until end of turn and Anthem of Rakdos deals 1 damage to you.
-Hellbent — As long as you have no cards in hand, if a source you control would deal damage to a creature or player, it deals double that damage to that creature or player instead.</CardText>
+Hellbent — As long as you have no cards in hand, if a source you control would deal damage to a permanent or player, it deals double that damage to that permanent or player instead.</CardText>
 <Artist>Ralph Horsley</Artist>
 <Watermark>Rakdos</Watermark>
 <Multiverseid>97110</Multiverseid>
@@ -1941,7 +1943,7 @@ Hellbent — As long as you have no cards in hand, if a source you control would
 <ManaCost>1WU (3)</ManaCost>
 <CardText>Whenever a permanent is returned to your hand, you may pay {1}. If you do, draw a card.</CardText>
 <Flavor>In her single metasphere are bound the records of every Ætheric transaction since the time of Azor.</Flavor>
-<Artist>Heather Hudson</Artist>
+<Artist>Okera</Artist>
 <Watermark>Azorius</Watermark>
 <Multiverseid>111256</Multiverseid>
 <Rulings>2006/05/01: This ability will trigger whenever any permanent, including a token creature or <Azorius Aethermage> itself, is returned to your hand. It doesn't matter who controlled the permanent or if it had ever actually been in your hand before.</Rulings>
@@ -2146,7 +2148,7 @@ When Hellhole Rats enters the battlefield, target player discards a card. Hellho
 <Type>Legendary Creature — Sphinx 3/6</Type>
 <ManaCost>1WWUU (5)</ManaCost>
 <CardText>Flying
-Whenever Isperia the Inscrutable deals combat damage to a player, choose a card name. That player reveals his or her hand. If a card with the chosen name is revealed this way, search your library for a creature card with flying, reveal it, put it into your hand, then shuffle your library.</CardText>
+Whenever Isperia the Inscrutable deals combat damage to a player, choose a card name. That player reveals their hand. If a card with the chosen name is revealed this way, search your library for a creature card with flying, reveal it, put it into your hand, then shuffle your library.</CardText>
 <Artist>Greg Staples</Artist>
 <Watermark>Azorius</Watermark>
 <Multiverseid>107448</Multiverseid>
@@ -2203,13 +2205,13 @@ Enchanted land has "{G}{U}, {T}: Create a 2/2 green and blue Drake creature toke
 <Name>Lyzolda, the Blood Witch</Name>
 <Type>Legendary Creature — Human Cleric 3/1</Type>
 <ManaCost>1BR (3)</ManaCost>
-<CardText>{2}, Sacrifice a creature: Lyzolda, the Blood Witch deals 2 damage to target creature or player if the sacrificed creature was red. Draw a card if the sacrificed creature was black.</CardText>
+<CardText>{2}, Sacrifice a creature: Lyzolda, the Blood Witch deals 2 damage to any target if the sacrificed creature was red. Draw a card if the sacrificed creature was black.</CardText>
 <Flavor>Sacrificial rites take place before an audience of cheering cultists, each begging to be the next on stage.</Flavor>
 <Artist>Jim Nelson</Artist>
 <Watermark>Rakdos</Watermark>
 <Multiverseid>107363</Multiverseid>
 <Rulings>2006/05/01: You can sacrifice any creature you control to pay for this ability. If the creature was neither red nor black, the ability has no effect.
-2006/05/01: You must choose a target for the ability, even if the creature you sacrifice isn't red. If the target becomes illegal before the ability resolves, the ability will be countered; you won't draw a card, even if the creature you sacrificed was black.</Rulings>
+2006/05/01: You must choose a target for the ability, even if the creature you sacrifice isn't red. If the target becomes illegal before the ability resolves, the ability won't resolve; you won't draw a card, even if the creature you sacrificed was black.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2398,7 +2400,7 @@ Forecast — {2}{W}{U}, Reveal Pride of the Clouds from your hand: Create a 1/1 
 <Type>Creature — Human Wizard 3/2</Type>
 <ManaCost>BBR (3)</ManaCost>
 <CardText>First strike
-{T}: Reveal your hand and discard a card of target opponent's choice. Then that player reveals his or her hand and discards a card of your choice. Activate this ability only any time you could cast a sorcery.</CardText>
+{T}: Reveal your hand and discard a card of target opponent's choice. Then that player reveals their hand and discards a card of your choice. Activate this ability only any time you could cast a sorcery.</CardText>
 <Flavor>"Great minds bleed alike."</Flavor>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Watermark>Rakdos</Watermark>
@@ -2437,7 +2439,7 @@ Forecast — {2}{W}{U}, Reveal Pride of the Clouds from your hand: Create a 1/1 
 <ManaCost>2BBRR (6)</ManaCost>
 <CardText>Flying, trample
 Whenever Rakdos the Defiler attacks, sacrifice half the non-Demon permanents you control, rounded up.
-Whenever Rakdos deals combat damage to a player, that player sacrifices half the non-Demon permanents he or she controls, rounded up.</CardText>
+Whenever Rakdos deals combat damage to a player, that player sacrifices half the non-Demon permanents they control, rounded up.</CardText>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Watermark>Rakdos</Watermark>
 <Multiverseid>107438</Multiverseid>
@@ -2851,7 +2853,7 @@ Enchanted creature can't be the target of spells or abilities your opponents con
 <Name>Determined (Bound/Determined)</Name>
 <Type>Instant</Type>
 <ManaCost>UG (2)</ManaCost>
-<CardText>Other spells you control can't be countered by spells or abilities this turn.
+<CardText>Other spells you control can't be countered this turn.
 Draw a card.</CardText>
 <Artist>Jim Nelson</Artist>
 <Watermark>Simic</Watermark>
@@ -2926,7 +2928,7 @@ Draw a card.</CardText>
 <Name>Seek (Hide/Seek)</Name>
 <Type>Instant</Type>
 <ManaCost>WB (2)</ManaCost>
-<CardText>Search target opponent's library for a card and exile it. You gain life equal to its converted mana cost. Then that player shuffles his or her library.</CardText>
+<CardText>Search target opponent's library for a card and exile it. You gain life equal to its converted mana cost. Then that player shuffles their library.</CardText>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Watermark>Orzhov</Watermark>
 <Multiverseid>107315</Multiverseid>
@@ -3018,7 +3020,7 @@ Draw a card.</CardText>
 <Type>Sorcery</Type>
 <ManaCost>1RG (3)</ManaCost>
 <CardText>Destroy target multicolored permanent.</CardText>
-<Artist>Parente</Artist>
+<Artist>Paolo Parente</Artist>
 <Watermark>Gruul</Watermark>
 <Multiverseid>107532</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -3036,7 +3038,7 @@ Draw a card.</CardText>
 <Type>Sorcery</Type>
 <ManaCost>1WG (3)</ManaCost>
 <CardText>Destroy all Auras and Equipment.</CardText>
-<Artist>Parente</Artist>
+<Artist>Paolo Parente</Artist>
 <Watermark>Selesnya</Watermark>
 <Multiverseid>107532</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -3111,7 +3113,7 @@ Draw a card.</CardText>
 <Name>Fall (Rise/Fall)</Name>
 <Type>Sorcery</Type>
 <ManaCost>BR (2)</ManaCost>
-<CardText>Target player reveals two cards at random from his or her hand, then discards each nonland card revealed this way.</CardText>
+<CardText>Target player reveals two cards at random from their hand, then discards each nonland card revealed this way.</CardText>
 <Artist>Pete Venters</Artist>
 <Watermark>Rakdos</Watermark>
 <Multiverseid>107423</Multiverseid>
@@ -3201,7 +3203,7 @@ Draw a card.</CardText>
 <Name>Azorius Signet</Name>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{1}, {T}: Add {W}{U} to your mana pool.</CardText>
+<CardText>{1}, {T}: Add {W}{U}.</CardText>
 <Flavor>The maze-like design embodies the core of Azorius law—strict structure designed to test wills and stall change.</Flavor>
 <Artist>Greg Hildebrandt</Artist>
 <Watermark>Azorius</Watermark>
@@ -3219,7 +3221,7 @@ Draw a card.</CardText>
 <Name>Bronze Bombshell</Name>
 <Type>Artifact Creature — Construct 4/1</Type>
 <ManaCost>4 (4)</ManaCost>
-<CardText>When a player other than Bronze Bombshell's owner controls it, that player sacrifices it. If the player does, Bronze Bombshell deals 7 damage to him or her.</CardText>
+<CardText>When a player other than Bronze Bombshell's owner controls it, that player sacrifices it. If the player does, Bronze Bombshell deals 7 damage to the player.</CardText>
 <Flavor>"Ooh, shiny! Let's pull off the chain and take her with us."
 —Ukl, Gruul raider, last words</Flavor>
 <Artist>Martina Pilcerova</Artist>
@@ -3276,7 +3278,7 @@ Draw a card.</CardText>
 <Name>Muse Vessel</Name>
 <Type>Artifact</Type>
 <ManaCost>4 (4)</ManaCost>
-<CardText>{3}, {T}: Target player exiles a card from his or her hand. Activate this ability only any time you could cast a sorcery.
+<CardText>{3}, {T}: Target player exiles a card from their hand. Activate this ability only any time you could cast a sorcery.
 {1}: Choose a card exiled with Muse Vessel. You may play that card this turn.</CardText>
 <Artist>Christopher Rush</Artist>
 <Multiverseid>107553</Multiverseid>
@@ -3313,7 +3315,7 @@ Equip {2}</CardText>
 <Name>Rakdos Signet</Name>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{1}, {T}: Add {B}{R} to your mana pool.</CardText>
+<CardText>{1}, {T}: Add {B}{R}.</CardText>
 <Flavor>Made of bone and boiled in blood, a Rakdos signet is not considered finished until it has been used as a murder weapon.</Flavor>
 <Artist>Greg Hildebrandt</Artist>
 <Watermark>Rakdos</Watermark>
@@ -3331,7 +3333,7 @@ Equip {2}</CardText>
 <Name>Simic Signet</Name>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{1}, {T}: Add {G}{U} to your mana pool.</CardText>
+<CardText>{1}, {T}: Add {G}{U}.</CardText>
 <Flavor>For the Simic Combine, its sigil serves not as an emblem of honor but as a trademark. Its familiar image on any biological commodity attests to superb craftsmanship, ingenious innovation, and higher cost.</Flavor>
 <Artist>Greg Hildebrandt</Artist>
 <Watermark>Simic</Watermark>
@@ -3408,7 +3410,7 @@ At the beginning of each player's upkeep, that player draws a card for each +1/+
 <Type>Land</Type>
 <CardText>Azorius Chancery enters the battlefield tapped.
 When Azorius Chancery enters the battlefield, return a land you control to its owner's hand.
-{T}: Add {W}{U} to your mana pool.</CardText>
+{T}: Add {W}{U}.</CardText>
 <Artist>John Avon</Artist>
 <Watermark>Azorius</Watermark>
 <Multiverseid>97087</Multiverseid>
@@ -3425,7 +3427,7 @@ When Azorius Chancery enters the battlefield, return a land you control to its o
 <No>171</No>
 <Name>Blood Crypt</Name>
 <Type>Land — Swamp Mountain</Type>
-<CardText>({T}: Add {B} or {R} to your mana pool.)
+<CardText>({T}: Add {B} or {R}.)
 As Blood Crypt enters the battlefield, you may pay 2 life. If you don't, Blood Crypt enters the battlefield tapped.</CardText>
 <Artist>Rob Alexander</Artist>
 <Watermark>Rakdos</Watermark>
@@ -3445,7 +3447,7 @@ As Blood Crypt enters the battlefield, you may pay 2 life. If you don't, Blood C
 <No>172</No>
 <Name>Breeding Pool</Name>
 <Type>Land — Forest Island</Type>
-<CardText>({T}: Add {G} or {U} to your mana pool.)
+<CardText>({T}: Add {G} or {U}.)
 As Breeding Pool enters the battlefield, you may pay 2 life. If you don't, Breeding Pool enters the battlefield tapped.</CardText>
 <Artist>Rob Alexander</Artist>
 <Watermark>Simic</Watermark>
@@ -3465,13 +3467,13 @@ As Breeding Pool enters the battlefield, you may pay 2 life. If you don't, Breed
 <No>173</No>
 <Name>Ghost Quarter</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{T}, Sacrifice Ghost Quarter: Destroy target land. Its controller may search his or her library for a basic land card, put it onto the battlefield, then shuffle his or her library.</CardText>
+<CardText>{T}: Add {C}.
+{T}, Sacrifice Ghost Quarter: Destroy target land. Its controller may search their library for a basic land card, put it onto the battlefield, then shuffle their library.</CardText>
 <Flavor>Where wasted life cries out to be reborn.</Flavor>
 <Artist>Heather Hudson</Artist>
 <Multiverseid>107504</Multiverseid>
-<Rulings>2006/05/01: If you target <Ghost Quarter> with its own ability, the ability will be countered because its target is no longer on the battlefield. You won't get to search for a land card.
-2011/09/22: If the targeted land is an illegal target by the time <Ghost Quarter>'s ability resolves, it will be countered and none of its effects will happen. The land's controller won't get to search for a basic land card.
+<Rulings>2006/05/01: If you target <Ghost Quarter> with its own ability, the ability won't resolve because its target is no longer on the battlefield. You won't get to search for a land card.
+2011/09/22: If the targeted land is an illegal target by the time <Ghost Quarter>'s ability resolves, it won't resolve and none of its effects will happen. The land's controller won't get to search for a basic land card.
 2013/07/01: The target land's controller gets to search for a basic land card even if that land wasn't destroyed by <Ghost Quarter>'s ability. This may happen because the land has indestructible or because it was regenerated.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3485,7 +3487,7 @@ As Breeding Pool enters the battlefield, you may pay 2 life. If you don't, Breed
 <No>174</No>
 <Name>Hallowed Fountain</Name>
 <Type>Land — Plains Island</Type>
-<CardText>({T}: Add {W} or {U} to your mana pool.)
+<CardText>({T}: Add {W} or {U}.)
 As Hallowed Fountain enters the battlefield, you may pay 2 life. If you don't, Hallowed Fountain enters the battlefield tapped.</CardText>
 <Artist>Rob Alexander</Artist>
 <Watermark>Azorius</Watermark>
@@ -3505,7 +3507,7 @@ As Hallowed Fountain enters the battlefield, you may pay 2 life. If you don't, H
 <No>175</No>
 <Name>Novijen, Heart of Progress</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {G}{U}, {T}: Put a +1/+1 counter on each creature that entered the battlefield this turn.</CardText>
 <Flavor>"The unnatural pressures of life in this city are best withstood by lifeforms that adapt with unnatural swiftness."
 —Momir Vig</Flavor>
@@ -3525,7 +3527,7 @@ As Hallowed Fountain enters the battlefield, you may pay 2 life. If you don't, H
 <No>176</No>
 <Name>Pillar of the Paruns</Name>
 <Type>Land</Type>
-<CardText>{T}: Add one mana of any color to your mana pool. Spend this mana only to cast a multicolored spell.</CardText>
+<CardText>{T}: Add one mana of any color. Spend this mana only to cast a multicolored spell.</CardText>
 <Flavor>Built on the very ground where the Ten signed the Guildpact, the tower is a monument to the past and a reminder of who holds power in the present.</Flavor>
 <Artist>Dany Orizio</Artist>
 <Multiverseid>107279</Multiverseid>
@@ -3541,7 +3543,7 @@ As Hallowed Fountain enters the battlefield, you may pay 2 life. If you don't, H
 <No>177</No>
 <Name>Prahv, Spires of Order</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {4}{W}{U}, {T}: Prevent all damage a source of your choice would deal this turn.</CardText>
 <Flavor>Prahv, where much work is done to make sure nothing is accomplished.</Flavor>
 <Artist>Martina Pilcerova</Artist>
@@ -3561,7 +3563,7 @@ As Hallowed Fountain enters the battlefield, you may pay 2 life. If you don't, H
 <Type>Land</Type>
 <CardText>Rakdos Carnarium enters the battlefield tapped.
 When Rakdos Carnarium enters the battlefield, return a land you control to its owner's hand.
-{T}: Add {B}{R} to your mana pool.</CardText>
+{T}: Add {B}{R}.</CardText>
 <Artist>John Avon</Artist>
 <Watermark>Rakdos</Watermark>
 <Multiverseid>97082</Multiverseid>
@@ -3578,7 +3580,7 @@ When Rakdos Carnarium enters the battlefield, return a land you control to its o
 <No>179</No>
 <Name>Rix Maadi, Dungeon Palace</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {1}{B}{R}, {T}: Each player discards a card. Activate this ability only any time you could cast a sorcery.</CardText>
 <Flavor>Even miles away, if you put your ear to the sewer vents, you can hear the screams and the tempestuous laughter.</Flavor>
 <Artist>Martina Pilcerova</Artist>
@@ -3599,7 +3601,7 @@ When Rakdos Carnarium enters the battlefield, return a land you control to its o
 <Type>Land</Type>
 <CardText>Simic Growth Chamber enters the battlefield tapped.
 When Simic Growth Chamber enters the battlefield, return a land you control to its owner's hand.
-{T}: Add {G}{U} to your mana pool.</CardText>
+{T}: Add {G}{U}.</CardText>
 <Artist>John Avon</Artist>
 <Watermark>Simic</Watermark>
 <Multiverseid>97089</Multiverseid>

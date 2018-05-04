@@ -125,12 +125,10 @@ Cycling {2}{W} ({2}{W}, Discard this card: Draw a card.)
 When you cycle Decree of Justice, you may pay {X}. If you do, create X 1/1 white Soldier creature tokens.</CardText>
 <Artist>Lius Lasahido</Artist>
 <Multiverseid>394359</Multiverseid>
-<Rulings>2004/10/04: The two X's in the mana cost mean that you pay 2 mana (above the {2}{W}{W} base cost) for each token you want to create.
-2004/10/04: When you cycle this card, the last ability triggers. When that ability resolves, you choose a value of X and pay it during resolution.
-2004/10/04: You can cast this with X=0.
-2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
+<Rulings>2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
 2008/10/01: When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
-2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability is countered (with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.</Rulings>
+2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (due to being countered with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.
+2018/03/16: A mana cost of {X}{X} means that you pay twice X. If you want X to be 3, you pay {8}{W}{W} to cast <Decree of Justice>.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Duel Decks: Elspeth vs. Kiora</Set>
@@ -168,7 +166,7 @@ When you cycle Gempalm Avenger, Soldier creatures get +1/+1 and gain first strik
 <Multiverseid>394368</Multiverseid>
 <Rulings>2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
 2008/10/01: When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
-2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability is countered (with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.</Rulings>
+2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (due to being countered with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Duel Decks: Elspeth vs. Kiora</Set>
@@ -250,7 +248,7 @@ Whenever Gustcloak Skirmisher becomes blocked, you may untap it and remove it fr
 <Type>Creature — Human Soldier 1/1</Type>
 <ManaCost>W (1)</ManaCost>
 <CardText>Icatian Javelineers enters the battlefield with a javelin counter on it.
-{T}, Remove a javelin counter from Icatian Javelineers: Icatian Javelineers deals 1 damage to target creature or player.</CardText>
+{T}, Remove a javelin counter from Icatian Javelineers: Icatian Javelineers deals 1 damage to any target.</CardText>
 <Artist>Michael Phillippi</Artist>
 <Multiverseid>394374</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -515,7 +513,7 @@ Whenever Precinct Captain deals combat damage to a player, create a 1/1 white So
 <Name>Secluded Steppe</Name>
 <Type>Land</Type>
 <CardText>Secluded Steppe enters the battlefield tapped.
-{T}: Add {W} to your mana pool.
+{T}: Add {W}.
 Cycling {W} ({W}, Discard this card: Draw a card.)</CardText>
 <Artist>Heather Hudson</Artist>
 <Multiverseid>394405</Multiverseid>
@@ -531,7 +529,7 @@ Cycling {W} ({W}, Discard this card: Draw a card.)</CardText>
 <No>30</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>394397</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -546,7 +544,7 @@ Cycling {W} ({W}, Discard this card: Draw a card.)</CardText>
 <No>31</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>394398</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -561,7 +559,7 @@ Cycling {W} ({W}, Discard this card: Draw a card.)</CardText>
 <No>32</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>394399</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -576,7 +574,7 @@ Cycling {W} ({W}, Discard this card: Draw a card.)</CardText>
 <No>33</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Raoul Vitale</Artist>
 <Multiverseid>394396</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -620,7 +618,7 @@ Cycling {W} ({W}, Discard this card: Draw a card.)</CardText>
 —Isperia</Flavor>
 <Artist>David Palumbo</Artist>
 <Multiverseid>394351</Multiverseid>
-<Rulings>2004/10/04: The count does not include the card that is currently resolving. The card does not go to the graveyard until after it is done resolving.</Rulings>
+<Rulings>2018/03/16: Because <Accumulated Knowledge> is still on the stack as you perform its instructions, it isn't in your graveyard and won't add to the number of cards drawn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Duel Decks: Elspeth vs. Kiora</Set>
@@ -696,7 +694,7 @@ Shroud (This creature can't be the target of spells or abilities.)</CardText>
 <Rulings>2013/09/15: When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
 2013/09/15: You choose how to order cards returned to your library after scrying no matter where you put them.
 2013/09/15: You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
-2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it will be countered and none of its effects will happen. You won't scry.</Rulings>
+2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -749,7 +747,7 @@ Shroud (This creature can't be the target of spells or abilities.)</CardText>
 When Sealock Monster becomes monstrous, target land becomes an Island in addition to its other types.</CardText>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>394404</Multiverseid>
-<Rulings>2013/09/15: The effect making the land an Island doesn't have a duration and will last indefinitely. The land retains any land types and abilities it already had. An Island has the ability "{T}: Add {U} to your mana pool."
+<Rulings>2013/09/15: The effect making the land an Island doesn't have a duration and will last indefinitely. The land retains any land types and abilities it already had. An Island has the ability "{T}: Add {U}."
 2013/09/15: Once a creature becomes monstrous, it can't become monstrous again. If the creature is already monstrous when the monstrosity ability resolves, nothing happens.
 2013/09/15: Monstrous isn't an ability that a creature has. It's just something true about that creature. If the creature stops being a creature or loses its abilities, it will continue to be monstrous.
 2013/09/15: An ability that triggers when a creature becomes monstrous won't trigger if that creature isn't on the battlefield when its monstrosity ability resolves.</Rulings>
@@ -903,7 +901,7 @@ Whenever Netcaster Spider blocks a creature with flying, Netcaster Spider gets +
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>394413</Multiverseid>
 <Rulings>2013/09/15: <Time to Feed> has two targets: a creature an opponent controls and a creature you control. If only one of those creatures is a legal target when <Time to Feed> tries to resolve, the creatures won't fight and neither will deal or be dealt damage. If the creature you don't control is the illegal target, you won't gain life when it dies.
-2013/09/15: If neither creature is a legal target when <Time to Feed> tries to resolve, the spell will be countered and none of its effects will happen.
+2013/09/15: If neither creature is a legal target when <Time to Feed> tries to resolve, the spell won't resolve and none of its effects will happen.
 2013/09/15: If the first target creature dies that turn, you'll gain 3 life no matter what caused the creature to die or who controls the creature at that time.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -958,8 +956,8 @@ Whenever Netcaster Spider blocks a creature with flying, Netcaster Spider gets +
 —Ranalus, vedalken heretic</Flavor>
 <Artist>Greg Staples</Artist>
 <Multiverseid>394384</Multiverseid>
-<Rulings>2009/05/01: If a spell or ability causes you to draw multiple cards, <Lorescale Coatl>'s ability triggers that many times.
-2009/05/01: If a spell or ability causes you to put cards in your hand without specifically using the word "draw," <Lorescale Coatl>'s ability won't trigger.</Rulings>
+<Rulings>2018/03/16: If a spell or ability causes you to draw multiple cards, <Lorescale Coatl>'s ability triggers that many times.
+2018/03/16: If a spell or ability causes you to put cards in your hand without specifically using the word "draw," <Lorescale Coatl>'s ability won't trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -991,7 +989,7 @@ Nimbus Swimmer enters the battlefield with X +1/+1 counters on it.</CardText>
 <Name>Plasm Capture</Name>
 <Type>Instant</Type>
 <ManaCost>UUGG (4)</ManaCost>
-<CardText>Counter target spell. At the beginning of your next precombat main phase, add X mana in any combination of colors to your mana pool, where X is that spell's converted mana cost.</CardText>
+<CardText>Counter target spell. At the beginning of your next precombat main phase, add X mana in any combination of colors, where X is that spell's converted mana cost.</CardText>
 <Flavor>"Everything serves a purpose. Even you."
 —Vorel of the Hull Clade</Flavor>
 <Artist>Chase Stone</Artist>
@@ -1065,7 +1063,7 @@ Shroud (This creature can't be the target of spells or abilities.)</CardText>
 <No>59</No>
 <Name>Temple of the False God</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C}{C} to your mana pool. Activate this ability only if you control five or more lands.</CardText>
+<CardText>{T}: Add {C}{C}. Activate this ability only if you control five or more lands.</CardText>
 <Flavor>"When gods become apathetic, the people will worship anyone who answers their pleas."
 —Kiora</Flavor>
 <Artist>James Zapata</Artist>
@@ -1081,7 +1079,7 @@ Shroud (This creature can't be the target of spells or abilities.)</CardText>
 <No>60</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>394377</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1096,7 +1094,7 @@ Shroud (This creature can't be the target of spells or abilities.)</CardText>
 <No>61</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>394378</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1111,7 +1109,7 @@ Shroud (This creature can't be the target of spells or abilities.)</CardText>
 <No>62</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Raoul Vitale</Artist>
 <Multiverseid>394376</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1126,7 +1124,7 @@ Shroud (This creature can't be the target of spells or abilities.)</CardText>
 <No>63</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>394366</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1141,7 +1139,7 @@ Shroud (This creature can't be the target of spells or abilities.)</CardText>
 <No>64</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>394365</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1156,7 +1154,7 @@ Shroud (This creature can't be the target of spells or abilities.)</CardText>
 <No>65</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Raoul Vitale</Artist>
 <Multiverseid>394367</Multiverseid>
 <Vintage>Legal</Vintage>

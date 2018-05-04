@@ -4,7 +4,7 @@
 <Name>Abandon Hope</Name>
 <Type>Sorcery</Type>
 <ManaCost>X1B (2)</ManaCost>
-<CardText>As an additional cost to cast Abandon Hope, discard X cards.
+<CardText>As an additional cost to cast this spell, discard X cards.
 Look at target opponent's hand and choose X cards from it. That player discards those cards.</CardText>
 <Flavor>As Gerrard's form vanished into the maw of trees, Hanna mouthed a silent plea, mourning a crushed dream.</Flavor>
 <Artist>Alan Pollack</Artist>
@@ -37,7 +37,7 @@ Whenever Bellowing Fiend deals damage to a creature, Bellowing Fiend deals 3 dam
 <Name>Blood Pet</Name>
 <Type>Creature — Thrull 1/1</Type>
 <ManaCost>B (1)</ManaCost>
-<CardText>Sacrifice Blood Pet: Add {B} to your mana pool.</CardText>
+<CardText>Sacrifice Blood Pet: Add {B}.</CardText>
 <Flavor>"You are wrong," Volrath said. "I do not hate the living. They often prove quite useful to me." And then he laughed.</Flavor>
 <Artist>Brom</Artist>
 <Multiverseid>12342</Multiverseid>
@@ -107,7 +107,7 @@ Whenever Bellowing Fiend deals damage to a creature, Bellowing Fiend deals 3 dam
 <Name>Coercion</Name>
 <Type>Sorcery</Type>
 <ManaCost>2B (3)</ManaCost>
-<CardText>Target opponent reveals his or her hand. You choose a card from it. That player discards that card.</CardText>
+<CardText>Target opponent reveals their hand. You choose a card from it. That player discards that card.</CardText>
 <Flavor>"There's very little that escapes me, Greven. And you will escape very little if you fail."
 —Volrath</Flavor>
 <Artist>Pete Venters</Artist>
@@ -200,7 +200,7 @@ Return the top creature card of your graveyard to the battlefield. That creature
 <Name>Dark Ritual</Name>
 <Type>Instant</Type>
 <ManaCost>B (1)</ManaCost>
-<CardText>Add {B}{B}{B} to your mana pool.</CardText>
+<CardText>Add {B}{B}{B}.</CardText>
 <Flavor>"If there is such a thing as too much power, I have not discovered it."
 —Volrath</Flavor>
 <Artist>Ken Meyer, Jr.</Artist>
@@ -305,7 +305,7 @@ Dauthi Horror can't be blocked by white creatures.</CardText>
 {1}{B}: Dauthi Mercenary gets +1/+0 until end of turn.</CardText>
 <Flavor>"The Dauthi believe they dignify murder by paying for it."
 —Lyna, Soltari emissary</Flavor>
-<Artist>Matthew Wilson</Artist>
+<Artist>Matthew D. Wilson</Artist>
 <Multiverseid>4652</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -561,7 +561,7 @@ Target creature attacks this turn if able.</CardText>
 <ManaCost>2BB (4)</ManaCost>
 <CardText>First strike
 At the beginning of your upkeep, if your opponents control no creatures, Kezzerdrix deals 4 damage to you.</CardText>
-<Artist>Matthew Wilson</Artist>
+<Artist>Matthew D. Wilson</Artist>
 <Multiverseid>4667</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -598,7 +598,7 @@ At the beginning of the upkeep of enchanted creature's controller, Leeching Lici
 <Artist>Joel Biske</Artist>
 <Multiverseid>4670</Multiverseid>
 <Rulings>2013/04/15: Paying the cost to end the effect is a special action and can't be responded to.
-2013/04/15: If a spell that can target enchantments but not creatures (such as Clear) is cast targeting the Licid after it has become an enchantment, but the Licid's controller pays the cost, the Licid will no longer be an enchantment. This will result in the spell being countered on resolution for having no legal targets.</Rulings>
+2013/04/15: If a spell that can target enchantments but not creatures (such as Clear) is cast targeting the Licid after it has become an enchantment, but the Licid's controller pays the cost, the Licid will no longer be an enchantment. This will result in the spell failing to resolve for having no legal targets.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Tempest</Set>
@@ -611,12 +611,11 @@ At the beginning of the upkeep of enchanted creature's controller, Leeching Lici
 <Name>Living Death</Name>
 <Type>Sorcery</Type>
 <ManaCost>3BB (5)</ManaCost>
-<CardText>Each player exiles all creature cards from his or her graveyard, then sacrifices all creatures he or she controls, then puts all cards he or she exiled this way onto the battlefield.</CardText>
+<CardText>Each player exiles all creature cards from their graveyard, then sacrifices all creatures they control, then puts all cards they exiled this way onto the battlefield.</CardText>
 <Artist>Charles Gillespie</Artist>
 <Multiverseid>4671</Multiverseid>
-<Rulings>2004/10/04: The creatures which are sacrificed can't be regenerated.
-2004/10/04: Both players exile their creature cards at once. Then both players sacrifice all creatures they control at once. Then both players put all creatures they exiled onto the battlefield. If there are any choices involved for a given step, the current player makes their choices first, then the other player, and finally you do the action all at once.
-2013/09/20: "All cards he or she exiled this way" refers only to the cards exiled in the first part of the effect. If a replacement effect (such as Leyline of the Void) exiles any of the sacrificed creatures instead of putting them into the graveyard, those cards aren't returned to the battlefield.</Rulings>
+<Rulings>2018/03/16: As <Living Death> resolves, all players exile their creature cards from graveyards at the same time. Then all players sacrifice all creatures they control at the same time. Then all players put all creatures they exiled onto the battlefield at the same time.
+2018/03/16: Only cards exiled by <Living Death>'s first instruction are put onto the battlefield. If a replacement effect (such as that of Leyline of the Void) causes any of the sacrificed creatures to be exiled instead of put into a graveyard, those cards aren't returned to the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Tempest</Set>
@@ -1056,10 +1055,10 @@ When you lose control of Duplicity, put all cards exiled with Duplicity into the
 <ManaCost>XU (1)</ManaCost>
 <CardText>X can't be 0.
 Target spell's controller exiles it with X delay counters on it.
-At the beginning of each of that player's upkeeps, if that card is exiled, remove a delay counter from it. If the card has no delay counters on it, he or she puts it onto the stack as a copy of the original spell.</CardText>
+At the beginning of each of that player's upkeeps, if that card is exiled, remove a delay counter from it. If the card has no delay counters on it, the player puts it onto the stack as a copy of the original spell.</CardText>
 <Artist>Steve Luke</Artist>
 <Multiverseid>4698</Multiverseid>
-<Rulings>2004/10/04: Note that a delayed spell that targets another spell will be countered when it resolves since it will find that its target is no longer on the stack.
+<Rulings>2004/10/04: Note that a delayed spell that targets another spell won't resolve when it resolves since it will find that its target is no longer on the stack.
 2004/10/04: A targeted spell which is delayed will still succeed even if its target has phased out and back in again.
 2004/10/04: <Ertai's Meddling> can't be cast through any way that doesn't pay its mana cost. This is because the X in the Meddling's mana cost can't be 0, but effects that allow spells to be cast without paying their mana costs set X to 0.
 2004/10/04: If a copy of a spell (one that has no card representing it) is affected by <Ertai's Meddling>, the spell ceases to exist when exiled. It will not gain counters and will not be put back on the stack.
@@ -1240,7 +1239,7 @@ Draw a card.</CardText>
 Sacrifice Legacy's Allure: Gain control of target creature with power less than or equal to the number of treasure counters on Legacy's Allure. (This effect lasts indefinitely.)</CardText>
 <Artist>Daren Bader</Artist>
 <Multiverseid>4708</Multiverseid>
-<Rulings>2004/10/04: The "power less than or equal to the number of treasure counters on this card" restriction is a targeting restriction and will be checked on resolution in addition to on announcement. If the creature's power changes to be greater than this before the effect resolves, then the <Legacy's Allure> triggered ability is countered, but the card stays in the graveyard.</Rulings>
+<Rulings>2004/10/04: The "power less than or equal to the number of treasure counters on this card" restriction is a targeting restriction and will be checked on resolution in addition to on announcement. If the creature's power changes to be greater than this before the effect resolves, then the <Legacy's Allure> triggered ability doesn't resolve, but the card stays in the graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Tempest</Set>
@@ -1305,7 +1304,7 @@ Sacrifice Legacy's Allure: Gain control of target creature with power less than 
 <Type>Creature — Beast 3/3</Type>
 <ManaCost>3UU (5)</ManaCost>
 <CardText>Flying
-{T}: Mawcor deals 1 damage to target creature or player.</CardText>
+{T}: Mawcor deals 1 damage to any target.</CardText>
 <Flavor>From its maw comes neither word nor whisper—only wind.</Flavor>
 <Artist>John Matson</Artist>
 <Multiverseid>4712</Multiverseid>
@@ -1359,7 +1358,7 @@ Sacrifice Legacy's Allure: Gain control of target creature with power less than 
 <Name>Power Sink</Name>
 <Type>Instant</Type>
 <ManaCost>XU (1)</ManaCost>
-<CardText>Counter target spell unless its controller pays {X}. If he or she doesn't, that player taps all lands with mana abilities he or she controls and empties his or her mana pool.</CardText>
+<CardText>Counter target spell unless its controller pays {X}. If that player doesn't, they tap all lands with mana abilities they control and lose all unspent mana.</CardText>
 <Artist>Jeff Miracola</Artist>
 <Multiverseid>4716</Multiverseid>
 <Rulings>2004/10/04: Does not increase the mana cost of the spell. It just requires a separate expenditure in order for it to succeed.
@@ -1393,7 +1392,7 @@ Sacrifice Legacy's Allure: Gain control of target creature with power less than 
 <Name>Propaganda</Name>
 <Type>Enchantment</Type>
 <ManaCost>2U (3)</ManaCost>
-<CardText>Creatures can't attack you unless their controller pays {2} for each creature he or she controls that's attacking you.</CardText>
+<CardText>Creatures can't attack you unless their controller pays {2} for each creature they control that's attacking you.</CardText>
 <Flavor>"You've failed Gerrard. You've failed the Legacy. You've failed yourself. I can do no more."
 —Volrath, to Karn</Flavor>
 <Artist>Jeff Miracola</Artist>
@@ -1433,7 +1432,7 @@ Sacrifice Legacy's Allure: Gain control of target creature with power less than 
 <Name>Rootwater Hunter</Name>
 <Type>Creature — Merfolk 1/1</Type>
 <ManaCost>2U (3)</ManaCost>
-<CardText>{T}: Rootwater Hunter deals 1 damage to target creature or player.</CardText>
+<CardText>{T}: Rootwater Hunter deals 1 damage to any target.</CardText>
 <Flavor>"Bitter water   vicious wave
 Shadow-cold shallows   root-made maze
 Home's angry embrace."
@@ -1541,8 +1540,8 @@ Enchanted creature has flying. (It can't be blocked except by creatures with fly
 <Name>Skyshroud Condor</Name>
 <Type>Creature — Bird 2/2</Type>
 <ManaCost>1U (2)</ManaCost>
-<CardText>Flying
-Cast Skyshroud Condor only if you've cast another spell this turn.</CardText>
+<CardText>Cast this spell only if you've cast another spell this turn.
+Flying</CardText>
 <Flavor>Condor's flight augurs sleepless night.
 —Skyshroud proverb</Flavor>
 <Artist>Doug Chaffee</Artist>
@@ -1602,7 +1601,7 @@ Whenever enchanted creature becomes tapped, Stinging Licid deals 2 damage to tha
 <Artist>Paolo Parente</Artist>
 <Multiverseid>4730</Multiverseid>
 <Rulings>2013/04/15: Paying the cost to end the effect is a special action and can't be responded to.
-2013/04/15: If a spell that can target enchantments but not creatures (such as Clear) is cast targeting the Licid after it has become an enchantment, but the Licid's controller pays the cost, the Licid will no longer be an enchantment. This will result in the spell being countered on resolution for having no legal targets.</Rulings>
+2013/04/15: If a spell that can target enchantments but not creatures (such as Clear) is cast targeting the Licid after it has become an enchantment, but the Licid's controller pays the cost, the Licid will no longer be an enchantment. This will result in the spell failing to resolve for having no legal targets.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Tempest</Set>
@@ -1745,7 +1744,7 @@ Draw a card.</CardText>
 <Flavor>Battles are won in nuance.</Flavor>
 <Artist>DiTerlizzi</Artist>
 <Multiverseid>4739</Multiverseid>
-<Rulings>2010/03/01: If the targeted permanent is an illegal target by the time <Twitch> resolves, the entire spell is countered. You don't draw a card.</Rulings>
+<Rulings>2010/03/01: If the targeted permanent is an illegal target by the time <Twitch> resolves, the entire spell doesn't resolve. You don't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2096,7 +2095,7 @@ Other Elves have shroud. (They can't be the targets of spells or abilities.)</Ca
 <Name>Eladamri's Vineyard</Name>
 <Type>Enchantment</Type>
 <ManaCost>G (1)</ManaCost>
-<CardText>At the beginning of each player's precombat main phase, add {G}{G} to that player's mana pool.</CardText>
+<CardText>At the beginning of each player's precombat main phase, that player adds {G}{G}.</CardText>
 <Flavor>The mushroom wine made Gerrard's head spin, and his stomach soon followed suit.</Flavor>
 <Artist>Ron Chironna</Artist>
 <Multiverseid>4758</Multiverseid>
@@ -2201,7 +2200,7 @@ Enchanted creature has reach. (It can block creatures with flying.)</CardText>
 <Name>Harrow</Name>
 <Type>Instant</Type>
 <ManaCost>2G (3)</ManaCost>
-<CardText>As an additional cost to cast Harrow, sacrifice a land.
+<CardText>As an additional cost to cast this spell, sacrifice a land.
 Search your library for up to two basic land cards and put them onto the battlefield. Then shuffle your library.</CardText>
 <Flavor>Changing Rath's landscape is like tearing the scab from a wound.</Flavor>
 <Artist>Eric David Anderson</Artist>
@@ -2238,7 +2237,7 @@ Search your library for up to two basic land cards and put them onto the battlef
 <Name>Heartwood Giant</Name>
 <Type>Creature — Giant 4/4</Type>
 <ManaCost>3GG (5)</ManaCost>
-<CardText>{T}, Sacrifice a Forest: Heartwood Giant deals 2 damage to target player.</CardText>
+<CardText>{T}, Sacrifice a Forest: Heartwood Giant deals 2 damage to target player or planeswalker.</CardText>
 <Flavor>Wind in the trees is soothing, but the same can't be said for trees on the wind.</Flavor>
 <Artist>Randy Elliott</Artist>
 <Multiverseid>4766</Multiverseid>
@@ -2380,7 +2379,7 @@ Search your library for up to two basic land cards and put them onto the battlef
 —Oracle en-Vec</Flavor>
 <Artist>Donato Giancola</Artist>
 <Multiverseid>4774</Multiverseid>
-<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
+<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Tempest</Set>
@@ -2415,7 +2414,7 @@ Search your library for up to two basic land cards and put them onto the battlef
 <Artist>Mark Poole</Artist>
 <Multiverseid>4776</Multiverseid>
 <Rulings>2013/04/15: Paying the cost to end the effect is a special action and can't be responded to.
-2013/04/15: If a spell that can target enchantments but not creatures (such as Clear) is cast targeting the Licid after it has become an enchantment, but the Licid's controller pays the cost, the Licid will no longer be an enchantment. This will result in the spell being countered on resolution for having no legal targets.</Rulings>
+2013/04/15: If a spell that can target enchantments but not creatures (such as Clear) is cast targeting the Licid after it has become an enchantment, but the Licid's controller pays the cost, the Licid will no longer be an enchantment. This will result in the spell failing to resolve for having no legal targets.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Tempest</Set>
@@ -2502,7 +2501,7 @@ Draw a card.</CardText>
 <Name>Reap</Name>
 <Type>Instant</Type>
 <ManaCost>1G (2)</ManaCost>
-<CardText>Return up to X target cards from your graveyard to your hand, where X is the number of black permanents target opponent controls as you cast Reap.</CardText>
+<CardText>Return up to X target cards from your graveyard to your hand, where X is the number of black permanents target opponent controls as you cast this spell.</CardText>
 <Flavor>"Let Volrath choke on his crop of hatred."
 —Eladamri, Lord of Leaves</Flavor>
 <Artist>Ron Chironna</Artist>
@@ -2576,7 +2575,7 @@ Your maximum hand size is two.</CardText>
 <Name>Rootbreaker Wurm</Name>
 <Type>Creature — Wurm 6/6</Type>
 <ManaCost>5GG (7)</ManaCost>
-<CardText>Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)</CardText>
+<CardText>Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)</CardText>
 <Flavor>As Gerrard made his escape, the wurm covered his flight by helping itself to three great mouthfuls of merfolk.</Flavor>
 <Artist>Richard Kane Ferguson</Artist>
 <Multiverseid>4785</Multiverseid>
@@ -2611,7 +2610,7 @@ Your maximum hand size is two.</CardText>
 <Name>Scragnoth</Name>
 <Type>Creature — Beast 3/4</Type>
 <ManaCost>4G (5)</ManaCost>
-<CardText>Scragnoth can't be countered.
+<CardText>This spell can't be countered.
 Protection from blue</CardText>
 <Flavor>It possesses no intelligence, only counter-intelligence.</Flavor>
 <Artist>Jeff Laubenstein</Artist>
@@ -2650,8 +2649,8 @@ Protection from blue</CardText>
 <Name>Skyshroud Elf</Name>
 <Type>Creature — Elf Druid 1/1</Type>
 <ManaCost>1G (2)</ManaCost>
-<CardText>{T}: Add {G} to your mana pool.
-{1}: Add {R} or {W} to your mana pool.</CardText>
+<CardText>{T}: Add {G}.
+{1}: Add {R} or {W}.</CardText>
 <Flavor>"It is our duty to endure."
 —Eladamri, Lord of Leaves</Flavor>
 <Artist>Jeff Miracola</Artist>
@@ -2689,7 +2688,7 @@ Protection from blue</CardText>
 <ManaCost>2GG (4)</ManaCost>
 <CardText>{1}{G}: Regenerate Skyshroud Troll.</CardText>
 <Flavor>The elves and merfolk have nothing but bitterness for each other. The trolls, however, find them both rather tasty.</Flavor>
-<Artist>Matthew Wilson</Artist>
+<Artist>Matthew D. Wilson</Artist>
 <Multiverseid>4791</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2789,9 +2788,8 @@ Protection from blue</CardText>
 Birth fern and flower.</Flavor>
 <Artist>DiTerlizzi</Artist>
 <Multiverseid>4797</Multiverseid>
-<Rulings>2004/10/04: <Verdant Force>'s controller gets the tokens. That is the controller at the beginning of upkeep.
-2005/08/01: Once created, the tokens are independent of <Verdant Force>. If <Verdant Force> changes controllers, the new controller will put tokens onto the battlefield, but existing tokens will stay where they are.
-2006/05/01: In Two-Headed Giant, triggers only once per upkeep, not once for each player.</Rulings>
+<Rulings>2006/05/01: In Two-Headed Giant, triggers only once per upkeep, not once for each player.
+2018/04/27: <Verdant Force>'s ability triggers at the beginning of each upkeep, not just each of your upkeeps.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2856,7 +2854,7 @@ A crypt of years where seasons sleep.</Flavor>
 <Name>Ancient Runes</Name>
 <Type>Enchantment</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>At the beginning of each player's upkeep, Ancient Runes deals damage to that player equal to the number of artifacts he or she controls.</CardText>
+<CardText>At the beginning of each player's upkeep, Ancient Runes deals damage to that player equal to the number of artifacts they control.</CardText>
 <Flavor>Ertai volunteered to open the portal. He figured he owed it one.</Flavor>
 <Artist>Susan Van Camp</Artist>
 <Multiverseid>4801</Multiverseid>
@@ -2908,7 +2906,7 @@ A crypt of years where seasons sleep.</Flavor>
 <Name>Blood Frenzy</Name>
 <Type>Instant</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>Cast Blood Frenzy only before the combat damage step.
+<CardText>Cast this spell only before the combat damage step.
 Target attacking or blocking creature gets +4/+0 until end of turn. Destroy that creature at the beginning of the next end step.</CardText>
 <Flavor>"When Torahn bellows, none survive—not even the warrior whose horns he rides."
 —Talruum adage</Flavor>
@@ -3035,7 +3033,7 @@ Enchanted creature has haste.</CardText>
 <Artist>Doug Chaffee</Artist>
 <Multiverseid>4811</Multiverseid>
 <Rulings>2013/04/15: Paying the cost to end the effect is a special action and can't be responded to.
-2013/04/15: If a spell that can target enchantments but not creatures (such as Clear) is cast targeting the Licid after it has become an enchantment, but the Licid's controller pays the cost, the Licid will no longer be an enchantment. This will result in the spell being countered on resolution for having no legal targets.</Rulings>
+2013/04/15: If a spell that can target enchantments but not creatures (such as Clear) is cast targeting the Licid after it has become an enchantment, but the Licid's controller pays the cost, the Licid will no longer be an enchantment. This will result in the spell failing to resolve for having no legal targets.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Tempest</Set>
@@ -3066,7 +3064,7 @@ Enchanted creature has haste.</CardText>
 <Name>Fireslinger</Name>
 <Type>Creature — Human Wizard 1/1</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>{T}: Fireslinger deals 1 damage to target creature or player and 1 damage to you.</CardText>
+<CardText>{T}: Fireslinger deals 1 damage to any target and 1 damage to you.</CardText>
 <Flavor>"Remember the moral of the fireslinger fable: with power comes isolation."
 —Karn, silver golem</Flavor>
 <Artist>Jeff Reitz</Artist>
@@ -3134,14 +3132,14 @@ Enchanted creature has haste.</CardText>
 <Name>Furnace of Rath</Name>
 <Type>Enchantment</Type>
 <ManaCost>1RRR (4)</ManaCost>
-<CardText>If a source would deal damage to a creature or player, it deals double that damage to that creature or player instead.</CardText>
+<CardText>If a source would deal damage to a permanent or player, it deals double that damage to that permanent or player instead.</CardText>
 <Artist>John Matson</Artist>
 <Multiverseid>4819</Multiverseid>
 <Rulings>2004/10/04: If a spell or ability damages multiple things, divide up the damage before applying this effect. This means you can't normally end up with an odd amount of damage on something.
 2004/10/04: The trample rules cause damage to be divided before it is doubled.
 2004/10/04: If you have two of these on the battlefield, the damage is multiplied by 4.
 2004/10/04: The multiplied damage counts in all ways as if it came from the original source. <Furnace of Rath> is not the source.
-2005/08/01: If multiple effects modify how damage will be dealt, the player who would be dealt damage or the controller of the creature that would be dealt damage chooses the order to apply the effects. For example, Mending Hands says, "Prevent the next 4 damage that would be dealt to target creature or player this turn." Suppose a spell would deal 5 damage to a player who has cast Mending Hands targeting himself or herself. That player can either (a) prevent 4 damage first and then let <Furnace of Rath> double the remaining 1 damage, taking 2 damage, or (b) double the damage to 10 and then prevent 4 damage, taking 6 damage.</Rulings>
+2005/08/01: If multiple effects modify how damage will be dealt, the player who would be dealt damage or the controller of the creature that would be dealt damage chooses the order to apply the effects. For example, Mending Hands says, "Prevent the next 4 damage that would be dealt to any target this turn." Suppose a spell would deal 5 damage to a player who has cast Mending Hands targeting themselves. That player can either (a) prevent 4 damage first and then let <Furnace of Rath> double the remaining 1 damage, taking 2 damage, or (b) double the damage to 10 and then prevent 4 damage, taking 6 damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3172,7 +3170,7 @@ Enchanted creature gets +2/+2.</CardText>
 <Name>Goblin Bombardment</Name>
 <Type>Enchantment</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>Sacrifice a creature: Goblin Bombardment deals 1 damage to target creature or player.</CardText>
+<CardText>Sacrifice a creature: Goblin Bombardment deals 1 damage to any target.</CardText>
 <Flavor>One mogg to aim the catapult, one mogg to steer the rock.</Flavor>
 <Artist>Brian Snõddy</Artist>
 <Multiverseid>4821</Multiverseid>
@@ -3204,7 +3202,7 @@ Enchanted creature gets +2/+2.</CardText>
 <Name>Havoc</Name>
 <Type>Enchantment</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>Whenever an opponent casts a white spell, he or she loses 2 life.</CardText>
+<CardText>Whenever an opponent casts a white spell, they lose 2 life.</CardText>
 <Flavor>As Orim put the lightning rod into place on the bow, she cast a spell of protection to shield herself from the heat. That's when the Furnace got personal.</Flavor>
 <Artist>Donato Giancola</Artist>
 <Multiverseid>4823</Multiverseid>
@@ -3255,11 +3253,11 @@ Enchanted creature gets +2/+2.</CardText>
 <Name>Kindle</Name>
 <Type>Instant</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>Kindle deals X damage to target creature or player, where X is 2 plus the number of cards named Kindle in all graveyards.</CardText>
+<CardText>Kindle deals X damage to any target, where X is 2 plus the number of cards named Kindle in all graveyards.</CardText>
 <Flavor>Hope of deliverance is scorched by the fire of futility.</Flavor>
 <Artist>Donato Giancola</Artist>
 <Multiverseid>4826</Multiverseid>
-<Rulings>2004/10/04: Counts the <Kindle>s in graveyard on resolution.</Rulings>
+<Rulings>2018/03/16: Because <Kindle> is still on the stack as you perform its instructions, it isn't in your graveyard and won't add to the amount of damage dealt.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Tempest</Set>
@@ -3272,7 +3270,7 @@ Enchanted creature gets +2/+2.</CardText>
 <Name>Lightning Blast</Name>
 <Type>Instant</Type>
 <ManaCost>3R (4)</ManaCost>
-<CardText>Lightning Blast deals 4 damage to target creature or player.</CardText>
+<CardText>Lightning Blast deals 4 damage to any target.</CardText>
 <Flavor>"Those who fear the darkness have never seen what the light can do."
 —Selenia, dark angel</Flavor>
 <Artist>Richard Thomas</Artist>
@@ -3356,7 +3354,7 @@ At the beginning of your upkeep, you may remove a +1/+1 counter from Magmasaur. 
 <Name>Mogg Fanatic</Name>
 <Type>Creature — Goblin 1/1</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>Sacrifice Mogg Fanatic: Mogg Fanatic deals 1 damage to target creature or player.</CardText>
+<CardText>Sacrifice Mogg Fanatic: It deals 1 damage to any target.</CardText>
 <Flavor>"I got it! I got it! I—"</Flavor>
 <Artist>Brom</Artist>
 <Multiverseid>4832</Multiverseid>
@@ -3493,13 +3491,13 @@ Whenever Renegade Warlord attacks, each other attacking creature gets +1/+0 unti
 <Name>Rolling Thunder</Name>
 <Type>Sorcery</Type>
 <ManaCost>XRR (2)</ManaCost>
-<CardText>Rolling Thunder deals X damage divided as you choose among any number of target creatures and/or players.</CardText>
+<CardText>Rolling Thunder deals X damage divided as you choose among any number of targets.</CardText>
 <Flavor>"Such rage," thought Vhati, gazing up at the thunderhead from the Predator. "It is Greven's mind manifest."</Flavor>
 <Artist>Richard Thomas</Artist>
 <Multiverseid>4840</Multiverseid>
 <Rulings>2004/10/04: If X is greater than 0, you can't choose zero targets. You must choose between one and X targets. If X is 0, you can't choose any targets.
 2015/08/25: You choose how many targets <Rolling Thunder> has and how the damage is divided as you cast the spell. Each target must receive at least 1 damage.
-2015/08/25: If some, but not all, of the targets become illegal by the time <Rolling Thunder> tries to resolve, the original division of damage still applies, but no damage is dealt to illegal targets. If all the targets are illegal, the spell will be countered.
+2015/08/25: If some, but not all, of the targets become illegal by the time <Rolling Thunder> tries to resolve, the original division of damage still applies, but no damage is dealt to illegal targets. If all the targets are illegal, the spell won't resolve.
 2015/08/25: If <Rolling Thunder> is copied, the copy will retain the original damage divsion. The spell or ability will likely allow you to choose new targets, but you can't change the way damage is divided.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3533,7 +3531,7 @@ Whenever Renegade Warlord attacks, each other attacking creature gets +1/+0 unti
 <Name>Scorched Earth</Name>
 <Type>Sorcery</Type>
 <ManaCost>XR (1)</ManaCost>
-<CardText>As an additional cost to cast Scorched Earth, discard X land cards.
+<CardText>As an additional cost to cast this spell, discard X land cards.
 Destroy X target lands.</CardText>
 <Flavor>"Fire cleanses as well as destroys; that is the nature of change."
 —Oracle en-Vec</Flavor>
@@ -3553,7 +3551,7 @@ Destroy X target lands.</CardText>
 <Type>Instant</Type>
 <ManaCost>R (1)</ManaCost>
 <CardText>Buyback {4} (You may pay an additional {4} as you cast this spell. If you do, put this card into your hand as it resolves.)
-Searing Touch deals 1 damage to target creature or player.</CardText>
+Searing Touch deals 1 damage to any target.</CardText>
 <Artist>D. Alexander Gregory</Artist>
 <Multiverseid>4843</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -3604,7 +3602,7 @@ Searing Touch deals 1 damage to target creature or player.</CardText>
 <Name>Shocker</Name>
 <Type>Creature — Insect 1/1</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>Whenever Shocker deals damage to a player, that player discards all the cards in his or her hand, then draws that many cards.</CardText>
+<CardText>Whenever Shocker deals damage to a player, that player discards all the cards in their hand, then draws that many cards.</CardText>
 <Artist>Thomas M. Baxa</Artist>
 <Multiverseid>4848</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -3873,7 +3871,7 @@ Mirri: "After they've done trying to kill us, all right?"</Flavor>
 <ManaCost>3WW (5)</ManaCost>
 <CardText>Flying
 When Avenging Angel dies, you may put it on top of its owner's library.</CardText>
-<Artist>Matthew Wilson</Artist>
+<Artist>Matthew D. Wilson</Artist>
 <Multiverseid>4863</Multiverseid>
 <Rulings>2008/04/01: This has been restored as a triggered ability that triggers when it is put into a graveyard from the battlefield, rather than a replacement effect. The Angel does go to the graveyard, and will trigger any other abilities that look for this event.</Rulings>
 <Reserved>This card is on the reserved list</Reserved>
@@ -3995,7 +3993,7 @@ When Avenging Angel dies, you may put it on top of its owner's library.</CardTex
 <Name>Clergy en-Vec</Name>
 <Type>Creature — Human Cleric 1/1</Type>
 <ManaCost>1W (2)</ManaCost>
-<CardText>{T}: Prevent the next 1 damage that would be dealt to target creature or player this turn.</CardText>
+<CardText>{T}: Prevent the next 1 damage that would be dealt to any target this turn.</CardText>
 <Flavor>"Faith's shield is hammered out by the blows of unbelievers."
 —Oracle en-Vec</Flavor>
 <Artist>Heather Hudson</Artist>
@@ -4298,7 +4296,7 @@ The next time a source of your choice would deal damage to you this turn, preven
 <Name>Oracle en-Vec</Name>
 <Type>Creature — Human Wizard 1/1</Type>
 <ManaCost>1W (2)</ManaCost>
-<CardText>{T}: Target opponent chooses any number of creatures he or she controls. During that player's next turn, the chosen creatures attack if able, and other creatures can't attack. At the beginning of that turn's end step, destroy each of the chosen creatures that didn't attack this turn. Activate this ability only during your turn.</CardText>
+<CardText>{T}: Target opponent chooses any number of creatures they control. During that player's next turn, the chosen creatures attack if able, and other creatures can't attack. At the beginning of that turn's end step, destroy each of the chosen creatures that didn't attack this turn. Activate this ability only during your turn.</CardText>
 <Artist>Dan Frazier</Artist>
 <Multiverseid>4889</Multiverseid>
 <Rulings>2004/10/04: The way the card works is that the target player chooses which creatures will attack on their next turn. Creatures which are chosen to attack, but do not attack, are destroyed at the end of that turn. Creatures which are not chosen to be attackers are not affected in any way other than being unable to attack.</Rulings>
@@ -4314,7 +4312,7 @@ The next time a source of your choice would deal damage to you this turn, preven
 <Name>Orim, Samite Healer</Name>
 <Type>Legendary Creature — Human Cleric 1/3</Type>
 <ManaCost>1WW (3)</ManaCost>
-<CardText>{T}: Prevent the next 3 damage that would be dealt to target creature or player this turn.</CardText>
+<CardText>{T}: Prevent the next 3 damage that would be dealt to any target this turn.</CardText>
 <Flavor>"The silkworm spins itself a new existence. So the healer weaves the threads of life."
 —Orim, Samite healer</Flavor>
 <Artist>Kaja Foglio</Artist>
@@ -4390,7 +4388,7 @@ Enchanted creature has first strike.</CardText>
 <Artist>Andrew Robinson</Artist>
 <Multiverseid>4894</Multiverseid>
 <Rulings>2013/04/15: Paying the cost to end the effect is a special action and can't be responded to.
-2013/04/15: If a spell that can target enchantments but not creatures (such as Clear) is cast targeting the Licid after it has become an enchantment, but the Licid's controller pays the cost, the Licid will no longer be an enchantment. This will result in the spell being countered on resolution for having no legal targets.</Rulings>
+2013/04/15: If a spell that can target enchantments but not creatures (such as Clear) is cast targeting the Licid after it has become an enchantment, but the Licid's controller pays the cost, the Licid will no longer be an enchantment. This will result in the spell failing to resolve for having no legal targets.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Tempest</Set>
@@ -4524,7 +4522,7 @@ Enchanted creature has first strike.</CardText>
 Soltari Lancer has first strike as long as it's attacking.</CardText>
 <Flavor>"In times of war the victors rarely save their best for last."
 —Gerrard of the Weatherlight</Flavor>
-<Artist>Matthew Wilson</Artist>
+<Artist>Matthew D. Wilson</Artist>
 <Multiverseid>4902</Multiverseid>
 <Rulings>2008/04/01: For a time, the ability that granted it first strike was a triggered ability. It has been restored to a static ability that applies continuously while the Lancer is attacking. There is never a time when the Lancer is attacking but doesn't have first strike.</Rulings>
 <Vintage>Legal</Vintage>
@@ -4683,7 +4681,7 @@ Whenever Soltari Trooper attacks, it gets +1/+1 until end of turn.</CardText>
 <Type>Instant</Type>
 <ManaCost>W (1)</ManaCost>
 <CardText>Buyback {2} (You may pay an additional {2} as you cast this spell. If you do, put this card into your hand as it resolves.)
-As an additional cost to cast Worthy Cause, sacrifice a creature.
+As an additional cost to cast this spell, sacrifice a creature.
 You gain life equal to the sacrificed creature's toughness.</CardText>
 <Artist>John Matson</Artist>
 <Multiverseid>4911</Multiverseid>
@@ -4701,7 +4699,7 @@ You gain life equal to the sacrificed creature's toughness.</CardText>
 <Name>Altar of Dementia</Name>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>Sacrifice a creature: Target player puts a number of cards equal to the sacrificed creature's power from the top of his or her library into his or her graveyard.</CardText>
+<CardText>Sacrifice a creature: Target player puts a number of cards equal to the sacrificed creature's power from the top of their library into their graveyard.</CardText>
 <Flavor>"It is not that you will go mad. It is that you will beg for madness."
 —Volrath</Flavor>
 <Artist>Brom</Artist>
@@ -4719,7 +4717,7 @@ You gain life equal to the sacrificed creature's toughness.</CardText>
 <Type>Artifact</Type>
 <ManaCost>6 (6)</ManaCost>
 <CardText>As Booby Trap enters the battlefield, choose an opponent and a card name other than a basic land card name.
-The chosen player reveals each card he or she draws.
+The chosen player reveals each card they draw.
 When the chosen player draws a card with the chosen name, sacrifice Booby Trap. If you do, Booby Trap deals 10 damage to that player.</CardText>
 <Artist>Doug Chaffee</Artist>
 <Multiverseid>4597</Multiverseid>
@@ -4794,7 +4792,7 @@ Sacrifice Cold Storage: Return each creature card exiled with Cold Storage to th
 <Name>Cursed Scroll</Name>
 <Type>Artifact</Type>
 <ManaCost>1 (1)</ManaCost>
-<CardText>{3}, {T}: Choose a card name, then reveal a card at random from your hand. If that card has the chosen name, Cursed Scroll deals 2 damage to target creature or player.</CardText>
+<CardText>{3}, {T}: Choose a card name, then reveal a card at random from your hand. If that card has the chosen name, Cursed Scroll deals 2 damage to any target.</CardText>
 <Artist>D. Alexander Gregory</Artist>
 <Multiverseid>4601</Multiverseid>
 <Rulings>2008/08/01: If you have no cards in hand, you still have to name a card. Then you fail to reveal one (since there aren't any). Since the named card wasn't revealed, no damage is dealt.</Rulings>
@@ -4811,7 +4809,7 @@ Sacrifice Cold Storage: Return each creature card exiled with Cold Storage to th
 <Name>Echo Chamber</Name>
 <Type>Artifact</Type>
 <ManaCost>4 (4)</ManaCost>
-<CardText>{4}, {T}: An opponent chooses target creature he or she controls. Create a token that's a copy of that creature. That token gains haste until end of turn. Exile the token at the beginning of the next end step. Activate this ability only any time you could cast a sorcery.</CardText>
+<CardText>{4}, {T}: An opponent chooses target creature they control. Create a token that's a copy of that creature. That token gains haste until end of turn. Exile the token at the beginning of the next end step. Activate this ability only any time you could cast a sorcery.</CardText>
 <Artist>Donato Giancola</Artist>
 <Multiverseid>4602</Multiverseid>
 <Rulings>2004/10/04: The token enters the battlefield as the creature it is copying. This triggers its own and any other appropriate enters the battlefield abilities.
@@ -4948,7 +4946,7 @@ Ertai: "You could say that."</Flavor>
 <Name>Grindstone</Name>
 <Type>Artifact</Type>
 <ManaCost>1 (1)</ManaCost>
-<CardText>{3}, {T}: Target player puts the top two cards of his or her library into his or her graveyard. If both cards share a color, repeat this process.</CardText>
+<CardText>{3}, {T}: Target player puts the top two cards of their library into their graveyard. If both cards share a color, repeat this process.</CardText>
 <Flavor>"Memory is a burden that wears at the soul as weather wears at stone."
 —Crovax</Flavor>
 <Artist>Greg Simanson</Artist>
@@ -5025,7 +5023,7 @@ Sacrifice a creature: Target opponent gains control of Jinxed Idol.</CardText>
 <Name>Lotus Petal</Name>
 <Type>Artifact</Type>
 <ManaCost>0 (0)</ManaCost>
-<CardText>{T}, Sacrifice Lotus Petal: Add one mana of any color to your mana pool.</CardText>
+<CardText>{T}, Sacrifice Lotus Petal: Add one mana of any color.</CardText>
 <Flavor>"Hard to imagine," mused Hanna, stroking the petal, "such a lovely flower inspiring such greed."</Flavor>
 <Artist>April Lee</Artist>
 <Multiverseid>4614</Multiverseid>
@@ -5058,7 +5056,7 @@ Whenever a creature with a magnet counter on it attacks, all creatures with magn
 <Name>Manakin</Name>
 <Type>Artifact Creature — Construct 1/1</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{T}: Add {C} to your mana pool.</CardText>
+<CardText>{T}: Add {C}.</CardText>
 <Flavor>Hanna regarded Squee sternly. "Because it's not a toy, no matter how much it may look like one," she said, taking the manakin from him.</Flavor>
 <Artist>Scott Kirschner</Artist>
 <Multiverseid>4616</Multiverseid>
@@ -5165,7 +5163,7 @@ Whenever a creature with a magnet counter on it attacks, all creatures with magn
 <ManaCost>6 (6)</ManaCost>
 <Flavor>"They are convenient in having no souls, but less so in having no spirit."
 —Volrath</Flavor>
-<Artist>Matthew Wilson</Artist>
+<Artist>Matthew D. Wilson</Artist>
 <Multiverseid>4622</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -5254,7 +5252,7 @@ Whenever a creature with a magnet counter on it attacks, all creatures with magn
 <Name>Scalding Tongs</Name>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>At the beginning of your upkeep, if you have three or fewer cards in hand, Scalding Tongs deals 1 damage to target opponent.</CardText>
+<CardText>At the beginning of your upkeep, if you have three or fewer cards in hand, Scalding Tongs deals 1 damage to target opponent or planeswalker.</CardText>
 <Flavor>"This has nothing to do with what you know and everything to do with what I wish."
 —Volrath</Flavor>
 <Artist>Randy Gallegos</Artist>
@@ -5339,7 +5337,7 @@ Time doesn't move at all.</Flavor>
 <Name>Thumbscrews</Name>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>At the beginning of your upkeep, if you have five or more cards in hand, Thumbscrews deals 1 damage to target opponent.</CardText>
+<CardText>At the beginning of your upkeep, if you have five or more cards in hand, Thumbscrews deals 1 damage to target opponent or planeswalker.</CardText>
 <Flavor>"We will start small, I think."
 —Volrath</Flavor>
 <Artist>Charles Gillespie</Artist>
@@ -5391,7 +5389,7 @@ As long as Watchdog is untapped, all creatures attacking you get -1/-0.</CardTex
 <No>305</No>
 <Name>Ancient Tomb</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C}{C} to your mana pool. Ancient Tomb deals 2 damage to you.</CardText>
+<CardText>{T}: Add {C}{C}. Ancient Tomb deals 2 damage to you.</CardText>
 <Flavor>There is no glory to be gained in the kingdom of the dead.
 —Vec tomb inscription</Flavor>
 <Artist>Colin MacNeil</Artist>
@@ -5408,8 +5406,8 @@ As long as Watchdog is untapped, all creatures attacking you get -1/-0.</CardTex
 <Name>Caldera Lake</Name>
 <Type>Land</Type>
 <CardText>Caldera Lake enters the battlefield tapped.
-{T}: Add {C} to your mana pool.
-{T}: Add {U} or {R} to your mana pool. Caldera Lake deals 1 damage to you.</CardText>
+{T}: Add {C}.
+{T}: Add {U} or {R}. Caldera Lake deals 1 damage to you.</CardText>
 <Artist>L. A. Williams</Artist>
 <Multiverseid>4930</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5423,8 +5421,8 @@ As long as Watchdog is untapped, all creatures attacking you get -1/-0.</CardTex
 <No>307</No>
 <Name>Cinder Marsh</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{T}: Add {B} or {R} to your mana pool. Cinder Marsh doesn't untap during your next untap step.</CardText>
+<CardText>{T}: Add {C}.
+{T}: Add {B} or {R}. Cinder Marsh doesn't untap during your next untap step.</CardText>
 <Artist>John Matson</Artist>
 <Multiverseid>4931</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5438,7 +5436,7 @@ As long as Watchdog is untapped, all creatures attacking you get -1/-0.</CardTex
 <No>308</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Douglas Shuler</Artist>
 <Multiverseid>4927</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5453,7 +5451,7 @@ As long as Watchdog is untapped, all creatures attacking you get -1/-0.</CardTex
 <No>309</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Douglas Shuler</Artist>
 <Multiverseid>4929</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5468,7 +5466,7 @@ As long as Watchdog is untapped, all creatures attacking you get -1/-0.</CardTex
 <No>310</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Douglas Shuler</Artist>
 <Multiverseid>4928</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5483,7 +5481,7 @@ As long as Watchdog is untapped, all creatures attacking you get -1/-0.</CardTex
 <No>311</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Douglas Shuler</Artist>
 <Multiverseid>4926</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5498,7 +5496,7 @@ As long as Watchdog is untapped, all creatures attacking you get -1/-0.</CardTex
 <No>312</No>
 <Name>Ghost Town</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {0}: Return Ghost Town to its owner's hand. Activate this ability only if it's not your turn.</CardText>
 <Flavor>"The air here smells like a grave."
 —Crovax</Flavor>
@@ -5515,7 +5513,7 @@ As long as Watchdog is untapped, all creatures attacking you get -1/-0.</CardTex
 <No>313</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Randy Gallegos</Artist>
 <Multiverseid>4949</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5530,7 +5528,7 @@ As long as Watchdog is untapped, all creatures attacking you get -1/-0.</CardTex
 <No>314</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Randy Gallegos</Artist>
 <Multiverseid>4952</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5545,7 +5543,7 @@ As long as Watchdog is untapped, all creatures attacking you get -1/-0.</CardTex
 <No>315</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Randy Gallegos</Artist>
 <Multiverseid>4951</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5560,7 +5558,7 @@ As long as Watchdog is untapped, all creatures attacking you get -1/-0.</CardTex
 <No>316</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Randy Gallegos</Artist>
 <Multiverseid>4950</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5575,7 +5573,7 @@ As long as Watchdog is untapped, all creatures attacking you get -1/-0.</CardTex
 <No>317</No>
 <Name>Maze of Shadows</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {T}: Untap target attacking creature with shadow. Prevent all combat damage that would be dealt to and dealt by that creature this turn.</CardText>
 <Artist>D. Alexander Gregory</Artist>
 <Multiverseid>4933</Multiverseid>
@@ -5590,8 +5588,8 @@ As long as Watchdog is untapped, all creatures attacking you get -1/-0.</CardTex
 <No>318</No>
 <Name>Mogg Hollows</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{T}: Add {R} or {G} to your mana pool. Mogg Hollows doesn't untap during your next untap step.</CardText>
+<CardText>{T}: Add {C}.
+{T}: Add {R} or {G}. Mogg Hollows doesn't untap during your next untap step.</CardText>
 <Artist>Jeff Laubenstein</Artist>
 <Multiverseid>4934</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5605,7 +5603,7 @@ As long as Watchdog is untapped, all creatures attacking you get -1/-0.</CardTex
 <No>319</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Mark Poole</Artist>
 <Multiverseid>4945</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5620,7 +5618,7 @@ As long as Watchdog is untapped, all creatures attacking you get -1/-0.</CardTex
 <No>320</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Mark Poole</Artist>
 <Multiverseid>4948</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5635,7 +5633,7 @@ As long as Watchdog is untapped, all creatures attacking you get -1/-0.</CardTex
 <No>321</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Mark Poole</Artist>
 <Multiverseid>4947</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5650,7 +5648,7 @@ As long as Watchdog is untapped, all creatures attacking you get -1/-0.</CardTex
 <No>322</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Mark Poole</Artist>
 <Multiverseid>4946</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5666,8 +5664,8 @@ As long as Watchdog is untapped, all creatures attacking you get -1/-0.</CardTex
 <Name>Pine Barrens</Name>
 <Type>Land</Type>
 <CardText>Pine Barrens enters the battlefield tapped.
-{T}: Add {C} to your mana pool.
-{T}: Add {B} or {G} to your mana pool. Pine Barrens deals 1 damage to you.</CardText>
+{T}: Add {C}.
+{T}: Add {B} or {G}. Pine Barrens deals 1 damage to you.</CardText>
 <Artist>Rebecca Guay</Artist>
 <Multiverseid>4935</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5681,7 +5679,7 @@ As long as Watchdog is untapped, all creatures attacking you get -1/-0.</CardTex
 <No>324</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Terese Nielsen</Artist>
 <Multiverseid>4953</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5696,7 +5694,7 @@ As long as Watchdog is untapped, all creatures attacking you get -1/-0.</CardTex
 <No>325</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Terese Nielsen</Artist>
 <Multiverseid>4954</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5711,7 +5709,7 @@ As long as Watchdog is untapped, all creatures attacking you get -1/-0.</CardTex
 <No>326</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Terese Nielsen</Artist>
 <Multiverseid>4955</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5726,7 +5724,7 @@ As long as Watchdog is untapped, all creatures attacking you get -1/-0.</CardTex
 <No>327</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>Terese Nielsen</Artist>
 <Multiverseid>4956</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5741,7 +5739,7 @@ As long as Watchdog is untapped, all creatures attacking you get -1/-0.</CardTex
 <No>328</No>
 <Name>Reflecting Pool</Name>
 <Type>Land</Type>
-<CardText>{T}: Add to your mana pool one mana of any type that a land you control could produce.</CardText>
+<CardText>{T}: Add one mana of any type that a land you control could produce.</CardText>
 <Flavor>"The reflection of land interests me far more than its reality."
 —Volrath</Flavor>
 <Artist>Adam Rex</Artist>
@@ -5749,7 +5747,7 @@ As long as Watchdog is untapped, all creatures attacking you get -1/-0.</CardTex
 <Rulings>2004/10/04: Any replacement effects are considered by <Reflecting Pool> when determining the types of mana a land can produce.
 2004/10/04: Any change to a land's type or splicing of text into a land can affect the types of mana a land can produce.
 2008/05/01: The types of mana are white, blue, black, red, green, and colorless.
-2008/05/01: <Reflecting Pool> checks the effects of all mana-producing abilities of lands you control, but it doesn't check their costs. For example, Vivid Crag says "{T}, Remove a charge counter from Vivid Crag: Add one mana of any color to your mana pool." If you control Vivid Crag and <Reflecting Pool>, you can tap <Reflecting Pool> for any color of mana. It doesn't matter whether Vivid Crag has a charge counter on it, and it doesn't matter whether it's untapped.
+2008/05/01: <Reflecting Pool> checks the effects of all mana-producing abilities of lands you control, but it doesn't check their costs. For example, Vivid Crag says "{T}, Remove a charge counter from Vivid Crag: Add one mana of any color." If you control Vivid Crag and <Reflecting Pool>, you can tap <Reflecting Pool> for any color of mana. It doesn't matter whether Vivid Crag has a charge counter on it, and it doesn't matter whether it's untapped.
 2008/05/01: <Reflecting Pool> doesn't care about any restrictions or riders your lands put on the mana they produce, such as Pillar of the Paruns and Hall of the Bandit Lord do. It just cares about types of mana.
 2008/05/01: Multiple <Reflecting Pool>s won't help each other produce mana. If you control a <Reflecting Pool>, and all other lands you control either lack mana abilities or are other <Reflecting Pool>s, you may still activate <Reflecting Pool>'s ability — it just won't produce any mana.</Rulings>
 <Vintage>Legal</Vintage>
@@ -5764,8 +5762,8 @@ As long as Watchdog is untapped, all creatures attacking you get -1/-0.</CardTex
 <No>329</No>
 <Name>Rootwater Depths</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{T}: Add {U} or {B} to your mana pool. Rootwater Depths doesn't untap during your next untap step.</CardText>
+<CardText>{T}: Add {C}.
+{T}: Add {U} or {B}. Rootwater Depths doesn't untap during your next untap step.</CardText>
 <Artist>Roger Raupp</Artist>
 <Multiverseid>4937</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5780,8 +5778,8 @@ As long as Watchdog is untapped, all creatures attacking you get -1/-0.</CardTex
 <Name>Salt Flats</Name>
 <Type>Land</Type>
 <CardText>Salt Flats enters the battlefield tapped.
-{T}: Add {C} to your mana pool.
-{T}: Add {W} or {B} to your mana pool. Salt Flats deals 1 damage to you.</CardText>
+{T}: Add {C}.
+{T}: Add {W} or {B}. Salt Flats deals 1 damage to you.</CardText>
 <Artist>Scott Kirschner</Artist>
 <Multiverseid>4938</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5796,8 +5794,8 @@ As long as Watchdog is untapped, all creatures attacking you get -1/-0.</CardTex
 <Name>Scabland</Name>
 <Type>Land</Type>
 <CardText>Scabland enters the battlefield tapped.
-{T}: Add {C} to your mana pool.
-{T}: Add {R} or {W} to your mana pool. Scabland deals 1 damage to you.</CardText>
+{T}: Add {C}.
+{T}: Add {R} or {W}. Scabland deals 1 damage to you.</CardText>
 <Artist>Andrew Robinson</Artist>
 <Multiverseid>4939</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5812,8 +5810,8 @@ As long as Watchdog is untapped, all creatures attacking you get -1/-0.</CardTex
 <Name>Skyshroud Forest</Name>
 <Type>Land</Type>
 <CardText>Skyshroud Forest enters the battlefield tapped.
-{T}: Add {C} to your mana pool.
-{T}: Add {G} or {U} to your mana pool. Skyshroud Forest deals 1 damage to you.</CardText>
+{T}: Add {C}.
+{T}: Add {G} or {U}. Skyshroud Forest deals 1 damage to you.</CardText>
 <Artist>Roger Raupp</Artist>
 <Multiverseid>4940</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5827,11 +5825,11 @@ As long as Watchdog is untapped, all creatures attacking you get -1/-0.</CardTex
 <No>333</No>
 <Name>Stalking Stones</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {6}: Stalking Stones becomes a 3/3 Elemental artifact creature that's still a land. (This effect lasts indefinitely.)</CardText>
 <Artist>Stephen Daniele</Artist>
 <Multiverseid>4941</Multiverseid>
-<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.
+<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
 2009/10/01: Activating the ability that turns it into a creature while it's already a creature will override any effects that set its power and/or toughness to a specific number. However, any effect that raises or lowers power and/or toughness (such as the effect created by Giant Growth, Glorious Anthem, or a +1/+1 counter) will continue to apply.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -5845,7 +5843,7 @@ As long as Watchdog is untapped, all creatures attacking you get -1/-0.</CardTex
 <No>334</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Brom</Artist>
 <Multiverseid>4923</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5860,7 +5858,7 @@ As long as Watchdog is untapped, all creatures attacking you get -1/-0.</CardTex
 <No>335</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Brom</Artist>
 <Multiverseid>4925</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5875,7 +5873,7 @@ As long as Watchdog is untapped, all creatures attacking you get -1/-0.</CardTex
 <No>336</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Brom</Artist>
 <Multiverseid>4924</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5890,7 +5888,7 @@ As long as Watchdog is untapped, all creatures attacking you get -1/-0.</CardTex
 <No>337</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Brom</Artist>
 <Multiverseid>4922</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5905,8 +5903,8 @@ As long as Watchdog is untapped, all creatures attacking you get -1/-0.</CardTex
 <No>338</No>
 <Name>Thalakos Lowlands</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{T}: Add {W} or {U} to your mana pool. Thalakos Lowlands doesn't untap during your next untap step.</CardText>
+<CardText>{T}: Add {C}.
+{T}: Add {W} or {U}. Thalakos Lowlands doesn't untap during your next untap step.</CardText>
 <Artist>Jeff A. Menges</Artist>
 <Multiverseid>4942</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5920,8 +5918,8 @@ As long as Watchdog is untapped, all creatures attacking you get -1/-0.</CardTex
 <No>339</No>
 <Name>Vec Townships</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{T}: Add {G} or {W} to your mana pool. Vec Townships doesn't untap during your next untap step.</CardText>
+<CardText>{T}: Add {C}.
+{T}: Add {G} or {W}. Vec Townships doesn't untap during your next untap step.</CardText>
 <Artist>Eric David Anderson</Artist>
 <Multiverseid>4943</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5935,7 +5933,7 @@ As long as Watchdog is untapped, all creatures attacking you get -1/-0.</CardTex
 <No>340</No>
 <Name>Wasteland</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {T}, Sacrifice Wasteland: Destroy target nonbasic land.</CardText>
 <Flavor>"The land promises nothing and keeps its promise."
 —Oracle en-Vec</Flavor>
@@ -5970,7 +5968,7 @@ As Dracoplasm enters the battlefield, sacrifice any number of creatures. Dracopl
 <Name>Lobotomy</Name>
 <Type>Sorcery</Type>
 <ManaCost>2UB (4)</ManaCost>
-<CardText>Target player reveals his or her hand, then you choose a card other than a basic land card from it. Search that player's graveyard, hand, and library for all cards with the same name as the chosen card and exile them. Then that player shuffles his or her library.</CardText>
+<CardText>Target player reveals their hand, then you choose a card other than a basic land card from it. Search that player's graveyard, hand, and library for all cards with the same name as the chosen card and exile them. Then that player shuffles their library.</CardText>
 <Artist>Thomas M. Baxa</Artist>
 <Multiverseid>4913</Multiverseid>
 <Rulings>2004/10/04: You only get to pick one card from the player's hand.
@@ -6029,7 +6027,7 @@ As Dracoplasm enters the battlefield, sacrifice any number of creatures. Dracopl
 Pay 2 life: Return Selenia, Dark Angel to its owner's hand.</CardText>
 <Flavor>"I am light. I am dark. I must give my life to serve; not even death can release me."
 —Selenia, dark angel</Flavor>
-<Artist>Matthew Wilson</Artist>
+<Artist>Matthew D. Wilson</Artist>
 <Multiverseid>4916</Multiverseid>
 <Reserved>This card is on the reserved list</Reserved>
 <Vintage>Legal</Vintage>
@@ -6065,7 +6063,7 @@ Pay 2 life: Return Selenia, Dark Angel to its owner's hand.</CardText>
 {0}: The next time Soltari Guerrillas would deal combat damage to an opponent this turn, it deals that damage to target creature instead.</CardText>
 <Artist>Val Mayerik</Artist>
 <Multiverseid>4918</Multiverseid>
-<Rulings>2008/08/01: Regardless of when the ability is activated, it will apply to the defending player at the time <Soltari Guerrillas> tries to deal combat damage to him or her.</Rulings>
+<Rulings>2008/08/01: Regardless of when the ability is activated, it will apply to the defending player at the time <Soltari Guerrillas> tries to deal combat damage to them.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Tempest</Set>
@@ -6078,7 +6076,7 @@ Pay 2 life: Return Selenia, Dark Angel to its owner's hand.</CardText>
 <Name>Spontaneous Combustion</Name>
 <Type>Instant</Type>
 <ManaCost>1BR (3)</ManaCost>
-<CardText>As an additional cost to cast Spontaneous Combustion, sacrifice a creature.
+<CardText>As an additional cost to cast this spell, sacrifice a creature.
 Spontaneous Combustion deals 3 damage to each creature.</CardText>
 <Flavor>"Heat of battle" is usually a metaphor.</Flavor>
 <Artist>Doug Chaffee</Artist>

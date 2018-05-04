@@ -108,7 +108,7 @@ When Bone Shredder enters the battlefield, destroy target nonartifact, nonblack 
 <Name>Priest of Gix</Name>
 <Type>Creature — Human Cleric Minion 2/1</Type>
 <ManaCost>2B (3)</ManaCost>
-<CardText>When Priest of Gix enters the battlefield, add {B}{B}{B} to your mana pool.</CardText>
+<CardText>When Priest of Gix enters the battlefield, add {B}{B}{B}.</CardText>
 <Flavor>"Gix doesn't want a people to rule but puppets to entertain his madness."
 —Xantcha, Phyrexian outcast</Flavor>
 <Artist>Brian Despain</Artist>
@@ -302,7 +302,7 @@ Phyrexian Colossus can't be blocked except by three or more creatures.</CardText
 <Name>Dark Ritual</Name>
 <Type>Instant</Type>
 <ManaCost>B (1)</ManaCost>
-<CardText>Add {B}{B}{B} to your mana pool.</CardText>
+<CardText>Add {B}{B}{B}.</CardText>
 <Flavor>"From void evolved Phyrexia. Great Yawgmoth, Father of Machines, saw its perfection. Thus the Grand Evolution began."
 —Phyrexian Scriptures</Flavor>
 <Artist>Tom Fleming</Artist>
@@ -338,13 +338,13 @@ Equip {0}</CardText>
 <Name>Phyrexian Totem</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {B} to your mana pool.
+<CardText>{T}: Add {B}.
 {2}{B}: Phyrexian Totem becomes a 5/5 black Horror artifact creature with trample until end of turn.
 Whenever Phyrexian Totem is dealt damage, if it's a creature, sacrifice that many permanents.</CardText>
 <Artist>John Zeleznik</Artist>
 <Multiverseid>209142</Multiverseid>
 <Rulings>2006/09/25: When damage is dealt to <Phyrexian Totem>, its triggered ability will trigger. A number of permanents equal to the amount of damage dealt will be sacrificed when the ability resolves. It doesn't matter if <Phyrexian Totem> isn't on the battlefield when the ability resolves, as long as <Phyrexian Totem> was a creature as it left the battlefield. If one of the permanents sacrificed is <Phyrexian Totem> itself, the requisite number of other permanents must still be sacrificed.
-2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
+2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -411,7 +411,7 @@ Equip {2}</CardText>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
 <CardText>Worn Powerstone enters the battlefield tapped.
-{T}: Add {C}{C} to your mana pool.</CardText>
+{T}: Add {C}{C}.</CardText>
 <Flavor>Even a fragment of a powerstone contains within it not just energy, but space—vast dimensions trapped in fragile crystal.</Flavor>
 <Artist>Henry G. Higgenbotham</Artist>
 <Multiverseid>210137</Multiverseid>
@@ -450,7 +450,7 @@ Draw a card.</CardText>
 <Flavor>Death is a generous author, always willing to grant a stirring final chapter.</Flavor>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Multiverseid>210141</Multiverseid>
-<Rulings>2009/10/01: If the targeted creature is an illegal target by the time <Hideous End> resolves, the entire spell is countered. No one loses life.</Rulings>
+<Rulings>2009/10/01: If the targeted creature is an illegal target by the time <Hideous End> resolves, the entire spell doesn't resolve. No one loses life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -518,7 +518,7 @@ Draw a card.</CardText>
 <Artist>Vance Kovacs</Artist>
 <Multiverseid>210139</Multiverseid>
 <Rulings>2009/10/01: The amount of life you gain is equal to the number of Swamps you control, not the amount of damage <Tendrils of Corruption> deals (in case some of it is prevented).
-2009/10/01: If the targeted creature is an illegal target by the time <Tendrils of Corruption> would resolve, the entire spell is countered. You won't gain any life.</Rulings>
+2009/10/01: If the targeted creature is an illegal target by the time <Tendrils of Corruption> would resolve, the entire spell doesn't resolve. You won't gain any life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -532,12 +532,11 @@ Draw a card.</CardText>
 <Name>Living Death</Name>
 <Type>Sorcery</Type>
 <ManaCost>3BB (5)</ManaCost>
-<CardText>Each player exiles all creature cards from his or her graveyard, then sacrifices all creatures he or she controls, then puts all cards he or she exiled this way onto the battlefield.</CardText>
+<CardText>Each player exiles all creature cards from their graveyard, then sacrifices all creatures they control, then puts all cards they exiled this way onto the battlefield.</CardText>
 <Artist>Charles Gillespie</Artist>
 <Multiverseid>210138</Multiverseid>
-<Rulings>2004/10/04: The creatures which are sacrificed can't be regenerated.
-2004/10/04: Both players exile their creature cards at once. Then both players sacrifice all creatures they control at once. Then both players put all creatures they exiled onto the battlefield. If there are any choices involved for a given step, the current player makes their choices first, then the other player, and finally you do the action all at once.
-2013/09/20: "All cards he or she exiled this way" refers only to the cards exiled in the first part of the effect. If a replacement effect (such as Leyline of the Void) exiles any of the sacrificed creatures instead of putting them into the graveyard, those cards aren't returned to the battlefield.</Rulings>
+<Rulings>2018/03/16: As <Living Death> resolves, all players exile their creature cards from graveyards at the same time. Then all players sacrifice all creatures they control at the same time. Then all players put all creatures they exiled onto the battlefield at the same time.
+2018/03/16: Only cards exiled by <Living Death>'s first instruction are put onto the battlefield. If a replacement effect (such as that of Leyline of the Void) causes any of the sacrificed creatures to be exiled instead of put into a graveyard, those cards aren't returned to the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Duel Decks: Phyrexia vs. The Coalition</Set>
@@ -549,7 +548,7 @@ Draw a card.</CardText>
 <No>32</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>210507</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -564,7 +563,7 @@ Draw a card.</CardText>
 <No>33</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>210506</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -579,7 +578,7 @@ Draw a card.</CardText>
 <No>34</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Ron Spencer</Artist>
 <Multiverseid>210505</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -594,7 +593,7 @@ Draw a card.</CardText>
 <No>35</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Ron Spencer</Artist>
 <Multiverseid>210508</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -611,14 +610,13 @@ Draw a card.</CardText>
 <Type>Instant</Type>
 <ManaCost>2R (3)</ManaCost>
 <CardText>Kicker {8}{R} (You may pay an additional {8}{R} as you cast this spell.)
-Urza's Rage can't be countered by spells or abilities.
-Urza's Rage deals 3 damage to target creature or player. If Urza's Rage was kicked, instead it deals 10 damage to that creature or player and the damage can't be prevented.</CardText>
+This spell can't be countered.
+Urza's Rage deals 3 damage to any target. If this spell was kicked, instead it deals 10 damage to that permanent or player and the damage can't be prevented.</CardText>
 <Artist>Jim Murray</Artist>
 <Multiverseid>207886</Multiverseid>
 <Rulings>2004/10/04: This spell has a self-replacement in it . This means that if <Urza's Rage> is kicked, the 3 damage is replaced with 10 unpreventable damage before any other replacements can be applied. For example, you can't use Healing Salve to prevent the 3 damage before it gets changed.
 2004/10/04: You can target this spell with spells and abilities, so you can change its target. Those spells and abilities just can't counter it.
 2004/10/04: The damage is unpreventable, but it can be affected by replacement effects.
-2004/10/04: It can be countered by game rules, such as by having all its targets be illegal. Game rules are neither spells or abilities.
 2004/10/04: Counterspells can be cast that target it, but when they resolve they simply don't counter it since it can't be countered.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -648,7 +646,7 @@ Urza's Rage deals 3 damage to target creature or player. If Urza's Rage was kick
 <Name>Nomadic Elf</Name>
 <Type>Creature — Elf Nomad 2/2</Type>
 <ManaCost>1G (2)</ManaCost>
-<CardText>{1}{G}: Add one mana of any color to your mana pool.</CardText>
+<CardText>{1}{G}: Add one mana of any color.</CardText>
 <Flavor>"I've journeyed across Dominaria. Phyrexians are everywhere. Plague is everywhere. There's no place left to hide."</Flavor>
 <Artist>D. J. Cleland-Hura</Artist>
 <Multiverseid>209115</Multiverseid>
@@ -665,8 +663,8 @@ Urza's Rage deals 3 damage to target creature or player. If Urza's Rage was kick
 <Type>Creature — Elf Druid 1/1</Type>
 <ManaCost>1G (2)</ManaCost>
 <CardText>As Quirion Elves enters the battlefield, choose a color.
-{T}: Add {G} to your mana pool.
-{T}: Add one mana of the chosen color to your mana pool.</CardText>
+{T}: Add {G}.
+{T}: Add one mana of the chosen color.</CardText>
 <Artist>Douglas Shuler</Artist>
 <Multiverseid>210557</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -716,7 +714,7 @@ When Thunderscape Battlemage enters the battlefield, if it was kicked with its {
 <Type>Creature — Elf Wizard 2/2</Type>
 <ManaCost>2G (3)</ManaCost>
 <CardText>Kicker {R} and/or {W} (You may pay an additional {R} and/or {W} as you cast this spell.)
-When Thornscape Battlemage enters the battlefield, if it was kicked with its {R} kicker, it deals 2 damage to target creature or player.
+When Thornscape Battlemage enters the battlefield, if it was kicked with its {R} kicker, it deals 2 damage to any target.
 When Thornscape Battlemage enters the battlefield, if it was kicked with its {W} kicker, destroy target artifact.</CardText>
 <Artist>Matt Cavotta</Artist>
 <Multiverseid>209144</Multiverseid>
@@ -803,7 +801,7 @@ When Verduran Emissary enters the battlefield, if it was kicked, destroy target 
 <Type>Legendary Creature — Dragon 6/6</Type>
 <ManaCost>3BRG (6)</ManaCost>
 <CardText>Flying
-Whenever Darigaaz, the Igniter deals combat damage to a player, you may pay {2}{R}. If you do, choose a color, then that player reveals his or her hand and Darigaaz deals damage to the player equal to the number of cards of that color revealed this way.</CardText>
+Whenever Darigaaz, the Igniter deals combat damage to a player, you may pay {2}{R}. If you do, choose a color, then that player reveals their hand and Darigaaz deals damage to the player equal to the number of cards of that color revealed this way.</CardText>
 <Artist>Mark Zug</Artist>
 <Multiverseid>209111</Multiverseid>
 <Rulings>2004/10/04: You choose the color during resolution. This means your opponent does not get to react after knowing the color you chose.</Rulings>
@@ -872,7 +870,7 @@ Whenever Treva, the Renewer deals combat damage to a player, you may pay {2}{W}.
 <Name>Tribal Flames</Name>
 <Type>Sorcery</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>Domain — Tribal Flames deals X damage to target creature or player, where X is the number of basic land types among lands you control.</CardText>
+<CardText>Domain — Tribal Flames deals X damage to any target, where X is the number of basic land types among lands you control.</CardText>
 <Flavor>"Fire is the universal language."
 —Jhoira, master artificer</Flavor>
 <Artist>Tony Szczudlo</Artist>
@@ -894,7 +892,7 @@ Whenever Treva, the Renewer deals combat damage to a player, you may pay {2}{W}.
 <Type>Enchantment — Aura</Type>
 <ManaCost>1G (2)</ManaCost>
 <CardText>Enchant land
-Whenever enchanted land is tapped for mana, its controller adds one mana of any color to his or her mana pool (in addition to the mana the land produces).</CardText>
+Whenever enchanted land is tapped for mana, its controller adds an additional one mana of any color.</CardText>
 <Flavor>As Phyrexians descended, Multani paused to reflect on the beauty that might never be seen again.</Flavor>
 <Artist>Carl Critchlow</Artist>
 <Multiverseid>209113</Multiverseid>
@@ -928,13 +926,13 @@ Whenever enchanted land is tapped for mana, its controller adds one mana of any 
 <Name>Coalition Relic</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add one mana of any color to your mana pool.
+<CardText>{T}: Add one mana of any color.
 {T}: Put a charge counter on Coalition Relic.
-At the beginning of your precombat main phase, remove all charge counters from Coalition Relic. Add one mana of any color to your mana pool for each charge counter removed this way.</CardText>
+At the beginning of your precombat main phase, remove all charge counters from Coalition Relic. Add one mana of any color for each charge counter removed this way.</CardText>
 <Artist>Donato Giancola</Artist>
 <Multiverseid>209158</Multiverseid>
-<Rulings>2007/05/01: If you remove multiple charge counters from <Coalition Relic> at once, you may add a different color of mana to your mana pool for each one.
-2007/05/01: Only the first main phase each turn is considered a precombat main phase, even if other combat phases are created (with Relentless Assault, for example).</Rulings>
+<Rulings>2018/03/16: If you remove multiple charge counters from <Coalition Relic> at once, you may add a different color of mana to your mana pool for each one.
+2018/03/16: Only the first main phase each turn is considered a precombat main phase, even if other main phases or combat phases are created (with Relentless Assault, for example).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -986,7 +984,7 @@ Domain — Enchanted creature gets -1/-1 for each basic land type among lands yo
 <Name>Harrow</Name>
 <Type>Instant</Type>
 <ManaCost>2G (3)</ManaCost>
-<CardText>As an additional cost to cast Harrow, sacrifice a land.
+<CardText>As an additional cost to cast this spell, sacrifice a land.
 Search your library for up to two basic land cards and put them onto the battlefield. Then shuffle your library.</CardText>
 <Flavor>No spot in nature is truly barren.</Flavor>
 <Artist>Rob Alexander</Artist>
@@ -1029,7 +1027,7 @@ Whenever enchanted creature deals damage, you gain that much life.</CardText>
 <ManaCost>BRG (3)</ManaCost>
 <CardText>Choose one —
 • Return target creature card from your graveyard to your hand.
-• Darigaaz's Charm deals 3 damage to target creature or player.
+• Darigaaz's Charm deals 3 damage to any target.
 • Target creature gets +3/+3 until end of turn.</CardText>
 <Artist>David Martin</Artist>
 <Multiverseid>209149</Multiverseid>
@@ -1101,9 +1099,9 @@ Whenever enchanted creature deals damage, you gain that much life.</CardText>
 <Name>Allied Strategies</Name>
 <Type>Sorcery</Type>
 <ManaCost>4U (5)</ManaCost>
-<CardText>Domain — Target player draws a card for each basic land type among lands he or she controls.</CardText>
+<CardText>Domain — Target player draws a card for each basic land type among lands they control.</CardText>
 <Flavor>Each commander looked at the others and wondered who would be first to break the alliance.</Flavor>
-<Artist>Parente</Artist>
+<Artist>Paolo Parente</Artist>
 <Multiverseid>209148</Multiverseid>
 <Rulings>2004/10/04: You draw one card per basic land type, not for each basic land. This makes it a maximum of 5 cards.
 2009/02/01: To determine the number of basic land types among lands you control, look at the lands you have on the battlefield and ask yourself whether the subtypes Plains, Island, Swamp, Mountain, and Forest appear within that group. The number of times you say yes (topping out at five) tells you how powerful your domain abilities will be.
@@ -1121,7 +1119,7 @@ Whenever enchanted creature deals damage, you gain that much life.</CardText>
 <Name>Elfhame Palace</Name>
 <Type>Land</Type>
 <CardText>Elfhame Palace enters the battlefield tapped.
-{T}: Add {G} or {W} to your mana pool.</CardText>
+{T}: Add {G} or {W}.</CardText>
 <Flavor>Llanowar has seven elfhames, or kingdoms, each with its own ruler. Their palaces are objects of awe, wonder, and envy.</Flavor>
 <Artist>Jerry Tiritilli</Artist>
 <Multiverseid>209112</Multiverseid>
@@ -1138,7 +1136,7 @@ Whenever enchanted creature deals damage, you gain that much life.</CardText>
 <Name>Shivan Oasis</Name>
 <Type>Land</Type>
 <CardText>Shivan Oasis enters the battlefield tapped.
-{T}: Add {R} or {G} to your mana pool.</CardText>
+{T}: Add {R} or {G}.</CardText>
 <Flavor>Only the hardiest explorers survive to eat the fruit.</Flavor>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>209119</Multiverseid>
@@ -1169,7 +1167,7 @@ Whenever enchanted creature deals damage, you gain that much life.</CardText>
 <No>67</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>D. J. Cleland-Hura</Artist>
 <Multiverseid>210513</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1184,7 +1182,7 @@ Whenever enchanted creature deals damage, you gain that much life.</CardText>
 <No>68</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Terese Nielsen</Artist>
 <Multiverseid>210511</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1199,7 +1197,7 @@ Whenever enchanted creature deals damage, you gain that much life.</CardText>
 <No>69</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Scott Bailey</Artist>
 <Multiverseid>210512</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1214,7 +1212,7 @@ Whenever enchanted creature deals damage, you gain that much life.</CardText>
 <No>70</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>210509</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1229,7 +1227,7 @@ Whenever enchanted creature deals damage, you gain that much life.</CardText>
 <No>71</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Alan Pollack</Artist>
 <Multiverseid>210510</Multiverseid>
 <Vintage>Legal</Vintage>

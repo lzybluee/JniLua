@@ -116,7 +116,7 @@ Evoke {2}{G}{G} (You may cast this spell for its evoke cost. If you do, it's sac
 <Name>Crop Rotation</Name>
 <Type>Instant</Type>
 <ManaCost>G (1)</ManaCost>
-<CardText>As an additional cost to cast Crop Rotation, sacrifice a land.
+<CardText>As an additional cost to cast this spell, sacrifice a land.
 Search your library for a land card and put that card onto the battlefield. Then shuffle your library.</CardText>
 <Flavor>Zendikar's elves have developed innovative methods to mitigate the effects of the Roil.</Flavor>
 <Artist>Daniel Ljunggren</Artist>
@@ -151,10 +151,10 @@ Search your library for a land card and put that card onto the battlefield. Then
 <Type>Creature — Elemental 0/0</Type>
 <ManaCost>2G (3)</ManaCost>
 <CardText>Fertilid enters the battlefield with two +1/+1 counters on it.
-{1}{G}, Remove a +1/+1 counter from Fertilid: Target player searches his or her library for a basic land card and puts it onto the battlefield tapped. Then that player shuffles his or her library.</CardText>
+{1}{G}, Remove a +1/+1 counter from Fertilid: Target player searches their library for a basic land card and puts it onto the battlefield tapped. Then that player shuffles their library.</CardText>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>417432</Multiverseid>
-<Rulings>2008/04/01: Although the targeted player doesn't need to find a basic land card if he or she doesn't want to, that player must shuffle his or her library.</Rulings>
+<Rulings>2008/04/01: Although the targeted player doesn't need to find a basic land card if they don't want to, that player must shuffle their library.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -168,13 +168,13 @@ Search your library for a land card and put that card onto the battlefield. Then
 <Name>Gaea's Blessing</Name>
 <Type>Sorcery</Type>
 <ManaCost>1G (2)</ManaCost>
-<CardText>Target player shuffles up to three target cards from his or her graveyard into his or her library.
+<CardText>Target player shuffles up to three target cards from their graveyard into their library.
 Draw a card.
 When Gaea's Blessing is put into your graveyard from your library, shuffle your graveyard into your library.</CardText>
 <Artist>Rebecca Guay</Artist>
 <Multiverseid>417433</Multiverseid>
-<Rulings>2016/06/08: When you cast <Gaea's Blessing>, you can't choose it as one of its own targets. This is because you choose the targets when casting this spell, and spells are not put into your graveyard until after they resolve.
-2016/06/08: You must target a player as you cast <Gaea's Blessing>. You may target zero, one, two, or three cards in that player's graveyard.</Rulings>
+<Rulings>2018/04/27: If <Gaea's Blessing> has no legal target cards in a graveyard, either because its targets became illegal or because you didn't choose any, the target player shuffles their library.
+2018/04/27: If an effect puts multiple cards from your library into your graveyard at once, put all of those cards there before <Gaea's Blessing> shuffles your graveyard into your library.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -432,7 +432,7 @@ Evoke {4}{G} (You may cast this spell for its evoke cost. If you do, it's sacrif
 2008/04/01: If a creature spell cast with evoke changes controllers before it enters the battlefield, it will still be sacrificed when it enters the battlefield. Similarly, if a creature cast with evoke changes controllers after it enters the battlefield but before its sacrifice ability resolves, it will still be sacrificed. In both cases, the controller of the creature at the time it left the battlefield will control its leaves-the-battlefield ability.
 2008/04/01: When you cast a spell by paying its evoke cost, its mana cost doesn't change. You just pay the evoke cost instead.
 2008/04/01: Effects that cause you to pay more or less to cast a spell will cause you to pay that much more or less while casting it for its evoke cost, too. That's because they affect the total cost of the spell, not its mana cost.
-2008/04/01: Whether evoke's sacrifice ability triggers when the creature enters the battlefield depends on whether the spell's controller chose to pay the evoke cost, not whether he or she actually paid it (if it was reduced or otherwise altered by another ability, for example).
+2008/04/01: Whether evoke's sacrifice ability triggers when the creature enters the battlefield depends on whether the spell's controller chose to pay the evoke cost, not whether they actually paid it (if it was reduced or otherwise altered by another ability, for example).
 2008/04/01: If you're casting a spell "without paying its mana cost," you can't use its evoke ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -465,7 +465,7 @@ Evoke {4}{G} (You may cast this spell for its evoke cost. If you do, it's sacrif
 <Name>Woodborn Behemoth</Name>
 <Type>Creature — Elemental 4/4</Type>
 <ManaCost>3GG (5)</ManaCost>
-<CardText>As long as you control eight or more lands, Woodborn Behemoth gets +4/+4 and has trample. (This creature can deal excess combat damage to defending player or planeswalker while attacking.)</CardText>
+<CardText>As long as you control eight or more lands, Woodborn Behemoth gets +4/+4 and has trample. (If this creature would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to the player or planeswalker it's attacking.)</CardText>
 <Flavor>It carries the hopes of Zendikar's embattled wilds on its mighty boughs.</Flavor>
 <Artist>Matt Stewart</Artist>
 <Multiverseid>417449</Multiverseid>
@@ -483,7 +483,7 @@ Evoke {4}{G} (You may cast this spell for its evoke cost. If you do, it's sacrif
 <Type>Land</Type>
 <CardText>Fertile Thicket enters the battlefield tapped.
 When Fertile Thicket enters the battlefield, you may look at the top five cards of your library. If you do, reveal up to one basic land card from among them, then put that card on top of your library and the rest on the bottom in any order.
-{T}: Add {G} to your mana pool.</CardText>
+{T}: Add {G}.</CardText>
 <Artist>Andreas Rocha</Artist>
 <Multiverseid>417450</Multiverseid>
 <Rulings>2015/08/25: You don't have to reveal a basic land card from among the five cards you look at, even if one is there. If you don't, you won't put a card on top of your library.</Rulings>
@@ -501,7 +501,7 @@ When Fertile Thicket enters the battlefield, you may look at the top five cards 
 <Type>Land</Type>
 <CardText>Khalni Garden enters the battlefield tapped.
 When Khalni Garden enters the battlefield, create a 0/1 green Plant creature token.
-{T}: Add {G} to your mana pool.</CardText>
+{T}: Add {G}.</CardText>
 <Artist>Ryan Pancoast</Artist>
 <Multiverseid>417451</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -517,7 +517,7 @@ When Khalni Garden enters the battlefield, create a 0/1 green Plant creature tok
 <Name>Mosswort Bridge</Name>
 <Type>Land</Type>
 <CardText>Hideaway (This land enters the battlefield tapped. When it does, look at the top four cards of your library, exile one face down, then put the rest on the bottom of your library.)
-{T}: Add {G} to your mana pool.
+{T}: Add {G}.
 {G}, {T}: You may play the exiled card without paying its mana cost if creatures you control have total power 10 or greater.</CardText>
 <Artist>Jeremy Jarvis</Artist>
 <Multiverseid>417452</Multiverseid>
@@ -534,11 +534,11 @@ When Khalni Garden enters the battlefield, create a 0/1 green Plant creature tok
 <Name>Treetop Village</Name>
 <Type>Land</Type>
 <CardText>Treetop Village enters the battlefield tapped.
-{T}: Add {G} to your mana pool.
-{1}{G}: Treetop Village becomes a 3/3 green Ape creature with trample until end of turn. It's still a land. (It can deal excess combat damage to defending player or planeswalker while attacking.)</CardText>
+{T}: Add {G}.
+{1}{G}: Treetop Village becomes a 3/3 green Ape creature with trample until end of turn. It's still a land. (It can deal excess combat damage to the player or planeswalker it's attacking.)</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>417453</Multiverseid>
-<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.
+<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
 2009/10/01: Activating the ability that turns it into a creature while it's already a creature will override any effects that set its power and/or toughness to a specific number. However, any effect that raises or lowers power and/or toughness (such as the effect created by Giant Growth, Glorious Anthem, or a +1/+1 counter) will continue to apply.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -552,7 +552,7 @@ When Khalni Garden enters the battlefield, create a 0/1 green Plant creature tok
 <No>31</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Noah Bradley</Artist>
 <Multiverseid>417454</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -567,7 +567,7 @@ When Khalni Garden enters the battlefield, create a 0/1 green Plant creature tok
 <No>32</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Sam Burley</Artist>
 <Multiverseid>417455</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -582,7 +582,7 @@ When Khalni Garden enters the battlefield, create a 0/1 green Plant creature tok
 <No>33</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>417456</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -597,7 +597,7 @@ When Khalni Garden enters the battlefield, create a 0/1 green Plant creature tok
 <No>34</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Vincent Proce</Artist>
 <Multiverseid>417457</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -612,7 +612,7 @@ When Khalni Garden enters the battlefield, create a 0/1 green Plant creature tok
 <No>35</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Tianhua X</Artist>
 <Multiverseid>417458</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -647,7 +647,7 @@ When Khalni Garden enters the battlefield, create a 0/1 green Plant creature tok
 <Name>Altar's Reap</Name>
 <Type>Instant</Type>
 <ManaCost>1B (2)</ManaCost>
-<CardText>As an additional cost to cast Altar's Reap, sacrifice a creature.
+<CardText>As an additional cost to cast this spell, sacrifice a creature.
 Draw two cards.</CardText>
 <Flavor>"I will secure my revenge on Zendikar one soul at a time."
 —Ob Nixilis</Flavor>
@@ -741,7 +741,7 @@ When Cadaver Imp enters the battlefield, you may return target creature card fro
 <Name>Carrier Thrall</Name>
 <Type>Creature — Vampire 2/1</Type>
 <ManaCost>1B (2)</ManaCost>
-<CardText>When Carrier Thrall dies, create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this creature: Add {C} to your mana pool."</CardText>
+<CardText>When Carrier Thrall dies, create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this creature: Add {C}."</CardText>
 <Flavor>"Later we will mourn those we have lost. First we must end their suffering."
 —Drana, Kalastria bloodchief</Flavor>
 <Artist>Lius Lasahido</Artist>
@@ -749,7 +749,7 @@ When Cadaver Imp enters the battlefield, you may return target creature card fro
 <Rulings>2015/08/25: Eldrazi Scions are similar to Eldrazi Spawn, seen in the Zendikar block. Note that Eldrazi Scions are 1/1, not 0/1.
 2015/08/25: Eldrazi and Scion are each separate creature types. Anything that affects Eldrazi will affect these tokens, for example.
 2015/08/25: Sacrificing an Eldrazi Scion creature token to add {C} to your mana pool is a mana ability. It doesn't use the stack and can't be responded to.
-2015/08/25: Some instants and sorceries that create Eldrazi Scions require targets. If all targets for such a spell have become illegal by the time that spell tries to resolve, the spell will be countered and none of its effects will happen. You won't get any Eldrazi Scions.</Rulings>
+2015/08/25: Some instants and sorceries that create Eldrazi Scions require targets. If all targets for such a spell have become illegal by the time that spell tries to resolve, the spell won't resolve and none of its effects will happen. You won't get any Eldrazi Scions.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -930,7 +930,7 @@ When Foul Imp enters the battlefield, you lose 2 life.</CardText>
 —Radavi, Joraga relic hunter, last words</Flavor>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Multiverseid>417475</Multiverseid>
-<Rulings>2009/10/01: If the targeted creature is an illegal target by the time <Hideous End> resolves, the entire spell is countered. No one loses life.</Rulings>
+<Rulings>2009/10/01: If the targeted creature is an illegal target by the time <Hideous End> resolves, the entire spell doesn't resolve. No one loses life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -949,7 +949,7 @@ At the beginning of your upkeep, draw a card unless target opponent sacrifices a
 <Flavor>The promise of anguish is payment enough for services rendered.</Flavor>
 <Artist>Wesley Burt</Artist>
 <Multiverseid>417476</Multiverseid>
-<Rulings>2017/11/17: The opponent chooses whether he or she sacrifices a creature, pays 3 life, or allows you to draw a card. That player can't make an impossible choice, such as sacrificing a creature while he or she controls no creatures.
+<Rulings>2017/11/17: The opponent chooses whether they sacrifice a creature, pays 3 life, or allows you to draw a card. That player can't make an impossible choice, such as sacrificing a creature while they control no creatures.
 2017/11/17: If there are no legal targets to choose, perhaps because all your opponents have hexproof, the ability is removed from the stack with no effect. You won't draw a card. This is also true if the target opponent becomes an illegal target in response to the ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -981,11 +981,11 @@ At the beginning of your upkeep, draw a card unless target opponent sacrifices a
 <Name>Mire's Toll</Name>
 <Type>Sorcery</Type>
 <ManaCost>B (1)</ManaCost>
-<CardText>Target player reveals a number of cards from his or her hand equal to the number of Swamps you control. You choose one of them. That player discards that card.</CardText>
+<CardText>Target player reveals a number of cards from their hand equal to the number of Swamps you control. You choose one of them. That player discards that card.</CardText>
 <Flavor>As the bridge snapped, Berko was sure he heard the swamp laughing at him.</Flavor>
 <Artist>Alex Horley-Orlandelli</Artist>
 <Multiverseid>417478</Multiverseid>
-<Rulings>2010/03/01: If the number of Swamps you control exceeds the number of cards in the targeted player's hand, that player reveals all the cards in his or her hand.</Rulings>
+<Rulings>2010/03/01: If the number of Swamps you control exceeds the number of cards in the targeted player's hand, that player reveals all the cards in their hand.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1130,7 +1130,7 @@ Remove three quest counters from Quest for the Gravelord and sacrifice it: Creat
 <Artist>Vance Kovacs</Artist>
 <Multiverseid>417486</Multiverseid>
 <Rulings>2009/10/01: The amount of life you gain is equal to the number of Swamps you control, not the amount of damage <Tendrils of Corruption> deals (in case some of it is prevented).
-2009/10/01: If the targeted creature is an illegal target by the time <Tendrils of Corruption> would resolve, the entire spell is countered. You won't gain any life.</Rulings>
+2009/10/01: If the targeted creature is an illegal target by the time <Tendrils of Corruption> would resolve, the entire spell doesn't resolve. You won't gain any life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1163,7 +1163,7 @@ When enchanted creature dies, return that card to the battlefield under your con
 <No>65</No>
 <Name>Leechridden Swamp</Name>
 <Type>Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)
+<CardText>({T}: Add {B}.)
 Leechridden Swamp enters the battlefield tapped.
 {B}, {T}: Each opponent loses 1 life. Activate this ability only if you control two or more black permanents.</CardText>
 <Artist>Lars Grant-West</Artist>
@@ -1180,7 +1180,7 @@ Leechridden Swamp enters the battlefield tapped.
 <No>66</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Noah Bradley</Artist>
 <Multiverseid>417489</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1195,7 +1195,7 @@ Leechridden Swamp enters the battlefield tapped.
 <No>67</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Sam Burley</Artist>
 <Multiverseid>417490</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1210,7 +1210,7 @@ Leechridden Swamp enters the battlefield tapped.
 <No>68</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>417491</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1225,7 +1225,7 @@ Leechridden Swamp enters the battlefield tapped.
 <No>69</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>417492</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1240,7 +1240,7 @@ Leechridden Swamp enters the battlefield tapped.
 <No>70</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Tianhua X</Artist>
 <Multiverseid>417493</Multiverseid>
 <Vintage>Legal</Vintage>

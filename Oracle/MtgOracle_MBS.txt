@@ -106,7 +106,7 @@ Draw a card.</CardText>
 <Watermark>Mirran</Watermark>
 <Multiverseid>213791</Multiverseid>
 <Rulings>2011/06/01: You choose the order of the cards you put on top of your library.
-2011/06/01: You can cast this with zero targets. If you do, you'll get to draw a card. However, if you cast this with at least one target and all of those targets become illegal (because another effect has removed them from the graveyard, perhaps), the spell will be countered and you won't get to draw a card.</Rulings>
+2011/06/01: You can cast this with zero targets. If you do, you'll get to draw a card. However, if you cast this with at least one target and all of those targets become illegal (because another effect has removed them from the graveyard, perhaps), the spell won't resolve and you won't get to draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -359,7 +359,7 @@ Whenever Victory's Herald attacks, attacking creatures gain flying and lifelink 
 <Artist>Mike Bierek</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>221555</Multiverseid>
-<Rulings>2011/06/01: If this spell is countered, none of its effects occur. In particular, it will go to the graveyard rather than to its owner's library.</Rulings>
+<Rulings>2011/06/01: If this spell doesn't resolve, none of its effects occur. In particular, it will go to the graveyard rather than to its owner's library.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -379,8 +379,8 @@ Whenever Victory's Herald attacks, attacking creatures gain flying and lifelink 
 <Artist>Izzy</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>221556</Multiverseid>
-<Rulings>2011/06/01: If this spell is countered, none of its effects occur. In particular, it will go to the graveyard rather than to its owner's library.
-2011/06/01: You follow the instructions in order. You won't be able to draw the same <Blue Sun's Zenith> that you cast.</Rulings>
+<Rulings>2011/06/01: If this spell doesn't resolve, none of its effects occur. In particular, it will go to the graveyard rather than to its owner's library.
+2018/03/16: Because you follow the spell's instructions in order, you won't be able to draw the same <Blue Sun's Zenith> that you cast.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -445,7 +445,7 @@ Enchanted creature has infect. (It deals damage to creatures in the form of -1/-
 <Multiverseid>214037</Multiverseid>
 <Rulings>2011/06/01: You choose the target for the triggered ability when the ability is put onto the stack. You choose whether or not <Cryptoplasm> becomes a copy of that creature when the ability resolves.
 2011/06/01: The copy effect lasts indefinitely. Often, it will last until it is overwritten by another copy effect (if it copies another creature on a future turn, perhaps.)
-2011/06/01: If the creature is an illegal target when the ability tries to resolve, it will be countered. <Cryptoplasm> won't become a copy of that creature; it remains whatever it was before.
+2011/06/01: If the creature is an illegal target when the ability tries to resolve, it won't resolve. <Cryptoplasm> won't become a copy of that creature; it remains whatever it was before.
 2011/06/01: If another creature becomes a copy of <Cryptoplasm>, it will become a copy of whatever <Cryptoplasm> is currently copying (if anything), plus it will have <Cryptoplasm>'s triggered ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -488,7 +488,7 @@ Enchanted creature has infect. (It deals damage to creatures in the form of -1/-
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>213736</Multiverseid>
 <Rulings>2011/06/01: You must be able to target another spell in order to cast <Fuel for the Cause>. You can't just cast it in order to proliferate, and it can't target itself.
-2011/06/01: If the spell is an illegal target when <Fuel for the Cause> tries to resolve, it will be countered. You won't proliferate.</Rulings>
+2011/06/01: If the spell is an illegal target when <Fuel for the Cause> tries to resolve, it won't resolve. You won't proliferate.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -663,7 +663,7 @@ Metalcraft — As long as you control three or more artifacts, Spire Serpent get
 <Name>Treasure Mage</Name>
 <Type>Creature — Human Wizard 2/2</Type>
 <ManaCost>2U (3)</ManaCost>
-<CardText>When Treasure Mage enters the battlefield, you may search your library for an artifact card with converted mana cost 6 or greater, reveal that card, and put it into your hand. If you do, shuffle your library.</CardText>
+<CardText>When Treasure Mage enters the battlefield, you may search your library for an artifact card with converted mana cost 6 or greater, reveal it, put it into your hand, then shuffle your library.</CardText>
 <Artist>Ryan Pancoast</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>213753</Multiverseid>
@@ -706,7 +706,7 @@ Metalcraft — As long as you control three or more artifacts, Spire Serpent get
 <Artist>Greg Staples</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>222861</Multiverseid>
-<Rulings>2011/06/01: If the creature is an illegal target when the ability tries to resolve, it will be countered. None of its effects happen.</Rulings>
+<Rulings>2011/06/01: If the creature is an illegal target when the ability tries to resolve, it won't resolve. None of its effects happen.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -739,7 +739,7 @@ Metalcraft — As long as you control three or more artifacts, Spire Serpent get
 <Name>Vivisection</Name>
 <Type>Sorcery</Type>
 <ManaCost>3U (4)</ManaCost>
-<CardText>As an additional cost to cast Vivisection, sacrifice a creature.
+<CardText>As an additional cost to cast this spell, sacrifice a creature.
 Draw three cards.</CardText>
 <Flavor>Phyrexians research with the grace of surgeons and the finesse of butchers.</Flavor>
 <Artist>Anthony Francisco</Artist>
@@ -766,7 +766,7 @@ Draw three cards.</CardText>
 <Artist>Daniel Ljunggren</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>214061</Multiverseid>
-<Rulings>2011/06/01: If this spell is countered, none of its effects occur. In particular, it will go to the graveyard rather than to its owner's library.</Rulings>
+<Rulings>2011/06/01: If this spell doesn't resolve, none of its effects occur. In particular, it will go to the graveyard rather than to its owner's library.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -840,7 +840,7 @@ Sacrifice a creature: Flesh-Eater Imp gets +1/+1 until end of turn.</CardText>
 <Artist>David Rapoza</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>213799</Multiverseid>
-<Rulings>2011/06/01: If the targeted creature is also an artifact when <Go for the Throat> tries to resolve, it will be countered.</Rulings>
+<Rulings>2011/06/01: If the targeted creature is also an artifact when <Go for the Throat> tries to resolve, it won't resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -871,13 +871,13 @@ Sacrifice a creature: Flesh-Eater Imp gets +1/+1 until end of turn.</CardText>
 <Name>Horrifying Revelation</Name>
 <Type>Sorcery</Type>
 <ManaCost>B (1)</ManaCost>
-<CardText>Target player discards a card, then puts the top card of his or her library into his or her graveyard.</CardText>
+<CardText>Target player discards a card, then puts the top card of their library into their graveyard.</CardText>
 <Flavor>"Ours is a glorious transmission! Behold a future where all bow to the Father of Machines."
 —Isila, Priest of Sheoldred</Flavor>
 <Artist>Shelly Wan</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>213723</Multiverseid>
-<Rulings>2011/06/01: If the player has no cards in his or her hand or no cards in his or her library, the other effect still happens.</Rulings>
+<Rulings>2011/06/01: If the player has no cards in their hand or no cards in their library, the other effect still happens.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1091,7 +1091,7 @@ Whenever Septic Rats attacks, if defending player is poisoned, it gets +1/+1 unt
 <Artist>Jaime Jones</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>221557</Multiverseid>
-<Rulings>2011/06/01: If the creature is an illegal target when <Spread the Sickness> tries to resolve, the spell is countered. You won't proliferate.
+<Rulings>2011/06/01: If the creature is an illegal target when <Spread the Sickness> tries to resolve, the spell doesn't resolve. You won't proliferate.
 2013/07/01: If the creature regenerates or has indestructible when <Spread the Sickness> resolves, you'll still proliferate.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1125,7 +1125,7 @@ Whenever Septic Rats attacks, if defending player is poisoned, it gets +1/+1 unt
 <Name>Blisterstick Shaman</Name>
 <Type>Creature — Goblin Shaman 2/1</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>When Blisterstick Shaman enters the battlefield, it deals 1 damage to target creature or player.</CardText>
+<CardText>When Blisterstick Shaman enters the battlefield, it deals 1 damage to any target.</CardText>
 <Flavor>A productive warren requires a good deal of prodding.</Flavor>
 <Artist>Svetlin Velinov</Artist>
 <Watermark>Mirran</Watermark>
@@ -1148,7 +1148,7 @@ Whenever Septic Rats attacks, if defending player is poisoned, it gets +1/+1 unt
 <Artist>Nic Klein</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>213771</Multiverseid>
-<Rulings>2011/06/01: If the creature is an illegal target when <Burn the Impure> resolves, the spell will be countered and none of its effects will happen, even if that creature has infect.</Rulings>
+<Rulings>2011/06/01: If the creature is an illegal target when <Burn the Impure> resolves, the spell won't resolve and none of its effects will happen, even if that creature has infect.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1162,14 +1162,14 @@ Whenever Septic Rats attacks, if defending player is poisoned, it gets +1/+1 unt
 <Name>Concussive Bolt</Name>
 <Type>Sorcery</Type>
 <ManaCost>3RR (5)</ManaCost>
-<CardText>Concussive Bolt deals 4 damage to target player.
-Metalcraft — If you control three or more artifacts, creatures that player controls can't block this turn.</CardText>
+<CardText>Concussive Bolt deals 4 damage to target player or planeswalker.
+Metalcraft — If you control three or more artifacts, creatures controlled by that player or by that planeswalker's controller can't block this turn.</CardText>
 <Flavor>Shock one, awe the rest.</Flavor>
 <Artist>Johann Bodin</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>213756</Multiverseid>
 <Rulings>2011/06/01: The number of artifacts you control is checked only once: when <Concussive Bolt> resolves. If you don't control three or more artifacts at that time, creatures will be able to block that turn, even if you gain control of more artifacts later in the turn.
-2011/06/01: If the player is an illegal target when <Concussive Bolt> resolves, the spell will be countered. None of its effects will happen, even if you control three or more artifacts.
+2011/06/01: If the player is an illegal target when <Concussive Bolt> resolves, the spell won't resolve. None of its effects will happen, even if you control three or more artifacts.
 2011/06/01: If you controlled three or more artifacts as <Concussive Bolt> resolved, the targeted player won't be able to block with any creatures this turn. That is, the set of affected creatures isn't locked in as the spell resolves.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1189,7 +1189,7 @@ Metalcraft — If you control three or more artifacts, creatures that player con
 <Artist>Matt Stewart</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>213806</Multiverseid>
-<Rulings>2011/06/01: If the targeted artifact is also a creature when <Crush> tries to resolve, it will be countered.</Rulings>
+<Rulings>2011/06/01: If the targeted artifact is also a creature when <Crush> tries to resolve, it won't resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1341,7 +1341,7 @@ Whenever Hero of Oxid Ridge attacks, creatures with power 1 or less can't block 
 <Name>Kuldotha Flamefiend</Name>
 <Type>Creature — Elemental 4/4</Type>
 <ManaCost>4RR (6)</ManaCost>
-<CardText>When Kuldotha Flamefiend enters the battlefield, you may sacrifice an artifact. If you do, Kuldotha Flamefiend deals 4 damage divided as you choose among any number of target creatures and/or players.</CardText>
+<CardText>When Kuldotha Flamefiend enters the battlefield, you may sacrifice an artifact. If you do, Kuldotha Flamefiend deals 4 damage divided as you choose among any number of targets.</CardText>
 <Artist>Raymond Swanland</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>213810</Multiverseid>
@@ -1436,11 +1436,11 @@ Kuldotha Ringleader attacks each combat if able.</CardText>
 <Name>Red Sun's Zenith</Name>
 <Type>Sorcery</Type>
 <ManaCost>XR (1)</ManaCost>
-<CardText>Red Sun's Zenith deals X damage to target creature or player. If a creature dealt damage this way would die this turn, exile it instead. Shuffle Red Sun's Zenith into its owner's library.</CardText>
+<CardText>Red Sun's Zenith deals X damage to any target. If a creature dealt damage this way would die this turn, exile it instead. Shuffle Red Sun's Zenith into its owner's library.</CardText>
 <Artist>Svetlin Velinov</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>221558</Multiverseid>
-<Rulings>2011/06/01: If this spell is countered, none of its effects occur. In particular, it will go to the graveyard rather than to its owner's library.</Rulings>
+<Rulings>2011/06/01: If this spell doesn't resolve, none of its effects occur. In particular, it will go to the graveyard rather than to its owner's library.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1575,10 +1575,10 @@ Infect (This creature deals damage to creatures in the form of -1/-1 counters an
 <Artist>David Rapoza</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>221559</Multiverseid>
-<Rulings>2011/06/01: If this spell is countered, none of its effects occur. In particular, it will go to the graveyard rather than to its owner's library.
+<Rulings>2011/06/01: If this spell doesn't resolve, none of its effects occur. In particular, it will go to the graveyard rather than to its owner's library.
 2016/06/08: If <Green Sun's Zenith> is countered, none of its effects will happen. Notably, it will be put into its owner's graveyard rather than shuffled into its owner's library.
 2016/06/08: In most cases, if you own <Green Sun's Zenith> and cast it, you'll shuffle your library twice. In practice, shuffling once is sufficient, but effects that care about you shuffling your library (like Psychogenic Probe, for example) will see that you've shuffled twice.
-2016/06/08: If you own <Green Sun's Zenith>, but an opponent casts it (due to Knowledge Pool's effect, for example), that opponent searches his or her library for an appropriate creature card, then shuffles that library. That opponent then shuffles <Green Sun's Zenith> into your library. You won't shuffle any library in this case.</Rulings>
+2016/06/08: If you own <Green Sun's Zenith>, but an opponent casts it (due to Knowledge Pool's effect, for example), that opponent searches their library for an appropriate creature card, then shuffles that library. That opponent then shuffles <Green Sun's Zenith> into your library. You won't shuffle any library in this case.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Banned</Modern>
@@ -1676,7 +1676,7 @@ If damage would be dealt to Phyrexian Hydra, prevent that damage. Put a -1/-1 co
 <Artist>Jaime Jones</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>213744</Multiverseid>
-<Rulings>2011/06/01: If the creature is an illegal target when <Pistus Strike> tries to resolve, the spell is countered. No player gets a poison counter.
+<Rulings>2011/06/01: If the creature is an illegal target when <Pistus Strike> tries to resolve, the spell doesn't resolve. No player gets a poison counter.
 2013/07/01: If the creature with flying regenerates or has indestructible, its controller will still get a poison counter.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1785,9 +1785,9 @@ Whenever a creature dealt damage by Rot Wolf this turn dies, you may draw a card
 <Name>Thrun, the Last Troll</Name>
 <Type>Legendary Creature — Troll Shaman 4/4</Type>
 <ManaCost>2GG (4)</ManaCost>
-<CardText>Thrun, the Last Troll can't be countered.
+<CardText>This spell can't be countered.
 Hexproof (This creature can't be the target of spells or abilities your opponents control.)
-{1}{G}: Regenerate Thrun.</CardText>
+{1}{G}: Regenerate Thrun, the Last Troll.</CardText>
 <Flavor>His crime was silence, and now he suffers it eternally.</Flavor>
 <Artist>Jason Chan</Artist>
 <Watermark>Mirran</Watermark>
@@ -2042,7 +2042,7 @@ Equip {2}</CardText>
 <Name>Decimator Web</Name>
 <Type>Artifact</Type>
 <ManaCost>4 (4)</ManaCost>
-<CardText>{4}, {T}: Target opponent loses 2 life, gets a poison counter, then puts the top six cards of his or her library into his or her graveyard.</CardText>
+<CardText>{4}, {T}: Target opponent loses 2 life, gets a poison counter, then puts the top six cards of their library into their graveyard.</CardText>
 <Flavor>Mycosynth grew unfettered beneath the black lacuna, metastasizing into a matrix of noxious energy.</Flavor>
 <Artist>Daniel Ljunggren</Artist>
 <Watermark>Phyrexian</Watermark>
@@ -2154,13 +2154,13 @@ Equip {2}</CardText>
 <Name>Knowledge Pool</Name>
 <Type>Artifact</Type>
 <ManaCost>6 (6)</ManaCost>
-<CardText>Imprint — When Knowledge Pool enters the battlefield, each player exiles the top three cards of his or her library.
-Whenever a player casts a spell from his or her hand, that player exiles it. If the player does, he or she may cast another nonland card exiled with Knowledge Pool without paying that card's mana cost.</CardText>
+<CardText>Imprint — When Knowledge Pool enters the battlefield, each player exiles the top three cards of their library.
+Whenever a player casts a spell from their hand, that player exiles it. If the player does, they may cast another nonland card exiled with Knowledge Pool without paying that card's mana cost.</CardText>
 <Artist>Mike Bierek</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>214035</Multiverseid>
 <Rulings>2011/06/01: You may cast any other card exiled by <Knowledge Pool>, including one owned by an opponent. Any card exiled by <Knowledge Pool>'s enters-the-battlefield ability or its other triggered ability may be cast.
-2011/06/01: The spell a player casts from his or her hand won't resolve if it's exiled, even if that spell can't be countered by spells or abilities.
+2011/06/01: The spell a player casts from their hand won't resolve if it's exiled, even if that spell can't be countered by spells or abilities.
 2011/06/01: If the original spell isn't exiled (perhaps because it's countered by another spell or ability before <Knowledge Pool>'s second triggered ability resolves), the rest of the ability does nothing. The player doesn't get to cast an exiled card.
 2011/06/01: If there are no nonland cards exiled by <Knowledge Pool>, the original spell is still exiled.
 2011/06/01: You may pay additional costs, such as kicker costs, of the exiled card.
@@ -2168,10 +2168,7 @@ Whenever a player casts a spell from his or her hand, that player exiles it. If 
 2011/06/01: Timing restrictions based on the card's type are ignored. For example, you can cast an exiled creature card this way. Other restrictions, such as Spinal Embrace's "Cast Spinal Embrace only during combat" are not ignored.
 2011/06/01: If the card you cast without paying its mana cost has an X in its mana cost, you must choose 0 as its value.
 2011/06/01: Any other abilities that trigger when you cast the original spell (for example, if you cast Emrakul, the Aeons Torn) will still trigger and go on the stack.
-2011/06/01: If multiple <Knowledge Pool>s are on the battlefield, keep track of which cards are exiled by each of them. Whenever a player casts a spell from his or her hand:
--- If all <Knowledge Pool>s are controlled by the same player, that player chooses the order in which the triggered abilities are put onto the stack. The last one put onto the stack will be the first to resolve.
--- If multiple players each control one or more <Knowledge Pool>s, the active player put his or her triggered abilities on the stack in any order, then each other player in turn order does the same. The last ability put onto the stack this way will be the first to resolve.
--- The first triggered ability to resolve will exile the original spell, then the player who cast that spell may cast one of the nonland cards exiled by the <Knowledge Pool> that generated that triggered ability. The abilities of other <Knowledge Pool>s will do nothing when they resolve, as the original spell will already have been exiled.</Rulings>
+2011/06/01: If multiple <Knowledge Pool>s are on the battlefield, keep track of which cards are exiled by each of them. Whenever a player casts a spell from their hand: -- If all <Knowledge Pool>s are controlled by the same player, that player chooses the order in which the triggered abilities are put onto the stack. The last one put onto the stack will be the first to resolve. -- If multiple players each control one or more <Knowledge Pool>s, the active player put their triggered abilities on the stack in any order, then each other player in turn order does the same. The last ability put onto the stack this way will be the first to resolve. -- The first triggered ability to resolve will exile the original spell, then the player who cast that spell may cast one of the nonland cards exiled by the <Knowledge Pool> that generated that triggered ability. The abilities of other <Knowledge Pool>s will do nothing when they resolve, as the original spell will already have been exiled.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2245,12 +2242,12 @@ Whenever a player casts a spell from his or her hand, that player exiles it. If 
 <Type>Artifact — Equipment</Type>
 <ManaCost>2 (2)</ManaCost>
 <CardText>Living weapon (When this Equipment enters the battlefield, create a 0/0 black Germ creature token, then attach this to it.)
-Equipped creature gets +0/+1 and has "Sacrifice this creature: This creature deals 1 damage to target creature or player."
+Equipped creature gets +0/+1 and has "Sacrifice this creature: This creature deals 1 damage to any target."
 Equip {2}</CardText>
 <Artist>Eric Deschamps</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>213725</Multiverseid>
-<Rulings>2011/06/01: If you sacrifice the equipped creature to deal 1 damage to a target creature or player, the damage is dealt by the creature as it last existed on the battlefield.</Rulings>
+<Rulings>2011/06/01: If you sacrifice the equipped creature to deal 1 damage to a target permanent or player, the damage is dealt by the creature as it last existed on the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2443,7 +2440,7 @@ Equip—Sacrifice an artifact.</CardText>
 <Type>Artifact Creature — Myr 1/1</Type>
 <ManaCost>2 (2)</ManaCost>
 <CardText>Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)
-{T}: Add {C} to your mana pool.</CardText>
+{T}: Add {C}.</CardText>
 <Flavor>They watch for a new master, one more sinister than the last.</Flavor>
 <Artist>Efrem Palacios</Artist>
 <Watermark>Phyrexian</Watermark>
@@ -2541,7 +2538,7 @@ You may cast artifact spells as though they had flash.</CardText>
 <Type>Artifact</Type>
 <ManaCost>1 (1)</ManaCost>
 <CardText>Shriekhorn enters the battlefield with three charge counters on it.
-{T}, Remove a charge counter from Shriekhorn: Target player puts the top two cards of his or her library into his or her graveyard.</CardText>
+{T}, Remove a charge counter from Shriekhorn: Target player puts the top two cards of their library into their graveyard.</CardText>
 <Artist>Erica Yang</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>213786</Multiverseid>
@@ -2617,7 +2614,7 @@ Equip {6}</CardText>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
 <CardText>Sphere of the Suns enters the battlefield tapped and with three charge counters on it.
-{T}, Remove a charge counter from Sphere of the Suns: Add one mana of any color to your mana pool.</CardText>
+{T}, Remove a charge counter from Sphere of the Suns: Add one mana of any color.</CardText>
 <Artist>Jana Schirmer & Johannes Voss</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>213776</Multiverseid>
@@ -2806,7 +2803,7 @@ Equip {1}</CardText>
 <Name>Contested War Zone</Name>
 <Type>Land</Type>
 <CardText>Whenever a creature deals combat damage to you, that creature's controller gains control of Contested War Zone.
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {1}, {T}: Attacking creatures get +1/+0 until end of turn.</CardText>
 <Artist>Scott Chou</Artist>
 <Watermark>Mirran</Watermark>
@@ -2827,7 +2824,7 @@ Equip {1}</CardText>
 <No>145</No>
 <Name>Inkmoth Nexus</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {1}: Inkmoth Nexus becomes a 1/1 Blinkmoth artifact creature with flying and infect until end of turn. It's still a land. (It deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)</CardText>
 <Artist>Jung Park</Artist>
 <Watermark>Phyrexian</Watermark>
@@ -2846,7 +2843,7 @@ Equip {1}</CardText>
 <No>146</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>James Paick</Artist>
 <Multiverseid>214057</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2861,7 +2858,7 @@ Equip {1}</CardText>
 <No>147</No>
 <Name>Plains</Name>
 <Type>Basic Land — Plains</Type>
-<CardText>({T}: Add {W} to your mana pool.)</CardText>
+<CardText>({T}: Add {W}.)</CardText>
 <Artist>James Paick</Artist>
 <Multiverseid>220366</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2876,7 +2873,7 @@ Equip {1}</CardText>
 <No>148</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>220369</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2891,7 +2888,7 @@ Equip {1}</CardText>
 <No>149</No>
 <Name>Island</Name>
 <Type>Basic Land — Island</Type>
-<CardText>({T}: Add {U} to your mana pool.)</CardText>
+<CardText>({T}: Add {U}.)</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>220365</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2906,7 +2903,7 @@ Equip {1}</CardText>
 <No>150</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Lars Grant-West</Artist>
 <Multiverseid>220367</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2921,7 +2918,7 @@ Equip {1}</CardText>
 <No>151</No>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
-<CardText>({T}: Add {B} to your mana pool.)</CardText>
+<CardText>({T}: Add {B}.)</CardText>
 <Artist>Lars Grant-West</Artist>
 <Multiverseid>220368</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2936,7 +2933,7 @@ Equip {1}</CardText>
 <No>152</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Tomasz Jedruszek</Artist>
 <Multiverseid>214045</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2951,7 +2948,7 @@ Equip {1}</CardText>
 <No>153</No>
 <Name>Mountain</Name>
 <Type>Basic Land — Mountain</Type>
-<CardText>({T}: Add {R} to your mana pool.)</CardText>
+<CardText>({T}: Add {R}.)</CardText>
 <Artist>Tomasz Jedruszek</Artist>
 <Multiverseid>214066</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2966,7 +2963,7 @@ Equip {1}</CardText>
 <No>154</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>214031</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2981,7 +2978,7 @@ Equip {1}</CardText>
 <No>155</No>
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
-<CardText>({T}: Add {G} to your mana pool.)</CardText>
+<CardText>({T}: Add {G}.)</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>214075</Multiverseid>
 <Vintage>Legal</Vintage>

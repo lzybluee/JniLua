@@ -230,11 +230,11 @@ Other permanents you control have indestructible.</CardText>
 <Type>Creature — Spirit 0/4</Type>
 <ManaCost>2W (3)</ManaCost>
 <CardText>Defender (This creature can't attack.)
-{T}: Prevent the next 1 damage that would be dealt to target creature or player this turn.</CardText>
+{T}: Prevent the next 1 damage that would be dealt to any target this turn.</CardText>
 <Flavor>Although the door is flimsy and the lock pathetically small, Josuri's family never fears the night outside.</Flavor>
 <Artist>Nick Percival</Artist>
 <Multiverseid>438578</Multiverseid>
-<Rulings>2017/11/17: If the target creature or player would be dealt damage by multiple sources at once, that player or that creature's controller chooses one of those sources at the time damage would be dealt, and 1 of that damage from that source is prevented.</Rulings>
+<Rulings>2017/11/17: If the target would be dealt damage by multiple sources at once, that player or that permanent's controller chooses one of those sources at the time damage would be dealt, and 1 of that damage from that source is prevented.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -368,14 +368,14 @@ Creatures your opponents control get -2/-2.</CardText>
 Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)</CardText>
 <Artist>Steve Argyle</Artist>
 <Multiverseid>438585</Multiverseid>
-<Rulings>2010/06/15: If a spell with rebound that you cast from your hand is countered for any reason (due to a spell like Cancel, or because all of its targets are illegal), the spell doesn't resolve and rebound has no effect. The spell is simply put into your graveyard. You won't get to cast it again next turn.
+<Rulings>2010/06/15: If a spell with rebound that you cast from your hand doesn't resolve for any reason (due being countered by a spell like Cancel, or because all of its targets are illegal), rebound has no effect. The spell is simply put into your graveyard. You won't get to cast it again next turn.
 2010/06/15: If you cast a spell with rebound from anywhere other than your hand (such as from your graveyard due to Sins of the Past, from your library due to cascade, or from your opponent's hand due to Sen Triplets), rebound won't have any effect. If you do cast it from your hand, rebound will work regardless of whether you paid its mana cost (for example, if you cast it from your hand due to Maelstrom Archangel).
 2010/06/15: If a replacement effect would cause a spell with rebound that you cast from your hand to be put somewhere else instead of your graveyard (such as Leyline of the Void might), you choose whether to apply the rebound effect or the other effect as the spell resolves.
 2010/06/15: Rebound will have no effect on copies of spells because you don't cast them from your hand.
 2010/06/15: If you cast a spell with rebound from your hand and it resolves, it isn't put into your graveyard. Rather, it's exiled directly from the stack. Effects that care about cards being put into your graveyard won't do anything.
 2010/06/15: At the beginning of your upkeep, all delayed triggered abilities created by rebound effects trigger. You may handle them in any order. If you want to cast a card this way, you do so as part of the resolution of its delayed triggered ability. Timing restrictions based on the card's type (if it's a sorcery) are ignored. Other restrictions are not (such as the one from Rule of Law).
 2010/06/15: If you are unable to cast a card from exile this way, or you choose not to, nothing happens when the delayed triggered ability resolves. The card remains exiled for the rest of the game, and you won't get another chance to cast the card. The same is true if the ability is countered (due to Stifle, perhaps).
-2010/06/15: If you cast a card from exile this way, it will go to your graveyard when it resolves or is countered. It won't go back to exile.
+2010/06/15: If you cast a card from exile this way, it will go to your graveyard when it resolves, fails to resolve, or is countered. It won't go back to exile.
 2010/06/15: You choose the color as <Emerge Unscathed> resolves. Once you choose a color, it's too late for players to respond.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -415,13 +415,13 @@ Rebound (If you cast this spell from your hand, exile it as it resolves. At the 
 <Artist>Zoltan Boros</Artist>
 <Multiverseid>438587</Multiverseid>
 <Rulings>2015/02/25: Casting the card again due to the delayed triggered ability is optional. If you choose not to cast the card, or if you can't (perhaps because there are no legal targets available), the card will stay exiled. You won't get another chance to cast it on a future turn.
-2015/02/25: If a spell with rebound that you cast from your hand is countered for any reason (either because of another spell or ability or because all its targets are illegal as it tries to resolve), that spell won't resolve and none of its effects will happen, including rebound. The spell will be put into its owner's graveyard and you won't get to cast it again on your next turn.
+2015/02/25: If a spell with rebound that you cast from your hand doesn't resolve for any reason (either because another spell or ability counters it or because all its targets are illegal as it tries to resolve), none of its effects will happen, including rebound. The spell will be put into its owner's graveyard and you won't get to cast it again on your next turn.
 2015/02/25: At the beginning of your upkeep, all delayed triggered abilities created by rebound effects trigger. You may handle them in any order. If you want to cast a card this way, you do so as part of the resolution of its delayed triggered ability. Timing restrictions based on the card's type (if it's a sorcery) are ignored. Other restrictions, such as "Cast [this spell] only during combat," must be followed.
 2015/02/25: As long as you cast a spell with rebound from your hand, rebound will work regardless of whether you paid its mana cost or an alternative cost you were permitted to pay.
 2015/02/25: If you cast a spell with rebound from any zone other than your hand (including your opponent's hand), rebound will have no effect.
 2015/02/25: If a replacement effect (such as the one created by Rest in Peace) would cause a spell with rebound that you cast from your hand to be put somewhere other than into your graveyard as it resolves, you can choose whether to apply the rebound effect or the other effect as the spell resolves.
 2015/02/25: Rebound will have no effect on copies of spells because you don't cast them from your hand.
-2015/02/25: If you cast a card from exile this way, it will go to its owner's graveyard when it resolves or is countered. It won't go back to exile.
+2015/02/25: If you cast a card from exile this way, it will go to its owner's graveyard when it resolves, fails to resolve, or is countered. It won't go back to exile.
 2017/11/17: <Great Teacher's Decree> affects only creatures you control at the time it resolves. It won't affect creatures that come under your control later in the turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -460,7 +460,7 @@ Draw a card.</CardText>
 —Nomad war prayer</Flavor>
 <Artist>Dave Dorman</Artist>
 <Multiverseid>438589</Multiverseid>
-<Rulings>2017/11/17: If the creature is an illegal target when <Guided Strike> tries to resolve, it will be countered and none of its effects will happen. You won't draw a card.</Rulings>
+<Rulings>2017/11/17: If the creature is an illegal target when <Guided Strike> tries to resolve, it won't resolve and none of its effects will happen. You won't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Iconic Masters</Set>
@@ -592,14 +592,12 @@ Whenever you cast a noncreature spell, Seeker of the Way gains lifelink until en
 <Name>Serra Angel</Name>
 <Type>Creature — Angel 4/4</Type>
 <ManaCost>3WW (5)</ManaCost>
-<CardText>Flying (This creature can't be blocked except by creatures with flying or reach.)
-Vigilance (Attacking doesn't cause this creature to tap.)</CardText>
+<CardText>Flying, vigilance</CardText>
 <Flavor>Follow the light. In its absence, follow her.</Flavor>
 <Artist>Greg Staples</Artist>
 <Multiverseid>438596</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Iconic Masters</Set>
 <Rarity>Uncommon</Rarity>
@@ -640,7 +638,6 @@ Renown 1 (When this creature deals combat damage to a player, if it isn't renown
 2015/06/22: If a renown ability triggers, but the creature leaves the battlefield before that ability resolves, the creature doesn't become renowned. Any ability that triggers "whenever a creature becomes renowned" won't trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Iconic Masters</Set>
 <Rarity>Common</Rarity>
@@ -673,14 +670,14 @@ Renown 1 (When this creature deals combat damage to a player, if it isn't renown
 Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)</CardText>
 <Artist>Scott Chou</Artist>
 <Multiverseid>438600</Multiverseid>
-<Rulings>2010/06/15: If a spell with rebound that you cast from your hand is countered for any reason (due to a spell like Cancel, or because all of its targets are illegal), the spell doesn't resolve and rebound has no effect. The spell is simply put into your graveyard. You won't get to cast it again next turn.
+<Rulings>2010/06/15: If a spell with rebound that you cast from your hand doesn't resolve for any reason (due being countered by a spell like Cancel, or because all of its targets are illegal), rebound has no effect. The spell is simply put into your graveyard. You won't get to cast it again next turn.
 2010/06/15: If you cast a spell with rebound from anywhere other than your hand (such as from your graveyard due to Sins of the Past, from your library due to cascade, or from your opponent's hand due to Sen Triplets), rebound won't have any effect. If you do cast it from your hand, rebound will work regardless of whether you paid its mana cost (for example, if you cast it from your hand due to Maelstrom Archangel).
 2010/06/15: If a replacement effect would cause a spell with rebound that you cast from your hand to be put somewhere else instead of your graveyard (such as Leyline of the Void might), you choose whether to apply the rebound effect or the other effect as the spell resolves.
 2010/06/15: Rebound will have no effect on copies of spells because you don't cast them from your hand.
 2010/06/15: If you cast a spell with rebound from your hand and it resolves, it isn't put into your graveyard. Rather, it's exiled directly from the stack. Effects that care about cards being put into your graveyard won't do anything.
 2010/06/15: At the beginning of your upkeep, all delayed triggered abilities created by rebound effects trigger. You may handle them in any order. If you want to cast a card this way, you do so as part of the resolution of its delayed triggered ability. Timing restrictions based on the card's type (if it's a sorcery) are ignored. Other restrictions are not (such as the one from Rule of Law).
 2010/06/15: If you are unable to cast a card from exile this way, or you choose not to, nothing happens when the delayed triggered ability resolves. The card remains exiled for the rest of the game, and you won't get another chance to cast the card. The same is true if the ability is countered (due to Stifle, perhaps).
-2010/06/15: If you cast a card from exile this way, it will go to your graveyard when it resolves or is countered. It won't go back to exile.
+2010/06/15: If you cast a card from exile this way, it will go to your graveyard when it resolves, fails to resolve, or is countered. It won't go back to exile.
 2010/06/15: In a Two-Headed Giant game, anything that cares about your life total checks the life total of your team. For example, say that your team has 10 life and your opponent's team has 11 life when you cast <Survival Cache>. You'll gain 2 life, so your team's life total becomes 12. Since your life total (12) is greater than an opponent's life total (11), you'll draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -717,8 +714,8 @@ Whenever Sustainer of the Realm blocks, it gets +0/+2 until end of turn.</CardTe
 <Flavor>The smallest seed of regret can bloom into redemption.</Flavor>
 <Artist>Terese Nielsen</Artist>
 <Multiverseid>438602</Multiverseid>
-<Rulings>2017/11/17: The amount of life gained is equal to the power of the target creature as it last existed on the battlefield.
-2017/11/17: If the creature's power is negative, its controller doesn't lose or gain life.</Rulings>
+<Rulings>2018/03/16: The amount of life gained is equal to the power of the targeted creature as it last existed on the battlefield.
+2018/03/16: If the creature's power is negative, its controller doesn't lose or gain life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Iconic Masters</Set>
@@ -741,7 +738,6 @@ Renown 1 (When this creature deals combat damage to a player, if it isn't renown
 2015/06/22: If a renown ability triggers, but the creature leaves the battlefield before that ability resolves, the creature doesn't become renowned. Any ability that triggers "whenever a creature becomes renowned" won't trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Iconic Masters</Set>
 <Rarity>Uncommon</Rarity>
@@ -775,15 +771,15 @@ Storm (When you cast this spell, copy it for each spell cast before it this turn
 <Type>Legendary Creature — Dragon Spirit 5/5</Type>
 <ManaCost>4WW (6)</ManaCost>
 <CardText>Flying
-When Yosei, the Morning Star dies, target player skips his or her next untap step. Tap up to five target permanents that player controls.</CardText>
+When Yosei, the Morning Star dies, target player skips their next untap step. Tap up to five target permanents that player controls.</CardText>
 <Flavor>The caress of the morning star frees all from the clutch of darkness.</Flavor>
 <Artist>Chris Rahn</Artist>
 <Multiverseid>438605</Multiverseid>
 <Rulings>2017/11/17: If any of the targets of Yosei's ability are illegal, they won't be tapped.
-2017/11/17: If all of the permanents targeted by Yosei's ability become illegal targets, nothing becomes tapped, but the target player still skips his or her untap step.
-2017/11/17: If the player becomes an illegal target, the target permanents are tapped, but the player doesn't skip his or her untap step.
+2017/11/17: If all of the permanents targeted by Yosei's ability become illegal targets, nothing becomes tapped, but the target player still skips their untap step.
+2017/11/17: If the player becomes an illegal target, the target permanents are tapped, but the player doesn't skip their untap step.
 2017/11/17: If a permanent won't untap during its controller's next untap step, that effect waits to apply until its controller has an untap step that isn't skipped.
-2017/11/17: If more than one effect instructs a player to skip his or her next untap step, such as if Yosei dies more than once in a turn, that player skips that many untap steps. This is different from effects that state that something doesn't untap during an untap step.</Rulings>
+2017/11/17: If more than one effect instructs a player to skip their next untap step, such as if Yosei dies more than once in a turn, that player skips that many untap steps. This is different from effects that state that something doesn't untap during an untap step.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -868,7 +864,7 @@ Draw a card.</CardText>
 —Jhoira, master artificer</Flavor>
 <Artist>Ralph Horsley</Artist>
 <Multiverseid>438609</Multiverseid>
-<Rulings>2017/11/17: If the creature is an illegal target when <Bewilder> tries to resolve, it will be countered and none of its effects will happen. You won't draw a card.</Rulings>
+<Rulings>2017/11/17: If the creature is an illegal target when <Bewilder> tries to resolve, it won't resolve and none of its effects will happen. You won't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -908,7 +904,6 @@ Enchanted creature doesn't untap during its controller's untap step.</CardText>
 2015/06/22: The enchanted creature can still be untapped in other ways. <Claustrophobia> will remain attached, and the creature will continue to not untap during its controller's untap step.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Iconic Masters</Set>
 <Rarity>Common</Rarity>
@@ -968,7 +963,7 @@ Whenever an opponent draws a card, you may draw two cards.</CardText>
 <Artist>Jason Rainville</Artist>
 <Multiverseid>438614</Multiverseid>
 <Rulings>2017/11/17: You choose both modes as you cast <Cryptic Command>. You must choose two different modes.
-2017/11/17: Look at both chosen modes to determine how many targets <Cryptic Command> has, if any. If it has at least one target, and all its targets are illegal when it tries to resolve, then it will be countered and none of its effects will happen. For example, if you choose the second and fourth modes, and the permanent is an illegal target when <Cryptic Command> tries to resolve, you won't draw a card.</Rulings>
+2017/11/17: Look at both chosen modes to determine how many targets <Cryptic Command> has, if any. If it has at least one target, and all its targets are illegal when it tries to resolve, then it won't resolve and none of its effects will happen. For example, if you choose the second and fourth modes, and the permanent is an illegal target when <Cryptic Command> tries to resolve, you won't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1028,7 +1023,7 @@ When Day of the Dragons leaves the battlefield, sacrifice all Dragons you contro
 <Rulings>2013/09/15: When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
 2013/09/15: You choose how to order cards returned to your library after scrying no matter where you put them.
 2013/09/15: You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
-2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it will be countered and none of its effects will happen. You won't scry.</Rulings>
+2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1046,14 +1041,14 @@ When Day of the Dragons leaves the battlefield, sacrifice all Dragons you contro
 Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)</CardText>
 <Artist>Goran Josic</Artist>
 <Multiverseid>438618</Multiverseid>
-<Rulings>2010/06/15: If a spell with rebound that you cast from your hand is countered for any reason (due to a spell like Cancel, or because all of its targets are illegal), the spell doesn't resolve and rebound has no effect. The spell is simply put into your graveyard. You won't get to cast it again next turn.
+<Rulings>2010/06/15: If a spell with rebound that you cast from your hand doesn't resolve for any reason (due being countered by a spell like Cancel, or because all of its targets are illegal), rebound has no effect. The spell is simply put into your graveyard. You won't get to cast it again next turn.
 2010/06/15: If you cast a spell with rebound from anywhere other than your hand (such as from your graveyard due to Sins of the Past, from your library due to cascade, or from your opponent's hand due to Sen Triplets), rebound won't have any effect. If you do cast it from your hand, rebound will work regardless of whether you paid its mana cost (for example, if you cast it from your hand due to Maelstrom Archangel).
 2010/06/15: If a replacement effect would cause a spell with rebound that you cast from your hand to be put somewhere else instead of your graveyard (such as Leyline of the Void might), you choose whether to apply the rebound effect or the other effect as the spell resolves.
 2010/06/15: Rebound will have no effect on copies of spells because you don't cast them from your hand.
 2010/06/15: If you cast a spell with rebound from your hand and it resolves, it isn't put into your graveyard. Rather, it's exiled directly from the stack. Effects that care about cards being put into your graveyard won't do anything.
 2010/06/15: At the beginning of your upkeep, all delayed triggered abilities created by rebound effects trigger. You may handle them in any order. If you want to cast a card this way, you do so as part of the resolution of its delayed triggered ability. Timing restrictions based on the card's type (if it's a sorcery) are ignored. Other restrictions are not (such as the one from Rule of Law).
 2010/06/15: If you are unable to cast a card from exile this way, or you choose not to, nothing happens when the delayed triggered ability resolves. The card remains exiled for the rest of the game, and you won't get another chance to cast the card. The same is true if the ability is countered (due to Stifle, perhaps).
-2010/06/15: If you cast a card from exile this way, it will go to your graveyard when it resolves or is countered. It won't go back to exile.
+2010/06/15: If you cast a card from exile this way, it will go to your graveyard when it resolves, fails to resolve, or is countered. It won't go back to exile.
 2010/06/15: <Distortion Strike> doesn't grant an ability to the targeted creature. Rather, it affects the game rules and states something that's now true about that creature. The creature can't be blocked even if it loses all abilities.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1069,7 +1064,7 @@ Rebound (If you cast this spell from your hand, exile it as it resolves. At the 
 <Type>Creature — Homunculus 0/4</Type>
 <ManaCost>1U (2)</ManaCost>
 <CardText>Defender
-{2}{U}, {T}: Target player puts the top X cards of his or her library into his or her graveyard, where X is the number of creatures with defender you control.</CardText>
+{2}{U}, {T}: Target player puts the top X cards of their library into their graveyard, where X is the number of creatures with defender you control.</CardText>
 <Flavor>One piercing stare usually convinces thieves to go elsewhere.</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>438619</Multiverseid>
@@ -1185,8 +1180,8 @@ Whenever Illusory Ambusher is dealt damage, draw that many cards.</CardText>
 <Name>Illusory Angel</Name>
 <Type>Creature — Angel Illusion 4/4</Type>
 <ManaCost>2U (3)</ManaCost>
-<CardText>Flying
-Cast Illusory Angel only if you've cast another spell this turn.</CardText>
+<CardText>Cast this spell only if you've cast another spell this turn.
+Flying</CardText>
 <Flavor>"In a daze, I woke and looked upon the battlefield, where I could swear my dreams were laying waste to the enemy."
 —Letter from a soldier</Flavor>
 <Artist>Allen Williams</Artist>
@@ -1206,13 +1201,13 @@ Cast Illusory Angel only if you've cast another spell this turn.</CardText>
 <Type>Creature — Illusion 1/1</Type>
 <ManaCost>U (1)</ManaCost>
 <CardText>Flying
-Jace's Phantasm gets +4/+4 as long as an opponent has ten or more cards in his or her graveyard.</CardText>
+Jace's Phantasm gets +4/+4 as long as an opponent has ten or more cards in their graveyard.</CardText>
 <Flavor>In the abstract memories of the Iquati, Jace found interesting ideas to improve upon.</Flavor>
 <Artist>Johann Bodin</Artist>
 <Multiverseid>438626</Multiverseid>
 <Rulings>2017/11/17: The last ability of <Jace's Phantasm> constantly monitors each opponent's graveyard to see if the bonus applies. If the stated condition becomes no longer true, the bonus immediately stops applying.
-2017/11/17: If <Jace's Phantasm> is dealt lethal damage at the same time as an opponent's creature, and that creature will become that opponent's tenth card in his or her graveyard, <Jace's Phantasm> will be destroyed before it gets +4/+4. This is because all creatures that have been dealt lethal damage are destroyed at the same time.
-2017/11/17: In a multiplayer game, a single opponent must have ten or more cards in his or her graveyard for the bonus to apply, although this opponent may change over the course of the game. You don't have to pick a single opponent; the ability will monitor each opponent's graveyard.</Rulings>
+2017/11/17: If <Jace's Phantasm> is dealt lethal damage at the same time as an opponent's creature, and that creature will become that opponent's tenth card in their graveyard, <Jace's Phantasm> will be destroyed before it gets +4/+4. This is because all creatures that have been dealt lethal damage are destroyed at the same time.
+2017/11/17: In a multiplayer game, a single opponent must have ten or more cards in their graveyard for the bonus to apply, although this opponent may change over the course of the game. You don't have to pick a single opponent; the ability will monitor each opponent's graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1236,7 +1231,6 @@ Whenever Jhessian Thief deals combat damage to a player, draw a card.</CardText>
 2015/06/22: Once it triggers, prowess isn't connected to the spell that caused it to trigger. If that spell is countered, prowess will still resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Iconic Masters</Set>
 <Rarity>Common</Rarity>
@@ -1254,9 +1248,9 @@ Each opponent's maximum hand size is reduced by seven.</CardText>
 <Flavor>"It is not a goal, but a process—the process of creating the perfect Phyrexia."</Flavor>
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>438628</Multiverseid>
-<Rulings>2017/11/17: If a player has more cards in his or her hand than his or her maximum hand size during the cleanup step of that player's turn, that player discards until he or she has that many cards. A player's maximum hand size isn't checked at any time other than his or her own cleanup step.
+<Rulings>2017/11/17: If a player has more cards in their hand than their maximum hand size during the cleanup step of that player's turn, that player discards until they have that many cards. A player's maximum hand size isn't checked at any time other than their own cleanup step.
 2017/11/17: Jin-Gitaxias doesn't affect the maximum hand size of its controller. Because the cleanup step is after the end step, its controller may have to discard some of the cards that were just drawn.
-2017/11/17: Unless another spell or ability is affecting your opponent's maximum hand size, Jin-Gitaxias's ability will result in your opponent having a maximum hand size of zero. He or she will discard each card from his or her hand during his or her cleanup step.</Rulings>
+2017/11/17: Unless another spell or ability is affecting your opponent's maximum hand size, Jin-Gitaxias's ability will result in your opponent having a maximum hand size of zero. They will discard each card from their hand during their cleanup step.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1295,7 +1289,6 @@ When Keiga, the Tide Star dies, gain control of target creature.</CardText>
 <Multiverseid>438630</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Iconic Masters</Set>
 <Rarity>Uncommon</Rarity>
@@ -1307,12 +1300,12 @@ When Keiga, the Tide Star dies, gain control of target creature.</CardText>
 <Name>Mana Drain</Name>
 <Type>Instant</Type>
 <ManaCost>UU (2)</ManaCost>
-<CardText>Counter target spell. At the beginning of your next main phase, add an amount of {C} to your mana pool equal to that spell's converted mana cost.</CardText>
+<CardText>Counter target spell. At the beginning of your next main phase, add an amount of {C} equal to that spell's converted mana cost.</CardText>
 <Flavor>Enthusiasm is no match for preparation.</Flavor>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>438631</Multiverseid>
 <Rulings>2017/11/17: <Mana Drain> can target a spell that can't be countered. When <Mana Drain> resolves, that spell won't be countered, but you'll still add mana to your mana pool at the beginning of your next main phase.
-2017/11/17: If the target spell is an illegal target when <Mana Drain> tries to resolve, it will be countered and none of its effects will happen. You won't get any mana.
+2017/11/17: If the target spell is an illegal target when <Mana Drain> tries to resolve, it won't resolve and none of its effects will happen. You won't get any mana.
 2017/11/17: <Mana Drain>'s delayed triggered ability will usually trigger at the beginning of your precombat main phase. However, if you cast <Mana Drain> during your precombat main phase or during your combat phase, its delayed triggered ability will trigger at the beginning of that turn's postcombat main phase.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Banned</Legacy>
@@ -1367,13 +1360,13 @@ Rebound (If you cast this spell from your hand, exile it as it resolves. At the 
 <Artist>Kev Walker</Artist>
 <Multiverseid>438634</Multiverseid>
 <Rulings>2015/02/25: Casting the card again due to the delayed triggered ability is optional. If you choose not to cast the card, or if you can't (perhaps because there are no legal targets available), the card will stay exiled. You won't get another chance to cast it on a future turn.
-2015/02/25: If a spell with rebound that you cast from your hand is countered for any reason (either because of another spell or ability or because all its targets are illegal as it tries to resolve), that spell won't resolve and none of its effects will happen, including rebound. The spell will be put into its owner's graveyard and you won't get to cast it again on your next turn.
+2015/02/25: If a spell with rebound that you cast from your hand doesn't resolve for any reason (either because another spell or ability counters it or because all its targets are illegal as it tries to resolve), none of its effects will happen, including rebound. The spell will be put into its owner's graveyard and you won't get to cast it again on your next turn.
 2015/02/25: At the beginning of your upkeep, all delayed triggered abilities created by rebound effects trigger. You may handle them in any order. If you want to cast a card this way, you do so as part of the resolution of its delayed triggered ability. Timing restrictions based on the card's type (if it's a sorcery) are ignored. Other restrictions, such as "Cast [this spell] only during combat," must be followed.
 2015/02/25: As long as you cast a spell with rebound from your hand, rebound will work regardless of whether you paid its mana cost or an alternative cost you were permitted to pay.
 2015/02/25: If you cast a spell with rebound from any zone other than your hand (including your opponent's hand), rebound will have no effect.
 2015/02/25: If a replacement effect (such as the one created by Rest in Peace) would cause a spell with rebound that you cast from your hand to be put somewhere other than into your graveyard as it resolves, you can choose whether to apply the rebound effect or the other effect as the spell resolves.
 2015/02/25: Rebound will have no effect on copies of spells because you don't cast them from your hand.
-2015/02/25: If you cast a card from exile this way, it will go to its owner's graveyard when it resolves or is countered. It won't go back to exile.
+2015/02/25: If you cast a card from exile this way, it will go to its owner's graveyard when it resolves, fails to resolve, or is countered. It won't go back to exile.
 2017/11/17: <Ojutai's Breath> can target a creature that's already tapped. It still won't untap during its controller's next untap step.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1445,7 +1438,7 @@ Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until e
 <Type>Creature — Spirit 1/1</Type>
 <ManaCost>1U (2)</ManaCost>
 <CardText>Flying
-Whenever Shriekgeist deals combat damage to a player, that player puts the top two cards of his or her library into his or her graveyard.</CardText>
+Whenever Shriekgeist deals combat damage to a player, that player puts the top two cards of their library into their graveyard.</CardText>
 <Flavor>Wounds of the flesh are easy to heal. Wounds of the mind may never be undone.</Flavor>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>438638</Multiverseid>
@@ -1502,12 +1495,12 @@ When Sphinx of Uthuun enters the battlefield, reveal the top five cards of your 
 <ManaCost>2UUU (5)</ManaCost>
 <CardText>Flash (You may cast this spell any time you could cast an instant.)
 Creature cards you own that aren't on the battlefield have flash.
-Each opponent can cast spells only any time he or she could cast a sorcery.</CardText>
+Each opponent can cast spells only any time they could cast a sorcery.</CardText>
 <Flavor>To save this plane, he must forsake all others.</Flavor>
 <Artist>Volkan Baga</Artist>
 <Multiverseid>438641</Multiverseid>
 <Rulings>2007/05/01: If you have Teferi on the battlefield and there's a Split Second spell on the stack (such as Sudden Death), you can't Suspend creatures until after the Split Second spell resolves.
-2017/11/17: Teferi's last ability means that in order for an opponent to cast a spell, it must be that opponent's turn, during a main phase, and the stack must be empty. This is true even if the player doesn't have a sorcery he or she is able to cast, or if a rule or effect allows a sorcery to be cast at another time.
+2017/11/17: Teferi's last ability means that in order for an opponent to cast a spell, it must be that opponent's turn, during a main phase, and the stack must be empty. This is true even if the player doesn't have a sorcery they are able to cast, or if a rule or effect allows a sorcery to be cast at another time.
 2017/11/17: If you have Teferi on the battlefield, you may exile creature cards in your hand with suspend any time you could cast an instant.
 2017/11/17: If a spell or ability lets an opponent cast a card as part of its effect (such as suspend and rebound do), that opponent can't cast that card since the currently resolving ability is still on the stack. This is true even if that card is an instant.</Rulings>
 <Vintage>Legal</Vintage>
@@ -1523,13 +1516,13 @@ Each opponent can cast spells only any time he or she could cast a sorcery.</Car
 <Name>Thought Scour</Name>
 <Type>Instant</Type>
 <ManaCost>U (1)</ManaCost>
-<CardText>Target player puts the top two cards of his or her library into his or her graveyard.
+<CardText>Target player puts the top two cards of their library into their graveyard.
 Draw a card.</CardText>
 <Flavor>"As you inject the viscus vitae into the brain stem, don't let the spastic moaning bother you. It will soon become music to your ears."
 —Stitcher Geralf</Flavor>
 <Artist>David Rapoza</Artist>
 <Multiverseid>438642</Multiverseid>
-<Rulings>2011/01/22: If the target player is an illegal target when <Thought Scour> tries to resolve, it will be countered and none of its effects will happen. You won't draw a card.
+<Rulings>2011/01/22: If the target player is an illegal target when <Thought Scour> tries to resolve, it won't resolve and none of its effects will happen. You won't draw a card.
 2011/01/22: Follow the instructions in the order listed on the card: if you target yourself, you'll put the top two cards of your library into your graveyard and then draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1544,7 +1537,7 @@ Draw a card.</CardText>
 <Name>Windfall</Name>
 <Type>Sorcery</Type>
 <ManaCost>2U (3)</ManaCost>
-<CardText>Each player discards his or her hand, then draws cards equal to the greatest number of cards a player discarded this way.</CardText>
+<CardText>Each player discards their hand, then draws cards equal to the greatest number of cards a player discarded this way.</CardText>
 <Flavor>"Rich" is a relative term.</Flavor>
 <Artist>Scott Murphy</Artist>
 <Multiverseid>438643</Multiverseid>
@@ -1565,12 +1558,12 @@ You can't win the game and your opponents can't lose the game.</CardText>
 <Flavor>His slaves crave death more than they desire freedom. He denies them both.</Flavor>
 <Artist>Chippy</Artist>
 <Multiverseid>438644</Multiverseid>
-<Rulings>2017/11/17: No game effect can cause you to win the game or cause any opponent to lose the game while you control <Abyssal Persecutor>. It doesn't matter whether an opponent has 0 or less life, an opponent is forced to draw a card while his or her library is empty, an opponent has ten or more poison counters, an opponent is dealt combat damage by Phage the Untouchable, you control Felidar Sovereign and have 40 or more life, or so on. You keep playing.
-2017/11/17: Other circumstances can still cause an opponent to lose the game, however. An opponent will lose a game if he or she concedes, if that player is penalized with a Game Loss or a Match Loss during a sanctioned tournament due to a DCI rules infraction, or if that player's Magic Online® game clock runs out of time.
+<Rulings>2017/11/17: No game effect can cause you to win the game or cause any opponent to lose the game while you control <Abyssal Persecutor>. It doesn't matter whether an opponent has 0 or less life, an opponent is forced to draw a card while their library is empty, an opponent has ten or more poison counters, an opponent is dealt combat damage by Phage the Untouchable, you control Felidar Sovereign and have 40 or more life, or so on. You keep playing.
+2017/11/17: Other circumstances can still cause an opponent to lose the game, however. An opponent will lose a game if they concede, if that player is penalized with a Game Loss or a Match Loss during a sanctioned tournament due to a DCI rules infraction, or if that player's Magic Online® game clock runs out of time.
 2017/11/17: Effects that say the game is a draw, such as the _Legends_(TM) card Divine Intervention, are not affected by <Abyssal Persecutor>.
 2017/11/17: <Abyssal Persecutor> won't preclude an opponent's life total from reaching 0 or less. It will just preclude that player from losing the game as a result.
 2017/11/17: If <Abyssal Persecutor> leaves the battlefield while an opponent has 0 or less life, that opponent will lose the game as a state-based action. No player can respond between the time <Abyssal Persecutor> leaves the battlefield and the time that player loses the game.
-2017/11/17: Even though your opponents can't lose the game, a player can't pay an amount of life that's greater than his or her life total. If a player's life total is 0 or less, that player can't pay life at all, with one exception: a player may always pay 0 life.</Rulings>
+2017/11/17: Even though your opponents can't lose the game, a player can't pay an amount of life that's greater than their life total. If a player's life total is 0 or less, that player can't pay life at all, with one exception: a player may always pay 0 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1603,10 +1596,10 @@ You can't win the game and your opponents can't lose the game.</CardText>
 <Type>Creature — Vampire Rogue 2/3</Type>
 <ManaCost>3B (4)</ManaCost>
 <CardText>Flying
-When Balustrade Spy enters the battlefield, target player reveals cards from the top of his or her library until he or she reveals a land card, then puts those cards into his or her graveyard.</CardText>
+When Balustrade Spy enters the battlefield, target player reveals cards from the top of their library until they reveal a land card, then puts those cards into their graveyard.</CardText>
 <Artist>Jaime Jones</Artist>
 <Multiverseid>438646</Multiverseid>
-<Rulings>2017/11/17: If the target player has no land cards in his or her library, all cards from that library will be revealed and put into his or her graveyard.</Rulings>
+<Rulings>2017/11/17: If the target player has no land cards in their library, all cards from that library will be revealed and put into their graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1750,14 +1743,13 @@ Landfall — Whenever a land enters the battlefield under your control, you may 
 <Name>Duress</Name>
 <Type>Sorcery</Type>
 <ManaCost>B (1)</ManaCost>
-<CardText>Target opponent reveals his or her hand. You choose a noncreature, nonland card from it. That player discards that card.</CardText>
+<CardText>Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card.</CardText>
 <Flavor>"Don't worry. I'm not going to deprive you of all your secrets. Just your most precious one."
 —Liliana Vess</Flavor>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>438654</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Iconic Masters</Set>
 <Rarity>Common</Rarity>
@@ -1806,8 +1798,8 @@ Enchanted creature has lifelink and "Whenever a creature an opponent controls di
 <Name>Foul-Tongue Invocation</Name>
 <Type>Instant</Type>
 <ManaCost>2B (3)</ManaCost>
-<CardText>As an additional cost to cast Foul-Tongue Invocation, you may reveal a Dragon card from your hand.
-Target player sacrifices a creature. If you revealed a Dragon card or controlled a Dragon as you cast Foul-Tongue Invocation, you gain 4 life.</CardText>
+<CardText>As an additional cost to cast this spell, you may reveal a Dragon card from your hand.
+Target player sacrifices a creature. If you revealed a Dragon card or controlled a Dragon as you cast this spell, you gain 4 life.</CardText>
 <Artist>Daarken</Artist>
 <Multiverseid>438657</Multiverseid>
 <Rulings>2015/02/25: You may cast <Foul-Tongue Invocation> targeting a player who controls no creatures. If you qualify for the "Dragon bonus," you'll just gain 4 life.
@@ -1827,13 +1819,13 @@ Target player sacrifices a creature. If you revealed a Dragon card or controlled
 <Name>Grisly Spectacle</Name>
 <Type>Instant</Type>
 <ManaCost>2BB (4)</ManaCost>
-<CardText>Destroy target nonartifact creature. Its controller puts a number of cards equal to that creature's power from the top of his or her library into his or her graveyard.</CardText>
+<CardText>Destroy target nonartifact creature. Its controller puts a number of cards equal to that creature's power from the top of their library into their graveyard.</CardText>
 <Flavor>"Watch people flock to a murder scene. Then tell me we're not all a little sick in the head."
 —Juri, proprietor of the Juri Revue</Flavor>
 <Artist>Zoltan Boros</Artist>
 <Multiverseid>438658</Multiverseid>
-<Rulings>2017/11/17: Use the creature's power the last time it was on the battlefield to determine how many cards its controller puts into his or her graveyard.
-2017/11/17: If the creature is an illegal target when <Grisly Spectacle> tries to resolve, it will be countered and none of its effects will happen. The creature's controller won't put any cards into his or her graveyard.</Rulings>
+<Rulings>2017/11/17: Use the creature's power the last time it was on the battlefield to determine how many cards its controller puts into their graveyard.
+2017/11/17: If the creature is an illegal target when <Grisly Spectacle> tries to resolve, it won't resolve and none of its effects will happen. The creature's controller won't put any cards into their graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1869,7 +1861,7 @@ At the beginning of your upkeep, draw a card unless target opponent sacrifices a
 <Flavor>The promise of anguish is payment enough for services rendered.</Flavor>
 <Artist>Wesley Burt</Artist>
 <Multiverseid>438660</Multiverseid>
-<Rulings>2017/11/17: The opponent chooses whether he or she sacrifices a creature, pays 3 life, or allows you to draw a card. That player can't make an impossible choice, such as sacrificing a creature while he or she controls no creatures.
+<Rulings>2017/11/17: The opponent chooses whether they sacrifice a creature, pays 3 life, or allows you to draw a card. That player can't make an impossible choice, such as sacrificing a creature while they control no creatures.
 2017/11/17: If there are no legal targets to choose, perhaps because all your opponents have hexproof, the ability is removed from the stack with no effect. You won't draw a card. This is also true if the target opponent becomes an illegal target in response to the ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2066,7 +2058,6 @@ Unleash (You may have this creature enter the battlefield with a +1/+1 counter o
 <Multiverseid>438670</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Iconic Masters</Set>
 <Rarity>Common</Rarity>
@@ -2141,7 +2132,7 @@ At the beginning of each opponent's upkeep, that player sacrifices a creature.</
 <Rulings>2017/11/17: Swampwalk is a keyword ability that means "This creature can't be blocked if defending player controls a Swamp." Most nonbasic lands don't have basic land types, even if they produce colored mana. For example, Graven Cairns is neither a Swamp nor a Mountain, while Blood Crypt is both.
 2017/11/17: If another triggered ability during your upkeep causes you to sacrifice a creature, such as that of Lord of the Pit, you won't be able to target it with Sheoldred's triggered ability as that ability is put on the stack.
 2017/11/17: The opponent whose upkeep it is chooses a creature to sacrifice when Sheoldred's second triggered ability resolves.
-2017/11/17: In a Two-Headed Giant game, the last ability will trigger twice at the beginning of the opposing team's upkeep, once for each player on that team. Each player sacrifices only a creature he or she controls.</Rulings>
+2017/11/17: In a Two-Headed Giant game, the last ability will trigger twice at the beginning of the opposing team's upkeep, once for each player on that team. Each player sacrifices only a creature they control.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2173,11 +2164,11 @@ At the beginning of each opponent's upkeep, that player sacrifices a creature.</
 <Name>Thoughtseize</Name>
 <Type>Sorcery</Type>
 <ManaCost>B (1)</ManaCost>
-<CardText>Target player reveals his or her hand. You choose a nonland card from it. That player discards that card. You lose 2 life.</CardText>
+<CardText>Target player reveals their hand. You choose a nonland card from it. That player discards that card. You lose 2 life.</CardText>
 <Flavor>"Any dream is a robust harvest. Still, I prefer the timeworn dreams, heavy with import, that haunt the obsessive mind."</Flavor>
 <Artist>Aleksi Briclot</Artist>
 <Multiverseid>438676</Multiverseid>
-<Rulings>2013/09/15: The loss of life is part of the spell's effect. It's not an additional cost. If <Thoughtseize> is countered, you won't lose life.
+<Rulings>2013/09/15: The loss of life is part of the spell's effect. It's not an additional cost. If <Thoughtseize> doesn't resolve, you won't lose life.
 2014/02/01: If you target yourself with this spell, you must reveal your entire hand to the other players just as any other player would.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2219,7 +2210,7 @@ Unleash (You may have this creature enter the battlefield with a +1/+1 counter o
 —Liliana Vess</Flavor>
 <Artist>Johann Bodin</Artist>
 <Multiverseid>438678</Multiverseid>
-<Rulings>2017/11/17: The loss of life isn't a cost. If the target creature is an illegal target when <Ulcerate> tries to resolve, it will be countered and none of its effects will happen. You won't lose any life.</Rulings>
+<Rulings>2017/11/17: The loss of life isn't a cost. If the target creature is an illegal target when <Ulcerate> tries to resolve, it won't resolve and none of its effects will happen. You won't lose any life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2237,14 +2228,14 @@ Unleash (You may have this creature enter the battlefield with a +1/+1 counter o
 Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)</CardText>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>438679</Multiverseid>
-<Rulings>2010/06/15: If a spell with rebound that you cast from your hand is countered for any reason (due to a spell like Cancel, or because all of its targets are illegal), the spell doesn't resolve and rebound has no effect. The spell is simply put into your graveyard. You won't get to cast it again next turn.
+<Rulings>2010/06/15: If a spell with rebound that you cast from your hand doesn't resolve for any reason (due being countered by a spell like Cancel, or because all of its targets are illegal), rebound has no effect. The spell is simply put into your graveyard. You won't get to cast it again next turn.
 2010/06/15: If you cast a spell with rebound from anywhere other than your hand (such as from your graveyard due to Sins of the Past, from your library due to cascade, or from your opponent's hand due to Sen Triplets), rebound won't have any effect. If you do cast it from your hand, rebound will work regardless of whether you paid its mana cost (for example, if you cast it from your hand due to Maelstrom Archangel).
 2010/06/15: If a replacement effect would cause a spell with rebound that you cast from your hand to be put somewhere else instead of your graveyard (such as Leyline of the Void might), you choose whether to apply the rebound effect or the other effect as the spell resolves.
 2010/06/15: Rebound will have no effect on copies of spells because you don't cast them from your hand.
 2010/06/15: If you cast a spell with rebound from your hand and it resolves, it isn't put into your graveyard. Rather, it's exiled directly from the stack. Effects that care about cards being put into your graveyard won't do anything.
 2010/06/15: At the beginning of your upkeep, all delayed triggered abilities created by rebound effects trigger. You may handle them in any order. If you want to cast a card this way, you do so as part of the resolution of its delayed triggered ability. Timing restrictions based on the card's type (if it's a sorcery) are ignored. Other restrictions are not (such as the one from Rule of Law).
 2010/06/15: If you are unable to cast a card from exile this way, or you choose not to, nothing happens when the delayed triggered ability resolves. The card remains exiled for the rest of the game, and you won't get another chance to cast the card. The same is true if the ability is countered (due to Stifle, perhaps).
-2010/06/15: If you cast a card from exile this way, it will go to your graveyard when it resolves or is countered. It won't go back to exile.</Rulings>
+2010/06/15: If you cast a card from exile this way, it will go to your graveyard when it resolves, fails to resolve, or is countered. It won't go back to exile.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2277,7 +2268,7 @@ Rebound (If you cast this spell from your hand, exile it as it resolves. At the 
 <Name>Wrench Mind</Name>
 <Type>Sorcery</Type>
 <ManaCost>BB (2)</ManaCost>
-<CardText>Target player discards two cards unless he or she discards an artifact card.</CardText>
+<CardText>Target player discards two cards unless they discard an artifact card.</CardText>
 <Flavor>What is the sound of one head snapping?</Flavor>
 <Artist>Pete Venters</Artist>
 <Multiverseid>438681</Multiverseid>
@@ -2334,11 +2325,10 @@ Rebound (If you cast this spell from your hand, exile it as it resolves. At the 
 <ManaCost>6RR (8)</ManaCost>
 <CardText>Flash
 Flying
-When Bogardan Hellkite enters the battlefield, it deals 5 damage divided as you choose among any number of target creatures and/or players.</CardText>
+When Bogardan Hellkite enters the battlefield, it deals 5 damage divided as you choose among any number of targets.</CardText>
 <Artist>Scott M. Fischer</Artist>
 <Multiverseid>438684</Multiverseid>
 <Rulings>2017/11/17: You choose how many targets <Bogardan Hellkite>'s triggered ability has and how the damage is divided as you put the ability onto the stack. Each target must receive at least 1 damage.
-2017/11/17: You can't deal damage with <Bogardan Hellkite>'s triggered ability to both a player and a planeswalker that player controls. You also can't deal damage to more than one planeswalker controlled by the same player. If you choose to redirect the damage being dealt to a player to a planeswalker, you must redirect all the damage to a single planeswalker.
 2017/11/17: If some of the creatures or players are illegal targets as <Bogardan Hellkite>'s triggered ability tries to resolve, the original division of damage still applies and the damage that would have been dealt to the illegal targets is lost. It won't be dealt instead to a legal target.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2425,11 +2415,11 @@ Whenever you cast an instant or sorcery spell, Charmbreaker Devils gets +4/+0 un
 <Name>Draconic Roar</Name>
 <Type>Instant</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>As an additional cost to cast Draconic Roar, you may reveal a Dragon card from your hand.
-Draconic Roar deals 3 damage to target creature. If you revealed a Dragon card or controlled a Dragon as you cast Draconic Roar, Draconic Roar deals 3 damage to that creature's controller.</CardText>
+<CardText>As an additional cost to cast this spell, you may reveal a Dragon card from your hand.
+Draconic Roar deals 3 damage to target creature. If you revealed a Dragon card or controlled a Dragon as you cast this spell, Draconic Roar deals 3 damage to that creature's controller.</CardText>
 <Artist>Kev Walker</Artist>
 <Multiverseid>438689</Multiverseid>
-<Rulings>2015/02/25: <Draconic Roar> targets only the creature, not its controller. If that creature becomes an illegal target before <Draconic Roar> resolves, the spell is countered and none of its effects will occur. No damage is dealt.
+<Rulings>2015/02/25: <Draconic Roar> targets only the creature, not its controller. If that creature becomes an illegal target before <Draconic Roar> resolves, the spell doesn't resolve and none of its effects will occur. No damage is dealt.
 2015/02/25: If one of these spells is copied, the controller of the copy will get the "Dragon bonus" only if a Dragon card was revealed as an additional cost. The copy wasn't cast, so whether you controlled a Dragon won't matter.
 2015/02/25: You can't reveal more than one Dragon card to multiply the bonus. There is also no additional benefit for both revealing a Dragon card as an additional cost and controlling a Dragon as you cast the spell.
 2015/02/25: If you don't reveal a Dragon card from your hand, you must control a Dragon as you are finished casting the spell to get the bonus. For example, if you lose control of your only Dragon while casting the spell (because, for example, you sacrificed it to activate a mana ability), you won't get the bonus.</Rulings>
@@ -2465,7 +2455,7 @@ When Dragon Egg dies, create a 2/2 red Dragon creature token with flying. It has
 <Type>Enchantment</Type>
 <ManaCost>1R (2)</ManaCost>
 <CardText>Whenever a creature with flying enters the battlefield under your control, it gains haste until end of turn.
-Whenever a Dragon enters the battlefield under your control, it deals X damage to target creature or player, where X is the number of Dragons you control.</CardText>
+Whenever a Dragon enters the battlefield under your control, it deals X damage to any target, where X is the number of Dragons you control.</CardText>
 <Artist>Willian Murai</Artist>
 <Multiverseid>438691</Multiverseid>
 <Rulings>2017/11/17: The amount of damage dealt by the Dragon that entered the battlefield is based on the number of Dragons you control when the ability resolves.
@@ -2520,8 +2510,8 @@ Whenever a Dragon enters the battlefield under your control, it deals X damage t
 <Name>Fireball</Name>
 <Type>Sorcery</Type>
 <ManaCost>XR (1)</ManaCost>
-<CardText>Fireball deals X damage divided evenly, rounded down, among any number of target creatures and/or players.
-Fireball costs {1} more to cast for each target beyond the first.</CardText>
+<CardText>This spell costs {1} more to cast for each target beyond the first.
+Fireball deals X damage divided evenly, rounded down, among any number of targets.</CardText>
 <Flavor>The spell fell upon the crowd like a dragon, ancient and full of death.</Flavor>
 <Artist>Dave Dorman</Artist>
 <Multiverseid>438694</Multiverseid>
@@ -2656,7 +2646,7 @@ When Hoarding Dragon dies, you may put the exiled card into its owner's hand.</C
 <ManaCost>4R (5)</ManaCost>
 <CardText>First strike
 Suspend 4—{R} (Rather than cast this card from your hand, you may pay {R} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)</CardText>
-<Artist>Parente</Artist>
+<Artist>Paolo Parente</Artist>
 <Multiverseid>438701</Multiverseid>
 <Rulings>2013/06/07: You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage's effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time.
 2013/06/07: Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
@@ -2726,9 +2716,9 @@ Suspend 4—{R} (Rather than cast this card from your hand, you may pay {R} and 
 <Artist>Franz Vohwinkel</Artist>
 <Multiverseid>438704</Multiverseid>
 <Rulings>2017/09/29: If a nonbasic land has an ability that causes it to enter the battlefield tapped, it will lose that ability before it applies. The same is also true of any other abilities that modify how a land enters the battlefield or apply "as" a land enters the battlefield, such as the first ability of Cavern of Souls. This is a change from previous rulings.
-2017/11/17: Nonbasic lands lose any other land types and abilities they had. They gain the land type Mountain and gain the ability "{T}: Add {R} to your mana pool."
-2017/11/17: <Magus of the Moon>'s effect doesn't affect names or supertypes. It won't turn any land into a basic land or remove the legendary supertype from a legendary land, and the lands won't be named Mountain.
-2017/11/17: If a nonbasic land has an ability that triggers "when" it enters the battlefield, it will lose that ability before it triggers.</Rulings>
+2018/03/16: Nonbasic lands will lose any other land types and abilities they had. They will gain the land type Mountain and gain the ability "{T}: Add {R}."
+2018/03/16: This effect doesn't affect names or supertypes. It won't turn any land into a basic land or remove the legendary supertype from a legendary land, and the lands won't be named "Mountain."
+2018/03/16: If a nonbasic land has an ability that triggers "when" it enters the battlefield, it will lose that ability before it triggers.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2782,7 +2772,7 @@ Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until e
 <Name>Pillar of Flame</Name>
 <Type>Sorcery</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>Pillar of Flame deals 2 damage to target creature or player. If a creature dealt damage this way would die this turn, exile it instead.</CardText>
+<CardText>Pillar of Flame deals 2 damage to any target. If a creature dealt damage this way would die this turn, exile it instead.</CardText>
 <Flavor>"May the worthy spend an eternity in Blessed Sleep. May the wicked find the peace of oblivion."</Flavor>
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>438707</Multiverseid>
@@ -2801,7 +2791,7 @@ Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until e
 <Name>Prodigal Pyromancer</Name>
 <Type>Creature — Human Wizard 1/1</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>{T}: Prodigal Pyromancer deals 1 damage to target creature or player.</CardText>
+<CardText>{T}: Prodigal Pyromancer deals 1 damage to any target.</CardText>
 <Flavor>"What am I looking at? Ashes, dead man."</Flavor>
 <Artist>Jeremy Jarvis</Artist>
 <Multiverseid>438708</Multiverseid>
@@ -2819,7 +2809,7 @@ Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until e
 <Name>Rift Bolt</Name>
 <Type>Sorcery</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>Rift Bolt deals 3 damage to target creature or player.
+<CardText>Rift Bolt deals 3 damage to any target.
 Suspend 1—{R} (Rather than cast this card from your hand, you may pay {R} and exile it with a time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)</CardText>
 <Artist>Daniel Ljunggren</Artist>
 <Multiverseid>438709</Multiverseid>
@@ -2865,7 +2855,7 @@ When Ryusei, the Falling Star dies, it deals 5 damage to each creature without f
 <Type>Creature — Dragon 4/4</Type>
 <ManaCost>2RRR (5)</ManaCost>
 <CardText>Flying
-Whenever Scourge of Valkas or another Dragon enters the battlefield under your control, it deals X damage to target creature or player, where X is the number of Dragons you control.
+Whenever Scourge of Valkas or another Dragon enters the battlefield under your control, it deals X damage to any target, where X is the number of Dragons you control.
 {R}: Scourge of Valkas gets +1/+0 until end of turn.</CardText>
 <Artist>Lucas Graciano</Artist>
 <Multiverseid>438711</Multiverseid>
@@ -2906,18 +2896,18 @@ Unleash (You may have this creature enter the battlefield with a +1/+1 counter o
 <Name>Staggershock</Name>
 <Type>Instant</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>Staggershock deals 2 damage to target creature or player.
+<CardText>Staggershock deals 2 damage to any target.
 Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)</CardText>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>438713</Multiverseid>
-<Rulings>2010/06/15: If a spell with rebound that you cast from your hand is countered for any reason (due to a spell like Cancel, or because all of its targets are illegal), the spell doesn't resolve and rebound has no effect. The spell is simply put into your graveyard. You won't get to cast it again next turn.
+<Rulings>2010/06/15: If a spell with rebound that you cast from your hand doesn't resolve for any reason (due being countered by a spell like Cancel, or because all of its targets are illegal), rebound has no effect. The spell is simply put into your graveyard. You won't get to cast it again next turn.
 2010/06/15: If you cast a spell with rebound from anywhere other than your hand (such as from your graveyard due to Sins of the Past, from your library due to cascade, or from your opponent's hand due to Sen Triplets), rebound won't have any effect. If you do cast it from your hand, rebound will work regardless of whether you paid its mana cost (for example, if you cast it from your hand due to Maelstrom Archangel).
 2010/06/15: If a replacement effect would cause a spell with rebound that you cast from your hand to be put somewhere else instead of your graveyard (such as Leyline of the Void might), you choose whether to apply the rebound effect or the other effect as the spell resolves.
 2010/06/15: Rebound will have no effect on copies of spells because you don't cast them from your hand.
 2010/06/15: If you cast a spell with rebound from your hand and it resolves, it isn't put into your graveyard. Rather, it's exiled directly from the stack. Effects that care about cards being put into your graveyard won't do anything.
 2010/06/15: At the beginning of your upkeep, all delayed triggered abilities created by rebound effects trigger. You may handle them in any order. If you want to cast a card this way, you do so as part of the resolution of its delayed triggered ability. Timing restrictions based on the card's type (if it's a sorcery) are ignored. Other restrictions are not (such as the one from Rule of Law).
 2010/06/15: If you are unable to cast a card from exile this way, or you choose not to, nothing happens when the delayed triggered ability resolves. The card remains exiled for the rest of the game, and you won't get another chance to cast the card. The same is true if the ability is countered (due to Stifle, perhaps).
-2010/06/15: If you cast a card from exile this way, it will go to your graveyard when it resolves or is countered. It won't go back to exile.</Rulings>
+2010/06/15: If you cast a card from exile this way, it will go to your graveyard when it resolves, fails to resolve, or is countered. It won't go back to exile.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2935,14 +2925,14 @@ Rebound (If you cast this spell from your hand, exile it as it resolves. At the 
 Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)</CardText>
 <Artist>Jaime Jones</Artist>
 <Multiverseid>438714</Multiverseid>
-<Rulings>2010/06/15: If a spell with rebound that you cast from your hand is countered for any reason (due to a spell like Cancel, or because all of its targets are illegal), the spell doesn't resolve and rebound has no effect. The spell is simply put into your graveyard. You won't get to cast it again next turn.
+<Rulings>2010/06/15: If a spell with rebound that you cast from your hand doesn't resolve for any reason (due being countered by a spell like Cancel, or because all of its targets are illegal), rebound has no effect. The spell is simply put into your graveyard. You won't get to cast it again next turn.
 2010/06/15: If you cast a spell with rebound from anywhere other than your hand (such as from your graveyard due to Sins of the Past, from your library due to cascade, or from your opponent's hand due to Sen Triplets), rebound won't have any effect. If you do cast it from your hand, rebound will work regardless of whether you paid its mana cost (for example, if you cast it from your hand due to Maelstrom Archangel).
 2010/06/15: If a replacement effect would cause a spell with rebound that you cast from your hand to be put somewhere else instead of your graveyard (such as Leyline of the Void might), you choose whether to apply the rebound effect or the other effect as the spell resolves.
 2010/06/15: Rebound will have no effect on copies of spells because you don't cast them from your hand.
 2010/06/15: If you cast a spell with rebound from your hand and it resolves, it isn't put into your graveyard. Rather, it's exiled directly from the stack. Effects that care about cards being put into your graveyard won't do anything.
 2010/06/15: At the beginning of your upkeep, all delayed triggered abilities created by rebound effects trigger. You may handle them in any order. If you want to cast a card this way, you do so as part of the resolution of its delayed triggered ability. Timing restrictions based on the card's type (if it's a sorcery) are ignored. Other restrictions are not (such as the one from Rule of Law).
 2010/06/15: If you are unable to cast a card from exile this way, or you choose not to, nothing happens when the delayed triggered ability resolves. The card remains exiled for the rest of the game, and you won't get another chance to cast the card. The same is true if the ability is countered (due to Stifle, perhaps).
-2010/06/15: If you cast a card from exile this way, it will go to your graveyard when it resolves or is countered. It won't go back to exile.
+2010/06/15: If you cast a card from exile this way, it will go to your graveyard when it resolves, fails to resolve, or is countered. It won't go back to exile.
 2010/06/15: <Surreal Memoir> isn't targeted. You don't choose an instant card at random from your graveyard until it resolves. Once you randomly select a card, it's too late for players to respond.
 2010/06/15: If you have only one instant card in your graveyard as <Surreal Memoir> resolves, that's the one you'll return to your hand.
 2010/06/15: If you're playing a format involving only cards from the _Urza's Saga_(TM) set and later, you may change the order of your graveyard at any time. That means the easiest way to choose an instant card at random from your graveyard is to take all the instant cards in your graveyard, turn them face down, shuffle them, and pick a card. Then you just put the rest back.
@@ -2982,7 +2972,7 @@ When Thundermaw Hellkite enters the battlefield, it deals 1 damage to each creat
 <Name>Tormenting Voice</Name>
 <Type>Sorcery</Type>
 <ManaCost>1R (2)</ManaCost>
-<CardText>As an additional cost to cast Tormenting Voice, discard a card.
+<CardText>As an additional cost to cast this spell, discard a card.
 Draw two cards.</CardText>
 <Flavor>"Unwelcome thoughts crowd my mind. Are they my own madness, or the whispers of another?"
 —Sarkhan Vol</Flavor>
@@ -2991,7 +2981,6 @@ Draw two cards.</CardText>
 <Rulings>2017/11/17: Because discarding a card is an additional cost, you can't cast <Tormenting Voice> if you have no other cards in hand.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Iconic Masters</Set>
 <Rarity>Common</Rarity>
@@ -3045,7 +3034,7 @@ Creatures your opponents control enter the battlefield tapped.</CardText>
 <Type>Creature — Elemental 2/4</Type>
 <ManaCost>3R (4)</ManaCost>
 <CardText>Defender
-{1}{R}, {T}: Vent Sentinel deals damage to target player equal to the number of creatures with defender you control.</CardText>
+{1}{R}, {T}: Vent Sentinel deals damage to target player or planeswalker equal to the number of creatures with defender you control.</CardText>
 <Flavor>"Zendikar fortifies itself against the Great Threat, making sentries of sky, sea, and stone."
 —The War Diaries</Flavor>
 <Artist>Chris Rahn</Artist>
@@ -3068,7 +3057,7 @@ Creatures your opponents control enter the battlefield tapped.</CardText>
 <Artist>BD</Artist>
 <Multiverseid>438720</Multiverseid>
 <Rulings>2017/11/17: You must be able to target a creature with flying to cast <Aerial Predation>.
-2017/11/17: If the creature with flying is an illegal target when <Aerial Predation> tries to resolve, it will be countered and none of its effects will happen. You won't gain 2 life.</Rulings>
+2017/11/17: If the creature with flying is an illegal target when <Aerial Predation> tries to resolve, it won't resolve and none of its effects will happen. You won't gain 2 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3120,14 +3109,13 @@ When Carven Caryatid enters the battlefield, draw a card.</CardText>
 <Name>Channel</Name>
 <Type>Sorcery</Type>
 <ManaCost>GG (2)</ManaCost>
-<CardText>Until end of turn, any time you could activate a mana ability, you may pay 1 life. If you do, add {C} to your mana pool.</CardText>
+<CardText>Until end of turn, any time you could activate a mana ability, you may pay 1 life. If you do, add {C}.</CardText>
 <Flavor>To some mages, the meaning of life is less important than how much is left.</Flavor>
 <Artist>Rebecca Guay</Artist>
 <Multiverseid>438723</Multiverseid>
 <Rulings>2017/11/17: Once your life total is 0, you can't pay any more life, even if you've somehow not lost the game yet.</Rulings>
 <Vintage>Restricted</Vintage>
 <Legacy>Banned</Legacy>
-<Commander>Banned</Commander>
 <Set>Iconic Masters</Set>
 <Rarity>Mythic Rare</Rarity>
 </Card>
@@ -3205,7 +3193,7 @@ Whenever a creature attacks enchanted player, put a +1/+1 counter on it.</CardTe
 <Name>Duskdale Wurm</Name>
 <Type>Creature — Wurm 7/7</Type>
 <ManaCost>5GG (7)</ManaCost>
-<CardText>Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)</CardText>
+<CardText>Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)</CardText>
 <Flavor>"Last time, it tore up the Wilt-Leaf, turned Mistmeadow into a mudhole, and made the river jump its banks. On the bright side, we were eating venison for weeks."
 —Donal Alloway, cenn of Kinscaer</Flavor>
 <Artist>Dan Dos Santos</Artist>
@@ -3223,7 +3211,7 @@ Whenever a creature attacks enchanted player, put a +1/+1 counter on it.</CardTe
 <Name>Enlarge</Name>
 <Type>Sorcery</Type>
 <ManaCost>3GG (5)</ManaCost>
-<CardText>Target creature gets +7/+7 and gains trample until end of turn. It must be blocked this turn if able. (It can deal excess combat damage to defending player or planeswalker while attacking.)</CardText>
+<CardText>Target creature gets +7/+7 and gains trample until end of turn. It must be blocked this turn if able. (If a creature with trample would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to the player or planeswalker it's attacking.)</CardText>
 <Flavor>For Mittens, it was just another day at the beach.</Flavor>
 <Artist>Michael Komarck</Artist>
 <Multiverseid>438728</Multiverseid>
@@ -3241,7 +3229,7 @@ Whenever a creature attacks enchanted player, put a +1/+1 counter on it.</CardTe
 <Name>Genesis Hydra</Name>
 <Type>Creature — Plant Hydra 0/0</Type>
 <ManaCost>XGG (2)</ManaCost>
-<CardText>When you cast Genesis Hydra, reveal the top X cards of your library. You may put a nonland permanent card with converted mana cost X or less from among them onto the battlefield. Then shuffle the rest into your library.
+<CardText>When you cast this spell, reveal the top X cards of your library. You may put a nonland permanent card with converted mana cost X or less from among them onto the battlefield. Then shuffle the rest into your library.
 Genesis Hydra enters the battlefield with X +1/+1 counters on it.</CardText>
 <Artist>Peter Mohrbacher</Artist>
 <Multiverseid>438729</Multiverseid>
@@ -3332,7 +3320,6 @@ Genesis Hydra enters the battlefield with X +1/+1 counters on it.</CardText>
 2018/01/19: If the creature you control is an illegal target as <Hunt the Weak> tries to resolve, you won't put a +1/+1 counter on it. If that creature is a legal target but the other creature isn't, you'll still put the counter on the creature you control.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Iconic Masters</Set>
 <Rarity>Common</Rarity>
@@ -3456,7 +3443,7 @@ When Jugan, the Rising Star dies, you may distribute five +1/+1 counters among a
 <Name>Lotus Cobra</Name>
 <Type>Creature — Snake 2/1</Type>
 <ManaCost>1G (2)</ManaCost>
-<CardText>Landfall — Whenever a land enters the battlefield under your control, you may add one mana of any color to your mana pool.</CardText>
+<CardText>Landfall — Whenever a land enters the battlefield under your control, you may add one mana of any color.</CardText>
 <Flavor>Its scales contain the essence of thousands of lotus blooms.</Flavor>
 <Artist>Chippy</Artist>
 <Multiverseid>438740</Multiverseid>
@@ -3528,7 +3515,7 @@ Suspend 1—{2}{G}{G} (Rather than cast this card from your hand, you may pay {2
 —Sildark, artificer of Omu</Flavor>
 <Artist>Raoul Vitale</Artist>
 <Multiverseid>438743</Multiverseid>
-<Rulings>2017/11/17: If the target artifact or enchantment is an illegal target when <Nature's Claim> tries to resolve, the entire spell is countered. No one gains any life.</Rulings>
+<Rulings>2017/11/17: If the target artifact or enchantment is an illegal target when <Nature's Claim> tries to resolve, the entire spell doesn't resolve. No one gains any life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3580,7 +3567,7 @@ If a spell or ability an opponent controls causes you to discard Obstinate Balot
 <Type>Creature — Wall 0/4</Type>
 <ManaCost>1G (2)</ManaCost>
 <CardText>Defender
-{T}: Add {G} to your mana pool for each creature with defender you control.</CardText>
+{T}: Add {G} for each creature with defender you control.</CardText>
 <Flavor>"Our enemy is nothing less than the end of all life. We shall not want for allies."
 —The War Diaries</Flavor>
 <Artist>Franz Vohwinkel</Artist>
@@ -3623,14 +3610,14 @@ If damage would be dealt to Phantom Tiger, prevent that damage. Remove a +1/+1 c
 Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)</CardText>
 <Artist>Jesper Ejsing</Artist>
 <Multiverseid>438748</Multiverseid>
-<Rulings>2010/06/15: If a spell with rebound that you cast from your hand is countered for any reason (due to a spell like Cancel, or because all of its targets are illegal), the spell doesn't resolve and rebound has no effect. The spell is simply put into your graveyard. You won't get to cast it again next turn.
+<Rulings>2010/06/15: If a spell with rebound that you cast from your hand doesn't resolve for any reason (due being countered by a spell like Cancel, or because all of its targets are illegal), rebound has no effect. The spell is simply put into your graveyard. You won't get to cast it again next turn.
 2010/06/15: If you cast a spell with rebound from anywhere other than your hand (such as from your graveyard due to Sins of the Past, from your library due to cascade, or from your opponent's hand due to Sen Triplets), rebound won't have any effect. If you do cast it from your hand, rebound will work regardless of whether you paid its mana cost (for example, if you cast it from your hand due to Maelstrom Archangel).
 2010/06/15: If a replacement effect would cause a spell with rebound that you cast from your hand to be put somewhere else instead of your graveyard (such as Leyline of the Void might), you choose whether to apply the rebound effect or the other effect as the spell resolves.
 2010/06/15: Rebound will have no effect on copies of spells because you don't cast them from your hand.
 2010/06/15: If you cast a spell with rebound from your hand and it resolves, it isn't put into your graveyard. Rather, it's exiled directly from the stack. Effects that care about cards being put into your graveyard won't do anything.
 2010/06/15: At the beginning of your upkeep, all delayed triggered abilities created by rebound effects trigger. You may handle them in any order. If you want to cast a card this way, you do so as part of the resolution of its delayed triggered ability. Timing restrictions based on the card's type (if it's a sorcery) are ignored. Other restrictions are not (such as the one from Rule of Law).
 2010/06/15: If you are unable to cast a card from exile this way, or you choose not to, nothing happens when the delayed triggered ability resolves. The card remains exiled for the rest of the game, and you won't get another chance to cast the card. The same is true if the ability is countered (due to Stifle, perhaps).
-2010/06/15: If you cast a card from exile this way, it will go to your graveyard when it resolves or is countered. It won't go back to exile.</Rulings>
+2010/06/15: If you cast a card from exile this way, it will go to your graveyard when it resolves, fails to resolve, or is countered. It won't go back to exile.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3652,7 +3639,6 @@ Whenever Primeval Titan enters the battlefield or attacks, you may search your l
 <Rulings>2017/11/17: You may find any land cards, not just basic land cards.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Commander>Banned</Commander>
 <Modern>Legal</Modern>
 <Set>Iconic Masters</Set>
 <Rarity>Mythic Rare</Rarity>
@@ -3757,7 +3743,6 @@ Suspend 2—{G} (Rather than cast this card from your hand, you may pay {G} and 
 2015/06/22: If a renown ability triggers, but the creature leaves the battlefield before that ability resolves, the creature doesn't become renowned. Any ability that triggers "whenever a creature becomes renowned" won't trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Iconic Masters</Set>
 <Rarity>Uncommon</Rarity>
@@ -3770,7 +3755,7 @@ Suspend 2—{G} (Rather than cast this card from your hand, you may pay {G} and 
 <Type>Legendary Creature — Praetor 7/6</Type>
 <ManaCost>6GG (8)</ManaCost>
 <CardText>Trample
-Whenever you tap a land for mana, add one mana to your mana pool of any type that land produced.
+Whenever you tap a land for mana, add one mana of any type that land produced.
 Whenever an opponent taps a land for mana, that land doesn't untap during its controller's next untap step.</CardText>
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>438755</Multiverseid>
@@ -3791,7 +3776,7 @@ Whenever an opponent taps a land for mana, that land doesn't untap during its co
 <Type>Creature — Plant Wall 0/5</Type>
 <ManaCost>1G (2)</ManaCost>
 <CardText>Defender
-Put a -0/-1 counter on Wall of Roots: Add {G} to your mana pool. Activate this ability only once each turn.</CardText>
+Put a -0/-1 counter on Wall of Roots: Add {G}. Activate this ability only once each turn.</CardText>
 <Flavor>"Mana grows and changes like the roots of a plant. Like a plant, it must be nurtured."
 —Nissa Revane</Flavor>
 <Artist>Matt Stewart</Artist>
@@ -3867,7 +3852,7 @@ When Bladewing the Risen enters the battlefield, you may return target Dragon pe
 <ManaCost>2UB (4)</ManaCost>
 <CardText>Flying
 Whenever Blizzard Specter deals combat damage to a player, choose one —
-• That player returns a permanent he or she controls to its owner's hand.
+• That player returns a permanent they control to its owner's hand.
 • That player discards a card.</CardText>
 <Artist>Hideaki Takamura</Artist>
 <Multiverseid>438760</Multiverseid>
@@ -3941,14 +3926,14 @@ As long as you have 30 or more life and an opponent has 10 or less life, Blood B
 <Name>Electrolyze</Name>
 <Type>Instant</Type>
 <ManaCost>1UR (3)</ManaCost>
-<CardText>Electrolyze deals 2 damage divided as you choose among one or two target creatures and/or players.
+<CardText>Electrolyze deals 2 damage divided as you choose among one or two targets.
 Draw a card.</CardText>
 <Flavor>The Izzet learn something from every lesson they teach.</Flavor>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Multiverseid>438764</Multiverseid>
 <Rulings>2017/11/17: You divide the damage as you cast <Electrolyze>, not as it resolves. Each target must be assigned at least 1 damage. In other words, as you cast <Electrolyze>, you choose whether to have it deal 2 damage to a single target, or deal 1 damage to each of two targets.
 2017/11/17: If <Electrolyze> targets two creatures and one becomes an illegal target, the remaining target is dealt 1 damage, not 2. You'll still draw a card.
-2017/11/17: If all chosen targets are illegal as <Electrolyze> tries to resolve, it will be countered and none of its effects will happen. No damage will be dealt and you won't draw a card.</Rulings>
+2017/11/17: If all chosen targets are illegal as <Electrolyze> tries to resolve, it won't resolve and none of its effects will happen. No damage will be dealt and you won't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3981,7 +3966,7 @@ At the beginning of your upkeep, if Firemane Angel is in your graveyard or on th
 <Name>Glimpse the Unthinkable</Name>
 <Type>Sorcery</Type>
 <ManaCost>UB (2)</ManaCost>
-<CardText>Target player puts the top ten cards of his or her library into his or her graveyard.</CardText>
+<CardText>Target player puts the top ten cards of their library into their graveyard.</CardText>
 <Flavor>"I am confident that if anyone actually penetrates our facades, even the most perceptive would still be fundamentally unprepared for the truth of House Dimir."
 —Szadek</Flavor>
 <Artist>Brandon Kitkouski</Artist>
@@ -4060,12 +4045,12 @@ When Jungle Barrier enters the battlefield, draw a card.</CardText>
 <Name>Lightning Helix</Name>
 <Type>Instant</Type>
 <ManaCost>WR (2)</ManaCost>
-<CardText>Lightning Helix deals 3 damage to target creature or player and you gain 3 life.</CardText>
+<CardText>Lightning Helix deals 3 damage to any target and you gain 3 life.</CardText>
 <Flavor>"Rage is not the answer. Rage followed by fitting vengeance is the answer."
 —Ajani Goldmane</Flavor>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>438770</Multiverseid>
-<Rulings>2017/11/17: If the chosen target is illegal when <Lightning Helix> tries to resolve, it will be countered and none of its effects will happen. You won't gain 3 life.</Rulings>
+<Rulings>2017/11/17: If the chosen target is illegal when <Lightning Helix> tries to resolve, it won't resolve and none of its effects will happen. You won't gain 3 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4085,7 +4070,7 @@ When Malfegor enters the battlefield, discard your hand. Each opponent sacrifice
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>438771</Multiverseid>
 <Rulings>2017/11/17: <Malfegor>'s ability is not optional. You must discard your entire hand no matter how many creatures your opponents control.
-2017/11/17: After you discard your hand and the number of creatures each opponent must sacrifice has been determined, each opponent in turn order, starting with the player whose turn it is if that player is your opponent, chooses which creatures he or she will sacrifice, then all the chosen creatures are all sacrificed at the same time.</Rulings>
+2017/11/17: After you discard your hand and the number of creatures each opponent must sacrifice has been determined, each opponent in turn order, starting with the player whose turn it is if that player is your opponent, chooses which creatures they will sacrifice, then all the chosen creatures are all sacrificed at the same time.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4099,7 +4084,7 @@ When Malfegor enters the battlefield, discard your hand. Each opponent sacrifice
 <Name>Rosheen Meanderer</Name>
 <Type>Legendary Creature — Giant Shaman 4/4</Type>
 <ManaCost>3{R/G} (4)</ManaCost>
-<CardText>{T}: Add {C}{C}{C}{C} to your mana pool. Spend this mana only on costs that contain {X}.</CardText>
+<CardText>{T}: Add {C}{C}{C}{C}. Spend this mana only on costs that contain {X}.</CardText>
 <Flavor>Night after night, Rosheen babbled about a bygone sunlit world, her every word dismissed as a madwoman's ravings.</Flavor>
 <Artist>Aleksi Briclot</Artist>
 <Multiverseid>438772</Multiverseid>
@@ -4174,7 +4159,7 @@ Shroud (This creature can't be the target of spells or abilities.)</CardText>
 <Name>Supreme Verdict</Name>
 <Type>Sorcery</Type>
 <ManaCost>1WWU (4)</ManaCost>
-<CardText>Supreme Verdict can't be countered.
+<CardText>This spell can't be countered.
 Destroy all creatures.</CardText>
 <Flavor>Leonos had no second thoughts about the abolishment edict. He'd left skyrunes warning of the eviction, even though it was cloudy.</Flavor>
 <Artist>Sam Burley</Artist>
@@ -4287,11 +4272,11 @@ Equip {2}</CardText>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
 <CardText>Guardian Idol enters the battlefield tapped.
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {2}: Guardian Idol becomes a 2/2 Golem artifact creature until end of turn.</CardText>
 <Artist>Igor Kieryluk</Artist>
 <Multiverseid>438782</Multiverseid>
-<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of his or her most recent turn. It doesn't matter how long the permanent has been a creature.
+<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
 2017/11/17: If <Guardian Idol> has any +1/+1 counters on it, those counters will remain on it after it stops being a creature. Those counters will have no effect as long as <Guardian Idol> isn't a creature, but they will apply again if it later becomes a creature.
 2017/11/17: Activating the last ability of <Guardian Idol> while it's already a creature will override any effects that set its power or toughness to a specific value. Effects that modify power or toughness without setting them to a specific value will continue to apply.</Rulings>
 <Vintage>Legal</Vintage>
@@ -4307,7 +4292,7 @@ Equip {2}</CardText>
 <Name>Kolaghan Monument</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {B} or {R} to your mana pool.
+<CardText>{T}: Add {B} or {R}.
 {4}{B}{R}: Kolaghan Monument becomes a 4/4 black and red Dragon artifact creature with flying until end of turn.</CardText>
 <Flavor>Kolaghan has no lasting home, but her disciples leave relics to mark her conquests.</Flavor>
 <Artist>Daniel Ljunggren</Artist>
@@ -4329,7 +4314,7 @@ Equip {2}</CardText>
 <Name>Manakin</Name>
 <Type>Artifact Creature — Construct 1/1</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{T}: Add {C} to your mana pool.</CardText>
+<CardText>{T}: Add {C}.</CardText>
 <Flavor>"Each night, the artificer tucked the little doll into a locked drawer. Each morning, she awoke to find it waiting beside her with some new bauble."
 —"The Artificer's Apprentice"</Flavor>
 <Artist>David Palumbo</Artist>
@@ -4346,7 +4331,7 @@ Equip {2}</CardText>
 <Name>Mind Stone</Name>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 {1}, {T}, Sacrifice Mind Stone: Draw a card.</CardText>
 <Flavor>"What is mana but possibility, an idea not yet given form?"
 —Jhoira, master artificer</Flavor>
@@ -4365,7 +4350,7 @@ Equip {2}</CardText>
 <Name>Mindcrank</Name>
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
-<CardText>Whenever an opponent loses life, that player puts that many cards from the top of his or her library into his or her graveyard. (Damage dealt by sources without infect causes loss of life.)</CardText>
+<CardText>Whenever an opponent loses life, that player puts that many cards from the top of their library into their graveyard. (Damage dealt by sources without infect causes loss of life.)</CardText>
 <Flavor>"Let go of your memories and be reborn."
 —Argent Etchings, plate 106, passage 27</Flavor>
 <Artist>Chris Rahn</Artist>
@@ -4383,7 +4368,7 @@ Equip {2}</CardText>
 <No>221</No>
 <Name>Mishra's Bauble</Name>
 <Type>Artifact</Type>
-<ManaCost>0</ManaCost>
+<ManaCost>0 (0)</ManaCost>
 <CardText>{T}, Sacrifice Mishra's Bauble: Look at the top card of target player's library. Draw a card at the beginning of the next turn's upkeep.</CardText>
 <Flavor>"Arcum is a babbling fool! Phyrexian technology is our greatest blessing. Take this delightful trinket for instance . . ."
 —Heidar, Rimewind master</Flavor>
@@ -4402,7 +4387,7 @@ Equip {2}</CardText>
 <Name>Moonglove Extract</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>Sacrifice Moonglove Extract: It deals 2 damage to target creature or player.</CardText>
+<CardText>Sacrifice Moonglove Extract: It deals 2 damage to any target.</CardText>
 <Flavor>Diluted, moonglove can etch living tissue. Concentrated, a drop will kill a giant.</Flavor>
 <Artist>Terese Nielsen</Artist>
 <Multiverseid>438788</Multiverseid>
@@ -4436,7 +4421,7 @@ Equip {2}</CardText>
 <Name>Palladium Myr</Name>
 <Type>Artifact Creature — Myr 2/2</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {C}{C} to your mana pool.</CardText>
+<CardText>{T}: Add {C}{C}.</CardText>
 <Flavor>The myr are like the Glimmervoid: blank canvases on which to build grand creations.</Flavor>
 <Artist>Alan Pollack</Artist>
 <Multiverseid>438790</Multiverseid>
@@ -4453,7 +4438,7 @@ Equip {2}</CardText>
 <Name>Pristine Talisman</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {C} to your mana pool. You gain 1 life.</CardText>
+<CardText>{T}: Add {C}. You gain 1 life.</CardText>
 <Flavor>"Tools and artisans can be destroyed, but the act of creation is inviolate."
 —Elspeth Tirel</Flavor>
 <Artist>Matt Cavotta</Artist>
@@ -4478,7 +4463,6 @@ Equip {2}</CardText>
 <Multiverseid>438792</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Iconic Masters</Set>
 <Rarity>Common</Rarity>
@@ -4506,7 +4490,7 @@ When Sandstone Oracle enters the battlefield, choose an opponent. If that player
 <Name>Serum Powder</Name>
 <Type>Artifact</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {C} to your mana pool.
+<CardText>{T}: Add {C}.
 Any time you could mulligan and Serum Powder is in your hand, you may exile all the cards from your hand, then draw that many cards. (You can do this in addition to taking mulligans.)</CardText>
 <Artist>Matt Thompson</Artist>
 <Multiverseid>438794</Multiverseid>
@@ -4527,7 +4511,7 @@ Any time you could mulligan and Serum Powder is in your hand, you may exile all 
 <Type>Artifact</Type>
 <ManaCost>2 (2)</ManaCost>
 <CardText>Star Compass enters the battlefield tapped.
-{T}: Add to your mana pool one mana of any color that a basic land you control could produce.</CardText>
+{T}: Add one mana of any color that a basic land you control could produce.</CardText>
 <Flavor>It doesn't point north. It points home.</Flavor>
 <Artist>Donato Giancola</Artist>
 <Multiverseid>438795</Multiverseid>
@@ -4546,7 +4530,7 @@ Any time you could mulligan and Serum Powder is in your hand, you may exile all 
 <Name>Thran Dynamo</Name>
 <Type>Artifact</Type>
 <ManaCost>4 (4)</ManaCost>
-<CardText>{T}: Add {C}{C}{C} to your mana pool.</CardText>
+<CardText>{T}: Add {C}{C}{C}.</CardText>
 <Flavor>Urza's metathran children were conceived, birthed, and nurtured by an integrated system of machines.</Flavor>
 <Artist>Ron Spears</Artist>
 <Multiverseid>438796</Multiverseid>
@@ -4562,13 +4546,12 @@ Any time you could mulligan and Serum Powder is in your hand, you may exile all 
 <Name>Trepanation Blade</Name>
 <Type>Artifact — Equipment</Type>
 <ManaCost>3 (3)</ManaCost>
-<CardText>Whenever equipped creature attacks, defending player reveals cards from the top of his or her library until he or she reveals a land card. The creature gets +1/+0 until end of turn for each card revealed this way. That player puts the revealed cards into his or her graveyard.
+<CardText>Whenever equipped creature attacks, defending player reveals cards from the top of their library until they reveal a land card. The creature gets +1/+0 until end of turn for each card revealed this way. That player puts the revealed cards into their graveyard.
 Equip {2}</CardText>
 <Artist>Daniel Ljunggren</Artist>
 <Multiverseid>438797</Multiverseid>
 <Rulings>2017/11/17: The land card is counted when calculating the bonus, and it will be put into the graveyard with the other revealed cards.
-2017/11/17: If the equipped creature is attacking a planeswalker in any game except a Two-Headed Giant game, the controller of the planeswalker is the defending player.
-2017/11/17: If the equipped creature is attacking in a Two-Headed Giant game, the controller of the attacking creature chooses one of the two defending players, even if the creature is attacking a planeswalker.</Rulings>
+2017/11/17: If the equipped creature is attacking a planeswalker, the controller of the planeswalker is the defending player.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4583,7 +4566,7 @@ Equip {2}</CardText>
 <Type>Land</Type>
 <CardText>Azorius Chancery enters the battlefield tapped.
 When Azorius Chancery enters the battlefield, return a land you control to its owner's hand.
-{T}: Add {W}{U} to your mana pool.</CardText>
+{T}: Add {W}{U}.</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>438798</Multiverseid>
 <Rulings>2013/04/15: If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.</Rulings>
@@ -4601,7 +4584,7 @@ When Azorius Chancery enters the battlefield, return a land you control to its o
 <Type>Land</Type>
 <CardText>Boros Garrison enters the battlefield tapped.
 When Boros Garrison enters the battlefield, return a land you control to its owner's hand.
-{T}: Add {R}{W} to your mana pool.</CardText>
+{T}: Add {R}{W}.</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>438799</Multiverseid>
 <Rulings>2013/04/15: If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.</Rulings>
@@ -4619,7 +4602,7 @@ When Boros Garrison enters the battlefield, return a land you control to its own
 <Type>Land</Type>
 <CardText>Dimir Aqueduct enters the battlefield tapped.
 When Dimir Aqueduct enters the battlefield, return a land you control to its owner's hand.
-{T}: Add {U}{B} to your mana pool.</CardText>
+{T}: Add {U}{B}.</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>438800</Multiverseid>
 <Rulings>2013/04/15: If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.</Rulings>
@@ -4641,7 +4624,6 @@ When Dimir Aqueduct enters the battlefield, return a land you control to its own
 <Multiverseid>438801</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Standard>Legal</Standard>
 <Modern>Legal</Modern>
 <Set>Iconic Masters</Set>
 <Rarity>Common</Rarity>
@@ -4654,7 +4636,7 @@ When Dimir Aqueduct enters the battlefield, return a land you control to its own
 <Type>Land</Type>
 <CardText>Golgari Rot Farm enters the battlefield tapped.
 When Golgari Rot Farm enters the battlefield, return a land you control to its owner's hand.
-{T}: Add {B}{G} to your mana pool.</CardText>
+{T}: Add {B}{G}.</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>438802</Multiverseid>
 <Rulings>2013/04/15: If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.</Rulings>
@@ -4670,8 +4652,8 @@ When Golgari Rot Farm enters the battlefield, return a land you control to its o
 <No>237</No>
 <Name>Graven Cairns</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{B/R}, {T}: Add {B}{B}, {B}{R}, or {R}{R} to your mana pool.</CardText>
+<CardText>{T}: Add {C}.
+{B/R}, {T}: Add {B}{B}, {B}{R}, or {R}{R}.</CardText>
 <Flavor>Shamans of Kar-Sengir claim that their sun sets because it can no longer bear the gaze of those pain-carved cliffs.</Flavor>
 <Artist>Anthony S. Waters</Artist>
 <Multiverseid>438803</Multiverseid>
@@ -4688,8 +4670,8 @@ When Golgari Rot Farm enters the battlefield, return a land you control to its o
 <No>238</No>
 <Name>Grove of the Burnwillows</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{T}: Add {R} or {G} to your mana pool. Each opponent gains 1 life.</CardText>
+<CardText>{T}: Add {C}.
+{T}: Add {R} or {G}. Each opponent gains 1 life.</CardText>
 <Flavor>Spring is the most beautiful season in the grove, when the new leaves open from their ember-buds in a race of leaping flames.</Flavor>
 <Artist>Cliff Childs</Artist>
 <Multiverseid>438804</Multiverseid>
@@ -4707,7 +4689,7 @@ When Golgari Rot Farm enters the battlefield, return a land you control to its o
 <Type>Land</Type>
 <CardText>Gruul Turf enters the battlefield tapped.
 When Gruul Turf enters the battlefield, return a land you control to its owner's hand.
-{T}: Add {R}{G} to your mana pool.</CardText>
+{T}: Add {R}{G}.</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>438805</Multiverseid>
 <Rulings>2013/04/15: If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.</Rulings>
@@ -4723,7 +4705,7 @@ When Gruul Turf enters the battlefield, return a land you control to its owner's
 <No>240</No>
 <Name>Horizon Canopy</Name>
 <Type>Land</Type>
-<CardText>{T}, Pay 1 life: Add {G} or {W} to your mana pool.
+<CardText>{T}, Pay 1 life: Add {G} or {W}.
 {1}, {T}, Sacrifice Horizon Canopy: Draw a card.</CardText>
 <Flavor>The day is born within its branches.</Flavor>
 <Artist>Noah Bradley</Artist>
@@ -4742,7 +4724,7 @@ When Gruul Turf enters the battlefield, return a land you control to its owner's
 <Type>Land</Type>
 <CardText>Izzet Boilerworks enters the battlefield tapped.
 When Izzet Boilerworks enters the battlefield, return a land you control to its owner's hand.
-{T}: Add {U}{R} to your mana pool.</CardText>
+{T}: Add {U}{R}.</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>438807</Multiverseid>
 <Rulings>2013/04/15: If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.</Rulings>
@@ -4758,9 +4740,9 @@ When Izzet Boilerworks enters the battlefield, return a land you control to its 
 <No>242</No>
 <Name>Nimbus Maze</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{T}: Add {W} to your mana pool. Activate this ability only if you control an Island.
-{T}: Add {U} to your mana pool. Activate this ability only if you control a Plains.</CardText>
+<CardText>{T}: Add {C}.
+{T}: Add {W}. Activate this ability only if you control an Island.
+{T}: Add {U}. Activate this ability only if you control a Plains.</CardText>
 <Flavor>To find its center is to find one's own.</Flavor>
 <Artist>Jason Chan</Artist>
 <Multiverseid>438808</Multiverseid>
@@ -4779,7 +4761,7 @@ When Izzet Boilerworks enters the battlefield, return a land you control to its 
 <Type>Land</Type>
 <CardText>Orzhov Basilica enters the battlefield tapped.
 When Orzhov Basilica enters the battlefield, return a land you control to its owner's hand.
-{T}: Add {W}{B} to your mana pool.</CardText>
+{T}: Add {W}{B}.</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>438809</Multiverseid>
 <Rulings>2013/04/15: If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.</Rulings>
@@ -4796,7 +4778,7 @@ When Orzhov Basilica enters the battlefield, return a land you control to its ow
 <Name>Radiant Fountain</Name>
 <Type>Land</Type>
 <CardText>When Radiant Fountain enters the battlefield, you gain 2 life.
-{T}: Add {C} to your mana pool.</CardText>
+{T}: Add {C}.</CardText>
 <Flavor>"All peoples treasure a place where the weary traveler may drink in peace."
 —Ajani Goldmane</Flavor>
 <Artist>Adam Paquette</Artist>
@@ -4815,7 +4797,7 @@ When Orzhov Basilica enters the battlefield, return a land you control to its ow
 <Type>Land</Type>
 <CardText>Rakdos Carnarium enters the battlefield tapped.
 When Rakdos Carnarium enters the battlefield, return a land you control to its owner's hand.
-{T}: Add {B}{R} to your mana pool.</CardText>
+{T}: Add {B}{R}.</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>438811</Multiverseid>
 <Rulings>2013/04/15: If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.</Rulings>
@@ -4831,7 +4813,7 @@ When Rakdos Carnarium enters the battlefield, return a land you control to its o
 <No>246</No>
 <Name>River of Tears</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {U} to your mana pool. If you played a land this turn, add {B} to your mana pool instead.</CardText>
+<CardText>{T}: Add {U}. If you played a land this turn, add {B} instead.</CardText>
 <Flavor>"The Westfolk wept, and their tears wore winding rivers into the cheek of the world."
 —Glem the Lonebard, "Origins of Kholon"</Flavor>
 <Artist>Chris J. Anderson</Artist>
@@ -4852,7 +4834,7 @@ When Rakdos Carnarium enters the battlefield, return a land you control to its o
 <Type>Land</Type>
 <CardText>Selesnya Sanctuary enters the battlefield tapped.
 When Selesnya Sanctuary enters the battlefield, return a land you control to its owner's hand.
-{T}: Add {G}{W} to your mana pool.</CardText>
+{T}: Add {G}{W}.</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>438813</Multiverseid>
 <Rulings>2013/04/15: If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.</Rulings>
@@ -4868,8 +4850,8 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <No>248</No>
 <Name>Shimmering Grotto</Name>
 <Type>Land</Type>
-<CardText>{T}: Add {C} to your mana pool.
-{1}, {T}: Add one mana of any color to your mana pool.</CardText>
+<CardText>{T}: Add {C}.
+{1}, {T}: Add one mana of any color.</CardText>
 <Flavor>Untold riches await those who forsake the bustling world to search the secret, silent places.</Flavor>
 <Artist>Cliff Childs</Artist>
 <Multiverseid>438814</Multiverseid>
@@ -4887,7 +4869,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <Type>Land</Type>
 <CardText>Simic Growth Chamber enters the battlefield tapped.
 When Simic Growth Chamber enters the battlefield, return a land you control to its owner's hand.
-{T}: Add {G}{U} to your mana pool.</CardText>
+{T}: Add {G}{U}.</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>438815</Multiverseid>
 <Rulings>2013/04/15: If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.</Rulings>
