@@ -597,7 +597,7 @@ Final Strike deals damage to target opponent or planeswalker equal to the sacrif
 <Name>Vampiric Touch</Name>
 <Type>Sorcery</Type>
 <ManaCost>2B (3)</ManaCost>
-<CardText>Vampiric Touch deals 2 damage to target opponent and you gain 2 life.</CardText>
+<CardText>Vampiric Touch deals 2 damage to target opponent or planeswalker and you gain 2 life.</CardText>
 <Flavor>A touch, not comforting, but of death.</Flavor>
 <Artist>Zina Saunders</Artist>
 <Multiverseid>4244</Multiverseid>
@@ -776,7 +776,7 @@ Cloud Spirit can block only creatures with flying.</CardText>
 <Name>Command of Unsummoning</Name>
 <Type>Instant</Type>
 <ManaCost>2U (3)</ManaCost>
-<CardText>Cast Command of Unsummoning only during the declare attackers step and only if you've been attacked this step.
+<CardText>Cast this spell only during the declare attackers step and only if you've been attacked this step.
 Return one or two target attacking creatures to their owner's hand.</CardText>
 <Artist>Phil Foglio</Artist>
 <Multiverseid>4255</Multiverseid>
@@ -894,7 +894,7 @@ Draw a card.</CardText>
 <Artist>Ted Naifeh</Artist>
 <Multiverseid>4262</Multiverseid>
 <Rulings>2004/10/04: The discard is forced even though you choose how many to discard.
-2008/04/01: Each player chooses how many cards he or she would like to discard. That number may be 0.</Rulings>
+2008/04/01: Each player chooses how many cards they would like to discard. That number may be 0.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Portal</Set>
@@ -1383,7 +1383,7 @@ With hollow blasts of wind . . . ."
 <Name>Deep Wood</Name>
 <Type>Instant</Type>
 <ManaCost>1G (2)</ManaCost>
-<CardText>Cast Deep Wood only during the declare attackers step and only if you've been attacked this step.
+<CardText>Cast this spell only during the declare attackers step and only if you've been attacked this step.
 Prevent all damage that would be dealt to you this turn by attacking creatures.</CardText>
 <Artist>Paolo Parente</Artist>
 <Multiverseid>4292</Multiverseid>
@@ -1626,7 +1626,7 @@ A Midsummer Night's Dream</Flavor>
 <Name>Natural Order</Name>
 <Type>Sorcery</Type>
 <ManaCost>2GG (4)</ManaCost>
-<CardText>As an additional cost to cast Natural Order, sacrifice a green creature.
+<CardText>As an additional cost to cast this spell, sacrifice a green creature.
 Search your library for a green creature card and put it onto the battlefield. Then shuffle your library.</CardText>
 <Artist>Alan Rabinowitz</Artist>
 <Multiverseid>4307</Multiverseid>
@@ -1868,7 +1868,7 @@ Search your library for a green creature card and put it onto the battlefield. T
 <Name>Treetop Defense</Name>
 <Type>Instant</Type>
 <ManaCost>1G (2)</ManaCost>
-<CardText>Cast Treetop Defense only during the declare attackers step and only if you've been attacked this step.
+<CardText>Cast this spell only during the declare attackers step and only if you've been attacked this step.
 Creatures you control gain reach until end of turn. (They can block creatures with flying.)</CardText>
 <Artist>Zina Saunders</Artist>
 <Multiverseid>4322</Multiverseid>
@@ -1885,7 +1885,7 @@ Creatures you control gain reach until end of turn. (They can block creatures wi
 <Type>Sorcery</Type>
 <ManaCost>2G (3)</ManaCost>
 <CardText>Search your library for a basic land card and put that card onto the battlefield. Then shuffle your library.</CardText>
-<Artist>Romas</Artist>
+<Artist>Romas Kukalis</Artist>
 <Multiverseid>4323</Multiverseid>
 <Rulings>2004/10/04: Because the "search" requires you to find a card with certain characteristics, you don't have to find the card if you don't want to.
 2006/10/15: Can fetch a snow land.</Rulings>
@@ -2286,7 +2286,7 @@ When Fire Dragon enters the battlefield, it deals damage to target creature equa
 <Name>Lava Axe</Name>
 <Type>Sorcery</Type>
 <ManaCost>4R (5)</ManaCost>
-<CardText>Lava Axe deals 5 damage to target player.</CardText>
+<CardText>Lava Axe deals 5 damage to target player or planeswalker.</CardText>
 <Flavor>Swing your axe as a broom, to sweep away the foe.</Flavor>
 <Artist>Adrian Smith</Artist>
 <Multiverseid>4348</Multiverseid>
@@ -2496,7 +2496,7 @@ spoiling what was once sweet.</Flavor>
 <Name>Scorching Winds</Name>
 <Type>Instant</Type>
 <ManaCost>R (1)</ManaCost>
-<CardText>Cast Scorching Winds only during the declare attackers step and only if you've been attacked this step.
+<CardText>Cast this spell only during the declare attackers step and only if you've been attacked this step.
 Scorching Winds deals 1 damage to each attacking creature.</CardText>
 <Artist>D. Alexander Gregory</Artist>
 <Multiverseid>4361</Multiverseid>
@@ -2616,7 +2616,7 @@ Haste (This creature can attack and {T} as soon as it comes under your control.)
 <CardText>Each player shuffles the cards from their hand into their library, then draws that many cards.</CardText>
 <Artist>Adam Rex</Artist>
 <Multiverseid>4368</Multiverseid>
-<Rulings>2007/09/16: Each player draws a number of cards equal to the number of cards he or she shuffled into their own library.</Rulings>
+<Rulings>2007/09/16: Each player draws a number of cards equal to the number of cards they shuffled into their own library.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Portal</Set>
@@ -2810,7 +2810,7 @@ Of this new glorious world . . . ?'"
 <Name>Defiant Stand</Name>
 <Type>Instant</Type>
 <ManaCost>1W (2)</ManaCost>
-<CardText>Cast Defiant Stand only during the declare attackers step and only if you've been attacked this step.
+<CardText>Cast this spell only during the declare attackers step and only if you've been attacked this step.
 Target creature gets +1/+3 until end of turn. Untap that creature.</CardText>
 <Artist>Hannibal King</Artist>
 <Multiverseid>4380</Multiverseid>
@@ -2907,7 +2907,7 @@ Target creature gets +1/+3 until end of turn. Untap that creature.</CardText>
 <Name>Harsh Justice</Name>
 <Type>Instant</Type>
 <ManaCost>2W (3)</ManaCost>
-<CardText>Cast Harsh Justice only during the declare attackers step and only if you've been attacked this step.
+<CardText>Cast this spell only during the declare attackers step and only if you've been attacked this step.
 This turn, whenever an attacking creature deals combat damage to you, it deals that much damage to its controller.</CardText>
 <Artist>John Coulthart</Artist>
 <Multiverseid>4386</Multiverseid>
@@ -2959,7 +2959,8 @@ This turn, whenever an attacking creature deals combat damage to you, it deals t
 <Flavor>The soldier reaped the profits of peace.</Flavor>
 <Artist>Pete Venters</Artist>
 <Multiverseid>4389</Multiverseid>
-<Rulings>2004/10/04: If the spell fails because the target is not there or isn't legal, the owner does not gain any life.</Rulings>
+<Rulings>2018/03/16: You are a creature's owner if the card representing it began the game in your deck, or if it's a token that entered the battlefield under your control. If <Path of Peace> targets a creature that you own but an opponent controls, you'll gain 4 life.
+2018/03/16: If the target creature is an illegal target by the time <Path of Peace> tries to resolve, the spell doesn't resolve. No player gains life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Portal</Set>
@@ -3523,7 +3524,7 @@ Flying</CardText>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
 <CardText>({T}: Add {B}.)</CardText>
-<Artist>Romas</Artist>
+<Artist>Romas Kukalis</Artist>
 <Multiverseid>4409</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3538,7 +3539,7 @@ Flying</CardText>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
 <CardText>({T}: Add {B}.)</CardText>
-<Artist>Romas</Artist>
+<Artist>Romas Kukalis</Artist>
 <Multiverseid>4410</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3553,7 +3554,7 @@ Flying</CardText>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
 <CardText>({T}: Add {B}.)</CardText>
-<Artist>Romas</Artist>
+<Artist>Romas Kukalis</Artist>
 <Multiverseid>4411</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3568,7 +3569,7 @@ Flying</CardText>
 <Name>Swamp</Name>
 <Type>Basic Land — Swamp</Type>
 <CardText>({T}: Add {B}.)</CardText>
-<Artist>Romas</Artist>
+<Artist>Romas Kukalis</Artist>
 <Multiverseid>4412</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>

@@ -8,7 +8,7 @@
 <Flavor>Some say Banshees are the hounds of Death, baying to herd their prey into the arms of their master.</Flavor>
 <Artist>Jesper Myrfors</Artist>
 <Multiverseid>2797</Multiverseid>
-<Rulings>2009/10/01: If the targeted creature or player is an illegal target by the time <Banshee>'s ability resolves, the ability is countered. You won't be dealt damage.</Rulings>
+<Rulings>2009/10/01: If the targeted permanent or player is an illegal target by the time <Banshee>'s ability resolves, the ability doesn't resolve. You won't be dealt damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Chronicles</Set>
@@ -111,10 +111,8 @@ Sacrifice a creature: Fallen Angel gets +2/+1 until end of turn.</CardText>
 <Flavor>You might leave here, Chenndra, should another take your place . . . .</Flavor>
 <Artist>Sandra Everingham</Artist>
 <Multiverseid>2809</Multiverseid>
-<Rulings>2004/10/04: Can sacrifice itself.
-2005/08/01: This is not a beginning of upkeep triggered ability; you can activate it any time during your upkeep.
-2005/08/01: The ability does not give the returned creature Haste.
-2008/04/01: A "creature card" is any card with the type creature, even if it has other types such as artifact, enchantment, or land. Older cards of type summon are also creature cards.</Rulings>
+<Rulings>2018/03/16: <Hell's Caretaker> can be the creature sacrificed to activate its ability, but it can't be the target of its own ability.
+2018/03/16: The upkeep step is before the draw step, after the untap step. Because the turn has already begun, creatures put onto the battlefield during your upkeep won't be able to attack or pay a {T} cost this turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -148,13 +146,13 @@ Sacrifice a creature: Fallen Angel gets +2/+1 until end of turn.</CardText>
 <ManaCost>2BB (4)</ManaCost>
 <CardText>Enchant creature
 At the beginning of the upkeep of enchanted creature's controller, put a -0/-1 counter on that creature.
-When enchanted creature dies, that creature's controller chooses a creature that Takklemaggot could enchant. If they do, return Takklemaggot to the battlefield under your control attached to that creature. If they don't, return Takklemaggot to the battlefield under your control as a non-Aura enchantment. It loses "enchant creature" and gains "At the beginning of that player's upkeep, Takklemaggot deals 1 damage to him or her."</CardText>
+When enchanted creature dies, that creature's controller chooses a creature that Takklemaggot could enchant. If the player does, return Takklemaggot to the battlefield under your control attached to that creature. If they don't, return Takklemaggot to the battlefield under your control as a non-Aura enchantment. It loses "enchant creature" and gains "At the beginning of that player's upkeep, Takklemaggot deals 1 damage to that player."</CardText>
 <Artist>Daniel Gelon</Artist>
 <Multiverseid>2815</Multiverseid>
 <Rulings>2004/10/04: If the creature leaves the battlefield without going to the graveyard, <Takklemaggot> is simply put into its owner's graveyard.
 2008/05/01: <Takklemaggot>'s controller no longer changes as it returns to the battlefield. The player who controlled it when it left the battlefield is the same player that controls it when it returns to the battlefield, even though a different player may be choosing what it will be attached to after returning onto the battlefield.
 2009/10/01: When the enchanted creature is put into a graveyard, <Takklemaggot>'s second ability triggers, then <Takklemaggot> is put into its owner's graveyard as a state-based action. When the ability resolves, if <Takklemaggot> is still in that graveyard, it's returned to the battlefield.
-2009/10/01: The player who controlled the creature that went to the graveyard (and caused <Takklemaggot>'s second ability to trigger) chooses what creature <Takklemaggot> will return to the battlefield attached to. The creature isn't chosen until the ability resolves, so no player can respond between the time the creature is chosen and the time <Takklemaggot> returns to the battlefield attached to it. The ability doesn't target a creature, so a creature with shroud, for example, can be chosen. However, only a creature that can be legally enchanted by <Takklemaggot> can be chosen, so a creature with protection from black, for example, can't be chosen. If the player can choose a creature, he or she must do so, no matter who controls it. If the player can't choose a creature, <Takklemaggot> returns to the battlefield as a non-Aura enchantment, and that player is the player that <Takklemaggot> will deal damage to.</Rulings>
+2009/10/01: The player who controlled the creature that went to the graveyard (and caused <Takklemaggot>'s second ability to trigger) chooses what creature <Takklemaggot> will return to the battlefield attached to. The creature isn't chosen until the ability resolves, so no player can respond between the time the creature is chosen and the time <Takklemaggot> returns to the battlefield attached to it. The ability doesn't target a creature, so a creature with shroud, for example, can be chosen. However, only a creature that can be legally enchanted by <Takklemaggot> can be chosen, so a creature with protection from black, for example, can't be chosen. If the player can choose a creature, they must do so, no matter who controls it. If the player can't choose a creature, <Takklemaggot> returns to the battlefield as a non-Aura enchantment, and that player is the player that <Takklemaggot> will deal damage to.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Chronicles</Set>
@@ -167,7 +165,7 @@ When enchanted creature dies, that creature's controller chooses a creature that
 <Name>The Fallen</Name>
 <Type>Creature — Zombie 2/3</Type>
 <ManaCost>1BBB (4)</ManaCost>
-<CardText>At the beginning of your upkeep, The Fallen deals 1 damage to each opponent it has dealt damage to this game.</CardText>
+<CardText>At the beginning of your upkeep, The Fallen deals 1 damage to each opponent and planeswalker it has dealt damage to this game.</CardText>
 <Flavor>Magic often masters those who cannot master it.</Flavor>
 <Artist>Jesper Myrfors</Artist>
 <Multiverseid>2817</Multiverseid>
@@ -309,7 +307,7 @@ At the beginning of your upkeep, sacrifice Dance of Many unless you pay {U}{U}.<
 <Multiverseid>2801</Multiverseid>
 <Rulings>2004/10/04: Destroying the creature that was copied will not cause the token creature to be destroyed as well.
 2004/10/04: Each <Dance of Many> is associated only with its token creature. If one Dance leaves the battlefield, only the corresponding token is affected, not all tokens from all instances of <Dance of Many>.
-2004/10/04: The ability is targeted and checks the validity of the target when put on the stack and when resolving. If the creature is not still there when the copy ability resolves, the ability is countered and no token is put onto the battlefield. This card remains on the battlefield as an enchantment with no token.
+2004/10/04: The ability is targeted and checks the validity of the target when put on the stack and when resolving. If the creature is not still there when the copy ability resolves, the ability doesn't resolve and no token is put onto the battlefield. This card remains on the battlefield as an enchantment with no token.
 2004/10/04: The mana cost is copied.
 2004/10/04: Treat the token as entering the battlefield as a copy of the chosen creature. If that creature normally gets counters when entering the battlefield, the token creature gets counters.
 2009/10/01: If <Dance of Many> leaves the battlefield before its first ability has resolved, its second ability will trigger and do nothing. Then its first ability will resolve and put a token onto the battlefield. That token won't have any connection to a <Dance of Many> permanent, so it won't be exiled when a <Dance of Many> leaves the battlefield.</Rulings>
@@ -465,7 +463,7 @@ When enchanted creature dies, return that card to its owner's hand. If that card
 <Name>Teleport</Name>
 <Type>Instant</Type>
 <ManaCost>UUU (3)</ManaCost>
-<CardText>Cast Teleport only during the declare attackers step.
+<CardText>Cast this spell only during the declare attackers step.
 Target creature can't be blocked this turn.</CardText>
 <Artist>Douglas Shuler</Artist>
 <Multiverseid>2816</Multiverseid>
@@ -672,8 +670,8 @@ Rampage 2 (Whenever this creature becomes blocked, it gets +2/+2 until end of tu
 <Name>Metamorphosis</Name>
 <Type>Sorcery</Type>
 <ManaCost>G (1)</ManaCost>
-<CardText>As an additional cost to cast Metamorphosis, sacrifice a creature.
-Add X mana of any one color, where X is one plus the sacrificed creature's converted mana cost. Spend this mana only to cast creature spells.</CardText>
+<CardText>As an additional cost to cast this spell, sacrifice a creature.
+Add X mana of any one color, where X is 1 plus the sacrificed creature's converted mana cost. Spend this mana only to cast creature spells.</CardText>
 <Artist>Christopher Rush</Artist>
 <Multiverseid>2833</Multiverseid>
 <Rulings>2004/10/04: This mana may be used on additional costs to cast the spell, such as Kicker.
@@ -811,10 +809,10 @@ Beasts of Bogardan gets +1/+1 as long as an opponent controls a nontoken white p
 <Flavor>Heavy light flooded across the landscape, cloaking everything in deep crimson.</Flavor>
 <Artist>Tom Wänerstrand</Artist>
 <Multiverseid>2842</Multiverseid>
-<Rulings>2017/03/14: Nonbasic lands will lose any other land types and abilities they had. They will gain the land type Mountain and gain the ability "{T}: Add {R}."
-2017/03/14: <Blood Moon>'s effect doesn't affect names or supertypes. It won't turn any land into a basic land or remove the legendary supertype from a legendary land, and the lands won't be named "Mountain."
-2017/03/14: If a nonbasic land has an ability that triggers "when" it enters the battlefield, it will lose that ability before it triggers.
-2017/09/29: If a nonbasic land has an ability that causes it to enter the battlefield tapped, it will lose that ability before it applies. The same is also true of any other abilities that modify how a land enters the battlefield or apply "as" a land enters the battlefield, such as the first ability of Cavern of Souls. This is a change from previous rulings.</Rulings>
+<Rulings>2017/09/29: If a nonbasic land has an ability that causes it to enter the battlefield tapped, it will lose that ability before it applies. The same is also true of any other abilities that modify how a land enters the battlefield or apply "as" a land enters the battlefield, such as the first ability of Cavern of Souls. This is a change from previous rulings.
+2018/03/16: Nonbasic lands will lose any other land types and abilities they had. They will gain the land type Mountain and gain the ability "{T}: Add {R}."
+2018/03/16: This effect doesn't affect names or supertypes. It won't turn any land into a basic land or remove the legendary supertype from a legendary land, and the lands won't be named "Mountain."
+2018/03/16: If a nonbasic land has an ability that triggers "when" it enters the battlefield, it will lose that ability before it triggers.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -910,7 +908,7 @@ When you control a Dwarf, sacrifice Goblins of the Flarg.</CardText>
 <Name>Land's Edge</Name>
 <Type>World Enchantment</Type>
 <ManaCost>1RR (3)</ManaCost>
-<CardText>Discard a card: If the discarded card was a land card, Land's Edge deals 2 damage to target player. Any player may activate this ability.</CardText>
+<CardText>Discard a card: If the discarded card was a land card, Land's Edge deals 2 damage to target player or planeswalker. Any player may activate this ability.</CardText>
 <Artist>Brian Snõddy</Artist>
 <Multiverseid>2848</Multiverseid>
 <Rulings>2004/10/04: The damage done when you discard a land only applies to lands which are discarded by choice using the <Land's Edge> ability. It does not work on forced discards of any type.
@@ -1213,7 +1211,7 @@ And found that I was for endurance made."
 <Name>Witch Hunter</Name>
 <Type>Creature — Human Cleric 1/1</Type>
 <ManaCost>2WW (4)</ManaCost>
-<CardText>{T}: Witch Hunter deals 1 damage to target player.
+<CardText>{T}: Witch Hunter deals 1 damage to target player or planeswalker.
 {1}{W}{W}, {T}: Return target creature an opponent controls to its owner's hand.</CardText>
 <Artist>Jesper Myrfors</Artist>
 <Multiverseid>2865</Multiverseid>
@@ -1368,7 +1366,7 @@ As long as you control another creature, prevent all damage that would be dealt 
 <Artist>Dan Frazier</Artist>
 <Multiverseid>2783</Multiverseid>
 <Rulings>2009/10/01: As you activate the ability, the targets you choose must be two artifacts, two creatures, or two lands. As the ability resolves, both targets will be legal only if they are two artifacts, two creatures, or two lands at that time as well, though they may be a different type than they were at the time the ability was activated. For example, if the targets were a creature and an artifact creature when the ability was activated, but the first target became a noncreature artifact by the time the ability resolves, both targets will still be legal (since they're both artifacts).
-2009/10/01: If one of the targets is illegal by the time the ability resolves (because the wrong player controls it, or it's the wrong card type, or for any other reason), the exchange doesn't happen. The target that's still legal will remain under its controller's control. Since the exchange doesn't happen, no Auras are destroyed. (If both targets are illegal, the ability is countered.)</Rulings>
+2009/10/01: If one of the targets is illegal by the time the ability resolves (because the wrong player controls it, or it's the wrong card type, or for any other reason), the exchange doesn't happen. The target that's still legal will remain under its controller's control. Since the exchange doesn't happen, no Auras are destroyed. (If both targets are illegal, the ability doesn't resolve.)</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Chronicles</Set>
@@ -1467,8 +1465,7 @@ As long as you control another creature, prevent all damage that would be dealt 
 <Artist>Christopher Rush</Artist>
 <Multiverseid>2789</Multiverseid>
 <Rulings>2004/10/04: Only returns to your hand if it is still on the battlefield at the end of the turn. If it leaves the battlefield, it does not return.
-2004/10/04: Can be used any number of times during the turn before it leaves the battlefield.
-2004/10/04: Can choose a different creature or player for each use.</Rulings>
+2004/10/04: Can be used any number of times during the turn before it leaves the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Chronicles</Set>
@@ -1550,8 +1547,7 @@ Sacrifice Triassic Egg: Choose one —
 • Return target creature card from your graveyard to the battlefield. Activate this ability only if two or more hatchling counters are on Triassic Egg.</CardText>
 <Artist>Dan Frazier</Artist>
 <Multiverseid>2794</Multiverseid>
-<Rulings>2004/10/04: You can use the sacrifice ability even if it is tapped.
-2008/04/01: A "creature card" is any card with the type creature, even if it has other types such as artifact, enchantment, or land. Older cards of type summon are also creature cards.</Rulings>
+<Rulings>2004/10/04: You can use the sacrifice ability even if it is tapped.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Chronicles</Set>
@@ -1831,7 +1827,7 @@ At the beginning of your upkeep, you may sacrifice Safe Haven. If you do, return
 At the beginning of your upkeep, sacrifice Arcades Sabboth unless you pay {G}{W}{U}.
 Each untapped creature you control gets +0/+2 as long as it's not attacking.
 {W}: Arcades Sabboth gets +0/+1 until end of turn.</CardText>
-<Artist>Edward Beard, Jr.</Artist>
+<Artist>Edward P. Beard, Jr.</Artist>
 <Multiverseid>2866</Multiverseid>
 <Rulings>2009/10/01: As long as <Arcades Sabboth> is untapped and isn't attacking, it'll get +0/+2 from its own third ability.</Rulings>
 <Vintage>Legal</Vintage>
@@ -1847,7 +1843,7 @@ Each untapped creature you control gets +0/+2 as long as it's not attacking.
 <Type>Legendary Creature — Giant 5/5</Type>
 <ManaCost>4BBRR (8)</ManaCost>
 <CardText>Trample
-Whenever a creature dealt damage by Axelrod Gunnarson this turn dies, you gain 1 life and Axelrod deals 1 damage to target player.</CardText>
+Whenever a creature dealt damage by Axelrod Gunnarson this turn dies, you gain 1 life and Axelrod deals 1 damage to target player or planeswalker.</CardText>
 <Artist>Scott Kirschner</Artist>
 <Multiverseid>2867</Multiverseid>
 <Rulings>2009/10/01: Each time a creature is put into a graveyard from play, check whether <Axelrod Gunnarson> had dealt any damage to it at any time during that turn. (This includes combat damage.) If so, <Axelrod Gunnarson>'s second ability will trigger. It doesn't matter who controlled the creature or whose graveyard it was put into.
@@ -1889,7 +1885,7 @@ Whenever a creature dealt damage by Axelrod Gunnarson this turn dies, you gain 1
 <CardText>Flying
 Rampage 2 (Whenever this creature becomes blocked, it gets +2/+2 until end of turn for each creature blocking it beyond the first.)
 At the beginning of your upkeep, sacrifice Chromium unless you pay {W}{U}{B}.</CardText>
-<Artist>Edward Beard, Jr.</Artist>
+<Artist>Edward P. Beard, Jr.</Artist>
 <Multiverseid>2869</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2002,7 +1998,7 @@ At the beginning of your upkeep, sacrifice Chromium unless you pay {W}{U}{B}.</C
 <CardText>Flying
 At the beginning of your upkeep, sacrifice Nicol Bolas unless you pay {U}{B}{R}.
 Whenever Nicol Bolas deals damage to an opponent, that player discards their hand.</CardText>
-<Artist>Edward Beard, Jr.</Artist>
+<Artist>Edward P. Beard, Jr.</Artist>
 <Multiverseid>2876</Multiverseid>
 <Rulings>2009/10/01: <Nicol Bolas>'s third ability triggers whenever it deals damage to an opponent for any reason. It's not limited to combat damage.</Rulings>
 <Vintage>Legal</Vintage>
@@ -2020,7 +2016,7 @@ Whenever Nicol Bolas deals damage to an opponent, that player discards their han
 <ManaCost>2WWRRGG (8)</ManaCost>
 <CardText>Flying, trample
 At the beginning of your upkeep, sacrifice Palladia-Mors unless you pay {R}{G}{W}.</CardText>
-<Artist>Edward Beard, Jr.</Artist>
+<Artist>Edward P. Beard, Jr.</Artist>
 <Multiverseid>2877</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2089,8 +2085,7 @@ Whenever a player casts a black spell, you gain 1 life.</CardText>
 <CardText>When Stangg enters the battlefield, create a legendary 3/4 red and green Human Warrior creature token named Stangg Twin. Exile that token when Stangg leaves the battlefield. Sacrifice Stangg when that token leaves the battlefield.</CardText>
 <Artist>Mark Poole</Artist>
 <Multiverseid>2881</Multiverseid>
-<Rulings>2009/10/01: <Stangg>'s delayed triggered abilities track only the token created by that particular <Stangg>.
-2009/10/01: If <Stangg> leaves the battlefield before its ability has resolved, that ability will still create a <Stangg> Twin token, but its delayed triggered abilities will never have a chance to trigger. That token will remain on the battlefield indefinitely (until it's dealt lethal damage, or anything else causes it to leave the battlefield).</Rulings>
+<Rulings>2018/03/16: If <Stangg> leaves the battlefield before its ability has resolved, that ability will still create a <Stangg> Twin token, but its delayed triggered ability that exiles the token will never have a chance to trigger. That token will remain on the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Chronicles</Set>
