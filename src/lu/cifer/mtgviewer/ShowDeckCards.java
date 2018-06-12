@@ -263,7 +263,7 @@ public class ShowDeckCards {
 			reader = new BufferedReader(new FileReader(file));
 			String str;
 			while ((str = reader.readLine()) != null) {
-				Pattern pattern = Pattern.compile("^(\\d+)\\s+(.*)$");
+				Pattern pattern = Pattern.compile("^(\\d+)\\s+(.*?)(\\|.*)?$");
 				Matcher matcher = pattern.matcher(str);
 				if (matcher.find()) {
 					String name = matcher.group(2);
