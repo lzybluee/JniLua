@@ -20,9 +20,11 @@ public class ShowDeckCards {
 
 	Vector<Vector<String>> standards = new Vector<>();
 	Vector<String> modern = new Vector<>();
+	Vector<String> frontier = new Vector<>();
 
 	public ShowDeckCards() {
 		initStandard();
+		initFrontier();
 		initModern();
 	}
 
@@ -33,6 +35,27 @@ public class ShowDeckCards {
 			String str = null;
 			while ((str = reader.readLine()) != null) {
 				modern.add(str);
+			}
+			reader.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			if (reader != null) {
+				try {
+					reader.close();
+				} catch (IOException e1) {
+				}
+			}
+		}
+	}
+
+	public void initFrontier() {
+		BufferedReader reader = null;
+		try {
+			reader = new BufferedReader(new FileReader("Script/frontier.txt"));
+			String str = null;
+			while ((str = reader.readLine()) != null) {
+				frontier.add(str);
 			}
 			reader.close();
 		} catch (IOException e) {
@@ -77,9 +100,14 @@ public class ShowDeckCards {
 		}
 	}
 
+	public String getDeckListName(String fileName) {
+		fileName = fileName.replaceAll("[^ -~]", "");
+		return fileName.substring(0, fileName.lastIndexOf(".")) + " - CardList.txt";
+	}
+
 	public void saveDeck(File file, String text) {
-		String name = file.getName();
-		name = name.substring(0, name.lastIndexOf(".")) + " - CardList.txt";
+		String name = getDeckListName(file.getName());
+
 		File outFolder = new File(file.getParentFile().getAbsolutePath()
 				.replace(File.separator + "decks" + File.separator, File.separator + "cardlist" + File.separator));
 		if (!outFolder.exists()) {
@@ -235,7 +263,23 @@ public class ShowDeckCards {
 		return false;
 	}
 
+	public boolean checkFrontier(CardInfo card) {
+		for (String set : frontier) {
+			for (ReprintInfo r : card.reprints) {
+				if (r.set.equals(set)) {
+					return true;
+				}
+			}
+		}
+		return false;
+	}
+
 	String[] sections = { "Commander", "Main", "Sideboard", "Scheme", "Planar" };
+
+	public String checkName(String name) {
+		name = name.replace("Lim-D?l", "Lim-Dul").replace("Æ", "Ae").replaceAll("[^ -~]ther", "Aether");
+		return name;
+	}
 
 	public String loadDeck(File file) {
 		System.out.println("Loading ... " + file.getAbsolutePath() + "\n");
@@ -258,19 +302,20 @@ public class ShowDeckCards {
 		String mana = "";
 
 		boolean isModern = true;
+		boolean isFrontier = true;
 
 		try {
 			reader = new BufferedReader(new FileReader(file));
 			String str;
 			while ((str = reader.readLine()) != null) {
 				Pattern pattern = Pattern.compile("^(\\d+)\\s+(.*?)(\\|.*)?$");
-				Matcher matcher = pattern.matcher(str);
+				Matcher matcher = pattern.matcher(str.trim());
 				if (matcher.find()) {
-					String name = matcher.group(2);
+					String name = checkName(matcher.group(2));
 					int num = Integer.parseInt(matcher.group(1));
 					CardInfo card = getCard(name);
 					if (card == null) {
-						System.err.println("Not Found!!! " + matcher.group(2) + " <- " + file.getAbsolutePath());
+						System.err.println("Not Found!!! " + name + " <- " + file.getAbsolutePath());
 						System.exit(0);
 					}
 
@@ -299,6 +344,7 @@ public class ShowDeckCards {
 					checkStandard(t2List, card);
 
 					isModern = isModern && checkModern(card);
+					isFrontier = isFrontier && checkFrontier(card);
 				} else {
 					str = str.toLowerCase();
 					for (String sec : sections) {
@@ -331,6 +377,10 @@ public class ShowDeckCards {
 
 		if (isModern) {
 			text += "<Modern>\n";
+		}
+
+		if (isFrontier) {
+			text += "<Frontier>\n";
 		}
 
 		if (!text.isEmpty()) {
