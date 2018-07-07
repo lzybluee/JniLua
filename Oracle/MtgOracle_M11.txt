@@ -47,10 +47,11 @@
 —Jazal Goldmane</Flavor>
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>205065</Multiverseid>
-<Rulings>2017/11/17: The ability of <Ajani's Pridemate> triggers just once for each life-gaining event, whether it's 1 life from Auriok Champion or 6 life from Tavern Swindler.
-2017/11/17: If <Ajani's Pridemate> is dealt lethal damage at the same time that you gain life, it won't receive a counter from its ability in time to save it.
-2017/11/17: Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, <Ajani's Pridemate>'s ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
-2017/11/17: In a Two-Headed Giant game, life gained by your teammate won't cause the ability to trigger, even though it causes your team's life total to increase.</Rulings>
+<Rulings>2018/07/13: The ability of <Ajani's Pridemate> triggers just once for each life-gaining event, whether it's 1 life from Ajani's Welcome or 3 life from Revitalize.
+2018/07/13: If <Ajani's Pridemate> is dealt lethal damage at the same time that you gain life, it won't receive a counter from its ability in time to save it.
+2018/07/13: Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, <Ajani's Pridemate>'s ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+2018/07/13: If you gain an amount of life "for each" of something, that life is gained as one event and the ability of <Ajani's Pridemate> triggers only once.
+2018/07/13: In a Two-Headed Giant game, life gained by your teammate won't cause the ability to trigger, even though it caused your team's life total to increase.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -404,7 +405,7 @@ You have hexproof. (You can't be the target of spells or abilities your opponent
 —Brezard Skeinbow, captain of the guard</Flavor>
 <Artist>rk post</Artist>
 <Multiverseid>208280</Multiverseid>
-<Rulings>2017/04/18: Giving a creature flying after it's already been blocked won't change or undo that block. If you want to affect what can block the creature, you must cast <Mighty Leap> during the declare attackers step at the latest.</Rulings>
+<Rulings>2018/07/13: Giving a creature flying after it's already been blocked won't change or undo that block. If you want to affect what can block the creature, you must cast <Mighty Leap> during the declare attackers step at the latest.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1361,8 +1362,7 @@ You control enchanted creature.</CardText>
 —Garild, merfolk mage</Flavor>
 <Artist>Chris Rahn</Artist>
 <Multiverseid>205120</Multiverseid>
-<Rulings>2009/10/01: The second part of <Sleep>'s effect affects all creatures the targeted player controls as <Sleep> resolves, not just the ones that <Sleep> actually caused to become tapped.
-2009/10/01: <Sleep> tracks both the player and the creatures. If one of the creatures controlled by the targeted player as <Sleep> resolves changes controllers, the creature will untap as normal during its new controller's next untap step.</Rulings>
+<Rulings>2018/07/13: The second part of <Sleep>'s ability affects all creatures the targeted player controls as <Sleep> resolves, not only the ones that <Sleep> actually caused to become tapped.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2048,14 +2048,11 @@ As Phylactery Lich enters the battlefield, put a phylactery counter on an artifa
 When you control no permanents with phylactery counters on them, sacrifice Phylactery Lich.</CardText>
 <Artist>Michael Komarck</Artist>
 <Multiverseid>205034</Multiverseid>
-<Rulings>2010/08/15: <Phylactery Lich>'s first ability doesn't target the artifact. You can choose an artifact that has shroud, for example.
-2010/08/15: If you control no artifacts as <Phylactery Lich> enters the battlefield, its first ability won't do anything. As soon as it enters the battlefield, its last ability will trigger (unless you control some other permanent with a phylactery counter on it) and you'll have to sacrifice it.
-2010/08/15: If <Phylactery Lich> and an artifact are entering the battlefield under your control at the same time, you can't put a phylactery counter on that artifact. You must choose an artifact you control that's already on the battlefield.
-2010/08/15: <Phylactery Lich>'s last ability is a "state trigger." Once a state trigger triggers, it won't trigger again as long as the ability is on the stack. If the ability is countered and the trigger condition is still true, it will immediately trigger again.
-2010/08/15: <Phylactery Lich>'s last ability checks whether you control any permanents with phylactery counters on them, not whether you control any artifacts with phylactery counters on them. If an artifact with a phylactery counter on it somehow ceases to be an artifact, <Phylactery Lich> doesn't care.
-2010/08/15: <Phylactery Lich>'s last ability checks your permanents for any phylactery counters, not just the specific one that it caused you to put on an artifact. For example, say you put a phylactery counter on a Demon's Horn as <Phylactery Lich> enters the battlefield. Then you put a phylactery counter on a Crystal Ball as another <Phylactery Lich> enters the battlefield. Then Crystal Ball is destroyed. Since you still control the Demon's Horn, the last ability of neither <Phylactery Lich> triggers.
-2010/08/15: The game continually checks whether you control a permanent with a phylactery counter on it. The moment you don't, <Phylactery Lich>'s last ability triggers. The ability doesn't check again, so you'll have to sacrifice <Phylactery Lich> when it resolves even if you wind up controlling a permanent with a phylactery counter on it by then.
-2013/07/01: Lethal damage, damage from a source with deathtouch, and effects that say "destroy" won't cause a creature with indestructible to be put into the graveyard. However, a creature with indestructible can be put into the graveyard for a number of reasons. The most likely reasons <Phylactery Lich> would be put into a graveyard are if it's sacrificed (perhaps due to its last ability), or if its toughness is 0 or less.</Rulings>
+<Rulings>2018/07/13: <Phylactery Lich>'s first ability doesn't target the artifact. No player may take actions between the time you choose an artifact and the time you put a phylactery counter on it.
+2018/07/13: If you control no artifacts as <Phylactery Lich> enters the battlefield, its first ability won't do anything. As soon as it enters the battlefield, its last ability will trigger (unless you control some other permanent with a phylactery counter on it) and you'll have to sacrifice it.
+2018/07/13: If <Phylactery Lich> and an artifact are entering the battlefield under your control at the same time, you can't put a phylactery counter on that artifact. You must choose an artifact you control that's already on the battlefield.
+2018/07/13: <Phylactery Lich>'s last ability is a "state trigger." Once a state trigger triggers, it won't trigger again as long as the ability is on the stack. If the ability is countered and the trigger condition is still true, it will immediately trigger again.
+2018/07/13: <Phylactery Lich>'s last ability checks your permanents for any phylactery counters, not just the specific one that it caused you to put on an artifact. For example, if you control two <Phylactery Lich>es and two different artifacts with phylactery counters, neither <Phylactery Lich> will be sacrificed if one of those artifacts leaves the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2130,10 +2127,9 @@ A deck can have any number of cards named Relentless Rats.</CardText>
 —Liliana Vess</Flavor>
 <Artist>Vance Kovacs</Artist>
 <Multiverseid>205113</Multiverseid>
-<Rulings>2009/10/01: <Rise from the Grave> doesn't overwrite any previous colors or types. Rather, it adds another color and another subtype.
-2009/10/01: If the targeted creature is normally colorless, it will simply become black. It won't be both black and colorless.
-2009/10/01: A later effect that changes the affected creature's colors will overwrite that part of <Rise from the Grave> effect; the creature will be just the new color. The same is true about an effect that changes the affected creature's types or subtypes.
-2009/10/01: A "creature card" is any card with the type creature, even if it has other types such as artifact, enchantment, or land. Older cards of type summon are also creature cards.</Rulings>
+<Rulings>2018/07/13: <Rise from the Grave> doesn't overwrite any previous colors or types. Rather, it adds another color and another subtype.
+2018/07/13: If the creature is normally colorless, it will simply become black. It can't be both black and colorless.
+2018/07/13: A later effect that changes the affected creature's colors will overwrite that part of <Rise from the Grave>'s effect; the creature will be only the new color. The same is true about an effect that changes the affected creature's types or subtypes.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2263,9 +2259,8 @@ Enchanted creature gets +2/+1.</CardText>
 —Sarkhan Vol</Flavor>
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>205072</Multiverseid>
-<Rulings>2009/10/01: <Act of Treason> can target any creature, even one that's untapped or one you already control.
-2010/08/15: Gaining control of a creature doesn't cause you to gain control of any Auras or Equipment attached to it.
-2013/07/01: If you control a legendary creature and gain control of another legendary creature with the same name, you'll choose one to remain on the battlefield and put the other into its owner's graveyard.</Rulings>
+<Rulings>2018/07/13: <Act of Treason> can target any creature, even one that's untapped or one you already control.
+2018/07/13: Gaining control of a creature doesn't cause you to gain control of any Auras or Equipment attached to it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

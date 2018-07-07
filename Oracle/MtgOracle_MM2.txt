@@ -493,7 +493,7 @@ You have hexproof. (You can't be the target of spells or abilities your opponent
 —Brezard Skeinbow, captain of the guard</Flavor>
 <Artist>rk post</Artist>
 <Multiverseid>397681</Multiverseid>
-<Rulings>2017/04/18: Giving a creature flying after it's already been blocked won't change or undo that block. If you want to affect what can block the creature, you must cast <Mighty Leap> during the declare attackers step at the latest.</Rulings>
+<Rulings>2018/07/13: Giving a creature flying after it's already been blocked won't change or undo that block. If you want to affect what can block the creature, you must cast <Mighty Leap> during the declare attackers step at the latest.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2021,8 +2021,9 @@ If X is 5 or more, this spell can't be countered and the damage can't be prevent
 <Flavor>For Sarkhan Vol, the dragon is the purest expression of life's savage splendor.</Flavor>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>397676</Multiverseid>
-<Rulings>2009/02/01: <Banefire> checks the number you chose for X, not the amount of mana you actually spent.
-2009/02/01: <Banefire> can be targeted by spells that try to counter it (such as Countersquall) regardless of what the value of X is. If X is 5 or more, those spells will still resolve, but the part of their effect that would counter <Banefire> won't do anything. Any other effects those spells have will work as normal.</Rulings>
+<Rulings>2018/07/13: To determine whether it can be countered and its damage can be prevented, <Banefire> checks the number you chose for X, not the amount of mana you actually spent or the amount of damage it will actually deal.
+2018/07/13: <Banefire> can be targeted by spells that try to counter it regardless of what the value of X is. If X is 5 or more, those spells will still resolve, but the part of their effect that would counter <Banefire> won't do anything. Any other effects those spells have will work as normal.
+2018/07/13: If its target is illegal by the time <Banefire> tries to resolve, the spell isn't countered, but it doesn't resolve. The target won't be dealt damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2349,7 +2350,7 @@ Whenever Hellkite Charger attacks, you may pay {5}{R}{R}. If you do, untap all a
 <Type>Legendary Creature — Goblin Shaman 2/2</Type>
 <ManaCost>2RRR (5)</ManaCost>
 <CardText>Haste
-{T}: Create a token that's a copy of target nonlegendary creature you control. That token has haste. Sacrifice it at the beginning of the next end step.</CardText>
+{T}: Create a token that's a copy of target nonlegendary creature you control, except it has haste. Sacrifice it at the beginning of the next end step.</CardText>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>397698</Multiverseid>
 <Rulings>2017/11/17: The token copies exactly what was printed on the creature and nothing else (unless that creature was copying something else or was a token; see below). It doesn't copy whether that creature was tapped or untapped, whether it had any counters on it or Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on.
@@ -2507,7 +2508,7 @@ Evoke {1}{R}{R} (You may cast this spell for its evoke cost. If you do, it's sac
 <Type>Enchantment — Aura</Type>
 <ManaCost>2RR (4)</ManaCost>
 <CardText>Enchant creature
-Enchanted creature has "{T}: Create a token that's a copy of this creature. That token has haste. Exile it at the beginning of the next end step."</CardText>
+Enchanted creature has "{T}: Create a token that's a copy of this creature, except it has haste. Exile that token at the beginning of the next end step."</CardText>
 <Flavor>"I know just the person for that job."</Flavor>
 <Artist>Goran Josic</Artist>
 <Multiverseid>397816</Multiverseid>
