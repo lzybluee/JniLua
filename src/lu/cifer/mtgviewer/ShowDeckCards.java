@@ -282,20 +282,20 @@ public class ShowDeckCards {
 	}
 
 	public void checkColor(String mana, Vector<String> colors) {
-		if (mana.contains("W") && !colors.contains("White")) {
-			colors.add("White");
+		if (mana.contains("W") && !colors.contains("W")) {
+			colors.add("W");
 		}
-		if (mana.contains("U") && !colors.contains("Blue")) {
-			colors.add("Blue");
+		if (mana.contains("U") && !colors.contains("U")) {
+			colors.add("U");
 		}
-		if (mana.contains("B") && !colors.contains("Black")) {
-			colors.add("Black");
+		if (mana.contains("B") && !colors.contains("B")) {
+			colors.add("B");
 		}
-		if (mana.contains("R") && !colors.contains("Red")) {
-			colors.add("Red");
+		if (mana.contains("R") && !colors.contains("R")) {
+			colors.add("R");
 		}
-		if (mana.contains("G") && !colors.contains("Green")) {
-			colors.add("Green");
+		if (mana.contains("G") && !colors.contains("G")) {
+			colors.add("G");
 		}
 	}
 
@@ -340,20 +340,20 @@ public class ShowDeckCards {
 						System.exit(0);
 					}
 
-					if (card.mana != null) {
-						String mana = card.mana;
-						if (card.isSplit) {
-							mana += CardAnalyzer.get(card.otherPart.get(0)).mana;
-						}
-						checkColor(mana, deckColors);
-					}
-
 					if (cards.get(tag).containsKey(card)) {
 						num += cards.get(tag).get(card);
 					}
 					cards.get(tag).put(card, num);
 
 					if (tag.equals("main")) {
+						if (card.mana != null) {
+							String mana = card.mana;
+							if (card.isSplit) {
+								mana += CardAnalyzer.get(card.otherPart.get(0)).mana;
+							}
+							checkColor(mana, deckColors);
+						}
+
 						if (card.types.contains("Land")) {
 							landNum += num;
 						}
@@ -416,8 +416,20 @@ public class ShowDeckCards {
 		if (deckColors.isEmpty()) {
 			colors = "Colorless";
 		} else {
-			for (String c : deckColors) {
-				colors += c + " ";
+			if (deckColors.contains("W")) {
+				colors += "White ";
+			}
+			if (deckColors.contains("U")) {
+				colors += "Blue ";
+			}
+			if (deckColors.contains("B")) {
+				colors += "Black ";
+			}
+			if (deckColors.contains("R")) {
+				colors += "Red ";
+			}
+			if (deckColors.contains("G")) {
+				colors += "Green ";
 			}
 			colors = colors.substring(0, colors.length() - 1);
 		}
