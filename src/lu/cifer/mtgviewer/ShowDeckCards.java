@@ -282,6 +282,9 @@ public class ShowDeckCards {
 	}
 
 	public void checkColor(String mana, Vector<String> colors) {
+		if (mana.contains("P")) {
+			return;
+		}
 		if (mana.contains("W") && !colors.contains("W")) {
 			colors.add("W");
 		}
