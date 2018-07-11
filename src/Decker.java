@@ -14,7 +14,7 @@ public class Decker {
 		String title = CardAnalyzer.initData();
 		
 		ShowDeckCards showDeckCards = new ShowDeckCards();
-		showDeckCards.loadDeckFolder("decks/constructed/Standard");
+		showDeckCards.loadDeckFolder("decks");
 	}
 
 }

@@ -102,7 +102,7 @@ public class ShowDeckCards {
 
 	public String getDeckListName(String fileName) {
 		fileName = fileName.replaceAll("[^ -~]", "");
-		return fileName.substring(0, fileName.lastIndexOf(".")) + " - CardList.txt";
+		return fileName.substring(0, fileName.lastIndexOf(".")) + ".txt";
 	}
 
 	public void saveDeck(File file, String text) {
@@ -281,6 +281,24 @@ public class ShowDeckCards {
 		return name;
 	}
 
+	public void checkColor(String mana, Vector<String> colors) {
+		if (mana.contains("W") && !colors.contains("White")) {
+			colors.add("White");
+		}
+		if (mana.contains("U") && !colors.contains("Blue")) {
+			colors.add("Blue");
+		}
+		if (mana.contains("B") && !colors.contains("Black")) {
+			colors.add("Black");
+		}
+		if (mana.contains("R") && !colors.contains("Red")) {
+			colors.add("Red");
+		}
+		if (mana.contains("G") && !colors.contains("Green")) {
+			colors.add("Green");
+		}
+	}
+
 	public String loadDeck(File file) {
 		System.out.println("Loading ... " + file.getAbsolutePath() + "\n");
 		BufferedReader reader = null;
@@ -299,10 +317,10 @@ public class ShowDeckCards {
 		int cardNum = 0;
 		int landNum = 0;
 		float totalCmc = 0;
-		String mana = "";
 
 		boolean isModern = true;
 		boolean isFrontier = true;
+		Vector<String> deckColors = new Vector<>();
 
 		try {
 			reader = new BufferedReader(new FileReader(file));
@@ -312,6 +330,9 @@ public class ShowDeckCards {
 				Matcher matcher = pattern.matcher(str.trim());
 				if (matcher.find()) {
 					String name = checkName(matcher.group(2));
+					if (!name.equals(matcher.group(2))) {
+						System.err.println("Fix name '" + matcher.group(2) + "' -> '" + name + "'");
+					}
 					int num = Integer.parseInt(matcher.group(1));
 					CardInfo card = getCard(name);
 					if (card == null) {
@@ -319,27 +340,30 @@ public class ShowDeckCards {
 						System.exit(0);
 					}
 
-					if (card.types.contains("Land")) {
-						landNum += num;
-					}
-					int cmc = card.converted;
-					if (card.isSplit) {
-						cmc += CardAnalyzer.get(card.otherPart.get(0)).converted;
-					}
-					totalCmc += cmc * num;
-					cardNum += num;
-
 					if (card.mana != null) {
-						mana += card.mana;
+						String mana = card.mana;
 						if (card.isSplit) {
 							mana += CardAnalyzer.get(card.otherPart.get(0)).mana;
 						}
+						checkColor(mana, deckColors);
 					}
 
 					if (cards.get(tag).containsKey(card)) {
 						num += cards.get(tag).get(card);
 					}
 					cards.get(tag).put(card, num);
+
+					if (tag.equals("main")) {
+						if (card.types.contains("Land")) {
+							landNum += num;
+						}
+						int cmc = card.converted;
+						if (card.isSplit) {
+							cmc += CardAnalyzer.get(card.otherPart.get(0)).converted;
+						}
+						totalCmc += cmc * num;
+						cardNum += num;
+					}
 
 					checkStandard(t2List, card);
 
@@ -388,25 +412,13 @@ public class ShowDeckCards {
 		}
 
 		String colors = "";
-		if (mana.contains("W")) {
-			colors += "White ";
-		}
-		if (mana.contains("U")) {
-			colors += "Blue ";
-		}
-		if (mana.contains("B")) {
-			colors += "Black ";
-		}
-		if (mana.contains("R")) {
-			colors += "Red ";
-		}
-		if (mana.contains("G")) {
-			colors += "Green ";
-		}
 
-		if (colors.isEmpty()) {
+		if (deckColors.isEmpty()) {
 			colors = "Colorless";
-		} else if (colors.endsWith(" ")) {
+		} else {
+			for (String c : deckColors) {
+				colors += c + " ";
+			}
 			colors = colors.substring(0, colors.length() - 1);
 		}
 
