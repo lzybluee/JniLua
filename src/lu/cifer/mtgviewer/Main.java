@@ -102,8 +102,7 @@ public class Main {
 		// ================\n");
 
 		int count = CardAnalyzer.searchCard(
-				"return (c and legend and partIndex <= 1 and (text or cmc == 1)) or (text and string.find(text, 'can be your commander'))",
-				false);
+				"return (c and legend and partIndex <= 1 and (text or cmc == 1)) or (text and string.find(text, 'can be your commander'))");
 
 		System.out.println("[Commander : " + count + "]\n");
 

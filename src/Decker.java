@@ -1,5 +1,4 @@
 import lu.cifer.mtgviewer.CardAnalyzer;
-import lu.cifer.mtgviewer.CardAnalyzer.CardInfo;
 import lu.cifer.mtgviewer.CardParser;
 import lu.cifer.mtgviewer.LuaScript;
 import lu.cifer.mtgviewer.ShowDeckCards;
@@ -22,106 +21,42 @@ public class Decker {
 		System.out.println();
 
 		int n = 0;
-		int nn = 0;
 
-		for (CardInfo c : showDeckCards.getAllCards()) {
-			if (c.types.contains("Creature") && !c.isLegendary) {
-				n++;
-			}
-		}
+		n = CardAnalyzer.searchCard("return c and not legend", showDeckCards.getAllCards());
 
-		System.out.println("non-legned " + n);
+		System.out.println("c and not legend " + n);
 
-		n = 0;
-		for (CardInfo c : showDeckCards.getAllCards()) {
-			if (c.types.contains("Creature") && !((c.mana != null && c.mana.contains("B"))
-					|| (c.colorIndicator != null && c.colorIndicator.contains("Black")))) {
-				n++;
-			}
-		}
+		n = CardAnalyzer.searchCard("return c and not b", showDeckCards.getAllCards());
 
-		System.out.println("non-black " + n);
+		System.out.println("c and not b " + n);
 
-		System.out.println();
+		n = CardAnalyzer.searchCard("return mono and w", showDeckCards.getAllCards());
 
-		n = 0;
-		nn = 0;
-		for (CardInfo c : showDeckCards.getAllCards()) {
-			if ((c.mana != null && c.mana.contains("W"))
-					|| (c.colorIndicator != null && c.colorIndicator.contains("White"))) {
-				if (c.types.contains("Creature")) {
-					n++;
-				} else {
-					nn++;
-				}
-			}
-		}
+		System.out.println("mono and w " + n);
 
-		System.out.println("White " + n + ", " + nn);
+		n = CardAnalyzer.searchCard("return mono and u", showDeckCards.getAllCards());
 
-		n = 0;
-		nn = 0;
-		for (CardInfo c : showDeckCards.getAllCards()) {
-			if ((c.mana != null && c.mana.contains("U"))
-					|| (c.colorIndicator != null && c.colorIndicator.contains("Blue"))) {
-				if (c.types.contains("Creature")) {
-					n++;
-				} else {
-					nn++;
-				}
-			}
-		}
+		System.out.println("mono and u " + n);
 
-		System.out.println("Blue " + n + ", " + nn);
+		n = CardAnalyzer.searchCard("return mono and b", showDeckCards.getAllCards());
 
-		n = 0;
-		nn = 0;
-		for (CardInfo c : showDeckCards.getAllCards()) {
-			if ((c.mana != null && c.mana.contains("B"))
-					|| (c.colorIndicator != null && c.colorIndicator.contains("Black"))) {
-				if (c.types.contains("Creature")) {
-					n++;
-				} else {
-					nn++;
-				}
-			}
-		}
+		System.out.println("mono and b " + n);
 
-		System.out.println("Black " + n + ", " + nn);
+		n = CardAnalyzer.searchCard("return mono and r", showDeckCards.getAllCards());
 
-		n = 0;
-		nn = 0;
-		for (CardInfo c : showDeckCards.getAllCards()) {
-			if ((c.mana != null && c.mana.contains("R"))
-					|| (c.colorIndicator != null && c.colorIndicator.contains("Red"))) {
-				if (c.types.contains("Creature")) {
-					n++;
-				} else {
-					nn++;
-				}
-			}
-		}
+		System.out.println("mono and r " + n);
 
-		System.out.println("Red " + n + ", " + nn);
+		n = CardAnalyzer.searchCard("return mono and g", showDeckCards.getAllCards());
 
-		n = 0;
-		nn = 0;
-		for (CardInfo c : showDeckCards.getAllCards()) {
-			if ((c.mana != null && c.mana.contains("G"))
-					|| (c.colorIndicator != null && c.colorIndicator.contains("Green"))) {
-				if (c.types.contains("Creature")) {
-					n++;
-				} else {
-					nn++;
-				}
-			}
-		}
+		System.out.println("mono and g " + n);
 
-		System.out.println("Green " + n + ", " + nn);
+		n = CardAnalyzer.searchCard("return m", showDeckCards.getAllCards());
 
-		n = CardAnalyzer.searchCard("return c and g", showDeckCards.getAllCards());
+		System.out.println("m " + n);
+		
+		n = CardAnalyzer.searchCard("return cl", showDeckCards.getAllCards());
 
-		System.out.println("CardAnalyzer.searchCard " + n);
+		System.out.println("cl " + n);
 	}
 
 }

@@ -1003,10 +1003,6 @@ public class CardAnalyzer {
 		return searchCard(script, false, external);
 	}
 
-	public static int searchCard(String script, boolean searchResult) {
-		return searchCard(script, searchResult, null);
-	}
-
 	public static int searchCard(String script, boolean searchResult, Vector<CardInfo> external) {
 		Vector<ReprintInfo> cards = new Vector<>();
 		boolean skipSearch = false;
