@@ -21,11 +21,16 @@ public class ShowDeckCards {
 	Vector<Vector<String>> standards = new Vector<>();
 	Vector<String> modern = new Vector<>();
 	Vector<String> frontier = new Vector<>();
+	Vector<CardInfo> allCards = new Vector<>();
 
 	public ShowDeckCards() {
 		initStandard();
 		initFrontier();
 		initModern();
+	}
+
+	public Vector<CardInfo> getAllCards() {
+		return allCards;
 	}
 
 	public void initModern() {
@@ -347,6 +352,10 @@ public class ShowDeckCards {
 						num += cards.get(tag).get(card);
 					}
 					cards.get(tag).put(card, num);
+
+					if (!allCards.contains(card)) {
+						allCards.add(card);
+					}
 
 					if (tag.equals("main")) {
 						if (card.mana != null) {
