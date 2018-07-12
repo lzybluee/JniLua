@@ -501,7 +501,9 @@ public class CardAnalyzer {
 			} else if (card.partIndex == 2) {
 				card.isFlip = true;
 				otherCard = cardDatabase.get(entry);
-				otherCard.isFlip = true;
+				if (otherCard != null) {
+					otherCard.isFlip = true;
+				}
 			}
 		}
 
@@ -801,7 +803,7 @@ public class CardAnalyzer {
 		return reprint;
 	}
 
-	public static ReprintInfo processCard(String str, HashMap<String, Object> map) {
+	public static ReprintInfo processCard(String str, HashMap<String, Object> map, File file) {
 		ReprintInfo reprint = null;
 
 		String name = getEntry(str, "Name");
@@ -811,6 +813,7 @@ public class CardAnalyzer {
 				CardInfo c1 = getNewCard(getEntry(str, "Card"));
 				CardInfo c2 = cardDatabase.get(name);
 				if (!isSameFunction(c1, c2)) {
+					System.out.println(file.getName());
 					System.out.println(c1);
 					System.out.println("<<<<<<<<<<<<<<>>>>>>>>>>>>>>");
 					System.out.println(c2);
@@ -830,7 +833,7 @@ public class CardAnalyzer {
 
 		if (map.containsKey(name)) {
 			Object obj = map.get(name);
-			if(obj instanceof ReprintInfo) {
+			if (obj instanceof ReprintInfo) {
 				ReprintInfo info = (ReprintInfo) obj;
 				info.sameIndex = 1;
 				reprint.sameIndex = 2;
@@ -858,7 +861,7 @@ public class CardAnalyzer {
 			String card = "";
 			while ((str = reader.readLine()) != null) {
 				if (str.isEmpty()) {
-					processCard(card, map);
+					processCard(card, map, file);
 					card = "";
 				} else {
 					card += str + "\n";
@@ -992,7 +995,19 @@ public class CardAnalyzer {
 		return true;
 	}
 
+	public static int searchCard(String script) {
+		return searchCard(script, false, null);
+	}
+
+	public static int searchCard(String script, Vector<CardInfo> external) {
+		return searchCard(script, false, external);
+	}
+
 	public static int searchCard(String script, boolean searchResult) {
+		return searchCard(script, searchResult, null);
+	}
+
+	public static int searchCard(String script, boolean searchResult, Vector<CardInfo> external) {
 		Vector<ReprintInfo> cards = new Vector<>();
 		boolean skipSearch = false;
 		boolean noResult = false;
@@ -1029,12 +1044,23 @@ public class CardAnalyzer {
 						return -1;
 					}
 				}
-			} else {
+			} else if (external == null) {
 				for (String name : allName) {
 					if (stop) {
 						break;
 					}
 					CardInfo card = cardDatabase.get(name);
+					for (ReprintInfo reprint : card.reprints) {
+						if (!checkCard(reprint, script, cards)) {
+							return -1;
+						}
+					}
+				}
+			} else {
+				for (CardInfo card : external) {
+					if (stop) {
+						break;
+					}
 					for (ReprintInfo reprint : card.reprints) {
 						if (!checkCard(reprint, script, cards)) {
 							return -1;

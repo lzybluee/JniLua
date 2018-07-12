@@ -15,10 +15,10 @@ public class Decker {
 		CardAnalyzer.initData();
 
 		ShowDeckCards showDeckCards = new ShowDeckCards();
-		showDeckCards.loadDeckFolder("decks");
+		showDeckCards.loadDeckFolder("decks/constructed/Modern");
 
 		System.out.println(showDeckCards.getAllCards().size() + " cards");
-		
+
 		System.out.println();
 
 		int n = 0;
@@ -118,6 +118,10 @@ public class Decker {
 		}
 
 		System.out.println("Green " + n + ", " + nn);
+
+		n = CardAnalyzer.searchCard("return c and g", showDeckCards.getAllCards());
+
+		System.out.println("CardAnalyzer.searchCard " + n);
 	}
 
 }
