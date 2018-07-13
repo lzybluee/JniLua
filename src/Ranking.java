@@ -1,5 +1,7 @@
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Vector;
@@ -7,6 +9,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import lu.cifer.mtgviewer.CardAnalyzer;
+import lu.cifer.mtgviewer.CardAnalyzer.CardInfo;
 import lu.cifer.mtgviewer.CardAnalyzer.ReprintInfo;
 import lu.cifer.mtgviewer.CardParser;
 
@@ -17,12 +20,15 @@ public class Ranking {
 		float score;
 	}
 
-	static Vector<CardRank> ranks = new Vector<>();
-
 	public static void getRank(String set) {
 		BufferedReader reader = null;
+		BufferedWriter writer = null;
+
+		Vector<CardRank> ranks = new Vector<>();
+
 		try {
 			reader = new BufferedReader(new FileReader("Rankings/" + set + ".txt"));
+			writer = new BufferedWriter(new FileWriter("Rankings/" + set + "_Rank.txt"));
 			String str = null;
 			while ((str = reader.readLine()) != null) {
 				Pattern p = Pattern.compile("name:\"(.*?)\".*?myrating:\"(.*?)\"");
@@ -80,8 +86,23 @@ public class Ranking {
 					name = rp.card.simpleName + " " + CardAnalyzer.get(rp.card.otherPart.get(0)).simpleName;
 				}
 				System.out.println("#" + (i + 1) + "|" + name + "|" + rp.rarity.charAt(0) + "|" + set);
+				writer.write("#" + (i + 1) + " | " + cr.score + " | " + rp.rarity.charAt(0) + "\n");
+				writer.write(rp.card.name + "\n");
+				writer.write(rp.card.toSimpleString());
+				if (rp.card.otherPart.size() > 0) {
+					writer.write("<<------------------------------->>\n");
+					for (String s : rp.card.otherPart) {
+						CardInfo other = CardAnalyzer.get(s);
+						if (!other.isSplit) {
+							writer.write(other.simpleName + "\n");
+						}
+						writer.write(other.toSimpleString());
+					}
+				}
+				writer.write("\n");
 			}
 			reader.close();
+			writer.close();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -90,6 +111,21 @@ public class Ranking {
 	public static void main(String[] args) {
 		CardParser.initOracle();
 		CardAnalyzer.initData();
+		getRank("A25");
+		getRank("AER");
+		getRank("AKH");
+		getRank("BFZ");
+		getRank("DOM");
+		getRank("DTK");
 		getRank("EMN");
+		getRank("HOU");
+		getRank("IMA");
+		getRank("KLD");
+		getRank("MM3");
+		getRank("OGW");
+		getRank("ORI");
+		getRank("RIX");
+		getRank("SOI");
+		getRank("XLN");
 	}
 }
