@@ -18,6 +18,7 @@ import lu.cifer.mtgviewer.CardAnalyzer.ReprintInfo;
 
 public class ShowDeckCards {
 
+	File rootFolder;
 	Vector<Vector<String>> standards = new Vector<>();
 	Vector<String> modern = new Vector<>();
 	Vector<String> frontier = new Vector<>();
@@ -113,8 +114,8 @@ public class ShowDeckCards {
 	public void saveDeck(File file, String text) {
 		String name = getDeckListName(file.getName());
 
-		File outFolder = new File(file.getParentFile().getAbsolutePath()
-				.replace(File.separator + "decks" + File.separator, File.separator + "cardlist" + File.separator));
+		File outFolder = new File(
+				file.getParentFile().getAbsolutePath().replace(rootFolder.getAbsolutePath(), "cardlist"));
 		if (!outFolder.exists()) {
 			outFolder.mkdirs();
 		}
@@ -279,11 +280,15 @@ public class ShowDeckCards {
 		return false;
 	}
 
-	String[] sections = { "Commander", "Main", "Sideboard", "Scheme", "Planar" };
+	String[] sections = { "Commander", "Main", "Sideboard", "Schemes", "Planes" };
 
 	public String checkName(String name) {
 		name = name.replace("Lim-D?l", "Lim-Dul").replace("Æ", "Ae").replaceAll("[^ -~]ther", "Aether");
 		return name;
+	}
+
+	public boolean isAvatar(String name) {
+		return name.endsWith(" Avatar") || name.equals("Maraxus") || name.equals("Karn") || name.equals("Tahngarth");
 	}
 
 	public void checkColor(String mana, Vector<String> colors) {
@@ -308,7 +313,7 @@ public class ShowDeckCards {
 	}
 
 	public String loadDeck(File file) {
-		System.out.println("Loading ... " + file.getAbsolutePath() + "\n");
+		System.out.println("Loading ... " + file.getAbsolutePath());
 		BufferedReader reader = null;
 
 		HashMap<String, HashMap<CardInfo, Integer>> cards = new HashMap<>();
@@ -334,18 +339,22 @@ public class ShowDeckCards {
 			reader = new BufferedReader(new FileReader(file));
 			String str;
 			while ((str = reader.readLine()) != null) {
-				Pattern pattern = Pattern.compile("^(\\d+)\\s+(.*?)(\\|.*)?$");
+				Pattern pattern = Pattern.compile("^(\\d+)\\s+(.*?)(\\+?)(\\|.*)?$");
 				Matcher matcher = pattern.matcher(str.trim());
 				if (matcher.find()) {
 					String name = checkName(matcher.group(2));
 					if (!name.equals(matcher.group(2))) {
-						System.err.println("Fix name '" + matcher.group(2) + "' -> '" + name + "'");
+						System.err.println("[Fix] Name '" + matcher.group(2) + "' -> '" + name + "'");
 					}
 					int num = Integer.parseInt(matcher.group(1));
 					CardInfo card = getCard(name);
 					if (card == null) {
-						System.err.println("Not Found!!! " + name + " <- " + file.getAbsolutePath());
-						System.exit(0);
+						if (isAvatar(name)) {
+							continue;
+						} else {
+							System.err.println("Not Found!!! " + name + " <- " + file.getAbsolutePath());
+							System.exit(0);
+						}
 					}
 
 					if (cards.get(tag).containsKey(card)) {
@@ -383,6 +392,14 @@ public class ShowDeckCards {
 					isFrontier = isFrontier && checkFrontier(card);
 				} else {
 					str = str.toLowerCase();
+					if(str.equals("[scheme]")) {
+						str = "[schemes]";
+						System.err.println("[Fix] Section name -> schemes");
+					}
+					if(str.equals("[planar]")) {
+						str = "[planes]";
+						System.err.println("[Fix] Section name -> planes");
+					}
 					for (String sec : sections) {
 						if (str.contains("[" + sec.toLowerCase())) {
 							tag = str.substring(1, str.indexOf("]"));
@@ -470,10 +487,10 @@ public class ShowDeckCards {
 	}
 
 	public void loadDeckFolder(String folder) {
-		File file = new File(folder);
-		if (!file.exists()) {
+		rootFolder = new File(folder);
+		if (!rootFolder.exists()) {
 			return;
 		}
-		loadFile(file);
+		loadFile(rootFolder);
 	}
 }
