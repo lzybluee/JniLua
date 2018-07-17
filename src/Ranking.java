@@ -87,15 +87,13 @@ public class Ranking {
 				}
 				System.out.println("#" + (i + 1) + "|" + name + "|" + rp.rarity.charAt(0) + "|" + set);
 				writer.write("#" + (i + 1) + " | " + cr.score + " | " + rp.rarity.charAt(0) + "\n");
-				writer.write(rp.card.name + "\n");
+				writer.write(rp.card.simpleName + "\n");
 				writer.write(rp.card.toSimpleString());
 				if (rp.card.otherPart.size() > 0) {
 					writer.write("<<------------------------------->>\n");
 					for (String s : rp.card.otherPart) {
 						CardInfo other = CardAnalyzer.get(s);
-						if (!other.isSplit) {
-							writer.write(other.simpleName + "\n");
-						}
+						writer.write(other.simpleName + "\n");
 						writer.write(other.toSimpleString());
 					}
 				}
