@@ -1046,6 +1046,10 @@ When Mulldrifter enters the battlefield, draw two cards.
 Evoke {2}{U} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)</CardText>
 <Artist>Eric Fortune</Artist>
 <Multiverseid>370535</Multiverseid>
+<Rulings>2018/07/13: Evoke is an alternative cost to cast the spell with evoke. It can't be combined with other alternative costs, such as casting a spell "without paying its mana cost."
+2018/07/13: To determine the total cost of a spell, start with the mana cost or alternative cost (such as an evoke cost) you're paying, add any cost increases, then apply any cost reductions. The converted mana cost of the spell remains unchanged, no matter what the total cost to cast it was.
+2018/07/13: If a creature with evoke enters the battlefield without being cast, you won't have to sacrifice it.
+2018/07/13: The ability that causes you to sacrifice an evoked creature is a triggered ability. Players may respond to this triggered ability while the creature is still on the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3890,11 +3894,13 @@ Defender, flying</CardText>
 Retrace (You may cast this card from your graveyard by discarding a land card in addition to paying its other costs.)</CardText>
 <Artist>Chuck Lukacs</Artist>
 <Multiverseid>370532</Multiverseid>
-<Rulings>2008/08/01: Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You're casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs.
-2008/08/01: A retrace card cast from your graveyard follows the normal timing rules for its card type.
+<Rulings>2008/08/01: A retrace card cast from your graveyard follows the normal timing rules for its card type.
 2008/08/01: When a retrace card you cast from your graveyard resolves, fails to resolve, or is countered, it's put back into your graveyard. You may use the retrace ability to cast it again.
 2008/08/01: If the active player casts a spell that has retrace, that player may cast that card again after it resolves, before another player can remove the card from the graveyard. The active player has priority after the spell resolves, so they can immediately cast a new spell. Since casting a card with retrace from the graveyard moves that card onto the stack, no one else would have the chance to affect it while it's still in the graveyard.
-2008/08/01: If you cast <Worm Harvest> from your graveyard by using retrace, the land you discard as an additional cost will be counted by <Worm Harvest> when it resolves.</Rulings>
+2008/08/01: If you cast <Worm Harvest> from your graveyard by using retrace, the land you discard as an additional cost will be counted by <Worm Harvest> when it resolves.
+2018/07/13: Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You're casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs.
+2018/07/13: Casting a card with retrace from your graveyard follows the normal timing rules for its card type.
+2018/07/13: When a retrace card you cast from your graveyard resolves or is countered, it's put back into your graveyard. You may use the retrace ability to cast it again. If it's your turn, you may do so before any other player may take actions to try to remove it from your graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4448,7 +4454,7 @@ Dredge 2 (If you would draw a card, instead you may put exactly two cards from t
 <No>224</No>
 <Name>Terramorphic Expanse</Name>
 <Type>Land</Type>
-<CardText>{T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.</CardText>
+<CardText>{T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.</CardText>
 <Flavor>Take two steps north into the unsettled future, south into the unquiet past, east into the present day, or west into the great unknown.</Flavor>
 <Artist>Dan Scott</Artist>
 <Multiverseid>370459</Multiverseid>

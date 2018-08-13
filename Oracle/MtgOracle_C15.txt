@@ -1306,13 +1306,13 @@ Flying, first strike
 Enchanted creature gets +4/+4 and has flying and first strike.</CardText>
 <Artist>Matt Stewart</Artist>
 <Multiverseid>405168</Multiverseid>
-<Rulings>2013/09/15: You don't choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you've made this choice. For example, an effect that said you can cast creature spells as though they have flash won't allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spells as though they have flash will.
-2013/09/15: On the stack, a spell with bestow is either a creature spell or an Aura spell. It's never both, although it's an enchantment spell in either case.
-2013/09/15: Unlike other Aura spells, an Aura spell with bestow isn't countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature.
-2013/09/15: Unlike other Auras, an Aura with bestow isn't put into its owner's graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it's been under your control continuously, even as an Aura, since your most recent turn began.
-2013/09/15: If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can't choose to pay the bestow cost and have it become an Aura.
-2013/09/15: Auras attached to a creature don't become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature.
-2013/09/15: An Aura that becomes a creature is no longer put into its owner's graveyard as a state-based action. Rather, it becomes unattached and remains on the battlefield as long as it's a creature. While it's a creature, it can't be attached to another permanent or player. An Aura that's not attached to a legal permanent or player as defined by its enchant ability and also isn't a creature will be put into its owner's graveyard as a state-based action.</Rulings>
+<Rulings>2018/07/13: Bestow is an alternative cost to cast the spell with bestow. It can't be combined with other alternative costs, such as casting a spell "without paying its mana cost."
+2018/07/13: To determine the total cost of a spell, start with the mana cost or alternative cost (such as a bestow cost) you're paying, add any cost increases, then apply any cost reductions. The converted mana cost of the spell remains unchanged, no matter what the total cost to cast it was.
+2018/07/13: A spell with bestow is either a creature spell or an Aura spell. It's never both. Similarly, a permanent with bestow is either a creature or an Aura, but not both.
+2018/07/13: Unlike other Aura spells, an Aura spell with bestow still resolves if its target is illegal. Instead of entering the battlefield as an Aura, the effect making it an Aura spell ends, it loses enchant creature, and it resolves and enters the battlefield as an enchantment creature.
+2018/07/13: Unlike other Auras, an Aura with bestow isn't put into its owner's graveyard if the enchanted creature leaves the battlefield or becomes an illegal creature for the Aura to enchant. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its abilities can be activated, if it has any) on the turn it becomes unattached if it's been under your control continuously, even as an Aura, since your most recent turn began.
+2018/07/13: If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can't choose to pay the bestow cost and have it become an Aura.
+2018/07/13: Auras attached to a creature don't become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1944,6 +1944,10 @@ When Mulldrifter enters the battlefield, draw two cards.
 Evoke {2}{U} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)</CardText>
 <Artist>Eric Fortune</Artist>
 <Multiverseid>405312</Multiverseid>
+<Rulings>2018/07/13: Evoke is an alternative cost to cast the spell with evoke. It can't be combined with other alternative costs, such as casting a spell "without paying its mana cost."
+2018/07/13: To determine the total cost of a spell, start with the mana cost or alternative cost (such as an evoke cost) you're paying, add any cost increases, then apply any cost reductions. The converted mana cost of the spell remains unchanged, no matter what the total cost to cast it was.
+2018/07/13: If a creature with evoke enters the battlefield without being cast, you won't have to sacrifice it.
+2018/07/13: The ability that causes you to sacrifice an evoked creature is a triggered ability. Players may respond to this triggered ability while the creature is still on the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -6007,7 +6011,7 @@ When Swiftwater Cliffs enters the battlefield, you gain 1 life.
 <No>314</No>
 <Name>Terramorphic Expanse</Name>
 <Type>Land</Type>
-<CardText>{T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.</CardText>
+<CardText>{T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.</CardText>
 <Flavor>Take two steps north into the unsettled future, south into the unquiet past, east into the present day, or west into the great unknown.</Flavor>
 <Artist>Dan Scott</Artist>
 <Multiverseid>405416</Multiverseid>
