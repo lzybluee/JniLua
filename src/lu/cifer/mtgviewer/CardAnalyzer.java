@@ -45,6 +45,7 @@ public class CardAnalyzer {
 	static Vector<ReprintInfo> resultCards;
 	static String lastCode;
 	static boolean single = true;
+	static int subSet = 0;
 
 	public static CardInfo get(String name) {
 		return cardDatabase.get(name);
@@ -423,7 +424,7 @@ public class CardAnalyzer {
 
 	public static String initData() {
 		if (lastFilter != null && compareFilter()) {
-			return setOrder.size() + " Sets and " + allName.length + " Cards" + " (" + reprintCards + " Reprints)";
+			return (setOrder.size() - subSet) + " Sets and " + allName.length + " Cards" + " (" + reprintCards + " Reprints)";
 		}
 
 		lastCode = null;
@@ -435,6 +436,7 @@ public class CardAnalyzer {
 		setOrder.clear();
 		cardDatabase.clear();
 		reprintCards = 0;
+		subSet = 0;
 
 		for (String[] s : CardParser.SetList) {
 			landIndex = new int[5];
@@ -446,6 +448,9 @@ public class CardAnalyzer {
 				progress++;
 				for (int i = 2; i < s.length; i++) {
 					setOrder.add(s[i]);
+					if(i > 2) {
+						subSet++;
+					}
 					processSet(new File(CardParser.oracleFolder + "/MtgOracle_" + s[i] + ".txt"));
 				}
 			}
@@ -468,7 +473,7 @@ public class CardAnalyzer {
 
 		Arrays.sort(allName);
 
-		return setOrder.size() + " Sets and " + allName.length + " Cards" + " (" + reprintCards + " Reprints)";
+		return (setOrder.size() - subSet) + " Sets and " + allName.length + " Cards" + " (" + reprintCards + " Reprints)";
 	}
 
 	public static CardInfo getNewCard(String str) {
