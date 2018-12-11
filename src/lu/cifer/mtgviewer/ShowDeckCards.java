@@ -345,7 +345,7 @@ public class ShowDeckCards {
 				if (matcher.find()) {
 					String name = checkName(matcher.group(2));
 					if (!name.equals(matcher.group(2))) {
-						System.err.println("[Fix] Name '" + matcher.group(2) + "' -> '" + name + "'");
+						System.err.println(file.getAbsolutePath() + " [Fix] Name '" + matcher.group(2) + "' -> '" + name + "'");
 					}
 					int num = Integer.parseInt(matcher.group(1));
 					CardInfo card = getCard(name);
@@ -397,11 +397,11 @@ public class ShowDeckCards {
 					str = str.toLowerCase();
 					if(str.equals("[scheme]")) {
 						str = "[schemes]";
-						System.err.println("[Fix] Section name -> schemes");
+						System.err.println(file.getAbsolutePath() + " [Fix] Section name -> schemes");
 					}
 					if(str.equals("[planar]")) {
 						str = "[planes]";
-						System.err.println("[Fix] Section name -> planes");
+						System.err.println(file.getAbsolutePath() + " [Fix] Section name -> planes");
 					}
 					for (String sec : sections) {
 						if (str.contains("[" + sec.toLowerCase())) {
