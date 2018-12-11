@@ -502,7 +502,9 @@ public class CardAnalyzer {
 			} else if (card.partIndex == 2 && getEntry(str, "ManaCost") == null) {
 				card.isDoubleFaced = true;
 				otherCard = cardDatabase.get(entry);
-				otherCard.isDoubleFaced = true;
+				if (otherCard != null) {
+					otherCard.isDoubleFaced = true;
+				}
 			} else if (card.partIndex == 2) {
 				card.isFlip = true;
 				otherCard = cardDatabase.get(entry);

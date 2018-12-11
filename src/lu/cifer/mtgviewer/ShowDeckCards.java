@@ -19,10 +19,11 @@ import lu.cifer.mtgviewer.CardAnalyzer.ReprintInfo;
 public class ShowDeckCards {
 
 	File rootFolder;
+	String outFolderName;
 	Vector<Vector<String>> standards = new Vector<>();
 	Vector<String> modern = new Vector<>();
 	Vector<String> frontier = new Vector<>();
-	Vector<CardInfo> allCards = new Vector<>();
+	HashMap<CardInfo, Integer> allCards = new HashMap<>();
 
 	public ShowDeckCards() {
 		initStandard();
@@ -30,7 +31,7 @@ public class ShowDeckCards {
 		initModern();
 	}
 
-	public Vector<CardInfo> getAllCards() {
+	public HashMap<CardInfo, Integer> getAllCards() {
 		return allCards;
 	}
 
@@ -115,7 +116,7 @@ public class ShowDeckCards {
 		String name = getDeckListName(file.getName());
 
 		File outFolder = new File(
-				file.getParentFile().getAbsolutePath().replace(rootFolder.getAbsolutePath(), "cardlist"));
+				file.getParentFile().getAbsolutePath().replace(rootFolder.getAbsolutePath(), outFolderName));
 		if (!outFolder.exists()) {
 			outFolder.mkdirs();
 		}
@@ -157,7 +158,7 @@ public class ShowDeckCards {
 		return null;
 	}
 
-	public String printCard(CardInfo card) {
+	public static String printCard(CardInfo card) {
 		String text = "";
 		text += card.toSimpleString();
 		if (card.otherPart.size() > 0) {
@@ -313,7 +314,7 @@ public class ShowDeckCards {
 	}
 
 	public String loadDeck(File file) {
-		System.out.println("Loading ... " + file.getAbsolutePath());
+		//System.out.println("Loading ... " + file.getAbsolutePath());
 		BufferedReader reader = null;
 
 		HashMap<String, HashMap<CardInfo, Integer>> cards = new HashMap<>();
@@ -353,7 +354,7 @@ public class ShowDeckCards {
 							continue;
 						} else {
 							System.err.println("Not Found!!! " + name + " <- " + file.getAbsolutePath());
-							System.exit(0);
+							return null;
 						}
 					}
 
@@ -362,8 +363,10 @@ public class ShowDeckCards {
 					}
 					cards.get(tag).put(card, num);
 
-					if (!allCards.contains(card)) {
-						allCards.add(card);
+					if (!allCards.containsKey(card)) {
+						allCards.put(card, 1);
+					} else {
+						allCards.put(card, 1 + allCards.get(card));
 					}
 
 					if (tag.equals("main")) {
@@ -482,14 +485,22 @@ public class ShowDeckCards {
 			}
 		} else if (file.getName().toLowerCase().endsWith(".dck")) {
 			String text = loadDeck(file);
-			saveDeck(file, text);
+			if(text != null) {
+				saveDeck(file, text);
+			} else {
+				System.err.println(file);
+			}
 		}
 	}
 
-	public void loadDeckFolder(String folder) {
+	public void loadDeckFolder(String folder, String out) {
 		rootFolder = new File(folder);
 		if (!rootFolder.exists()) {
 			return;
+		}
+		outFolderName = out;
+		if(outFolderName == null) {
+			outFolderName = "cardlist";
 		}
 		loadFile(rootFolder);
 	}
