@@ -45,11 +45,11 @@ At the beginning of your upkeep, you may exile target artifact or enchantment. I
 —Jazal Goldmane</Flavor>
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>376241</Multiverseid>
-<Rulings>2018/07/13: The ability of <Ajani's Pridemate> triggers just once for each life-gaining event, whether it's 1 life from Ajani's Welcome or 3 life from Revitalize.
-2018/07/13: If <Ajani's Pridemate> is dealt lethal damage at the same time that you gain life, it won't receive a counter from its ability in time to save it.
-2018/07/13: Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, <Ajani's Pridemate>'s ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
-2018/07/13: If you gain an amount of life "for each" of something, that life is gained as one event and the ability of <Ajani's Pridemate> triggers only once.
-2018/07/13: In a Two-Headed Giant game, life gained by your teammate won't cause the ability to trigger, even though it caused your team's life total to increase.</Rulings>
+<Rulings>2019/05/03: The ability of <Ajani's Pridemate> triggers just once for each life-gaining event, whether it's 1 life from Ajani's Welcome or 2 life from Battlefield Promotion.
+2019/05/03: If <Ajani's Pridemate> is dealt lethal damage at the same time that you gain life, it won't receive a counter from its ability in time to save it.
+2019/05/03: Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, <Ajani's Pridemate>'s ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+2019/05/03: If you gain an amount of life "for each" of something, that life is gained as one event and the ability of <Ajani's Pridemate> triggers only once.
+2019/05/03: In a Two-Headed Giant game, life gained by your teammate won't cause the ability to trigger, even though it caused your team's life total to increase.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -211,9 +211,10 @@ Plainscycling {2} ({2}, Discard this card: Search your library for a Plains card
 When Fiend Hunter leaves the battlefield, return the exiled card to the battlefield under its owner's control.</CardText>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>376331</Multiverseid>
-<Rulings>2018/03/16: If <Fiend Hunter> leaves the battlefield before its first ability has resolved, its second ability will trigger and do nothing. Then its first ability will resolve and exile the targeted creature indefinitely.
-2018/03/16: Once the exiled permanent returns, it's considered a new object with no relation to the object that it was. Auras attached to the exiled permanent will be put into their owners' graveyards. Equipment attached to the exiled permanent will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist.
-2018/03/16: If a token is exiled this way, it won't return to the battlefield.</Rulings>
+<Rulings>2018/12/07: If <Fiend Hunter> leaves the battlefield before its first ability has resolved, its second ability will trigger and do nothing. Then its first ability will resolve and exile the target creature indefinitely. This is different from abilities on other cards that exile a permanent "until" something happens.
+2018/12/07: Once the exiled creature returns, it's considered a new object with no relation to the object that it was. Auras attached to the exiled creature will be put into their owners' graveyards. Equipment attached to the exiled creature will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist.
+2018/12/07: If a token is exiled this way, it won't return to the battlefield.
+2018/12/07: In a multiplayer game, if you lose the game, the creature exiled with <Fiend Hunter> remains exiled indefinitely. This is also different from abilities on other cards that exile a permanent "until" something happens.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -510,7 +511,7 @@ At the beginning of your end step, you may gain life equal to the power of targe
 <Flavor>The lives of elves are long, but their memories are longer. Even after death, they do not desert their homes.</Flavor>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>376579</Multiverseid>
-<Rulings>2009/02/01: This ability triggers and resolves before "until end of turn" effects have worn off.</Rulings>
+<Rulings>2018/12/07: If an effect changes a creature's power "until end of turn," it will still have the modified power during your end step.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1797,16 +1798,16 @@ At the beginning of each opponent's upkeep, Price of Knowledge deals damage to t
 Until end of turn, creatures target player controls lose all abilities and have base power and toughness 0/2.</CardText>
 <Artist>Alan Pollack</Artist>
 <Multiverseid>376529</Multiverseid>
-<Rulings>2006/09/25: <Sudden Spoiling> doesn't counter abilities that have already triggered or been activated. In particular, you can't cast this fast enough to stop a creature's "At the beginning of your upkeep" or "When this creature enters the battlefield" abilities from triggering.
-2006/09/25: <Sudden Spoiling> affects only permanents that are creatures on the battlefield under the targeted player's control at the time <Sudden Spoiling> resolves. It won't affect creatures that enter the battlefield later or noncreature permanents that later become creatures.
+<Rulings>2006/09/25: <Sudden Spoiling> affects only permanents that are creatures on the battlefield under the targeted player's control at the time <Sudden Spoiling> resolves. It won't affect creatures that enter the battlefield later or noncreature permanents that later become creatures.
 2006/09/25: If a creature controlled by the targeted player gains an ability after <Sudden Spoiling> resolves, it will keep that ability.
 2006/09/25: If a face-down creature is affected by <Sudden Spoiling>, it won't be able to be turned face up for its morph cost. If some other effect turns it face up, it will remain a 0/2 creature with no abilities until the turn ends. Its "When this creature turns face up" or "As this creature turns face up" abilities won't work.
-2013/06/07: Players still get priority while a card with split second is on the stack.
+2006/09/25: <Sudden Spoiling> doesn't counter abilities that have already triggered or been activated. In particular, you can't cast this fast enough to stop a creature's "At the beginning of your upkeep" or "When this creature enters the battlefield" abilities from triggering.
+2013/06/07: If the resolution of a triggered ability involves casting a spell, that spell can't be cast if a spell with split second is on the stack.
 2013/06/07: Split second doesn't prevent players from activating mana abilities.
 2013/06/07: Split second doesn't prevent triggered abilities from triggering. If one does, its controller puts it on the stack and chooses targets for it, if any. Those abilities will resolve as normal.
 2013/06/07: Split second doesn't prevent players from performing special actions. Notably, players may turn face-down creatures face up while a spell with split second is on the stack.
 2013/06/07: Casting a spell with split second won't affect spells and abilities that are already on the stack.
-2013/06/07: If the resolution of a triggered ability involves casting a spell, that spell can't be cast if a spell with split second is on the stack.</Rulings>
+2013/06/07: Players still get priority while a card with split second is on the stack.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2089,10 +2090,9 @@ Fireball deals X damage divided evenly, rounded down, among any number of target
 <Flavor>Nothing impresses goblins more than something that's bound to kill them.</Flavor>
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>376347</Multiverseid>
-<Rulings>2011/01/01: <Furnace Celebration> itself doesn't allow you to sacrifice any permanents. Its ability triggers whenever you sacrifice a permanent because some other spell, ability, or cost instructed you to.
-2011/01/01: You choose the target when the ability triggers. You choose whether or not to pay {2} as the ability resolves. You can't pay {2} more than once for a single sacrificed permanent.
-2011/01/01: Although players may respond to the ability, once it starts to resolve and you decide to pay {2}, it's too late for players to respond.
-2011/01/01: Sacrificing a <Furnace Celebration> will cause the abilities of other <Furnace Celebration>s to trigger, but not its own ability.</Rulings>
+<Rulings>2018/12/07: <Furnace Celebration> itself doesn't allow you to sacrifice any permanents. Its ability triggers whenever you sacrifice a permanent because something else instructed you to.
+2018/12/07: You choose whether to pay {2} as the ability resolves, if that target is still legal. No player may take actions between the time you pay {2} and the time damage is dealt.
+2018/12/07: You can't pay {2} more than once each time <Furnace Celebration>'s ability resolves.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2202,8 +2202,8 @@ Whenever Inferno Titan enters the battlefield or attacks, it deals 3 damage divi
 <Multiverseid>376403</Multiverseid>
 <Rulings>2007/02/01: If either target leaves the battlefield before the ability resolves, the ability taps the remaining target, but no damage is dealt. If both targets leave the battlefield, the ability doesn't resolve.
 2007/02/01: <Magus of the Arena>'s controller always chooses their creature first.
-2007/02/01: Tapped creatures can be targeted. Tapping them again will do nothing, but they'll still deal damage.
-2007/02/01: If an effect changes the targets of this ability, the second target can be changed to any creature the chosen opponent controls. The choice of opponent can't be changed.</Rulings>
+2007/02/01: If an effect changes the targets of this ability, the second target can be changed to any creature the chosen opponent controls. The choice of opponent can't be changed.
+2007/02/01: Tapped creatures can be targeted. Tapping them again will do nothing, but they'll still deal damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2244,12 +2244,12 @@ Molten Disaster deals X damage to each creature without flying and each player.<
 <Artist>Ittoku</Artist>
 <Multiverseid>376413</Multiverseid>
 <Rulings>2007/05/01: If <Molten Disaster> was kicked, <Molten Disaster> has split second as long as it's on the stack.
+2013/06/07: Split second doesn't prevent triggered abilities from triggering. If one does, its controller puts it on the stack and chooses targets for it, if any. Those abilities will resolve as normal.
 2013/06/07: Players still get priority while a card with split second is on the stack.
 2013/06/07: Split second doesn't prevent players from activating mana abilities.
-2013/06/07: Split second doesn't prevent triggered abilities from triggering. If one does, its controller puts it on the stack and chooses targets for it, if any. Those abilities will resolve as normal.
+2013/06/07: If the resolution of a triggered ability involves casting a spell, that spell can't be cast if a spell with split second is on the stack.
 2013/06/07: Split second doesn't prevent players from performing special actions. Notably, players may turn face-down creatures face up while a spell with split second is on the stack.
-2013/06/07: Casting a spell with split second won't affect spells and abilities that are already on the stack.
-2013/06/07: If the resolution of a triggered ability involves casting a spell, that spell can't be cast if a spell with split second is on the stack.</Rulings>
+2013/06/07: Casting a spell with split second won't affect spells and abilities that are already on the stack.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2800,6 +2800,7 @@ When Deadwood Treefolk enters the battlefield or leaves the battlefield, return 
 <Flavor>Life is eternal. A lifetime is ephemeral.</Flavor>
 <Artist>Rebecca Guay</Artist>
 <Multiverseid>376329</Multiverseid>
+<Rulings>2018/12/07: In a multiplayer game, if a player loses the game, triggered abilities that player controls are removed from the stack and no more from that player can be added. This means that if a creature an opponent controls dies while you control <Fecundity>, and you lose the game before <Fecundity>'s triggered ability resolves (perhaps because you lost the game at the same time that the creature died), that player won't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3535,7 +3536,7 @@ Whenever Charnelhoard Wurm deals damage to an opponent, you may return target ca
 <Type>Creature — Zombie Beast 3/3</Type>
 <ManaCost>4BR (6)</ManaCost>
 <CardText>Whenever another creature dies, you may put a +1/+1 counter on Deathbringer Thoctar.
-Remove a +1/+1 counter from Deathbringer Thoctar: Deathbringer Thoctar deals 1 damage to any target.</CardText>
+Remove a +1/+1 counter from Deathbringer Thoctar: It deals 1 damage to any target.</CardText>
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>376300</Multiverseid>
 <Rulings>2009/05/01: If <Deathbringer Thoctar> and another creature are dealt lethal damage at the same time, <Deathbringer Thoctar> will be put into a graveyard before it would receive any counters. Its ability will still trigger, but it will do nothing when it resolves.
@@ -3578,7 +3579,8 @@ Whenever Derevi, Empyrial Tactician enters the battlefield or a creature you con
 <Artist>Michael Komarck</Artist>
 <Multiverseid>376305</Multiverseid>
 <Rulings>2013/10/17: You can activate Derevi's last ability only when it is in the command zone.
-2013/10/17: When you activate Derevi's last ability, you're not casting Derevi as a spell. The ability can't be countered by something that counters only spells. The ability isn't subject to the additional cost of casting commanders from the command zone.</Rulings>
+2013/10/17: When you activate Derevi's last ability, you're not casting Derevi as a spell. The ability can't be countered by something that counters only spells. The ability isn't subject to the additional cost of casting commanders from the command zone.
+2015/01/19: <Derevi, Empyrial Tactician> is banned as a commander in Duel Commander format, but it may be part of your deck.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander 2013 Edition</Set>
@@ -3731,12 +3733,12 @@ When Jeleva, Nephalia's Scourge enters the battlefield, each player exiles the t
 Whenever Jeleva attacks, you may cast an instant or sorcery card exiled with it without paying its mana cost.</CardText>
 <Artist>Cynthia Sheppard</Artist>
 <Multiverseid>376382</Multiverseid>
-<Rulings>2013/10/17: If Jeleva leaves the battlefield, the exiled cards will remain exiled indefinitely. If Jeleva enters the battlefield again, it won't be associated with the cards the "other" Jeleva exiled. The new Jeleva will exile a new set of cards. Only those cards can be cast using Jeleva's last ability.
+<Rulings>2013/10/17: If you cast a card "without paying its mana cost," you can't pay alternative costs such as overload costs. However, you can pay additional costs such as kicker costs. If the card has mandatory additional costs, you must pay those.
+2013/10/17: If Jeleva leaves the battlefield, the exiled cards will remain exiled indefinitely. If Jeleva enters the battlefield again, it won't be associated with the cards the "other" Jeleva exiled. The new Jeleva will exile a new set of cards. Only those cards can be cast using Jeleva's last ability.
+2013/10/17: The card is cast before blocking creatures are declared.
+2013/10/17: If the card has {X} in its mana cost, you must choose 0 as its value.
 2013/10/17: If you cast an instant or sorcery card using Jeleva's last ability, you do so while that ability is resolving. If you choose not to (or you can't), you won't get a chance to cast it later unless the ability triggers again.
 2013/10/17: When casting an instant or sorcery card this way, ignore all timing restrictions based on the card's type. Other timing restrictions, such as "Cast [this spell] only during combat," must be followed.
-2013/10/17: If you cast a card "without paying its mana cost," you can't pay alternative costs such as overload costs. However, you can pay additional costs such as kicker costs. If the card has mandatory additional costs, you must pay those.
-2013/10/17: If the card has {X} in its mana cost, you must choose 0 as its value.
-2013/10/17: The card is cast before blocking creatures are declared.
 2014/02/01: The amount of mana you spent to cast this creature is usually equal to its converted mana cost. However, you also include any additional costs you pay, including the cost imposed for casting your commander from the command zone.
 2014/02/01: You can't choose to pay extra mana to cast a creature spell unless something instructs you to.
 2014/02/01: If Jeleva enters the battlefield without being cast, then no mana was spent to cast it. This means X will be 0, so no cards will be exiled.</Rulings>
@@ -3797,9 +3799,9 @@ Enchanted land has "{G}{U}, {T}: Create a 2/2 green and blue Drake creature toke
 <CardText>Look at the top five cards of your library. As many times as you choose, you may pay 1 life, put those cards on the bottom of your library in any order, then look at the top five cards of your library. Then shuffle your library and put the last cards you looked at this way on top of it in any order.</CardText>
 <Artist>Wayne England</Artist>
 <Multiverseid>376399</Multiverseid>
-<Rulings>2007/09/16: In other words: — Step 1: Look at the top five cards of your library. — Step 2: If you like them, proceed to step 3a. If you don't like them, proceed to step 3b. — Step 3a: Shuffle the rest of your library, then put those five cards back on top of your library in the order you want. The spell has finished resolving. — Step 3b: Put those five cards on the bottom of your library in the order you want. Pay 1 life. Return to step 1.
-2007/09/16: If you pay no life, you shuffle the rest of your library and then put the top five cards back on top in any order.
-2007/09/16: If you have five or fewer cards in your library, you can pay 1 life as many times as you like, but you'll keep seeing the same cards.</Rulings>
+<Rulings>2007/09/16: If you have five or fewer cards in your library, you can pay 1 life as many times as you like, but you'll keep seeing the same cards.
+2007/09/16: In other words: — Step 1: Look at the top five cards of your library. — Step 2: If you like them, proceed to step 3a. If you don't like them, proceed to step 3b. — Step 3a: Shuffle the rest of your library, then put those five cards back on top of your library in the order you want. The spell has finished resolving. — Step 3b: Put those five cards on the bottom of your library in the order you want. Pay 1 life. Return to step 1.
+2007/09/16: If you pay no life, you shuffle the rest of your library and then put the top five cards back on top in any order.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander 2013 Edition</Set>
@@ -3822,7 +3824,8 @@ Enchanted land has "{G}{U}, {T}: Create a 2/2 green and blue Drake creature toke
 <Rulings>2013/10/17: You announce the value of X as you activate the ability, and all instances of X in the activation cost are equal to the announced value. For example, if you choose 2 as the value of X, then you pay {2} and remove two +1/+1 counters to pay the cost.
 2014/02/01: The amount of mana you spent to cast this creature is usually equal to its converted mana cost. However, you also include any additional costs you pay, including the cost imposed for casting your commander from the command zone.
 2014/02/01: You can't choose to pay extra mana to cast a creature spell unless something instructs you to.
-2014/02/01: If Marath enters the battlefield without being cast, then no mana was spent to cast it. It will therefore enter the battlefield without any +1/+1 counters. If no other effects are increasing its toughness at that time, it will subsequently be put into its owner's graveyard as a state-based action.</Rulings>
+2014/02/01: If Marath enters the battlefield without being cast, then no mana was spent to cast it. It will therefore enter the battlefield without any +1/+1 counters. If no other effects are increasing its toughness at that time, it will subsequently be put into its owner's graveyard as a state-based action.
+2015/01/19: <Marath, Will of the Wild> is banned as a commander in Duel Commander format, but it may be part of your deck.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander 2013 Edition</Set>
@@ -3921,13 +3924,14 @@ Whenever you gain life, you may pay {1}. If you do, draw a card and each opponen
 At the beginning of your upkeep, if Oloro, Ageless Ascetic is in the command zone, you gain 2 life.</CardText>
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>376436</Multiverseid>
-<Rulings>2013/10/17: Oloro's first ability works only if Oloro is on the battlefield.
-2013/10/17: If Oloro is your commander, its last ability will trigger at the beginning of the upkeep step on your first turn.
+<Rulings>2013/10/17: If Oloro is your commander, its last ability will trigger at the beginning of the upkeep step on your first turn.
 2013/10/17: Oloro's second ability triggers just once for each life-gaining event, no matter how much life is gained.
 2013/10/17: You decide whether to pay {1} as the second ability resolves. If you do, you'll draw a card and each opponent will lose 1 life.
-2013/10/17: If two creatures you control with lifelink deal combat damage at the same time, Oloro's ability will trigger twice. However, if a single creature with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+2013/10/17: Oloro's first ability works only if Oloro is on the battlefield.
 2013/10/17: In some unusual cases, you can gain life even though your life total actually decreases. For example, if you are being attacked by two 3/3 creatures and you block one with a 2/2 creature with lifelink, your life total will decrease by 1 even though you've gained 2 life. Oloro's second ability would trigger.
-2013/10/17: In a Two-Headed Giant game, life gained by your teammate won't cause the ability to trigger, even though it causes your team's life total to increase.</Rulings>
+2013/10/17: In a Two-Headed Giant game, life gained by your teammate won't cause the ability to trigger, even though it causes your team's life total to increase.
+2013/10/17: If two creatures you control with lifelink deal combat damage at the same time, Oloro's ability will trigger twice. However, if a single creature with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+2015/01/19: <Oloro, Ageless Ascetic> is banned as a commander in Duel Commander format, but it may be part of your deck.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander 2013 Edition</Set>
@@ -5054,7 +5058,7 @@ Equip {1}</CardText>
 As long as equipped creature is untapped, untapped creatures you control get +0/+2.
 {3}: You may tap or untap equipped creature.
 Equip {3}</CardText>
-<Artist>Greg Hildebrandt</Artist>
+<Artist>Tim Hildebrandt</Artist>
 <Multiverseid>376538</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -5336,8 +5340,6 @@ When Boros Garrison enters the battlefield, return a land you control to its own
 <Flavor>Enter with merciful hearts. Exit with battle cries.</Flavor>
 <Artist>Noah Bradley</Artist>
 <Multiverseid>376272</Multiverseid>
-<Rulings>2013/04/15: The subtype Gate has no special rules significance, but other spells and abilities may refer to it.
-2013/04/15: Gate is not a basic land type.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -5407,8 +5409,6 @@ When Boros Garrison enters the battlefield, return a land you control to its own
 <Flavor>Enter and become a mastermind of spies, lies, and deception.</Flavor>
 <Artist>Cliff Childs</Artist>
 <Multiverseid>376306</Multiverseid>
-<Rulings>2013/04/15: The subtype Gate has no special rules significance, but other spells and abilities may refer to it.
-2013/04/15: Gate is not a basic land type.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -5512,8 +5512,6 @@ Cycling {R} ({R}, Discard this card: Draw a card.)</CardText>
 <Flavor>Enter those who are starving and sick. You are welcome among the Swarm when the rest of Ravnica rejects you.</Flavor>
 <Artist>Eytan Zana</Artist>
 <Multiverseid>376351</Multiverseid>
-<Rulings>2013/04/15: The subtype Gate has no special rules significance, but other spells and abilities may refer to it.
-2013/04/15: Gate is not a basic land type.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -5640,8 +5638,6 @@ When Izzet Boilerworks enters the battlefield, return a land you control to its 
 <Flavor>Enter those with the vision to create and the daring to release their creations.</Flavor>
 <Artist>Noah Bradley</Artist>
 <Multiverseid>376378</Multiverseid>
-<Rulings>2013/04/15: The subtype Gate has no special rules significance, but other spells and abilities may refer to it.
-2013/04/15: Gate is not a basic land type.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -6007,7 +6003,7 @@ When Rupture Spire enters the battlefield, sacrifice it unless you pay {1}.
 <CardText>Seaside Citadel enters the battlefield tapped.
 {T}: Add {G}, {W}, or {U}.</CardText>
 <Flavor>For wisdom's sake, it was built high to gaze on all things. For glory's sake, it was built high as a testament of power. For strength's sake, it was built high to repel all attacks.</Flavor>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>376484</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -6060,8 +6056,6 @@ When Sejiri Refuge enters the battlefield, you gain 1 life.
 <Flavor>Enter and rejoice! The Conclave stands united, open to one and all.</Flavor>
 <Artist>Howard Lyon</Artist>
 <Multiverseid>376490</Multiverseid>
-<Rulings>2013/04/15: The subtype Gate has no special rules significance, but other spells and abilities may refer to it.
-2013/04/15: Gate is not a basic land type.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

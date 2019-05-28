@@ -53,12 +53,12 @@ Whenever a creature you control attacks alone, you may tap target creature.</Car
 —Rafiq of the Many</Flavor>
 <Artist>Michael Komarck</Artist>
 <Multiverseid>174826</Multiverseid>
-<Rulings>2008/10/01: If you declare exactly one creature as an attacker, each exalted ability on each permanent you control (including, perhaps, the attacking creature itself) will trigger. The bonuses are given to the attacking creature, not to the permanent with exalted. Ultimately, the attacking creature will wind up with +1/+1 for each of your exalted abilities.
-2008/10/01: If you attack with multiple creatures, but then all but one are removed from combat, your exalted abilities won't trigger.
+<Rulings>2008/10/01: If you attack with multiple creatures, but then all but one are removed from combat, your exalted abilities won't trigger.
 2008/10/01: Some effects put creatures onto the battlefield attacking. Since those creatures were never declared as attackers, they're ignored by exalted abilities. They won't cause exalted abilities to trigger. If any exalted abilities have already triggered (because exactly one creature was declared as an attacker), those abilities will resolve as normal even though there may now be multiple attackers.
-2008/10/01: Exalted abilities will resolve before blockers are declared.
+2008/10/01: If you declare exactly one creature as an attacker, each exalted ability on each permanent you control (including, perhaps, the attacking creature itself) will trigger. The bonuses are given to the attacking creature, not to the permanent with exalted. Ultimately, the attacking creature will wind up with +1/+1 for each of your exalted abilities.
 2008/10/01: Exalted bonuses last until end of turn. If an effect creates an additional combat phase during your turn, a creature that attacked alone during the first combat phase will still have its exalted bonuses in that new phase. If a creature attacks alone during the second combat phase, all your exalted abilities will trigger again.
 2008/10/01: In a Two-Headed Giant game, a creature "attacks alone" if it's the only creature declared as an attacker by your entire team. If you control that attacking creature, your exalted abilities will trigger but your teammate's exalted abilities won't.
+2008/10/01: Exalted abilities will resolve before blockers are declared.
 2012/07/01: The creature you target with the last ability will become tapped before blockers are declared.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -115,12 +115,12 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 Whenever a creature you control attacks alone, it gains lifelink until end of turn.</CardText>
 <Artist>Matt Stewart</Artist>
 <Multiverseid>175394</Multiverseid>
-<Rulings>2008/10/01: If you declare exactly one creature as an attacker, each exalted ability on each permanent you control (including, perhaps, the attacking creature itself) will trigger. The bonuses are given to the attacking creature, not to the permanent with exalted. Ultimately, the attacking creature will wind up with +1/+1 for each of your exalted abilities.
-2008/10/01: If you attack with multiple creatures, but then all but one are removed from combat, your exalted abilities won't trigger.
+<Rulings>2008/10/01: If you attack with multiple creatures, but then all but one are removed from combat, your exalted abilities won't trigger.
 2008/10/01: Some effects put creatures onto the battlefield attacking. Since those creatures were never declared as attackers, they're ignored by exalted abilities. They won't cause exalted abilities to trigger. If any exalted abilities have already triggered (because exactly one creature was declared as an attacker), those abilities will resolve as normal even though there may now be multiple attackers.
-2008/10/01: Exalted abilities will resolve before blockers are declared.
+2008/10/01: If you declare exactly one creature as an attacker, each exalted ability on each permanent you control (including, perhaps, the attacking creature itself) will trigger. The bonuses are given to the attacking creature, not to the permanent with exalted. Ultimately, the attacking creature will wind up with +1/+1 for each of your exalted abilities.
 2008/10/01: Exalted bonuses last until end of turn. If an effect creates an additional combat phase during your turn, a creature that attacked alone during the first combat phase will still have its exalted bonuses in that new phase. If a creature attacks alone during the second combat phase, all your exalted abilities will trigger again.
 2008/10/01: In a Two-Headed Giant game, a creature "attacks alone" if it's the only creature declared as an attacker by your entire team. If you control that attacking creature, your exalted abilities will trigger but your teammate's exalted abilities won't.
+2008/10/01: Exalted abilities will resolve before blockers are declared.
 2009/10/01: <Battlegrace Angel> could cause a creature to have multiple instances of lifelink. For example, a creature you control that already has lifelink could attack alone while you control <Battlegrace Angel>, or a creature you control could attack alone while you control more than one <Battlegrace Angel>. If a creature has multiple instances of lifelink, they are redundant. You'll still only gain life equal to the damage dealt.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -177,7 +177,7 @@ Whenever a creature you control attacks alone, it gains lifelink until end of tu
 <CardText>+1: Create a 1/1 white Soldier creature token.
 +1: Target creature gets +3/+3 and gains flying until end of turn.
 -8: You get an emblem with "Artifacts, creatures, enchantments, and lands you control have indestructible."</CardText>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>174859</Multiverseid>
 <Rulings>2011/01/01: Emblems behave similarly to enchantments: They have an ability that, in a general sense, continually affects the game. The primary difference between them is that emblems aren't permanents and don't exist on the battlefield. Nothing in the game can remove an emblem, simply because no other spell or ability references them. Once you get an emblem, you keep it for the rest of the game. Emblems have no color, name, card type, or other characteristics beyond the listed ability.
 2013/07/01: Lethal damage and effects that say "destroy" won't cause a permanent with indestructible to be put into the graveyard. However, a permanent with indestructible can be put into the graveyard for a number of reasons. The most likely reasons are if it's sacrificed, if it's a creature whose toughness is 0 or less, or if it's an Aura that's either unattached or attached to something illegal.</Rulings>
@@ -412,7 +412,7 @@ When Oblivion Ring leaves the battlefield, return the exiled card to the battlef
 <ManaCost>3W (4)</ManaCost>
 <CardText>When Ranger of Eos enters the battlefield, you may search your library for up to two creature cards with converted mana cost 1 or less, reveal them, and put them into your hand. If you do, shuffle your library.</CardText>
 <Flavor>At his side, humble beasts become weapons more deadly than sharpened steel.</Flavor>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>174823</Multiverseid>
 <Rulings>2017/03/14: You may choose to find zero, one, or two creature cards in your library. Each card you find must have converted mana cost 1 or less.</Rulings>
 <Vintage>Legal</Vintage>
@@ -2060,6 +2060,7 @@ Unearth {4}{R} ({4}{R}: Return this card from your graveyard to the battlefield.
 <Flavor>Viashino thrashes keep iguanars as hunting companions, giving them wounded captives as playthings.</Flavor>
 <Artist>Brandon Kitkouski</Artist>
 <Multiverseid>174873</Multiverseid>
+<Rulings>2018/12/07: If <Hissing Iguanar> dies at the same time as another creature, <Hissing Iguanar>'s ability triggers.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2271,7 +2272,7 @@ Unearth {2}{R} ({2}{R}: Return this card from your graveyard to the battlefield.
 <Flavor>An avatar he sculpts of anger and flame.</Flavor>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>174951</Multiverseid>
-<Rulings>2008/10/01: If either target has become illegal by the time <Soul's Fire> resolves, the spell will still resolve but have no effect. If the first target is illegal, it can't perform any actions, so it can't deal damage. If the second target is illegal, there's nothing for the first target to deal damage to. If both targets have become illegal, the spell won't resolve.</Rulings>
+<Rulings>2018/12/07: If either target is an illegal target as <Soul's Fire> resolves, the creature won't deal damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3903,7 +3904,7 @@ At the beginning of your end step, you gain 3 life if Sphinx Sovereign is untapp
 <CardText>Flying, vigilance
 Players can't untap more than one creature during their untap steps.</CardText>
 <Flavor>Even the most battle-hardened soldiers pause in her presence for a moment of introspection.</Flavor>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>175396</Multiverseid>
 <Rulings>2017/03/14: If multiple <Stoic Angel>s are on the battlefield, their effects are redundant. Each player will still be able to untap no more than one creature during their untap step.
 2017/03/14: Noncreature permanents will untap as normal during their controllers' untap steps.</Rulings>
@@ -4117,22 +4118,22 @@ Windwright Mage has flying as long as an artifact card is in your graveyard.</Ca
 <Flavor>It shows not what you are but what you were.</Flavor>
 <Artist>Ash Wood</Artist>
 <Multiverseid>174818</Multiverseid>
-<Rulings>2008/10/01: <Lich's Mirror> replaces the game-loss event if you would lose the game in the following ways: -- As a state-based action for having 0 or less life. -- As a state-based action for having tried to draw a card from an empty library since the last time state-based actions were checked. -- As a state-based action for having ten or more poison counters (though this isn't that helpful; see below). -- Because an ability (such as the one from Immortal Coil) states that you do so.
-2008/10/01: <Lich's Mirror> has no effect if a spell or ability (such as the one from Helix Pinnacle) states that a player "wins the game." If a player wins the game, the game ends immediately.
-2008/10/01: <Lich's Mirror> has no effect if you concede the game. If you concede, you'll lose.
+<Rulings>2008/10/01: <Lich's Mirror> has no effect if you concede the game. If you concede, you'll lose.
 2008/10/01: If you can't lose the game (for example, you control a Platinum Angel), <Lich's Mirror> won't do anything.
 2008/10/01: <Lich's Mirror> shuffles permanents you own into your library, regardless of who controls them.
 2008/10/01: <Lich's Mirror> shuffles tokens you own into your library, too. The tokens you own will leave play. However, there's no point to physically shuffling tokens into your library because you can't draw them as part of <Lich's Mirror>'s effect and they'll cease to exist immediately afterwards.
 2008/10/01: Any abilities that trigger when the permanents leave the battlefield will be put on the stack after <Lich's Mirror>'s entire effect has been applied.
 2008/10/01: <Lich's Mirror> doesn't affect spells on the stack, cards that have been exiled, or permanents you control but don't own. They'll stay where they are. Spells on the stack will then resolve as normal.
 2008/10/01: Although <Lich's Mirror> has you draw a hand of seven cards and sets your life total to 20, this isn't a game restart. You can't take a mulligan if you don't like your new hand of cards.
-2008/10/01: For your life total to become 20, you actually gain or lose the necessary amount of life. Keep in mind that you may have a negative life total when this happens. For example, if your life total is -4 when you would lose the game, <Lich's Mirror>'s effect will cause you to gain 24 life. Other cards that interact with life gain or life loss will interact with this effect accordingly.
+2008/10/01: <Lich's Mirror> replaces the game-loss event if you would lose the game in the following ways: -- As a state-based action for having 0 or less life. -- As a state-based action for having tried to draw a card from an empty library since the last time state-based actions were checked. -- As a state-based action for having ten or more poison counters (though this isn't that helpful; see below). -- Because an ability (such as the one from Immortal Coil) states that you do so.
 2008/10/01: As part of <Lich's Mirror>'s effect, it typically shuffles itself into your library. If it does, that means that if you'd lose the game *again* immediately after its effect is finished, it can't help you a second time. This can occur in a few different ways. For example: -- You have ten or more poison counters. <Lich's Mirror> doesn't remove poison counters. If you'd lose the game this way, you'll do what <Lich's Mirror> says, then you'll lose the game the next time state-based actions are checked. -- Your life total is 0 or less and an effect says that you can't gain life. Since your life total can't be raised, it stays at whatever it is rather than becoming 20, and you'll lose the game the next time state-based actions are checked. -- The number of nontoken permanents you own plus the number of cards in your hand, graveyard, and library is less than seven. When you try to draw seven cards as part of <Lich's Mirror>'s effect, you'll be unable to complete at least one of those draws and you'll lose the game the next time state-based actions are checked. -- You control *but don't own* a permanent such as Immortal Coil with a triggered ability that causes you to lose the game when a certain game state happens (also known as a "state trigger"), and the condition that causes the "lose the game" ability to trigger hasn't changed. If you owned the permanent, <Lich's Mirror> would shuffle it into your library. In this case, however, it remains on the battlefield and its ability will trigger again.
 2008/10/01: If you control *but don't own* <Lich's Mirror>, <Lich's Mirror> itself will still be on the battlefield after its effect is finished. If you would lose the game again for any of the reasons above, <Lich's Mirror> has its effect again . . . and again . . . and again. An involuntary infinite loop will be created, and the game will end in a draw. (In the case of the triggered ability example given last in the list above, it's possible that a player could cause the loop to end while the ability is on the stack. None of the loops caused by state-based actions can be stopped at all.)
 2008/10/01: If all the players remaining in a game would lose simultaneously but one of them controls <Lich's Mirror>, that player does what <Lich's Mirror> says instead of losing, and everyone else loses. As a result, the controller of <Lich's Mirror> wins the game because all of their opponents have lost. (If <Lich's Mirror> weren't in the picture, then the game would be a draw.)
 2008/10/01: If a spell causes you to lose the game the next time state-based actions are checked (by dealing damage to you greater than your life total, for example), that spell will already be in the graveyard by the time <Lich's Mirror>'s effect happens. If it's in your graveyard, it will be shuffled into your library.
 2008/10/01: If, during a check of state-based actions, you'd lose the game at the same time a creature you own would be put into your graveyard (due to an Earthquake for 10 or combat damage dealt to both you and the creature, for example), that creature's controller has a choice to make. The state-based actions rule is trying to simultaneously (a) shuffle that creature card into your library (due to <Lich's Mirror>'s replacement effect) and (b) put it into your graveyard. Only one of those things can happen. The creature's controller chooses which one. If the creature is put into your graveyard, it isn't shuffled into your library. Abilities that trigger when that creature is put into a graveyard will trigger only if that option is chosen.
 2008/10/01: If, during a check of state-based actions, you'd lose the game for multiple reasons (for example, if you were at 1 life and had one card in your library, then Night's Whisper caused you to draw two cards and lose 2 life), a single <Lich's Mirror> will replace all of them. You'll do what <Lich's Mirror> says just once.
+2008/10/01: For your life total to become 20, you actually gain or lose the necessary amount of life. Keep in mind that you may have a negative life total when this happens. For example, if your life total is -4 when you would lose the game, <Lich's Mirror>'s effect will cause you to gain 24 life. Other cards that interact with life gain or life loss will interact with this effect accordingly.
+2008/10/01: <Lich's Mirror> has no effect if a spell or ability (such as the one from Helix Pinnacle) states that a player "wins the game." If a player wins the game, the game ends immediately.
 2009/10/01: A token's owner is the player under whose control it entered the battlefield.
 2010/06/15: In a Two-Headed Giant game, if your team would lose the game and you control <Lich's Mirror>, your team won't lose. Instead, you'll do what <Lich's Mirror> says and your teammate won't do anything. This is true even if the reason your team would lose is because your teammate tried to draw a card with an empty library or was affected by an ability that said they lost the game. Your life total (which is the same as your team's life total) becomes 20. Your team's life total is adjusted by the amount of life you gain or lose as a result of this, which basically means your team's life total becomes 20.</Rulings>
 <Vintage>Legal</Vintage>
@@ -4471,7 +4472,7 @@ Equip—Remove a charge counter from Sigil of Distinction.</CardText>
 <CardText>Seaside Citadel enters the battlefield tapped.
 {T}: Add {G}, {W}, or {U}.</CardText>
 <Flavor>For wisdom's sake, it was built high to gaze on all things. For glory's sake, it was built high as a testament of power. For strength's sake, it was built high to repel all attacks.</Flavor>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>174950</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>

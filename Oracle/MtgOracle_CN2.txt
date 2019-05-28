@@ -871,13 +871,13 @@ You may have Stunt Double enter the battlefield as a copy of any creature on the
 <Flavor>No duelist is without equal in Paliano.</Flavor>
 <Artist>Joseph Meehan</Artist>
 <Multiverseid>416795</Multiverseid>
-<Rulings>2016/08/23: <Stunt Double> copies exactly what was printed on the original creature (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or any Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
-2016/08/23: If the copied creature has {X} in its mana cost, that X is considered to be 0.
-2016/08/23: If the chosen creature is copying something else (for example, if the chosen creature is another <Stunt Double>), then <Stunt Double> enters the battlefield as whatever the chosen creature copied.
-2016/08/23: If the chosen creature is a token, <Stunt Double> copies the original characteristics of that token as stated by the effect that put the token onto the battlefield. <Stunt Double> isn't a token.
+<Rulings>2016/08/23: If the chosen creature is a token, <Stunt Double> copies the original characteristics of that token as stated by the effect that put the token onto the battlefield. <Stunt Double> isn't a token.
 2016/08/23: Any enters-the-battlefield abilities of the copied creature will trigger when <Stunt Double> enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the chosen creature will also work.
 2016/08/23: If <Stunt Double> somehow enters the battlefield at the same time as another creature, it can't become a copy of that creature. You may choose only a creature that's already on the battlefield.
-2016/08/23: You can choose not to copy anything. In that case, <Stunt Double> enters the battlefield as a 0/0 creature, and is put into the graveyard immediately (unless something else is raising its toughness).</Rulings>
+2016/08/23: You can choose not to copy anything. In that case, <Stunt Double> enters the battlefield as a 0/0 creature, and is put into the graveyard immediately (unless something else is raising its toughness).
+2016/08/23: <Stunt Double> copies exactly what was printed on the original creature (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or any Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+2016/08/23: If the copied creature has {X} in its mana cost, that X is considered to be 0.
+2016/08/23: If the chosen creature is copying something else (for example, if the chosen creature is another <Stunt Double>), then <Stunt Double> enters the battlefield as whatever the chosen creature copied.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Conspiracy: Take the Crown</Set>
@@ -1666,11 +1666,11 @@ Whenever you or a permanent you control becomes the target of a spell or ability
 <Flavor>"I'm sure we can come to an arrangement."</Flavor>
 <Artist>Magali Villeneuve</Artist>
 <Multiverseid>416834</Multiverseid>
-<Rulings>2016/08/23: Your opponents can draw a maximum of one card on each player's turn. Subsequent card draws are ignored.
-2016/08/23: If an opponent hasn't drawn any cards in a turn, and a spell or ability instructs a player to draw multiple cards, that player will just draw one card. However, if the draws are an optional cost to generate an additional effect ("[That player] may draw two cards. If they do, [effect]" or similar), the player can't pay that cost in full and can't draw any cards.
-2016/08/23: Leovold will "see" cards drawn by opponents earlier in the turn on the turn it enters the battlefield, although Leovold can't affect cards drawn before it entered the battlefield. For example, if an opponent draws two cards, then Leovold enters the battlefield, that opponent can't draw more cards that turn, but the two drawn cards are unaffected.
-2016/08/23: Replacement effects can't be used to replace draws that Leovold disallows.
-2016/08/23: If you and a permanent you control each become the target of the same spell or ability an opponent controls, Leovold's ability will trigger twice.</Rulings>
+<Rulings>2018/12/07: Your opponents can draw a maximum of one card each on each player's turn. Subsequent card draws during that turn are ignored.
+2018/12/07: If an opponent hasn't drawn any cards in a turn and a spell or ability instructs that player to draw multiple cards, that player will just draw one card. However, if the draws are optional, the player can't choose to draw, even if they could draw one card this way.
+2018/12/07: Leovold will "see" cards drawn by opponents earlier in the turn before it entered the battlefield, although Leovold can't affect cards drawn before it entered the battlefield. For example, if an opponent draws two cards, then Leovold enters the battlefield, that opponent can't draw more cards that turn, but the two drawn cards are unaffected.
+2018/12/07: Replacement effects (such as that of dredge or Laboratory Maniac's ability) can't be used to replace draws that Leovold disallows. However, if an opponent's first draw is replaced (by a dredge ability, for example), that draw didn't happen and Leovold won't stop the next draw.
+2018/12/07: If you and a permanent you control each become the target of the same spell or ability an opponent controls, Leovold's ability will trigger twice. The same is true if two permanents you control become the target of the same spell or ability an opponent controls.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Conspiracy: Take the Crown</Set>
@@ -2674,7 +2674,7 @@ When Blood-Toll Harpy enters the battlefield, each player loses 1 life.</CardTex
 <Name>Child of Night</Name>
 <Type>Creature — Vampire 2/1</Type>
 <ManaCost>1B (2)</ManaCost>
-<CardText>Lifelink (Damage dealt by this creature also causes you to gain that much life.)</CardText>
+<CardText>Lifelink</CardText>
 <Flavor>Sins that would be too gruesome in the light of day are made more pleasing in the dark of night.</Flavor>
 <Artist>Ash Wood</Artist>
 <Multiverseid>416887</Multiverseid>
@@ -2855,7 +2855,7 @@ Whenever another nontoken creature dies, you may draw a card.</CardText>
 <ManaCost>B (1)</ManaCost>
 <CardText>Target player reveals their hand. You choose a nonland card from it with converted mana cost 3 or less. That player discards that card.</CardText>
 <Flavor>You will scream out your innermost secrets just to make it stop.</Flavor>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>416897</Multiverseid>
 <Rulings>2014/02/01: If you target yourself with this spell, you must reveal your entire hand to the other players just as any other player would.</Rulings>
 <Vintage>Legal</Vintage>
@@ -3435,7 +3435,7 @@ When Stoneshock Giant becomes monstrous, creatures without flying your opponents
 Draw two cards.</CardText>
 <Flavor>"Unwelcome thoughts crowd my mind. Are they my own madness, or the whispers of another?"
 —Sarkhan Vol</Flavor>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>416928</Multiverseid>
 <Rulings>2018/07/13: You must discard exactly one card to cast <Tormenting Voice>; you can't cast it without discarding a card, and you can't discard additional cards.</Rulings>
 <Vintage>Legal</Vintage>
@@ -3814,7 +3814,7 @@ Whenever Netcaster Spider blocks a creature with flying, Netcaster Spider gets +
 —Paulin, trapper of Somberwald</Flavor>
 <Artist>Dave Kendall</Artist>
 <Multiverseid>416948</Multiverseid>
-<Rulings>2012/07/01: If either or both targets are illegal when <Prey Upon> tries to resolve, no creature will deal or be dealt damage.</Rulings>
+<Rulings>2018/12/07: If either target is an illegal target as <Prey Upon> resolves, no creature will deal or be dealt damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4354,7 +4354,7 @@ Whenever you draw a card, each opponent loses 1 life.</CardText>
 <Flavor>Rumors quickly spread among thieves about a labyrinth without walls and a prize beyond all measures of worth.</Flavor>
 <Artist>Christine Choi</Artist>
 <Multiverseid>416977</Multiverseid>
-<Rulings>2012/10/01: Activating the second ability of <Rogue's Passage> after a creature has become blocked won't cause it to become unblocked.</Rulings>
+<Rulings>2018/12/07: Activating the second ability of <Rogue's Passage> after a creature has become blocked won't cause that creature to become unblocked.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

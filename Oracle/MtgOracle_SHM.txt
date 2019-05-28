@@ -382,13 +382,12 @@ Whenever a creature enters the battlefield under an opponent's control, you may 
 You have protection from the chosen name. (You can't be targeted, dealt damage, or enchanted by anything with that name.)</CardText>
 <Artist>Steve Prescott</Artist>
 <Multiverseid>154005</Multiverseid>
-<Rulings>2008/05/01: <Runed Halo> gives you protection from each object with the chosen name, whether it's a card, a token, or a copy of a spell. It doesn't matter what game zone that object is in.
-2008/05/01: You can still be attacked by creatures with the chosen name.
-2008/05/01: You'll have protection from the name, not from the word. For example, if you choose the name Forest, you'll have protection from anything named "Forest" — but you won't have protection from Forests. An animated Sapseep Forest, for example, could deal damage to you even though its subtype is Forest.
-2008/05/01: You can name either half of a split card, but not both. You'll have protection from the half you named (and from a fused split spell with that name), but not the other half.
-2008/05/01: You can't choose [nothing] as a name. Face-down creatures have no name, so <Runed Halo> can't give you protection from them.
-2008/05/01: You must choose the name of a card, not the name of a token. For example, you can't choose "Saproling" or "Voja." However, if a token happens to have the same name as a card (such as "Shapeshifter" or "Goldmeadow Harrier"), you can choose it.
-2008/05/01: You may choose either one of a flip card's names. You'll have protection only from the appropriate version. For example, if you choose Nighteyes the Desecrator, you won't have protection from Nezumi Graverobber.</Rulings>
+<Rulings>2018/12/07: If a player has protection from a chosen name, it means three things:
+2018/12/07: <Runed Halo> gives you protection from each object with the chosen name, whether it's a card, a token, or a copy of a spell. It doesn't matter what game zone that object is in.
+2018/12/07: <Runed Halo> doesn't give your permanents protection from the chosen name, only you.
+2018/12/07: You can still be attacked by creatures with the chosen name, even though they won't deal combat damage to you.
+2018/12/07: You'll have protection from the name, not from the word. For example, if you choose the name Shapeshifter, you'll have protection from anything named "Shapeshifter," but you won't have protection from other creatures with the creature type "Shapeshifter."
+2018/12/07: You must choose the name of a card, not the name of a token. For example, you can't choose "Saproling" or "Marit Lage." However, if a token happens to have the same name as a card (such as "Shapeshifter" or "Spark Elemental"), you can choose it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -937,18 +936,18 @@ Whenever a player casts a spell from a graveyard, draw a card.
 Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)</CardText>
 <Artist>Jeff Easley</Artist>
 <Multiverseid>146094</Multiverseid>
-<Rulings>2008/05/01: <River Kelpie> doesn't give you the ability to cast spells from graveyards. Its second ability merely triggers whenever a spell is cast this way (by using Memory Plunder, for example).
-2008/05/01: If <River Kelpie> and another permanent are each put onto the battlefield from a graveyard at the same time, <River Kelpie>'s first ability will trigger twice. (It will see the other permanent entering the battlefield.)
+<Rulings>2008/05/01: If <River Kelpie> and another permanent are each put onto the battlefield from a graveyard at the same time, <River Kelpie>'s first ability will trigger twice. (It will see the other permanent entering the battlefield.)
 2008/05/01: If you cast another artifact, creature, enchantment, or planeswalker spell from a graveyard, only the second ability triggers. That's because the card is put onto the stack, not onto the battlefield.
 2008/05/01: If you cast <River Kelpie> itself from your graveyard (by using Yawgmoth's Will, for example), neither ability triggers. The first ability doesn't trigger because <River Kelpie> is put onto the stack; the second ability doesn't trigger because it works only while <River Kelpie> is already on the battlefield.
 2008/05/01: If you play a land card from a graveyard (by using Crucible of Worlds, for example), only the first ability triggers. That's because the land (which isn't a spell) is put directly onto the battlefield from the graveyard.
-2013/06/07: If a creature with persist stops being a creature, persist will still work.
+2008/05/01: <River Kelpie> doesn't give you the ability to cast spells from graveyards. Its second ability merely triggers whenever a spell is cast this way (by using Memory Plunder, for example).
+2013/06/07: If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature's existence just before it leaves the battlefield, and it still has all those counters on it at that point.
 2013/06/07: The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it.
 2013/06/07: If a permanent has multiple instances of persist, they'll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing.
 2013/06/07: If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can't return to the battlefield.
 2013/06/07: When a permanent with persist returns to the battlefield, it's a new object with no memory of or connection to its previous existence.
 2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
-2013/06/07: If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature's existence just before it leaves the battlefield, and it still has all those counters on it at that point.</Rulings>
+2013/06/07: If a creature with persist stops being a creature, persist will still work.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2101,7 +2100,8 @@ Put a -1/-1 counter on Devoted Druid: Untap Devoted Druid.</CardText>
 <Flavor>"Mana lurks in all things, even in the depths of one's own heart."</Flavor>
 <Artist>Darrell Riche</Artist>
 <Multiverseid>135500</Multiverseid>
-<Rulings>2008/05/01: You put the -1/-1 counter on <Devoted Druid> as a cost. That means it happens when you activate the ability, not when it resolves. If paying the cost causes the creature to have 0 toughness, it's put into the graveyard before you can untap it and before you can even pay the cost again.</Rulings>
+<Rulings>2018/12/07: You put the -1/-1 counter on <Devoted Druid> as a cost to activate its ability, not when it resolves. If paying the cost causes <Devoted Druid> to have 0 toughness, it's put into your graveyard before you can untap it and before you can even pay the cost again.
+2018/12/07: If you can't put -1/-1 counters on <Devoted Druid> (due to an effect such as that of Solemnity), you can't activate its second ability. If you can put counters on it, but that is modified by an effect (such as that of Vizier of Remedies), you can activate the ability even if paying the cost causes no counters to be put on <Devoted Druid>.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2957,6 +2957,8 @@ Other blue creatures you control get +1/+1.</CardText>
 —Olka, mistmeadow witch</Flavor>
 <Artist>Greg Staples</Artist>
 <Multiverseid>158752</Multiverseid>
+<Rulings>2018/12/07: If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+2018/12/07: Once the exiled creature returns, it's considered a new object with no relation to the object that it was. Auras attached to the exiled creature will be put into their owners' graveyards. Equipment attached to the exiled creature will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3673,13 +3675,13 @@ Persist (When this creature dies, if it had no -1/-1 counters on it, return it t
 <Artist>Dave Allsop</Artist>
 <Multiverseid>153298</Multiverseid>
 <Rulings>2008/05/01: <Murderous Redcap>'s power is checked at the time the ability resolves. If it's left the battlefield by then, its last known information is used.
+2013/06/07: If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature's existence just before it leaves the battlefield, and it still has all those counters on it at that point.
 2013/06/07: If a creature with persist stops being a creature, persist will still work.
 2013/06/07: The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it.
 2013/06/07: If a permanent has multiple instances of persist, they'll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing.
 2013/06/07: If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can't return to the battlefield.
 2013/06/07: When a permanent with persist returns to the battlefield, it's a new object with no memory of or connection to its previous existence.
-2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
-2013/06/07: If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature's existence just before it leaves the battlefield, and it still has all those counters on it at that point.</Rulings>
+2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4419,7 +4421,7 @@ Persist (When this creature dies, if it had no -1/-1 counters on it, return it t
 <Flavor>"We will give you the peace you seek, though you may not yet know you seek it."</Flavor>
 <Artist>Dave Kendall</Artist>
 <Multiverseid>158771</Multiverseid>
-<Rulings>2013/07/01: You target the creature that will be sacrificed when you cast <Mercy Killing>, then its controller (who may or may not be you) sacrifices it when <Mercy Killing> resolves. Because this is a sacrifice, neither regeneration nor indestructible will save the creature.</Rulings>
+<Rulings>2013/07/01: You target the creature that will be sacrificed when you cast <Mercy Killing>, then its controller (who may or may not be you) sacrifices it when <Mercy Killing> resolves. Because this is a sacrifice, neither regeneration nor indestructibile will save the creature.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4733,13 +4735,13 @@ Equip {2}</CardText>
 <Artist>Ron Brown</Artist>
 <Multiverseid>152065</Multiverseid>
 <Rulings>2008/05/01: If a nontoken creature that gains persist this way is put into a graveyard, that card will be returned to the battlefield with a -1/-1 counter on it. However, because it's a new object with no relation to its previous existence, the returned creature will not have persist.
+2013/06/07: If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature's existence just before it leaves the battlefield, and it still has all those counters on it at that point.
 2013/06/07: If a creature with persist stops being a creature, persist will still work.
 2013/06/07: The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it.
 2013/06/07: If a permanent has multiple instances of persist, they'll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing.
 2013/06/07: If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can't return to the battlefield.
 2013/06/07: When a permanent with persist returns to the battlefield, it's a new object with no memory of or connection to its previous existence.
-2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
-2013/06/07: If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature's existence just before it leaves the battlefield, and it still has all those counters on it at that point.</Rulings>
+2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -5268,6 +5270,8 @@ Mistveil Plains enters the battlefield tapped.
 {W}, {T}: Put target card from your graveyard on the bottom of your library. Activate this ability only if you control two or more white permanents.</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>142014</Multiverseid>
+<Rulings>2018/12/07: A land card that produces white mana, even a Plains, normally has no color.
+2018/12/07: Once you activate <Mistveil Plains>'s last ability, it doesn't matter if you lose control of some of your white permanents.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

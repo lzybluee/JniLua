@@ -25,7 +25,7 @@ When Ancestor's Chosen enters the battlefield, you gain 1 life for each card in 
 <CardText>Flying
 When Angel of Mercy enters the battlefield, you gain 3 life.</CardText>
 <Flavor>Every tear shed is a drop of immortality.</Flavor>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>129465</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -373,7 +373,7 @@ Prevent all damage that would be dealt to and dealt by enchanted creature.</Card
 <CardText>Prevent all combat damage that would be dealt this turn.</CardText>
 <Flavor>"Today there is feasting and peace across our land, but the war has not ended. Tuck away your bloodlust. You'll need it tomorrow."
 —Karrim, Samite healer</Flavor>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>129593</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1141,7 +1141,7 @@ Creatures can't attack you unless their controller pays {2} for each creature th
 <Name>Air Elemental</Name>
 <Type>Creature — Elemental 4/4</Type>
 <ManaCost>3UU (5)</ManaCost>
-<CardText>Flying</CardText>
+<CardText>Flying (This creature can't be blocked except by creatures with flying or reach.)</CardText>
 <Flavor>"The East Wind, an interloper in the dominions of Westerly Weather, is an impassive-faced tyrant with a sharp poniard held behind his back for a treacherous stab."
 —Joseph Conrad, The Mirror of the Sea</Flavor>
 <Artist>Kev Walker</Artist>
@@ -2027,7 +2027,7 @@ Sacrifice Spiketail Hatchling: Counter target spell unless its controller pays {
 <CardText>At the beginning of each player's upkeep, that player returns a creature they control to its owner's hand.</CardText>
 <Flavor>"I don't concern myself with my enemy's hopes. Hopes follow the tides. They will retreat soon enough."
 —Ambassador Laquatus</Flavor>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>129509</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2175,14 +2175,14 @@ Whenever Thieving Magpie deals damage to an opponent, draw a card.</CardText>
 <Flavor>Imitation is the most dangerous form of flattery.</Flavor>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>129887</Multiverseid>
-<Rulings>2005/06/01: You can't choose to pay any additional costs for the copy. However, effects based on any additional costs paid for the targeted spell are copied as though those same costs were paid for the copy too.
-2005/06/01: <Twincast> copies any text spliced onto the targeted spell, but you can't splice additional text onto the copy.
-2009/10/01: <Twincast> can target (and copy) any instant or sorcery spell, not just one with targets. It doesn't matter who controls it.
-2009/10/01: As <Twincast> resolves, it creates a copy of a spell. That copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger. The copy will then resolve like a normal spell, after players get a chance to cast spells and activate abilities.
-2009/10/01: The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+<Rulings>2005/06/01: <Twincast> copies any text spliced onto the targeted spell, but you can't splice additional text onto the copy.
+2005/06/01: You can't choose to pay any additional costs for the copy. However, effects based on any additional costs paid for the targeted spell are copied as though those same costs were paid for the copy too.
+2009/10/01: If the copy says that it affects "you," it affects the controller of the copy, not the controller of the original spell. Similarly, if the copy says that it affects an "opponent," it affects an opponent of the copy's controller, not an opponent of the original spell's controller.
 2009/10/01: If the spell <Twincast> copies is modal (that is, it says "Choose one —" or the like), the copy will have the same mode. You can't choose a different one.
 2009/10/01: If the spell <Twincast> copies has an X whose value was determined as it was cast (like Earthquake does), the copy has the same value of X.
-2009/10/01: If the copy says that it affects "you," it affects the controller of the copy, not the controller of the original spell. Similarly, if the copy says that it affects an "opponent," it affects an opponent of the copy's controller, not an opponent of the original spell's controller.</Rulings>
+2009/10/01: <Twincast> can target (and copy) any instant or sorcery spell, not just one with targets. It doesn't matter who controls it.
+2009/10/01: As <Twincast> resolves, it creates a copy of a spell. That copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger. The copy will then resolve like a normal spell, after players get a chance to cast spells and activate abilities.
+2009/10/01: The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2489,7 +2489,7 @@ Whenever enchanted creature attacks or blocks, its controller loses 3 life.</Car
 <ManaCost>2B (3)</ManaCost>
 <CardText>{B}, {T}, Sacrifice Doomed Necromancer: Return target creature card from your graveyard to the battlefield.</CardText>
 <Flavor>Many necromancers share the same last words—the ones that conclude the undeath ritual.</Flavor>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>129880</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3461,7 +3461,7 @@ Enchanted creature gets +2/+2 and has "{T}: This creature deals 1 damage to any 
 <Name>Bloodfire Colossus</Name>
 <Type>Creature — Giant 6/6</Type>
 <ManaCost>6RR (8)</ManaCost>
-<CardText>{R}, Sacrifice Bloodfire Colossus: Bloodfire Colossus deals 6 damage to each creature and each player.</CardText>
+<CardText>{R}, Sacrifice Bloodfire Colossus: It deals 6 damage to each creature and each player.</CardText>
 <Flavor>It took all its strength to contain the fire within.</Flavor>
 <Artist>Greg Staples</Artist>
 <Multiverseid>129709</Multiverseid>
@@ -4138,6 +4138,7 @@ He passes from life to his rest in the grave."
 <Flavor>Earth arms itself with fire.</Flavor>
 <Artist>Greg Staples</Artist>
 <Multiverseid>129884</Multiverseid>
+<Rulings>2018/12/07: If an effect instructs you to draw cards and then discard cards, you can't take actions in between. For example, if you have no cards in hand and cast Faithless Looting, you can't activate <Seismic Assault>'s ability between the time you draw two cards and discard those two cards.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4224,14 +4225,14 @@ He passes from life to his rest in the grave."
 <Flavor>Aranghil held her fury in her heart, hard and bright as a ruby. With its razor edge, she rewrote the laws of battle.</Flavor>
 <Artist>Greg Hildebrandt</Artist>
 <Multiverseid>130362</Multiverseid>
-<Rulings>2004/10/04: Once the spell resolves, the new target is considered to be targeted by the deflected spell. This will trigger any effects which trigger on being targeted.
-2004/10/04: This only targets the spell being changed, not the original or new target of the spell it is affecting.
-2004/10/04: The target of a spell that targets another spell on the stack can be changed to any other spell on the stack, even if the new target will resolve before the spell does.
+<Rulings>2004/10/04: The target of a spell that targets another spell on the stack can be changed to any other spell on the stack, even if the new target will resolve before the spell does.
 2004/10/04: You can't make a spell which is on the stack target itself.
 2004/10/04: You can choose to make a spell on the stack target this spell (if such a target choice would be legal had the spell been cast while this spell was on the stack). The new target for the deflected spell is not chosen until this spell resolves. This spell is still on the stack when new targets are selected for the spell.
-2004/10/04: If there is no other legal target for the spell, this does not change the target.
+2004/10/04: Once the spell resolves, the new target is considered to be targeted by the deflected spell. This will trigger any effects which trigger on being targeted.
 2004/10/04: This does not check if the current target is legal. It just checks if the spell has a single target.
 2004/10/04: You choose the spell to target on announcement, but you pick the new target for that spell on resolution.
+2004/10/04: If there is no other legal target for the spell, this does not change the target.
+2004/10/04: This only targets the spell being changed, not the original or new target of the spell it is affecting.
 2007/07/15: If a spell targets multiple things, you can't target it with <Shunt>, even if all but one of those targets has become illegal.
 2007/07/15: If a spell targets the same player or object multiple times, you can't target it with <Shunt>.</Rulings>
 <Vintage>Legal</Vintage>
@@ -4341,7 +4342,7 @@ At the beginning of the end step, sacrifice Spark Elemental.</CardText>
 —Starke</Flavor>
 <Artist>Greg Staples</Artist>
 <Multiverseid>106473</Multiverseid>
-<Rulings>2013/06/07: Squee's ability triggers only if it's in your graveyard as your upkeep begins.</Rulings>
+<Rulings>2018/12/07: If Squee isn't in your graveyard as your upkeep begins, its ability won't trigger. You can't take any actions during your turn before your upkeep begins.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4596,7 +4597,7 @@ Trample (This creature can deal excess combat damage to the player or planeswalk
 <Name>Blanchwood Armor</Name>
 <Type>Enchantment — Aura</Type>
 <ManaCost>2G (3)</ManaCost>
-<CardText>Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)
+<CardText>Enchant creature
 Enchanted creature gets +1/+1 for each Forest you control.</CardText>
 <Flavor>"Before armor, there was bark. Before blades, there were thorns."
 —Molimo, maro-sorcerer</Flavor>
@@ -4631,7 +4632,7 @@ Enchanted creature gets +1/+1 for each Forest you control.</CardText>
 <SetId>10E</SetId>
 <No>255</No>
 <Name>Civic Wayfinder</Name>
-<Type>Creature — Elf Warrior Druid 2/2</Type>
+<Type>Creature — Elf Druid Warrior 2/2</Type>
 <ManaCost>2G (3)</ManaCost>
 <CardText>When Civic Wayfinder enters the battlefield, you may search your library for a basic land card, reveal it, and put it into your hand. If you do, shuffle your library.</CardText>
 <Flavor>"These alleys are not safe. Come, I can guide you back to the market square."</Flavor>
@@ -5172,7 +5173,7 @@ Whenever enchanted land is tapped for mana, its controller adds an additional {G
 <Type>Creature — Insect 3/1</Type>
 <ManaCost>2G (3)</ManaCost>
 <CardText>Shroud (This creature can't be the target of spells or abilities.)</CardText>
-<Flavor>"No fair Since when does a bug get ta munch on me?"
+<Flavor>"No fair! Since when does a bug get ta munch on me?"
 —Squee, goblin cabin hand</Flavor>
 <Artist>Stephen Daniele</Artist>
 <Multiverseid>130526</Multiverseid>

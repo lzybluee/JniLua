@@ -421,15 +421,22 @@ Enchanted creature gets +2/+2 and has vigilance.</CardText>
 {2}{W}: Kytheon gains indestructible until end of turn.</CardText>
 <Artist>Willian Murai</Artist>
 <Multiverseid>398428</Multiverseid>
-<Rulings>2015/06/22: Kytheon's first ability will count creatures that attacked but are no longer on the battlefield (perhaps because they didn't survive combat damage being dealt). It will not count any creatures that were put onto the battlefield attacking, as those creatures were never declared as attackers.
-2015/06/22: Each face of a double-faced card has its own set of characteristics: name, types, subtypes, power and toughness, loyalty, abilities, and so on. While a double-faced card is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored. While a double-faced card isn't on the battlefield, consider only the characteristics of its front face.
-2015/06/22: The converted mana cost of a double-faced card not on the battlefield is the converted mana cost of its front face.
-2015/06/22: The back face of a double-faced card (in the case of Magic Origins, the planeswalker face) can't be cast.
+<Rulings>2015/06/22: The back face of a double-faced card (in the case of Magic Origins, the planeswalker face) can't be cast.
 2015/06/22: A double-faced card enters the battlefield with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed, in which case it enters with its back face up.
 2015/06/22: A Magic Origins planeswalker that enters the battlefield because of the ability of its front face will enter with loyalty counters as normal.
 2015/06/22: In some rare cases, a spell or ability may cause one of these five cards to transform while it's a creature (front face up) on the battlefield. If this happens, the resulting planeswalker won't have any loyalty counters on it and will subsequently be put into its owner's graveyard.
 2015/06/22: You can activate one of the planeswalker's loyalty abilities the turn it enters the battlefield. However, you may do so only during one of your main phases when the stack is empty. For example, if the planeswalker enters the battlefield during combat, there will be an opportunity for your opponent to remove it before you can activate one of its abilities.
 2015/06/22: If a double-faced card is manifested, it will be put onto the battlefield face down (this is also true if it's put onto the battlefield face down some other way). Note that "face down" is not synonymous with "with its back face up." A manifested double-faced card is a 2/2 creature with no name, mana cost, creature types, or abilities. While face down, it can't transform. If the front face of a manifested double-faced card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up. A double-faced card on the battlefield can't be turned face down.
+2015/06/22: Gideon's first ability causes a creature to attack him if able. If, during its controller's declare attackers step, that creature is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under its controller's control continuously since that player's turn began, then that creature doesn't attack. If there's a cost associated with having that creature attack, its controller isn't forced to pay that cost. If they don't, the creature doesn't have to attack.
+2015/06/22: If the creature targeted by Gideon's first ability changes controllers before it has the chance to attack Gideon, the ability will apply to it during its new controller's next turn.
+2015/06/22: If Gideon can't be attacked, perhaps because he has left the battlefield before the creature's controller's next combat, the creature targeted by Gideon's first ability can attack you or another planeswalker you control, or its controller can choose to have it not attack at all.
+2015/06/22: If Gideon becomes a creature due to his third ability, that doesn't count as having a creature enter the battlefield. Gideon was already on the battlefield; he only changed his types. Abilities that trigger whenever a creature enters the battlefield won't trigger.
+2015/06/22: Gideon's third ability causes him to become a creature with the creature types Human Soldier. He remains a planeswalker with the planeswalker type Gideon. (He also retains any other card types or subtypes he may have had.) Each subtype is correlated to the proper card type: Gideon is just a planeswalker type (not a creature type), and Human and Soldier are just creature types (not planeswalker types).
+2015/06/22: If you activate Gideon's third ability and then damage is dealt to him that can't be prevented, that damage has all applicable results: specifically, the damage is marked on Gideon (since he's a creature) and that damage causes that many loyalty counters to be removed from him (since he's a planeswalker). If Gideon has no loyalty counters on him, he's put into his owner's graveyard as a state-based action. (As long as he still has indestructible, the marked damage won't cause him to be destroyed.)
+2015/06/22: Kytheon's first ability will count creatures that attacked but are no longer on the battlefield (perhaps because they didn't survive combat damage being dealt). It will not count any creatures that were put onto the battlefield attacking, as those creatures were never declared as attackers.
+2015/06/22: Say you activate Gideon's third ability, then an opponent gains control of him before combat. You may have any of your creatures attack Gideon (since he's still a planeswalker). Then Gideon may block (since he's a creature). He may block any eligible attacking creature, including one that's attacking him. During combat, he behaves as an attacked planeswalker and/or a blocking creature, as appropriate. For example, he deals combat damage to any creatures he's blocking, but he doesn't deal combat damage to any unblocked creatures that are attacking him.
+2015/06/22: Each face of a double-faced card has its own set of characteristics: name, types, subtypes, power and toughness, loyalty, abilities, and so on. While a double-faced card is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored. While a double-faced card isn't on the battlefield, consider only the characteristics of its front face.
+2015/06/22: The converted mana cost of a double-faced card not on the battlefield is the converted mana cost of its front face.
 2016/04/08: The back face of a double-faced card doesn't have a mana cost. A double-faced permanent with its back face up has a converted mana cost equal to the converted mana cost of its front face. Each back face has a color indicator that defines its color.
 2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
 2017/09/29: You can control two of this permanent, one front-face up and the other back-face up, at the same time.</Rulings>
@@ -452,13 +459,25 @@ Enchanted creature gets +2/+2 and has vigilance.</CardText>
 0: Until end of turn, Gideon, Battle-Forged becomes a 4/4 Human Soldier creature with indestructible that's still a planeswalker. Prevent all damage that would be dealt to him this turn.</CardText>
 <Artist>Willian Murai</Artist>
 <Multiverseid>398429</Multiverseid>
-<Rulings>2015/06/22: Gideon's first ability causes a creature to attack him if able. If, during its controller's declare attackers step, that creature is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under its controller's control continuously since that player's turn began, then that creature doesn't attack. If there's a cost associated with having that creature attack, its controller isn't forced to pay that cost. If they don't, the creature doesn't have to attack.
-2015/06/22: If Gideon can't be attacked, perhaps because he has left the battlefield before the creature's controller's next combat, the creature targeted by Gideon's first ability can attack you or another planeswalker you control, or its controller can choose to have it not attack at all.
+<Rulings>2015/06/22: The back face of a double-faced card (in the case of Magic Origins, the planeswalker face) can't be cast.
+2015/06/22: A double-faced card enters the battlefield with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed, in which case it enters with its back face up.
+2015/06/22: A Magic Origins planeswalker that enters the battlefield because of the ability of its front face will enter with loyalty counters as normal.
+2015/06/22: In some rare cases, a spell or ability may cause one of these five cards to transform while it's a creature (front face up) on the battlefield. If this happens, the resulting planeswalker won't have any loyalty counters on it and will subsequently be put into its owner's graveyard.
+2015/06/22: You can activate one of the planeswalker's loyalty abilities the turn it enters the battlefield. However, you may do so only during one of your main phases when the stack is empty. For example, if the planeswalker enters the battlefield during combat, there will be an opportunity for your opponent to remove it before you can activate one of its abilities.
+2015/06/22: If a double-faced card is manifested, it will be put onto the battlefield face down (this is also true if it's put onto the battlefield face down some other way). Note that "face down" is not synonymous with "with its back face up." A manifested double-faced card is a 2/2 creature with no name, mana cost, creature types, or abilities. While face down, it can't transform. If the front face of a manifested double-faced card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up. A double-faced card on the battlefield can't be turned face down.
+2015/06/22: Gideon's first ability causes a creature to attack him if able. If, during its controller's declare attackers step, that creature is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under its controller's control continuously since that player's turn began, then that creature doesn't attack. If there's a cost associated with having that creature attack, its controller isn't forced to pay that cost. If they don't, the creature doesn't have to attack.
 2015/06/22: If the creature targeted by Gideon's first ability changes controllers before it has the chance to attack Gideon, the ability will apply to it during its new controller's next turn.
+2015/06/22: If Gideon can't be attacked, perhaps because he has left the battlefield before the creature's controller's next combat, the creature targeted by Gideon's first ability can attack you or another planeswalker you control, or its controller can choose to have it not attack at all.
 2015/06/22: If Gideon becomes a creature due to his third ability, that doesn't count as having a creature enter the battlefield. Gideon was already on the battlefield; he only changed his types. Abilities that trigger whenever a creature enters the battlefield won't trigger.
 2015/06/22: Gideon's third ability causes him to become a creature with the creature types Human Soldier. He remains a planeswalker with the planeswalker type Gideon. (He also retains any other card types or subtypes he may have had.) Each subtype is correlated to the proper card type: Gideon is just a planeswalker type (not a creature type), and Human and Soldier are just creature types (not planeswalker types).
 2015/06/22: If you activate Gideon's third ability and then damage is dealt to him that can't be prevented, that damage has all applicable results: specifically, the damage is marked on Gideon (since he's a creature) and that damage causes that many loyalty counters to be removed from him (since he's a planeswalker). If Gideon has no loyalty counters on him, he's put into his owner's graveyard as a state-based action. (As long as he still has indestructible, the marked damage won't cause him to be destroyed.)
-2015/06/22: Say you activate Gideon's third ability, then an opponent gains control of him before combat. You may have any of your creatures attack Gideon (since he's still a planeswalker). Then Gideon may block (since he's a creature). He may block any eligible attacking creature, including one that's attacking him. During combat, he behaves as an attacked planeswalker and/or a blocking creature, as appropriate. For example, he deals combat damage to any creatures he's blocking, but he doesn't deal combat damage to any unblocked creatures that are attacking him.</Rulings>
+2015/06/22: Kytheon's first ability will count creatures that attacked but are no longer on the battlefield (perhaps because they didn't survive combat damage being dealt). It will not count any creatures that were put onto the battlefield attacking, as those creatures were never declared as attackers.
+2015/06/22: Say you activate Gideon's third ability, then an opponent gains control of him before combat. You may have any of your creatures attack Gideon (since he's still a planeswalker). Then Gideon may block (since he's a creature). He may block any eligible attacking creature, including one that's attacking him. During combat, he behaves as an attacked planeswalker and/or a blocking creature, as appropriate. For example, he deals combat damage to any creatures he's blocking, but he doesn't deal combat damage to any unblocked creatures that are attacking him.
+2015/06/22: Each face of a double-faced card has its own set of characteristics: name, types, subtypes, power and toughness, loyalty, abilities, and so on. While a double-faced card is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored. While a double-faced card isn't on the battlefield, consider only the characteristics of its front face.
+2015/06/22: The converted mana cost of a double-faced card not on the battlefield is the converted mana cost of its front face.
+2016/04/08: The back face of a double-faced card doesn't have a mana cost. A double-faced permanent with its back face up has a converted mana cost equal to the converted mana cost of its front face. Each back face has a color indicator that defines its color.
+2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+2017/09/29: You can control two of this permanent, one front-face up and the other back-face up, at the same time.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -572,7 +591,7 @@ When Patron of the Valiant enters the battlefield, put a +1/+1 counter on each c
 <ManaCost>1W (2)</ManaCost>
 <CardText>Renown 1 (When this creature deals combat damage to a player, if it isn't renowned, put a +1/+1 counter on it and it becomes renowned.)
 When Relic Seeker becomes renowned, you may search your library for an Equipment card, reveal it, put it into your hand, then shuffle your library.</CardText>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>398476</Multiverseid>
 <Rulings>2015/06/22: Renown won't trigger when a creature deals combat damage to a planeswalker or another creature. It also won't trigger when a creature deals noncombat damage to a player.
 2015/06/22: If a creature with renown deals combat damage to its controller because that damage was redirected, renown will trigger.
@@ -693,8 +712,9 @@ Enchanted permanent can't attack or block, and its activated abilities can't be 
 Destroy target tapped creature.</CardText>
 <Artist>Chris Rahn</Artist>
 <Multiverseid>398481</Multiverseid>
-<Rulings>2015/06/22: The number of instant and/or sorcery cards in your graveyard matters only as you begin to cast <Swift Reckoning>. Once it's cast, that number doesn't matter and will have no effect on <Swift Reckoning> resolving.
-2015/06/22: Check to see if there are two or more instant and/or sorcery cards in your graveyard as the spell resolves to determine whether the spell mastery ability applies. The spell itself won't count because it's still on the stack as you make this check.</Rulings>
+<Rulings>2015/06/22: Check to see if there are two or more instant and/or sorcery cards in your graveyard as the spell resolves to determine whether the spell mastery ability applies. The spell itself won't count because it's still on the stack as you make this check.
+2018/12/07: The number of instant and/or sorcery cards in your graveyard matters only as you begin to cast <Swift Reckoning>. Once it's cast, that number doesn't matter and will have no effect on <Swift Reckoning> resolving.
+2018/12/07: If an effect allows you to cast <Swift Reckoning> from your graveyard, you need two other instant and/or sorcery cards in your graveyard to cast it as though it had flash.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1169,18 +1189,22 @@ Draw a card.</CardText>
 <Flavor>"People's thoughts just come to me. Sometimes I don't know if it's them or me thinking."</Flavor>
 <Artist>Jaime Jones</Artist>
 <Multiverseid>398434</Multiverseid>
-<Rulings>2015/06/22: The activated ability of <Jace, Vryn's Prodigy> checks to see if there are five or more cards in your graveyard after you discard a card. Putting a fifth card into your graveyard at other times won't cause Jace to be exiled, nor will Jace entering the battlefield while there are five or more cards in your graveyard.
-2015/06/22: Each face of a double-faced card has its own set of characteristics: name, types, subtypes, power and toughness, loyalty, abilities, and so on. While a double-faced card is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored. While a double-faced card isn't on the battlefield, consider only the characteristics of its front face.
-2015/06/22: The converted mana cost of a double-faced card not on the battlefield is the converted mana cost of its front face.
-2015/06/22: The back face of a double-faced card (in the case of Magic Origins, the planeswalker face) can't be cast.
-2015/06/22: A double-faced card enters the battlefield with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed, in which case it enters with its back face up.
+<Rulings>2015/06/22: A double-faced card enters the battlefield with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed, in which case it enters with its back face up.
 2015/06/22: A Magic Origins planeswalker that enters the battlefield because of the ability of its front face will enter with loyalty counters as normal.
 2015/06/22: In some rare cases, a spell or ability may cause one of these five cards to transform while it's a creature (front face up) on the battlefield. If this happens, the resulting planeswalker won't have any loyalty counters on it and will subsequently be put into its owner's graveyard.
 2015/06/22: You can activate one of the planeswalker's loyalty abilities the turn it enters the battlefield. However, you may do so only during one of your main phases when the stack is empty. For example, if the planeswalker enters the battlefield during combat, there will be an opportunity for your opponent to remove it before you can activate one of its abilities.
 2015/06/22: If a double-faced card is manifested, it will be put onto the battlefield face down (this is also true if it's put onto the battlefield face down some other way). Note that "face down" is not synonymous with "with its back face up." A manifested double-faced card is a 2/2 creature with no name, mana cost, creature types, or abilities. While face down, it can't transform. If the front face of a manifested double-faced card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up. A double-faced card on the battlefield can't be turned face down.
+2015/06/22: If you activate the second ability of Jace, Telepath Unbound, you must follow the timing rules for the card's types. For example, if you target a sorcery card, you may cast it during your main phase when the stack is empty. You pay all the spell's costs.
+2015/06/22: If you don't cast the card that turn, nothing happens. It remains in your graveyard.
+2015/06/22: The card is exiled only if it's cast from the graveyard and put back into the graveyard (either by resolving or being countered). If, at any time, the card goes to a hidden zone (such as your hand or your library), the effect loses track of the card. It won't be exiled, even if that card is put into your graveyard later that turn.
+2015/06/22: The activated ability of <Jace, Vryn's Prodigy> checks to see if there are five or more cards in your graveyard after you discard a card. Putting a fifth card into your graveyard at other times won't cause Jace to be exiled, nor will Jace entering the battlefield while there are five or more cards in your graveyard.
+2015/06/22: Each face of a double-faced card has its own set of characteristics: name, types, subtypes, power and toughness, loyalty, abilities, and so on. While a double-faced card is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored. While a double-faced card isn't on the battlefield, consider only the characteristics of its front face.
+2015/06/22: The converted mana cost of a double-faced card not on the battlefield is the converted mana cost of its front face.
+2015/06/22: The back face of a double-faced card (in the case of Magic Origins, the planeswalker face) can't be cast.
 2016/04/08: If you discard a card with madness while resolving the ability of <Jace, Vryn's Prodigy>, you'll need to already have five other cards in your graveyard to satisfy that ability's condition. You can't choose to put the card directly into your graveyard to satisfy it.
 2016/04/08: The back face of a double-faced card doesn't have a mana cost. A double-faced permanent with its back face up has a converted mana cost equal to the converted mana cost of its front face. Each back face has a color indicator that defines its color.
 2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+2017/07/17: <Jace, Vryn's Prodigy> is banned as a commander in Duel Commander format, but it may be part of your deck.
 2017/09/29: You can control two of this permanent, one front-face up and the other back-face up, at the same time.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1201,9 +1225,23 @@ Draw a card.</CardText>
 -9: You get an emblem with "Whenever you cast a spell, target opponent puts the top five cards of their library into their graveyard."</CardText>
 <Artist>Jaime Jones</Artist>
 <Multiverseid>398435</Multiverseid>
-<Rulings>2015/06/22: If you activate the second ability of <Jace, Telepath Unbound>, you must follow the timing rules for the card's types. For example, if you target a sorcery card, you may cast it during your main phase when the stack is empty. You pay all the spell's costs.
+<Rulings>2015/06/22: A double-faced card enters the battlefield with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed, in which case it enters with its back face up.
+2015/06/22: A Magic Origins planeswalker that enters the battlefield because of the ability of its front face will enter with loyalty counters as normal.
+2015/06/22: In some rare cases, a spell or ability may cause one of these five cards to transform while it's a creature (front face up) on the battlefield. If this happens, the resulting planeswalker won't have any loyalty counters on it and will subsequently be put into its owner's graveyard.
+2015/06/22: You can activate one of the planeswalker's loyalty abilities the turn it enters the battlefield. However, you may do so only during one of your main phases when the stack is empty. For example, if the planeswalker enters the battlefield during combat, there will be an opportunity for your opponent to remove it before you can activate one of its abilities.
+2015/06/22: If a double-faced card is manifested, it will be put onto the battlefield face down (this is also true if it's put onto the battlefield face down some other way). Note that "face down" is not synonymous with "with its back face up." A manifested double-faced card is a 2/2 creature with no name, mana cost, creature types, or abilities. While face down, it can't transform. If the front face of a manifested double-faced card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up. A double-faced card on the battlefield can't be turned face down.
+2015/06/22: If you activate the second ability of <Jace, Telepath Unbound>, you must follow the timing rules for the card's types. For example, if you target a sorcery card, you may cast it during your main phase when the stack is empty. You pay all the spell's costs.
 2015/06/22: If you don't cast the card that turn, nothing happens. It remains in your graveyard.
-2015/06/22: The card is exiled only if it's cast from the graveyard and put back into the graveyard (either by resolving or being countered). If, at any time, the card goes to a hidden zone (such as your hand or your library), the effect loses track of the card. It won't be exiled, even if that card is put into your graveyard later that turn.</Rulings>
+2015/06/22: The card is exiled only if it's cast from the graveyard and put back into the graveyard (either by resolving or being countered). If, at any time, the card goes to a hidden zone (such as your hand or your library), the effect loses track of the card. It won't be exiled, even if that card is put into your graveyard later that turn.
+2015/06/22: The activated ability of Jace, Vryn's Prodigy checks to see if there are five or more cards in your graveyard after you discard a card. Putting a fifth card into your graveyard at other times won't cause Jace to be exiled, nor will Jace entering the battlefield while there are five or more cards in your graveyard.
+2015/06/22: Each face of a double-faced card has its own set of characteristics: name, types, subtypes, power and toughness, loyalty, abilities, and so on. While a double-faced card is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored. While a double-faced card isn't on the battlefield, consider only the characteristics of its front face.
+2015/06/22: The converted mana cost of a double-faced card not on the battlefield is the converted mana cost of its front face.
+2015/06/22: The back face of a double-faced card (in the case of Magic Origins, the planeswalker face) can't be cast.
+2016/04/08: If you discard a card with madness while resolving the ability of Jace, Vryn's Prodigy, you'll need to already have five other cards in your graveyard to satisfy that ability's condition. You can't choose to put the card directly into your graveyard to satisfy it.
+2016/04/08: The back face of a double-faced card doesn't have a mana cost. A double-faced permanent with its back face up has a converted mana cost equal to the converted mana cost of its front face. Each back face has a color indicator that defines its color.
+2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+2017/07/17: Jace, Vryn's Prodigy is banned as a commander in Duel Commander format, but it may be part of your deck.
+2017/09/29: You can control two of this permanent, one front-face up and the other back-face up, at the same time.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1481,7 +1519,7 @@ Spell mastery — If there are two or more instant and/or sorcery cards in your 
 <CardText>As an additional cost to cast this spell, exile two creature cards from your graveyard.
 Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)</CardText>
 <Flavor>Three heads are better than one.</Flavor>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>398559</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1701,8 +1739,8 @@ Tap two untapped artifacts you control: Target creature can't be blocked this tu
 <Flavor>"Your flesh is unprepared for my gifts."</Flavor>
 <Artist>Winona Nelson</Artist>
 <Multiverseid>398618</Multiverseid>
-<Rulings>2013/07/01: If you are the only player who controls a creature when <Blightcaster>'s ability triggers, you must choose one as the target, although you can choose not to give it -2/-2.
-2015/06/22: <Blightcaster>'s ability will resolve before the enchantment spell that caused it to trigger.
+<Rulings>2013/07/01: <Blightcaster>'s ability will resolve before the enchantment spell that caused it to trigger.
+2013/07/01: If you are the only player who controls a creature when <Blightcaster>'s ability triggers, you must choose one as the target, although you can choose not to give it -2/-2.
 2015/06/22: If you are the only player who controls a creature when <Blightcaster>'s ability triggers, you must choose one of those creatures as the target, although you can choose to not give it -2/-2.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1774,8 +1812,10 @@ Spell mastery — If there are two or more instant and/or sorcery cards in your 
 <Artist>Bastien L. Deharme</Artist>
 <Multiverseid>398466</Multiverseid>
 <Rulings>2015/06/22: You draw a card as <Dark Dabbling> resolves, not as the creature actually regenerates.
-2015/06/22: Whether the spell mastery applies or not, <Dark Dabbling> targets only one creature. If that creature becomes an illegal target by the time <Dark Dabbling> tries to resolve, <Dark Dabbling> won't resolve and none of its effects will happen. No creature will regenerate and you won't draw a card.
-2015/06/22: Check to see if there are two or more instant and/or sorcery cards in your graveyard as the spell resolves to determine whether the spell mastery ability applies. The spell itself won't count because it's still on the stack as you make this check.</Rulings>
+2015/06/22: Check to see if there are two or more instant and/or sorcery cards in your graveyard as the spell resolves to determine whether the spell mastery ability applies. The spell itself won't count because it's still on the stack as you make this check.
+2018/12/07: If the target creature is an illegal target by the time <Dark Dabbling> tries to resolve, the ability doesn't resolve. You don't draw a card and no creatures are regenerated.
+2018/12/07: <Dark Dabbling> is still on the stack while you count the number of instant and/or sorcery cards in your graveyard. It doesn't count itself.
+2018/12/07: <Dark Dabbling>'s spell mastery ability is a normal spell effect, not a replacement effect. This means that if you replace drawing a card for <Dark Dabbling>'s effect with dredging a card from your graveyard, the cards put into your graveyard this way may enable the additional regeneration.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2089,15 +2129,16 @@ Whenever a permanent owned by another player is put into a graveyard from the ba
 Whenever another nontoken creature you control dies, exile Liliana, Heretical Healer, then return her to the battlefield transformed under her owner's control. If you do, create a 2/2 black Zombie creature token.</CardText>
 <Artist>Karla Ortiz</Artist>
 <Multiverseid>398441</Multiverseid>
-<Rulings>2015/06/22: If multiple nontoken creatures you control die, then <Liliana, Heretical Healer>'s ability will trigger that many times. However, since Liliana can be exiled and returned to the battlefield only once, only the first ability to resolve will create a Zombie token. The other abilities will resolve but won't do anything.
-2015/06/22: Each face of a double-faced card has its own set of characteristics: name, types, subtypes, power and toughness, loyalty, abilities, and so on. While a double-faced card is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored. While a double-faced card isn't on the battlefield, consider only the characteristics of its front face.
-2015/06/22: The converted mana cost of a double-faced card not on the battlefield is the converted mana cost of its front face.
-2015/06/22: The back face of a double-faced card (in the case of Magic Origins, the planeswalker face) can't be cast.
+<Rulings>2015/06/22: The back face of a double-faced card (in the case of Magic Origins, the planeswalker face) can't be cast.
 2015/06/22: A double-faced card enters the battlefield with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed, in which case it enters with its back face up.
 2015/06/22: A Magic Origins planeswalker that enters the battlefield because of the ability of its front face will enter with loyalty counters as normal.
 2015/06/22: In some rare cases, a spell or ability may cause one of these five cards to transform while it's a creature (front face up) on the battlefield. If this happens, the resulting planeswalker won't have any loyalty counters on it and will subsequently be put into its owner's graveyard.
 2015/06/22: You can activate one of the planeswalker's loyalty abilities the turn it enters the battlefield. However, you may do so only during one of your main phases when the stack is empty. For example, if the planeswalker enters the battlefield during combat, there will be an opportunity for your opponent to remove it before you can activate one of its abilities.
 2015/06/22: If a double-faced card is manifested, it will be put onto the battlefield face down (this is also true if it's put onto the battlefield face down some other way). Note that "face down" is not synonymous with "with its back face up." A manifested double-faced card is a 2/2 creature with no name, mana cost, creature types, or abilities. While face down, it can't transform. If the front face of a manifested double-faced card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up. A double-faced card on the battlefield can't be turned face down.
+2015/06/22: If multiple nontoken creatures you control die, then <Liliana, Heretical Healer>'s ability will trigger that many times. However, since Liliana can be exiled and returned to the battlefield only once, only the first ability to resolve will create a Zombie token. The other abilities will resolve but won't do anything.
+2015/06/22: When Liliana, Defiant Necromancer's first ability resolves, first you choose a card to discard, then each other player in turn order chooses a card to discard, then all those cards are discarded simultaneously. No one sees what the other players are discarding before deciding which card to discard.
+2015/06/22: Each face of a double-faced card has its own set of characteristics: name, types, subtypes, power and toughness, loyalty, abilities, and so on. While a double-faced card is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored. While a double-faced card isn't on the battlefield, consider only the characteristics of its front face.
+2015/06/22: The converted mana cost of a double-faced card not on the battlefield is the converted mana cost of its front face.
 2016/04/08: The back face of a double-faced card doesn't have a mana cost. A double-faced permanent with its back face up has a converted mana cost equal to the converted mana cost of its front face. Each back face has a color indicator that defines its color.
 2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
 2017/09/29: You can control two of this permanent, one front-face up and the other back-face up, at the same time.</Rulings>
@@ -2120,7 +2161,19 @@ Whenever another nontoken creature you control dies, exile Liliana, Heretical He
 -8: You get an emblem with "Whenever a creature dies, return it to the battlefield under your control at the beginning of the next end step."</CardText>
 <Artist>Karla Ortiz</Artist>
 <Multiverseid>398442</Multiverseid>
-<Rulings>2015/06/22: When <Liliana, Defiant Necromancer>'s first ability resolves, first you choose a card to discard, then each other player in turn order chooses a card to discard, then all those cards are discarded simultaneously. No one sees what the other players are discarding before deciding which card to discard.</Rulings>
+<Rulings>2015/06/22: The back face of a double-faced card (in the case of Magic Origins, the planeswalker face) can't be cast.
+2015/06/22: A double-faced card enters the battlefield with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed, in which case it enters with its back face up.
+2015/06/22: A Magic Origins planeswalker that enters the battlefield because of the ability of its front face will enter with loyalty counters as normal.
+2015/06/22: In some rare cases, a spell or ability may cause one of these five cards to transform while it's a creature (front face up) on the battlefield. If this happens, the resulting planeswalker won't have any loyalty counters on it and will subsequently be put into its owner's graveyard.
+2015/06/22: You can activate one of the planeswalker's loyalty abilities the turn it enters the battlefield. However, you may do so only during one of your main phases when the stack is empty. For example, if the planeswalker enters the battlefield during combat, there will be an opportunity for your opponent to remove it before you can activate one of its abilities.
+2015/06/22: If a double-faced card is manifested, it will be put onto the battlefield face down (this is also true if it's put onto the battlefield face down some other way). Note that "face down" is not synonymous with "with its back face up." A manifested double-faced card is a 2/2 creature with no name, mana cost, creature types, or abilities. While face down, it can't transform. If the front face of a manifested double-faced card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up. A double-faced card on the battlefield can't be turned face down.
+2015/06/22: If multiple nontoken creatures you control die, then Liliana, Heretical Healer's ability will trigger that many times. However, since Liliana can be exiled and returned to the battlefield only once, only the first ability to resolve will create a Zombie token. The other abilities will resolve but won't do anything.
+2015/06/22: When <Liliana, Defiant Necromancer>'s first ability resolves, first you choose a card to discard, then each other player in turn order chooses a card to discard, then all those cards are discarded simultaneously. No one sees what the other players are discarding before deciding which card to discard.
+2015/06/22: Each face of a double-faced card has its own set of characteristics: name, types, subtypes, power and toughness, loyalty, abilities, and so on. While a double-faced card is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored. While a double-faced card isn't on the battlefield, consider only the characteristics of its front face.
+2015/06/22: The converted mana cost of a double-faced card not on the battlefield is the converted mana cost of its front face.
+2016/04/08: The back face of a double-faced card doesn't have a mana cost. A double-faced permanent with its back face up has a converted mana cost equal to the converted mana cost of its front face. Each back face has a color indicator that defines its color.
+2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+2017/09/29: You can control two of this permanent, one front-face up and the other back-face up, at the same time.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2555,12 +2608,12 @@ Whenever Acolyte of the Inferno becomes blocked by a creature, it deals 2 damage
 <Name>Act of Treason</Name>
 <Type>Sorcery</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. (It can attack and {T} this turn.)</CardText>
+<CardText>Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.</CardText>
 <Flavor>She learned a tragic lesson that day: even the purest can be corrupted when the heart's emotions are twisted.</Flavor>
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>398578</Multiverseid>
-<Rulings>2018/07/13: <Act of Treason> can target any creature, even one that's untapped or one you already control.
-2018/07/13: Gaining control of a creature doesn't cause you to gain control of any Auras or Equipment attached to it.</Rulings>
+<Rulings>2019/01/25: <Act of Treason> can target any creature, even one that's untapped or one you already control.
+2019/01/25: Gaining control of a creature doesn't cause you to gain control of any Auras or Equipment attached to it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2672,16 +2725,19 @@ At the beginning of each upkeep, if a player cast two or more spells last turn, 
 {T}: Chandra, Fire of Kaladesh deals 1 damage to target player or planeswalker. If Chandra has dealt 3 or more damage this turn, exile her, then return her to the battlefield transformed under her owner's control.</CardText>
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>398422</Multiverseid>
-<Rulings>2015/06/22: <Chandra, Fire of Kaladesh>'s activated ability will count any damage Chandra has dealt during the turn to any permanent or player, including combat damage.
-2015/06/22: The last sentence of <Chandra, Fire of Kaladesh>'s activated ability isn't a separate ability. The check happens only as that activated ability resolves. You must activate the ability in order to exile Chandra and return her to the battlefield transformed, even if Chandra has already dealt 3 or more damage during the turn.
-2015/06/22: Each face of a double-faced card has its own set of characteristics: name, types, subtypes, power and toughness, loyalty, abilities, and so on. While a double-faced card is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored. While a double-faced card isn't on the battlefield, consider only the characteristics of its front face.
-2015/06/22: The converted mana cost of a double-faced card not on the battlefield is the converted mana cost of its front face.
+<Rulings>2015/06/22: The converted mana cost of a double-faced card not on the battlefield is the converted mana cost of its front face.
 2015/06/22: The back face of a double-faced card (in the case of Magic Origins, the planeswalker face) can't be cast.
 2015/06/22: A double-faced card enters the battlefield with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed, in which case it enters with its back face up.
 2015/06/22: A Magic Origins planeswalker that enters the battlefield because of the ability of its front face will enter with loyalty counters as normal.
 2015/06/22: In some rare cases, a spell or ability may cause one of these five cards to transform while it's a creature (front face up) on the battlefield. If this happens, the resulting planeswalker won't have any loyalty counters on it and will subsequently be put into its owner's graveyard.
 2015/06/22: You can activate one of the planeswalker's loyalty abilities the turn it enters the battlefield. However, you may do so only during one of your main phases when the stack is empty. For example, if the planeswalker enters the battlefield during combat, there will be an opportunity for your opponent to remove it before you can activate one of its abilities.
 2015/06/22: If a double-faced card is manifested, it will be put onto the battlefield face down (this is also true if it's put onto the battlefield face down some other way). Note that "face down" is not synonymous with "with its back face up." A manifested double-faced card is a 2/2 creature with no name, mana cost, creature types, or abilities. While face down, it can't transform. If the front face of a manifested double-faced card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up. A double-faced card on the battlefield can't be turned face down.
+2015/06/22: The emblem created by Chandra, Roaring Flame is colorless. The damage it deals is from a colorless source.
+2015/06/22: Only players actually dealt damage by the third ability of Chandra, Roaring Flame will get an emblem. If all of that damage to a player is prevented, that player won't get an emblem. If any of that damage is redirected to Chandra's controller, that player will get an emblem.
+2015/06/22: <Chandra, Fire of Kaladesh>'s activated ability will count any damage Chandra has dealt during the turn to any permanent or player, including combat damage.
+2015/06/22: Each player who gets Chandra's emblem is the owner of that emblem. In multiplayer games, that emblem will remain in the game as long as its owner does, even if Chandra's owner leaves the game.
+2015/06/22: The last sentence of <Chandra, Fire of Kaladesh>'s activated ability isn't a separate ability. The check happens only as that activated ability resolves. You must activate the ability in order to exile Chandra and return her to the battlefield transformed, even if Chandra has already dealt 3 or more damage during the turn.
+2015/06/22: Each face of a double-faced card has its own set of characteristics: name, types, subtypes, power and toughness, loyalty, abilities, and so on. While a double-faced card is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored. While a double-faced card isn't on the battlefield, consider only the characteristics of its front face.
 2016/04/08: The back face of a double-faced card doesn't have a mana cost. A double-faced permanent with its back face up has a converted mana cost equal to the converted mana cost of its front face. Each back face has a color indicator that defines its color.
 2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
 2017/09/29: You can control two of this permanent, one front-face up and the other back-face up, at the same time.</Rulings>
@@ -2704,9 +2760,22 @@ At the beginning of each upkeep, if a player cast two or more spells last turn, 
 -7: Chandra, Roaring Flame deals 6 damage to each opponent. Each player dealt damage this way gets an emblem with "At the beginning of your upkeep, this emblem deals 3 damage to you."</CardText>
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>398423</Multiverseid>
-<Rulings>2015/06/22: The emblem created by <Chandra, Roaring Flame> is colorless. The damage it deals is from a colorless source.
+<Rulings>2015/06/22: The converted mana cost of a double-faced card not on the battlefield is the converted mana cost of its front face.
+2015/06/22: The back face of a double-faced card (in the case of Magic Origins, the planeswalker face) can't be cast.
+2015/06/22: A double-faced card enters the battlefield with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed, in which case it enters with its back face up.
+2015/06/22: A Magic Origins planeswalker that enters the battlefield because of the ability of its front face will enter with loyalty counters as normal.
+2015/06/22: In some rare cases, a spell or ability may cause one of these five cards to transform while it's a creature (front face up) on the battlefield. If this happens, the resulting planeswalker won't have any loyalty counters on it and will subsequently be put into its owner's graveyard.
+2015/06/22: You can activate one of the planeswalker's loyalty abilities the turn it enters the battlefield. However, you may do so only during one of your main phases when the stack is empty. For example, if the planeswalker enters the battlefield during combat, there will be an opportunity for your opponent to remove it before you can activate one of its abilities.
+2015/06/22: If a double-faced card is manifested, it will be put onto the battlefield face down (this is also true if it's put onto the battlefield face down some other way). Note that "face down" is not synonymous with "with its back face up." A manifested double-faced card is a 2/2 creature with no name, mana cost, creature types, or abilities. While face down, it can't transform. If the front face of a manifested double-faced card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up. A double-faced card on the battlefield can't be turned face down.
+2015/06/22: The emblem created by <Chandra, Roaring Flame> is colorless. The damage it deals is from a colorless source.
 2015/06/22: Only players actually dealt damage by the third ability of <Chandra, Roaring Flame> will get an emblem. If all of that damage to a player is prevented, that player won't get an emblem. If any of that damage is redirected to Chandra's controller, that player will get an emblem.
-2015/06/22: Each player who gets Chandra's emblem is the owner of that emblem. In multiplayer games, that emblem will remain in the game as long as its owner does, even if Chandra's owner leaves the game.</Rulings>
+2015/06/22: Chandra, Fire of Kaladesh's activated ability will count any damage Chandra has dealt during the turn to any permanent or player, including combat damage.
+2015/06/22: Each player who gets Chandra's emblem is the owner of that emblem. In multiplayer games, that emblem will remain in the game as long as its owner does, even if Chandra's owner leaves the game.
+2015/06/22: The last sentence of Chandra, Fire of Kaladesh's activated ability isn't a separate ability. The check happens only as that activated ability resolves. You must activate the ability in order to exile Chandra and return her to the battlefield transformed, even if Chandra has already dealt 3 or more damage during the turn.
+2015/06/22: Each face of a double-faced card has its own set of characteristics: name, types, subtypes, power and toughness, loyalty, abilities, and so on. While a double-faced card is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored. While a double-faced card isn't on the battlefield, consider only the characteristics of its front face.
+2016/04/08: The back face of a double-faced card doesn't have a mana cost. A double-faced permanent with its back face up has a converted mana cost equal to the converted mana cost of its front face. Each back face has a color indicator that defines its color.
+2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+2017/09/29: You can control two of this permanent, one front-face up and the other back-face up, at the same time.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2723,7 +2792,7 @@ At the beginning of each upkeep, if a player cast two or more spells last turn, 
 <ManaCost>4R (5)</ManaCost>
 <CardText>Chandra's Fury deals 4 damage to target player or planeswalker and 1 damage to each creature that player or that planeswalker's controller controls.</CardText>
 <Flavor>"They started it."</Flavor>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>398632</Multiverseid>
 <Rulings>2012/07/01: <Chandra's Fury> targets only the player, not any creature. <Chandra's Fury> will deal 1 damage to a creature with hexproof, for example.</Rulings>
 <Vintage>Legal</Vintage>
@@ -3701,8 +3770,8 @@ Enchanted creature gets +1/+3 and has reach. (It can block creatures with flying
 <Flavor>The Joraga elves never need ask a troll to leave their territory. They merely grant it their combined strength, and it can't resist embarking on a merry rampage.</Flavor>
 <Artist>Johann Bodin</Artist>
 <Multiverseid>398662</Multiverseid>
-<Rulings>2015/06/22: The bonus is determined as <Might of the Masses> resolves. It won't change if the number of creatures you control changes later in the turn.
-2015/06/22: If you target a creature you control with <Might of the Masses>, remember to count that one when determining the amount of the bonus.</Rulings>
+<Rulings>2018/10/05: The bonus is determined as <Might of the Masses> resolves. It won't change if the number of creatures you control changes later in the turn.
+2018/10/05: If you target a creature you control with <Might of the Masses>, remember to count that creature when determining the amount of the bonus.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3720,15 +3789,17 @@ Enchanted creature gets +1/+3 and has reach. (It can block creatures with flying
 Whenever a land enters the battlefield under your control, if you control seven or more lands, exile Nissa, then return her to the battlefield transformed under her owner's control.</CardText>
 <Artist>Wesley Burt</Artist>
 <Multiverseid>398438</Multiverseid>
-<Rulings>2015/06/22: <Nissa, Vastwood Seer> is exiled as a result of her second triggered ability. If she enters the battlefield while you control seven or more lands, she won't automatically be exiled and transform.
-2015/06/22: Each face of a double-faced card has its own set of characteristics: name, types, subtypes, power and toughness, loyalty, abilities, and so on. While a double-faced card is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored. While a double-faced card isn't on the battlefield, consider only the characteristics of its front face.
-2015/06/22: The converted mana cost of a double-faced card not on the battlefield is the converted mana cost of its front face.
-2015/06/22: The back face of a double-faced card (in the case of Magic Origins, the planeswalker face) can't be cast.
+<Rulings>2015/06/22: The back face of a double-faced card (in the case of Magic Origins, the planeswalker face) can't be cast.
 2015/06/22: A double-faced card enters the battlefield with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed, in which case it enters with its back face up.
 2015/06/22: A Magic Origins planeswalker that enters the battlefield because of the ability of its front face will enter with loyalty counters as normal.
 2015/06/22: In some rare cases, a spell or ability may cause one of these five cards to transform while it's a creature (front face up) on the battlefield. If this happens, the resulting planeswalker won't have any loyalty counters on it and will subsequently be put into its owner's graveyard.
 2015/06/22: You can activate one of the planeswalker's loyalty abilities the turn it enters the battlefield. However, you may do so only during one of your main phases when the stack is empty. For example, if the planeswalker enters the battlefield during combat, there will be an opportunity for your opponent to remove it before you can activate one of its abilities.
 2015/06/22: If a double-faced card is manifested, it will be put onto the battlefield face down (this is also true if it's put onto the battlefield face down some other way). Note that "face down" is not synonymous with "with its back face up." A manifested double-faced card is a 2/2 creature with no name, mana cost, creature types, or abilities. While face down, it can't transform. If the front face of a manifested double-faced card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up. A double-faced card on the battlefield can't be turned face down.
+2015/06/22: You can activate Nissa, Sage Animist's second ability even if you already control an Ashaya, the Awoken World. Just after the second token is created, you'll choose one to remain on the battlefield. The other will be put into your graveyard and subsequently cease to exist.
+2015/06/22: <Nissa, Vastwood Seer> is exiled as a result of her second triggered ability. If she enters the battlefield while you control seven or more lands, she won't automatically be exiled and transform.
+2015/06/22: If a land becomes a creature but hasn't continuously been under its controller's control since that player's most recent turn began, it won't be able to attack and its abilities with {T} in the cost (including mana abilities) won't be able to be activated. In other words, look at how long the permanent itself has been under your control, not how long it's been a creature.
+2015/06/22: Each face of a double-faced card has its own set of characteristics: name, types, subtypes, power and toughness, loyalty, abilities, and so on. While a double-faced card is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored. While a double-faced card isn't on the battlefield, consider only the characteristics of its front face.
+2015/06/22: The converted mana cost of a double-faced card not on the battlefield is the converted mana cost of its front face.
 2016/04/08: The back face of a double-faced card doesn't have a mana cost. A double-faced permanent with its back face up has a converted mana cost equal to the converted mana cost of its front face. Each back face has a color indicator that defines its color.
 2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
 2017/09/29: You can control two of this permanent, one front-face up and the other back-face up, at the same time.</Rulings>
@@ -3751,8 +3822,20 @@ Whenever a land enters the battlefield under your control, if you control seven 
 -7: Untap up to six target lands. They become 6/6 Elemental creatures. They're still lands.</CardText>
 <Artist>Wesley Burt</Artist>
 <Multiverseid>398432</Multiverseid>
-<Rulings>2015/06/22: You can activate <Nissa, Sage Animist>'s second ability even if you already control an Ashaya, the Awoken World. Just after the second token is created, you'll choose one to remain on the battlefield. The other will be put into your graveyard and subsequently cease to exist.
-2015/06/22: If a land becomes a creature but hasn't continuously been under its controller's control since that player's most recent turn began, it won't be able to attack and its abilities with {T} in the cost (including mana abilities) won't be able to be activated. In other words, look at how long the permanent itself has been under your control, not how long it's been a creature.</Rulings>
+<Rulings>2015/06/22: The back face of a double-faced card (in the case of Magic Origins, the planeswalker face) can't be cast.
+2015/06/22: A double-faced card enters the battlefield with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed, in which case it enters with its back face up.
+2015/06/22: A Magic Origins planeswalker that enters the battlefield because of the ability of its front face will enter with loyalty counters as normal.
+2015/06/22: In some rare cases, a spell or ability may cause one of these five cards to transform while it's a creature (front face up) on the battlefield. If this happens, the resulting planeswalker won't have any loyalty counters on it and will subsequently be put into its owner's graveyard.
+2015/06/22: You can activate one of the planeswalker's loyalty abilities the turn it enters the battlefield. However, you may do so only during one of your main phases when the stack is empty. For example, if the planeswalker enters the battlefield during combat, there will be an opportunity for your opponent to remove it before you can activate one of its abilities.
+2015/06/22: If a double-faced card is manifested, it will be put onto the battlefield face down (this is also true if it's put onto the battlefield face down some other way). Note that "face down" is not synonymous with "with its back face up." A manifested double-faced card is a 2/2 creature with no name, mana cost, creature types, or abilities. While face down, it can't transform. If the front face of a manifested double-faced card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up. A double-faced card on the battlefield can't be turned face down.
+2015/06/22: You can activate <Nissa, Sage Animist>'s second ability even if you already control an Ashaya, the Awoken World. Just after the second token is created, you'll choose one to remain on the battlefield. The other will be put into your graveyard and subsequently cease to exist.
+2015/06/22: Nissa, Vastwood Seer is exiled as a result of her second triggered ability. If she enters the battlefield while you control seven or more lands, she won't automatically be exiled and transform.
+2015/06/22: If a land becomes a creature but hasn't continuously been under its controller's control since that player's most recent turn began, it won't be able to attack and its abilities with {T} in the cost (including mana abilities) won't be able to be activated. In other words, look at how long the permanent itself has been under your control, not how long it's been a creature.
+2015/06/22: Each face of a double-faced card has its own set of characteristics: name, types, subtypes, power and toughness, loyalty, abilities, and so on. While a double-faced card is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored. While a double-faced card isn't on the battlefield, consider only the characteristics of its front face.
+2015/06/22: The converted mana cost of a double-faced card not on the battlefield is the converted mana cost of its front face.
+2016/04/08: The back face of a double-faced card doesn't have a mana cost. A double-faced permanent with its back face up has a converted mana cost equal to the converted mana cost of its front face. Each back face has a color indicator that defines its color.
+2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+2017/09/29: You can control two of this permanent, one front-face up and the other back-face up, at the same time.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4886,7 +4969,7 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <Flavor>Rumors quickly spread among thieves about a labyrinth without walls and a prize beyond all measures of worth.</Flavor>
 <Artist>Christine Choi</Artist>
 <Multiverseid>398523</Multiverseid>
-<Rulings>2012/10/01: Activating the second ability of <Rogue's Passage> after a creature has become blocked won't cause it to become unblocked.</Rulings>
+<Rulings>2018/12/07: Activating the second ability of <Rogue's Passage> after a creature has become blocked won't cause that creature to become unblocked.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

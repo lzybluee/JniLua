@@ -53,10 +53,11 @@ If an opponent would search a library, that player searches the top four cards o
 If a nontoken creature would enter the battlefield and it wasn't cast, exile it instead.</CardText>
 <Artist>Igor Kieryluk</Artist>
 <Multiverseid>429862</Multiverseid>
-<Rulings>2014/11/07: <Containment Priest>'s last ability won't affect any nontoken creatures that were cast, including ones cast from unusual zones such as your graveyard.
-2014/11/07: <Containment Priest>'s last ability doesn't stop creature tokens from entering the battlefield. It also doesn't affect creatures that were already on the battlefield.
-2014/11/07: If <Containment Priest> enters the battlefield without being cast, it won't exile itself.
-2014/11/07: If <Containment Priest> enters the battlefield at the same time as other creatures, its ability won't affect those creatures.</Rulings>
+<Rulings>2018/12/07: <Containment Priest>'s last ability won't affect any creatures that were cast, including ones cast from unusual zones such as your graveyard.
+2018/12/07: <Containment Priest>'s last ability doesn't stop creature tokens from entering the battlefield. It also doesn't affect creatures that were already on the battlefield.
+2018/12/07: If a noncreature card wasn't cast and is entering the battlefield as a creature (due to an effect such as that of March of the Machines), it will be exiled. Similarly, if a creature card wasn't cast and is entering the battlefield as a noncreature permanent (for example, Heliod, God of the Sun with insufficient devotion), it won't be exiled.
+2018/12/07: If <Containment Priest> enters the battlefield without being cast, its ability won't exile itself.
+2018/12/07: If <Containment Priest> enters the battlefield at the same time as other creatures, its ability won't affect those creatures.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Amonkhet Invocations</Set>
@@ -407,7 +408,7 @@ Search your library for a card and put that card into your hand. Then shuffle yo
 <Name>Entomb</Name>
 <Type>Instant</Type>
 <ManaCost>B (1)</ManaCost>
-<CardText>Search your library for a card, put that card into your graveyard, then shuffle your library.</CardText>
+<CardText>Search your library for a card and put that card into your graveyard. Then shuffle your library.</CardText>
 <Artist>Eytan Zana</Artist>
 <Multiverseid>429882</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -457,9 +458,9 @@ Search your library for a card and put that card into your hand. Then shuffle yo
 <CardText>Chain Lightning deals 3 damage to any target. Then that player or that permanent's controller may pay {R}{R}. If the player does, they may copy this spell and may choose a new target for that copy.</CardText>
 <Artist>Igor Kieryluk</Artist>
 <Multiverseid>429885</Multiverseid>
-<Rulings>2004/10/04: The copy is a spell, so it can be targeted by other spells and abilities that target a spell.
-2004/10/04: The player putting the copy spell on the stack controls that spell.
+<Rulings>2004/10/04: The player putting the copy spell on the stack controls that spell.
 2004/10/04: The spell copy has all the text and can result in itself being copied.
+2004/10/04: The copy is a spell, so it can be targeted by other spells and abilities that target a spell.
 2016/06/08: As <Chain Lightning> resolves, the targeted player or the controller of the targeted creature may copy it. The copy has the same text, target, and color of the resolving spell, though the player who's copying it may choose a new target for it. Once that copy is created (or not), the first <Chain Lightning> has finished resolving and leaves the stack.
 2016/06/08: The player putting the copy of the spell on the stack controls that copy.
 2016/06/08: The copy of <Chain Lightning> is created on the stack, so it's not cast. Abilities that trigger when a player casts a spell won't trigger. Players may respond to that spell before it resolves.
@@ -519,10 +520,11 @@ Rhonas the Indomitable can't attack or block unless you control another creature
 <CardText>Destroy target nonland permanent and all other permanents with the same name as that permanent.</CardText>
 <Artist>Igor Kieryluk</Artist>
 <Multiverseid>429888</Multiverseid>
-<Rulings>2009/05/01: <Maelstrom Pulse> has only one target. If that permanent is an illegal target as <Maelstrom Pulse> tries to resolve, it won't resolve and none of its effects will happen. Nothing will be destroyed.
-2009/05/01: The name of a creature token is the same as its creature types unless the token is a copy of another creature or the effect that created the token specifically gives it a different name. For example, a 1/1 Soldier creature token is named "Soldier."
-2009/05/01: A face-down creature has no name, so it doesn't have the same name as anything else.
-2013/07/01: If <Maelstrom Pulse> resolves but the targeted permanent isn't destroyed (perhaps because it regenerates or has indestructible), all other permanents with the same name as it will still be destroyed (unless they also have indestructible.</Rulings>
+<Rulings>2009/05/01: A face-down creature has no name, so it doesn't have the same name as anything else.
+2018/12/07: <Maelstrom Pulse> has only one target. Other permanents with the same name will be destroyed even if they have hexproof or protection.
+2018/12/07: If the target permanent becomes an illegal target for <Maelstrom Pulse>, the spell doesn't resolve. Nothing is destroyed.
+2018/12/07: The name of a creature token is the same as the creature types it was created with unless the token is a copy of another creature or the effect that created the token specifically gives it a different name. For example, a 1/1 red Elemental creature token created by Young Pyromancer and a 4/4 green Elemental creature token created by Walker of the Grove are both named "Elemental."
+2018/12/07: If <Maelstrom Pulse> resolves but the target permanent isn't destroyed (perhaps because it regenerates or has indestructible), all other permanents with the same name as it will still be destroyed.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -922,6 +924,8 @@ When The Locust God dies, return it to its owner's hand at the beginning of the 
 <CardText>Lord of Extinction's power and toughness are each equal to the number of cards in all graveyards.</CardText>
 <Artist>Jason A. Engle</Artist>
 <Multiverseid>430687</Multiverseid>
+<Rulings>2018/12/07: The ability that defines <Lord of Extinction>'s power and toughness works in all zones, not just the battlefield. If <Lord of Extinction> is in your graveyard, it will count itself.
+2018/12/07: If an instant or sorcery spell deals damage to <Lord of Extinction> or lowers its toughness, that spell is put into its owner's graveyard before state-based actions are performed. That card will raise <Lord of Extinction>'s toughness before the game checks to see if it dies.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

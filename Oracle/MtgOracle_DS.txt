@@ -1214,14 +1214,14 @@ Entwine {1}{R} (Choose both if you pay the entwine cost.)</CardText>
 <Flavor>"You might want to work on your aim."</Flavor>
 <Artist>Greg Hildebrandt</Artist>
 <Multiverseid>49836</Multiverseid>
-<Rulings>2004/10/04: Once the spell resolves, the new target is considered to be targeted by the deflected spell. This will trigger any effects which trigger on being targeted.
-2004/10/04: This only targets the spell being changed, not the original or new target of the spell it is affecting.
-2004/10/04: The target of a spell that targets another spell on the stack can be changed to any other spell on the stack, even if the new target will resolve before the spell does.
+<Rulings>2004/10/04: The target of a spell that targets another spell on the stack can be changed to any other spell on the stack, even if the new target will resolve before the spell does.
 2004/10/04: You can't make a spell which is on the stack target itself.
 2004/10/04: You can choose to make a spell on the stack target this spell (if such a target choice would be legal had the spell been cast while this spell was on the stack). The new target for the deflected spell is not chosen until this spell resolves. This spell is still on the stack when new targets are selected for the spell.
-2004/10/04: If there is no other legal target for the spell, this does not change the target.
+2004/10/04: Once the spell resolves, the new target is considered to be targeted by the deflected spell. This will trigger any effects which trigger on being targeted.
 2004/10/04: This does not check if the current target is legal. It just checks if the spell has a single target.
 2004/10/04: You choose the spell to target on announcement, but you pick the new target for that spell on resolution.
+2004/10/04: If there is no other legal target for the spell, this does not change the target.
+2004/10/04: This only targets the spell being changed, not the original or new target of the spell it is affecting.
 2007/07/15: If a spell targets multiple things, you can't target it with <Shunt>, even if all but one of those targets has become illegal.
 2007/07/15: If a spell targets the same player or object multiple times, you can't target it with <Shunt>.</Rulings>
 <Vintage>Legal</Vintage>
@@ -2456,11 +2456,11 @@ Haste</CardText>
 At the beginning of your upkeep, you may copy a card exiled with Panoptic Mirror. If you do, you may cast the copy without paying its mana cost.</CardText>
 <Artist>Glen Angus</Artist>
 <Multiverseid>47930</Multiverseid>
-<Rulings>2004/12/01: As <Panoptic Mirror>'s triggered ability resolves, it allows you to create a copy of one of the instant or sorcery cards imprinted on <Panoptic Mirror> in the Exile zone (that's where the imprinted card is) and then cast it without paying its mana cost.
-2004/12/01: You don't pay the spell's mana cost. If the spell has X in its mana cost, X is 0. You do pay any additional costs for that spell. You can't use any alternative costs.
-2004/12/01: The triggered ability triggers only once each upkeep, not once per imprinted card. If no cards are imprinted on <Panoptic Mirror> when the triggered ability resolves, it does nothing.
-2004/12/01: You may imprint a card on <Panoptic Mirror> in response to the upkeep-triggered ability. If you do, that card is available to copy when the triggered ability resolves.
+<Rulings>2004/12/01: The triggered ability triggers only once each upkeep, not once per imprinted card. If no cards are imprinted on <Panoptic Mirror> when the triggered ability resolves, it does nothing.
+2004/12/01: As <Panoptic Mirror>'s triggered ability resolves, it allows you to create a copy of one of the instant or sorcery cards imprinted on <Panoptic Mirror> in the Exile zone (that's where the imprinted card is) and then cast it without paying its mana cost.
 2004/12/01: Exiling a card when the activated ability resolves is optional. If you choose to exile a card, you can exile only a card with converted mana cost equal to X.
+2004/12/01: You may imprint a card on <Panoptic Mirror> in response to the upkeep-triggered ability. If you do, that card is available to copy when the triggered ability resolves.
+2004/12/01: You don't pay the spell's mana cost. If the spell has X in its mana cost, X is 0. You do pay any additional costs for that spell. You can't use any alternative costs.
 2005/03/01: The creation of the copy and then the casting of the copy are both optional.
 2017/04/18: To imprint a split card, you pay X equal to card's converted mana cost, determined by the combined mana cost of its two halves. If the copied card is a split card, you choose which one side of it to cast, but you can't cast both sides.</Rulings>
 <Vintage>Legal</Vintage>
@@ -2723,7 +2723,7 @@ Equip {2}</CardText>
 <Type>Artifact</Type>
 <ManaCost>4 (4)</ManaCost>
 <CardText>Whenever a source you control other than Talon of Pain deals damage to an opponent, put a charge counter on Talon of Pain.
-{X}, {T}, Remove X charge counters from Talon of Pain: Talon of Pain deals X damage to any target.</CardText>
+{X}, {T}, Remove X charge counters from Talon of Pain: It deals X damage to any target.</CardText>
 <Artist>Daren Bader</Artist>
 <Multiverseid>46111</Multiverseid>
 <Vintage>Legal</Vintage>

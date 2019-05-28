@@ -309,14 +309,14 @@ Your opponents can't cast spells with the same name as the exiled card.</CardTex
 <Artist>Chase Stone</Artist>
 <Watermark>Planeswalker</Watermark>
 <Multiverseid>435168</Multiverseid>
-<Rulings>2017/09/29: If <Ixalan's Binding> leaves the battlefield before its triggered ability resolves, the target permanent won't be exiled.
-2017/09/29: Auras attached to the exiled permanent will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist.
+<Rulings>2017/09/29: Auras attached to the exiled permanent will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist.
 2017/09/29: If a token is exiled this way, it will cease to exist and won't return to the battlefield.
 2017/09/29: The exiled card returns to the battlefield immediately after <Ixalan's Binding> leaves the battlefield. Nothing happens between the two events, including state-based actions.
-2017/09/29: If the exiled card has a different name in exile than it did on the battlefield, <Ixalan's Binding> stops players from casting spells with the name of that card as it exists in exile.
+2017/09/29: If <Ixalan's Binding> leaves the battlefield before its triggered ability resolves, the target permanent won't be exiled.
 2017/09/29: If the exiled card is a land card that's become a nonland permanent, <Ixalan's Binding> won't stop players from playing lands with that name.
 2017/09/29: If there is no exiled card (perhaps because the exiled permanent was a token or was a commander that moved to the command zone in the Commander variant), <Ixalan's Binding> won't stop players from casting spells.
 2017/09/29: In a multiplayer game, if <Ixalan's Binding>'s owner leaves the game and another player owns the exiled card, the exiled card will return to the battlefield under its owner's control. Because the one-shot effect that returns the card isn't an ability that goes on the stack, it won't cease to exist along with the leaving player's spells and abilities on the stack.
+2017/09/29: If the exiled card has a different name in exile than it did on the battlefield, <Ixalan's Binding> stops players from casting spells with the name of that card as it exists in exile.
 2018/01/19: There are many important moments in the story, but the most crucial—called "story spotlights"—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -431,6 +431,9 @@ When you attack with three or more creatures, transform Legion's Landing.</CardT
 {2}{W}, {T}: Create a 1/1 white Vampire creature token with lifelink.</CardText>
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>435174</Multiverseid>
+<Rulings>2017/09/29: Once you've attacked with three or more creatures, Legion's Landing will transform even if some of those creatures leave the battlefield or are removed from combat.
+2017/09/29: The last ability of Legion's Landing only counts creatures that you declare as attacking creatures. Creatures that enter the battlefield attacking won't count.
+2018/01/19: For more information on double-faced cards, see the Ixalan mechanics article (http://magic.wizards.com/en/articles/archive/feature/ixalan-mechanics).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -645,7 +648,7 @@ Draw a card.</CardText>
 <Type>Instant</Type>
 <ManaCost>2WW (4)</ManaCost>
 <CardText>Exile all attacking creatures target player controls. That player may search their library for that many basic land cards, put those cards onto the battlefield tapped, then shuffle their library.</CardText>
-<Artist>Dimitar</Artist>
+<Artist>Dimitar Marinski</Artist>
 <Multiverseid>435186</Multiverseid>
 <Rulings>2017/09/29: <Settle the Wreckage> targets only the player. Creatures with hexproof that player controls will be exiled as this spell resolves.
 2017/09/29: That player can find fewer basic land cards than the number of exiled creatures, whether because they want to or because they don't have that many basic land cards left.
@@ -852,7 +855,7 @@ When Sunrise Seeker enters the battlefield, it explores. (Reveal the top card of
 <Name>Air Elemental</Name>
 <Type>Creature — Elemental 4/4</Type>
 <ManaCost>3UU (5)</ManaCost>
-<CardText>Flying</CardText>
+<CardText>Flying (This creature can't be blocked except by creatures with flying or reach.)</CardText>
 <Flavor>As the ship approached, the jade totem rose high overhead. Power rippled. Eyes of stone glowed and crackled. Out hissed a breath of the world, and a windstorm came alive.</Flavor>
 <Artist>Tomasz Jedruszek</Artist>
 <Multiverseid>435197</Multiverseid>
@@ -1415,6 +1418,10 @@ Whenever another Merfolk enters the battlefield under your control, River Sneak 
 {2}{U}, {T}: Look at the top four cards of your library. You may reveal a noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom of your library in any order.</CardText>
 <Artist>Magali Villeneuve</Artist>
 <Multiverseid>435227</Multiverseid>
+<Rulings>2017/09/29: If a seventh card is put into your graveyard by something other than resolving Search for Azcanta's triggered ability, you won't transform it yet. You'll have to wait until your next upkeep.
+2017/09/29: If you have seven or more cards in your graveyard, you may transform Search for Azcanta while resolving its triggered ability even if you choose not to put the top card of your library into your graveyard.
+2017/09/29: If you don't put the top card of your library into your graveyard while resolving Search for Azcanta's triggered ability, you'll leave it on top of your library (and probably draw it during your draw step).
+2018/01/19: For more information on double-faced cards, see the Ixalan mechanics article (http://magic.wizards.com/en/articles/archive/feature/ixalan-mechanics).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1715,6 +1722,8 @@ At the beginning of your upkeep, if you have 5 or less life, you may transform A
 <Multiverseid>435243</Multiverseid>
 <Rulings>2017/09/29: If your life total is 6 or greater as your upkeep begins, the second ability of <Arguel's Blood Fast> won't trigger. You can't take any actions during your turn before your upkeep begins.
 2017/09/29: If your life total is 6 or greater as the second ability of <Arguel's Blood Fast> tries to resolve, it won't do anything.
+2017/09/29: Once you've announced the last ability of Temple of Aclazotz, it's too late for anyone to interrupt you by trying to remove the creature you sacrifice.
+2017/09/29: For the last ability of Temple of Aclazotz, use the creature's toughness as it last existed on the battlefield to determine how much life you gain.
 2018/01/19: For more information on double-faced cards, see the Ixalan mechanics article (http://magic.wizards.com/en/articles/archive/feature/ixalan-mechanics).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1735,8 +1744,11 @@ At the beginning of your upkeep, if you have 5 or less life, you may transform A
 <Flavor>. . . to the lost temple of a bat-god of night, eternal enemy to the Threefold Sun.</Flavor>
 <Artist>Daarken</Artist>
 <Multiverseid>435244</Multiverseid>
-<Rulings>2017/09/29: Once you've announced the last ability of <Temple of Aclazotz>, it's too late for anyone to interrupt you by trying to remove the creature you sacrifice.
-2017/09/29: For the last ability of <Temple of Aclazotz>, use the creature's toughness as it last existed on the battlefield to determine how much life you gain.</Rulings>
+<Rulings>2017/09/29: If your life total is 6 or greater as your upkeep begins, the second ability of Arguel's Blood Fast won't trigger. You can't take any actions during your turn before your upkeep begins.
+2017/09/29: If your life total is 6 or greater as the second ability of Arguel's Blood Fast tries to resolve, it won't do anything.
+2017/09/29: Once you've announced the last ability of <Temple of Aclazotz>, it's too late for anyone to interrupt you by trying to remove the creature you sacrifice.
+2017/09/29: For the last ability of <Temple of Aclazotz>, use the creature's toughness as it last existed on the battlefield to determine how much life you gain.
+2018/01/19: For more information on double-faced cards, see the Ixalan mechanics article (http://magic.wizards.com/en/articles/archive/feature/ixalan-mechanics).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2317,7 +2329,7 @@ Sacrifice three Treasures: Draw a card.</CardText>
 <ManaCost>2BB (4)</ManaCost>
 <CardText>Whenever a Vampire you control attacks, each opponent loses 1 life and you gain 1 life.</CardText>
 <Flavor>The Sanctum Seekers were the first of the knightly orders to cross the sea and are still the most zealous.</Flavor>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>435274</Multiverseid>
 <Rulings>2017/09/29: In a Two-Headed Giant game, <Sanctum Seeker>'s ability causes the opposing team to lose 2 life and you to gain 1 life.</Rulings>
 <Vintage>Legal</Vintage>
@@ -2518,7 +2530,7 @@ When Skymarch Bloodletter enters the battlefield, target opponent loses 1 life a
 <ManaCost>1B (2)</ManaCost>
 <CardText>When Wanted Scoundrels dies, target opponent creates two colorless Treasure artifact tokens with "{T}, Sacrifice this artifact: Add one mana of any color."</CardText>
 <Flavor>"Trust me. The reward's not worth it."</Flavor>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>435285</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3350,6 +3362,12 @@ Whenever you cast your third spell in a turn, you may transform Vance's Blasting
 <Flavor>Now instead of a ship, Ripley Vance commands a fortress.</Flavor>
 <Artist>Jonas De Ro</Artist>
 <Multiverseid>435328</Multiverseid>
+<Rulings>2017/09/29: The card exiled by the first ability of Vance's Blasting Cannons is exiled face up.
+2017/09/29: Casting the exiled card follows the normal rules for casting that card. You must pay its costs, and you must follow all applicable timing rules. For example, if you exile a creature card this way, you must wait until your main phase to cast it.
+2017/09/29: If you don't cast the exiled card, it remains in exile.
+2017/09/29: The second ability of Vance's Blasting Cannons resolves before the spell that caused it to trigger. The ability will resolve even if that spell is countered.
+2017/09/29: The second ability of Vance's Blasting Cannons counts all the spells you've cast, including Vance's Blasting Cannons itself if you cast it this turn. The ability won't trigger unless Vance's Blasting Cannons is on the battlefield as you cast your third spell of the turn.
+2018/01/19: For more information on double-faced cards, see the Ixalan mechanics article (http://magic.wizards.com/en/articles/archive/feature/ixalan-mechanics).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3472,7 +3490,7 @@ Trample, hexproof</CardText>
 <Name>Colossal Dreadmaw</Name>
 <Type>Creature — Dinosaur 6/6</Type>
 <ManaCost>4GG (6)</ManaCost>
-<CardText>Trample</CardText>
+<CardText>Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)</CardText>
 <Flavor>If you feel the ground quake, run. If you hear its bellow, flee. If you see its teeth, it's too late.</Flavor>
 <Artist>Jesper Ejsing</Artist>
 <Multiverseid>435335</Multiverseid>
@@ -3697,6 +3715,10 @@ At the beginning of your end step, if you control four or more creatures, transf
 <Flavor>Before the Sun Empire was born, humans and merfolk joined their magic to invoke a blessing of fertility on the land.</Flavor>
 <Artist>Grzegorz Rutkowski</Artist>
 <Multiverseid>435347</Multiverseid>
+<Rulings>2017/09/29: The last ability of Growing Rites of Itlimoc doesn't trigger if you don't control four or more creatures as your end step begins. If you don't control four or more creatures as it resolves, it does nothing.
+2017/09/29: If you control a creature that will be removed from the battlefield "at the beginning of the next end step," you can resolve the ability of Growing Rites of Itlimoc before that creature leaves the battlefield.
+2017/09/29: If you gain control of a creature "until end of turn," or if a noncreature permanent you control becomes a creature "until end of turn," it'll be a creature under your control through the entire end step.
+2018/01/19: For more information on double-faced cards, see the Ixalan mechanics article (http://magic.wizards.com/en/articles/archive/feature/ixalan-mechanics).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3827,8 +3849,8 @@ When New Horizons enters the battlefield, put a +1/+1 counter on target creature
 Enchanted land has "{T}: Add two mana of any one color."</CardText>
 <Artist>Noah Bradley</Artist>
 <Multiverseid>435354</Multiverseid>
-<Rulings>2017/09/29: You can cast <New Horizons> even if you control no creatures.
-2017/09/29: If the land this Aura would enchant is an illegal target by the time <New Horizons> resolves, the entire spell doesn't resolve. It won't enter the battlefield, so its ability won't trigger.</Rulings>
+<Rulings>2019/05/03: You can cast <New Horizons> even if you control no creatures.
+2019/05/03: If the land this Aura would enchant is an illegal target by the time <New Horizons> resolves, the entire spell doesn't resolve. It won't enter the battlefield, so its ability won't trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4302,7 +4324,8 @@ Whenever Gishath, Sun's Avatar deals combat damage to a player, reveal that many
 <CardText>When Hostage Taker enters the battlefield, exile another target creature or artifact until Hostage Taker leaves the battlefield. You may cast that card for as long as it remains exiled, and you may spend mana as though it were mana of any type to cast that spell.</CardText>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>435379</Multiverseid>
-<Rulings>2017/09/29: <Hostage Taker> has received errata to prevent it from targeting itself. The correct Oracle wording appears above.
+<Rulings>2017/08/28: This card has recieved prerelease eratta to avoid an infinite loop. For more info see: https://twitter.com/EliShffrn/status/902187390063714306
+2017/09/29: <Hostage Taker> has received errata to prevent it from targeting itself. The correct Oracle wording appears above.
 2017/09/29: If <Hostage Taker> leaves the battlefield before its triggered ability resolves, the target permanent won't be exiled.
 2017/09/29: Auras attached to the exiled permanent will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist.
 2017/09/29: If a token is exiled this way, it will cease to exist and won't return to the battlefield. You can't cast it.
@@ -4462,7 +4485,7 @@ When Tishana enters the battlefield, draw a card for each creature you control.<
 <CardText>Vigilance, lifelink
 {T}, Pay 7 life: Destroy target nonland permanent. Activate this ability only during your turn.</CardText>
 <Flavor>"For four hundred years, I have led armies of conquest. These lands hold nothing that can stand against me."</Flavor>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>435387</Multiverseid>
 <Rulings>2017/09/29: Vona's last ability can be activated during any step or phase of your turn, including the combat phase. It's possible to attack with Vona and then activate its ability before blockers are declared. Doing so won't remove Vona from combat.</Rulings>
 <Vintage>Legal</Vintage>
@@ -4520,20 +4543,20 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 Crew 4 (Tap any number of creatures you control with total power 4 or more: This Vehicle becomes an artifact creature until end of turn.)</CardText>
 <Artist>Emrah Elmasli</Artist>
 <Multiverseid>435390</Multiverseid>
-<Rulings>2017/09/29: <Conqueror's Galleon> won't be exiled if it doesn't survive combat.
-2017/09/29: Unlike the other double-faced cards in the Ixalan set, <Conqueror's Galleon> is exiled and then returned to battlefield transformed. It will be considered a new object entering the battlefield. Notably, it will return to the battlefield untapped.
+<Rulings>2017/09/29: Unlike the other double-faced cards in the Ixalan set, <Conqueror's Galleon> is exiled and then returned to battlefield transformed. It will be considered a new object entering the battlefield. Notably, it will return to the battlefield untapped.
 2017/09/29: Each Vehicle is printed with a power and toughness, but it's not a creature. If it becomes a creature (most likely through its crew ability), it will have that power and toughness.
 2017/09/29: If an effect causes a Vehicle to become an artifact creature with a specified power and toughness, that effect overwrites the Vehicle's printed power and toughness.
 2017/09/29: Vehicle is an artifact type, not a creature type. A Vehicle that's crewed won't normally have any creature type.
 2017/09/29: Once a player announces that they are activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
 2017/09/29: Any untapped creature you control can be tapped to pay a crew cost, even one that just came under your control.
-2017/09/29: You may tap more creatures than necessary to activate a crew ability.
+2017/09/29: <Conqueror's Galleon> won't be exiled if it doesn't survive combat.
 2017/09/29: Creatures that crew a Vehicle aren't attached to it or related in any other way. Effects that affect the Vehicle, such as by destroying it or giving it a +1/+1 counter, don't affect the creatures that crewed it.
 2017/09/29: Once a Vehicle becomes a creature, it behaves exactly like any other artifact creature. It can't attack unless you've controlled it continuously since your turn began, it can block if it's untapped, it can be tapped to pay a Vehicle's crew cost, and so on.
 2017/09/29: You may activate a crew ability of a Vehicle even if it's already an artifact creature. Doing so has no effect on the Vehicle. It doesn't change its power and toughness.
 2017/09/29: For a Vehicle to be able to attack, it must be a creature as the declare attackers step begins, so the latest you can activate its crew ability to attack with it is during the beginning of combat step. For a Vehicle to be able to block, it must be a creature as the declare blockers step begins, so the latest you can activate its crew ability to block with it is during the declare attackers step. In either case, players may take actions after the crew ability resolves but before the Vehicle has been declared as an attacking or blocking creature.
 2017/09/29: When a Vehicle becomes a creature, that doesn't count as having a creature enter the battlefield. The permanent was already on the battlefield; it only changed its types. Abilities that trigger whenever a creature enters the battlefield won't trigger.
 2017/09/29: If a permanent becomes a copy of a Vehicle, the copy won't be a creature, even if the Vehicle it's copying has become an artifact creature.
+2017/09/29: You may tap more creatures than necessary to activate a crew ability.
 2018/01/19: For more information on double-faced cards, see the Ixalan mechanics article (http://magic.wizards.com/en/articles/archive/feature/ixalan-mechanics).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -4555,6 +4578,21 @@ Crew 4 (Tap any number of creatures you control with total power 4 or more: This
 {6}, {T}: Return target card from your graveyard to your hand.</CardText>
 <Artist>Emrah Elmasli</Artist>
 <Multiverseid>435391</Multiverseid>
+<Rulings>2017/09/29: Unlike the other double-faced cards in the Ixalan set, Conqueror's Galleon is exiled and then returned to battlefield transformed. It will be considered a new object entering the battlefield. Notably, it will return to the battlefield untapped.
+2017/09/29: Each Vehicle is printed with a power and toughness, but it's not a creature. If it becomes a creature (most likely through its crew ability), it will have that power and toughness.
+2017/09/29: If an effect causes a Vehicle to become an artifact creature with a specified power and toughness, that effect overwrites the Vehicle's printed power and toughness.
+2017/09/29: Vehicle is an artifact type, not a creature type. A Vehicle that's crewed won't normally have any creature type.
+2017/09/29: Once a player announces that they are activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
+2017/09/29: Any untapped creature you control can be tapped to pay a crew cost, even one that just came under your control.
+2017/09/29: Conqueror's Galleon won't be exiled if it doesn't survive combat.
+2017/09/29: Creatures that crew a Vehicle aren't attached to it or related in any other way. Effects that affect the Vehicle, such as by destroying it or giving it a +1/+1 counter, don't affect the creatures that crewed it.
+2017/09/29: Once a Vehicle becomes a creature, it behaves exactly like any other artifact creature. It can't attack unless you've controlled it continuously since your turn began, it can block if it's untapped, it can be tapped to pay a Vehicle's crew cost, and so on.
+2017/09/29: You may activate a crew ability of a Vehicle even if it's already an artifact creature. Doing so has no effect on the Vehicle. It doesn't change its power and toughness.
+2017/09/29: For a Vehicle to be able to attack, it must be a creature as the declare attackers step begins, so the latest you can activate its crew ability to attack with it is during the beginning of combat step. For a Vehicle to be able to block, it must be a creature as the declare blockers step begins, so the latest you can activate its crew ability to block with it is during the declare attackers step. In either case, players may take actions after the crew ability resolves but before the Vehicle has been declared as an attacking or blocking creature.
+2017/09/29: When a Vehicle becomes a creature, that doesn't count as having a creature enter the battlefield. The permanent was already on the battlefield; it only changed its types. Abilities that trigger whenever a creature enters the battlefield won't trigger.
+2017/09/29: If a permanent becomes a copy of a Vehicle, the copy won't be a creature, even if the Vehicle it's copying has become an artifact creature.
+2017/09/29: You may tap more creatures than necessary to activate a crew ability.
+2018/01/19: For more information on double-faced cards, see the Ixalan mechanics article (http://magic.wizards.com/en/articles/archive/feature/ixalan-mechanics).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4595,6 +4633,8 @@ Equip {2}</CardText>
 <Flavor>The pirates had ventured into the interior for treasure. They found something far greater.</Flavor>
 <Artist>Florian de Gesincourt</Artist>
 <Multiverseid>435393</Multiverseid>
+<Rulings>2017/09/29: Attacking with an equipped creature doesn't cause Equipment attached to it to become tapped. Dowsing Dagger will normally be untapped when it transforms into <Lost Vale>.
+2018/01/19: For more information on double-faced cards, see the Ixalan mechanics article (http://magic.wizards.com/en/articles/archive/feature/ixalan-mechanics).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4723,7 +4763,7 @@ Crew 3 (Tap any number of creatures you control with total power 3 or more: This
 <ManaCost>2 (2)</ManaCost>
 <CardText>As Pillar of Origins enters the battlefield, choose a creature type.
 {T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type.</CardText>
-<Artist>Dimitar</Artist>
+<Artist>Dimitar Marinski</Artist>
 <Multiverseid>435399</Multiverseid>
 <Rulings>2018/01/19: To choose a creature type, you must choose an existing creature type, such as Vampire or Knight. You can't choose multiple creature types, such as "Vampire Knight." Card types such as artifact can't be chosen, nor can subtypes that aren't creature types, such as Jace, Vehicle, or Treasure.</Rulings>
 <Vintage>Legal</Vintage>
@@ -4762,10 +4802,20 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 Whenever you cast an instant or sorcery spell, put a charge counter on Primal Amulet. Then if there are four or more charge counters on it, you may remove those counters and transform it.</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>435401</Multiverseid>
-<Rulings>2017/09/29: To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The converted mana cost of the spell remains unchanged, no matter what the total cost to cast it was.
-2017/09/29: Effects that reduce the generic mana cost of a spell can't reduce that spell's colored mana requirements.
+<Rulings>2017/09/29: Effects that reduce the generic mana cost of a spell can't reduce that spell's colored mana requirements.
 2017/09/29: <Primal Amulet>'s last ability triggers once you've completed casting a spell. Notably, you can't use Primal Wellspring to pay for the spell that gives <Primal Amulet> its fourth counter.
 2017/09/29: If a fourth charge counter is put on <Primal Amulet> by something other than the resolution of its ability (as modified by any applicable replacement effects), you won't be able to remove those counters and transform it yet. You'll have to wait until you cast an instant or sorcery spell again.
+2017/09/29: The mana produced by Primal Wellspring can be spent on anything, not just an instant or sorcery spell.
+2017/09/29: Any instant or sorcery spell you spend the mana on will be copied, not just one that requires targets.
+2017/09/29: The delayed triggered ability from Primal Wellspring's mana ability will trigger even if Primal Wellspring leaves the battlefield before that mana is spent.
+2017/09/29: If more than one mana produced by a Primal Wellspring is spent to cast a single instant or sorcery spell, the delayed triggered ability associated with each mana spent will trigger. That many copies will be created. It doesn't matter if this mana was produced by one Primal Wellspring or by multiple Primal Wellsprings.
+2017/09/29: Primal Wellspring's delayed triggered ability can copy the spell even if that spell is countered before the ability resolves.
+2017/09/29: If a copy is created, you control the copy. That copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger. The copy will then resolve like a normal spell, after players get a chance to cast spells and activate abilities.
+2017/09/29: The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+2017/09/29: If the copied spell is modal (that is, it says "Choose one —" or the like), the copy will have the same mode. You can't choose a different one.
+2017/09/29: If the copied spell has an X whose value was determined as it was cast, the copy has the same value of X.
+2017/09/29: To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The converted mana cost of the spell remains unchanged, no matter what the total cost to cast it was.
+2017/09/29: You can't choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too. For example, if you sacrifice a 3/3 creature to cast Fling, and you copy it, the copy of Fling will also deal 3 damage to its target.
 2018/01/19: For more information on double-faced cards, see the Ixalan mechanics article (http://magic.wizards.com/en/articles/archive/feature/ixalan-mechanics).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -4784,7 +4834,10 @@ Whenever you cast an instant or sorcery spell, put a charge counter on Primal Am
 {T}: Add one mana of any color. When that mana is spent to cast an instant or sorcery spell, copy that spell and you may choose new targets for the copy.</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>435402</Multiverseid>
-<Rulings>2017/09/29: The mana produced by <Primal Wellspring> can be spent on anything, not just an instant or sorcery spell.
+<Rulings>2017/09/29: Effects that reduce the generic mana cost of a spell can't reduce that spell's colored mana requirements.
+2017/09/29: Primal Amulet's last ability triggers once you've completed casting a spell. Notably, you can't use <Primal Wellspring> to pay for the spell that gives Primal Amulet its fourth counter.
+2017/09/29: If a fourth charge counter is put on Primal Amulet by something other than the resolution of its ability (as modified by any applicable replacement effects), you won't be able to remove those counters and transform it yet. You'll have to wait until you cast an instant or sorcery spell again.
+2017/09/29: The mana produced by <Primal Wellspring> can be spent on anything, not just an instant or sorcery spell.
 2017/09/29: Any instant or sorcery spell you spend the mana on will be copied, not just one that requires targets.
 2017/09/29: The delayed triggered ability from <Primal Wellspring>'s mana ability will trigger even if <Primal Wellspring> leaves the battlefield before that mana is spent.
 2017/09/29: If more than one mana produced by a <Primal Wellspring> is spent to cast a single instant or sorcery spell, the delayed triggered ability associated with each mana spent will trigger. That many copies will be created. It doesn't matter if this mana was produced by one <Primal Wellspring> or by multiple <Primal Wellspring>s.
@@ -4793,7 +4846,9 @@ Whenever you cast an instant or sorcery spell, put a charge counter on Primal Am
 2017/09/29: The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
 2017/09/29: If the copied spell is modal (that is, it says "Choose one —" or the like), the copy will have the same mode. You can't choose a different one.
 2017/09/29: If the copied spell has an X whose value was determined as it was cast, the copy has the same value of X.
-2017/09/29: You can't choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too. For example, if you sacrifice a 3/3 creature to cast Fling, and you copy it, the copy of Fling will also deal 3 damage to its target.</Rulings>
+2017/09/29: To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The converted mana cost of the spell remains unchanged, no matter what the total cost to cast it was.
+2017/09/29: You can't choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too. For example, if you sacrifice a 3/3 creature to cast Fling, and you copy it, the copy of Fling will also deal 3 damage to its target.
+2018/01/19: For more information on double-faced cards, see the Ixalan mechanics article (http://magic.wizards.com/en/articles/archive/feature/ixalan-mechanics).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4932,7 +4987,8 @@ At the beginning of your end step, if you control seven or more lands, transform
 <Artist>Yeong-Hao Han</Artist>
 <Watermark>Planeswalker</Watermark>
 <Multiverseid>435408</Multiverseid>
-<Rulings>2018/01/19: For more information on double-faced cards, see the Ixalan mechanics article (http://magic.wizards.com/en/articles/archive/feature/ixalan-mechanics).
+<Rulings>2017/09/29: Removing a creature from combat doesn't change the fact that it attacked, even though it's no longer an attacking creature. Notably, raid abilities will still be satisfied if every attacking creature is removed from combat.
+2018/01/19: For more information on double-faced cards, see the Ixalan mechanics article (http://magic.wizards.com/en/articles/archive/feature/ixalan-mechanics).
 2018/01/19: There are many important moments in the story, but the most crucial—called "story spotlights"—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -4953,8 +5009,11 @@ At the beginning of your end step, if you control seven or more lands, transform
 <Flavor>". . . a cryptic objective."
 —Jace Beleren</Flavor>
 <Artist>Yeong-Hao Han</Artist>
+<Watermark>Planeswalker</Watermark>
 <Multiverseid>435409</Multiverseid>
-<Rulings>2017/09/29: Removing a creature from combat doesn't change the fact that it attacked, even though it's no longer an attacking creature. Notably, raid abilities will still be satisfied if every attacking creature is removed from combat.</Rulings>
+<Rulings>2017/09/29: Removing a creature from combat doesn't change the fact that it attacked, even though it's no longer an attacking creature. Notably, raid abilities will still be satisfied if every attacking creature is removed from combat.
+2018/01/19: For more information on double-faced cards, see the Ixalan mechanics article (http://magic.wizards.com/en/articles/archive/feature/ixalan-mechanics).
+2018/01/19: There are many important moments in the story, but the most crucial—called "story spotlights"—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4994,6 +5053,9 @@ At the beginning of your end step, if you control seven or more lands, transform
 <Flavor>Half the treasure is the glory of finding it.</Flavor>
 <Artist>Cliff Childs</Artist>
 <Multiverseid>435411</Multiverseid>
+<Rulings>2017/09/29: If a third landmark counter is put on Treasure Map by something other than the resolution of its first ability (as modified by any applicable replacement effects), you won't remove those counters, transform Treasure Map, or get Treasures yet. You'll have to wait until you activate its first ability again.
+2017/09/29: If Treasure Map leaves the battlefield before its ability resolves, you can't put a landmark counter on it. However, if it somehow already had three landmark counters on it before it left the battlefield, you'll get three Treasures.
+2018/01/19: For more information on double-faced cards, see the Ixalan mechanics article (http://magic.wizards.com/en/articles/archive/feature/ixalan-mechanics).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -5068,7 +5130,7 @@ Whenever you cast a creature spell of the chosen type, draw a card.</CardText>
 <Type>Land</Type>
 <CardText>{T}: Add {C}.
 {2}, {T}, Sacrifice Field of Ruin: Destroy target nonbasic land an opponent controls. Each player searches their library for a basic land card, puts it onto the battlefield, then shuffles their library.</CardText>
-<Artist>Dimitar</Artist>
+<Artist>Dimitar Marinski</Artist>
 <Multiverseid>435415</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -5123,7 +5185,7 @@ Whenever you cast a creature spell of the chosen type, draw a card.</CardText>
 <CardText>Sunpetal Grove enters the battlefield tapped unless you control a Forest or a Plains.
 {T}: Add {G} or {W}.</CardText>
 <Flavor>To the Sun Empire, any place where daylight brightens the jungle floor is sacred ground.</Flavor>
-<Artist>Dimitar</Artist>
+<Artist>Dimitar Marinski</Artist>
 <Multiverseid>435418</Multiverseid>
 <Rulings>2009/10/01: This checks for lands you control with the land type Forest or Plains, not for lands named Forest or Plains. The lands it checks for don't have to be basic lands. For example, if you control Hallowed Fountain (a nonbasic land with the land types Plains and Island), <Sunpetal Grove> will enter the battlefield untapped.
 2009/10/01: As this is entering the battlefield, it checks for lands that are already on the battlefield. It won't see lands that are entering the battlefield at the same time (due to Warp World, for example).</Rulings>
@@ -5142,7 +5204,7 @@ Whenever you cast a creature spell of the chosen type, draw a card.</CardText>
 <CardText>As Unclaimed Territory enters the battlefield, choose a creature type.
 {T}: Add {C}.
 {T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type.</CardText>
-<Artist>Dimitar</Artist>
+<Artist>Dimitar Marinski</Artist>
 <Multiverseid>435419</Multiverseid>
 <Rulings>2018/01/19: To choose a creature type, you must choose an existing creature type, such as Vampire or Knight. You can't choose multiple creature types, such as "Vampire Knight." Card types such as artifact can't be chosen, nor can subtypes that aren't creature types, such as Jace, Vehicle, or Treasure.</Rulings>
 <Vintage>Legal</Vintage>

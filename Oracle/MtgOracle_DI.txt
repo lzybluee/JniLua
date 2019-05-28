@@ -1580,11 +1580,11 @@ Draw a card.</CardText>
 —Simic research notes</Flavor>
 <Artist>Ron Spears</Artist>
 <Multiverseid>107264</Multiverseid>
-<Rulings>2006/05/01: The Saproling token is blocking the attacking creature, even if the block couldn't legally be declared (for example, if the attacking creature has flying, or is Vindictive Mob).
-2006/05/01: Putting a blocking creature onto the battlefield doesn't trigger "When this creature blocks" abilities. It also won't check blocking restrictions, costs, or requirements.
-2006/05/01: Putting a blocking creature onto the battlefield will trigger "When this creature becomes blocked by a creature" abilities. It may trigger "When this creature becomes blocked" abilities, but only if the creature the Saproling is blocking had not yet been blocked that combat.
-2006/05/01: The target creature can be blocked by other creatures.
+<Rulings>2006/05/01: Putting a blocking creature onto the battlefield will trigger "When this creature becomes blocked by a creature" abilities. It may trigger "When this creature becomes blocked" abilities, but only if the creature the Saproling is blocking had not yet been blocked that combat.
+2006/05/01: The Saproling token is blocking the attacking creature, even if the block couldn't legally be declared (for example, if the attacking creature has flying, or is Vindictive Mob).
 2006/05/01: <Flash Foliage> can be cast only during an opponent's combat phase, after attackers have been declared. If it's cast after combat damage is dealt, the Saproling will enter the battlefield blocking the attacking creature, but will neither deal combat damage to it nor be dealt combat damage by it.
+2006/05/01: The target creature can be blocked by other creatures.
+2006/05/01: Putting a blocking creature onto the battlefield doesn't trigger "When this creature blocks" abilities. It also won't check blocking restrictions, costs, or requirements.
 2006/07/01: With the latest Oracle update, you can only cast this during combat, after blockers have been declared.
 2013/09/20: If a turn has multiple combat phases, this spell can be cast during any of them as long as it's after the beginning of that phase's Declare Blockers Step.</Rulings>
 <Vintage>Legal</Vintage>
@@ -1943,7 +1943,7 @@ Hellbent — As long as you have no cards in hand, if a source you control would
 <ManaCost>1WU (3)</ManaCost>
 <CardText>Whenever a permanent is returned to your hand, you may pay {1}. If you do, draw a card.</CardText>
 <Flavor>In her single metasphere are bound the records of every Ætheric transaction since the time of Azor.</Flavor>
-<Artist>Okera</Artist>
+<Artist>Heather Hudson</Artist>
 <Watermark>Azorius</Watermark>
 <Multiverseid>111256</Multiverseid>
 <Rulings>2006/05/01: This ability will trigger whenever any permanent, including a token creature or <Azorius Aethermage> itself, is returned to your hand. It doesn't matter who controlled the permanent or if it had ever actually been in your hand before.</Rulings>
@@ -2797,7 +2797,8 @@ Enchanted creature can't be the target of spells or abilities your opponents con
 <Artist>Brian Hagan</Artist>
 <Watermark>Simic</Watermark>
 <Multiverseid>97084</Multiverseid>
-<Rulings>2013/04/15: This is not the same as hexproof. If, for example, you target one of your opponent's creatures, your opponents won't be able to target their own creature with spells or abilities.</Rulings>
+<Rulings>2013/04/15: This is not the same as hexproof. If, for example, you target one of your opponent's creatures, your opponents won't be able to target their own creature with spells or abilities.
+2018/12/07: If the target creature is an illegal target by the time <Shielding Plax> tries to resolve, the Aura spell doesn't resolve. It won't enter the battlefield, so its enters-the-battlefield ability won't trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2838,7 +2839,9 @@ Enchanted creature can't be the target of spells or abilities your opponents con
 <Watermark>Golgari</Watermark>
 <Multiverseid>107373</Multiverseid>
 <Rulings>2006/05/01: The creature is sacrificed when <Bound> resolves. It's not an additional cost. It's not optional. If you can't sacrifice a creature or a colorless creature is sacrificed, no cards are returned.
-2006/05/01: The cards in the graveyard that you return as part of <Bound>'s effect aren't targeted. They're chosen when the spell resolves. The creature you sacrificed may be one of them.</Rulings>
+2006/05/01: The cards in the graveyard that you return as part of <Bound>'s effect aren't targeted. They're chosen when the spell resolves. The creature you sacrificed may be one of them.
+2006/05/01: After Determined resolves, any spells or abilities that would counter a spell you control that turn will still resolve. They just won't counter that spell.
+2006/05/01: Spells you control may be countered by spells or abilities while Determined is on the stack, waiting to resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2858,7 +2861,9 @@ Draw a card.</CardText>
 <Artist>Jim Nelson</Artist>
 <Watermark>Simic</Watermark>
 <Multiverseid>107373</Multiverseid>
-<Rulings>2006/05/01: After <Determined> resolves, any spells or abilities that would counter a spell you control that turn will still resolve. They just won't counter that spell.
+<Rulings>2006/05/01: The creature is sacrificed when Bound resolves. It's not an additional cost. It's not optional. If you can't sacrifice a creature or a colorless creature is sacrificed, no cards are returned.
+2006/05/01: The cards in the graveyard that you return as part of Bound's effect aren't targeted. They're chosen when the spell resolves. The creature you sacrificed may be one of them.
+2006/05/01: After <Determined> resolves, any spells or abilities that would counter a spell you control that turn will still resolve. They just won't counter that spell.
 2006/05/01: Spells you control may be countered by spells or abilities while <Determined> is on the stack, waiting to resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2911,7 +2916,7 @@ Draw a card.</CardText>
 <Type>Instant</Type>
 <ManaCost>RW (2)</ManaCost>
 <CardText>Put target artifact or enchantment on the bottom of its owner's library.</CardText>
-<Artist>Zoltan Boros & Gabor Szikszai</Artist>
+<Artist>Zoltan Boros</Artist>
 <Watermark>Boros</Watermark>
 <Multiverseid>107315</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2929,7 +2934,7 @@ Draw a card.</CardText>
 <Type>Instant</Type>
 <ManaCost>WB (2)</ManaCost>
 <CardText>Search target opponent's library for a card and exile it. You gain life equal to its converted mana cost. Then that player shuffles their library.</CardText>
-<Artist>Zoltan Boros & Gabor Szikszai</Artist>
+<Artist>Gabor Szikszai</Artist>
 <Watermark>Orzhov</Watermark>
 <Multiverseid>107315</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -3005,6 +3010,7 @@ Draw a card.</CardText>
 <Artist>Michael Sutfin</Artist>
 <Watermark>Boros</Watermark>
 <Multiverseid>107445</Multiverseid>
+<Rulings>2006/05/01: The Odds coin flip has no winner or loser, and no player calls "heads" or "tails."</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3059,7 +3065,9 @@ Draw a card.</CardText>
 <Artist>Greg Staples</Artist>
 <Watermark>Simic</Watermark>
 <Multiverseid>107375</Multiverseid>
-<Rulings>2009/10/01: A card "from outside the game" may be a card from your collection or a card from your sideboard. In tournament play, you can't choose a card from your collection. The cards you choose don't all have to come from the same place.
+<Rulings>2006/05/01: Development's effect is repeated three times no matter which option the opponent chooses. The opponent may choose a different option each time. You'll wind up with three Elemental tokens, two tokens and a card, one token and two cards, or three cards, whichever your opponent chooses.
+2006/05/01: In a multiplayer game, each opponent, in turn, has the option to let you draw a card. If no opponent does, you put a token onto the battlefield. Then the process repeats two more times. A different opponent may let you draw a card each time.
+2009/10/01: A card "from outside the game" may be a card from your collection or a card from your sideboard. In tournament play, you can't choose a card from your collection. The cards you choose don't all have to come from the same place.
 2009/10/01: The exile zone is a part of the game, so you can't get exiled cards.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3080,7 +3088,9 @@ Draw a card.</CardText>
 <Watermark>Izzet</Watermark>
 <Multiverseid>107375</Multiverseid>
 <Rulings>2006/05/01: <Development>'s effect is repeated three times no matter which option the opponent chooses. The opponent may choose a different option each time. You'll wind up with three Elemental tokens, two tokens and a card, one token and two cards, or three cards, whichever your opponent chooses.
-2006/05/01: In a multiplayer game, each opponent, in turn, has the option to let you draw a card. If no opponent does, you put a token onto the battlefield. Then the process repeats two more times. A different opponent may let you draw a card each time.</Rulings>
+2006/05/01: In a multiplayer game, each opponent, in turn, has the option to let you draw a card. If no opponent does, you put a token onto the battlefield. Then the process repeats two more times. A different opponent may let you draw a card each time.
+2009/10/01: A card "from outside the game" may be a card from your collection or a card from your sideboard. In tournament play, you can't choose a card from your collection. The cards you choose don't all have to come from the same place.
+2009/10/01: The exile zone is a part of the game, so you can't get exiled cards.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3168,7 +3178,7 @@ Draw a card.</CardText>
 <Type>Instant</Type>
 <ManaCost>WU (2)</ManaCost>
 <CardText>Return all creatures blocking or blocked by target creature to their owner's hand.</CardText>
-<Artist>Ron Spears & Wayne Reynolds</Artist>
+<Artist>Ron Spears</Artist>
 <Watermark>Azorius</Watermark>
 <Multiverseid>107259</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -3186,7 +3196,7 @@ Draw a card.</CardText>
 <Type>Instant</Type>
 <ManaCost>UB (2)</ManaCost>
 <CardText>Counter target multicolored spell.</CardText>
-<Artist>Ron Spears & Wayne Reynolds</Artist>
+<Artist>Wayne Reynolds</Artist>
 <Watermark>Dimir</Watermark>
 <Multiverseid>107259</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -3375,8 +3385,7 @@ Equip {2}</CardText>
 <Artist>John Avon</Artist>
 <Multiverseid>107362</Multiverseid>
 <Rulings>2006/05/01: <Transguild Courier> appears in a multicolored card frame, but it's still an artifact.
-2011/09/22: This card is white, blue, black, red, and green in all zones. It is multicolored.
-2013/06/07: Although originally printed with a characteristic-defining ability that defined its color, this card now has a color indicator. This color indicator can't be affected by text-changing effects (such as the one created by Crystal Spray), although color-changing effects can still overwrite it.</Rulings>
+2011/09/22: This card is white, blue, black, red, and green in all zones. It is multicolored.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3429,13 +3438,12 @@ When Azorius Chancery enters the battlefield, return a land you control to its o
 <Name>Blood Crypt</Name>
 <Type>Land — Swamp Mountain</Type>
 <CardText>({T}: Add {B} or {R}.)
-As Blood Crypt enters the battlefield, you may pay 2 life. If you don't, Blood Crypt enters the battlefield tapped.</CardText>
+As Blood Crypt enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.</CardText>
 <Artist>Rob Alexander</Artist>
 <Watermark>Rakdos</Watermark>
 <Multiverseid>97102</Multiverseid>
-<Rulings>2005/10/01: Has basic land types, but isn't a basic land. Things that affect basic lands don't affect it. For example, you can't find it with Civic Wayfinder.
-2005/10/01: If another effect (such as Loxodon Gatekeeper's ability) tells you to put lands onto the battlefield tapped, it enters the battlefield tapped whether you pay 2 life or not.
-2005/10/01: If multiple permanents with "as enters the battlefield" effects are entering the battlefield at the same time, process those effects one at a time, then put the permanents onto the battlefield all at once. For example, if you're at 3 life and an effect puts two of these onto the battlefield, you can pay 2 life for only one of them, not both.</Rulings>
+<Rulings>2018/10/05: Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set).
+2018/10/05: If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3449,13 +3457,12 @@ As Blood Crypt enters the battlefield, you may pay 2 life. If you don't, Blood C
 <Name>Breeding Pool</Name>
 <Type>Land — Forest Island</Type>
 <CardText>({T}: Add {G} or {U}.)
-As Breeding Pool enters the battlefield, you may pay 2 life. If you don't, Breeding Pool enters the battlefield tapped.</CardText>
+As Breeding Pool enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.</CardText>
 <Artist>Rob Alexander</Artist>
 <Watermark>Simic</Watermark>
 <Multiverseid>97088</Multiverseid>
-<Rulings>2005/10/01: Has basic land types, but isn't a basic land. Things that affect basic lands don't affect it. For example, you can't find it with Civic Wayfinder.
-2005/10/01: If another effect (such as Loxodon Gatekeeper's ability) tells you to put lands onto the battlefield tapped, it enters the battlefield tapped whether you pay 2 life or not.
-2005/10/01: If multiple permanents with "as enters the battlefield" effects are entering the battlefield at the same time, process those effects one at a time, then put the permanents onto the battlefield all at once. For example, if you're at 3 life and an effect puts two of these onto the battlefield, you can pay 2 life for only one of them, not both.</Rulings>
+<Rulings>2018/10/05: Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set).
+2018/10/05: If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3489,13 +3496,12 @@ As Breeding Pool enters the battlefield, you may pay 2 life. If you don't, Breed
 <Name>Hallowed Fountain</Name>
 <Type>Land — Plains Island</Type>
 <CardText>({T}: Add {W} or {U}.)
-As Hallowed Fountain enters the battlefield, you may pay 2 life. If you don't, Hallowed Fountain enters the battlefield tapped.</CardText>
+As Hallowed Fountain enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.</CardText>
 <Artist>Rob Alexander</Artist>
 <Watermark>Azorius</Watermark>
 <Multiverseid>97071</Multiverseid>
-<Rulings>2005/10/01: Has basic land types, but isn't a basic land. Things that affect basic lands don't affect it. For example, you can't find it with Civic Wayfinder.
-2005/10/01: If another effect (such as Loxodon Gatekeeper's ability) tells you to put lands onto the battlefield tapped, it enters the battlefield tapped whether you pay 2 life or not.
-2005/10/01: If multiple permanents with "as enters the battlefield" effects are entering the battlefield at the same time, process those effects one at a time, then put the permanents onto the battlefield all at once. For example, if you're at 3 life and an effect puts two of these onto the battlefield, you can pay 2 life for only one of them, not both.</Rulings>
+<Rulings>2018/10/05: Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set).
+2018/10/05: If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

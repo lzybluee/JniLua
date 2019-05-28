@@ -1367,14 +1367,14 @@ Entwine {3}{R} (Choose both if you pay the entwine cost.)</CardText>
 <Flavor>"Why learn hundreds of spells when you can learn only one and use it to steal hundreds?"</Flavor>
 <Artist>Greg Hildebrandt</Artist>
 <Multiverseid>73564</Multiverseid>
-<Rulings>2004/12/01: <Reversal of Fortune> creates a copy of the card in the other player's hand, then allows you to cast the copy from that player's hand without paying its mana cost.
-2004/12/01: You cast the copy while this ability is resolving and still on the stack. Normally, you're not allowed to cast spells or activate abilities at this time. <Reversal of Fortune> provides an exception.
+<Rulings>2004/12/01: You cast the copy while this ability is resolving and still on the stack. Normally, you're not allowed to cast spells or activate abilities at this time. <Reversal of Fortune> provides an exception.
 2004/12/01: You don't pay the spell's mana cost. If the spell has X in its mana cost, X is 0. You do pay any additional costs for that spell. You can't use any alternative costs.
 2004/12/01: If the copied card is a split card, you may choose to cast either side of the split card but not both.
-2004/12/01: You can't cast the copy if an effect prevents you from casting instants or sorceries, or from casting that particular instant or sorcery. It doesn't matter whether your opponent can cast the card at this time; the only thing that matters is whether you can cast it.
+2004/12/01: <Reversal of Fortune> creates a copy of the card in the other player's hand, then allows you to cast the copy from that player's hand without paying its mana cost.
 2004/12/01: You can't cast the copy unless all of its targets, if any, can be chosen.
 2004/12/01: If you don't want to cast the copy, you can choose not to; the copy ceases to exist the next time state-based actions are checked.
 2004/12/01: The spell is cast from your opponent's hand, not yours, which can be important for some cards.
+2004/12/01: You can't cast the copy if an effect prevents you from casting instants or sorceries, or from casting that particular instant or sorcery. It doesn't matter whether your opponent can cast the card at this time; the only thing that matters is whether you can cast it.
 2005/03/01: The creation of the copy and then the casting of the copy are both optional.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1538,6 +1538,7 @@ Whenever enchanted land is tapped for mana, its controller adds an additional tw
 <Flavor>She remembers every word spoken, from the hero's oath to the baby's cry.</Flavor>
 <Artist>Terese Nielsen</Artist>
 <Multiverseid>51628</Multiverseid>
+<Rulings>2018/12/07: If an instant or sorcery spell puts <Eternal Witness> onto the battlefield, its ability can target that card in your graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2111,7 +2112,10 @@ Equip {1}</CardText>
 {2}, Sacrifice Engineered Explosives: Destroy each nonland permanent with converted mana cost equal to the number of charge counters on Engineered Explosives.</CardText>
 <Artist>Ron Spears</Artist>
 <Multiverseid>50139</Multiverseid>
-<Rulings>2004/12/01: If <Engineered Explosives> had no charge counters on it when you sacrificed it, it won't destroy an animated land, because that permanent is a land in addition to being a creature.</Rulings>
+<Rulings>2004/12/01: If <Engineered Explosives> had no charge counters on it when you sacrificed it, it won't destroy an animated land, because that permanent is a land in addition to being a creature.
+2018/12/07: You can choose any value for X as you cast <Engineered Explosives>. The value chosen for X doesn't directly affect the number of charge counters <Engineered Explosives> enters the battlefield with, but it does let you pay more mana and thus spend more colors of mana to cast it.
+2018/12/07: Colorless mana won't give <Engineered Explosives> another charge counter. Colorless is not a color.
+2018/12/07: A token has a converted mana cost of 0 unless it is copying something else.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2337,7 +2341,7 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <Type>Artifact</Type>
 <ManaCost>5 (5)</ManaCost>
 <CardText>Sunburst (This enters the battlefield with a charge counter on it for each color of mana spent to cast it.)
-{2}, Sacrifice Heliophial: Heliophial deals damage equal to the number of charge counters on it to any target.</CardText>
+{2}, Sacrifice Heliophial: It deals damage equal to the number of charge counters on it to any target.</CardText>
 <Artist>Wayne England</Artist>
 <Multiverseid>50192</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2415,7 +2419,7 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <Multiverseid>51633</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Modern>Legal</Modern>
+<Modern>Banned</Modern>
 <Set>Fifth Dawn</Set>
 <Rarity>Uncommon</Rarity>
 </Card>
@@ -2431,9 +2435,9 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <Flavor>Each eye sees a different possibility for tomorrow.</Flavor>
 <Artist>Tim Hildebrandt</Artist>
 <Multiverseid>73927</Multiverseid>
-<Rulings>2013/04/15: The top card of your library isn't in your hand, so you can't suspend it, cycle it, discard it, or activate any of its activated abilities.
-2013/04/15: If the top card of your library changes while you're casting a spell or activating an ability, the new top card won't be revealed until you finish casting that spell or activating that ability.
-2013/04/15: When playing with the top card of your library revealed, if an effect tells you to draw several cards, reveal each one before you draw it.</Rulings>
+<Rulings>2013/04/15: If the top card of your library changes while you're casting a spell or activating an ability, the new top card won't be revealed until you finish casting that spell or activating that ability.
+2013/04/15: When playing with the top card of your library revealed, if an effect tells you to draw several cards, reveal each one before you draw it.
+2013/04/15: The top card of your library isn't in your hand, so you can't suspend it, cycle it, discard it, or activate any of its activated abilities.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2508,7 +2512,7 @@ Artifact creature spells you cast have affinity for artifacts. (They cost {1} le
 <Flavor>The Krark Clan enjoys pulling them apart just to watch them reassemble one another.</Flavor>
 <Artist>John Matson</Artist>
 <Multiverseid>50179</Multiverseid>
-<Rulings>2004/12/01: The <Myr Servitor> that's the source of the ability must be on the battlefield when the ability resolves. If it is, all other <Myr Servitor> cards are returned from all graveyards to the battlefield under their owner's control. If it's not, no <Myr Servitor>s are returned to the battlefield.</Rulings>
+<Rulings>2018/12/07: The <Myr Servitor> that's the source of the triggered ability must still be on the battlefield when the ability resolves. If it is, all other <Myr Servitor> cards are returned from all graveyards to the battlefield under their owner's control. If it's not, no <Myr Servitor>s are returned to the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

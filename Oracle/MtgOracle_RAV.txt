@@ -125,13 +125,13 @@ Prevent all damage that would be dealt by creatures this turn. You gain life equ
 <Watermark>Selesnya</Watermark>
 <Multiverseid>87957</Multiverseid>
 <Rulings>2005/10/01: The damage prevention shield lasts for the rest of the turn, and you gain life each time that shield prevents 1 or more damage.
+2014/07/18: If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped when you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
 2014/07/18: The rules for convoke have changed slightly since it last appeared in an expansion. Previously, convoke reduced the cost to cast a spell. Under current rules, you tap creatures at the same time you pay the spell's costs. Tapping a creature this way is simply another way to pay.
 2014/07/18: Convoke doesn't change a spell's mana cost or converted mana cost.
 2014/07/18: When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated.
 2014/07/18: Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
 2014/07/18: Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
-2014/07/18: When using convoke to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap creatures you control to help pay that cost. For example, if you cast Chord of Calling (a spell with convoke and mana cost {X}{G}{G}{G}) and choose X to be 3, the total cost is {3}{G}{G}{G}. If you tap two green creatures and two red creatures, you'll have to pay {1}{G}.
-2014/07/18: If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped when you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.</Rulings>
+2014/07/18: When using convoke to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap creatures you control to help pay that cost. For example, if you cast Chord of Calling (a spell with convoke and mana cost {X}{G}{G}{G}) and choose X to be 3, the total cost is {3}{G}{G}{G}. If you tap two green creatures and two red creatures, you'll have to pay {1}{G}.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -264,15 +264,15 @@ Exile target attacking or blocking creature.</CardText>
 <Artist>Pete Venters</Artist>
 <Watermark>Selesnya</Watermark>
 <Multiverseid>89040</Multiverseid>
-<Rulings>2014/07/18: You can tap untapped attacking or blocking creatures you control to help cast <Devouring Light>. This doesn't remove those creatures from combat.
-2014/07/18: The declare blockers step is the last chance to cast <Devouring Light> before creatures deal their combat damage. However, a creature remains an attacking or blocking creature during the combat damage step and end of combat step. <Devouring Light> may be cast targeting such a creature during those steps, after the creature has dealt combat damage.
-2014/07/18: The rules for convoke have changed slightly since it last appeared in an expansion. Previously, convoke reduced the cost to cast a spell. Under current rules, you tap creatures at the same time you pay the spell's costs. Tapping a creature this way is simply another way to pay.
-2014/07/18: Convoke doesn't change a spell's mana cost or converted mana cost.
-2014/07/18: When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated.
-2014/07/18: Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
-2014/07/18: Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
-2014/07/18: When using convoke to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap creatures you control to help pay that cost. For example, if you cast Chord of Calling (a spell with convoke and mana cost {X}{G}{G}{G}) and choose X to be 3, the total cost is {3}{G}{G}{G}. If you tap two green creatures and two red creatures, you'll have to pay {1}{G}.
-2014/07/18: If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped when you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.</Rulings>
+<Rulings>2014/07/18: The declare blockers step is the last chance to cast <Devouring Light> before creatures deal their combat damage. However, a creature remains an attacking or blocking creature during the combat damage step and end of combat step. <Devouring Light> may be cast targeting such a creature during those steps, after the creature has dealt combat damage.
+2014/07/18: You can tap untapped attacking or blocking creatures you control to help cast <Devouring Light>. This doesn't remove those creatures from combat.
+2018/10/05: If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+2018/10/05: Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+2018/10/05: When using convoke to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap creatures you control to help pay that cost. For example, if you cast Worldsoul Colossus (a spell with convoke and mana cost {X}{G}{W}) and choose X to be 3, the total cost is {3}{G}{W}. If you tap two green creatures and two white creatures, you'll have to pay {1}.
+2018/10/05: You can tap an untapped creature you haven't controlled continuously since the beginning of your most recent turn to convoke a spell.
+2018/10/05: Convoke doesn't change a spell's mana cost or converted mana cost.
+2018/10/05: When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated.
+2018/10/05: Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -328,8 +328,9 @@ When Faith's Fetters enters the battlefield, you gain 4 life.
 Enchanted permanent can't attack or block, and its activated abilities can't be activated unless they're mana abilities.</CardText>
 <Artist>Chippy</Artist>
 <Multiverseid>83609</Multiverseid>
-<Rulings>2016/06/08: <Faith's Fetters> doesn't stop static abilities, triggered abilities, or mana abilities from working. A mana ability is an ability that produces mana, not an ability that costs mana.
-2016/06/08: Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keywords are activated abilities and will have colons in their reminder text.</Rulings>
+<Rulings>2018/12/07: Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keywords (such as equip) are activated abilities and will have colons in their reminder text.
+2018/12/07: <Faith's Fetters> doesn't stop static abilities, triggered abilities, or mana abilities from working. A mana ability is an ability that produces mana, not an ability that costs mana.
+2018/12/07: If the target permanent is an illegal target by the time <Faith's Fetters> tries to resolve, the Aura spell doesn't resolve. It won't enter the battlefield, so its enters-the-battlefield ability won't trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -432,13 +433,13 @@ Destroy all nontoken creatures.</CardText>
 <Artist>Randy Gallegos</Artist>
 <Watermark>Selesnya</Watermark>
 <Multiverseid>88985</Multiverseid>
-<Rulings>2014/07/18: The rules for convoke have changed slightly since it last appeared in an expansion. Previously, convoke reduced the cost to cast a spell. Under current rules, you tap creatures at the same time you pay the spell's costs. Tapping a creature this way is simply another way to pay.
-2014/07/18: Convoke doesn't change a spell's mana cost or converted mana cost.
-2014/07/18: When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated.
-2014/07/18: Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
-2014/07/18: Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
-2014/07/18: When using convoke to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap creatures you control to help pay that cost. For example, if you cast Chord of Calling (a spell with convoke and mana cost {X}{G}{G}{G}) and choose X to be 3, the total cost is {3}{G}{G}{G}. If you tap two green creatures and two red creatures, you'll have to pay {1}{G}.
-2014/07/18: If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped when you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.</Rulings>
+<Rulings>2018/10/05: You can tap an untapped creature you haven't controlled continuously since the beginning of your most recent turn to convoke a spell.
+2018/10/05: Convoke doesn't change a spell's mana cost or converted mana cost.
+2018/10/05: When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated.
+2018/10/05: Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+2018/10/05: Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+2018/10/05: When using convoke to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap creatures you control to help pay that cost. For example, if you cast Worldsoul Colossus (a spell with convoke and mana cost {X}{G}{W}) and choose X to be 3, the total cost is {3}{G}{W}. If you tap two green creatures and two white creatures, you'll have to pay {1}.
+2018/10/05: If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -958,6 +959,7 @@ Enchanted creature has flying.</CardText>
 <Flavor>The view from above is an inspiration to the newly winged.</Flavor>
 <Artist>Glen Angus</Artist>
 <Multiverseid>83677</Multiverseid>
+<Rulings>2018/12/07: If the target creature is an illegal target by the time <Flight of Fancy> tries to resolve, the Aura spell doesn't resolve. It won't enter the battlefield, so its enters-the-battlefield ability won't trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2950,7 +2952,7 @@ Search your library for a creature card with converted mana cost X or less and p
 <SetId>RAV</SetId>
 <No>157</No>
 <Name>Civic Wayfinder</Name>
-<Type>Creature — Elf Warrior Druid 2/2</Type>
+<Type>Creature — Elf Druid Warrior 2/2</Type>
 <ManaCost>2G (3)</ManaCost>
 <CardText>When Civic Wayfinder enters the battlefield, you may search your library for a basic land card, reveal it, and put it into your hand. If you do, shuffle your library.</CardText>
 <Flavor>"These alleys are not safe. Come, I can guide you back to the market square."</Flavor>
@@ -3108,13 +3110,13 @@ Target creature gets +2/+2 until end of turn.</CardText>
 <Artist>Brian Despain</Artist>
 <Watermark>Selesnya</Watermark>
 <Multiverseid>87940</Multiverseid>
-<Rulings>2014/07/18: The rules for convoke have changed slightly since it last appeared in an expansion. Previously, convoke reduced the cost to cast a spell. Under current rules, you tap creatures at the same time you pay the spell's costs. Tapping a creature this way is simply another way to pay.
-2014/07/18: Convoke doesn't change a spell's mana cost or converted mana cost.
-2014/07/18: When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated.
-2014/07/18: Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
-2014/07/18: Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
-2014/07/18: When using convoke to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap creatures you control to help pay that cost. For example, if you cast Chord of Calling (a spell with convoke and mana cost {X}{G}{G}{G}) and choose X to be 3, the total cost is {3}{G}{G}{G}. If you tap two green creatures and two red creatures, you'll have to pay {1}{G}.
-2014/07/18: If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped when you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.</Rulings>
+<Rulings>2018/10/05: You can tap an untapped creature you haven't controlled continuously since the beginning of your most recent turn to convoke a spell.
+2018/10/05: Convoke doesn't change a spell's mana cost or converted mana cost.
+2018/10/05: When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated.
+2018/10/05: Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+2018/10/05: Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+2018/10/05: When using convoke to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap creatures you control to help pay that cost. For example, if you cast Worldsoul Colossus (a spell with convoke and mana cost {X}{G}{W}) and choose X to be 3, the total cost is {3}{G}{W}. If you tap two green creatures and two white creatures, you'll have to pay {1}.
+2018/10/05: If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3156,10 +3158,11 @@ Dredge 6 (If you would draw a card, instead you may put exactly six cards from t
 <Artist>Greg Hildebrandt</Artist>
 <Watermark>Golgari</Watermark>
 <Multiverseid>88960</Multiverseid>
-<Rulings>2005/10/01: If an effect puts <Golgari Grave-Troll> onto the battlefield from your graveyard, <Golgari Grave-Troll> counts itself as one of the cards in your graveyard and gets a counter accordingly.
-2013/06/07: Dredge lets you replace any card draw, not just the one during your draw step.
+<Rulings>2013/06/07: Dredge lets you replace any card draw, not just the one during your draw step.
 2013/06/07: Once you decide to replace a draw using a card's dredge ability, that card can't be removed from your graveyard "in response." (Replacement effects don't use the stack.)
-2013/06/07: You can't use dredge unless you're going to draw a card and the card with dredge is already in your graveyard.</Rulings>
+2013/06/07: You can't use dredge unless you're going to draw a card and the card with dredge is already in your graveyard.
+2018/12/07: If you return <Golgari Grave-Troll> from your graveyard directly to the battlefield, its first ability counts itself.
+2018/12/07: Because damage remains marked on a creature until it's removed as the turn ends, nonlethal damage dealt to <Golgari Grave-Troll> may become lethal if you return remove +1/+1 counters from it during that turn. In this case, it dies before you can resolve the activated ability that will regenerate it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Banned</Modern>
@@ -3434,13 +3437,13 @@ Create three 1/1 green Saproling creature tokens.</CardText>
 <Artist>Rob Alexander</Artist>
 <Watermark>Selesnya</Watermark>
 <Multiverseid>87931</Multiverseid>
-<Rulings>2014/07/18: The rules for convoke have changed slightly since it last appeared in an expansion. Previously, convoke reduced the cost to cast a spell. Under current rules, you tap creatures at the same time you pay the spell's costs. Tapping a creature this way is simply another way to pay.
-2014/07/18: Convoke doesn't change a spell's mana cost or converted mana cost.
-2014/07/18: When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated.
-2014/07/18: Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
-2014/07/18: Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
-2014/07/18: When using convoke to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap creatures you control to help pay that cost. For example, if you cast Chord of Calling (a spell with convoke and mana cost {X}{G}{G}{G}) and choose X to be 3, the total cost is {3}{G}{G}{G}. If you tap two green creatures and two red creatures, you'll have to pay {1}{G}.
-2014/07/18: If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped when you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.</Rulings>
+<Rulings>2018/10/05: You can tap an untapped creature you haven't controlled continuously since the beginning of your most recent turn to convoke a spell.
+2018/10/05: Convoke doesn't change a spell's mana cost or converted mana cost.
+2018/10/05: When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated.
+2018/10/05: Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+2018/10/05: Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+2018/10/05: When using convoke to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap creatures you control to help pay that cost. For example, if you cast Worldsoul Colossus (a spell with convoke and mana cost {X}{G}{W}) and choose X to be 3, the total cost is {3}{G}{W}. If you tap two green creatures and two white creatures, you'll have to pay {1}.
+2018/10/05: If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3477,13 +3480,13 @@ Trample (This creature can deal excess combat damage to the player or planeswalk
 <Artist>Carl Critchlow</Artist>
 <Watermark>Selesnya</Watermark>
 <Multiverseid>87932</Multiverseid>
-<Rulings>2014/07/18: The rules for convoke have changed slightly since it last appeared in an expansion. Previously, convoke reduced the cost to cast a spell. Under current rules, you tap creatures at the same time you pay the spell's costs. Tapping a creature this way is simply another way to pay.
-2014/07/18: Convoke doesn't change a spell's mana cost or converted mana cost.
-2014/07/18: When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated.
-2014/07/18: Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
-2014/07/18: Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
-2014/07/18: When using convoke to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap creatures you control to help pay that cost. For example, if you cast Chord of Calling (a spell with convoke and mana cost {X}{G}{G}{G}) and choose X to be 3, the total cost is {3}{G}{G}{G}. If you tap two green creatures and two red creatures, you'll have to pay {1}{G}.
-2014/07/18: If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped when you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.</Rulings>
+<Rulings>2018/10/05: You can tap an untapped creature you haven't controlled continuously since the beginning of your most recent turn to convoke a spell.
+2018/10/05: Convoke doesn't change a spell's mana cost or converted mana cost.
+2018/10/05: When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated.
+2018/10/05: Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+2018/10/05: Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+2018/10/05: When using convoke to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap creatures you control to help pay that cost. For example, if you cast Worldsoul Colossus (a spell with convoke and mana cost {X}{G}{W}) and choose X to be 3, the total cost is {3}{G}{W}. If you tap two green creatures and two white creatures, you'll have to pay {1}.
+2018/10/05: If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4996,7 +4999,7 @@ As long as the top card of your library is a creature card, creatures you contro
 <ManaCost>2 (2)</ManaCost>
 <CardText>{1}, {T}: Add {U}{B}.</CardText>
 <Flavor>An emblem of a secret guild, the Dimir insignia is seen only by its own members—and the doomed.</Flavor>
-<Artist>Tim Hildebrandt</Artist>
+<Artist>Greg Hildebrandt</Artist>
 <Watermark>Dimir</Watermark>
 <Multiverseid>95535</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5067,7 +5070,7 @@ Equip {1}</CardText>
 <Name>Junktroller</Name>
 <Type>Artifact Creature — Golem 0/6</Type>
 <ManaCost>4 (4)</ManaCost>
-<CardText>Defender (This creature can't attack.)
+<CardText>Defender
 {T}: Put target card from a graveyard on the bottom of its owner's library.</CardText>
 <Flavor>One man's trash is another man's troller.</Flavor>
 <Artist>Chippy</Artist>
@@ -5354,13 +5357,12 @@ When Golgari Rot Farm enters the battlefield, return a land you control to its o
 <Name>Overgrown Tomb</Name>
 <Type>Land — Swamp Forest</Type>
 <CardText>({T}: Add {B} or {G}.)
-As Overgrown Tomb enters the battlefield, you may pay 2 life. If you don't, Overgrown Tomb enters the battlefield tapped.</CardText>
+As Overgrown Tomb enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.</CardText>
 <Artist>Rob Alexander</Artist>
 <Watermark>Golgari</Watermark>
 <Multiverseid>89072</Multiverseid>
-<Rulings>2005/10/01: Has basic land types, but isn't a basic land. Things that affect basic lands don't affect it. For example, you can't find it with Civic Wayfinder.
-2005/10/01: If another effect (such as Loxodon Gatekeeper's ability) tells you to put lands onto the battlefield tapped, it enters the battlefield tapped whether you pay 2 life or not.
-2005/10/01: If multiple permanents with "as enters the battlefield" effects are entering the battlefield at the same time, process those effects one at a time, then put the permanents onto the battlefield all at once. For example, if you're at 3 life and an effect puts two of these onto the battlefield, you can pay 2 life for only one of them, not both.</Rulings>
+<Rulings>2018/10/05: Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set).
+2018/10/05: If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -5374,13 +5376,12 @@ As Overgrown Tomb enters the battlefield, you may pay 2 life. If you don't, Over
 <Name>Sacred Foundry</Name>
 <Type>Land — Mountain Plains</Type>
 <CardText>({T}: Add {R} or {W}.)
-As Sacred Foundry enters the battlefield, you may pay 2 life. If you don't, Sacred Foundry enters the battlefield tapped.</CardText>
+As Sacred Foundry enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.</CardText>
 <Artist>Rob Alexander</Artist>
 <Watermark>Boros</Watermark>
 <Multiverseid>89066</Multiverseid>
-<Rulings>2005/10/01: Has basic land types, but isn't a basic land. Things that affect basic lands don't affect it. For example, you can't find it with Civic Wayfinder.
-2005/10/01: If another effect (such as Loxodon Gatekeeper's ability) tells you to put lands onto the battlefield tapped, it enters the battlefield tapped whether you pay 2 life or not.
-2005/10/01: If multiple permanents with "as enters the battlefield" effects are entering the battlefield at the same time, process those effects one at a time, then put the permanents onto the battlefield all at once. For example, if you're at 3 life and an effect puts two of these onto the battlefield, you can pay 2 life for only one of them, not both.</Rulings>
+<Rulings>2018/10/05: Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set).
+2018/10/05: If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -5453,13 +5454,12 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <Name>Temple Garden</Name>
 <Type>Land — Forest Plains</Type>
 <CardText>({T}: Add {G} or {W}.)
-As Temple Garden enters the battlefield, you may pay 2 life. If you don't, Temple Garden enters the battlefield tapped.</CardText>
+As Temple Garden enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.</CardText>
 <Artist>Rob Alexander</Artist>
 <Watermark>Selesnya</Watermark>
 <Multiverseid>89093</Multiverseid>
-<Rulings>2005/10/01: Has basic land types, but isn't a basic land. Things that affect basic lands don't affect it. For example, you can't find it with Civic Wayfinder.
-2005/10/01: If another effect (such as Loxodon Gatekeeper's ability) tells you to put lands onto the battlefield tapped, it enters the battlefield tapped whether you pay 2 life or not.
-2005/10/01: If multiple permanents with "as enters the battlefield" effects are entering the battlefield at the same time, process those effects one at a time, then put the permanents onto the battlefield all at once. For example, if you're at 3 life and an effect puts two of these onto the battlefield, you can pay 2 life for only one of them, not both.</Rulings>
+<Rulings>2018/10/05: Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set).
+2018/10/05: If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -5491,13 +5491,12 @@ As Temple Garden enters the battlefield, you may pay 2 life. If you don't, Templ
 <Name>Watery Grave</Name>
 <Type>Land — Island Swamp</Type>
 <CardText>({T}: Add {U} or {B}.)
-As Watery Grave enters the battlefield, you may pay 2 life. If you don't, Watery Grave enters the battlefield tapped.</CardText>
+As Watery Grave enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.</CardText>
 <Artist>Rob Alexander</Artist>
 <Watermark>Dimir</Watermark>
 <Multiverseid>83731</Multiverseid>
-<Rulings>2005/10/01: Has basic land types, but isn't a basic land. Things that affect basic lands don't affect it. For example, you can't find it with Civic Wayfinder.
-2005/10/01: If another effect (such as Loxodon Gatekeeper's ability) tells you to put lands onto the battlefield tapped, it enters the battlefield tapped whether you pay 2 life or not.
-2005/10/01: If multiple permanents with "as enters the battlefield" effects are entering the battlefield at the same time, process those effects one at a time, then put the permanents onto the battlefield all at once. For example, if you're at 3 life and an effect puts two of these onto the battlefield, you can pay 2 life for only one of them, not both.</Rulings>
+<Rulings>2018/10/05: Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set).
+2018/10/05: If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

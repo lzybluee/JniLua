@@ -377,12 +377,12 @@ Whenever you're dealt damage, sacrifice that many nontoken permanents. If you ca
 When Lich is put into a graveyard from the battlefield, you lose the game.</CardText>
 <Artist>Daniel Gelon</Artist>
 <Multiverseid>69</Multiverseid>
-<Rulings>2004/10/04: If you have multiple <Lich> cards on the battlefield, you must sacrifice a permanent for each damage done to you for each <Lich>. This is because the sacrifice is a triggered ability. But you only draw one card for each life gained regardless of how many <Lich>es you have. This is because the draw is a replacement effect and not a triggered one. You lose if any one of the <Lich>es leaves the battlefield.
+<Rulings>2004/10/04: If an opponent steals control of <Lich> and no other effect prevents you from losing with a life total of zero, you will lose the game due to a zero life total as a State-Based Action before you can take any actions. The last sentence doesn't apply in this case since the <Lich> didn't leave the battlefield.
+2004/10/04: If you have multiple <Lich> cards on the battlefield, you must sacrifice a permanent for each damage done to you for each <Lich>. This is because the sacrifice is a triggered ability. But you only draw one card for each life gained regardless of how many <Lich>es you have. This is because the draw is a replacement effect and not a triggered one. You lose if any one of the <Lich>es leaves the battlefield.
+2004/10/04: You can lose life and take damage, and thereby have a negative life total, while <Lich> is on the battlefield.
+2004/10/04: If an opponent steals control of <Lich>, their life total does not change. The life total changes for a player only when it enters the battlefield under that player's control.
 2004/10/04: If you take more than one damage at a time, sacrifice the permanents for that damage simultaneously. This allows you to sacrifice both a creature and any Aura that is on it all at once.
 2004/10/04: You can't pay life, just like any player at less than one life can't pay life. You can pay zero life if you want.
-2004/10/04: If an opponent steals control of <Lich> and no other effect prevents you from losing with a life total of zero, you will lose the game due to a zero life total as a State-Based Action before you can take any actions. The last sentence doesn't apply in this case since the <Lich> didn't leave the battlefield.
-2004/10/04: If an opponent steals control of <Lich>, their life total does not change. The life total changes for a player only when it enters the battlefield under that player's control.
-2004/10/04: You can lose life and take damage, and thereby have a negative life total, while <Lich> is on the battlefield.
 2010/08/15: The last ability will cause you to lose the game even if you somehow manage to have a life total greater than 0 at the time the <Lich> leaves the battlefield or if some other effect would prevent you from losing for having 0 life. If, on the other hand, some effect such as that from Platinum Angel says that you can't lose the game then even the last ability of the <Lich> cannot cause you to do so. The ability will just resolve and the game will continue as normal.
 2010/08/15: Note that usually you will have 0 or less life at the time <Lich> leaves the battlefield causing you to lose as a State-Based Action before the last ability can even go on the stack.
 2011/01/01: The last ability will cause you to lose the game even if you somehow manage to have a life total greater than 0 at the time the <Lich> is put into the graveyard or if some other effect would prevent you from losing for having 0 life. If, on the other hand, some effect such as that from Platinum Angel says that you can't lose the game then even the last ability of the <Lich> cannot cause you to do so. The ability will just resolve and the game will continue as normal.</Rulings>
@@ -438,13 +438,13 @@ At the beginning of your upkeep, sacrifice a creature other than Lord of the Pit
 At the beginning of your upkeep, if Nether Shadow is in your graveyard with three or more creature cards above it, you may put Nether Shadow onto the battlefield.</CardText>
 <Artist>Christopher Rush</Artist>
 <Multiverseid>72</Multiverseid>
-<Rulings>2004/10/04: Note that bringing the Shadow back onto the battlefield from the graveyard is not a spell, it is an ability. It can't be countered with something that counters spells.
-2004/10/04: Since it enters the battlefield due to triggering at the beginning of upkeep, it is not possible to get an infinite loop with four <Nether Shadow>s.
-2008/10/01: A card is "above" another card in your graveyard if it was put into that graveyard later.
+<Rulings>2004/10/04: Since it enters the battlefield due to triggering at the beginning of upkeep, it is not possible to get an infinite loop with four <Nether Shadow>s.
+2004/10/04: Note that bringing the Shadow back onto the battlefield from the graveyard is not a spell, it is an ability. It can't be countered with something that counters spells.
 2008/10/01: Players may not rearrange the cards in their graveyards.
-2008/10/01: If an effect or rule puts two or more cards into the same graveyard at the same time, the owner of those cards may arrange them in any order.
 2008/10/01: The last thing that happens to a resolving instant or sorcery spell is that it's put into its owner's graveyard. Example: You cast Wrath of God. All creatures on the battlefield are destroyed. You arrange all the cards put into your graveyard this way in any order you want. The other players in the game do the same to the cards that are put into their graveyards. Then you put Wrath of God into your graveyard, on top of the other cards.
-2008/10/01: Say you're the owner of both a permanent and an Aura that's attached to it. If both the permanent and the Aura are destroyed at the same time (by Akroma's Vengeance, for example), you decide the order they're put into your graveyard. If just the enchanted permanent is destroyed, it's put into your graveyard first. Then, after state-based actions are checked, the Aura (which is no longer attached to anything) is put into your graveyard on top of it.</Rulings>
+2008/10/01: Say you're the owner of both a permanent and an Aura that's attached to it. If both the permanent and the Aura are destroyed at the same time (by Akroma's Vengeance, for example), you decide the order they're put into your graveyard. If just the enchanted permanent is destroyed, it's put into your graveyard first. Then, after state-based actions are checked, the Aura (which is no longer attached to anything) is put into your graveyard on top of it.
+2008/10/01: A card is "above" another card in your graveyard if it was put into that graveyard later.
+2008/10/01: If an effect or rule puts two or more cards into the same graveyard at the same time, the owner of those cards may arrange them in any order.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Limited Edition Alpha</Set>
@@ -811,14 +811,14 @@ Burnt green, and blue and white."
 <Multiverseid>92</Multiverseid>
 <Rulings>2004/10/04: To "play a card" is to either cast a spell or to put a land onto the battlefield using the main phase special action.
 2009/10/01: You do get to choose which lands get tapped. You can make them choose an optional mana generating ability of the land that they tap, such as making them tap and sacrifice the land instead of just tap it.
-2011/01/01: <Word of Command> can't be used to force a player to play a card that isn't in their hand.
 2011/01/01: You control the player while this spell is resolving, which means you get to see anything they can see. If that player is required to search their library as part of playing the card or as part of its resolution if it's cast as a spell, then you can see the cards in that player's library as well.
 2011/01/01: Your opponent can't counter the <Word of Command> after letting you look at their hand, but they can attempt to counter the spell you force them to cast.
 2011/01/01: You may Command your opponent to play a land (if they have not already done so this turn).
-2011/01/01: You must order your opponent to play the chosen card if it is possible to do so.
 2011/01/01: If there is a non-mana way to cast a spell, as with Pitch Spells, you may require that way to be used if it is possible to do so.
 2011/01/01: Since this spell is an instant, your opponent gets a chance to respond to it as normal. Once this spell resolves, you look at your opponent's hand and choose a card. Note that it is common practice to respond to <Word of Command> by using up any spells or mana you have prior to letting it resolve.
 2011/01/01: During the resolution of this spell, that player plays the chosen card.
+2011/01/01: You must order your opponent to play the chosen card if it is possible to do so.
+2011/01/01: <Word of Command> can't be used to force a player to play a card that isn't in their hand.
 2016/07/13: While controlling another player, you can see all cards in the game that player can see. This includes cards in that player's hand, face-down cards that player controls, and any cards in that player's library the player may look at.
 2016/07/13: Controlling a player doesn't allow you to look at that player's sideboard. If an effect instructs that player to choose a card from outside the game, you can't have that player choose any card.</Rulings>
 <Reserved>This card is on the reserved list</Reserved>
@@ -851,7 +851,7 @@ Other Zombies have "{B}: Regenerate this permanent."</CardText>
 <Name>Air Elemental</Name>
 <Type>Creature — Elemental 4/4</Type>
 <ManaCost>3UU (5)</ManaCost>
-<CardText>Flying</CardText>
+<CardText>Flying (This creature can't be blocked except by creatures with flying or reach.)</CardText>
 <Flavor>These spirits of the air are winsome and wild, and cannot be truly contained. Only marginally intelligent, they often substitute whimsy for strategy, delighting in mischief and mayhem.</Flavor>
 <Artist>Richard Thomas</Artist>
 <Multiverseid>94</Multiverseid>
@@ -1130,7 +1130,7 @@ Enchanted creature can't be blocked except by Walls.</CardText>
 <Name>Lord of Atlantis</Name>
 <Type>Creature — Merfolk 2/2</Type>
 <ManaCost>UU (2)</ManaCost>
-<CardText>Other Merfolk creatures get +1/+1 and have islandwalk. (They can't be blocked as long as defending player controls an Island.)</CardText>
+<CardText>Other Merfolk get +1/+1 and have islandwalk. (They can't be blocked as long as defending player controls an Island.)</CardText>
 <Flavor>A master of tactics, the Lord of Atlantis makes his people bold in battle merely by arriving to lead them.</Flavor>
 <Artist>Melissa A. Benson</Artist>
 <Multiverseid>110</Multiverseid>
@@ -1191,9 +1191,9 @@ Enchanted creature can't be blocked except by Walls.</CardText>
 <CardText>Tap all lands target player controls and that player loses all unspent mana.</CardText>
 <Artist>Dameon Willich</Artist>
 <Multiverseid>113</Multiverseid>
-<Rulings>2004/10/04: Since this is an instant, your opponent may use instants in response to the casting of this spell. Note that such spells and abilities will be resolved before the mana pool is emptied by the <Mana Short>. This makes it useless as a countermeasure for spells. To use it effectively, you need to use it during Upkeep and even then it will not prevent the use of instant spells and abilities.
-2004/10/04: If you play <Mana Short> in response to a spell, it will have no effect on that spell since the mana has already been paid.
-2004/10/04: It even taps lands that do not produce mana.</Rulings>
+<Rulings>2004/10/04: It even taps lands that do not produce mana.
+2004/10/04: Since this is an instant, your opponent may use instants in response to the casting of this spell. Note that such spells and abilities will be resolved before the mana pool is emptied by the <Mana Short>. This makes it useless as a countermeasure for spells. To use it effectively, you need to use it during Upkeep and even then it will not prevent the use of instant spells and abilities.
+2004/10/04: If you play <Mana Short> in response to a spell, it will have no effect on that spell since the mana has already been paid.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Limited Edition Alpha</Set>
@@ -1588,12 +1588,12 @@ You control enchanted artifact.</CardText>
 2004/10/04: When it takes on the characteristics of the other card, it is no longer of creature type Shapeshifter.
 2004/10/04: When changing forms, any text changes that exist on the Doppelganger are applied to the new text, if appropriate.
 2004/12/01: If a Doppelganger is flipped, and it copies a flip card in any state, it will copy both "sides" of that card but use the flipped side. If a Doppelganger is unflipped, and it copies a flip card in any state, it will copy both "sides" of that card but use the unflipped side. In the second case, if it ever meets the flip conditions of its new ability, it will flip and used the flipped side of what it is copying.
+2007/09/16: Although <Vesuvan Doppelganger>'s triggered ability is targeted, its "as enters the battlefield" ability is not.
 2007/09/16: When <Vesuvan Doppelganger>'s triggered ability triggers, you must choose a target for it. You determine whether to have the Doppelganger become a copy of that target when the ability resolves.
 2007/09/16: <Vesuvan Doppelganger> copies the mana cost of the creature it's copying but doesn't copy its color.
 2007/09/16: If another creature copies <Vesuvan Doppelganger>, the new creature will become a copy of whatever <Vesuvan Doppelganger> is copying except for its color, will copy <Vesuvan Doppelganger>'s color, and will gain <Vesuvan Doppelganger>'s triggered ability.
 2007/09/16: <Vesuvan Doppelganger>'s triggered ability may cause it to become a copy of itself. A <Vesuvan Doppelganger> that becomes a copy of a <Vesuvan Doppelganger> (either itself or a different one) will gain another instance of its triggered ability. Each instance of that ability will trigger during its controller's upkeep. They'll all be put on the stack and resolve one at a time. The last one to resolve determines the Doppelganger's characteristics for the rest of the turn.
-2007/09/16: <Vesuvan Doppelganger> copies a face-down creature, it becomes a face-up 2/2 blue creature with no name and no abilities other than the one it gives itself.
-2007/09/16: Although <Vesuvan Doppelganger>'s triggered ability is targeted, its "as enters the battlefield" ability is not.</Rulings>
+2007/09/16: <Vesuvan Doppelganger> copies a face-down creature, it becomes a face-up 2/2 blue creature with no name and no abilities other than the one it gives itself.</Rulings>
 <Reserved>This card is on the reserved list</Reserved>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2013,7 +2013,7 @@ Enchanted creature can attack as though it had haste.
 <Type>Enchantment — Aura</Type>
 <ManaCost>1GG (3)</ManaCost>
 <CardText>Enchant land
-When enchanted land becomes tapped, destroy it. That land's controller attaches Kudzu to a land of their choice.</CardText>
+When enchanted land becomes tapped, destroy it. That land's controller may attach Kudzu to a land of their choice.</CardText>
 <Artist>Mark Poole</Artist>
 <Multiverseid>160</Multiverseid>
 <Rulings>2004/10/04: You can move it to any other player's land whenever you get to move it.
@@ -2700,18 +2700,18 @@ A looming bastion fringed with fire."
 <CardText>Copy target instant or sorcery spell, except that the copy is red. You may choose new targets for the copy.</CardText>
 <Artist>Amy Weber</Artist>
 <Multiverseid>200</Multiverseid>
-<Rulings>2004/10/04: When a spell with additional costs is copied, you don't have to pay those costs again.
-2004/10/04: For spells that can have a variable number of targets, the controller of the copy must use the same number of targets the original spell did.
-2004/10/04: <Fork>ing a spell with an X in the cost requires you to use the same X value.
-2004/10/04: <Fork> will not copy changes made by modifying effects to the spell prior to the use of <Fork>, such as text-changing effects.
+<Rulings>2004/10/04: <Fork> will not copy changes made by modifying effects to the spell prior to the use of <Fork>, such as text-changing effects.
 2004/10/04: If mana or other costs need to be spent at resolution of the spell, the player of <Fork> would still be responsible for paying that cost.
 2004/10/04: You need not (and may not) pay any additional mana or other costs (like sacrifices) to use the spell which is <Fork>ed. You get control over a complete copy but can change nothing except the targets.
 2004/10/04: <Fork> does not let you make non-targeting choices about the spell.
-2004/10/04: If the spell being copied targets a spell on the stack, it is possible to target <Fork> itself since <Fork> is still on the stack when you pick the target(s) for the copy. Note that the copy's target will be illegal when it resolves.
+2004/10/04: When a spell with additional costs is copied, you don't have to pay those costs again.
 2004/10/04: If you copy a spell for which Buyback has been paid, you get nothing back since the copied spell does not have a card to give you.
 2004/10/04: The copy that is placed on the stack is not considered to have been "cast".
 2004/10/04: The <Fork> card goes to the graveyard when it resolves and leaves the copy on the stack. There is no card representing the copy on the stack.
 2004/10/04: It does copy the mana symbols in the mana cost for the card it is copying, but it uses its own color definition and not the one from those mana symbols. This is so it maintains its color just like the text says.
+2004/10/04: If the spell being copied targets a spell on the stack, it is possible to target <Fork> itself since <Fork> is still on the stack when you pick the target(s) for the copy. Note that the copy's target will be illegal when it resolves.
+2004/10/04: For spells that can have a variable number of targets, the controller of the copy must use the same number of targets the original spell did.
+2004/10/04: <Fork>ing a spell with an X in the cost requires you to use the same X value.
 2004/12/01: If you <Fork> a Spliced spell, the spliced text is added during the announcement of the original spell, and therefore is fully copied by <Fork>.
 2009/05/01: The copy will have the same mana cost as the original spell, but will be red rather than whatever color that mana cost would have made it.
 2009/10/01: If the targeted spell was kicked, then the copy will be kicked as well. If the targeted spell was not kicked, then the copy will not be kicked.</Rulings>
@@ -2881,12 +2881,12 @@ A looming bastion fringed with fire."
 <CardText>Whenever a player taps a land for mana, that player adds one mana of any type that land produced.</CardText>
 <Artist>Christopher Rush</Artist>
 <Multiverseid>210</Multiverseid>
-<Rulings>2004/10/04: If the land produces more than one color of mana at a single time, its controller chooses which of those types is produced by <Mana Flare>'s ability.
-2004/10/04: The types of mana are white, blue, black, red, green, and colorless.
-2004/10/04: When used with lands that can produce multiple colors, <Mana Flare> produces one additional mana of the same color that was produced. It can't give a mana of a color that wasn't produced.
+<Rulings>2004/10/04: When used with lands that can produce multiple colors, <Mana Flare> produces one additional mana of the same color that was produced. It can't give a mana of a color that wasn't produced.
 2004/10/04: Only produces extra mana when land is tapped for mana, not when tapped by some other effect.
-2004/10/04: <Mana Flare> adds one of whatever color the land produces after applying any land type or color changing effects.
+2004/10/04: If the land produces more than one color of mana at a single time, its controller chooses which of those types is produced by <Mana Flare>'s ability.
 2004/10/04: This is a triggered mana ability.
+2004/10/04: <Mana Flare> adds one of whatever color the land produces after applying any land type or color changing effects.
+2004/10/04: The types of mana are white, blue, black, red, green, and colorless.
 2007/09/16: Does not copy any restrictions on the mana, such as with Mishra's Workshop or Pillar of the Paruns.
 2007/09/16: Produces only one additional mana, regardless of how much was produced by tapping the land.</Rulings>
 <Vintage>Legal</Vintage>
@@ -4128,12 +4128,13 @@ At the beginning of the chosen player's upkeep, Black Vise deals X damage to tha
 <CardText>{1}, {T}: If Chaos Orb is on the battlefield, flip Chaos Orb onto the battlefield from a height of at least one foot. If Chaos Orb turns over completely at least once during the flip, destroy all nontoken permanents it touches. Then destroy Chaos Orb.</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>6</Multiverseid>
-<Rulings>2004/10/04: <Chaos Orb> can only affect permanents. Cards that are in the game but not on the battlefield, such as those in the Library and Graveyard, can't be affected.
-2004/10/04: You can arrange your cards any time before the Orb is put onto the battlefield, but not after. In general, you should not stack cards or put them in places where your opponent can't read the names of all of them or count them. This is recommended good gaming practice.
+<Rulings>2004/10/04: You can arrange your cards any time before the Orb is put onto the battlefield, but not after. In general, you should not stack cards or put them in places where your opponent can't read the names of all of them or count them. This is recommended good gaming practice.
 2004/10/04: It must flip 360 degrees (that's what "flip" means). And this flip must be in the air and not in your hand.
-2004/10/04: This is a not a targeted ability.
+2004/10/04: <Chaos Orb> can only affect permanents. Cards that are in the game but not on the battlefield, such as those in the Library and Graveyard, can't be affected.
 2004/10/04: If you have sleeves on cards, they count as the cards.
-2004/10/04: You can't interfere in any physical way with activating this ability.</Rulings>
+2004/10/04: You can't interfere in any physical way with activating this ability.
+2004/10/04: This is a not a targeted ability.
+2019/01/27: If you are playing <Chaos Orb> in the Old School format, the card's text is "{1}, {T}: Choose a nontoken permanent on the battlefield. If <Chaos Orb> is on the battlefield, flip <Chaos Orb> onto the battlefield from a height of at least one foot. If <Chaos Orb> turns over completely at least once during the flip, and lands resting on the chosen permanent, destroy that permanent. Then destroy <Chaos Orb>."</Rulings>
 <Reserved>This card is on the reserved list</Reserved>
 <Vintage>Banned</Vintage>
 <Legacy>Banned</Legacy>
@@ -4377,18 +4378,18 @@ Whenever a Mountain is tapped for mana, its controller adds an additional {R}.</
 <CardText>{X}: You may choose a creature card in your hand whose mana cost could be paid by some amount of, or all of, the mana you spent on {X}. If you do, you may cast that card face down as a 2/2 creature spell without paying its mana cost. If the creature that spell becomes as it resolves has not been turned face up and would assign or deal damage, be dealt damage, or become tapped, instead it's turned face up and assigns or deals damage, is dealt damage, or becomes tapped. Activate this ability only any time you could cast a sorcery.</CardText>
 <Artist>Amy Weber</Artist>
 <Multiverseid>20</Multiverseid>
-<Rulings>2004/10/04: The creature enters the battlefield face down, so none of its "enters the battlefield" abilities will trigger or have any effect. Also none of its "As this enters the battlefield" abilities apply.
-2004/10/04: The creature's "enters the battlefield" abilities (and any other abilities relating to the creature entering the battlefield) do not trigger when it turns face up.
+<Rulings>2004/10/04: The creature's "enters the battlefield" abilities (and any other abilities relating to the creature entering the battlefield) do not trigger when it turns face up.
 2004/10/04: Only the controller of the face down creature can look at it.
+2004/10/04: The creature enters the battlefield face down, so none of its "enters the battlefield" abilities will trigger or have any effect. Also none of its "As this enters the battlefield" abilities apply.
+2009/10/01: <Illusionary Mask>'s ability will continue to apply to creatures cast face down with it, even if <Illusionary Mask> has left the battlefield.
+2009/10/01: While the creature card is face down, it's a 2/2 creature with no name, mana cost, color, creature type, abilities, or expansion symbol. Since it has no mana cost, its converted mana cost is 0.
+2009/10/01: You may look at a face-down spell or permanent you control at any time.
+2009/10/01: You can turn a face-down permanent face up if it would have morph while face up. This applies to creatures you cast face down as a result of <Illusionary Mask>'s effect. The rest of <Illusionary Mask>'s effect applies to it as well.
 2009/10/01: If you use the ability to cast a creature card face down, you must keep track of the amount and types of mana you spent on {X}. If that creature spell is moved from the stack to anywhere other than the battlefield, the resulting creature leaves the battlefield, or the game ends, the face-down card is revealed. If its mana cost couldn't be paid by some amount of, or all of, the mana you spent on {X}, all applicable penalties for casting a card illegally are assessed.
 2009/10/01: You actually cast the card face-down, much as when playing a spell with Morph. It can be responded to and countered.
 2009/10/01: The effect that turns it face-up is a replacement effect. It doesn't use the stack and can't be responded to.
 2009/10/01: You may not turn a face-down spell face up. You may not turn a face-down permanent face up unless it would have morph while face up or an effect specifically allows you to turn it face up. <Illusionary Mask>'s ability has you turn a face-down creature face up if it would assign damage, deal damage, be dealt damage, or become tapped, but not for any other reason. For example, if you use <Illusionary Mask>'s ability to cast a black creature face down, you can't turn it face up just because it's being targeted by Terror.
-2009/10/01: Both the amount and types of mana you spend on {X} are taken into account while you're choosing a creature card from your hand. For example, if you spent {U}{U} on {X}, you can choose a creature card with mana cost {U}{U}, {1}{U}, {2}, or {W/U}{W/U}, among other possibilities, but not one that costs {2}{U} or one that costs {G}.
-2009/10/01: While the creature card is face down, it's a 2/2 creature with no name, mana cost, color, creature type, abilities, or expansion symbol. Since it has no mana cost, its converted mana cost is 0.
-2009/10/01: You may look at a face-down spell or permanent you control at any time.
-2009/10/01: You can turn a face-down permanent face up if it would have morph while face up. This applies to creatures you cast face down as a result of <Illusionary Mask>'s effect. The rest of <Illusionary Mask>'s effect applies to it as well.
-2009/10/01: <Illusionary Mask>'s ability will continue to apply to creatures cast face down with it, even if <Illusionary Mask> has left the battlefield.</Rulings>
+2009/10/01: Both the amount and types of mana you spend on {X} are taken into account while you're choosing a creature card from your hand. For example, if you spent {U}{U} on {X}, you can choose a creature card with mana cost {U}{U}, {1}{U}, {2}, or {W/U}{W/U}, among other possibilities, but not one that costs {2}{U} or one that costs {G}.</Rulings>
 <Reserved>This card is on the reserved list</Reserved>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -4450,7 +4451,8 @@ Whenever a Mountain is tapped for mana, its controller adds an additional {R}.</
 <Type>Artifact</Type>
 <ManaCost>4 (4)</ManaCost>
 <CardText>{2}: Jade Statue becomes a 3/6 Golem artifact creature until end of combat. Activate this ability only during combat.</CardText>
-<Flavor>"Some of the other guys dared me to touch it, but I knew it weren't no ordinary hunk o' rock." —Norin the Wary</Flavor>
+<Flavor>"Some of the other guys dared me to touch it, but I knew it weren't no ordinary hunk o' rock."
+—Norin the Wary</Flavor>
 <Artist>Dan Frazier</Artist>
 <Multiverseid>24</Multiverseid>
 <Rulings>2004/10/04: It can only make itself into a creature during combat phases and therefore it is difficult to get Auras placed on it.
@@ -4528,14 +4530,14 @@ Juggernaut can't be blocked by Walls.</CardText>
 If an effect causes you to discard a card, discard it, but you may put it on top of your library instead of into your graveyard.</CardText>
 <Artist>Daniel Gelon</Artist>
 <Multiverseid>28</Multiverseid>
-<Rulings>2004/10/04: This effect has no effect on the cards being put into the graveyard from a library, because they are not "discarded".
-2004/10/04: You can't use the <Library of Leng> ability to place a discarded card on top of your library when you discard a card as a cost, because costs aren't effects.
+<Rulings>2004/10/04: You can't use the <Library of Leng> ability to place a discarded card on top of your library when you discard a card as a cost, because costs aren't effects.
 2004/10/04: The discard triggers anything else that triggers on discards.
 2004/10/04: You can look at a randomly discarded card before deciding where it goes.
-2004/10/04: The ability applies any time a spell or ability has you discard as part of its effect. It does not matter if you or your opponent control the spell or ability. The discard is forced because it is an effect.
+2004/10/04: This effect has no effect on the cards being put into the graveyard from a library, because they are not "discarded".
 2004/10/04: If more than one card is discarded due to a single effect, the Library allows you to decide whether or not to use it on each of the cards. You get to decide the order the cards are placed on the library if more than one goes there.
 2004/10/04: Since the card goes directly to the library, the card is not revealed unless the spell or ability requiring the discard specifically says it is.
 2004/10/04: The ability replaces the normal discard action with a discard action that puts the card on the library instead of the graveyard.
+2004/10/04: The ability applies any time a spell or ability has you discard as part of its effect. It does not matter if you or your opponent control the spell or ability. The discard is forced because it is an effect.
 2009/10/01: If multiple effects modify your hand size, apply them in timestamp order. For example, if you put Null Profusion (an enchantment that says your maximum hand size is two) onto the battlefield and then put <Library of Leng> onto the battlefield, you'll have no maximum hand size. However, if those permanents entered the battlefield in the opposite order, your maximum hand size would be two.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>

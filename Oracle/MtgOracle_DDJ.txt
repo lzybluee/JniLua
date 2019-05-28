@@ -47,9 +47,8 @@ Whenever you draw a card, Niv-Mizzet, the Firemind deals 1 damage to any target.
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>338414</Multiverseid>
 <Rulings>2017/03/14: Two <Goblin Electromancer>s will make instant and sorcery spells you cast cost {2} less to cast, and so on.
-2017/03/14: <Goblin Electromancer> can't reduce colored mana costs or {C} in the cost of instant or sorcery spells.
-2017/03/14: If there are additional costs to cast a spell, such as a kicker cost or a cost imposed by another effect (such as the one imposed by Thalia, Guardian of Thraben's ability), apply those increases before applying cost reductions.
-2017/03/14: <Goblin Electromancer> can reduce alternative costs such as overload costs and flashback costs.</Rulings>
+2018/10/05: To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The converted mana cost of the spell remains unchanged, no matter what the total cost to cast it was.
+2018/10/05: <Goblin Electromancer>'s effect reduces only generic mana in the spell's total cost.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -106,7 +105,7 @@ Whenever you cast an instant or sorcery spell, Wee Dragonauts gets +2/+0 until e
 —Juzba, Izzet tinker</Flavor>
 <Artist>Greg Staples</Artist>
 <Multiverseid>292741</Multiverseid>
-<Rulings>2016/06/08: <Wee Dragonauts>'s triggered ability will resolve before the spell that caused it to trigger.</Rulings>
+<Rulings>2018/10/05: <Wee Dragonauts>'s triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -292,12 +291,12 @@ Each instant and sorcery spell you cast has replicate. The replicate cost is equ
 {2}, {T}: You may copy the exiled card. If you do, you may cast the copy without paying its mana cost.</CardText>
 <Artist>Mark Harrison</Artist>
 <Multiverseid>292752</Multiverseid>
-<Rulings>2016/06/08: If the imprinted card leaves the exile zone while the activated ability is on the stack, the copy can't be made.
-2016/06/08: If <Isochron Scepter> leaves the battlefield while the activated ability is on the stack, the ability can still make a copy.
+<Rulings>2016/06/08: If <Isochron Scepter> leaves the battlefield while the activated ability is on the stack, the ability can still make a copy.
 2016/06/08: You cast the copy while the ability is resolving and still on the stack.
-2016/06/08: Because you're already casting the spell using an alternative cost (by casting it without paying its mana cost), you can't pay any other alternative costs for the card. You can pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
+2016/06/08: If the imprinted card leaves the exile zone while the activated ability is on the stack, the copy can't be made.
 2016/06/08: If the exiled card has X in its mana cost, you must choose 0 as the value for X when casting it.
 2016/06/08: If you don't want to cast the copy, you can choose not to; the copy ceases to exist the next time state-based actions are checked.
+2016/06/08: Because you're already casting the spell using an alternative cost (by casting it without paying its mana cost), you can't pay any other alternative costs for the card. You can pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
 2017/04/18: The converted mana cost of a split card is determined by the combined mana cost of its two halves. When you activate the second ability, you may choose to cast either half of the split card, but you may not cast both halves.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -592,6 +591,9 @@ Overload {X}{X}{R}{R} (You may cast this spell for its overload cost. If you do,
 <CardText>Fire deals 2 damage divided as you choose among one or two targets.</CardText>
 <Artist>Dan Scott</Artist>
 <Multiverseid>292753</Multiverseid>
+<Rulings>2018/12/07: You divide the damage as you cast <Fire>, not as it resolves. Each target must be assigned at least 1 damage. In other words, as you cast <Fire>, you choose whether to have it deal 2 damage to a single target, or deal 1 damage to each of two targets.
+2018/12/07: If <Fire> targets two creatures and one becomes an illegal target, the remaining target is dealt 1 damage, not 2.
+2018/12/07: If the target permanent becomes an illegal target for Ice, the spell doesn't resolve. You don't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Duel Decks: Izzet vs. Golgari</Set>
@@ -609,6 +611,9 @@ Overload {X}{X}{R}{R} (You may cast this spell for its overload cost. If you do,
 Draw a card.</CardText>
 <Artist>Dan Scott</Artist>
 <Multiverseid>292753</Multiverseid>
+<Rulings>2018/12/07: You divide the damage as you cast Fire, not as it resolves. Each target must be assigned at least 1 damage. In other words, as you cast Fire, you choose whether to have it deal 2 damage to a single target, or deal 1 damage to each of two targets.
+2018/12/07: If Fire targets two creatures and one becomes an illegal target, the remaining target is dealt 1 damage, not 2.
+2018/12/07: If the target permanent becomes an illegal target for <Ice>, the spell doesn't resolve. You don't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Duel Decks: Izzet vs. Golgari</Set>
@@ -930,7 +935,7 @@ Dredge 4 (If you would draw a card, instead you may put exactly four cards from 
 <Flavor>The only thing it likes more than discovering a pit of bones is adding to it.</Flavor>
 <Artist>Jaime Jones</Artist>
 <Multiverseid>338400</Multiverseid>
-<Rulings>2011/09/22: The ability that defines <Boneyard Wurm>'s power and toughness works in all zones, not just the battlefield. If <Boneyard Wurm> is in your graveyard, it will count itself.</Rulings>
+<Rulings>2018/12/07: The ability that defines <Boneyard Wurm>'s power and toughness works in all zones, not just the battlefield. If <Boneyard Wurm> is in your graveyard, it will count itself.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1005,6 +1010,7 @@ Dredge 5 (If you would draw a card, instead you may put exactly five cards from 
 <Flavor>She remembers every word spoken, from the hero's oath to the baby's cry.</Flavor>
 <Artist>Terese Nielsen</Artist>
 <Multiverseid>292966</Multiverseid>
+<Rulings>2018/12/07: If an instant or sorcery spell puts <Eternal Witness> onto the battlefield, its ability can target that card in your graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1096,10 +1102,11 @@ Sacrifice Brain Weevil: Target player discards two cards. Activate this ability 
 Dredge 6 (If you would draw a card, instead you may put exactly six cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)</CardText>
 <Artist>Greg Hildebrandt</Artist>
 <Multiverseid>338406</Multiverseid>
-<Rulings>2005/10/01: If an effect puts <Golgari Grave-Troll> onto the battlefield from your graveyard, <Golgari Grave-Troll> counts itself as one of the cards in your graveyard and gets a counter accordingly.
-2013/06/07: Dredge lets you replace any card draw, not just the one during your draw step.
+<Rulings>2013/06/07: Dredge lets you replace any card draw, not just the one during your draw step.
 2013/06/07: Once you decide to replace a draw using a card's dredge ability, that card can't be removed from your graveyard "in response." (Replacement effects don't use the stack.)
-2013/06/07: You can't use dredge unless you're going to draw a card and the card with dredge is already in your graveyard.</Rulings>
+2013/06/07: You can't use dredge unless you're going to draw a card and the card with dredge is already in your graveyard.
+2018/12/07: If you return <Golgari Grave-Troll> from your graveyard directly to the battlefield, its first ability counts itself.
+2018/12/07: Because damage remains marked on a creature until it's removed as the turn ends, nonlethal damage dealt to <Golgari Grave-Troll> may become lethal if you return remove +1/+1 counters from it during that turn. In this case, it dies before you can resolve the activated ability that will regenerate it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Banned</Modern>
@@ -1428,6 +1435,7 @@ Each player returns all creature cards from their graveyard to the battlefield.<
 <CardText>Return target creature card from your graveyard to the battlefield. You lose life equal to its converted mana cost.</CardText>
 <Artist>Ryan Barger</Artist>
 <Multiverseid>292976</Multiverseid>
+<Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Duel Decks: Izzet vs. Golgari</Set>

@@ -159,7 +159,8 @@ Flying, trample, protection from instants</CardText>
 <Flavor>An enigma as vexing as life itself.</Flavor>
 <Artist>Jaime Jones</Artist>
 <Multiverseid>414295</Multiverseid>
-<Rulings>2016/07/13: The card types that could appear in your graveyard are artifact, creature, enchantment, instant, land, planeswalker, sorcery, and tribal (a card type that appears on some older cards). Supertypes (such as legendary and basic) and subtypes (such as Human and Equipment) are not counted. The maximum discount that Emrakul's own ability can provide is {8}.
+<Rulings>2016/07/13: You only control the player. You don't control any of that player's permanents, spells, or abilities.
+2016/07/13: The card types that could appear in your graveyard are artifact, creature, enchantment, instant, land, planeswalker, sorcery, and tribal (a card type that appears on some older cards). Supertypes (such as legendary and basic) and subtypes (such as Human and Equipment) are not counted. The maximum discount that Emrakul's own ability can provide is {8}.
 2016/07/13: Protection from instants means that Emrakul can't be the target of instant spells or activated or triggered abilities from instant cards, and damage that would be dealt to it by instant spells or cards is prevented. Instant spells may still affect it in other ways; for example, it would still receive the bonus from Borrowed Grace.
 2016/07/13: Protection abilities only apply while the object with the ability is on the battlefield. Notably, Emrakul may be the target of a spell that targets it while on the stack, such as Convolute.
 2016/07/13: The player you're controlling is still the active player during that turn.
@@ -169,7 +170,6 @@ Flying, trample, protection from instants</CardText>
 2016/07/13: You can't make any illegal decisions or illegal choices—you can't do anything that player couldn't do. You can't make choices or decisions for that player that aren't called for by the game rules or by any cards, permanents, spells, abilities, and so on. If an effect causes another player to make decisions that the affected player would normally make (such as Master Warcraft does), that effect takes precedence. In other words, if the affected player wouldn't make a decision, you wouldn't make that decision on that player's behalf.
 2016/07/13: You also can't make any choices or decisions for the player that would be called for by the tournament rules (such as whether to take an intentional draw or whether to call a judge).
 2016/07/13: You can use only the affected player's resources (cards, mana, and so on) to pay costs for that player; you can't use your own. Similarly, you can use the affected player's resources only to pay that player's costs; you can't spend them on your costs.
-2016/07/13: You only control the player. You don't control any of that player's permanents, spells, or abilities.
 2016/07/13: If the targeted player skips their next turn, you'll control the next turn the affected player actually takes, and the extra turn the player takes will be after that turn.
 2016/07/13: Multiple player-controlling effects that affect the same player overwrite each other. The last one to be created is the one that works. If multiple players have cast Emrakul and targeted the same player, each ability's effect will create an extra turn.
 2016/07/13: If the targeted player loses the game while you control their turn during a multiplayer game, no extra turn is created.
@@ -300,12 +300,12 @@ When you cast this spell, you may destroy target artifact or enchantment.</CardT
 When you cast this spell, you may return target instant or sorcery card from your graveyard to your hand.</CardText>
 <Artist>James Paick</Artist>
 <Multiverseid>414300</Multiverseid>
-<Rulings>2016/07/13: A "when you cast" triggered ability resolves before the original spell resolves. It resolves even if the original spell is countered, and the original spell resolves even if the triggered ability is countered.
+<Rulings>2016/07/13: You may sacrifice a creature with converted mana cost greater than or equal to the emerge cost. If you do, you'll pay only the colored mana component of the emerge cost.
+2016/07/13: A "when you cast" triggered ability resolves before the original spell resolves. It resolves even if the original spell is countered, and the original spell resolves even if the triggered ability is countered.
 2016/07/13: Each card with emerge is colorless and has an emerge cost that includes one or more colors of mana. These cards are still colorless if you pay the emerge cost.
 2016/07/13: A creature's converted mana cost is determined solely by the mana symbols printed in its upper right corner (unless that creature is the back face of a double-faced card, is a melded permanent, or is copying something else; see below). If the mana cost includes {X}, X is considered to be 0. If it's a single-faced card with no mana symbols in its upper right corner (because it's an animated land, for example), its converted mana cost is 0. Ignore any alternative costs or additional costs (such as kicker) that were paid as the creature was cast.
 2016/07/13: Colored mana components of emerge costs can't be reduced with emerge.
 2016/07/13: You may sacrifice a creature with a converted mana cost of 0, such as a token creature that's not a copy of another permanent, to cast a spell for its emerge cost. You'll just pay the full emerge cost with no reduction.
-2016/07/13: You may sacrifice a creature with converted mana cost greater than or equal to the emerge cost. If you do, you'll pay only the colored mana component of the emerge cost.
 2016/07/13: If you sacrifice a creature with {X} in its mana cost, that X is considered to be 0.
 2016/07/13: The converted mana cost of the back face of a double-faced card is the converted mana cost of its front face. The converted mana cost of a melded permanent is the sum of the converted mana costs of its front faces. A creature that's a copy of either has a converted mana cost of 0.
 2016/07/13: The converted mana cost of a creature spell with emerge isn't affected by whether its emerge cost is paid. For example, if you cast Elder Deep-Fiend for its emerge cost and sacrifice a creature whose converted mana cost is 3, Elder Deep-Fiend's converted mana cost remains 8.
@@ -386,7 +386,7 @@ Choose one or more —
 Choose one or both —
 • Creatures you control get +2/+0 until end of turn.
 • Creatures you control get +0/+2 until end of turn.</CardText>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>414303</Multiverseid>
 <Rulings>2016/07/13: You choose all of your modes at once. You can't wait to perform one mode's actions and then decide to choose more modes.
 2016/07/13: You can't choose any one mode multiple times.
@@ -415,7 +415,10 @@ Flying, vigilance
 <Artist>Clint Cearley</Artist>
 <Multiverseid>414304</Multiverseid>
 <Rulings>2016/07/13: In a Commander game, your commander may be <Bruna, the Fading Light> or Gisela, the Broken Blade, and the other may be in your deck. If they meld into Brisela, Voice of Nightmares, Brisela will also be your commander; but if Brisela leaves the battlefield, only the card chosen as your commander at the start of the game may be put into the command zone.
-2016/07/13: A "when you cast" triggered ability resolves before the original spell resolves. It resolves even if the original spell is countered, and the original spell resolves even if the triggered ability is countered.</Rulings>
+2016/07/13: A "when you cast" triggered ability resolves before the original spell resolves. It resolves even if the original spell is countered, and the original spell resolves even if the triggered ability is countered.
+2016/07/13: Effects that increase or reduce the cost to cast a spell (such as those of escalate and emerge) don't affect the spell's converted mana cost, so they won't change whether Brisela's last ability restricts that spell from being cast.
+2016/07/13: For spells with {X} in their mana costs, use the value chosen for X to determine if the spell's converted mana cost is 3 or less. For example, your opponent could cast Burn from Within (a spell with mana cost {X}{R}) with X equal to 3, but not with X equal to 2.
+2016/07/13: For more information on meld cards, see the Eldritch Moon mechanics article (https://magic.wizards.com/en/articles/archive/feature/eldritch-moon-mechanics-2016-06-27).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -434,9 +437,11 @@ Your opponents can't cast spells with converted mana cost 3 or less.</CardText>
 <Flavor>Upon discovering what had become of her sisters, Sigarda could only weep.</Flavor>
 <Artist>Clint Cearley</Artist>
 <Multiverseid>414305</Multiverseid>
-<Rulings>2016/07/13: Effects that increase or reduce the cost to cast a spell (such as those of escalate and emerge) don't affect the spell's converted mana cost, so they won't change whether Brisela's last ability restricts that spell from being cast.
+<Rulings>2016/07/13: In a Commander game, your commander may be Bruna, the Fading Light or Gisela, the Broken Blade, and the other may be in your deck. If they meld into <Brisela, Voice of Nightmares>, Brisela will also be your commander; but if Brisela leaves the battlefield, only the card chosen as your commander at the start of the game may be put into the command zone.
+2016/07/13: A "when you cast" triggered ability resolves before the original spell resolves. It resolves even if the original spell is countered, and the original spell resolves even if the triggered ability is countered.
+2016/07/13: Effects that increase or reduce the cost to cast a spell (such as those of escalate and emerge) don't affect the spell's converted mana cost, so they won't change whether Brisela's last ability restricts that spell from being cast.
 2016/07/13: For spells with {X} in their mana costs, use the value chosen for X to determine if the spell's converted mana cost is 3 or less. For example, your opponent could cast Burn from Within (a spell with mana cost {X}{R}) with X equal to 3, but not with X equal to 2.
-2016/07/13: For more information on meld cards, see the Eldritch Moon mechanics article (http://magic.wizards.com/en/articles/archive/feature/eldritch-moon-mechanics).</Rulings>
+2016/07/13: For more information on meld cards, see the Eldritch Moon mechanics article (https://magic.wizards.com/en/articles/archive/feature/eldritch-moon-mechanics-2016-06-27).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -608,6 +613,8 @@ Delirium — At the beginning of your upkeep, if there are four or more card typ
 <Flavor>After the end, a new beginning.</Flavor>
 <Artist>Craig J Spearing</Artist>
 <Multiverseid>414314</Multiverseid>
+<Rulings>2016/07/13: While resolving Extricator of Sin's first ability, you can't sacrifice multiple permanents to get multiple Eldrazi Horror tokens.
+2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -724,9 +731,11 @@ Your opponents can't cast spells with converted mana cost 3 or less.</CardText>
 <Flavor>Upon discovering what had become of her sisters, Sigarda could only weep.</Flavor>
 <Artist>Clint Cearley</Artist>
 <Multiverseid>414305</Multiverseid>
-<Rulings>2016/07/13: Effects that increase or reduce the cost to cast a spell (such as those of escalate and emerge) don't affect the spell's converted mana cost, so they won't change whether Brisela's last ability restricts that spell from being cast.
+<Rulings>2016/07/13: In a Commander game, your commander may be Bruna, the Fading Light or Gisela, the Broken Blade, and the other may be in your deck. If they meld into <Brisela, Voice of Nightmares>, Brisela will also be your commander; but if Brisela leaves the battlefield, only the card chosen as your commander at the start of the game may be put into the command zone.
+2016/07/13: A "when you cast" triggered ability resolves before the original spell resolves. It resolves even if the original spell is countered, and the original spell resolves even if the triggered ability is countered.
+2016/07/13: Effects that increase or reduce the cost to cast a spell (such as those of escalate and emerge) don't affect the spell's converted mana cost, so they won't change whether Brisela's last ability restricts that spell from being cast.
 2016/07/13: For spells with {X} in their mana costs, use the value chosen for X to determine if the spell's converted mana cost is 3 or less. For example, your opponent could cast Burn from Within (a spell with mana cost {X}{R}) with X equal to 3, but not with X equal to 2.
-2016/07/13: For more information on meld cards, see the Eldritch Moon mechanics article (http://magic.wizards.com/en/articles/archive/feature/eldritch-moon-mechanics).</Rulings>
+2016/07/13: For more information on meld cards, see the Eldritch Moon mechanics article (https://magic.wizards.com/en/articles/archive/feature/eldritch-moon-mechanics-2016-06-27).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -838,6 +847,11 @@ At the beginning of the end step, if you gained 3 or more life this turn, transf
 —Ulda, Gavony Rider</Flavor>
 <Artist>Daarken</Artist>
 <Multiverseid>414325</Multiverseid>
+<Rulings>2016/07/13: Lone Rider's last ability triggers even if it wasn't on the battlefield when you gained the life this turn.
+2016/07/13: Lone Rider's ability checks how much life you've gained during the turn, not what your life total is compared to what it was when the turn began. For example, if you gained 4 life and then lost 7 life this turn, it still triggers.
+2016/07/13: You must have gained life before your end step begins. Lone Rider's last ability won't trigger if you haven't, even if an ability triggering at the same time will cause you to gain life.
+2016/07/13: In a Two-Headed Giant game, events that cause a player to gain life affect each player separately, even though the result affects the team's life total. For example, if your teammate's creatures with lifelink dealt 5 damage, your teammate gained life, not you, and Lone Rider's last ability won't trigger.
+2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1122,7 +1136,7 @@ When Thalia's Lancers enters the battlefield, you may search your library for a 
 <ManaCost>W (1)</ManaCost>
 <CardText>{1}{W}, {T}, Discard a card: Create a 1/1 white Human Soldier creature token.</CardText>
 <Flavor>The uncorrupted rallied under Thalia's leadership and Sigarda's banner.</Flavor>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>414340</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1237,7 +1251,9 @@ At the beginning of your upkeep, if there are three or more instant and/or sorce
 <Rulings>2016/07/13: If you don't have enough instant and/or sorcery cards in your graveyard as your upkeep begins, <Curious Homunculus>'s last ability doesn't trigger. If you don't have enough as the ability resolves, the ability has no effect.
 2016/07/13: Mana from <Curious Homunculus>'s first ability can be spent to cast a spell that has generic mana in its additional cost, such as Borrowed Malevolence with both modes chosen. It can't be spent to pay costs during a spell's resolution, such as the cost Convolute prompts a player to pay.
 2016/07/13: If you activate <Curious Homunculus>'s mana ability in response to its triggered ability, you can spend that mana to cast an instant spell during your upkeep after it has transformed into Voracious Reader. If you don't spend the mana, it will leave your mana pool before your draw step begins; you can't use it to cast the card you draw or to cast a sorcery.
-2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).</Rulings>
+2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+2016/07/13: Abilities that reduce the cost of a spell apply after abilities that raise them. For example, Borrowed Malevolence with both modes chosen costs {1}{B} to cast if you control Voracious Reader.
+2016/07/13: If an instant or sorcery spell has {X} in its mana cost, choose the value for X first, and then reduce the cost by {1}. For example, Dark Salvation with X chosen as 2 costs {3}{B} to cast if you control Voracious Reader.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1256,7 +1272,11 @@ Instant and sorcery spells you cast cost {1} less to cast.</CardText>
 <Flavor>Good books make you savor each word.</Flavor>
 <Artist>Filip Burburan</Artist>
 <Multiverseid>414347</Multiverseid>
-<Rulings>2016/07/13: Abilities that reduce the cost of a spell apply after abilities that raise them. For example, Borrowed Malevolence with both modes chosen costs {1}{B} to cast if you control <Voracious Reader>.
+<Rulings>2016/07/13: If you don't have enough instant and/or sorcery cards in your graveyard as your upkeep begins, Curious Homunculus's last ability doesn't trigger. If you don't have enough as the ability resolves, the ability has no effect.
+2016/07/13: Mana from Curious Homunculus's first ability can be spent to cast a spell that has generic mana in its additional cost, such as Borrowed Malevolence with both modes chosen. It can't be spent to pay costs during a spell's resolution, such as the cost Convolute prompts a player to pay.
+2016/07/13: If you activate Curious Homunculus's mana ability in response to its triggered ability, you can spend that mana to cast an instant spell during your upkeep after it has transformed into <Voracious Reader>. If you don't spend the mana, it will leave your mana pool before your draw step begins; you can't use it to cast the card you draw or to cast a sorcery.
+2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+2016/07/13: Abilities that reduce the cost of a spell apply after abilities that raise them. For example, Borrowed Malevolence with both modes chosen costs {1}{B} to cast if you control <Voracious Reader>.
 2016/07/13: If an instant or sorcery spell has {X} in its mana cost, choose the value for X first, and then reduce the cost by {1}. For example, Dark Salvation with X chosen as 2 costs {3}{B} to cast if you control <Voracious Reader>.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1298,7 +1318,10 @@ Whenever you cast an instant or sorcery spell, create a 1/1 blue Human Wizard cr
 <Multiverseid>414349</Multiverseid>
 <Rulings>2016/07/13: If you control three or more Wizards while you control <Docent of Perfection>, it won't transform yet. It only transforms while its triggered ability is resolving after you cast an instant or sorcery spell.
 2016/07/13: <Docent of Perfection>'s triggered ability resolves before the spell that caused it to trigger.
-2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).</Rulings>
+2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+2016/07/13: Final Iteration's triggered ability resolves before the spell that caused it to trigger.
+2016/07/13: When <Docent of Perfection> transforms into Final Iteration, the instant or sorcery spell that's on the stack doesn't cause Final Iteration's triggered ability to trigger.
+2016/07/13: All Wizards you control get +2/+1 and have flying, not just those created by <Docent of Perfection> or Final Iteration.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1317,7 +1340,10 @@ Wizards you control get +2/+1 and have flying.
 Whenever you cast an instant or sorcery spell, create a 1/1 blue Human Wizard creature token.</CardText>
 <Artist>Nils Hamm</Artist>
 <Multiverseid>414350</Multiverseid>
-<Rulings>2016/07/13: <Final Iteration>'s triggered ability resolves before the spell that caused it to trigger.
+<Rulings>2016/07/13: If you control three or more Wizards while you control Docent of Perfection, it won't transform yet. It only transforms while its triggered ability is resolving after you cast an instant or sorcery spell.
+2016/07/13: Docent of Perfection's triggered ability resolves before the spell that caused it to trigger.
+2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+2016/07/13: <Final Iteration>'s triggered ability resolves before the spell that caused it to trigger.
 2016/07/13: When Docent of Perfection transforms into <Final Iteration>, the instant or sorcery spell that's on the stack doesn't cause <Final Iteration>'s triggered ability to trigger.
 2016/07/13: All Wizards you control get +2/+1 and have flying, not just those created by Docent of Perfection or <Final Iteration>.</Rulings>
 <Vintage>Legal</Vintage>
@@ -1447,7 +1473,8 @@ At the beginning of your upkeep, scry 1. (Look at the top card of your library. 
 <Artist>Kev Walker</Artist>
 <Multiverseid>414357</Multiverseid>
 <Rulings>2016/07/13: If you have a colorless creature card in your graveyard while you control <Grizzled Angler>, it won't transform yet. It only transforms while its activated ability is resolving.
-2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).</Rulings>
+2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+2016/07/13: If a creature affected by Grisly Anglerfish's effect hasn't been under its controller's control since the turn began, is tapped, or is affected by a spell or ability that says it can't attack, then it doesn't attack. If there's a cost associated with having that creature attack, its controller isn't forced to pay that cost, so it doesn't have to attack in that case either.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1465,7 +1492,9 @@ At the beginning of your upkeep, scry 1. (Look at the top card of your library. 
 <Flavor>". . . it's that the lure of the sea is impossible to ignore."</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>414358</Multiverseid>
-<Rulings>2016/07/13: If a creature affected by <Grisly Anglerfish>'s effect hasn't been under its controller's control since the turn began, is tapped, or is affected by a spell or ability that says it can't attack, then it doesn't attack. If there's a cost associated with having that creature attack, its controller isn't forced to pay that cost, so it doesn't have to attack in that case either.</Rulings>
+<Rulings>2016/07/13: If you have a colorless creature card in your graveyard while you control Grizzled Angler, it won't transform yet. It only transforms while its activated ability is resolving.
+2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+2016/07/13: If a creature affected by <Grisly Anglerfish>'s effect hasn't been under its controller's control since the turn began, is tapped, or is affected by a spell or ability that says it can't attack, then it doesn't attack. If there's a cost associated with having that creature attack, its controller isn't forced to pay that cost, so it doesn't have to attack in that case either.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1836,7 +1865,7 @@ Enchanted creature gets +3/-3.</CardText>
 Choose one or both —
 • Target creature gets +1/+1 until end of turn.
 • Target creature gets -1/-1 until end of turn.</CardText>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>414377</Multiverseid>
 <Rulings>2016/07/13: You choose all of your modes at once. You can't wait to perform one mode's actions and then decide to choose more modes.
 2016/07/13: You can't choose any one mode multiple times.
@@ -2017,6 +2046,8 @@ Flying</CardText>
 <CardText>At the beginning of combat on your turn, if you both own and control Graf Rats and a creature named Midnight Scavengers, exile them, then meld them into Chittering Host.</CardText>
 <Artist>Jason Felix</Artist>
 <Multiverseid>414386</Multiverseid>
+<Rulings>2016/07/13: The set of creatures affected by Chittering Host's triggered ability is determined as the ability resolves. Creatures you begin to control later in the turn won't get +1/+0 or gain menace.
+2016/07/13: For more information on meld cards, see the Eldritch Moon mechanics article (https://magic.wizards.com/en/articles/archive/feature/eldritch-moon-mechanics-2016-06-27).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2035,8 +2066,9 @@ Menace (This creature can't be blocked except by two or more creatures.)
 When Chittering Host enters the battlefield, other creatures you control get +1/+0 and gain menace until end of turn.</CardText>
 <Artist>Jason Felix</Artist>
 <Multiverseid>414392</Multiverseid>
-<Rulings>2016/07/13: The set of creatures affected by <Chittering Host>'s triggered ability is determined as the ability resolves. Creatures you begin to control later in the turn won't get +1/+0 or gain menace.
-2016/07/13: For more information on meld cards, see the Eldritch Moon mechanics article (http://magic.wizards.com/en/articles/archive/feature/eldritch-moon-mechanics).</Rulings>
+<Rulings>2016/07/13: If a card in a player's graveyard has {X} in its mana cost, X is considered to be 0.
+2016/07/13: The set of creatures affected by <Chittering Host>'s triggered ability is determined as the ability resolves. Creatures you begin to control later in the turn won't get +1/+0 or gain menace.
+2016/07/13: For more information on meld cards, see the Eldritch Moon mechanics article (https://magic.wizards.com/en/articles/archive/feature/eldritch-moon-mechanics-2016-06-27).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2151,8 +2183,9 @@ Menace (This creature can't be blocked except by two or more creatures.)
 When Chittering Host enters the battlefield, other creatures you control get +1/+0 and gain menace until end of turn.</CardText>
 <Artist>Jason Felix</Artist>
 <Multiverseid>414392</Multiverseid>
-<Rulings>2016/07/13: The set of creatures affected by <Chittering Host>'s triggered ability is determined as the ability resolves. Creatures you begin to control later in the turn won't get +1/+0 or gain menace.
-2016/07/13: For more information on meld cards, see the Eldritch Moon mechanics article (http://magic.wizards.com/en/articles/archive/feature/eldritch-moon-mechanics).</Rulings>
+<Rulings>2016/07/13: If a card in a player's graveyard has {X} in its mana cost, X is considered to be 0.
+2016/07/13: The set of creatures affected by <Chittering Host>'s triggered ability is determined as the ability resolves. Creatures you begin to control later in the turn won't get +1/+0 or gain menace.
+2016/07/13: For more information on meld cards, see the Eldritch Moon mechanics article (https://magic.wizards.com/en/articles/archive/feature/eldritch-moon-mechanics-2016-06-27).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2229,7 +2262,7 @@ At the beginning of each end step, if a planeswalker entered the battlefield und
 <Flavor>Displays of Voldaren bloodlust are not restricted to glamorous banquets and lavish parties.</Flavor>
 <Artist>Chris Rallis</Artist>
 <Multiverseid>414396</Multiverseid>
-<Rulings>2016/07/13: You can activate the ability more than once in a turn, even if <Olivia's Dragoon> already has flying.</Rulings>
+<Rulings>2018/12/07: You can activate the ability of <Olivia's Dragoon> more than once in a turn, even if it already has flying.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2444,7 +2477,8 @@ Sacrifice three other creatures: Transform Voldaren Pariah.
 Madness {B}{B}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)</CardText>
 <Artist>James Ryman</Artist>
 <Multiverseid>414407</Multiverseid>
-<Rulings>2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).</Rulings>
+<Rulings>2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+2016/07/13: If the targeted opponent doesn't control three creatures as the triggered ability of Abolisher of Bloodlines resolves, that player sacrifices as many creatures as able.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2463,7 +2497,8 @@ When this creature transforms into Abolisher of Bloodlines, target opponent sacr
 <Flavor>Even if the rain turned to blood, her thirst would not be slaked.</Flavor>
 <Artist>James Ryman</Artist>
 <Multiverseid>414408</Multiverseid>
-<Rulings>2016/07/13: If the targeted opponent doesn't control three creatures as the triggered ability of <Abolisher of Bloodlines> resolves, that player sacrifices as many creatures as able.</Rulings>
+<Rulings>2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+2016/07/13: If the targeted opponent doesn't control three creatures as the triggered ability of <Abolisher of Bloodlines> resolves, that player sacrifices as many creatures as able.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2646,7 +2681,7 @@ When Bedlam Reveler enters the battlefield, discard your hand, then draw three c
 Choose one or both —
 • Target creature gets +3/+0 until end of turn.
 • Target creature gains first strike until end of turn.</CardText>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>414418</Multiverseid>
 <Rulings>2016/07/13: You choose all of your modes at once. You can't wait to perform one mode's actions and then decide to choose more modes.
 2016/07/13: You can't choose any one mode multiple times.
@@ -2719,7 +2754,8 @@ Choose one or more —
 <Multiverseid>414421</Multiverseid>
 <Rulings>2016/07/13: You'll add mana at the beginning of the next main phase whether or not <Conduit of Storms> is still on the battlefield.
 2016/07/13: If <Conduit of Storms> attacks and you transform it into Conduit of Emrakul later in combat, you'll add {R}, not {C}{C} and not {C}{C}{R}.
-2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).</Rulings>
+2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+2016/07/13: You'll add mana at the beginning of the next main phase whether or not Conduit of Emrakul is still on the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2737,8 +2773,10 @@ Choose one or more —
 <Flavor>As without, so within.</Flavor>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>414422</Multiverseid>
-<Rulings>2016/07/13: You'll add mana at the beginning of the next main phase whether or not <Conduit of Emrakul> is still on the battlefield.
-2016/07/13: If Conduit of Storms attacks and you transform it into <Conduit of Emrakul> later in combat, you'll add {R}, not {C}{C} and not {C}{C}{R}.</Rulings>
+<Rulings>2016/07/13: You'll add mana at the beginning of the next main phase whether or not Conduit of Storms is still on the battlefield.
+2016/07/13: If Conduit of Storms attacks and you transform it into <Conduit of Emrakul> later in combat, you'll add {R}, not {C}{C} and not {C}{C}{R}.
+2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+2016/07/13: You'll add mana at the beginning of the next main phase whether or not <Conduit of Emrakul> is still on the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2849,7 +2887,9 @@ At the beginning of combat on your turn, you may discard a card. If you do, Fury
 <Multiverseid>414428</Multiverseid>
 <Rulings>2016/07/13: You choose which opponent or planeswalker controlled by an opponent each token is attacking as it enters the battlefield. It doesn't have to be the same opponent or planeswalker that the trigger's source is attacking, and the tokens don't both have to attack the same player or planeswalker.
 2016/07/13: On the turn they enter the battlefield, the tokens are never declared as attacking creatures. They simply enter the battlefield attacking. They won't cause any abilities that trigger "whenever a creature attacks" to trigger.
-2016/07/13: If another ability of a source you control triggers when attackers are declared, such as that of Hamlet Captain, you may have it resolve before or after that of <Hanweir Garrison>. If that ability has targets, it won't be able to target the tokens.</Rulings>
+2016/07/13: If another ability of a source you control triggers when attackers are declared, such as that of Hamlet Captain, you may have it resolve before or after that of <Hanweir Garrison>. If that ability has targets, it won't be able to target the tokens.
+2016/07/13: If another ability of a source you control triggers when attackers are declared, such as that of Hamlet Captain, you may have it resolve before or after that of Hanweir, the Writhing Township. If that ability has targets, it won't be able to target the tokens.
+2016/07/13: For more information on meld cards, see the Eldritch Moon mechanics article (https://magic.wizards.com/en/articles/archive/feature/eldritch-moon-mechanics-2016-06-27).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2869,8 +2909,9 @@ Whenever Hanweir, the Writhing Township attacks, create two 3/2 colorless Eldraz
 <Multiverseid>414429</Multiverseid>
 <Rulings>2016/07/13: You choose which opponent or planeswalker controlled by an opponent each token is attacking as it enters the battlefield. It doesn't have to be the same opponent or planeswalker that the trigger's source is attacking, and the tokens don't both have to attack the same player or planeswalker.
 2016/07/13: On the turn they enter the battlefield, the tokens are never declared as attacking creatures. They simply enter the battlefield attacking. They won't cause any abilities that trigger "whenever a creature attacks" to trigger.
+2016/07/13: If another ability of a source you control triggers when attackers are declared, such as that of Hamlet Captain, you may have it resolve before or after that of Hanweir Garrison. If that ability has targets, it won't be able to target the tokens.
 2016/07/13: If another ability of a source you control triggers when attackers are declared, such as that of Hamlet Captain, you may have it resolve before or after that of <Hanweir, the Writhing Township>. If that ability has targets, it won't be able to target the tokens.
-2016/07/13: For more information on meld cards, see the Eldritch Moon mechanics article (http://magic.wizards.com/en/articles/archive/feature/eldritch-moon-mechanics).</Rulings>
+2016/07/13: For more information on meld cards, see the Eldritch Moon mechanics article (https://magic.wizards.com/en/articles/archive/feature/eldritch-moon-mechanics-2016-06-27).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3120,7 +3161,9 @@ Choose one or more —
 —Raf Gyel of the Quiver of Kessig</Flavor>
 <Artist>Zack Stella</Artist>
 <Multiverseid>414441</Multiverseid>
-<Rulings>2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).</Rulings>
+<Rulings>2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+2016/07/13: Erupting Dreadwolf's triggered ability resolves before blockers are chosen. A creature dealt lethal damage this way won't be around to block.
+2016/07/13: If you transform <Smoldering Werewolf> into Erupting Dreadwolf after it has attacked, Erupting Dreadwolf's triggered ability won't trigger that combat.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3139,7 +3182,8 @@ Choose one or more —
 —Raf Gyel of the Quiver of Kessig</Flavor>
 <Artist>Zack Stella</Artist>
 <Multiverseid>414442</Multiverseid>
-<Rulings>2016/07/13: <Erupting Dreadwolf>'s triggered ability resolves before blockers are chosen. A creature dealt lethal damage this way won't be around to block.
+<Rulings>2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+2016/07/13: <Erupting Dreadwolf>'s triggered ability resolves before blockers are chosen. A creature dealt lethal damage this way won't be around to block.
 2016/07/13: If you transform Smoldering Werewolf into <Erupting Dreadwolf> after it has attacked, <Erupting Dreadwolf>'s triggered ability won't trigger that combat.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3243,8 +3287,8 @@ Whenever you cast an instant or sorcery spell, untap Thermo-Alchemist.</CardText
 <Flavor>"Madness can't touch a mind ignited by genius."</Flavor>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>414447</Multiverseid>
-<Rulings>2016/07/13: <Thermo-Alchemist>'s last ability resolves before the spell that caused it to trigger.
-2016/07/13: In a Two-Headed Giant game, <Thermo-Alchemist>'s activated ability deals 1 damage to each opponent, so each opposing team takes a total of 2 damage.</Rulings>
+<Rulings>2018/12/07: <Thermo-Alchemist>'s triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered. Players can cast spells and activate abilities (such as <Thermo-Alchemist>'s own activated ability) after the triggered ability resolves but before the spell that caused it to trigger does.
+2018/12/07: In a Two-Headed Giant game, <Thermo-Alchemist>'s activated ability causes the opposing team to lose 2 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3282,6 +3326,7 @@ Whenever you cast an instant or sorcery spell, untap Thermo-Alchemist.</CardText
 <Flavor>These new terrors will not recede with the setting of the moon.</Flavor>
 <Artist>Jose Cabrera</Artist>
 <Multiverseid>414449</Multiverseid>
+<Rulings>2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3559,7 +3604,8 @@ Delirium — When Ishkanah, Grafwidow enters the battlefield, if there are four 
 <Flavor>In the wake of Emrakul, some werewolves' human forms were lost forever.</Flavor>
 <Artist>Slawomir Maniak</Artist>
 <Multiverseid>414464</Multiverseid>
-<Rulings>2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).</Rulings>
+<Rulings>2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+2016/07/13: If Sinuous Predator gains menace, it can't be blocked by only one creature and it can't be blocked by more than one creature, so it simply can't be blocked.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3577,7 +3623,8 @@ Delirium — When Ishkanah, Grafwidow enters the battlefield, if there are four 
 <Flavor>A different kind of transformation has taken place.</Flavor>
 <Artist>Slawomir Maniak</Artist>
 <Multiverseid>414465</Multiverseid>
-<Rulings>2016/07/13: If <Sinuous Predator> gains menace, it can't be blocked by only one creature and it can't be blocked by more than one creature, so it simply can't be blocked.</Rulings>
+<Rulings>2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+2016/07/13: If <Sinuous Predator> gains menace, it can't be blocked by only one creature and it can't be blocked by more than one creature, so it simply can't be blocked.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3637,7 +3684,7 @@ Discard a card: Noose Constrictor gets +1/+1 until end of turn.</CardText>
 <Flavor>The Somberwald has become a hunting ground for the Dronepack, the group of werewolves that have succumbed to the flesh-twisting power of Emrakul.</Flavor>
 <Artist>Dave Kendall</Artist>
 <Multiverseid>414468</Multiverseid>
-<Rulings>2012/07/01: If either or both targets are illegal when <Prey Upon> tries to resolve, no creature will deal or be dealt damage.</Rulings>
+<Rulings>2018/12/07: If either target is an illegal target as <Prey Upon> resolves, no creature will deal or be dealt damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3675,7 +3722,8 @@ Discard a card: Noose Constrictor gets +1/+1 until end of turn.</CardText>
 <Artist>Matt Stewart</Artist>
 <Multiverseid>414470</Multiverseid>
 <Rulings>2016/07/13: The power of the blocking creature and that of <Shrill Howler> are compared only at the moment that blockers are chosen. Changing either creature's power later won't cause <Shrill Howler> to become unblocked.
-2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).</Rulings>
+2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+2016/07/13: The power of the blocking creature and that of Howling Chorus are compared only at the moment that blockers are chosen. Changing either creature's power later won't cause Howling Chorus to become unblocked.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3693,7 +3741,9 @@ Discard a card: Noose Constrictor gets +1/+1 until end of turn.</CardText>
 Whenever Howling Chorus deals combat damage to a player, create a 3/2 colorless Eldrazi Horror creature token.</CardText>
 <Artist>Matt Stewart</Artist>
 <Multiverseid>414471</Multiverseid>
-<Rulings>2016/07/13: The power of the blocking creature and that of <Howling Chorus> are compared only at the moment that blockers are chosen. Changing either creature's power later won't cause <Howling Chorus> to become unblocked.</Rulings>
+<Rulings>2016/07/13: The power of the blocking creature and that of Shrill Howler are compared only at the moment that blockers are chosen. Changing either creature's power later won't cause Shrill Howler to become unblocked.
+2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+2016/07/13: The power of the blocking creature and that of <Howling Chorus> are compared only at the moment that blockers are chosen. Changing either creature's power later won't cause <Howling Chorus> to become unblocked.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3807,7 +3857,11 @@ Reach (This creature can block creatures with flying.)</CardText>
 —Halana, Kessig ranger</Flavor>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>414477</Multiverseid>
-<Rulings>2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).</Rulings>
+<Rulings>2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+2016/07/13: Only one creature is required to block Fibrous Entangler. Other creatures may also block it, and are free to block other creatures or not block at all.
+2016/07/13: The defending player, not you, chooses which creature blocks Fibrous Entangler.
+2016/07/13: If each creature that could block Fibrous Entangler is tapped or is affected by a spell or ability that says it can't block, then none of them block. If there's a cost associated with having each of those creatures block, its controller isn't forced to pay the cost, so they don't have to block in that case either.
+2016/07/13: If <Tangleclaw Werewolf> transforms into Fibrous Entangler while it's attacking, having vigilance won't cause it to become untapped.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3828,7 +3882,8 @@ Fibrous Entangler can block an additional creature each combat.</CardText>
 —Halana, Kessig ranger</Flavor>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>414478</Multiverseid>
-<Rulings>2016/07/13: Only one creature is required to block <Fibrous Entangler>. Other creatures may also block it, and are free to block other creatures or not block at all.
+<Rulings>2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+2016/07/13: Only one creature is required to block <Fibrous Entangler>. Other creatures may also block it, and are free to block other creatures or not block at all.
 2016/07/13: The defending player, not you, chooses which creature blocks <Fibrous Entangler>.
 2016/07/13: If each creature that could block <Fibrous Entangler> is tapped or is affected by a spell or ability that says it can't block, then none of them block. If there's a cost associated with having each of those creatures block, its controller isn't forced to pay the cost, so they don't have to block in that case either.
 2016/07/13: If Tangleclaw Werewolf transforms into <Fibrous Entangler> while it's attacking, having vigilance won't cause it to become untapped.</Rulings>
@@ -3872,6 +3927,7 @@ Fibrous Entangler can block an additional creature each combat.</CardText>
 —Nissa Revane</Flavor>
 <Artist>Chris Rahn</Artist>
 <Multiverseid>414480</Multiverseid>
+<Rulings>2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4123,8 +4179,8 @@ Delirium — When Mournwillow enters the battlefield, if there are four or more 
 <Artist>David Gaillet</Artist>
 <Multiverseid>414493</Multiverseid>
 <Rulings>2014/09/20: The attacking creatures that the destroyed creature was blocking remain blocked (even if no other creatures were blocking them). An attacking creature with trample that has no creature blocking it can deal its combat damage to the defending player or planeswalker.
-2016/07/13: The attacking creatures that the destroyed creature was blocking remain blocked (even if no other creatures were blocking them). An attacking creature with trample that has no creature blocking it will deal its combat damage to the defending player or planeswalker.
-2016/07/13: In some rare cases, the blocking creature wasn't declared as a blocking creature that combat (for example, if it entered the battlefield blocking). In that case, the attacking creatures it was blocking won't gain trample even though the blocking creature is destroyed.</Rulings>
+2014/09/20: In some rare cases, the blocking creature wasn't declared as a blocking creature that combat (for example, if it entered the battlefield blocking). In that case, the attacking creatures it was blocking won't gain trample even though the blocking creature is destroyed.
+2016/07/13: The attacking creatures that the destroyed creature was blocking remain blocked (even if no other creatures were blocking them). An attacking creature with trample that has no creature blocking it will deal its combat damage to the defending player or planeswalker.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4169,12 +4225,12 @@ When Spell Queller leaves the battlefield, the exiled card's owner may cast that
 -7: Draw three cards. You get an emblem with "You may cast spells from your hand without paying their mana costs."</CardText>
 <Artist>Tianhua X</Artist>
 <Multiverseid>414495</Multiverseid>
-<Rulings>2016/07/13: Tamiyo's first ability can target creatures you don't control. You'll draw a card, not their controller, if they deal combat damage.
-2016/07/13: Tamiyo's first ability sets up a delayed triggered ability that triggers even if Tamiyo has left the battlefield before those creatures deal combat damage.
+<Rulings>2016/07/13: Tamiyo's first ability sets up a delayed triggered ability that triggers even if Tamiyo has left the battlefield before those creatures deal combat damage.
 2016/07/13: You must follow the normal timing permissions and restrictions of each nonland card you cast once you get Tamiyo's emblem.
-2016/07/13: If you cast a card "without paying its mana cost," you can't pay any alternative costs such as emerge costs. You can pay additional costs such as escalate costs. If the card has mandatory additional costs, you must pay those.
+2016/07/13: Tamiyo's first ability can target creatures you don't control. You'll draw a card, not their controller, if they deal combat damage.
 2016/07/13: If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
 2016/07/13: You may still cast nonland cards by paying their mana costs as normal.
+2016/07/13: If you cast a card "without paying its mana cost," you can't pay any alternative costs such as emerge costs. You can pay additional costs such as escalate costs. If the card has mandatory additional costs, you must pay those.
 2016/08/23: If Tamiyo's first ability targets two creatures, and both deal combat damage at the same time, the delayed triggered ability triggers twice.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -4194,7 +4250,12 @@ At the beginning of each upkeep, if no spells were cast last turn, transform Ulr
 <Artist>Slawomir Maniak</Artist>
 <Multiverseid>414496</Multiverseid>
 <Rulings>2016/07/13: The abilities that transform a Werewolf back and forth look at the entire previous turn, even if the Werewolf with that ability wasn't on the battlefield for some or all of that turn.
-2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).</Rulings>
+2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+2016/07/13: You choose the target of the Ulrich, Uncontested Alpha's first ability as it goes on the stack, but you choose whether or not to fight as that ability resolves.
+2016/07/13: If the targeted creature is an illegal target when Ulrich, Uncontested Alpha's first ability tries to resolve, the ability doesn't resolve.
+2016/07/13: If Ulrich is no longer on the battlefield as Ulrich, Uncontested Alpha's first ability resolves, the targeted creature won't deal or be dealt damage.
+2016/07/13: Ulrich, Uncontested Alpha's last ability only triggers if a single player has cast two or more spells during the previous turn. If multiple players each cast just one spell during the previous turn, the ability won't trigger.
+2016/07/13: To trigger the Werewolf's back face's transform ability, a single player must have cast two or more spells during the previous turn. If multiple players each cast just one spell during the previous turn, the ability won't trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4213,10 +4274,11 @@ At the beginning of each upkeep, if no spells were cast last turn, transform Ulr
 At the beginning of each upkeep, if a player cast two or more spells last turn, transform Ulrich, Uncontested Alpha.</CardText>
 <Artist>Slawomir Maniak</Artist>
 <Multiverseid>414497</Multiverseid>
-<Rulings>2016/07/13: You choose the target of the <Ulrich, Uncontested Alpha>'s first ability as it goes on the stack, but you choose whether or not to fight as that ability resolves.
+<Rulings>2016/07/13: The abilities that transform a Werewolf back and forth look at the entire previous turn, even if the Werewolf with that ability wasn't on the battlefield for some or all of that turn.
+2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+2016/07/13: You choose the target of the <Ulrich, Uncontested Alpha>'s first ability as it goes on the stack, but you choose whether or not to fight as that ability resolves.
 2016/07/13: If the targeted creature is an illegal target when <Ulrich, Uncontested Alpha>'s first ability tries to resolve, the ability doesn't resolve.
 2016/07/13: If Ulrich is no longer on the battlefield as <Ulrich, Uncontested Alpha>'s first ability resolves, the targeted creature won't deal or be dealt damage.
-2016/07/13: The abilities that transform a Werewolf back and forth look at the entire previous turn, even if the Werewolf with that ability wasn't on the battlefield for some or all of that turn.
 2016/07/13: <Ulrich, Uncontested Alpha>'s last ability only triggers if a single player has cast two or more spells during the previous turn. If multiple players each cast just one spell during the previous turn, the ability won't trigger.
 2016/07/13: To trigger the Werewolf's back face's transform ability, a single player must have cast two or more spells during the previous turn. If multiple players each cast just one spell during the previous turn, the ability won't trigger.</Rulings>
 <Vintage>Legal</Vintage>
@@ -4281,6 +4343,11 @@ Whenever Aurora of Emrakul attacks, each opponent loses 3 life.</CardText>
 —Garner Kroft, Moorland farmer</Flavor>
 <Artist>John Avon</Artist>
 <Multiverseid>414500</Multiverseid>
+<Rulings>2016/07/13: Cryptolith Fragment's second ability is a mana ability. Players can't respond to it or to the loss of life it causes.
+2016/07/13: If any player has 11 or more life as your upkeep begins, Cryptolith Fragment's last ability doesn't trigger. If any player has 11 or more life as the ability resolves, the ability has no effect.
+2016/07/13: In a Two-Headed Giant game, Cryptolith Fragment's mana ability causes each player to lose 1 life, so each team loses 2 life.
+2016/07/13: In a Two-Headed Giant game, Cryptolith Fragment's last ability checks whether each team's life total is 10 or less.
+2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4524,8 +4591,9 @@ Whenever Hanweir, the Writhing Township attacks, create two 3/2 colorless Eldraz
 <Multiverseid>414429</Multiverseid>
 <Rulings>2016/07/13: You choose which opponent or planeswalker controlled by an opponent each token is attacking as it enters the battlefield. It doesn't have to be the same opponent or planeswalker that the trigger's source is attacking, and the tokens don't both have to attack the same player or planeswalker.
 2016/07/13: On the turn they enter the battlefield, the tokens are never declared as attacking creatures. They simply enter the battlefield attacking. They won't cause any abilities that trigger "whenever a creature attacks" to trigger.
+2016/07/13: If another ability of a source you control triggers when attackers are declared, such as that of Hamlet Captain, you may have it resolve before or after that of Hanweir Garrison. If that ability has targets, it won't be able to target the tokens.
 2016/07/13: If another ability of a source you control triggers when attackers are declared, such as that of Hamlet Captain, you may have it resolve before or after that of <Hanweir, the Writhing Township>. If that ability has targets, it won't be able to target the tokens.
-2016/07/13: For more information on meld cards, see the Eldritch Moon mechanics article (http://magic.wizards.com/en/articles/archive/feature/eldritch-moon-mechanics).</Rulings>
+2016/07/13: For more information on meld cards, see the Eldritch Moon mechanics article (https://magic.wizards.com/en/articles/archive/feature/eldritch-moon-mechanics-2016-06-27).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

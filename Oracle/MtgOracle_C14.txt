@@ -87,10 +87,11 @@ If a nontoken creature would enter the battlefield and it wasn't cast, exile it 
 <Flavor>Some protection requires a bit of finesse.</Flavor>
 <Artist>John Stanko</Artist>
 <Multiverseid>389470</Multiverseid>
-<Rulings>2014/11/07: <Containment Priest>'s last ability won't affect any nontoken creatures that were cast, including ones cast from unusual zones such as your graveyard.
-2014/11/07: <Containment Priest>'s last ability doesn't stop creature tokens from entering the battlefield. It also doesn't affect creatures that were already on the battlefield.
-2014/11/07: If <Containment Priest> enters the battlefield without being cast, it won't exile itself.
-2014/11/07: If <Containment Priest> enters the battlefield at the same time as other creatures, its ability won't affect those creatures.</Rulings>
+<Rulings>2018/12/07: <Containment Priest>'s last ability won't affect any creatures that were cast, including ones cast from unusual zones such as your graveyard.
+2018/12/07: <Containment Priest>'s last ability doesn't stop creature tokens from entering the battlefield. It also doesn't affect creatures that were already on the battlefield.
+2018/12/07: If a noncreature card wasn't cast and is entering the battlefield as a creature (due to an effect such as that of March of the Machines), it will be exiled. Similarly, if a creature card wasn't cast and is entering the battlefield as a noncreature permanent (for example, Heliod, God of the Sun with insufficient devotion), it won't be exiled.
+2018/12/07: If <Containment Priest> enters the battlefield without being cast, its ability won't exile itself.
+2018/12/07: If <Containment Priest> enters the battlefield at the same time as other creatures, its ability won't affect those creatures.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander 2014 Edition</Set>
@@ -3127,16 +3128,16 @@ You draw X cards and you lose X life.</CardText>
 Until end of turn, creatures target player controls lose all abilities and have base power and toughness 0/2.</CardText>
 <Artist>Alan Pollack</Artist>
 <Multiverseid>389698</Multiverseid>
-<Rulings>2006/09/25: <Sudden Spoiling> doesn't counter abilities that have already triggered or been activated. In particular, you can't cast this fast enough to stop a creature's "At the beginning of your upkeep" or "When this creature enters the battlefield" abilities from triggering.
-2006/09/25: <Sudden Spoiling> affects only permanents that are creatures on the battlefield under the targeted player's control at the time <Sudden Spoiling> resolves. It won't affect creatures that enter the battlefield later or noncreature permanents that later become creatures.
+<Rulings>2006/09/25: <Sudden Spoiling> affects only permanents that are creatures on the battlefield under the targeted player's control at the time <Sudden Spoiling> resolves. It won't affect creatures that enter the battlefield later or noncreature permanents that later become creatures.
 2006/09/25: If a creature controlled by the targeted player gains an ability after <Sudden Spoiling> resolves, it will keep that ability.
 2006/09/25: If a face-down creature is affected by <Sudden Spoiling>, it won't be able to be turned face up for its morph cost. If some other effect turns it face up, it will remain a 0/2 creature with no abilities until the turn ends. Its "When this creature turns face up" or "As this creature turns face up" abilities won't work.
-2013/06/07: Players still get priority while a card with split second is on the stack.
+2006/09/25: <Sudden Spoiling> doesn't counter abilities that have already triggered or been activated. In particular, you can't cast this fast enough to stop a creature's "At the beginning of your upkeep" or "When this creature enters the battlefield" abilities from triggering.
+2013/06/07: If the resolution of a triggered ability involves casting a spell, that spell can't be cast if a spell with split second is on the stack.
 2013/06/07: Split second doesn't prevent players from activating mana abilities.
 2013/06/07: Split second doesn't prevent triggered abilities from triggering. If one does, its controller puts it on the stack and chooses targets for it, if any. Those abilities will resolve as normal.
 2013/06/07: Split second doesn't prevent players from performing special actions. Notably, players may turn face-down creatures face up while a spell with split second is on the stack.
 2013/06/07: Casting a spell with split second won't affect spells and abilities that are already on the stack.
-2013/06/07: If the resolution of a triggered ability involves casting a spell, that spell can't be cast if a spell with split second is on the stack.</Rulings>
+2013/06/07: Players still get priority while a card with split second is on the stack.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3499,7 +3500,7 @@ Cycling {3} ({3}, Discard this card: Draw a card.)</CardText>
 <CardText>Haste
 When Tuktuk the Explorer dies, create a legendary 5/5 colorless Goblin Golem artifact creature token named Tuktuk the Returned.</CardText>
 <Flavor>Remade by Eldrazi magic, Tuktuk inspired an entire clan of misguided goblins.</Flavor>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>389729</Multiverseid>
 <Rulings>2010/06/15: Both <Tuktuk the Explorer> and Tuktuk the Returned are legendary creatures. However, since they have different names, one of each may coexist without being affected by the "legend rule."</Rulings>
 <Vintage>Legal</Vintage>
@@ -4508,6 +4509,7 @@ When Epochrasite dies, exile it with three time counters on it and it gains susp
 <Artist>Michael Bruinsma</Artist>
 <Multiverseid>389504</Multiverseid>
 <Rulings>2007/05/01: <Epochrasite> will enter the battlefield with three +1/+1 counters on it if you cast it from a zone other than your hand, or if an effect let you put it directly onto the battlefield.
+2013/06/07: A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it (or, in some rare cases, gains control of the creature spell itself).
 2013/06/07: You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage's effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time.
 2013/06/07: Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
 2013/06/07: If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
@@ -4516,8 +4518,7 @@ When Epochrasite dies, exile it with three time counters on it and it gains susp
 2013/06/07: If the second triggered ability of suspend (the one that lets you cast the card) is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
 2013/06/07: As the second triggered ability resolves, you must cast the card if able. Timing restrictions based on the card's type are ignored.
 2013/06/07: If you can't cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it's no longer suspended.
-2013/06/07: If the spell has any mandatory additional costs, you must pay those if able. However, if an additional cost includes a mana payment, you are forced to pay that cost only if there's enough mana in your mana pool at the time you cast the spell. You aren't forced to activate any mana abilities, although you may do so if you wish.
-2013/06/07: A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it (or, in some rare cases, gains control of the creature spell itself).</Rulings>
+2013/06/07: If the spell has any mandatory additional costs, you must pay those if able. However, if an additional cost includes a mana payment, you are forced to pay that cost only if there's enough mana in your mana pool at the time you cast the spell. You aren't forced to activate any mana abilities, although you may do so if you wish.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -5154,15 +5155,15 @@ When Spine of Ish Sah is put into a graveyard from the battlefield, return Spine
 {X}: Destroy each nonland permanent with converted mana cost X whose controller was dealt combat damage by Steel Hellkite this turn. Activate this ability only once each turn.</CardText>
 <Artist>James Paick</Artist>
 <Multiverseid>389693</Multiverseid>
-<Rulings>2011/01/01: <Steel Hellkite>'s last ability destroys only nonland permanents whose converted mana cost is exactly equal to X, and only those controlled by players who have been dealt combat damage by <Steel Hellkite> this turn.
+<Rulings>2011/01/01: If a nonland permanent has no mana symbols in its upper right corner (because it's a token that's not copying of something else, for example), its converted mana cost is 0.
+2011/01/01: <Steel Hellkite>'s last ability destroys only nonland permanents whose converted mana cost is exactly equal to X, and only those controlled by players who have been dealt combat damage by <Steel Hellkite> this turn.
 2011/01/01: It doesn't matter who controlled those permanents at the time <Steel Hellkite> dealt combat damage, or if those permanents were even on the battlefield at that time.
 2011/01/01: You may activate the last ability even if <Steel Hellkite> hasn't dealt combat damage to any players that turn. If you do, the ability won't do anything.
 2011/01/01: If <Steel Hellkite>'s third ability is activated with X equal to 0, it will destroy each nonland permanent with converted mana cost 0 the appropriate players control.
 2011/01/01: The converted mana cost of a permanent is determined solely by the mana symbols printed in its upper right corner, unless it's copying something else (see below). The converted mana cost is the total amount of mana in that cost, regardless of color. For example, a card with mana cost {3}{U}{U} has converted mana cost 5.
 2011/01/01: If a permanent is copying something else, its converted mana cost is the converted mana cost of whatever it's copying.
 2011/01/01: In all cases, ignore any alternative costs or additional costs (such as kicker) paid when the permanent was cast.
-2011/01/01: If the mana cost of a permanent includes {X}, X is considered to be 0.
-2011/01/01: If a nonland permanent has no mana symbols in its upper right corner (because it's a token that's not copying of something else, for example), its converted mana cost is 0.</Rulings>
+2011/01/01: If the mana cost of a permanent includes {X}, X is considered to be 0.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -5322,7 +5323,7 @@ Equip {3}</CardText>
 <CardText>Worn Powerstone enters the battlefield tapped.
 {T}: Add {C}{C}.</CardText>
 <Flavor>Even a fragment of a powerstone contains within it not just energy, but space—vast dimensions trapped in fragile crystal.</Flavor>
-<Artist>Henry G. Higgenbotham</Artist>
+<Artist>Henry G. Higginbotham</Artist>
 <Multiverseid>389754</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>

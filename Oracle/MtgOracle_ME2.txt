@@ -261,7 +261,7 @@ Whenever enchanted creature attacks and isn't blocked, its controller may have i
 <Type>Creature — Human Soldier 1/1</Type>
 <ManaCost>W (1)</ManaCost>
 <CardText>Icatian Javelineers enters the battlefield with a javelin counter on it.
-{T}, Remove a javelin counter from Icatian Javelineers: Icatian Javelineers deals 1 damage to any target.</CardText>
+{T}, Remove a javelin counter from Icatian Javelineers: It deals 1 damage to any target.</CardText>
 <Artist>Melissa A. Benson</Artist>
 <Multiverseid>184695</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -641,12 +641,12 @@ Damage that would reduce your life total to less than 1 reduces it to 1 instead.
 <Artist>Rebecca Guay</Artist>
 <Multiverseid>184744</Multiverseid>
 <Rulings>2004/10/04: Does not affect damage if you are already at zero or negative life. You still take it all.
-2008/10/01: Paying cumulative upkeep is always optional. If it's not paid, the permanent with cumulative upkeep is sacrificed. Partial payments of the total cumulative upkeep cost can't be made. For example, if a permanent with "cumulative upkeep {1}" has three age counters on it when its cumulative upkeep ability triggers, it gets another age counter and then its controller chooses to either pay {4} or sacrifice the permanent.
-2008/10/01: The second ability applies only if your life total is being reduced by damage. Other effects or costs (such as "lose 1 life" or "pay 1 life") can reduce your life total below 1 as normal.
-2008/10/01: If an effect asks you to pay life, you can't pay more life than you have.
+2008/10/01: <Sustaining Spirit> won't prevent you from losing the game if your life total is 0 or less or some other effect causes you to lose the game.
 2008/10/01: The second ability is not a prevention effect. It stops unpreventable damage from reducing your life total below 1.
 2008/10/01: The ability doesn't change how much damage is dealt; it just changes how much life that damage makes you lose. An effect such as Spirit Link will see the full amount of damage being dealt.
-2008/10/01: <Sustaining Spirit> won't prevent you from losing the game if your life total is 0 or less or some other effect causes you to lose the game.</Rulings>
+2008/10/01: If an effect asks you to pay life, you can't pay more life than you have.
+2008/10/01: The second ability applies only if your life total is being reduced by damage. Other effects or costs (such as "lose 1 life" or "pay 1 life") can reduce your life total below 1 as normal.
+2008/10/01: Paying cumulative upkeep is always optional. If it's not paid, the permanent with cumulative upkeep is sacrificed. Partial payments of the total cumulative upkeep cost can't be made. For example, if a permanent with "cumulative upkeep {1}" has three age counters on it when its cumulative upkeep ability triggers, it gets another age counter and then its controller chooses to either pay {4} or sacrifice the permanent.</Rulings>
 <Reserved>This card is on the reserved list</Reserved>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -793,7 +793,7 @@ Enchanted creature gets +0/+1.</CardText>
 <CardText>Counter target spell.</CardText>
 <Flavor>"The duel was going badly for me, and Zur thought I was finished. He boasted that he would eat my soul—but all he ate were his words."
 —Gustha Ebbasdotter, Kjeldoran royal mage</Flavor>
-<Artist>L. A. Williams</Artist>
+<Artist>Allen Williams</Artist>
 <Multiverseid>184687</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -846,7 +846,7 @@ At the beginning of your upkeep, sacrifice Deep Spawn unless you put the top two
 Draw a card at the beginning of the next turn's upkeep.</CardText>
 <Flavor>"Worlds turn in crucial moments of decision. Make your choice."
 —Gustha Ebbasdotter, Kjeldoran royal mage</Flavor>
-<Artist>L. A. Williams</Artist>
+<Artist>Allen Williams</Artist>
 <Multiverseid>184622</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1879,7 +1879,7 @@ Enchanted creature gets +1/+1.</CardText>
 <CardText>Protection from black
 At the beginning of your upkeep, Minion of Leshrac deals 5 damage to you unless you sacrifice a creature other than Minion of Leshrac. If Minion of Leshrac deals damage to you this way, tap it.
 {T}: Destroy target creature or land.</CardText>
-<Artist>L. A. Williams</Artist>
+<Artist>Allen Williams</Artist>
 <Multiverseid>184740</Multiverseid>
 <Rulings>2008/10/01: If you don't sacrifice a creature at the beginning of your upkeep (either by choice or because you can't), but you somehow prevent all the damage <Minion of Leshrac> would deal to you, then you don't tap <Minion of Leshrac>.
 2008/10/01: <Minion of Leshrac> can't target itself with its activated ability because it has protection from black.</Rulings>
@@ -3010,7 +3010,7 @@ All creatures get -1/-0.
 <CardText>Target creature gets +3/+3 until end of turn.</CardText>
 <Flavor>"Here in Fyndhorn, the goddess Freyalise is generous to her children."
 —Kolbjörn, elder druid of the Juniper Order</Flavor>
-<Artist>L. A. Williams</Artist>
+<Artist>Allen Williams</Artist>
 <Multiverseid>184692</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3171,7 +3171,7 @@ If a land is tapped for mana, it produces colorless mana instead of any other ty
 <Type>Instant</Type>
 <ManaCost>1GG (3)</ManaCost>
 <CardText>Tap all blocking creatures. Prevent all combat damage that would be dealt this turn. Each attacking creature and each blocking creature doesn't untap during its controller's next untap step.</CardText>
-<Artist>Susan Van Camp</Artist>
+<Artist>Amy Weber</Artist>
 <Multiverseid>184710</Multiverseid>
 <Rulings>2004/10/04: Only makes attackers or blockers that have been declared before the spell is cast unable to untap as normal next turn. So, if used before attackers or blockers are declared, it is simply a Fog-like effect. If used after attackers are declared but before blockers are declared, it does the Fog effect and makes attackers not untap as normal. If done after blockers are declared, it has full effect.
 2008/10/01: If a creature affected by <Spore Cloud> is untapped at the time its controller's next untap step begins, the "doesn't untap" effect doesn't do anything. It won't apply at some later time when that creature is tapped.
@@ -4329,7 +4329,7 @@ Prevent all damage that would be dealt to you.</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>MTGO Masters Edition II</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -4348,7 +4348,7 @@ Prevent all damage that would be dealt to you.</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>MTGO Masters Edition II</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -4367,7 +4367,7 @@ Prevent all damage that would be dealt to you.</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>MTGO Masters Edition II</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -4386,7 +4386,7 @@ Prevent all damage that would be dealt to you.</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>MTGO Masters Edition II</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -4405,6 +4405,6 @@ Prevent all damage that would be dealt to you.</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>MTGO Masters Edition II</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 

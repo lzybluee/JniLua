@@ -481,7 +481,7 @@ Enchanted creature gets +2/+2 and can't block.
 When Undying Rage is put into a graveyard from the battlefield, return Undying Rage to its owner's hand.</CardText>
 <Artist>Scott M. Fischer</Artist>
 <Multiverseid>373347</Multiverseid>
-<Rulings>2016/06/08: If the target of <Undying Rage> when it's cast as a spell is an illegal target when <Undying Rage> tries to resolve, <Undying Rage> won't resolve and will be put into its owner's graveyard. It won't return to its owner's hand.</Rulings>
+<Rulings>2018/12/07: If the target creature is an illegal target by the time <Undying Rage> tries to resolve, the Aura spell doesn't resolve. It's put into its owner's graveyard from the stack, so its leaves-the-battlefield ability won't trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -555,6 +555,8 @@ When enchanted creature dies, create a 2/2 white Griffin creature token with fly
 <Flavor>"I am the rock of the polis. Death only strengthens me."</Flavor>
 <Artist>Mark Winters</Artist>
 <Multiverseid>373370</Multiverseid>
+<Rulings>2018/12/07: The creature returns to the battlefield without a +1/+1 counter on it. Any abilities that trigger when a creature enters the battlefield will trigger or not as appropriate before it receives the +1/+1 counter and resolve after it has received that counter.
+2018/12/07: No player may take actions between the time the creature returns to the battlefield and the time you put a +1/+1 counter on it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Duel Decks: Heroes vs. Monsters</Set>
@@ -608,8 +610,6 @@ Pyrokinesis deals 4 damage divided as you choose among any number of target crea
 <Flavor>Enter with merciful hearts. Exit with battle cries.</Flavor>
 <Artist>Noah Bradley</Artist>
 <Multiverseid>373389</Multiverseid>
-<Rulings>2013/04/15: The subtype Gate has no special rules significance, but other spells and abilities may refer to it.
-2013/04/15: Gate is not a basic land type.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1123,7 +1123,7 @@ When you cycle Krosan Tusker, you may search your library for a basic land card,
 —Paulin, trapper of Somberwald</Flavor>
 <Artist>Dave Kendall</Artist>
 <Multiverseid>373348</Multiverseid>
-<Rulings>2012/07/01: If either or both targets are illegal when <Prey Upon> tries to resolve, no creature will deal or be dealt damage.</Rulings>
+<Rulings>2018/12/07: If either target is an illegal target as <Prey Upon> resolves, no creature will deal or be dealt damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

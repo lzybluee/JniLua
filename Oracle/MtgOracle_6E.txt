@@ -487,7 +487,7 @@ Enchanted creature gets +1/+5.</CardText>
 <CardText>{T}: All combat damage that would be dealt to you by unblocked creatures this turn is dealt to Kjeldoran Royal Guard instead.</CardText>
 <Flavor>Honorable in battle, generous in death.
 —Motto of the Kjeldoran Royal Guard</Flavor>
-<Artist>L. A. Williams</Artist>
+<Artist>Allen Williams</Artist>
 <Multiverseid>11371</Multiverseid>
 <Rulings>2004/10/04: If you activate the ability but <Kjeldoran Royal Guard> leaves the battlefield before combat damage is dealt, the combat damage from unblocked creatures won't be redirected. It will be dealt to you as normal.</Rulings>
 <Vintage>Legal</Vintage>
@@ -980,7 +980,7 @@ When enchanted creature dies, return that card to the battlefield under its owne
 <Name>Air Elemental</Name>
 <Type>Creature — Elemental 4/4</Type>
 <ManaCost>3UU (5)</ManaCost>
-<CardText>Flying</CardText>
+<CardText>Flying (This creature can't be blocked except by creatures with flying or reach.)</CardText>
 <Flavor>As insubstantial, and as powerful, as the wind that carries it.</Flavor>
 <Artist>Doug Chaffee</Artist>
 <Multiverseid>15371</Multiverseid>
@@ -1104,14 +1104,14 @@ back around—
 the joke's on you.</Flavor>
 <Artist>Mike Raabe</Artist>
 <Multiverseid>16438</Multiverseid>
-<Rulings>2004/10/04: Once the spell resolves, the new target is considered to be targeted by the deflected spell. This will trigger any effects which trigger on being targeted.
-2004/10/04: This only targets the spell being changed, not the original or new target of the spell it is affecting.
-2004/10/04: The target of a spell that targets another spell on the stack can be changed to any other spell on the stack, even if the new target will resolve before the spell does.
+<Rulings>2004/10/04: The target of a spell that targets another spell on the stack can be changed to any other spell on the stack, even if the new target will resolve before the spell does.
 2004/10/04: You can't make a spell which is on the stack target itself.
 2004/10/04: You can choose to make a spell on the stack target this spell (if such a target choice would be legal had the spell been cast while this spell was on the stack). The new target for the deflected spell is not chosen until this spell resolves. This spell is still on the stack when new targets are selected for the spell.
-2004/10/04: If there is no other legal target for the spell, this does not change the target.
+2004/10/04: Once the spell resolves, the new target is considered to be targeted by the deflected spell. This will trigger any effects which trigger on being targeted.
 2004/10/04: This does not check if the current target is legal. It just checks if the spell has a single target.
 2004/10/04: You choose the spell to target on announcement, but you pick the new target for that spell on resolution.
+2004/10/04: If there is no other legal target for the spell, this does not change the target.
+2004/10/04: This only targets the spell being changed, not the original or new target of the spell it is affecting.
 2009/02/01: If a spell targets multiple things, you can't target it with <Deflection>, even if all but one of those targets has become illegal.
 2009/02/01: If a spell targets the same player or object multiple times, you can't target it with <Deflection>.</Rulings>
 <Vintage>Legal</Vintage>
@@ -1147,7 +1147,7 @@ the joke's on you.</Flavor>
 <Type>Sorcery</Type>
 <ManaCost>2UU (4)</ManaCost>
 <CardText>Each player shuffles their hand and graveyard into their library. You exile the top ten cards of your library. Then each player draws up to seven cards.</CardText>
-<Artist>L. A. Williams</Artist>
+<Artist>Allen Williams</Artist>
 <Multiverseid>15363</Multiverseid>
 <Rulings>2016/06/08: Each player chooses to draw any number of cards from zero to seven. First the player whose turn it is chooses how many cards to draw, then draws those cards, then each other player in turn order does the same.
 2016/06/08: <Diminishing Returns> won't be put into your graveyard until after it's finished resolving, which means it won't be shuffled into your library as part of its own effect.
@@ -1390,7 +1390,7 @@ Prevent all combat damage that would be dealt to and dealt by enchanted creature
 <Name>Lord of Atlantis</Name>
 <Type>Creature — Merfolk 2/2</Type>
 <ManaCost>UU (2)</ManaCost>
-<CardText>Other Merfolk creatures get +1/+1 and have islandwalk. (They can't be blocked as long as defending player controls an Island.)</CardText>
+<CardText>Other Merfolk get +1/+1 and have islandwalk. (They can't be blocked as long as defending player controls an Island.)</CardText>
 <Flavor>A master of tactics, the lord of Atlantis makes his people bold in battle merely by arriving to lead them.</Flavor>
 <Artist>Melissa A. Benson</Artist>
 <Multiverseid>14551</Multiverseid>
@@ -1410,9 +1410,9 @@ Prevent all combat damage that would be dealt to and dealt by enchanted creature
 <CardText>Tap all lands target player controls and that player loses all unspent mana.</CardText>
 <Artist>Dameon Willich</Artist>
 <Multiverseid>16439</Multiverseid>
-<Rulings>2004/10/04: Since this is an instant, your opponent may use instants in response to the casting of this spell. Note that such spells and abilities will be resolved before the mana pool is emptied by the <Mana Short>. This makes it useless as a countermeasure for spells. To use it effectively, you need to use it during Upkeep and even then it will not prevent the use of instant spells and abilities.
-2004/10/04: If you play <Mana Short> in response to a spell, it will have no effect on that spell since the mana has already been paid.
-2004/10/04: It even taps lands that do not produce mana.</Rulings>
+<Rulings>2004/10/04: It even taps lands that do not produce mana.
+2004/10/04: Since this is an instant, your opponent may use instants in response to the casting of this spell. Note that such spells and abilities will be resolved before the mana pool is emptied by the <Mana Short>. This makes it useless as a countermeasure for spells. To use it effectively, you need to use it during Upkeep and even then it will not prevent the use of instant spells and abilities.
+2004/10/04: If you play <Mana Short> in response to a spell, it will have no effect on that spell since the mana has already been paid.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Classic Sixth Edition</Set>
@@ -2239,7 +2239,8 @@ Evil Eye of Orms-by-Gore can't be blocked except by Walls.</CardText>
 <ManaCost>3BB (5)</ManaCost>
 <CardText>Flying
 Sacrifice a creature: Fallen Angel gets +2/+1 until end of turn.</CardText>
-<Flavor>"Angels are simply extensions of truth upon the fabric of life—and there is far more dark than light." —Baron Sengir</Flavor>
+<Flavor>"Angels are simply extensions of truth upon the fabric of life—and there is far more dark than light."
+—Baron Sengir</Flavor>
 <Artist>Anson Maddocks</Artist>
 <Multiverseid>16629</Multiverseid>
 <Rulings>2004/10/04: Can sacrifice itself.</Rulings>
@@ -3296,7 +3297,8 @@ Measure for Measure</Flavor>
 <Type>Enchantment</Type>
 <ManaCost>2R (3)</ManaCost>
 <CardText>{2}{R}, Sacrifice two Goblins: Create three 1/1 red Goblin creature tokens.</CardText>
-<Flavor>"Goblins bred underground, their numbers hidden from the enemy until it was too late." —Sarpadian Empires, vol. IV</Flavor>
+<Flavor>"Goblins bred underground, their numbers hidden from the enemy until it was too late."
+—Sarpadian Empires, vol. IV</Flavor>
 <Artist>Dan Frazier</Artist>
 <Multiverseid>15421</Multiverseid>
 <Rulings>2004/10/04: The token Goblins can be sacrificed to the Warrens to generate new Goblins.</Rulings>
@@ -3363,7 +3365,8 @@ Measure for Measure</Flavor>
 <Type>Instant</Type>
 <ManaCost>5RR (7)</ManaCost>
 <CardText>Inferno deals 6 damage to each creature and each player.</CardText>
-<Flavor>"Some have said there is no subtlety to destruction. You know what? They're dead." —Jaya Ballard, task mage</Flavor>
+<Flavor>"Some have said there is no subtlety to destruction. You know what? They're dead."
+—Jaya Ballard, task mage</Flavor>
 <Artist>Mike Kerr</Artist>
 <Multiverseid>11340</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -3648,7 +3651,7 @@ Measure for Measure</Flavor>
 <CardText>Flying
 {R}: Spitting Drake gets +1/+0 until end of turn. Activate this ability only once each turn.</CardText>
 <Flavor>It prefers its meals cooked.</Flavor>
-<Artist>Geofrey Darrow</Artist>
+<Artist>Geofrey Darrow & I. Rabarot</Artist>
 <Multiverseid>15418</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>

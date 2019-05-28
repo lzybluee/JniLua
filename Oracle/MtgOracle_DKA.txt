@@ -7,7 +7,7 @@
 <CardText>You gain 2 life for each card in your graveyard, then shuffle your graveyard into your library.</CardText>
 <Flavor>"This is the light of Avacyn. Even in her absence she offers us hope."
 —Radulf, priest of Avacyn</Flavor>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>244691</Multiverseid>
 <Rulings>2011/01/22: <Archangel's Light> isn't put into the graveyard until after its instructions are followed. You won't gain 2 life for it, and it won't be shuffled into your library.
 2011/01/22: If you have no cards in your graveyard, you won't gain any life, but you'll still shuffle your library.</Rulings>
@@ -261,6 +261,11 @@ When Loyal Cathar dies, return it to the battlefield transformed under your cont
 —Thalia, to Constable Visil</Flavor>
 <Artist>Ryan Pancoast</Artist>
 <Multiverseid>244734</Multiverseid>
+<Rulings>2011/01/22: When Loyal Cathar dies, it will return to the battlefield with its back face (<Unhallowed Cathar>) up. It doesn't return to the battlefield and then transform.
+2011/01/22: Another double-faced card that becomes a copy of Loyal Cathar and then dies will return to the battlefield with its back face up.
+2011/01/22: If you gain control of a Loyal Cathar owned by another player and it dies, it will be put into to its owner's graveyard and then return to the battlefield under your control.
+2016/04/08: If a card that isn't a double-faced card becomes a copy of Loyal Cathar (due to Cytoshape, for example) and then dies, that card won't return to the battlefield. It will remain in its owner's graveyard.
+2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -975,6 +980,10 @@ You control enchanted creature.</CardText>
 <Flavor>The body often twists and flails spasmodically as the spirit explores its new home.</Flavor>
 <Artist>Lucas Graciano</Artist>
 <Multiverseid>242498</Multiverseid>
+<Rulings>2011/01/22: You choose the target for Soul Seizer's triggered ability when that ability triggers and goes on the stack. You choose whether or not to transform it when that ability resolves. If the creature is an illegal target by that time, the ability doesn't resolve and none of its effects happen. You can't have Soul Seizer transform.
+2011/01/22: If Soul Seizer leaves the battlefield in response to its triggered ability, you won't be able to transform it and it won't return to the battlefield or become attached to the target.
+2011/01/22: If Soul Seizer has any +1/+1 counters on it when it transforms, they remain on <Ghastly Haunting>. They won't affect the power or toughness of the enchanted creature, however.
+2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1087,6 +1096,8 @@ When Tower Geist enters the battlefield, look at the top two cards of your libra
 <Flavor>". . . and for that I shall be eternally grateful."</Flavor>
 <Artist>Steve Argyle</Artist>
 <Multiverseid>244712</Multiverseid>
+<Rulings>2011/01/22: You can tap any untapped Vampire you control, including one you haven't controlled continuously since the beginning of your most recent turn, to pay the cost of Chosen of Markov's activated ability. You must have controlled Chosen of Markov continuously since the beginning of your most recent turn, however.
+2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1338,7 +1349,7 @@ Morbid — If a creature died this turn, instead that player reveals their hand,
 <CardText>Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)</CardText>
 <Flavor>"All the dead sleep lightly here, no matter how refined their beds may be."
 —Grafdigger Wulmer</Flavor>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>242503</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1355,7 +1366,7 @@ Morbid — If a creature died this turn, instead that player reveals their hand,
 <ManaCost>4B (5)</ManaCost>
 <CardText>Search your library for a card and put that card into your hand. If this spell was cast from a graveyard, instead search your library for two cards and put those cards into your hand. Then shuffle your library.
 Flashback {7}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</CardText>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>262833</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1375,9 +1386,10 @@ Whenever a Human deals damage to you, destroy it.
 Other non-Human creatures you control get +1/+1 and have undying. (When a creature with undying dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)</CardText>
 <Artist>Chris Rahn</Artist>
 <Multiverseid>249896</Multiverseid>
-<Rulings>2011/01/22: Noncombat damage dealt to you by a Human and damage dealt to you by a Human you control will also cause Mikaeus's triggered ability to trigger.
-2011/01/22: The +1/+1 bonus that Mikaeus gives to other non-Human creatures is not a counter and won't prevent the undying ability from working.
-2011/01/22: <Mikaeus, the Unhallowed> and the Innistrad set's Mikaeus, the Lunarch can be on the battlefield at the same time. The "legend rule" applies only to legendary permanents that have exactly the same name.</Rulings>
+<Rulings>2018/12/07: Any damage dealt to you by a Human will cause Mikaeus's ability to trigger, including noncombat damage dealt to you by a Human and damage dealt to you by a Human you control.
+2018/12/07: If a Human deals damage to you at the same time that Mikaeus is dealt lethal damage, Mikaeus's triggered ability triggers. That Human will be destroyed even though Mikaeus has left the battlefield.
+2018/12/07: If a non-Human creature you control without a +1/+1 counter dies at the same time as Mikaeus, that creature's undying ability granted by Mikaeus triggers and will return it to the battlefield.
+2018/12/07: The +1/+1 bonus that Mikaeus gives to other non-Human creatures you control isn't a counter. It won't prevent undying from triggering.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1415,6 +1427,7 @@ At the beginning of your upkeep, sacrifice a Human. If you can't, tap Archdemon 
 <Flavor>"The price is paid. The power is mine!"</Flavor>
 <Artist>Igor Kieryluk</Artist>
 <Multiverseid>227405</Multiverseid>
+<Rulings>2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1622,6 +1635,11 @@ Undying (When this creature dies, if it had no +1/+1 counters on it, return it t
 At the beginning of each upkeep, if a player cast two or more spells last turn, transform Werewolf Ransacker.</CardText>
 <Artist>David Palumbo</Artist>
 <Multiverseid>262698</Multiverseid>
+<Rulings>2011/01/22: You choose the target artifact when <Werewolf Ransacker>'s first triggered ability goes on the stack. You choose whether or not to destroy the artifact when that ability resolves.
+2011/01/22: An artifact token that's destroyed is put into its owner's graveyard before it ceases to exist. If a token is destroyed by <Werewolf Ransacker> ability, <Werewolf Ransacker> deals damage to that token's controller.
+2011/01/22: If something becomes a copy of <Werewolf Ransacker>, that doesn't count as "transforming into <Werewolf Ransacker>." The first triggered ability of the new <Werewolf Ransacker> doesn't trigger.
+2013/07/01: If the targeted artifact has indestructible or regenerates (or you choose not to destroy it), <Werewolf Ransacker> doesn't deal damage to that artifact's controller. Similarly, if the targeted artifact is destroyed but a replacement effect moves it to a different zone instead of its owner's graveyard, <Werewolf Ransacker> doesn't deal damage to that artifact's controller.
+2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1900,6 +1918,8 @@ At the beginning of each upkeep, if a player cast two or more spells last turn, 
 <Flavor>. . . but the monster within was a tireless hunter.</Flavor>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>247122</Multiverseid>
+<Rulings>2011/01/22: If <Hinterland Scourge> is attacking, the defending player must assign at least one blocker to it during the declare blockers step if that player controls any creatures that could block it.
+2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2001,6 +2021,8 @@ When Markov Warlord enters the battlefield, up to two target creatures can't blo
 At the beginning of each upkeep, if a player cast two or more spells last turn, transform Tovolar's Magehunter.</CardText>
 <Artist>Mike Sass</Artist>
 <Multiverseid>253429</Multiverseid>
+<Rulings>2011/01/22: <Tovolar's Magehunter>'s first triggered ability will resolve before the spell that caused it to trigger. If this causes the player who cast that spell to lose the game, that spell won't resolve.
+2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2310,7 +2332,7 @@ Whenever enchanted creature blocks, you gain 3 life.</CardText>
 <ManaCost>7G (8)</ManaCost>
 <CardText>This spell costs {1} less to cast for each creature card in your graveyard.</CardText>
 <Flavor>It uproots entire fengrafs to add to its twisted frame.</Flavor>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>262662</Multiverseid>
 <Rulings>2011/01/22: <Ghoultree>'s ability can't reduce the total cost to cast the spell below {G}.
 2011/01/22: Although players may respond to <Ghoultree> once it's been cast, once it's announced, they can't respond before the cost is calculated and paid.</Rulings>
@@ -2458,6 +2480,7 @@ Deathtouch (Any amount of damage this deals to a creature is enough to destroy i
 At the beginning of each upkeep, if a player cast two or more spells last turn, transform Silverpelt Werewolf.</CardText>
 <Artist>Matt Stewart</Artist>
 <Multiverseid>242509</Multiverseid>
+<Rulings>2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2535,6 +2558,7 @@ At the beginning of each upkeep, if a player cast two or more spells last turn, 
 <Flavor>". . . and I will bring the fury of the wild back to my village."</Flavor>
 <Artist>Cynthia Sheppard</Artist>
 <Multiverseid>262659</Multiverseid>
+<Rulings>2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2701,6 +2725,9 @@ At the beginning of each upkeep, if no spells were cast last turn, transform Wol
 At the beginning of each upkeep, if a player cast two or more spells last turn, transform Krallenhorde Killer.</CardText>
 <Artist>Zoltan Boros</Artist>
 <Multiverseid>253431</Multiverseid>
+<Rulings>2011/01/22: You can activate Wolfbitten Captive's ability, let it transform into <Krallenhorde Killer>, then activate <Krallenhorde Killer>'s ability, all on the same turn, and vice versa.
+2011/01/22: If you activate one face's ability, and some effect causes the card to transform twice that turn, you won't be able to activate that face's ability again that turn.
+2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2858,6 +2885,7 @@ Whenever this creature transforms into Ravager of the Fells, it deals 2 damage t
 At the beginning of each upkeep, if a player cast two or more spells last turn, transform Ravager of the Fells.</CardText>
 <Artist>Chris Rahn</Artist>
 <Multiverseid>262699</Multiverseid>
+<Rulings>2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2997,6 +3025,9 @@ Equip {2}</CardText>
 <Flavor>The bitter taste of life's only certainty.</Flavor>
 <Artist>Ryan Yee</Artist>
 <Multiverseid>226721</Multiverseid>
+<Rulings>2011/01/22: Your starting life total is the life total you began the game with. For most two-player formats, this is 20. For Two-Headed Giant, it's the life total your team started with, usually 30. In Commander games, the starting life total is 40.
+2011/01/22: You check your life total to see if Chalice of Life transforms only when its ability resolves.
+2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3041,6 +3072,11 @@ Whenever a player loses the game, put thirteen +1/+1 counters on Withengar Unbou
 <Flavor>There are not enough lives on Innistrad to satisfy his thirst for retribution.</Flavor>
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>244738</Multiverseid>
+<Rulings>2011/01/22: The "legend rule" checks only for permanents with exactly the same name. Elbrus, the Binding Blade and <Withengar Unbound> can be on the battlefield at the same time without either going to its owner's graveyard.
+2011/01/22: Elbrus will transform even if you are unable to unattach it (most likely because the equipped creature died).
+2011/01/22: Withengar's triggered ability will trigger no matter how a player loses the game: due to a state-based action (as a result of having a life total of 0 or less, trying to draw a card from an empty library, or having ten poison counters), a spell or ability that says that player loses the game, a concession, or a game loss awarded by a judge.
+2011/01/22: In a multiplayer game using the limited range of influence option (such as a Grand Melee game), if a spell or ability says that you win the game, it instead causes all of your opponents within your range of influence to lose the game. This is another way by which Withengar's ability can trigger.
+2016/07/13: For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

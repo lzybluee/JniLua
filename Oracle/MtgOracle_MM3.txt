@@ -72,8 +72,11 @@ Golem creatures you control have first strike.</CardText>
 Miracle {X}{W}{W} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)</CardText>
 <Artist>Todd Lockwood</Artist>
 <Multiverseid>425829</Multiverseid>
-<Rulings>2017/03/14: A mana cost of {X}{X} means that you pay twice X. If you want X to be 3, you pay {6}{W}{W}{W} to cast <Entreat the Angels>.
-2017/03/14: <Entreat the Angels>'s converted mana cost is based on its mana cost of {X}{X}{W}{W}{W}, even if you're casting it for its miracle cost. For example, if you cast <Entreat the Angels> for its miracle cost and choose 4 for X, its converted mana cost is 11.
+<Rulings>2017/03/14: <Entreat the Angels>'s converted mana cost is based on its mana cost of {X}{X}{W}{W}{W}, even if you're casting it for its miracle cost. For example, if you cast <Entreat the Angels> for its miracle cost and choose 4 for X, its converted mana cost is 11.
+2017/03/14: A mana cost of {X}{X} means that you pay twice X. If you want X to be 3, you pay {6}{W}{W}{W} to cast <Entreat the Angels>.
+2018/07/13: You still draw the card, whether you use the miracle ability or not. Any ability that triggers whenever you draw a card, for example, will trigger. If you don't cast the card using its miracle ability, it will remain in your hand.
+2018/07/13: To determine the total cost of a spell, start with the mana cost or alternative cost (such as a miracle cost) you're paying, add any cost increases, then apply any cost reductions. The converted mana cost of the spell remains unchanged, no matter what the total cost to cast it was.
+2018/07/13: If the card with miracle leaves your hand before the triggered ability resolves, you won't be able to cast it using its miracle ability.
 2018/07/13: It's important to reveal a card with miracle before it is mixed with the other cards in your hand.
 2018/07/13: You can reveal and cast a card with miracle on any turn, not just your own, if it's the first card you've drawn that turn.
 2018/07/13: Multiple card draws are always treated as a sequence of individual card draws. For example, if you haven't drawn any cards yet during a turn and cast a spell that instructs you to draw three cards, you'll draw them one at a time. Only the first card drawn this way may be revealed and cast using its miracle ability.
@@ -81,10 +84,7 @@ Miracle {X}{W}{W} (You may cast this card for its miracle cost when you draw it 
 2018/07/13: You don't have to reveal a drawn card with miracle if you don't wish to cast it at that time.
 2018/07/13: You can cast a card for its miracle cost only as the miracle triggered ability resolves. If you don't want to cast it at that time (or you can't cast it, perhaps because there are no legal targets available), you won't be able to cast it later for the miracle cost.
 2018/07/13: You cast the card with miracle during the resolution of the triggered ability. Ignore any timing rules based on the card's type.
-2018/07/13: Miracle is an alternative cost to cast the spell with miracle. It can't be combined with other alternative costs, such as casting a spell "without paying its mana cost."
-2018/07/13: To determine the total cost of a spell, start with the mana cost or alternative cost (such as a miracle cost) you're paying, add any cost increases, then apply any cost reductions. The converted mana cost of the spell remains unchanged, no matter what the total cost to cast it was.
-2018/07/13: If the card with miracle leaves your hand before the triggered ability resolves, you won't be able to cast it using its miracle ability.
-2018/07/13: You still draw the card, whether you use the miracle ability or not. Any ability that triggers whenever you draw a card, for example, will trigger. If you don't cast the card using its miracle ability, it will remain in your hand.</Rulings>
+2018/07/13: Miracle is an alternative cost to cast the spell with miracle. It can't be combined with other alternative costs, such as casting a spell "without paying its mana cost."</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -410,12 +410,12 @@ When Restoration Angel enters the battlefield, you may exile target non-Angel cr
 <CardText>Populate. Creatures you control gain indestructible until end of turn. (To populate, create a token that's a copy of a creature token you control.)</CardText>
 <Artist>Mark Zug</Artist>
 <Multiverseid>425846</Multiverseid>
-<Rulings>2013/04/15: You can choose any creature token you control for populate. If a spell or ability puts a token onto the battlefield under your control and then instructs you to populate (as Coursers' Accord does), you may choose to copy the token you just created, or you may choose to copy another creature token you control.
-2013/04/15: If you choose to copy a creature token that's a copy of another creature, the new creature token will copy the characteristics of whatever the original token is copying.
+<Rulings>2013/04/15: If you choose to copy a creature token that's a copy of another creature, the new creature token will copy the characteristics of whatever the original token is copying.
 2013/04/15: The new creature token copies the characteristics of the original token as stated by the effect that put the original token onto the battlefield.
-2013/04/15: The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
+2013/04/15: You can choose any creature token you control for populate. If a spell or ability puts a token onto the battlefield under your control and then instructs you to populate (as Coursers' Accord does), you may choose to copy the token you just created, or you may choose to copy another creature token you control.
 2013/04/15: Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the new token will work.
 2013/04/15: If you control no creature tokens when you populate, nothing will happen.
+2013/04/15: The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
 2017/03/14: <Rootborn Defenses> affects only creatures you control after populating at the time it resolves. The creature token you create will gain indestructible, but creatures you begin to control later in the turn will not.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -516,6 +516,7 @@ Miracle {W} (You may cast this card for its miracle cost when you draw it if it'
 <Artist>James Paick</Artist>
 <Multiverseid>425851</Multiverseid>
 <Rulings>2017/03/14: Each player chooses the order that creatures they own are put onto the bottom of their library. This order isn't revealed to other players.
+2018/07/13: You still draw the card, whether you use the miracle ability or not. Any ability that triggers whenever you draw a card, for example, will trigger. If you don't cast the card using its miracle ability, it will remain in your hand.
 2018/07/13: It's important to reveal a card with miracle before it is mixed with the other cards in your hand.
 2018/07/13: You can reveal and cast a card with miracle on any turn, not just your own, if it's the first card you've drawn that turn.
 2018/07/13: Multiple card draws are always treated as a sequence of individual card draws. For example, if you haven't drawn any cards yet during a turn and cast a spell that instructs you to draw three cards, you'll draw them one at a time. Only the first card drawn this way may be revealed and cast using its miracle ability.
@@ -525,8 +526,7 @@ Miracle {W} (You may cast this card for its miracle cost when you draw it if it'
 2018/07/13: You cast the card with miracle during the resolution of the triggered ability. Ignore any timing rules based on the card's type.
 2018/07/13: Miracle is an alternative cost to cast the spell with miracle. It can't be combined with other alternative costs, such as casting a spell "without paying its mana cost."
 2018/07/13: To determine the total cost of a spell, start with the mana cost or alternative cost (such as a miracle cost) you're paying, add any cost increases, then apply any cost reductions. The converted mana cost of the spell remains unchanged, no matter what the total cost to cast it was.
-2018/07/13: If the card with miracle leaves your hand before the triggered ability resolves, you won't be able to cast it using its miracle ability.
-2018/07/13: You still draw the card, whether you use the miracle ability or not. Any ability that triggers whenever you draw a card, for example, will trigger. If you don't cast the card using its miracle ability, it will remain in your hand.</Rulings>
+2018/07/13: If the card with miracle leaves your hand before the triggered ability resolves, you won't be able to cast it using its miracle ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -981,10 +981,11 @@ Flashback {5}{B} (You may cast this card from your graveyard for its flashback c
 When Snapcaster Mage enters the battlefield, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost. (You may cast that card from your graveyard for its flashback cost. Then exile it.)</CardText>
 <Artist>Ryan Alexander Lee</Artist>
 <Multiverseid>425875</Multiverseid>
-<Rulings>2017/03/14: If you cast an instant or sorcery with {X} in its mana cost this way, you still choose the value of X as part of casting the spell and pay that cost.
-2017/03/14: If an instant or sorcery card in your graveyard already has flashback, you may use either flashback ability to cast it from your graveyard.
-2017/03/14: You may pay any optional additional costs the spell has, such as conspire costs. You must pay any mandatory additional costs the spell has, such as that of Bone Splinters.
-2017/04/18: For split cards, the flashback cost you pay is determined by the half you cast.</Rulings>
+<Rulings>2017/04/18: For split cards, the flashback cost you pay is determined by the half you cast
+2018/12/07: If you cast a spell from a graveyard using its flashback ability, you can't pay other alternative costs (such as that of Foil).
+2018/12/07: If you cast an instant or sorcery with {X} in its mana cost this way, you still choose the value of X as part of casting the spell and pay that cost.
+2018/12/07: If an instant or sorcery card in your graveyard already has flashback, you may use either flashback ability to cast it from your graveyard.
+2018/12/07: You may pay any optional additional costs the spell has, such as kicker costs. You must pay any mandatory additional costs the spell has, such as that of Tormenting Voice.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1456,7 +1457,7 @@ Unearth {3}{B} ({3}{B}: Return this card from your graveyard to the battlefield.
 <ManaCost>B (1)</ManaCost>
 <CardText>Target player reveals their hand. You choose a nonland card from it with converted mana cost 3 or less. That player discards that card.</CardText>
 <Flavor>After the awakening of the Eldrazi, some vampires took it upon themselves to remind the others where their loyalty should lie.</Flavor>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>425900</Multiverseid>
 <Rulings>2014/02/01: If you target yourself with this spell, you must reveal your entire hand to the other players just as any other player would.</Rulings>
 <Vintage>Legal</Vintage>
@@ -1477,10 +1478,10 @@ Unearth {3}{B} ({3}{B}: Return this card from your graveyard to the battlefield.
 -6: Separate all permanents target player controls into two piles. That player sacrifices all permanents in the pile of their choice.</CardText>
 <Artist>Steve Argyle</Artist>
 <Multiverseid>425901</Multiverseid>
-<Rulings>2017/03/14: When Liliana's first ability resolves, first the player whose turn it is chooses a card to discard, then each other player in turn order chooses a card to discard, then those cards are discarded simultaneously. No one sees what the other players are discarding before deciding which card to discard.
-2017/03/14: The player targeted by Liliana's second ability chooses which creature to sacrifice when the ability resolves. This ability doesn't target any creature.
-2017/03/14: When Liliana's third ability resolves, you put each permanent the player controls into one of the two piles. For example, you could put a creature into one pile and an Aura enchanting that creature into the other pile.
-2017/03/14: A pile can be empty. If the player chooses an empty pile, no permanents will be sacrificed.</Rulings>
+<Rulings>2018/12/07: You can activate Liliana's first ability even if some or all players will be unable to discard a card.
+2018/12/07: When Liliana's first ability resolves, first the player whose turn it is chooses a card in hand without revealing it, then each other player in turn order does the same. Then all the chosen cards are discarded at the same time.
+2018/12/07: When Liliana's third ability resolves, you put each permanent the player controls into one of the two piles. For example, you could put a creature into one pile and an Aura enchanting that creature into the other pile.
+2018/12/07: A pile can be empty. If the player chooses an empty pile, no permanents will be sacrificed.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1815,13 +1816,13 @@ Overload {2}{R} (You may cast this spell for its overload cost. If you do, chang
 <Flavor>Nothing evens the odds like a little lightning.</Flavor>
 <Artist>Matt Stewart</Artist>
 <Multiverseid>425919</Multiverseid>
-<Rulings>2013/04/15: If you don't pay the overload cost of a spell, that spell will have a single target. If you pay the overload cost, the spell won't have any targets.
-2013/04/15: Because a spell with overload doesn't target when its overload cost is paid, it may affect permanents with hexproof or with protection from the appropriate color.
+<Rulings>2013/04/15: Because a spell with overload doesn't target when its overload cost is paid, it may affect permanents with hexproof or with protection from the appropriate color.
 2013/04/15: Note that if the spell with overload is dealing damage, protection from that spell's color will still prevent that damage.
 2013/04/15: Overload doesn't change when you can cast the spell.
-2013/04/15: Casting a spell with overload doesn't change that spell's mana cost. You just pay the overload cost instead.
+2013/04/15: If you don't pay the overload cost of a spell, that spell will have a single target. If you pay the overload cost, the spell won't have any targets.
 2013/04/15: Effects that cause you to pay more or less for a spell will cause you to pay that much more or less while casting it for its overload cost, too.
 2013/04/15: If you are instructed to cast a spell with overload "without paying its mana cost," you can't choose to pay its overload cost instead.
+2013/04/15: Casting a spell with overload doesn't change that spell's mana cost. You just pay the overload cost instead.
 2017/03/14: An overloaded <Dynacharge> affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won't get +2/+0.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2037,7 +2038,7 @@ Flashback {4}{R} (You may cast this card from your graveyard for its flashback c
 2017/03/14: If you cast an instant or sorcery with {X} in its mana cost this way, you still choose the value of X as part of casting the spell and pay that cost.
 2017/03/14: If an instant or sorcery card in your graveyard already has flashback, you may use either flashback ability to cast it from your graveyard.
 2017/03/14: You may pay any optional additional costs the spell has, such as conspire costs. You must pay any mandatory additional costs the spell has, such as that of Bone Splinters.
-2017/04/18: For split cards, the flashback cost you pay is determined by the half you cast.</Rulings>
+2017/04/18: For split cards, the flashback cost you pay is determined by the half you cast</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2408,12 +2409,12 @@ When Craterhoof Behemoth enters the battlefield, creatures you control gain tram
 <Flavor>"So many oppose us, but we are the reed that bends without breaking."</Flavor>
 <Artist>Dan Scott</Artist>
 <Multiverseid>425949</Multiverseid>
-<Rulings>2013/04/15: You can choose any creature token you control for populate. If a spell or ability puts a token onto the battlefield under your control and then instructs you to populate (as Coursers' Accord does), you may choose to copy the token you just created, or you may choose to copy another creature token you control.
+<Rulings>2013/04/15: The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
+2013/04/15: You can choose any creature token you control for populate. If a spell or ability puts a token onto the battlefield under your control and then instructs you to populate (as Coursers' Accord does), you may choose to copy the token you just created, or you may choose to copy another creature token you control.
+2013/04/15: If you control no creature tokens when you populate, nothing will happen.
+2013/04/15: Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the new token will work.
 2013/04/15: If you choose to copy a creature token that's a copy of another creature, the new creature token will copy the characteristics of whatever the original token is copying.
 2013/04/15: The new creature token copies the characteristics of the original token as stated by the effect that put the original token onto the battlefield.
-2013/04/15: The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
-2013/04/15: Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the new token will work.
-2013/04/15: If you control no creature tokens when you populate, nothing will happen.
 2017/03/14: You can cast <Druid's Deliverance> even if you don't control any creature tokens.
 2017/03/14: Combat damage dealt to creatures or planeswalkers you control won't be prevented.
 2017/03/14: In a Two-Headed Giant game, combat damage dealt to your teammate won't be prevented.</Rulings>
@@ -2739,9 +2740,10 @@ Look at the top seven cards of your library. You may put a creature card from am
 <Flavor>What doesn't grow, dies. And what dies grows the tarmogoyf.</Flavor>
 <Artist>Ryan Barger</Artist>
 <Multiverseid>425966</Multiverseid>
-<Rulings>2017/03/14: <Tarmogoyf>'s ability works in all zones, not just while <Tarmogoyf> is on the battlefield.
-2017/03/14: <Tarmogoyf> counts card types, not cards. If the only card in all graveyards is a single artifact creature, <Tarmogoyf> will be 2/3. If the only cards in all graveyards are ten artifact creatures, <Tarmogoyf> will still be 2/3.
-2017/03/14: The card types that can appear on cards in a graveyard are artifact, creature, enchantment, instant, land, planeswalker, sorcery, and tribal (a card type that appears on some older cards). Legendary and basic are supertypes, not card types.</Rulings>
+<Rulings>2018/12/07: The ability that defines <Tarmogoyf>'s power and toughness works in all zones, not just the battlefield. If <Tarmogoyf> is in your graveyard, it will count itself.
+2018/12/07: <Tarmogoyf> counts card types, not cards. If the only card in all graveyards is a single artifact creature, <Tarmogoyf> will be 2/3. If the only cards in all graveyards are ten artifact creatures, <Tarmogoyf> will still be 2/3.
+2018/12/07: The card types that can appear on cards in a graveyard are artifact, creature, enchantment, instant, land, planeswalker, sorcery, and tribal. Legendary, basic, and snow are supertypes, not card types.
+2018/12/07: If an instant or sorcery spell deals damage to <Tarmogoyf> or lowers its toughness, that spell is put into its owner's graveyard before state-based actions are performed. If that spell is the first of its type to enter a graveyard, it will raise <Tarmogoyf>'s toughness before the game checks to see if <Tarmogoyf> dies.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3224,9 +3226,8 @@ Bloodrush — {R}{G}, Discard Ghor-Clan Rampager: Target attacking creature gets
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>425991</Multiverseid>
 <Rulings>2017/03/14: Two <Goblin Electromancer>s will make instant and sorcery spells you cast cost {2} less to cast, and so on.
-2017/03/14: <Goblin Electromancer> can't reduce colored mana costs or {C} in the cost of instant or sorcery spells.
-2017/03/14: If there are additional costs to cast a spell, such as a kicker cost or a cost imposed by another effect (such as the one imposed by Thalia, Guardian of Thraben's ability), apply those increases before applying cost reductions.
-2017/03/14: <Goblin Electromancer> can reduce alternative costs such as overload costs and flashback costs.</Rulings>
+2018/10/05: To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The converted mana cost of the spell remains unchanged, no matter what the total cost to cast it was.
+2018/10/05: <Goblin Electromancer>'s effect reduces only generic mana in the spell's total cost.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3674,7 +3675,7 @@ Discard two cards: Soul Ransom's controller sacrifices it, then draws two cards.
 <CardText>Flying, vigilance
 Players can't untap more than one creature during their untap steps.</CardText>
 <Flavor>Even the most battle-hardened soldiers pause in her presence for a moment of introspection.</Flavor>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>426015</Multiverseid>
 <Rulings>2017/03/14: If multiple <Stoic Angel>s are on the battlefield, their effects are redundant. Each player will still be able to untap no more than one creature during their untap step.
 2017/03/14: Noncreature permanents will untap as normal during their controllers' untap steps.</Rulings>
@@ -3730,13 +3731,13 @@ Players can't untap more than one creature during their untap steps.</CardText>
 Overload {3}{U}{R} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of "target" with "each.")</CardText>
 <Artist>Scott M. Fischer</Artist>
 <Multiverseid>426018</Multiverseid>
-<Rulings>2013/04/15: If you don't pay the overload cost of a spell, that spell will have a single target. If you pay the overload cost, the spell won't have any targets.
-2013/04/15: Because a spell with overload doesn't target when its overload cost is paid, it may affect permanents with hexproof or with protection from the appropriate color.
+<Rulings>2013/04/15: Because a spell with overload doesn't target when its overload cost is paid, it may affect permanents with hexproof or with protection from the appropriate color.
 2013/04/15: Note that if the spell with overload is dealing damage, protection from that spell's color will still prevent that damage.
 2013/04/15: Overload doesn't change when you can cast the spell.
-2013/04/15: Casting a spell with overload doesn't change that spell's mana cost. You just pay the overload cost instead.
+2013/04/15: If you don't pay the overload cost of a spell, that spell will have a single target. If you pay the overload cost, the spell won't have any targets.
 2013/04/15: Effects that cause you to pay more or less for a spell will cause you to pay that much more or less while casting it for its overload cost, too.
 2013/04/15: If you are instructed to cast a spell with overload "without paying its mana cost," you can't choose to pay its overload cost instead.
+2013/04/15: Casting a spell with overload doesn't change that spell's mana cost. You just pay the overload cost instead.
 2017/03/14: The set of creatures that gets +1/+0 from an overloaded <Teleportal> is determined as the spell resolves. Creatures you begin to control later in the turn won't get +1/+0. However, because the second part of <Teleportal>'s effect doesn't change the characteristics of any permanents, the set of creatures that can't be blocked is constantly updated. Any creature you control at the moment blockers are chosen can't be blocked.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3805,7 +3806,7 @@ Overload {3}{U}{R} (You may cast this spell for its overload cost. If you do, ch
 <Type>Enchantment — Aura</Type>
 <ManaCost>1GW (3)</ManaCost>
 <CardText>Enchant creature
-Enchanted creature gets +2/+2 and has trample and lifelink.</CardText>
+Enchanted creature gets +2/+2 and has trample and lifelink. (Damage dealt by a creature with lifelink also causes its controller to gain that much life.)</CardText>
 <Flavor>As Trostani's influence grew, vitality spread through the Conclave—much to the other guilds' dismay.</Flavor>
 <Artist>Mike Bierek</Artist>
 <Multiverseid>426022</Multiverseid>
@@ -3827,9 +3828,9 @@ Enchanted creature gets +2/+2 and has trample and lifelink.</CardText>
 <Flavor>As the Simic released more of their krasis experiments, they required new habitats, always at the expense of the locals.</Flavor>
 <Artist>Eytan Zana</Artist>
 <Multiverseid>426023</Multiverseid>
-<Rulings>2017/03/14: <Urban Evolution>'s effect allows you to play an additional land during your main phase. Doing so follows the normal timing rules for playing lands. In particular, you don't get to play a land as <Urban Evolution> resolves; <Urban Evolution> fully resolves first and draws three cards, perhaps including a land you'll play later.
-2017/03/14: The effects of multiple <Urban Evolution>s in the same turn are cumulative. They're also cumulative with other effects that let you play additional lands, such as the one from Explore.
-2017/03/14: If you somehow manage to cast <Urban Evolution> when it's not your turn, you'll draw three cards when it resolves, but you won't be able to play a land that turn.</Rulings>
+<Rulings>2018/12/07: <Urban Evolution>'s effect allows you to play an additional land during your main phase. Doing so follows the normal timing rules for playing lands. In particular, you don't get to play a land as <Urban Evolution> resolves; <Urban Evolution> fully resolves first and you draw three cards, perhaps including a land you'll play later.
+2018/12/07: The effects of multiple <Urban Evolution>s in the same turn are cumulative. They're also cumulative with other effects that let you play additional lands, such as the one from Explore.
+2018/12/07: If you somehow manage to cast <Urban Evolution> when it's not your turn, you'll draw three cards when it resolves, but you won't be able to play a land that turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3904,12 +3905,12 @@ Shroud (This creature can't be the target of spells or abilities.)</CardText>
 Whenever Wayfaring Temple deals combat damage to a player, populate. (Create a token that's a copy of a creature token you control.)</CardText>
 <Artist>Peter Mohrbacher</Artist>
 <Multiverseid>426027</Multiverseid>
-<Rulings>2013/04/15: You can choose any creature token you control for populate. If a spell or ability puts a token onto the battlefield under your control and then instructs you to populate (as Coursers' Accord does), you may choose to copy the token you just created, or you may choose to copy another creature token you control.
-2013/04/15: If you choose to copy a creature token that's a copy of another creature, the new creature token will copy the characteristics of whatever the original token is copying.
-2013/04/15: The new creature token copies the characteristics of the original token as stated by the effect that put the original token onto the battlefield.
+<Rulings>2013/04/15: The new creature token copies the characteristics of the original token as stated by the effect that put the original token onto the battlefield.
 2013/04/15: The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
-2013/04/15: Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the new token will work.
+2013/04/15: You can choose any creature token you control for populate. If a spell or ability puts a token onto the battlefield under your control and then instructs you to populate (as Coursers' Accord does), you may choose to copy the token you just created, or you may choose to copy another creature token you control.
 2013/04/15: If you control no creature tokens when you populate, nothing will happen.
+2013/04/15: Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the new token will work.
+2013/04/15: If you choose to copy a creature token that's a copy of another creature, the new creature token will copy the characteristics of whatever the original token is copying.
 2017/03/14: The ability that defines <Wayfaring Temple>'s power and toughness works in all zones, not just the battlefield.
 2017/03/14: As long as <Wayfaring Temple> is on the battlefield, its first ability will count itself, so it'll be at least 1/1.</Rulings>
 <Vintage>Legal</Vintage>
@@ -3946,7 +3947,8 @@ Whenever Zur the Enchanter attacks, you may search your library for an enchantme
 <Flavor>Zur remained aloof from Terisiare's suffering, intent only on his own perfection.</Flavor>
 <Artist>Pete Venters</Artist>
 <Multiverseid>426029</Multiverseid>
-<Rulings>2017/03/14: An Aura put onto the battlefield without being cast doesn't target anything, so it could be attached to a permanent with shroud or hexproof. However, the Aura's enchant ability restricts what it can be attached to.</Rulings>
+<Rulings>2015/01/19: <Zur the Enchanter> is banned as a commander in Duel Commander format, but it may be part of your deck.
+2017/03/14: An Aura put onto the battlefield without being cast doesn't target anything, so it could be attached to a permanent with shroud or hexproof. However, the Aura's enchant ability restricts what it can be attached to.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4076,12 +4078,12 @@ Enchanted creature gets +1/+1 and has flying and lifelink.</CardText>
 —Trostani</Flavor>
 <Artist>David Palumbo</Artist>
 <Multiverseid>426036</Multiverseid>
-<Rulings>2013/04/15: You can choose any creature token you control for populate. If a spell or ability puts a token onto the battlefield under your control and then instructs you to populate (as Coursers' Accord does), you may choose to copy the token you just created, or you may choose to copy another creature token you control.
-2013/04/15: If you choose to copy a creature token that's a copy of another creature, the new creature token will copy the characteristics of whatever the original token is copying.
+<Rulings>2013/04/15: If you choose to copy a creature token that's a copy of another creature, the new creature token will copy the characteristics of whatever the original token is copying.
 2013/04/15: The new creature token copies the characteristics of the original token as stated by the effect that put the original token onto the battlefield.
-2013/04/15: The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
+2013/04/15: You can choose any creature token you control for populate. If a spell or ability puts a token onto the battlefield under your control and then instructs you to populate (as Coursers' Accord does), you may choose to copy the token you just created, or you may choose to copy another creature token you control.
 2013/04/15: Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the new token will work.
 2013/04/15: If you control no creature tokens when you populate, nothing will happen.
+2013/04/15: The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
 2017/03/14: You must target an artifact or enchantment to cast <Sundering Growth>. If that artifact or enchantment is an illegal target when <Sundering Growth> tries to resolve, it won't resolve and none of its effects will happen. You won't populate.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -4441,8 +4443,6 @@ Players can't cast spells from graveyards or libraries.</CardText>
 <Flavor>It promises protection to those in need and proclaims a warning to any who would threaten Ravnican law.</Flavor>
 <Artist>Noah Bradley</Artist>
 <Multiverseid>426056</Multiverseid>
-<Rulings>2013/04/15: The subtype Gate has no special rules significance, but other spells and abilities may refer to it.
-2013/04/15: Gate is not a basic land type.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4460,8 +4460,8 @@ Players can't cast spells from graveyards or libraries.</CardText>
 {T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type, and that spell can't be countered.</CardText>
 <Artist>Richard Wright</Artist>
 <Multiverseid>426057</Multiverseid>
-<Rulings>2017/03/14: You must choose an existing creature type, such as Zombie or Warrior. Card types such as artifact can't be chosen.
-2017/03/14: The spell can't be countered if the mana produced by <Cavern of Souls> is spent to cover any cost of the spell, even an additional cost such as a kicker cost. This is true even if you use the mana to pay an additional cost while casting a spell "without paying its mana cost."</Rulings>
+<Rulings>2018/12/07: You must choose an existing creature type, such as Human or Warrior. Card types such as artifact can't be chosen.
+2018/12/07: The spell can't be countered if the mana produced by <Cavern of Souls> is spent to cover any cost of the spell, even an additional cost such as a kicker cost. This is true even if you use the mana to pay an additional cost while casting a spell "without paying its mana cost."</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4497,8 +4497,6 @@ Players can't cast spells from graveyards or libraries.</CardText>
 <Flavor>In the cold corridors of the undercity, misinformation unfurls from Duskmantle like a spreading stain.</Flavor>
 <Artist>Cliff Childs</Artist>
 <Multiverseid>426059</Multiverseid>
-<Rulings>2013/04/15: The subtype Gate has no special rules significance, but other spells and abilities may refer to it.
-2013/04/15: Gate is not a basic land type.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4516,8 +4514,6 @@ Players can't cast spells from graveyards or libraries.</CardText>
 <Flavor>Every part of the gate was reclaimed from forgotten ruins and imbued with new purpose by the Swarm.</Flavor>
 <Artist>Eytan Zana</Artist>
 <Multiverseid>426060</Multiverseid>
-<Rulings>2013/04/15: The subtype Gate has no special rules significance, but other spells and abilities may refer to it.
-2013/04/15: Gate is not a basic land type.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4554,8 +4550,6 @@ Players can't cast spells from graveyards or libraries.</CardText>
 <Flavor>Beyond lies the culmination of all Izzet projects, a grand experiment led by the dragon Niv-Mizzet himself.</Flavor>
 <Artist>Noah Bradley</Artist>
 <Multiverseid>426062</Multiverseid>
-<Rulings>2013/04/15: The subtype Gate has no special rules significance, but other spells and abilities may refer to it.
-2013/04/15: Gate is not a basic land type.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4689,7 +4683,7 @@ Players can't cast spells from graveyards or libraries.</CardText>
 <CardText>Seaside Citadel enters the battlefield tapped.
 {T}: Add {G}, {W}, or {U}.</CardText>
 <Flavor>For wisdom's sake, it was built high to gaze on all things. For glory's sake, it was built high as a testament of power. For strength's sake, it was built high to repel all attacks.</Flavor>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>426070</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -4708,8 +4702,6 @@ Players can't cast spells from graveyards or libraries.</CardText>
 <Flavor>The Selesyna welcome all to help them heal the city's wounds. The price, however, is devotion to the guild and a selfless belief in Trostani.</Flavor>
 <Artist>Howard Lyon</Artist>
 <Multiverseid>426071</Multiverseid>
-<Rulings>2013/04/15: The subtype Gate has no special rules significance, but other spells and abilities may refer to it.
-2013/04/15: Gate is not a basic land type.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

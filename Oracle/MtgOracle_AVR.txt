@@ -364,8 +364,8 @@ When Emancipation Angel enters the battlefield, return a permanent you control t
 <Flavor>"You have done your best. I give you leave to rest."</Flavor>
 <Artist>Scott Chou</Artist>
 <Multiverseid>239980</Multiverseid>
-<Rulings>2012/05/01: The triggered ability doesn't target a permanent. You choose which one to return to its owner's hand as the ability resolves. No one can respond to the choice.
-2012/05/01: If <Emancipation Angel> is still on the battlefield as its triggered ability resolves, you may return <Emancipation Angel> itself.</Rulings>
+<Rulings>2018/12/07: For <Emancipation Angel>'s triggered ability, the permanent to return is chosen as the ability resolves. No player may take actions between the time you choose the permanent and the time it's returned to its owner's hand.
+2018/12/07: If <Emancipation Angel> is still on the battlefield as its triggered ability resolves, you may return <Emancipation Angel> itself.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -383,8 +383,11 @@ When Emancipation Angel enters the battlefield, return a permanent you control t
 Miracle {X}{W}{W} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)</CardText>
 <Artist>Todd Lockwood</Artist>
 <Multiverseid>247426</Multiverseid>
-<Rulings>2017/03/14: A mana cost of {X}{X} means that you pay twice X. If you want X to be 3, you pay {6}{W}{W}{W} to cast <Entreat the Angels>.
-2017/03/14: <Entreat the Angels>'s converted mana cost is based on its mana cost of {X}{X}{W}{W}{W}, even if you're casting it for its miracle cost. For example, if you cast <Entreat the Angels> for its miracle cost and choose 4 for X, its converted mana cost is 11.
+<Rulings>2017/03/14: <Entreat the Angels>'s converted mana cost is based on its mana cost of {X}{X}{W}{W}{W}, even if you're casting it for its miracle cost. For example, if you cast <Entreat the Angels> for its miracle cost and choose 4 for X, its converted mana cost is 11.
+2017/03/14: A mana cost of {X}{X} means that you pay twice X. If you want X to be 3, you pay {6}{W}{W}{W} to cast <Entreat the Angels>.
+2018/07/13: You still draw the card, whether you use the miracle ability or not. Any ability that triggers whenever you draw a card, for example, will trigger. If you don't cast the card using its miracle ability, it will remain in your hand.
+2018/07/13: To determine the total cost of a spell, start with the mana cost or alternative cost (such as a miracle cost) you're paying, add any cost increases, then apply any cost reductions. The converted mana cost of the spell remains unchanged, no matter what the total cost to cast it was.
+2018/07/13: If the card with miracle leaves your hand before the triggered ability resolves, you won't be able to cast it using its miracle ability.
 2018/07/13: It's important to reveal a card with miracle before it is mixed with the other cards in your hand.
 2018/07/13: You can reveal and cast a card with miracle on any turn, not just your own, if it's the first card you've drawn that turn.
 2018/07/13: Multiple card draws are always treated as a sequence of individual card draws. For example, if you haven't drawn any cards yet during a turn and cast a spell that instructs you to draw three cards, you'll draw them one at a time. Only the first card drawn this way may be revealed and cast using its miracle ability.
@@ -392,10 +395,7 @@ Miracle {X}{W}{W} (You may cast this card for its miracle cost when you draw it 
 2018/07/13: You don't have to reveal a drawn card with miracle if you don't wish to cast it at that time.
 2018/07/13: You can cast a card for its miracle cost only as the miracle triggered ability resolves. If you don't want to cast it at that time (or you can't cast it, perhaps because there are no legal targets available), you won't be able to cast it later for the miracle cost.
 2018/07/13: You cast the card with miracle during the resolution of the triggered ability. Ignore any timing rules based on the card's type.
-2018/07/13: Miracle is an alternative cost to cast the spell with miracle. It can't be combined with other alternative costs, such as casting a spell "without paying its mana cost."
-2018/07/13: To determine the total cost of a spell, start with the mana cost or alternative cost (such as a miracle cost) you're paying, add any cost increases, then apply any cost reductions. The converted mana cost of the spell remains unchanged, no matter what the total cost to cast it was.
-2018/07/13: If the card with miracle leaves your hand before the triggered ability resolves, you won't be able to cast it using its miracle ability.
-2018/07/13: You still draw the card, whether you use the miracle ability or not. Any ability that triggers whenever you draw a card, for example, will trigger. If you don't cast the card using its miracle ability, it will remain in your hand.</Rulings>
+2018/07/13: Miracle is an alternative cost to cast the spell with miracle. It can't be combined with other alternative costs, such as casting a spell "without paying its mana cost."</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -631,7 +631,7 @@ When Restoration Angel enters the battlefield, you may exile target non-Angel cr
 <CardText>Vigilance
 As Riders of Gavony enters the battlefield, choose a creature type.
 Human creatures you control have protection from creatures of the chosen type.</CardText>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>240015</Multiverseid>
 <Rulings>2012/05/01: You must choose an existing _Magic_ creature type, such as Zombie or Warrior. Card types such as artifact can't be chosen.</Rulings>
 <Vintage>Legal</Vintage>
@@ -722,6 +722,7 @@ Miracle {W} (You may cast this card for its miracle cost when you draw it if it'
 <Artist>James Paick</Artist>
 <Multiverseid>262703</Multiverseid>
 <Rulings>2017/03/14: Each player chooses the order that creatures they own are put onto the bottom of their library. This order isn't revealed to other players.
+2018/07/13: You still draw the card, whether you use the miracle ability or not. Any ability that triggers whenever you draw a card, for example, will trigger. If you don't cast the card using its miracle ability, it will remain in your hand.
 2018/07/13: It's important to reveal a card with miracle before it is mixed with the other cards in your hand.
 2018/07/13: You can reveal and cast a card with miracle on any turn, not just your own, if it's the first card you've drawn that turn.
 2018/07/13: Multiple card draws are always treated as a sequence of individual card draws. For example, if you haven't drawn any cards yet during a turn and cast a spell that instructs you to draw three cards, you'll draw them one at a time. Only the first card drawn this way may be revealed and cast using its miracle ability.
@@ -731,8 +732,7 @@ Miracle {W} (You may cast this card for its miracle cost when you draw it if it'
 2018/07/13: You cast the card with miracle during the resolution of the triggered ability. Ignore any timing rules based on the card's type.
 2018/07/13: Miracle is an alternative cost to cast the spell with miracle. It can't be combined with other alternative costs, such as casting a spell "without paying its mana cost."
 2018/07/13: To determine the total cost of a spell, start with the mana cost or alternative cost (such as a miracle cost) you're paying, add any cost increases, then apply any cost reductions. The converted mana cost of the spell remains unchanged, no matter what the total cost to cast it was.
-2018/07/13: If the card with miracle leaves your hand before the triggered ability resolves, you won't be able to cast it using its miracle ability.
-2018/07/13: You still draw the card, whether you use the miracle ability or not. Any ability that triggers whenever you draw a card, for example, will trigger. If you don't cast the card using its miracle ability, it will remain in your hand.</Rulings>
+2018/07/13: If the card with miracle leaves your hand before the triggered ability resolves, you won't be able to cast it using its miracle ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1605,7 +1605,7 @@ As long as Wingcrafter is paired with another creature, both creatures have flyi
 <Flavor>Just as with a peach, the first bite is always the juiciest.</Flavor>
 <Artist>Michael C. Hayes</Artist>
 <Multiverseid>279612</Multiverseid>
-<Rulings>2012/05/01: If a card in a player's hand has {X} in its mana cost, X is 0.</Rulings>
+<Rulings>2018/12/07: If a card in a player's hand has {X} in its mana cost, X is considered to be 0.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1663,6 +1663,7 @@ As long as Wingcrafter is paired with another creature, both creatures have flyi
 —Sorin Markov</Flavor>
 <Artist>Slawomir Maniak</Artist>
 <Multiverseid>240196</Multiverseid>
+<Rulings>2018/12/07: You can sacrifice <Bloodflow Connoisseur> to pay the cost for its own ability. In this case, nothing happens as the ability resolves.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1989,7 +1990,7 @@ Enchanted creature gets -1/-1 and is a black Zombie in addition to its other col
 <ManaCost>1B (2)</ManaCost>
 <CardText>If combat damage would be dealt to Gloom Surgeon, prevent that damage and exile that many cards from the top of your library.</CardText>
 <Flavor>He roams the streets of Havengul seeking the sick and delirious so that he may cure them of their lives.</Flavor>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>240165</Multiverseid>
 <Rulings>2012/05/01: Combat damage that would be dealt to <Gloom Surgeon> will be prevented even if you can't exile that many cards from the top of your library.
 2012/05/01: If damage that can't be prevented (such as the damage Malignus deals) is dealt to <Gloom Surgeon>, you'll still exile cards from your library.</Rulings>
@@ -2355,7 +2356,7 @@ Undying (When this creature dies, if it had no +1/+1 counters on it, return it t
 <CardText>Enchant creature
 When enchanted creature dies, return that card to the battlefield under your control.</CardText>
 <Flavor>Agreements with demons seldom end at the grave.</Flavor>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>239974</Multiverseid>
 <Rulings>2012/05/01: The card will return to the battlefield under your control only if it's still in the graveyard when <Unhallowed Pact>'s ability resolves. If it's not (perhaps because an ability like undying has already returned it to the battlefield), nothing happens.
 2012/05/01: If <Unhallowed Pact> is enchanting a token creature, that creature can't return to the battlefield.</Rulings>
@@ -3102,7 +3103,9 @@ Miracle {R} (You may cast this card for its miracle cost when you draw it if it'
 <Flavor>It's not any fun until someone loses an eye.</Flavor>
 <Artist>Lucas Graciano</Artist>
 <Multiverseid>278257</Multiverseid>
-<Rulings>2012/05/01: If a player chooses to have <Vexing Devil> deal 4 damage to them, but some or all of that damage is prevented or redirected, <Vexing Devil> will still be sacrificed.</Rulings>
+<Rulings>2012/05/01: If a player chooses to have <Vexing Devil> deal 4 damage to them, but some or all of that damage is prevented or redirected, <Vexing Devil> will still be sacrificed.
+2018/12/07: As <Vexing Devil>'s ability resolves, the next opponent in turn order (or, if it's an opponent's turn, that opponent) chooses whether to be dealt 4 damage, then each other opponent in turn order does the same. If any of them do, you sacrifice <Vexing Devil>.
+2018/12/07: No player may take actions between the time an opponent chooses to be dealt damage by <Vexing Devil> and the time you sacrifice <Vexing Devil>. This means that you can't use a spell or ability (such as Turn to Mist) to stop <Vexing Devil> from being sacrificed if a player chooses to be dealt damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3950,12 +3953,9 @@ Spells and abilities your opponents control can't cause you to sacrifice permane
 <Flavor>Great devotion yields great reward.</Flavor>
 <Artist>Chris Rahn</Artist>
 <Multiverseid>240033</Multiverseid>
-<Rulings>2012/05/01: As a spell or ability an opponent controls resolves, if it would force you to sacrifice a permanent, you just don't. That part of the effect does nothing. If that spell or ability gives you the option to sacrifice a permanent (as Brain Gorger's ability does), you can't take that option.
-2012/05/01: If a spell or ability an opponent controls instructs you to perform an action unless you sacrifice a permanent (as Ogre Marauder does), you can't choose to sacrifice a permanent. You must perform the action. On the other hand, if a spell or ability an opponent controls instructs you to sacrifice a permanent unless you perform an action (as Killing Wave does), you can choose whether or not to perform the action. If you don't perform the action, nothing happens, since you can't sacrifice any permanents.
-2012/05/01: You may still sacrifice permanents to pay the costs of spells you cast and abilities you activate, or because a resolving spell or ability you control instructs or allows you to do so.
-2012/05/01: You may sacrifice a permanent to pay the activation cost of an ability, even if that ability comes from a permanent an opponent controls (such as Excavation).
-2012/05/01: You may sacrifice a permanent as a special action, even if the effect that allows you to do so comes from an opponent's permanent (such as Damping Engine or Volrath's Curse). No one controls special actions.
-2012/05/01: This ability affects only sacrifices. It won't stop a creature from being put into the graveyard due to lethal damage or having 0 toughness, and it won't stop a permanent from being put into the graveyard due to the "legend rule." None of these are sacrifices; they're the result of game rules.</Rulings>
+<Rulings>2018/12/07: As a spell or ability an opponent controls resolves, if it would force you to sacrifice a permanent, you just don't. That part of the effect does nothing. If that spell or ability gives you the option to sacrifice a permanent (as Desecration Demon does), you can't take that option.
+2018/12/07: If a spell or ability an opponent controls states something happens unless you sacrifice a permanent (as Mogis, God of Slaughter does), you can't choose to sacrifice a permanent. On the other hand, if a spell or ability an opponent controls instructs you to sacrifice a permanent unless you perform an action (as Killing Wave does), you can choose whether or not to perform the action. If you don't perform the action, nothing happens, since you can't sacrifice any permanents.
+2018/12/07: Sigarda's ability affects only sacrifices. It won't stop a creature from dying due to lethal damage or having 0 toughness, and it won't stop a permanent from being put into its owner's graveyard due to the "legend rule." None of these are sacrifices; they're the result of game rules.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4250,8 +4250,8 @@ Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)
 {T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type, and that spell can't be countered.</CardText>
 <Artist>Cliff Childs</Artist>
 <Multiverseid>278058</Multiverseid>
-<Rulings>2017/03/14: You must choose an existing creature type, such as Zombie or Warrior. Card types such as artifact can't be chosen.
-2017/03/14: The spell can't be countered if the mana produced by <Cavern of Souls> is spent to cover any cost of the spell, even an additional cost such as a kicker cost. This is true even if you use the mana to pay an additional cost while casting a spell "without paying its mana cost."</Rulings>
+<Rulings>2018/12/07: You must choose an existing creature type, such as Human or Warrior. Card types such as artifact can't be chosen.
+2018/12/07: The spell can't be countered if the mana produced by <Cavern of Souls> is spent to cover any cost of the spell, even an additional cost such as a kicker cost. This is true even if you use the mana to pay an additional cost while casting a spell "without paying its mana cost."</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

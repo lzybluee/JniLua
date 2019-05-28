@@ -64,12 +64,12 @@ Whenever a creature you control attacks alone, you may tap target creature.</Car
 <Flavor>"Only the bravest are worthy of our blessing."</Flavor>
 <Artist>Michael Komarck</Artist>
 <Multiverseid>279702</Multiverseid>
-<Rulings>2008/10/01: If you declare exactly one creature as an attacker, each exalted ability on each permanent you control (including, perhaps, the attacking creature itself) will trigger. The bonuses are given to the attacking creature, not to the permanent with exalted. Ultimately, the attacking creature will wind up with +1/+1 for each of your exalted abilities.
-2008/10/01: If you attack with multiple creatures, but then all but one are removed from combat, your exalted abilities won't trigger.
+<Rulings>2008/10/01: If you attack with multiple creatures, but then all but one are removed from combat, your exalted abilities won't trigger.
 2008/10/01: Some effects put creatures onto the battlefield attacking. Since those creatures were never declared as attackers, they're ignored by exalted abilities. They won't cause exalted abilities to trigger. If any exalted abilities have already triggered (because exactly one creature was declared as an attacker), those abilities will resolve as normal even though there may now be multiple attackers.
-2008/10/01: Exalted abilities will resolve before blockers are declared.
+2008/10/01: If you declare exactly one creature as an attacker, each exalted ability on each permanent you control (including, perhaps, the attacking creature itself) will trigger. The bonuses are given to the attacking creature, not to the permanent with exalted. Ultimately, the attacking creature will wind up with +1/+1 for each of your exalted abilities.
 2008/10/01: Exalted bonuses last until end of turn. If an effect creates an additional combat phase during your turn, a creature that attacked alone during the first combat phase will still have its exalted bonuses in that new phase. If a creature attacks alone during the second combat phase, all your exalted abilities will trigger again.
 2008/10/01: In a Two-Headed Giant game, a creature "attacks alone" if it's the only creature declared as an attacker by your entire team. If you control that attacking creature, your exalted abilities will trigger but your teammate's exalted abilities won't.
+2008/10/01: Exalted abilities will resolve before blockers are declared.
 2012/07/01: The creature you target with the last ability will become tapped before blockers are declared.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -714,7 +714,7 @@ Other creatures you control have exalted. (If a creature has multiple instances 
 <CardText>Flying
 War Falcon can't attack unless you control a Knight or a Soldier.</CardText>
 <Flavor>The falcon is the picture of nobility, maintaining a regal bearing even as it conducts the bloody business of war.</Flavor>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>259697</Multiverseid>
 <Rulings>2012/07/01: To attack with <War Falcon>, you must control a Knight or a Soldier when you declare attackers. Once <War Falcon> is attacking, it won't be removed from combat if at any point you no longer control a Knight or Soldier.
 2012/07/01: If an effect makes <War Falcon> a Knight or a Soldier, it will be able to attack even if it's the only creature you control.</Rulings>
@@ -770,7 +770,7 @@ War Falcon can't attack unless you control a Knight or a Soldier.</CardText>
 <Flavor>"Words of power never disappear. They sleep, awaiting those with the will to rouse them."</Flavor>
 <Artist>Zoltan Boros</Artist>
 <Multiverseid>265722</Multiverseid>
-<Rulings>2012/07/01: If an instant or sorcery spell puts <Archaeomancer> onto the battlefield, you can return that card to your hand.</Rulings>
+<Rulings>2018/12/07: If an instant or sorcery spell puts <Archaeomancer> onto the battlefield, its ability can target that card in your graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1380,8 +1380,7 @@ Creatures without flying or islandwalk can't attack.</CardText>
 <Flavor>"The seas are vast, but the skies are even more so. Why be content with one kingdom when I can rule them both?"</Flavor>
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>253701</Multiverseid>
-<Rulings>2012/07/01: You'll put the Drake token onto the battlefield before the spell that caused the ability to trigger resolves. However, that Drake token isn't on the battlefield when you choose targets for that spell.
-2012/07/01: The ability will still resolve if the instant or sorcery spell gets countered.</Rulings>
+<Rulings>2018/12/07: Talrand's triggered ability resolves before the spell that caused it to trigger, but after targets have been chosen for that spell. It resolves even if that spell is countered.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2351,7 +2350,7 @@ Whenever a Swamp enters the battlefield under your control, you may return Veilb
 <ManaCost>4R (5)</ManaCost>
 <CardText>Chandra's Fury deals 4 damage to target player or planeswalker and 1 damage to each creature that player or that planeswalker's controller controls.</CardText>
 <Flavor>"I asked if they wanted to do things the easy way. I meant easy for me."</Flavor>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>249682</Multiverseid>
 <Rulings>2012/07/01: <Chandra's Fury> targets only the player, not any creature. <Chandra's Fury> will deal 1 damage to a creature with hexproof, for example.</Rulings>
 <Vintage>Legal</Vintage>
@@ -2481,7 +2480,7 @@ Whenever a Swamp enters the battlefield under your control, you may return Veilb
 —Golmak, Keldon warlord</Flavor>
 <Artist>James Paick</Artist>
 <Multiverseid>259202</Multiverseid>
-<Rulings>2012/07/01: <Firewing Phoenix>'s ability can be activated only if <Firewing Phoenix> is in your graveyard.</Rulings>
+<Rulings>2018/12/07: <Firewing Phoenix>'s ability can be activated only if <Firewing Phoenix> is in your graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3430,7 +3429,7 @@ Cards in graveyards can't be the targets of spells or abilities.</CardText>
 —Paulin, trapper of Somberwald</Flavor>
 <Artist>Dave Kendall</Artist>
 <Multiverseid>271366</Multiverseid>
-<Rulings>2012/07/01: If either or both targets are illegal when <Prey Upon> tries to resolve, no creature will deal or be dealt damage.</Rulings>
+<Rulings>2018/12/07: If either target is an illegal target as <Prey Upon> resolves, no creature will deal or be dealt damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4553,7 +4552,7 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 <Name>Forest</Name>
 <Type>Basic Land — Forest</Type>
 <CardText>({T}: Add {G}.)</CardText>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>249718</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>

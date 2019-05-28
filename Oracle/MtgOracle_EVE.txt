@@ -1268,13 +1268,13 @@ Persist (When this creature dies, if it had no -1/-1 counters on it, return it t
 <Artist>Jesper Ejsing</Artist>
 <Multiverseid>153427</Multiverseid>
 <Rulings>2008/08/01: If <Aerie Ouphes> has no -1/-1 counters on it when you sacrifice it to activate its first ability, persist will return <Aerie Ouphes> to the battlefield with a -1/-1 counter on it before that ability resolves. The ability will check the power of <Aerie Ouphes> at the time you sacrificed it, not the power of the returned <Aerie Ouphes> (which is actually a new object with no relation to its previous existence).
+2013/06/07: If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature's existence just before it leaves the battlefield, and it still has all those counters on it at that point.
 2013/06/07: If a creature with persist stops being a creature, persist will still work.
 2013/06/07: The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it.
 2013/06/07: If a permanent has multiple instances of persist, they'll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing.
 2013/06/07: If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can't return to the battlefield.
 2013/06/07: When a permanent with persist returns to the battlefield, it's a new object with no memory of or connection to its previous existence.
-2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
-2013/06/07: If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature's existence just before it leaves the battlefield, and it still has all those counters on it at that point.</Rulings>
+2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1560,6 +1560,8 @@ Trample</CardText>
 <Flavor>"Living scarecrows make a mockery of the natural order. Dead ones make fine hats."</Flavor>
 <Artist>Jesper Ejsing</Artist>
 <Multiverseid>151097</Multiverseid>
+<Rulings>2018/12/07: You must choose a target artifact or enchantment to activate <Wickerbough Elder>'s last ability. You can't pay {G} just to remove a -1/-1 counter from it without a legal target.
+2018/12/07: If an effect puts <Wickerbough Elder> onto the battlefield with one or more +1/+1 counters, its -1/-1 counter and one of those +1/+1 counters are removed as a state-based action before you can activate its ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1598,7 +1600,7 @@ Trample</CardText>
 <Multiverseid>157415</Multiverseid>
 <Rulings>2008/08/01: The controller of <Beckon Apparition> gets the token.
 2013/01/24: <Beckon Apparition> will be on the stack when you choose its target. It can't target itself.
-2013/01/24: If the target card is an illegal target when <Beckon Apparition> tries to resolve (if it's no longer in the graveyard, for instance), the spell won't resolve and none of its effects will happen. You won't get a Spirit token.</Rulings>
+2018/12/07: If the target card becomes an illegal target for <Beckon Apparition>, the spell doesn't resolve. You don't create a token.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1634,15 +1636,15 @@ Bloodied Ghost enters the battlefield with a -1/-1 counter on it.</CardText>
 <CardText>Choose any number of target creatures. Each of those creatures gains persist until end of turn. (When it dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)</CardText>
 <Artist>Brandon Kitkouski</Artist>
 <Multiverseid>151060</Multiverseid>
-<Rulings>2008/08/01: If a nontoken creature that gains persist this way is put into a graveyard, that card will be returned to the battlefield with a -1/-1 counter on it. However, because it's a new object with no relation to its previous existence, that permanent will not have persist.
-2008/08/01: If a creature has multiple instances of persist, the result is largely the same as having just one instance of persist. When the creature is put into a graveyard, each persist ability will trigger. The first one to resolve will return the creature to the battlefield with a -1/-1 counter on it. The rest will do nothing.
+<Rulings>2008/08/01: If a creature has multiple instances of persist, the result is largely the same as having just one instance of persist. When the creature is put into a graveyard, each persist ability will trigger. The first one to resolve will return the creature to the battlefield with a -1/-1 counter on it. The rest will do nothing.
+2008/08/01: If a nontoken creature that gains persist this way is put into a graveyard, that card will be returned to the battlefield with a -1/-1 counter on it. However, because it's a new object with no relation to its previous existence, that permanent will not have persist.
+2013/06/07: If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature's existence just before it leaves the battlefield, and it still has all those counters on it at that point.
+2013/06/07: When a permanent with persist returns to the battlefield, it's a new object with no memory of or connection to its previous existence.
+2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
 2013/06/07: If a creature with persist stops being a creature, persist will still work.
 2013/06/07: The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it.
 2013/06/07: If a permanent has multiple instances of persist, they'll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing.
-2013/06/07: If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can't return to the battlefield.
-2013/06/07: When a permanent with persist returns to the battlefield, it's a new object with no memory of or connection to its previous existence.
-2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
-2013/06/07: If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature's existence just before it leaves the battlefield, and it still has all those counters on it at that point.</Rulings>
+2013/06/07: If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can't return to the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2251,6 +2253,7 @@ Whenever you cast a red spell, remove a -1/-1 counter from Shrewd Hatchling.</Ca
 <Flavor>Once the hideous disease takes hold, it spreads through both bark and mind.</Flavor>
 <Artist>Brandon Kitkouski</Artist>
 <Multiverseid>152033</Multiverseid>
+<Rulings>2018/12/07: You choose an opponent while <Canker Abomination> is entering the battlefield. No player may take actions between the time you choose the opponent and the time <Canker Abomination> gets -1/-1 counters.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2269,9 +2272,9 @@ Whenever you cast a red spell, remove a -1/-1 counter from Shrewd Hatchling.</Ca
 <Artist>Carl Frank</Artist>
 <Multiverseid>157393</Multiverseid>
 <Rulings>2008/08/01: The spell cares about what mana was spent to pay its total cost, not just what mana was spent to pay the hybrid part of its cost.
-2008/08/01: When you cast the spell, you choose its targets before you pay for it.
 2008/08/01: The spell checks on resolution to see if any mana of the stated colors was spent to pay its cost. If so, it doesn't matter how much mana of that color was spent.
 2008/08/01: If the spell is copied, the copy will never have had mana of the stated color paid for it, no matter what colors were spent on the original spell.
+2008/08/01: When you cast the spell, you choose its targets before you pay for it.
 2008/08/01: As you cast <Cankerous Thirst>, you must target a creature for the first effect and you must target a creature for the second effect. Both targets may be the same. As <Cankerous Thirst> resolves, you decide whether to apply either effect.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2567,11 +2570,11 @@ Whenever Sapling of Colfenor attacks, reveal the top card of your library. If it
 Retrace (You may cast this card from your graveyard by discarding a land card in addition to paying its other costs.)</CardText>
 <Artist>Chuck Lukacs</Artist>
 <Multiverseid>151135</Multiverseid>
-<Rulings>2008/08/01: A retrace card cast from your graveyard follows the normal timing rules for its card type.
-2008/08/01: When a retrace card you cast from your graveyard resolves, fails to resolve, or is countered, it's put back into your graveyard. You may use the retrace ability to cast it again.
-2008/08/01: If the active player casts a spell that has retrace, that player may cast that card again after it resolves, before another player can remove the card from the graveyard. The active player has priority after the spell resolves, so they can immediately cast a new spell. Since casting a card with retrace from the graveyard moves that card onto the stack, no one else would have the chance to affect it while it's still in the graveyard.
+<Rulings>2008/08/01: When a retrace card you cast from your graveyard resolves, fails to resolve, or is countered, it's put back into your graveyard. You may use the retrace ability to cast it again.
+2008/08/01: Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You're casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs.
 2008/08/01: If you cast <Worm Harvest> from your graveyard by using retrace, the land you discard as an additional cost will be counted by <Worm Harvest> when it resolves.
-2018/07/13: Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You're casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs.
+2008/08/01: If the active player casts a spell that has retrace, that player may cast that card again after it resolves, before another player can remove the card from the graveyard. The active player has priority after the spell resolves, so they can immediately cast a new spell. Since casting a card with retrace from the graveyard moves that card onto the stack, no one else would have the chance to affect it while it's still in the graveyard.
+2008/08/01: A retrace card cast from your graveyard follows the normal timing rules for its card type.
 2018/07/13: Casting a card with retrace from your graveyard follows the normal timing rules for its card type.
 2018/07/13: When a retrace card you cast from your graveyard resolves or is countered, it's put back into your graveyard. You may use the retrace ability to cast it again. If it's your turn, you may do so before any other player may take actions to try to remove it from your graveyard.</Rulings>
 <Vintage>Legal</Vintage>
@@ -2805,9 +2808,9 @@ When Duergar Hedge-Mage enters the battlefield, if you control two or more Plain
 <Artist>Mike Dringenberg</Artist>
 <Multiverseid>157403</Multiverseid>
 <Rulings>2008/08/01: The spell cares about what mana was spent to pay its total cost, not just what mana was spent to pay the hybrid part of its cost.
-2008/08/01: When you cast the spell, you choose its targets before you pay for it.
 2008/08/01: The spell checks on resolution to see if any mana of the stated colors was spent to pay its cost. If so, it doesn't matter how much mana of that color was spent.
 2008/08/01: If the spell is copied, the copy will never have had mana of the stated color paid for it, no matter what colors were spent on the original spell.
+2008/08/01: When you cast the spell, you choose its targets before you pay for it.
 2008/08/01: <Moonhold> is not a counterspell. It will have no effect on creature spells the targeted player cast before <Moonhold> resolved.
 2008/08/01: <Moonhold> doesn't stop effects that "put a card onto the battlefield."</Rulings>
 <Vintage>Legal</Vintage>
@@ -3296,15 +3299,15 @@ Tap five untapped creatures you control: Untap Altar Golem.</CardText>
 <Flavor>Every skull has a tale to tell, and a skulkin is many dire tales cobbled together.</Flavor>
 <Artist>Dave Kendall</Artist>
 <Multiverseid>158293</Multiverseid>
-<Rulings>2008/08/01: If a nontoken creature that gains persist this way is put into a graveyard, that card will be returned to the battlefield with a -1/-1 counter on it. However, because it's a new object with no relation to its previous existence, that permanent will not have persist.
-2008/08/01: If a creature has multiple instances of persist, the result is largely the same as having just one instance of persist. When the creature is put into a graveyard, each persist ability will trigger. The first one to resolve will return the creature to the battlefield with a -1/-1 counter on it. The rest will do nothing.
+<Rulings>2008/08/01: If a creature has multiple instances of persist, the result is largely the same as having just one instance of persist. When the creature is put into a graveyard, each persist ability will trigger. The first one to resolve will return the creature to the battlefield with a -1/-1 counter on it. The rest will do nothing.
+2008/08/01: If a nontoken creature that gains persist this way is put into a graveyard, that card will be returned to the battlefield with a -1/-1 counter on it. However, because it's a new object with no relation to its previous existence, that permanent will not have persist.
+2013/06/07: If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature's existence just before it leaves the battlefield, and it still has all those counters on it at that point.
+2013/06/07: When a permanent with persist returns to the battlefield, it's a new object with no memory of or connection to its previous existence.
+2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
 2013/06/07: If a creature with persist stops being a creature, persist will still work.
 2013/06/07: The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it.
 2013/06/07: If a permanent has multiple instances of persist, they'll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing.
-2013/06/07: If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can't return to the battlefield.
-2013/06/07: When a permanent with persist returns to the battlefield, it's a new object with no memory of or connection to its previous existence.
-2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
-2013/06/07: If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature's existence just before it leaves the battlefield, and it still has all those counters on it at that point.</Rulings>
+2013/06/07: If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can't return to the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

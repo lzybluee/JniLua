@@ -80,7 +80,7 @@ When Wall of Omens enters the battlefield, draw a card.</CardText>
 <Name>Child of Night</Name>
 <Type>Creature — Vampire 2/1</Type>
 <ManaCost>1B (2)</ManaCost>
-<CardText>Lifelink (Damage dealt by this creature also causes you to gain that much life.)</CardText>
+<CardText>Lifelink</CardText>
 <Flavor>Sins that would be too gruesome in the light of day are made more pleasing in the dark of night.</Flavor>
 <Artist>Ash Wood</Artist>
 <Multiverseid>368520</Multiverseid>
@@ -192,9 +192,10 @@ When Gatekeeper of Malakir enters the battlefield, if it was kicked, target play
 When Fiend Hunter leaves the battlefield, return the exiled card to the battlefield under its owner's control.</CardText>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>368496</Multiverseid>
-<Rulings>2018/03/16: If <Fiend Hunter> leaves the battlefield before its first ability has resolved, its second ability will trigger and do nothing. Then its first ability will resolve and exile the targeted creature indefinitely.
-2018/03/16: Once the exiled permanent returns, it's considered a new object with no relation to the object that it was. Auras attached to the exiled permanent will be put into their owners' graveyards. Equipment attached to the exiled permanent will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist.
-2018/03/16: If a token is exiled this way, it won't return to the battlefield.</Rulings>
+<Rulings>2018/12/07: If <Fiend Hunter> leaves the battlefield before its first ability has resolved, its second ability will trigger and do nothing. Then its first ability will resolve and exile the target creature indefinitely. This is different from abilities on other cards that exile a permanent "until" something happens.
+2018/12/07: Once the exiled creature returns, it's considered a new object with no relation to the object that it was. Auras attached to the exiled creature will be put into their owners' graveyards. Equipment attached to the exiled creature will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist.
+2018/12/07: If a token is exiled this way, it won't return to the battlefield.
+2018/12/07: In a multiplayer game, if you lose the game, the creature exiled with <Fiend Hunter> remains exiled indefinitely. This is also different from abilities on other cards that exile a permanent "until" something happens.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -374,7 +375,7 @@ Target creature gets +3/+0 until end of turn. If this spell was kicked, that cre
 <Flavor>"All your steel won't protect you if your will is weak."</Flavor>
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>368509</Multiverseid>
-<Rulings>2011/09/22: If the creature is an illegal target when <Sorin's Thirst> tries to resolve, <Sorin's Thirst> won't resolve and none of its effects will happen. You won't gain life.</Rulings>
+<Rulings>2019/05/03: If the target creature is an illegal target by the time <Sorin's Thirst> tries to resolve, the spell doesn't resolve. You won't gain 2 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

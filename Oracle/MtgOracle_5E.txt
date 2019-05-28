@@ -794,13 +794,13 @@ Pay 1 life: Exile the top card of your library face down. Put that card into you
 At the beginning of your upkeep, if Nether Shadow is in your graveyard with three or more creature cards above it, you may put Nether Shadow onto the battlefield.</CardText>
 <Artist>DiTerlizzi</Artist>
 <Multiverseid>3866</Multiverseid>
-<Rulings>2004/10/04: Note that bringing the Shadow back onto the battlefield from the graveyard is not a spell, it is an ability. It can't be countered with something that counters spells.
-2004/10/04: Since it enters the battlefield due to triggering at the beginning of upkeep, it is not possible to get an infinite loop with four <Nether Shadow>s.
-2008/10/01: A card is "above" another card in your graveyard if it was put into that graveyard later.
+<Rulings>2004/10/04: Since it enters the battlefield due to triggering at the beginning of upkeep, it is not possible to get an infinite loop with four <Nether Shadow>s.
+2004/10/04: Note that bringing the Shadow back onto the battlefield from the graveyard is not a spell, it is an ability. It can't be countered with something that counters spells.
 2008/10/01: Players may not rearrange the cards in their graveyards.
-2008/10/01: If an effect or rule puts two or more cards into the same graveyard at the same time, the owner of those cards may arrange them in any order.
 2008/10/01: The last thing that happens to a resolving instant or sorcery spell is that it's put into its owner's graveyard. Example: You cast Wrath of God. All creatures on the battlefield are destroyed. You arrange all the cards put into your graveyard this way in any order you want. The other players in the game do the same to the cards that are put into their graveyards. Then you put Wrath of God into your graveyard, on top of the other cards.
-2008/10/01: Say you're the owner of both a permanent and an Aura that's attached to it. If both the permanent and the Aura are destroyed at the same time (by Akroma's Vengeance, for example), you decide the order they're put into your graveyard. If just the enchanted permanent is destroyed, it's put into your graveyard first. Then, after state-based actions are checked, the Aura (which is no longer attached to anything) is put into your graveyard on top of it.</Rulings>
+2008/10/01: Say you're the owner of both a permanent and an Aura that's attached to it. If both the permanent and the Aura are destroyed at the same time (by Akroma's Vengeance, for example), you decide the order they're put into your graveyard. If just the enchanted permanent is destroyed, it's put into your graveyard first. Then, after state-based actions are checked, the Aura (which is no longer attached to anything) is put into your graveyard on top of it.
+2008/10/01: A card is "above" another card in your graveyard if it was put into that graveyard later.
+2008/10/01: If an effect or rule puts two or more cards into the same graveyard at the same time, the owner of those cards may arrange them in any order.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Fifth Edition</Set>
@@ -1059,9 +1059,9 @@ When Sengir Autocrat leaves the battlefield, exile all Serf tokens.</CardText>
 —Persian proverb</Flavor>
 <Artist>Christopher Rush</Artist>
 <Multiverseid>3880</Multiverseid>
-<Rulings>2009/05/01: The ability grants you control of all creatures that are blocking it as the ability resolves. This will include any creatures that were put onto the battlefield blocking it.
-2009/05/01: Any blocking creatures that regenerated during combat will have been removed from combat. Since such creatures are no longer in combat, they cannot be blocking <The Wretched>, which means you won't be able to gain control of them.
+<Rulings>2009/05/01: Any blocking creatures that regenerated during combat will have been removed from combat. Since such creatures are no longer in combat, they cannot be blocking <The Wretched>, which means you won't be able to gain control of them.
 2009/05/01: If <The Wretched> itself regenerated during combat, then it will have been removed from combat. Since it is no longer in combat, there cannot be any creatures blocking it, which means you won't be able to gain control of any creatures.
+2009/05/01: The ability grants you control of all creatures that are blocking it as the ability resolves. This will include any creatures that were put onto the battlefield blocking it.
 2009/10/01: <The Wretched>'s ability triggers only if it's still on the battlefield when the end of combat step begins (after the combat damage step). For example, if it's blocked by a 7/7 creature and is destroyed, its ability won't trigger at all.
 2009/10/01: If <The Wretched> leaves the battlefield, you no longer control it, so the duration of its control-change effect ends.
 2009/10/01: If you lose control of <The Wretched> before its ability resolves, you won't gain control of the creatures blocking it at all.
@@ -1277,7 +1277,7 @@ Pay 4 life: Destroy Aether Storm. It can't be regenerated. Any player may activa
 <Name>Air Elemental</Name>
 <Type>Creature — Elemental 4/4</Type>
 <ManaCost>3UU (5)</ManaCost>
-<CardText>Flying</CardText>
+<CardText>Flying (This creature can't be blocked except by creatures with flying or reach.)</CardText>
 <Flavor>These spirits of the air are winsome and wild and cannot be truly contained. Only marginally intelligent, they often substitute whimsy for strategy, delighting in mischief and mayhem.</Flavor>
 <Artist>D. Alexander Gregory</Artist>
 <Multiverseid>3892</Multiverseid>
@@ -1471,14 +1471,14 @@ back around—
 the joke's on you.</Flavor>
 <Artist>Mike Raabe</Artist>
 <Multiverseid>3902</Multiverseid>
-<Rulings>2004/10/04: Once the spell resolves, the new target is considered to be targeted by the deflected spell. This will trigger any effects which trigger on being targeted.
-2004/10/04: This only targets the spell being changed, not the original or new target of the spell it is affecting.
-2004/10/04: The target of a spell that targets another spell on the stack can be changed to any other spell on the stack, even if the new target will resolve before the spell does.
+<Rulings>2004/10/04: The target of a spell that targets another spell on the stack can be changed to any other spell on the stack, even if the new target will resolve before the spell does.
 2004/10/04: You can't make a spell which is on the stack target itself.
 2004/10/04: You can choose to make a spell on the stack target this spell (if such a target choice would be legal had the spell been cast while this spell was on the stack). The new target for the deflected spell is not chosen until this spell resolves. This spell is still on the stack when new targets are selected for the spell.
-2004/10/04: If there is no other legal target for the spell, this does not change the target.
+2004/10/04: Once the spell resolves, the new target is considered to be targeted by the deflected spell. This will trigger any effects which trigger on being targeted.
 2004/10/04: This does not check if the current target is legal. It just checks if the spell has a single target.
 2004/10/04: You choose the spell to target on announcement, but you pick the new target for that spell on resolution.
+2004/10/04: If there is no other legal target for the spell, this does not change the target.
+2004/10/04: This only targets the spell being changed, not the original or new target of the spell it is affecting.
 2009/02/01: If a spell targets multiple things, you can't target it with <Deflection>, even if all but one of those targets has become illegal.
 2009/02/01: If a spell targets the same player or object multiple times, you can't target it with <Deflection>.</Rulings>
 <Vintage>Legal</Vintage>
@@ -1535,7 +1535,7 @@ Draw a card at the beginning of the next turn's upkeep.</CardText>
 <Flavor>"Worlds turn in crucial moments of decision. Make your choice."
 —Gustha Ebbasdotter,
 Kjeldoran royal mage</Flavor>
-<Artist>L. A. Williams</Artist>
+<Artist>Allen Williams</Artist>
 <Multiverseid>3905</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1820,7 +1820,7 @@ Leviathan can't attack unless you sacrifice two Islands. (This cost is paid as a
 <Name>Lord of Atlantis</Name>
 <Type>Creature — Merfolk 2/2</Type>
 <ManaCost>UU (2)</ManaCost>
-<CardText>Other Merfolk creatures get +1/+1 and have islandwalk. (They can't be blocked as long as defending player controls an Island.)</CardText>
+<CardText>Other Merfolk get +1/+1 and have islandwalk. (They can't be blocked as long as defending player controls an Island.)</CardText>
 <Flavor>"'We have no legs,' the warrior spat, 'for we have finished running.'"
 —Vodalian folktale</Flavor>
 <Artist>Melissa A. Benson</Artist>
@@ -4468,12 +4468,12 @@ Enchanted creature can't block creatures with power equal to or greater than the
 <CardText>Whenever a player taps a land for mana, that player adds one mana of any type that land produced.</CardText>
 <Artist>Christopher Rush</Artist>
 <Multiverseid>4070</Multiverseid>
-<Rulings>2004/10/04: If the land produces more than one color of mana at a single time, its controller chooses which of those types is produced by <Mana Flare>'s ability.
-2004/10/04: The types of mana are white, blue, black, red, green, and colorless.
-2004/10/04: When used with lands that can produce multiple colors, <Mana Flare> produces one additional mana of the same color that was produced. It can't give a mana of a color that wasn't produced.
+<Rulings>2004/10/04: When used with lands that can produce multiple colors, <Mana Flare> produces one additional mana of the same color that was produced. It can't give a mana of a color that wasn't produced.
 2004/10/04: Only produces extra mana when land is tapped for mana, not when tapped by some other effect.
-2004/10/04: <Mana Flare> adds one of whatever color the land produces after applying any land type or color changing effects.
+2004/10/04: If the land produces more than one color of mana at a single time, its controller chooses which of those types is produced by <Mana Flare>'s ability.
 2004/10/04: This is a triggered mana ability.
+2004/10/04: <Mana Flare> adds one of whatever color the land produces after applying any land type or color changing effects.
+2004/10/04: The types of mana are white, blue, black, red, green, and colorless.
 2007/09/16: Does not copy any restrictions on the mana, such as with Mishra's Workshop or Pillar of the Paruns.
 2007/09/16: Produces only one additional mana, regardless of how much was produced by tapping the land.</Rulings>
 <Vintage>Legal</Vintage>
@@ -5169,7 +5169,7 @@ Draw a card at the beginning of the next turn's upkeep.</CardText>
 <CardText>{0}: Return Blinking Spirit to its owner's hand.</CardText>
 <Flavor>"Don't look at it! Maybe it'll go away!"
 —Ib Halfheart, goblin tactician</Flavor>
-<Artist>L. A. Williams</Artist>
+<Artist>Allen Williams</Artist>
 <Multiverseid>4109</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -5606,7 +5606,7 @@ Enchanted creature gets +1/+2.</CardText>
 <CardText>{1}, {T}: Target creature gains first strike until end of turn.</CardText>
 <Flavor>"In these, our final days, I offer this. Though we could not save Icatia, we gave our children time to grow, and love, before it fell."
 —Ailis Connaut, diary</Flavor>
-<Artist>Douglas Shuler</Artist>
+<Artist>Rob Alexander</Artist>
 <Multiverseid>4134</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -5733,7 +5733,7 @@ Whenever a red creature or spell deals damage, Justice deals that much damage to
 <CardText>{T}: All combat damage that would be dealt to you by unblocked creatures this turn is dealt to Kjeldoran Royal Guard instead.</CardText>
 <Flavor>Honorable in battle, generous in death.
 —Motto of the Kjeldoran Royal Guard</Flavor>
-<Artist>L. A. Williams</Artist>
+<Artist>Allen Williams</Artist>
 <Multiverseid>4141</Multiverseid>
 <Rulings>2004/10/04: If you activate the ability but <Kjeldoran Royal Guard> leaves the battlefield before combat damage is dealt, the combat damage from unblocked creatures won't be redirected. It will be dealt to you as normal.</Rulings>
 <Vintage>Legal</Vintage>
@@ -6617,9 +6617,9 @@ Colossus of Sardia doesn't untap during your untap step.
 —Dwarven proverb</Flavor>
 <Artist>Quinton Hoover</Artist>
 <Multiverseid>3781</Multiverseid>
-<Rulings>2004/10/04: It only produces one mana even if the land can produce more than one.
-2004/10/04: This works even if the opponent's lands are tapped. It only checks what kinds of mana can be produced, not if the abilities that produce them are usable right now.
+<Rulings>2004/10/04: This works even if the opponent's lands are tapped. It only checks what kinds of mana can be produced, not if the abilities that produce them are usable right now.
 2004/10/04: The ability can be activated if the opponent has no lands that produce mana, but the effect will not be able to generate any mana.
+2004/10/04: It only produces one mana even if the land can produce more than one.
 2009/10/01: The colors of mana are white, blue, black, red, and green. <Fellwar Stone> can't be tapped for colorless mana, even if a land an opponent controls could produce colorless mana.
 2009/10/01: <Fellwar Stone> checks the effects of all mana-producing abilities of lands your opponents control, but it doesn't check their costs. For example, Vivid Crag has the ability "{T}, Remove a charge counter from Vivid Crag: Add one mana of any color." If an opponent controls Vivid Crag and you control <Fellwar Stone>, you can tap <Fellwar Stone> for any color of mana. It doesn't matter whether Vivid Crag has a charge counter on it, and it doesn't matter whether it's untapped.
 2009/10/01: When determining what colors of mana your opponents' lands could produce, take into account any applicable replacement effects that would apply to those lands' mana abilities (such as Contamination's effect, for example). If there is more than one, consider them in any possible order.
@@ -6928,14 +6928,14 @@ All creatures get +1/+0 for each time counter on Infinite Hourglass.
 If an effect causes you to discard a card, discard it, but you may put it on top of your library instead of into your graveyard.</CardText>
 <Artist>Daniel Gelon</Artist>
 <Multiverseid>3799</Multiverseid>
-<Rulings>2004/10/04: This effect has no effect on the cards being put into the graveyard from a library, because they are not "discarded".
-2004/10/04: You can't use the <Library of Leng> ability to place a discarded card on top of your library when you discard a card as a cost, because costs aren't effects.
+<Rulings>2004/10/04: You can't use the <Library of Leng> ability to place a discarded card on top of your library when you discard a card as a cost, because costs aren't effects.
 2004/10/04: The discard triggers anything else that triggers on discards.
 2004/10/04: You can look at a randomly discarded card before deciding where it goes.
-2004/10/04: The ability applies any time a spell or ability has you discard as part of its effect. It does not matter if you or your opponent control the spell or ability. The discard is forced because it is an effect.
+2004/10/04: This effect has no effect on the cards being put into the graveyard from a library, because they are not "discarded".
 2004/10/04: If more than one card is discarded due to a single effect, the Library allows you to decide whether or not to use it on each of the cards. You get to decide the order the cards are placed on the library if more than one goes there.
 2004/10/04: Since the card goes directly to the library, the card is not revealed unless the spell or ability requiring the discard specifically says it is.
 2004/10/04: The ability replaces the normal discard action with a discard action that puts the card on the library instead of the graveyard.
+2004/10/04: The ability applies any time a spell or ability has you discard as part of its effect. It does not matter if you or your opponent control the spell or ability. The discard is forced because it is an effect.
 2009/10/01: If multiple effects modify your hand size, apply them in timestamp order. For example, if you put Null Profusion (an enchantment that says your maximum hand size is two) onto the battlefield and then put <Library of Leng> onto the battlefield, you'll have no maximum hand size. However, if those permanents entered the battlefield in the opposite order, your maximum hand size would be two.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>

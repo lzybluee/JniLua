@@ -13,7 +13,8 @@
 2010/06/15: Tokens may also be colored permanents. The effect that creates a token states what color it is or whether it's colorless.
 2010/06/15: Lands have no mana cost, so they are colorless unless an effect states otherwise.
 2010/06/15: All the colored permanents are sacrificed at the same time.
-2013/07/01: <All Is Dust> doesn't destroy permanents. Rather, it causes them to be sacrificed. Regeneration, totem armor, and indestructible can't save permanents from <All Is Dust>.</Rulings>
+2013/07/01: <All Is Dust> doesn't destroy permanents. Rather, it causes them to be sacrificed. Regeneration, totem armor, and indestructible can't save permanents from <All Is Dust>.
+2018/12/07: A land card that produces colored mana, even a land with a basic land type, normally has no color.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -54,10 +55,10 @@ When Emrakul, the Aeons Torn is put into a graveyard from anywhere, its owner sh
 <Multiverseid>397905</Multiverseid>
 <Rulings>2010/06/15: Annihilator abilities trigger and resolve during the declare attackers step. The defending player chooses and sacrifices the required number of permanents before they declare blockers. Any creatures sacrificed this way won't be able to block.
 2010/06/15: If a creature with annihilator is attacking a planeswalker, and the defending player chooses to sacrifice that planeswalker, the attacking creature continues to attack. It may be blocked. If it isn't blocked, it simply won't deal combat damage to anything.
-2010/06/15: Emrakul can be targeted by spells that try to counter it (such as Lay Bare). Those spells will resolve, but the part of their effect that would counter Emrakul won't do anything. Any other effects those spells have will work as normal.
-2010/06/15: "Protection from colored spells" means that Emrakul can't be the target of colored spells (including colored Aura spells) or of abilities whose sources are colored spells (such as the "when you cast" ability of an Ulamog, the Infinite Gyre that's been turned red by Painter's Servant). It also means that all damage that would be dealt to Emrakul by colored spells is prevented. Like every protection ability, it works only while Emrakul is on the battlefield.
-2010/06/15: "Colored spells" is not synonymous with "colored instants and sorceries." For example, if a player cycles Choking Tethers, its triggered ability may target Emrakul because Choking Tethers wasn't cast as a spell.
-2010/06/15: Emrakul may be affected by colored spells that don't target it or deal damage to it, including those that cause it to become blocked. Abilities of colored permanents (such as Journey to Nowhere) may target it. Auras may be moved onto it by abilities or by colored spells that don't target it (such as Aura Graft).</Rulings>
+2018/12/07: Emrakul's second ability triggers as you cast it, and that ability resolves before the spell itself. It resolves even if that spell is somehow removed from the stack.
+2018/12/07: Emrakul can be targeted by spells that try to counter it (such as Countersquall). Those spells will resolve, but the part of their effect that would counter Emrakul won't do anything. Any other effects those spells have will work as normal.
+2018/12/07: "Colored spells" is not synonymous with "colored cards." For example, even though creatures are spells when they're cast, they're not spells when they're on the battlefield and can block Emrakul; and triggered abilities of permanents entering the battlefield (such as that of Banishing Light) can target it.
+2018/12/07: Emrakul can't be the target of colored Aura spells, but colored Auras can be put onto the battlefield enchanting it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -76,19 +77,19 @@ When Emrakul, the Aeons Torn is put into a graveyard from anywhere, its owner sh
 -14: Restart the game, leaving in exile all non-Aura permanent cards exiled with Karn Liberated. Then put those cards onto the battlefield under your control.</CardText>
 <Artist>Jason Chan</Artist>
 <Multiverseid>397828</Multiverseid>
-<Rulings>2011/06/01: Karn's first and third abilities are linked. Similarly, Karn's second and third abilities are linked. Only cards exiled by either of Karn's first two abilities will remain in exile when the game restarts.
-2011/06/01: A game that restarts immediately ends. The players in that game then immediately begin a new game. No player wins, loses, or draws the original game as a result of Karn's ability.
-2011/06/01: In a multiplayer games (a game that started with three or more players in it), any player that left the game before it was restarted with Karn's ability won't be involved in the new game.
-2011/06/01: The player who controlled the ability that restarted the game is the starting player in the new game. The new game starts like a game normally does: -- Each player shuffles their deck (except the cards left in exile by Karn's ability). -- Each player's life total becomes 20 (or the starting life total for whatever format you're playing). -- Players draw a hand of seven cards. Players may take mulligans. -- Players may take actions based on cards in their opening hands, such as Chancellors and Leylines.
-2011/06/01: After the pre-game procedure is complete, but before the new game's first turn, Karn's ability finishes resolving and the cards left in exile are put onto the battlefield. If this causes any triggered abilities to trigger, those abilities are put onto the stack at the beginning of the first upkeep step.
-2011/06/01: Creatures put onto the battlefield due to Karn's ability will have been under their controller's control continuously since the beginning of the first turn. They can attack and their activated abilities with {T} in the cost can be activated.
-2011/06/01: Any permanents put onto the battlefield with Karn's ability that entered the battlefield tapped will untap during their controller's first untap step.
-2011/06/01: No actions taken in the game that was restarted apply to the new game. For example, if you were dealt damage by Stigma Lasher in the original game, the effect that states you can't gain life doesn't carry over to the new game.
-2011/06/01: Players won't have any poison counters or emblems they had in the original game.
-2011/06/01: In a Commander game, players put their commanders into the command zone before shuffling their deck.
-2011/06/01: The number of times a player has cast their commander from the command zone resets to zero. Also, the amount of combat damage dealt to players by each commander is reset to 0.
-2011/06/01: If a player's commander was exiled with Karn at the game restarted, that commander won't be put into the command zone at the beginning of the game. It will be put onto the battlefield when Karn's ability finishes resolving.
-2011/06/01: In a multiplayer game using the limited range of influence option, all players are affected and will restart the game, not just those within the range of influence of the ability's controller.</Rulings>
+<Rulings>2018/12/07: A game that restarts immediately ends the preceding game. The players in that game then immediately begin a new game. No player wins, loses, or draws the original game as a result of Karn's ability.
+2018/12/07: Players can't move cards between their deck and sideboard before the new game.
+2018/12/07: The player who controlled the ability that restarted the game is the starting player in the new game. The new game starts like a game normally does: Each player shuffles their deck (except the cards left in exile by Karn's ability). Each player's life total becomes 20 (or the starting life total for whatever format you're playing). Players draw a hand of seven cards. Players may take mulligans. Players may take actions based on cards in their opening hands, such as those of Leylines.
+2018/12/07: Karn's first and third abilities are linked. Similarly, Karn's second and third abilities are linked. Only non-Aura permanent cards exiled by either of Karn's first two abilities will remain in exile when the game restarts.
+2018/12/07: After the pregame procedure is complete but before the new game's first turn, Karn's ability finishes resolving and the cards left in exile are put onto the battlefield. If this causes any triggered abilities to trigger, those abilities are put onto the stack at the beginning of the first upkeep step.
+2018/12/07: Permanents put onto the battlefield due to Karn's ability will have been under the starting controller's control continuously since the beginning of that player's first turn. Creatures among them can attack and their activated abilities with {T} in the cost can be activated.
+2018/12/07: Any permanents put onto the battlefield with Karn's ability that entered the battlefield tapped will untap during their controller's first untap step.
+2018/12/07: No actions taken in the game that was restarted apply to the new game. For example, if you were dealt damage by Stigma Lasher in the original game, the effect that states you can't gain life doesn't carry over to the new game.
+2018/12/07: Players won't have any counters or emblems they had in the original game.
+2018/12/07: In a multiplayer game, any player who left the game before it was restarted with Karn's ability won't be involved in the new game.
+2018/12/07: If a player leaves the game, all cards that player owns leave as well. If you leave the game, the permanents you control from Karn's ability are exiled.
+2018/12/07: In a Commander game, each player puts their commander into the command zone before shuffling their deck, unless it was exiled with Karn. In that case, the commander remains in exile and will be put onto the battlefield when Karn's ability finishes resolving.
+2018/12/07: The number of times a player has cast their commander from the command zone resets to zero. The amount of combat damage dealt to players by each commander is reset to 0.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -108,7 +109,8 @@ When Kozilek, Butcher of Truth is put into a graveyard from anywhere, its owner 
 <Artist>Michael Komarck</Artist>
 <Multiverseid>397668</Multiverseid>
 <Rulings>2010/06/15: Annihilator abilities trigger and resolve during the declare attackers step. The defending player chooses and sacrifices the required number of permanents before they declare blockers. Any creatures sacrificed this way won't be able to block.
-2010/06/15: If a creature with annihilator is attacking a planeswalker, and the defending player chooses to sacrifice that planeswalker, the attacking creature continues to attack. It may be blocked. If it isn't blocked, it simply won't deal combat damage to anything.</Rulings>
+2010/06/15: If a creature with annihilator is attacking a planeswalker, and the defending player chooses to sacrifice that planeswalker, the attacking creature continues to attack. It may be blocked. If it isn't blocked, it simply won't deal combat damage to anything.
+2018/12/07: Kozilek's first ability triggers as you cast it, and that ability resolves before the spell itself. It resolves even if the spell is countered.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -130,7 +132,8 @@ When Ulamog, the Infinite Gyre is put into a graveyard from anywhere, its owner 
 <Multiverseid>397815</Multiverseid>
 <Rulings>2010/06/15: Annihilator abilities trigger and resolve during the declare attackers step. The defending player chooses and sacrifices the required number of permanents before they declare blockers. Any creatures sacrificed this way won't be able to block.
 2010/06/15: If a creature with annihilator is attacking a planeswalker, and the defending player chooses to sacrifice that planeswalker, the attacking creature continues to attack. It may be blocked. If it isn't blocked, it simply won't deal combat damage to anything.
-2013/07/01: Lethal damage and effects that say "destroy" won't cause a creature with indestructible to be put into the graveyard. However, a creature with indestructible can be put into the graveyard for a number of reasons. The most likely reasons are if it's sacrificed, if it's legendary and another legendary creature with the same name is controlled by the same player, or if its toughness is 0 or less.</Rulings>
+2013/07/01: Lethal damage and effects that say "destroy" won't cause a creature with indestructible to be put into the graveyard. However, a creature with indestructible can be put into the graveyard for a number of reasons. The most likely reasons are if it's sacrificed, if it's legendary and another legendary creature with the same name is controlled by the same player, or if its toughness is 0 or less.
+2018/12/07: Ulamog's ability triggers as you cast it, and that ability resolves before the spell itself. It resolves even if that spell is countered.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -152,7 +155,7 @@ Ulamog's Crusher attacks each combat if able.</CardText>
 <Multiverseid>397678</Multiverseid>
 <Rulings>2010/06/15: Annihilator abilities trigger and resolve during the declare attackers step. The defending player chooses and sacrifices the required number of permanents before they declare blockers. Any creatures sacrificed this way won't be able to block.
 2010/06/15: If a creature with annihilator is attacking a planeswalker, and the defending player chooses to sacrifice that planeswalker, the attacking creature continues to attack. It may be blocked. If it isn't blocked, it simply won't deal combat damage to anything.
-2010/06/15: If, during your declare attackers step, <Ulamog's Crusher> is tapped, is affected by a spell or ability that says it can't attack, or is affected by "summoning sickness," then it doesn't attack. If there's a cost associated with having <Ulamog's Crusher> attack, you aren't forced to pay that cost, so it doesn't have to attack in that case either.</Rulings>
+2018/12/07: If <Ulamog's Crusher> can't attack for any reason (such as becoming tapped or having just entered the battlefield), then it doesn't attack. If there's a cost associated with having it attack, its controller isn't forced to pay that cost, so it doesn't have to attack in that case either.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -214,12 +217,12 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 Whenever a creature you control attacks alone, it gains lifelink until end of turn.</CardText>
 <Artist>Matt Stewart</Artist>
 <Multiverseid>397766</Multiverseid>
-<Rulings>2008/10/01: If you declare exactly one creature as an attacker, each exalted ability on each permanent you control (including, perhaps, the attacking creature itself) will trigger. The bonuses are given to the attacking creature, not to the permanent with exalted. Ultimately, the attacking creature will wind up with +1/+1 for each of your exalted abilities.
-2008/10/01: If you attack with multiple creatures, but then all but one are removed from combat, your exalted abilities won't trigger.
+<Rulings>2008/10/01: If you attack with multiple creatures, but then all but one are removed from combat, your exalted abilities won't trigger.
 2008/10/01: Some effects put creatures onto the battlefield attacking. Since those creatures were never declared as attackers, they're ignored by exalted abilities. They won't cause exalted abilities to trigger. If any exalted abilities have already triggered (because exactly one creature was declared as an attacker), those abilities will resolve as normal even though there may now be multiple attackers.
-2008/10/01: Exalted abilities will resolve before blockers are declared.
+2008/10/01: If you declare exactly one creature as an attacker, each exalted ability on each permanent you control (including, perhaps, the attacking creature itself) will trigger. The bonuses are given to the attacking creature, not to the permanent with exalted. Ultimately, the attacking creature will wind up with +1/+1 for each of your exalted abilities.
 2008/10/01: Exalted bonuses last until end of turn. If an effect creates an additional combat phase during your turn, a creature that attacked alone during the first combat phase will still have its exalted bonuses in that new phase. If a creature attacks alone during the second combat phase, all your exalted abilities will trigger again.
 2008/10/01: In a Two-Headed Giant game, a creature "attacks alone" if it's the only creature declared as an attacker by your entire team. If you control that attacking creature, your exalted abilities will trigger but your teammate's exalted abilities won't.
+2008/10/01: Exalted abilities will resolve before blockers are declared.
 2009/10/01: <Battlegrace Angel> could cause a creature to have multiple instances of lifelink. For example, a creature you control that already has lifelink could attack alone while you control <Battlegrace Angel>, or a creature you control could attack alone while you control more than one <Battlegrace Angel>. If a creature has multiple instances of lifelink, they are redundant. You'll still only gain life equal to the damage dealt.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -301,7 +304,7 @@ Enchanted creature gets +3/+3 and has first strike, vigilance, and lifelink. (Da
 <Artist>Johannes Voss</Artist>
 <Multiverseid>397798</Multiverseid>
 <Rulings>2007/05/01: If all other Auras attached to the enchanted creature stop enchanting it, <Daybreak Coronet> will be attached to an illegal permanent and will be put into its owner's graveyard.
-2007/05/01: Because Retether returns all Auras to the battlefield at the same time, it won't let you attach <Daybreak Coronet> to a creature unless that creature is already enchanted.</Rulings>
+2018/12/07: If multiple Auras are entering the battlefield at the same time, you choose which player or permanent each enchants before any of them enter the battlefield. This means that <Daybreak Coronet> can't be put onto the battlefield enchanting a creature that's not enchanted before the Auras all enter the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -682,7 +685,7 @@ When Oblivion Ring leaves the battlefield, return the exiled card to the battlef
 <CardText>Sunlance deals 3 damage to target nonwhite creature.</CardText>
 <Flavor>"It's easy for the innocent to speak of justice. They seldom feel its terrible power."
 —Orim, Samite inquisitor</Flavor>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>397862</Multiverseid>
 <Rulings>2007/02/01: This is the timeshifted version of Strafe.</Rulings>
 <Vintage>Legal</Vintage>
@@ -771,7 +774,8 @@ When Oblivion Ring leaves the battlefield, return the exiled card to the battlef
 Evoke {1}{U}{U} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)</CardText>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Multiverseid>397746</Multiverseid>
-<Rulings>2013/04/15: If you cast this card for its evoke cost, you may put the sacrifice trigger and the regular enters-the-battlefield trigger on the stack in either order. The one put on the stack last will resolve first.</Rulings>
+<Rulings>2013/04/15: If you cast this card for its evoke cost, you may put the sacrifice trigger and the regular enters-the-battlefield trigger on the stack in either order. The one put on the stack last will resolve first.
+2018/12/07: <Aethersnipe> can be the target of its own ability. If it's the only nonland permanent on the battlefield, it must be the target of its ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -971,6 +975,7 @@ When Guile is put into a graveyard from anywhere, shuffle it into its owner's li
 <Rulings>2011/01/01: You can choose any player that has a counter, including yourself.
 2011/01/01: You can choose any permanent that has a counter, including ones controlled by opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them, such as suspended cards or a Lightning Storm on the stack.
 2011/01/01: You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+2011/01/01: If a permanent chosen this way has multiple kinds of counters on it, only a single new counter is put on that permanent.
 2011/01/01: Players can respond to the spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
 2011/01/01: Whenever you cast a spell, <Inexorable Tide>'s ability triggers and goes on the stack on top of it. It will resolve (and you'll proliferate) before the spell resolves.</Rulings>
 <Vintage>Legal</Vintage>
@@ -1147,6 +1152,7 @@ Draw a card.</CardText>
 <Rulings>2011/01/01: You can choose any player that has a counter, including yourself.
 2011/01/01: You can choose any permanent that has a counter, including ones controlled by opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them, such as suspended cards or a Lightning Storm on the stack.
 2011/01/01: You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+2011/01/01: If a permanent chosen this way has multiple kinds of counters on it, only a single new counter is put on that permanent.
 2011/01/01: Players can respond to the spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
 2011/01/01: This spell has no targets. You can cast it even if there are no players or permanents with counters on them. If you do, you'll simply draw a card as it resolves.</Rulings>
 <Vintage>Legal</Vintage>
@@ -1291,6 +1297,7 @@ Whenever Thrummingbird deals combat damage to a player, proliferate. (Choose any
 <Rulings>2011/01/01: You can choose any player that has a counter, including yourself.
 2011/01/01: You can choose any permanent that has a counter, including ones controlled by opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them, such as suspended cards or a Lightning Storm on the stack.
 2011/01/01: You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+2011/01/01: If a permanent chosen this way has multiple kinds of counters on it, only a single new counter is put on that permanent.
 2011/01/01: Players can respond to the spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1948,7 +1955,7 @@ Choose target card in a graveyard other than a basic land card. Search its owner
 <ManaCost>2B (3)</ManaCost>
 <CardText>Whenever you cast a Spirit or Arcane spell, target opponent loses 1 life and you gain 1 life.
 Soulshift 2 (When this creature dies, you may return target Spirit card with converted mana cost 2 or less from your graveyard to your hand.)</CardText>
-<Artist>Greg Hildebrandt</Artist>
+<Artist>Tim Hildebrandt</Artist>
 <Multiverseid>397785</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2513,17 +2520,17 @@ Enchanted creature has "{T}: Create a token that's a copy of this creature, exce
 <Flavor>"I know just the person for that job."</Flavor>
 <Artist>Goran Josic</Artist>
 <Multiverseid>397816</Multiverseid>
-<Rulings>2010/06/15: <Splinter Twin> grants an activated ability to the enchanted creature. That creature's controller (who is not necessarily the Aura's controller) can activate it. The creature's controller is the player who gets the token.
-2010/06/15: The token that's put onto the battlefield copies exactly what's printed on the enchanted creature (unless that creature is copying something else or it's a token; see below), plus it has haste. It doesn't copy whether the enchanted creature is tapped or untapped, whether it has any counters on it or Auras attached to it, or whether it's been affected by any noncopy effects that changed its power, toughness, types, color, or so on. In particular, it doesn't copy the ability granted to the enchanted creature by <Splinter Twin>.
+<Rulings>2010/06/15: The token that's put onto the battlefield copies exactly what's printed on the enchanted creature (unless that creature is copying something else or it's a token; see below), plus it has haste. It doesn't copy whether the enchanted creature is tapped or untapped, whether it has any counters on it or Auras attached to it, or whether it's been affected by any noncopy effects that changed its power, toughness, types, color, or so on. In particular, it doesn't copy the ability granted to the enchanted creature by <Splinter Twin>.
 2010/06/15: If the enchanted creature is copying something else when the ability resolves (for example, if it's a Renegade Doppelganger), then the token enters the battlefield as a copy of whatever the enchanted creature is copying, plus it has haste.
 2010/06/15: If the enchanted creature is a token, the new token copies the characteristics of the original token as stated by the effect that put it onto the battlefield, plus it has haste.
 2010/06/15: If the enchanted creature has {X} in its mana cost (such as Protean Hydra), X is considered to be zero.
 2010/06/15: Any enters-the-battlefield abilities of the enchanted creature will trigger when the token is put onto the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the enchanted creature will also work.
-2010/06/15: The token will not be kicked, even if the creature it's copying was.
+2010/06/15: <Splinter Twin> grants an activated ability to the enchanted creature. That creature's controller (who is not necessarily the Aura's controller) can activate it. The creature's controller is the player who gets the token.
 2010/06/15: If you activate the ability and the enchanted creature leaves the battlefield before the ability resolves, you still get a token. The enchanted creature's last existence on the battlefield is checked to see what it was (specifically, if it was itself or if it was copying something else).
 2010/06/15: The token is exiled at the beginning of the next end step regardless of who controls it at that time, or whether <Splinter Twin> or the enchanted creature is still on the battlefield at that time.
 2010/06/15: If the ability is activated during a turn's end step, the token will be exiled at the beginning of the following turn's end step.
 2010/06/15: If the token isn't exiled when the delayed triggered ability resolves (due to Stifle, perhaps), it remains on the battlefield indefinitely. It continues to have haste.
+2010/06/15: The token will not be kicked, even if the creature it's copying was.
 2013/07/01: If the enchanted creature is legendary, you will have to put either the original creature or the token into the graveyard as a state-based action.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3109,13 +3116,13 @@ Create three 1/1 green Saproling creature tokens.</CardText>
 <Flavor>From the seeds of faith, great forests grow.</Flavor>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>397665</Multiverseid>
-<Rulings>2014/07/18: The rules for convoke have changed slightly since it last appeared in an expansion. Previously, convoke reduced the cost to cast a spell. Under current rules, you tap creatures at the same time you pay the spell's costs. Tapping a creature this way is simply another way to pay.
-2014/07/18: Convoke doesn't change a spell's mana cost or converted mana cost.
-2014/07/18: When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated.
-2014/07/18: Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
-2014/07/18: Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
-2014/07/18: When using convoke to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap creatures you control to help pay that cost. For example, if you cast Chord of Calling (a spell with convoke and mana cost {X}{G}{G}{G}) and choose X to be 3, the total cost is {3}{G}{G}{G}. If you tap two green creatures and two red creatures, you'll have to pay {1}{G}.
-2014/07/18: If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped when you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.</Rulings>
+<Rulings>2018/10/05: You can tap an untapped creature you haven't controlled continuously since the beginning of your most recent turn to convoke a spell.
+2018/10/05: Convoke doesn't change a spell's mana cost or converted mana cost.
+2018/10/05: When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated.
+2018/10/05: Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+2018/10/05: Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+2018/10/05: When using convoke to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap creatures you control to help pay that cost. For example, if you cast Worldsoul Colossus (a spell with convoke and mana cost {X}{G}{W}) and choose X to be 3, the total cost is {3}{G}{W}. If you tap two green creatures and two white creatures, you'll have to pay {1}.
+2018/10/05: If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3233,9 +3240,10 @@ Basic landcycling {1}{G} ({1}{G}, Discard this card: Search your library for a b
 <Flavor>What doesn't grow, dies. And what dies grows the tarmogoyf.</Flavor>
 <Artist>Ryan Barger</Artist>
 <Multiverseid>397682</Multiverseid>
-<Rulings>2017/03/14: <Tarmogoyf>'s ability works in all zones, not just while <Tarmogoyf> is on the battlefield.
-2017/03/14: <Tarmogoyf> counts card types, not cards. If the only card in all graveyards is a single artifact creature, <Tarmogoyf> will be 2/3. If the only cards in all graveyards are ten artifact creatures, <Tarmogoyf> will still be 2/3.
-2017/03/14: The card types that can appear on cards in a graveyard are artifact, creature, enchantment, instant, land, planeswalker, sorcery, and tribal (a card type that appears on some older cards). Legendary and basic are supertypes, not card types.</Rulings>
+<Rulings>2018/12/07: The ability that defines <Tarmogoyf>'s power and toughness works in all zones, not just the battlefield. If <Tarmogoyf> is in your graveyard, it will count itself.
+2018/12/07: <Tarmogoyf> counts card types, not cards. If the only card in all graveyards is a single artifact creature, <Tarmogoyf> will be 2/3. If the only cards in all graveyards are ten artifact creatures, <Tarmogoyf> will still be 2/3.
+2018/12/07: The card types that can appear on cards in a graveyard are artifact, creature, enchantment, instant, land, planeswalker, sorcery, and tribal. Legendary, basic, and snow are supertypes, not card types.
+2018/12/07: If an instant or sorcery spell deals damage to <Tarmogoyf> or lowers its toughness, that spell is put into its owner's graveyard before state-based actions are performed. If that spell is the first of its type to enter a graveyard, it will raise <Tarmogoyf>'s toughness before the game checks to see if <Tarmogoyf> dies.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3658,11 +3666,10 @@ Whenever Shadowmage Infiltrator deals combat damage to a player, you may draw a 
 Exile Vengeful Rebirth.</CardText>
 <Artist>Vance Kovacs</Artist>
 <Multiverseid>397721</Multiverseid>
-<Rulings>2009/05/01: <Vengeful Rebirth> has two targets: a card in your graveyard, and a permanent or player.
-2009/05/01: You can return a land card to your hand with <Vengeful Rebirth>. It just won't deal any damage to the targeted permanent or player if you do.
-2009/05/01: If the targeted permanent or player becomes an illegal target but the targeted card in your graveyard doesn't, <Vengeful Rebirth> will still return that card from your graveyard to your hand, but it won't deal any damage. <Vengeful Rebirth> will then be exiled.
-2009/05/01: If the targeted card in your graveyard becomes an illegal target but the targeted permanent or player doesn't, <Vengeful Rebirth> won't return that card to your hand and it won't deal any damage (because you didn't return a nonland card to your hand this way). <Vengeful Rebirth> will still be exiled, though.
-2009/05/01: If both targets are illegal, <Vengeful Rebirth> doesn't resolve. It will go to your graveyard.</Rulings>
+<Rulings>2018/12/07: You can return a land card to your hand with <Vengeful Rebirth>. It just won't deal any damage to the target permanent or player if you do.
+2018/12/07: If the target permanent or player becomes an illegal target but the target card in your graveyard doesn't, <Vengeful Rebirth> will still return that card from your graveyard to your hand, but it won't deal any damage. <Vengeful Rebirth> will then be exiled.
+2018/12/07: If the target card in your graveyard becomes an illegal target but the target permanent or player doesn't, <Vengeful Rebirth> won't return that card to your hand and it won't deal any damage (because you didn't return a nonland card to your hand this way). <Vengeful Rebirth> will still be exiled.
+2018/12/07: If both targets are illegal, <Vengeful Rebirth> doesn't resolve. It will be put into your graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4322,7 +4329,7 @@ Equip {2}</CardText>
 <ManaCost>0 (0)</ManaCost>
 <CardText>Metalcraft — {T}: Add one mana of any color. Activate this ability only if you control three or more artifacts.</CardText>
 <Flavor>The suns of Mirrodin have shone upon perfection only once.</Flavor>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>397719</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>

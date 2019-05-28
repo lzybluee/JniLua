@@ -56,7 +56,7 @@ At the beginning of the end step, if there are two or more ki counters on Faithf
 <No>3b</No>
 <Name>Kaiso, Memory of Loyalty</Name>
 <Type>Legendary Creature — Spirit 3/4</Type>
-<ManaCost>1WW (3)</ManaCost>
+<ColorIndicator>White</ColorIndicator>
 <CardText>Flying
 Remove a ki counter from Kaiso, Memory of Loyalty: Prevent all damage that would be dealt to target creature this turn.</CardText>
 <Artist>Mark Zug</Artist>
@@ -587,7 +587,7 @@ At the beginning of the end step, if there are two or more ki counters on Callow
 <No>31b</No>
 <Name>Jaraku the Interloper</Name>
 <Type>Legendary Creature — Spirit 3/4</Type>
-<ManaCost>1UU (3)</ManaCost>
+<ColorIndicator>Blue</ColorIndicator>
 <CardText>Remove a ki counter from Jaraku the Interloper: Counter target spell unless its controller pays {2}.</CardText>
 <Artist>Tsutomu Kawade</Artist>
 <Multiverseid>74489</Multiverseid>
@@ -626,7 +626,9 @@ At the beginning of your upkeep, sacrifice Chisei, Heart of Oceans unless you re
 Counter target spell if its converted mana cost is X.</CardText>
 <Artist>Scott M. Fischer</Artist>
 <Multiverseid>74128</Multiverseid>
-<Rulings>2005/02/01: <Disrupting Shoal> can target any spell, but does nothing unless that spell's converted mana cost is X.</Rulings>
+<Rulings>2005/02/01: <Disrupting Shoal> can target any spell, but does nothing unless that spell's converted mana cost is X.
+2018/12/07: If a card in your hand has {X} in its mana cost, X is considered to be 0.
+2018/12/07: If a spell has {X} in its mana cost, include the value chosen for that X when determining the converted mana cost of that spell, even if it was cast for an alternative cost and no mana was spent on X.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -990,8 +992,10 @@ Whenever Shimmering Glasskite becomes the target of a spell or ability for the f
 —Dosan the Falling Leaf</Flavor>
 <Artist>John Avon</Artist>
 <Multiverseid>73997</Multiverseid>
-<Rulings>2005/02/01: <Stream of Consciousness> can target from zero to four cards.
-2005/02/01: <Stream of Consciousness> targets the player as well as the cards. The shuffle occurs even if zero cards are targeted.</Rulings>
+<Rulings>2018/12/07: <Stream of Consciousness> can't be one of the target cards you shuffle into your library.
+2018/12/07: You choose the target cards; the target player doesn't. They may offer suggestions.
+2018/12/07: You may target zero cards in any graveyard and have a target player simply shuffle their library.
+2018/12/07: If you target any cards in a graveyard and those cards all become illegal targets, the target player simply shuffles their library.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1267,7 +1271,8 @@ Splice onto Arcane {2}{B} (As you cast an Arcane spell, you may reveal this card
 <Rulings>2013/06/07: You reveal all cards you intend to splice at the same time. Each individual card can be spliced only once onto any one spell.
 2013/06/07: A card with a splice ability can't be spliced onto itself because the spell is on the stack (and not in your hand) when you reveal the cards you want to splice onto it.
 2013/06/07: You choose all targets for the spell after revealing cards you want to splice, including any targets required by the text of any of those cards. You may choose a different target for each instance of the word "target" on the resulting spell.
-2013/06/07: If all of the spell's targets are illegal when the spell tries to resolve, it won't resolve and none of its effects will happen.</Rulings>
+2013/06/07: If all of the spell's targets are illegal when the spell tries to resolve, it won't resolve and none of its effects will happen.
+2018/12/07: If the returned creature leaves the battlefield before the end step, it will remain in its current zone. It won't be exiled.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1316,7 +1321,7 @@ At the beginning of the end step, if there are two or more ki counters on Hired 
 <No>69b</No>
 <Name>Scarmaker</Name>
 <Type>Legendary Creature — Spirit 4/4</Type>
-<ManaCost>1BB (3)</ManaCost>
+<ColorIndicator>Black</ColorIndicator>
 <CardText>Remove a ki counter from Scarmaker: Target creature gains fear until end of turn. (It can't be blocked except by artifact creatures and/or black creatures.)</CardText>
 <Artist>Arnie Swekel</Artist>
 <Multiverseid>74476</Multiverseid>
@@ -1545,9 +1550,10 @@ Soulshift 6 (When this creature dies, you may return target Spirit card with con
 <CardText>Whenever a creature with power 1 or less is put into your graveyard from the battlefield, you may return that card to the battlefield at the beginning of the next end step if Shirei, Shizo's Caretaker is still on the battlefield.</CardText>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>81987</Multiverseid>
-<Rulings>2005/02/01: Shirei's ability only triggers if the creature's power immediately before leaving the battlefield is 1 or less.
-2005/02/01: If Shirei leaves the battlefield and returns to the battlefield after a creature with power 1 or less is put into your graveyard, it won't return that creature to the battlefield under your control.
-2005/02/01: Shirei's ability doesn't affect creatures put into your graveyard before Shirei enters the battlefield. The "if" clause modifies the conditions on which creatures are returned.</Rulings>
+<Rulings>2018/12/07: Shirei's ability only triggers if the creature's power immediately before leaving the battlefield is 1 or less, regardless of its power in your graveyard.
+2018/12/07: Shirei's ability triggers if a creature you own with power 1 or less dies under another player's control.
+2018/12/07: If Shirei leaves the battlefield and returns to the battlefield after a creature with power 1 or less is put into your graveyard, Shirei is considered a new object. The delayed triggered ability won't return the creature to the battlefield.
+2018/12/07: Shirei's ability can't return any creatures that died before Shirei entered the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1877,7 +1883,7 @@ At the beginning of the end step, if there are two or more ki counters on Cunnin
 <No>99b</No>
 <Name>Azamuki, Treachery Incarnate</Name>
 <Type>Legendary Creature — Spirit 5/2</Type>
-<ManaCost>1RR (3)</ManaCost>
+<ColorIndicator>Red</ColorIndicator>
 <CardText>Remove a ki counter from Azamuki, Treachery Incarnate: Gain control of target creature until end of turn.</CardText>
 <Artist>Paolo Parente</Artist>
 <Multiverseid>74671</Multiverseid>
@@ -2312,7 +2318,7 @@ At the beginning of the end step, if there are two or more ki counters on Budoka
 <No>122b</No>
 <Name>Ichiga, Who Topples Oaks</Name>
 <Type>Legendary Creature — Spirit 4/3</Type>
-<ManaCost>1GG (3)</ManaCost>
+<ColorIndicator>Green</ColorIndicator>
 <CardText>Trample
 Remove a ki counter from Ichiga, Who Topples Oaks: Target creature gets +2/+2 until end of turn.</CardText>
 <Artist>Shishizaru</Artist>
@@ -2589,6 +2595,8 @@ Whenever Matsu-Tribe Sniper deals damage to a creature, tap that creature and it
 You gain X life.</CardText>
 <Artist>Greg Staples</Artist>
 <Multiverseid>74100</Multiverseid>
+<Rulings>2018/12/07: If a card in a player's hand has {X} in its mana cost, X is considered to be 0.
+2018/12/07: If a spell has {X} in its mana cost, include the value chosen for that X when determining the converted mana cost of that spell, even if it was cast for an alternative cost and no mana was spent on X.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

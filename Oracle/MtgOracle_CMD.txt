@@ -41,7 +41,7 @@ Annihilator 2 (Whenever this creature attacks, defending player sacrifices two p
 <CardText>Destroy all artifacts, creatures, and enchantments.
 Cycling {3} ({3}, Discard this card: Draw a card.)</CardText>
 <Flavor>Ixidor had only to imagine their ruin and Akroma made it so.</Flavor>
-<Artist>Greg & Tim Hildebrandt</Artist>
+<Artist>Greg Hildebrandt & Tim Hildebrandt</Artist>
 <Multiverseid>247343</Multiverseid>
 <Rulings>2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.</Rulings>
 <Vintage>Legal</Vintage>
@@ -282,13 +282,13 @@ Destroy all nontoken creatures.</CardText>
 —Niszka, Selesnya evangel</Flavor>
 <Artist>Randy Gallegos</Artist>
 <Multiverseid>247383</Multiverseid>
-<Rulings>2014/07/18: The rules for convoke have changed slightly since it last appeared in an expansion. Previously, convoke reduced the cost to cast a spell. Under current rules, you tap creatures at the same time you pay the spell's costs. Tapping a creature this way is simply another way to pay.
-2014/07/18: Convoke doesn't change a spell's mana cost or converted mana cost.
-2014/07/18: When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated.
-2014/07/18: Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
-2014/07/18: Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
-2014/07/18: When using convoke to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap creatures you control to help pay that cost. For example, if you cast Chord of Calling (a spell with convoke and mana cost {X}{G}{G}{G}) and choose X to be 3, the total cost is {3}{G}{G}{G}. If you tap two green creatures and two red creatures, you'll have to pay {1}{G}.
-2014/07/18: If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped when you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.</Rulings>
+<Rulings>2018/10/05: You can tap an untapped creature you haven't controlled continuously since the beginning of your most recent turn to convoke a spell.
+2018/10/05: Convoke doesn't change a spell's mana cost or converted mana cost.
+2018/10/05: When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated.
+2018/10/05: Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+2018/10/05: Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+2018/10/05: When using convoke to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap creatures you control to help pay that cost. For example, if you cast Worldsoul Colossus (a spell with convoke and mana cost {X}{G}{W}) and choose X to be 3, the total cost is {3}{G}{W}. If you tap two green creatures and two white creatures, you'll have to pay {1}.
+2018/10/05: If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -717,7 +717,8 @@ Creatures can't attack you unless their controller pays {2} for each creature th
 Evoke {1}{U}{U} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)</CardText>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Multiverseid>247295</Multiverseid>
-<Rulings>2013/04/15: If you cast this card for its evoke cost, you may put the sacrifice trigger and the regular enters-the-battlefield trigger on the stack in either order. The one put on the stack last will resolve first.</Rulings>
+<Rulings>2013/04/15: If you cast this card for its evoke cost, you may put the sacrifice trigger and the regular enters-the-battlefield trigger on the stack in either order. The one put on the stack last will resolve first.
+2018/12/07: <Aethersnipe> can be the target of its own ability. If it's the only nonland permanent on the battlefield, it must be the target of its ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1704,7 +1705,7 @@ Exile target attacking creature. Create a token that's a copy of that creature. 
 <No>92b</No>
 <Name>Nighteyes the Desecrator</Name>
 <Type>Legendary Creature — Rat Wizard 4/2</Type>
-<ManaCost>1B (2)</ManaCost>
+<ColorIndicator>Black</ColorIndicator>
 <CardText>{4}{B}: Put target creature card from a graveyard onto the battlefield under your control.</CardText>
 <Artist>Jim Nelson</Artist>
 <Multiverseid>247175</Multiverseid>
@@ -2066,7 +2067,7 @@ Flying
 <ManaCost>1R (2)</ManaCost>
 <CardText>Kicker {2} (You may pay an additional {2} as you cast this spell.)
 Breath of Darigaaz deals 1 damage to each creature without flying and each player. If this spell was kicked, it deals 4 damage to each creature without flying and each player instead.</CardText>
-<Artist>Greg & Tim Hildebrandt</Artist>
+<Artist>Greg Hildebrandt & Tim Hildebrandt</Artist>
 <Multiverseid>247185</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2790,7 +2791,7 @@ When Deadwood Treefolk enters the battlefield or leaves the battlefield, return 
 <Type>Creature — Elf Mutant 4/5</Type>
 <ManaCost>5G (6)</ManaCost>
 <CardText>{T}: Add {G}{G}{G}.
-Forestcycling {2} ({2}, Discard this card: Search your library for a Forest card, reveal it, put it into your hand, then shuffle your library.)</CardText>
+Forestcycling {2} ({2}, Discard this card: Search your library for a Forest card, reveal it, and put it into your hand, then shuffle your library.)</CardText>
 <Artist>Matt Cavotta</Artist>
 <Multiverseid>247403</Multiverseid>
 <Rulings>2009/02/01: Unlike the normal cycling ability, Forestcycling doesn't allow you to draw a card. Instead, it lets you search your library for a Forest card. After you find a Forest card in your library, you reveal it, put it into your hand, then shuffle your library.
@@ -2813,6 +2814,7 @@ Forestcycling {2} ({2}, Discard this card: Search your library for a Forest card
 <Flavor>She remembers every word spoken, from the hero's oath to the baby's cry.</Flavor>
 <Artist>Terese Nielsen</Artist>
 <Multiverseid>247148</Multiverseid>
+<Rulings>2018/12/07: If an instant or sorcery spell puts <Eternal Witness> onto the battlefield, its ability can target that card in your graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3617,10 +3619,11 @@ When Duergar Hedge-Mage enters the battlefield, if you control two or more Plain
 <ManaCost>1GU (3)</ManaCost>
 <CardText>Whenever a creature deals combat damage to one of your opponents, its controller may draw a card.</CardText>
 <Flavor>"I am not at liberty to reveal my sources, but I can assure you, the price on your head is high."</Flavor>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>230000</Multiverseid>
 <Rulings>2011/09/22: A creature controlled by an opponent that deals combat damage to another opponent will cause Edric's ability to trigger. The creature's controller chooses whether to draw a card.
-2011/09/22: When a creature you control deals combat damage to one of your opponents, you may draw a card.</Rulings>
+2011/09/22: When a creature you control deals combat damage to one of your opponents, you may draw a card.
+2015/01/19: <Edric, Spymaster of Trest> is banned as a commander in Duel Commander format, but it may be part of your deck.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander</Set>
@@ -3657,6 +3660,9 @@ Draw a card.</CardText>
 <CardText>Fire deals 2 damage divided as you choose among one or two targets.</CardText>
 <Artist>David Martin</Artist>
 <Multiverseid>247159</Multiverseid>
+<Rulings>2018/12/07: You divide the damage as you cast <Fire>, not as it resolves. Each target must be assigned at least 1 damage. In other words, as you cast <Fire>, you choose whether to have it deal 2 damage to a single target, or deal 1 damage to each of two targets.
+2018/12/07: If <Fire> targets two creatures and one becomes an illegal target, the remaining target is dealt 1 damage, not 2.
+2018/12/07: If the target permanent becomes an illegal target for Ice, the spell doesn't resolve. You don't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander</Set>
@@ -3672,8 +3678,11 @@ Draw a card.</CardText>
 <ManaCost>1U (2)</ManaCost>
 <CardText>Tap target permanent.
 Draw a card.</CardText>
-<Artist>David Martin</Artist>
+<Artist>Franz Vohwinkel</Artist>
 <Multiverseid>247159</Multiverseid>
+<Rulings>2018/12/07: You divide the damage as you cast Fire, not as it resolves. Each target must be assigned at least 1 damage. In other words, as you cast Fire, you choose whether to have it deal 2 damage to a single target, or deal 1 damage to each of two targets.
+2018/12/07: If Fire targets two creatures and one becomes an illegal target, the remaining target is dealt 1 damage, not 2.
+2018/12/07: If the target permanent becomes an illegal target for <Ice>, the spell doesn't resolve. You don't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander</Set>
@@ -4344,11 +4353,10 @@ Whenever Teneb, the Harvester deals combat damage to a player, you may pay {2}{B
 Exile Vengeful Rebirth.</CardText>
 <Artist>Vance Kovacs</Artist>
 <Multiverseid>247168</Multiverseid>
-<Rulings>2009/05/01: <Vengeful Rebirth> has two targets: a card in your graveyard, and a permanent or player.
-2009/05/01: You can return a land card to your hand with <Vengeful Rebirth>. It just won't deal any damage to the targeted permanent or player if you do.
-2009/05/01: If the targeted permanent or player becomes an illegal target but the targeted card in your graveyard doesn't, <Vengeful Rebirth> will still return that card from your graveyard to your hand, but it won't deal any damage. <Vengeful Rebirth> will then be exiled.
-2009/05/01: If the targeted card in your graveyard becomes an illegal target but the targeted permanent or player doesn't, <Vengeful Rebirth> won't return that card to your hand and it won't deal any damage (because you didn't return a nonland card to your hand this way). <Vengeful Rebirth> will still be exiled, though.
-2009/05/01: If both targets are illegal, <Vengeful Rebirth> doesn't resolve. It will go to your graveyard.</Rulings>
+<Rulings>2018/12/07: You can return a land card to your hand with <Vengeful Rebirth>. It just won't deal any damage to the target permanent or player if you do.
+2018/12/07: If the target permanent or player becomes an illegal target but the target card in your graveyard doesn't, <Vengeful Rebirth> will still return that card from your graveyard to your hand, but it won't deal any damage. <Vengeful Rebirth> will then be exiled.
+2018/12/07: If the target card in your graveyard becomes an illegal target but the target permanent or player doesn't, <Vengeful Rebirth> won't return that card to your hand and it won't deal any damage (because you didn't return a nonland card to your hand this way). <Vengeful Rebirth> will still be exiled.
+2018/12/07: If both targets are illegal, <Vengeful Rebirth> doesn't resolve. It will be put into your graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4621,9 +4629,9 @@ Equip {1}</CardText>
 —Mairsil, the Pretender</Flavor>
 <Artist>John Avon</Artist>
 <Multiverseid>247152</Multiverseid>
-<Rulings>2004/10/04: It only produces one mana even if the land can produce more than one.
-2004/10/04: This works even if the opponent's lands are tapped. It only checks what kinds of mana can be produced, not if the abilities that produce them are usable right now.
+<Rulings>2004/10/04: This works even if the opponent's lands are tapped. It only checks what kinds of mana can be produced, not if the abilities that produce them are usable right now.
 2004/10/04: The ability can be activated if the opponent has no lands that produce mana, but the effect will not be able to generate any mana.
+2004/10/04: It only produces one mana even if the land can produce more than one.
 2009/10/01: The colors of mana are white, blue, black, red, and green. <Fellwar Stone> can't be tapped for colorless mana, even if a land an opponent controls could produce colorless mana.
 2009/10/01: <Fellwar Stone> checks the effects of all mana-producing abilities of lands your opponents control, but it doesn't check their costs. For example, Vivid Crag has the ability "{T}, Remove a charge counter from Vivid Crag: Add one mana of any color." If an opponent controls Vivid Crag and you control <Fellwar Stone>, you can tap <Fellwar Stone> for any color of mana. It doesn't matter whether Vivid Crag has a charge counter on it, and it doesn't matter whether it's untapped.
 2009/10/01: When determining what colors of mana your opponents' lands could produce, take into account any applicable replacement effects that would apply to those lands' mana abilities (such as Contamination's effect, for example). If there is more than one, consider them in any possible order.

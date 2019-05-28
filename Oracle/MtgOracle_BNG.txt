@@ -7,20 +7,20 @@
 <CardText>Prevent the next X damage that would be dealt to target creature this turn, where X is your devotion to white. If damage is prevented this way, Acolyte's Reward deals that much damage to any target. (Each {W} in the mana costs of permanents you control counts toward your devotion to white.)</CardText>
 <Artist>Slawomir Maniak</Artist>
 <Multiverseid>378373</Multiverseid>
-<Rulings>2013/09/15: Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
-2013/09/15: Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
+<Rulings>2013/09/15: Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
 2013/09/15: Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
 2013/09/15: If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it's still on the battlefield at that time.
-2014/02/01: <Acolyte's Reward> has two targets: the creature that would be dealt damage and the permanent or player that <Acolyte's Reward> will deal damage to. These targets are chosen as you cast <Acolyte's Reward>.
-2014/02/01: The amount of damage the prevention shield will prevent is based on your devotion to white as <Acolyte's Reward> resolves. That amount won't change later in the turn, even if your devotion to white does.
-2014/02/01: You don't choose a source of damage. The prevention shield will apply to the next X damage that would be dealt to the first target, no matter where that damage comes from. It also doesn't matter whether the damage is dealt at the same time. For example, if the shield prevents the next 5 damage to the first target, and that creature would be dealt 3 damage by Lightning Strike, that 3 damage is prevented and <Acolyte's Reward> deals 3 damage to the second target. The prevention effect will still apply to the next 2 damage the first target would be dealt that turn.
-2014/02/01: The effect of <Acolyte's Reward> isn't a redirection effect. If it prevents damage, <Acolyte's Reward> (not the source of that damage) deals damage to the second target as part of that prevention effect. <Acolyte's Reward> is the source of the new damage, so the characteristics of the original source (such as its color or whether it had lifelink) don't apply. The new damage isn't combat damage, even if the prevented damage was.
-2014/02/01: As <Acolyte's Reward> tries to resolve, if only the first target is illegal, <Acolyte's Reward> won't prevent any damage that would be dealt to that creature and, because of this, <Acolyte's Reward> won't deal damage to the second target. If only the second target is illegal, damage that would be dealt to the first target will be prevented, but <Acolyte's Reward> won't deal damage. If both targets are illegal, <Acolyte's Reward> won't resolve.
+2013/09/15: Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
+2014/02/01: If the first target would be dealt combat damage by multiple creatures, you choose which of that damage to prevent. (For example, if one of those creatures has deathtouch, you could choose to prevent the damage from that creature specifically.) You don't decide until the point at which the creatures would deal their damage.
 2014/02/01: After <Acolyte's Reward> resolves, it no longer matters whether either target is still legal. For example, if the second target is a creature controlled by an opponent, and it gains hexproof after <Acolyte's Reward> resolves but before it prevents damage, <Acolyte's Reward> will still deal damage to that creature. If <Acolyte's Reward> can't deal damage to the second target (perhaps because it's a creature that has left the battlefield), <Acolyte's Reward> will still prevent damage; it just won't deal any damage itself.
 2014/02/01: If <Acolyte's Reward> prevents damage, it deals its damage immediately afterward as part of that same prevention effect. This happens before state-based actions are performed, and before any player can cast spells or activate abilities. If the source of the original damage was a spell or ability, this happens before that spell or ability resumes its resolution.
 2014/02/01: If the amount of damage that would be dealt to the first target is in excess of the amount of damage that <Acolyte's Reward> would prevent, the source deals its excess damage to the first target at the same time that the rest of it is prevented. Then <Acolyte's Reward> deals its damage.
 2014/02/01: The damage will be dealt by <Acolyte's Reward> as it existed on the stack, not as it exists when the damage is dealt. That is, it's an instant spell that's dealing the damage, in case an ability cares about that (such as Satyr Firedancer's, which includes the phrase "Whenever an instant or sorcery spell you control deals damage to an opponent").
-2014/02/01: If the first target would be dealt combat damage by multiple creatures, you choose which of that damage to prevent. (For example, if one of those creatures has deathtouch, you could choose to prevent the damage from that creature specifically.) You don't decide until the point at which the creatures would deal their damage.</Rulings>
+2014/02/01: <Acolyte's Reward> has two targets: the creature that would be dealt damage and the permanent or player that <Acolyte's Reward> will deal damage to. These targets are chosen as you cast <Acolyte's Reward>.
+2014/02/01: The amount of damage the prevention shield will prevent is based on your devotion to white as <Acolyte's Reward> resolves. That amount won't change later in the turn, even if your devotion to white does.
+2014/02/01: You don't choose a source of damage. The prevention shield will apply to the next X damage that would be dealt to the first target, no matter where that damage comes from. It also doesn't matter whether the damage is dealt at the same time. For example, if the shield prevents the next 5 damage to the first target, and that creature would be dealt 3 damage by Lightning Strike, that 3 damage is prevented and <Acolyte's Reward> deals 3 damage to the second target. The prevention effect will still apply to the next 2 damage the first target would be dealt that turn.
+2014/02/01: The effect of <Acolyte's Reward> isn't a redirection effect. If it prevents damage, <Acolyte's Reward> (not the source of that damage) deals damage to the second target as part of that prevention effect. <Acolyte's Reward> is the source of the new damage, so the characteristics of the original source (such as its color or whether it had lifelink) don't apply. The new damage isn't combat damage, even if the prevented damage was.
+2014/02/01: As <Acolyte's Reward> tries to resolve, if only the first target is illegal, <Acolyte's Reward> won't prevent any damage that would be dealt to that creature and, because of this, <Acolyte's Reward> won't deal damage to the second target. If only the second target is illegal, damage that would be dealt to the first target will be prevented, but <Acolyte's Reward> won't deal damage. If both targets are illegal, <Acolyte's Reward> won't resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -142,13 +142,13 @@ Whenever Brimaz blocks a creature, create a 1/1 white Cat Soldier creature token
 Eidolon of Countless Battles and enchanted creature each get +1/+1 for each creature you control and +1/+1 for each Aura you control.</CardText>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>378379</Multiverseid>
-<Rulings>2013/09/15: You don't choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you've made this choice. For example, an effect that said you can cast creature spells as though they have flash won't allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spells as though they have flash will.
-2013/09/15: On the stack, a spell with bestow is either a creature spell or an Aura spell. It's never both, although it's an enchantment spell in either case.
-2013/09/15: Unlike other Aura spells, an Aura spell with bestow isn't countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature.
+<Rulings>2013/09/15: Unlike other Aura spells, an Aura spell with bestow isn't countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature.
 2013/09/15: Unlike other Auras, an Aura with bestow isn't put into its owner's graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it's been under your control continuously, even as an Aura, since your most recent turn began.
-2013/09/15: If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can't choose to pay the bestow cost and have it become an Aura.
+2013/09/15: You don't choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you've made this choice. For example, an effect that said you can cast creature spells as though they have flash won't allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spells as though they have flash will.
 2013/09/15: Auras attached to a creature don't become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature.
 2013/09/15: An Aura that becomes a creature is no longer put into its owner's graveyard as a state-based action. Rather, it becomes unattached and remains on the battlefield as long as it's a creature. While it's a creature, it can't be attached to another permanent or player. An Aura that's not attached to a legal permanent or player as defined by its enchant ability and also isn't a creature will be put into its owner's graveyard as a state-based action.
+2013/09/15: If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can't choose to pay the bestow cost and have it become an Aura.
+2013/09/15: On the stack, a spell with bestow is either a creature spell or an Aura spell. It's never both, although it's an enchantment spell in either case.
 2014/02/01: <Eidolon of Countless Battles>'s last ability functions only on the battlefield. In other zones, it is a 0/0 enchantment creature card.
 2014/02/01: A permanent with bestow is either a creature or an Aura, not both (although it's an enchantment either way). It will contribute just +1/+1 toward the bonus given by <Eidolon of Countless Battles>.</Rulings>
 <Vintage>Legal</Vintage>
@@ -351,7 +351,9 @@ Heroic — Whenever you cast a spell that targets Hero of Iroas, put a +1/+1 cou
 <Rulings>2013/09/15: Heroic abilities will resolve before the spell that caused them to trigger.
 2013/09/15: Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times.
 2013/09/15: Heroic abilities won't trigger when a copy of a spell is created on the stack or when a spell's targets are changed to include a creature with a heroic ability.
-2014/02/01: <Hero of Iroas>'s first ability will apply if you cast a card for its bestow cost.</Rulings>
+2014/02/01: <Hero of Iroas>'s first ability will apply if you cast a card for its bestow cost.
+2018/12/07: To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The converted mana cost of the spell remains unchanged, no matter what the total cost to cast it was.
+2018/12/07: <Hero of Iroas>'s first ability reduces only generic mana in the spell's total cost.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -800,15 +802,15 @@ Enchanted creature has "{1}{U}, {T}: Target player puts the top three cards of t
 <CardText>Create a token that's a copy of target creature you control. If it's your turn, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)</CardText>
 <Artist>Winona Nelson</Artist>
 <Multiverseid>378411</Multiverseid>
-<Rulings>2013/09/15: When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
-2013/09/15: You choose how to order cards returned to your library after scrying no matter where you put them.
+<Rulings>2013/09/15: You choose how to order cards returned to your library after scrying no matter where you put them.
 2013/09/15: You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
 2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.
+2013/09/15: When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
+2014/02/01: Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any "as [this permanent] enters the battlefield" or "[this permanent] enters the battlefield with" abilities of the copied creature will also work.
 2014/02/01: The token copies exactly what was printed on the original creature and nothing else (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
 2014/02/01: If the copied creature has {X} in its mana cost, X is considered to be zero.
 2014/02/01: If the copied creature is copying something else (for example, if the copied creature is a Clone), then the token enters the battlefield as whatever that creature copied.
-2014/02/01: If the copied creature is a token, the token created by <Fated Infatuation> copies the original characteristics of that token as stated by the effect that put the token onto the battlefield.
-2014/02/01: Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any "as [this permanent] enters the battlefield" or "[this permanent] enters the battlefield with" abilities of the copied creature will also work.</Rulings>
+2014/02/01: If the copied creature is a token, the token created by <Fated Infatuation> copies the original characteristics of that token as stated by the effect that put the token onto the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1105,10 +1107,10 @@ Enchanted creature can block only creatures with flying.</CardText>
 2013/09/15: You choose how to order cards returned to your library after scrying no matter where you put them.
 2013/09/15: You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
 2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.
+2014/02/01: If you choose zero targets, you'll just scry 1 when the ability resolves. However, if you choose at least one target and all of <Sudden Storm>'s targets are illegal as it tries to resolve, the spell won't resolve and none of its effects will happen. You won't scry in that case.
 2014/02/01: If a creature affected by <Sudden Storm> changes controllers before its old controller's next untap step, <Sudden Storm> will prevent it from becoming untapped during its new controller's next untap step.
 2014/02/01: This spell can target tapped creatures. If a targeted creature is already tapped when the spell resolves, that creature remains tapped and doesn't untap during its controller's next untap step.
-2014/02/01: If you chose two targets and one is an illegal target when <Sudden Storm> resolves, that creature won't become tapped and it won't be stopped from untapping during its controller's next untap step. It won't be affected by <Sudden Storm> in any way.
-2014/02/01: If you choose zero targets, you'll just scry 1 when the ability resolves. However, if you choose at least one target and all of <Sudden Storm>'s targets are illegal as it tries to resolve, the spell won't resolve and none of its effects will happen. You won't scry in that case.</Rulings>
+2014/02/01: If you chose two targets and one is an illegal target when <Sudden Storm> resolves, that creature won't become tapped and it won't be stopped from untapping during its controller's next untap step. It won't be affected by <Sudden Storm> in any way.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1535,13 +1537,13 @@ At the beginning of your upkeep, you lose 1 life.
 Enchanted creature gets +3/+3 and has flying.</CardText>
 <Artist>Vance Kovacs</Artist>
 <Multiverseid>378447</Multiverseid>
-<Rulings>2013/09/15: You don't choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you've made this choice. For example, an effect that said you can cast creature spells as though they have flash won't allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spells as though they have flash will.
-2013/09/15: On the stack, a spell with bestow is either a creature spell or an Aura spell. It's never both, although it's an enchantment spell in either case.
+<Rulings>2013/09/15: On the stack, a spell with bestow is either a creature spell or an Aura spell. It's never both, although it's an enchantment spell in either case.
 2013/09/15: Unlike other Aura spells, an Aura spell with bestow isn't countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature.
 2013/09/15: Unlike other Auras, an Aura with bestow isn't put into its owner's graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it's been under your control continuously, even as an Aura, since your most recent turn began.
-2013/09/15: If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can't choose to pay the bestow cost and have it become an Aura.
+2013/09/15: You don't choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you've made this choice. For example, an effect that said you can cast creature spells as though they have flash won't allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spells as though they have flash will.
 2013/09/15: Auras attached to a creature don't become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature.
 2013/09/15: An Aura that becomes a creature is no longer put into its owner's graveyard as a state-based action. Rather, it becomes unattached and remains on the battlefield as long as it's a creature. While it's a creature, it can't be attached to another permanent or player. An Aura that's not attached to a legal permanent or player as defined by its enchant ability and also isn't a creature will be put into its owner's graveyard as a state-based action.
+2013/09/15: If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can't choose to pay the bestow cost and have it become an Aura.
 2014/02/01: The triggered ability that causes you to lose life applies whether <Herald of Torment> is a creature or an Aura. The "you" in that ability refers to <Herald of Torment>'s controller. If you control <Herald of Torment> as an Aura enchanting a creature another player controls, that ability will trigger at the beginning of your upkeep and cause you to lose 1 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1558,7 +1560,7 @@ Enchanted creature gets +3/+3 and has flying.</CardText>
 <ManaCost>6B (7)</ManaCost>
 <CardText>This spell costs {X} less to cast, where X is your devotion to black. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)</CardText>
 <Flavor>A favorite of Erebos, for it has sent many to the Underworld.</Flavor>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>378448</Multiverseid>
 <Rulings>2013/09/15: Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
 2013/09/15: Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
@@ -1708,12 +1710,12 @@ Tribute 2 (As this creature enters the battlefield, an opponent of your choice m
 When Shrike Harpy enters the battlefield, if tribute wasn't paid, target opponent sacrifices a creature.</CardText>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>378455</Multiverseid>
-<Rulings>2014/02/01: The opponent you target with the triggered ability doesn't have to be the same opponent you chose to pay tribute or not.
-2014/02/01: If the opponent pays tribute, the creature will enter the battlefield with the specified number of +1/+1 counters on it. It won't enter the battlefield and then have the +1/+1 counters placed on it.
+<Rulings>2014/02/01: If the opponent pays tribute, the creature will enter the battlefield with the specified number of +1/+1 counters on it. It won't enter the battlefield and then have the +1/+1 counters placed on it.
 2014/02/01: The choice of whether to pay tribute is made as the creature with tribute is entering the battlefield. At that point, it's too late to respond to the creature spell. For example, in a multiplayer game, opponents won't know whether tribute will be paid or which opponent will be chosen to pay tribute or not when deciding whether to counter the creature spell.
-2014/02/01: If the triggered ability has a target, that target will not be known while the creature spell with tribute is on the stack.
+2014/02/01: The opponent you target with the triggered ability doesn't have to be the same opponent you chose to pay tribute or not.
 2014/02/01: Players can't respond to the tribute decision before the creature enters the battlefield. That is, if the opponent doesn't pay tribute, the triggered ability will trigger before any player has a chance to remove the creature.
 2014/02/01: The triggered ability will resolve even if the creature with tribute isn't on the battlefield at that time.
+2014/02/01: If the triggered ability has a target, that target will not be known while the creature spell with tribute is on the stack.
 2017/04/18: For effects that check which player put counters on the entering creature, the player chosen to pay tribute puts those counters on it, not the creature's controller.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1900,13 +1902,13 @@ Enchanted creature has "{R}, {T}, Discard a card: Draw a card."</CardText>
 Enchanted creature gets +1/+1.</CardText>
 <Artist>Daarken</Artist>
 <Multiverseid>378464</Multiverseid>
-<Rulings>2013/09/15: You don't choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you've made this choice. For example, an effect that said you can cast creature spells as though they have flash won't allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spells as though they have flash will.
-2013/09/15: On the stack, a spell with bestow is either a creature spell or an Aura spell. It's never both, although it's an enchantment spell in either case.
+<Rulings>2013/09/15: On the stack, a spell with bestow is either a creature spell or an Aura spell. It's never both, although it's an enchantment spell in either case.
 2013/09/15: Unlike other Aura spells, an Aura spell with bestow isn't countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature.
 2013/09/15: Unlike other Auras, an Aura with bestow isn't put into its owner's graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it's been under your control continuously, even as an Aura, since your most recent turn began.
-2013/09/15: If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can't choose to pay the bestow cost and have it become an Aura.
+2013/09/15: You don't choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you've made this choice. For example, an effect that said you can cast creature spells as though they have flash won't allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spells as though they have flash will.
 2013/09/15: Auras attached to a creature don't become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature.
 2013/09/15: An Aura that becomes a creature is no longer put into its owner's graveyard as a state-based action. Rather, it becomes unattached and remains on the battlefield as long as it's a creature. While it's a creature, it can't be attached to another permanent or player. An Aura that's not attached to a legal permanent or player as defined by its enchant ability and also isn't a creature will be put into its owner's graveyard as a state-based action.
+2013/09/15: If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can't choose to pay the bestow cost and have it become an Aura.
 2014/02/01: As <Everflame Eidolon>'s ability resolves, the bonus is applied to either <Everflame Eidolon> (if it's a creature) or to the enchanted creature (if it's an Aura). If the bonus is applied to the enchanted creature, that bonus won't apply to <Everflame Eidolon>, even if it becomes a creature later that turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2137,15 +2139,15 @@ Tribute 2 (As this creature enters the battlefield, an opponent of your choice m
 When Oracle of Bones enters the battlefield, if tribute wasn't paid, you may cast an instant or sorcery card from your hand without paying its mana cost.</CardText>
 <Artist>Greg Staples</Artist>
 <Multiverseid>378475</Multiverseid>
-<Rulings>2014/02/01: If you want to cast a card this way, you cast it as part of the resolution of the triggered ability. Timing restrictions based on the card's type (such as sorcery) are ignored. Other casting restrictions (such as "Cast [this card] only before attackers are declared") are not.
-2014/02/01: If the card has {X} in its mana cost, you must choose 0 as its value.
+<Rulings>2014/02/01: If the card has {X} in its mana cost, you must choose 0 as its value.
 2014/02/01: If you cast a card "without paying its mana cost," you can't pay alternative costs such as overload costs. You can, however, pay additional costs such as kicker costs. If the card has mandatory additional costs, you must pay those.
 2014/02/01: If you choose to cast a split card with fuse without paying its mana cost, you may cast both halves.
 2014/02/01: If the opponent pays tribute, the creature will enter the battlefield with the specified number of +1/+1 counters on it. It won't enter the battlefield and then have the +1/+1 counters placed on it.
-2014/02/01: The choice of whether to pay tribute is made as the creature with tribute is entering the battlefield. At that point, it's too late to respond to the creature spell. For example, in a multiplayer game, opponents won't know whether tribute will be paid or which opponent will be chosen to pay tribute or not when deciding whether to counter the creature spell.
+2014/02/01: If you want to cast a card this way, you cast it as part of the resolution of the triggered ability. Timing restrictions based on the card's type (such as sorcery) are ignored. Other casting restrictions (such as "Cast [this card] only before attackers are declared") are not.
 2014/02/01: If the triggered ability has a target, that target will not be known while the creature spell with tribute is on the stack.
 2014/02/01: Players can't respond to the tribute decision before the creature enters the battlefield. That is, if the opponent doesn't pay tribute, the triggered ability will trigger before any player has a chance to remove the creature.
 2014/02/01: The triggered ability will resolve even if the creature with tribute isn't on the battlefield at that time.
+2014/02/01: The choice of whether to pay tribute is made as the creature with tribute is entering the battlefield. At that point, it's too late to respond to the creature spell. For example, in a multiplayer game, opponents won't know whether tribute will be paid or which opponent will be chosen to pay tribute or not when deciding whether to counter the creature spell.
 2017/04/18: For effects that check which player put counters on the entering creature, the player chosen to pay tribute puts those counters on it, not the creature's controller.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2548,7 +2550,7 @@ Whenever a land enters the battlefield under your control, you gain 1 life.</Car
 <Rulings>2013/09/15: Heroic abilities will resolve before the spell that caused them to trigger.
 2013/09/15: Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times.
 2013/09/15: Heroic abilities won't trigger when a copy of a spell is created on the stack or when a spell's targets are changed to include a creature with a heroic ability.
-2014/02/01: You decide the value of X and choose whether to pay {X} as the heroic ability resolves.</Rulings>
+2018/12/07: The amount to pay for {X} is chosen as the triggered ability resolves. No player may take actions between the time you pay {X} and the time <Hero of Leina Tower> has X +1/+1 counters on it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2772,7 +2774,7 @@ Enchanted creature gets +3/+1.</CardText>
 <ManaCost>3G (4)</ManaCost>
 <CardText>Inspired — Whenever Pheres-Band Tromper becomes untapped, put a +1/+1 counter on it.</CardText>
 <Flavor>Trompers are the most feared warriors of the Pheres Band. Anger is their lifeblood. It sustains them and gives them purpose.</Flavor>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>378506</Multiverseid>
 <Rulings>2014/02/01: Inspired abilities trigger no matter how the creature becomes untapped: by the turn-based action at the beginning of the untap step or by a spell or ability.
 2014/02/01: If an inspired ability triggers during your untap step, the ability will be put on the stack at the beginning of your upkeep. If the ability creates one or more token creatures, those creatures won't be able to attack that turn (unless they gain haste).
@@ -2993,16 +2995,16 @@ As long as your devotion to white and blue is less than seven, Ephara isn't a cr
 At the beginning of each upkeep, if you had another creature enter the battlefield under your control last turn, draw a card.</CardText>
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>378517</Multiverseid>
-<Rulings>2013/09/15: Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
-2013/09/15: Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
-2013/09/15: Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
-2013/09/15: If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it's still on the battlefield at that time.
+<Rulings>2013/09/15: If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it's still on the battlefield at that time.
 2013/09/15: The type-changing ability that can make the God not be a creature functions only on the battlefield. It's always a creature card in other zones, regardless of your devotion to its color.
 2013/09/15: If a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not, for abilities that trigger whenever a creature enters the battlefield.
-2013/09/15: If a God stops being a creature, it loses the type creature and all creature subtypes. It continues to be a legendary enchantment.
+2013/09/15: Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
 2013/09/15: The abilities of Gods function as long as they're on the battlefield, regardless of whether they're creatures.
 2013/09/15: If a God is attacking or blocking and it stops being a creature, it will be removed from combat.
 2013/09/15: If a God is dealt damage, then stops being a creature, then becomes a creature again later in the same turn, the damage will still be marked on it. This is also true for any effects that were affecting the God when it was originally a creature. (Note that in most cases, the damage marked on the God won't matter because it has indestructible.)
+2013/09/15: If a God stops being a creature, it loses the type creature and all creature subtypes. It continues to be a legendary enchantment.
+2013/09/15: Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
+2013/09/15: Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
 2014/02/01: Ephara's last ability checks at the beginning of each upkeep whether another creature entered the battlefield under your control last turn. If one did, it will trigger; otherwise, it won't. The ability will trigger only once no matter how many creatures entered the battlefield under your control that turn, as long as at least one did.
 2014/02/01: The last ability will trigger regardless of what has happened to the creature that entered the battlefield on the previous turn. It doesn't matter whether it's still under your control or whether it's still on the battlefield.
 2014/02/01: If a noncreature permanent you control (such as an Aura with bestow) becomes a creature, it will not cause Ephara's last ability to trigger the following turn. This is true even if that noncreature permanent became a creature the same turn it entered the battlefield.</Rulings>
@@ -3043,7 +3045,7 @@ Whenever a creature enters the battlefield under your control, you may return Ep
 <CardText>Trample
 Tribute 1 (As this creature enters the battlefield, an opponent of your choice may put a +1/+1 counter on it.)
 When Fanatic of Xenagos enters the battlefield, if tribute wasn't paid, it gets +1/+1 and gains haste until end of turn.</CardText>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>378519</Multiverseid>
 <Rulings>2014/02/01: If the opponent pays tribute, the creature will enter the battlefield with the specified number of +1/+1 counters on it. It won't enter the battlefield and then have the +1/+1 counters placed on it.
 2014/02/01: The choice of whether to pay tribute is made as the creature with tribute is entering the battlefield. At that point, it's too late to respond to the creature spell. For example, in a multiplayer game, opponents won't know whether tribute will be paid or which opponent will be chosen to pay tribute or not when deciding whether to counter the creature spell.
@@ -3069,16 +3071,16 @@ As long as your devotion to green and white is less than seven, Karametra isn't 
 Whenever you cast a creature spell, you may search your library for a Forest or Plains card, put it onto the battlefield tapped, then shuffle your library.</CardText>
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>378520</Multiverseid>
-<Rulings>2013/09/15: Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
-2013/09/15: Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
-2013/09/15: Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
+<Rulings>2013/09/15: Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
 2013/09/15: If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it's still on the battlefield at that time.
 2013/09/15: The type-changing ability that can make the God not be a creature functions only on the battlefield. It's always a creature card in other zones, regardless of your devotion to its color.
 2013/09/15: If a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not, for abilities that trigger whenever a creature enters the battlefield.
-2013/09/15: If a God stops being a creature, it loses the type creature and all creature subtypes. It continues to be a legendary enchantment.
+2013/09/15: Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
 2013/09/15: The abilities of Gods function as long as they're on the battlefield, regardless of whether they're creatures.
 2013/09/15: If a God is attacking or blocking and it stops being a creature, it will be removed from combat.
 2013/09/15: If a God is dealt damage, then stops being a creature, then becomes a creature again later in the same turn, the damage will still be marked on it. This is also true for any effects that were affecting the God when it was originally a creature. (Note that in most cases, the damage marked on the God won't matter because it has indestructible.)
+2013/09/15: If a God stops being a creature, it loses the type creature and all creature subtypes. It continues to be a legendary enchantment.
+2013/09/15: Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
 2014/02/01: If you cast a creature card with bestow for its bestow cost, it becomes an Aura spell and not a creature spell. Karametra's last ability won't trigger.
 2014/02/01: You can use the last ability to put any land card with the subtype Forest or Plains onto the battlefield, not just ones named Forest or Plains.</Rulings>
 <Vintage>Legal</Vintage>
@@ -3139,16 +3141,16 @@ As long as your devotion to black and red is less than seven, Mogis isn't a crea
 At the beginning of each opponent's upkeep, Mogis deals 2 damage to that player unless they sacrifice a creature.</CardText>
 <Artist>Peter Mohrbacher</Artist>
 <Multiverseid>378523</Multiverseid>
-<Rulings>2013/09/15: Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
-2013/09/15: Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
+<Rulings>2013/09/15: Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
 2013/09/15: Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
 2013/09/15: If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it's still on the battlefield at that time.
 2013/09/15: The type-changing ability that can make the God not be a creature functions only on the battlefield. It's always a creature card in other zones, regardless of your devotion to its color.
-2013/09/15: If a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not, for abilities that trigger whenever a creature enters the battlefield.
+2013/09/15: Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
 2013/09/15: If a God stops being a creature, it loses the type creature and all creature subtypes. It continues to be a legendary enchantment.
 2013/09/15: The abilities of Gods function as long as they're on the battlefield, regardless of whether they're creatures.
 2013/09/15: If a God is attacking or blocking and it stops being a creature, it will be removed from combat.
 2013/09/15: If a God is dealt damage, then stops being a creature, then becomes a creature again later in the same turn, the damage will still be marked on it. This is also true for any effects that were affecting the God when it was originally a creature. (Note that in most cases, the damage marked on the God won't matter because it has indestructible.)
+2013/09/15: If a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not, for abilities that trigger whenever a creature enters the battlefield.
 2014/02/01: If the player can't sacrifice a creature (usually because they don't control one), Mogis will deal 2 damage to them.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3168,16 +3170,16 @@ As long as your devotion to blue and black is less than seven, Phenax isn't a cr
 Creatures you control have "{T}: Target player puts the top X cards of their library into their graveyard, where X is this creature's toughness."</CardText>
 <Artist>Ryan Barger</Artist>
 <Multiverseid>378524</Multiverseid>
-<Rulings>2013/09/15: Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
-2013/09/15: Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
-2013/09/15: Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
-2013/09/15: If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it's still on the battlefield at that time.
+<Rulings>2013/09/15: If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it's still on the battlefield at that time.
 2013/09/15: The type-changing ability that can make the God not be a creature functions only on the battlefield. It's always a creature card in other zones, regardless of your devotion to its color.
 2013/09/15: If a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not, for abilities that trigger whenever a creature enters the battlefield.
-2013/09/15: If a God stops being a creature, it loses the type creature and all creature subtypes. It continues to be a legendary enchantment.
+2013/09/15: Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
 2013/09/15: The abilities of Gods function as long as they're on the battlefield, regardless of whether they're creatures.
 2013/09/15: If a God is attacking or blocking and it stops being a creature, it will be removed from combat.
 2013/09/15: If a God is dealt damage, then stops being a creature, then becomes a creature again later in the same turn, the damage will still be marked on it. This is also true for any effects that were affecting the God when it was originally a creature. (Note that in most cases, the damage marked on the God won't matter because it has indestructible.)
+2013/09/15: If a God stops being a creature, it loses the type creature and all creature subtypes. It continues to be a legendary enchantment.
+2013/09/15: Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
+2013/09/15: Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
 2014/02/01: If you activate the ability Phenax grants to creatures you control, the toughness of the creature is calculated as the ability resolves. If the creature is no longer on the battlefield at that time, use its toughness when it was last on the battlefield.
 2014/02/01: If Phenax is a creature, it will grant itself the activated ability.
 2014/02/01: If you tap Phenax to activate the ability it grants itself, and Phenax is no longer a creature but still on the battlefield as that ability resolves, no cards will be put into the target player's graveyard. Similarly, if Phenax isn't on the battlefield as the ability resolves and wasn't a creature when it left the battlefield, no cards will be put into the graveyard.</Rulings>
@@ -3257,16 +3259,16 @@ As long as your devotion to red and green is less than seven, Xenagos isn't a cr
 At the beginning of combat on your turn, another target creature you control gains haste and gets +X/+X until end of turn, where X is that creature's power.</CardText>
 <Artist>Jason Chan</Artist>
 <Multiverseid>378528</Multiverseid>
-<Rulings>2013/09/15: Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
-2013/09/15: Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
+<Rulings>2013/09/15: Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
 2013/09/15: Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
 2013/09/15: If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it's still on the battlefield at that time.
 2013/09/15: The type-changing ability that can make the God not be a creature functions only on the battlefield. It's always a creature card in other zones, regardless of your devotion to its color.
-2013/09/15: If a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not, for abilities that trigger whenever a creature enters the battlefield.
+2013/09/15: Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
 2013/09/15: If a God stops being a creature, it loses the type creature and all creature subtypes. It continues to be a legendary enchantment.
 2013/09/15: The abilities of Gods function as long as they're on the battlefield, regardless of whether they're creatures.
 2013/09/15: If a God is attacking or blocking and it stops being a creature, it will be removed from combat.
 2013/09/15: If a God is dealt damage, then stops being a creature, then becomes a creature again later in the same turn, the damage will still be marked on it. This is also true for any effects that were affecting the God when it was originally a creature. (Note that in most cases, the damage marked on the God won't matter because it has indestructible.)
+2013/09/15: If a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not, for abilities that trigger whenever a creature enters the battlefield.
 2014/02/01: The value of X is calculated only once, as the ability resolves.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>

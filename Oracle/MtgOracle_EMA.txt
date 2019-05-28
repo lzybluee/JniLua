@@ -92,7 +92,7 @@ Vanishing 4 (This creature enters the battlefield with four time counters on it.
 <Name>Coalition Honor Guard</Name>
 <Type>Creature — Human Flagbearer 2/4</Type>
 <ManaCost>3W (4)</ManaCost>
-<CardText>While choosing targets as part of casting a spell or activating an ability, your opponents must choose at least one Flagbearer on the battlefield if able.</CardText>
+<CardText>While an opponent is choosing targets as part of casting a spell they control or activating an ability they control, that player must choose at least one Flagbearer on the battlefield if able.</CardText>
 <Flavor>Giving little thought to their own defense, they carried the flag that united their army.</Flavor>
 <Artist>Eric Peterson</Artist>
 <Multiverseid>413548</Multiverseid>
@@ -169,8 +169,9 @@ When Faith's Fetters enters the battlefield, you gain 4 life.
 Enchanted permanent can't attack or block, and its activated abilities can't be activated unless they're mana abilities.</CardText>
 <Artist>Chippy</Artist>
 <Multiverseid>413552</Multiverseid>
-<Rulings>2016/06/08: <Faith's Fetters> doesn't stop static abilities, triggered abilities, or mana abilities from working. A mana ability is an ability that produces mana, not an ability that costs mana.
-2016/06/08: Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keywords are activated abilities and will have colons in their reminder text.</Rulings>
+<Rulings>2018/12/07: Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keywords (such as equip) are activated abilities and will have colons in their reminder text.
+2018/12/07: <Faith's Fetters> doesn't stop static abilities, triggered abilities, or mana abilities from working. A mana ability is an ability that produces mana, not an ability that costs mana.
+2018/12/07: If the target permanent is an illegal target by the time <Faith's Fetters> tries to resolve, the Aura spell doesn't resolve. It won't enter the battlefield, so its enters-the-battlefield ability won't trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1551,7 +1552,7 @@ Sacrifice a creature: Put a +1/+1 counter on Carrion Feeder.</CardText>
 <Name>Entomb</Name>
 <Type>Instant</Type>
 <ManaCost>B (1)</ManaCost>
-<CardText>Search your library for a card, put that card into your graveyard, then shuffle your library.</CardText>
+<CardText>Search your library for a card and put that card into your graveyard. Then shuffle your library.</CardText>
 <Flavor>"I'll return once you've ripened."
 —Ghoulcaller Gisa</Flavor>
 <Artist>Seb McKinnon</Artist>
@@ -2206,9 +2207,9 @@ Battle Squadron's power and toughness are each equal to the number of creatures 
 <CardText>Chain Lightning deals 3 damage to any target. Then that player or that permanent's controller may pay {R}{R}. If the player does, they may copy this spell and may choose a new target for that copy.</CardText>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>413665</Multiverseid>
-<Rulings>2004/10/04: The copy is a spell, so it can be targeted by other spells and abilities that target a spell.
-2004/10/04: The player putting the copy spell on the stack controls that spell.
+<Rulings>2004/10/04: The player putting the copy spell on the stack controls that spell.
 2004/10/04: The spell copy has all the text and can result in itself being copied.
+2004/10/04: The copy is a spell, so it can be targeted by other spells and abilities that target a spell.
 2016/06/08: As <Chain Lightning> resolves, the targeted player or the controller of the targeted creature may copy it. The copy has the same text, target, and color of the resolving spell, though the player who's copying it may choose a new target for it. Once that copy is created (or not), the first <Chain Lightning> has finished resolving and leaves the stack.
 2016/06/08: The player putting the copy of the spell on the stack controls that copy.
 2016/06/08: The copy of <Chain Lightning> is created on the stack, so it's not cast. Abilities that trigger when a player casts a spell won't trigger. Players may respond to that spell before it resolves.
@@ -2384,8 +2385,8 @@ Retrace (You may cast this card from your graveyard by discarding a land card in
 <Flavor>"What's the worst that can happen?"</Flavor>
 <Artist>Winona Nelson</Artist>
 <Multiverseid>413674</Multiverseid>
-<Rulings>2016/06/08: You might end up discarding the card you searched for.
-2016/06/08: You put the card into your hand and discard a card at random all while <Gamble> is resolving. Nothing can happen between the two, and no player may choose to take actions.</Rulings>
+<Rulings>2016/06/08: You put the card into your hand and discard a card at random all while <Gamble> is resolving. Nothing can happen between the two, and no player may choose to take actions.
+2018/12/07: You might end up discarding the card you searched for. Casting this spell is a gamble.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Eternal Masters</Set>
@@ -2730,7 +2731,7 @@ Enchanted creature gets +2/+2 and can't block.
 When Undying Rage is put into a graveyard from the battlefield, return Undying Rage to its owner's hand.</CardText>
 <Artist>Scott M. Fischer</Artist>
 <Multiverseid>413694</Multiverseid>
-<Rulings>2016/06/08: If the target of <Undying Rage> when it's cast as a spell is an illegal target when <Undying Rage> tries to resolve, <Undying Rage> won't resolve and will be put into its owner's graveyard. It won't return to its owner's hand.</Rulings>
+<Rulings>2018/12/07: If the target creature is an illegal target by the time <Undying Rage> tries to resolve, the Aura spell doesn't resolve. It's put into its owner's graveyard from the stack, so its leaves-the-battlefield ability won't trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2787,7 +2788,7 @@ When Worldgorger Dragon leaves the battlefield, return the exiled cards to the b
 <Flavor>Immolation is the sincerest form of flattery.</Flavor>
 <Artist>Cynthia Sheppard</Artist>
 <Multiverseid>413697</Multiverseid>
-<Rulings>2016/06/08: <Young Pyromancer>'s triggered ability will resolve before the spell that caused it to trigger, but after targets have been chosen for that spell.</Rulings>
+<Rulings>2018/12/07: <Young Pyromancer>'s triggered ability will resolve before the spell that caused it to trigger, but after targets have been chosen for that spell. It resolves even if that spell is countered.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2890,7 +2891,7 @@ Threshold — As long as seven or more cards are in your graveyard, Centaur Chie
 <SetId>EMA</SetId>
 <No>161</No>
 <Name>Civic Wayfinder</Name>
-<Type>Creature — Elf Warrior Druid 2/2</Type>
+<Type>Creature — Elf Druid Warrior 2/2</Type>
 <ManaCost>2G (3)</ManaCost>
 <CardText>When Civic Wayfinder enters the battlefield, you may search your library for a basic land card, reveal it, and put it into your hand. If you do, shuffle your library.</CardText>
 <Flavor>"These alleys are not safe. Come, I can guide you back to the market square."</Flavor>
@@ -3544,12 +3545,12 @@ When Baleful Strix enters the battlefield, draw a card.</CardText>
 Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)</CardText>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>413739</Multiverseid>
-<Rulings>2009/05/01: Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
-2009/05/01: When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
+<Rulings>2009/05/01: When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
 2009/05/01: If a spell with cascade is countered, the cascade ability will still resolve normally.
-2009/05/01: You exile the cards face-up. All players will be able to see them.
+2009/05/01: Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
 2009/05/01: If you cast the last exiled card, you're casting it as a spell. It can be countered. If that card has cascade, the new spell's cascade ability will trigger, and you'll repeat the process for the new spell.
 2009/05/01: After you're done exiling cards and casting the last one if you chose to do so, the remaining exiled cards are randomly placed on the bottom of your library. Neither you nor any other player is allowed to know the order of those cards.
+2009/05/01: You exile the cards face-up. All players will be able to see them.
 2017/04/18: The converted mana cost of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3823,7 +3824,7 @@ Whenever you cast an instant or sorcery spell, Wee Dragonauts gets +2/+0 until e
 —Juzba, Izzet tinker</Flavor>
 <Artist>Greg Staples</Artist>
 <Multiverseid>413754</Multiverseid>
-<Rulings>2016/06/08: <Wee Dragonauts>'s triggered ability will resolve before the spell that caused it to trigger.</Rulings>
+<Rulings>2018/10/05: <Wee Dragonauts>'s triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3885,7 +3886,7 @@ Retrace (You may cast this card from your graveyard by discarding a land card in
 <Rulings>2016/06/08: Because the first ability requires a target, it is not a mana ability. It uses the stack and can be responded to.
 2016/06/08: If the target of any of <Deathrite Shaman>'s three abilities is an illegal target when that ability tries to resolve, it won't resolve and none of its effects will happen. You won't add mana, no opponent will lose life, or you won't gain life, as appropriate.</Rulings>
 <Vintage>Legal</Vintage>
-<Legacy>Legal</Legacy>
+<Legacy>Banned</Legacy>
 <Modern>Banned</Modern>
 <Set>Eternal Masters</Set>
 <Rarity>Rare</Rarity>
@@ -3954,7 +3955,7 @@ Trample; haste; shroud (This creature can't be the target of spells or abilities
 <ManaCost>0 (0)</ManaCost>
 <CardText>Imprint — When Chrome Mox enters the battlefield, you may exile a nonartifact, nonland card from your hand.
 {T}: Add one mana of any of the exiled card's colors.</CardText>
-<Artist>Volkan Baga</Artist>
+<Artist>Volkan Baǵa</Artist>
 <Multiverseid>413761</Multiverseid>
 <Rulings>2016/06/08: If no card is imprinted on <Chrome Mox>, it can't add mana. It can never add colorless mana, even if the imprinted card has a colorless mana symbol in its mana cost.
 2016/06/08: If you imprinted a multicolored card, you choose one of that card's colors each time <Chrome Mox>'s ability resolves.</Rulings>
@@ -4031,12 +4032,12 @@ As long as a card exiled with Duplicant is a creature card, Duplicant has the po
 {2}, {T}: You may copy the exiled card. If you do, you may cast the copy without paying its mana cost.</CardText>
 <Artist>Chippy</Artist>
 <Multiverseid>413765</Multiverseid>
-<Rulings>2016/06/08: If the imprinted card leaves the exile zone while the activated ability is on the stack, the copy can't be made.
-2016/06/08: If <Isochron Scepter> leaves the battlefield while the activated ability is on the stack, the ability can still make a copy.
+<Rulings>2016/06/08: If <Isochron Scepter> leaves the battlefield while the activated ability is on the stack, the ability can still make a copy.
 2016/06/08: You cast the copy while the ability is resolving and still on the stack.
-2016/06/08: Because you're already casting the spell using an alternative cost (by casting it without paying its mana cost), you can't pay any other alternative costs for the card. You can pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
+2016/06/08: If the imprinted card leaves the exile zone while the activated ability is on the stack, the copy can't be made.
 2016/06/08: If the exiled card has X in its mana cost, you must choose 0 as the value for X when casting it.
 2016/06/08: If you don't want to cast the copy, you can choose not to; the copy ceases to exist the next time state-based actions are checked.
+2016/06/08: Because you're already casting the spell using an alternative cost (by casting it without paying its mana cost), you can't pay any other alternative costs for the card. You can pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
 2017/04/18: The converted mana cost of a split card is determined by the combined mana cost of its two halves. When you activate the second ability, you may choose to cast either half of the split card, but you may not cast both halves.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -4252,7 +4253,7 @@ Sacrifice Ticking Gnomes: It deals 1 damage to any target.</CardText>
 <CardText>Worn Powerstone enters the battlefield tapped.
 {T}: Add {C}{C}.</CardText>
 <Flavor>Even a fragment of a powerstone contains within it not just energy, but space—vast dimensions trapped in fragile crystal.</Flavor>
-<Artist>Henry G. Higgenbotham</Artist>
+<Artist>Henry G. Higginbotham</Artist>
 <Multiverseid>413777</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
