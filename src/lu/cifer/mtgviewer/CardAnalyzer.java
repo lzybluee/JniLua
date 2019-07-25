@@ -424,7 +424,7 @@ public class CardAnalyzer {
 
 	public static String initData() {
 		if (lastFilter != null && compareFilter()) {
-			return (setOrder.size() - subSet) + " Sets and " + allName.length + " Cards" + " (" + reprintCards + " Reprints)";
+			return (setOrder.size() - subSet) + " Sets and " + allName.length + " Cards" + " (" + (reprintCards - allName.length) + " Reprints)";
 		}
 
 		lastCode = null;
@@ -473,7 +473,7 @@ public class CardAnalyzer {
 
 		Arrays.sort(allName);
 
-		return (setOrder.size() - subSet) + " Sets and " + allName.length + " Cards" + " (" + reprintCards + " Reprints)";
+		return (setOrder.size() - subSet) + " Sets and " + allName.length + " Cards" + " (" + (reprintCards - allName.length) + " Reprints)";
 	}
 
 	public static CardInfo getNewCard(String str) {
