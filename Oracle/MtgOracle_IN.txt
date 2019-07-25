@@ -229,9 +229,10 @@ Crusading Knight gets +1/+1 for each Swamp your opponents control.</CardText>
 Destroy target artifact or enchantment. If this spell was kicked, draw two cards.</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>22946</Multiverseid>
-<Rulings>2004/10/04: If the target is not legal on resolution, the spell doesn't resolve and you do not get to draw the two cards.</Rulings>
+<Rulings>2019/06/14: If the target artifact or enchantment is an illegal target by the time <Dismantling Blow> tries to resolve, the spell doesn't resolve. You won't draw two cards if it was kicked. If the target is legal but not destroyed (most likely because it has indestructible), you do draw two cards.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
+<Modern>Legal</Modern>
 <Set>Invasion</Set>
 <Rarity>Common</Rarity>
 </Card>
@@ -970,9 +971,10 @@ Draw a card.</CardText>
 —Teferi</Flavor>
 <Artist>Mark Romanoski</Artist>
 <Multiverseid>22986</Multiverseid>
-<Rulings>2018/03/16: <Exclude> can target a creature spell that can't be countered. When <Exclude> resolves, that spell won't be countered, but you'll still draw a card.</Rulings>
+<Rulings>2019/06/14: <Exclude> can target a creature spell that can't be countered. When <Exclude> resolves, that spell won't be countered, but you'll still draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
+<Modern>Legal</Modern>
 <Set>Invasion</Set>
 <Rarity>Common</Rarity>
 </Card>
@@ -986,10 +988,11 @@ Draw a card.</CardText>
 <CardText>Reveal the top five cards of your library. An opponent separates those cards into two piles. Put one pile into your hand and the other into your graveyard.</CardText>
 <Artist>Terese Nielsen</Artist>
 <Multiverseid>22998</Multiverseid>
-<Rulings>2016/06/08: You choose which pile to put into your hand.
-2016/06/08: Each pile may contain from zero to five cards; they don't have to be split "evenly."</Rulings>
+<Rulings>2019/06/14: You choose which pile to put into your hand.
+2019/06/14: Each pile may contain from zero to five cards; they don't have to be split "evenly."</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
+<Modern>Legal</Modern>
 <Set>Invasion</Set>
 <Rarity>Uncommon</Rarity>
 </Card>
@@ -1160,6 +1163,7 @@ Counter target spell if its converted mana cost is 2 or less. If this spell was 
 <Multiverseid>22989</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
+<Modern>Legal</Modern>
 <Set>Invasion</Set>
 <Rarity>Common</Rarity>
 </Card>
@@ -3068,12 +3072,11 @@ This spell can't be countered.
 Urza's Rage deals 3 damage to any target. If this spell was kicked, instead it deals 10 damage to that permanent or player and the damage can't be prevented.</CardText>
 <Artist>Matthew D. Wilson</Artist>
 <Multiverseid>23087</Multiverseid>
-<Rulings>2004/10/04: This spell has a self-replacement in it . This means that if <Urza's Rage> is kicked, the 3 damage is replaced with 10 unpreventable damage before any other replacements can be applied. For example, you can't use Healing Salve to prevent the 3 damage before it gets changed.
-2004/10/04: You can target this spell with spells and abilities, so you can change its target. Those spells and abilities just can't counter it.
-2004/10/04: The damage is unpreventable, but it can be affected by replacement effects.
-2004/10/04: Counterspells can be cast that target it, but when they resolve they simply don't counter it since it can't be countered.</Rulings>
+<Rulings>2019/06/14: A spell or ability that counters spells can still target <Urza's Rage>. When that spell or ability resolves, <Urza's Rage> won't be countered, but any additional effects of that spell or ability will still happen.
+2019/06/14: If the target for <Urza's Rage> becomes an illegal target, the spell won't resolve and will be put into its owner's graveyard with no effect. This is true even if its damage can't be prevented and even though it can't be countered.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
+<Modern>Legal</Modern>
 <Set>Invasion</Set>
 <Rarity>Rare</Rarity>
 </Card>

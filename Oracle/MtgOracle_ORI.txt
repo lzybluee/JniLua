@@ -942,7 +942,7 @@ Draw a card.</CardText>
 —Ludevic, necro-alchemist</Flavor>
 <Artist>Clint Cearley</Artist>
 <Multiverseid>398539</Multiverseid>
-<Rulings>2018/07/13: A creature spell that can't be countered is a legal target for <Bone to Ash>. The creature spell won't be countered when <Bone to Ash> resolves, but you'll still draw a card.</Rulings>
+<Rulings>2019/07/12: A creature spell that can't be countered is a legal target for <Bone to Ash>. The creature spell won't be countered when <Bone to Ash> resolves, but you'll still draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1128,13 +1128,12 @@ Enchanted creature doesn't untap during its controller's untap step.</CardText>
 <Name>Faerie Miscreant</Name>
 <Type>Creature — Faerie Rogue 1/1</Type>
 <ManaCost>U (1)</ManaCost>
-<CardText>Flying (This creature can't be blocked except by creatures with flying or reach.)
+<CardText>Flying
 When Faerie Miscreant enters the battlefield, if you control another creature named Faerie Miscreant, draw a card.</CardText>
 <Flavor>One faerie distracts the judge while a second steals the law.</Flavor>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>398459</Multiverseid>
-<Rulings>2015/06/22: <Faerie Miscreant>'s triggered ability checks to see if you control another creature named <Faerie Miscreant> at the time the new <Faerie Miscreant> enters the battlefield. If you don't, the ability won't trigger at all. The ability will check again as it tries to resolve. If, at that time, you don't control another creature named <Faerie Miscreant>, the ability will have no effect.
-2015/06/22: If multiple <Faerie Miscreant>s enter the battlefield at the same time, all of their triggered abilities will trigger.</Rulings>
+<Rulings>2019/07/12: <Faerie Miscreant>'s triggered ability checks to see if you control another creature named <Faerie Miscreant> at the time the new <Faerie Miscreant> enters the battlefield. If you don't, the ability won't trigger at all. The ability will check again as it tries to resolve. If, at that time, you don't control another creature named <Faerie Miscreant>, the ability will have no effect.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2510,7 +2509,7 @@ Target player discards a number of cards equal to the sacrificed creature's powe
 —Liliana Vess</Flavor>
 <Artist>James Zapata</Artist>
 <Multiverseid>398484</Multiverseid>
-<Rulings>2015/06/22: Count the number of <Undead Servant>s in your graveyard as the ability resolves to determine how many tokens to put onto the battlefield. If <Undead Servant> dies in response to its own triggered ability and is in your graveyard as that ability resolves, it will count toward the number of Zombies you get.</Rulings>
+<Rulings>2019/07/12: Count the number of <Undead Servant>s in your graveyard as the ability resolves to determine how many tokens to put onto the battlefield. If <Undead Servant> dies in response to its own triggered ability and is in your graveyard as that ability resolves, it will count toward the number of Zombies you get.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2608,12 +2607,12 @@ Whenever Acolyte of the Inferno becomes blocked by a creature, it deals 2 damage
 <Name>Act of Treason</Name>
 <Type>Sorcery</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.</CardText>
+<CardText>Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. (It can attack and {T} this turn.)</CardText>
 <Flavor>She learned a tragic lesson that day: even the purest can be corrupted when the heart's emotions are twisted.</Flavor>
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>398578</Multiverseid>
-<Rulings>2019/01/25: <Act of Treason> can target any creature, even one that's untapped or one you already control.
-2019/01/25: Gaining control of a creature doesn't cause you to gain control of any Auras or Equipment attached to it.</Rulings>
+<Rulings>2019/07/12: <Act of Treason> can target any creature, even one that's untapped or one you already control.
+2019/07/12: Gaining control of a creature doesn't cause you to gain control of any Auras or Equipment attached to it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3770,8 +3769,8 @@ Enchanted creature gets +1/+3 and has reach. (It can block creatures with flying
 <Flavor>The Joraga elves never need ask a troll to leave their territory. They merely grant it their combined strength, and it can't resist embarking on a merry rampage.</Flavor>
 <Artist>Johann Bodin</Artist>
 <Multiverseid>398662</Multiverseid>
-<Rulings>2018/10/05: The bonus is determined as <Might of the Masses> resolves. It won't change if the number of creatures you control changes later in the turn.
-2018/10/05: If you target a creature you control with <Might of the Masses>, remember to count that creature when determining the amount of the bonus.</Rulings>
+<Rulings>2019/07/12: The size of the bonus is determined as <Might of the Masses> resolves; it won't change if the number of creatures you control changes later in the turn.
+2019/07/12: If you target a creature you control with <Might of the Masses>, remember to count that creature when determining the amount of the bonus.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3818,7 +3817,7 @@ Whenever a land enters the battlefield under your control, if you control seven 
 <Type>Legendary Planeswalker — Nissa (Loyalty: 3)</Type>
 <ColorIndicator>Green</ColorIndicator>
 <CardText>+1: Reveal the top card of your library. If it's a land card, put it onto the battlefield. Otherwise, put it into your hand.
--2: Create a legendary 4/4 green Elemental creature token named Ashaya, the Awoken World.
+-2: Create Ashaya, the Awoken World, a legendary 4/4 green Elemental creature token.
 -7: Untap up to six target lands. They become 6/6 Elemental creatures. They're still lands.</CardText>
 <Artist>Wesley Burt</Artist>
 <Multiverseid>398432</Multiverseid>
@@ -5584,9 +5583,8 @@ Whenever a creature dealt damage by Sengir Vampire this turn dies, put a +1/+1 c
 —Dionus, elvish archdruid</Flavor>
 <Artist>Sam Wood</Artist>
 <Multiverseid>401466</Multiverseid>
-<Rulings>2009/10/01: <Prized Unicorn> doesn't give a creature the ability to block it. It just forces those creatures that are already able to block it to do so. For example, it can't force a creature that's tapped or affected by a spell or ability that says it can't block to block it. If there's a cost associated with having a creature block, its controller isn't forced to pay that cost, so the creature doesn't have to block <Prized Unicorn> in that case either.
-2009/10/01: If a creature the defending player controls can't block <Prized Unicorn>, it can block any attacking creature, or not block at all.
-2009/10/01: If two <Prized Unicorn>s are attacking, each creature the defending player controls can block either one of them. (The defending player chooses.) A creature that can block multiple creatures, like Palace Guard, must block both of them.</Rulings>
+<Rulings>2019/07/12: If a creature the defending player controls can't block <Prized Unicorn> for any reason (such as being tapped), then it doesn't block <Prized Unicorn>. If there's a cost associated with having a creature block <Prized Unicorn>, the defending player isn't forced to pay that cost, so it doesn't have to block.
+2019/07/12: If more than one <Prized Unicorn> is attacking, creatures that could block must block one <Prized Unicorn>, but they don't all have to block the same <Prized Unicorn>.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

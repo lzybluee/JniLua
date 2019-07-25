@@ -2021,13 +2021,13 @@ Whenever another creature dies, put a +1/+1 counter on Swarm of Bloodflies.</Car
 <Name>Act of Treason</Name>
 <Type>Sorcery</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.</CardText>
+<CardText>Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. (It can attack and {T} this turn.)</CardText>
 <Flavor>"The Sultai take our dead, so we shall take their living!"
 —Taklai, Mardu ragesinger</Flavor>
 <Artist>Min Yum</Artist>
 <Multiverseid>386470</Multiverseid>
-<Rulings>2019/01/25: <Act of Treason> can target any creature, even one that's untapped or one you already control.
-2019/01/25: Gaining control of a creature doesn't cause you to gain control of any Auras or Equipment attached to it.</Rulings>
+<Rulings>2019/07/12: <Act of Treason> can target any creature, even one that's untapped or one you already control.
+2019/07/12: Gaining control of a creature doesn't cause you to gain control of any Auras or Equipment attached to it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4683,13 +4683,12 @@ Ghostfire Blade's equip ability costs {2} less to activate if it targets a color
 <Type>Artifact — Equipment</Type>
 <ManaCost>2 (2)</ManaCost>
 <CardText>Whenever equipped creature attacks, Heart-Piercer Bow deals 1 damage to target creature defending player controls.
-Equip {1}</CardText>
+Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)</CardText>
 <Flavor>Designed by an ancient artificer, the finest Mardu bows are carved from dragon bone and strung with the wind itself.</Flavor>
 <Artist>Franz Vohwinkel</Artist>
 <Multiverseid>386551</Multiverseid>
-<Rulings>2014/09/20: The controller of <Heart-Piercer Bow> chooses the target of the triggered ability. <Heart-Piercer Bow> is the source of the damage, not the equipped creature.
-2014/09/20: The triggered ability resolves before blockers are declared.
-2014/09/20: In some rare cases, a <Heart-Piercer Bow> you control may be attached to a creature that's attacking you or a planeswalker you control. In that case, you choose the target of the triggered ability, but as you are the defending player, you must choose a creature you control as the target.</Rulings>
+<Rulings>2019/07/12: <Heart-Piercer Bow> (not the equipped creature) is the source of the triggered ability and the source of the damage. This means that a creature with protection from green may be targeted even if <Heart-Piercer Bow> is equipped to a green creature, but a creature with protection from artifacts may not.
+2019/07/12: If a creature is attacking a planeswalker, the controller of that planeswalker is the defending player.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

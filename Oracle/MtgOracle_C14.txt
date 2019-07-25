@@ -1822,16 +1822,18 @@ When Whitemane Lion enters the battlefield, return a creature you control to its
 <Type>Instant</Type>
 <ManaCost>1WW (3)</ManaCost>
 <CardText>Target player sacrifices an attacking creature.
-Storm (When you cast this spell, copy it for each spell cast before it this turn.)</CardText>
+Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)</CardText>
 <Artist>Daren Bader</Artist>
 <Multiverseid>389749</Multiverseid>
-<Rulings>2013/06/07: The copies are put directly onto the stack. They aren't cast and won't be counted by other spells with storm cast later in the turn.
-2013/06/07: Spells cast from zones other than a player's hand and spells that were countered are counted by the storm ability.
-2013/06/07: A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with storm won't affect the copies.
-2013/06/07: The triggered ability that creates the copies can itself be countered by anything that can counter a triggered ability. If it is countered, no copies will be put onto the stack.
-2013/06/07: You may choose new targets for any of the copies. You can choose differently for each copy.</Rulings>
+<Rulings>2019/06/14: An "attacking creature" is one that has been declared as an attacker or put onto the battlefield attacking during a turn's combat. Unless that creature leaves combat, it continues to be an attacking creature through the end of combat step, even if the player it was attacking has left the game or the planeswalker it was attacking has left combat.
+2019/06/14: If you cast <Wing Shards> after combat damage has been dealt, only creatures that survived combat can be sacrificed.
+2019/06/14: <Wing Shards> doesn't target the creature to be sacrificed. The target player chooses the creature as it resolves.
+2019/06/14: The copies storm creates are created on the stack, so they're not cast. Abilities that trigger when a player casts a spell (such as storm) won't trigger.
+2019/06/14: Storm counts spells cast before the spell with storm was cast. Spells cast after the spell with storm was cast but before the storm ability resolves aren't counted.
+2019/06/14: The storm ability and the copies it creates all resolve before the spell with storm. They resolve even if the spell with storm is countered.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
+<Modern>Legal</Modern>
 <Set>Commander 2014 Edition</Set>
 <Rarity>Uncommon</Rarity>
 </Card>
@@ -2047,9 +2049,10 @@ Draw a card.</CardText>
 —Teferi</Flavor>
 <Artist>Greg Staples</Artist>
 <Multiverseid>389510</Multiverseid>
-<Rulings>2018/03/16: <Exclude> can target a creature spell that can't be countered. When <Exclude> resolves, that spell won't be countered, but you'll still draw a card.</Rulings>
+<Rulings>2019/06/14: <Exclude> can target a creature spell that can't be countered. When <Exclude> resolves, that spell won't be countered, but you'll still draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
+<Modern>Legal</Modern>
 <Set>Commander 2014 Edition</Set>
 <Rarity>Common</Rarity>
 </Card>
@@ -3498,7 +3501,7 @@ Cycling {3} ({3}, Discard this card: Draw a card.)</CardText>
 <Type>Legendary Creature — Goblin 1/1</Type>
 <ManaCost>2R (3)</ManaCost>
 <CardText>Haste
-When Tuktuk the Explorer dies, create a legendary 5/5 colorless Goblin Golem artifact creature token named Tuktuk the Returned.</CardText>
+When Tuktuk the Explorer dies, create Tuktuk the Returned, a legendary 5/5 colorless Goblin Golem artifact creature token.</CardText>
 <Flavor>Remade by Eldrazi magic, Tuktuk inspired an entire clan of misguided goblins.</Flavor>
 <Artist>Volkan Baǵa</Artist>
 <Multiverseid>389729</Multiverseid>
@@ -5363,6 +5366,7 @@ Cycling {B} ({B}, Discard this card: Draw a card.)</CardText>
 <Rulings>2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
+<Modern>Legal</Modern>
 <Set>Commander 2014 Edition</Set>
 <Rarity>Common</Rarity>
 </Card>
@@ -5566,6 +5570,7 @@ Cycling {R} ({R}, Discard this card: Draw a card.)</CardText>
 <Rulings>2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
+<Modern>Legal</Modern>
 <Set>Commander 2014 Edition</Set>
 <Rarity>Common</Rarity>
 </Card>
@@ -5707,6 +5712,7 @@ Cycling {U} ({U}, Discard this card: Draw a card.)</CardText>
 <Rulings>2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
+<Modern>Legal</Modern>
 <Set>Commander 2014 Edition</Set>
 <Rarity>Common</Rarity>
 </Card>
@@ -5814,6 +5820,7 @@ Cycling {W} ({W}, Discard this card: Draw a card.)</CardText>
 <Rulings>2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
+<Modern>Legal</Modern>
 <Set>Commander 2014 Edition</Set>
 <Rarity>Common</Rarity>
 </Card>
@@ -5915,6 +5922,7 @@ Cycling {G} ({G}, Discard this card: Draw a card.)</CardText>
 <Rulings>2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
+<Modern>Legal</Modern>
 <Set>Commander 2014 Edition</Set>
 <Rarity>Common</Rarity>
 </Card>

@@ -300,16 +300,19 @@ When Fiend Hunter leaves the battlefield, return the exiled card to the battlefi
 <Name>Gods Willing</Name>
 <Type>Instant</Type>
 <ManaCost>W (1)</ManaCost>
-<CardText>Target creature you control gains protection from the color of your choice until end of turn. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)</CardText>
+<CardText>Target creature you control gains protection from the color of your choice until end of turn. (It can't be blocked, targeted, dealt damage, enchanted, or equipped by anything of that color.)
+Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)</CardText>
 <Flavor>Honor the gods of Theros, and they will return the favor.</Flavor>
 <Artist>Mark Winters</Artist>
 <Watermark>Theros</Watermark>
 <Multiverseid>442005</Multiverseid>
-<Rulings>2013/09/15: You choose the color as <Gods Willing> resolves. Once the color is chosen, it's too late for players to respond.
-2013/09/15: When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
-2013/09/15: You choose how to order cards returned to your library after scrying no matter where you put them.
+<Rulings>2013/09/15: You choose how to order cards returned to your library after scrying no matter where you put them.
+2013/09/15: You choose the color as <Gods Willing> resolves. Once the color is chosen, it's too late for players to respond.
+2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.
 2013/09/15: You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
-2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.</Rulings>
+2013/09/15: When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
+2019/07/12: You can't choose "artifact" or "colorless" as <Gods Willing> asks you to choose a color because those are not colors.
+2019/07/12: If the target creature is an illegal target by the time <Gods Willing> tries to resolve, the spell doesn't resolve. You won't scry 1. If the target creature becomes an illegal target while <Gods Willing> is resolving (most likely because you gave it protection from white), you do scry 1.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -943,6 +946,7 @@ When you cycle Choking Tethers, you may tap target creature.</CardText>
 2008/10/01: You can cycle this card even if there are no targets for the triggered ability. That's because the cycling ability itself has no targets.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
+<Modern>Legal</Modern>
 <Set>Masters 25</Set>
 <Rarity>Common</Rarity>
 </Card>
@@ -1085,9 +1089,10 @@ Draw a card.</CardText>
 <Artist>Jehan Choo</Artist>
 <Watermark>Invasion</Watermark>
 <Multiverseid>442044</Multiverseid>
-<Rulings>2018/03/16: <Exclude> can target a creature spell that can't be countered. When <Exclude> resolves, that spell won't be countered, but you'll still draw a card.</Rulings>
+<Rulings>2019/06/14: <Exclude> can target a creature spell that can't be countered. When <Exclude> resolves, that spell won't be countered, but you'll still draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
+<Modern>Legal</Modern>
 <Set>Masters 25</Set>
 <Rarity>Uncommon</Rarity>
 </Card>
@@ -1262,9 +1267,10 @@ When enchanted Island is put into a graveyard, you may return Genju of the Falls
 <Artist>Jon J Muth</Artist>
 <Watermark>Visions</Watermark>
 <Multiverseid>442053</Multiverseid>
-<Rulings>2016/06/08: If there are no other creatures on the battlefield when <Man-o'-War> enters the battlefield, its ability must target itself.</Rulings>
+<Rulings>2019/06/14: If there are no other creatures on the battlefield when <Man-o'-War> enters the battlefield, its ability must target itself.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
+<Modern>Legal</Modern>
 <Set>Masters 25</Set>
 <Rarity>Common</Rarity>
 </Card>
@@ -1680,6 +1686,7 @@ When Death's-Head Buzzard dies, all creatures get -1/-1 until end of turn.</Card
 <Multiverseid>442074</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
+<Modern>Legal</Modern>
 <Set>Masters 25</Set>
 <Rarity>Common</Rarity>
 </Card>
@@ -2230,9 +2237,11 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <Artist>Jehan Choo</Artist>
 <Watermark>Urza's Legacy</Watermark>
 <Multiverseid>442102</Multiverseid>
-<Rulings>2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.</Rulings>
+<Rulings>2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
+2019/06/14: If a card in a player's graveyard has {X} in its mana cost, X is considered to be 0.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
+<Modern>Legal</Modern>
 <Set>Masters 25</Set>
 <Rarity>Common</Rarity>
 </Card>
@@ -2321,14 +2330,14 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <Name>Act of Treason</Name>
 <Type>Sorcery</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.</CardText>
+<CardText>Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. (It can attack and {T} this turn.)</CardText>
 <Flavor>"Rage courses in every heart, yearning to betray its rational prison."
 —Sarkhan Vol</Flavor>
 <Artist>Eric Deschamps</Artist>
 <Watermark>Magic 2010</Watermark>
 <Multiverseid>442107</Multiverseid>
-<Rulings>2019/01/25: <Act of Treason> can target any creature, even one that's untapped or one you already control.
-2019/01/25: Gaining control of a creature doesn't cause you to gain control of any Auras or Equipment attached to it.</Rulings>
+<Rulings>2019/07/12: <Act of Treason> can target any creature, even one that's untapped or one you already control.
+2019/07/12: Gaining control of a creature doesn't cause you to gain control of any Auras or Equipment attached to it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2451,7 +2460,7 @@ At the beginning of the end step, sacrifice Ball Lightning.</CardText>
 <Artist>Christopher Moeller</Artist>
 <Watermark>Magic 2011</Watermark>
 <Multiverseid>442113</Multiverseid>
-<Rulings>2018/03/16: If the target creature is an illegal target by the time <Chandra's Outrage> resolves, the spell doesn't resolve. No player is dealt damage.</Rulings>
+<Rulings>2019/07/12: If the target creature is an illegal target by the time <Chandra's Outrage> tries to resolve, the spell doesn't resolve. No player is dealt damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2858,6 +2867,7 @@ When Ire Shaman is turned face up, exile the top card of your library. Until end
 <Multiverseid>442133</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
+<Modern>Legal</Modern>
 <Set>Masters 25</Set>
 <Rarity>Common</Rarity>
 </Card>
@@ -3525,6 +3535,7 @@ When you cycle Krosan Tusker, you may search your library for a basic land card,
 2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (due to being countered with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
+<Modern>Legal</Modern>
 <Set>Masters 25</Set>
 <Rarity>Uncommon</Rarity>
 </Card>
@@ -3706,6 +3717,7 @@ When Rancor is put into a graveyard from the battlefield, return Rancor to its o
 <Multiverseid>442176</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
+<Modern>Legal</Modern>
 <Set>Masters 25</Set>
 <Rarity>Uncommon</Rarity>
 </Card>
@@ -4026,6 +4038,7 @@ When Cloudblazer enters the battlefield, you gain 2 life and draw two cards.</Ca
 <Rulings>2004/10/04: Because the "search" requires you to find a card with certain characteristics, you don't have to find the card if you don't want to.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
+<Modern>Legal</Modern>
 <Set>Masters 25</Set>
 <Rarity>Rare</Rarity>
 </Card>
@@ -4318,7 +4331,7 @@ Whenever Shadowmage Infiltrator deals combat damage to a player, you may draw a 
 <Name>Stangg</Name>
 <Type>Legendary Creature — Human Warrior 3/4</Type>
 <ManaCost>4RG (6)</ManaCost>
-<CardText>When Stangg enters the battlefield, create a legendary 3/4 red and green Human Warrior creature token named Stangg Twin. Exile that token when Stangg leaves the battlefield. Sacrifice Stangg when that token leaves the battlefield.</CardText>
+<CardText>When Stangg enters the battlefield, create Stangg Twin, a legendary 3/4 red and green Human Warrior creature token. Exile that token when Stangg leaves the battlefield. Sacrifice Stangg when that token leaves the battlefield.</CardText>
 <Artist>Izzy</Artist>
 <Watermark>Legends</Watermark>
 <Multiverseid>442207</Multiverseid>

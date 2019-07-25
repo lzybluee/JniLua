@@ -376,15 +376,18 @@ When Fiend Hunter leaves the battlefield, return the exiled card to the battlefi
 <Name>Gods Willing</Name>
 <Type>Instant</Type>
 <ManaCost>W (1)</ManaCost>
-<CardText>Target creature you control gains protection from the color of your choice until end of turn. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)</CardText>
+<CardText>Target creature you control gains protection from the color of your choice until end of turn. (It can't be blocked, targeted, dealt damage, enchanted, or equipped by anything of that color.)
+Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)</CardText>
 <Flavor>Honor the gods of Theros, and they will return the favor.</Flavor>
 <Artist>Mark Winters</Artist>
 <Multiverseid>456614</Multiverseid>
-<Rulings>2013/09/15: You choose the color as <Gods Willing> resolves. Once the color is chosen, it's too late for players to respond.
-2013/09/15: When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
-2013/09/15: You choose how to order cards returned to your library after scrying no matter where you put them.
+<Rulings>2013/09/15: You choose how to order cards returned to your library after scrying no matter where you put them.
+2013/09/15: You choose the color as <Gods Willing> resolves. Once the color is chosen, it's too late for players to respond.
+2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.
 2013/09/15: You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
-2013/09/15: Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.</Rulings>
+2013/09/15: When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
+2019/07/12: You can't choose "artifact" or "colorless" as <Gods Willing> asks you to choose a color because those are not colors.
+2019/07/12: If the target creature is an illegal target by the time <Gods Willing> tries to resolve, the spell doesn't resolve. You won't scry 1. If the target creature becomes an illegal target while <Gods Willing> is resolving (most likely because you gave it protection from white), you do scry 1.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1772,7 +1775,7 @@ When a creature is put into an opponent's graveyard from the battlefield, if Bri
 2018/12/07: If a nontoken creature you control and a creature an opponent controls die at the same time, you choose the order in which <Bridge from Below>'s triggered abilities resolve. You can create a token before you exile <Bridge from Below>.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
-<Modern>Legal</Modern>
+<Modern>Banned</Modern>
 <Set>Ultimate Masters</Set>
 <Rarity>Rare</Rarity>
 </Card>
@@ -2875,6 +2878,7 @@ Flashback {2}{R} (You may cast this card from your graveyard for its flashback c
 <Multiverseid>456739</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
+<Modern>Legal</Modern>
 <Set>Ultimate Masters</Set>
 <Rarity>Common</Rarity>
 </Card>
@@ -3565,6 +3569,7 @@ When Penumbra Wurm dies, create a 6/6 black Wurm creature token with trample.</C
 <Flavor>"Little flower twirl and bloom, arise from this your rocky tomb. Little warrior slash and brawl, be born again to free us all."</Flavor>
 <Artist>Matt Stewart</Artist>
 <Multiverseid>456775</Multiverseid>
+<Rulings>2019/07/12: If the target card is an illegal target by the time <Pulse of Murasa> tries to resolve, the spell doesn't resolve. You won't gain 6 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

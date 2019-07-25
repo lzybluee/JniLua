@@ -572,10 +572,11 @@ Angel spells and Human spells you cast cost {1} less to cast for each +1/+1 coun
 <Name>Moorland Inquisitor</Name>
 <Type>Creature — Human Soldier 2/2</Type>
 <ManaCost>1W (2)</ManaCost>
-<CardText>{2}{W}: Moorland Inquisitor gains first strike until end of turn.</CardText>
+<CardText>{2}{W}: Moorland Inquisitor gains first strike until end of turn. (It deals combat damage before creatures without first strike.)</CardText>
 <Flavor>Inquisitors are taught scripture, philosophy, and the fine art of sharpening an axe.</Flavor>
 <Artist>David Palumbo</Artist>
 <Multiverseid>262849</Multiverseid>
+<Rulings>2019/07/12: Multiple instances of first strike on the same creature are redundant.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1683,9 +1684,8 @@ Destroy target creature.</CardText>
 —Gisa the Mad</Flavor>
 <Artist>Nils Hamm</Artist>
 <Multiverseid>239983</Multiverseid>
-<Rulings>2017/03/14: You must sacrifice exactly one creature to cast this spell; you can't cast it without sacrificing a creature, and you can't sacrifice additional creatures.
-2017/03/14: Once you begin to cast <Bone Splinters>, no player may take actions until you're done. Notably, opponents can't try to remove the creature you wish to sacrifice.
-2017/03/14: You can cast <Bone Splinters> targeting the creature you intend to sacrifice for its cost. This is because targets are chosen before costs are paid. <Bone Splinters> won't resolve as it tries to resolve in this case.</Rulings>
+<Rulings>2019/07/12: You must sacrifice exactly one creature to cast this spell; you can't cast it without sacrificing a creature, and you can't sacrifice additional creatures.
+2019/07/12: Once you begin to cast <Bone Splinters>, no player may take actions until you're done. Notably, opponents can't try to remove the creature you wish to sacrifice.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3493,7 +3493,7 @@ Undying (When this creature dies, if it had no +1/+1 counters on it, return it t
 <Flavor>The haunted blade shattered, and the geist drifted gratefully to the Blessed Sleep.</Flavor>
 <Artist>Scott Chou</Artist>
 <Multiverseid>240076</Multiverseid>
-<Rulings>2012/05/01: If the artifact or enchantment is an illegal target when <Natural End> tries to resolve, <Natural End> won't resolve and none of its effects will happen. You won't gain 3 life.</Rulings>
+<Rulings>2019/07/12: If the target artifact or enchantment is an illegal target by the time <Natural End> tries to resolve, the spell doesn't resolve. You don't gain life. If the target is legal but not destroyed (most likely because it has indestructible), you do gain life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

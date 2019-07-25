@@ -664,7 +664,7 @@ When Prison Realm enters the battlefield, scry 1.</CardText>
 <CardText>Flying
 Lands on the battlefield and land cards in graveyards can't be the targets of spells or abilities your opponents control.
 Your opponents can't play land cards from graveyards.</CardText>
-<Flavor>"Some bend the law. I tie it into knots.</Flavor>
+<Flavor>"Some bend the law. I tie it into knots."</Flavor>
 <Artist>Johannes Voss</Artist>
 <Multiverseid>460961</Multiverseid>
 <Rulings>2019/05/03: Tomik's middle ability is similar to hexproof, but effects that interact with hexproof don't count these lands or land cards as having hexproof.
@@ -703,7 +703,7 @@ Draw a card.</CardText>
 <Name>Trusted Pegasus</Name>
 <Type>Creature — Pegasus 2/2</Type>
 <ManaCost>2W (3)</ManaCost>
-<CardText>Flying
+<CardText>Flying (This creature can't be blocked except by creatures with flying or reach.)
 Whenever Trusted Pegasus attacks, target attacking creature without flying gains flying until end of turn.</CardText>
 <Flavor>"Would you give your life to save the world?" Gideon murmured. The pegasus snorted and spread wide its mighty wings.</Flavor>
 <Artist>Chris Rahn</Artist>
@@ -910,12 +910,12 @@ Draw a card.</CardText>
 <Flavor>Niv Mizzet had perfected a plan, but he had no control over the mortal minds who had to agree to implement it.</Flavor>
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>460973</Multiverseid>
-<Rulings>2019/05/03: The War of the Spark set doesn't include any ways for players to have counters, but some cards in other sets say that a player "gets" a counter of a certain kind. Notably, emblems aren't counters.
+<Rulings>2019/05/03: Putting loyalty counters on planeswalkers doesn't cause their loyalty abilities to be activated.
+2019/05/03: The War of the Spark set doesn't include any ways for players to have counters, but some cards in other sets say that a player "gets" a counter of a certain kind. Notably, emblems aren't counters.
 2019/05/03: You can choose any permanent that has a counter, including ones controlled by opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
 2019/05/03: You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
 2019/05/03: Players can respond to the spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
-2019/05/03: If a spell or ability puts counters on a player or permanent and then instructs you to proliferate, choosing that player or permanent will give that player or permanent another of those counters.
-2019/05/03: Putting loyalty counters on planeswalkers doesn't cause their loyalty abilities to be activated.</Rulings>
+2019/05/03: If a spell or ability puts counters on a player or permanent and then instructs you to proliferate, choosing that player or permanent will give that player or permanent another of those counters.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1059,9 +1059,9 @@ You may reveal the first card you draw each turn as you draw it. Whenever you re
 When God-Eternal Kefnet dies or is put into exile from the battlefield, you may put it into its owner's library third from the top.</CardText>
 <Artist>Lius Lasahido</Artist>
 <Multiverseid>460980</Multiverseid>
-<Rulings>2019/05/03: It's important to reveal the first card you draw each turn (or choose not to reveal it) before it is mixed with the other cards in your hand. You look at the card as you draw it before choosing whether to reveal it.
+<Rulings>2019/05/03: If you reveal a card this way, it remains revealed until Kefnet's triggered ability finishes resolving.
+2019/05/03: It's important to reveal the first card you draw each turn (or choose not to reveal it) before it is mixed with the other cards in your hand. You look at the card as you draw it before choosing whether to reveal it.
 2019/05/03: You don't have to reveal a drawn card if you don't wish to copy it at that time.
-2019/05/03: If you reveal a card this way, it remains revealed until Kefnet's triggered ability finishes resolving.
 2019/05/03: You can reveal and copy an instant or sorcery card this way on any turn, not just your own, if it's the first card you've drawn that turn.
 2019/05/03: Multiple card draws are always treated as a sequence of individual card draws. For example, if you haven't drawn any cards yet during a turn and cast a spell that instructs you to draw three cards, you'll draw them one at a time. Only the first card drawn this way may be revealed and copied with Kefnet's ability.
 2019/05/03: If an effect puts a card into your hand without using the word "draw," the card wasn't drawn.
@@ -1383,10 +1383,10 @@ Whenever you cast a noncreature spell, Sky Theater Strix gets +1/+0 until end of
 <CardText>You may have Spark Double enter the battlefield as a copy of a creature or planeswalker you control, except it enters with an additional +1/+1 counter on it if it's a creature, it enters with an additional loyalty counter on it if it's a planeswalker, and it isn't legendary if that permanent is legendary.</CardText>
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>460995</Multiverseid>
-<Rulings>2019/05/03: <Spark Double> copies exactly what was printed on the original permanent (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that permanent is tapped or untapped, whether it as any counters on it or any Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+<Rulings>2019/05/03: If the chosen permanent is copying something else (for example, if the chosen permanent is another <Spark Double>), then <Spark Double> enters the battlefield as whatever the chosen permanent copied.
+2019/05/03: <Spark Double> copies exactly what was printed on the original permanent (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or any Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
 2019/05/03: <Spark Double> isn't legendary if it copies a legendary permanent, and this exception is copiable. If something else copies <Spark Double> later, that copy also won't be legendary. If you control two or more permanents with the same name but only one is legendary, the "legend rule" doesn't apply.
 2019/05/03: If the copied permanent has {X} in its mana cost, X is considered to be 0.
-2019/05/03: If the chosen permanent is copying something else (for example, if the chosen permanent is another <Spark Double>), then <Spark Double> enters the battlefield as whatever the chosen permanent copied.
 2019/05/03: If the chosen permanent is a token, <Spark Double> copies the original characteristics of that token as stated by the effect that created the token. <Spark Double> doesn't become a token in this case.
 2019/05/03: Any enters-the-battlefield abilities of the copied permanent will trigger when <Spark Double> enters the battlefield. Any "as [this permanent] enters the battlefield" or "[this permanent] enters the battlefield with" abilities of the chosen permanent will also work.
 2019/05/03: If it copies a planeswalker, <Spark Double> enters with the appropriate number of loyalty counters as printed on the card plus one. If it copies a creature, <Spark Double> enters with a +1/+1 counter on it, plus any counters that will be put on it from abilities it copied and other abilities of other objects.
@@ -2106,7 +2106,7 @@ When Massacre Girl enters the battlefield, each other creature gets -1/-1 until 
 —Nahiri</Flavor>
 <Artist>Daarken</Artist>
 <Multiverseid>461031</Multiverseid>
-<Rulings>2019/05/03: If the target creature is an illegal target by the time <Sorin's Thirst> tries to resolve, the spell doesn't resolve. You won't gain 2 life.</Rulings>
+<Rulings>2019/07/12: If the target creature is an illegal target by the time <Sorin's Thirst> tries to resolve, the spell doesn't resolve. You won't gain 2 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2218,7 +2218,7 @@ Amass 1. (Put a +1/+1 counter on an Army you control. If you don't control one, 
 <Flavor>"I think I cracked a fang."</Flavor>
 <Artist>Jason Rainville</Artist>
 <Multiverseid>461037</Multiverseid>
-<Rulings>2019/05/03: In a Two-Headed Giant game, <Vampire Opportunist>'s ability causes the opposing team to lose 4 life and you gain 2 life.</Rulings>
+<Rulings>2019/07/12: In a Two-Headed Giant game, <Vampire Opportunist>'s ability causes the opposing team to lose 4 life and you gain 2 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2316,9 +2316,9 @@ Change the target of target spell or ability with a single target.</CardText>
 —Ral Zarek</Flavor>
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>461042</Multiverseid>
-<Rulings>2019/05/03: Once you announce that you're casting <Bolt Bend>, no player may take actions until the spell has been paid for. Notably, opponents can't try to change whether you control a creature with power 4 or greater.
+<Rulings>2019/05/03: The single target that the target spell or ability targets doesn't have to be a creature you control with power 4 or greater.
+2019/05/03: Once you announce that you're casting <Bolt Bend>, no player may take actions until the spell has been paid for. Notably, opponents can't try to change whether you control a creature with power 4 or greater.
 2019/05/03: Once you've cast <Bolt Bend>, losing control of all creatures with power 4 or greater won't affect the spell or cause you to pay more mana.
-2019/05/03: The single target that the target spell or ability targets doesn't have to be a creature you control with power 4 or greater.
 2019/05/03: You don't choose the new target for the spell or ability until <Bolt Bend> resolves. You must change the target if possible. However, you can't change the target to an illegal target. If there are no legal targets to choose from, the target isn't changed. It doesn't matter if the original target has somehow become illegal itself.
 2019/05/03: If a spell or ability targets multiple things, you can't target it with <Bolt Bend>, even if all but one of those targets have become illegal.
 2019/05/03: If a spell or ability targets the same player or object multiple times, you can't target it with <Bolt Bend>.</Rulings>
@@ -2972,9 +2972,9 @@ When Turret Ogre enters the battlefield, if you control another creature with po
 <Flavor>Common Gruul career aspirations: berserker, shaman, catapault.</Flavor>
 <Artist>Johann Bodin</Artist>
 <Multiverseid>461075</Multiverseid>
-<Rulings>2019/05/03: In a Two-Headed Giant game, <Turret Ogre>'s ability causes the opposing team to lose 4 life.
-2019/05/03: If you don't control another creature with power 4 or greater immediately after <Turret Ogre> enters the battlefield, its ability doesn't trigger, even if you can raise a creature's power right away. If you control no other creature with power 4 or greater as the ability resolves, nothing happens. These don't have to be the same creature, though.
-2019/05/03: <Turret Ogre>'s ability doesn't deal more than 2 damage if you control more than one other creature with power 4 or greater.</Rulings>
+<Rulings>2019/05/03: If you don't control another creature with power 4 or greater immediately after <Turret Ogre> enters the battlefield, its ability doesn't trigger, even if you can raise a creature's power right away. If you control no other creature with power 4 or greater as the ability resolves, nothing happens. These don't have to be the same creature, though.
+2019/05/03: <Turret Ogre>'s ability doesn't deal more than 2 damage if you control more than one other creature with power 4 or greater.
+2019/05/03: In a Two-Headed Giant game, <Turret Ogre>'s ability causes the opposing team to lose 4 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3481,11 +3481,11 @@ Enchanted land has "{T}: Add two mana of any one color."</CardText>
 • Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)</CardText>
 <Artist>Matt Stewart</Artist>
 <Multiverseid>461100</Multiverseid>
-<Rulings>2019/05/03: You may choose <Pollenbright Druid> as the target of its own ability.
+<Rulings>2019/05/03: Players can respond to the spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+2019/05/03: You may choose <Pollenbright Druid> as the target of its own ability.
 2019/05/03: The War of the Spark set doesn't include any ways for players to have counters, but some cards in other sets say that a player "gets" a counter of a certain kind. Notably, emblems aren't counters.
 2019/05/03: You can choose any permanent that has a counter, including ones controlled by opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
 2019/05/03: You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
-2019/05/03: Players can respond to the spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
 2019/05/03: If a spell or ability puts counters on a player or permanent and then instructs you to proliferate, choosing that player or permanent will give that player or permanent another of those counters.
 2019/05/03: Putting loyalty counters on planeswalkers doesn't cause their loyalty abilities to be activated.</Rulings>
 <Vintage>Legal</Vintage>
@@ -3672,7 +3672,7 @@ When Thundering Ceratok enters the battlefield, other creatures you control gain
 <Type>Creature — Crocodile 5/3</Type>
 <ManaCost>4G (5)</ManaCost>
 <CardText>Hexproof (This creature can't be the target of spells or abilities your opponents control.)</CardText>
-<Flavor>"The Eternals had to endure Amonkhet's five trails. Let's see if they can pass the Trial of Ravnica."
+<Flavor>"The Eternals had to endure Amonkhet's five trials. Let's see if they can pass the Trial of Ravnica."
 —Jace Beleren</Flavor>
 <Artist>Zezhou Chen</Artist>
 <Multiverseid>461110</Multiverseid>
@@ -4257,12 +4257,13 @@ Whenever an opponent attacks a planeswalker you control with one or more creatur
 -2: When you cast your next instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.</CardText>
 <Artist>Wesley Burt</Artist>
 <Multiverseid>461138</Multiverseid>
-<Rulings>2019/05/03: Some spells instruct you to "copy target instant or sorcery spell." Because a spell is never a legal target for itself, you can't cast such a spell targeting itself to create a loop that causes Ral's first ability over and over.
-2019/05/03: If an effect copies a spell multiple times, as Finale of Promise may, Ral's first ability triggers that many times.
+<Rulings>2019/05/03: If an effect copies a spell multiple times, as Finale of Promise may, Ral's first ability triggers that many times.
 2019/05/03: If the spell that's copied is modal (that is, it says "Choose one —" or the like), the copy created by Ral's last ability will have the same mode or modes. You can't choose different ones.
-2019/05/03: If the spell that's copied has damage divided as it was cast, the division can't be changed (although the targets receiving that damage still can). The same is true of spells that distribute counters.
+2019/05/03: Some spells instruct you to "copy target instant or sorcery spell." Because a spell is never a legal target for itself, you can't cast such a spell targeting itself to create a loop that causes Ral's first ability over and over.
 2019/05/03: You can't choose to pay any additional costs for the copy created by Ral's last ability. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
-2019/05/03: The copies that Ral's last ability creates are created on the stack, so they're not "cast." Abilities that trigger when a player casts a spell won't trigger.</Rulings>
+2019/05/03: The copies that Ral's last ability creates are created on the stack, so they're not "cast." Abilities that trigger when a player casts a spell won't trigger.
+2019/05/03: If the spell that's copied has damage divided as it was cast, the division can't be changed (although the targets receiving that damage still can). The same is true of spells that distribute counters.
+2019/06/14: If an effect copies a card rather than a spell (such as that of God-Eternal Kefnet), this doesn't cause Ral's first ability to trigger. That ability will trigger if you cast the copy, however.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4609,10 +4610,10 @@ Whenever a Wolf enters the battlefield under your control, you gain 3 life and t
 -1: Target player puts the top four cards of their library into their graveyard. Then exile each opponent's graveyard.</CardText>
 <Artist>Cynthia Sheppard</Artist>
 <Multiverseid>461155</Multiverseid>
-<Rulings>2019/05/03: Spells and abilities your opponents control may cause other players to search their libraries, and spells and abilities you control may cause your opponents to search their libraries.
+<Rulings>2019/05/03: Effects that instruct your opponents to reveal or look at cards from the top of their libraries will still work. Only effects that use the word "search" are affected.
+2019/05/03: Spells and abilities your opponents control may cause other players to search their libraries, and spells and abilities you control may cause your opponents to search their libraries.
 2019/05/03: If an effect says "You may search your library . . . If you do, shuffle your library" or "You may search your library . . . then shuffle your library," your opponents can't choose to search, so they won't shuffle.
 2019/05/03: If an effect says "Search your library . . . then shuffle your library," your opponents shuffle their libraries even though they can't search.
-2019/05/03: Effects that instruct your opponents to reveal or look at cards from the top of their libraries will still work. Only effects that use the word "search" are affected.
 2019/05/03: If Ashiok's last ability targets an opponent, the cards put into their graveyard will be among the cards exiled by the ability. No player may take any actions between the time the cards are put into a graveyard and the time your opponents' graveyards are all exiled.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -4877,7 +4878,7 @@ When Iron Bully enters the battlefield, put a +1/+1 counter on target creature.<
 <Type>Artifact Creature — Golem 2/1</Type>
 <ManaCost>2 (2)</ManaCost>
 <CardText>{2}: Add one mana of any color.</CardText>
-<Flavor>It didn't budge when the portal opened, nor when the ancient gods emerged. I came to life only when all ten guilds came together to face a common threat.</Flavor>
+<Flavor>It didn't budge when the portal opened, nor when the ancient gods emerged. It came to life only when all ten guilds came together to face a common threat.</Flavor>
 <Artist>Alayna Danner</Artist>
 <Multiverseid>461169</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -5366,10 +5367,10 @@ When Gateway Plaza enters the battlefield, sacrifice it unless you pay {1}.
 -7: Creatures you control can't be blocked this turn.</CardText>
 <Artist>Kieran Yanner</Artist>
 <Multiverseid>463837</Multiverseid>
-<Rulings>2019/05/03: Jace's first ability can trigger only once each turn. It doesn't matter whether Jace was on the battlefield when the first card was drawn.
+<Rulings>2019/05/03: Once Jace's last ability has resolved, its effect applies even if Jace has left the battlefield.
+2019/05/03: Jace's first ability can trigger only once each turn. It doesn't matter whether Jace was on the battlefield when the first card was drawn.
 2019/05/03: If an effect instructs you to draw multiple cards, Jace's first ability triggers after you draw whichever is the second one for the turn (if any). You choose a target for the ability after you've drawn all of the cards.
-2019/05/03: If a spell or ability causes you to put cards into your hand without specifically using the word "draw," it's not a card drawn.
-2019/05/03: Once Jace's last ability has resolved, its effect applies even if Jace has left the battlefield.</Rulings>
+2019/05/03: If a spell or ability causes you to put cards into your hand without specifically using the word "draw," it's not a card drawn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

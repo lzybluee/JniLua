@@ -290,11 +290,11 @@ Activated abilities of creatures your opponents control can't be activated.</Car
 <Type>Creature — Human Artificer 1/1</Type>
 <ManaCost>3W (4)</ManaCost>
 <CardText>When Master Splicer enters the battlefield, create a 3/3 colorless Golem artifact creature token.
-Golem creatures you control get +1/+1.</CardText>
+Golems you control get +1/+1.</CardText>
 <Flavor>With Phyrexia's victory at hand, each sect began perfecting its vision.</Flavor>
 <Artist>Chippy</Artist>
 <Multiverseid>425840</Multiverseid>
-<Rulings>2017/03/14: If a creature has been dealt damage, that damage remains marked on it until the cleanup step. If <Master Splicer> leaves the battlefield and a Golem creature you control has been dealt damage, that creature will be destroyed if the damage is now lethal. Similarly, if that causes a Golem to have 0 toughness, it's put into its owner's graveyard.</Rulings>
+<Rulings>2019/07/12: Because damage remains marked on a creature until it's removed as the turn ends, nonlethal damage dealt to Golems you control may become lethal if <Master Splicer> leaves the battlefield during that turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1171,9 +1171,8 @@ Destroy target creature.</CardText>
 <Flavor>Witches of the Split-Eye Coven speak of a future when Grixis will overflow with life energy. For now, they must harvest vis from the living to fuel their dark magics.</Flavor>
 <Artist>Cole Eastburn</Artist>
 <Multiverseid>425885</Multiverseid>
-<Rulings>2017/03/14: You must sacrifice exactly one creature to cast this spell; you can't cast it without sacrificing a creature, and you can't sacrifice additional creatures.
-2017/03/14: Once you begin to cast <Bone Splinters>, no player may take actions until you're done. Notably, opponents can't try to remove the creature you wish to sacrifice.
-2017/03/14: You can cast <Bone Splinters> targeting the creature you intend to sacrifice for its cost. This is because targets are chosen before costs are paid. <Bone Splinters> won't resolve as it tries to resolve in this case.</Rulings>
+<Rulings>2019/07/12: You must sacrifice exactly one creature to cast this spell; you can't cast it without sacrificing a creature, and you can't sacrifice additional creatures.
+2019/07/12: Once you begin to cast <Bone Splinters>, no player may take actions until you're done. Notably, opponents can't try to remove the creature you wish to sacrifice.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1780,7 +1779,7 @@ Miracle {X}{R} (You may cast this card for its miracle cost when you draw it if 
 <Flavor>Chandra never believed in using her "inside voice."</Flavor>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>425917</Multiverseid>
-<Rulings>2018/03/16: If the target creature is an illegal target by the time <Chandra's Outrage> resolves, the spell doesn't resolve. No player is dealt damage.</Rulings>
+<Rulings>2019/07/12: If the target creature is an illegal target by the time <Chandra's Outrage> tries to resolve, the spell doesn't resolve. No player is dealt damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4270,8 +4269,10 @@ Players can't cast spells from graveyards or libraries.</CardText>
 —Grafdigger Wulmer</Flavor>
 <Artist>Daniel Ljunggren</Artist>
 <Multiverseid>426046</Multiverseid>
-<Rulings>2017/03/14: If a creature card tries to enter the battlefield from a graveyard or library, it stays in its current zone.
-2017/03/14: The second ability doesn't stop players from playing land cards from graveyards or libraries since lands aren't cast.</Rulings>
+<Rulings>2019/07/12: Players can still play lands from graveyards or libraries if an effect allows them to do so.
+2019/07/12: If an effect exiles a card from a library and allows a player to cast it, that player may do so. The spell is cast from exile, not a library.
+2019/07/12: Look at the card as it exists in your graveyard to determine whether it can enter the battlefield. For example, Sculpting Steel can be put onto the battlefield as a copy of a creature, but Phyrexian Metamorph can't be put onto the battlefield, even if it would copy a noncreature artifact.
+2019/07/12: Manifesting a card from a graveyard or library is an impossible action while <Grafdigger's Cage> is on the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

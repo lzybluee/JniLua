@@ -124,7 +124,7 @@ Addendum — If you cast this spell during your main phase, that creature gains 
 <Name>Concordia Pegasus</Name>
 <Type>Creature — Pegasus 1/3</Type>
 <ManaCost>1W (2)</ManaCost>
-<CardText>Flying</CardText>
+<CardText>Flying (This creature can't be blocked except by creatures with flying or reach.)</CardText>
 <Flavor>"What makes a frog lizard any worse than a bird horse? Prejudice against the Simic, that's what! It's unfair!"
 —Thados Arquef,
 Guardian Project biomancer</Flavor>
@@ -413,7 +413,7 @@ Enchanted creature has defender and loses flying.</CardText>
 <Name>Smothering Tithe</Name>
 <Type>Enchantment</Type>
 <ManaCost>3W (4)</ManaCost>
-<CardText>Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color."</CardText>
+<CardText>Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")</CardText>
 <Flavor>"I await your donation."
 —Dasha, Orzhov priest</Flavor>
 <Artist>Mark Behm</Artist>
@@ -1242,13 +1242,13 @@ When Blade Juggler enters the battlefield, it deals 1 damage to you and you draw
 <Name>Bladebrand</Name>
 <Type>Instant</Type>
 <ManaCost>1B (2)</ManaCost>
-<CardText>Target creature gains deathtouch until end of turn.
+<CardText>Target creature gains deathtouch until end of turn. (Any amount of damage it deals to a creature is enough to destroy it.)
 Draw a card.</CardText>
 <Flavor>"The pain of searing iron and razor edges pales beside the pleasure of performance."
 —Judith</Flavor>
 <Artist>Winona Nelson</Artist>
 <Multiverseid>457208</Multiverseid>
-<Rulings>2019/01/25: If the target creature is an illegal target by the time <Bladebrand> tries to resolve, the spell doesn't resolve. You don't draw a card.</Rulings>
+<Rulings>2019/07/12: If the target creature is an illegal target by the time <Bladebrand> tries to resolve, the spell doesn't resolve. You don't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1782,12 +1782,12 @@ When Spire Mangler enters the battlefield, target creature with flying you contr
 <Name>Act of Treason</Name>
 <Type>Sorcery</Type>
 <ManaCost>2R (3)</ManaCost>
-<CardText>Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.</CardText>
+<CardText>Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. (It can attack and {T} this turn.)</CardText>
 <Flavor>Seen through Rakdos eyes, a cruel betrayal is a hilarious stunt.</Flavor>
 <Artist>Scott Murphy</Artist>
 <Multiverseid>457235</Multiverseid>
-<Rulings>2019/01/25: <Act of Treason> can target any creature, even one that's untapped or one you already control.
-2019/01/25: Gaining control of a creature doesn't cause you to gain control of any Auras or Equipment attached to it.</Rulings>
+<Rulings>2019/07/12: <Act of Treason> can target any creature, even one that's untapped or one you already control.
+2019/07/12: Gaining control of a creature doesn't cause you to gain control of any Auras or Equipment attached to it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2196,7 +2196,7 @@ When Rix Maadi Reveler enters the battlefield, discard a card, then draw a card.
 <Flavor>Joining a guild, even the Gruul, would mean giving up some of his independence. He'd rather smash what he wants to smash.</Flavor>
 <Artist>Zoltan Boros</Artist>
 <Multiverseid>457255</Multiverseid>
-<Rulings>2019/01/25: If <Rubblebelt Recluse> can't attack for any reason (such as being tapped or having come under that player's control that turn), then it doesn't attack. If there's a cost associated with having it attack, its controller isn't forced to pay that cost, so it doesn't have to attack in that case either.</Rulings>
+<Rulings>2019/07/12: If <Rubblebelt Recluse> can't attack for any reason (such as being tapped or having come under that player's control that turn), then it doesn't attack. If there's a cost associated with having it attack, its controller isn't forced to pay that cost, so it doesn't have to attack in that case either.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2616,7 +2616,7 @@ Whenever Gruul Beastmaster attacks, another target creature you control gets +X/
 <Name>Mammoth Spider</Name>
 <Type>Creature — Spider 3/5</Type>
 <ManaCost>4G (5)</ManaCost>
-<CardText>Reach</CardText>
+<CardText>Reach (This creature can block creatures with flying.)</CardText>
 <Flavor>"The good news is that the migrating drakes are no longer a problem."
 —Bell Migellic, Azorius hussar</Flavor>
 <Artist>Jehan Choo</Artist>
