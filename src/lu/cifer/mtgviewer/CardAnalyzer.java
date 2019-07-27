@@ -424,7 +424,8 @@ public class CardAnalyzer {
 
 	public static String initData() {
 		if (lastFilter != null && compareFilter()) {
-			return (setOrder.size() - subSet) + " Sets and " + allName.length + " Cards" + " (" + (reprintCards - allName.length) + " Reprints)";
+			return (setOrder.size() - subSet) + " Sets and " + allName.length + " Cards" + " ("
+					+ (reprintCards - allName.length) + " Reprints)";
 		}
 
 		lastCode = null;
@@ -448,7 +449,7 @@ public class CardAnalyzer {
 				progress++;
 				for (int i = 2; i < s.length; i++) {
 					setOrder.add(s[i]);
-					if(i > 2) {
+					if (i > 2) {
 						subSet++;
 					}
 					processSet(new File(CardParser.oracleFolder + "/MtgOracle_" + s[i] + ".txt"));
@@ -473,7 +474,8 @@ public class CardAnalyzer {
 
 		Arrays.sort(allName);
 
-		return (setOrder.size() - subSet) + " Sets and " + allName.length + " Cards" + " (" + (reprintCards - allName.length) + " Reprints)";
+		return (setOrder.size() - subSet) + " Sets and " + allName.length + " Cards" + " ("
+				+ (reprintCards - allName.length) + " Reprints)";
 	}
 
 	public static CardInfo getNewCard(String str) {
@@ -763,10 +765,16 @@ public class CardAnalyzer {
 				reprint.folder = "Modern/9ED/9EB";
 				reprint.altCode = "9EB";
 				break;
+			case "M19 Gift Pack":
+				reprint.code = "G18";
+				reprint.folder = "Modern/M19/G18";
+				reprint.altCode = "G18";
+				break;
 			default:
 				for (String[] strs : CardParser.SetList) {
 					String set = reprint.set.replace("Premium Deck Series:", "Premium:").replace("Duel Decks:", "Duel:")
-							.replace("The Coalition", "Coalition").replace(" vs. ", " vs ");
+							.replace("Global Series:", "Global:").replace("The Coalition", "Coalition")
+							.replace(" vs. ", " vs ");
 					if (set.equals(strs[0])) {
 						reprint.code = strs[1].substring(strs[1].lastIndexOf("/") + 1);
 						reprint.folder = strs[1];
