@@ -190,10 +190,10 @@ Flashback {3}{U} (You may cast this card from your graveyard for its flashback c
 <Flavor>Transformed from brute to cute.</Flavor>
 <Artist>E. M. Gist</Artist>
 <Multiverseid>470556</Multiverseid>
-<Rulings>2019/08/23: <Mass Diminish> overwrites all previous effects that set a creature's base power and toughness to specific values. Any power- or toughness-setting effects that start to apply after that ability resolves will overwrite this effect.
+<Rulings>2019/08/23: <Mass Diminish> affects only creatures the target player controls at the time it resolves. Creatures they begin to control later before your next turn won't be 1/1.
+2019/08/23: <Mass Diminish> overwrites all previous effects that set a creature's base power and toughness to specific values. Any power- or toughness-setting effects that start to apply after that ability resolves will overwrite this effect.
 2019/08/23: Effects that raise or lower a creature's power and/or toughness, such as the effect of Titanic Growth, will apply to that creature no matter when they started to take effect. The same is true for any counters that change its power and/or toughness.
 2019/08/23: <Mass Diminish> targets the player, not their creatures. A creature with hexproof or protection from blue may be shrunk this way.
-2019/08/23: <Mass Diminish> affects only creatures the target player controls at the time it resolves. Creatures they begin to control later before your next turn won't be 1/1.
 2019/08/23: Because damage remains marked on a creature until it's removed as the turn ends, nonlethal damage dealt to a creature the target player controls may become lethal once its base toughness becomes 1.
 2019/08/23: In a multiplayer game, if you leave the game after <Mass Diminish> resolves but before your next turn begins, its effect lasts until your next turn would have begun. It neither expires immediately nor lasts indefinitely.</Rulings>
 <Vintage>Legal</Vintage>
@@ -369,11 +369,11 @@ For each {B} in a cost, you may pay 2 life rather than pay that mana.
 Whenever you cast a black spell, put a +1/+1 counter on K'rrik, Son of Yawgmoth.</CardText>
 <Artist>Chase Stone</Artist>
 <Multiverseid>470564</Multiverseid>
-<Rulings>2019/08/23: K'rrik's ability doesn't modify or reduce costs you pay. It changes only how you may pay those costs.
+<Rulings>2019/08/23: K'rrik's ability lets you pay 2 life for {B} in any cost you pay, including casting costs, activation costs, and even costs for special actions (such as morph). Any time you pay mana, that's a cost.
+2019/08/23: K'rrik's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+2019/08/23: K'rrik's ability doesn't modify or reduce costs you pay. It changes only how you may pay those costs.
 2019/08/23: You can't pay 2 life to pay for generic mana in costs you pay, even if an effect says that you must spend black mana to pay that generic mana.
-2019/08/23: If a cost contains a mana symbol that may be paid in multiple ways, such as {B/R}, {BP}, or {2/B}, you choose how you'll pay it before you do so. If you choose to pay {B} this way, K'rrik's ability allows you to pay life rather than pay that mana.
-2019/08/23: K'rrik's ability lets you pay 2 life for {B} in any cost you pay, including casting costs, activation costs, and even costs for special actions (such as morph). Any time you pay mana, that's a cost.
-2019/08/23: K'rrik's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.</Rulings>
+2019/08/23: If a cost contains a mana symbol that may be paid in multiple ways, such as {B/R}, {BP}, or {2/B}, you choose how you'll pay it before you do so. If you choose to pay {B} this way, K'rrik's ability allows you to pay life rather than pay that mana.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander 2019 Edition</Set>
@@ -610,6 +610,14 @@ Whenever Tectonic Hellion attacks, each player who controls the most lands sacri
 <Flavor>Devils sow grief and harvest glee.</Flavor>
 <Artist>Izzy</Artist>
 <Multiverseid>470576</Multiverseid>
+<Rulings>2019/08/23: You choose a player at random and they exile a card all while the triggered ability is resolving. No player may take any actions between the two or between exiling the card and you copying and casting it.
+2019/08/23: The chosen player chooses which card to exile from their graveyard.
+2019/08/23: If the chosen player has no instant or sorcery cards in their graveyard, <Wildfire Devils>'s ability does nothing. You don't pick a different player.
+2019/08/23: The copy of the card is created in exile and cast from exile, not from a graveyard.
+2019/08/23: You can cast the copy only as the triggered ability resolves. If you don't want to cast it at that time (or you can't cast it, perhaps because there are no legal targets available), the copy ceases to exist. You can't cast it later.
+2019/08/23: You can cast the copy during the resolution of the triggered ability if it's a sorcery, no matter whose turn it is or which phase it is.
+2019/08/23: If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+2019/08/23: If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Momentous Fall, you must pay those to cast the card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander 2019 Edition</Set>
@@ -824,7 +832,7 @@ When Gerrard, Weatherlight Hero dies, exile it and return to the battlefield all
 <Rulings>2019/08/23: Gerrard's triggered ability returns artifact and creature cards even if Gerrard leaves your graveyard before you can exile it.
 2019/08/23: Gerrard's triggered ability returns artifact and creature cards even if they were put into your graveyard while Gerrard wasn't on the battlefield, so long as they were put there this turn.
 2019/08/23: If Gerrard is your commander, you can exile it into the command zone from your graveyard. You'll still return your artifact and creature cards.
-2019/08/23: Permanent spells that were countered earlier in the turn never entered the battlefield, so they won't be returned by Gerrard's ability. </Rulings>
+2019/08/23: Permanent spells that were countered earlier in the turn never entered the battlefield, so they won't be returned by Gerrard's ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander 2019 Edition</Set>
@@ -947,7 +955,7 @@ Each player may attack only the nearest opponent in the chosen direction and pla
 <Flavor>Its colors entrance aggressors, directing their violence.</Flavor>
 <Artist>Richard Wright</Artist>
 <Multiverseid>470593</Multiverseid>
-<Rulings>2019/08/23: If two Pramikons on the battlefield disagree on which direction players must attack, players can't attack at all.
+<Rulings>2019/08/23: If two Pramikons on the battlefield disagree on which direction three or more players must attack, players can't attack at all.
 2019/08/23: If no choice was made for Pramikon (perhaps because it's actually Volrath, the Shapestealer in an impressively clever disguise), its last ability has no effect.
 2019/08/23: In a multiplayer game, players may use any mutually agreeable method to determine seating order after they've chosen decks but before the game begins. If players can't agree (perhaps because Pramikon has them worried about who their nearest opponent is), players should be seated randomly.</Rulings>
 <Vintage>Legal</Vintage>
@@ -1013,11 +1021,11 @@ Whenever you cast your first instant or sorcery spell from your graveyard each t
 Whenever an opponent attacks with one or more creatures, if Tahngarth is tapped, you may have that opponent gain control of Tahngarth until end of combat. If you do, choose a player or planeswalker that opponent is attacking. Tahngarth is attacking that player or planeswalker.</CardText>
 <Artist>Anna Steinbauer</Artist>
 <Multiverseid>470596</Multiverseid>
-<Rulings>2019/08/23: If Tahngarth gains menace, it can't be blocked at all.
+<Rulings>2019/08/23: Players can't take any actions between the time you choose to give control of Tahngarth to the attacking player and the time it becomes an attacking creature.
+2019/08/23: If Tahngarth gains menace, it can't be blocked at all.
 2019/08/23: Giving control of Tahngarth to an opponent doesn't cause it to become untapped. This means that Tahngarth may end up attacking several times between your turns.
 2019/08/23: If an opponent is attacking a planeswalker but not that planeswalker's controller, Tahngarth can't attack that player.
 2019/08/23: If an opponent attacks a player or planeswalker but each creature attacking that player or planeswalker is no longer attacking that player or planeswalker by the time Tahngarth's ability resolves (most likely because they've left the battlefield), that player or planeswalker can't be chosen for Tahngarth to attack. If there's no player or planeswalker to choose this way but you still choose to give the opponent control of Tahngarth, Tahngarth isn't attacking.
-2019/08/23: Players can't take any actions between the time you choose to give control of Tahngarth to the attacking player and the time it becomes an attacking creature.
 2019/08/23: Although Tahngarth is an attacking creature if it uses its triggered ability, it was never declared as an attacking creature. This means that abilities that trigger whenever a creature attacks won't trigger when it changes control and becomes attacking.
 2019/08/23: Any effects that say that Tahngarth can't attack or can't attack a certain player (such as that of Propaganda, or if Tahngarth gains defender) affect only the declaration of attackers. They won't stop Tahngarth from becoming an attacking creature through its triggered ability.
 2019/08/23: Tahngarth may end up attacking its owner this way.
@@ -1041,7 +1049,7 @@ Whenever an opponent attacks with one or more creatures, if Tahngarth is tapped,
 <Rulings>2019/08/23: Activating Volrath's last ability causes it to lose its first ability until your next turn, so if you activate it before the beginning of combat step, it won't trigger during that turn. Players can cast instant spells and activate abilities (such as the second ability) during the beginning of combat step after that first ability has triggered or resolved but before attackers are chosen in the declare attackers step.
 2019/08/23: If a creature has +1/+1 counters and -1/-1 counters on it, state-based actions remove the same number of each so that it has only one of those kinds of counters on it. This may cause the creature to no longer have any counters on it.
 2019/08/23: Volrath copies the printed values of the target creature, plus any copy effects that have been applied to it. It won't copy counters on that creature. It also won't copy any effects that have changed its power, toughness, types, color, or so on. Notably, it won't copy effects that made the target become a creature if it's not normally a creature.
-2019/08/23: If Volrath becomes a copy of a card that is manifested, Volrath becomes a 2/2 creature with no color, cost, or creature type. Volrath is still face up.
+2019/08/23: If Volrath becomes a copy of a face-down creature, Volrath becomes a 7/5 creature with no color, cost, or creature type. Volrath is still face up.
 2019/08/23: If Volrath copies a creature that's copying something else, it will become whatever the target is copying.
 2019/08/23: If the target creature is a token, Volrath copies the original characteristics of that token as stated by the effect that created the token. Volrath doesn't become a token in this case.
 2019/08/23: If an effect begins to apply to Volrath before it becomes a copy of another creature, that effect will continue to apply.
@@ -1364,11 +1372,11 @@ Destroy all nontoken creatures.</CardText>
 <Flavor>Those who are chosen do not doubt. Those who remain do not lament.</Flavor>
 <Artist>Joseph Meehan</Artist>
 <Multiverseid>470611</Multiverseid>
-<Rulings>2018/10/05: You can tap an untapped creature you haven't controlled continuously since the beginning of your most recent turn to convoke a spell.
+<Rulings>2018/10/05: Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+2018/10/05: You can tap an untapped creature you haven't controlled continuously since the beginning of your most recent turn to convoke a spell.
 2018/10/05: Convoke doesn't change a spell's mana cost or converted mana cost.
 2018/10/05: When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated.
 2018/10/05: Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
-2018/10/05: Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
 2018/10/05: When using convoke to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap creatures you control to help pay that cost. For example, if you cast Worldsoul Colossus (a spell with convoke and mana cost {X}{G}{W}) and choose X to be 3, the total cost is {3}{G}{W}. If you tap two green creatures and two white creatures, you'll have to pay {1}.
 2018/10/05: If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.</Rulings>
 <Vintage>Legal</Vintage>
@@ -1844,7 +1852,8 @@ Whenever you cast an instant or sorcery spell, scry 1. (Look at the top card of 
 When Kheru Spellsnatcher is turned face up, counter target spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard. You may cast that card without paying its mana cost for as long as it remains exiled.</CardText>
 <Artist>Clint Cearley</Artist>
 <Multiverseid>470635</Multiverseid>
-<Rulings>2014/09/20: Because you're already casting the card using an alternative cost (by casting it without paying its mana cost), you can't pay any other alternative costs for the card, including casting it face down using the morph ability. You can pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
+<Rulings>2014/09/20: You can target a spell you control with <Kheru Spellsnatcher>'s triggered ability. This will give you the ability to cast the card later without paying its mana cost.
+2014/09/20: Because you're already casting the card using an alternative cost (by casting it without paying its mana cost), you can't pay any other alternative costs for the card, including casting it face down using the morph ability. You can pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
 2014/09/20: If the card has {X} in its mana cost, you must choose 0 as the value for X when casting it.
 2014/09/20: Morph lets you cast a card face down by paying {3}, and lets you turn the face-down permanent face up any time you have priority by paying its morph cost.
 2014/09/20: The face-down spell has no mana cost and has a converted mana cost of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3}. This is an alternative cost.
@@ -1853,7 +1862,6 @@ When Kheru Spellsnatcher is turned face up, counter target spell. If that spell 
 2014/09/20: Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
 2014/09/20: A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren't affected.
 2014/09/20: At any time, you can look at a face-down spell or permanent you control. You can't look at face-down spells or permanents you don't control unless an effect instructs you to do so.
-2014/09/20: You can target a spell you control with <Kheru Spellsnatcher>'s triggered ability. This will give you the ability to cast the card later without paying its mana cost.
 2014/09/20: You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
 2014/09/20: If a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends.</Rulings>
 <Vintage>Legal</Vintage>
@@ -2118,7 +2126,8 @@ When Thousand Winds is turned face up, return all other tapped creatures to thei
 Morph {1}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)</CardText>
 <Artist>Ralph Horsley</Artist>
 <Multiverseid>470647</Multiverseid>
-<Rulings>2018/03/16: <Vesuvan Shapeshifter>'s ability to become a copy is a replacement effect. Because turning a creature face up and applying replacement effects both don't use the stack, players won't be able to take actions between the time you announce that you're turning <Vesuvan Shapeshifter> face up and the time it has become a copy of the creature of your choice.
+<Rulings>2018/03/16: If <Vesuvan Shapeshifter> copies a face-down creature, it becomes a face-up 2/2 colorless, nameless creature with no abilities other than the one it gives itself.
+2018/03/16: <Vesuvan Shapeshifter>'s ability to become a copy is a replacement effect. Because turning a creature face up and applying replacement effects both don't use the stack, players won't be able to take actions between the time you announce that you're turning <Vesuvan Shapeshifter> face up and the time it has become a copy of the creature of your choice.
 2018/03/16: <Vesuvan Shapeshifter> copies exactly what was printed on the original creature (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
 2018/03/16: If the chosen creature has {X} in its mana cost, X is considered to be 0.
 2018/03/16: If the chosen creature is copying something else (for example, if the chosen creature is another <Vesuvan Shapeshifter>), then <Vesuvan Shapeshifter> copies whatever the chosen creature copied.
@@ -2126,8 +2135,7 @@ Morph {1}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn i
 2018/03/16: Any enters-the-battlefield abilities of the copied creature will trigger when <Vesuvan Shapeshifter> enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the chosen creature will also work as it enters the battlefield. Similarly, any "[when/as] [this creature] is turned face up" abilities of the chosen creature will work if <Vesuvan Shapeshifter> is turned face up.
 2018/03/16: If <Vesuvan Shapeshifter> somehow enters the battlefield at the same time as another creature, <Vesuvan Shapeshifter> can't become a copy of that creature. You may only choose a creature that's already on the battlefield.
 2018/03/16: When <Vesuvan Shapeshifter> is turned face down, its copy effect wears off. While it's face down, it's a 2/2 face-down <Vesuvan Shapeshifter> that can be turned face up for a morph cost of {1}{U}.
-2018/03/16: If another creature copies <Vesuvan Shapeshifter> while it's face up and copying another creature, the new creature will become a copy of whatever <Vesuvan Shapeshifter> is copying and gain the "you may turn this creature face down" ability. It won't gain morph {1}{U}. If that creature is then turned face down, its copy effect will continue and it'll be a face-down version of whatever it's copying. If the creature it's copying has morph, it can be turned face up. If the creature it's copying doesn't have morph, it's stuck face down.
-2018/03/16: If <Vesuvan Shapeshifter> copies a face-down creature, it becomes a face-up 2/2 colorless, nameless creature with no abilities other than the one it gives itself.</Rulings>
+2018/03/16: If another creature copies <Vesuvan Shapeshifter> while it's face up and copying another creature, the new creature will become a copy of whatever <Vesuvan Shapeshifter> is copying and gain the "you may turn this creature face down" ability. It won't gain morph {1}{U}. If that creature is then turned face down, its copy effect will continue and it'll be a face-down version of whatever it's copying. If the creature it's copying has morph, it can be turned face up. If the creature it's copying doesn't have morph, it's stuck face down.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2388,10 +2396,10 @@ Create three tapped 2/2 black Zombie creature tokens and you gain 3 life. If thi
 {X}{B}: Put target artifact or creature card with converted mana cost X from an opponent's graveyard onto the battlefield under your control tapped. Then that player puts the top X cards of their library into their graveyard.</CardText>
 <Artist>Whit Brachna</Artist>
 <Multiverseid>470660</Multiverseid>
-<Rulings>2011/01/01: The converted mana cost of a card in a graveyard is determined solely by the mana symbols printed in its upper right corner. The converted mana cost is the total amount of mana in that cost, regardless of color. For example, a card with mana cost {3}{U}{U} has converted mana cost 5. If the mana cost of a card in a graveyard includes {X}, X is considered to be 0.
+<Rulings>2011/01/01: If the player has fewer than X cards in their library, they put all cards from their library into their graveyard.
+2011/01/01: The converted mana cost of a card in a graveyard is determined solely by the mana symbols printed in its upper right corner. The converted mana cost is the total amount of mana in that cost, regardless of color. For example, a card with mana cost {3}{U}{U} has converted mana cost 5. If the mana cost of a card in a graveyard includes {X}, X is considered to be 0.
 2011/01/01: The X in Geth's activation cost must be exactly the converted mana cost of the targeted artifact or creature card. You can't pay more than X to put more cards from the opponent's library into their graveyard.
-2011/01/01: If the targeted artifact or creature card leaves the graveyard by the time the ability resolves, the ability doesn't resolve. The player won't put any cards into his graveyard.
-2011/01/01: If the player has fewer than X cards in their library, they put all cards from their library into their graveyard.</Rulings>
+2011/01/01: If the targeted artifact or creature card leaves the graveyard by the time the ability resolves, the ability doesn't resolve. The player won't put any cards into his graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2806,9 +2814,9 @@ Madness {1}{R} (If you discard this card, discard it into exile. When you do, ca
 Avacyn's Judgment deals 2 damage divided as you choose among any number of targets. If this spell's madness cost was paid, it deals X damage divided as you choose among those permanents and/or players instead.</CardText>
 <Artist>Victor Adame Minguez</Artist>
 <Multiverseid>470680</Multiverseid>
-<Rulings>2016/04/08: You announce how the damage will be divided as part of casting <Avacyn's Judgment>. Each chosen target must receive at least 1 damage.
+<Rulings>2016/04/08: Cards are discarded in a Magic game only from a player's hand. Effects that put cards from a player's library into that player's graveyard do not cause those cards to be discarded.
+2016/04/08: You announce how the damage will be divided as part of casting <Avacyn's Judgment>. Each chosen target must receive at least 1 damage.
 2016/04/08: If <Avacyn's Judgment> has multiple targets, and some but not all of them are illegal targets when <Avacyn's Judgment> resolves, <Avacyn's Judgment> will still deal damage to the remaining legal targets according to the original damage division.
-2016/04/08: Cards are discarded in a Magic game only from a player's hand. Effects that put cards from a player's library into that player's graveyard do not cause those cards to be discarded.
 2016/04/08: A spell cast for its madness cost is put onto the stack like any other spell. It can be countered, copied, and so on. As it resolves, it's put onto the battlefield if it's a permanent card or into its owner's graveyard if it's an instant or sorcery card.
 2016/04/08: Casting a spell for its madness cost doesn't change its mana cost or its converted mana cost. You just pay the madness cost instead.
 2016/04/08: Effects that cause you to pay more or less for a spell will cause you to pay that much more or less for its madness cost, too.
@@ -2994,7 +3002,8 @@ Madness {R} (If you discard this card, discard it into exile. When you do, cast 
 Dash {2}{R}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)</CardText>
 <Artist>Min Yum</Artist>
 <Multiverseid>470689</Multiverseid>
-<Rulings>2014/11/24: You choose which opponent or opposing planeswalker the token is attacking as you put it onto the battlefield. It doesn't have to be the same player or planeswalker <Flamerush Rider> is attacking.
+<Rulings>2014/11/24: If a creature enters the battlefield as a copy of or becomes a copy of a creature whose dash cost was paid, the copy won't have haste and won't be returned to its owner's hand.
+2014/11/24: You choose which opponent or opposing planeswalker the token is attacking as you put it onto the battlefield. It doesn't have to be the same player or planeswalker <Flamerush Rider> is attacking.
 2014/11/24: Although the token is attacking, it was never declared as an attacking creature (for purposes of abilities that trigger whenever a creature attacks, for example).
 2014/11/24: The token copies exactly what was printed on the original creature and nothing else (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that creature has any counters on it or Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on. Notably, it doesn't copy any effects that may have turned a noncreature permanent into a creature. If the token isn't a creature as it enters the battlefield, it won't be attacking.
 2014/11/24: If the copied creature had {X} in its mana cost, X is 0.
@@ -3004,8 +3013,7 @@ Dash {2}{R}{R} (You may cast this spell for its dash cost. If you do, it gains h
 2014/11/24: If another creature becomes or enters the battlefield as a copy of the token, you won't exile that creature at end of combat. However, if <Flamerush Rider> creates multiple tokens due to a replacement effect (like the one Doubling Season creates), you'll exile each of those tokens.
 2014/11/24: If you choose to pay the dash cost rather than the mana cost, you're still casting the spell. It goes on the stack and can be responded to and countered. You can cast a creature spell for its dash cost only when you otherwise could cast that creature spell. Most of the time, this means during your main phase when the stack is empty.
 2014/11/24: If you pay the dash cost to cast a creature spell, that card will be returned to its owner's hand only if it's still on the battlefield when its triggered ability resolves. If it dies or goes to another zone before then, it will stay where it is.
-2014/11/24: You don't have to attack with the creature with dash unless another ability says you do.
-2014/11/24: If a creature enters the battlefield as a copy of or becomes a copy of a creature whose dash cost was paid, the copy won't have haste and won't be returned to its owner's hand.</Rulings>
+2014/11/24: You don't have to attack with the creature with dash unless another ability says you do.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3444,7 +3452,7 @@ Draw a card.</CardText>
 <Flavor>An explorer's reward is a view of tomorrow's possibilities.</Flavor>
 <Artist>John Avon</Artist>
 <Multiverseid>470710</Multiverseid>
-<Rulings>2017/03/14: <Explore>'s effect allows you to play an additional land during your main phase. Doing so follows the normal timing rules for playing lands. In particular, you don't get to play a land as <Explore> resolves; <Explore> fully resolves first and draws a card, perhaps a land you'll play later.
+<Rulings>2017/03/14: <Explore>'s effect allows you to play an additional land during your main phase. Doing so follows the normal timing rules for playing lands. In particular, you don't get to play a land as <Explore> resolves; <Explore> fully resolves first and you draw a card, perhaps a land you'll play later.
 2017/03/14: The effects of multiple <Explore>s in the same turn are cumulative. They're also cumulative with other effects that let you play additional lands, such as the one from Urban Evolution.
 2017/03/14: If you somehow manage to cast <Explore> when it's not your turn, you'll draw a card when it resolves, but you won't be able to play a land that turn.</Rulings>
 <Vintage>Legal</Vintage>
@@ -4175,25 +4183,25 @@ Whenever you cast a noncreature spell, untap Pristine Skywise. It gains protecti
 <CardText>Refuse deals damage to target spell's controller equal to that spell's converted mana cost.</CardText>
 <Artist>Yongjae Choi</Artist>
 <Multiverseid>470745</Multiverseid>
-<Rulings>2017/04/18: All split cards have two card faces on a single card, and you put a split card onto the stack with only the half you're casting. The characteristics of the half of the card you didn't cast are ignored while the spell is on the stack. For example, if an effect prevents you from casting green spells, you can cast Destined of Destined // Lead, but not Lead.
+<Rulings>2017/04/18: If another effect allows you to cast a split card with aftermath from a graveyard, you may cast either half. If you cast the half that has aftermath, you'll exile the card if it would leave the stack.
+2017/04/18: A spell with aftermath cast from a graveyard will always be exiled afterward, whether it resolves, it's countered, or it leaves the stack in some other way.
+2017/04/18: Split cards with aftermath have a new frame treatment—the half you can cast from your hand is oriented the same as other cards you'd cast from your hand, while the half you can cast from your graveyard is a traditional split card half. This frame treatment is for your convenience and has no rules significance.
+2017/04/18: All split cards have two card faces on a single card, and you put a split card onto the stack with only the half you're casting. The characteristics of the half of the card you didn't cast are ignored while the spell is on the stack. For example, if an effect prevents you from casting green spells, you can cast Destined of Destined // Lead, but not Lead.
 2017/04/18: Each split card is a single card. For example, if you discard one, you've discarded one card, not two. If an effect counts the number of instant and sorcery cards in your graveyard, Destined // Lead counts once, not twice.
 2017/04/18: Each split card has two names. If an effect instructs you to choose a card name, you may choose one, but not both.
 2017/04/18: While not on the stack, the characteristics of a split card are the combination of its two halves. For example, Destined // Lead is a green and black card, it is both an instant card and a sorcery card, and its converted mana cost is 6. This means that if an effect allows you to cast a card with converted mana cost 2 from your hand, you can't cast Destined. This is a change from the previous rules for split cards.
 2017/04/18: If you cast the first half of a split card with aftermath during your turn, you'll have priority immediately after it resolves. You can cast the half with aftermath from your graveyard before any player can take any other action if it's legal for you to do so.
 2017/04/18: If another effect allows you to cast a split card with aftermath from any zone other than a graveyard, you can't cast the half with aftermath.
-2017/04/18: If another effect allows you to cast a split card with aftermath from a graveyard, you may cast either half. If you cast the half that has aftermath, you'll exile the card if it would leave the stack.
-2017/04/18: A spell with aftermath cast from a graveyard will always be exiled afterward, whether it resolves, it's countered, or it leaves the stack in some other way.
-2017/04/18: Split cards with aftermath have a new frame treatment—the half you can cast from your hand is oriented the same as other cards you'd cast from your hand, while the half you can cast from your graveyard is a traditional split card half. This frame treatment is for your convenience and has no rules significance.
-2017/07/14: Once you've started to cast a spell with aftermath from your graveyard, the card is immediately moved to the stack. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
+2017/07/14: If the spell that's copied is modal (that is, it says "Choose one —" or the like), the copy will have the same mode. A different mode can't be chosen.
+2017/07/14: If the spell that's copied has an X whose value was determined as it was cast (like Torment of Hailfire does), the copy will have the same value of X.
+2017/07/14: If the spell has damage divided as it was cast (like Chandra's Pyrohelix), the division can't be changed (although the targets receiving that damage still can).
 2017/07/14: If a spell has {X} in its mana cost, include the value chosen for that X when determining the converted mana cost of that spell.
 2017/07/14: Cooperate can copy any instant or sorcery spell, not just one with targets.
 2017/07/14: The copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger.
 2017/07/14: If you copy a spell, you control the copy. It will resolve before the original spell does.
 2017/07/14: The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
-2017/07/14: If the spell that's copied is modal (that is, it says "Choose one —" or the like), the copy will have the same mode. A different mode can't be chosen.
-2017/07/14: If the spell that's copied has an X whose value was determined as it was cast (like Torment of Hailfire does), the copy will have the same value of X.
-2017/07/14: If the spell has damage divided as it was cast (like Chandra's Pyrohelix), the division can't be changed (although the targets receiving that damage still can).
-2017/07/14: The controller of a copy can't choose to pay any alternative or additional costs for the copy. However, effects based on any alternative or additional costs that were paid for the original spell are copied as though those same costs were paid for the copy.</Rulings>
+2017/07/14: The controller of a copy can't choose to pay any alternative or additional costs for the copy. However, effects based on any alternative or additional costs that were paid for the original spell are copied as though those same costs were paid for the copy.
+2017/07/14: Once you've started to cast a spell with aftermath from your graveyard, the card is immediately moved to the stack. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4212,25 +4220,25 @@ Whenever you cast a noncreature spell, untap Pristine Skywise. It gains protecti
 Copy target instant or sorcery spell. You may choose new targets for the copy.</CardText>
 <Artist>Yongjae Choi</Artist>
 <Multiverseid>470745</Multiverseid>
-<Rulings>2017/04/18: All split cards have two card faces on a single card, and you put a split card onto the stack with only the half you're casting. The characteristics of the half of the card you didn't cast are ignored while the spell is on the stack. For example, if an effect prevents you from casting green spells, you can cast Destined of Destined // Lead, but not Lead.
+<Rulings>2017/04/18: If another effect allows you to cast a split card with aftermath from a graveyard, you may cast either half. If you cast the half that has aftermath, you'll exile the card if it would leave the stack.
+2017/04/18: A spell with aftermath cast from a graveyard will always be exiled afterward, whether it resolves, it's countered, or it leaves the stack in some other way.
+2017/04/18: Split cards with aftermath have a new frame treatment—the half you can cast from your hand is oriented the same as other cards you'd cast from your hand, while the half you can cast from your graveyard is a traditional split card half. This frame treatment is for your convenience and has no rules significance.
+2017/04/18: All split cards have two card faces on a single card, and you put a split card onto the stack with only the half you're casting. The characteristics of the half of the card you didn't cast are ignored while the spell is on the stack. For example, if an effect prevents you from casting green spells, you can cast Destined of Destined // Lead, but not Lead.
 2017/04/18: Each split card is a single card. For example, if you discard one, you've discarded one card, not two. If an effect counts the number of instant and sorcery cards in your graveyard, Destined // Lead counts once, not twice.
 2017/04/18: Each split card has two names. If an effect instructs you to choose a card name, you may choose one, but not both.
 2017/04/18: While not on the stack, the characteristics of a split card are the combination of its two halves. For example, Destined // Lead is a green and black card, it is both an instant card and a sorcery card, and its converted mana cost is 6. This means that if an effect allows you to cast a card with converted mana cost 2 from your hand, you can't cast Destined. This is a change from the previous rules for split cards.
 2017/04/18: If you cast the first half of a split card with aftermath during your turn, you'll have priority immediately after it resolves. You can cast the half with aftermath from your graveyard before any player can take any other action if it's legal for you to do so.
 2017/04/18: If another effect allows you to cast a split card with aftermath from any zone other than a graveyard, you can't cast the half with aftermath.
-2017/04/18: If another effect allows you to cast a split card with aftermath from a graveyard, you may cast either half. If you cast the half that has aftermath, you'll exile the card if it would leave the stack.
-2017/04/18: A spell with aftermath cast from a graveyard will always be exiled afterward, whether it resolves, it's countered, or it leaves the stack in some other way.
-2017/04/18: Split cards with aftermath have a new frame treatment—the half you can cast from your hand is oriented the same as other cards you'd cast from your hand, while the half you can cast from your graveyard is a traditional split card half. This frame treatment is for your convenience and has no rules significance.
-2017/07/14: Once you've started to cast a spell with aftermath from your graveyard, the card is immediately moved to the stack. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
+2017/07/14: If the spell that's copied is modal (that is, it says "Choose one —" or the like), the copy will have the same mode. A different mode can't be chosen.
+2017/07/14: If the spell that's copied has an X whose value was determined as it was cast (like Torment of Hailfire does), the copy will have the same value of X.
+2017/07/14: If the spell has damage divided as it was cast (like Chandra's Pyrohelix), the division can't be changed (although the targets receiving that damage still can).
 2017/07/14: If a spell has {X} in its mana cost, include the value chosen for that X when determining the converted mana cost of that spell.
 2017/07/14: <Cooperate> can copy any instant or sorcery spell, not just one with targets.
 2017/07/14: The copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger.
 2017/07/14: If you copy a spell, you control the copy. It will resolve before the original spell does.
 2017/07/14: The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
-2017/07/14: If the spell that's copied is modal (that is, it says "Choose one —" or the like), the copy will have the same mode. A different mode can't be chosen.
-2017/07/14: If the spell that's copied has an X whose value was determined as it was cast (like Torment of Hailfire does), the copy will have the same value of X.
-2017/07/14: If the spell has damage divided as it was cast (like Chandra's Pyrohelix), the division can't be changed (although the targets receiving that damage still can).
-2017/07/14: The controller of a copy can't choose to pay any alternative or additional costs for the copy. However, effects based on any alternative or additional costs that were paid for the original spell are copied as though those same costs were paid for the copy.</Rulings>
+2017/07/14: The controller of a copy can't choose to pay any alternative or additional costs for the copy. However, effects based on any alternative or additional costs that were paid for the original spell are copied as though those same costs were paid for the copy.
+2017/07/14: Once you've started to cast a spell with aftermath from your graveyard, the card is immediately moved to the stack. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4387,12 +4395,12 @@ Whenever a permanent you control is turned face up, draw a card.</CardText>
 <Flavor>"Preachers of freedom forget that conformity can be beautiful."</Flavor>
 <Artist>Jason Chan</Artist>
 <Multiverseid>470752</Multiverseid>
-<Rulings>2013/04/15: You can choose any creature token you control for populate. If a spell or ability puts a token onto the battlefield under your control and then instructs you to populate (as Coursers' Accord does), you may choose to copy the token you just created, or you may choose to copy another creature token you control.
+<Rulings>2013/04/15: Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the new token will work.
+2013/04/15: If you control no creature tokens when you populate, nothing will happen.
+2013/04/15: You can choose any creature token you control for populate. If a spell or ability puts a token onto the battlefield under your control and then instructs you to populate (as Coursers' Accord does), you may choose to copy the token you just created, or you may choose to copy another creature token you control.
 2013/04/15: If you choose to copy a creature token that's a copy of another creature, the new creature token will copy the characteristics of whatever the original token is copying.
 2013/04/15: The new creature token copies the characteristics of the original token as stated by the effect that put the original token onto the battlefield.
-2013/04/15: The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
-2013/04/15: Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the new token will work.
-2013/04/15: If you control no creature tokens when you populate, nothing will happen.</Rulings>
+2013/04/15: The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4925,6 +4933,8 @@ When Boros Garrison enters the battlefield, return a land you control to its own
 —Aurelia</Flavor>
 <Artist>Noah Bradley</Artist>
 <Multiverseid>470780</Multiverseid>
+<Rulings>2013/04/15: The subtype Gate has no special rules significance, but other spells and abilities may refer to it.
+2013/04/15: Gate is not a basic land type.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4981,7 +4991,10 @@ Cinder Glade enters the battlefield tapped unless you control two or more basic 
 <Multiverseid>470783</Multiverseid>
 <Rulings>2011/09/22: The color identity of your commander is set before the game begins and doesn't change during the game, even your commander is in a hidden zone (like the hand or library) or an effect changes your commander's color.
 2011/09/22: If your commander is a card like Kozilek, Butcher of Truth that has no colors in its color identity, <Command Tower>'s ability produces no mana.
-2011/09/22: In formats other than Commander, <Command Tower>'s ability produces no mana.</Rulings>
+2011/09/22: In formats other than Commander, <Command Tower>'s ability produces no mana.
+2019/10/04: The color identity of your commander is set before the game begins and doesn't change during the game, even if your commander is in a hidden zone (like the hand or library) or an effect changes your commander's color.
+2019/10/04: If your commander is a card that has no colors in its color identity, <Command Tower>'s ability produces no mana. It doesn't produce {C}.
+2019/10/04: If you don't have a commander, <Command Tower>'s ability produces no mana.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander 2019 Edition</Set>
@@ -5159,6 +5172,8 @@ Cycling {R} ({R}, Discard this card: Draw a card.)</CardText>
 —Vraska</Flavor>
 <Artist>Eytan Zana</Artist>
 <Multiverseid>470793</Multiverseid>
+<Rulings>2013/04/15: The subtype Gate has no special rules significance, but other spells and abilities may refer to it.
+2013/04/15: Gate is not a basic land type.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -5265,6 +5280,8 @@ When Izzet Boilerworks enters the battlefield, return a land you control to its 
 <Flavor>Every laboratory buzzes with new experiments, each a piece of Ral's ambitious project.</Flavor>
 <Artist>Kirsten Zirngibl</Artist>
 <Multiverseid>470799</Multiverseid>
+<Rulings>2013/04/15: The subtype Gate has no special rules significance, but other spells and abilities may refer to it.
+2013/04/15: Gate is not a basic land type.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

@@ -282,11 +282,11 @@ Destroy all nontoken creatures.</CardText>
 —Niszka, Selesnya evangel</Flavor>
 <Artist>Randy Gallegos</Artist>
 <Multiverseid>247383</Multiverseid>
-<Rulings>2018/10/05: You can tap an untapped creature you haven't controlled continuously since the beginning of your most recent turn to convoke a spell.
+<Rulings>2018/10/05: Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+2018/10/05: You can tap an untapped creature you haven't controlled continuously since the beginning of your most recent turn to convoke a spell.
 2018/10/05: Convoke doesn't change a spell's mana cost or converted mana cost.
 2018/10/05: When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated.
 2018/10/05: Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
-2018/10/05: Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
 2018/10/05: When using convoke to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap creatures you control to help pay that cost. For example, if you cast Worldsoul Colossus (a spell with convoke and mana cost {X}{G}{W}) and choose X to be 3, the total cost is {3}{G}{W}. If you tap two green creatures and two white creatures, you'll have to pay {1}.
 2018/10/05: If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.</Rulings>
 <Vintage>Legal</Vintage>
@@ -3699,7 +3699,7 @@ Draw a card.</CardText>
 <Name>Firespout</Name>
 <Type>Sorcery</Type>
 <ManaCost>2{R/G} (3)</ManaCost>
-<CardText>Firespout deals 3 damage to each creature without flying if {R} was spent to cast Firespout and 3 damage to each creature with flying if {G} was spent to cast it. (Do both if {R}{G} was spent.)</CardText>
+<CardText>Firespout deals 3 damage to each creature without flying if {R} was spent to cast this spell and 3 damage to each creature with flying if {G} was spent to cast this spell. (Do both if {R}{G} was spent.)</CardText>
 <Artist>Jeff Miracola</Artist>
 <Multiverseid>247407</Multiverseid>
 <Rulings>2016/06/08: This spell cares about what mana was spent to pay its total cost, not just what mana was spent to pay the hybrid mana symbol in its cost.
@@ -5009,7 +5009,10 @@ When Boros Garrison enters the battlefield, return a land you control to its own
 <Multiverseid>237004</Multiverseid>
 <Rulings>2011/09/22: The color identity of your commander is set before the game begins and doesn't change during the game, even your commander is in a hidden zone (like the hand or library) or an effect changes your commander's color.
 2011/09/22: If your commander is a card like Kozilek, Butcher of Truth that has no colors in its color identity, <Command Tower>'s ability produces no mana.
-2011/09/22: In formats other than Commander, <Command Tower>'s ability produces no mana.</Rulings>
+2011/09/22: In formats other than Commander, <Command Tower>'s ability produces no mana.
+2019/10/04: The color identity of your commander is set before the game begins and doesn't change during the game, even if your commander is in a hidden zone (like the hand or library) or an effect changes your commander's color.
+2019/10/04: If your commander is a card that has no colors in its color identity, <Command Tower>'s ability produces no mana. It doesn't produce {C}.
+2019/10/04: If you don't have a commander, <Command Tower>'s ability produces no mana.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander</Set>
