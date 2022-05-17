@@ -3,10 +3,10 @@
 <No>1</No>
 <Name>Elspeth, Knight-Errant</Name>
 <Type>Legendary Planeswalker — Elspeth (Loyalty: 4)</Type>
-<ManaCost>2WW (4)</ManaCost>
-<CardText>+1: Create a 1/1 white Soldier creature token.
-+1: Target creature gets +3/+3 and gains flying until end of turn.
--8: You get an emblem with "Artifacts, creatures, enchantments, and lands you control have indestructible."</CardText>
+<ManaCost>{2}{W}{W}</ManaCost>
+<CardText>[+1]: Create a 1/1 white Soldier creature token.
+[+1]: Target creature gets +3/+3 and gains flying until end of turn.
+[-8]: You get an emblem with "Artifacts, creatures, enchantments, and lands you control have indestructible."</CardText>
 <Artist>Igor Kieryluk</Artist>
 <Multiverseid>217825</Multiverseid>
 <Rulings>2011/01/01: Emblems behave similarly to enchantments: They have an ability that, in a general sense, continually affects the game. The primary difference between them is that emblems aren't permanents and don't exist on the battlefield. Nothing in the game can remove an emblem, simply because no other spell or ability references them. Once you get an emblem, you keep it for the rest of the game. Emblems have no color, name, card type, or other characteristics beyond the listed ability.
@@ -23,7 +23,7 @@
 <No>2</No>
 <Name>Elite Vanguard</Name>
 <Type>Creature — Human Soldier 2/1</Type>
-<ManaCost>W (1)</ManaCost>
+<ManaCost>{W}</ManaCost>
 <Flavor>The vanguard is skilled at waging war alone. The enemy is often defeated before its reinforcements reach the front.</Flavor>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>222710</Multiverseid>
@@ -39,7 +39,7 @@
 <No>3</No>
 <Name>Goldmeadow Harrier</Name>
 <Type>Creature — Kithkin Soldier 1/1</Type>
-<ManaCost>W (1)</ManaCost>
+<ManaCost>{W}</ManaCost>
 <CardText>{W}, {T}: Tap target creature.</CardText>
 <Flavor>"It's a proven fact that sling-stones from the dawn side of the riverbank sail the farthest and truest."
 —Deagan, cenn of Burrenton</Flavor>
@@ -57,7 +57,7 @@
 <No>4</No>
 <Name>Infantry Veteran</Name>
 <Type>Creature — Human Soldier 1/1</Type>
-<ManaCost>W (1)</ManaCost>
+<ManaCost>{W}</ManaCost>
 <CardText>{T}: Target attacking creature gets +1/+1 until end of turn.</CardText>
 <Flavor>"Any fool can pick up a sword and charge into battle. To emerge alive at the end, that is a gift that comes from leadership and experience."</Flavor>
 <Artist>Christopher Rush</Artist>
@@ -75,12 +75,12 @@
 <No>5</No>
 <Name>Loyal Sentry</Name>
 <Type>Creature — Human Soldier 1/1</Type>
-<ManaCost>W (1)</ManaCost>
+<ManaCost>{W}</ManaCost>
 <CardText>When Loyal Sentry blocks a creature, destroy that creature and Loyal Sentry.</CardText>
 <Flavor>"My cause is simple: To stop you, at any cost, from ever seeing the inside of this keep."</Flavor>
 <Artist>Michael Sutfin</Artist>
 <Multiverseid>222706</Multiverseid>
-<Rulings>2018/03/16: <Loyal Sentry> and the creature it blocks are destroyed before combat damage is dealt. The blocked creature is destroyed even if <Loyal Sentry> leaves the battlefield before its triggered ability resolves.</Rulings>
+<Rulings>2018/03/16: Loyal Sentry and the creature it blocks are destroyed before combat damage is dealt. The blocked creature is destroyed even if Loyal Sentry leaves the battlefield before its triggered ability resolves.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -93,7 +93,7 @@
 <No>6</No>
 <Name>Mosquito Guard</Name>
 <Type>Creature — Kithkin Soldier 1/1</Type>
-<ManaCost>W (1)</ManaCost>
+<ManaCost>{W}</ManaCost>
 <CardText>First strike
 Reinforce 1—{1}{W} ({1}{W}, Discard this card: Put a +1/+1 counter on target creature.)</CardText>
 <Flavor>His aim is as sure as a mosquito's sting, but with none of the warning.</Flavor>
@@ -111,7 +111,7 @@ Reinforce 1—{1}{W} ({1}{W}, Discard this card: Put a +1/+1 counter on target c
 <No>7</No>
 <Name>Glory Seeker</Name>
 <Type>Creature — Human Soldier 2/2</Type>
-<ManaCost>1W (2)</ManaCost>
+<ManaCost>{1}{W}</ManaCost>
 <Flavor>"There's no contract to sign, no oath to swear. The enlistment procedure is to unsheathe your sword and point it at the enemy."</Flavor>
 <Artist>Matt Cavotta</Artist>
 <Multiverseid>222736</Multiverseid>
@@ -127,14 +127,14 @@ Reinforce 1—{1}{W} ({1}{W}, Discard this card: Put a +1/+1 counter on target c
 <No>8</No>
 <Name>Kor Skyfisher</Name>
 <Type>Creature — Kor Soldier 2/3</Type>
-<ManaCost>1W (2)</ManaCost>
+<ManaCost>{1}{W}</ManaCost>
 <CardText>Flying
 When Kor Skyfisher enters the battlefield, return a permanent you control to its owner's hand.</CardText>
 <Flavor>"Sometimes I snare the unexpected, but I know its purpose will be revealed in time."</Flavor>
 <Artist>Dan Scott</Artist>
 <Multiverseid>222764</Multiverseid>
-<Rulings>2017/03/14: <Kor Skyfisher>'s triggered ability doesn't target a permanent. You choose which one to return to its owner's hand as the ability resolves. No one can respond to the choice.
-2017/03/14: If <Kor Skyfisher> is still on the battlefield as its triggered ability resolves, you may return <Kor Skyfisher> itself.</Rulings>
+<Rulings>2017/03/14: Kor Skyfisher's triggered ability doesn't target a permanent. You choose which one to return to its owner's hand as the ability resolves. No one can respond to the choice.
+2017/03/14: If Kor Skyfisher is still on the battlefield as its triggered ability resolves, you may return Kor Skyfisher itself.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -147,7 +147,7 @@ When Kor Skyfisher enters the battlefield, return a permanent you control to its
 <No>9</No>
 <Name>Temple Acolyte</Name>
 <Type>Creature — Human Cleric 1/3</Type>
-<ManaCost>1W (2)</ManaCost>
+<ManaCost>{1}{W}</ManaCost>
 <CardText>When Temple Acolyte enters the battlefield, you gain 3 life.</CardText>
 <Flavor>Young, yes. Inexperienced, yes. Weak? Don't count on it.</Flavor>
 <Artist>Lubov</Artist>
@@ -163,7 +163,7 @@ When Kor Skyfisher enters the battlefield, return a permanent you control to its
 <No>10</No>
 <Name>Kor Aeronaut</Name>
 <Type>Creature — Kor Soldier 2/2</Type>
-<ManaCost>WW (2)</ManaCost>
+<ManaCost>{W}{W}</ManaCost>
 <CardText>Kicker {1}{W} (You may pay an additional {1}{W} as you cast this spell.)
 Flying
 When Kor Aeronaut enters the battlefield, if it was kicked, target creature gains flying until end of turn.</CardText>
@@ -181,7 +181,7 @@ When Kor Aeronaut enters the battlefield, if it was kicked, target creature gain
 <No>11</No>
 <Name>Burrenton Bombardier</Name>
 <Type>Creature — Kithkin Soldier 2/2</Type>
-<ManaCost>2W (3)</ManaCost>
+<ManaCost>{2}{W}</ManaCost>
 <CardText>Flying
 Reinforce 2—{2}{W} ({2}{W}, Discard this card: Put two +1/+1 counters on target creature.)</CardText>
 <Flavor>The flasks provide ballast, a means of steering, and—with a little luck—a way to deliver ward-spells to cohorts below.</Flavor>
@@ -199,12 +199,12 @@ Reinforce 2—{2}{W} ({2}{W}, Discard this card: Put two +1/+1 counters on targe
 <No>12</No>
 <Name>Kor Hookmaster</Name>
 <Type>Creature — Kor Soldier 2/2</Type>
-<ManaCost>2W (3)</ManaCost>
+<ManaCost>{2}{W}</ManaCost>
 <CardText>When Kor Hookmaster enters the battlefield, tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.</CardText>
 <Flavor>"For us, a rope represents the ties that bind the kor. For you, it's more literal."</Flavor>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>222763</Multiverseid>
-<Rulings>2017/03/14: <Kor Hookmaster>'s ability can target a creature that's already tapped. It still won't untap during its controller's next untap step.</Rulings>
+<Rulings>2017/03/14: Kor Hookmaster's ability can target a creature that's already tapped. It still won't untap during its controller's next untap step.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -217,12 +217,13 @@ Reinforce 2—{2}{W} ({2}{W}, Discard this card: Put two +1/+1 counters on targe
 <No>13</No>
 <Name>Kemba's Skyguard</Name>
 <Type>Creature — Cat Knight 2/2</Type>
-<ManaCost>1WW (3)</ManaCost>
+<ManaCost>{1}{W}{W}</ManaCost>
 <CardText>Flying
 When Kemba's Skyguard enters the battlefield, you gain 2 life.</CardText>
 <Flavor>"We're now to dispense aid to any Mirran we see battling anything . . . 'strange.' Regent's orders."
 —Ranya, skyhunter captain</Flavor>
 <Artist>Whit Brachna</Artist>
+<Watermark>Mirran</Watermark>
 <Multiverseid>227150</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -236,19 +237,20 @@ When Kemba's Skyguard enters the battlefield, you gain 2 life.</CardText>
 <No>14</No>
 <Name>Celestial Crusader</Name>
 <Type>Creature — Spirit 2/2</Type>
-<ManaCost>2WW (4)</ManaCost>
-<CardText>Flash (You may cast this spell any time you could cast an instant.)
+<ManaCost>{2}{W}{W}</ManaCost>
+<CardText>Flash
 Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)
 Flying
 Other white creatures get +1/+1.</CardText>
 <Artist>Jim Murray</Artist>
 <Multiverseid>222748</Multiverseid>
-<Rulings>2013/06/07: Players still get priority while a card with split second is on the stack.
-2013/06/07: Split second doesn't prevent players from activating mana abilities.
-2013/06/07: Split second doesn't prevent triggered abilities from triggering. If one does, its controller puts it on the stack and chooses targets for it, if any. Those abilities will resolve as normal.
-2013/06/07: Split second doesn't prevent players from performing special actions. Notably, players may turn face-down creatures face up while a spell with split second is on the stack.
-2013/06/07: Casting a spell with split second won't affect spells and abilities that are already on the stack.
-2013/06/07: If the resolution of a triggered ability involves casting a spell, that spell can't be cast if a spell with split second is on the stack.</Rulings>
+<Rulings>2021/03/19: Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a white creature may become lethal if Celestial Crusader leaves the battlefield during that turn.
+2021/03/19: Players still get priority while a card with split second is on the stack; their options are just limited to mana abilities and certain special actions.
+2021/03/19: Players may turn face-down creatures face up while a spell with split second is on the stack.
+2021/03/19: Split second doesn't stop triggered abilities from triggering, such as that of Chalice of the Void. If one does, its controller puts it on the stack and chooses targets for it, if any. Those abilities will resolve as normal.
+2021/03/19: Casting a spell with split second won't affect spells and abilities that are already on the stack.
+2021/03/19: If the resolution of a triggered ability involves casting a spell, that spell can't be cast if a spell with split second is on the stack.
+2021/03/19: After a spell with split second resolves (or otherwise leaves the stack), players may again cast spells and activate abilities before the next object on the stack resolves.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -261,7 +263,7 @@ Other white creatures get +1/+1.</CardText>
 <No>15</No>
 <Name>Seasoned Marshal</Name>
 <Type>Creature — Human Soldier 2/2</Type>
-<ManaCost>2WW (4)</ManaCost>
+<ManaCost>{2}{W}{W}</ManaCost>
 <CardText>Whenever Seasoned Marshal attacks, you may tap target creature.</CardText>
 <Flavor>There are only two rules of tactics: never be without a plan, and never rely on it.</Flavor>
 <Artist>Matthew D. Wilson</Artist>
@@ -279,7 +281,7 @@ Other white creatures get +1/+1.</CardText>
 <No>16</No>
 <Name>Conclave Phalanx</Name>
 <Type>Creature — Human Soldier 2/4</Type>
-<ManaCost>4W (5)</ManaCost>
+<ManaCost>{4}{W}</ManaCost>
 <CardText>Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
 When Conclave Phalanx enters the battlefield, you gain 1 life for each creature you control.</CardText>
 <Artist>Wayne Reynolds</Artist>
@@ -303,19 +305,18 @@ When Conclave Phalanx enters the battlefield, you gain 1 life for each creature 
 <No>17</No>
 <Name>Stormfront Riders</Name>
 <Type>Creature — Human Soldier 4/3</Type>
-<ManaCost>4W (5)</ManaCost>
+<ManaCost>{4}{W}</ManaCost>
 <CardText>Flying
 When Stormfront Riders enters the battlefield, return two creatures you control to their owner's hand.
 Whenever Stormfront Riders or another creature is returned to your hand from the battlefield, create a 1/1 white Soldier creature token.</CardText>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>226716</Multiverseid>
-<Rulings>2007/02/01: If the first ability of <Stormfront Riders> causes you to return two creatures to your hand, its second ability will trigger twice, even if <Stormfront Riders> is one of the returned creatures.
-2007/02/01: If you are instructed to return more creatures than you control, you must return all the creatures you control to their owner's hand.
-2007/02/01: The second ability of <Stormfront Riders> triggers when a creature token you own is returned to your hand.
-2007/02/01: If <Stormfront Riders> and multiple creatures are returned to your hand at the same time, such as with Evacuation or Upheaval, then <Stormfront Riders> will trigger once for each creature returned, including itself.
-2009/10/01: A token's owner is the player under whose control it entered the battlefield.
-2016/06/08: You may return this creature itself to its owner's hand as its triggered ability resolves. If you don't control enough other creatures, you must return it.
-2016/06/08: The ability doesn't target any creature. You don't choose what to return until the ability resolves. Once the ability has started to resolve, no one can respond to the choice.</Rulings>
+<Rulings>2009/10/01: A token's owner is the player who created it.
+2021/03/19: You may return Stormfront Riders itself to its owner's hand as its triggered ability resolves. If you don't control two other creatures, you must return it.
+2021/03/19: If you control only one creature as the triggered ability resolves, you return it to its owner's hand.
+2021/03/19: The ability of Stormfront Riders doesn't target any creatures. Because of this, no player may take action between the time you choose the creature to return and the time you return it.
+2021/03/19: A token you own that's returned to your hand moves to your hand before it ceases to exist. This will cause the last ability of Stormfront Riders to trigger.
+2021/03/19: If Stormfront Riders and another creature are returned to your hand at the same time, its last ability triggers for each of them.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -328,7 +329,7 @@ Whenever Stormfront Riders or another creature is returned to your hand from the
 <No>18</No>
 <Name>Catapult Master</Name>
 <Type>Creature — Human Soldier 3/3</Type>
-<ManaCost>3WW (5)</ManaCost>
+<ManaCost>{3}{W}{W}</ManaCost>
 <CardText>Tap five untapped Soldiers you control: Exile target creature.</CardText>
 <Flavor>"There's no 'I' in 'team,' but there's a 'we' in 'weapon.'"</Flavor>
 <Artist>Terese Nielsen</Artist>
@@ -346,7 +347,7 @@ Whenever Stormfront Riders or another creature is returned to your hand from the
 <No>19</No>
 <Name>Conclave Equenaut</Name>
 <Type>Creature — Human Soldier 3/3</Type>
-<ManaCost>4WW (6)</ManaCost>
+<ManaCost>{4}{W}{W}</ManaCost>
 <CardText>Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
 Flying</CardText>
 <Flavor>Equenauts are the seeds of the Conclave, scattered on the four winds, searching for new places to take root.</Flavor>
@@ -371,20 +372,19 @@ Flying</CardText>
 <No>20</No>
 <Name>Angel of Salvation</Name>
 <Type>Creature — Angel 5/5</Type>
-<ManaCost>6WW (8)</ManaCost>
+<ManaCost>{6}{W}{W}</ManaCost>
 <CardText>Flash; convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
 Flying
 When Angel of Salvation enters the battlefield, prevent the next 5 damage that would be dealt this turn to any number of targets, divided as you choose.</CardText>
 <Artist>D. Alexander Gregory</Artist>
 <Multiverseid>222774</Multiverseid>
-<Rulings>2007/05/01: You choose how the damage prevention shields will be divided when you put the triggered ability on the stack.
-2014/07/18: If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped when you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
-2014/07/18: The rules for convoke have changed slightly since it last appeared in an expansion. Previously, convoke reduced the cost to cast a spell. Under current rules, you tap creatures at the same time you pay the spell's costs. Tapping a creature this way is simply another way to pay.
-2014/07/18: Convoke doesn't change a spell's mana cost or converted mana cost.
-2014/07/18: When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated.
-2014/07/18: Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
-2014/07/18: Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
-2014/07/18: When using convoke to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap creatures you control to help pay that cost. For example, if you cast Chord of Calling (a spell with convoke and mana cost {X}{G}{G}{G}) and choose X to be 3, the total cost is {3}{G}{G}{G}. If you tap two green creatures and two red creatures, you'll have to pay {1}{G}.</Rulings>
+<Rulings>2021/03/19: You divide the prevention effects as Angel of Salvation's triggered ability is put onto the stack, not as it resolves. Each target must be assigned at least 1 prevention "shield." You can't choose more than five targets and assign none to a target.
+2021/03/19: If some of the targets become illegal for Angel of Salvation's ability, the original division of prevention effects still applies, but the effects that would have been created for illegal targets aren't created at all.
+2021/03/19: If multiple sources would deal damage to an affected target at once, that target or that target's controller chooses which source's damage to prevent for each "shield."
+2021/03/19: If multiple replacement effects apply to a player or permanent being dealt damage, that player or the controller of that permanent chooses the order to apply them, not the controller of the source of damage.
+2021/03/19: You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+2021/03/19: When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+2021/03/19: If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -397,13 +397,12 @@ When Angel of Salvation enters the battlefield, prevent the next 5 damage that w
 <No>21</No>
 <Name>Sunlance</Name>
 <Type>Sorcery</Type>
-<ManaCost>W (1)</ManaCost>
+<ManaCost>{W}</ManaCost>
 <CardText>Sunlance deals 3 damage to target nonwhite creature.</CardText>
 <Flavor>"It's easy for the innocent to speak of justice. They seldom feel its terrible power."
 —Orim, Samite inquisitor</Flavor>
 <Artist>Volkan Baǵa</Artist>
 <Multiverseid>222776</Multiverseid>
-<Rulings>2007/02/01: This is the timeshifted version of Strafe.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -416,7 +415,7 @@ When Angel of Salvation enters the battlefield, prevent the next 5 damage that w
 <No>22</No>
 <Name>Swords to Plowshares</Name>
 <Type>Instant</Type>
-<ManaCost>W (1)</ManaCost>
+<ManaCost>{W}</ManaCost>
 <CardText>Exile target creature. Its controller gains life equal to its power.</CardText>
 <Flavor>The smallest seed of regret can bloom into redemption.</Flavor>
 <Artist>Terese Nielsen</Artist>
@@ -434,12 +433,12 @@ When Angel of Salvation enters the battlefield, prevent the next 5 damage that w
 <No>23</No>
 <Name>Journey to Nowhere</Name>
 <Type>Enchantment</Type>
-<ManaCost>1W (2)</ManaCost>
+<ManaCost>{1}{W}</ManaCost>
 <CardText>When Journey to Nowhere enters the battlefield, exile target creature.
 When Journey to Nowhere leaves the battlefield, return the exiled card to the battlefield under its owner's control.</CardText>
 <Artist>Warren Mahy</Artist>
 <Multiverseid>222761</Multiverseid>
-<Rulings>2009/10/01: If <Journey to Nowhere> leaves the battlefield before its first ability has resolved, its second ability will trigger and do nothing. Then its first ability will resolve and exile the targeted creature forever.</Rulings>
+<Rulings>2009/10/01: If Journey to Nowhere leaves the battlefield before its first ability has resolved, its second ability will trigger and do nothing. Then its first ability will resolve and exile the targeted creature forever.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -452,13 +451,13 @@ When Journey to Nowhere leaves the battlefield, return the exiled card to the ba
 <No>24</No>
 <Name>Mighty Leap</Name>
 <Type>Instant</Type>
-<ManaCost>1W (2)</ManaCost>
+<ManaCost>{1}{W}</ManaCost>
 <CardText>Target creature gets +2/+2 and gains flying until end of turn.</CardText>
 <Flavor>"The southern fortress taken by invaders? Heh, sure . . . when elephants fly."
 —Brezard Skeinbow, captain of the guard</Flavor>
 <Artist>rk post</Artist>
 <Multiverseid>226713</Multiverseid>
-<Rulings>2018/07/13: Giving a creature flying after it's already been blocked won't change or undo that block. If you want to affect what can block the creature, you must cast <Mighty Leap> during the declare attackers step at the latest.</Rulings>
+<Rulings>2018/07/13: Giving a creature flying after it's already been blocked won't change or undo that block. If you want to affect what can block the creature, you must cast Mighty Leap during the declare attackers step at the latest.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -471,7 +470,7 @@ When Journey to Nowhere leaves the battlefield, return the exiled card to the ba
 <No>25</No>
 <Name>Raise the Alarm</Name>
 <Type>Instant</Type>
-<ManaCost>1W (2)</ManaCost>
+<ManaCost>{1}{W}</ManaCost>
 <CardText>Create two 1/1 white Soldier creature tokens.</CardText>
 <Flavor>"The nim raid our homes without warning. We must defend our homes without hesitation."</Flavor>
 <Artist>John Matson</Artist>
@@ -488,7 +487,7 @@ When Journey to Nowhere leaves the battlefield, return the exiled card to the ba
 <No>26</No>
 <Name>Razor Barrier</Name>
 <Type>Instant</Type>
-<ManaCost>1W (2)</ManaCost>
+<ManaCost>{1}{W}</ManaCost>
 <CardText>Target permanent you control gains protection from artifacts or from the color of your choice until end of turn.</CardText>
 <Flavor>"We protect our homelands. Why should they not protect us?"</Flavor>
 <Artist>Ron Spencer</Artist>
@@ -505,14 +504,14 @@ When Journey to Nowhere leaves the battlefield, return the exiled card to the ba
 <No>27</No>
 <Name>Crusade</Name>
 <Type>Enchantment</Type>
-<ManaCost>WW (2)</ManaCost>
+<ManaCost>{W}{W}</ManaCost>
 <CardText>White creatures get +1/+1.</CardText>
 <Flavor>"Finally, I understand. Home isn't where you rest. It's what you fight for."
 —Elspeth Tirel</Flavor>
 <Artist>Howard Lyon</Artist>
 <Multiverseid>218582</Multiverseid>
-<Vintage>Legal</Vintage>
-<Legacy>Legal</Legacy>
+<Vintage>Banned</Vintage>
+<Legacy>Banned</Legacy>
 <Set>Duel Decks: Elspeth vs. Tezzeret</Set>
 <Rarity>Rare</Rarity>
 </Card>
@@ -522,14 +521,14 @@ When Journey to Nowhere leaves the battlefield, return the exiled card to the ba
 <No>28</No>
 <Name>Blinding Beam</Name>
 <Type>Instant</Type>
-<ManaCost>2W (3)</ManaCost>
+<ManaCost>{2}{W}</ManaCost>
 <CardText>Choose one —
 • Tap two target creatures.
 • Creatures don't untap during target player's next untap step.
 Entwine {1} (Choose both if you pay the entwine cost.)</CardText>
 <Artist>Doug Chaffee</Artist>
 <Multiverseid>222721</Multiverseid>
-<Rulings>2013/06/07: The second mode affects all creatures during the player's next untap step, including creatures controlled by other players (who may have untapped because of Seedborn Muse, for example) and creatures that weren't on the battlefield when <Blinding Beam> resolved.</Rulings>
+<Rulings>2013/06/07: The second mode affects all creatures during the player's next untap step, including creatures controlled by other players (who may have untapped because of Seedborn Muse, for example) and creatures that weren't on the battlefield when Blinding Beam resolved.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -542,7 +541,7 @@ Entwine {1} (Choose both if you pay the entwine cost.)</CardText>
 <No>29</No>
 <Name>Abolish</Name>
 <Type>Instant</Type>
-<ManaCost>1WW (3)</ManaCost>
+<ManaCost>{1}{W}{W}</ManaCost>
 <CardText>You may discard a Plains card rather than pay this spell's mana cost.
 Destroy target artifact or enchantment.</CardText>
 <Flavor>As war raged on, the young mages became more direct in their tactics, often at great cost.</Flavor>
@@ -559,7 +558,7 @@ Destroy target artifact or enchantment.</CardText>
 <No>30</No>
 <Name>Saltblast</Name>
 <Type>Sorcery</Type>
-<ManaCost>3WW (5)</ManaCost>
+<ManaCost>{3}{W}{W}</ManaCost>
 <CardText>Destroy target nonwhite permanent.</CardText>
 <Flavor>Dominaria erodes with each passing gust.</Flavor>
 <Artist>Paolo Parente</Artist>
@@ -576,7 +575,7 @@ Destroy target artifact or enchantment.</CardText>
 <No>31</No>
 <Name>Swell of Courage</Name>
 <Type>Instant</Type>
-<ManaCost>3WW (5)</ManaCost>
+<ManaCost>{3}{W}{W}</ManaCost>
 <CardText>Creatures you control get +2/+2 until end of turn.
 Reinforce X—{X}{W}{W} ({X}{W}{W}, Discard this card: Put X +1/+1 counters on target creature.)</CardText>
 <Flavor>"Tideshaping is more than creating a few new puddles."</Flavor>
@@ -650,7 +649,7 @@ Reinforce 1—{1}{W} ({1}{W}, Discard this card: Put a +1/+1 counter on target c
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Elspeth vs. Tezzeret</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -665,7 +664,7 @@ Reinforce 1—{1}{W} ({1}{W}, Discard this card: Put a +1/+1 counter on target c
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Elspeth vs. Tezzeret</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -680,7 +679,7 @@ Reinforce 1—{1}{W} ({1}{W}, Discard this card: Put a +1/+1 counter on target c
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Elspeth vs. Tezzeret</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -695,7 +694,7 @@ Reinforce 1—{1}{W} ({1}{W}, Discard this card: Put a +1/+1 counter on target c
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Elspeth vs. Tezzeret</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -703,10 +702,10 @@ Reinforce 1—{1}{W} ({1}{W}, Discard this card: Put a +1/+1 counter on target c
 <No>39</No>
 <Name>Tezzeret the Seeker</Name>
 <Type>Legendary Planeswalker — Tezzeret (Loyalty: 4)</Type>
-<ManaCost>3UU (5)</ManaCost>
-<CardText>+1: Untap up to two target artifacts.
--X: Search your library for an artifact card with converted mana cost X or less and put it onto the battlefield. Then shuffle your library.
--5: Artifacts you control become artifact creatures with base power and toughness 5/5 until end of turn.</CardText>
+<ManaCost>{3}{U}{U}</ManaCost>
+<CardText>[+1]: Untap up to two target artifacts.
+[-X]: Search your library for an artifact card with mana value X or less, put it onto the battlefield, then shuffle.
+[-5]: Artifacts you control become artifact creatures with base power and toughness 5/5 until end of turn.</CardText>
 <Artist>Igor Kieryluk</Artist>
 <Multiverseid>217826</Multiverseid>
 <Rulings>2008/10/01: The first ability can target zero, one, or two artifacts. You may activate it with no targets just to put a loyalty counter on Tezzeret.
@@ -727,7 +726,7 @@ Reinforce 1—{1}{W} ({1}{W}, Discard this card: Put a +1/+1 counter on target c
 <No>40</No>
 <Name>Arcbound Worker</Name>
 <Type>Artifact Creature — Construct 0/0</Type>
-<ManaCost>1 (1)</ManaCost>
+<ManaCost>{1}</ManaCost>
 <CardText>Modular 1 (This creature enters the battlefield with a +1/+1 counter on it. When it dies, you may put its +1/+1 counters on target artifact creature.)</CardText>
 <Flavor>The parts are as strong as the whole.</Flavor>
 <Artist>Darrell Riche</Artist>
@@ -745,9 +744,9 @@ Reinforce 1—{1}{W} ({1}{W}, Discard this card: Put a +1/+1 counter on target c
 <No>41</No>
 <Name>Steel Wall</Name>
 <Type>Artifact Creature — Wall 0/4</Type>
-<ManaCost>1 (1)</ManaCost>
+<ManaCost>{1}</ManaCost>
 <CardText>Defender (This creature can't attack.)</CardText>
-<Flavor>"We sculpt the land into what we need—homes, armament, fortresses of war. Our strength comes not only from knowing, but from commanding the terrain."
+<Flavor>"We sculpt the land into what we need—homes, armament, fortresses of war. Our strength comes not only from knowing, but from *commanding* the terrain."
 —Raksha Golden Cub, leonin kha</Flavor>
 <Artist>David Day</Artist>
 <Multiverseid>222731</Multiverseid>
@@ -763,7 +762,7 @@ Reinforce 1—{1}{W} ({1}{W}, Discard this card: Put a +1/+1 counter on target c
 <No>42</No>
 <Name>Runed Servitor</Name>
 <Type>Artifact Creature — Construct 2/2</Type>
-<ManaCost>2 (2)</ManaCost>
+<ManaCost>{2}</ManaCost>
 <CardText>When Runed Servitor dies, each player draws a card.</CardText>
 <Flavor>Scholars had puzzled for centuries over the ruins at Tal Terig. Its secrets had always lived within one rune-carved head.</Flavor>
 <Artist>Mike Bierek</Artist>
@@ -780,7 +779,7 @@ Reinforce 1—{1}{W} ({1}{W}, Discard this card: Put a +1/+1 counter on target c
 <No>43</No>
 <Name>Silver Myr</Name>
 <Type>Artifact Creature — Myr 1/1</Type>
-<ManaCost>2 (2)</ManaCost>
+<ManaCost>{2}</ManaCost>
 <CardText>{T}: Add {U}.</CardText>
 <Flavor>The vedalken saw the myr as toys, unaware of the intelligence lurking behind their empty eyes.</Flavor>
 <Artist>Kev Walker</Artist>
@@ -797,13 +796,13 @@ Reinforce 1—{1}{W} ({1}{W}, Discard this card: Put a +1/+1 counter on target c
 <No>44</No>
 <Name>Steel Overseer</Name>
 <Type>Artifact Creature — Construct 1/1</Type>
-<ManaCost>2 (2)</ManaCost>
+<ManaCost>{2}</ManaCost>
 <CardText>{T}: Put a +1/+1 counter on each artifact creature you control.</CardText>
 <Flavor>"The world is already run by all manner of machines. One day, they'll remind us of that fact."
 —Sargis Haz, artificer</Flavor>
 <Artist>Chris Rahn</Artist>
 <Multiverseid>222714</Multiverseid>
-<Rulings>2019/07/12: <Steel Overseer>'s ability puts a +1/+1 counter on each artifact creature you control, including <Steel Overseer>.</Rulings>
+<Rulings>2019/07/12: Steel Overseer's ability puts a +1/+1 counter on each artifact creature you control, including Steel Overseer.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -816,12 +815,12 @@ Reinforce 1—{1}{W} ({1}{W}, Discard this card: Put a +1/+1 counter on target c
 <No>45</No>
 <Name>Assembly-Worker</Name>
 <Type>Artifact Creature — Assembly-Worker 2/2</Type>
-<ManaCost>3 (3)</ManaCost>
+<ManaCost>{3}</ManaCost>
 <CardText>{T}: Target Assembly-Worker creature gets +1/+1 until end of turn.</CardText>
 <Flavor>With their factories long destroyed, some of Mishra's creations still toil in remote areas, endlessly performing and reperforming their last orders.</Flavor>
 <Artist>Chippy</Artist>
 <Multiverseid>226984</Multiverseid>
-<Rulings>2018/03/16: <Assembly-Worker>'s ability can target any creature with the <Assembly-Worker> subtype, not only creatures named <Assembly-Worker>.</Rulings>
+<Rulings>2018/03/16: Assembly-Worker's ability can target any creature with the Assembly-Worker subtype, not only creatures named Assembly-Worker.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -834,13 +833,13 @@ Reinforce 1—{1}{W} ({1}{W}, Discard this card: Put a +1/+1 counter on target c
 <No>46</No>
 <Name>Serrated Biskelion</Name>
 <Type>Artifact Creature — Construct 2/2</Type>
-<ManaCost>3 (3)</ManaCost>
+<ManaCost>{3}</ManaCost>
 <CardText>{T}: Put a -1/-1 counter on Serrated Biskelion and a -1/-1 counter on target creature.</CardText>
 <Flavor>"Whereas I was created to protect, the biskelion was created to destroy."
 —Karn, silver golem</Flavor>
 <Artist>Ron Spencer</Artist>
 <Multiverseid>222743</Multiverseid>
-<Rulings>2008/04/01: If <Serrated Biskelion> leaves the battlefield before its ability resolves, you'll still put a -1/-1 counter on the targeted creature. If the target leaves the battlefield or otherwise becomes an illegal target before the ability resolves, the ability doesn't resolve and you won't put a -1/-1 counter on <Serrated Biskelion>.</Rulings>
+<Rulings>2008/04/01: If Serrated Biskelion leaves the battlefield before its ability resolves, you'll still put a -1/-1 counter on the targeted creature. If the target leaves the battlefield or otherwise becomes an illegal target before the ability resolves, the ability doesn't resolve and you won't put a -1/-1 counter on Serrated Biskelion.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Duel Decks: Elspeth vs. Tezzeret</Set>
@@ -852,13 +851,13 @@ Reinforce 1—{1}{W} ({1}{W}, Discard this card: Put a +1/+1 counter on target c
 <No>47</No>
 <Name>Esperzoa</Name>
 <Type>Artifact Creature — Jellyfish 4/3</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>Flying
 At the beginning of your upkeep, return an artifact you control to its owner's hand.</CardText>
 <Flavor>The more metal it digests, the more its jelly will fetch on the alchemists' market.</Flavor>
 <Artist>Warren Mahy</Artist>
 <Multiverseid>226715</Multiverseid>
-<Rulings>2009/02/01: When <Esperzoa>'s ability resolves, if you control no other artifacts, you'll have to return <Esperzoa> itself.</Rulings>
+<Rulings>2009/02/01: When Esperzoa's ability resolves, if you control no other artifacts, you'll have to return Esperzoa itself.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -871,7 +870,7 @@ At the beginning of your upkeep, return an artifact you control to its owner's h
 <No>48</No>
 <Name>Master of Etherium</Name>
 <Type>Artifact Creature — Vedalken Wizard */*</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>Master of Etherium's power and toughness are each equal to the number of artifacts you control.
 Other artifact creatures you control get +1/+1.</CardText>
 <Flavor>"Only a mind unfettered with the concerns of the flesh can see the world as it truly is."</Flavor>
@@ -879,7 +878,7 @@ Other artifact creatures you control get +1/+1.</CardText>
 <Multiverseid>222744</Multiverseid>
 <Rulings>2008/10/01: The only difference between a colored artifact and a colorless artifact is, obviously, its color. Unlike most artifacts, a colored artifact requires colored mana to cast. Also unlike most artifacts, a colored artifact has a color in all zones. It will interact with cards that care about color. Other than that, a colored artifact behaves just like any other artifact. It will interact as normal with any card that cares about artifacts, such as Shatter or Arcbound Ravager.
 2008/10/01: The first ability works in all zones.
-2008/10/01: Since <Master of Etherium> is an artifact itself, while it's on the battlefield you will usually control at least one artifact.</Rulings>
+2008/10/01: Since Master of Etherium is an artifact itself, while it's on the battlefield you will usually control at least one artifact.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -892,11 +891,11 @@ Other artifact creatures you control get +1/+1.</CardText>
 <No>49</No>
 <Name>Trinket Mage</Name>
 <Type>Creature — Human Wizard 2/2</Type>
-<ManaCost>2U (3)</ManaCost>
-<CardText>When Trinket Mage enters the battlefield, you may search your library for an artifact card with converted mana cost 1 or less, reveal that card, and put it into your hand. If you do, shuffle your library.</CardText>
+<ManaCost>{2}{U}</ManaCost>
+<CardText>When Trinket Mage enters the battlefield, you may search your library for an artifact card with mana value 1 or less, reveal that card, put it into your hand, then shuffle.</CardText>
 <Artist>Mark A. Nelson</Artist>
 <Multiverseid>222746</Multiverseid>
-<Rulings>2011/01/01: If the mana cost of a card in your library includes {X}, X is considered to be 0.</Rulings>
+<Rulings>2021/03/19: If a card in a player's library has {X} in its mana cost, X is considered to be 0.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -909,7 +908,7 @@ Other artifact creatures you control get +1/+1.</CardText>
 <No>50</No>
 <Name>Clockwork Condor</Name>
 <Type>Artifact Creature — Bird 0/0</Type>
-<ManaCost>4 (4)</ManaCost>
+<ManaCost>{4}</ManaCost>
 <CardText>Flying
 Clockwork Condor enters the battlefield with three +1/+1 counters on it.
 Whenever Clockwork Condor attacks or blocks, remove a +1/+1 counter from it at end of combat.</CardText>
@@ -927,7 +926,7 @@ Whenever Clockwork Condor attacks or blocks, remove a +1/+1 counter from it at e
 <No>51</No>
 <Name>Frogmite</Name>
 <Type>Artifact Creature — Frog 2/2</Type>
-<ManaCost>4 (4)</ManaCost>
+<ManaCost>{4}</ManaCost>
 <CardText>Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)</CardText>
 <Flavor>At first, vedalken observers thought blinkmoths naturally avoided certain places. Then they realized those places were frogmite feeding grounds.</Flavor>
 <Artist>Terese Nielsen</Artist>
@@ -944,13 +943,13 @@ Whenever Clockwork Condor attacks or blocks, remove a +1/+1 counter from it at e
 <No>52</No>
 <Name>Juggernaut</Name>
 <Type>Artifact Creature — Juggernaut 5/3</Type>
-<ManaCost>4 (4)</ManaCost>
+<ManaCost>{4}</ManaCost>
 <CardText>Juggernaut attacks each combat if able.
 Juggernaut can't be blocked by Walls.</CardText>
 <Flavor>The mighty city of An Karras, with its rich history, built over thousands of years, fell in three hours.</Flavor>
 <Artist>Mark Hyzer</Artist>
 <Multiverseid>222713</Multiverseid>
-<Rulings>2018/04/27: If <Juggernaut> can't attack for any reason (such as being tapped or having come under that player's control that turn), then it doesn't attack. If there's a cost associated with having it attack, its controller isn't forced to pay that cost, so it doesn't have to attack in that case either.</Rulings>
+<Rulings>2018/04/27: If Juggernaut can't attack for any reason (such as being tapped or having come under that player's control that turn), then it doesn't attack. If there's a cost associated with having it attack, its controller isn't forced to pay that cost, so it doesn't have to attack in that case either.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -963,7 +962,7 @@ Juggernaut can't be blocked by Walls.</CardText>
 <No>53</No>
 <Name>Synod Centurion</Name>
 <Type>Artifact Creature — Construct 4/4</Type>
-<ManaCost>4 (4)</ManaCost>
+<ManaCost>{4}</ManaCost>
 <CardText>When you control no other artifacts, sacrifice Synod Centurion.</CardText>
 <Flavor>"We order them to stand, they stand. We order them to wait, they wait. We order them to die, they die."
 —Pontifex, elder researcher</Flavor>
@@ -981,7 +980,7 @@ Juggernaut can't be blocked by Walls.</CardText>
 <No>54</No>
 <Name>Faerie Mechanist</Name>
 <Type>Artifact Creature — Faerie Artificer 2/2</Type>
-<ManaCost>3U (4)</ManaCost>
+<ManaCost>{3}{U}</ManaCost>
 <CardText>Flying
 When Faerie Mechanist enters the battlefield, look at the top three cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in any order.</CardText>
 <Artist>Matt Cavotta</Artist>
@@ -998,12 +997,14 @@ When Faerie Mechanist enters the battlefield, look at the top three cards of you
 <No>55</No>
 <Name>Clockwork Hydra</Name>
 <Type>Artifact Creature — Hydra 0/0</Type>
-<ManaCost>5 (5)</ManaCost>
+<ManaCost>{5}</ManaCost>
 <CardText>Clockwork Hydra enters the battlefield with four +1/+1 counters on it.
 Whenever Clockwork Hydra attacks or blocks, remove a +1/+1 counter from it. If you do, Clockwork Hydra deals 1 damage to any target.
 {T}: Put a +1/+1 counter on Clockwork Hydra.</CardText>
 <Artist>Daren Bader</Artist>
 <Multiverseid>222749</Multiverseid>
+<Rulings>2021/03/19: If Clockwork Hydra leaves the battlefield while its trigger is on the stack, you can't remove a +1/+1 counter from it, so it won't deal damage.
+2021/03/19: If the chosen target is an illegal target by the time Clockwork Hydra's triggered ability tries to resolve, the ability doesn't resolve. You don't remove a counter from Clockwork Hydra.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1016,7 +1017,7 @@ Whenever Clockwork Hydra attacks or blocks, remove a +1/+1 counter from it. If y
 <No>56</No>
 <Name>Razormane Masticore</Name>
 <Type>Artifact Creature — Masticore 5/5</Type>
-<ManaCost>5 (5)</ManaCost>
+<ManaCost>{5}</ManaCost>
 <CardText>First strike (This creature deals combat damage before creatures without first strike.)
 At the beginning of your upkeep, sacrifice Razormane Masticore unless you discard a card.
 At the beginning of your draw step, you may have Razormane Masticore deal 3 damage to target creature.</CardText>
@@ -1034,15 +1035,15 @@ At the beginning of your draw step, you may have Razormane Masticore deal 3 dama
 <No>57</No>
 <Name>Triskelion</Name>
 <Type>Artifact Creature — Construct 1/1</Type>
-<ManaCost>6 (6)</ManaCost>
+<ManaCost>{6}</ManaCost>
 <CardText>Triskelion enters the battlefield with three +1/+1 counters on it.
 Remove a +1/+1 counter from Triskelion: It deals 1 damage to any target.</CardText>
 <Flavor>"Why do bad things always come in threes?"
 —Gisulf, expedition survivor</Flavor>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>222715</Multiverseid>
-<Rulings>2010/08/15: If you activate the ability of an attacking or blocking <Triskelion> during the declare blockers step, it will deal less combat damage as a result. If you wait until the combat damage step, but <Triskelion> is dealt lethal damage, it'll be destroyed before you get a chance to activate its ability.
-2010/08/15: If <Triskelion> has damage marked on it, activating its ability may cause that damage to become lethal. For example, say a <Triskelion> with two +1/+1 counters on it has been dealt 2 damage earlier in the turn. If you activate its ability by removing a +1/+1 counter from it, it now has 2 toughness and is destroyed as a state-based action. You won't be able to remove the other +1/+1 counter from it to activate its ability again. The first activation of the ability will still resolve.</Rulings>
+<Rulings>2010/08/15: If you activate the ability of an attacking or blocking Triskelion during the declare blockers step, it will deal less combat damage as a result. If you wait until the combat damage step, but Triskelion is dealt lethal damage, it'll be destroyed before you get a chance to activate its ability.
+2010/08/15: If Triskelion has damage marked on it, activating its ability may cause that damage to become lethal. For example, say a Triskelion with two +1/+1 counters on it has been dealt 2 damage earlier in the turn. If you activate its ability by removing a +1/+1 counter from it, it now has 2 toughness and is destroyed as a state-based action. You won't be able to remove the other +1/+1 counter from it to activate its ability again. The first activation of the ability will still resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1055,14 +1056,14 @@ Remove a +1/+1 counter from Triskelion: It deals 1 damage to any target.</CardTe
 <No>58</No>
 <Name>Pentavus</Name>
 <Type>Artifact Creature — Construct 0/0</Type>
-<ManaCost>7 (7)</ManaCost>
+<ManaCost>{7}</ManaCost>
 <CardText>Pentavus enters the battlefield with five +1/+1 counters on it.
 {1}, Remove a +1/+1 counter from Pentavus: Create a 1/1 colorless Pentavite artifact creature token with flying.
 {1}, Sacrifice a Pentavite: Put a +1/+1 counter on Pentavus.</CardText>
 <Artist>Greg Staples</Artist>
 <Multiverseid>227151</Multiverseid>
-<Rulings>2011/09/22: You can remove any +1/+1 counter on <Pentavus> to activate its first activated ability, not just ones created by <Pentavus>'s other abilities.
-2011/09/22: You can sacrifice any Pentavite creature you control (such as an Adaptive Automaton with Pentavite as its chosen type) to activate <Pentavus>'s second activated ability, not just ones created by <Pentavus>'s other abilities.</Rulings>
+<Rulings>2011/09/22: You can remove any +1/+1 counter on Pentavus to activate its first activated ability, not just ones created by Pentavus's other abilities.
+2011/09/22: You can sacrifice any Pentavite creature you control (such as an Adaptive Automaton with Pentavite as its chosen type) to activate Pentavus's second activated ability, not just ones created by Pentavus's other abilities.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1075,7 +1076,7 @@ Remove a +1/+1 counter from Triskelion: It deals 1 damage to any target.</CardTe
 <No>59</No>
 <Name>Qumulox</Name>
 <Type>Creature — Beast 5/4</Type>
-<ManaCost>6UU (8)</ManaCost>
+<ManaCost>{6}{U}{U}</ManaCost>
 <CardText>Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)
 Flying</CardText>
 <Flavor>Even the clouds bend themselves to Memnarch's will, eager to swallow those who oppose him.</Flavor>
@@ -1093,13 +1094,13 @@ Flying</CardText>
 <No>60</No>
 <Name>Everflowing Chalice</Name>
 <Type>Artifact</Type>
-<ManaCost>0 (0)</ManaCost>
-<CardText>Multikicker {2} (You may pay an additional {2} any number of times as you cast this spell.)
+<ManaCost>{0}</ManaCost>
+<CardText>Multikicker {2}
 Everflowing Chalice enters the battlefield with a charge counter on it for each time it was kicked.
 {T}: Add {C} for each charge counter on Everflowing Chalice.</CardText>
 <Artist>Steve Argyle</Artist>
 <Multiverseid>222750</Multiverseid>
-<Rulings>2010/03/01: If <Everflowing Chalice> has no charge counters on it, you can still activate its last ability. That ability is still a mana ability, even though it produces no mana as it resolves.</Rulings>
+<Rulings>2021/03/19: You can cast Everflowing Chalice without kicking it at all if you wish. However, if Everflowing Chalice has no charge counters on it, activating its last ability won't produce any mana.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1112,7 +1113,7 @@ Everflowing Chalice enters the battlefield with a charge counter on it for each 
 <No>61</No>
 <Name>Aether Spellbomb</Name>
 <Type>Artifact</Type>
-<ManaCost>1 (1)</ManaCost>
+<ManaCost>{1}</ManaCost>
 <CardText>{U}, Sacrifice Aether Spellbomb: Return target creature to its owner's hand.
 {1}, Sacrifice Aether Spellbomb: Draw a card.</CardText>
 <Flavor>"Release that which was never caged."
@@ -1131,16 +1132,16 @@ Everflowing Chalice enters the battlefield with a charge counter on it for each 
 <No>62</No>
 <Name>Elixir of Immortality</Name>
 <Type>Artifact</Type>
-<ManaCost>1 (1)</ManaCost>
+<ManaCost>{1}</ManaCost>
 <CardText>{2}, {T}: You gain 5 life. Shuffle Elixir of Immortality and your graveyard into their owner's library.</CardText>
 <Flavor>"Bottled life. Not as tasty as I'm used to, rather stale, but it has the same effect."
 —Baron Sengir</Flavor>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Multiverseid>222711</Multiverseid>
-<Rulings>2010/08/15: Paying the activation cost of <Elixir of Immortality>'s ability doesn't cause it to leave the battlefield. If you have a way to untap it, you can activate the ability multiple times in response to itself.
-2011/09/22: As the ability resolves, you'll shuffle <Elixir of Immortality> into its owner's library directly from the battlefield, if it's still there.
-2011/09/22: If <Elixir of Immortality> is in your graveyard at the time the ability resolves, you'll still wind up shuffling it into your library because you shuffle your entire graveyard into your library. If it's anywhere else by that time, including in another player's graveyard, it remains where it is and you shuffle just your graveyard into your library.
-2011/09/22: If you gain control of another player's <Elixir of Immortality> and activate it, the <Elixir of Immortality> will be shuffled into its owner's library and the cards in your graveyard will be shuffled into your library. You are considered to have shuffled each affected library (even if, as a shortcut, each player physically shuffles their own library).</Rulings>
+<Rulings>2010/08/15: Paying the activation cost of Elixir of Immortality's ability doesn't cause it to leave the battlefield. If you have a way to untap it, you can activate the ability multiple times in response to itself.
+2011/09/22: As the ability resolves, you'll shuffle Elixir of Immortality into its owner's library directly from the battlefield, if it's still there.
+2011/09/22: If Elixir of Immortality is in your graveyard at the time the ability resolves, you'll still wind up shuffling it into your library because you shuffle your entire graveyard into your library. If it's anywhere else by that time, including in another player's graveyard, it remains where it is and you shuffle just your graveyard into your library.
+2011/09/22: If you gain control of another player's Elixir of Immortality and activate it, the Elixir of Immortality will be shuffled into its owner's library and the cards in your graveyard will be shuffled into your library. You are considered to have shuffled each affected library (even if, as a shortcut, each player physically shuffles their own library).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1153,17 +1154,17 @@ Everflowing Chalice enters the battlefield with a charge counter on it for each 
 <No>63</No>
 <Name>Contagion Clasp</Name>
 <Type>Artifact</Type>
-<ManaCost>2 (2)</ManaCost>
+<ManaCost>{2}</ManaCost>
 <CardText>When Contagion Clasp enters the battlefield, put a -1/-1 counter on target creature.
 {4}, {T}: Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)</CardText>
 <Artist>Anthony Palumbo</Artist>
+<Watermark>Phyrexian</Watermark>
 <Multiverseid>227149</Multiverseid>
-<Rulings>2011/01/01: You can choose any player that has a counter, including yourself.
-2011/01/01: You can choose any permanent that has a counter, including ones controlled by opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them, such as suspended cards or a Lightning Storm on the stack.
-2011/01/01: You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
-2011/01/01: If a permanent chosen this way has multiple kinds of counters on it, only a single new counter is put on that permanent.
-2011/01/01: Players can respond to the spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
-2011/01/01: <Contagion Clasp>'s first ability is mandatory. If you're the only player who controls a creature, you must target one of them.</Rulings>
+<Rulings>2011/01/01: Contagion Clasp's first ability is mandatory. If you're the only player who controls a creature, you must target one of them.
+2021/03/19: If a permanent has +1/+1 counters and -1/-1 counters on it, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+2021/03/19: To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+2021/03/19: You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+2021/03/19: Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1176,7 +1177,7 @@ Everflowing Chalice enters the battlefield with a charge counter on it for each 
 <No>64</No>
 <Name>Energy Chamber</Name>
 <Type>Artifact</Type>
-<ManaCost>2 (2)</ManaCost>
+<ManaCost>{2}</ManaCost>
 <CardText>At the beginning of your upkeep, choose one —
 • Put a +1/+1 counter on target artifact creature.
 • Put a charge counter on target noncreature artifact.</CardText>
@@ -1194,7 +1195,7 @@ Everflowing Chalice enters the battlefield with a charge counter on it for each 
 <No>65</No>
 <Name>Trip Noose</Name>
 <Type>Artifact</Type>
-<ManaCost>2 (2)</ManaCost>
+<ManaCost>{2}</ManaCost>
 <CardText>{2}, {T}: Tap target creature.</CardText>
 <Flavor>A taut slipknot trigger is the only thing standing between you and standing.</Flavor>
 <Artist>Randy Gallegos</Artist>
@@ -1211,7 +1212,7 @@ Everflowing Chalice enters the battlefield with a charge counter on it for each 
 <No>66</No>
 <Name>Echoing Truth</Name>
 <Type>Instant</Type>
-<ManaCost>1U (2)</ManaCost>
+<ManaCost>{1}{U}</ManaCost>
 <CardText>Return target nonland permanent and all other permanents with the same name as that permanent to their owners' hands.</CardText>
 <Flavor>A single lie unleashes a tide of disbelief.</Flavor>
 <Artist>Greg Staples</Artist>
@@ -1228,7 +1229,7 @@ Everflowing Chalice enters the battlefield with a charge counter on it for each 
 <No>67</No>
 <Name>Moonglove Extract</Name>
 <Type>Artifact</Type>
-<ManaCost>3 (3)</ManaCost>
+<ManaCost>{3}</ManaCost>
 <CardText>Sacrifice Moonglove Extract: It deals 2 damage to any target.</CardText>
 <Flavor>Diluted, moonglove can etch living tissue. Concentrated, a drop will kill a giant.</Flavor>
 <Artist>Terese Nielsen</Artist>
@@ -1245,12 +1246,12 @@ Everflowing Chalice enters the battlefield with a charge counter on it for each 
 <No>68</No>
 <Name>Thirst for Knowledge</Name>
 <Type>Instant</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>Draw three cards. Then discard two cards unless you discard an artifact card.</CardText>
 <Flavor>"To truly know something, you must become it. The trick is to not lose yourself in the process."</Flavor>
 <Artist>Anthony Francisco</Artist>
 <Multiverseid>218580</Multiverseid>
-<Rulings>2004/12/01: You can discard either one artifact card or two cards which may or may not be artifacts. If you really want to, you can discard two artifact cards.</Rulings>
+<Rulings>2020/11/10: You can discard either one artifact card or two cards which may or may not be artifacts. If you really want to, you can discard two artifact cards.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1263,10 +1264,10 @@ Everflowing Chalice enters the battlefield with a charge counter on it for each 
 <No>69</No>
 <Name>Argivian Restoration</Name>
 <Type>Sorcery</Type>
-<ManaCost>2UU (4)</ManaCost>
+<ManaCost>{2}{U}{U}</ManaCost>
 <CardText>Return target artifact card from your graveyard to the battlefield.</CardText>
 <Flavor>"The Argivian University taught me two things: always look to the past, and never dismiss what appears useless."
-—Hanna, Weatherlight navigator</Flavor>
+—Hanna, *Weatherlight* navigator</Flavor>
 <Artist>Roger Raupp</Artist>
 <Multiverseid>222857</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1280,7 +1281,7 @@ Everflowing Chalice enters the battlefield with a charge counter on it for each 
 <No>70</No>
 <Name>Foil</Name>
 <Type>Instant</Type>
-<ManaCost>2UU (4)</ManaCost>
+<ManaCost>{2}{U}{U}</ManaCost>
 <CardText>You may discard an Island card and another card rather than pay this spell's mana cost.
 Counter target spell.</CardText>
 <Artist>Bradley Williams</Artist>
@@ -1296,7 +1297,7 @@ Counter target spell.</CardText>
 <No>71</No>
 <Name>Thoughtcast</Name>
 <Type>Sorcery</Type>
-<ManaCost>4U (5)</ManaCost>
+<ManaCost>{4}{U}</ManaCost>
 <CardText>Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)
 Draw two cards.</CardText>
 <Flavor>Vedalken eyes don't see the beauty in things. They see only what those things can teach.</Flavor>
@@ -1319,7 +1320,7 @@ Draw two cards.</CardText>
 <Flavor>Panopticon, forge of the Darksteel Eye, home of Mirrodin's keeper.</Flavor>
 <Artist>John Avon</Artist>
 <Multiverseid>222734</Multiverseid>
-<Rulings>2014/07/18: Although <Darksteel Citadel> is an artifact, it can't be cast as a spell. Playing it follows the normal rules for playing a land.</Rulings>
+<Rulings>2014/07/18: Although Darksteel Citadel is an artifact, it can't be cast as a spell. Playing it follows the normal rules for playing a land.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1337,13 +1338,9 @@ Draw two cards.</CardText>
 {T}: Target Assembly-Worker creature gets +1/+1 until end of turn.</CardText>
 <Artist>Scott Chou</Artist>
 <Multiverseid>218340</Multiverseid>
-<Rulings>2005/08/01: If another player takes control of the Factory while it is animated, that player keeps control until the control effect ends. They do not lose control just because the card stops being an Assembly-Worker. Note that Auras which steal cards will go to the graveyard if the permanent they enchant is no longer valid.
-2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
-2009/10/01: Activating the ability that turns it into a creature while it's already a creature will override any effects that set its power and/or toughness to a specific number. However, any effect that raises or lowers power and/or toughness (such as the effect created by Giant Growth, Glorious Anthem, or a +1/+1 counter) will continue to apply.
-2016/06/08: Once turned into a creature, <Mishra's Factory>'s last ability can target itself. If it's already blocking, this won't remove it from combat.
-2016/06/08: If you turn <Mishra's Factory> into a creature but haven't controlled it continuously since your most recent turn began, you won't be able to activate its first or last ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
+<Modern>Legal</Modern>
 <Set>Duel Decks: Elspeth vs. Tezzeret</Set>
 <Rarity>Uncommon</Rarity>
 </Card>
@@ -1395,7 +1392,7 @@ Draw two cards.</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Elspeth vs. Tezzeret</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -1410,7 +1407,7 @@ Draw two cards.</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Elspeth vs. Tezzeret</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -1425,7 +1422,7 @@ Draw two cards.</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Elspeth vs. Tezzeret</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -1440,6 +1437,6 @@ Draw two cards.</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Elspeth vs. Tezzeret</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 

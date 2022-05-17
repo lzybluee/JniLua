@@ -3,10 +3,10 @@
 <No>1</No>
 <Name>Nissa, Voice of Zendikar</Name>
 <Type>Legendary Planeswalker — Nissa (Loyalty: 3)</Type>
-<ManaCost>1GG (3)</ManaCost>
-<CardText>+1: Create a 0/1 green Plant creature token.
--2: Put a +1/+1 counter on each creature you control.
--7: You gain X life and draw X cards, where X is the number of lands you control.</CardText>
+<ManaCost>{1}{G}{G}</ManaCost>
+<CardText>[+1]: Create a 0/1 green Plant creature token.
+[-2]: Put a +1/+1 counter on each creature you control.
+[-7]: You gain X life and draw X cards, where X is the number of lands you control.</CardText>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>417424</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -21,14 +21,14 @@
 <No>2</No>
 <Name>Abundance</Name>
 <Type>Enchantment</Type>
-<ManaCost>2GG (4)</ManaCost>
+<ManaCost>{2}{G}{G}</ManaCost>
 <CardText>If you would draw a card, you may instead choose land or nonland and reveal cards from the top of your library until you reveal a card of the chosen kind. Put that card into your hand and put all other cards revealed this way on the bottom of your library in any order.</CardText>
 <Artist>Rebecca Guay</Artist>
 <Multiverseid>417425</Multiverseid>
 <Rulings>2004/10/04: This replacement effect replaces the draw, so nothing that triggers on a draw will trigger.
 2004/10/04: If you use this on a multi-card draw, each replaced draw is handled separately. In other words, you reveal and then put on the bottom of the library for the first card, then do the same for the second, and so on. In a multi-card draw you do not have to choose how many of those draws will be replaced before you do any drawing or use of this card.
 2004/10/04: If no card of the chosen type is found before your library empties, you don't get a card, but you do get to order all the cards in your library any way you choose.
-2007/07/15: If your library is empty, <Abundance> can prevent you from losing the game for being unable to draw a card. If an effect or turn-based action would cause you to draw a card, you can replace that draw with <Abundance>'s replacement effect. (It doesn't matter that you'd be unable to actually draw a card.) Since <Abundance>'s effect has you put a card into your hand instead of drawing a card, you'll never be forced to draw a card with an empty library.</Rulings>
+2007/07/15: If your library is empty, Abundance can prevent you from losing the game for being unable to draw a card. If an effect or turn-based action would cause you to draw a card, you can replace that draw with Abundance's replacement effect. (It doesn't matter that you'd be unable to actually draw a card.) Since Abundance's effect has you put a card into your hand instead of drawing a card, you'll never be forced to draw a card with an empty library.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -41,7 +41,7 @@
 <No>3</No>
 <Name>Briarhorn</Name>
 <Type>Creature — Elemental 3/3</Type>
-<ManaCost>3G (4)</ManaCost>
+<ManaCost>{3}{G}</ManaCost>
 <CardText>Flash
 When Briarhorn enters the battlefield, target creature gets +3/+3 until end of turn.
 Evoke {1}{G} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)</CardText>
@@ -60,7 +60,7 @@ Evoke {1}{G} (You may cast this spell for its evoke cost. If you do, it's sacrif
 <No>4</No>
 <Name>Citanul Woodreaders</Name>
 <Type>Creature — Human Druid 1/4</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>Kicker {2}{G} (You may pay an additional {2}{G} as you cast this spell.)
 When Citanul Woodreaders enters the battlefield, if it was kicked, draw two cards.</CardText>
 <Flavor>They seek out living trees to glean age-old secrets from sap and wood.</Flavor>
@@ -78,8 +78,8 @@ When Citanul Woodreaders enters the battlefield, if it was kicked, draw two card
 <No>5</No>
 <Name>Civic Wayfinder</Name>
 <Type>Creature — Elf Druid Warrior 2/2</Type>
-<ManaCost>2G (3)</ManaCost>
-<CardText>When Civic Wayfinder enters the battlefield, you may search your library for a basic land card, reveal it, and put it into your hand. If you do, shuffle your library.</CardText>
+<ManaCost>{2}{G}</ManaCost>
+<CardText>When Civic Wayfinder enters the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.</CardText>
 <Flavor>"These alleys are not safe. Come, I can guide you back to the market square."</Flavor>
 <Artist>Cyril Van Der Haegen</Artist>
 <Multiverseid>417428</Multiverseid>
@@ -95,7 +95,7 @@ When Citanul Woodreaders enters the battlefield, if it was kicked, draw two card
 <No>6</No>
 <Name>Cloudthresher</Name>
 <Type>Creature — Elemental 7/7</Type>
-<ManaCost>2GGGG (6)</ManaCost>
+<ManaCost>{2}{G}{G}{G}{G}</ManaCost>
 <CardText>Flash
 Reach
 When Cloudthresher enters the battlefield, it deals 2 damage to each creature with flying and each player.
@@ -115,12 +115,13 @@ Evoke {2}{G}{G} (You may cast this spell for its evoke cost. If you do, it's sac
 <No>7</No>
 <Name>Crop Rotation</Name>
 <Type>Instant</Type>
-<ManaCost>G (1)</ManaCost>
+<ManaCost>{G}</ManaCost>
 <CardText>As an additional cost to cast this spell, sacrifice a land.
-Search your library for a land card and put that card onto the battlefield. Then shuffle your library.</CardText>
+Search your library for a land card, put that card onto the battlefield, then shuffle.</CardText>
 <Flavor>Zendikar's elves have developed innovative methods to mitigate the effects of the Roil.</Flavor>
 <Artist>Daniel Ljunggren</Artist>
 <Multiverseid>417430</Multiverseid>
+<Rulings>2020/08/07: You can't cast Crop Rotation without sacrificing a land, and you can't sacrifice additional lands.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Duel Decks: Nissa vs. Ob Nixilis</Set>
@@ -132,7 +133,7 @@ Search your library for a land card and put that card onto the battlefield. Then
 <No>8</No>
 <Name>Elvish Visionary</Name>
 <Type>Creature — Elf Shaman 1/1</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>When Elvish Visionary enters the battlefield, draw a card.</CardText>
 <Flavor>"From a tiny sprout, the greatest trees grow and flourish. May the seeds of your mind be equally fruitful."</Flavor>
 <Artist>D. Alexander Gregory</Artist>
@@ -149,12 +150,12 @@ Search your library for a land card and put that card onto the battlefield. Then
 <No>9</No>
 <Name>Fertilid</Name>
 <Type>Creature — Elemental 0/0</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>Fertilid enters the battlefield with two +1/+1 counters on it.
-{1}{G}, Remove a +1/+1 counter from Fertilid: Target player searches their library for a basic land card, puts it onto the battlefield tapped, then shuffles their library.</CardText>
+{1}{G}, Remove a +1/+1 counter from Fertilid: Target player searches their library for a basic land card, puts it onto the battlefield tapped, then shuffles.</CardText>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>417432</Multiverseid>
-<Rulings>2008/04/01: Although the targeted player doesn't need to find a basic land card if they don't want to, that player must shuffle their library.</Rulings>
+<Rulings>2020/11/10: Although the targeted player doesn't need to find a basic land card if they don't want to, that player must shuffle their library.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -167,14 +168,14 @@ Search your library for a land card and put that card onto the battlefield. Then
 <No>10</No>
 <Name>Gaea's Blessing</Name>
 <Type>Sorcery</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>Target player shuffles up to three target cards from their graveyard into their library.
 Draw a card.
 When Gaea's Blessing is put into your graveyard from your library, shuffle your graveyard into your library.</CardText>
 <Artist>Rebecca Guay</Artist>
 <Multiverseid>417433</Multiverseid>
-<Rulings>2018/04/27: If <Gaea's Blessing> has no legal target cards in a graveyard, either because its targets became illegal or because you didn't choose any, the target player shuffles their library.
-2018/04/27: If an effect puts multiple cards from your library into your graveyard at once, put all of those cards there before <Gaea's Blessing> shuffles your graveyard into your library.</Rulings>
+<Rulings>2018/04/27: If Gaea's Blessing has no legal target cards in a graveyard, either because its targets became illegal or because you didn't choose any, the target player shuffles their library.
+2018/04/27: If an effect puts multiple cards from your library into your graveyard at once, put all of those cards there before Gaea's Blessing shuffles your graveyard into your library.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -187,7 +188,7 @@ When Gaea's Blessing is put into your graveyard from your library, shuffle your 
 <No>11</No>
 <Name>Gilt-Leaf Seer</Name>
 <Type>Creature — Elf Shaman 2/2</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>{G}, {T}: Look at the top two cards of your library, then put them back in any order.</CardText>
 <Flavor>Desmera blinded her seers so that her beauty would be the last image burned in their memories. The act only deepened their insight.</Flavor>
 <Artist>Darrell Riche</Artist>
@@ -204,12 +205,12 @@ When Gaea's Blessing is put into your graveyard from your library, shuffle your 
 <No>12</No>
 <Name>Jaddi Lifestrider</Name>
 <Type>Creature — Elemental 2/8</Type>
-<ManaCost>4G (5)</ManaCost>
+<ManaCost>{4}{G}</ManaCost>
 <CardText>When Jaddi Lifestrider enters the battlefield, you may tap any number of untapped creatures you control. You gain 2 life for each creature tapped this way.</CardText>
 <Flavor>Nature's arms encircle all who are willing to draw close.</Flavor>
 <Artist>Vincent Proce</Artist>
 <Multiverseid>417435</Multiverseid>
-<Rulings>2010/06/15: You don't choose which creatures to tap until the ability resolves. You may tap <Jaddi Lifestrider> itself this way, assuming it's still on the battlefield untapped by this time.</Rulings>
+<Rulings>2010/06/15: You don't choose which creatures to tap until the ability resolves. You may tap Jaddi Lifestrider itself this way, assuming it's still on the battlefield untapped by this time.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -222,8 +223,8 @@ When Gaea's Blessing is put into your graveyard from your library, shuffle your 
 <No>13</No>
 <Name>Natural Connection</Name>
 <Type>Instant</Type>
-<ManaCost>2G (3)</ManaCost>
-<CardText>Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.</CardText>
+<ManaCost>{2}{G}</ManaCost>
+<CardText>Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.</CardText>
 <Flavor>"Zendikar will not surrender, and neither can we."</Flavor>
 <Artist>Wesley Burt</Artist>
 <Multiverseid>417436</Multiverseid>
@@ -239,7 +240,7 @@ When Gaea's Blessing is put into your graveyard from your library, shuffle your 
 <No>14</No>
 <Name>Nissa's Chosen</Name>
 <Type>Creature — Elf Warrior 2/3</Type>
-<ManaCost>GG (2)</ManaCost>
+<ManaCost>{G}{G}</ManaCost>
 <CardText>If Nissa's Chosen would die, put it on the bottom of its owner's library instead.</CardText>
 <Flavor>Once, Nissa selected worthy fighters to defend the Joraga. Now, she gathers forces to defend all of Zendikar.</Flavor>
 <Artist>Jaime Jones</Artist>
@@ -256,7 +257,7 @@ When Gaea's Blessing is put into your graveyard from your library, shuffle your 
 <No>15</No>
 <Name>Oakgnarl Warrior</Name>
 <Type>Creature — Treefolk Warrior 5/7</Type>
-<ManaCost>5GG (7)</ManaCost>
+<ManaCost>{5}{G}{G}</ManaCost>
 <CardText>Vigilance, trample</CardText>
 <Flavor>"Roam as you will, your roots remain in the strong earth of your Rising."</Flavor>
 <Artist>Jim Nelson</Artist>
@@ -273,7 +274,7 @@ When Gaea's Blessing is put into your graveyard from your library, shuffle your 
 <No>16</No>
 <Name>Oran-Rief Hydra</Name>
 <Type>Creature — Hydra 5/5</Type>
-<ManaCost>4GG (6)</ManaCost>
+<ManaCost>{4}{G}{G}</ManaCost>
 <CardText>Trample
 Landfall — Whenever a land enters the battlefield under your control, put a +1/+1 counter on Oran-Rief Hydra. If that land is a Forest, put two +1/+1 counters on Oran-Rief Hydra instead.</CardText>
 <Artist>Chris Rahn</Artist>
@@ -293,10 +294,10 @@ Landfall — Whenever a land enters the battlefield under your control, put a +1
 <No>17</No>
 <Name>Oran-Rief Invoker</Name>
 <Type>Creature — Human Shaman 2/2</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>{8}: Oran-Rief Invoker gets +5/+5 and gains trample until end of turn.</CardText>
 <Flavor>"The world was not hostile to us—we were beneath its notice, and presented no danger."
-—The Invokers' Tales</Flavor>
+—*The Invokers' Tales*</Flavor>
 <Artist>Anastasia Ovchinnikova</Artist>
 <Multiverseid>417440</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -311,7 +312,7 @@ Landfall — Whenever a land enters the battlefield under your control, put a +1
 <No>18</No>
 <Name>Saddleback Lagac</Name>
 <Type>Creature — Lizard 3/1</Type>
-<ManaCost>3G (4)</ManaCost>
+<ManaCost>{3}{G}</ManaCost>
 <CardText>When Saddleback Lagac enters the battlefield, support 2. (Put a +1/+1 counter on each of up to two other target creatures.)</CardText>
 <Flavor>"A good lagac will carry you through thick and thin. A bad one . . . well, it's a tasty dinner."
 —Raff Slugeater, goblin shortcutter</Flavor>
@@ -332,7 +333,7 @@ Landfall — Whenever a land enters the battlefield under your control, put a +1
 <No>19</No>
 <Name>Scythe Leopard</Name>
 <Type>Creature — Cat 1/1</Type>
-<ManaCost>G (1)</ManaCost>
+<ManaCost>{G}</ManaCost>
 <CardText>Landfall — Whenever a land enters the battlefield under your control, Scythe Leopard gets +1/+1 until end of turn.</CardText>
 <Flavor>Eldrazi are not the leopard's preferred prey, but they are better than no prey at all.</Flavor>
 <Artist>Daniel Ljunggren</Artist>
@@ -352,8 +353,8 @@ Landfall — Whenever a land enters the battlefield under your control, put a +1
 <No>20</No>
 <Name>Seek the Horizon</Name>
 <Type>Sorcery</Type>
-<ManaCost>3G (4)</ManaCost>
-<CardText>Search your library for up to three basic land cards, reveal them, and put them into your hand. Then shuffle your library.</CardText>
+<ManaCost>{3}{G}</ManaCost>
+<CardText>Search your library for up to three basic land cards, reveal them, put them into your hand, then shuffle.</CardText>
 <Flavor>"The horizon is the perpetual ideal, the constant promise of hope."
 —Nissa Revane</Flavor>
 <Artist>Min Yum</Artist>
@@ -370,7 +371,7 @@ Landfall — Whenever a land enters the battlefield under your control, put a +1
 <No>21</No>
 <Name>Thicket Elemental</Name>
 <Type>Creature — Elemental 4/4</Type>
-<ManaCost>3GG (5)</ManaCost>
+<ManaCost>{3}{G}{G}</ManaCost>
 <CardText>Kicker {1}{G} (You may pay an additional {1}{G} as you cast this spell.)
 When Thicket Elemental enters the battlefield, if it was kicked, you may reveal cards from the top of your library until you reveal a creature card. If you do, put that card onto the battlefield and shuffle all other cards revealed this way into your library.</CardText>
 <Artist>Ron Spencer</Artist>
@@ -387,9 +388,8 @@ When Thicket Elemental enters the battlefield, if it was kicked, you may reveal 
 <No>22</No>
 <Name>Thornweald Archer</Name>
 <Type>Creature — Elf Archer 2/1</Type>
-<ManaCost>1G (2)</ManaCost>
-<CardText>Reach (This creature can block creatures with flying.)
-Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)</CardText>
+<ManaCost>{1}{G}</ManaCost>
+<CardText>Reach, deathtouch</CardText>
 <Flavor>Their arrows are tipped with basilisk eyes and fletched with cockatrice feathers.</Flavor>
 <Artist>Dave Kendall</Artist>
 <Multiverseid>417445</Multiverseid>
@@ -405,12 +405,12 @@ Deathtouch (Any amount of damage this deals to a creature is enough to destroy i
 <No>23</No>
 <Name>Vines of the Recluse</Name>
 <Type>Instant</Type>
-<ManaCost>G (1)</ManaCost>
+<ManaCost>{G}</ManaCost>
 <CardText>Target creature gets +1/+2 and gains reach until end of turn. Untap it. (A creature with reach can block creatures with flying.)</CardText>
 <Flavor>"The most elegant solutions are found in nature. You just have to know where to look."</Flavor>
 <Artist>Dan Scott</Artist>
 <Multiverseid>417446</Multiverseid>
-<Rulings>2016/01/22: You can target an untapped creature with <Vines of the Recluse>. It will still get the other bonuses.</Rulings>
+<Rulings>2016/01/22: You can target an untapped creature with Vines of the Recluse. It will still get the other bonuses.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -423,7 +423,7 @@ Deathtouch (Any amount of damage this deals to a creature is enough to destroy i
 <No>24</No>
 <Name>Walker of the Grove</Name>
 <Type>Creature — Elemental 7/7</Type>
-<ManaCost>6GG (8)</ManaCost>
+<ManaCost>{6}{G}{G}</ManaCost>
 <CardText>When Walker of the Grove leaves the battlefield, create a 4/4 green Elemental creature token.
 Evoke {4}{G} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)</CardText>
 <Artist>Todd Lockwood</Artist>
@@ -446,8 +446,8 @@ Evoke {4}{G} (You may cast this spell for its evoke cost. If you do, it's sacrif
 <No>25</No>
 <Name>Wood Elves</Name>
 <Type>Creature — Elf Scout 1/1</Type>
-<ManaCost>2G (3)</ManaCost>
-<CardText>When Wood Elves enters the battlefield, search your library for a Forest card and put that card onto the battlefield. Then shuffle your library.</CardText>
+<ManaCost>{2}{G}</ManaCost>
+<CardText>When Wood Elves enters the battlefield, search your library for a Forest card, put that card onto the battlefield, then shuffle.</CardText>
 <Flavor>Through the waves of Eldrazi attacks, the Murasan jungles seemed to regrow as soon as they were destroyed.</Flavor>
 <Artist>Josh Hass</Artist>
 <Multiverseid>417448</Multiverseid>
@@ -464,7 +464,7 @@ Evoke {4}{G} (You may cast this spell for its evoke cost. If you do, it's sacrif
 <No>26</No>
 <Name>Woodborn Behemoth</Name>
 <Type>Creature — Elemental 4/4</Type>
-<ManaCost>3GG (5)</ManaCost>
+<ManaCost>{3}{G}{G}</ManaCost>
 <CardText>As long as you control eight or more lands, Woodborn Behemoth gets +4/+4 and has trample. (It can deal excess combat damage to the player or planeswalker it's attacking.)</CardText>
 <Flavor>It carries the hopes of Zendikar's embattled wilds on its mighty boughs.</Flavor>
 <Artist>Matt Stewart</Artist>
@@ -559,7 +559,7 @@ When Khalni Garden enters the battlefield, create a 0/1 green Plant creature tok
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Nissa vs. Ob Nixilis</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -574,7 +574,7 @@ When Khalni Garden enters the battlefield, create a 0/1 green Plant creature tok
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Nissa vs. Ob Nixilis</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -589,7 +589,7 @@ When Khalni Garden enters the battlefield, create a 0/1 green Plant creature tok
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Nissa vs. Ob Nixilis</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -604,7 +604,7 @@ When Khalni Garden enters the battlefield, create a 0/1 green Plant creature tok
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Nissa vs. Ob Nixilis</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -619,7 +619,7 @@ When Khalni Garden enters the battlefield, create a 0/1 green Plant creature tok
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Nissa vs. Ob Nixilis</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -627,13 +627,13 @@ When Khalni Garden enters the battlefield, create a 0/1 green Plant creature tok
 <No>36</No>
 <Name>Ob Nixilis Reignited</Name>
 <Type>Legendary Planeswalker — Nixilis (Loyalty: 5)</Type>
-<ManaCost>3BB (5)</ManaCost>
-<CardText>+1: You draw a card and you lose 1 life.
--3: Destroy target creature.
--8: Target opponent gets an emblem with "Whenever a player draws a card, you lose 2 life."</CardText>
+<ManaCost>{3}{B}{B}</ManaCost>
+<CardText>[+1]: You draw a card and you lose 1 life.
+[-3]: Destroy target creature.
+[-8]: Target opponent gets an emblem with "Whenever a player draws a card, you lose 2 life."</CardText>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>417459</Multiverseid>
-<Rulings>2015/08/25: The emblem created by <Ob Nixilis Reignited>'s last ability is both owned and controlled by the target opponent. In a multiplayer game, if you own <Ob Nixilis Reignited> and use him to give one of your opponents an emblem, the emblem remains even if you leave the game.</Rulings>
+<Rulings>2015/08/25: The emblem created by Ob Nixilis Reignited's last ability is both owned and controlled by the target opponent. In a multiplayer game, if you own Ob Nixilis Reignited and use him to give one of your opponents an emblem, the emblem remains even if you leave the game.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -646,15 +646,13 @@ When Khalni Garden enters the battlefield, create a 0/1 green Plant creature tok
 <No>37</No>
 <Name>Altar's Reap</Name>
 <Type>Instant</Type>
-<ManaCost>1B (2)</ManaCost>
+<ManaCost>{1}{B}</ManaCost>
 <CardText>As an additional cost to cast this spell, sacrifice a creature.
 Draw two cards.</CardText>
 <Flavor>"I will secure my revenge on Zendikar one soul at a time."
 —Ob Nixilis</Flavor>
 <Artist>Tyler Jacobson</Artist>
 <Multiverseid>417460</Multiverseid>
-<Rulings>2013/04/15: You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures.
-2013/04/15: Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -667,7 +665,7 @@ Draw two cards.</CardText>
 <No>38</No>
 <Name>Ambition's Cost</Name>
 <Type>Sorcery</Type>
-<ManaCost>3B (4)</ManaCost>
+<ManaCost>{3}{B}</ManaCost>
 <CardText>You draw three cards and you lose 3 life.</CardText>
 <Flavor>"Conquering your first world is the hardest, after all. My power grew as I moved from world to world, taking anything that would make the next taking easier."
 —Ob Nixilis</Flavor>
@@ -685,7 +683,7 @@ Draw two cards.</CardText>
 <No>39</No>
 <Name>Bala Ged Scorpion</Name>
 <Type>Creature — Scorpion 2/3</Type>
-<ManaCost>3B (4)</ManaCost>
+<ManaCost>{3}{B}</ManaCost>
 <CardText>When Bala Ged Scorpion enters the battlefield, you may destroy target creature with power 1 or less.</CardText>
 <Flavor>Fast and lethal, with a penchant for the weak and infirm.</Flavor>
 <Artist>Daarken</Artist>
@@ -702,8 +700,8 @@ Draw two cards.</CardText>
 <SetId>DDR</SetId>
 <No>40</No>
 <Name>Blistergrub</Name>
-<Type>Creature — Horror 2/2</Type>
-<ManaCost>2B (3)</ManaCost>
+<Type>Creature — Phyrexian Horror 2/2</Type>
+<ManaCost>{2}{B}</ManaCost>
 <CardText>Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)
 When Blistergrub dies, each opponent loses 2 life.</CardText>
 <Flavor>"Avoid anything that scuttles, scrabbles, or shambles."
@@ -722,7 +720,7 @@ When Blistergrub dies, each opponent loses 2 life.</CardText>
 <No>41</No>
 <Name>Cadaver Imp</Name>
 <Type>Creature — Imp 1/1</Type>
-<ManaCost>1BB (3)</ManaCost>
+<ManaCost>{1}{B}{B}</ManaCost>
 <CardText>Flying
 When Cadaver Imp enters the battlefield, you may return target creature card from your graveyard to your hand.</CardText>
 <Flavor>The mouth must be pried open before rigor mortis sets in. Otherwise the returning soul can find no ingress.</Flavor>
@@ -740,7 +738,7 @@ When Cadaver Imp enters the battlefield, you may return target creature card fro
 <No>42</No>
 <Name>Carrier Thrall</Name>
 <Type>Creature — Vampire 2/1</Type>
-<ManaCost>1B (2)</ManaCost>
+<ManaCost>{1}{B}</ManaCost>
 <CardText>When Carrier Thrall dies, create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this creature: Add {C}."</CardText>
 <Flavor>"Later we will mourn those we have lost. First we must end their suffering."
 —Drana, Kalastria bloodchief</Flavor>
@@ -748,7 +746,7 @@ When Cadaver Imp enters the battlefield, you may return target creature card fro
 <Multiverseid>417465</Multiverseid>
 <Rulings>2015/08/25: Eldrazi Scions are similar to Eldrazi Spawn, seen in the Zendikar block. Note that Eldrazi Scions are 1/1, not 0/1.
 2015/08/25: Eldrazi and Scion are each separate creature types. Anything that affects Eldrazi will affect these tokens, for example.
-2015/08/25: Sacrificing an Eldrazi Scion creature token to add {C} is a mana ability. It doesn't use the stack and can't be responded to.
+2015/08/25: Sacrificing an Eldrazi Scion creature token to add {C} to your mana pool is a mana ability. It doesn't use the stack and can't be responded to.
 2015/08/25: Some instants and sorceries that create Eldrazi Scions require targets. If all targets for such a spell have become illegal by the time that spell tries to resolve, the spell won't resolve and none of its effects will happen. You won't get any Eldrazi Scions.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -762,7 +760,7 @@ When Cadaver Imp enters the battlefield, you may return target creature card fro
 <No>43</No>
 <Name>Demon's Grasp</Name>
 <Type>Sorcery</Type>
-<ManaCost>4B (5)</ManaCost>
+<ManaCost>{4}{B}</ManaCost>
 <CardText>Target creature gets -5/-5 until end of turn.</CardText>
 <Flavor>"Take what solace you can in the knowledge that you will not be here to witness Zendikar's demise."
 —Ob Nixilis</Flavor>
@@ -780,13 +778,13 @@ When Cadaver Imp enters the battlefield, you may return target creature card fro
 <No>44</No>
 <Name>Desecration Demon</Name>
 <Type>Creature — Demon 6/6</Type>
-<ManaCost>2BB (4)</ManaCost>
+<ManaCost>{2}{B}{B}</ManaCost>
 <CardText>Flying
 At the beginning of each combat, any opponent may sacrifice a creature. If a player does, tap Desecration Demon and put a +1/+1 counter on it.</CardText>
 <Artist>Jason Chan</Artist>
 <Multiverseid>417467</Multiverseid>
-<Rulings>2017/03/14: Players won't know which player or planeswalker <Desecration Demon> will attack, if any, when deciding whether to sacrifice a creature.
-2017/03/14: Each opponent in turn order may choose to sacrifice a creature, even if an opponent already chose to sacrifice a creature that combat. <Desecration Demon> will have a maximum of one +1/+1 counter put on it each combat, no matter how many creatures were sacrificed.</Rulings>
+<Rulings>2017/03/14: Players won't know which player or planeswalker Desecration Demon will attack, if any, when deciding whether to sacrifice a creature.
+2017/03/14: Each opponent in turn order may choose to sacrifice a creature, even if an opponent already chose to sacrifice a creature that combat. Desecration Demon will have a maximum of one +1/+1 counter put on it each combat, no matter how many creatures were sacrificed.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -799,7 +797,7 @@ At the beginning of each combat, any opponent may sacrifice a creature. If a pla
 <No>45</No>
 <Name>Despoiler of Souls</Name>
 <Type>Creature — Horror 3/1</Type>
-<ManaCost>BB (2)</ManaCost>
+<ManaCost>{B}{B}</ManaCost>
 <CardText>Despoiler of Souls can't block.
 {B}{B}, Exile two other creature cards from your graveyard: Return Despoiler of Souls from your graveyard to the battlefield.</CardText>
 <Flavor>Rats and vultures devour. It desecrates.</Flavor>
@@ -817,7 +815,7 @@ At the beginning of each combat, any opponent may sacrifice a creature. If a pla
 <No>46</No>
 <Name>Disfigure</Name>
 <Type>Instant</Type>
-<ManaCost>B (1)</ManaCost>
+<ManaCost>{B}</ManaCost>
 <CardText>Target creature gets -2/-2 until end of turn.</CardText>
 <Flavor>"Brave scar or unfortunate tale? It all depends on your pain threshold."</Flavor>
 <Artist>Justin Sweet</Artist>
@@ -834,7 +832,7 @@ At the beginning of each combat, any opponent may sacrifice a creature. If a pla
 <No>47</No>
 <Name>Doom Blade</Name>
 <Type>Instant</Type>
-<ManaCost>1B (2)</ManaCost>
+<ManaCost>{1}{B}</ManaCost>
 <CardText>Destroy target nonblack creature.</CardText>
 <Flavor>"One little word was all it took. The world shook as I said it. The doom of Zendikar was here at last."
 —Ob Nixilis</Flavor>
@@ -852,8 +850,8 @@ At the beginning of each combat, any opponent may sacrifice a creature. If a pla
 <No>48</No>
 <Name>Fetid Imp</Name>
 <Type>Creature — Imp 1/2</Type>
-<ManaCost>1B (2)</ManaCost>
-<CardText>Flying (This creature can't be blocked except by creatures with flying or reach.)
+<ManaCost>{1}{B}</ManaCost>
+<CardText>Flying
 {B}: Fetid Imp gains deathtouch until end of turn. (Any amount of damage it deals to a creature is enough to destroy it.)</CardText>
 <Artist>Nils Hamm</Artist>
 <Multiverseid>417471</Multiverseid>
@@ -869,7 +867,7 @@ At the beginning of each combat, any opponent may sacrifice a creature. If a pla
 <No>49</No>
 <Name>Foul Imp</Name>
 <Type>Creature — Imp 2/2</Type>
-<ManaCost>BB (2)</ManaCost>
+<ManaCost>{B}{B}</ManaCost>
 <CardText>Flying
 When Foul Imp enters the battlefield, you lose 2 life.</CardText>
 <Flavor>The imp, unaware of its own odor, paused to catch its breath . . . and promptly died.</Flavor>
@@ -888,7 +886,7 @@ When Foul Imp enters the battlefield, you lose 2 life.</CardText>
 <No>50</No>
 <Name>Giant Scorpion</Name>
 <Type>Creature — Scorpion 1/3</Type>
-<ManaCost>2B (3)</ManaCost>
+<ManaCost>{2}{B}</ManaCost>
 <CardText>Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)</CardText>
 <Flavor>Its sting hurts, but death is strangely painless.</Flavor>
 <Artist>Raymond Swanland</Artist>
@@ -905,7 +903,7 @@ When Foul Imp enters the battlefield, you lose 2 life.</CardText>
 <No>51</No>
 <Name>Grim Discovery</Name>
 <Type>Sorcery</Type>
-<ManaCost>1B (2)</ManaCost>
+<ManaCost>{1}{B}</ManaCost>
 <CardText>Choose one or both —
 • Return target creature card from your graveyard to your hand.
 • Return target land card from your graveyard to your hand.</CardText>
@@ -924,13 +922,13 @@ When Foul Imp enters the battlefield, you lose 2 life.</CardText>
 <No>52</No>
 <Name>Hideous End</Name>
 <Type>Instant</Type>
-<ManaCost>1BB (3)</ManaCost>
+<ManaCost>{1}{B}{B}</ManaCost>
 <CardText>Destroy target nonblack creature. Its controller loses 2 life.</CardText>
 <Flavor>"A little dark magic won't stop me. The worse the curse, the better the prize."
 —Radavi, Joraga relic hunter, last words</Flavor>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Multiverseid>417475</Multiverseid>
-<Rulings>2009/10/01: If the targeted creature is an illegal target by the time <Hideous End> resolves, the entire spell doesn't resolve. No one loses life.</Rulings>
+<Rulings>2009/10/01: If the targeted creature is an illegal target by the time Hideous End resolves, the entire spell doesn't resolve. No one loses life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -943,7 +941,7 @@ When Foul Imp enters the battlefield, you lose 2 life.</CardText>
 <No>53</No>
 <Name>Indulgent Tormentor</Name>
 <Type>Creature — Demon 5/3</Type>
-<ManaCost>3BB (5)</ManaCost>
+<ManaCost>{3}{B}{B}</ManaCost>
 <CardText>Flying
 At the beginning of your upkeep, draw a card unless target opponent sacrifices a creature or pays 3 life.</CardText>
 <Flavor>The promise of anguish is payment enough for services rendered.</Flavor>
@@ -963,12 +961,12 @@ At the beginning of your upkeep, draw a card unless target opponent sacrifices a
 <No>54</No>
 <Name>Innocent Blood</Name>
 <Type>Sorcery</Type>
-<ManaCost>B (1)</ManaCost>
+<ManaCost>{B}</ManaCost>
 <CardText>Each player sacrifices a creature.</CardText>
 <Flavor>Zombies mourn for the living and celebrate those who will soon be given the gift of death.</Flavor>
 <Artist>Carl Critchlow</Artist>
 <Multiverseid>417477</Multiverseid>
-<Rulings>2016/06/08: You can cast <Innocent Blood> even if some (or all) players control no creatures. Those players are simply unaffected.</Rulings>
+<Rulings>2016/06/08: You can cast Innocent Blood even if some (or all) players control no creatures. Those players are simply unaffected.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Duel Decks: Nissa vs. Ob Nixilis</Set>
@@ -980,7 +978,7 @@ At the beginning of your upkeep, draw a card unless target opponent sacrifices a
 <No>55</No>
 <Name>Mire's Toll</Name>
 <Type>Sorcery</Type>
-<ManaCost>B (1)</ManaCost>
+<ManaCost>{B}</ManaCost>
 <CardText>Target player reveals a number of cards from their hand equal to the number of Swamps you control. You choose one of them. That player discards that card.</CardText>
 <Flavor>As the bridge snapped, Berko was sure he heard the swamp laughing at him.</Flavor>
 <Artist>Alex Horley-Orlandelli</Artist>
@@ -998,13 +996,13 @@ At the beginning of your upkeep, draw a card unless target opponent sacrifices a
 <No>56</No>
 <Name>Pestilence Demon</Name>
 <Type>Creature — Demon 7/6</Type>
-<ManaCost>5BBB (8)</ManaCost>
+<ManaCost>{5}{B}{B}{B}</ManaCost>
 <CardText>Flying
 {B}: Pestilence Demon deals 1 damage to each creature and each player.</CardText>
 <Flavor>"I have schemed too long to be supplanted by dead gods. If I cannot have this world, no one can."</Flavor>
 <Artist>Justin Sweet</Artist>
 <Multiverseid>417479</Multiverseid>
-<Rulings>2010/06/15: <Pestilence Demon> deals 1 damage to itself, as well as to each other creature and each player.</Rulings>
+<Rulings>2010/06/15: Pestilence Demon deals 1 damage to itself, as well as to each other creature and each player.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1017,7 +1015,7 @@ At the beginning of your upkeep, draw a card unless target opponent sacrifices a
 <No>57</No>
 <Name>Priest of the Blood Rite</Name>
 <Type>Creature — Human Cleric 2/2</Type>
-<ManaCost>3BB (5)</ManaCost>
+<ManaCost>{3}{B}{B}</ManaCost>
 <CardText>When Priest of the Blood Rite enters the battlefield, create a 5/5 black Demon creature token with flying.
 At the beginning of your upkeep, you lose 2 life.</CardText>
 <Flavor>Some will sacrifice everything for but a taste of power.</Flavor>
@@ -1035,12 +1033,12 @@ At the beginning of your upkeep, you lose 2 life.</CardText>
 <No>58</No>
 <Name>Quest for the Gravelord</Name>
 <Type>Enchantment</Type>
-<ManaCost>B (1)</ManaCost>
+<ManaCost>{B}</ManaCost>
 <CardText>Whenever a creature dies, you may put a quest counter on Quest for the Gravelord.
 Remove three quest counters from Quest for the Gravelord and sacrifice it: Create a 5/5 black Zombie Giant creature token.</CardText>
 <Artist>Chris Rahn</Artist>
 <Multiverseid>417481</Multiverseid>
-<Rulings>2009/10/01: <Quest for the Gravelord>'s first ability triggers regardless of who controlled the creature and whose graveyard it was put into.</Rulings>
+<Rulings>2009/10/01: Quest for the Gravelord's first ability triggers regardless of who controlled the creature and whose graveyard it was put into.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1053,7 +1051,7 @@ Remove three quest counters from Quest for the Gravelord and sacrifice it: Creat
 <No>59</No>
 <Name>Renegade Demon</Name>
 <Type>Creature — Demon 5/3</Type>
-<ManaCost>3BB (5)</ManaCost>
+<ManaCost>{3}{B}{B}</ManaCost>
 <Flavor>Confront it at your own peril, for it will confront you for its own amusement.</Flavor>
 <Artist>Tomasz Jedruszek</Artist>
 <Multiverseid>417482</Multiverseid>
@@ -1069,9 +1067,9 @@ Remove three quest counters from Quest for the Gravelord and sacrifice it: Creat
 <No>60</No>
 <Name>Shadows of the Past</Name>
 <Type>Enchantment</Type>
-<ManaCost>1B (2)</ManaCost>
+<ManaCost>{1}{B}</ManaCost>
 <CardText>Whenever a creature dies, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
-{4}{B}: Each opponent loses 2 life and you gain 2 life. Activate this ability only if there are four or more creature cards in your graveyard.</CardText>
+{4}{B}: Each opponent loses 2 life and you gain 2 life. Activate only if there are four or more creature cards in your graveyard.</CardText>
 <Artist>Ryan Yee</Artist>
 <Multiverseid>417483</Multiverseid>
 <Rulings>2015/06/22: Once you legally activate the last ability, it doesn't matter how many creature cards are in your graveyard as it resolves.</Rulings>
@@ -1087,12 +1085,14 @@ Remove three quest counters from Quest for the Gravelord and sacrifice it: Creat
 <No>61</No>
 <Name>Smallpox</Name>
 <Type>Sorcery</Type>
-<ManaCost>BB (2)</ManaCost>
+<ManaCost>{B}{B}</ManaCost>
 <CardText>Each player loses 1 life, discards a card, sacrifices a creature, then sacrifices a land.</CardText>
 <Flavor>Take away a few things, and a rebellion may ensue. Take away everything, and the oppression will be accepted as fate.</Flavor>
 <Artist>Ryan Pancoast</Artist>
 <Multiverseid>417484</Multiverseid>
-<Rulings>2006/09/25: Each player loses 1 life. Then, starting with the active player and proceeding in turn order, each player chooses a card to discard (normally without seeing what other players have chosen) and all discards happen simultaneously. Then, starting with the active player and proceeding in turn order, each player chooses a creature to sacrifice (this time players can see what other players have chosen) and all sacrifices happen simultaneously. Then the process that happened for creatures is repeated for lands.</Rulings>
+<Rulings>2021/03/19: As Smallpox resolves, first each player loses 1 life at the same time. Next, each player chooses a card in hand without revealing it, then all of the cards are discarded at the same time. Then starting with the player whose turn it is and proceeding in turn order, each player chooses a creature, knowing the choices made before them. All of the creatures are sacrificed at the same time, then finally repeat this process for lands.
+2021/03/19: Any abilities that trigger while Smallpox is resolving will wait to be put onto the stack until Smallpox is done resolving.
+2021/03/19: Any abilities of the lands sacrificed may modify or trigger on the creatures being sacrificed and on the cards being discarded. Abilities of the creatures won't modify or trigger on the lands being sacrificed, but may modify or trigger on the cards being discarded.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1105,13 +1105,13 @@ Remove three quest counters from Quest for the Gravelord and sacrifice it: Creat
 <No>62</No>
 <Name>Squelching Leeches</Name>
 <Type>Creature — Leech */*</Type>
-<ManaCost>2BB (4)</ManaCost>
+<ManaCost>{2}{B}{B}</ManaCost>
 <CardText>Squelching Leeches's power and toughness are each equal to the number of Swamps you control.</CardText>
 <Flavor>Setting foot in their muck is an open invitation.</Flavor>
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>417485</Multiverseid>
-<Rulings>2014/04/26: <Squelching Leeches>'s power and toughness will change as the number of Swamps you control changes. Its ability counts all lands you control with the subtype Swamp, not just those named Swamp.
-2014/04/26: The ability that defines <Squelching Leeches>'s power and toughness works in all zones, not just the battlefield.</Rulings>
+<Rulings>2014/04/26: Squelching Leeches's power and toughness will change as the number of Swamps you control changes. Its ability counts all lands you control with the subtype Swamp, not just those named Swamp.
+2014/04/26: The ability that defines Squelching Leeches's power and toughness works in all zones, not just the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1124,13 +1124,12 @@ Remove three quest counters from Quest for the Gravelord and sacrifice it: Creat
 <No>63</No>
 <Name>Tendrils of Corruption</Name>
 <Type>Instant</Type>
-<ManaCost>3B (4)</ManaCost>
+<ManaCost>{3}{B}</ManaCost>
 <CardText>Tendrils of Corruption deals X damage to target creature and you gain X life, where X is the number of Swamps you control.</CardText>
 <Flavor>Darkness doesn't always send its minions to do its dirty work.</Flavor>
 <Artist>Vance Kovacs</Artist>
 <Multiverseid>417486</Multiverseid>
-<Rulings>2009/10/01: The amount of life you gain is equal to the number of Swamps you control, not the amount of damage <Tendrils of Corruption> deals (in case some of it is prevented).
-2009/10/01: If the targeted creature is an illegal target by the time <Tendrils of Corruption> would resolve, the entire spell doesn't resolve. You won't gain any life.</Rulings>
+<Rulings>2021/03/19: If the target creature is an illegal target by the time Tendrils of Corruption tries to resolve, the spell doesn't resolve. You don't gain X life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1143,14 +1142,14 @@ Remove three quest counters from Quest for the Gravelord and sacrifice it: Creat
 <No>64</No>
 <Name>Unhallowed Pact</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>2B (3)</ManaCost>
+<ManaCost>{2}{B}</ManaCost>
 <CardText>Enchant creature
 When enchanted creature dies, return that card to the battlefield under your control.</CardText>
 <Flavor>Agreements with demons seldom end at the grave.</Flavor>
 <Artist>Volkan Baǵa</Artist>
 <Multiverseid>417487</Multiverseid>
-<Rulings>2012/05/01: The card will return to the battlefield under your control only if it's still in the graveyard when <Unhallowed Pact>'s ability resolves. If it's not (perhaps because an ability like undying has already returned it to the battlefield), nothing happens.
-2012/05/01: If <Unhallowed Pact> is enchanting a token creature, that creature can't return to the battlefield.</Rulings>
+<Rulings>2012/05/01: The card will return to the battlefield under your control only if it's still in the graveyard when Unhallowed Pact's ability resolves. If it's not (perhaps because an ability like undying has already returned it to the battlefield), nothing happens.
+2012/05/01: If Unhallowed Pact is enchanting a token creature, that creature can't return to the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1165,7 +1164,7 @@ When enchanted creature dies, return that card to the battlefield under your con
 <Type>Land — Swamp</Type>
 <CardText>({T}: Add {B}.)
 Leechridden Swamp enters the battlefield tapped.
-{B}, {T}: Each opponent loses 1 life. Activate this ability only if you control two or more black permanents.</CardText>
+{B}, {T}: Each opponent loses 1 life. Activate only if you control two or more black permanents.</CardText>
 <Artist>Lars Grant-West</Artist>
 <Multiverseid>417488</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1187,7 +1186,7 @@ Leechridden Swamp enters the battlefield tapped.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Nissa vs. Ob Nixilis</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -1202,7 +1201,7 @@ Leechridden Swamp enters the battlefield tapped.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Nissa vs. Ob Nixilis</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -1217,7 +1216,7 @@ Leechridden Swamp enters the battlefield tapped.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Nissa vs. Ob Nixilis</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -1232,7 +1231,7 @@ Leechridden Swamp enters the battlefield tapped.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Nissa vs. Ob Nixilis</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -1247,6 +1246,6 @@ Leechridden Swamp enters the battlefield tapped.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Nissa vs. Ob Nixilis</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 

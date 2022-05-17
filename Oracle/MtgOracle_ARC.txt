@@ -3,7 +3,7 @@
 <No>1</No>
 <Name>Leonin Abunas</Name>
 <Type>Creature — Cat Cleric 2/5</Type>
-<ManaCost>3W (4)</ManaCost>
+<ManaCost>{3}{W}</ManaCost>
 <CardText>Artifacts you control have hexproof. (They can't be the targets of spells or abilities your opponents control.)</CardText>
 <Flavor>Only leonin clerics who can survive the Razor Fields for one turning of the suns can stand in the Cave of Light.</Flavor>
 <Artist>Darrell Riche</Artist>
@@ -20,7 +20,7 @@
 <No>2</No>
 <Name>Metallurgeon</Name>
 <Type>Artifact Creature — Human Artificer 1/2</Type>
-<ManaCost>1W (2)</ManaCost>
+<ManaCost>{1}{W}</ManaCost>
 <CardText>{W}, {T}: Regenerate target artifact.</CardText>
 <Flavor>"By the time I got there, the heart had stopped. Fortunately, I was able to replace it with something better."</Flavor>
 <Artist>Warren Mahy</Artist>
@@ -38,13 +38,13 @@
 <No>3</No>
 <Name>Oblivion Ring</Name>
 <Type>Enchantment</Type>
-<ManaCost>2W (3)</ManaCost>
+<ManaCost>{2}{W}</ManaCost>
 <CardText>When Oblivion Ring enters the battlefield, exile another target nonland permanent.
 When Oblivion Ring leaves the battlefield, return the exiled card to the battlefield under its owner's control.</CardText>
 <Artist>Franz Vohwinkel</Artist>
 <Multiverseid>220586</Multiverseid>
-<Rulings>2007/10/01: If <Oblivion Ring> leaves the battlefield before its first ability has resolved, its second ability will trigger and do nothing. Then its first ability will resolve and exile the targeted nonland permanent forever.
-2007/10/01: If there are no nonland permanents on the battlefield other than an <Oblivion Ring>, and the card it exiled was another <Oblivion Ring>, casting a third <Oblivion Ring> will result in an involuntary infinite loop that will end the game in a draw (unless someone chooses to break it by putting another nonland permanent onto the battlefield or destroying one of the <Oblivion Ring>s, for example).
+<Rulings>2007/10/01: If Oblivion Ring leaves the battlefield before its first ability has resolved, its second ability will trigger and do nothing. Then its first ability will resolve and exile the targeted nonland permanent forever.
+2007/10/01: If there are no nonland permanents on the battlefield other than an Oblivion Ring, and the card it exiled was another Oblivion Ring, casting a third Oblivion Ring will result in an involuntary infinite loop that will end the game in a draw (unless someone chooses to break it by putting another nonland permanent onto the battlefield or destroying one of the Oblivion Rings, for example).
 2008/10/01: If the exiled card is an Aura, that card's owner chooses what it will enchant as it comes back onto the battlefield. An Aura put onto the battlefield this way doesn't target anything, but the Aura's enchant ability restricts what it can be attached to. If the Aura can't legally be attached to anything, it remains exiled forever.
 2012/07/01: Auras attached to the exiled permanent will be put into their owners' graveyards. Equipment attached to the exiled permanent will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist.</Rulings>
 <Vintage>Legal</Vintage>
@@ -59,12 +59,12 @@ When Oblivion Ring leaves the battlefield, return the exiled card to the battlef
 <No>4</No>
 <Name>Path to Exile</Name>
 <Type>Instant</Type>
-<ManaCost>W (1)</ManaCost>
-<CardText>Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle their library.</CardText>
+<ManaCost>{W}</ManaCost>
+<CardText>Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle.</CardText>
 <Artist>Todd Lockwood</Artist>
 <Multiverseid>220511</Multiverseid>
-<Rulings>2017/03/14: If the targeted creature becomes an illegal target by the time <Path to Exile> would resolve, the entire spell doesn't resolve. The creature's controller won't search for a basic land card.
-2017/03/14: The controller of the exiled creature isn't required to search their library for a basic land. If that player doesn't, the player won't shuffle their library.</Rulings>
+<Rulings>2021/03/19: If the target creature is an illegal target by the time Path to Exile tries to resolve, the spell won't resolve. The creature's controller won't search for a basic land card.
+2021/03/19: The controller of the exiled creature isn't required to search their library for a basic land. If that player doesn't, the player won't shuffle their library.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -77,7 +77,7 @@ When Oblivion Ring leaves the battlefield, return the exiled card to the battlef
 <No>5</No>
 <Name>Sanctum Gargoyle</Name>
 <Type>Artifact Creature — Gargoyle 2/3</Type>
-<ManaCost>3W (4)</ManaCost>
+<ManaCost>{3}{W}</ManaCost>
 <CardText>Flying
 When Sanctum Gargoyle enters the battlefield, you may return target artifact card from your graveyard to your hand.</CardText>
 <Flavor>As their supplies of etherium dwindled, mechanists sent gargoyles farther and farther afield in search of salvage.</Flavor>
@@ -96,14 +96,14 @@ When Sanctum Gargoyle enters the battlefield, you may return target artifact car
 <No>6</No>
 <Name>March of the Machines</Name>
 <Type>Enchantment</Type>
-<ManaCost>3U (4)</ManaCost>
-<CardText>Each noncreature artifact is an artifact creature with power and toughness each equal to its converted mana cost. (Equipment that's a creature can't equip a creature.)</CardText>
+<ManaCost>{3}{U}</ManaCost>
+<CardText>Each noncreature artifact is an artifact creature with power and toughness each equal to its mana value. (Equipment that's a creature can't equip a creature.)</CardText>
 <Artist>Ben Thompson</Artist>
 <Multiverseid>220529</Multiverseid>
 <Rulings>2004/12/01: If a noncreature artifact is also another card type, such as enchantment or land, it will retain those types in addition to being an artifact creature.
 2004/12/01: If an Equipment becomes a creature, it can no longer equip a creature. If it's currently attached to a creature, it becomes unattached (but remains on the battlefield). You can activate the Equipment's equip ability, but it won't do anything.
-2004/12/01: Each artifact land has a converted mana cost of 0. <March of the Machines> makes them 0/0 creatures, which are put into the graveyard as a state-based action.
-2007/07/15: If a noncreature artifact becomes an artifact creature this way and then another effect animates it, the new effect overrides <March of the Machines>'s effect. For example, Chimeric Staff is a 4/4 creature while <March of the Machines> is on the battlefield. If you activate Chimeric Staff's ability and choose X = 5, Chimeric Staff will be a 5/5 artifact creature for the rest of the turn.
+2004/12/01: Each artifact land has a converted mana cost of 0. March of the Machines makes them 0/0 creatures, which are put into the graveyard as a state-based action.
+2007/07/15: If a noncreature artifact becomes an artifact creature this way and then another effect animates it, the new effect overrides March of the Machines's effect. For example, Chimeric Staff is a 4/4 creature while March of the Machines is on the battlefield. If you activate Chimeric Staff's ability and choose X = 5, Chimeric Staff will be a 5/5 artifact creature for the rest of the turn.
 2009/10/01: A noncreature permanent that turns into a creature is subject to the "summoning sickness" rule: It can only attack, and its {T} abilities can only be activated, if its controller has continuously controlled that permanent since the beginning of their most recent turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -117,13 +117,13 @@ When Sanctum Gargoyle enters the battlefield, you may return target artifact car
 <No>7</No>
 <Name>Master Transmuter</Name>
 <Type>Artifact Creature — Human Artificer 1/2</Type>
-<ManaCost>3U (4)</ManaCost>
+<ManaCost>{3}{U}</ManaCost>
 <CardText>{U}, {T}, Return an artifact you control to its owner's hand: You may put an artifact card from your hand onto the battlefield.</CardText>
 <Flavor>"Wasted potential surrounds us. Lend me that bauble, and let me see what it can be made to be."</Flavor>
 <Artist>Chippy</Artist>
 <Multiverseid>220510</Multiverseid>
-<Rulings>2009/02/01: Returning an artifact you control to its owner's hand is part of the cost of <Master Transmuter>'s activated ability. Paying a cost can't be responded to (with Naturalize, for example).
-2009/02/01: Since <Master Transmuter> is an artifact, you may return <Master Transmuter> itself to your hand. If you do, the rest of the ability will still work normally.
+<Rulings>2009/02/01: Returning an artifact you control to its owner's hand is part of the cost of Master Transmuter's activated ability. Paying a cost can't be responded to (with Naturalize, for example).
+2009/02/01: Since Master Transmuter is an artifact, you may return Master Transmuter itself to your hand. If you do, the rest of the ability will still work normally.
 2009/02/01: The artifact card you put onto the battlefield when the ability resolves may be the same card that you returned to your hand when you paid the cost. If so, it returns to the battlefield as a new object with no relation to its previous existence.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -137,7 +137,7 @@ When Sanctum Gargoyle enters the battlefield, you may return target artifact car
 <No>8</No>
 <Name>Spin into Myth</Name>
 <Type>Instant</Type>
-<ManaCost>4U (5)</ManaCost>
+<ManaCost>{4}{U}</ManaCost>
 <CardText>Put target creature on top of its owner's library, then fateseal 2. (To fateseal 2, look at the top two cards of an opponent's library, then put any number of them on the bottom of that player's library and the rest on top in any order.)</CardText>
 <Artist>David Day</Artist>
 <Multiverseid>220497</Multiverseid>
@@ -154,13 +154,13 @@ When Sanctum Gargoyle enters the battlefield, you may return target artifact car
 <No>9</No>
 <Name>Avatar of Woe</Name>
 <Type>Creature — Avatar 6/5</Type>
-<ManaCost>6BB (8)</ManaCost>
+<ManaCost>{6}{B}{B}</ManaCost>
 <CardText>If there are ten or more creature cards total in all graveyards, this spell costs {6} less to cast.
 Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)
 {T}: Destroy target creature. It can't be regenerated.</CardText>
 <Artist>rk post</Artist>
 <Multiverseid>220562</Multiverseid>
-<Rulings>2004/10/04: The converted mana cost of this card is still 8, even if you only pay {B}{B} to cast it.</Rulings>
+<Rulings>2004/10/04: The mana value of this card is still 8, even if you only pay {B}{B} to cast it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -173,12 +173,13 @@ Fear (This creature can't be blocked except by artifact creatures and/or black c
 <No>10</No>
 <Name>Beacon of Unrest</Name>
 <Type>Sorcery</Type>
-<ManaCost>3BB (5)</ManaCost>
+<ManaCost>{3}{B}{B}</ManaCost>
 <CardText>Put target artifact or creature card from a graveyard onto the battlefield under your control. Shuffle Beacon of Unrest into its owner's library.</CardText>
 <Flavor>A vertical scream pierces the night air and echoes doom through the clouds.</Flavor>
 <Artist>Alan Pollack</Artist>
 <Multiverseid>220482</Multiverseid>
-<Rulings>2007/07/15: If a Beacon is countered or doesn't resolve, it's put into its owner's graveyard, not shuffled into the library.</Rulings>
+<Rulings>2020/08/07: If the target card is an illegal target by the time Beacon of Unrest tries to resolve, the spell won't resolve. You won't shuffle it into your library.
+2020/08/07: In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, the permanent you control from Beacon of Unrest is exiled.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -191,7 +192,7 @@ Fear (This creature can't be blocked except by artifact creatures and/or black c
 <No>11</No>
 <Name>Bog Witch</Name>
 <Type>Creature — Human Spellshaper 1/1</Type>
-<ManaCost>2B (3)</ManaCost>
+<ManaCost>{2}{B}</ManaCost>
 <CardText>{B}, {T}, Discard a card: Add {B}{B}{B}.</CardText>
 <Flavor>The world is the body. The mana is the blood. The witch is the surgeon.</Flavor>
 <Artist>Gao Yan</Artist>
@@ -208,13 +209,13 @@ Fear (This creature can't be blocked except by artifact creatures and/or black c
 <No>12</No>
 <Name>Cemetery Reaper</Name>
 <Type>Creature — Zombie 2/2</Type>
-<ManaCost>1BB (3)</ManaCost>
+<ManaCost>{1}{B}{B}</ManaCost>
 <CardText>Other Zombie creatures you control get +1/+1.
 {2}{B}, {T}: Exile target creature card from a graveyard. Create a 2/2 black Zombie creature token.</CardText>
 <Flavor>Every grave cradles a recruit.</Flavor>
 <Artist>Dave Allsop</Artist>
 <Multiverseid>220476</Multiverseid>
-<Rulings>2009/10/01: <Cemetery Reaper> grants +1/+1 to all other Zombie creatures you control, not just the ones its ability puts onto the battlefield.
+<Rulings>2009/10/01: Cemetery Reaper grants +1/+1 to all other Zombie creatures you control, not just the ones its ability puts onto the battlefield.
 2009/10/01: The creature card in a graveyard is exiled as part of the activated ability's effect, not as a cost. If that card has left the graveyard by the time the ability would resolve, the ability doesn't resolve and you don't get a Zombie token.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -228,8 +229,8 @@ Fear (This creature can't be blocked except by artifact creatures and/or black c
 <No>13</No>
 <Name>Corpse Connoisseur</Name>
 <Type>Creature — Zombie Wizard 3/3</Type>
-<ManaCost>4B (5)</ManaCost>
-<CardText>When Corpse Connoisseur enters the battlefield, you may search your library for a creature card and put that card into your graveyard. If you do, shuffle your library.
+<ManaCost>{4}{B}</ManaCost>
+<CardText>When Corpse Connoisseur enters the battlefield, you may search your library for a creature card, put that card into your graveyard, then shuffle.
 Unearth {3}{B} ({3}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)</CardText>
 <Artist>Mark Hyzer</Artist>
 <Multiverseid>220567</Multiverseid>
@@ -250,7 +251,7 @@ Unearth {3}{B} ({3}{B}: Return this card from your graveyard to the battlefield.
 <No>14</No>
 <Name>Dregscape Zombie</Name>
 <Type>Creature — Zombie 2/1</Type>
-<ManaCost>1B (2)</ManaCost>
+<ManaCost>{1}{B}</ManaCost>
 <CardText>Unearth {B} ({B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)</CardText>
 <Flavor>The undead of Grixis are fueled by their hatred of the living.</Flavor>
 <Artist>Lars Grant-West</Artist>
@@ -272,14 +273,14 @@ Unearth {3}{B} ({3}{B}: Return this card from your graveyard to the battlefield.
 <No>15</No>
 <Name>Extractor Demon</Name>
 <Type>Creature — Demon 5/5</Type>
-<ManaCost>4BB (6)</ManaCost>
+<ManaCost>{4}{B}{B}</ManaCost>
 <CardText>Flying
-Whenever another creature leaves the battlefield, you may have target player put the top two cards of their library into their graveyard.
+Whenever another creature leaves the battlefield, you may have target player mill two cards.
 Unearth {2}{B} ({2}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)</CardText>
 <Artist>Carl Critchlow</Artist>
 <Multiverseid>220507</Multiverseid>
-<Rulings>2017/03/14: If <Extractor Demon> and another creature leave the battlefield at the same time, <Extractor Demon>'s triggered ability will trigger.
-2017/03/14: You can target any player with <Extractor Demon>'s triggered ability. The target doesn't have to be the controller of the creature that left the battlefield.</Rulings>
+<Rulings>2017/03/14: If Extractor Demon and another creature leave the battlefield at the same time, Extractor Demon's triggered ability will trigger.
+2017/03/14: You can target any player with Extractor Demon's triggered ability. The target doesn't have to be the controller of the creature that left the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -292,7 +293,7 @@ Unearth {2}{B} ({2}{B}: Return this card from your graveyard to the battlefield.
 <No>16</No>
 <Name>Festering Goblin</Name>
 <Type>Creature — Zombie Goblin 1/1</Type>
-<ManaCost>B (1)</ManaCost>
+<ManaCost>{B}</ManaCost>
 <CardText>When Festering Goblin dies, target creature gets -1/-1 until end of turn.</CardText>
 <Flavor>In life, it was a fetid, disease-ridden thing. In death, not much changed.</Flavor>
 <Artist>Thomas M. Baxa</Artist>
@@ -309,12 +310,12 @@ Unearth {2}{B} ({2}{B}: Return this card from your graveyard to the battlefield.
 <No>17</No>
 <Name>Incremental Blight</Name>
 <Type>Sorcery</Type>
-<ManaCost>3BB (5)</ManaCost>
+<ManaCost>{3}{B}{B}</ManaCost>
 <CardText>Put a -1/-1 counter on target creature, two -1/-1 counters on another target creature, and three -1/-1 counters on a third target creature.</CardText>
 <Flavor>Shadowmoor's main crops are rot, slime, and despair.</Flavor>
 <Artist>Chuck Lukacs</Artist>
 <Multiverseid>220546</Multiverseid>
-<Rulings>2008/05/01: You must target three different creatures. If you can't, you can't cast <Incremental Blight>.</Rulings>
+<Rulings>2008/05/01: You must target three different creatures. If you can't, you can't cast Incremental Blight.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -327,12 +328,12 @@ Unearth {2}{B} ({2}{B}: Return this card from your graveyard to the battlefield.
 <No>18</No>
 <Name>Infectious Horror</Name>
 <Type>Creature — Zombie Horror 2/2</Type>
-<ManaCost>3B (4)</ManaCost>
+<ManaCost>{3}{B}</ManaCost>
 <CardText>Whenever Infectious Horror attacks, each opponent loses 2 life.</CardText>
 <Flavor>Not once in the history of Grixis has anyone died of old age.</Flavor>
 <Artist>Pete Venters</Artist>
 <Multiverseid>220508</Multiverseid>
-<Rulings>2018/07/13: In a Two-Headed Giant game, <Infectious Horror>'s ability causes the opposing team to lose 4 life.</Rulings>
+<Rulings>2018/07/13: In a Two-Headed Giant game, Infectious Horror's ability causes the opposing team to lose 4 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -345,7 +346,7 @@ Unearth {2}{B} ({2}{B}: Return this card from your graveyard to the battlefield.
 <No>19</No>
 <Name>Infest</Name>
 <Type>Sorcery</Type>
-<ManaCost>1BB (3)</ManaCost>
+<ManaCost>{1}{B}{B}</ManaCost>
 <CardText>All creatures get -2/-2 until end of turn.</CardText>
 <Flavor>"This is why we don't go out in banewasp weather."
 —Rannon, Vithian holdout</Flavor>
@@ -363,7 +364,7 @@ Unearth {2}{B} ({2}{B}: Return this card from your graveyard to the battlefield.
 <No>20</No>
 <Name>Makeshift Mannequin</Name>
 <Type>Instant</Type>
-<ManaCost>3B (4)</ManaCost>
+<ManaCost>{3}{B}</ManaCost>
 <CardText>Return target creature card from your graveyard to the battlefield with a mannequin counter on it. For as long as that creature has a mannequin counter on it, it has "When this creature becomes the target of a spell or ability, sacrifice it."</CardText>
 <Flavor>"This vulgar mimicry will end now."
 —Desmera, perfect of Wren's Run</Flavor>
@@ -381,8 +382,8 @@ Unearth {2}{B} ({2}{B}: Return this card from your graveyard to the battlefield.
 <No>21</No>
 <Name>Reanimate</Name>
 <Type>Sorcery</Type>
-<ManaCost>B (1)</ManaCost>
-<CardText>Put target creature card from a graveyard onto the battlefield under your control. You lose life equal to its converted mana cost.</CardText>
+<ManaCost>{B}</ManaCost>
+<CardText>Put target creature card from a graveyard onto the battlefield under your control. You lose life equal to its mana value.</CardText>
 <Flavor>"You will learn to earn death."
 —Volrath</Flavor>
 <Artist>Robert Bliss</Artist>
@@ -391,7 +392,7 @@ Unearth {2}{B} ({2}{B}: Return this card from your graveyard to the battlefield.
 2018/12/07: The amount of life you lose is determined by the converted mana cost of the card in your graveyard, not the creature once it's on the battlefield.
 2018/12/07: You lose life after the creature is already on the battlefield. Any abilities it has that interact with loss of life, such as that of Platinum Emperion, apply to that loss of life.
 2018/12/07: If any abilities trigger on the creature entering the battlefield, those abilities resolve after you lose life. If losing life results in you losing the game, those abilities won't resolve.
-2018/12/07: In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, the creature you control from <Reanimate> is exiled.</Rulings>
+2018/12/07: In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, the creature you control from Reanimate is exiled.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Archenemy</Set>
@@ -403,7 +404,7 @@ Unearth {2}{B} ({2}{B}: Return this card from your graveyard to the battlefield.
 <No>22</No>
 <Name>Reassembling Skeleton</Name>
 <Type>Creature — Skeleton Warrior 1/1</Type>
-<ManaCost>1B (2)</ManaCost>
+<ManaCost>{1}{B}</ManaCost>
 <CardText>{1}{B}: Return Reassembling Skeleton from your graveyard to the battlefield tapped.</CardText>
 <Flavor>Though you may see the same bones, you'll never see the same skeleton twice.</Flavor>
 <Artist>Austin Hsu</Artist>
@@ -420,7 +421,7 @@ Unearth {2}{B} ({2}{B}: Return this card from your graveyard to the battlefield.
 <No>23</No>
 <Name>Scion of Darkness</Name>
 <Type>Creature — Avatar 6/6</Type>
-<ManaCost>5BBB (8)</ManaCost>
+<ManaCost>{5}{B}{B}{B}</ManaCost>
 <CardText>Trample
 Whenever Scion of Darkness deals combat damage to a player, you may put target creature card from that player's graveyard onto the battlefield under your control.
 Cycling {3} ({3}, Discard this card: Draw a card.)</CardText>
@@ -439,13 +440,14 @@ Cycling {3} ({3}, Discard this card: Draw a card.)</CardText>
 <No>24</No>
 <Name>Shriekmaw</Name>
 <Type>Creature — Elemental 3/2</Type>
-<ManaCost>4B (5)</ManaCost>
+<ManaCost>{4}{B}</ManaCost>
 <CardText>Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)
 When Shriekmaw enters the battlefield, destroy target nonartifact, nonblack creature.
 Evoke {1}{B} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)</CardText>
 <Artist>Steve Prescott</Artist>
 <Multiverseid>220572</Multiverseid>
-<Rulings>2013/04/15: If you cast this card for its evoke cost, you may put the sacrifice trigger and the regular enters-the-battlefield trigger on the stack in either order. The one put on the stack last will resolve first.</Rulings>
+<Rulings>2021/03/19: To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an evoke cost), add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+2021/03/19: If you pay the evoke cost, you can have Shriekmaw's own triggered ability resolve before the evoke triggered ability. You can cast spells after that ability resolves but before you have to sacrifice Shriekmaw.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -458,7 +460,7 @@ Evoke {1}{B} (You may cast this spell for its evoke cost. If you do, it's sacrif
 <No>25</No>
 <Name>Sign in Blood</Name>
 <Type>Sorcery</Type>
-<ManaCost>BB (2)</ManaCost>
+<ManaCost>{B}{B}</ManaCost>
 <CardText>Target player draws two cards and loses 2 life.</CardText>
 <Flavor>"You know I accept only one currency here, and yet you have sought me out. Why now do you hesitate?"
 —Xathrid demon</Flavor>
@@ -476,9 +478,9 @@ Evoke {1}{B} (You may cast this spell for its evoke cost. If you do, it's sacrif
 <No>26</No>
 <Name>Twisted Abomination</Name>
 <Type>Creature — Zombie Mutant 5/3</Type>
-<ManaCost>5B (6)</ManaCost>
+<ManaCost>{5}{B}</ManaCost>
 <CardText>{B}: Regenerate Twisted Abomination.
-Swampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle your library.)</CardText>
+Swampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle.)</CardText>
 <Artist>Daren Bader</Artist>
 <Multiverseid>220564</Multiverseid>
 <Rulings>2016/06/08: Unlike the normal cycling ability, Swampcycling doesn't allow you to draw a card. Instead, it lets you search your library for a Swamp card. After you find a Swamp card in your library, you reveal it, put it into your hand, then shuffle your library.
@@ -497,7 +499,7 @@ Swampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, 
 <No>27</No>
 <Name>Urborg Syphon-Mage</Name>
 <Type>Creature — Human Spellshaper 2/2</Type>
-<ManaCost>2B (3)</ManaCost>
+<ManaCost>{2}{B}</ManaCost>
 <CardText>{2}{B}, {T}, Discard a card: Each other player loses 2 life. You gain life equal to the life lost this way.</CardText>
 <Flavor>"I have become a gourmet of sorts. Each soul has its own distinctive flavor. The art is in inviting the right company to the feast."</Flavor>
 <Artist>Greg Staples</Artist>
@@ -514,7 +516,7 @@ Swampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, 
 <No>28</No>
 <Name>Zombie Infestation</Name>
 <Type>Enchantment</Type>
-<ManaCost>1B (2)</ManaCost>
+<ManaCost>{1}{B}</ManaCost>
 <CardText>Discard two cards: Create a 2/2 black Zombie creature token.</CardText>
 <Flavor>The nomads' funeral pyres are more practical than ceremonial.</Flavor>
 <Artist>Thomas M. Baxa</Artist>
@@ -531,7 +533,7 @@ Swampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, 
 <No>29</No>
 <Name>Zombify</Name>
 <Type>Sorcery</Type>
-<ManaCost>3B (4)</ManaCost>
+<ManaCost>{3}{B}</ManaCost>
 <CardText>Return target creature card from your graveyard to the battlefield.</CardText>
 <Flavor>"The first birth celebrates life. The second birth mocks it."
 —Mystic elder</Flavor>
@@ -549,7 +551,7 @@ Swampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, 
 <No>30</No>
 <Name>Battering Craghorn</Name>
 <Type>Creature — Goat Beast 3/1</Type>
-<ManaCost>2RR (4)</ManaCost>
+<ManaCost>{2}{R}{R}</ManaCost>
 <CardText>First strike
 Morph {1}{R}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)</CardText>
 <Flavor>Their skeletons can be found all over Skirk Ridge, tangled in each other's horns.</Flavor>
@@ -566,7 +568,7 @@ Morph {1}{R}{R} (You may cast this card face down as a 2/2 creature for {3}. Tur
 <No>31</No>
 <Name>Breath of Darigaaz</Name>
 <Type>Sorcery</Type>
-<ManaCost>1R (2)</ManaCost>
+<ManaCost>{1}{R}</ManaCost>
 <CardText>Kicker {2} (You may pay an additional {2} as you cast this spell.)
 Breath of Darigaaz deals 1 damage to each creature without flying and each player. If this spell was kicked, it deals 4 damage to each creature without flying and each player instead.</CardText>
 <Artist>Greg Hildebrandt & Tim Hildebrandt</Artist>
@@ -582,13 +584,13 @@ Breath of Darigaaz deals 1 damage to each creature without flying and each playe
 <No>32</No>
 <Name>Chandra's Outrage</Name>
 <Type>Instant</Type>
-<ManaCost>2RR (4)</ManaCost>
+<ManaCost>{2}{R}{R}</ManaCost>
 <CardText>Chandra's Outrage deals 4 damage to target creature and 2 damage to that creature's controller.</CardText>
 <Flavor>"Her mind is an incredible mix of emotion and power. Even if I could grasp it, I couldn't hold it for long."
 —Jace Beleren, on Chandra Nalaar</Flavor>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>220513</Multiverseid>
-<Rulings>2019/07/12: If the target creature is an illegal target by the time <Chandra's Outrage> tries to resolve, the spell doesn't resolve. No player is dealt damage.</Rulings>
+<Rulings>2019/07/12: If the target creature is an illegal target by the time Chandra's Outrage tries to resolve, the spell doesn't resolve. No player is dealt damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -601,11 +603,11 @@ Breath of Darigaaz deals 1 damage to each creature without flying and each playe
 <No>33</No>
 <Name>Dragon Breath</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>1R (2)</ManaCost>
+<ManaCost>{1}{R}</ManaCost>
 <CardText>Enchant creature
 Enchanted creature has haste.
 {R}: Enchanted creature gets +1/+0 until end of turn.
-When a creature with converted mana cost 6 or greater enters the battlefield, you may return Dragon Breath from your graveyard to the battlefield attached to that creature.</CardText>
+When a creature with mana value 6 or greater enters the battlefield, you may return Dragon Breath from your graveyard to the battlefield attached to that creature.</CardText>
 <Artist>Greg Staples</Artist>
 <Multiverseid>220473</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -619,7 +621,7 @@ When a creature with converted mana cost 6 or greater enters the battlefield, yo
 <No>34</No>
 <Name>Dragon Fodder</Name>
 <Type>Sorcery</Type>
-<ManaCost>1R (2)</ManaCost>
+<ManaCost>{1}{R}</ManaCost>
 <CardText>Create two 1/1 red Goblin creature tokens.</CardText>
 <Flavor>Goblins journey to the sacrificial peaks in pairs so that the rare survivor might be able to relate the details of the other's grisly demise.</Flavor>
 <Artist>Jaime Jones</Artist>
@@ -636,13 +638,13 @@ When a creature with converted mana cost 6 or greater enters the battlefield, yo
 <No>35</No>
 <Name>Dragon Whelp</Name>
 <Type>Creature — Dragon 2/3</Type>
-<ManaCost>2RR (4)</ManaCost>
+<ManaCost>{2}{R}{R}</ManaCost>
 <CardText>Flying
 {R}: Dragon Whelp gets +1/+0 until end of turn. If this ability has been activated four or more times this turn, sacrifice Dragon Whelp at the beginning of the next end step.</CardText>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>220477</Multiverseid>
-<Rulings>2009/10/01: The first three times <Dragon Whelp>'s ability is activated in a turn will do nothing other than give it +1/+0 until end of turn. Any subsequent activations will also cause its delayed triggered ability to trigger. That means if you activate <Dragon Whelp>'s ability five times, for example, two different delayed triggered abilities will trigger at the beginning of the next end step and cause you to sacrifice <Dragon Whelp>.
-2009/10/01: If the fourth (or more) time <Dragon Whelp>'s ability is activated during the same turn happens to be during that turn's end step, the delayed triggered ability won't trigger until the beginning of the next turn's end step. You'll have to sacrifice <Dragon Whelp> at that time.</Rulings>
+<Rulings>2009/10/01: The first three times Dragon Whelp's ability is activated in a turn will do nothing other than give it +1/+0 until end of turn. Any subsequent activations will also cause its delayed triggered ability to trigger. That means if you activate Dragon Whelp's ability five times, for example, two different delayed triggered abilities will trigger at the beginning of the next end step and cause you to sacrifice Dragon Whelp.
+2009/10/01: If the fourth (or more) time Dragon Whelp's ability is activated during the same turn happens to be during that turn's end step, the delayed triggered ability won't trigger until the beginning of the next turn's end step. You'll have to sacrifice Dragon Whelp at that time.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -655,7 +657,7 @@ When a creature with converted mana cost 6 or greater enters the battlefield, yo
 <No>36</No>
 <Name>Dragonspeaker Shaman</Name>
 <Type>Creature — Human Barbarian Shaman 2/2</Type>
-<ManaCost>1RR (3)</ManaCost>
+<ManaCost>{1}{R}{R}</ManaCost>
 <CardText>Dragon spells you cast cost {2} less to cast.</CardText>
 <Flavor>"We speak the dragons' language of flame and rage. They speak our language of fury and honor. Together we shall weave a tale of destruction without equal."</Flavor>
 <Artist>Kev Walker</Artist>
@@ -671,15 +673,15 @@ When a creature with converted mana cost 6 or greater enters the battlefield, yo
 <No>37</No>
 <Name>Fireball</Name>
 <Type>Sorcery</Type>
-<ManaCost>XR (1)</ManaCost>
+<ManaCost>{X}{R}</ManaCost>
 <CardText>This spell costs {1} more to cast for each target beyond the first.
 Fireball deals X damage divided evenly, rounded down, among any number of targets.</CardText>
 <Artist>Dave Dorman</Artist>
 <Multiverseid>220478</Multiverseid>
-<Rulings>2017/11/17: For example, if X is 5 and you choose three target creatures, <Fireball> has a total cost of {7}{R} (even though its mana cost is just {5}{R} and its converted mana cost is 6). If those creatures are all still legal targets as <Fireball> resolves, it deals 1 damage to each of them.
-2017/11/17: You may cast <Fireball> with zero targets, regardless of the value chosen for X. If you do so, it will not be a targeted spell, and no damage will actually be dealt when it resolves.
-2017/11/17: <Fireball>'s damage is divided as <Fireball> resolves, not as it's cast, because there are no choices involved. The division involves only targets that are still legal as <Fireball> resolves.
-2017/11/17: You can target more than X creatures. However, if the number of legal targets at the time <Fireball> resolves is greater than X, none of them will be dealt any damage.</Rulings>
+<Rulings>2017/11/17: For example, if X is 5 and you choose three target creatures, Fireball has a total cost of {7}{R} (even though its mana cost is just {5}{R} and its converted mana cost is 6). If those creatures are all still legal targets as Fireball resolves, it deals 1 damage to each of them.
+2017/11/17: You may cast Fireball with zero targets, regardless of the value chosen for X. If you do so, it will not be a targeted spell, and no damage will actually be dealt when it resolves.
+2017/11/17: Fireball's damage is divided as Fireball resolves, not as it's cast, because there are no choices involved. The division involves only targets that are still legal as Fireball resolves.
+2017/11/17: You can target more than X creatures. However, if the number of legal targets at the time Fireball resolves is greater than X, none of them will be dealt any damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -692,7 +694,7 @@ Fireball deals X damage divided evenly, rounded down, among any number of target
 <No>38</No>
 <Name>Flameblast Dragon</Name>
 <Type>Creature — Dragon 5/5</Type>
-<ManaCost>4RR (6)</ManaCost>
+<ManaCost>{4}{R}{R}</ManaCost>
 <CardText>Flying
 Whenever Flameblast Dragon attacks, you may pay {X}{R}. If you do, Flameblast Dragon deals X damage to any target.</CardText>
 <Flavor>Dragon lords of Jund rule by edicts of flame.</Flavor>
@@ -711,7 +713,7 @@ Whenever Flameblast Dragon attacks, you may pay {X}{R}. If you do, Flameblast Dr
 <No>39</No>
 <Name>Furnace Whelp</Name>
 <Type>Creature — Dragon 2/2</Type>
-<ManaCost>2RR (4)</ManaCost>
+<ManaCost>{2}{R}{R}</ManaCost>
 <CardText>Flying (This creature can't be blocked except by creatures with flying or reach.)
 {R}: Furnace Whelp gets +1/+0 until end of turn.</CardText>
 <Flavor>Baby dragons can't figure out humans—if they didn't want to be killed, why were they made of meat and treasure?</Flavor>
@@ -729,11 +731,12 @@ Whenever Flameblast Dragon attacks, you may pay {X}{R}. If you do, Flameblast Dr
 <No>40</No>
 <Name>Gathan Raiders</Name>
 <Type>Creature — Human Warrior 3/3</Type>
-<ManaCost>3RR (5)</ManaCost>
+<ManaCost>{3}{R}{R}</ManaCost>
 <CardText>Hellbent — Gathan Raiders gets +2/+2 as long as you have no cards in hand.
 Morph—Discard a card. (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)</CardText>
 <Artist>Paolo Parente</Artist>
 <Multiverseid>220495</Multiverseid>
+<Rulings>2021/03/19: Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to Gathan Raiders while your hand is empty may become lethal if a card is put into your hand during that turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -746,15 +749,15 @@ Morph—Discard a card. (You may cast this card face down as a 2/2 creature for 
 <No>41</No>
 <Name>Hellkite Charger</Name>
 <Type>Creature — Dragon 5/5</Type>
-<ManaCost>4RR (6)</ManaCost>
+<ManaCost>{4}{R}{R}</ManaCost>
 <CardText>Flying, haste
 Whenever Hellkite Charger attacks, you may pay {5}{R}{R}. If you do, untap all attacking creatures and after this phase, there is an additional combat phase.</CardText>
 <Artist>Jaime Jones</Artist>
 <Multiverseid>220468</Multiverseid>
-<Rulings>2009/10/01: You decide whether to pay {5}{R}{R} as <Hellkite Charger>'s ability resolves.
+<Rulings>2009/10/01: You decide whether to pay {5}{R}{R} as Hellkite Charger's ability resolves.
 2009/10/01: If you pay {5}{R}{R}, the new combat phase immediately follows the current combat phase. There is no main phase in between.
-2009/10/01: <Hellkite Charger>'s ability may trigger multiple times in the same turn, since its own ability gives it multiple chances to attack. Each time it resolves, you may create an additional combat phase.
-2009/10/01: If two <Hellkite Charger>s attack at the same time, both of their abilities trigger. If you pay {5}{R}{R} for each, two new combat phases will be created. However, all attacking creatures untap as those abilities resolve, not as the combat phases start. Any creature that attacks in the second combat phase will remain tapped during the third combat phase.</Rulings>
+2009/10/01: Hellkite Charger's ability may trigger multiple times in the same turn, since its own ability gives it multiple chances to attack. Each time it resolves, you may create an additional combat phase.
+2009/10/01: If two Hellkite Chargers attack at the same time, both of their abilities trigger. If you pay {5}{R}{R} for each, two new combat phases will be created. However, all attacking creatures untap as those abilities resolve, not as the combat phases start. Any creature that attacks in the second combat phase will remain tapped during the third combat phase.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -767,10 +770,10 @@ Whenever Hellkite Charger attacks, you may pay {5}{R}{R}. If you do, untap all a
 <No>42</No>
 <Name>Imperial Hellkite</Name>
 <Type>Creature — Dragon 6/6</Type>
-<ManaCost>5RR (7)</ManaCost>
+<ManaCost>{5}{R}{R}</ManaCost>
 <CardText>Flying
 Morph {6}{R}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
-When Imperial Hellkite is turned face up, you may search your library for a Dragon card, reveal it, and put it into your hand. If you do, shuffle your library.</CardText>
+When Imperial Hellkite is turned face up, you may search your library for a Dragon card, reveal it, put it into your hand, then shuffle.</CardText>
 <Artist>Matt Cavotta</Artist>
 <Multiverseid>220464</Multiverseid>
 <Rulings>2004/10/04: You do not have to find a Dragon card if you do not want to, even if you have one in your library.
@@ -786,7 +789,7 @@ When Imperial Hellkite is turned face up, you may search your library for a Drag
 <No>43</No>
 <Name>Inferno Trap</Name>
 <Type>Instant — Trap</Type>
-<ManaCost>3R (4)</ManaCost>
+<ManaCost>{3}{R}</ManaCost>
 <CardText>If you've been dealt damage by two or more creatures this turn, you may pay {R} rather than pay this spell's mana cost.
 Inferno Trap deals 4 damage to target creature.</CardText>
 <Flavor>"Do you smell something burning?"</Flavor>
@@ -795,7 +798,7 @@ Inferno Trap deals 4 damage to target creature.</CardText>
 <Rulings>2009/10/01: You may ignore a Trap's alternative cost condition and simply cast it for its normal mana cost. This is true even if its alternative cost condition has been met.
 2009/10/01: Casting a Trap by paying its alternative cost doesn't change its mana cost or converted mana cost. The only difference is the cost you actually pay.
 2009/10/01: Effects that increase or reduce the cost to cast a Trap will apply to whichever cost you chose to pay.
-2009/10/01: <Inferno Trap>'s alternative cost condition checks for any damage, not just combat damage.
+2009/10/01: Inferno Trap's alternative cost condition checks for any damage, not just combat damage.
 2009/10/01: The alternative cost condition doesn't check who controlled the creatures that dealt damage to you. Damage dealt to you by your own creatures counts.
 2009/10/01: The alternative cost condition is satisfied only if two different creatures dealt damage to you, not if one creature dealt damage to you twice. The damage may have been dealt to you simultaneously (as with combat damage), or at separate times.
 2009/10/01: You may target any creature, not just one that dealt damage to you this turn.</Rulings>
@@ -811,7 +814,7 @@ Inferno Trap deals 4 damage to target creature.</CardText>
 <No>44</No>
 <Name>Kilnmouth Dragon</Name>
 <Type>Creature — Dragon 5/5</Type>
-<ManaCost>5RR (7)</ManaCost>
+<ManaCost>{5}{R}{R}</ManaCost>
 <CardText>Amplify 3 (As this creature enters the battlefield, put three +1/+1 counters on it for each Dragon card you reveal in your hand.)
 Flying
 {T}: Kilnmouth Dragon deals damage equal to the number of +1/+1 counters on it to any target.</CardText>
@@ -828,7 +831,7 @@ Flying
 <No>45</No>
 <Name>Ryusei, the Falling Star</Name>
 <Type>Legendary Creature — Dragon Spirit 5/5</Type>
-<ManaCost>5R (6)</ManaCost>
+<ManaCost>{5}{R}</ManaCost>
 <CardText>Flying
 When Ryusei, the Falling Star dies, it deals 5 damage to each creature without flying.</CardText>
 <Artist>Nottsuo</Artist>
@@ -845,7 +848,7 @@ When Ryusei, the Falling Star dies, it deals 5 damage to each creature without f
 <No>46</No>
 <Name>Seething Song</Name>
 <Type>Instant</Type>
-<ManaCost>2R (3)</ManaCost>
+<ManaCost>{2}{R}</ManaCost>
 <CardText>Add {R}{R}{R}{R}{R}.</CardText>
 <Flavor>Vulshok mana rituals echo the day when the red sun burst through Mirrodin's surface to take its place in the heavens.</Flavor>
 <Artist>Martina Pilcerova</Artist>
@@ -862,7 +865,7 @@ When Ryusei, the Falling Star dies, it deals 5 damage to each creature without f
 <No>47</No>
 <Name>Skirk Commando</Name>
 <Type>Creature — Goblin 2/1</Type>
-<ManaCost>1RR (3)</ManaCost>
+<ManaCost>{1}{R}{R}</ManaCost>
 <CardText>Whenever Skirk Commando deals combat damage to a player, you may have it deal 2 damage to target creature that player controls.
 Morph {2}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)</CardText>
 <Artist>Dave Dorman</Artist>
@@ -878,7 +881,7 @@ Morph {2}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn i
 <No>48</No>
 <Name>Skirk Marauder</Name>
 <Type>Creature — Goblin 2/1</Type>
-<ManaCost>1R (2)</ManaCost>
+<ManaCost>{1}{R}</ManaCost>
 <CardText>Morph {2}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 When Skirk Marauder is turned face up, it deals 2 damage to any target.</CardText>
 <Artist>Pete Venters</Artist>
@@ -895,7 +898,7 @@ When Skirk Marauder is turned face up, it deals 2 damage to any target.</CardTex
 <No>49</No>
 <Name>Taurean Mauler</Name>
 <Type>Creature — Shapeshifter 2/2</Type>
-<ManaCost>2R (3)</ManaCost>
+<ManaCost>{2}{R}</ManaCost>
 <CardText>Changeling (This card is every creature type.)
 Whenever an opponent casts a spell, you may put a +1/+1 counter on Taurean Mauler.</CardText>
 <Flavor>The power of a waterfall. The fury of an avalanche. The intellect of a gale-force wind.</Flavor>
@@ -913,7 +916,7 @@ Whenever an opponent casts a spell, you may put a +1/+1 counter on Taurean Maule
 <No>50</No>
 <Name>Two-Headed Dragon</Name>
 <Type>Creature — Dragon 4/4</Type>
-<ManaCost>4RR (6)</ManaCost>
+<ManaCost>{4}{R}{R}</ManaCost>
 <CardText>Flying
 Menace (This creature can't be blocked except by two or more creatures.)
 Two-Headed Dragon can block an additional creature each combat.
@@ -932,14 +935,14 @@ Two-Headed Dragon can block an additional creature each combat.
 <No>51</No>
 <Name>Volcanic Fallout</Name>
 <Type>Instant</Type>
-<ManaCost>1RR (3)</ManaCost>
+<ManaCost>{1}{R}{R}</ManaCost>
 <CardText>This spell can't be countered.
 Volcanic Fallout deals 2 damage to each creature and each player.</CardText>
 <Flavor>"How can we outrun the sky?"
 —Hadran, sunseeder of Naya</Flavor>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Multiverseid>220512</Multiverseid>
-<Rulings>2009/02/01: <Volcanic Fallout> can be targeted by spells that try to counter it (such as Countersquall). Those spells will still resolve, but the part of their effect that would counter <Volcanic Fallout> won't do anything. Any other effects those spells have will work as normal.</Rulings>
+<Rulings>2009/02/01: Volcanic Fallout can be targeted by spells that try to counter it (such as Countersquall). Those spells will still resolve, but the part of their effect that would counter Volcanic Fallout won't do anything. Any other effects those spells have will work as normal.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -952,7 +955,7 @@ Volcanic Fallout deals 2 damage to each creature and each player.</CardText>
 <No>52</No>
 <Name>Chameleon Colossus</Name>
 <Type>Creature — Shapeshifter 4/4</Type>
-<ManaCost>2GG (4)</ManaCost>
+<ManaCost>{2}{G}{G}</ManaCost>
 <CardText>Changeling (This card is every creature type.)
 Protection from black
 {2}{G}{G}: Chameleon Colossus gets +X/+X until end of turn, where X is its power.</CardText>
@@ -970,7 +973,7 @@ Protection from black
 <No>53</No>
 <Name>Feral Hydra</Name>
 <Type>Creature — Hydra Beast 0/0</Type>
-<ManaCost>XG (1)</ManaCost>
+<ManaCost>{X}{G}</ManaCost>
 <CardText>Feral Hydra enters the battlefield with X +1/+1 counters on it.
 {3}: Put a +1/+1 counter on Feral Hydra. Any player may activate this ability.</CardText>
 <Flavor>It shreds its prey as each head fights for the choicest bits.</Flavor>
@@ -988,12 +991,12 @@ Protection from black
 <No>54</No>
 <Name>Fertilid</Name>
 <Type>Creature — Elemental 0/0</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>Fertilid enters the battlefield with two +1/+1 counters on it.
-{1}{G}, Remove a +1/+1 counter from Fertilid: Target player searches their library for a basic land card, puts it onto the battlefield tapped, then shuffles their library.</CardText>
+{1}{G}, Remove a +1/+1 counter from Fertilid: Target player searches their library for a basic land card, puts it onto the battlefield tapped, then shuffles.</CardText>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>220452</Multiverseid>
-<Rulings>2008/04/01: Although the targeted player doesn't need to find a basic land card if they don't want to, that player must shuffle their library.</Rulings>
+<Rulings>2020/11/10: Although the targeted player doesn't need to find a basic land card if they don't want to, that player must shuffle their library.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1006,12 +1009,14 @@ Protection from black
 <No>55</No>
 <Name>Fierce Empath</Name>
 <Type>Creature — Elf 1/1</Type>
-<ManaCost>2G (3)</ManaCost>
-<CardText>When Fierce Empath enters the battlefield, you may search your library for a creature card with converted mana cost 6 or greater, reveal it, put it into your hand, then shuffle your library.</CardText>
+<ManaCost>{2}{G}</ManaCost>
+<CardText>When Fierce Empath enters the battlefield, you may search your library for a creature card with mana value 6 or greater, reveal it, put it into your hand, then shuffle.</CardText>
 <Artist>Alan Pollack</Artist>
 <Multiverseid>220475</Multiverseid>
+<Rulings>2020/06/23: If a card in a player's library has {X} in its mana cost, X is considered to be 0.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
+<Modern>Legal</Modern>
 <Set>Archenemy</Set>
 <Rarity>Common</Rarity>
 </Card>
@@ -1021,7 +1026,7 @@ Protection from black
 <No>56</No>
 <Name>Fog</Name>
 <Type>Instant</Type>
-<ManaCost>G (1)</ManaCost>
+<ManaCost>{G}</ManaCost>
 <CardText>Prevent all combat damage that would be dealt this turn.</CardText>
 <Flavor>"I fear no army or beast, but only the morning fog. Our assault can survive everything else."
 —Lord Hilneth</Flavor>
@@ -1039,7 +1044,7 @@ Protection from black
 <No>57</No>
 <Name>Forgotten Ancient</Name>
 <Type>Creature — Elemental 0/3</Type>
-<ManaCost>3G (4)</ManaCost>
+<ManaCost>{3}{G}</ManaCost>
 <CardText>Whenever a player casts a spell, you may put a +1/+1 counter on Forgotten Ancient.
 At the beginning of your upkeep, you may move any number of +1/+1 counters from Forgotten Ancient onto other creatures.</CardText>
 <Flavor>Its blood is life. Its body is growth.</Flavor>
@@ -1060,7 +1065,7 @@ At the beginning of your upkeep, you may move any number of +1/+1 counters from 
 <No>58</No>
 <Name>Gleeful Sabotage</Name>
 <Type>Sorcery</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>Destroy target artifact or enchantment.
 Conspire (As you cast this spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose a new target for the copy.)</CardText>
 <Artist>Todd Lockwood</Artist>
@@ -1077,12 +1082,11 @@ Conspire (As you cast this spell, you may tap two untapped creatures you control
 <No>59</No>
 <Name>Harmonize</Name>
 <Type>Sorcery</Type>
-<ManaCost>2GG (4)</ManaCost>
+<ManaCost>{2}{G}{G}</ManaCost>
 <CardText>Draw three cards.</CardText>
 <Flavor>"Words lie. People lie. The land tells the truth."</Flavor>
 <Artist>Paul Lee</Artist>
 <Multiverseid>220584</Multiverseid>
-<Rulings>2007/02/01: This is the timeshifted version of Concentrate.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1095,7 +1099,7 @@ Conspire (As you cast this spell, you may tap two untapped creatures you control
 <No>60</No>
 <Name>Hunting Moa</Name>
 <Type>Creature — Bird Beast 3/2</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>Echo {2}{G} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
 When Hunting Moa enters the battlefield or dies, put a +1/+1 counter on target creature.</CardText>
 <Artist>DiTerlizzi</Artist>
@@ -1113,7 +1117,7 @@ When Hunting Moa enters the battlefield or dies, put a +1/+1 counter on target c
 <No>61</No>
 <Name>Kamahl, Fist of Krosa</Name>
 <Type>Legendary Creature — Human Druid 4/3</Type>
-<ManaCost>4GG (6)</ManaCost>
+<ManaCost>{4}{G}{G}</ManaCost>
 <CardText>{G}: Target land becomes a 1/1 creature until end of turn. It's still a land.
 {2}{G}{G}{G}: Creatures you control get +3/+3 and gain trample until end of turn.</CardText>
 <Flavor>"My mind has changed. My strength has not."</Flavor>
@@ -1133,9 +1137,9 @@ When Hunting Moa enters the battlefield or dies, put a +1/+1 counter on target c
 <No>62</No>
 <Name>Krosan Tusker</Name>
 <Type>Creature — Boar Beast 6/5</Type>
-<ManaCost>5GG (7)</ManaCost>
+<ManaCost>{5}{G}{G}</ManaCost>
 <CardText>Cycling {2}{G} ({2}{G}, Discard this card: Draw a card.)
-When you cycle Krosan Tusker, you may search your library for a basic land card, reveal that card, put it into your hand, then shuffle your library. (Do this before you draw.)</CardText>
+When you cycle Krosan Tusker, you may search your library for a basic land card, reveal that card, put it into your hand, then shuffle. (Do this before you draw.)</CardText>
 <Artist>Kev Walker</Artist>
 <Multiverseid>220491</Multiverseid>
 <Rulings>2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
@@ -1153,7 +1157,7 @@ When you cycle Krosan Tusker, you may search your library for a basic land card,
 <No>63</No>
 <Name>Leaf Gilder</Name>
 <Type>Creature — Elf Druid 2/1</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>{T}: Add {G}.</CardText>
 <Flavor>Eidren, perfect of Lys Alana, ordered hundreds of trees uprooted and rearranged into a pattern he deemed beautiful. Thus the Gilt-Leaf Wood was born.</Flavor>
 <Artist>Quinton Hoover</Artist>
@@ -1170,7 +1174,7 @@ When you cycle Krosan Tusker, you may search your library for a basic land card,
 <No>64</No>
 <Name>Molimo, Maro-Sorcerer</Name>
 <Type>Legendary Creature — Elemental */*</Type>
-<ManaCost>4GGG (7)</ManaCost>
+<ManaCost>{4}{G}{G}{G}</ManaCost>
 <CardText>Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)
 Molimo, Maro-Sorcerer's power and toughness are each equal to the number of lands you control.</CardText>
 <Flavor>"My mind is the spread of the canopy. My heart is the embrace of the roots. I am deathless Llanowar, its fury and its peace."</Flavor>
@@ -1188,7 +1192,7 @@ Molimo, Maro-Sorcerer's power and toughness are each equal to the number of land
 <No>65</No>
 <Name>Plummet</Name>
 <Type>Instant</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>Destroy target creature with flying.</CardText>
 <Flavor>"You are the grandest of all," said the archdruid to the trees. They became so proud of bark and branch that they suffered no creature to fly overhead or perch upon a bough.</Flavor>
 <Artist>Pete Venters</Artist>
@@ -1205,16 +1209,16 @@ Molimo, Maro-Sorcerer's power and toughness are each equal to the number of land
 <No>66</No>
 <Name>Primal Command</Name>
 <Type>Sorcery</Type>
-<ManaCost>3GG (5)</ManaCost>
+<ManaCost>{3}{G}{G}</ManaCost>
 <CardText>Choose two —
 • Target player gains 7 life.
 • Put target noncreature permanent on top of its owner's library.
 • Target player shuffles their graveyard into their library.
-• Search your library for a creature card, reveal it, put it into your hand, then shuffle your library.</CardText>
+• Search your library for a creature card, reveal it, put it into your hand, then shuffle.</CardText>
 <Artist>Wayne England</Artist>
 <Multiverseid>220571</Multiverseid>
-<Rulings>2017/03/14: <Primal Command>'s modes are performed in the order listed. If you put a noncreature permanent on top of its owner's library and have that player shuffle their graveyard into their library, that card is shuffled away.
-2017/03/14: <Primal Command> won't be put into your graveyard until after it's finished resolving, which means it won't be shuffled into your library as part of its own effect if you target yourself with its third mode.</Rulings>
+<Rulings>2017/03/14: Primal Command's modes are performed in the order listed. If you put a noncreature permanent on top of its owner's library and have that player shuffle their graveyard into their library, that card is shuffled away.
+2017/03/14: Primal Command won't be put into your graveyard until after it's finished resolving, which means it won't be shuffled into your library as part of its own effect if you target yourself with its third mode.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1227,14 +1231,14 @@ Molimo, Maro-Sorcerer's power and toughness are each equal to the number of land
 <No>67</No>
 <Name>Rancor</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>G (1)</ManaCost>
+<ManaCost>{G}</ManaCost>
 <CardText>Enchant creature
 Enchanted creature gets +2/+0 and has trample.
 When Rancor is put into a graveyard from the battlefield, return Rancor to its owner's hand.</CardText>
 <Flavor>Hatred outlives the hateful.</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>220577</Multiverseid>
-<Rulings>2018/03/16: If the creature this Aura would enchant is an illegal target by the time <Rancor> tries to resolve, the Aura spell doesn't resolve. It won't enter the battlefield, so it won't be put into a graveyard from the battlefield and its ability won't trigger.</Rulings>
+<Rulings>2018/03/16: If the creature this Aura would enchant is an illegal target by the time Rancor tries to resolve, the Aura spell doesn't resolve. It won't enter the battlefield, so it won't be put into a graveyard from the battlefield and its ability won't trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1247,8 +1251,8 @@ When Rancor is put into a graveyard from the battlefield, return Rancor to its o
 <No>68</No>
 <Name>Sakura-Tribe Elder</Name>
 <Type>Creature — Snake Shaman 1/1</Type>
-<ManaCost>1G (2)</ManaCost>
-<CardText>Sacrifice Sakura-Tribe Elder: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle your library.</CardText>
+<ManaCost>{1}{G}</ManaCost>
+<CardText>Sacrifice Sakura-Tribe Elder: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.</CardText>
 <Flavor>Slain orochi warriors were buried with a tree sapling so they would become a part of the forest after death.</Flavor>
 <Artist>Carl Critchlow</Artist>
 <Multiverseid>220582</Multiverseid>
@@ -1264,7 +1268,7 @@ When Rancor is put into a graveyard from the battlefield, return Rancor to its o
 <No>69</No>
 <Name>Shinen of Life's Roar</Name>
 <Type>Creature — Spirit 1/2</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>All creatures able to block Shinen of Life's Roar do so.
 Channel — {2}{G}{G}, Discard Shinen of Life's Roar: All creatures able to block target creature this turn do so.</CardText>
 <Artist>Matt Cavotta</Artist>
@@ -1281,7 +1285,7 @@ Channel — {2}{G}{G}, Discard Shinen of Life's Roar: All creatures able to bloc
 <No>70</No>
 <Name>Spider Umbra</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>G (1)</ManaCost>
+<ManaCost>{G}</ManaCost>
 <CardText>Enchant creature
 Enchanted creature gets +1/+1 and has reach. (It can block creatures with flying.)
 Totem armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)</CardText>
@@ -1310,12 +1314,13 @@ Totem armor (If enchanted creature would be destroyed, instead remove all damage
 <No>71</No>
 <Name>Thelonite Hermit</Name>
 <Type>Creature — Elf Shaman 1/1</Type>
-<ManaCost>3G (4)</ManaCost>
+<ManaCost>{3}{G}</ManaCost>
 <CardText>All Saprolings get +1/+1.
 Morph {3}{G}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 When Thelonite Hermit is turned face up, create four 1/1 green Saproling creature tokens.</CardText>
 <Artist>Chippy</Artist>
 <Multiverseid>220558</Multiverseid>
+<Rulings>2021/03/19: Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a Saproling may become lethal if Thelonite Hermit leaves the battlefield during that turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1328,7 +1333,7 @@ When Thelonite Hermit is turned face up, create four 1/1 green Saproling creatur
 <No>72</No>
 <Name>Verdeloth the Ancient</Name>
 <Type>Legendary Creature — Treefolk 4/7</Type>
-<ManaCost>4GG (6)</ManaCost>
+<ManaCost>{4}{G}{G}</ManaCost>
 <CardText>Kicker {X} (You may pay an additional {X} as you cast this spell.)
 Saproling creatures and other Treefolk creatures get +1/+1.
 When Verdeloth the Ancient enters the battlefield, if it was kicked, create X 1/1 green Saproling creature tokens.</CardText>
@@ -1347,13 +1352,13 @@ When Verdeloth the Ancient enters the battlefield, if it was kicked, create X 1/
 <No>73</No>
 <Name>Wall of Roots</Name>
 <Type>Creature — Plant Wall 0/5</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>Defender
-Put a -0/-1 counter on Wall of Roots: Add {G}. Activate this ability only once each turn.</CardText>
+Put a -0/-1 counter on Wall of Roots: Add {G}. Activate only once each turn.</CardText>
 <Flavor>Sometimes the wise ones wove their magic into living plants; as the plant grew, so grew the magic.</Flavor>
 <Artist>John Matson</Artist>
 <Multiverseid>220566</Multiverseid>
-<Rulings>2017/11/17: If you must sacrifice a creature to pay a casting or activation cost that also includes mana, such as that of Bubbling Cauldron's abilities, you may put a -0/-1 counter on <Wall of Roots> to make its toughness 0 and then sacrifice it to pay that cost.</Rulings>
+<Rulings>2017/11/17: If you must sacrifice a creature to pay a casting or activation cost that also includes mana, such as that of Bubbling Cauldron's abilities, you may put a -0/-1 counter on Wall of Roots to make its toughness 0 and then sacrifice it to pay that cost.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1366,14 +1371,14 @@ Put a -0/-1 counter on Wall of Roots: Add {G}. Activate this ability only once e
 <No>74</No>
 <Name>Wickerbough Elder</Name>
 <Type>Creature — Treefolk Shaman 4/4</Type>
-<ManaCost>3G (4)</ManaCost>
+<ManaCost>{3}{G}</ManaCost>
 <CardText>Wickerbough Elder enters the battlefield with a -1/-1 counter on it.
 {G}, Remove a -1/-1 counter from Wickerbough Elder: Destroy target artifact or enchantment.</CardText>
 <Flavor>"Living scarecrows make a mockery of the natural order. Dead ones make fine hats."</Flavor>
 <Artist>Jesper Ejsing</Artist>
 <Multiverseid>220575</Multiverseid>
-<Rulings>2018/12/07: You must choose a target artifact or enchantment to activate <Wickerbough Elder>'s last ability. You can't pay {G} just to remove a -1/-1 counter from it without a legal target.
-2018/12/07: If an effect puts <Wickerbough Elder> onto the battlefield with one or more +1/+1 counters, its -1/-1 counter and one of those +1/+1 counters are removed as a state-based action before you can activate its ability.</Rulings>
+<Rulings>2018/12/07: You must choose a target artifact or enchantment to activate Wickerbough Elder's last ability. You can't pay {G} just to remove a -1/-1 counter from it without a legal target.
+2018/12/07: If an effect puts Wickerbough Elder onto the battlefield with one or more +1/+1 counters, its -1/-1 counter and one of those +1/+1 counters are removed as a state-based action before you can activate its ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1386,13 +1391,14 @@ Put a -0/-1 counter on Wall of Roots: Add {G}. Activate this ability only once e
 <No>75</No>
 <Name>Yavimaya Dryad</Name>
 <Type>Creature — Dryad 2/1</Type>
-<ManaCost>1GG (3)</ManaCost>
+<ManaCost>{1}{G}{G}</ManaCost>
 <CardText>Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)
-When Yavimaya Dryad enters the battlefield, you may search your library for a Forest card and put it onto the battlefield tapped under target player's control. If you do, shuffle your library.</CardText>
+When Yavimaya Dryad enters the battlefield, you may search your library for a Forest card, put it onto the battlefield tapped under target player's control, then shuffle.</CardText>
 <Flavor>The parched earth still shielded those few souls with the heart to call it home.</Flavor>
 <Artist>Rebecca Guay</Artist>
 <Multiverseid>220560</Multiverseid>
-<Rulings>2006/09/25: You may target yourself with <Yavimaya Dryad>'s ability.</Rulings>
+<Rulings>2021/03/19: You can be the target of Yavimaya Dryad's triggered ability.
+2021/03/19: In a multiplayer game, if you leave the game, the Forest you own leaves as well. If instead another player who received your Forest from Yavimaya Dryad leaves the game, that land is exiled.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1405,7 +1411,7 @@ When Yavimaya Dryad enters the battlefield, you may search your library for a Fo
 <No>76</No>
 <Name>Agony Warp</Name>
 <Type>Instant</Type>
-<ManaCost>UB (2)</ManaCost>
+<ManaCost>{U}{B}</ManaCost>
 <CardText>Target creature gets -3/-0 until end of turn.
 Target creature gets -0/-3 until end of turn.</CardText>
 <Flavor>Life's circle has become inverted in Grixis. The same energy is endlessly recycled and becomes more stagnant with each pass.</Flavor>
@@ -1424,7 +1430,7 @@ Target creature gets -0/-3 until end of turn.</CardText>
 <No>77</No>
 <Name>Architects of Will</Name>
 <Type>Artifact Creature — Human Wizard 3/3</Type>
-<ManaCost>2UB (4)</ManaCost>
+<ManaCost>{2}{U}{B}</ManaCost>
 <CardText>When Architects of Will enters the battlefield, look at the top three cards of target player's library, then put them back in any order.
 Cycling {U/B} ({U/B}, Discard this card: Draw a card.)</CardText>
 <Flavor>This secret society of mages manipulates the beliefs and opinions of others.</Flavor>
@@ -1443,14 +1449,14 @@ Cycling {U/B} ({U/B}, Discard this card: Draw a card.)</CardText>
 <No>78</No>
 <Name>Armadillo Cloak</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>1GW (3)</ManaCost>
+<ManaCost>{1}{G}{W}</ManaCost>
 <CardText>Enchant creature
 Enchanted creature gets +2/+2 and has trample.
 Whenever enchanted creature deals damage, you gain that much life.</CardText>
 <Artist>Paolo Parente</Artist>
 <Multiverseid>220498</Multiverseid>
-<Rulings>2016/06/08: While <Armadillo Cloak>'s last ability is similar to lifelink, it isn't lifelink—it's a normal triggered ability. If a creature you control with lifelink wears an <Armadillo Cloak> and deals damage, first you'll gain that much life for lifelink, and then <Armadillo Cloak>'s triggered ability is put onto the stack. This also means that multiple instances of <Armadillo Cloak>'s triggered ability do trigger separately.
-2016/06/08: If <Armadillo Cloak> enchants a creature you don't control, you'll gain life when it deals damage, as long as that damage hasn't already caused you to lose the game.</Rulings>
+<Rulings>2016/06/08: While Armadillo Cloak's last ability is similar to lifelink, it isn't lifelink—it's a normal triggered ability. If a creature you control with lifelink wears an Armadillo Cloak and deals damage, first you'll gain that much life for lifelink, and then Armadillo Cloak's triggered ability is put onto the stack. This also means that multiple instances of Armadillo Cloak's triggered ability do trigger separately.
+2016/06/08: If Armadillo Cloak enchants a creature you don't control, you'll gain life when it deals damage, as long as that damage hasn't already caused you to lose the game.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Archenemy</Set>
@@ -1462,7 +1468,7 @@ Whenever enchanted creature deals damage, you gain that much life.</CardText>
 <No>79</No>
 <Name>Avatar of Discord</Name>
 <Type>Creature — Avatar 5/3</Type>
-<ManaCost>{B/R}{B/R}{B/R} (3)</ManaCost>
+<ManaCost>{B/R}{B/R}{B/R}</ManaCost>
 <CardText>({B/R} can be paid with either {B} or {R}.)
 Flying
 When Avatar of Discord enters the battlefield, sacrifice it unless you discard two cards.</CardText>
@@ -1481,7 +1487,7 @@ When Avatar of Discord enters the battlefield, sacrifice it unless you discard t
 <No>80</No>
 <Name>Batwing Brume</Name>
 <Type>Instant</Type>
-<ManaCost>1{W/B} (2)</ManaCost>
+<ManaCost>{1}{W/B}</ManaCost>
 <CardText>Prevent all combat damage that would be dealt this turn if {W} was spent to cast this spell. Each player loses 1 life for each attacking creature they control if {B} was spent to cast this spell. (Do both if {W}{B} was spent.)</CardText>
 <Artist>Richard Kane Ferguson</Artist>
 <Multiverseid>220573</Multiverseid>
@@ -1500,18 +1506,20 @@ When Avatar of Discord enters the battlefield, sacrifice it unless you discard t
 <No>81</No>
 <Name>Bituminous Blast</Name>
 <Type>Instant</Type>
-<ManaCost>3BR (5)</ManaCost>
+<ManaCost>{3}{B}{R}</ManaCost>
 <CardText>Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)
 Bituminous Blast deals 4 damage to target creature.</CardText>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>220518</Multiverseid>
-<Rulings>2009/05/01: When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
-2009/05/01: If a spell with cascade is countered, the cascade ability will still resolve normally.
-2009/05/01: Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
-2009/05/01: If you cast the last exiled card, you're casting it as a spell. It can be countered. If that card has cascade, the new spell's cascade ability will trigger, and you'll repeat the process for the new spell.
-2009/05/01: After you're done exiling cards and casting the last one if you chose to do so, the remaining exiled cards are randomly placed on the bottom of your library. Neither you nor any other player is allowed to know the order of those cards.
-2009/05/01: You exile the cards face-up. All players will be able to see them.
-2017/04/18: The converted mana cost of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.</Rulings>
+<Rulings>2021/06/18: A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+2021/06/18: Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
+2021/06/18: When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
+2021/06/18: If a spell with cascade is countered, the cascade ability will still resolve normally.
+2021/06/18: You exile the cards face up. All players will be able to see them.
+2021/06/18: If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+2021/06/18: If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+2021/06/18: Due to a recent rules change to cascade, not only do you stop exiling cards if you exile a nonland card with lesser mana value than the spell with cascade, but the resulting spell you cast must also have lesser mana value. Previously, in cases where a card's mana value differed from the resulting spell, such as with some modal double-faced cards or cards with an Adventure, you could cast a spell with a higher mana value than the exiled card.
+2021/06/18: The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1524,7 +1532,7 @@ Bituminous Blast deals 4 damage to target creature.</CardText>
 <No>82</No>
 <Name>Branching Bolt</Name>
 <Type>Instant</Type>
-<ManaCost>1RG (3)</ManaCost>
+<ManaCost>{1}{R}{G}</ManaCost>
 <CardText>Choose one or both —
 • Branching Bolt deals 3 damage to target creature with flying.
 • Branching Bolt deals 3 damage to target creature without flying.</CardText>
@@ -1545,7 +1553,7 @@ Bituminous Blast deals 4 damage to target creature.</CardText>
 <No>83</No>
 <Name>Colossal Might</Name>
 <Type>Instant</Type>
-<ManaCost>RG (2)</ManaCost>
+<ManaCost>{R}{G}</ManaCost>
 <CardText>Target creature gets +4/+2 and gains trample until end of turn.</CardText>
 <Flavor>"Never corner a barbarian. You become the path of least resistance."
 —Sarkhan Vol</Flavor>
@@ -1563,12 +1571,12 @@ Bituminous Blast deals 4 damage to target creature.</CardText>
 <No>84</No>
 <Name>Ethersworn Shieldmage</Name>
 <Type>Artifact Creature — Vedalken Wizard 2/2</Type>
-<ManaCost>1WU (3)</ManaCost>
+<ManaCost>{1}{W}{U}</ManaCost>
 <CardText>Flash
 When Ethersworn Shieldmage enters the battlefield, prevent all damage that would be dealt to artifact creatures this turn.</CardText>
 <Artist>Daarken</Artist>
 <Multiverseid>220520</Multiverseid>
-<Rulings>2009/05/01: When <Ethersworn Shieldmage>'s triggered ability resolves, it doesn't lock in which permanents will be affected. For the rest of the turn, any time damage would be dealt to a permanent, check whether it's an artifact creature at that time. If it is, that damage is prevented.</Rulings>
+<Rulings>2009/05/01: When Ethersworn Shieldmage's triggered ability resolves, it doesn't lock in which permanents will be affected. For the rest of the turn, any time damage would be dealt to a permanent, check whether it's an artifact creature at that time. If it is, that damage is prevented.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1581,7 +1589,7 @@ When Ethersworn Shieldmage enters the battlefield, prevent all damage that would
 <No>85</No>
 <Name>Fieldmist Borderpost</Name>
 <Type>Artifact</Type>
-<ManaCost>1WU (3)</ManaCost>
+<ManaCost>{1}{W}{U}</ManaCost>
 <CardText>You may pay {1} and return a basic land you control to its owner's hand rather than pay this spell's mana cost.
 Fieldmist Borderpost enters the battlefield tapped.
 {T}: Add {W} or {U}.</CardText>
@@ -1603,7 +1611,7 @@ Fieldmist Borderpost enters the battlefield tapped.
 <No>86</No>
 <Name>Fires of Yavimaya</Name>
 <Type>Enchantment</Type>
-<ManaCost>1RG (3)</ManaCost>
+<ManaCost>{1}{R}{G}</ManaCost>
 <CardText>Creatures you control have haste.
 Sacrifice Fires of Yavimaya: Target creature gets +2/+2 until end of turn.</CardText>
 <Artist>Val Mayerik</Artist>
@@ -1619,7 +1627,7 @@ Sacrifice Fires of Yavimaya: Target creature gets +2/+2 until end of turn.</Card
 <No>87</No>
 <Name>Heroes' Reunion</Name>
 <Type>Instant</Type>
-<ManaCost>GW (2)</ManaCost>
+<ManaCost>{G}{W}</ManaCost>
 <CardText>Target player gains 7 life.</CardText>
 <Flavor>"You helped save my people from a Phyrexian fate. Did you think I wouldn't return the favor?"
 —Eladamri, to Gerrard</Flavor>
@@ -1637,12 +1645,15 @@ Sacrifice Fires of Yavimaya: Target creature gets +2/+2 until end of turn.</Card
 <No>88</No>
 <Name>Kaervek the Merciless</Name>
 <Type>Legendary Creature — Human Shaman 5/4</Type>
-<ManaCost>5BR (7)</ManaCost>
-<CardText>Whenever an opponent casts a spell, Kaervek the Merciless deals damage to any target equal to that spell's converted mana cost.</CardText>
+<ManaCost>{5}{B}{R}</ManaCost>
+<CardText>Whenever an opponent casts a spell, Kaervek the Merciless deals damage equal to that spell's mana value to any target.</CardText>
 <Flavor>"Rats and jackals feast in his swath, but even they will not walk with him."
 —Mangara</Flavor>
 <Artist>rk post</Artist>
 <Multiverseid>220557</Multiverseid>
+<Rulings>2021/03/19: An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+2021/03/19: Alternative costs, additional costs, and cost reductions don't change a spell's mana value. Its mana value is still based on its mana cost.
+2021/03/19: For spells with {X} in their mana costs, use the value chosen for X to determine the spell's mana value.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1655,7 +1666,7 @@ Sacrifice Fires of Yavimaya: Target creature gets +2/+2 until end of turn.</Card
 <No>89</No>
 <Name>Magister Sphinx</Name>
 <Type>Artifact Creature — Sphinx 5/5</Type>
-<ManaCost>4WUB (7)</ManaCost>
+<ManaCost>{4}{W}{U}{B}</ManaCost>
 <CardText>Flying
 When Magister Sphinx enters the battlefield, target player's life total becomes 10.</CardText>
 <Flavor>"These benighted worlds are thick with ignorance. I will educate them. They will listen, or they will die."</Flavor>
@@ -1676,7 +1687,7 @@ When Magister Sphinx enters the battlefield, target player's life total becomes 
 <No>90</No>
 <Name>Mistvein Borderpost</Name>
 <Type>Artifact</Type>
-<ManaCost>1UB (3)</ManaCost>
+<ManaCost>{1}{U}{B}</ManaCost>
 <CardText>You may pay {1} and return a basic land you control to its owner's hand rather than pay this spell's mana cost.
 Mistvein Borderpost enters the battlefield tapped.
 {T}: Add {U} or {B}.</CardText>
@@ -1698,9 +1709,9 @@ Mistvein Borderpost enters the battlefield tapped.
 <No>91</No>
 <Name>Pale Recluse</Name>
 <Type>Creature — Spider 4/5</Type>
-<ManaCost>4GW (6)</ManaCost>
+<ManaCost>{4}{G}{W}</ManaCost>
 <CardText>Reach (This creature can block creatures with flying.)
-Forestcycling {2}, plainscycling {2} ({2}, Discard this card: Search your library for a Forest or Plains card, reveal it, put it into your hand, then shuffle your library.)</CardText>
+Forestcycling {2}, plainscycling {2} ({2}, Discard this card: Search your library for a Forest or Plains card, reveal it, put it into your hand, then shuffle.)</CardText>
 <Artist>Cyril Van Der Haegen</Artist>
 <Multiverseid>220523</Multiverseid>
 <Rulings>2009/05/01: Unlike the normal cycling ability, landcycling doesn't allow you to draw a card. Instead, it lets you search your library for a land card of the specified land type, reveal it, put it into your hand, then shuffle your library.
@@ -1720,7 +1731,7 @@ Forestcycling {2}, plainscycling {2} ({2}, Discard this card: Search your librar
 <No>92</No>
 <Name>Rakdos Guildmage</Name>
 <Type>Creature — Zombie Shaman 2/2</Type>
-<ManaCost>{B/R}{B/R} (2)</ManaCost>
+<ManaCost>{B/R}{B/R}</ManaCost>
 <CardText>({B/R} can be paid with either {B} or {R}.)
 {3}{B}, Discard a card: Target creature gets -2/-2 until end of turn.
 {3}{R}: Create a 2/1 red Goblin creature token with haste. Exile it at the beginning of the next end step.</CardText>
@@ -1739,7 +1750,7 @@ Forestcycling {2}, plainscycling {2} ({2}, Discard this card: Search your librar
 <No>93</No>
 <Name>Savage Twister</Name>
 <Type>Sorcery</Type>
-<ManaCost>XRG (2)</ManaCost>
+<ManaCost>{X}{R}{G}</ManaCost>
 <CardText>Savage Twister deals X damage to each creature.</CardText>
 <Flavor>"Nature is the ultimate mindless destroyer, capable of power and ferocity no army can match, and the Gruul follow its example."
 —Trigori, Azorius senator</Flavor>
@@ -1757,7 +1768,7 @@ Forestcycling {2}, plainscycling {2} ({2}, Discard this card: Search your librar
 <No>94</No>
 <Name>Selesnya Guildmage</Name>
 <Type>Creature — Elf Wizard 2/2</Type>
-<ManaCost>{G/W}{G/W} (2)</ManaCost>
+<ManaCost>{G/W}{G/W}</ManaCost>
 <CardText>{3}{G}: Create a 1/1 green Saproling creature token.
 {3}{W}: Creatures you control get +1/+1 until end of turn.</CardText>
 <Artist>Mark Zug</Artist>
@@ -1774,7 +1785,7 @@ Forestcycling {2}, plainscycling {2} ({2}, Discard this card: Search your librar
 <No>95</No>
 <Name>Terminate</Name>
 <Type>Instant</Type>
-<ManaCost>BR (2)</ManaCost>
+<ManaCost>{B}{R}</ManaCost>
 <CardText>Destroy target creature. It can't be regenerated.</CardText>
 <Flavor>"I've seen death before. My mother succumbing to illness, my comrades bleeding on the battlefield . . . But I'd never seen anything as dreadful as that."
 —Taani, berserker of Etlan</Flavor>
@@ -1792,7 +1803,7 @@ Forestcycling {2}, plainscycling {2} ({2}, Discard this card: Search your librar
 <No>96</No>
 <Name>Torrent of Souls</Name>
 <Type>Sorcery</Type>
-<ManaCost>4{B/R} (5)</ManaCost>
+<ManaCost>{4}{B/R}</ManaCost>
 <CardText>Return up to one target creature card from your graveyard to the battlefield if {B} was spent to cast this spell. Creatures target player controls get +2/+0 and gain haste until end of turn if {R} was spent to cast this spell. (Do both if {B}{R} was spent.)</CardText>
 <Artist>Ian Edward Ameling</Artist>
 <Multiverseid>220547</Multiverseid>
@@ -1811,7 +1822,7 @@ Forestcycling {2}, plainscycling {2} ({2}, Discard this card: Search your librar
 <No>97</No>
 <Name>Unbender Tine</Name>
 <Type>Artifact</Type>
-<ManaCost>2WU (4)</ManaCost>
+<ManaCost>{2}{W}{U}</ManaCost>
 <CardText>{T}: Untap another target permanent.</CardText>
 <Flavor>Creations made in madness may contain great power. The path to that power is as labyrinthine as the creator's mind.</Flavor>
 <Artist>Greg Hildebrandt</Artist>
@@ -1828,7 +1839,7 @@ Forestcycling {2}, plainscycling {2} ({2}, Discard this card: Search your librar
 <No>98</No>
 <Name>Unmake</Name>
 <Type>Instant</Type>
-<ManaCost>{W/B}{W/B}{W/B} (3)</ManaCost>
+<ManaCost>{W/B}{W/B}{W/B}</ManaCost>
 <CardText>Exile target creature.</CardText>
 <Flavor>A gwyllion's favorite trap is the vanity mirror. A bewitched piece of glass traps the looker's soul and does away with the body.</Flavor>
 <Artist>Steven Belledin</Artist>
@@ -1845,7 +1856,7 @@ Forestcycling {2}, plainscycling {2} ({2}, Discard this card: Search your librar
 <No>99</No>
 <Name>Vampiric Dragon</Name>
 <Type>Creature — Vampire Dragon 5/5</Type>
-<ManaCost>6BR (8)</ManaCost>
+<ManaCost>{6}{B}{R}</ManaCost>
 <CardText>Flying
 Whenever a creature dealt damage by Vampiric Dragon this turn dies, put a +1/+1 counter on Vampiric Dragon.
 {1}{R}: Vampiric Dragon deals 1 damage to target creature.</CardText>
@@ -1862,7 +1873,7 @@ Whenever a creature dealt damage by Vampiric Dragon this turn dies, put a +1/+1 
 <No>100</No>
 <Name>Watchwolf</Name>
 <Type>Creature — Wolf 3/3</Type>
-<ManaCost>GW (2)</ManaCost>
+<ManaCost>{G}{W}</ManaCost>
 <Flavor>Only in Ravnica do the wolves watch the flock.</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>220551</Multiverseid>
@@ -1878,7 +1889,7 @@ Whenever a creature dealt damage by Vampiric Dragon this turn dies, put a +1/+1 
 <No>101a</No>
 <Name>Wax (Wax/Wane)</Name>
 <Type>Instant</Type>
-<ManaCost>G (1)</ManaCost>
+<ManaCost>{G}</ManaCost>
 <CardText>Target creature gets +2/+2 until end of turn.</CardText>
 <Artist>Ben Thompson</Artist>
 <Multiverseid>220502</Multiverseid>
@@ -1894,7 +1905,7 @@ Whenever a creature dealt damage by Vampiric Dragon this turn dies, put a +1/+1 
 <No>101b</No>
 <Name>Wane (Wax/Wane)</Name>
 <Type>Instant</Type>
-<ManaCost>W (1)</ManaCost>
+<ManaCost>{W}</ManaCost>
 <CardText>Destroy target enchantment.</CardText>
 <Artist>Ben Thompson</Artist>
 <Multiverseid>220502</Multiverseid>
@@ -1910,7 +1921,7 @@ Whenever a creature dealt damage by Vampiric Dragon this turn dies, put a +1/+1 
 <No>102</No>
 <Name>Aether Spellbomb</Name>
 <Type>Artifact</Type>
-<ManaCost>1 (1)</ManaCost>
+<ManaCost>{1}</ManaCost>
 <CardText>{U}, Sacrifice Aether Spellbomb: Return target creature to its owner's hand.
 {1}, Sacrifice Aether Spellbomb: Draw a card.</CardText>
 <Flavor>"Release that which was never caged."
@@ -1929,7 +1940,7 @@ Whenever a creature dealt damage by Vampiric Dragon this turn dies, put a +1/+1 
 <No>103</No>
 <Name>Azorius Signet</Name>
 <Type>Artifact</Type>
-<ManaCost>2 (2)</ManaCost>
+<ManaCost>{2}</ManaCost>
 <CardText>{1}, {T}: Add {W}{U}.</CardText>
 <Flavor>The maze-like design embodies the core of Azorius law—strict structure designed to test wills and stall change.</Flavor>
 <Artist>Greg Hildebrandt</Artist>
@@ -1946,7 +1957,7 @@ Whenever a creature dealt damage by Vampiric Dragon this turn dies, put a +1/+1 
 <No>104</No>
 <Name>Dimir Signet</Name>
 <Type>Artifact</Type>
-<ManaCost>2 (2)</ManaCost>
+<ManaCost>{2}</ManaCost>
 <CardText>{1}, {T}: Add {U}{B}.</CardText>
 <Flavor>An emblem of a secret guild, the Dimir insignia is seen only by its own members—and the doomed.</Flavor>
 <Artist>Greg Hildebrandt</Artist>
@@ -1963,7 +1974,7 @@ Whenever a creature dealt damage by Vampiric Dragon this turn dies, put a +1/+1 
 <No>105</No>
 <Name>Dreamstone Hedron</Name>
 <Type>Artifact</Type>
-<ManaCost>6 (6)</ManaCost>
+<ManaCost>{6}</ManaCost>
 <CardText>{T}: Add {C}{C}{C}.
 {3}, {T}, Sacrifice Dreamstone Hedron: Draw three cards.</CardText>
 <Flavor>Only the Eldrazi mind thinks in the warped paths required to open the hedrons and tap the power within.</Flavor>
@@ -1981,16 +1992,15 @@ Whenever a creature dealt damage by Vampiric Dragon this turn dies, put a +1/+1 
 <No>106</No>
 <Name>Duplicant</Name>
 <Type>Artifact Creature — Shapeshifter 2/4</Type>
-<ManaCost>6 (6)</ManaCost>
+<ManaCost>{6}</ManaCost>
 <CardText>Imprint — When Duplicant enters the battlefield, you may exile target nontoken creature.
 As long as a card exiled with Duplicant is a creature card, Duplicant has the power, toughness, and creature types of the last creature card exiled with Duplicant. It's still a Shapeshifter.</CardText>
 <Artist>Thomas M. Baxa</Artist>
 <Multiverseid>220526</Multiverseid>
-<Rulings>2016/06/08: If no creature card is imprinted on <Duplicant>, it has its normal power, toughness, and creature type.
-2016/06/08: <Duplicant>'s base power and toughness change to the imprinted card's power and toughness. Counters and other effects that modify <Duplicant>'s power and toughness still apply.
-2016/06/08: Abilities that define a creature's power and toughness apply while that card is in exile, but abilities that add or subtract from it don't. For example, the ability of Battle Squadron applies to determine <Duplicant>'s power and toughness, but the ability of Werebear doesn't. <Duplicant>'s power and toughness are constantly updated if the exiled card's power and/or toughness change.
-2016/06/08: <Duplicant> keeps all creature types it had when the card was imprinted, including any types that <Duplicant> had gained.
-2016/07/13: If a melded permanent is exiled by <Duplicant>'s triggered ability, that ability's controller chooses the relative timestamp of the two meld cards. <Duplicant> looks at the information of the one with the later timestamp.</Rulings>
+<Rulings>2020/08/07: Duplicant's base power and toughness change to the imprinted card's power and toughness. Counters and other effects that modify Duplicant's power and toughness still apply.
+2020/08/07: Abilities that define a * in a creature's power and toughness apply while that card is in exile, but abilities that add or subtract power and toughness don't. For example, the ability of Crusader of Odric applies to determine Duplicant's power and toughness, but the ability of Death's Shadow doesn't.
+2020/08/07: Duplicant's power and toughness are constantly updated if the exiled card's power and/or toughness change.
+2020/08/07: If a melded permanent or a merged permanent is exiled by Duplicant's triggered ability, that ability's controller chooses the relative timestamp of the exiled cards. Duplicant looks at the information of the one with the latest timestamp.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2003,13 +2013,13 @@ As long as a card exiled with Duplicant is a creature card, Duplicant has the po
 <No>107</No>
 <Name>Everflowing Chalice</Name>
 <Type>Artifact</Type>
-<ManaCost>0 (0)</ManaCost>
-<CardText>Multikicker {2} (You may pay an additional {2} any number of times as you cast this spell.)
+<ManaCost>{0}</ManaCost>
+<CardText>Multikicker {2}
 Everflowing Chalice enters the battlefield with a charge counter on it for each time it was kicked.
 {T}: Add {C} for each charge counter on Everflowing Chalice.</CardText>
 <Artist>Steve Argyle</Artist>
 <Multiverseid>220534</Multiverseid>
-<Rulings>2010/03/01: If <Everflowing Chalice> has no charge counters on it, you can still activate its last ability. That ability is still a mana ability, even though it produces no mana as it resolves.</Rulings>
+<Rulings>2021/03/19: You can cast Everflowing Chalice without kicking it at all if you wish. However, if Everflowing Chalice has no charge counters on it, activating its last ability won't produce any mana.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2022,7 +2032,7 @@ Everflowing Chalice enters the battlefield with a charge counter on it for each 
 <No>108</No>
 <Name>Gruul Signet</Name>
 <Type>Artifact</Type>
-<ManaCost>2 (2)</ManaCost>
+<ManaCost>{2}</ManaCost>
 <CardText>{1}, {T}: Add {R}{G}.</CardText>
 <Flavor>Gruul territorial markings need not be legible. The blood, snot, and muck used to smear them are unmistakably Gruul.</Flavor>
 <Artist>Greg Hildebrandt</Artist>
@@ -2039,13 +2049,13 @@ Everflowing Chalice enters the battlefield with a charge counter on it for each 
 <No>109</No>
 <Name>Juggernaut</Name>
 <Type>Artifact Creature — Juggernaut 5/3</Type>
-<ManaCost>4 (4)</ManaCost>
+<ManaCost>{4}</ManaCost>
 <CardText>Juggernaut attacks each combat if able.
 Juggernaut can't be blocked by Walls.</CardText>
 <Flavor>Built with neither a way to steer nor a way to stop, the juggernauts were simply aimed at an enemy's best defenses and told to charge.</Flavor>
 <Artist>Arnie Swekel</Artist>
 <Multiverseid>220484</Multiverseid>
-<Rulings>2018/04/27: If <Juggernaut> can't attack for any reason (such as being tapped or having come under that player's control that turn), then it doesn't attack. If there's a cost associated with having it attack, its controller isn't forced to pay that cost, so it doesn't have to attack in that case either.</Rulings>
+<Rulings>2018/04/27: If Juggernaut can't attack for any reason (such as being tapped or having come under that player's control that turn), then it doesn't attack. If there's a cost associated with having it attack, its controller isn't forced to pay that cost, so it doesn't have to attack in that case either.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2058,13 +2068,14 @@ Juggernaut can't be blocked by Walls.</CardText>
 <No>110</No>
 <Name>Lightning Greaves</Name>
 <Type>Artifact — Equipment</Type>
-<ManaCost>2 (2)</ManaCost>
+<ManaCost>{2}</ManaCost>
 <CardText>Equipped creature has haste and shroud. (It can't be the target of spells or abilities.)
 Equip {0}</CardText>
 <Flavor>After lightning struck the cliffs, the ore became iron, the iron became steel, and the steel became greaves. The lightning never left.</Flavor>
 <Artist>Jeremy Jarvis</Artist>
 <Multiverseid>220528</Multiverseid>
-<Rulings>2013/04/15: You are not allowed to "unequip" equipment from a creature. If <Lightning Greaves> is attached to the only creature you control, you won't be able to attach other equipment to it (or target it with anything else) until you have another creature onto which you can move <Lightning Greaves>.</Rulings>
+<Rulings>2020/08/07: You can't simply unequip Equipment from a creature. If Lightning Greaves is attached to the only creature you control, you won't be able to attach other equipment to it (or target it with anything else) until you have another creature onto which you can move Lightning Greaves.
+2020/08/07: If a creature enters the battlefield under your control and gains haste, but then loses it before attacking, it won't be able to attack that turn. This means that you can't use one Lightning Greaves to allow two new creatures to attack in the same turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2077,7 +2088,7 @@ Equip {0}</CardText>
 <No>111</No>
 <Name>Lodestone Golem</Name>
 <Type>Artifact Creature — Golem 5/3</Type>
-<ManaCost>4 (4)</ManaCost>
+<ManaCost>{4}</ManaCost>
 <CardText>Nonartifact spells cost {1} more to cast.</CardText>
 <Flavor>"Somehow it warps the Æther. It brings a strange weight, a blockade in the flow of spellcraft."
 —Noyan Dar, Tazeem lullmage</Flavor>
@@ -2098,13 +2109,13 @@ Equip {0}</CardText>
 <No>112</No>
 <Name>Memnarch</Name>
 <Type>Legendary Artifact Creature — Wizard 4/5</Type>
-<ManaCost>7 (7)</ManaCost>
+<ManaCost>{7}</ManaCost>
 <CardText>{1}{U}{U}: Target permanent becomes an artifact in addition to its other types. (This effect lasts indefinitely.)
 {3}{U}: Gain control of target artifact. (This effect lasts indefinitely.)</CardText>
 <Flavor>In the blur between metal and flesh, Memnarch found madness.</Flavor>
 <Artist>Carl Critchlow</Artist>
 <Multiverseid>220532</Multiverseid>
-<Rulings>2004/12/01: The effects of <Memnarch>'s abilities don't end at end of turn, and they don't end when <Memnarch> leaves the battlefield. Both effects last until the affected permanent leaves the battlefield.
+<Rulings>2004/12/01: The effects of Memnarch's abilities don't end at end of turn, and they don't end when Memnarch leaves the battlefield. Both effects last until the affected permanent leaves the battlefield.
 2004/12/01: You can use the first ability on a nonartifact permanent, wait for the ability to resolve, and then use the second ability on that permanent.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2118,7 +2129,7 @@ Equip {0}</CardText>
 <No>113</No>
 <Name>Obelisk of Esper</Name>
 <Type>Artifact</Type>
-<ManaCost>3 (3)</ManaCost>
+<ManaCost>{3}</ManaCost>
 <CardText>{T}: Add {W}, {U}, or {B}.</CardText>
 <Flavor>It is a monument as austere, unyielding, and inscrutable as Esper itself.</Flavor>
 <Artist>Francis Tsai</Artist>
@@ -2135,7 +2146,7 @@ Equip {0}</CardText>
 <No>114</No>
 <Name>Rakdos Signet</Name>
 <Type>Artifact</Type>
-<ManaCost>2 (2)</ManaCost>
+<ManaCost>{2}</ManaCost>
 <CardText>{1}, {T}: Add {B}{R}.</CardText>
 <Flavor>Made of bone and boiled in blood, a Rakdos signet is not considered finished until it has been used as a murder weapon.</Flavor>
 <Artist>Greg Hildebrandt</Artist>
@@ -2152,13 +2163,13 @@ Equip {0}</CardText>
 <No>115</No>
 <Name>Skullcage</Name>
 <Type>Artifact</Type>
-<ManaCost>4 (4)</ManaCost>
+<ManaCost>{4}</ManaCost>
 <CardText>At the beginning of each opponent's upkeep, Skullcage deals 2 damage to that player unless they have exactly three or exactly four cards in hand.</CardText>
 <Flavor>Only a focused mind can survive it.</Flavor>
 <Artist>Ron Spencer</Artist>
 <Multiverseid>220537</Multiverseid>
-<Rulings>2004/12/01: <Skullcage>'s ability deals damage if the player has zero, one, two, five, or more than five cards in hand when its ability resolves.
-2004/12/01: <Skullcage> doesn't check hand size when it triggers, only when it resolves.</Rulings>
+<Rulings>2004/12/01: Skullcage's ability deals damage if the player has zero, one, two, five, or more than five cards in hand when its ability resolves.
+2004/12/01: Skullcage doesn't check hand size when it triggers, only when it resolves.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2171,13 +2182,13 @@ Equip {0}</CardText>
 <No>116</No>
 <Name>Sorcerer's Strongbox</Name>
 <Type>Artifact</Type>
-<ManaCost>4 (4)</ManaCost>
+<ManaCost>{4}</ManaCost>
 <CardText>{2}, {T}: Flip a coin. If you win the flip, sacrifice Sorcerer's Strongbox and draw three cards.</CardText>
 <Flavor>Simun the Quiet filled the chest with his most precious thoughts. But in a fit of paranoia, he locked up the memory of where he hid the key.</Flavor>
 <Artist>Chuck Lukacs</Artist>
 <Multiverseid>222702</Multiverseid>
 <Rulings>2010/08/15: If you lose the flip, nothing happens.
-2010/08/15: If you no longer control <Sorcerer's Strongbox> by the time you win the flip, you won't be able to sacrifice it. You'll still draw three cards, though.</Rulings>
+2010/08/15: If you no longer control Sorcerer's Strongbox by the time you win the flip, you won't be able to sacrifice it. You'll still draw three cards, though.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2190,7 +2201,7 @@ Equip {0}</CardText>
 <No>117</No>
 <Name>Sun Droplet</Name>
 <Type>Artifact</Type>
-<ManaCost>2 (2)</ManaCost>
+<ManaCost>{2}</ManaCost>
 <CardText>Whenever you're dealt damage, put that many charge counters on Sun Droplet.
 At the beginning of each upkeep, you may remove a charge counter from Sun Droplet. If you do, you gain 1 life.</CardText>
 <Artist>Greg Hildebrandt</Artist>
@@ -2208,11 +2219,11 @@ At the beginning of each upkeep, you may remove a charge counter from Sun Drople
 <No>118</No>
 <Name>Sundering Titan</Name>
 <Type>Artifact Creature — Golem 7/10</Type>
-<ManaCost>8 (8)</ManaCost>
-<CardText>When Sundering Titan enters the battlefield or leaves the battlefield, choose a land of each basic land type, then destroy those lands.</CardText>
+<ManaCost>{8}</ManaCost>
+<CardText>When Sundering Titan enters or leaves the battlefield, choose a land of each basic land type, then destroy those lands.</CardText>
 <Artist>Jim Murray</Artist>
 <Multiverseid>220533</Multiverseid>
-<Rulings>2018/03/16: <Sundering Titan>'s ability isn't targeted. When it resolves, <Sundering Titan>'s controller must choose one land for each basic land type (Plains, Island, Swamp, Mountain, and Forest), and then they are destroyed simultaneously.
+<Rulings>2018/03/16: Sundering Titan's ability isn't targeted. When it resolves, Sundering Titan's controller must choose one land for each basic land type (Plains, Island, Swamp, Mountain, and Forest), and then they are destroyed simultaneously.
 2018/03/16: Players can't take actions in between the time you choose the lands and the time you destroy them. Notably, they can't activate mana abilities of those lands.
 2018/03/16: If one of the basic land types isn't present, it isn't chosen. If the only land of a certain type is one you control, you must choose it.
 2018/03/16: If a land has more than one basic land type, it can be chosen more than once.</Rulings>
@@ -2228,7 +2239,7 @@ At the beginning of each upkeep, you may remove a charge counter from Sun Drople
 <No>119</No>
 <Name>Synod Centurion</Name>
 <Type>Artifact Creature — Construct 4/4</Type>
-<ManaCost>4 (4)</ManaCost>
+<ManaCost>{4}</ManaCost>
 <CardText>When you control no other artifacts, sacrifice Synod Centurion.</CardText>
 <Flavor>"We order them to stand, they stand. We order them to wait, they wait. We order them to die, they die."
 —Pontifex, elder researcher</Flavor>
@@ -2246,7 +2257,7 @@ At the beginning of each upkeep, you may remove a charge counter from Sun Drople
 <No>120</No>
 <Name>Synod Sanctum</Name>
 <Type>Artifact</Type>
-<ManaCost>1 (1)</ManaCost>
+<ManaCost>{1}</ManaCost>
 <CardText>{2}, {T}: Exile target permanent you control.
 {2}, Sacrifice Synod Sanctum: Return all cards exiled with Synod Sanctum to the battlefield under your control.</CardText>
 <Artist>Dana Knutson</Artist>
@@ -2263,7 +2274,7 @@ At the beginning of each upkeep, you may remove a charge counter from Sun Drople
 <No>121</No>
 <Name>Thran Dynamo</Name>
 <Type>Artifact</Type>
-<ManaCost>4 (4)</ManaCost>
+<ManaCost>{4}</ManaCost>
 <CardText>{T}: Add {C}{C}{C}.</CardText>
 <Flavor>Urza's metathran children were conceived, birthed, and nurtured by an integrated system of machines.</Flavor>
 <Artist>Ron Spears</Artist>
@@ -2279,12 +2290,12 @@ At the beginning of each upkeep, you may remove a charge counter from Sun Drople
 <No>122</No>
 <Name>Thunderstaff</Name>
 <Type>Artifact</Type>
-<ManaCost>3 (3)</ManaCost>
+<ManaCost>{3}</ManaCost>
 <CardText>As long as Thunderstaff is untapped, if a creature would deal combat damage to you, prevent 1 of that damage.
 {2}, {T}: Attacking creatures get +1/+0 until end of turn.</CardText>
 <Artist>Kaja Foglio</Artist>
 <Multiverseid>220581</Multiverseid>
-<Rulings>2004/12/01: If <Thunderstaff> is untapped, it prevents 1 damage from each creature, each time it would deal combat damage to you. So if three creatures with double strike attack you and aren't blocked, <Thunderstaff> will prevent a total of 6 damage.</Rulings>
+<Rulings>2004/12/01: If Thunderstaff is untapped, it prevents 1 damage from each creature, each time it would deal combat damage to you. So if three creatures with double strike attack you and aren't blocked, Thunderstaff will prevent a total of 6 damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2297,7 +2308,7 @@ At the beginning of each upkeep, you may remove a charge counter from Sun Drople
 <No>123</No>
 <Name>Artisan of Kozilek</Name>
 <Type>Creature — Eldrazi 10/9</Type>
-<ManaCost>9 (9)</ManaCost>
+<ManaCost>{9}</ManaCost>
 <CardText>When you cast this spell, you may return target creature card from your graveyard to the battlefield.
 Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)</CardText>
 <Artist>Jason Felix</Artist>
@@ -2387,7 +2398,7 @@ When Khalni Garden enters the battlefield, create a 0/1 green Plant creature tok
 <Type>Land</Type>
 <CardText>Krosan Verge enters the battlefield tapped.
 {T}: Add {C}.
-{2}, {T}, Sacrifice Krosan Verge: Search your library for a Forest card and a Plains card, put them onto the battlefield tapped, then shuffle your library.</CardText>
+{2}, {T}, Sacrifice Krosan Verge: Search your library for a Forest card and a Plains card, put them onto the battlefield tapped, then shuffle.</CardText>
 <Artist>Tony Szczudlo</Artist>
 <Multiverseid>220544</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2406,7 +2417,7 @@ When Khalni Garden enters the battlefield, create a 0/1 green Plant creature tok
 Graft 1 (This land enters the battlefield with a +1/+1 counter on it. Whenever a creature enters the battlefield, you may move a +1/+1 counter from this land onto it.)</CardText>
 <Artist>Philip Straub</Artist>
 <Multiverseid>220496</Multiverseid>
-<Rulings>2007/05/01: The +1/+1 counter won't affect <Llanowar Reborn> in any way unless another effect turns it into a creature.</Rulings>
+<Rulings>2007/05/01: The +1/+1 counter won't affect Llanowar Reborn in any way unless another effect turns it into a creature.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2437,7 +2448,7 @@ Graft 1 (This land enters the battlefield with a +1/+1 counter on it. Whenever a
 <Name>Nantuko Monastery</Name>
 <Type>Land</Type>
 <CardText>{T}: Add {C}.
-Threshold — {G}{W}: Nantuko Monastery becomes a 4/4 green and white Insect Monk creature with first strike until end of turn. It's still a land. Activate this ability only if seven or more cards are in your graveyard.</CardText>
+Threshold — {G}{W}: Nantuko Monastery becomes a 4/4 green and white Insect Monk creature with first strike until end of turn. It's still a land. Activate only if seven or more cards are in your graveyard.</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>220545</Multiverseid>
 <Rulings>2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
@@ -2489,7 +2500,7 @@ Cycling {W} ({W}, Discard this card: Draw a card.)</CardText>
 <No>134</No>
 <Name>Terramorphic Expanse</Name>
 <Type>Land</Type>
-<CardText>{T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.</CardText>
+<CardText>{T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.</CardText>
 <Artist>Dan Scott</Artist>
 <Multiverseid>220481</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2546,7 +2557,7 @@ Cycling {G} ({G}, Discard this card: Draw a card.)</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Archenemy</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2561,7 +2572,7 @@ Cycling {G} ({G}, Discard this card: Draw a card.)</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Archenemy</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2576,7 +2587,7 @@ Cycling {G} ({G}, Discard this card: Draw a card.)</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Archenemy</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2591,7 +2602,7 @@ Cycling {G} ({G}, Discard this card: Draw a card.)</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Archenemy</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2606,7 +2617,7 @@ Cycling {G} ({G}, Discard this card: Draw a card.)</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Archenemy</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2621,7 +2632,7 @@ Cycling {G} ({G}, Discard this card: Draw a card.)</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Archenemy</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2636,7 +2647,7 @@ Cycling {G} ({G}, Discard this card: Draw a card.)</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Archenemy</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2651,7 +2662,7 @@ Cycling {G} ({G}, Discard this card: Draw a card.)</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Archenemy</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2666,7 +2677,7 @@ Cycling {G} ({G}, Discard this card: Draw a card.)</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Archenemy</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2681,7 +2692,7 @@ Cycling {G} ({G}, Discard this card: Draw a card.)</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Archenemy</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2696,7 +2707,7 @@ Cycling {G} ({G}, Discard this card: Draw a card.)</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Archenemy</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2711,7 +2722,7 @@ Cycling {G} ({G}, Discard this card: Draw a card.)</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Archenemy</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2726,7 +2737,7 @@ Cycling {G} ({G}, Discard this card: Draw a card.)</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Archenemy</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2741,6 +2752,6 @@ Cycling {G} ({G}, Discard this card: Draw a card.)</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Archenemy</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 

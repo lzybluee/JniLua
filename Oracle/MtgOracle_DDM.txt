@@ -3,10 +3,10 @@
 <No>1</No>
 <Name>Jace, Architect of Thought</Name>
 <Type>Legendary Planeswalker — Jace (Loyalty: 4)</Type>
-<ManaCost>2UU (4)</ManaCost>
-<CardText>+1: Until your next turn, whenever a creature an opponent controls attacks, it gets -1/-0 until end of turn.
--2: Reveal the top three cards of your library. An opponent separates those cards into two piles. Put one pile into your hand and the other on the bottom of your library in any order.
--8: For each player, search that player's library for a nonland card and exile it, then that player shuffles their library. You may cast those cards without paying their mana costs.</CardText>
+<ManaCost>{2}{U}{U}</ManaCost>
+<CardText>[+1]: Until your next turn, whenever a creature an opponent controls attacks, it gets -1/-0 until end of turn.
+[-2]: Reveal the top three cards of your library. An opponent separates those cards into two piles. Put one pile into your hand and the other on the bottom of your library in any order.
+[-8]: For each player, search that player's library for a nonland card and exile it, then that player shuffles. You may cast those cards without paying their mana costs.</CardText>
 <Artist>Igor Kieryluk</Artist>
 <Multiverseid>380190</Multiverseid>
 <Rulings>2012/10/01: Jace's first ability creates a delayed triggered ability that triggers whenever a creature an opponent controls attacks. It doesn't matter which player or planeswalker that creature is attacking.
@@ -31,7 +31,7 @@
 <No>2</No>
 <Name>Chronomaton</Name>
 <Type>Artifact Creature — Golem 1/1</Type>
-<ManaCost>1 (1)</ManaCost>
+<ManaCost>{1}</ManaCost>
 <CardText>{1}, {T}: Put a +1/+1 counter on Chronomaton.</CardText>
 <Flavor>On the third night, the villagers destroyed their clocks. The sounds of whirring gears and chiming metal held only dread for them.</Flavor>
 <Artist>Vincent Proce</Artist>
@@ -48,14 +48,14 @@
 <No>3</No>
 <Name>Jace's Phantasm</Name>
 <Type>Creature — Illusion 1/1</Type>
-<ManaCost>U (1)</ManaCost>
+<ManaCost>{U}</ManaCost>
 <CardText>Flying
 Jace's Phantasm gets +4/+4 as long as an opponent has ten or more cards in their graveyard.</CardText>
 <Flavor>In the abstract memories of the Iquati, Jace found interesting ideas to improve upon.</Flavor>
 <Artist>Johann Bodin</Artist>
 <Multiverseid>380245</Multiverseid>
-<Rulings>2017/11/17: The last ability of <Jace's Phantasm> constantly monitors each opponent's graveyard to see if the bonus applies. If the stated condition becomes no longer true, the bonus immediately stops applying.
-2017/11/17: If <Jace's Phantasm> is dealt lethal damage at the same time as an opponent's creature, and that creature will become that opponent's tenth card in their graveyard, <Jace's Phantasm> will be destroyed before it gets +4/+4. This is because all creatures that have been dealt lethal damage are destroyed at the same time.
+<Rulings>2017/11/17: The last ability of Jace's Phantasm constantly monitors each opponent's graveyard to see if the bonus applies. If the stated condition becomes no longer true, the bonus immediately stops applying.
+2017/11/17: If Jace's Phantasm is dealt lethal damage at the same time as an opponent's creature, and that creature will become that opponent's tenth card in their graveyard, Jace's Phantasm will be destroyed before it gets +4/+4. This is because all creatures that have been dealt lethal damage are destroyed at the same time.
 2017/11/17: In a multiplayer game, a single opponent must have ten or more cards in their graveyard for the bonus to apply, although this opponent may change over the course of the game. You don't have to pick a single opponent; the ability will monitor each opponent's graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -69,13 +69,13 @@ Jace's Phantasm gets +4/+4 as long as an opponent has ten or more cards in their
 <No>4</No>
 <Name>Phantasmal Bear</Name>
 <Type>Creature — Bear Illusion 2/2</Type>
-<ManaCost>U (1)</ManaCost>
+<ManaCost>{U}</ManaCost>
 <CardText>When Phantasmal Bear becomes the target of a spell or ability, sacrifice it.</CardText>
 <Flavor>"You know it to be false, but when its claws find you, what you know won't matter much at all."
 —Pol Jamaar, illusionist</Flavor>
 <Artist>Ryan Yee</Artist>
 <Multiverseid>380219</Multiverseid>
-<Rulings>2018/03/16: If <Phantasmal Bear> becomes the target of a spell or ability, its ability triggers and goes on the stack on top of that spell or ability. The ability will resolve first (causing <Phantasmal Bear> to be sacrificed). Unless the spell or ability has another target, it will then be countered when it tries to resolve for having no legal targets.</Rulings>
+<Rulings>2018/03/16: If Phantasmal Bear becomes the target of a spell or ability, its ability triggers and goes on the stack on top of that spell or ability. The ability will resolve first (causing Phantasmal Bear to be sacrificed). Unless the spell or ability has another target, it will then be countered when it tries to resolve for having no legal targets.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -88,7 +88,7 @@ Jace's Phantasm gets +4/+4 as long as an opponent has ten or more cards in their
 <No>5</No>
 <Name>Aether Figment</Name>
 <Type>Creature — Illusion 1/1</Type>
-<ManaCost>1U (2)</ManaCost>
+<ManaCost>{1}{U}</ManaCost>
 <CardText>Kicker {3} (You may pay an additional {3} as you cast this spell.)
 Aether Figment can't be blocked.
 If Aether Figment was kicked, it enters the battlefield with two +1/+1 counters on it.</CardText>
@@ -106,8 +106,8 @@ If Aether Figment was kicked, it enters the battlefield with two +1/+1 counters 
 <No>6</No>
 <Name>Crosstown Courier</Name>
 <Type>Creature — Vedalken 2/1</Type>
-<ManaCost>1U (2)</ManaCost>
-<CardText>Whenever Crosstown Courier deals combat damage to a player, that player puts that many cards from the top of their library into their graveyard.</CardText>
+<ManaCost>{1}{U}</ManaCost>
+<CardText>Whenever Crosstown Courier deals combat damage to a player, that player mills that many cards.</CardText>
 <Flavor>Information travels quickly through Ravnica's network of messengers and thought agents.</Flavor>
 <Artist>Chase Stone</Artist>
 <Multiverseid>380256</Multiverseid>
@@ -123,11 +123,13 @@ If Aether Figment was kicked, it enters the battlefield with two +1/+1 counters 
 <No>7</No>
 <Name>Dream Stalker</Name>
 <Type>Creature — Illusion 1/5</Type>
-<ManaCost>1U (2)</ManaCost>
+<ManaCost>{1}{U}</ManaCost>
 <CardText>When Dream Stalker enters the battlefield, return a permanent you control to its owner's hand.</CardText>
 <Flavor>What happens when it is the dream that wakes and the sleeper that fades into memory?</Flavor>
 <Artist>Brian Despain</Artist>
 <Multiverseid>380210</Multiverseid>
+<Rulings>2021/03/19: You may return Dream Stalker itself to its owner's hand as its triggered ability resolves.
+2021/03/19: Dream Stalker's ability doesn't target any permanent. Because of this, no player may take action between the time you choose the permanent to return and the time you return it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -140,7 +142,7 @@ If Aether Figment was kicked, it enters the battlefield with two +1/+1 counters 
 <No>8</No>
 <Name>Krovikan Mist</Name>
 <Type>Creature — Illusion */*</Type>
-<ManaCost>1U (2)</ManaCost>
+<ManaCost>{1}{U}</ManaCost>
 <CardText>Flying
 Krovikan Mist's power and toughness are each equal to the number of Illusions on the battlefield.</CardText>
 <Flavor>"It's as strong as you believe it is, and it's very convincing."
@@ -159,7 +161,7 @@ Krovikan Mist's power and toughness are each equal to the number of Illusions on
 <No>9</No>
 <Name>Merfolk Wayfinder</Name>
 <Type>Creature — Merfolk Scout 1/2</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>Flying
 When Merfolk Wayfinder enters the battlefield, reveal the top three cards of your library. Put all Island cards revealed this way into your hand and the rest on the bottom of your library in any order.</CardText>
 <Artist>Christopher Moeller</Artist>
@@ -177,12 +179,12 @@ When Merfolk Wayfinder enters the battlefield, reveal the top three cards of you
 <No>10</No>
 <Name>Sea Gate Oracle</Name>
 <Type>Creature — Human Wizard 1/3</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>When Sea Gate Oracle enters the battlefield, look at the top two cards of your library. Put one of them into your hand and the other on the bottom of your library.</CardText>
 <Flavor>"The secret entrance should be near."</Flavor>
 <Artist>Daniel Ljunggren</Artist>
 <Multiverseid>380247</Multiverseid>
-<Rulings>2017/03/14: If there's only one card in your library as <Sea Gate Oracle>'s ability resolves, you'll put it into your hand.</Rulings>
+<Rulings>2017/03/14: If there's only one card in your library as Sea Gate Oracle's ability resolves, you'll put it into your hand.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -195,7 +197,7 @@ When Merfolk Wayfinder enters the battlefield, reveal the top three cards of you
 <No>11</No>
 <Name>Stealer of Secrets</Name>
 <Type>Creature — Human Rogue 2/2</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>Whenever Stealer of Secrets deals combat damage to a player, draw a card.</CardText>
 <Flavor>The Dimir would hire her, if only they knew where she lived. The Azorius would condemn her, if only they knew her name.</Flavor>
 <Artist>Michael C. Hayes</Artist>
@@ -212,12 +214,12 @@ When Merfolk Wayfinder enters the battlefield, reveal the top three cards of you
 <No>12</No>
 <Name>Aether Adept</Name>
 <Type>Creature — Human Wizard 2/2</Type>
-<ManaCost>1UU (3)</ManaCost>
+<ManaCost>{1}{U}{U}</ManaCost>
 <CardText>When Aether Adept enters the battlefield, return target creature to its owner's hand.</CardText>
 <Flavor>"The universe is my instrument, and the song I play upon it is one you are forbidden to hear."</Flavor>
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>380241</Multiverseid>
-<Rulings>2010/08/15: If there are no other creatures on the battlefield when <Aether Adept> enters the battlefield, it must target itself.</Rulings>
+<Rulings>2010/08/15: If there are no other creatures on the battlefield when Aether Adept enters the battlefield, it must target itself.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -230,12 +232,12 @@ When Merfolk Wayfinder enters the battlefield, reveal the top three cards of you
 <No>13</No>
 <Name>Archaeomancer</Name>
 <Type>Creature — Human Wizard 1/2</Type>
-<ManaCost>2UU (4)</ManaCost>
+<ManaCost>{2}{U}{U}</ManaCost>
 <CardText>When Archaeomancer enters the battlefield, return target instant or sorcery card from your graveyard to your hand.</CardText>
 <Flavor>"Words of power never disappear. They sleep, awaiting those with the will to rouse them."</Flavor>
 <Artist>Zoltan Boros</Artist>
 <Multiverseid>380252</Multiverseid>
-<Rulings>2018/12/07: If an instant or sorcery spell puts <Archaeomancer> onto the battlefield, its ability can target that card in your graveyard.</Rulings>
+<Rulings>2018/12/07: If an instant or sorcery spell puts Archaeomancer onto the battlefield, its ability can target that card in your graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -248,7 +250,7 @@ When Merfolk Wayfinder enters the battlefield, reveal the top three cards of you
 <No>14</No>
 <Name>Phantasmal Dragon</Name>
 <Type>Creature — Dragon Illusion 5/5</Type>
-<ManaCost>2UU (4)</ManaCost>
+<ManaCost>{2}{U}{U}</ManaCost>
 <CardText>Flying
 When Phantasmal Dragon becomes the target of a spell or ability, sacrifice it.</CardText>
 <Flavor>Its hunger and ire are no less for being wrought of lies and mist.</Flavor>
@@ -266,14 +268,14 @@ When Phantasmal Dragon becomes the target of a spell or ability, sacrifice it.</
 <No>15</No>
 <Name>Body Double</Name>
 <Type>Creature — Shapeshifter 0/0</Type>
-<ManaCost>4U (5)</ManaCost>
+<ManaCost>{4}{U}</ManaCost>
 <CardText>You may have Body Double enter the battlefield as a copy of any creature card in a graveyard.</CardText>
 <Flavor>"I am who I pretend to be."</Flavor>
 <Artist>Winona Nelson</Artist>
 <Multiverseid>380228</Multiverseid>
-<Rulings>2007/02/01: Treat <Body Double> as though it were the chosen card entering the battlefield. Any "As this card enters the battlefield," "This card enters the battlefield with," and "When this card enters the battlefield" abilities of the chosen card will work.
-2007/02/01: You don't have to choose a card to copy. If you don't, <Body Double> enters the battlefield as a 0/0 creature and is probably put into your graveyard immediately, unless something is increasing its toughness to keep it alive.
-2007/02/01: If <Body Double> copies a Vesuvan Shapeshifter which then copies another creature and then is somehow turned face down, the <Body Double> is now a face-down Vesuvan Shapeshifter and may be turned face up via its Morph ability.</Rulings>
+<Rulings>2007/02/01: Treat Body Double as though it were the chosen card entering the battlefield. Any "As this card enters the battlefield," "This card enters the battlefield with," and "When this card enters the battlefield" abilities of the chosen card will work.
+2007/02/01: You don't have to choose a card to copy. If you don't, Body Double enters the battlefield as a 0/0 creature and is probably put into your graveyard immediately, unless something is increasing its toughness to keep it alive.
+2007/02/01: If Body Double copies a Vesuvan Shapeshifter which then copies another creature and then is somehow turned face down, the Body Double is now a face-down Vesuvan Shapeshifter and may be turned face up via its Morph ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -286,7 +288,7 @@ When Phantasmal Dragon becomes the target of a spell or ability, sacrifice it.</
 <No>16</No>
 <Name>Leyline Phantom</Name>
 <Type>Creature — Illusion 5/5</Type>
-<ManaCost>4U (5)</ManaCost>
+<ManaCost>{4}{U}</ManaCost>
 <CardText>When Leyline Phantom deals combat damage, return it to its owner's hand. (Return it only if it survived combat.)</CardText>
 <Flavor>"Is the maze itself a phantom? Or is one as real as the other? Perhaps I am as mad as the dragon."
 —Jace Beleren, journal</Flavor>
@@ -304,24 +306,31 @@ When Phantasmal Dragon becomes the target of a spell or ability, sacrifice it.</
 <No>17</No>
 <Name>Aeon Chronicler</Name>
 <Type>Creature — Avatar */*</Type>
-<ManaCost>3UU (5)</ManaCost>
+<ManaCost>{3}{U}{U}</ManaCost>
 <CardText>Aeon Chronicler's power and toughness are each equal to the number of cards in your hand.
-Suspend X—{X}{3}{U}. X can't be 0. (Rather than cast this card from your hand, you may pay {X}{3}{U} and exile it with X time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)
+Suspend X—{X}{3}{U}. X can't be 0.
 Whenever a time counter is removed from Aeon Chronicler while it's exiled, draw a card.</CardText>
 <Artist>Dan Dos Santos</Artist>
 <Multiverseid>380272</Multiverseid>
-<Rulings>2007/02/01: If this is suspended, then when the last time counter is removed from it, both its triggered ability and the "play this card" part of the suspend ability will trigger. They can be put on the stack in either order.
-2007/02/01: Both instances of X in the suspend ability are the same. You determine the value of X as you suspend the card from your hand. The value you choose must be at least 1.
-2013/06/07: A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it (or, in some rare cases, gains control of the creature spell itself).
-2013/06/07: If you can't cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it's no longer suspended.
-2013/06/07: If the spell has any mandatory additional costs, you must pay those if able. However, if an additional cost includes a mana payment, you are forced to pay that cost only if there's enough mana in your mana pool at the time you cast the spell. You aren't forced to activate any mana abilities, although you may do so if you wish.
-2013/06/07: You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage's effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time.
-2013/06/07: Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
-2013/06/07: If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
-2013/06/07: If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again during the card's owner's next upkeep.
-2013/06/07: When the last time counter is removed, the second triggered ability of suspend will trigger. It doesn't matter why the last time counter was removed or what effect removed it.
-2013/06/07: If the second triggered ability of suspend (the one that lets you cast the card) is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
-2013/06/07: As the second triggered ability resolves, you must cast the card if able. Timing restrictions based on the card's type are ignored.</Rulings>
+<Rulings>2021/03/19: Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to Aeon Chronicler may become lethal if cards leave your hand during that turn.
+2021/03/19: The ability that defines Aeon Chronicler's power and toughness applies in all zones, not just the battlefield.
+2021/06/18: If this is suspended, then when the last time counter is removed from it, both its triggered ability and the "cast this spell" part of the suspend ability will trigger. They can be put on the stack in either order.
+2021/06/18: The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+2021/06/18: A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it. (In some rare cases, another player may gain control of the creature spell itself. If this happens, the creature won't enter the battlefield with haste.)
+2021/06/18: Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that causes you to cast the card when the last time counter is removed. If you cast a creature spell this way, it gains haste until you lose control of that creature (or, in rare cases, you lose control of the creature spell while it's on the stack).
+2021/06/18: You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+2021/06/18: Cards exiled with suspend are exiled face up.
+2021/06/18: Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+2021/06/18: If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+2021/06/18: If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+2021/06/18: If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+2021/06/18: When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+2021/06/18: If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+2021/06/18: As the second triggered ability resolves, you must cast the card if able. You must do so even if it requires targets and the only legal targets are ones that you really don't want to target. Timing permissions based on the card's type are ignored.
+2021/06/18: If you can't cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it's no longer suspended.
+2021/06/18: If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+2021/06/18: You are never forced to activate mana abilities to pay costs, so if there is a mandatory additional mana cost (such as from Thalia, Guardian of Thraben), you can decline to activate mana abilities to pay for it and hence fail to cast the suspended card, leaving it in exile.
+2021/06/18: If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -334,22 +343,28 @@ Whenever a time counter is removed from Aeon Chronicler while it's exiled, draw 
 <No>18</No>
 <Name>Riftwing Cloudskate</Name>
 <Type>Creature — Illusion 2/2</Type>
-<ManaCost>3UU (5)</ManaCost>
+<ManaCost>{3}{U}{U}</ManaCost>
 <CardText>Flying
 When Riftwing Cloudskate enters the battlefield, return target permanent to its owner's hand.
 Suspend 3—{1}{U} (Rather than cast this card from your hand, you may pay {1}{U} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)</CardText>
 <Artist>Carl Critchlow</Artist>
 <Multiverseid>380197</Multiverseid>
-<Rulings>2013/06/07: You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage's effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time.
-2013/06/07: Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
-2013/06/07: If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
-2013/06/07: If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again during the card's owner's next upkeep.
-2013/06/07: When the last time counter is removed, the second triggered ability of suspend will trigger. It doesn't matter why the last time counter was removed or what effect removed it.
-2013/06/07: If the second triggered ability of suspend (the one that lets you cast the card) is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
-2013/06/07: As the second triggered ability resolves, you must cast the card if able. Timing restrictions based on the card's type are ignored.
-2013/06/07: If you can't cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it's no longer suspended.
-2013/06/07: If the spell has any mandatory additional costs, you must pay those if able. However, if an additional cost includes a mana payment, you are forced to pay that cost only if there's enough mana in your mana pool at the time you cast the spell. You aren't forced to activate any mana abilities, although you may do so if you wish.
-2013/06/07: A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it (or, in some rare cases, gains control of the creature spell itself).</Rulings>
+<Rulings>2021/06/18: Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that causes you to cast the card when the last time counter is removed. If you cast a creature spell this way, it gains haste until you lose control of that creature (or, in rare cases, you lose control of the creature spell while it's on the stack).
+2021/06/18: You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+2021/06/18: Cards exiled with suspend are exiled face up.
+2021/06/18: Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+2021/06/18: If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+2021/06/18: If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+2021/06/18: If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+2021/06/18: When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+2021/06/18: If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+2021/06/18: As the second triggered ability resolves, you must cast the card if able. You must do so even if it requires targets and the only legal targets are ones that you really don't want to target. Timing permissions based on the card's type are ignored.
+2021/06/18: If you can't cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it's no longer suspended.
+2021/06/18: If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+2021/06/18: You are never forced to activate mana abilities to pay costs, so if there is a mandatory additional mana cost (such as from Thalia, Guardian of Thraben), you can decline to activate mana abilities to pay for it and hence fail to cast the suspended card, leaving it in exile.
+2021/06/18: If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+2021/06/18: The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+2021/06/18: A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it. (In some rare cases, another player may gain control of the creature spell itself. If this happens, the creature won't enter the battlefield with haste.)</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -362,12 +377,12 @@ Suspend 3—{1}{U} (Rather than cast this card from your hand, you may pay {1}{U
 <No>19</No>
 <Name>Jace's Mindseeker</Name>
 <Type>Creature — Fish Illusion 4/4</Type>
-<ManaCost>4UU (6)</ManaCost>
+<ManaCost>{4}{U}{U}</ManaCost>
 <CardText>Flying
-When Jace's Mindseeker enters the battlefield, target opponent puts the top five cards of their library into their graveyard. You may cast an instant or sorcery card from among them without paying its mana cost.</CardText>
+When Jace's Mindseeker enters the battlefield, target opponent mills five cards. You may cast an instant or sorcery spell from among them without paying its mana cost.</CardText>
 <Artist>Greg Staples</Artist>
 <Multiverseid>380206</Multiverseid>
-<Rulings>2013/07/01: If you cast an instant or sorcery card this way, you do so while the ability of <Jace's Mindseeker> is resolving. If you choose not to (or can't), you won't get a chance to cast one later.
+<Rulings>2013/07/01: If you cast an instant or sorcery card this way, you do so while the ability of Jace's Mindseeker is resolving. If you choose not to (or can't), you won't get a chance to cast one later.
 2013/07/01: "From among them" means the five cards put into the graveyard, not all cards in that graveyard.
 2013/07/01: When casting an instant or sorcery card this way, ignore timing restrictions based on the card's type. Other timing restrictions, such as "Cast [this spell] only during combat," must be followed.
 2013/07/01: If you cast a card "without paying its mana cost," you can't pay alternative costs such as overload costs. You can pay additional costs such as kicker costs. If the card has mandatory additional costs, you must pay those.
@@ -385,21 +400,27 @@ When Jace's Mindseeker enters the battlefield, target opponent puts the top five
 <No>20</No>
 <Name>Errant Ephemeron</Name>
 <Type>Creature — Illusion 4/4</Type>
-<ManaCost>6U (7)</ManaCost>
+<ManaCost>{6}{U}</ManaCost>
 <CardText>Flying
 Suspend 4—{1}{U} (Rather than cast this card from your hand, you may pay {1}{U} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)</CardText>
 <Artist>Luca Zontini</Artist>
 <Multiverseid>380243</Multiverseid>
-<Rulings>2013/06/07: You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage's effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time.
-2013/06/07: Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
-2013/06/07: If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
-2013/06/07: If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again during the card's owner's next upkeep.
-2013/06/07: When the last time counter is removed, the second triggered ability of suspend will trigger. It doesn't matter why the last time counter was removed or what effect removed it.
-2013/06/07: If the second triggered ability of suspend (the one that lets you cast the card) is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
-2013/06/07: As the second triggered ability resolves, you must cast the card if able. Timing restrictions based on the card's type are ignored.
-2013/06/07: If you can't cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it's no longer suspended.
-2013/06/07: If the spell has any mandatory additional costs, you must pay those if able. However, if an additional cost includes a mana payment, you are forced to pay that cost only if there's enough mana in your mana pool at the time you cast the spell. You aren't forced to activate any mana abilities, although you may do so if you wish.
-2013/06/07: A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it (or, in some rare cases, gains control of the creature spell itself).</Rulings>
+<Rulings>2021/06/18: Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that causes you to cast the card when the last time counter is removed. If you cast a creature spell this way, it gains haste until you lose control of that creature (or, in rare cases, you lose control of the creature spell while it's on the stack).
+2021/06/18: You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+2021/06/18: Cards exiled with suspend are exiled face up.
+2021/06/18: Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+2021/06/18: If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+2021/06/18: If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+2021/06/18: If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+2021/06/18: When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+2021/06/18: If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+2021/06/18: As the second triggered ability resolves, you must cast the card if able. You must do so even if it requires targets and the only legal targets are ones that you really don't want to target. Timing permissions based on the card's type are ignored.
+2021/06/18: If you can't cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it's no longer suspended.
+2021/06/18: If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+2021/06/18: You are never forced to activate mana abilities to pay costs, so if there is a mandatory additional mana cost (such as from Thalia, Guardian of Thraben), you can decline to activate mana abilities to pay for it and hence fail to cast the suspended card, leaving it in exile.
+2021/06/18: If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+2021/06/18: The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+2021/06/18: A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it. (In some rare cases, another player may gain control of the creature spell itself. If this happens, the creature won't enter the battlefield with haste.)</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -412,14 +433,14 @@ Suspend 4—{1}{U} (Rather than cast this card from your hand, you may pay {1}{U
 <No>21</No>
 <Name>Thought Scour</Name>
 <Type>Instant</Type>
-<ManaCost>U (1)</ManaCost>
-<CardText>Target player puts the top two cards of their library into their graveyard.
+<ManaCost>{U}</ManaCost>
+<CardText>Target player mills two cards.
 Draw a card.</CardText>
-<Flavor>"As you inject the viscus vitae into the brain stem, don't let the spastic moaning bother you. It will soon become music to your ears."
+<Flavor>"As you inject the *viscus vitae* into the brain stem, don't let the spastic moaning bother you. It will soon become music to your ears."
 —Stitcher Geralf</Flavor>
 <Artist>David Rapoza</Artist>
 <Multiverseid>380203</Multiverseid>
-<Rulings>2011/01/22: If the target player is an illegal target when <Thought Scour> tries to resolve, it won't resolve and none of its effects will happen. You won't draw a card.
+<Rulings>2011/01/22: If the target player is an illegal target when Thought Scour tries to resolve, it won't resolve and none of its effects will happen. You won't draw a card.
 2011/01/22: Follow the instructions in the order listed on the card: if you target yourself, you'll put the top two cards of your library into your graveyard and then draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -433,16 +454,16 @@ Draw a card.</CardText>
 <No>22</No>
 <Name>Agoraphobia</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>1U (2)</ManaCost>
+<ManaCost>{1}{U}</ManaCost>
 <CardText>Enchant creature
 Enchanted creature gets -5/-0.
 {2}{U}: Return Agoraphobia to its owner's hand.</CardText>
 <Flavor>"Everyone in this city is choosing sides. I choose inside."</Flavor>
 <Artist>Jim Murray</Artist>
 <Multiverseid>380253</Multiverseid>
-<Rulings>2013/01/24: Only <Agoraphobia>'s controller can activate its last ability, no matter who controls the creature <Agoraphobia>'s attached to.
-2013/01/24: <Agoraphobia>'s last ability can be activated only while it's on the battlefield.
-2013/01/24: Players don't have priority to cast spells and activate abilities between combat damage being assigned and being dealt. This means that if you want to return <Agoraphobia> to its owner's hand before combat damage is dealt, you must do so before combat damage is assigned (and the creature will no longer get -5/-0).</Rulings>
+<Rulings>2013/01/24: Agoraphobia's last ability can be activated only while it's on the battlefield.
+2013/01/24: Only Agoraphobia's controller can activate its last ability, no matter who controls the creature Agoraphobia's attached to.
+2013/01/24: Players don't have priority to cast spells and activate abilities between combat damage being assigned and being dealt. This means that if you want to return Agoraphobia to its owner's hand before combat damage is dealt, you must do so before combat damage is assigned (and the creature will no longer get -5/-0).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -455,13 +476,21 @@ Enchanted creature gets -5/-0.
 <No>23</No>
 <Name>Into the Roil</Name>
 <Type>Instant</Type>
-<ManaCost>1U (2)</ManaCost>
+<ManaCost>{1}{U}</ManaCost>
 <CardText>Kicker {1}{U} (You may pay an additional {1}{U} as you cast this spell.)
 Return target nonland permanent to its owner's hand. If this spell was kicked, draw a card.</CardText>
 <Flavor>"Roil tide! Roil tide! Tie yourselves down!"</Flavor>
 <Artist>Kieran Yanner</Artist>
 <Multiverseid>380188</Multiverseid>
-<Rulings>2009/10/01: If the targeted permanent is an illegal target by the time <Into the Roil> resolves, the entire spell doesn't resolve. You don't draw a card.</Rulings>
+<Rulings>2009/10/01: If the targeted permanent is an illegal target by the time Into the Roil resolves, the entire spell doesn't resolve. You don't draw a card.
+2020/09/25: An ability that triggers when a player casts a kicked spell resolves before the spell that caused it to trigger, but after targets have been chosen for that spell. It resolves even if that spell is countered.
+2020/09/25: If you copy a kicked spell, the copy is also kicked. If a card or token enters the battlefield as a copy of a permanent that's already on the battlefield, the new permanent isn't kicked, even if the original was.
+2020/09/25: If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+2020/09/25: If the target nonland permanent is an illegal target by the time Into the Roil tries to resolve, the spell doesn't resolve. You don't draw a card if it was kicked.
+2020/09/25: Kicker represents an optional additional cost that you may choose to pay as you cast the spell. A spell cast with that additional cost paid is "kicked."
+2020/09/25: You can't pay a kicker cost more than once.
+2020/09/25: To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The converted mana cost of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+2020/09/25: Some instant or sorcery spells require alternative or additional targets if they're kicked. You ignore these targeting requirements if those spells aren't kicked, and you can't kick those spells unless you can choose the appropriate targets. On the other hand, you can kick a permanent spell even if you won't be able to choose targets for an enters-the-battlefield ability of that permanent once the spell resolves.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -474,13 +503,13 @@ Return target nonland permanent to its owner's hand. If this spell was kicked, d
 <No>24</No>
 <Name>Memory Lapse</Name>
 <Type>Instant</Type>
-<ManaCost>1U (2)</ManaCost>
+<ManaCost>{1}{U}</ManaCost>
 <CardText>Counter target spell. If that spell is countered this way, put it on top of its owner's library instead of into that player's graveyard.</CardText>
 <Flavor>"To sculpt a mind is to see every memory and thought as an individual piece that can be rearranged—or removed."
 —Jace Beleren</Flavor>
 <Artist>Rebecca Guay</Artist>
 <Multiverseid>380199</Multiverseid>
-<Rulings>2016/06/08: <Memory Lapse> has a self-replacement effect that replaces the spell going to the graveyard before any other effect can replace that event. If the spell was cast using flashback, however, flashback will change the spell's destination from its owner's library to exile.</Rulings>
+<Rulings>2016/06/08: Memory Lapse has a self-replacement effect that replaces the spell going to the graveyard before any other effect can replace that event. If the spell was cast using flashback, however, flashback will change the spell's destination from its owner's library to exile.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Duel Decks: Jace vs. Vraska</Set>
@@ -492,9 +521,9 @@ Return target nonland permanent to its owner's hand. If this spell was kicked, d
 <No>25</No>
 <Name>Prohibit</Name>
 <Type>Instant</Type>
-<ManaCost>1U (2)</ManaCost>
+<ManaCost>{1}{U}</ManaCost>
 <CardText>Kicker {2} (You may pay an additional {2} as you cast this spell.)
-Counter target spell if its converted mana cost is 2 or less. If this spell was kicked, counter that spell if its converted mana cost is 4 or less instead.</CardText>
+Counter target spell if its mana value is 2 or less. If this spell was kicked, counter that spell if its mana value is 4 or less instead.</CardText>
 <Artist>Adam Rex</Artist>
 <Multiverseid>380270</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -509,14 +538,14 @@ Counter target spell if its converted mana cost is 2 or less. If this spell was 
 <No>26</No>
 <Name>Remand</Name>
 <Type>Instant</Type>
-<ManaCost>1U (2)</ManaCost>
+<ManaCost>{1}{U}</ManaCost>
 <CardText>Counter target spell. If that spell is countered this way, put it into its owner's hand instead of into that player's graveyard.
 Draw a card.</CardText>
 <Flavor>For the Azorius, the law can be a physical shield against chaos and anarchy.</Flavor>
 <Artist>Zoltan Boros</Artist>
 <Multiverseid>380255</Multiverseid>
-<Rulings>2005/10/01: The countered spell goes to its owner's hand from the stack. It never hits the graveyard.
-2007/02/01: If you <Remand> a card with Flashback, the card will still be exiled.</Rulings>
+<Rulings>2021/03/19: Remand can target a spell that can't be countered. That spell won't be countered or returned to its owner's hand, but you'll draw a card.
+2021/03/19: If you target a card that was cast with flashback with Remand, the card will still be exiled.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -529,15 +558,15 @@ Draw a card.</CardText>
 <No>27</No>
 <Name>Claustrophobia</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>1UU (3)</ManaCost>
+<ManaCost>{1}{U}{U}</ManaCost>
 <CardText>Enchant creature
 When Claustrophobia enters the battlefield, tap enchanted creature.
 Enchanted creature doesn't untap during its controller's untap step.</CardText>
 <Flavor>Six feet of earth muffled his cries.</Flavor>
 <Artist>Ryan Pancoast</Artist>
 <Multiverseid>380259</Multiverseid>
-<Rulings>2015/06/22: <Claustrophobia> can target and enchant a tapped or untapped creature.
-2015/06/22: The enchanted creature can still be untapped in other ways. <Claustrophobia> will remain attached, and the creature will continue to not untap during its controller's untap step.</Rulings>
+<Rulings>2015/06/22: Claustrophobia can target and enchant a tapped or untapped creature.
+2015/06/22: The enchanted creature can still be untapped in other ways. Claustrophobia will remain attached, and the creature will continue to not untap during its controller's untap step.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -550,7 +579,7 @@ Enchanted creature doesn't untap during its controller's untap step.</CardText>
 <No>28</No>
 <Name>Griptide</Name>
 <Type>Instant</Type>
-<ManaCost>3U (4)</ManaCost>
+<ManaCost>{3}{U}</ManaCost>
 <CardText>Put target creature on top of its owner's library.</CardText>
 <Flavor>"Beware the seagrafs just off the shore. These waters are filled with hungry geists looking for an easy meal."
 —Captain Eberhart</Flavor>
@@ -568,14 +597,14 @@ Enchanted creature doesn't untap during its controller's untap step.</CardText>
 <No>29</No>
 <Name>Ray of Command</Name>
 <Type>Instant</Type>
-<ManaCost>3U (4)</ManaCost>
+<ManaCost>{3}{U}</ManaCost>
 <CardText>Untap target creature an opponent controls and gain control of it until end of turn. That creature gains haste until end of turn. When you lose control of the creature, tap it.</CardText>
 <Flavor>"Heel."</Flavor>
 <Artist>Andrew Robinson</Artist>
 <Multiverseid>380216</Multiverseid>
-<Rulings>2004/10/04: You may target an untapped creature with <Ray of Command>.
+<Rulings>2004/10/04: You may target an untapped creature with Ray of Command.
 2004/10/04: The creature returns to the opponent when the "until end of turn" effect wears off during the cleanup step. It taps during the Cleanup step (if it is not already tapped), so any abilities triggered off it tapping happen at that time.
-2008/10/01: You tap the creature when you lose control of it for any reason — because <Ray of Command>'s effect ends, or because a spell or ability causes another player to gain control of it.</Rulings>
+2008/10/01: You tap the creature when you lose control of it for any reason — because Ray of Command's effect ends, or because a spell or ability causes another player to gain control of it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Duel Decks: Jace vs. Vraska</Set>
@@ -587,7 +616,7 @@ Enchanted creature doesn't untap during its controller's untap step.</CardText>
 <No>30</No>
 <Name>Control Magic</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>2UU (4)</ManaCost>
+<ManaCost>{2}{U}{U}</ManaCost>
 <CardText>Enchant creature
 You control enchanted creature.</CardText>
 <Flavor>"Do as I think, not as I do."
@@ -606,14 +635,14 @@ You control enchanted creature.</CardText>
 <No>31</No>
 <Name>Summoner's Bane</Name>
 <Type>Instant</Type>
-<ManaCost>2UU (4)</ManaCost>
+<ManaCost>{2}{U}{U}</ManaCost>
 <CardText>Counter target creature spell. Create a 2/2 blue Illusion creature token.</CardText>
 <Flavor>"I don't need to have the perfect plan. My foe just has to have an imperfect one."
 —Jace Beleren</Flavor>
 <Artist>Cyril Van Der Haegen</Artist>
 <Multiverseid>380266</Multiverseid>
-<Rulings>2009/10/01: If the targeted spell is an illegal target by the time <Summoner's Bane> resolves, the entire spell doesn't resolve. You won't get a creature token.
-2009/10/01: You get the token creature, not the controller of the creature spell.</Rulings>
+<Rulings>2009/10/01: You get the token creature, not the controller of the creature spell.
+2009/10/01: If the targeted spell is an illegal target by the time Summoner's Bane resolves, the entire spell doesn't resolve. You won't get a creature token.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -626,7 +655,7 @@ You control enchanted creature.</CardText>
 <No>32</No>
 <Name>Jace's Ingenuity</Name>
 <Type>Instant</Type>
-<ManaCost>3UU (5)</ManaCost>
+<ManaCost>{3}{U}{U}</ManaCost>
 <CardText>Draw three cards.</CardText>
 <Flavor>"Brute force can sometimes kick down a locked door, but knowledge is a skeleton key."</Flavor>
 <Artist>Igor Kieryluk</Artist>
@@ -643,9 +672,9 @@ You control enchanted creature.</CardText>
 <No>33</No>
 <Name>Future Sight</Name>
 <Type>Enchantment</Type>
-<ManaCost>2UUU (5)</ManaCost>
+<ManaCost>{2}{U}{U}{U}</ManaCost>
 <CardText>Play with the top card of your library revealed.
-You may play the top card of your library.</CardText>
+You may play lands and cast spells from the top of your library.</CardText>
 <Flavor>"Is the inevitable any less miraculous?"
 —Veldka, wandering sage</Flavor>
 <Artist>Dan Scott</Artist>
@@ -666,12 +695,12 @@ You may play the top card of your library.</CardText>
 <No>34</No>
 <Name>Spelltwine</Name>
 <Type>Sorcery</Type>
-<ManaCost>5U (6)</ManaCost>
+<ManaCost>{5}{U}</ManaCost>
 <CardText>Exile target instant or sorcery card from your graveyard and target instant or sorcery card from an opponent's graveyard. Copy those cards. Cast the copies if able without paying their mana costs. Exile Spelltwine.</CardText>
 <Artist>Noah Bradley</Artist>
 <Multiverseid>380258</Multiverseid>
-<Rulings>2012/07/01: <Spelltwine> has two targets: the instant or sorcery card in your graveyard and the one in an opponent's graveyard. You can't cast <Spelltwine> unless you can choose both legal targets.
-2012/07/01: If one of <Spelltwine>'s targets is illegal when <Spelltwine> tries to resolve, you'll still exile and copy the remaining legal target.
+<Rulings>2012/07/01: Spelltwine has two targets: the instant or sorcery card in your graveyard and the one in an opponent's graveyard. You can't cast Spelltwine unless you can choose both legal targets.
+2012/07/01: If one of Spelltwine's targets is illegal when Spelltwine tries to resolve, you'll still exile and copy the remaining legal target.
 2012/07/01: The copies are created in exile and cast from exile. The cards remain exiled.
 2012/07/01: You can cast the copies in either order.
 2012/07/01: The copy you cast first will already be on the stack when you cast the other copy. If that spell targets a spell, you may choose the first copy as a legal target.
@@ -732,7 +761,7 @@ When Halimar Depths enters the battlefield, look at the top three cards of your 
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Jace vs. Vraska</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -747,7 +776,7 @@ When Halimar Depths enters the battlefield, look at the top three cards of your 
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Jace vs. Vraska</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -762,7 +791,7 @@ When Halimar Depths enters the battlefield, look at the top three cards of your 
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Jace vs. Vraska</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -777,7 +806,7 @@ When Halimar Depths enters the battlefield, look at the top three cards of your 
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Jace vs. Vraska</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -792,7 +821,7 @@ When Halimar Depths enters the battlefield, look at the top three cards of your 
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Jace vs. Vraska</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -800,10 +829,10 @@ When Halimar Depths enters the battlefield, look at the top three cards of your 
 <No>42</No>
 <Name>Vraska the Unseen</Name>
 <Type>Legendary Planeswalker — Vraska (Loyalty: 5)</Type>
-<ManaCost>3BG (5)</ManaCost>
-<CardText>+1: Until your next turn, whenever a creature deals combat damage to Vraska the Unseen, destroy that creature.
--3: Destroy target nonland permanent.
--7: Create three 1/1 black Assassin creature tokens with "Whenever this creature deals combat damage to a player, that player loses the game."</CardText>
+<ManaCost>{3}{B}{G}</ManaCost>
+<CardText>[+1]: Until your next turn, whenever a creature deals combat damage to Vraska the Unseen, destroy that creature.
+[-3]: Destroy target nonland permanent.
+[-7]: Create three 1/1 black Assassin creature tokens with "Whenever this creature deals combat damage to a player, that player loses the game."</CardText>
 <Artist>Igor Kieryluk</Artist>
 <Multiverseid>380214</Multiverseid>
 <Rulings>2012/10/01: If an effect creates a copy of one of the Assassin creature tokens, the copy will also have the triggered ability.
@@ -820,7 +849,7 @@ When Halimar Depths enters the battlefield, look at the top three cards of your 
 <No>43</No>
 <Name>Pulse Tracker</Name>
 <Type>Creature — Vampire Rogue 1/1</Type>
-<ManaCost>B (1)</ManaCost>
+<ManaCost>{B}</ManaCost>
 <CardText>Whenever Pulse Tracker attacks, each opponent loses 1 life.</CardText>
 <Flavor>"You can't think your way out of this, Jace. Thought implies life, and life requires a pulse—music to a hunter's ears."
 —Vraska</Flavor>
@@ -838,12 +867,12 @@ When Halimar Depths enters the battlefield, look at the top three cards of your 
 <No>44</No>
 <Name>Shadow Alley Denizen</Name>
 <Type>Creature — Vampire Rogue 1/1</Type>
-<ManaCost>B (1)</ManaCost>
+<ManaCost>{B}</ManaCost>
 <CardText>Whenever another black creature enters the battlefield under your control, target creature gains intimidate until end of turn. (It can't be blocked except by artifact creatures and/or creatures that share a color with it.)</CardText>
 <Artist>Cynthia Sheppard</Artist>
 <Multiverseid>380212</Multiverseid>
-<Rulings>2013/01/24: The black creature that entered the battlefield can be chosen as the target of <Shadow Alley Denizen>'s ability, but it won't be able to attack that turn unless it also has haste.
-2013/01/24: <Shadow Alley Denizen> can be chosen as the target of its own ability.</Rulings>
+<Rulings>2013/01/24: The black creature that entered the battlefield can be chosen as the target of Shadow Alley Denizen's ability, but it won't be able to attack that turn unless it also has haste.
+2013/01/24: Shadow Alley Denizen can be chosen as the target of its own ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -856,12 +885,12 @@ When Halimar Depths enters the battlefield, look at the top three cards of your 
 <No>45</No>
 <Name>Tavern Swindler</Name>
 <Type>Creature — Human Rogue 2/2</Type>
-<ManaCost>1B (2)</ManaCost>
+<ManaCost>{1}{B}</ManaCost>
 <CardText>{T}, Pay 3 life: Flip a coin. If you win the flip, you gain 6 life.</CardText>
 <Flavor>Rakdos cultists are her best customers. They never flinch at pain and are seldom good at math.</Flavor>
 <Artist>Cynthia Sheppard</Artist>
 <Multiverseid>380195</Multiverseid>
-<Rulings>2017/11/17: You can't activate <Tavern Swindler>'s ability if your life total is less than 3. You can activate it if your life total is exactly 3, but it's probably a bad idea. You'll lose the game before the ability resolves.</Rulings>
+<Rulings>2017/11/17: You can't activate Tavern Swindler's ability if your life total is less than 3. You can activate it if your life total is exactly 3, but it's probably a bad idea. You'll lose the game before the ability resolves.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -874,13 +903,13 @@ When Halimar Depths enters the battlefield, look at the top three cards of your 
 <No>46</No>
 <Name>Wight of Precinct Six</Name>
 <Type>Creature — Zombie 1/1</Type>
-<ManaCost>1B (2)</ManaCost>
+<ManaCost>{1}{B}</ManaCost>
 <CardText>Wight of Precinct Six gets +1/+1 for each creature card in your opponents' graveyards.</CardText>
 <Flavor>Even the lost and undead need a protector.</Flavor>
 <Artist>Ryan Barger</Artist>
 <Multiverseid>380207</Multiverseid>
-<Rulings>2017/11/17: <Wight of Precinct Six>'s ability applies only while it's on the battlefield. In all other zones, it's a 1/1 creature.
-2017/11/17: If <Wight of Precinct Six> is dealt lethal damage at the same time as a creature an opponent controls, they're destroyed at the same time. It won't get an additional +1/+1 from its ability in time to save it.</Rulings>
+<Rulings>2017/11/17: Wight of Precinct Six's ability applies only while it's on the battlefield. In all other zones, it's a 1/1 creature.
+2017/11/17: If Wight of Precinct Six is dealt lethal damage at the same time as a creature an opponent controls, they're destroyed at the same time. It won't get an additional +1/+1 from its ability in time to save it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -892,8 +921,8 @@ When Halimar Depths enters the battlefield, look at the top three cards of your 
 <SetId>DDM</SetId>
 <No>47</No>
 <Name>Death-Hood Cobra</Name>
-<Type>Creature — Snake 2/2</Type>
-<ManaCost>1G (2)</ManaCost>
+<Type>Creature — Phyrexian Snake 2/2</Type>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>{1}{G}: Death-Hood Cobra gains reach until end of turn.
 {1}{G}: Death-Hood Cobra gains deathtouch until end of turn.</CardText>
 <Artist>Jason Felix</Artist>
@@ -910,9 +939,9 @@ When Halimar Depths enters the battlefield, look at the top three cards of your 
 <No>48</No>
 <Name>Gatecreeper Vine</Name>
 <Type>Creature — Plant 0/2</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>Defender
-When Gatecreeper Vine enters the battlefield, you may search your library for a basic land card or a Gate card, reveal it, put it into your hand, then shuffle your library.</CardText>
+When Gatecreeper Vine enters the battlefield, you may search your library for a basic land card or a Gate card, reveal it, put it into your hand, then shuffle.</CardText>
 <Flavor>Every inch of Ravnica is home to something.</Flavor>
 <Artist>Trevor Claxton</Artist>
 <Multiverseid>380268</Multiverseid>
@@ -928,7 +957,7 @@ When Gatecreeper Vine enters the battlefield, you may search your library for a 
 <No>49</No>
 <Name>River Boa</Name>
 <Type>Creature — Snake 2/1</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>Islandwalk (This creature can't be blocked as long as defending player controls an Island.)
 {G}: Regenerate River Boa.</CardText>
 <Flavor>"Sheath your swords! Cudgels only. I see a new pair of waterproof trek boots slithering away."
@@ -947,7 +976,7 @@ When Gatecreeper Vine enters the battlefield, you may search your library for a 
 <No>50</No>
 <Name>Vinelasher Kudzu</Name>
 <Type>Creature — Plant 1/1</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>Whenever a land enters the battlefield under your control, put a +1/+1 counter on Vinelasher Kudzu.</CardText>
 <Flavor>It grows to hate you.</Flavor>
 <Artist>Mark Tedin</Artist>
@@ -964,8 +993,8 @@ When Gatecreeper Vine enters the battlefield, you may search your library for a 
 <No>51</No>
 <Name>Putrid Leech</Name>
 <Type>Creature — Zombie Leech 2/2</Type>
-<ManaCost>BG (2)</ManaCost>
-<CardText>Pay 2 life: Putrid Leech gets +2/+2 until end of turn. Activate this ability only once each turn.</CardText>
+<ManaCost>{B}{G}</ManaCost>
+<CardText>Pay 2 life: Putrid Leech gets +2/+2 until end of turn. Activate only once each turn.</CardText>
 <Flavor>"The Golgari would say that life comes from death and death comes from life. But sometimes, death comes from the dead."
 —Vraska</Flavor>
 <Artist>Craig J Spearing</Artist>
@@ -982,7 +1011,7 @@ When Gatecreeper Vine enters the battlefield, you may search your library for a 
 <No>52</No>
 <Name>Sadistic Augermage</Name>
 <Type>Creature — Human Wizard 3/1</Type>
-<ManaCost>2B (3)</ManaCost>
+<ManaCost>{2}{B}</ManaCost>
 <CardText>When Sadistic Augermage dies, each player puts a card from their hand on top of their library.</CardText>
 <Flavor>"Don't worry. I know the drill."</Flavor>
 <Artist>Nick Percival</Artist>
@@ -999,7 +1028,7 @@ When Gatecreeper Vine enters the battlefield, you may search your library for a 
 <No>53</No>
 <Name>Slate Street Ruffian</Name>
 <Type>Creature — Human Warrior 2/2</Type>
-<ManaCost>2B (3)</ManaCost>
+<ManaCost>{2}{B}</ManaCost>
 <CardText>Whenever Slate Street Ruffian becomes blocked, defending player discards a card.</CardText>
 <Flavor>"Merciless to the point of psychosis. Let's give him a job."
 —Zelinas, Orzhov recruiter</Flavor>
@@ -1017,7 +1046,7 @@ When Gatecreeper Vine enters the battlefield, you may search your library for a 
 <No>54</No>
 <Name>Oran-Rief Recluse</Name>
 <Type>Creature — Spider 1/3</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>Kicker {2}{G} (You may pay an additional {2}{G} as you cast this spell.)
 Reach (This creature can block creatures with flying.)
 When Oran-Rief Recluse enters the battlefield, if it was kicked, destroy target creature with flying.</CardText>
@@ -1035,16 +1064,16 @@ When Oran-Rief Recluse enters the battlefield, if it was kicked, destroy target 
 <No>55</No>
 <Name>Spawnwrithe</Name>
 <Type>Creature — Elemental 2/2</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>Trample
 Whenever Spawnwrithe deals combat damage to a player, create a token that's a copy of Spawnwrithe.</CardText>
 <Flavor>Its victims feel only an itchy, wriggling feeling just under their skin. By then, it's far too late.</Flavor>
 <Artist>Daarken</Artist>
 <Multiverseid>380196</Multiverseid>
-<Rulings>2008/05/01: As the token is created, it checks the printed values of the <Spawnwrithe> it's copying — or, if the <Spawnwrithe> whose ability triggered was itself a token, the original characteristics of that token as stated by the effect that put it onto the battlefield — as well as any copy effects that have been applied to it. It won't copy counters on the <Spawnwrithe>, nor will it copy other effects that have changed <Spawnwrithe>'s power, toughness, types, color, or so on. Normally, this means the token will simply be a <Spawnwrithe>. But if any copy effects have affected that <Spawnwrithe>, they're taken into account.
-2008/05/01: If <Spawnwrithe>'s ability triggers, then <Spawnwrithe> becomes a copy of another creature before its ability resolves (due to Mirrorweave, perhaps), the token will be a copy of whatever creature the <Spawnwrithe> is currently a copy of. At the end of the turn, <Spawnwrithe> will revert back to what it was, but the token will stay as it is.
-2008/05/01: If a copy effect such as Mirrorweave causes some other creature to become a copy of <Spawnwrithe>, then that creature deals combat damage to a player, the token that's put onto the battlefield is simply a copy of <Spawnwrithe>.
-2008/05/01: A token created by a Cemetery Puca that's copying a <Spawnwrithe> will be a <Spawnwrithe> with the Cemetery Puca ability.</Rulings>
+<Rulings>2008/05/01: A token created by a Cemetery Puca that's copying a Spawnwrithe will be a Spawnwrithe with the Cemetery Puca ability.
+2008/05/01: As the token is created, it checks the printed values of the Spawnwrithe it's copying — or, if the Spawnwrithe whose ability triggered was itself a token, the original characteristics of that token as stated by the effect that put it onto the battlefield — as well as any copy effects that have been applied to it. It won't copy counters on the Spawnwrithe, nor will it copy other effects that have changed Spawnwrithe's power, toughness, types, color, or so on. Normally, this means the token will simply be a Spawnwrithe. But if any copy effects have affected that Spawnwrithe, they're taken into account.
+2008/05/01: If Spawnwrithe's ability triggers, then Spawnwrithe becomes a copy of another creature before its ability resolves (due to Mirrorweave, perhaps), the token will be a copy of whatever creature the Spawnwrithe is currently a copy of. At the end of the turn, Spawnwrithe will revert back to what it was, but the token will stay as it is.
+2008/05/01: If a copy effect such as Mirrorweave causes some other creature to become a copy of Spawnwrithe, then that creature deals combat damage to a player, the token that's put onto the battlefield is simply a copy of Spawnwrithe.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1057,12 +1086,12 @@ Whenever Spawnwrithe deals combat damage to a player, create a token that's a co
 <No>56</No>
 <Name>Stonefare Crocodile</Name>
 <Type>Creature — Crocodile 3/2</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>{2}{B}: Stonefare Crocodile gains lifelink until end of turn. (Damage dealt by this creature also causes you to gain that much life.)</CardText>
 <Flavor>The Izzet's plans to exploit the undercity ran into a few stubborn obstacles.</Flavor>
 <Artist>Tomasz Jedruszek</Artist>
 <Multiverseid>380230</Multiverseid>
-<Rulings>2012/10/01: multiple instances of lifelink on the same creature are redundant. Activating <Stonefare Crocodile>'s ability more than once during a single turn won't cause you to gain more life.</Rulings>
+<Rulings>2012/10/01: multiple instances of lifelink on the same creature are redundant. Activating Stonefare Crocodile's ability more than once during a single turn won't cause you to gain more life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1075,7 +1104,7 @@ Whenever Spawnwrithe deals combat damage to a player, create a token that's a co
 <No>57</No>
 <Name>Ohran Viper</Name>
 <Type>Snow Creature — Snake 1/3</Type>
-<ManaCost>1GG (3)</ManaCost>
+<ManaCost>{1}{G}{G}</ManaCost>
 <CardText>Whenever Ohran Viper deals combat damage to a creature, destroy that creature at end of combat.
 Whenever Ohran Viper deals combat damage to a player, you may draw a card.</CardText>
 <Flavor>The ohran viper is not cold-blooded. Its veins course with the same antigelid venom used to kill its prey.</Flavor>
@@ -1093,12 +1122,12 @@ Whenever Ohran Viper deals combat damage to a player, you may draw a card.</Card
 <No>58</No>
 <Name>Corpse Traders</Name>
 <Type>Creature — Human Rogue 3/3</Type>
-<ManaCost>3B (4)</ManaCost>
-<CardText>{2}{B}, Sacrifice a creature: Target opponent reveals their hand. You choose a card from it. That player discards that card. Activate this ability only any time you could cast a sorcery.</CardText>
+<ManaCost>{3}{B}</ManaCost>
+<CardText>{2}{B}, Sacrifice a creature: Target opponent reveals their hand. You choose a card from it. That player discards that card. Activate only as a sorcery.</CardText>
 <Flavor>Those without breath can't complain.</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>380254</Multiverseid>
-<Rulings>2012/05/01: You can sacrifice <Corpse Traders> to pay the cost of its ability.
+<Rulings>2012/05/01: You can sacrifice Corpse Traders to pay the cost of its ability.
 2013/04/15: If you cast this as normal during your main phase, it will enter the battlefield and you'll receive priority. If no abilities trigger because of this, you can activate its ability immediately, before any other player has a chance to remove it from the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1112,7 +1141,7 @@ Whenever Ohran Viper deals combat damage to a player, you may draw a card.</Card
 <No>59</No>
 <Name>Festerhide Boar</Name>
 <Type>Creature — Boar 3/3</Type>
-<ManaCost>3G (4)</ManaCost>
+<ManaCost>{3}{G}</ManaCost>
 <CardText>Trample
 Morbid — Festerhide Boar enters the battlefield with two +1/+1 counters on it if a creature died this turn.</CardText>
 <Flavor>"Bury your dead deep. The boars are hungriest while the corpse is still warm."
@@ -1131,7 +1160,7 @@ Morbid — Festerhide Boar enters the battlefield with two +1/+1 counters on it 
 <No>60</No>
 <Name>Mold Shambler</Name>
 <Type>Creature — Fungus Beast 3/3</Type>
-<ManaCost>3G (4)</ManaCost>
+<ManaCost>{3}{G}</ManaCost>
 <CardText>Kicker {1}{G} (You may pay an additional {1}{G} as you cast this spell.)
 When Mold Shambler enters the battlefield, if it was kicked, destroy target noncreature permanent.</CardText>
 <Flavor>When civilization encroaches on nature, Zendikar encroaches back.</Flavor>
@@ -1149,9 +1178,9 @@ When Mold Shambler enters the battlefield, if it was kicked, destroy target nonc
 <No>61</No>
 <Name>Highway Robber</Name>
 <Type>Creature — Human Mercenary 2/2</Type>
-<ManaCost>2BB (4)</ManaCost>
+<ManaCost>{2}{B}{B}</ManaCost>
 <CardText>When Highway Robber enters the battlefield, target opponent loses 2 life and you gain 2 life.</CardText>
-<Flavor>"Tonight, madam, it's your money and your life."</Flavor>
+<Flavor>"Tonight, madam, it's your money *and* your life."</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>380193</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1166,14 +1195,14 @@ When Mold Shambler enters the battlefield, if it was kicked, destroy target nonc
 <No>62</No>
 <Name>Nekrataal</Name>
 <Type>Creature — Human Assassin 2/1</Type>
-<ManaCost>2BB (4)</ManaCost>
+<ManaCost>{2}{B}{B}</ManaCost>
 <CardText>First strike
 When Nekrataal enters the battlefield, destroy target nonartifact, nonblack creature. That creature can't be regenerated.</CardText>
 <Flavor>"You can't protect them all, Jace."
 —Vraska</Flavor>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>380273</Multiverseid>
-<Rulings>2016/06/08: Nothing happens if there are no nonartifact, nonblack creatures on the battlefield when <Nekrataal> enters the battlefield, but if there is one, you must target it, even if it's a creature you control.</Rulings>
+<Rulings>2016/06/08: Nothing happens if there are no nonartifact, nonblack creatures on the battlefield when Nekrataal enters the battlefield, but if there is one, you must target it, even if it's a creature you control.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1186,14 +1215,14 @@ When Nekrataal enters the battlefield, destroy target nonartifact, nonblack crea
 <No>63</No>
 <Name>Reaper of the Wilds</Name>
 <Type>Creature — Gorgon 4/5</Type>
-<ManaCost>2BG (4)</ManaCost>
+<ManaCost>{2}{B}{G}</ManaCost>
 <CardText>Whenever another creature dies, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
 {B}: Reaper of the Wilds gains deathtouch until end of turn.
 {1}{G}: Reaper of the Wilds gains hexproof until end of turn.</CardText>
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>380224</Multiverseid>
-<Rulings>2013/09/15: <Reaper of the Wilds>'s first ability triggers separately for each creature. For example, if five creatures die at the same time, you'll scry 1 five times. You won't scry 5.
-2013/09/15: If <Reaper of the Wilds> dies at the same time as another creature, its ability will trigger for that other creature.
+<Rulings>2013/09/15: Reaper of the Wilds's first ability triggers separately for each creature. For example, if five creatures die at the same time, you'll scry 1 five times. You won't scry 5.
+2013/09/15: If Reaper of the Wilds dies at the same time as another creature, its ability will trigger for that other creature.
 2013/09/15: When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
 2013/09/15: You choose how to order cards returned to your library after scrying no matter where you put them.
 2013/09/15: You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
@@ -1210,7 +1239,7 @@ When Nekrataal enters the battlefield, destroy target nonartifact, nonblack crea
 <No>64</No>
 <Name>Acidic Slime</Name>
 <Type>Creature — Ooze 2/2</Type>
-<ManaCost>3GG (5)</ManaCost>
+<ManaCost>{3}{G}{G}</ManaCost>
 <CardText>Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
 When Acidic Slime enters the battlefield, destroy target artifact, enchantment, or land.</CardText>
 <Artist>Karl Kopinski</Artist>
@@ -1227,7 +1256,7 @@ When Acidic Slime enters the battlefield, destroy target artifact, enchantment, 
 <No>65</No>
 <Name>Drooling Groodion</Name>
 <Type>Creature — Beast 4/3</Type>
-<ManaCost>3BBG (6)</ManaCost>
+<ManaCost>{3}{B}{B}{G}</ManaCost>
 <CardText>{2}{B}{G}, Sacrifice a creature: Target creature gets +2/+2 until end of turn. Another target creature gets -2/-2 until end of turn.</CardText>
 <Flavor>"The Golgari expand, yes, but I refuse to call their tainted creations 'growth.'"
 —Niszka, Selesnya evangel</Flavor>
@@ -1245,7 +1274,7 @@ When Acidic Slime enters the battlefield, destroy target artifact, enchantment, 
 <No>66</No>
 <Name>Tragic Slip</Name>
 <Type>Instant</Type>
-<ManaCost>B (1)</ManaCost>
+<ManaCost>{B}</ManaCost>
 <CardText>Target creature gets -1/-1 until end of turn.
 Morbid — That creature gets -13/-13 until end of turn instead if a creature died this turn.</CardText>
 <Flavor>Linger on death's door and risk being invited in.</Flavor>
@@ -1263,7 +1292,7 @@ Morbid — That creature gets -13/-13 until end of turn instead if a creature di
 <No>67</No>
 <Name>Hypnotic Cloud</Name>
 <Type>Sorcery</Type>
-<ManaCost>1B (2)</ManaCost>
+<ManaCost>{1}{B}</ManaCost>
 <CardText>Kicker {4} (You may pay an additional {4} as you cast this spell.)
 Target player discards a card. If this spell was kicked, that player discards three cards instead.</CardText>
 <Artist>Randy Gallegos</Artist>
@@ -1279,7 +1308,7 @@ Target player discards a card. If this spell was kicked, that player discards th
 <No>68</No>
 <Name>Night's Whisper</Name>
 <Type>Sorcery</Type>
-<ManaCost>1B (2)</ManaCost>
+<ManaCost>{1}{B}</ManaCost>
 <CardText>You draw two cards and you lose 2 life.</CardText>
 <Flavor>"I have seen things that would reduce a weaker person to blubbering and raving. Want to hear about them?"
 —Vraska</Flavor>
@@ -1297,7 +1326,7 @@ Target player discards a card. If this spell was kicked, that player discards th
 <No>69</No>
 <Name>Marsh Casualties</Name>
 <Type>Sorcery</Type>
-<ManaCost>BB (2)</ManaCost>
+<ManaCost>{B}{B}</ManaCost>
 <CardText>Kicker {3} (You may pay an additional {3} as you cast this spell.)
 Creatures target player controls get -1/-1 until end of turn. If this spell was kicked, those creatures get -2/-2 until end of turn instead.</CardText>
 <Artist>Scott Chou</Artist>
@@ -1314,7 +1343,7 @@ Creatures target player controls get -1/-1 until end of turn. If this spell was 
 <No>70</No>
 <Name>Treasured Find</Name>
 <Type>Sorcery</Type>
-<ManaCost>BG (2)</ManaCost>
+<ManaCost>{B}{G}</ManaCost>
 <CardText>Return target card from your graveyard to your hand. Exile Treasured Find.</CardText>
 <Flavor>Gorgons crave beautiful things: gems, exquisite amulets, the alabaster corpses of the petrified dead . . .</Flavor>
 <Artist>Jason Chan</Artist>
@@ -1331,14 +1360,14 @@ Creatures target player controls get -1/-1 until end of turn. If this spell was 
 <No>71</No>
 <Name>Last Kiss</Name>
 <Type>Instant</Type>
-<ManaCost>2B (3)</ManaCost>
+<ManaCost>{2}{B}</ManaCost>
 <CardText>Last Kiss deals 2 damage to target creature and you gain 2 life.</CardText>
 <Flavor>"Romanticize it, glamorize it, call it what you will. To me, it will always be carnal, bloody murder."
 —Ayli, Kamsa cleric</Flavor>
 <Artist>Vance Kovacs</Artist>
 <Multiverseid>380218</Multiverseid>
 <Rulings>2010/06/15: You gain 2 life even if the damage is prevented.
-2010/06/15: If the targeted creature is an illegal target by the time <Last Kiss> resolves, the spell doesn't resolve. You won't gain life.</Rulings>
+2010/06/15: If the targeted creature is an illegal target by the time Last Kiss resolves, the spell doesn't resolve. You won't gain life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1351,7 +1380,7 @@ Creatures target player controls get -1/-1 until end of turn. If this spell was 
 <No>72</No>
 <Name>Stab Wound</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>2B (3)</ManaCost>
+<ManaCost>{2}{B}</ManaCost>
 <CardText>Enchant creature
 Enchanted creature gets -2/-2.
 At the beginning of the upkeep of enchanted creature's controller, that player loses 2 life.</CardText>
@@ -1369,7 +1398,7 @@ At the beginning of the upkeep of enchanted creature's controller, that player l
 <No>73</No>
 <Name>Underworld Connections</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>1BB (3)</ManaCost>
+<ManaCost>{1}{B}{B}</ManaCost>
 <CardText>Enchant land
 Enchanted land has "{T}, Pay 1 life: Draw a card."</CardText>
 <Flavor>If you're looking for it, it's available. The question is how much you're willing to pay.</Flavor>
@@ -1387,7 +1416,7 @@ Enchanted land has "{T}, Pay 1 life: Draw a card."</CardText>
 <No>74</No>
 <Name>Consume Strength</Name>
 <Type>Instant</Type>
-<ManaCost>1BG (3)</ManaCost>
+<ManaCost>{1}{B}{G}</ManaCost>
 <CardText>Target creature gets +2/+2 until end of turn. Another target creature gets -2/-2 until end of turn.</CardText>
 <Flavor>"You are correct. This is going to hurt."
 —Vraska</Flavor>
@@ -1404,14 +1433,14 @@ Enchanted land has "{T}, Pay 1 life: Draw a card."</CardText>
 <No>75</No>
 <Name>Grisly Spectacle</Name>
 <Type>Instant</Type>
-<ManaCost>2BB (4)</ManaCost>
-<CardText>Destroy target nonartifact creature. Its controller puts a number of cards equal to that creature's power from the top of their library into their graveyard.</CardText>
+<ManaCost>{2}{B}{B}</ManaCost>
+<CardText>Destroy target nonartifact creature. Its controller mills cards equal to that creature's power.</CardText>
 <Flavor>"Watch people flock to a murder scene. Then tell me we're not all a little sick in the head."
 —Juri, proprietor of the Juri Revue</Flavor>
 <Artist>Zoltan Boros</Artist>
 <Multiverseid>380274</Multiverseid>
 <Rulings>2017/11/17: Use the creature's power the last time it was on the battlefield to determine how many cards its controller puts into their graveyard.
-2017/11/17: If the creature is an illegal target when <Grisly Spectacle> tries to resolve, it won't resolve and none of its effects will happen. The creature's controller won't put any cards into their graveyard.</Rulings>
+2017/11/17: If the creature is an illegal target when Grisly Spectacle tries to resolve, it won't resolve and none of its effects will happen. The creature's controller won't put any cards into their graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1448,7 +1477,7 @@ Enchanted land has "{T}, Pay 1 life: Draw a card."</CardText>
 <Flavor>Rumors quickly spread among thieves about a labyrinth without walls and a prize beyond all measures of worth.</Flavor>
 <Artist>Christine Choi</Artist>
 <Multiverseid>380234</Multiverseid>
-<Rulings>2018/12/07: Activating the second ability of <Rogue's Passage> after a creature has become blocked won't cause that creature to become unblocked.</Rulings>
+<Rulings>2018/12/07: Activating the second ability of Rogue's Passage after a creature has become blocked won't cause that creature to become unblocked.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1462,7 +1491,7 @@ Enchanted land has "{T}, Pay 1 life: Draw a card."</CardText>
 <Name>Tainted Wood</Name>
 <Type>Land</Type>
 <CardText>{T}: Add {C}.
-{T}: Add {B} or {G}. Activate this ability only if you control a Swamp.</CardText>
+{T}: Add {B} or {G}. Activate only if you control a Swamp.</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>380213</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1483,7 +1512,7 @@ Enchanted land has "{T}, Pay 1 life: Draw a card."</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Jace vs. Vraska</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -1498,7 +1527,7 @@ Enchanted land has "{T}, Pay 1 life: Draw a card."</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Jace vs. Vraska</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -1513,7 +1542,7 @@ Enchanted land has "{T}, Pay 1 life: Draw a card."</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Jace vs. Vraska</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -1528,7 +1557,7 @@ Enchanted land has "{T}, Pay 1 life: Draw a card."</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Jace vs. Vraska</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -1543,7 +1572,7 @@ Enchanted land has "{T}, Pay 1 life: Draw a card."</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Jace vs. Vraska</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -1558,7 +1587,7 @@ Enchanted land has "{T}, Pay 1 life: Draw a card."</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Jace vs. Vraska</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -1573,7 +1602,7 @@ Enchanted land has "{T}, Pay 1 life: Draw a card."</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Jace vs. Vraska</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -1588,7 +1617,7 @@ Enchanted land has "{T}, Pay 1 life: Draw a card."</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Jace vs. Vraska</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -1603,7 +1632,7 @@ Enchanted land has "{T}, Pay 1 life: Draw a card."</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Jace vs. Vraska</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -1618,6 +1647,6 @@ Enchanted land has "{T}, Pay 1 life: Draw a card."</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Jace vs. Vraska</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 

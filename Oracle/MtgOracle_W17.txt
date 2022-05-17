@@ -3,7 +3,7 @@
 <No>1</No>
 <Name>Divine Verdict</Name>
 <Type>Instant</Type>
-<ManaCost>3W (4)</ManaCost>
+<ManaCost>{3}{W}</ManaCost>
 <CardText>Destroy target attacking or blocking creature.</CardText>
 <Flavor>"Guilty."</Flavor>
 <Artist>Kev Walker</Artist>
@@ -23,7 +23,7 @@
 <No>2</No>
 <Name>Glory Seeker</Name>
 <Type>Creature — Human Soldier 2/2</Type>
-<ManaCost>1W (2)</ManaCost>
+<ManaCost>{1}{W}</ManaCost>
 <Flavor>"There's no contract to sign, no oath to swear. The enlistment procedure is to unsheathe your sword and point it at the enemy."</Flavor>
 <Artist>Matt Cavotta</Artist>
 <Multiverseid>429891</Multiverseid>
@@ -39,7 +39,7 @@
 <No>3</No>
 <Name>Serra Angel</Name>
 <Type>Creature — Angel 4/4</Type>
-<ManaCost>3WW (5)</ManaCost>
+<ManaCost>{3}{W}{W}</ManaCost>
 <CardText>Flying, vigilance</CardText>
 <Flavor>Follow the light. In its absence, follow her.</Flavor>
 <Artist>Greg Staples</Artist>
@@ -56,7 +56,7 @@
 <No>4</No>
 <Name>Standing Troops</Name>
 <Type>Creature — Human Soldier 1/4</Type>
-<ManaCost>2W (3)</ManaCost>
+<ManaCost>{2}{W}</ManaCost>
 <CardText>Vigilance</CardText>
 <Flavor>"Bant sentries were called the Angel Line. They never faltered, and they were ready to die defending their position."
 —Elspeth Tirel</Flavor>
@@ -74,7 +74,7 @@
 <No>5</No>
 <Name>Stormfront Pegasus</Name>
 <Type>Creature — Pegasus 2/1</Type>
-<ManaCost>1W (2)</ManaCost>
+<ManaCost>{1}{W}</ManaCost>
 <CardText>Flying</CardText>
 <Flavor>Its hooves touch the earth only when a hero must rise.</Flavor>
 <Artist>rk post</Artist>
@@ -91,13 +91,13 @@
 <No>6</No>
 <Name>Victory's Herald</Name>
 <Type>Creature — Angel 4/4</Type>
-<ManaCost>3WWW (6)</ManaCost>
+<ManaCost>{3}{W}{W}{W}</ManaCost>
 <CardText>Flying
 Whenever Victory's Herald attacks, attacking creatures gain flying and lifelink until end of turn.</CardText>
 <Artist>rk post</Artist>
 <Multiverseid>429895</Multiverseid>
 <Rulings>2011/06/01: Even though the triggered ability affects only attacking creatures, the bonuses will remain for the rest of the turn.
-2011/06/01: <Victory's Herald> also gains flying (which will likely be redundant) and lifelink if it's still attacking when the ability resolves.</Rulings>
+2011/06/01: Victory's Herald also gains flying (which will likely be redundant) and lifelink if it's still attacking when the ability resolves.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -110,7 +110,7 @@ Whenever Victory's Herald attacks, attacking creatures gain flying and lifelink 
 <No>7</No>
 <Name>Air Elemental</Name>
 <Type>Creature — Elemental 4/4</Type>
-<ManaCost>3UU (5)</ManaCost>
+<ManaCost>{3}{U}{U}</ManaCost>
 <CardText>Flying</CardText>
 <Flavor>Pray that it doesn't seek the safety of your lungs.</Flavor>
 <Artist>Kev Walker</Artist>
@@ -127,7 +127,7 @@ Whenever Victory's Herald attacks, attacking creatures gain flying and lifelink 
 <No>8</No>
 <Name>Coral Merfolk</Name>
 <Type>Creature — Merfolk 2/1</Type>
-<ManaCost>1U (2)</ManaCost>
+<ManaCost>{1}{U}</ManaCost>
 <Flavor>Merfolk are best known for their subtle magic. But those who try to fight them in their own territory quickly realize that merfolk are hardly defenseless on the field of battle.</Flavor>
 <Artist>rk post</Artist>
 <Multiverseid>429897</Multiverseid>
@@ -143,13 +143,13 @@ Whenever Victory's Herald attacks, attacking creatures gain flying and lifelink 
 <No>9</No>
 <Name>Drag Under</Name>
 <Type>Sorcery</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>Return target creature to its owner's hand.
 Draw a card.</CardText>
 <Flavor>Some took to their boats to escape the unfolding nightmare. The remains of their vessels now litter the shores of Nephalia.</Flavor>
 <Artist>Tianhua X</Artist>
 <Multiverseid>429898</Multiverseid>
-<Rulings>2016/07/13: If the targeted creature becomes an illegal target before <Drag Under> resolves, you won't draw a card.</Rulings>
+<Rulings>2016/07/13: If the targeted creature becomes an illegal target before Drag Under resolves, you won't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -162,10 +162,9 @@ Draw a card.</CardText>
 <No>10</No>
 <Name>Inspiration</Name>
 <Type>Instant</Type>
-<ManaCost>3U (4)</ManaCost>
+<ManaCost>{3}{U}</ManaCost>
 <CardText>Target player draws two cards.</CardText>
-<Flavor>"Day 31: I finally succeeded in my time reversal experiment!
-"Day 30: I might have a problem here."
+<Flavor>"Day 31: I finally succeeded in my time reversal experiment! "Day 30: I might have a problem here."
 —Journal of the Prime Izmagnus</Flavor>
 <Artist>Izzy</Artist>
 <Multiverseid>429899</Multiverseid>
@@ -181,13 +180,13 @@ Draw a card.</CardText>
 <No>11</No>
 <Name>Sleep Paralysis</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>3U (4)</ManaCost>
+<ManaCost>{3}{U}</ManaCost>
 <CardText>Enchant creature
 When Sleep Paralysis enters the battlefield, tap enchanted creature.
 Enchanted creature doesn't untap during its controller's untap step.</CardText>
 <Artist>Josu Hernaiz</Artist>
 <Multiverseid>429900</Multiverseid>
-<Rulings>2019/07/12: If the target creature is an illegal target by the time <Sleep Paralysis> tries to resolve, the spell doesn't resolve. It won't enter the battlefield, so its ability won't trigger.</Rulings>
+<Rulings>2019/07/12: If the target creature is an illegal target by the time Sleep Paralysis tries to resolve, the spell doesn't resolve. It won't enter the battlefield, so its ability won't trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -200,7 +199,7 @@ Enchanted creature doesn't untap during its controller's untap step.</CardText>
 <No>12</No>
 <Name>Sphinx of Magosi</Name>
 <Type>Creature — Sphinx 6/6</Type>
-<ManaCost>3UUU (6)</ManaCost>
+<ManaCost>{3}{U}{U}{U}</ManaCost>
 <CardText>Flying
 {2}{U}: Draw a card, then put a +1/+1 counter on Sphinx of Magosi.</CardText>
 <Flavor>"A riddle is nothing more than a trap for small minds, baited with the promise of understanding."</Flavor>
@@ -218,7 +217,7 @@ Enchanted creature doesn't untap during its controller's untap step.</CardText>
 <No>13</No>
 <Name>Stealer of Secrets</Name>
 <Type>Creature — Human Rogue 2/2</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>Whenever Stealer of Secrets deals combat damage to a player, draw a card.</CardText>
 <Flavor>The Dimir would hire her, if only they knew where she lived. The Azorius would condemn her, if only they knew her name.</Flavor>
 <Artist>Michael C. Hayes</Artist>
@@ -235,7 +234,7 @@ Enchanted creature doesn't untap during its controller's untap step.</CardText>
 <No>14</No>
 <Name>Tricks of the Trade</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>3U (4)</ManaCost>
+<ManaCost>{3}{U}</ManaCost>
 <CardText>Enchant creature
 Enchanted creature gets +2/+0 and can't be blocked.</CardText>
 <Flavor>"Pathetic. You might as well have protected your treasures with a paper box and some string."</Flavor>
@@ -253,7 +252,7 @@ Enchanted creature gets +2/+0 and can't be blocked.</CardText>
 <No>15</No>
 <Name>Bloodhunter Bat</Name>
 <Type>Creature — Bat 2/2</Type>
-<ManaCost>3B (4)</ManaCost>
+<ManaCost>{3}{B}</ManaCost>
 <CardText>Flying
 When Bloodhunter Bat enters the battlefield, target player loses 2 life and you gain 2 life.</CardText>
 <Flavor>It returns eager to share the feast of blood and gore with its ghoulish master.</Flavor>
@@ -271,13 +270,13 @@ When Bloodhunter Bat enters the battlefield, target player loses 2 life and you 
 <No>16</No>
 <Name>Certain Death</Name>
 <Type>Sorcery</Type>
-<ManaCost>5B (6)</ManaCost>
+<ManaCost>{5}{B}</ManaCost>
 <CardText>Destroy target creature. Its controller loses 2 life and you gain 2 life.</CardText>
 <Flavor>Some spirits cling to one person, feasting on the growing fear until a final moment of all-consuming terror.</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>429905</Multiverseid>
 <Rulings>2016/07/13: The targeted creature will have already left the battlefield before its controller loses 2 life and you gain 2 life. If it has any abilities that care about gaining or losing life, they won't apply.
-2016/07/13: If the creature becomes an illegal target for <Certain Death>, no player gains or loses life. If it's a legal target but isn't destroyed, most likely due to having indestructible, its controller still loses 2 life and you gain 2 life.</Rulings>
+2016/07/13: If the creature becomes an illegal target for Certain Death, no player gains or loses life. If it's a legal target but isn't destroyed, most likely due to having indestructible, its controller still loses 2 life and you gain 2 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -290,16 +289,16 @@ When Bloodhunter Bat enters the battlefield, target player loses 2 life and you 
 <No>17</No>
 <Name>Nightmare</Name>
 <Type>Creature — Nightmare Horse */*</Type>
-<ManaCost>5B (6)</ManaCost>
+<ManaCost>{5}{B}</ManaCost>
 <CardText>Flying (This creature can't be blocked except by creatures with flying or reach.)
 Nightmare's power and toughness are each equal to the number of Swamps you control.</CardText>
 <Flavor>The thunder of its hooves beats dreams into despair.</Flavor>
 <Artist>Vance Kovacs</Artist>
 <Multiverseid>429906</Multiverseid>
-<Rulings>2008/04/01: If you control 0 swamps, then the <Nightmare> has 0 toughness and will be put into its owner's graveyard as a state-based action right before the next player gains priority.
-2009/10/01: <Nightmare>'s power and toughness changes as the number of Swamps you control changes.
-2013/07/01: The ability that defines <Nightmare>'s power and toughness works everywhere, not just on the battlefield.
-2013/07/01: <Nightmare>'s ability counts all lands you control with the subtype Swamp, not just ones named Swamp.</Rulings>
+<Rulings>2008/04/01: If you control 0 swamps, then the Nightmare has 0 toughness and will be put into its owner's graveyard as a state-based action right before the next player gains priority.
+2009/10/01: Nightmare's power and toughness changes as the number of Swamps you control changes.
+2013/07/01: The ability that defines Nightmare's power and toughness works everywhere, not just on the battlefield.
+2013/07/01: Nightmare's ability counts all lands you control with the subtype Swamp, not just ones named Swamp.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -312,7 +311,7 @@ Nightmare's power and toughness are each equal to the number of Swamps you contr
 <No>18</No>
 <Name>Raise Dead</Name>
 <Type>Sorcery</Type>
-<ManaCost>B (1)</ManaCost>
+<ManaCost>{B}</ManaCost>
 <CardText>Return target creature card from your graveyard to your hand.</CardText>
 <Flavor>The earth cannot hold that which magic commands.</Flavor>
 <Artist>Carl Critchlow</Artist>
@@ -331,15 +330,15 @@ Nightmare's power and toughness are each equal to the number of Swamps you contr
 <No>19</No>
 <Name>Sengir Vampire</Name>
 <Type>Creature — Vampire 4/4</Type>
-<ManaCost>3BB (5)</ManaCost>
+<ManaCost>{3}{B}{B}</ManaCost>
 <CardText>Flying (This creature can't be blocked except by creatures with flying or reach.)
 Whenever a creature dealt damage by Sengir Vampire this turn dies, put a +1/+1 counter on Sengir Vampire.</CardText>
 <Flavor>Empires rise and fall, but evil is eternal.</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>429908</Multiverseid>
-<Rulings>2007/07/15: If <Sengir Vampire> deals nonlethal damage to a creature and then a different effect or damage source causes that creature to be put into a graveyard later in the turn, <Sengir Vampire>'s ability will trigger and it will get a +1/+1 counter.
-2011/09/22: Each time a creature is put into a graveyard from the battlefield, check whether <Sengir Vampire> had dealt any damage to it at any time during that turn. If so, <Sengir Vampire>'s ability will trigger. It doesn't matter who controlled the creature or whose graveyard it was put into.
-2011/09/22: If <Sengir Vampire> and a creature it dealt damage to are both put into a graveyard at the same time, <Sengir Vampire>'s ability will trigger, but it will do nothing when it resolves.</Rulings>
+<Rulings>2007/07/15: If Sengir Vampire deals nonlethal damage to a creature and then a different effect or damage source causes that creature to be put into a graveyard later in the turn, Sengir Vampire's ability will trigger and it will get a +1/+1 counter.
+2011/09/22: Each time a creature is put into a graveyard from the battlefield, check whether Sengir Vampire had dealt any damage to it at any time during that turn. If so, Sengir Vampire's ability will trigger. It doesn't matter who controlled the creature or whose graveyard it was put into.
+2011/09/22: If Sengir Vampire and a creature it dealt damage to are both put into a graveyard at the same time, Sengir Vampire's ability will trigger, but it will do nothing when it resolves.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -352,7 +351,7 @@ Whenever a creature dealt damage by Sengir Vampire this turn dies, put a +1/+1 c
 <No>20</No>
 <Name>Untamed Hunger</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>2B (3)</ManaCost>
+<ManaCost>{2}{B}</ManaCost>
 <CardText>Enchant creature
 Enchanted creature gets +2/+1 and has menace. (It can't be blocked except by two or more creatures.)</CardText>
 <Flavor>"Mindlessness is not weakness. When we are lost to hunger we are unstoppable."
@@ -371,7 +370,7 @@ Enchanted creature gets +2/+1 and has menace. (It can't be blocked except by two
 <No>21</No>
 <Name>Falkenrath Reaver</Name>
 <Type>Creature — Vampire 2/2</Type>
-<ManaCost>1R (2)</ManaCost>
+<ManaCost>{1}{R}</ManaCost>
 <Flavor>"Each day there are new reports of homes along Getander Pass and Hofsaddel falling to vampires of a more savage nature. I've even heard tell that Anje Falkenrath has returned. Please send whatever help you can."
 —Sterin Gorn, letter to Thalia</Flavor>
 <Artist>Daarken</Artist>
@@ -388,7 +387,7 @@ Enchanted creature gets +2/+1 and has menace. (It can't be blocked except by two
 <No>22</No>
 <Name>Shivan Dragon</Name>
 <Type>Creature — Dragon 5/5</Type>
-<ManaCost>4RR (6)</ManaCost>
+<ManaCost>{4}{R}{R}</ManaCost>
 <CardText>Flying (This creature can't be blocked except by creatures with flying or reach.)
 {R}: Shivan Dragon gets +1/+0 until end of turn.</CardText>
 <Flavor>The undisputed master of the mountains of Shiv.</Flavor>
@@ -406,7 +405,7 @@ Enchanted creature gets +2/+1 and has menace. (It can't be blocked except by two
 <No>23</No>
 <Name>Thundering Giant</Name>
 <Type>Creature — Giant 4/3</Type>
-<ManaCost>3RR (5)</ManaCost>
+<ManaCost>{3}{R}{R}</ManaCost>
 <CardText>Haste (This creature can attack and {T} as soon as it comes under your control.)</CardText>
 <Flavor>The giant was felt a few seconds before he was seen.</Flavor>
 <Artist>Mark Zug</Artist>
@@ -423,17 +422,17 @@ Enchanted creature gets +2/+1 and has menace. (It can't be blocked except by two
 <No>24</No>
 <Name>Garruk's Horde</Name>
 <Type>Creature — Beast 7/7</Type>
-<ManaCost>5GG (7)</ManaCost>
+<ManaCost>{5}{G}{G}</ManaCost>
 <CardText>Trample
 Play with the top card of your library revealed.
-You may cast the top card of your library if it's a creature card. (Do this only any time you could cast that creature card. You still pay the spell's costs.)</CardText>
+You may cast creature spells from the top of your library. (Do this only any time you could cast that creature spell. You still pay the spell's costs.)</CardText>
 <Artist>Steve Prescott</Artist>
 <Multiverseid>429913</Multiverseid>
-<Rulings>2011/09/22: Normally, <Garruk's Horde> allows you to cast the top card of your library if it's a creature card, it's your main phase, and the stack is empty. If that creature card has flash, you'll be able to cast it at the time you could cast an instant, even on an opponent's turn.
+<Rulings>2011/09/22: Normally, Garruk's Horde allows you to cast the top card of your library if it's a creature card, it's your main phase, and the stack is empty. If that creature card has flash, you'll be able to cast it at the time you could cast an instant, even on an opponent's turn.
 2011/09/22: You'll still pay all costs for that spell, including additional costs. You may also pay alternative costs.
 2011/09/22: If the top card of your library is Dryad Arbor (the only card that's both a creature and a land), you can't play it this way. Dryad Arbor can't be cast as a spell.
 2013/04/15: The top card of your library isn't in your hand, so you can't suspend it, cycle it, discard it, or activate any of its activated abilities.
-2013/04/15: If the top card of your library changes while you're casting a spell or activating an ability, the new top card won't be revealed until you finish casting that spell or activating that ability.
+2013/04/15: If the top card of your library changes while you're casting a spell, playing a land, or activating an ability, the new top card won't be revealed until you finish doing so.
 2013/04/15: When playing with the top card of your library revealed, if an effect tells you to draw several cards, reveal each one before you draw it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -447,7 +446,7 @@ You may cast the top card of your library if it's a creature card. (Do this only
 <No>25</No>
 <Name>Oakenform</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>Enchant creature
 Enchanted creature gets +3/+3.</CardText>
 <Flavor>"When the beast cloaks itself in the mighty oak, what good is a bow? When the oak wraps itself around the snarling beast, what good is a hatchet?"
@@ -466,13 +465,13 @@ Enchanted creature gets +3/+3.</CardText>
 <No>26</No>
 <Name>Rabid Bite</Name>
 <Type>Sorcery</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>Target creature you control deals damage equal to its power to target creature you don't control.</CardText>
-<Flavor>"You should have seen the look on both their faces."
+<Flavor>"You should have seen the look on *both* their faces."
 —Morkamp, Lambholt innkeeper</Flavor>
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>429915</Multiverseid>
-<Rulings>2019/07/12: If either creature is an illegal target as <Rabid Bite> tries to resolve, the creature you control won't deal damage.</Rulings>
+<Rulings>2019/07/12: If either creature is an illegal target as Rabid Bite tries to resolve, the creature you control won't deal damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -485,9 +484,9 @@ Enchanted creature gets +3/+3.</CardText>
 <No>27</No>
 <Name>Rootwalla</Name>
 <Type>Creature — Lizard 2/2</Type>
-<ManaCost>2G (3)</ManaCost>
-<CardText>{1}{G}: Rootwalla gets +2/+2 until end of turn. Activate this ability only once each turn.</CardText>
-<Flavor>They make terrible pets . . . unless you don't like your other pets.</Flavor>
+<ManaCost>{2}{G}</ManaCost>
+<CardText>{1}{G}: Rootwalla gets +2/+2 until end of turn. Activate only once each turn.</CardText>
+<Flavor>They make terrible pets … unless you don't like your other pets.</Flavor>
 <Artist>Roger Raupp</Artist>
 <Multiverseid>429916</Multiverseid>
 <Rulings>2006/02/01: If this card's ability is activated by one player, then another player takes control of it on the same turn, the second player can't activate its ability that turn.</Rulings>
@@ -503,7 +502,7 @@ Enchanted creature gets +3/+3.</CardText>
 <No>28</No>
 <Name>Stalking Tiger</Name>
 <Type>Creature — Cat 3/3</Type>
-<ManaCost>3G (4)</ManaCost>
+<ManaCost>{3}{G}</ManaCost>
 <CardText>Stalking Tiger can't be blocked by more than one creature.</CardText>
 <Flavor>In the Jamuraan jungles, there is often no separating beauty from danger.</Flavor>
 <Artist>Terese Nielsen</Artist>
@@ -520,7 +519,7 @@ Enchanted creature gets +3/+3.</CardText>
 <No>29</No>
 <Name>Stampeding Rhino</Name>
 <Type>Creature — Rhino 4/4</Type>
-<ManaCost>4G (5)</ManaCost>
+<ManaCost>{4}{G}</ManaCost>
 <CardText>Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)</CardText>
 <Flavor>The quickest way to get through the jungle is to agitate a rhino and run in its wake.</Flavor>
 <Artist>Steven Belledin</Artist>
@@ -537,7 +536,7 @@ Enchanted creature gets +3/+3.</CardText>
 <No>30</No>
 <Name>Wing Snare</Name>
 <Type>Sorcery</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>Destroy target creature with flying.</CardText>
 <Flavor>"We are the hands of the great trees, reaching out to ensnare what threatens their branches."
 —Elvish hunter</Flavor>

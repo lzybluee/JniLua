@@ -3,7 +3,7 @@
 <No>1</No>
 <Name>Admonition Angel</Name>
 <Type>Creature — Angel 6/6</Type>
-<ManaCost>3WWW (6)</ManaCost>
+<ManaCost>{3}{W}{W}{W}</ManaCost>
 <CardText>Flying
 Landfall — Whenever a land enters the battlefield under your control, you may exile target nonland permanent other than Admonition Angel.
 When Admonition Angel leaves the battlefield, return all cards exiled with it to the battlefield under their owners' control.</CardText>
@@ -11,8 +11,8 @@ When Admonition Angel leaves the battlefield, return all cards exiled with it to
 <Multiverseid>197160</Multiverseid>
 <Rulings>2010/03/01: The landfall ability triggers whenever a land enters the battlefield under your control for any reason. It triggers whenever you play a land, as well as whenever a spell or ability (such as Rampant Growth) causes you to put a land onto the battlefield under your control. It will even trigger when a spell or ability causes another player to put a land onto the battlefield under your control (as can happen with Yavimaya Dryad's ability, for example).
 2010/03/01: When a land enters the battlefield under your control, each landfall ability of the permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one that resolves.
-2010/03/01: <Admonition Angel>'s landfall ability and its last ability are linked. The last ability refers only to cards exiled with its landfall ability.
-2010/03/01: If <Admonition Angel>'s landfall ability triggers, but the Angel leaves the battlefield before it resolves, its last ability will trigger and resolve first. All previously exiled cards will be returned to the battlefield. Then the landfall ability will resolve and exile the targeted permanent forever.</Rulings>
+2010/03/01: Admonition Angel's landfall ability and its last ability are linked. The last ability refers only to cards exiled with its landfall ability.
+2010/03/01: If Admonition Angel's landfall ability triggers, but the Angel leaves the battlefield before it resolves, its last ability will trigger and resolve first. All previously exiled cards will be returned to the battlefield. Then the landfall ability will resolve and exile the targeted permanent forever.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -25,7 +25,7 @@ When Admonition Angel leaves the battlefield, return all cards exiled with it to
 <No>2</No>
 <Name>Apex Hawks</Name>
 <Type>Creature — Bird 2/2</Type>
-<ManaCost>2W (3)</ManaCost>
+<ManaCost>{2}{W}</ManaCost>
 <CardText>Multikicker {1}{W} (You may pay an additional {1}{W} any number of times as you cast this spell.)
 Flying
 Apex Hawks enters the battlefield with a +1/+1 counter on it for each time it was kicked.</CardText>
@@ -43,7 +43,7 @@ Apex Hawks enters the battlefield with a +1/+1 counter on it for each time it wa
 <No>3</No>
 <Name>Archon of Redemption</Name>
 <Type>Creature — Archon 3/4</Type>
-<ManaCost>3WW (5)</ManaCost>
+<ManaCost>{3}{W}{W}</ManaCost>
 <CardText>Flying
 Whenever Archon of Redemption or another creature with flying enters the battlefield under your control, you may gain life equal to that creature's power.</CardText>
 <Flavor>Until Emeria is freed, he raises his sword in her name.</Flavor>
@@ -62,7 +62,7 @@ Whenever Archon of Redemption or another creature with flying enters the battlef
 <No>4</No>
 <Name>Battle Hurda</Name>
 <Type>Creature — Giant 3/3</Type>
-<ManaCost>4W (5)</ManaCost>
+<ManaCost>{4}{W}</ManaCost>
 <CardText>First strike</CardText>
 <Flavor>"Murasan hurdas were too aggressive to tolerate a harness, so we put them on guard duty. Now the bandits can't get within spitting distance of us."
 —Bruse Tarl, Goma Fada nomad</Flavor>
@@ -80,7 +80,7 @@ Whenever Archon of Redemption or another creature with flying enters the battlef
 <No>5</No>
 <Name>Fledgling Griffin</Name>
 <Type>Creature — Griffin 2/2</Type>
-<ManaCost>1W (2)</ManaCost>
+<ManaCost>{1}{W}</ManaCost>
 <CardText>Landfall — Whenever a land enters the battlefield under your control, Fledgling Griffin gains flying until end of turn.</CardText>
 <Flavor>"We're making progress, but its desire to explore still far exceeds its ability."
 —Amadi, Halimar griffin-master</Flavor>
@@ -100,7 +100,7 @@ Whenever Archon of Redemption or another creature with flying enters the battlef
 <No>6</No>
 <Name>Guardian Zendikon</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>2W (3)</ManaCost>
+<ManaCost>{2}{W}</ManaCost>
 <CardText>Enchant land
 Enchanted land is a 2/6 white Wall creature with defender. It's still a land.
 When enchanted land dies, return that card to its owner's hand.</CardText>
@@ -124,11 +124,12 @@ When enchanted land dies, return that card to its owner's hand.</CardText>
 <No>7</No>
 <Name>Hada Freeblade</Name>
 <Type>Creature — Human Soldier Ally 0/1</Type>
-<ManaCost>W (1)</ManaCost>
+<ManaCost>{W}</ManaCost>
 <CardText>Whenever Hada Freeblade or another Ally enters the battlefield under your control, you may put a +1/+1 counter on Hada Freeblade.</CardText>
 <Flavor>"I toiled in Kazuul's mines when I was eight. I think I'm tough enough for a little hiking."</Flavor>
 <Artist>Cyril Van Der Haegen</Artist>
 <Multiverseid>198400</Multiverseid>
+<Rulings>2021/02/01: Hada Freeblade is banned in Pauper (not just non-legal), due to a special case on MTGO: https://magic.wizards.com/en/articles/archive/news/january-21-2019-banned-and-restricted-announcement</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -141,7 +142,7 @@ When enchanted land dies, return that card to its owner's hand.</CardText>
 <No>8</No>
 <Name>Iona's Judgment</Name>
 <Type>Sorcery</Type>
-<ManaCost>4W (5)</ManaCost>
+<ManaCost>{4}{W}</ManaCost>
 <CardText>Exile target creature or enchantment.</CardText>
 <Flavor>Beneath the gaze of angels, only the righteous may stand without fear.</Flavor>
 <Artist>Mike Bierek</Artist>
@@ -158,12 +159,12 @@ When enchanted land dies, return that card to its owner's hand.</CardText>
 <No>9</No>
 <Name>Join the Ranks</Name>
 <Type>Instant</Type>
-<ManaCost>3W (4)</ManaCost>
+<ManaCost>{3}{W}</ManaCost>
 <CardText>Create two 1/1 white Soldier Ally creature tokens.</CardText>
 <Flavor>Expeditionary houses are notorious for their rivalries. But when adventurers meet in the wilderness, the instinct for mutual survival outweighs petty grudges.</Flavor>
 <Artist>Kekai Kotaki</Artist>
 <Multiverseid>194706</Multiverseid>
-<Rulings>2010/03/01: When a <Join the Ranks> you control resolves, each ability that triggers whenever an Ally enters the battlefield under your control will trigger twice.</Rulings>
+<Rulings>2010/03/01: When a Join the Ranks you control resolves, each ability that triggers whenever an Ally enters the battlefield under your control will trigger twice.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -176,7 +177,7 @@ When enchanted land dies, return that card to its owner's hand.</CardText>
 <No>10</No>
 <Name>Kitesail Apprentice</Name>
 <Type>Creature — Kor Soldier 1/1</Type>
-<ManaCost>W (1)</ManaCost>
+<ManaCost>{W}</ManaCost>
 <CardText>As long as Kitesail Apprentice is equipped, it gets +1/+1 and has flying.</CardText>
 <Flavor>Carving lines through the sky, kite sailors map trails for the pilgrims below to follow.</Flavor>
 <Artist>Austin Hsu</Artist>
@@ -193,13 +194,13 @@ When enchanted land dies, return that card to its owner's hand.</CardText>
 <No>11</No>
 <Name>Kor Firewalker</Name>
 <Type>Creature — Kor Soldier 2/2</Type>
-<ManaCost>WW (2)</ManaCost>
+<ManaCost>{W}{W}</ManaCost>
 <CardText>Protection from red
 Whenever a player casts a red spell, you may gain 1 life.</CardText>
 <Flavor>"A river of lava is just another river to cross."</Flavor>
 <Artist>Matt Stewart</Artist>
 <Multiverseid>194708</Multiverseid>
-<Rulings>2018/03/16: <Kor Firewalker>'s triggered ability resolves before the red spell that caused it to trigger.</Rulings>
+<Rulings>2018/03/16: Kor Firewalker's triggered ability resolves before the red spell that caused it to trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -212,7 +213,7 @@ Whenever a player casts a red spell, you may gain 1 life.</CardText>
 <No>12</No>
 <Name>Lightkeeper of Emeria</Name>
 <Type>Creature — Angel 2/4</Type>
-<ManaCost>3W (4)</ManaCost>
+<ManaCost>{3}{W}</ManaCost>
 <CardText>Multikicker {W} (You may pay an additional {W} any number of times as you cast this spell.)
 Flying
 When Lightkeeper of Emeria enters the battlefield, you gain 2 life for each time it was kicked.</CardText>
@@ -230,12 +231,12 @@ When Lightkeeper of Emeria enters the battlefield, you gain 2 life for each time
 <No>13</No>
 <Name>Loam Lion</Name>
 <Type>Creature — Cat 1/1</Type>
-<ManaCost>W (1)</ManaCost>
+<ManaCost>{W}</ManaCost>
 <CardText>Loam Lion gets +1/+2 as long as you control a Forest.</CardText>
 <Flavor>In Zendikar, today's grassland could be tomorrow's jungle, and hunting grounds change as quickly as the weather.</Flavor>
 <Artist>Daniel Ljunggren</Artist>
 <Multiverseid>197873</Multiverseid>
-<Rulings>2010/03/01: <Loam Lion> either gets +1/+2 or it doesn't. It doesn't get the bonus for each Forest you control.</Rulings>
+<Rulings>2010/03/01: Loam Lion either gets +1/+2 or it doesn't. It doesn't get the bonus for each Forest you control.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -248,7 +249,7 @@ When Lightkeeper of Emeria enters the battlefield, you gain 2 life for each time
 <No>14</No>
 <Name>Marsh Threader</Name>
 <Type>Creature — Kor Scout 2/1</Type>
-<ManaCost>1W (2)</ManaCost>
+<ManaCost>{1}{W}</ManaCost>
 <CardText>Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)</CardText>
 <Flavor>"Give me a sturdy rope over the advice of any so-called expert. I can thread the dark wilds better than anyone."</Flavor>
 <Artist>David Palumbo</Artist>
@@ -265,7 +266,7 @@ When Lightkeeper of Emeria enters the battlefield, you gain 2 life for each time
 <No>15</No>
 <Name>Marshal's Anthem</Name>
 <Type>Enchantment</Type>
-<ManaCost>2WW (4)</ManaCost>
+<ManaCost>{2}{W}{W}</ManaCost>
 <CardText>Multikicker {1}{W} (You may pay an additional {1}{W} any number of times as you cast this spell.)
 Creatures you control get +1/+1.
 When Marshal's Anthem enters the battlefield, return up to X target creature cards from your graveyard to the battlefield, where X is the number of times Marshal's Anthem was kicked.</CardText>
@@ -283,7 +284,7 @@ When Marshal's Anthem enters the battlefield, return up to X target creature car
 <No>16</No>
 <Name>Perimeter Captain</Name>
 <Type>Creature — Human Soldier 0/4</Type>
-<ManaCost>W (1)</ManaCost>
+<ManaCost>{W}</ManaCost>
 <CardText>Defender
 Whenever a creature you control with defender blocks, you may gain 2 life.</CardText>
 <Flavor>"We stand between the jaws of chaos and the mantle of order."</Flavor>
@@ -301,20 +302,20 @@ Whenever a creature you control with defender blocks, you may gain 2 life.</Card
 <No>17</No>
 <Name>Refraction Trap</Name>
 <Type>Instant — Trap</Type>
-<ManaCost>3W (4)</ManaCost>
+<ManaCost>{3}{W}</ManaCost>
 <CardText>If an opponent cast a red instant or sorcery spell this turn, you may pay {W} rather than pay this spell's mana cost.
 Prevent the next 3 damage that a source of your choice would deal to you and/or permanents you control this turn. If damage is prevented this way, Refraction Trap deals that much damage to any target.</CardText>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Multiverseid>189163</Multiverseid>
-<Rulings>2010/03/01: <Refraction Trap>'s only target is the permanent or player it may deal damage to. You choose that target as you cast <Refraction Trap>, not at the time it prevents damage.
-2010/03/01: <Refraction Trap> doesn't target the source of the damage it prevents. You choose that source as <Refraction Trap> resolves. If you cast <Refraction Trap> for {W}, the source you choose doesn't have to be the red instant or sorcery spell an opponent cast.
-2010/03/01: If the targeted permanent or player is an illegal target by the time <Refraction Trap> resolves, the entire spell doesn't resolve. No damage will be prevented.
-2010/03/01: <Refraction Trap> can prevent damage that would be dealt to you, one or more creatures you control, and/or one or more planeswalkers you control.
+<Rulings>2010/03/01: Refraction Trap's only target is the permanent or player it may deal damage to. You choose that target as you cast Refraction Trap, not at the time it prevents damage.
+2010/03/01: Refraction Trap doesn't target the source of the damage it prevents. You choose that source as Refraction Trap resolves. If you cast Refraction Trap for {W}, the source you choose doesn't have to be the red instant or sorcery spell an opponent cast.
+2010/03/01: If the targeted permanent or player is an illegal target by the time Refraction Trap resolves, the entire spell doesn't resolve. No damage will be prevented.
+2010/03/01: Refraction Trap can prevent damage that would be dealt to you, one or more creatures you control, and/or one or more planeswalkers you control.
 2010/03/01: If the chosen source would simultaneously deal damage to multiple permanents you control, or would simultaneously deal damage to you and at least one permanent you control, you choose which of that damage to prevent. For example, if the chosen source is Earthquake, you might choose to prevent the next 2 damage it would deal to you and the next 1 damage it would deal to a creature you control. You don't decide until the point at which the source would deal its damage.
-2010/03/01: <Refraction Trap>'s effect is not a redirection effect. If it prevents damage, <Refraction Trap> (not the chosen source) deals damage to the targeted permanent or player as part of that prevention effect. <Refraction Trap> is the source of the new damage, so the characteristics of the original source (such as its color, or whether it had lifelink or deathtouch) don't affect this damage. The new damage is not combat damage, even if the prevented damage was.
-2010/03/01: If the chosen source would deal damage, <Refraction Trap> prevents 3 of that source's damage and the source deals its excess damage (if any) at the same time. Immediately afterward, as part of that same prevention effect, <Refraction Trap> deals its damage. This happens before state-based actions are checked, and before the spell or ability that caused damage to be dealt resumes its resolution.
-2010/03/01: Whether the targeted permanent or player is still a legal target is no longer checked after <Refraction Trap> resolves. For example, if a creature targeted by <Refraction Trap> gains shroud after <Refraction Trap> resolves but before it prevents damage, <Refraction Trap> will still prevent damage and still deal damage to that creature. If <Refraction Trap> can't deal damage to the targeted permanent or player (because the creature is no longer on the battlefield, or is no longer a creature, or the player is no longer in the game, for example), it will still prevent damage. It just won't deal any damage itself.
-2010/03/01: If <Refraction Trap> doesn't prevent any damage (perhaps because a different prevention effect is applied to the damage the source would deal, or because the damage is unpreventable), <Refraction Trap> won't deal any damage itself.</Rulings>
+2010/03/01: Refraction Trap's effect is not a redirection effect. If it prevents damage, Refraction Trap (not the chosen source) deals damage to the targeted permanent or player as part of that prevention effect. Refraction Trap is the source of the new damage, so the characteristics of the original source (such as its color, or whether it had lifelink or deathtouch) don't affect this damage. The new damage is not combat damage, even if the prevented damage was.
+2010/03/01: If the chosen source would deal damage, Refraction Trap prevents 3 of that source's damage and the source deals its excess damage (if any) at the same time. Immediately afterward, as part of that same prevention effect, Refraction Trap deals its damage. This happens before state-based actions are checked, and before the spell or ability that caused damage to be dealt resumes its resolution.
+2010/03/01: Whether the targeted permanent or player is still a legal target is no longer checked after Refraction Trap resolves. For example, if a creature targeted by Refraction Trap gains shroud after Refraction Trap resolves but before it prevents damage, Refraction Trap will still prevent damage and still deal damage to that creature. If Refraction Trap can't deal damage to the targeted permanent or player (because the creature is no longer on the battlefield, or is no longer a creature, or the player is no longer in the game, for example), it will still prevent damage. It just won't deal any damage itself.
+2010/03/01: If Refraction Trap doesn't prevent any damage (perhaps because a different prevention effect is applied to the damage the source would deal, or because the damage is unpreventable), Refraction Trap won't deal any damage itself.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -327,7 +328,7 @@ Prevent the next 3 damage that a source of your choice would deal to you and/or 
 <No>18</No>
 <Name>Rest for the Weary</Name>
 <Type>Instant</Type>
-<ManaCost>1W (2)</ManaCost>
+<ManaCost>{1}{W}</ManaCost>
 <CardText>Target player gains 4 life.
 Landfall — If you had a land enter the battlefield under your control this turn, that player gains 8 life instead.</CardText>
 <Flavor>Zendikar is a brutal taskmaster, but sometimes it offers unexpected solace.</Flavor>
@@ -350,12 +351,12 @@ Landfall — If you had a land enter the battlefield under your control this tur
 <No>19</No>
 <Name>Ruin Ghost</Name>
 <Type>Creature — Spirit 1/1</Type>
-<ManaCost>1W (2)</ManaCost>
+<ManaCost>{1}{W}</ManaCost>
 <CardText>{W}, {T}: Exile target land you control, then return it to the battlefield under your control.</CardText>
 <Flavor>The Forsaken Ones haunt the ruins that flicker in and out of the spirit realm. Such sites are hard to find and even harder to loot.</Flavor>
 <Artist>Jason A. Engle</Artist>
 <Multiverseid>198378</Multiverseid>
-<Rulings>2010/03/01: As <Ruin Ghost>'s ability resolves, the targeted land is exiled, then immediately returned to the battlefield. The land that enters the battlefield is a different permanent from the one that left. Any counters, Auras, and so on that were affecting the old land won't affect the new one. Any spells or abilities that were targeting the old land don't target the new one. Whether the old land was tapped or untapped has no bearing on the new one.
+<Rulings>2010/03/01: As Ruin Ghost's ability resolves, the targeted land is exiled, then immediately returned to the battlefield. The land that enters the battlefield is a different permanent from the one that left. Any counters, Auras, and so on that were affecting the old land won't affect the new one. Any spells or abilities that were targeting the old land don't target the new one. Whether the old land was tapped or untapped has no bearing on the new one.
 2010/03/01: The returned land behaves like any other land that's put onto the battlefield. If it has an ability that says it enters the battlefield tapped, it does so. (Otherwise it enters the battlefield untapped.) If it has an enters-the-battlefield triggered ability, that ability triggers.
 2010/03/01: The land returns under your control, regardless of who owns it.</Rulings>
 <Vintage>Legal</Vintage>
@@ -370,12 +371,12 @@ Landfall — If you had a land enter the battlefield under your control this tur
 <No>20</No>
 <Name>Stoneforge Mystic</Name>
 <Type>Creature — Kor Artificer 1/2</Type>
-<ManaCost>1W (2)</ManaCost>
-<CardText>When Stoneforge Mystic enters the battlefield, you may search your library for an Equipment card, reveal it, put it into your hand, then shuffle your library.
+<ManaCost>{1}{W}</ManaCost>
+<CardText>When Stoneforge Mystic enters the battlefield, you may search your library for an Equipment card, reveal it, put it into your hand, then shuffle.
 {1}{W}, {T}: You may put an Equipment card from your hand onto the battlefield.</CardText>
 <Artist>Mike Bierek</Artist>
 <Multiverseid>198383</Multiverseid>
-<Rulings>2010/03/01: When <Stoneforge Mystic>'s second ability resolves, you may put any Equipment card from your hand onto the battlefield, not just the one you searched for with its first ability. The Equipment is put onto the battlefield unattached.</Rulings>
+<Rulings>2010/03/01: When Stoneforge Mystic's second ability resolves, you may put any Equipment card from your hand onto the battlefield, not just the one you searched for with its first ability. The Equipment is put onto the battlefield unattached.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -388,12 +389,12 @@ Landfall — If you had a land enter the battlefield under your control this tur
 <No>21</No>
 <Name>Talus Paladin</Name>
 <Type>Creature — Human Knight Ally 2/3</Type>
-<ManaCost>3W (4)</ManaCost>
+<ManaCost>{3}{W}</ManaCost>
 <CardText>Whenever Talus Paladin or another Ally enters the battlefield under your control, you may have Allies you control gain lifelink until end of turn, and you may put a +1/+1 counter on Talus Paladin.</CardText>
 <Flavor>"Why fill pockets with gold when you can fill hearts with conviction?"</Flavor>
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>194672</Multiverseid>
-<Rulings>2010/03/01: The choices you make as <Talus Paladin>'s ability resolves are made individually. First you decide whether to have Allies you control gain lifelink until end of turn. Then, regardless of that decision, you decide whether to put a +1/+1 counter on <Talus Paladin>.</Rulings>
+<Rulings>2010/03/01: The choices you make as Talus Paladin's ability resolves are made individually. First you decide whether to have Allies you control gain lifelink until end of turn. Then, regardless of that decision, you decide whether to put a +1/+1 counter on Talus Paladin.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -406,7 +407,7 @@ Landfall — If you had a land enter the battlefield under your control this tur
 <No>22</No>
 <Name>Terra Eternal</Name>
 <Type>Enchantment</Type>
-<ManaCost>2W (3)</ManaCost>
+<ManaCost>{2}{W}</ManaCost>
 <CardText>All lands have indestructible.</CardText>
 <Flavor>"If this world could make a wish, it would be to survive the parasites who loot its treasures and threaten its life force."
 —Saidah, Joraga hunter</Flavor>
@@ -425,7 +426,7 @@ Landfall — If you had a land enter the battlefield under your control this tur
 <No>23</No>
 <Name>Veteran's Reflexes</Name>
 <Type>Instant</Type>
-<ManaCost>W (1)</ManaCost>
+<ManaCost>{W}</ManaCost>
 <CardText>Target creature gets +1/+1 until end of turn. Untap that creature.</CardText>
 <Flavor>"Assume everything wants to kill you. At the very least, assume everything wants what's in your pack."</Flavor>
 <Artist>Scott Chou</Artist>
@@ -442,13 +443,13 @@ Landfall — If you had a land enter the battlefield under your control this tur
 <No>24</No>
 <Name>Aether Tradewinds</Name>
 <Type>Instant</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>Return target permanent you control and target permanent you don't control to their owners' hands.</CardText>
 <Flavor>"The wind smells of misfortune. Check your knots."
 —Anitan, Ondu cleric</Flavor>
 <Artist>Kieran Yanner</Artist>
 <Multiverseid>201568</Multiverseid>
-<Rulings>2016/09/20: If one target permanent becomes an illegal target, the other will be returned to its owner's hand. If both targets become illegal, <Aether Tradewinds> won't resolve.</Rulings>
+<Rulings>2016/09/20: If one target permanent becomes an illegal target, the other will be returned to its owner's hand. If both targets become illegal, Aether Tradewinds won't resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -461,15 +462,16 @@ Landfall — If you had a land enter the battlefield under your control this tur
 <No>25</No>
 <Name>Calcite Snapper</Name>
 <Type>Creature — Turtle 1/4</Type>
-<ManaCost>1UU (3)</ManaCost>
+<ManaCost>{1}{U}{U}</ManaCost>
 <CardText>Shroud (This creature can't be the target of spells or abilities.)
 Landfall — Whenever a land enters the battlefield under your control, you may switch Calcite Snapper's power and toughness until end of turn.</CardText>
 <Artist>David Palumbo</Artist>
 <Multiverseid>191569</Multiverseid>
 <Rulings>2010/03/01: The landfall ability triggers whenever a land enters the battlefield under your control for any reason. It triggers whenever you play a land, as well as whenever a spell or ability (such as Rampant Growth) causes you to put a land onto the battlefield under your control. It will even trigger when a spell or ability causes another player to put a land onto the battlefield under your control (as can happen with Yavimaya Dryad's ability, for example).
 2010/03/01: When a land enters the battlefield under your control, each landfall ability of the permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one that resolves.
-2013/04/15: Effects that switch power and toughness apply after all other effects that change power and/or toughness, regardless of which effect was created first.
-2013/04/15: Switching a creature's power and toughness twice (or any even number of times) effectively returns the creature to the power and toughness it had before any switches.</Rulings>
+2021/03/19: Effects that switch a creature's power and toughness apply after all other effects, regardless of when those effects began to apply. For instance, if you target a 1/2 creature then give it +2/+0 later in the turn, it's a 2/3 creature, not a 4/1 creature.
+2021/03/19: Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a creature may become lethal if you switch its power and toughness during that turn.
+2021/03/19: Switching a creature's power and toughness twice (or any even number of times) effectively returns the creature to the power and toughness it had before any switches.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -482,7 +484,7 @@ Landfall — Whenever a land enters the battlefield under your control, you may 
 <No>26</No>
 <Name>Dispel</Name>
 <Type>Instant</Type>
-<ManaCost>U (1)</ManaCost>
+<ManaCost>{U}</ManaCost>
 <CardText>Counter target instant spell.</CardText>
 <Flavor>The Jwari winds undo reality as easily as they scatter a pile of leaves.</Flavor>
 <Artist>Vance Kovacs</Artist>
@@ -499,7 +501,7 @@ Landfall — Whenever a land enters the battlefield under your control, you may 
 <No>27</No>
 <Name>Enclave Elite</Name>
 <Type>Creature — Merfolk Soldier 2/2</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>Multikicker {1}{U} (You may pay an additional {1}{U} any number of times as you cast this spell.)
 Islandwalk (This creature can't be blocked as long as defending player controls an Island.)
 Enclave Elite enters the battlefield with a +1/+1 counter on it for each time it was kicked.</CardText>
@@ -517,7 +519,7 @@ Enclave Elite enters the battlefield with a +1/+1 counter on it for each time it
 <No>28</No>
 <Name>Goliath Sphinx</Name>
 <Type>Creature — Sphinx 8/7</Type>
-<ManaCost>5UU (7)</ManaCost>
+<ManaCost>{5}{U}{U}</ManaCost>
 <CardText>Flying</CardText>
 <Flavor>He makes his home on the tallest mountain in Sejiri, where the vista is as endless as his patience.</Flavor>
 <Artist>Greg Staples</Artist>
@@ -534,8 +536,8 @@ Enclave Elite enters the battlefield with a +1/+1 counter on it for each time it
 <No>29</No>
 <Name>Halimar Excavator</Name>
 <Type>Creature — Human Wizard Ally 1/3</Type>
-<ManaCost>1U (2)</ManaCost>
-<CardText>Whenever Halimar Excavator or another Ally enters the battlefield under your control, target player puts the top X cards of their library into their graveyard, where X is the number of Allies you control.</CardText>
+<ManaCost>{1}{U}</ManaCost>
+<CardText>Whenever Halimar Excavator or another Ally enters the battlefield under your control, target player mills X cards, where X is the number of Allies you control.</CardText>
 <Artist>Kev Walker</Artist>
 <Multiverseid>197129</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -550,12 +552,12 @@ Enclave Elite enters the battlefield with a +1/+1 counter on it for each time it
 <No>30</No>
 <Name>Horizon Drake</Name>
 <Type>Creature — Drake 3/1</Type>
-<ManaCost>1UU (3)</ManaCost>
+<ManaCost>{1}{U}{U}</ManaCost>
 <CardText>Flying, protection from lands</CardText>
 <Flavor>Using thermal updrafts and gravity currents, drakes eat and sleep in the air. Some never touch the ground from birth until death.</Flavor>
 <Artist>Adi Granov</Artist>
 <Multiverseid>180412</Multiverseid>
-<Rulings>2010/03/01: Protection from lands works like any other protection ability. <Horizon Drake> can't be blocked by land creatures, all damage that would be dealt to it by lands (including combat damage from land creatures) is prevented, and it can't be the target of activated or triggered abilities from lands (including your own Teetering Peaks, for example).</Rulings>
+<Rulings>2010/03/01: Protection from lands works like any other protection ability. Horizon Drake can't be blocked by land creatures, all damage that would be dealt to it by lands (including combat damage from land creatures) is prevented, and it can't be the target of activated or triggered abilities from lands (including your own Teetering Peaks, for example).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -568,11 +570,11 @@ Enclave Elite enters the battlefield with a +1/+1 counter on it for each time it
 <No>31</No>
 <Name>Jace, the Mind Sculptor</Name>
 <Type>Legendary Planeswalker — Jace (Loyalty: 3)</Type>
-<ManaCost>2UU (4)</ManaCost>
-<CardText>+2: Look at the top card of target player's library. You may put that card on the bottom of that player's library.
-0: Draw three cards, then put two cards from your hand on top of your library in any order.
--1: Return target creature to its owner's hand.
--12: Exile all cards from target player's library, then that player shuffles their hand into their library.</CardText>
+<ManaCost>{2}{U}{U}</ManaCost>
+<CardText>[+2]: Look at the top card of target player's library. You may put that card on the bottom of that player's library.
+[0]: Draw three cards, then put two cards from your hand on top of your library in any order.
+[-1]: Return target creature to its owner's hand.
+[-12]: Exile all cards from target player's library, then that player shuffles their hand into their library.</CardText>
 <Artist>Jason Chan</Artist>
 <Multiverseid>195297</Multiverseid>
 <Rulings>2018/03/16: You draw three cards and put two cards back all while Jace's second ability is resolving. Nothing can happen between the two, and no player may choose to take actions.
@@ -589,16 +591,16 @@ Enclave Elite enters the battlefield with a +1/+1 counter on it for each time it
 <No>32</No>
 <Name>Jwari Shapeshifter</Name>
 <Type>Creature — Shapeshifter Ally 0/0</Type>
-<ManaCost>1U (2)</ManaCost>
+<ManaCost>{1}{U}</ManaCost>
 <CardText>You may have Jwari Shapeshifter enter the battlefield as a copy of any Ally creature on the battlefield.</CardText>
 <Flavor>"The best expedition would be an entire team of me."</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>198390</Multiverseid>
-<Rulings>2010/03/01: <Jwari Shapeshifter> copies exactly what was printed on the original creature and nothing more (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
-2010/03/01: If the chosen creature is copying something else (for example, if the chosen creature is another <Jwari Shapeshifter>), then your <Jwari Shapeshifter> enters the battlefield as whatever the chosen creature copied.
-2010/03/01: If the chosen creature is a token, your <Jwari Shapeshifter> copies the original characteristics of that token as stated by the effect that put the token onto the battlefield. Your <Jwari Shapeshifter> is not a token.
-2010/03/01: Any enters-the-battlefield abilities of the copied creature will trigger when <Jwari Shapeshifter> enters the battlefield.
-2010/03/01: You can choose not to copy anything. In that case, <Jwari Shapeshifter> enters the battlefield as a 0/0 creature, and is probably put into the graveyard immediately.</Rulings>
+<Rulings>2010/03/01: Jwari Shapeshifter copies exactly what was printed on the original creature and nothing more (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+2010/03/01: If the chosen creature is copying something else (for example, if the chosen creature is another Jwari Shapeshifter), then your Jwari Shapeshifter enters the battlefield as whatever the chosen creature copied.
+2010/03/01: If the chosen creature is a token, your Jwari Shapeshifter copies the original characteristics of that token as stated by the effect that put the token onto the battlefield. Your Jwari Shapeshifter is not a token.
+2010/03/01: Any enters-the-battlefield abilities of the copied creature will trigger when Jwari Shapeshifter enters the battlefield.
+2010/03/01: You can choose not to copy anything. In that case, Jwari Shapeshifter enters the battlefield as a 0/0 creature, and is probably put into the graveyard immediately.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -611,7 +613,7 @@ Enclave Elite enters the battlefield with a +1/+1 counter on it for each time it
 <No>33</No>
 <Name>Mysteries of the Deep</Name>
 <Type>Instant</Type>
-<ManaCost>4U (5)</ManaCost>
+<ManaCost>{4}{U}</ManaCost>
 <CardText>Draw two cards.
 Landfall — If you had a land enter the battlefield under your control this turn, draw three cards instead.</CardText>
 <Flavor>"The Roil is destructive, but not random. It's Zendikar's way of revealing secrets."
@@ -635,12 +637,12 @@ Landfall — If you had a land enter the battlefield under your control this tur
 <No>34</No>
 <Name>Permafrost Trap</Name>
 <Type>Instant — Trap</Type>
-<ManaCost>2UU (4)</ManaCost>
+<ManaCost>{2}{U}{U}</ManaCost>
 <CardText>If an opponent had a green creature enter the battlefield under their control this turn, you may pay {U} rather than pay this spell's mana cost.
 Tap up to two target creatures. Those creatures don't untap during their controller's next untap step.</CardText>
 <Artist>Howard Lyon</Artist>
 <Multiverseid>194703</Multiverseid>
-<Rulings>2010/03/01: You may target any two (or fewer) creatures. It's okay if any of them are already tapped. If you cast <Permafrost Trap> for {U}, you don't have to target the green creature that entered the battlefield under an opponent's control.
+<Rulings>2010/03/01: You may target any two (or fewer) creatures. It's okay if any of them are already tapped. If you cast Permafrost Trap for {U}, you don't have to target the green creature that entered the battlefield under an opponent's control.
 2010/03/01: If a targeted creature is untapped at the time its controller's next untap step begins, the second part of the ability has no effect on it.
 2010/03/01: If an affected creature changes controllers before its previous controller's next untap step, this ability will prevent it from untapping during its new controller's next untap step.</Rulings>
 <Vintage>Legal</Vintage>
@@ -655,13 +657,13 @@ Tap up to two target creatures. Those creatures don't untap during their control
 <No>35</No>
 <Name>Quest for Ula's Temple</Name>
 <Type>Enchantment</Type>
-<ManaCost>U (1)</ManaCost>
+<ManaCost>{U}</ManaCost>
 <CardText>At the beginning of your upkeep, you may look at the top card of your library. If it's a creature card, you may reveal it and put a quest counter on Quest for Ula's Temple.
 At the beginning of each end step, if there are three or more quest counters on Quest for Ula's Temple, you may put a Kraken, Leviathan, Octopus, or Serpent creature card from your hand onto the battlefield.</CardText>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>198401</Multiverseid>
-<Rulings>2010/03/01: When the first ability resolves, you may look at the top card of your library. If you don't, nothing happens. If you look at it and it's not a creature card, it simply stays hidden. If you look at it and it is a creature card, you may reveal it and put a quest counter on <Quest for Ula's Temple>, or you may choose to leave it hidden. In all cases, the card remains on top of your library.
-2010/03/01: If an ability (from Future Sight or Oracle of Mul Daya, for example) causes you to play with the top card of your library revealed, you may still put a quest counter on <Quest for Ula's Temple> when the first ability resolves if the top card of your library is a creature card.
+<Rulings>2010/03/01: When the first ability resolves, you may look at the top card of your library. If you don't, nothing happens. If you look at it and it's not a creature card, it simply stays hidden. If you look at it and it is a creature card, you may reveal it and put a quest counter on Quest for Ula's Temple, or you may choose to leave it hidden. In all cases, the card remains on top of your library.
+2010/03/01: If an ability (from Future Sight or Oracle of Mul Daya, for example) causes you to play with the top card of your library revealed, you may still put a quest counter on Quest for Ula's Temple when the first ability resolves if the top card of your library is a creature card.
 2010/03/01: Although the first ability triggers only on your turn, the second ability may trigger each turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -675,7 +677,7 @@ At the beginning of each end step, if there are three or more quest counters on 
 <No>36</No>
 <Name>Sejiri Merfolk</Name>
 <Type>Creature — Merfolk Soldier 2/1</Type>
-<ManaCost>1U (2)</ManaCost>
+<ManaCost>{1}{U}</ManaCost>
 <CardText>As long as you control a Plains, Sejiri Merfolk has first strike and lifelink. (Damage dealt by a creature with lifelink also causes its controller to gain that much life.)</CardText>
 <Artist>Anthony Francisco</Artist>
 <Multiverseid>197844</Multiverseid>
@@ -691,8 +693,8 @@ At the beginning of each end step, if there are three or more quest counters on 
 <No>37</No>
 <Name>Selective Memory</Name>
 <Type>Sorcery</Type>
-<ManaCost>3U (4)</ManaCost>
-<CardText>Search your library for any number of nonland cards and exile them. Then shuffle your library.</CardText>
+<ManaCost>{3}{U}</ManaCost>
+<CardText>Search your library for any number of nonland cards, exile them, then shuffle.</CardText>
 <Flavor>"I of all people know that memory is not a safe place to hide valuables."
 —Jace Beleren</Flavor>
 <Artist>Chippy</Artist>
@@ -709,13 +711,13 @@ At the beginning of each end step, if there are three or more quest counters on 
 <No>38</No>
 <Name>Spell Contortion</Name>
 <Type>Instant</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>Multikicker {1}{U} (You may pay an additional {1}{U} any number of times as you cast this spell.)
 Counter target spell unless its controller pays {2}. Draw a card for each time Spell Contortion was kicked.</CardText>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>194714</Multiverseid>
-<Rulings>2010/03/01: If the targeted spell is an illegal target by the time <Spell Contortion> resolves, <Spell Contortion> doesn't resolve. You won't draw any cards.
-2010/03/01: If <Spell Contortion> resolves, you draw a card for each time <Spell Contortion> was kicked, regardless of whether the targeted spell's controller pays {2} or whether the targeted spell is countered this way.</Rulings>
+<Rulings>2010/03/01: If the targeted spell is an illegal target by the time Spell Contortion resolves, Spell Contortion doesn't resolve. You won't draw any cards.
+2010/03/01: If Spell Contortion resolves, you draw a card for each time Spell Contortion was kicked, regardless of whether the targeted spell's controller pays {2} or whether the targeted spell is countered this way.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -728,9 +730,9 @@ Counter target spell unless its controller pays {2}. Draw a card for each time S
 <No>39</No>
 <Name>Surrakar Banisher</Name>
 <Type>Creature — Surrakar 3/3</Type>
-<ManaCost>4U (5)</ManaCost>
+<ManaCost>{4}{U}</ManaCost>
 <CardText>When Surrakar Banisher enters the battlefield, you may return target tapped creature to its owner's hand.</CardText>
-<Flavor>Surrakar grab things they don't want.</Flavor>
+<Flavor>Surrakar grab things they *don't* want.</Flavor>
 <Artist>Matt Cavotta</Artist>
 <Multiverseid>198370</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -745,9 +747,9 @@ Counter target spell unless its controller pays {2}. Draw a card for each time S
 <No>40</No>
 <Name>Thada Adel, Acquisitor</Name>
 <Type>Legendary Creature — Merfolk Rogue 2/2</Type>
-<ManaCost>1UU (3)</ManaCost>
+<ManaCost>{1}{U}{U}</ManaCost>
 <CardText>Islandwalk (This creature can't be blocked as long as defending player controls an Island.)
-Whenever Thada Adel, Acquisitor deals combat damage to a player, search that player's library for an artifact card and exile it. Then that player shuffles their library. Until end of turn, you may play that card.</CardText>
+Whenever Thada Adel, Acquisitor deals combat damage to a player, search that player's library for an artifact card and exile it. Then that player shuffles. Until end of turn, you may play that card.</CardText>
 <Artist>Andrew Robinson</Artist>
 <Multiverseid>197973</Multiverseid>
 <Rulings>2010/03/01: When the triggered ability resolves, you must search that player's library (and they must shuffle it) even if there are no artifact cards in it or you choose not to find one.
@@ -765,7 +767,7 @@ Whenever Thada Adel, Acquisitor deals combat damage to a player, search that pla
 <No>41</No>
 <Name>Tideforce Elemental</Name>
 <Type>Creature — Elemental 2/1</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>{U}, {T}: You may tap or untap another target creature.
 Landfall — Whenever a land enters the battlefield under your control, you may untap Tideforce Elemental.</CardText>
 <Flavor>Ebb and flow, high tide and low, quick as sand and just as slow.</Flavor>
@@ -785,14 +787,14 @@ Landfall — Whenever a land enters the battlefield under your control, you may 
 <No>42</No>
 <Name>Treasure Hunt</Name>
 <Type>Sorcery</Type>
-<ManaCost>1U (2)</ManaCost>
+<ManaCost>{1}{U}</ManaCost>
 <CardText>Reveal cards from the top of your library until you reveal a nonland card, then put all cards revealed this way into your hand.</CardText>
 <Flavor>"The longer the journey, the more one learns."
 —Isanke, Halimar seastalker</Flavor>
 <Artist>Daren Bader</Artist>
 <Multiverseid>197968</Multiverseid>
-<Rulings>2010/03/01: The cards you put into your hand this way include one nonland card, plus all the land cards on top of it in your library (if any). If the top card of your library is a nonland card, you just get that one.
-2010/03/01: If all the cards left in your library are lands, you'll reveal all of them and put them all into your hand.</Rulings>
+<Rulings>2010/03/01: If all the cards left in your library are lands, you'll reveal all of them and put them all into your hand.
+2010/03/01: The cards you put into your hand this way include one nonland card, plus all the land cards on top of it in your library (if any). If the top card of your library is a nonland card, you just get that one.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -805,14 +807,14 @@ Landfall — Whenever a land enters the battlefield under your control, you may 
 <No>43</No>
 <Name>Twitch</Name>
 <Type>Instant</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>You may tap or untap target artifact, creature, or land.
 Draw a card.</CardText>
 <Flavor>"The flow is diverted. Your path is clear. What are you waiting for—the cave to bid you welcome?"
 —Maizah Shere, Tazeem lullmage</Flavor>
 <Artist>Scott Chou</Artist>
 <Multiverseid>198396</Multiverseid>
-<Rulings>2010/03/01: If the targeted permanent is an illegal target by the time <Twitch> resolves, the entire spell doesn't resolve. You don't draw a card.</Rulings>
+<Rulings>2010/03/01: If the targeted permanent is an illegal target by the time Twitch resolves, the entire spell doesn't resolve. You don't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -825,7 +827,7 @@ Draw a card.</CardText>
 <No>44</No>
 <Name>Vapor Snare</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>4U (5)</ManaCost>
+<ManaCost>{4}{U}</ManaCost>
 <CardText>Enchant creature
 You control enchanted creature.
 At the beginning of your upkeep, sacrifice Vapor Snare unless you return a land you control to its owner's hand.</CardText>
@@ -843,7 +845,7 @@ At the beginning of your upkeep, sacrifice Vapor Snare unless you return a land 
 <No>45</No>
 <Name>Voyager Drake</Name>
 <Type>Creature — Drake 3/3</Type>
-<ManaCost>3U (4)</ManaCost>
+<ManaCost>{3}{U}</ManaCost>
 <CardText>Multikicker {U} (You may pay an additional {U} any number of times as you cast this spell.)
 Flying
 When Voyager Drake enters the battlefield, up to X target creatures gain flying until end of turn, where X is the number of times Voyager Drake was kicked.</CardText>
@@ -861,7 +863,7 @@ When Voyager Drake enters the battlefield, up to X target creatures gain flying 
 <No>46</No>
 <Name>Wind Zendikon</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>U (1)</ManaCost>
+<ManaCost>{U}</ManaCost>
 <CardText>Enchant land
 Enchanted land is a 2/2 blue Elemental creature with flying. It's still a land.
 When enchanted land dies, return that card to its owner's hand.</CardText>
@@ -885,17 +887,17 @@ When enchanted land dies, return that card to its owner's hand.</CardText>
 <No>47</No>
 <Name>Abyssal Persecutor</Name>
 <Type>Creature — Demon 6/6</Type>
-<ManaCost>2BB (4)</ManaCost>
+<ManaCost>{2}{B}{B}</ManaCost>
 <CardText>Flying, trample
 You can't win the game and your opponents can't lose the game.</CardText>
 <Flavor>His slaves crave death more than they desire freedom. He denies them both.</Flavor>
 <Artist>Chippy</Artist>
 <Multiverseid>197869</Multiverseid>
-<Rulings>2017/11/17: No game effect can cause you to win the game or cause any opponent to lose the game while you control <Abyssal Persecutor>. It doesn't matter whether an opponent has 0 or less life, an opponent is forced to draw a card while their library is empty, an opponent has ten or more poison counters, an opponent is dealt combat damage by Phage the Untouchable, you control Felidar Sovereign and have 40 or more life, or so on. You keep playing.
+<Rulings>2017/11/17: No game effect can cause you to win the game or cause any opponent to lose the game while you control Abyssal Persecutor. It doesn't matter whether an opponent has 0 or less life, an opponent is forced to draw a card while their library is empty, an opponent has ten or more poison counters, an opponent is dealt combat damage by Phage the Untouchable, you control Felidar Sovereign and have 40 or more life, or so on. You keep playing.
 2017/11/17: Other circumstances can still cause an opponent to lose the game, however. An opponent will lose a game if they concede, if that player is penalized with a Game Loss or a Match Loss during a sanctioned tournament due to a DCI rules infraction, or if that player's Magic Online® game clock runs out of time.
-2017/11/17: Effects that say the game is a draw, such as the _Legends_(TM) card Divine Intervention, are not affected by <Abyssal Persecutor>.
-2017/11/17: <Abyssal Persecutor> won't preclude an opponent's life total from reaching 0 or less. It will just preclude that player from losing the game as a result.
-2017/11/17: If <Abyssal Persecutor> leaves the battlefield while an opponent has 0 or less life, that opponent will lose the game as a state-based action. No player can respond between the time <Abyssal Persecutor> leaves the battlefield and the time that player loses the game.
+2017/11/17: Effects that say the game is a draw, such as the _Legends_(TM) card Divine Intervention, are not affected by Abyssal Persecutor.
+2017/11/17: Abyssal Persecutor won't preclude an opponent's life total from reaching 0 or less. It will just preclude that player from losing the game as a result.
+2017/11/17: If Abyssal Persecutor leaves the battlefield while an opponent has 0 or less life, that opponent will lose the game as a state-based action. No player can respond between the time Abyssal Persecutor leaves the battlefield and the time that player loses the game.
 2017/11/17: Even though your opponents can't lose the game, a player can't pay an amount of life that's greater than their life total. If a player's life total is 0 or less, that player can't pay life at all, with one exception: a player may always pay 0 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -909,11 +911,11 @@ You can't win the game and your opponents can't lose the game.</CardText>
 <No>48</No>
 <Name>Agadeem Occultist</Name>
 <Type>Creature — Human Shaman Ally 0/2</Type>
-<ManaCost>2B (3)</ManaCost>
-<CardText>{T}: Put target creature card from an opponent's graveyard onto the battlefield under your control if its converted mana cost is less than or equal to the number of Allies you control.</CardText>
+<ManaCost>{2}{B}</ManaCost>
+<CardText>{T}: Put target creature card from an opponent's graveyard onto the battlefield under your control if its mana value is less than or equal to the number of Allies you control.</CardText>
 <Artist>Vance Kovacs</Artist>
 <Multiverseid>198402</Multiverseid>
-<Rulings>2010/03/01: You may target any creature card in an opponent's graveyard with <Agadeem Occultist>'s ability. You check whether the targeted card's converted mana cost is less than or equal to the number of Allies you control when the ability resolves. If you control too few Allies at that point, the ability does nothing.</Rulings>
+<Rulings>2010/03/01: You may target any creature card in an opponent's graveyard with Agadeem Occultist's ability. You check whether the targeted card's mana value is less than or equal to the number of Allies you control when the ability resolves. If you control too few Allies at that point, the ability does nothing.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -926,7 +928,7 @@ You can't win the game and your opponents can't lose the game.</CardText>
 <No>49</No>
 <Name>Anowon, the Ruin Sage</Name>
 <Type>Legendary Creature — Vampire Shaman 4/3</Type>
-<ManaCost>3BB (5)</ManaCost>
+<ManaCost>{3}{B}{B}</ManaCost>
 <CardText>At the beginning of your upkeep, each player sacrifices a non-Vampire creature.</CardText>
 <Flavor>"So many have died in search of that map. And now it appears in the hands of the arrogant child Chandra Nalaar."</Flavor>
 <Artist>Dan Scott</Artist>
@@ -945,7 +947,7 @@ You can't win the game and your opponents can't lose the game.</CardText>
 <No>50</No>
 <Name>Bloodhusk Ritualist</Name>
 <Type>Creature — Vampire Shaman 2/2</Type>
-<ManaCost>2B (3)</ManaCost>
+<ManaCost>{2}{B}</ManaCost>
 <CardText>Multikicker {B} (You may pay an additional {B} any number of times as you cast this spell.)
 When Bloodhusk Ritualist enters the battlefield, target opponent discards a card for each time it was kicked.</CardText>
 <Artist>Daarken</Artist>
@@ -962,7 +964,7 @@ When Bloodhusk Ritualist enters the battlefield, target opponent discards a card
 <No>51</No>
 <Name>Bojuka Brigand</Name>
 <Type>Creature — Human Warrior Ally 1/1</Type>
-<ManaCost>1B (2)</ManaCost>
+<ManaCost>{1}{B}</ManaCost>
 <CardText>Bojuka Brigand can't block.
 Whenever Bojuka Brigand or another Ally enters the battlefield under your control, you may put a +1/+1 counter on Bojuka Brigand.</CardText>
 <Flavor>"I don't do tactics. I don't do guard duty. I do damage. Take it or leave it."</Flavor>
@@ -980,17 +982,17 @@ Whenever Bojuka Brigand or another Ally enters the battlefield under your contro
 <No>52</No>
 <Name>Brink of Disaster</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>2BB (4)</ManaCost>
+<ManaCost>{2}{B}{B}</ManaCost>
 <CardText>Enchant creature or land
 When enchanted permanent becomes tapped, destroy it.</CardText>
 <Flavor>"You always have a choice. That doesn't mean you always have a good choice."
 —Alubri, Guul Draz gatekeeper</Flavor>
 <Artist>Alex Horley-Orlandelli</Artist>
 <Multiverseid>201571</Multiverseid>
-<Rulings>2010/03/01: <Brink of Disaster> may target and may enchant a permanent that's already tapped. It won't do anything until the enchanted permanent changes from being untapped to being tapped.
-2010/03/01: When the enchanted permanent becomes tapped, <Brink of Disaster>'s ability triggers. That permanent will be destroyed when the ability resolves, even if <Brink of Disaster> has left the battlefield or is somehow enchanting a different permanent by then.
-2010/03/01: If the enchanted permanent is tapped as a cost to activate a mana ability, the mana ability resolves immediately, then <Brink of Disaster>'s ability goes on the stack.
-2010/03/01: If the enchanted permanent is tapped as a cost to activate an ability that's not a mana ability, <Brink of Disaster>'s ability will go on the stack on top of that activated ability. <Brink of Disaster>'s ability resolves first (destroying that permanent), then the permanent's activated ability resolves.</Rulings>
+<Rulings>2010/03/01: Brink of Disaster may target and may enchant a permanent that's already tapped. It won't do anything until the enchanted permanent changes from being untapped to being tapped.
+2010/03/01: When the enchanted permanent becomes tapped, Brink of Disaster's ability triggers. That permanent will be destroyed when the ability resolves, even if Brink of Disaster has left the battlefield or is somehow enchanting a different permanent by then.
+2010/03/01: If the enchanted permanent is tapped as a cost to activate a mana ability, the mana ability resolves immediately, then Brink of Disaster's ability goes on the stack.
+2010/03/01: If the enchanted permanent is tapped as a cost to activate an ability that's not a mana ability, Brink of Disaster's ability will go on the stack on top of that activated ability. Brink of Disaster's ability resolves first (destroying that permanent), then the permanent's activated ability resolves.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1003,16 +1005,16 @@ When enchanted permanent becomes tapped, destroy it.</CardText>
 <No>53</No>
 <Name>Butcher of Malakir</Name>
 <Type>Creature — Vampire Warrior 5/4</Type>
-<ManaCost>5BB (7)</ManaCost>
+<ManaCost>{5}{B}{B}</ManaCost>
 <CardText>Flying
 Whenever Butcher of Malakir or another creature you control dies, each opponent sacrifices a creature.</CardText>
 <Flavor>His verdict is always guilty. His sentence is always death.</Flavor>
 <Artist>Jason Chan</Artist>
 <Multiverseid>197125</Multiverseid>
 <Rulings>2010/03/01: When the triggered ability resolves, first the player whose turn it is (if that player is an opponent) chooses which creature they will sacrifice, then each other opponent in turn order does the same, then all chosen creatures are sacrificed at the same time.
-2010/03/01: If multiple creatures you control (possibly including <Butcher of Malakir> itself) are put into their owners' graveyards at the same time, <Butcher of Malakir>'s triggered ability will trigger that many times.
-2010/03/01: If you control more than one <Butcher of Malakir> and a creature you control is put into a graveyard, each of those Butchers' abilities will trigger. Each opponent will sacrifice a creature each time one of those abilities resolves.
-2010/03/01: If you and an opponent each control a <Butcher of Malakir> and a creature is put into a graveyard, a chain reaction happens. First the ability of one player's Butcher will trigger, causing each opponent to sacrifice a creature. That sacrifice causes the ability of the other player's Butcher to trigger, and so on.</Rulings>
+2010/03/01: If multiple creatures you control (possibly including Butcher of Malakir itself) are put into their owners' graveyards at the same time, Butcher of Malakir's triggered ability will trigger that many times.
+2010/03/01: If you control more than one Butcher of Malakir and a creature you control is put into a graveyard, each of those Butchers' abilities will trigger. Each opponent will sacrifice a creature each time one of those abilities resolves.
+2010/03/01: If you and an opponent each control a Butcher of Malakir and a creature is put into a graveyard, a chain reaction happens. First the ability of one player's Butcher will trigger, causing each opponent to sacrifice a creature. That sacrifice causes the ability of the other player's Butcher to trigger, and so on.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1025,7 +1027,7 @@ Whenever Butcher of Malakir or another creature you control dies, each opponent 
 <No>54</No>
 <Name>Caustic Crawler</Name>
 <Type>Creature — Insect 4/3</Type>
-<ManaCost>3BB (5)</ManaCost>
+<ManaCost>{3}{B}{B}</ManaCost>
 <CardText>Landfall — Whenever a land enters the battlefield under your control, you may have target creature get -1/-1 until end of turn.</CardText>
 <Flavor>Novice explorers can mistake the acid-carved stone lairs for ancient ruins. They rarely survive to learn better.</Flavor>
 <Artist>Raymond Swanland</Artist>
@@ -1044,7 +1046,7 @@ Whenever Butcher of Malakir or another creature you control dies, each opponent 
 <No>55</No>
 <Name>Corrupted Zendikon</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>1B (2)</ManaCost>
+<ManaCost>{1}{B}</ManaCost>
 <CardText>Enchant land
 Enchanted land is a 3/3 black Ooze creature. It's still a land.
 When enchanted land dies, return that card to its owner's hand.</CardText>
@@ -1068,15 +1070,15 @@ When enchanted land dies, return that card to its owner's hand.</CardText>
 <No>56</No>
 <Name>Dead Reckoning</Name>
 <Type>Sorcery</Type>
-<ManaCost>1BB (3)</ManaCost>
+<ManaCost>{1}{B}{B}</ManaCost>
 <CardText>You may put target creature card from your graveyard on top of your library. If you do, Dead Reckoning deals damage equal to that card's power to target creature.</CardText>
 <Flavor>Many venture out to hunt for treasures. Others lie in wait to hunt the hunters.</Flavor>
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>194679</Multiverseid>
-<Rulings>2010/03/01: You must choose two targets as you cast <Dead Reckoning>: a creature card in your graveyard and a creature on the battlefield. If you can't, then you can't cast the spell.
-2010/03/01: If the targeted creature card is an illegal target as <Dead Reckoning> resolves (because it's no longer in your graveyard, perhaps), you can't choose to put it on top of your library. No damage will be dealt.
-2010/03/01: If the targeted creature is an illegal target as <Dead Reckoning> resolves (because it's no longer on the battlefield, perhaps), you may still put the targeted creature card from your graveyard on top of your library. No damage will be dealt.
-2010/03/01: <Dead Reckoning> deals damage equal to the power the creature card had while it was in your graveyard. This could matter if that card is something like Lord of Extinction or Tarmogoyf whose power is determined by a characteristic-defining ability that checks the contents of your graveyard.</Rulings>
+<Rulings>2010/03/01: You must choose two targets as you cast Dead Reckoning: a creature card in your graveyard and a creature on the battlefield. If you can't, then you can't cast the spell.
+2010/03/01: If the targeted creature card is an illegal target as Dead Reckoning resolves (because it's no longer in your graveyard, perhaps), you can't choose to put it on top of your library. No damage will be dealt.
+2010/03/01: If the targeted creature is an illegal target as Dead Reckoning resolves (because it's no longer on the battlefield, perhaps), you may still put the targeted creature card from your graveyard on top of your library. No damage will be dealt.
+2010/03/01: Dead Reckoning deals damage equal to the power the creature card had while it was in your graveyard. This could matter if that card is something like Lord of Extinction or Tarmogoyf whose power is determined by a characteristic-defining ability that checks the contents of your graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1089,14 +1091,14 @@ When enchanted land dies, return that card to its owner's hand.</CardText>
 <No>57</No>
 <Name>Death's Shadow</Name>
 <Type>Creature — Avatar 13/13</Type>
-<ManaCost>B (1)</ManaCost>
+<ManaCost>{B}</ManaCost>
 <CardText>Death's Shadow gets -X/-X, where X is your life total.</CardText>
 <Flavor>The shadow of the candle looms tall even as its light grows dim.</Flavor>
 <Artist>Howard Lyon</Artist>
 <Multiverseid>198372</Multiverseid>
-<Rulings>2017/03/14: <Death's Shadow>'s ability applies only while <Death's Shadow> is on the battlefield. In all other zones, its power and toughness are 13.
-2017/03/14: The value of X changes as you gain and lose life. It's not locked in as <Death's Shadow> enters the battlefield.
-2017/03/14: If your life total is 13 or greater and nothing else is boosting the toughness of <Death's Shadow>, it's put into its owner's graveyard as a state-based action.
+<Rulings>2017/03/14: Death's Shadow's ability applies only while Death's Shadow is on the battlefield. In all other zones, its power and toughness are 13.
+2017/03/14: The value of X changes as you gain and lose life. It's not locked in as Death's Shadow enters the battlefield.
+2017/03/14: If your life total is 13 or greater and nothing else is boosting the toughness of Death's Shadow, it's put into its owner's graveyard as a state-based action.
 2017/03/14: In a Two-Headed Giant game, your life total is your team's life total.
 2017/07/14: If your life total is negative, X is considered to be 0. (This is a change from previous rulings.)</Rulings>
 <Vintage>Legal</Vintage>
@@ -1111,7 +1113,7 @@ When enchanted land dies, return that card to its owner's hand.</CardText>
 <No>58</No>
 <Name>Jagwasp Swarm</Name>
 <Type>Creature — Insect 3/2</Type>
-<ManaCost>3B (4)</ManaCost>
+<ManaCost>{3}{B}</ManaCost>
 <CardText>Flying</CardText>
 <Flavor>"You know how to tell a sapling explorer from an old hardhead? See which one mistakes a swarm of jagwasps for the setting sun."
 —Chadir the Navigator</Flavor>
@@ -1129,12 +1131,12 @@ When enchanted land dies, return that card to its owner's hand.</CardText>
 <No>59</No>
 <Name>Kalastria Highborn</Name>
 <Type>Creature — Vampire Shaman 2/2</Type>
-<ManaCost>BB (2)</ManaCost>
+<ManaCost>{B}{B}</ManaCost>
 <CardText>Whenever Kalastria Highborn or another Vampire you control dies, you may pay {B}. If you do, target player loses 2 life and you gain 2 life.</CardText>
 <Flavor>Each of Malakir's great families boasts a contingent of nulls appropriate to its rank in society.</Flavor>
 <Artist>D. Alexander Gregory</Artist>
 <Multiverseid>197118</Multiverseid>
-<Rulings>2010/03/01: If multiple Vampires you control (possibly including <Kalastria Highborn> itself) are put into their owners' graveyards at the same time, <Kalastria Highborn>'s ability triggers that many times.
+<Rulings>2010/03/01: If multiple Vampires you control (possibly including Kalastria Highborn itself) are put into their owners' graveyards at the same time, Kalastria Highborn's ability triggers that many times.
 2010/03/01: You target a player when the ability triggers. You choose whether to pay {B} as the ability resolves. You may pay {B} only once per resolution.
 2010/03/01: If the targeted player is an illegal target by the time the ability resolves (for example, if that player has left a multiplayer game), the entire ability doesn't resolve. You can't pay {B} and you don't gain life.</Rulings>
 <Vintage>Legal</Vintage>
@@ -1149,7 +1151,7 @@ When enchanted land dies, return that card to its owner's hand.</CardText>
 <No>60</No>
 <Name>Mire's Toll</Name>
 <Type>Sorcery</Type>
-<ManaCost>B (1)</ManaCost>
+<ManaCost>{B}</ManaCost>
 <CardText>Target player reveals a number of cards from their hand equal to the number of Swamps you control. You choose one of them. That player discards that card.</CardText>
 <Flavor>As the bridge snapped, Berko was sure he heard the swamp laughing at him.</Flavor>
 <Artist>Alex Horley-Orlandelli</Artist>
@@ -1167,20 +1169,20 @@ When enchanted land dies, return that card to its owner's hand.</CardText>
 <No>61</No>
 <Name>Nemesis Trap</Name>
 <Type>Instant — Trap</Type>
-<ManaCost>4BB (6)</ManaCost>
+<ManaCost>{4}{B}{B}</ManaCost>
 <CardText>If a white creature is attacking, you may pay {B}{B} rather than pay this spell's mana cost.
 Exile target attacking creature. Create a token that's a copy of that creature. Exile it at the beginning of the next end step.</CardText>
 <Artist>Ryan Pancoast</Artist>
 <Multiverseid>197836</Multiverseid>
-<Rulings>2010/03/01: If you cast <Nemesis Trap> for {B}{B}, you may still target any attacking creature, not just the white attacking creature.
+<Rulings>2010/03/01: If you cast Nemesis Trap for {B}{B}, you may still target any attacking creature, not just the white attacking creature.
 2010/03/01: An "attacking creature" is one that has been declared as an attacker this combat, or one that was put onto the battlefield attacking this combat. Unless that creature leaves combat, it continues to be an attacking creature through the end of combat step, even if the player it was attacking has left the game, or the planeswalker it was attacking has left combat.
-2010/03/01: If you cast <Nemesis Trap> during your opponent's declare attackers step, you'll put the token onto the battlefield before the declare blockers step begins and you can block with it this combat. If you cast <Nemesis Trap> later in the combat phase a, you won't be able to block with the token.
-2010/03/01: The token you put onto the battlefield copies exactly what was printed on the exiled creature and nothing more (unless it was copying something else or it was a token; see below). It doesn't copy whether the exiled creature was tapped or untapped, whether it had any counters on it or Auras attached to it, or any non-copy effects that changed its power, toughness, types, color, or so on. For example, if <Nemesis Trap> targets an animated Celestial Colonnade, the token you put onto the battlefield will be a Celestial Colonnade that's just a land. (Because of this, <Nemesis Trap> has received minor errata to specify that you put a token, not a "creature token," onto the battlefield.)
+2010/03/01: If you cast Nemesis Trap during your opponent's declare attackers step, you'll put the token onto the battlefield before the declare blockers step begins and you can block with it this combat. If you cast Nemesis Trap later in the combat phase a, you won't be able to block with the token.
+2010/03/01: The token you put onto the battlefield copies exactly what was printed on the exiled creature and nothing more (unless it was copying something else or it was a token; see below). It doesn't copy whether the exiled creature was tapped or untapped, whether it had any counters on it or Auras attached to it, or any non-copy effects that changed its power, toughness, types, color, or so on. For example, if Nemesis Trap targets an animated Celestial Colonnade, the token you put onto the battlefield will be a Celestial Colonnade that's just a land. (Because of this, Nemesis Trap has received minor errata to specify that you put a token, not a "creature token," onto the battlefield.)
 2010/03/01: If the exiled creature was copying something else (for example, if it was a Jwari Shapeshifter), then your token enters the battlefield as a copy of whatever the exiled creature was copying.
 2010/03/01: If the exiled creature was a token, your token copies the original characteristics of that token as stated by the effect that put it onto the battlefield.
 2010/03/01: If the exiled creature has {X} in its mana cost (such as Protean Hydra), X is considered to be zero.
 2010/03/01: Any enters-the-battlefield abilities of the exiled creature will trigger when the token is put onto the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the chosen creature will also work.
-2010/03/01: If the targeted creature is an illegal target by the time <Nemesis Trap> resolves, the entire spell doesn't resolve. You won't get a token.</Rulings>
+2010/03/01: If the targeted creature is an illegal target by the time Nemesis Trap resolves, the entire spell doesn't resolve. You won't get a token.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1193,7 +1195,7 @@ Exile target attacking creature. Create a token that's a copy of that creature. 
 <No>62</No>
 <Name>Pulse Tracker</Name>
 <Type>Creature — Vampire Rogue 1/1</Type>
-<ManaCost>B (1)</ManaCost>
+<ManaCost>{B}</ManaCost>
 <CardText>Whenever Pulse Tracker attacks, each opponent loses 1 life.</CardText>
 <Flavor>Pulse trackers terrorize adventurers, driving them through the jungle toward certain death at the gates of Malakir.</Flavor>
 <Artist>Andrew Robinson</Artist>
@@ -1210,7 +1212,7 @@ Exile target attacking creature. Create a token that's a copy of that creature. 
 <No>63</No>
 <Name>Quag Vampires</Name>
 <Type>Creature — Vampire Rogue 1/1</Type>
-<ManaCost>B (1)</ManaCost>
+<ManaCost>{B}</ManaCost>
 <CardText>Multikicker {1}{B} (You may pay an additional {1}{B} any number of times as you cast this spell.)
 Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)
 Quag Vampires enters the battlefield with a +1/+1 counter on it for each time it was kicked.</CardText>
@@ -1228,12 +1230,12 @@ Quag Vampires enters the battlefield with a +1/+1 counter on it for each time it
 <No>64</No>
 <Name>Quest for the Nihil Stone</Name>
 <Type>Enchantment</Type>
-<ManaCost>B (1)</ManaCost>
+<ManaCost>{B}</ManaCost>
 <CardText>Whenever an opponent discards a card, you may put a quest counter on Quest for the Nihil Stone.
 At the beginning of each opponent's upkeep, if that player has no cards in hand and Quest for the Nihil Stone has two or more quest counters on it, you may have that player lose 5 life.</CardText>
 <Artist>Mike Bierek</Artist>
 <Multiverseid>198386</Multiverseid>
-<Rulings>2010/03/01: The second ability has an "intervening 'if' clause." That means (1) the ability won't trigger at all unless, as an opponent's upkeep starts, that player has no cards in hand and <Quest for the Nihil Stone> has two or more quest counters on it, and (2) the ability will do nothing if that player has at least one card in hand and/or <Quest for the Nihil Stone> has fewer than two quest counters on it by the time it resolves. (If <Quest for the Nihil Stone> is no longer on the battlefield by that point, its last existence on the battlefield is checked to see how many quest counters were on it.)</Rulings>
+<Rulings>2010/03/01: The second ability has an "intervening 'if' clause." That means (1) the ability won't trigger at all unless, as an opponent's upkeep starts, that player has no cards in hand and Quest for the Nihil Stone has two or more quest counters on it, and (2) the ability will do nothing if that player has at least one card in hand and/or Quest for the Nihil Stone has fewer than two quest counters on it by the time it resolves. (If Quest for the Nihil Stone is no longer on the battlefield by that point, its last existence on the battlefield is checked to see how many quest counters were on it.)</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1246,7 +1248,7 @@ At the beginning of each opponent's upkeep, if that player has no cards in hand 
 <No>65</No>
 <Name>Ruthless Cullblade</Name>
 <Type>Creature — Vampire Warrior 2/1</Type>
-<ManaCost>1B (2)</ManaCost>
+<ManaCost>{1}{B}</ManaCost>
 <CardText>Ruthless Cullblade gets +2/+1 as long as an opponent has 10 or less life.</CardText>
 <Flavor>She wields a blade as bloodthirsty and elegant as herself.</Flavor>
 <Artist>rk post</Artist>
@@ -1263,7 +1265,7 @@ At the beginning of each opponent's upkeep, if that player has no cards in hand 
 <No>66</No>
 <Name>Scrib Nibblers</Name>
 <Type>Creature — Rat 1/1</Type>
-<ManaCost>2B (3)</ManaCost>
+<ManaCost>{2}{B}</ManaCost>
 <CardText>{T}: Exile the top card of target player's library. If it's a land card, you gain 1 life.
 Landfall — Whenever a land enters the battlefield under your control, you may untap Scrib Nibblers.</CardText>
 <Artist>Daren Bader</Artist>
@@ -1282,7 +1284,7 @@ Landfall — Whenever a land enters the battlefield under your control, you may 
 <No>67</No>
 <Name>Shoreline Salvager</Name>
 <Type>Creature — Surrakar 3/3</Type>
-<ManaCost>3B (4)</ManaCost>
+<ManaCost>{3}{B}</ManaCost>
 <CardText>Whenever Shoreline Salvager deals combat damage to a player, if you control an Island, you may draw a card.</CardText>
 <Flavor>"They search for treasures that wash up from the depths. Tracking one could lead you to riches. Or in circles."
 —Javad Nasrin, Ondu relic hunter</Flavor>
@@ -1300,15 +1302,15 @@ Landfall — Whenever a land enters the battlefield under your control, you may 
 <No>68</No>
 <Name>Smother</Name>
 <Type>Instant</Type>
-<ManaCost>1B (2)</ManaCost>
-<CardText>Destroy target creature with converted mana cost 3 or less. It can't be regenerated.</CardText>
+<ManaCost>{1}{B}</ManaCost>
+<CardText>Destroy target creature with mana value 3 or less. It can't be regenerated.</CardText>
 <Flavor>"Before I hire new recruits, I test how long they can hold their breath. You'd be surprised how often it comes up."
 —Zahr Gada, Halimar expedition leader</Flavor>
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>191578</Multiverseid>
-<Rulings>2010/03/01: A creature's converted mana cost is determined solely by the mana symbols printed in its upper right corner (unless that creature is copying something else; see below). If its mana cost includes {X}, X is considered to be 0. If it has no mana symbols in its upper right corner (because it's an animated land, for example), its converted mana cost is 0. Ignore any alternative costs or additional costs (such as kicker) paid when the creature was cast.
-2010/03/01: A token has a converted mana cost of 0, unless it is copying something else.
-2010/03/01: If a creature is copying something else, its converted mana cost is the converted mana cost of whatever it's copying.</Rulings>
+<Rulings>2010/03/01: A token has a converted mana cost of 0, unless it is copying something else.
+2010/03/01: If a creature is copying something else, its converted mana cost is the converted mana cost of whatever it's copying.
+2010/03/01: A creature's converted mana cost is determined solely by the mana symbols printed in its upper right corner (unless that creature is copying something else; see below). If its mana cost includes {X}, X is considered to be 0. If it has no mana symbols in its upper right corner (because it's an animated land, for example), its converted mana cost is 0. Ignore any alternative costs or additional costs (such as kicker) paid when the creature was cast.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1321,7 +1323,7 @@ Landfall — Whenever a land enters the battlefield under your control, you may 
 <No>69</No>
 <Name>Tomb Hex</Name>
 <Type>Instant</Type>
-<ManaCost>2B (3)</ManaCost>
+<ManaCost>{2}{B}</ManaCost>
 <CardText>Target creature gets -2/-2 until end of turn.
 Landfall — If you had a land enter the battlefield under your control this turn, that creature gets -4/-4 until end of turn instead.</CardText>
 <Artist>Izzy</Artist>
@@ -1343,13 +1345,13 @@ Landfall — If you had a land enter the battlefield under your control this tur
 <No>70</No>
 <Name>Urge to Feed</Name>
 <Type>Instant</Type>
-<ManaCost>BB (2)</ManaCost>
+<ManaCost>{B}{B}</ManaCost>
 <CardText>Target creature gets -3/-3 until end of turn. You may tap any number of untapped Vampire creatures you control. If you do, put a +1/+1 counter on each of those Vampires.</CardText>
 <Artist>Johann Bodin</Artist>
 <Multiverseid>198368</Multiverseid>
-<Rulings>2010/03/01: You don't choose which untapped Vampire creatures you control to tap (if any) until <Urge to Feed> resolves.
-2010/03/01: If you cast <Urge to Feed> targeting an untapped Vampire creature you control with toughness 3, its toughness will be reduced to 0 by the -3/-3 effect. However, state-based actions aren't checked until the spell has finished resolving. You may then tap that Vampire and put a +1/+1 counter on it, raising its toughness to 1. It will remain on the battlefield.
-2010/03/01: If the targeted creature is an illegal target by the time <Urge to Feed> resolves, the entire spell doesn't resolve. You can't tap any Vampires.</Rulings>
+<Rulings>2010/03/01: You don't choose which untapped Vampire creatures you control to tap (if any) until Urge to Feed resolves.
+2010/03/01: If you cast Urge to Feed targeting an untapped Vampire creature you control with toughness 3, its toughness will be reduced to 0 by the -3/-3 effect. However, state-based actions aren't checked until the spell has finished resolving. You may then tap that Vampire and put a +1/+1 counter on it, raising its toughness to 1. It will remain on the battlefield.
+2010/03/01: If the targeted creature is an illegal target by the time Urge to Feed resolves, the entire spell doesn't resolve. You can't tap any Vampires.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1362,7 +1364,7 @@ Landfall — If you had a land enter the battlefield under your control this tur
 <No>71</No>
 <Name>Akoum Battlesinger</Name>
 <Type>Creature — Human Berserker Ally 1/1</Type>
-<ManaCost>1R (2)</ManaCost>
+<ManaCost>{1}{R}</ManaCost>
 <CardText>Haste
 Whenever Akoum Battlesinger or another Ally enters the battlefield under your control, you may have Ally creatures you control get +1/+0 until end of turn.</CardText>
 <Artist>Adi Granov</Artist>
@@ -1379,14 +1381,14 @@ Whenever Akoum Battlesinger or another Ally enters the battlefield under your co
 <No>72</No>
 <Name>Bazaar Trader</Name>
 <Type>Creature — Goblin 1/1</Type>
-<ManaCost>1R (2)</ManaCost>
+<ManaCost>{1}{R}</ManaCost>
 <CardText>{T}: Target player gains control of target artifact, creature, or land you control.</CardText>
 <Flavor>"No need for a hurda? How about these maps to recently discovered tombs? Or these vials of invisible potion? Very fancy . . ."</Flavor>
 <Artist>Matt Cavotta</Artist>
 <Multiverseid>198364</Multiverseid>
 <Rulings>2010/03/01: This effect has no duration. The targeted player retains control of the targeted permanent until the game ends, the permanent leaves the battlefield, or an effect causes someone else to gain control of it.
 2010/03/01: If either the targeted player or the targeted permanent is an illegal target by the time the ability resolves, the ability does nothing. The player won't gain control of the permanent.
-2010/03/01: You may target yourself with <Bazaar Trader>'s ability. Normally, this won't have any visible effect. However, the ability would override an effect with a limited duration that gave you control of a permanent. For example, if you temporarily gained control of a creature with Act of Treason, targeting yourself and that creature with <Bazaar Trader>'s ability would then cause you to gain control of the creature indefinitely.</Rulings>
+2010/03/01: You may target yourself with Bazaar Trader's ability. Normally, this won't have any visible effect. However, the ability would override an effect with a limited duration that gave you control of a permanent. For example, if you temporarily gained control of a creature with Act of Treason, targeting yourself and that creature with Bazaar Trader's ability would then cause you to gain control of the creature indefinitely.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1399,7 +1401,7 @@ Whenever Akoum Battlesinger or another Ally enters the battlefield under your co
 <No>73</No>
 <Name>Bull Rush</Name>
 <Type>Instant</Type>
-<ManaCost>R (1)</ManaCost>
+<ManaCost>{R}</ManaCost>
 <CardText>Target creature gets +2/+0 until end of turn.</CardText>
 <Flavor>"It's gone mad! Loose the chains and save what you can!"</Flavor>
 <Artist>Christopher Moeller</Artist>
@@ -1416,13 +1418,13 @@ Whenever Akoum Battlesinger or another Ally enters the battlefield under your co
 <No>74</No>
 <Name>Chain Reaction</Name>
 <Type>Sorcery</Type>
-<ManaCost>2RR (4)</ManaCost>
+<ManaCost>{2}{R}{R}</ManaCost>
 <CardText>Chain Reaction deals X damage to each creature, where X is the number of creatures on the battlefield.</CardText>
 <Flavor>"We train for the improbable, like lightning striking the same place twice, or striking everywhere at once."
 —Nundari, Sea Gate militia captain</Flavor>
 <Artist>Trevor Claxton</Artist>
 <Multiverseid>201573</Multiverseid>
-<Rulings>2010/03/01: The value of X is determined as <Chain Reaction> resolves.</Rulings>
+<Rulings>2010/03/01: The value of X is determined as Chain Reaction resolves.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1435,7 +1437,7 @@ Whenever Akoum Battlesinger or another Ally enters the battlefield under your co
 <No>75</No>
 <Name>Claws of Valakut</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>1RR (3)</ManaCost>
+<ManaCost>{1}{R}{R}</ManaCost>
 <CardText>Enchant creature
 Enchanted creature gets +1/+0 for each Mountain you control and has first strike.</CardText>
 <Flavor>"Swords may sunder. Shields may fail. My will is stronger than steel, and my flesh and bone far more deadly."</Flavor>
@@ -1453,15 +1455,15 @@ Enchanted creature gets +1/+0 for each Mountain you control and has first strike
 <No>76</No>
 <Name>Comet Storm</Name>
 <Type>Instant</Type>
-<ManaCost>XRR (2)</ManaCost>
+<ManaCost>{X}{R}{R}</ManaCost>
 <CardText>Multikicker {1} (You may pay an additional {1} any number of times as you cast this spell.)
 Choose any target, then choose another target for each time this spell was kicked. Comet Storm deals X damage to each of them.</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>197766</Multiverseid>
-<Rulings>2010/03/01: The number of targets you choose for <Comet Storm> is one more than the number of times it's kicked. First you declare how many times you're going to kick the spell (at the same time you declare the value of X), then you choose the targets accordingly, then you pay the costs. No player can respond between the time you declare how many times you'll kick the spell and the time you choose the targets.
+<Rulings>2010/03/01: The number of targets you choose for Comet Storm is one more than the number of times it's kicked. First you declare how many times you're going to kick the spell (at the same time you declare the value of X), then you choose the targets accordingly, then you pay the costs. No player can respond between the time you declare how many times you'll kick the spell and the time you choose the targets.
 2010/03/01: Each target you choose must be different.
-2010/03/01: For example, if you want <Comet Storm> to deal 4 damage to each of three different targets, that means X is 4 and you're kicking the spell twice. You'll pay a mana cost of {4}{R}{R}, plus a kicker cost of {1}, plus another kicker cost of {1}, for a total of {6}{R}{R}.
-2010/03/01: As long as any of its targets are legal at the time <Comet Storm> resolves, <Comet Storm> will deal X damage to each of those legal targets.</Rulings>
+2010/03/01: For example, if you want Comet Storm to deal 4 damage to each of three different targets, that means X is 4 and you're kicking the spell twice. You'll pay a mana cost of {4}{R}{R}, plus a kicker cost of {1}, plus another kicker cost of {1}, for a total of {6}{R}{R}.
+2010/03/01: As long as any of its targets are legal at the time Comet Storm resolves, Comet Storm will deal X damage to each of those legal targets.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1474,7 +1476,7 @@ Choose any target, then choose another target for each time this spell was kicke
 <No>77</No>
 <Name>Cosi's Ravager</Name>
 <Type>Creature — Elemental 2/2</Type>
-<ManaCost>3R (4)</ManaCost>
+<ManaCost>{3}{R}</ManaCost>
 <CardText>Landfall — Whenever a land enters the battlefield under your control, you may have Cosi's Ravager deal 1 damage to target player or planeswalker.</CardText>
 <Flavor>"Cosi has many followers. Even the volcano finds a way to do his bidding."
 —Zakken, Enclave cleric</Flavor>
@@ -1494,7 +1496,7 @@ Choose any target, then choose another target for each time this spell was kicke
 <No>78</No>
 <Name>Crusher Zendikon</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>2R (3)</ManaCost>
+<ManaCost>{2}{R}</ManaCost>
 <CardText>Enchant land
 Enchanted land is a 4/2 red Beast creature with trample. It's still a land.
 When enchanted land dies, return that card to its owner's hand.</CardText>
@@ -1518,7 +1520,7 @@ When enchanted land dies, return that card to its owner's hand.</CardText>
 <No>79</No>
 <Name>Cunning Sparkmage</Name>
 <Type>Creature — Human Shaman 0/1</Type>
-<ManaCost>2R (3)</ManaCost>
+<ManaCost>{2}{R}</ManaCost>
 <CardText>Haste
 {T}: Cunning Sparkmage deals 1 damage to any target.</CardText>
 <Flavor>"I see the weaknesses you hide even from yourself."</Flavor>
@@ -1536,7 +1538,7 @@ When enchanted land dies, return that card to its owner's hand.</CardText>
 <No>80</No>
 <Name>Deathforge Shaman</Name>
 <Type>Creature — Ogre Shaman 4/3</Type>
-<ManaCost>4R (5)</ManaCost>
+<ManaCost>{4}{R}</ManaCost>
 <CardText>Multikicker {R} (You may pay an additional {R} any number of times as you cast this spell.)
 When Deathforge Shaman enters the battlefield, it deals damage to target player or planeswalker equal to twice the number of times it was kicked.</CardText>
 <Artist>Dave Kendall</Artist>
@@ -1553,7 +1555,7 @@ When Deathforge Shaman enters the battlefield, it deals damage to target player 
 <No>81</No>
 <Name>Dragonmaster Outcast</Name>
 <Type>Creature — Human Shaman 1/1</Type>
-<ManaCost>R (1)</ManaCost>
+<ManaCost>{R}</ManaCost>
 <CardText>At the beginning of your upkeep, if you control six or more lands, create a 5/5 red Dragon creature token with flying.</CardText>
 <Flavor>"Cast out by my tribe, I am a pariah trapped in this mammal's carcass. Only my true kin hear my cries."</Flavor>
 <Artist>Raymond Swanland</Artist>
@@ -1570,7 +1572,7 @@ When Deathforge Shaman enters the battlefield, it deals damage to target player 
 <No>82</No>
 <Name>Goblin Roughrider</Name>
 <Type>Creature — Goblin Knight 3/2</Type>
-<ManaCost>2R (3)</ManaCost>
+<ManaCost>{2}{R}</ManaCost>
 <Flavor>Astride the bucking creature, Gribble hurtled down the mountainside while his Grotag brethren cheered. It was at that moment that legend of the Skrill Tamer was born.</Flavor>
 <Artist>Jesper Ejsing</Artist>
 <Multiverseid>194681</Multiverseid>
@@ -1586,13 +1588,13 @@ When Deathforge Shaman enters the battlefield, it deals damage to target player 
 <No>83</No>
 <Name>Grotag Thrasher</Name>
 <Type>Creature — Lizard 3/3</Type>
-<ManaCost>4R (5)</ManaCost>
+<ManaCost>{4}{R}</ManaCost>
 <CardText>Whenever Grotag Thrasher attacks, target creature can't block this turn.</CardText>
 <Flavor>The goblin fancied himself a rider. The lizard was happy with its new flail.</Flavor>
 <Artist>Jesper Ejsing</Artist>
 <Multiverseid>191548</Multiverseid>
-<Rulings>2010/03/01: The targeted creature is prohibited from blocking any creature this turn, not just <Grotag Thrasher>.
-2010/03/01: <Grotag Thrasher>'s ability can target any creature, not just one the defending player controls. For example, if you want that player's creatures to be able to block this turn, you can target <Grotag Thrasher> with its own ability.</Rulings>
+<Rulings>2010/03/01: The targeted creature is prohibited from blocking any creature this turn, not just Grotag Thrasher.
+2010/03/01: Grotag Thrasher's ability can target any creature, not just one the defending player controls. For example, if you want that player's creatures to be able to block this turn, you can target Grotag Thrasher with its own ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1605,7 +1607,7 @@ When Deathforge Shaman enters the battlefield, it deals damage to target player 
 <No>84</No>
 <Name>Kazuul, Tyrant of the Cliffs</Name>
 <Type>Legendary Creature — Ogre Warrior 5/4</Type>
-<ManaCost>3RR (5)</ManaCost>
+<ManaCost>{3}{R}{R}</ManaCost>
 <CardText>Whenever a creature an opponent controls attacks, if you're the defending player, create a 3/3 red Ogre creature token unless that creature's controller pays {3}.</CardText>
 <Flavor>Warning to those who scale the cliffs without paying tribute: It's a long way down.</Flavor>
 <Artist>Paul Bonner</Artist>
@@ -1628,7 +1630,7 @@ When Deathforge Shaman enters the battlefield, it deals damage to target player 
 <No>85</No>
 <Name>Mordant Dragon</Name>
 <Type>Creature — Dragon 5/5</Type>
-<ManaCost>3RRR (6)</ManaCost>
+<ManaCost>{3}{R}{R}{R}</ManaCost>
 <CardText>Flying
 {1}{R}: Mordant Dragon gets +1/+0 until end of turn.
 Whenever Mordant Dragon deals combat damage to a player, you may have it deal that much damage to target creature that player controls.</CardText>
@@ -1646,7 +1648,7 @@ Whenever Mordant Dragon deals combat damage to a player, you may have it deal th
 <No>86</No>
 <Name>Quest for the Goblin Lord</Name>
 <Type>Enchantment</Type>
-<ManaCost>R (1)</ManaCost>
+<ManaCost>{R}</ManaCost>
 <CardText>Whenever a Goblin enters the battlefield under your control, you may put a quest counter on Quest for the Goblin Lord.
 As long as Quest for the Goblin Lord has five or more quest counters on it, creatures you control get +2/+0.</CardText>
 <Flavor>A shrine to unchecked desire.</Flavor>
@@ -1664,18 +1666,18 @@ As long as Quest for the Goblin Lord has five or more quest counters on it, crea
 <No>87</No>
 <Name>Ricochet Trap</Name>
 <Type>Instant — Trap</Type>
-<ManaCost>3R (4)</ManaCost>
+<ManaCost>{3}{R}</ManaCost>
 <CardText>If an opponent cast a blue spell this turn, you may pay {R} rather than pay this spell's mana cost.
 Change the target of target spell with a single target.</CardText>
 <Flavor>In his last seconds, Remhas regretted using his most powerful spell.</Flavor>
 <Artist>Jaime Jones</Artist>
 <Multiverseid>191549</Multiverseid>
-<Rulings>2010/03/01: If you cast <Ricochet Trap> for {R}, you don't have to target the blue spell an opponent cast.
-2010/03/01: <Ricochet Trap> targets only the spell whose target will be changed. It doesn't directly affect the original target of that spell or the new target of that spell.
-2010/03/01: You don't choose the new target for the spell until <Ricochet Trap> resolves. You must change the target if possible. However, you can't change the target to an illegal target. If there are no legal targets to choose from, the target isn't changed. It doesn't matter if the original target of that spell has somehow become illegal itself.
-2010/03/01: If you cast <Ricochet Trap> targeting a spell that targets a spell on the stack (like Cancel does, for example), you can't change that spell's target to itself. You can, however, change that spell's target to <Ricochet Trap>. If you do, that spell won't resolve when it tries to resolve because <Ricochet Trap> will have left the stack by then.
-2010/03/01: If a spell targets multiple things, you can't target it with <Ricochet Trap>, even if all but one of those targets have become illegal.
-2010/03/01: If a spell targets the same player or object multiple times, you can't target it with <Ricochet Trap>.</Rulings>
+<Rulings>2010/03/01: If you cast Ricochet Trap for {R}, you don't have to target the blue spell an opponent cast.
+2010/03/01: Ricochet Trap targets only the spell whose target will be changed. It doesn't directly affect the original target of that spell or the new target of that spell.
+2010/03/01: You don't choose the new target for the spell until Ricochet Trap resolves. You must change the target if possible. However, you can't change the target to an illegal target. If there are no legal targets to choose from, the target isn't changed. It doesn't matter if the original target of that spell has somehow become illegal itself.
+2010/03/01: If you cast Ricochet Trap targeting a spell that targets a spell on the stack (like Cancel does, for example), you can't change that spell's target to itself. You can, however, change that spell's target to Ricochet Trap. If you do, that spell won't resolve when it tries to resolve because Ricochet Trap will have left the stack by then.
+2010/03/01: If a spell targets multiple things, you can't target it with Ricochet Trap, even if all but one of those targets have become illegal.
+2010/03/01: If a spell targets the same player or object multiple times, you can't target it with Ricochet Trap.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1688,15 +1690,15 @@ Change the target of target spell with a single target.</CardText>
 <No>88</No>
 <Name>Roiling Terrain</Name>
 <Type>Sorcery</Type>
-<ManaCost>2RR (4)</ManaCost>
+<ManaCost>{2}{R}{R}</ManaCost>
 <CardText>Destroy target land, then Roiling Terrain deals damage to that land's controller equal to the number of land cards in that player's graveyard.</CardText>
 <Flavor>"The trembling lands ruptured, leaving an open door for things from below to emerge."
 —Screed of the Mul Daya</Flavor>
 <Artist>Steve Prescott</Artist>
 <Multiverseid>194671</Multiverseid>
-<Rulings>2010/03/01: If the targeted land is an illegal target by the time <Roiling Terrain> resolves, the entire spell doesn't resolve. No damage will be dealt.
-2010/03/01: The effects of the spell happen in sequence. By the time <Roiling Terrain> checks how many land cards are in the affected player's graveyard, the land <Roiling Terrain> destroyed is (most likely) already in that graveyard.
-2013/07/01: If the targeted land regenerates or has indestructible, <Roiling Terrain> still deals damage to the targeted land's controller.</Rulings>
+<Rulings>2010/03/01: If the targeted land is an illegal target by the time Roiling Terrain resolves, the entire spell doesn't resolve. No damage will be dealt.
+2010/03/01: The effects of the spell happen in sequence. By the time Roiling Terrain checks how many land cards are in the affected player's graveyard, the land Roiling Terrain destroyed is (most likely) already in that graveyard.
+2013/07/01: If the targeted land regenerates or has indestructible, Roiling Terrain still deals damage to the targeted land's controller.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1709,13 +1711,13 @@ Change the target of target spell with a single target.</CardText>
 <No>89</No>
 <Name>Rumbling Aftershocks</Name>
 <Type>Enchantment</Type>
-<ManaCost>4R (5)</ManaCost>
+<ManaCost>{4}{R}</ManaCost>
 <CardText>Whenever you cast a kicked spell, you may have Rumbling Aftershocks deal damage to any target equal to the number of times that spell was kicked.</CardText>
 <Flavor>"I like it here. You always get a little more for your mana."
 —Chandra Nalaar</Flavor>
 <Artist>Tomasz Jedruszek</Artist>
 <Multiverseid>197770</Multiverseid>
-<Rulings>2010/03/01: If you cast a kicked spell, <Rumbling Aftershocks>'s ability triggers and goes on the stack on top of it. The ability will resolve before the spell does.
+<Rulings>2010/03/01: If you cast a kicked spell, Rumbling Aftershocks's ability triggers and goes on the stack on top of it. The ability will resolve before the spell does.
 2010/03/01: The ability triggers just once per kicked spell, even if that spell was kicked multiple times.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1729,7 +1731,7 @@ Change the target of target spell with a single target.</CardText>
 <No>90</No>
 <Name>Searing Blaze</Name>
 <Type>Instant</Type>
-<ManaCost>RR (2)</ManaCost>
+<ManaCost>{R}{R}</ManaCost>
 <CardText>Searing Blaze deals 1 damage to target player or planeswalker and 1 damage to target creature that player or that planeswalker's controller controls.
 Landfall — If you had a land enter the battlefield under your control this turn, Searing Blaze deals 3 damage to that player or planeswalker and 3 damage to that creature instead.</CardText>
 <Artist>James Paick</Artist>
@@ -1739,8 +1741,8 @@ Landfall — If you had a land enter the battlefield under your control this tur
 2010/03/01: The landfall ability checks for an action that has happened in the past. It doesn't matter if a land that entered the battlefield under your control previously in the turn is still on the battlefield, is still under your control, or is still a land.
 2010/03/01: Once the spell resolves, having a land enter the battlefield under your control provides no further benefit.
 2010/03/01: The effect of this spell's landfall ability replaces its normal effect. If you had a land enter the battlefield under your control this turn, only the landfall-based effect happens.
-2010/03/01: You must choose two targets as you cast <Searing Blaze>: a player and a creature that player controls. If you can't (because there are no creatures on the battlefield, perhaps), then you can't cast the spell.
-2010/03/01: If either target is illegal by the time <Searing Blaze> resolves, it still deals damage to the other target.</Rulings>
+2010/03/01: You must choose two targets as you cast Searing Blaze: a player and a creature that player controls. If you can't (because there are no creatures on the battlefield, perhaps), then you can't cast the spell.
+2010/03/01: If either target is illegal by the time Searing Blaze resolves, it still deals damage to the other target.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1753,7 +1755,7 @@ Landfall — If you had a land enter the battlefield under your control this tur
 <No>91</No>
 <Name>Skitter of Lizards</Name>
 <Type>Creature — Lizard 1/1</Type>
-<ManaCost>R (1)</ManaCost>
+<ManaCost>{R}</ManaCost>
 <CardText>Multikicker {1}{R} (You may pay an additional {1}{R} any number of times as you cast this spell.)
 Haste
 Skitter of Lizards enters the battlefield with a +1/+1 counter on it for each time it was kicked.</CardText>
@@ -1771,7 +1773,7 @@ Skitter of Lizards enters the battlefield with a +1/+1 counter on it for each ti
 <No>92</No>
 <Name>Slavering Nulls</Name>
 <Type>Creature — Goblin Zombie 2/1</Type>
-<ManaCost>1R (2)</ManaCost>
+<ManaCost>{1}{R}</ManaCost>
 <CardText>Whenever Slavering Nulls deals combat damage to a player, if you control a Swamp, you may have that player discard a card.</CardText>
 <Flavor>Having lost their minds, they now want yours.</Flavor>
 <Artist>Dave Kendall</Artist>
@@ -1788,16 +1790,16 @@ Skitter of Lizards enters the battlefield with a +1/+1 counter on it for each ti
 <No>93</No>
 <Name>Stone Idol Trap</Name>
 <Type>Instant — Trap</Type>
-<ManaCost>5R (6)</ManaCost>
+<ManaCost>{5}{R}</ManaCost>
 <CardText>This spell costs {1} less to cast for each attacking creature.
 Create a 6/12 colorless Construct artifact creature token with trample. Exile it at the beginning of your next end step.</CardText>
 <Artist>Jung Park</Artist>
 <Multiverseid>191552</Multiverseid>
-<Rulings>2010/03/01: This Trap doesn't work the same way as other Traps. Rather than having an optional alternative cost, <Stone Idol Trap> has a mandatory cost-reduction ability.
+<Rulings>2010/03/01: This Trap doesn't work the same way as other Traps. Rather than having an optional alternative cost, Stone Idol Trap has a mandatory cost-reduction ability.
 2010/03/01: An "attacking creature" is one that has been declared as an attacker this combat, or one that was put onto the battlefield attacking this combat. Unless that creature leaves combat, it continues to be an attacking creature through the end of combat step, even if the player it was attacking has left the game, or the planeswalker it was attacking has left combat.
-2010/03/01: If you cast <Stone Idol Trap> during your opponent's declare attackers step, the Construct token you put onto the battlefield will be able to block that turn.
-2010/03/01: The Construct token isn't exiled until the beginning of *your* end step. If you cast <Stone Idol Trap> during another player's turn, the token remains on the battlefield after that player's turn ends. During your next turn, it will no longer have "summoning sickness" and you'll be able to attack with it. Then, at the beginning of that turn's end step, it'll be exiled.
-2010/03/01: The cost-reduction ability doesn't care who controls the attacking creatures. If you like, you may cast <Stone Idol Trap> during your own combat phase, in which case it will count your attacking creatures. If you do, however, the token you put onto the battlefield will be unable to attack that combat and will be exiled later that turn.</Rulings>
+2010/03/01: If you cast Stone Idol Trap during your opponent's declare attackers step, the Construct token you put onto the battlefield will be able to block that turn.
+2010/03/01: The Construct token isn't exiled until the beginning of *your* end step. If you cast Stone Idol Trap during another player's turn, the token remains on the battlefield after that player's turn ends. During your next turn, it will no longer have "summoning sickness" and you'll be able to attack with it. Then, at the beginning of that turn's end step, it'll be exiled.
+2010/03/01: The cost-reduction ability doesn't care who controls the attacking creatures. If you like, you may cast Stone Idol Trap during your own combat phase, in which case it will count your attacking creatures. If you do, however, the token you put onto the battlefield will be unable to attack that combat and will be exiled later that turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1810,12 +1812,12 @@ Create a 6/12 colorless Construct artifact creature token with trample. Exile it
 <No>94</No>
 <Name>Tuktuk Scrapper</Name>
 <Type>Creature — Goblin Artificer Ally 2/2</Type>
-<ManaCost>3R (4)</ManaCost>
+<ManaCost>{3}{R}</ManaCost>
 <CardText>Whenever Tuktuk Scrapper or another Ally enters the battlefield under your control, you may destroy target artifact. If that artifact is put into a graveyard this way, Tuktuk Scrapper deals damage to that artifact's controller equal to the number of Allies you control.</CardText>
 <Artist>Matt Cavotta</Artist>
 <Multiverseid>201579</Multiverseid>
-<Rulings>2010/03/01: A token permanent that's destroyed is put into its owner's graveyard before it ceases to exist. If a token is destroyed by <Tuktuk Scrapper>'s ability, <Tuktuk Scrapper> deals damage to that token's controller.
-2013/07/01: If the targeted artifact hass indestructible or regenerates (or you choose not to destroy it), <Tuktuk Scrapper> doesn't deal damage to that artifact's controller. Similarly, if the targeted artifact is destroyed but a replacement effect moves it to a different zone instead of its owner's graveyard, <Tuktuk Scrapper> doesn't deal damage to that artifact's controller.</Rulings>
+<Rulings>2010/03/01: A token permanent that's destroyed is put into its owner's graveyard before it ceases to exist. If a token is destroyed by Tuktuk Scrapper's ability, Tuktuk Scrapper deals damage to that token's controller.
+2013/07/01: If the targeted artifact hass indestructible or regenerates (or you choose not to destroy it), Tuktuk Scrapper doesn't deal damage to that artifact's controller. Similarly, if the targeted artifact is destroyed but a replacement effect moves it to a different zone instead of its owner's graveyard, Tuktuk Scrapper doesn't deal damage to that artifact's controller.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1828,7 +1830,7 @@ Create a 6/12 colorless Construct artifact creature token with trample. Exile it
 <No>95</No>
 <Name>Arbor Elf</Name>
 <Type>Creature — Elf Druid 1/1</Type>
-<ManaCost>G (1)</ManaCost>
+<ManaCost>{G}</ManaCost>
 <CardText>{T}: Untap target Forest.</CardText>
 <Flavor>The Mul Daya elves reject their Tajuru kin, calling them arrogant tree-binders who think the roots serve the canopy.</Flavor>
 <Artist>rk post</Artist>
@@ -1845,7 +1847,7 @@ Create a 6/12 colorless Construct artifact creature token with trample. Exile it
 <No>96</No>
 <Name>Avenger of Zendikar</Name>
 <Type>Creature — Elemental 5/5</Type>
-<ManaCost>5GG (7)</ManaCost>
+<ManaCost>{5}{G}{G}</ManaCost>
 <CardText>When Avenger of Zendikar enters the battlefield, create a 0/1 green Plant creature token for each land you control.
 Landfall — Whenever a land enters the battlefield under your control, you may put a +1/+1 counter on each Plant creature you control.</CardText>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
@@ -1864,7 +1866,7 @@ Landfall — Whenever a land enters the battlefield under your control, you may 
 <No>97</No>
 <Name>Bestial Menace</Name>
 <Type>Sorcery</Type>
-<ManaCost>3GG (5)</ManaCost>
+<ManaCost>{3}{G}{G}</ManaCost>
 <CardText>Create a 1/1 green Snake creature token, a 2/2 green Wolf creature token, and a 3/3 green Elephant creature token.</CardText>
 <Flavor>"My battle cry reaches ears far keener than yours."
 —Saidah, Joraga hunter</Flavor>
@@ -1882,7 +1884,7 @@ Landfall — Whenever a land enters the battlefield under your control, you may 
 <No>98</No>
 <Name>Canopy Cover</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>Enchant creature
 Enchanted creature can't be blocked except by creatures with flying or reach.
 Enchanted creature can't be the target of spells or abilities your opponents control.</CardText>
@@ -1901,15 +1903,15 @@ Enchanted creature can't be the target of spells or abilities your opponents con
 <No>99</No>
 <Name>Explore</Name>
 <Type>Sorcery</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>You may play an additional land this turn.
 Draw a card.</CardText>
 <Flavor>An explorer's reward is a view of tomorrow's possibilities.</Flavor>
 <Artist>John Avon</Artist>
 <Multiverseid>201578</Multiverseid>
-<Rulings>2017/03/14: <Explore>'s effect allows you to play an additional land during your main phase. Doing so follows the normal timing rules for playing lands. In particular, you don't get to play a land as <Explore> resolves; <Explore> fully resolves first and you draw a card, perhaps a land you'll play later.
-2017/03/14: The effects of multiple <Explore>s in the same turn are cumulative. They're also cumulative with other effects that let you play additional lands, such as the one from Urban Evolution.
-2017/03/14: If you somehow manage to cast <Explore> when it's not your turn, you'll draw a card when it resolves, but you won't be able to play a land that turn.</Rulings>
+<Rulings>2017/03/14: Explore's effect allows you to play an additional land during your main phase. Doing so follows the normal timing rules for playing lands. In particular, you don't get to play a land as Explore resolves; Explore fully resolves first and you draw a card, perhaps a land you'll play later.
+2017/03/14: The effects of multiple Explores in the same turn are cumulative. They're also cumulative with other effects that let you play additional lands, such as the one from Urban Evolution.
+2017/03/14: If you somehow manage to cast Explore when it's not your turn, you'll draw a card when it resolves, but you won't be able to play a land that turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1922,17 +1924,17 @@ Draw a card.</CardText>
 <No>100</No>
 <Name>Feral Contest</Name>
 <Type>Sorcery</Type>
-<ManaCost>3G (4)</ManaCost>
+<ManaCost>{3}{G}</ManaCost>
 <CardText>Put a +1/+1 counter on target creature you control. Another target creature blocks it this turn if able.</CardText>
 <Flavor>The instinct for survival makes enemies of all.</Flavor>
 <Artist>Daarken</Artist>
 <Multiverseid>198362</Multiverseid>
-<Rulings>2010/03/01: You must choose two targets as you cast <Feral Contest>: a creature you control and any other creature. If you can't (because there's only one creature on the battlefield, perhaps), then you can't cast the spell. Note that the second target may also be a creature you control.
-2010/03/01: If just the first targeted creature is an illegal target by the time <Feral Contest> resolves, it won't get a +1/+1 counter. However, the second targeted creature is still affected by the blocking restriction the spell imposes, so it'll have to block the first targeted creature that turn if able.
-2010/03/01: If just the second targeted creature is an illegal target by the time <Feral Contest> resolves, the first targeted creature will get a +1/+1 counter, but the second targeted creature won't have to block it that turn.
-2010/03/01: Casting <Feral Contest> doesn't force you to attack with the first targeted creature that turn. If that creature doesn't attack, the second targeted creature is free to block whichever creature its controller chooses, or block no creatures at all.
+<Rulings>2010/03/01: You must choose two targets as you cast Feral Contest: a creature you control and any other creature. If you can't (because there's only one creature on the battlefield, perhaps), then you can't cast the spell. Note that the second target may also be a creature you control.
+2010/03/01: If just the first targeted creature is an illegal target by the time Feral Contest resolves, it won't get a +1/+1 counter. However, the second targeted creature is still affected by the blocking restriction the spell imposes, so it'll have to block the first targeted creature that turn if able.
+2010/03/01: If just the second targeted creature is an illegal target by the time Feral Contest resolves, the first targeted creature will get a +1/+1 counter, but the second targeted creature won't have to block it that turn.
+2010/03/01: Casting Feral Contest doesn't force you to attack with the first targeted creature that turn. If that creature doesn't attack, the second targeted creature is free to block whichever creature its controller chooses, or block no creatures at all.
 2010/03/01: If you attack with the first targeted creature but the second targeted creature isn't able to block it (for example, because the first targeted creature has flying and the second one doesn't), the requirement to block does nothing. The second targeted creature is free to block whichever creature its controller chooses, or block no creatures at all.
-2010/03/01: Tapped creatures, creatures that can't block as the result of an effect, creatures with unpaid costs to block (such as those from War Cadence), and creatures that aren't controlled by the defending player are exempt from effects that would require them to block. Such creatures can be targeted by <Feral Contest>, but the requirement to block does nothing.</Rulings>
+2010/03/01: Tapped creatures, creatures that can't block as the result of an effect, creatures with unpaid costs to block (such as those from War Cadence), and creatures that aren't controlled by the defending player are exempt from effects that would require them to block. Such creatures can be targeted by Feral Contest, but the requirement to block does nothing.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1945,7 +1947,7 @@ Draw a card.</CardText>
 <No>101</No>
 <Name>Gnarlid Pack</Name>
 <Type>Creature — Beast 2/2</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>Multikicker {1}{G} (You may pay an additional {1}{G} any number of times as you cast this spell.)
 Gnarlid Pack enters the battlefield with a +1/+1 counter on it for each time it was kicked.</CardText>
 <Artist>Johann Bodin</Artist>
@@ -1962,7 +1964,7 @@ Gnarlid Pack enters the battlefield with a +1/+1 counter on it for each time it 
 <No>102</No>
 <Name>Grappler Spider</Name>
 <Type>Creature — Spider 2/1</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>Reach (This creature can block creatures with flying.)</CardText>
 <Flavor>Creatures of the air wisely avoid the darkest regions of Guul Draz—which is why grappler spiders inhabit the few places touched by the sun's rays.</Flavor>
 <Artist>Austin Hsu</Artist>
@@ -1979,7 +1981,7 @@ Gnarlid Pack enters the battlefield with a +1/+1 counter on it for each time it 
 <No>103</No>
 <Name>Graypelt Hunter</Name>
 <Type>Creature — Human Warrior Ally 2/2</Type>
-<ManaCost>3G (4)</ManaCost>
+<ManaCost>{3}{G}</ManaCost>
 <CardText>Trample
 Whenever Graypelt Hunter or another Ally enters the battlefield under your control, you may put a +1/+1 counter on Graypelt Hunter.</CardText>
 <Flavor>He'll cleave wood and bone alike to carve a path for his allies.</Flavor>
@@ -1997,7 +1999,7 @@ Whenever Graypelt Hunter or another Ally enters the battlefield under your contr
 <No>104</No>
 <Name>Groundswell</Name>
 <Type>Instant</Type>
-<ManaCost>G (1)</ManaCost>
+<ManaCost>{G}</ManaCost>
 <CardText>Target creature gets +2/+2 until end of turn.
 Landfall — If you had a land enter the battlefield under your control this turn, that creature gets +4/+4 until end of turn instead.</CardText>
 <Flavor>"This world will not be tamed."</Flavor>
@@ -2020,12 +2022,12 @@ Landfall — If you had a land enter the battlefield under your control this tur
 <No>105</No>
 <Name>Harabaz Druid</Name>
 <Type>Creature — Human Druid Ally 0/1</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>{T}: Add X mana of any one color, where X is the number of Allies you control.</CardText>
 <Flavor>"I care nothing for treasure. The land beckons me, and I cannot rest until my feet have touched every inch of it."</Flavor>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>194675</Multiverseid>
-<Rulings>2010/03/01: <Harabaz Druid>'s activated ability is a mana ability, so it doesn't use the stack and players can't respond to it.</Rulings>
+<Rulings>2010/03/01: Harabaz Druid's activated ability is a mana ability, so it doesn't use the stack and players can't respond to it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2038,13 +2040,13 @@ Landfall — If you had a land enter the battlefield under your control this tur
 <No>106</No>
 <Name>Joraga Warcaller</Name>
 <Type>Creature — Elf Warrior 1/1</Type>
-<ManaCost>G (1)</ManaCost>
+<ManaCost>{G}</ManaCost>
 <CardText>Multikicker {1}{G} (You may pay an additional {1}{G} any number of times as you cast this spell.)
 Joraga Warcaller enters the battlefield with a +1/+1 counter on it for each time it was kicked.
 Other Elf creatures you control get +1/+1 for each +1/+1 counter on Joraga Warcaller.</CardText>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>197765</Multiverseid>
-<Rulings>2010/03/01: The last ability counts the total number of +1/+1 counters on <Joraga Warcaller>, not just the ones placed on it as a result of its enters-the-battlefield ability.</Rulings>
+<Rulings>2010/03/01: The last ability counts the total number of +1/+1 counters on Joraga Warcaller, not just the ones placed on it as a result of its enters-the-battlefield ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2057,7 +2059,7 @@ Other Elf creatures you control get +1/+1 for each +1/+1 counter on Joraga Warca
 <No>107</No>
 <Name>Leatherback Baloth</Name>
 <Type>Creature — Beast 4/5</Type>
-<ManaCost>GGG (3)</ManaCost>
+<ManaCost>{G}{G}{G}</ManaCost>
 <Flavor>Heavy enough to withstand the Roil, leatherback skeletons are havens for travelers in storms and landshifts.</Flavor>
 <Artist>Dave Kendall</Artist>
 <Multiverseid>197856</Multiverseid>
@@ -2073,13 +2075,13 @@ Other Elf creatures you control get +1/+1 for each +1/+1 counter on Joraga Warca
 <No>108</No>
 <Name>Nature's Claim</Name>
 <Type>Instant</Type>
-<ManaCost>G (1)</ManaCost>
+<ManaCost>{G}</ManaCost>
 <CardText>Destroy target artifact or enchantment. Its controller gains 4 life.</CardText>
 <Flavor>"On this plane, the use of magic can provoke a ferocious reprisal from nature. Whoever the Eldrazi were, their relics left Zendikar forever enraged."
 —Jace Beleren</Flavor>
 <Artist>Daarken</Artist>
 <Multiverseid>198357</Multiverseid>
-<Rulings>2017/11/17: If the target artifact or enchantment is an illegal target when <Nature's Claim> tries to resolve, the entire spell doesn't resolve. No one gains any life.</Rulings>
+<Rulings>2021/03/19: If the target artifact or enchantment is an illegal target by the time Nature's Claim tries to resolve, the spell doesn't resolve. No player gains 4 life. If the target is legal but not destroyed (most likely because it has indestructible), its controller does gain 4 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2092,14 +2094,14 @@ Other Elf creatures you control get +1/+1 for each +1/+1 counter on Joraga Warca
 <No>109</No>
 <Name>Omnath, Locus of Mana</Name>
 <Type>Legendary Creature — Elemental 1/1</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>You don't lose unspent green mana as steps and phases end.
 Omnath, Locus of Mana gets +1/+1 for each unspent green mana you have.</CardText>
 <Flavor>It gathers against the coming storm.</Flavor>
 <Artist>Mike Bierek</Artist>
 <Multiverseid>197759</Multiverseid>
-<Rulings>2010/03/01: You can keep green mana in your mana pool indefinitely while Omnath is on the battlefield. That means if you add a green mana during one step or phase, you can spend it during a later step or phase, or even a later turn. Other types of mana will continue to empty from your mana pool as each step and phase ends.
-2010/03/01: If a green mana you add has certain restrictions or riders associated with it (for example, if it was produced by Ancient Ziggurat), they'll apply to that mana no matter when you spend it.
+<Rulings>2010/03/01: You can keep green mana in your mana pool indefinitely while Omnath is on the battlefield. That means if you add a green mana to your mana pool during one step or phase, you can spend it during a later step or phase, or even a later turn. Other types of mana will continue to empty from your mana pool as each step and phase ends.
+2010/03/01: If a green mana you add to your mana pool has certain restrictions or riders associated with it (for example, if it was produced by Ancient Ziggurat), they'll apply to that mana no matter when you spend it.
 2010/03/01: Once Omnath leaves the battlefield, you have until the end of the current step or phase to spend whatever green mana is in your mana pool before it too empties as normal. There is no penalty associated with this other than the loss of the mana.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2113,15 +2115,15 @@ Omnath, Locus of Mana gets +1/+1 for each unspent green mana you have.</CardText
 <No>110</No>
 <Name>Quest for Renewal</Name>
 <Type>Enchantment</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>Whenever a creature you control becomes tapped, you may put a quest counter on Quest for Renewal.
 As long as there are four or more quest counters on Quest for Renewal, untap all creatures you control during each other player's untap step.</CardText>
 <Artist>Tomasz Jedruszek</Artist>
 <Multiverseid>194007</Multiverseid>
-<Rulings>2010/03/01: Creatures put onto the battlefield tapped don't cause <Quest for Renewal>'s first ability to trigger.
-2010/03/01: As another player's untap step begins, if there are four or more quest counters on <Quest for Renewal>, all your creatures untap during that untap step. You have no choice about what untaps. Those creatures untap at the same time as the active player's permanents.
-2010/03/01: During another player's untap step, effects that would otherwise cause your creatures to stay tapped don't apply because they apply only during *your* untap step. For example, if you control a <Quest for Renewal> with four or more quest counters on it and a Deep-Slumber Titan (a creature that says "Deep-Slumber Titan doesn't untap during your untap step"), you untap Deep-Slumber Titan during each other player's untap step.
-2010/03/01: Controlling more than one <Quest for Renewal> with four or more quest counters on it is redundant. You can't untap your permanents more than once in a single untap step.</Rulings>
+<Rulings>2010/03/01: Creatures put onto the battlefield tapped don't cause Quest for Renewal's first ability to trigger.
+2010/03/01: As another player's untap step begins, if there are four or more quest counters on Quest for Renewal, all your creatures untap during that untap step. You have no choice about what untaps. Those creatures untap at the same time as the active player's permanents.
+2010/03/01: During another player's untap step, effects that would otherwise cause your creatures to stay tapped don't apply because they apply only during *your* untap step. For example, if you control a Quest for Renewal with four or more quest counters on it and a Deep-Slumber Titan (a creature that says "Deep-Slumber Titan doesn't untap during your untap step"), you untap Deep-Slumber Titan during each other player's untap step.
+2010/03/01: Controlling more than one Quest for Renewal with four or more quest counters on it is redundant. You can't untap your permanents more than once in a single untap step.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2134,13 +2136,13 @@ As long as there are four or more quest counters on Quest for Renewal, untap all
 <No>111</No>
 <Name>Slingbow Trap</Name>
 <Type>Instant — Trap</Type>
-<ManaCost>3G (4)</ManaCost>
+<ManaCost>{3}{G}</ManaCost>
 <CardText>If a black creature with flying is attacking, you may pay {G} rather than pay this spell's mana cost.
 Destroy target attacking creature with flying.</CardText>
 <Flavor>The Tajuru elves devised ways to let the forest defend itself.</Flavor>
 <Artist>Daniel Ljunggren</Artist>
 <Multiverseid>194017</Multiverseid>
-<Rulings>2010/03/01: If you cast <Slingbow Trap> for {G}, you may target any attacking creature with flying, not just a black one.
+<Rulings>2010/03/01: If you cast Slingbow Trap for {G}, you may target any attacking creature with flying, not just a black one.
 2010/03/01: An "attacking creature" is one that has been declared as an attacker this combat, or one that was put onto the battlefield attacking this combat. Unless that creature leaves combat, it continues to be an attacking creature through the end of combat step, even if the player it was attacking has left the game, or the planeswalker it was attacking has left combat.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2154,7 +2156,7 @@ Destroy target attacking creature with flying.</CardText>
 <No>112</No>
 <Name>Snapping Creeper</Name>
 <Type>Creature — Plant 2/3</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>Landfall — Whenever a land enters the battlefield under your control, Snapping Creeper gains vigilance until end of turn.</CardText>
 <Flavor>Its vast network of roots and vines keeps it aware of distant dangers.</Flavor>
 <Artist>Cyril Van Der Haegen</Artist>
@@ -2173,15 +2175,15 @@ Destroy target attacking creature with flying.</CardText>
 <No>113</No>
 <Name>Strength of the Tajuru</Name>
 <Type>Instant</Type>
-<ManaCost>XGG (2)</ManaCost>
+<ManaCost>{X}{G}{G}</ManaCost>
 <CardText>Multikicker {1} (You may pay an additional {1} any number of times as you cast this spell.)
 Choose target creature, then choose another target creature for each time this spell was kicked. Put X +1/+1 counters on each of them.</CardText>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>197875</Multiverseid>
-<Rulings>2010/03/01: The number of targets you choose for <Strength of the Tajuru> is one more than the number of times it's kicked. First you declare how many times you're going to kick the spell (at the same time you declare the value of X), then you choose the targets accordingly, then you pay the costs. No player can respond between the time you declare how many times you'll kick the spell and the time you choose the targets.
+<Rulings>2010/03/01: The number of targets you choose for Strength of the Tajuru is one more than the number of times it's kicked. First you declare how many times you're going to kick the spell (at the same time you declare the value of X), then you choose the targets accordingly, then you pay the costs. No player can respond between the time you declare how many times you'll kick the spell and the time you choose the targets.
 2010/03/01: Each target you choose must be different.
 2010/03/01: For example, if you want to put four +1/+1 counters on each of three different targets, that means X is 4 and you're kicking the spell twice. You'll pay a mana cost of {4}{G}{G}, plus a kicker cost of {1}, plus another kicker cost of {1}, for a total of {6}{G}{G}.
-2010/03/01: As long as any of its targets are legal at the time <Strength of the Tajuru> resolves, you'll put X +1/+1 counters on each of those legal targets.</Rulings>
+2010/03/01: As long as any of its targets are legal at the time Strength of the Tajuru resolves, you'll put X +1/+1 counters on each of those legal targets.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2194,13 +2196,13 @@ Choose target creature, then choose another target creature for each time this s
 <No>114</No>
 <Name>Summit Apes</Name>
 <Type>Creature — Ape 5/2</Type>
-<ManaCost>3G (4)</ManaCost>
+<ManaCost>{3}{G}</ManaCost>
 <CardText>As long as you control a Mountain, Summit Apes has menace. (It can't be blocked except by two or more creatures.)</CardText>
 <Flavor>"If you climb Skyfang Peak, avoid the pass. Generations of apes made that trail, and they don't tolerate trespassers."
 —Sachir, Akoum Expeditionary House</Flavor>
 <Artist>Véronique Meignaud</Artist>
 <Multiverseid>197864</Multiverseid>
-<Rulings>2010/03/01: Whether you control a Mountain matters only as the defending player declares blockers. Once it's blocked, gaining or losing control of a Mountain won't affect <Summit Apes>'s blockers.</Rulings>
+<Rulings>2010/03/01: Whether you control a Mountain matters only as the defending player declares blockers. Once it's blocked, gaining or losing control of a Mountain won't affect Summit Apes's blockers.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2213,7 +2215,7 @@ Choose target creature, then choose another target creature for each time this s
 <No>115</No>
 <Name>Terastodon</Name>
 <Type>Creature — Elephant 9/9</Type>
-<ManaCost>6GG (8)</ManaCost>
+<ManaCost>{6}{G}{G}</ManaCost>
 <CardText>When Terastodon enters the battlefield, you may destroy up to three target noncreature permanents. For each permanent put into a graveyard this way, its controller creates a 3/3 green Elephant creature token.</CardText>
 <Artist>Lars Grant-West</Artist>
 <Multiverseid>197137</Multiverseid>
@@ -2231,15 +2233,15 @@ Choose target creature, then choose another target creature for each time this s
 <No>116</No>
 <Name>Vastwood Animist</Name>
 <Type>Creature — Elf Shaman Ally 1/1</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>{T}: Target land you control becomes an X/X Elemental creature until end of turn, where X is the number of Allies you control. It's still a land.</CardText>
 <Flavor>He calls on the forests for counsel and summons the earth to his cause.</Flavor>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>201566</Multiverseid>
 <Rulings>2010/03/01: A land that becomes a creature may be affected by "summoning sickness." You can't attack with it or use any of its {T} abilities (including its mana abilities) unless it began your most recent turn on the battlefield under your control. Note that summoning sickness cares about when that permanent came under your control, not when it became a creature.
 2010/03/01: When a land becomes a creature, that doesn't count as having a creature enter the battlefield. The permanent was already on the battlefield; it only changed its types. Abilities that trigger whenever a creature enters the battlefield won't trigger.
-2010/03/01: The value of X is determined as <Vastwood Animist>'s activated ability resolves. The power and toughness of the Elemental won't change if the number of Allies you control changes later in the turn.
-2010/03/01: If you control no Allies when the ability resolves, the land becomes a 0/0 creature and is put into its owner's graveyard as a state-based action. However, since <Vastwood Animist> is itself an Ally, the land will usually be at least a 1/1.</Rulings>
+2010/03/01: The value of X is determined as Vastwood Animist's activated ability resolves. The power and toughness of the Elemental won't change if the number of Allies you control changes later in the turn.
+2010/03/01: If you control no Allies when the ability resolves, the land becomes a 0/0 creature and is put into its owner's graveyard as a state-based action. However, since Vastwood Animist is itself an Ally, the land will usually be at least a 1/1.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2252,7 +2254,7 @@ Choose target creature, then choose another target creature for each time this s
 <No>117</No>
 <Name>Vastwood Zendikon</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>4G (5)</ManaCost>
+<ManaCost>{4}{G}</ManaCost>
 <CardText>Enchant land
 Enchanted land is a 6/4 green Elemental creature. It's still a land.
 When enchanted land dies, return that card to its owner's hand.</CardText>
@@ -2276,7 +2278,7 @@ When enchanted land dies, return that card to its owner's hand.</CardText>
 <No>118</No>
 <Name>Wolfbriar Elemental</Name>
 <Type>Creature — Elemental 4/4</Type>
-<ManaCost>2GG (4)</ManaCost>
+<ManaCost>{2}{G}{G}</ManaCost>
 <CardText>Multikicker {G} (You may pay an additional {G} any number of times as you cast this spell.)
 When Wolfbriar Elemental enters the battlefield, create a 2/2 green Wolf creature token for each time it was kicked.</CardText>
 <Artist>Chippy</Artist>
@@ -2293,15 +2295,15 @@ When Wolfbriar Elemental enters the battlefield, create a 2/2 green Wolf creatur
 <No>119</No>
 <Name>Novablast Wurm</Name>
 <Type>Creature — Wurm 7/7</Type>
-<ManaCost>3GGWW (7)</ManaCost>
+<ManaCost>{3}{G}{G}{W}{W}</ManaCost>
 <CardText>Whenever Novablast Wurm attacks, destroy all other creatures.</CardText>
 <Flavor>"The sun was born within its coils, but it fled to the sky. The wurm hungers for its child, and the world will bear its loss."
 —Screed of the Mul Daya</Flavor>
 <Artist>Michael Komarck</Artist>
 <Multiverseid>197857</Multiverseid>
-<Rulings>2010/03/01: <Novablast Wurm>'s ability triggers and resolves during the declare attackers step, before blockers can be declared.
-2010/03/01: <Novablast Wurm>'s ability destroys all players' creatures (except <Novablast Wurm>), including yours.
-2010/03/01: If two <Novablast Wurm>s attack, they'll destroy each other. This happens before they can deal combat damage.</Rulings>
+<Rulings>2010/03/01: Novablast Wurm's ability triggers and resolves during the declare attackers step, before blockers can be declared.
+2010/03/01: Novablast Wurm's ability destroys all players' creatures (except Novablast Wurm), including yours.
+2010/03/01: If two Novablast Wurms attack, they'll destroy each other. This happens before they can deal combat damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2314,9 +2316,9 @@ When Wolfbriar Elemental enters the battlefield, create a 2/2 green Wolf creatur
 <No>120</No>
 <Name>Wrexial, the Risen Deep</Name>
 <Type>Legendary Creature — Kraken 5/8</Type>
-<ManaCost>3UUB (6)</ManaCost>
+<ManaCost>{3}{U}{U}{B}</ManaCost>
 <CardText>Islandwalk, swampwalk (This creature can't be blocked as long as defending player controls an Island or a Swamp.)
-Whenever Wrexial, the Risen Deep deals combat damage to a player, you may cast target instant or sorcery card from that player's graveyard without paying its mana cost. If that card would be put into a graveyard this turn, exile it instead.</CardText>
+Whenever Wrexial, the Risen Deep deals combat damage to a player, you may cast target instant or sorcery card from that player's graveyard without paying its mana cost. If that spell would be put into a graveyard this turn, exile it instead.</CardText>
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>197840</Multiverseid>
 <Rulings>2010/03/01: If you want to cast the targeted card, you cast it as part of the resolution of Wrexial's triggered ability. Timing restrictions based on the card's type are ignored. Other restrictions are not (such as "Cast [this card] only during your end step").
@@ -2335,14 +2337,14 @@ Whenever Wrexial, the Risen Deep deals combat damage to a player, you may cast t
 <No>121</No>
 <Name>Amulet of Vigor</Name>
 <Type>Artifact</Type>
-<ManaCost>1 (1)</ManaCost>
+<ManaCost>{1}</ManaCost>
 <CardText>Whenever a permanent enters the battlefield tapped and under your control, untap it.</CardText>
 <Flavor>"After years of study, I've learned an important lesson: the relics we watch may be watching us back."
 —Anowon, the Ruin Sage</Flavor>
 <Artist>Warren Mahy</Artist>
 <Multiverseid>191577</Multiverseid>
-<Rulings>2010/03/01: If you control more than one <Amulet of Vigor>, each Amulet's ability triggers when a permanent enters the battlefield tapped and under your control. The first ability that resolves will untap that permanent. If the permanent somehow becomes tapped again before the next ability resolves, the next ability will untap it as well (and so on).
-2010/03/01: For <Amulet of Vigor>'s ability to trigger, a permanent must enter the battlefield tapped due to an effect that says "put [the permanent] onto the battlefield tapped," "[this permanent] enters the battlefield tapped," or the like. If it enters the battlefield untapped, the ability won't trigger, even if you tap that permanent afterward.</Rulings>
+<Rulings>2010/03/01: If you control more than one Amulet of Vigor, each Amulet's ability triggers when a permanent enters the battlefield tapped and under your control. The first ability that resolves will untap that permanent. If the permanent somehow becomes tapped again before the next ability resolves, the next ability will untap it as well (and so on).
+2010/03/01: For Amulet of Vigor's ability to trigger, a permanent must enter the battlefield tapped due to an effect that says "put [the permanent] onto the battlefield tapped," "[this permanent] enters the battlefield tapped," or the like. If it enters the battlefield untapped, the ability won't trigger, even if you tap that permanent afterward.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2355,7 +2357,7 @@ Whenever Wrexial, the Risen Deep deals combat damage to a player, you may cast t
 <No>122</No>
 <Name>Basilisk Collar</Name>
 <Type>Artifact — Equipment</Type>
-<ManaCost>1 (1)</ManaCost>
+<ManaCost>{1}</ManaCost>
 <CardText>Equipped creature has deathtouch and lifelink.
 Equip {2}</CardText>
 <Flavor>During their endless travels, the mages of the Goma Fada caravan have learned ways to harness both life and death.</Flavor>
@@ -2373,13 +2375,13 @@ Equip {2}</CardText>
 <No>123</No>
 <Name>Everflowing Chalice</Name>
 <Type>Artifact</Type>
-<ManaCost>0 (0)</ManaCost>
-<CardText>Multikicker {2} (You may pay an additional {2} any number of times as you cast this spell.)
+<ManaCost>{0}</ManaCost>
+<CardText>Multikicker {2}
 Everflowing Chalice enters the battlefield with a charge counter on it for each time it was kicked.
 {T}: Add {C} for each charge counter on Everflowing Chalice.</CardText>
 <Artist>Steve Argyle</Artist>
 <Multiverseid>198374</Multiverseid>
-<Rulings>2010/03/01: If <Everflowing Chalice> has no charge counters on it, you can still activate its last ability. That ability is still a mana ability, even though it produces no mana as it resolves.</Rulings>
+<Rulings>2021/03/19: You can cast Everflowing Chalice without kicking it at all if you wish. However, if Everflowing Chalice has no charge counters on it, activating its last ability won't produce any mana.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2392,7 +2394,7 @@ Everflowing Chalice enters the battlefield with a charge counter on it for each 
 <No>124</No>
 <Name>Hammer of Ruin</Name>
 <Type>Artifact — Equipment</Type>
-<ManaCost>2 (2)</ManaCost>
+<ManaCost>{2}</ManaCost>
 <CardText>Equipped creature gets +2/+0.
 Whenever equipped creature deals combat damage to a player, you may destroy target Equipment that player controls.
 Equip {2}</CardText>
@@ -2411,7 +2413,7 @@ Equip {2}</CardText>
 <No>125</No>
 <Name>Hedron Rover</Name>
 <Type>Artifact Creature — Construct 2/2</Type>
-<ManaCost>4 (4)</ManaCost>
+<ManaCost>{4}</ManaCost>
 <CardText>Landfall — Whenever a land enters the battlefield under your control, Hedron Rover gets +2/+2 until end of turn.</CardText>
 <Flavor>"Now that it has woken up and wandered off, we should go see what it was guarding."
 —Gotzen, Bulwark explorer</Flavor>
@@ -2431,7 +2433,7 @@ Equip {2}</CardText>
 <No>126</No>
 <Name>Kitesail</Name>
 <Type>Artifact — Equipment</Type>
-<ManaCost>2 (2)</ManaCost>
+<ManaCost>{2}</ManaCost>
 <CardText>Equipped creature gets +1/+0 and has flying.
 Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)</CardText>
 <Flavor>Kitesailing is a way of life—and without practice, the end of it.</Flavor>
@@ -2449,7 +2451,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <No>127</No>
 <Name>Lodestone Golem</Name>
 <Type>Artifact Creature — Golem 5/3</Type>
-<ManaCost>4 (4)</ManaCost>
+<ManaCost>{4}</ManaCost>
 <CardText>Nonartifact spells cost {1} more to cast.</CardText>
 <Flavor>"Somehow it warps the Æther. It brings a strange weight, a blockade in the flow of spellcraft."
 —Noyan Dar, Tazeem lullmage</Flavor>
@@ -2470,9 +2472,9 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <No>128</No>
 <Name>Pilgrim's Eye</Name>
 <Type>Artifact Creature — Thopter 1/1</Type>
-<ManaCost>3 (3)</ManaCost>
+<ManaCost>{3}</ManaCost>
 <CardText>Flying
-When Pilgrim's Eye enters the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.</CardText>
+When Pilgrim's Eye enters the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.</CardText>
 <Flavor>The kor send their thopter kites to see if the land is in a welcoming mood.</Flavor>
 <Artist>Dan Scott</Artist>
 <Multiverseid>198367</Multiverseid>
@@ -2488,16 +2490,16 @@ When Pilgrim's Eye enters the battlefield, you may search your library for a bas
 <No>129</No>
 <Name>Razor Boomerang</Name>
 <Type>Artifact — Equipment</Type>
-<ManaCost>3 (3)</ManaCost>
+<ManaCost>{3}</ManaCost>
 <CardText>Equipped creature has "{T}, Unattach Razor Boomerang: It deals 1 damage to any target. Return Razor Boomerang to its owner's hand."
 Equip {2}</CardText>
 <Flavor>Few can catch it without losing a finger.</Flavor>
 <Artist>Franz Vohwinkel</Artist>
 <Multiverseid>198395</Multiverseid>
-<Rulings>2010/03/01: The source of the damage is <Razor Boomerang>, not the equipped creature. However, the equipped creature's ability is what targets the permanent or player. If <Razor Boomerang> is equipped to a red creature, for example, the ability couldn't target a creature with protection from red. It could target a creature with protection from artifacts, but all the damage would be prevented.
-2010/03/01: Unattaching <Razor Boomerang> is a cost to activate the equipped creature's ability.
-2010/03/01: If <Razor Boomerang> is no longer on the battlefield by time the equipped creature's ability resolves, it's not returned to its owner's hand. The rest of the ability resolves as normal, so <Razor Boomerang> will still deal damage to the targeted creature.
-2010/03/01: If the targeted creature is an illegal target by the time the equipped creature's ability resolves, the entire ability doesn't resolve. <Razor Boomerang> remains on the battlefield unattached.</Rulings>
+<Rulings>2010/03/01: The source of the damage is Razor Boomerang, not the equipped creature. However, the equipped creature's ability is what targets the permanent or player. If Razor Boomerang is equipped to a red creature, for example, the ability couldn't target a creature with protection from red. It could target a creature with protection from artifacts, but all the damage would be prevented.
+2010/03/01: Unattaching Razor Boomerang is a cost to activate the equipped creature's ability.
+2010/03/01: If Razor Boomerang is no longer on the battlefield by time the equipped creature's ability resolves, it's not returned to its owner's hand. The rest of the ability resolves as normal, so Razor Boomerang will still deal damage to the targeted creature.
+2010/03/01: If the targeted creature is an illegal target by the time the equipped creature's ability resolves, the entire ability doesn't resolve. Razor Boomerang remains on the battlefield unattached.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2510,14 +2512,11 @@ Equip {2}</CardText>
 <No>130</No>
 <Name>Seer's Sundial</Name>
 <Type>Artifact</Type>
-<ManaCost>4 (4)</ManaCost>
+<ManaCost>{4}</ManaCost>
 <CardText>Landfall — Whenever a land enters the battlefield under your control, you may pay {2}. If you do, draw a card.</CardText>
 <Flavor>"The shadow travels toward the apex. I predict we will soon see the true measure of darkness."</Flavor>
 <Artist>Franz Vohwinkel</Artist>
 <Multiverseid>201561</Multiverseid>
-<Rulings>2010/03/01: The landfall ability triggers whenever a land enters the battlefield under your control for any reason. It triggers whenever you play a land, as well as whenever a spell or ability (such as Rampant Growth) causes you to put a land onto the battlefield under your control. It will even trigger when a spell or ability causes another player to put a land onto the battlefield under your control (as can happen with Yavimaya Dryad's ability, for example).
-2010/03/01: When a land enters the battlefield under your control, each landfall ability of the permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one that resolves.
-2010/03/01: You choose whether to pay {2} as the ability resolves. You may pay {2} only once per resolution.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2530,13 +2529,13 @@ Equip {2}</CardText>
 <No>131</No>
 <Name>Walking Atlas</Name>
 <Type>Artifact Creature — Construct 1/1</Type>
-<ManaCost>2 (2)</ManaCost>
+<ManaCost>{2}</ManaCost>
 <CardText>{T}: You may put a land card from your hand onto the battlefield.</CardText>
 <Flavor>Crafted by lullmages and bound to the land, it alters itself to match the tumultuous terrain.</Flavor>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>198375</Multiverseid>
-<Rulings>2010/03/01: The word "artifact" was inadvertently omitted from <Walking Atlas>'s type line. The card has received errata to correct this omission; it is an artifact creature.
-2010/03/01: Putting a land onto the battlefield as a result of <Walking Atlas>'s ability isn't the same as playing a land. You may do put a land onto the battlefield even if it's an opponent's turn or you've played a land this turn. Similarly, putting a land onto the battlefield during your turn doesn't preclude you from playing a land later in that turn.</Rulings>
+<Rulings>2010/03/01: The word "artifact" was inadvertently omitted from Walking Atlas's type line. The card has received errata to correct this omission; it is an artifact creature.
+2010/03/01: Putting a land onto the battlefield as a result of Walking Atlas's ability isn't the same as playing a land. You may do put a land onto the battlefield even if it's an opponent's turn or you've played a land this turn. Similarly, putting a land onto the battlefield during your turn doesn't preclude you from playing a land later in that turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2550,7 +2549,7 @@ Equip {2}</CardText>
 <Name>Bojuka Bog</Name>
 <Type>Land</Type>
 <CardText>Bojuka Bog enters the battlefield tapped.
-When Bojuka Bog enters the battlefield, exile all cards from target player's graveyard.
+When Bojuka Bog enters the battlefield, exile target player's graveyard.
 {T}: Add {B}.</CardText>
 <Artist>Howard Lyon</Artist>
 <Multiverseid>197786</Multiverseid>
@@ -2573,8 +2572,8 @@ When Bojuka Bog enters the battlefield, exile all cards from target player's gra
 <Multiverseid>177545</Multiverseid>
 <Rulings>2010/03/01: A land that becomes a creature may be affected by "summoning sickness." You can't attack with it or use any of its {T} abilities (including its mana abilities) unless it began your most recent turn on the battlefield under your control. Note that summoning sickness cares about when that permanent came under your control, not when it became a creature.
 2010/03/01: When a land becomes a creature, that doesn't count as having a creature enter the battlefield. The permanent was already on the battlefield; it only changed its types. Abilities that trigger whenever a creature enters the battlefield won't trigger.
-2018/12/07: Once <Celestial Colonnade> has attacked, tapping it for mana won't remove it from combat.
-2018/12/07: If <Celestial Colonnade> can't attack unless you pay a cost that includes a mana payment, you may attack with it and tap it to pay for that cost. It will still attack in this case.</Rulings>
+2018/12/07: Once Celestial Colonnade has attacked, tapping it for mana won't remove it from combat.
+2018/12/07: If Celestial Colonnade can't attack unless you pay a cost that includes a mana payment, you may attack with it and tap it to pay for that cost. It will still attack in this case.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2626,13 +2625,13 @@ When Bojuka Bog enters the battlefield, exile all cards from target player's gra
 <Name>Eye of Ugin</Name>
 <Type>Legendary Land</Type>
 <CardText>Colorless Eldrazi spells you cast cost {2} less to cast.
-{7}, {T}: Search your library for a colorless creature card, reveal it, and put it into your hand. Then shuffle your library.</CardText>
+{7}, {T}: Search your library for a colorless creature card, reveal it, put it into your hand, then shuffle.</CardText>
 <Flavor>An eye closes. A race awakens.</Flavor>
 <Artist>James Paick</Artist>
 <Multiverseid>197881</Multiverseid>
-<Rulings>2010/03/01: <Eye of Ugin> doesn't have a mana ability.
-2010/03/01: <Eye of Ugin>'s second ability lets you find any colorless creature card in your deck, such as an artifact creature card that has no colored mana symbols in its mana cost, or a creature card that's become colorless due to Mycosynth Lattice.
-2013/04/15: Mistform Ultimus and creatures with changeling are Eldrazi. If they become colorless, possibly due to Mycosynth Lattice, <Eye of Ugin> would reduce the cost to cast them by {2}.</Rulings>
+<Rulings>2010/03/01: Eye of Ugin doesn't have a mana ability.
+2010/03/01: Eye of Ugin's second ability lets you find any colorless creature card in your deck, such as an artifact creature card that has no colored mana symbols in its mana cost, or a creature card that's become colorless due to Mycosynth Lattice.
+2013/04/15: Mistform Ultimus and creatures with changeling are Eldrazi. If they become colorless, possibly due to Mycosynth Lattice, Eye of Ugin would reduce the cost to cast them by {2}.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Banned</Modern>
@@ -2722,8 +2721,8 @@ When Khalni Garden enters the battlefield, create a 0/1 green Plant creature tok
 <Multiverseid>177583</Multiverseid>
 <Rulings>2010/03/01: A land that becomes a creature may be affected by "summoning sickness." You can't attack with it or use any of its {T} abilities (including its mana abilities) unless it began your most recent turn on the battlefield under your control. Note that summoning sickness cares about when that permanent came under your control, not when it became a creature.
 2010/03/01: When a land becomes a creature, that doesn't count as having a creature enter the battlefield. The permanent was already on the battlefield; it only changed its types. Abilities that trigger whenever a creature enters the battlefield won't trigger.
-2018/12/07: Each time you activate <Raging Ravine>'s last ability, it gains an instance of the triggered ability. For example, if you activate the last ability twice and then attack with <Raging Ravine>, both of the triggered abilities it gained will trigger. It will get a total of two +1/+1 counters.
-2018/12/07: Any +1/+1 counters put on <Raging Ravine> remain on it even after it stops being a creature. They'll have no effect until it becomes a creature again.</Rulings>
+2018/12/07: Each time you activate Raging Ravine's last ability, it gains an instance of the triggered ability. For example, if you activate the last ability twice and then attack with Raging Ravine, both of the triggered abilities it gained will trigger. It will get a total of two +1/+1 counters.
+2018/12/07: Any +1/+1 counters put on Raging Ravine remain on it even after it stops being a creature. They'll have no effect until it becomes a creature again.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2790,13 +2789,13 @@ When Smoldering Spires enters the battlefield, target creature can't block this 
 <Name>Tectonic Edge</Name>
 <Type>Land</Type>
 <CardText>{T}: Add {C}.
-{1}, {T}, Sacrifice Tectonic Edge: Destroy target nonbasic land. Activate this ability only if an opponent controls four or more lands.</CardText>
+{1}, {T}, Sacrifice Tectonic Edge: Destroy target nonbasic land. Activate only if an opponent controls four or more lands.</CardText>
 <Flavor>"We move because the earth does."
 —Bruse Tarl, Goma Fada nomad</Flavor>
 <Artist>Vincent Proce</Artist>
 <Multiverseid>197855</Multiverseid>
-<Rulings>2010/03/01: <Tectonic Edge>'s second ability checks how many lands an opponent controls only at the time you activate the ability.
-2010/03/01: Assuming you can activate <Tectonic Edge>'s second ability, you can target any nonbasic land with it (not just one controlled by an opponent that controls four or more lands).</Rulings>
+<Rulings>2010/03/01: Tectonic Edge's second ability checks how many lands an opponent controls only at the time you activate the ability.
+2010/03/01: Assuming you can activate Tectonic Edge's second ability, you can target any nonbasic land with it (not just one controlled by an opponent that controls four or more lands).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

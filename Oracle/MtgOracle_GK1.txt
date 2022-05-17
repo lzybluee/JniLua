@@ -3,7 +3,7 @@
 <No>1</No>
 <Name>Etrata, the Silencer</Name>
 <Type>Legendary Creature — Vampire Assassin 3/5</Type>
-<ManaCost>2UB (4)</ManaCost>
+<ManaCost>{2}{U}{B}</ManaCost>
 <CardText>Etrata, the Silencer can't be blocked.
 Whenever Etrata deals combat damage to a player, exile target creature that player controls and put a hit counter on that card. That player loses the game if they own three or more exiled cards with hit counters on them. Etrata's owner shuffles Etrata into their library.</CardText>
 <Artist>Igor Kieryluk</Artist>
@@ -26,18 +26,18 @@ Whenever Etrata deals combat damage to a player, exile target creature that play
 <No>2</No>
 <Name>Stolen Identity</Name>
 <Type>Sorcery</Type>
-<ManaCost>4UU (6)</ManaCost>
+<ManaCost>{4}{U}{U}</ManaCost>
 <CardText>Create a token that's a copy of target artifact or creature.
 Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)</CardText>
 <Artist>Clint Cearley</Artist>
 <Watermark>Dimir</Watermark>
 <Multiverseid>455905</Multiverseid>
-<Rulings>2013/01/24: The token copies exactly what was printed on the original artifact or creature and nothing else (unless that permanent is copying something else or is a token; see below). It doesn't copy whether it is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+<Rulings>2013/01/24: If the token you create is a copy of a creature, you can exile Stolen Identity encoded on that token.
+2013/01/24: The token copies exactly what was printed on the original artifact or creature and nothing else (unless that permanent is copying something else or is a token; see below). It doesn't copy whether it is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
 2013/01/24: If the copied permanent has {X} in its mana cost, X is considered to be zero.
 2013/01/24: If the copied permanent is copying something else (for example, if the copied creature is a Clone), then the token enters the battlefield as whatever that creature copied.
-2013/01/24: If the copied permanent is a token, the token that's created copies the original characteristics of that token as stated by the effect that put the token onto the battlefield.
 2013/01/24: Any enters-the-battlefield abilities of the copied permanent will trigger when the token enters the battlefield. Any "as [this permanent] enters the battlefield" or "[this permanent] enters the battlefield with" abilities of the chosen permanent will also work.
-2013/01/24: If the token you create is a copy of a creature, you can exile <Stolen Identity> encoded on that token.
+2013/01/24: If the copied permanent is a token, the token that's created copies the original characteristics of that token as stated by the effect that put the token onto the battlefield.
 2013/04/15: If a creature with an encoded card deals combat damage to more than one player simultaneously (perhaps because some of the combat damage was redirected), the triggered ability will trigger once for each player it deals combat damage to. Each ability will create a copy of the exiled card and allow you to cast it.
 2013/04/15: If you want to encode the card with cipher onto a noncreature permanent such as a Keyrune that can turn into a creature, that permanent has to be a creature before the spell with cipher starts resolving. You can choose only a creature to encode the card onto.
 2013/04/15: The copy of the card with cipher is created in and cast from exile.
@@ -61,11 +61,10 @@ Cipher (Then you may exile this spell card encoded on a creature you control. Wh
 <No>3</No>
 <Name>Syncopate</Name>
 <Type>Instant</Type>
-<ManaCost>XU (1)</ManaCost>
+<ManaCost>{X}{U}</ManaCost>
 <CardText>Counter target spell unless its controller pays {X}. If that spell is countered this way, exile it instead of putting it into its owner's graveyard.</CardText>
 <Flavor>"Patience, mage. Killing you now would be too easy."</Flavor>
 <Artist>Clint Cearley</Artist>
-<Watermark>Dimir</Watermark>
 <Multiverseid>455906</Multiverseid>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -79,11 +78,10 @@ Cipher (Then you may exile this spell card encoded on a creature you control. Wh
 <No>4</No>
 <Name>Telling Time</Name>
 <Type>Instant</Type>
-<ManaCost>1U (2)</ManaCost>
+<ManaCost>{1}{U}</ManaCost>
 <CardText>Look at the top three cards of your library. Put one of those cards into your hand, one on top of your library, and one on the bottom of your library.</CardText>
 <Flavor>Mastery is achieved when "telling time" becomes "telling time what to do."</Flavor>
 <Artist>Scott M. Fischer</Artist>
-<Watermark>Dimir</Watermark>
 <Multiverseid>455907</Multiverseid>
 <Rulings>2005/10/01: If there are fewer than three cards in your library, follow the instructions in the order given for any cards that are there.</Rulings>
 <Vintage>Legal</Vintage>
@@ -98,7 +96,7 @@ Cipher (Then you may exile this spell card encoded on a creature you control. Wh
 <No>5</No>
 <Name>Last Gasp</Name>
 <Type>Instant</Type>
-<ManaCost>1B (2)</ManaCost>
+<ManaCost>{1}{B}</ManaCost>
 <CardText>Target creature gets -3/-3 until end of turn.</CardText>
 <Flavor>"Allow me a moment to catch your breath."</Flavor>
 <Artist>Thomas M. Baxa</Artist>
@@ -115,9 +113,9 @@ Cipher (Then you may exile this spell card encoded on a creature you control. Wh
 <No>6</No>
 <Name>Netherborn Phalanx</Name>
 <Type>Creature — Horror 2/4</Type>
-<ManaCost>5B (6)</ManaCost>
+<ManaCost>{5}{B}</ManaCost>
 <CardText>When Netherborn Phalanx enters the battlefield, each opponent loses 1 life for each creature they control.
-Transmute {1}{B}{B} ({1}{B}{B}, Discard this card: Search your library for a card with the same converted mana cost as this card, reveal it, and put it into your hand. Then shuffle your library. Transmute only as a sorcery.)</CardText>
+Transmute {1}{B}{B} ({1}{B}{B}, Discard this card: Search your library for a card with the same mana value as this card, reveal it, put it into your hand, then then shuffle. Transmute only as a sorcery.)</CardText>
 <Artist>Christopher Rush</Artist>
 <Watermark>Dimir</Watermark>
 <Multiverseid>455909</Multiverseid>
@@ -133,7 +131,7 @@ Transmute {1}{B}{B} ({1}{B}{B}, Discard this card: Search your library for a car
 <No>7</No>
 <Name>Ribbons of Night</Name>
 <Type>Sorcery</Type>
-<ManaCost>4B (5)</ManaCost>
+<ManaCost>{4}{B}</ManaCost>
 <CardText>Ribbons of Night deals 4 damage to target creature and you gain 4 life. If {U} was spent to cast this spell, draw a card.</CardText>
 <Flavor>"My favorite meal is angel's flesh, slain in agony and iced with black vinegar."
 —Aszala of House Dimir</Flavor>
@@ -152,13 +150,13 @@ Transmute {1}{B}{B} ({1}{B}{B}, Discard this card: Search your library for a car
 <No>8</No>
 <Name>Call of the Nightwing</Name>
 <Type>Sorcery</Type>
-<ManaCost>2UB (4)</ManaCost>
+<ManaCost>{2}{U}{B}</ManaCost>
 <CardText>Create a 1/1 blue and black Horror creature token with flying.
 Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)</CardText>
 <Artist>Adam Paquette</Artist>
 <Watermark>Dimir</Watermark>
 <Multiverseid>455911</Multiverseid>
-<Rulings>2013/01/24: You can exile <Call of the Nightwing> encoded on the Horror creature token it just created.
+<Rulings>2013/01/24: You can exile Call of the Nightwing encoded on the Horror creature token it just created.
 2013/04/15: If a creature with an encoded card deals combat damage to more than one player simultaneously (perhaps because some of the combat damage was redirected), the triggered ability will trigger once for each player it deals combat damage to. Each ability will create a copy of the exiled card and allow you to cast it.
 2013/04/15: The spell with cipher is encoded on the creature as part of that spell's resolution, just after the spell's other effects. That card goes directly from the stack to exile. It never goes to the graveyard.
 2013/04/15: You choose the creature as the spell resolves. The cipher ability doesn't target that creature, although the spell with cipher may target that creature (or a different creature) because of its other abilities.
@@ -182,7 +180,7 @@ Cipher (Then you may exile this spell card encoded on a creature you control. Wh
 <No>9</No>
 <Name>Circu, Dimir Lobotomist</Name>
 <Type>Legendary Creature — Human Wizard 2/3</Type>
-<ManaCost>2UB (4)</ManaCost>
+<ManaCost>{2}{U}{B}</ManaCost>
 <CardText>Whenever you cast a blue spell, exile the top card of target player's library.
 Whenever you cast a black spell, exile the top card of target player's library.
 Your opponents can't cast spells with the same name as a card exiled with Circu, Dimir Lobotomist.</CardText>
@@ -191,7 +189,6 @@ Your opponents can't cast spells with the same name as a card exiled with Circu,
 <Multiverseid>455912</Multiverseid>
 <Rulings>2005/10/01: If you cast a blue and black spell, both of Circu's triggered abilities trigger. You can target two different players or target the same player twice.
 2005/10/01: Circu's last ability applies to all of its controller's opponents, not just the owner of the exiled card.
-2005/10/01: Circu's last ability doesn't prevent copies of the exiled cards from being cast because copies aren't cards.
 2005/10/01: If a split card is exiled this way, opponents can't cast either half of the split card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -205,14 +202,15 @@ Your opponents can't cast spells with the same name as a card exiled with Circu,
 <No>10</No>
 <Name>Consuming Aberration</Name>
 <Type>Creature — Horror */*</Type>
-<ManaCost>3UB (5)</ManaCost>
+<ManaCost>{3}{U}{B}</ManaCost>
 <CardText>Consuming Aberration's power and toughness are each equal to the number of cards in your opponents' graveyards.
 Whenever you cast a spell, each opponent reveals cards from the top of their library until they reveal a land card, then puts those cards into their graveyard.</CardText>
 <Artist>Karl Kopinski</Artist>
 <Watermark>Dimir</Watermark>
 <Multiverseid>455913</Multiverseid>
-<Rulings>2013/01/24: If any opponent has no land cards in their library, all the cards from that library will be revealed and put into their graveyard.
-2013/01/24: The cards will be put into graveyards before the spell you cast to cause the ability to trigger resolves. However, none of those cards will be in a graveyard as you cast that spell, so they can't be chosen as a target of that spell.</Rulings>
+<Rulings>2021/03/19: The ability that defines Consuming Aberration's power and toughness applies in all zones, not just the battlefield.
+2021/03/19: An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger, but after targets have been chosen for that spell. It resolves even if that spell is countered.
+2021/03/19: If an opponent has no land cards in their library, all the cards from that library will be revealed and put into their graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -225,7 +223,7 @@ Whenever you cast a spell, each opponent reveals cards from the top of their lib
 <No>11</No>
 <Name>Dimir Charm</Name>
 <Type>Instant</Type>
-<ManaCost>UB (2)</ManaCost>
+<ManaCost>{U}{B}</ManaCost>
 <CardText>Choose one —
 • Counter target sorcery spell.
 • Destroy target creature with power 2 or less.
@@ -247,14 +245,14 @@ Whenever you cast a spell, each opponent reveals cards from the top of their lib
 <No>12</No>
 <Name>Dimir Doppelganger</Name>
 <Type>Creature — Shapeshifter 0/2</Type>
-<ManaCost>1UB (3)</ManaCost>
+<ManaCost>{1}{U}{B}</ManaCost>
 <CardText>{1}{U}{B}: Exile target creature card from a graveyard. Dimir Doppelganger becomes a copy of that card, except it has this ability.</CardText>
 <Flavor>"Fear not. Your life will not go unlived."</Flavor>
 <Artist>Jim Murray</Artist>
 <Watermark>Dimir</Watermark>
 <Multiverseid>455915</Multiverseid>
-<Rulings>2005/10/01: This creature becomes an exact copy of a copied card, except that it also has <Dimir Doppelganger>'s activated ability. If it becomes a copy of a different creature card, the new copy will overwrite the old copy.
-2005/10/01: A permanent's ability that refers to cards the creature exiled (such as Sisters of Stone Death's third ability) only affects cards exiled by other abilities intrinsic to that permanent (such as Sisters of Stone Death's second ability). Suppose that (a) <Dimir Doppelganger> copies Arc-Slogger, (b) its "deal 2 damage" ability is activated, and then (c) it copies Sisters of Stone Death. Creatures exiled by Arc-Slogger's ability can't be returned with Sisters of Stone Death's ability.</Rulings>
+<Rulings>2005/10/01: This creature becomes an exact copy of a copied card, except that it also has Dimir Doppelganger's activated ability. If it becomes a copy of a different creature card, the new copy will overwrite the old copy.
+2005/10/01: A permanent's ability that refers to cards the creature exiled (such as Sisters of Stone Death's third ability) only affects cards exiled by other abilities intrinsic to that permanent (such as Sisters of Stone Death's second ability). Suppose that (a) Dimir Doppelganger copies Arc-Slogger, (b) its "deal 2 damage" ability is activated, and then (c) it copies Sisters of Stone Death. Creatures exiled by Arc-Slogger's ability can't be returned with Sisters of Stone Death's ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -267,10 +265,10 @@ Whenever you cast a spell, each opponent reveals cards from the top of their lib
 <No>13</No>
 <Name>Dimir Guildmage</Name>
 <Type>Creature — Human Wizard 2/2</Type>
-<ManaCost>{U/B}{U/B} (2)</ManaCost>
+<ManaCost>{U/B}{U/B}</ManaCost>
 <CardText>({U/B} can be paid with either {U} or {B}.)
-{3}{U}: Target player draws a card. Activate this ability only any time you could cast a sorcery.
-{3}{B}: Target player discards a card. Activate this ability only any time you could cast a sorcery.</CardText>
+{3}{U}: Target player draws a card. Activate only as a sorcery.
+{3}{B}: Target player discards a card. Activate only as a sorcery.</CardText>
 <Artist>Adam Rex</Artist>
 <Watermark>Dimir</Watermark>
 <Multiverseid>455916</Multiverseid>
@@ -286,15 +284,15 @@ Whenever you cast a spell, each opponent reveals cards from the top of their lib
 <No>14</No>
 <Name>Dinrova Horror</Name>
 <Type>Creature — Horror 4/4</Type>
-<ManaCost>4UB (6)</ManaCost>
+<ManaCost>{4}{U}{B}</ManaCost>
 <CardText>When Dinrova Horror enters the battlefield, return target permanent to its owner's hand, then that player discards a card.</CardText>
 <Flavor>"Welcome to the Dimir Public Offices. Not responsible for death or loss of property. Basement off-limits."
 —Sign outside Dinrova Building</Flavor>
 <Artist>Johann Bodin</Artist>
 <Watermark>Dimir</Watermark>
 <Multiverseid>455917</Multiverseid>
-<Rulings>2017/03/14: If the target permanent is an illegal target when <Dinrova Horror>'s ability tries to resolve, the ability won't resolve and none of its effects will happen. No player will discard a card.
-2017/03/14: If a player has no cards in their hand and <Dinrova Horror> returns a card to that player's hand, the player must discard that card. They won't have the opportunity to cast that card (or do anything else with it) before discarding it.
+<Rulings>2017/03/14: If the target permanent is an illegal target when Dinrova Horror's ability tries to resolve, the ability won't resolve and none of its effects will happen. No player will discard a card.
+2017/03/14: If a player has no cards in their hand and Dinrova Horror returns a card to that player's hand, the player must discard that card. They won't have the opportunity to cast that card (or do anything else with it) before discarding it.
 2017/03/14: A token permanent returned to a player's hand isn't a card and can't be discarded. It will cease to exist when state-based actions are performed after the ability finishes resolving.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -308,8 +306,8 @@ Whenever you cast a spell, each opponent reveals cards from the top of their lib
 <No>15</No>
 <Name>Glimpse the Unthinkable</Name>
 <Type>Sorcery</Type>
-<ManaCost>UB (2)</ManaCost>
-<CardText>Target player puts the top ten cards of their library into their graveyard.</CardText>
+<ManaCost>{U}{B}</ManaCost>
+<CardText>Target player mills ten cards.</CardText>
 <Flavor>"I am confident that if anyone actually penetrates our facades, even the most perceptive would still be fundamentally unprepared for the truth of House Dimir."
 —Szadek</Flavor>
 <Artist>Brandon Kitkouski</Artist>
@@ -327,13 +325,13 @@ Whenever you cast a spell, each opponent reveals cards from the top of their lib
 <No>16</No>
 <Name>Lazav, Dimir Mastermind</Name>
 <Type>Legendary Creature — Shapeshifter 3/3</Type>
-<ManaCost>UUBB (4)</ManaCost>
+<ManaCost>{U}{U}{B}{B}</ManaCost>
 <CardText>Hexproof
 Whenever a creature card is put into an opponent's graveyard from anywhere, you may have Lazav, Dimir Mastermind become a copy of that card, except its name is Lazav, Dimir Mastermind, it's legendary in addition to its other types, and it has hexproof and this ability.</CardText>
 <Artist>David Rapoza</Artist>
 <Watermark>Dimir</Watermark>
 <Multiverseid>455919</Multiverseid>
-<Rulings>2013/01/24: <Lazav, Dimir Mastermind> becomes a copy of the creature card in the graveyard. If that card is no longer in the graveyard when Lazav's ability resolves, use the characteristics of that card as it last existed in the graveyard. Notably, copy effects that applied to the creature card when it was on the battlefield won't be copied by Lazav. For example, if a Clone is put into an opponent's graveyard from the battlefield and you use Lazav's ability, it will become 0/0. It won't become a copy of whatever Clone was copying.
+<Rulings>2013/01/24: Lazav, Dimir Mastermind becomes a copy of the creature card in the graveyard. If that card is no longer in the graveyard when Lazav's ability resolves, use the characteristics of that card as it last existed in the graveyard. Notably, copy effects that applied to the creature card when it was on the battlefield won't be copied by Lazav. For example, if a Clone is put into an opponent's graveyard from the battlefield and you use Lazav's ability, it will become 0/0. It won't become a copy of whatever Clone was copying.
 2013/01/24: If multiple creature cards are put into an opponent's graveyard at the same time, you choose the order that Lazav's triggered abilities go on the stack.
 2013/01/24: Enters-the-battlefield abilities of the creature card Lazav is copying won't trigger as Lazav is already on the battlefield when it becomes a copy of that creature card.
 2013/01/24: Token creatures dying won't cause Lazav's triggered ability to trigger.</Rulings>
@@ -349,7 +347,7 @@ Whenever a creature card is put into an opponent's graveyard from anywhere, you 
 <No>17</No>
 <Name>Mirko Vosk, Mind Drinker</Name>
 <Type>Legendary Creature — Vampire 2/4</Type>
-<ManaCost>3UB (5)</ManaCost>
+<ManaCost>{3}{U}{B}</ManaCost>
 <CardText>Flying
 Whenever Mirko Vosk, Mind Drinker deals combat damage to a player, that player reveals cards from the top of their library until they reveal four land cards, then puts those cards into their graveyard.</CardText>
 <Artist>Chase Stone</Artist>
@@ -368,7 +366,7 @@ Whenever Mirko Vosk, Mind Drinker deals combat damage to a player, that player r
 <No>18</No>
 <Name>Moroii</Name>
 <Type>Creature — Vampire 4/4</Type>
-<ManaCost>2UB (4)</ManaCost>
+<ManaCost>{2}{U}{B}</ManaCost>
 <CardText>Flying
 At the beginning of your upkeep, you lose 1 life.</CardText>
 <Flavor>"Touched by moroii"
@@ -388,16 +386,16 @@ At the beginning of your upkeep, you lose 1 life.</CardText>
 <No>19</No>
 <Name>Nightveil Specter</Name>
 <Type>Creature — Specter 2/3</Type>
-<ManaCost>{U/B}{U/B}{U/B} (3)</ManaCost>
+<ManaCost>{U/B}{U/B}{U/B}</ManaCost>
 <CardText>Flying
 Whenever Nightveil Specter deals combat damage to a player, that player exiles the top card of their library.
-You may play cards exiled with Nightveil Specter.</CardText>
+You may play lands and cast spells from among cards exiled with Nightveil Specter.</CardText>
 <Artist>Min Yum</Artist>
 <Watermark>Dimir</Watermark>
 <Multiverseid>455922</Multiverseid>
 <Rulings>2013/01/24: The card is exiled face up. All players may look at it.
-2013/01/24: Playing a card exiled with <Nightveil Specter> follows all the normal rules for playing that card. You must pay its costs, and you must follow all timing restrictions, for example.
-2013/01/24: <Nightveil Specter>'s last ability applies to cards exiled with that specific <Nightveil Specter>, not any other creature named <Nightveil Specter>. You should keep cards exiled by different <Nightveil Specter>s separate.</Rulings>
+2013/01/24: Playing a card exiled with Nightveil Specter follows all the normal rules for playing that card. You must pay its costs, and you must follow all timing restrictions, for example.
+2013/01/24: Nightveil Specter's last ability applies to cards exiled with that specific Nightveil Specter, not any other creature named Nightveil Specter. You should keep cards exiled by different Nightveil Specters separate.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -410,9 +408,9 @@ You may play cards exiled with Nightveil Specter.</CardText>
 <No>20</No>
 <Name>Szadek, Lord of Secrets</Name>
 <Type>Legendary Creature — Vampire 5/5</Type>
-<ManaCost>3UUBB (7)</ManaCost>
+<ManaCost>{3}{U}{U}{B}{B}</ManaCost>
 <CardText>Flying
-If Szadek, Lord of Secrets would deal combat damage to a player, instead put that many +1/+1 counters on Szadek and that player puts that many cards from the top of their library into their graveyard.</CardText>
+If Szadek, Lord of Secrets would deal combat damage to a player, instead put that many +1/+1 counters on Szadek and that player mills that many cards.</CardText>
 <Artist>Donato Giancola</Artist>
 <Watermark>Dimir</Watermark>
 <Multiverseid>455923</Multiverseid>
@@ -429,14 +427,14 @@ If Szadek, Lord of Secrets would deal combat damage to a player, instead put tha
 <No>21</No>
 <Name>Warped Physique</Name>
 <Type>Instant</Type>
-<ManaCost>UB (2)</ManaCost>
+<ManaCost>{U}{B}</ManaCost>
 <CardText>Target creature gets +X/-X until end of turn, where X is the number of cards in your hand.</CardText>
 <Flavor>The Gruul seek unbounded strength. The Dimir deliver cruel irony.</Flavor>
 <Artist>Karl Kopinski</Artist>
 <Watermark>Dimir</Watermark>
 <Multiverseid>455924</Multiverseid>
-<Rulings>2013/04/15: Use the number of cards in your hand as <Warped Physique> resolves to determine the value of X. <Warped Physique> won't be in your hand at that time.
-2013/04/15: Once <Warped Physique> resolves, the effect won't change if the number of cards in your hand changes.</Rulings>
+<Rulings>2013/04/15: Use the number of cards in your hand as Warped Physique resolves to determine the value of X. Warped Physique won't be in your hand at that time.
+2013/04/15: Once Warped Physique resolves, the effect won't change if the number of cards in your hand changes.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -449,7 +447,7 @@ If Szadek, Lord of Secrets would deal combat damage to a player, instead put tha
 <No>22</No>
 <Name>Dimir Signet</Name>
 <Type>Artifact</Type>
-<ManaCost>2 (2)</ManaCost>
+<ManaCost>{2}</ManaCost>
 <CardText>{1}, {T}: Add {U}{B}.</CardText>
 <Flavor>An emblem of a secret guild, the Dimir insignia is seen only by its own members—and the doomed.</Flavor>
 <Artist>Raoul Vitale</Artist>
@@ -494,7 +492,7 @@ When Dimir Aqueduct enters the battlefield, return a land you control to its own
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>GRN Guild Kit</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -510,7 +508,7 @@ When Dimir Aqueduct enters the battlefield, return a land you control to its own
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>GRN Guild Kit</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -518,11 +516,11 @@ When Dimir Aqueduct enters the battlefield, return a land you control to its own
 <No>26</No>
 <Name>Niv-Mizzet, the Firemind</Name>
 <Type>Legendary Creature — Dragon Wizard 4/4</Type>
-<ManaCost>2UURR (6)</ManaCost>
+<ManaCost>{2}{U}{U}{R}{R}</ManaCost>
 <CardText>Flying
 Whenever you draw a card, Niv-Mizzet, the Firemind deals 1 damage to any target.
 {T}: Draw a card.</CardText>
-<Flavor>"(Z–>)90º – (E–N²W)90ºt = 1"</Flavor>
+<Flavor>"(Z—>)90° — (E—N²W)90°t = 1"</Flavor>
 <Artist>Daarken</Artist>
 <Watermark>Izzet</Watermark>
 <Multiverseid>456216</Multiverseid>
@@ -540,7 +538,7 @@ Whenever you draw a card, Niv-Mizzet, the Firemind deals 1 damage to any target.
 <No>27</No>
 <Name>Thunderheads</Name>
 <Type>Instant</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>Replicate {2}{U} (When you cast this spell, copy it for each time you paid its replicate cost.)
 Create a 3/3 blue Weird creature token with defender and flying. Exile it at the beginning of the next end step.</CardText>
 <Flavor>The clouds grew thick, and then they grew teeth.</Flavor>
@@ -559,7 +557,7 @@ Create a 3/3 blue Weird creature token with defender and flying. Exile it at the
 <No>28</No>
 <Name>Char</Name>
 <Type>Instant</Type>
-<ManaCost>2R (3)</ManaCost>
+<ManaCost>{2}{R}</ManaCost>
 <CardText>Char deals 4 damage to any target and 2 damage to you.</CardText>
 <Flavor>Izzet mages often acquire their magic reagents from dubious sources, so the potency of their spells is never predictable.</Flavor>
 <Artist>Adam Rex</Artist>
@@ -576,7 +574,7 @@ Create a 3/3 blue Weird creature token with defender and flying. Exile it at the
 <No>29</No>
 <Name>Electrickery</Name>
 <Type>Instant</Type>
-<ManaCost>R (1)</ManaCost>
+<ManaCost>{R}</ManaCost>
 <CardText>Electrickery deals 1 damage to target creature you don't control.
 Overload {1}{R} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of "target" with "each.")</CardText>
 <Artist>Greg Staples</Artist>
@@ -601,7 +599,7 @@ Overload {1}{R} (You may cast this spell for its overload cost. If you do, chang
 <No>30</No>
 <Name>Goblin Rally</Name>
 <Type>Sorcery</Type>
-<ManaCost>3RR (5)</ManaCost>
+<ManaCost>{3}{R}{R}</ManaCost>
 <CardText>Create four 1/1 red Goblin creature tokens.</CardText>
 <Flavor>You don't so much hire goblins as put ideas in their heads.</Flavor>
 <Artist>Nic Klein</Artist>
@@ -618,13 +616,13 @@ Overload {1}{R} (You may cast this spell for its overload cost. If you do, chang
 <No>31</No>
 <Name>Guttersnipe</Name>
 <Type>Creature — Goblin Shaman 2/2</Type>
-<ManaCost>2R (3)</ManaCost>
+<ManaCost>{2}{R}</ManaCost>
 <CardText>Whenever you cast an instant or sorcery spell, Guttersnipe deals 2 damage to each opponent.</CardText>
 <Flavor>He wants to watch Ravnica burn, one soul at a time.</Flavor>
 <Artist>Steve Prescott</Artist>
 <Multiverseid>456221</Multiverseid>
-<Rulings>2018/07/13: <Guttersnipe>'s triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
-2018/07/13: In a Two-Headed Giant game, <Guttersnipe>'s ability causes the opposing team to lose 4 life.</Rulings>
+<Rulings>2018/07/13: Guttersnipe's triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+2018/07/13: In a Two-Headed Giant game, Guttersnipe's ability causes the opposing team to lose 4 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -637,7 +635,7 @@ Overload {1}{R} (You may cast this spell for its overload cost. If you do, chang
 <No>32</No>
 <Name>Mizzium Mortars</Name>
 <Type>Sorcery</Type>
-<ManaCost>1R (2)</ManaCost>
+<ManaCost>{1}{R}</ManaCost>
 <CardText>Mizzium Mortars deals 4 damage to target creature you don't control.
 Overload {3}{R}{R}{R} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of "target" with "each.")</CardText>
 <Artist>Noah Bradley</Artist>
@@ -662,7 +660,7 @@ Overload {3}{R}{R}{R} (You may cast this spell for its overload cost. If you do,
 <No>33</No>
 <Name>Pyromatics</Name>
 <Type>Instant</Type>
-<ManaCost>1R (2)</ManaCost>
+<ManaCost>{1}{R}</ManaCost>
 <CardText>Replicate {1}{R} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)
 Pyromatics deals 1 damage to any target.</CardText>
 <Artist>Glen Angus</Artist>
@@ -680,7 +678,7 @@ Pyromatics deals 1 damage to any target.</CardText>
 <No>34</No>
 <Name>Shattering Spree</Name>
 <Type>Sorcery</Type>
-<ManaCost>R (1)</ManaCost>
+<ManaCost>{R}</ManaCost>
 <CardText>Replicate {R} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)
 Destroy target artifact.</CardText>
 <Artist>Pat Lee</Artist>
@@ -698,7 +696,7 @@ Destroy target artifact.</CardText>
 <No>35</No>
 <Name>Cerebral Vortex</Name>
 <Type>Instant</Type>
-<ManaCost>1UR (3)</ManaCost>
+<ManaCost>{1}{U}{R}</ManaCost>
 <CardText>Target player draws two cards, then Cerebral Vortex deals damage to that player equal to the number of cards they've drawn this turn.</CardText>
 <Flavor>Izzet brains and Izzet boilers: contents under pressure.</Flavor>
 <Artist>Jeremy Jarvis</Artist>
@@ -716,7 +714,7 @@ Destroy target artifact.</CardText>
 <No>36</No>
 <Name>Djinn Illuminatus</Name>
 <Type>Creature — Djinn 3/5</Type>
-<ManaCost>5{U/R}{U/R} (7)</ManaCost>
+<ManaCost>{5}{U/R}{U/R}</ManaCost>
 <CardText>({U/R} can be paid with either {U} or {R}.)
 Flying
 Each instant and sorcery spell you cast has replicate. The replicate cost is equal to its mana cost. (When you cast it, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)</CardText>
@@ -737,16 +735,16 @@ Each instant and sorcery spell you cast has replicate. The replicate cost is equ
 <No>37</No>
 <Name>Electrolyze</Name>
 <Type>Instant</Type>
-<ManaCost>1UR (3)</ManaCost>
+<ManaCost>{1}{U}{R}</ManaCost>
 <CardText>Electrolyze deals 2 damage divided as you choose among one or two targets.
 Draw a card.</CardText>
 <Flavor>The Izzet learn something from every lesson they teach.</Flavor>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Watermark>Izzet</Watermark>
 <Multiverseid>456227</Multiverseid>
-<Rulings>2017/11/17: You divide the damage as you cast <Electrolyze>, not as it resolves. Each target must be assigned at least 1 damage. In other words, as you cast <Electrolyze>, you choose whether to have it deal 2 damage to a single target, or deal 1 damage to each of two targets.
-2017/11/17: If <Electrolyze> targets two creatures and one becomes an illegal target, the remaining target is dealt 1 damage, not 2. You'll still draw a card.
-2017/11/17: If all chosen targets are illegal as <Electrolyze> tries to resolve, it won't resolve and none of its effects will happen. No damage will be dealt and you won't draw a card.</Rulings>
+<Rulings>2017/11/17: You divide the damage as you cast Electrolyze, not as it resolves. Each target must be assigned at least 1 damage. In other words, as you cast Electrolyze, you choose whether to have it deal 2 damage to a single target, or deal 1 damage to each of two targets.
+2017/11/17: If Electrolyze targets two creatures and one becomes an illegal target, the remaining target is dealt 1 damage, not 2. You'll still draw a card.
+2017/11/17: If all chosen targets are illegal as Electrolyze tries to resolve, it won't resolve and none of its effects will happen. No damage will be dealt and you won't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -759,7 +757,7 @@ Draw a card.</CardText>
 <No>38</No>
 <Name>Gelectrode</Name>
 <Type>Creature — Weird 0/1</Type>
-<ManaCost>1UR (3)</ManaCost>
+<ManaCost>{1}{U}{R}</ManaCost>
 <CardText>{T}: Gelectrode deals 1 damage to any target.
 Whenever you cast an instant or sorcery spell, you may untap Gelectrode.</CardText>
 <Flavor>"Diametrically opposing energies in self-sealed plasmodermic bubbles make great pets!"
@@ -779,7 +777,7 @@ Whenever you cast an instant or sorcery spell, you may untap Gelectrode.</CardTe
 <No>39</No>
 <Name>Hypersonic Dragon</Name>
 <Type>Creature — Dragon 4/4</Type>
-<ManaCost>3UR (5)</ManaCost>
+<ManaCost>{3}{U}{R}</ManaCost>
 <CardText>Flying, haste
 You may cast sorcery spells as though they had flash. (You may cast them any time you could cast an instant.)</CardText>
 <Flavor>"Even this primitive specimen of my kind is impressive."
@@ -787,8 +785,8 @@ You may cast sorcery spells as though they had flash. (You may cast them any tim
 <Artist>Dan Scott</Artist>
 <Watermark>Izzet</Watermark>
 <Multiverseid>456229</Multiverseid>
-<Rulings>2017/11/17: <Hypersonic Dragon>'s last ability applies to sorcery cards in any zone, provided something is allowing you to cast them. For example, you could cast a sorcery with flashback as though it had flash.
-2017/11/17: <Hypersonic Dragon>'s last ability has no effect on abilities that you can activate "any time you could cast a sorcery."</Rulings>
+<Rulings>2017/11/17: Hypersonic Dragon's last ability applies to sorcery cards in any zone, provided something is allowing you to cast them. For example, you could cast a sorcery with flashback as though it had flash.
+2017/11/17: Hypersonic Dragon's last ability has no effect on abilities that you can activate "any time you could cast a sorcery."</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -801,7 +799,7 @@ You may cast sorcery spells as though they had flash. (You may cast them any tim
 <No>40</No>
 <Name>Invoke the Firemind</Name>
 <Type>Sorcery</Type>
-<ManaCost>XUUR (3)</ManaCost>
+<ManaCost>{X}{U}{U}{R}</ManaCost>
 <CardText>Choose one —
 • Draw X cards.
 • Invoke the Firemind deals X damage to any target.</CardText>
@@ -809,7 +807,7 @@ You may cast sorcery spells as though they had flash. (You may cast them any tim
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Watermark>Izzet</Watermark>
 <Multiverseid>456230</Multiverseid>
-<Rulings>2006/02/01: As you cast <Invoke the Firemind>, first you choose the mode (draw cards or deal damage), then you choose the value of X. You then choose a target, but only if you chose the second mode.</Rulings>
+<Rulings>2006/02/01: As you cast Invoke the Firemind, first you choose the mode (draw cards or deal damage), then you choose the value of X. You then choose a target, but only if you chose the second mode.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -822,7 +820,7 @@ You may cast sorcery spells as though they had flash. (You may cast them any tim
 <No>41</No>
 <Name>Izzet Charm</Name>
 <Type>Instant</Type>
-<ManaCost>UR (2)</ManaCost>
+<ManaCost>{U}{R}</ManaCost>
 <CardText>Choose one —
 • Counter target noncreature spell unless its controller pays {2}.
 • Izzet Charm deals 2 damage to target creature.
@@ -842,14 +840,14 @@ You may cast sorcery spells as though they had flash. (You may cast them any tim
 <No>42</No>
 <Name>Nivix Guildmage</Name>
 <Type>Creature — Human Wizard 2/2</Type>
-<ManaCost>UR (2)</ManaCost>
+<ManaCost>{U}{R}</ManaCost>
 <CardText>{1}{U}{R}: Draw a card, then discard a card.
 {2}{U}{R}: Copy target instant or sorcery spell you control. You may choose new targets for the copy.</CardText>
 <Flavor>"The only action worth taking is one with an unknown outcome."</Flavor>
 <Artist>Scott M. Fischer</Artist>
 <Watermark>Izzet</Watermark>
 <Multiverseid>456232</Multiverseid>
-<Rulings>2012/10/01: <Nivix Guildmage>'s second ability can target (and copy) any instant or sorcery spell you control, not just one with targets.
+<Rulings>2012/10/01: Nivix Guildmage's second ability can target (and copy) any instant or sorcery spell you control, not just one with targets.
 2012/10/01: When the second ability resolves, it creates a copy of a spell. That copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger. The copy will then resolve like a normal spell, after players get a chance to cast spells and activate abilities.
 2012/10/01: The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
 2012/10/01: If the copied spell is modal (that is, it says "Choose one —" or the like), the copy will have the same mode. You can't choose a different one.
@@ -867,7 +865,7 @@ You may cast sorcery spells as though they had flash. (You may cast them any tim
 <No>43</No>
 <Name>Stitch in Time</Name>
 <Type>Sorcery</Type>
-<ManaCost>1UR (3)</ManaCost>
+<ManaCost>{1}{U}{R}</ManaCost>
 <CardText>Flip a coin. If you win the flip, take an extra turn after this one.</CardText>
 <Flavor>Quyzl was told by his mentor to "make more time" for his studies.</Flavor>
 <Artist>Jon Foster</Artist>
@@ -885,7 +883,7 @@ You may cast sorcery spells as though they had flash. (You may cast them any tim
 <No>44</No>
 <Name>Tibor and Lumia</Name>
 <Type>Legendary Creature — Human Wizard 3/3</Type>
-<ManaCost>2UR (4)</ManaCost>
+<ManaCost>{2}{U}{R}</ManaCost>
 <CardText>Whenever you cast a blue spell, target creature gains flying until end of turn.
 Whenever you cast a red spell, Tibor and Lumia deals 1 damage to each creature without flying.</CardText>
 <Flavor>Tracing the horizon in a dance of wind and fire.</Flavor>
@@ -905,16 +903,16 @@ Whenever you cast a red spell, Tibor and Lumia deals 1 damage to each creature w
 <No>45a</No>
 <Name>Turn (Turn/Burn)</Name>
 <Type>Instant</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>Until end of turn, target creature loses all abilities and becomes a red Weird with base power and toughness 0/1.
 Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Artist>Ryan Barger</Artist>
 <Watermark>Izzet</Watermark>
 <Multiverseid>456235</Multiverseid>
-<Rulings>2013/04/15: <Turn> will cause the creature lose all other colors and creature types, but it will retain any other card types (such as artifact) it may have.
-2013/04/15: <Turn> overwrites all previous effects that set the targeted creature's power or toughness to specific values. Effects that set its power or toughness to specific values that start to apply after <Turn> resolves will overwrite this effect.
-2013/04/15: <Turn> doesn't counter abilities that have already triggered or been activated. In particular, there is no way to cast this to stop a creature's "At the beginning of your upkeep" or "When this creature enters the battlefield" abilities from triggering.
-2013/04/15: If the affected creature gains an ability after <Turn> resolves, it will keep that ability.
+<Rulings>2013/04/15: Turn will cause the creature lose all other colors and creature types, but it will retain any other card types (such as artifact) it may have.
+2013/04/15: Turn overwrites all previous effects that set the targeted creature's power or toughness to specific values. Effects that set its power or toughness to specific values that start to apply after Turn resolves will overwrite this effect.
+2013/04/15: Turn doesn't counter abilities that have already triggered or been activated. In particular, there is no way to cast this to stop a creature's "At the beginning of your upkeep" or "When this creature enters the battlefield" abilities from triggering.
+2013/04/15: If the affected creature gains an ability after Turn resolves, it will keep that ability.
 2013/04/15: Effects that modify the targeted creature's power or toughness, such as the effects of Phytoburst or Legion's Initiative, will apply to it no matter when they started to take effect. The same is true for counters that change the creature's power or toughness (such as +1/+1 counters) and effects that switch its power and toughness.
 2013/04/15: If you're casting a split card with fuse from any zone other than your hand, you can't cast both halves. You'll only be able to cast one half or the other.
 2013/04/15: To cast a fused split spell, pay both of its mana costs. While the spell is on the stack, its converted mana cost is the total amount of mana in both costs.
@@ -939,7 +937,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <No>45b</No>
 <Name>Burn (Turn/Burn)</Name>
 <Type>Instant</Type>
-<ManaCost>1R (2)</ManaCost>
+<ManaCost>{1}{R}</ManaCost>
 <CardText>Burn deals 2 damage to any target.
 Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <Artist>Ryan Barger</Artist>
@@ -973,7 +971,7 @@ Fuse (You may cast one or both halves of this card from your hand.)</CardText>
 <No>46</No>
 <Name>Izzet Signet</Name>
 <Type>Artifact</Type>
-<ManaCost>2 (2)</ManaCost>
+<ManaCost>{2}</ManaCost>
 <CardText>{1}, {T}: Add {U}{R}.</CardText>
 <Flavor>The Izzet signet is redesigned often, each time becoming closer to a vanity portrait of Niv-Mizzet.</Flavor>
 <Artist>Raoul Vitale</Artist>
@@ -1018,7 +1016,7 @@ When Izzet Boilerworks enters the battlefield, return a land you control to its 
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>GRN Guild Kit</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -1034,7 +1032,7 @@ When Izzet Boilerworks enters the battlefield, return a land you control to its 
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>GRN Guild Kit</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -1042,7 +1040,7 @@ When Izzet Boilerworks enters the battlefield, return a land you control to its 
 <No>50</No>
 <Name>Izoni, Thousand-Eyed</Name>
 <Type>Legendary Creature — Elf Shaman 2/3</Type>
-<ManaCost>2BBGG (6)</ManaCost>
+<ManaCost>{2}{B}{B}{G}{G}</ManaCost>
 <CardText>Undergrowth — When Izoni, Thousand-Eyed enters the battlefield, create a 1/1 black and green Insect creature token for each creature card in your graveyard.
 {B}{G}, Sacrifice another creature: You gain 1 life and draw a card.</CardText>
 <Artist>Winona Nelson</Artist>
@@ -1063,9 +1061,9 @@ When Izzet Boilerworks enters the battlefield, return a land you control to its 
 <No>51</No>
 <Name>Darkblast</Name>
 <Type>Instant</Type>
-<ManaCost>B (1)</ManaCost>
+<ManaCost>{B}</ManaCost>
 <CardText>Target creature gets -1/-1 until end of turn.
-Dredge 3 (If you would draw a card, instead you may put exactly three cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)</CardText>
+Dredge 3 (If you would draw a card, you may mill three cards instead. If you do, return this card from your graveyard to your hand.)</CardText>
 <Artist>Randy Gallegos</Artist>
 <Watermark>Golgari</Watermark>
 <Multiverseid>456055</Multiverseid>
@@ -1084,14 +1082,14 @@ Dredge 3 (If you would draw a card, instead you may put exactly three cards from
 <No>52</No>
 <Name>Slum Reaper</Name>
 <Type>Creature — Horror 4/2</Type>
-<ManaCost>3B (4)</ManaCost>
+<ManaCost>{3}{B}</ManaCost>
 <CardText>When Slum Reaper enters the battlefield, each player sacrifices a creature.</CardText>
 <Flavor>The outskirts of Golgari territory are guarded by more than just walls.</Flavor>
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>456056</Multiverseid>
-<Rulings>2018/12/07: As <Slum Reaper>'s ability resolves, first the player whose turn it is chooses a creature they control, then each other player in turn order does the same, knowing the choices made before them. Then all the chosen creatures are sacrificed at the same time.
+<Rulings>2018/12/07: As Slum Reaper's ability resolves, first the player whose turn it is chooses a creature they control, then each other player in turn order does the same, knowing the choices made before them. Then all the chosen creatures are sacrificed at the same time.
 2018/12/07: If any player controls no creatures, that player simply doesn't sacrifice anything. Each other player still sacrifices a creature.
-2018/12/07: <Slum Reaper> may be the creature its controller sacrifices for its own ability.</Rulings>
+2018/12/07: Slum Reaper may be the creature its controller sacrifices for its own ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1104,17 +1102,20 @@ Dredge 3 (If you would draw a card, instead you may put exactly three cards from
 <No>53</No>
 <Name>Stinkweed Imp</Name>
 <Type>Creature — Imp 1/2</Type>
-<ManaCost>2B (3)</ManaCost>
+<ManaCost>{2}{B}</ManaCost>
 <CardText>Flying
 Whenever Stinkweed Imp deals combat damage to a creature, destroy that creature.
-Dredge 5 (If you would draw a card, instead you may put exactly five cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)</CardText>
+Dredge 5 (If you would draw a card, you may mill five cards instead. If you do, return this card from your graveyard to your hand.)</CardText>
 <Artist>Nils Hamm</Artist>
 <Watermark>Golgari</Watermark>
 <Multiverseid>456057</Multiverseid>
-<Rulings>2013/06/07: Dredge lets you replace any card draw, not just the one during your draw step.
-2013/06/07: Once you decide to replace a draw using a card's dredge ability, that card can't be removed from your graveyard "in response." (Replacement effects don't use the stack.)
-2013/06/07: You can't use dredge unless you're going to draw a card and the card with dredge is already in your graveyard.
-2013/06/07: Notably, <Stinkweed Imp>'s ability isn't deathtouch. It's a triggered ability that triggers only on combat damage.</Rulings>
+<Rulings>2021/03/19: Dredge can replace any card draw, not only the one during your draw step.
+2021/03/19: If an effect puts a card into your hand without specifically using the word "draw," you're not drawing a card. Dredge can't replace this event.
+2021/03/19: One card draw can't be replaced by multiple dredge abilities.
+2021/03/19: You can't attempt to use a dredge ability if you don't have enough cards in your library.
+2021/03/19: Once you've announced that you're applying a card's dredge ability to replace a draw, players can't take any actions until you've put that card into your hand and milled cards.
+2021/03/19: If you're drawing multiple cards, each draw is performed one at a time. For example, if you're instructed to draw two cards and you replace the first draw with a dredge ability, another card with a dredge ability (including one that was milled by the first dredge ability) may be used to replace the second draw.
+2021/03/19: Notably, Stinkweed Imp's ability isn't deathtouch. It's a triggered ability that triggers only on combat damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1127,7 +1128,7 @@ Dredge 5 (If you would draw a card, instead you may put exactly five cards from 
 <No>54</No>
 <Name>Vigor Mortis</Name>
 <Type>Sorcery</Type>
-<ManaCost>2BB (4)</ManaCost>
+<ManaCost>{2}{B}{B}</ManaCost>
 <CardText>Return target creature card from your graveyard to the battlefield. If {G} was spent to cast this spell, that creature enters the battlefield with an additional +1/+1 counter on it.</CardText>
 <Flavor>After fear and weakness rot away, that which remains is stronger than its living form.</Flavor>
 <Artist>Dan Scott</Artist>
@@ -1146,7 +1147,7 @@ Dredge 5 (If you would draw a card, instead you may put exactly five cards from 
 <No>55</No>
 <Name>Deadbridge Goliath</Name>
 <Type>Creature — Insect 5/5</Type>
-<ManaCost>2GG (4)</ManaCost>
+<ManaCost>{2}{G}{G}</ManaCost>
 <CardText>Scavenge {4}{G}{G} ({4}{G}{G}, Exile this card from your graveyard: Put a number of +1/+1 counters equal to this card's power on target creature. Scavenge only as a sorcery.)</CardText>
 <Flavor>Some Golgari insects live for centuries—and they never stop growing.</Flavor>
 <Artist>Chase Stone</Artist>
@@ -1165,7 +1166,7 @@ Dredge 5 (If you would draw a card, instead you may put exactly five cards from 
 <No>56</No>
 <Name>Elves of Deep Shadow</Name>
 <Type>Creature — Elf Druid 1/1</Type>
-<ManaCost>G (1)</ManaCost>
+<ManaCost>{G}</ManaCost>
 <CardText>{T}: Add {B}. Elves of Deep Shadow deals 1 damage to you.</CardText>
 <Flavor>Cast out of the Conclave generations ago, these elves found a home in the corrupted districts of the Golgari.</Flavor>
 <Artist>Justin Sweet</Artist>
@@ -1183,15 +1184,16 @@ Dredge 5 (If you would draw a card, instead you may put exactly five cards from 
 <No>57</No>
 <Name>Abrupt Decay</Name>
 <Type>Instant</Type>
-<ManaCost>BG (2)</ManaCost>
+<ManaCost>{B}{G}</ManaCost>
 <CardText>This spell can't be countered.
-Destroy target nonland permanent with converted mana cost 3 or less.</CardText>
+Destroy target nonland permanent with mana value 3 or less.</CardText>
 <Flavor>The Izzet quickly suspended their policy of lifetime guarantees.</Flavor>
 <Artist>Svetlin Velinov</Artist>
 <Watermark>Golgari</Watermark>
 <Multiverseid>456061</Multiverseid>
-<Rulings>2017/03/14: The converted mana cost of a creature token is 0, unless that token is a copy of another creature, in which case it copies that creature's mana cost.
-2017/03/14: If a permanent has {X} in its mana cost, X is considered to be 0.</Rulings>
+<Rulings>2021/03/19: A spell or ability that counters spells can still target Abrupt Decay. When that spell or ability resolves, Abrupt Decay won't be countered, but any additional effects of the countering spell or ability will still happen.
+2021/03/19: The mana value of a token that isn't a copy of another object is 0. A token that is a copy of another object has the same mana cost as that object.
+2021/03/19: If a permanent has {X} in its mana cost, X is considered to be 0.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1204,8 +1206,8 @@ Destroy target nonland permanent with converted mana cost 3 or less.</CardText>
 <No>58</No>
 <Name>Deadbridge Chant</Name>
 <Type>Enchantment</Type>
-<ManaCost>4BG (6)</ManaCost>
-<CardText>When Deadbridge Chant enters the battlefield, put the top ten cards of your library into your graveyard.
+<ManaCost>{4}{B}{G}</ManaCost>
+<CardText>When Deadbridge Chant enters the battlefield, mill ten cards.
 At the beginning of your upkeep, choose a card at random in your graveyard. If it's a creature card, put it onto the battlefield. Otherwise, put it into your hand.</CardText>
 <Artist>Zoltan Boros</Artist>
 <Watermark>Golgari</Watermark>
@@ -1225,7 +1227,7 @@ At the beginning of your upkeep, choose a card at random in your graveyard. If i
 <No>59</No>
 <Name>Deathrite Shaman</Name>
 <Type>Creature — Elf Shaman 1/2</Type>
-<ManaCost>{B/G} (1)</ManaCost>
+<ManaCost>{B/G}</ManaCost>
 <CardText>{T}: Exile target land card from a graveyard. Add one mana of any color.
 {B}, {T}: Exile target instant or sorcery card from a graveyard. Each opponent loses 2 life.
 {G}, {T}: Exile target creature card from a graveyard. You gain 2 life.</CardText>
@@ -1233,7 +1235,7 @@ At the beginning of your upkeep, choose a card at random in your graveyard. If i
 <Watermark>Golgari</Watermark>
 <Multiverseid>456063</Multiverseid>
 <Rulings>2016/06/08: Because the first ability requires a target, it is not a mana ability. It uses the stack and can be responded to.
-2016/06/08: If the target of any of <Deathrite Shaman>'s three abilities is an illegal target when that ability tries to resolve, it won't resolve and none of its effects will happen. You won't add mana, no opponent will lose life, or you won't gain life, as appropriate.</Rulings>
+2016/06/08: If the target of any of Deathrite Shaman's three abilities is an illegal target when that ability tries to resolve, it won't resolve and none of its effects will happen. You won't add mana to your mana pool, no opponent will lose life, or you won't gain life, as appropriate.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Banned</Legacy>
 <Modern>Banned</Modern>
@@ -1246,13 +1248,13 @@ At the beginning of your upkeep, choose a card at random in your graveyard. If i
 <No>60</No>
 <Name>Drown in Filth</Name>
 <Type>Sorcery</Type>
-<ManaCost>BG (2)</ManaCost>
-<CardText>Choose target creature. Put the top four cards of your library into your graveyard, then that creature gets -1/-1 until end of turn for each land card in your graveyard.</CardText>
+<ManaCost>{B}{G}</ManaCost>
+<CardText>Choose target creature. Mill four cards, then that creature gets -1/-1 until end of turn for each land card in your graveyard.</CardText>
 <Flavor>The rot farmer's first rite of passage is to craft a pair of work stilts.</Flavor>
 <Artist>Seb McKinnon</Artist>
 <Watermark>Golgari</Watermark>
 <Multiverseid>456064</Multiverseid>
-<Rulings>2013/04/15: You choose the target of <Drown in Filth> as you cast the spell. You won't necessarily know what will happen to that creature's power and toughness at that time.</Rulings>
+<Rulings>2013/04/15: You choose the target of Drown in Filth as you cast the spell. You won't necessarily know what will happen to that creature's power and toughness at that time.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1265,14 +1267,14 @@ At the beginning of your upkeep, choose a card at random in your graveyard. If i
 <No>61</No>
 <Name>Gaze of Granite</Name>
 <Type>Sorcery</Type>
-<ManaCost>XBBG (3)</ManaCost>
-<CardText>Destroy each nonland permanent with converted mana cost X or less.</CardText>
+<ManaCost>{X}{B}{B}{G}</ManaCost>
+<CardText>Destroy each nonland permanent with mana value X or less.</CardText>
 <Flavor>Golgari reclaimers resent the gorgons, begrudging the loss of so many fine nutrients locked away in stone.</Flavor>
 <Artist>Nils Hamm</Artist>
 <Watermark>Golgari</Watermark>
 <Multiverseid>456065</Multiverseid>
 <Rulings>2013/04/15: If a permanent has {X} in its mana cost, the value of that X is 0.
-2013/04/15: The converted mana cost of a creature token is 0 unless that token is a copy of another creature, in which case it copies that creature's mana cost.</Rulings>
+2013/04/15: The mana value of a creature token is 0 unless that token is a copy of another creature, in which case it copies that creature's mana cost.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1285,7 +1287,7 @@ At the beginning of your upkeep, choose a card at random in your graveyard. If i
 <No>62</No>
 <Name>Golgari Charm</Name>
 <Type>Instant</Type>
-<ManaCost>BG (2)</ManaCost>
+<ManaCost>{B}{G}</ManaCost>
 <CardText>Choose one —
 • All creatures get -1/-1 until end of turn.
 • Destroy target enchantment.
@@ -1307,13 +1309,13 @@ At the beginning of your upkeep, choose a card at random in your graveyard. If i
 <No>63</No>
 <Name>Grave-Shell Scarab</Name>
 <Type>Creature — Insect 4/4</Type>
-<ManaCost>2BGG (5)</ManaCost>
+<ManaCost>{2}{B}{G}{G}</ManaCost>
 <CardText>{1}, Sacrifice Grave-Shell Scarab: Draw a card.
-Dredge 1 (If you would draw a card, instead you may put exactly one card from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)</CardText>
+Dredge 1 (If you would draw a card, you may mill a card instead. If you do, return this card from your graveyard to your hand.)</CardText>
 <Artist>Pete Venters</Artist>
 <Watermark>Golgari</Watermark>
 <Multiverseid>456067</Multiverseid>
-<Rulings>2005/10/01: You may sacrifice <Grave-Shell Scarab> to pay for its first ability, then replace that draw using the Scarab's dredge ability. The result is that the top card of your library is put into your graveyard and <Grave-Shell Scarab> returns to your hand (after a brief trip to the graveyard).</Rulings>
+<Rulings>2005/10/01: You may sacrifice Grave-Shell Scarab to pay for its first ability, then replace that draw using the Scarab's dredge ability. The result is that the top card of your library is put into your graveyard and Grave-Shell Scarab returns to your hand (after a brief trip to the graveyard).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1326,7 +1328,7 @@ Dredge 1 (If you would draw a card, instead you may put exactly one card from th
 <No>64</No>
 <Name>Grisly Salvage</Name>
 <Type>Instant</Type>
-<ManaCost>BG (2)</ManaCost>
+<ManaCost>{B}{G}</ManaCost>
 <CardText>Reveal the top five cards of your library. You may put a creature or land card from among them into your hand. Put the rest into your graveyard.</CardText>
 <Flavor>To the Golgari, anything buried is treasure.</Flavor>
 <Artist>Dave Kendall</Artist>
@@ -1344,7 +1346,7 @@ Dredge 1 (If you would draw a card, instead you may put exactly one card from th
 <No>65</No>
 <Name>Jarad, Golgari Lich Lord</Name>
 <Type>Legendary Creature — Zombie Elf 2/2</Type>
-<ManaCost>BBGG (4)</ManaCost>
+<ManaCost>{B}{B}{G}{G}</ManaCost>
 <CardText>Jarad, Golgari Lich Lord gets +1/+1 for each creature card in your graveyard.
 {1}{B}{G}, Sacrifice another creature: Each opponent loses life equal to the sacrificed creature's power.
 Sacrifice a Swamp and a Forest: Return Jarad from your graveyard to your hand.</CardText>
@@ -1367,7 +1369,7 @@ Sacrifice a Swamp and a Forest: Return Jarad from your graveyard to your hand.</
 <No>66</No>
 <Name>Korozda Guildmage</Name>
 <Type>Creature — Elf Shaman 2/2</Type>
-<ManaCost>BG (2)</ManaCost>
+<ManaCost>{B}{G}</ManaCost>
 <CardText>{1}{B}{G}: Target creature gets +1/+1 and gains intimidate until end of turn. (It can't be blocked except by artifact creatures and/or creatures that share a color with it.)
 {2}{B}{G}, Sacrifice a nontoken creature: Create X 1/1 green Saproling creature tokens, where X is the sacrificed creature's toughness.</CardText>
 <Artist>Ryan Pancoast</Artist>
@@ -1386,7 +1388,7 @@ Sacrifice a Swamp and a Forest: Return Jarad from your graveyard to your hand.</
 <No>67</No>
 <Name>Lotleth Troll</Name>
 <Type>Creature — Zombie Troll 2/1</Type>
-<ManaCost>BG (2)</ManaCost>
+<ManaCost>{B}{G}</ManaCost>
 <CardText>Trample
 Discard a creature card: Put a +1/+1 counter on Lotleth Troll.
 {B}: Regenerate Lotleth Troll.</CardText>
@@ -1406,7 +1408,7 @@ Discard a creature card: Put a +1/+1 counter on Lotleth Troll.
 <No>68</No>
 <Name>Putrefy</Name>
 <Type>Instant</Type>
-<ManaCost>1BG (3)</ManaCost>
+<ManaCost>{1}{B}{G}</ManaCost>
 <CardText>Destroy target artifact or creature. It can't be regenerated.</CardText>
 <Flavor>"All matter, animate or not, rots when exposed to time. We merely speed up the process."
 —Ezoc, Golgari rot farmer</Flavor>
@@ -1426,7 +1428,7 @@ Discard a creature card: Put a +1/+1 counter on Lotleth Troll.
 <No>69</No>
 <Name>Savra, Queen of the Golgari</Name>
 <Type>Legendary Creature — Elf Shaman 2/2</Type>
-<ManaCost>2BG (4)</ManaCost>
+<ManaCost>{2}{B}{G}</ManaCost>
 <CardText>Whenever you sacrifice a black creature, you may pay 2 life. If you do, each other player sacrifices a creature.
 Whenever you sacrifice a green creature, you may gain 2 life.</CardText>
 <Flavor>"Nature's most raw beauty is the circle: perfect in its continuance, with no break between death and life."</Flavor>
@@ -1448,9 +1450,9 @@ Whenever you sacrifice a green creature, you may gain 2 life.</CardText>
 <No>70</No>
 <Name>Shambling Shell</Name>
 <Type>Creature — Plant Zombie 3/1</Type>
-<ManaCost>1BG (3)</ManaCost>
+<ManaCost>{1}{B}{G}</ManaCost>
 <CardText>Sacrifice Shambling Shell: Put a +1/+1 counter on target creature.
-Dredge 3 (If you would draw a card, instead you may put exactly three cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)</CardText>
+Dredge 3 (If you would draw a card, you may mill three cards instead. If you do, return this card from your graveyard to your hand.)</CardText>
 <Artist>Joel Thomas</Artist>
 <Watermark>Golgari</Watermark>
 <Multiverseid>456074</Multiverseid>
@@ -1466,7 +1468,7 @@ Dredge 3 (If you would draw a card, instead you may put exactly three cards from
 <No>71</No>
 <Name>Sisters of Stone Death</Name>
 <Type>Legendary Creature — Gorgon 7/5</Type>
-<ManaCost>4BBGG (8)</ManaCost>
+<ManaCost>{4}{B}{B}{G}{G}</ManaCost>
 <CardText>{G}: Target creature blocks Sisters of Stone Death this turn if able.
 {B}{G}: Exile target creature blocking or blocked by Sisters of Stone Death.
 {2}{B}: Put a creature card exiled with Sisters of Stone Death onto the battlefield under your control.</CardText>
@@ -1486,7 +1488,7 @@ Dredge 3 (If you would draw a card, instead you may put exactly three cards from
 <No>72</No>
 <Name>Treasured Find</Name>
 <Type>Sorcery</Type>
-<ManaCost>BG (2)</ManaCost>
+<ManaCost>{B}{G}</ManaCost>
 <CardText>Return target card from your graveyard to your hand. Exile Treasured Find.</CardText>
 <Flavor>Gorgons crave beautiful things: gems, exquisite amulets, the alabaster corpses of the petrified dead . . .</Flavor>
 <Artist>Jason Chan</Artist>
@@ -1504,7 +1506,7 @@ Dredge 3 (If you would draw a card, instead you may put exactly three cards from
 <No>73</No>
 <Name>Golgari Signet</Name>
 <Type>Artifact</Type>
-<ManaCost>2 (2)</ManaCost>
+<ManaCost>{2}</ManaCost>
 <CardText>{1}, {T}: Add {B}{G}.</CardText>
 <Flavor>Depending on your point of view, the seal represents a proud guardian of the natural cycle or one who has sold her soul to darkness for eternal life.</Flavor>
 <Artist>Raoul Vitale</Artist>
@@ -1549,7 +1551,7 @@ When Golgari Rot Farm enters the battlefield, return a land you control to its o
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>GRN Guild Kit</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -1565,7 +1567,7 @@ When Golgari Rot Farm enters the battlefield, return a land you control to its o
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>GRN Guild Kit</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -1573,7 +1575,7 @@ When Golgari Rot Farm enters the battlefield, return a land you control to its o
 <No>77</No>
 <Name>Aurelia, the Warleader</Name>
 <Type>Legendary Creature — Angel 3/4</Type>
-<ManaCost>2RRWW (6)</ManaCost>
+<ManaCost>{2}{R}{R}{W}{W}</ManaCost>
 <CardText>Flying, vigilance, haste
 Whenever Aurelia, the Warleader attacks for the first time each turn, untap all creatures you control. After this phase, there is an additional combat phase.</CardText>
 <Flavor>Where Razia was aloof and untouchable, Aurelia is on the frontlines, calling for war.</Flavor>
@@ -1595,7 +1597,7 @@ Whenever Aurelia, the Warleader attacks for the first time each turn, untap all 
 <No>78</No>
 <Name>Boros Elite</Name>
 <Type>Creature — Human Soldier 1/1</Type>
-<ManaCost>W (1)</ManaCost>
+<ManaCost>{W}</ManaCost>
 <CardText>Battalion — Whenever Boros Elite and at least two other creatures attack, Boros Elite gets +2/+2 until end of turn.</CardText>
 <Flavor>"First, you must fight among the rank and file. It is there I will discern your skills as a leader."
 —Aurelia, to Gideon Jura</Flavor>
@@ -1617,7 +1619,7 @@ Whenever Aurelia, the Warleader attacks for the first time each turn, untap all 
 <No>79</No>
 <Name>Daring Skyjek</Name>
 <Type>Creature — Human Knight 3/1</Type>
-<ManaCost>1W (2)</ManaCost>
+<ManaCost>{1}{W}</ManaCost>
 <CardText>Battalion — Whenever Daring Skyjek and at least two other creatures attack, Daring Skyjek gains flying until end of turn.</CardText>
 <Flavor>"The hard part isn't landing in the saddle. The hard part is leaping before you see it."</Flavor>
 <Artist>Jason Chan</Artist>
@@ -1638,7 +1640,7 @@ Whenever Aurelia, the Warleader attacks for the first time each turn, untap all 
 <No>80</No>
 <Name>Bomber Corps</Name>
 <Type>Creature — Human Soldier 1/2</Type>
-<ManaCost>1R (2)</ManaCost>
+<ManaCost>{1}{R}</ManaCost>
 <CardText>Battalion — Whenever Bomber Corps and at least two other creatures attack, Bomber Corps deals 1 damage to any target.</CardText>
 <Flavor>"Subtlety is for lawmages and spies."</Flavor>
 <Artist>Chase Stone</Artist>
@@ -1659,12 +1661,12 @@ Whenever Aurelia, the Warleader attacks for the first time each turn, untap all 
 <No>81</No>
 <Name>Frenzied Goblin</Name>
 <Type>Creature — Goblin Berserker 1/1</Type>
-<ManaCost>R (1)</ManaCost>
+<ManaCost>{R}</ManaCost>
 <CardText>Whenever Frenzied Goblin attacks, you may pay {R}. If you do, target creature can't block this turn.</CardText>
 <Flavor>The upside to not thinking about the consequences is that you'll always surprise those who do.</Flavor>
 <Artist>Carl Critchlow</Artist>
 <Multiverseid>455758</Multiverseid>
-<Rulings>2018/03/16: <Frenzied Goblin>'s ability has only one target. You can't pay {R} multiple times to stop multiple creatures from blocking.</Rulings>
+<Rulings>2018/03/16: Frenzied Goblin's ability has only one target. You can't pay {R} multiple times to stop multiple creatures from blocking.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1677,7 +1679,7 @@ Whenever Aurelia, the Warleader attacks for the first time each turn, untap all 
 <No>82</No>
 <Name>Legion Loyalist</Name>
 <Type>Creature — Goblin Soldier 1/1</Type>
-<ManaCost>R (1)</ManaCost>
+<ManaCost>{R}</ManaCost>
 <CardText>Haste
 Battalion — Whenever Legion Loyalist and at least two other creatures attack, creatures you control gain first strike and trample until end of turn and can't be blocked by creature tokens this turn.</CardText>
 <Artist>Eric Deschamps</Artist>
@@ -1698,7 +1700,7 @@ Battalion — Whenever Legion Loyalist and at least two other creatures attack, 
 <No>83</No>
 <Name>Agrus Kos, Wojek Veteran</Name>
 <Type>Legendary Creature — Human Soldier 3/3</Type>
-<ManaCost>3RW (5)</ManaCost>
+<ManaCost>{3}{R}{W}</ManaCost>
 <CardText>Whenever Agrus Kos, Wojek Veteran attacks, attacking red creatures get +2/+0 and attacking white creatures get +0/+2 until end of turn.</CardText>
 <Flavor>Lieutenant Kos has never met a group of recruits he could not inspire or a mob he could not quell.</Flavor>
 <Artist>Donato Giancola</Artist>
@@ -1717,7 +1719,7 @@ Battalion — Whenever Legion Loyalist and at least two other creatures attack, 
 <No>84</No>
 <Name>Boros Charm</Name>
 <Type>Instant</Type>
-<ManaCost>RW (2)</ManaCost>
+<ManaCost>{R}{W}</ManaCost>
 <CardText>Choose one —
 • Boros Charm deals 4 damage to target player or planeswalker.
 • Permanents you control gain indestructible until end of turn.
@@ -1739,7 +1741,7 @@ Battalion — Whenever Legion Loyalist and at least two other creatures attack, 
 <No>85</No>
 <Name>Boros Reckoner</Name>
 <Type>Creature — Minotaur Wizard 3/3</Type>
-<ManaCost>{R/W}{R/W}{R/W} (3)</ManaCost>
+<ManaCost>{R/W}{R/W}{R/W}</ManaCost>
 <CardText>Whenever Boros Reckoner is dealt damage, it deals that much damage to any target.
 {R/W}: Boros Reckoner gains first strike until end of turn.</CardText>
 <Flavor>"Imagine a thunderstorm that's also a tactical genius. That's him."
@@ -1747,9 +1749,9 @@ Battalion — Whenever Legion Loyalist and at least two other creatures attack, 
 <Artist>Howard Lyon</Artist>
 <Watermark>Boros</Watermark>
 <Multiverseid>455762</Multiverseid>
-<Rulings>2017/03/14: <Boros Reckoner>'s first ability will trigger even if it is dealt lethal damage. For example, if it blocks a 7/7 creature, its ability will trigger and <Boros Reckoner> will deal 7 damage to the target.
-2017/03/14: Damage dealt by <Boros Reckoner> due to its first ability isn't combat damage, even if it was combat damage that caused that ability to trigger.
-2017/03/14: If <Boros Reckoner> is dealt damage by multiple sources at once, such as by two creatures blocking it, its ability triggers once and one target is dealt that much damage.</Rulings>
+<Rulings>2017/03/14: Boros Reckoner's first ability will trigger even if it is dealt lethal damage. For example, if it blocks a 7/7 creature, its ability will trigger and Boros Reckoner will deal 7 damage to the target.
+2017/03/14: Damage dealt by Boros Reckoner due to its first ability isn't combat damage, even if it was combat damage that caused that ability to trigger.
+2017/03/14: If Boros Reckoner is dealt damage by multiple sources at once, such as by two creatures blocking it, its ability triggers once and one target is dealt that much damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1762,7 +1764,7 @@ Battalion — Whenever Legion Loyalist and at least two other creatures attack, 
 <No>86</No>
 <Name>Boros Swiftblade</Name>
 <Type>Creature — Human Soldier 1/2</Type>
-<ManaCost>RW (2)</ManaCost>
+<ManaCost>{R}{W}</ManaCost>
 <CardText>Double strike</CardText>
 <Flavor>When the Boros Legion attacks, swiftblades enter the fray first. They pick off the archers and mages, softening the enemy front before the flame-kin and giants go in.</Flavor>
 <Artist>Doug Chaffee</Artist>
@@ -1780,14 +1782,14 @@ Battalion — Whenever Legion Loyalist and at least two other creatures attack, 
 <No>87</No>
 <Name>Brightflame</Name>
 <Type>Sorcery</Type>
-<ManaCost>XRRWW (4)</ManaCost>
+<ManaCost>{X}{R}{R}{W}{W}</ManaCost>
 <CardText>Radiance — Brightflame deals X damage to target creature and each other creature that shares a color with it. You gain life equal to the damage dealt this way.</CardText>
 <Flavor>"Let the pyres of the unbelievers light our way."
 —Razia</Flavor>
 <Artist>Dave Dorman</Artist>
 <Watermark>Boros</Watermark>
 <Multiverseid>455764</Multiverseid>
-<Rulings>2005/10/01: You gain life equal to the total damage dealt by <Brightflame> to all creatures. You don't gain life for any damage that was prevented.
+<Rulings>2005/10/01: You gain life equal to the total damage dealt by Brightflame to all creatures. You don't gain life for any damage that was prevented.
 2005/10/01: All creatures that share a color are affected, even your own.
 2005/10/01: A creature "shares a color" with any creature that is at least one of its colors. For example, a green-white creature shares a color with creatures that are green, white, green-white, red-white, black-green, and so on.
 2005/10/01: If it targets a colorless creature, it doesn't affect any other creatures. A colorless creature shares a color with nothing, not even other colorless creatures.
@@ -1805,14 +1807,14 @@ Battalion — Whenever Legion Loyalist and at least two other creatures attack, 
 <No>88</No>
 <Name>Firemane Angel</Name>
 <Type>Creature — Angel 4/3</Type>
-<ManaCost>3RWW (6)</ManaCost>
+<ManaCost>{3}{R}{W}{W}</ManaCost>
 <CardText>Flying, first strike
 At the beginning of your upkeep, if Firemane Angel is in your graveyard or on the battlefield, you may gain 1 life.
-{6}{R}{R}{W}{W}: Return Firemane Angel from your graveyard to the battlefield. Activate this ability only during your upkeep.</CardText>
+{6}{R}{R}{W}{W}: Return Firemane Angel from your graveyard to the battlefield. Activate only during your upkeep.</CardText>
 <Artist>Matt Cavotta</Artist>
 <Watermark>Boros</Watermark>
 <Multiverseid>455765</Multiverseid>
-<Rulings>2017/11/17: If <Firemane Angel> is put into your graveyard from the battlefield or returned from your graveyard to the battlefield during your upkeep before its triggered ability resolves, you won't gain 1 life.</Rulings>
+<Rulings>2017/11/17: If Firemane Angel is put into your graveyard from the battlefield or returned from your graveyard to the battlefield during your upkeep before its triggered ability resolves, you won't gain 1 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1825,15 +1827,15 @@ At the beginning of your upkeep, if Firemane Angel is in your graveyard or on th
 <No>89</No>
 <Name>Firemane Avenger</Name>
 <Type>Creature — Angel 3/3</Type>
-<ManaCost>2RW (4)</ManaCost>
+<ManaCost>{2}{R}{W}</ManaCost>
 <CardText>Flying
 Battalion — Whenever Firemane Avenger and at least two other creatures attack, Firemane Avenger deals 3 damage to any target and you gain 3 life.</CardText>
 <Flavor>Firemane Nevena led the victorious assault on the Barbu Rooftop rebels. Now the Gateless have marked her for death.</Flavor>
 <Artist>Wayne Reynolds</Artist>
 <Watermark>Boros</Watermark>
 <Multiverseid>455766</Multiverseid>
-<Rulings>2013/01/24: If the target permanent or player is an illegal target when <Firemane Avenger>'s battalion ability tries to resolve, the ability won't resolve and none of its effects will happen. You won't gain life.
-2013/01/24: If <Firemane Avenger>'s battalion ability resolves but some or all of the damage is prevented, you'll still gain 3 life.
+<Rulings>2013/01/24: If the target permanent or player is an illegal target when Firemane Avenger's battalion ability tries to resolve, the ability won't resolve and none of its effects will happen. You won't gain life.
+2013/01/24: If Firemane Avenger's battalion ability resolves but some or all of the damage is prevented, you'll still gain 3 life.
 2013/04/15: The three attacking creatures don't have to be attacking the same player or planeswalker.
 2013/04/15: Once a battalion ability has triggered, it doesn't matter how many creatures are still attacking when that ability resolves.
 2013/04/15: The effects of battalion abilities vary from card to card. Read each card carefully.</Rulings>
@@ -1849,13 +1851,13 @@ Battalion — Whenever Firemane Avenger and at least two other creatures attack,
 <No>90</No>
 <Name>Lightning Helix</Name>
 <Type>Instant</Type>
-<ManaCost>RW (2)</ManaCost>
+<ManaCost>{R}{W}</ManaCost>
 <CardText>Lightning Helix deals 3 damage to any target and you gain 3 life.</CardText>
 <Flavor>Though less well-known than its army of soldiers, the Boros Legion's mage-priests are as respected by the innocent as they are hated by the ghosts of the guilty.</Flavor>
 <Artist>Kev Walker</Artist>
 <Watermark>Boros</Watermark>
 <Multiverseid>455767</Multiverseid>
-<Rulings>2017/11/17: If the chosen target is illegal when <Lightning Helix> tries to resolve, it won't resolve and none of its effects will happen. You won't gain 3 life.</Rulings>
+<Rulings>2017/11/17: If the chosen target is illegal when Lightning Helix tries to resolve, it won't resolve and none of its effects will happen. You won't gain 3 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1868,7 +1870,7 @@ Battalion — Whenever Firemane Avenger and at least two other creatures attack,
 <No>91</No>
 <Name>Martial Glory</Name>
 <Type>Instant</Type>
-<ManaCost>RW (2)</ManaCost>
+<ManaCost>{R}{W}</ManaCost>
 <CardText>Target creature gets +3/+0 until end of turn.
 Target creature gets +0/+3 until end of turn.</CardText>
 <Flavor>"Yes, Boros tactics are unparalleled. But when your comrades are dying around you, inner strength must carry the day."
@@ -1889,7 +1891,7 @@ Target creature gets +0/+3 until end of turn.</CardText>
 <No>92</No>
 <Name>Master Warcraft</Name>
 <Type>Instant</Type>
-<ManaCost>2{R/W}{R/W} (4)</ManaCost>
+<ManaCost>{2}{R/W}{R/W}</ManaCost>
 <CardText>Cast this spell only before attackers are declared.
 You choose which creatures attack this turn.
 You choose which creatures block this turn and how those creatures block.</CardText>
@@ -1898,7 +1900,7 @@ You choose which creatures block this turn and how those creatures block.</CardT
 <Multiverseid>455769</Multiverseid>
 <Rulings>2005/10/01: You choose attackers and make blocking assignments regardless of whether it's your turn and regardless of whether the creatures are attacking you. Your choices must be legal within the normal rules for attacking and blocking.
 2006/01/01: You can decide that a creature won't block.
-2008/04/01: If the defending player controls a planeswalker, the person who cast <Master Warcraft> first chooses the complete group of creatures that are going to attack. Then, for each of those creatures, the active player chooses who or what it's going to attack.
+2008/04/01: If the defending player controls a planeswalker, the person who cast Master Warcraft first chooses the complete group of creatures that are going to attack. Then, for each of those creatures, the active player chooses who or what it's going to attack.
 2013/09/20: If a turn has multiple combat phases, this spell can only be cast before the beginning of the Declare Attackers Step of the first combat phase in that turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1912,7 +1914,7 @@ You choose which creatures block this turn and how those creatures block.</CardT
 <No>93</No>
 <Name>Razia, Boros Archangel</Name>
 <Type>Legendary Creature — Angel 6/3</Type>
-<ManaCost>4RRWW (8)</ManaCost>
+<ManaCost>{4}{R}{R}{W}{W}</ManaCost>
 <CardText>Flying, vigilance, haste
 {T}: The next 3 damage that would be dealt to target creature you control this turn is dealt to another target creature instead.</CardText>
 <Flavor>Her sword burns with such brightness that foes avert their eyes and arrows divert their paths.</Flavor>
@@ -1933,7 +1935,7 @@ You choose which creatures block this turn and how those creatures block.</CardT
 <No>94</No>
 <Name>Spark Trooper</Name>
 <Type>Creature — Elemental Soldier 6/1</Type>
-<ManaCost>1RRW (4)</ManaCost>
+<ManaCost>{1}{R}{R}{W}</ManaCost>
 <CardText>Trample, lifelink, haste
 At the beginning of the end step, sacrifice Spark Trooper.</CardText>
 <Flavor>Izzet-designed conductors atop Sunhome charge empty sets of armor that give form to the fluctuating elementals.</Flavor>
@@ -1952,13 +1954,13 @@ At the beginning of the end step, sacrifice Spark Trooper.</CardText>
 <No>95</No>
 <Name>Sunhome Guildmage</Name>
 <Type>Creature — Human Wizard 2/2</Type>
-<ManaCost>RW (2)</ManaCost>
+<ManaCost>{R}{W}</ManaCost>
 <CardText>{1}{R}{W}: Creatures you control get +1/+0 until end of turn.
 {2}{R}{W}: Create a 1/1 red and white Soldier creature token with haste.</CardText>
 <Artist>Eric Deschamps</Artist>
 <Watermark>Boros</Watermark>
 <Multiverseid>455772</Multiverseid>
-<Rulings>2013/01/24: Only creatures you control when <Sunhome Guildmage>'s first ability resolves will get +1/+0. Creatures that come under your control later in the turn will not.</Rulings>
+<Rulings>2013/01/24: Only creatures you control when Sunhome Guildmage's first ability resolves will get +1/+0. Creatures that come under your control later in the turn will not.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1971,7 +1973,7 @@ At the beginning of the end step, sacrifice Spark Trooper.</CardText>
 <No>96</No>
 <Name>Boros Keyrune</Name>
 <Type>Artifact</Type>
-<ManaCost>3 (3)</ManaCost>
+<ManaCost>{3}</ManaCost>
 <CardText>{T}: Add {R} or {W}.
 {R}{W}: Boros Keyrune becomes a 1/1 red and white Soldier artifact creature with double strike until end of turn. (It deals both first-strike and regular combat damage.)</CardText>
 <Artist>Daniel Ljunggren</Artist>
@@ -1991,7 +1993,7 @@ At the beginning of the end step, sacrifice Spark Trooper.</CardText>
 <No>97</No>
 <Name>Boros Signet</Name>
 <Type>Artifact</Type>
-<ManaCost>2 (2)</ManaCost>
+<ManaCost>{2}</ManaCost>
 <CardText>{1}, {T}: Add {R}{W}.</CardText>
 <Flavor>"Have you ever held a Boros signet? There's a weight to it that belies its size—a weight of strength and of pride."
 —Agrus Kos</Flavor>
@@ -2057,7 +2059,7 @@ When Boros Garrison enters the battlefield, return a land you control to its own
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>GRN Guild Kit</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2073,7 +2075,7 @@ When Boros Garrison enters the battlefield, return a land you control to its own
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>GRN Guild Kit</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2081,7 +2083,7 @@ When Boros Garrison enters the battlefield, return a land you control to its own
 <No>102</No>
 <Name>Trostani, Selesnya's Voice</Name>
 <Type>Legendary Creature — Dryad 2/5</Type>
-<ManaCost>GGWW (4)</ManaCost>
+<ManaCost>{G}{G}{W}{W}</ManaCost>
 <CardText>Whenever another creature enters the battlefield under your control, you gain life equal to that creature's toughness.
 {1}{G}{W}, {T}: Populate. (Create a token that's a copy of a creature token you control.)</CardText>
 <Flavor>There are no soloists in the chorus of Selesnya.</Flavor>
@@ -2107,15 +2109,15 @@ When Boros Garrison enters the battlefield, return a land you control to its own
 <No>103</No>
 <Name>Devouring Light</Name>
 <Type>Instant</Type>
-<ManaCost>1WW (3)</ManaCost>
+<ManaCost>{1}{W}{W}</ManaCost>
 <CardText>Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
 Exile target attacking or blocking creature.</CardText>
 <Flavor>Into the light the good are welcomed, and with the light the evil are banished.</Flavor>
 <Artist>Pete Venters</Artist>
 <Watermark>Selesnya</Watermark>
 <Multiverseid>456361</Multiverseid>
-<Rulings>2014/07/18: The declare blockers step is the last chance to cast <Devouring Light> before creatures deal their combat damage. However, a creature remains an attacking or blocking creature during the combat damage step and end of combat step. <Devouring Light> may be cast targeting such a creature during those steps, after the creature has dealt combat damage.
-2014/07/18: You can tap untapped attacking or blocking creatures you control to help cast <Devouring Light>. This doesn't remove those creatures from combat.
+<Rulings>2014/07/18: The declare blockers step is the last chance to cast Devouring Light before creatures deal their combat damage. However, a creature remains an attacking or blocking creature during the combat damage step and end of combat step. Devouring Light may be cast targeting such a creature during those steps, after the creature has dealt combat damage.
+2014/07/18: You can tap untapped attacking or blocking creatures you control to help cast Devouring Light. This doesn't remove those creatures from combat.
 2018/10/05: If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
 2018/10/05: Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
 2018/10/05: When using convoke to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap creatures you control to help pay that cost. For example, if you cast Worldsoul Colossus (a spell with convoke and mana cost {X}{G}{W}) and choose X to be 3, the total cost is {3}{G}{W}. If you tap two green creatures and two white creatures, you'll have to pay {1}.
@@ -2135,7 +2137,7 @@ Exile target attacking or blocking creature.</CardText>
 <No>104</No>
 <Name>Hour of Reckoning</Name>
 <Type>Sorcery</Type>
-<ManaCost>4WWW (7)</ManaCost>
+<ManaCost>{4}{W}{W}{W}</ManaCost>
 <CardText>Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
 Destroy all nontoken creatures.</CardText>
 <Flavor>"Ravnica, like a hedge, must be pruned, leaving only leaves of verdant uniformity."
@@ -2162,7 +2164,7 @@ Destroy all nontoken creatures.</CardText>
 <No>105</No>
 <Name>Gather Courage</Name>
 <Type>Instant</Type>
-<ManaCost>G (1)</ManaCost>
+<ManaCost>{G}</ManaCost>
 <CardText>Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
 Target creature gets +2/+2 until end of turn.</CardText>
 <Artist>Brian Despain</Artist>
@@ -2187,7 +2189,7 @@ Target creature gets +2/+2 until end of turn.</CardText>
 <No>106</No>
 <Name>Scatter the Seeds</Name>
 <Type>Instant</Type>
-<ManaCost>3GG (5)</ManaCost>
+<ManaCost>{3}{G}{G}</ManaCost>
 <CardText>Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
 Create three 1/1 green Saproling creature tokens.</CardText>
 <Flavor>From the seeds of faith, great forests grow.</Flavor>
@@ -2213,7 +2215,7 @@ Create three 1/1 green Saproling creature tokens.</CardText>
 <No>107</No>
 <Name>Advent of the Wurm</Name>
 <Type>Instant</Type>
-<ManaCost>1GGW (4)</ManaCost>
+<ManaCost>{1}{G}{G}{W}</ManaCost>
 <CardText>Create a 5/5 green Wurm creature token with trample.</CardText>
 <Flavor>The consciousness of Mat'Selesnya does not always spread in peaceful ways.</Flavor>
 <Artist>Lucas Graciano</Artist>
@@ -2231,7 +2233,7 @@ Create three 1/1 green Saproling creature tokens.</CardText>
 <No>108</No>
 <Name>Armada Wurm</Name>
 <Type>Creature — Wurm 5/5</Type>
-<ManaCost>2GGWW (6)</ManaCost>
+<ManaCost>{2}{G}{G}{W}{W}</ManaCost>
 <CardText>Trample
 When Armada Wurm enters the battlefield, create a 5/5 green Wurm creature token with trample.</CardText>
 <Flavor>No one in the Conclave acts alone.</Flavor>
@@ -2250,7 +2252,7 @@ When Armada Wurm enters the battlefield, create a 5/5 green Wurm creature token 
 <No>109</No>
 <Name>Call of the Conclave</Name>
 <Type>Sorcery</Type>
-<ManaCost>GW (2)</ManaCost>
+<ManaCost>{G}{W}</ManaCost>
 <CardText>Create a 3/3 green Centaur creature token.</CardText>
 <Flavor>Centaurs are sent to evangelize in Gruul territories where words of war speak louder than prayers of peace.</Flavor>
 <Artist>Terese Nielsen</Artist>
@@ -2268,7 +2270,7 @@ When Armada Wurm enters the battlefield, create a 5/5 green Wurm creature token 
 <No>110</No>
 <Name>Centaur Healer</Name>
 <Type>Creature — Centaur Cleric 3/3</Type>
-<ManaCost>1GW (3)</ManaCost>
+<ManaCost>{1}{G}{W}</ManaCost>
 <CardText>When Centaur Healer enters the battlefield, you gain 3 life.</CardText>
 <Flavor>Instructors at the Kasarna training grounds are capable healers in case their students fail to grasp the subtleties of combat.</Flavor>
 <Artist>Mark Zug</Artist>
@@ -2286,14 +2288,14 @@ When Armada Wurm enters the battlefield, create a 5/5 green Wurm creature token 
 <No>111</No>
 <Name>Dryad Militant</Name>
 <Type>Creature — Dryad Soldier 2/1</Type>
-<ManaCost>{G/W} (1)</ManaCost>
+<ManaCost>{G/W}</ManaCost>
 <CardText>If an instant or sorcery card would be put into a graveyard from anywhere, exile it instead.</CardText>
 <Flavor>"We will defend the Worldsoul from Izzet 'progress' at any cost."</Flavor>
 <Artist>Terese Nielsen</Artist>
 <Watermark>Selesnya</Watermark>
 <Multiverseid>456369</Multiverseid>
-<Rulings>2012/10/01: If an instant or sorcery spell destroys <Dryad Militant> directly (like Murder does), that instant or sorcery card will be put into its owner's graveyard. However, if an instant or sorcery card deals lethal damage to <Dryad Militant>, <Dryad Militant> will remain on the battlefield until the next time state-based actions are checked, which is after the instant or sorcery finishes resolving. The instant or sorcery will be exiled.
-2012/10/01: If an instant or sorcery card is discarded while <Dryad Militant> is on the battlefield, abilities that function when a card is discarded (such as madness) still work, even though that card never reaches a graveyard. In addition, spells or abilities that check the characteristics of a discarded card (such as Chandra Ablaze's first ability) can find that card in exile.</Rulings>
+<Rulings>2012/10/01: If an instant or sorcery spell destroys Dryad Militant directly (like Murder does), that instant or sorcery card will be put into its owner's graveyard. However, if an instant or sorcery card deals lethal damage to Dryad Militant, Dryad Militant will remain on the battlefield until the next time state-based actions are checked, which is after the instant or sorcery finishes resolving. The instant or sorcery will be exiled.
+2012/10/01: If an instant or sorcery card is discarded while Dryad Militant is on the battlefield, abilities that function when a card is discarded (such as madness) still work, even though that card never reaches a graveyard. In addition, spells or abilities that check the characteristics of a discarded card (such as Chandra Ablaze's first ability) can find that card in exile.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2306,7 +2308,7 @@ When Armada Wurm enters the battlefield, create a 5/5 green Wurm creature token 
 <No>112</No>
 <Name>Glare of Subdual</Name>
 <Type>Enchantment</Type>
-<ManaCost>2GW (4)</ManaCost>
+<ManaCost>{2}{G}{W}</ManaCost>
 <CardText>Tap an untapped creature you control: Tap target artifact or creature.</CardText>
 <Flavor>The righteous light of Selesnya is channeled through the devout, striking out to blind the nonbelievers.</Flavor>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
@@ -2324,7 +2326,7 @@ When Armada Wurm enters the battlefield, create a 5/5 green Wurm creature token 
 <No>113</No>
 <Name>Growing Ranks</Name>
 <Type>Enchantment</Type>
-<ManaCost>2{G/W}{G/W} (4)</ManaCost>
+<ManaCost>{2}{G/W}{G/W}</ManaCost>
 <CardText>At the beginning of your upkeep, populate. (Create a token that's a copy of a creature token you control.)</CardText>
 <Flavor>"We will grow an army large enough to withstand the Izzet's madness."
 —Trostani</Flavor>
@@ -2349,7 +2351,7 @@ When Armada Wurm enters the battlefield, create a 5/5 green Wurm creature token 
 <No>114</No>
 <Name>Loxodon Hierarch</Name>
 <Type>Creature — Elephant Cleric 4/4</Type>
-<ManaCost>2GW (4)</ManaCost>
+<ManaCost>{2}{G}{W}</ManaCost>
 <CardText>When Loxodon Hierarch enters the battlefield, you gain 4 life.
 {G}{W}, Sacrifice Loxodon Hierarch: Regenerate each creature you control.</CardText>
 <Flavor>"I have lived long, and I remember how this city once was. If my death serves to bring back the Ravnica in my memory, then so be it."</Flavor>
@@ -2369,7 +2371,7 @@ When Armada Wurm enters the battlefield, create a 5/5 green Wurm creature token 
 <No>115</No>
 <Name>Pollenbright Wings</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>4GW (6)</ManaCost>
+<ManaCost>{4}{G}{W}</ManaCost>
 <CardText>Enchant creature
 Enchanted creature has flying.
 Whenever enchanted creature deals combat damage to a player, create that many 1/1 green Saproling creature tokens.</CardText>
@@ -2388,11 +2390,11 @@ Whenever enchanted creature deals combat damage to a player, create that many 1/
 <No>116</No>
 <Name>Privileged Position</Name>
 <Type>Enchantment</Type>
-<ManaCost>2{G/W}{G/W}{G/W} (5)</ManaCost>
+<ManaCost>{2}{G/W}{G/W}{G/W}</ManaCost>
 <CardText>({G/W} can be paid with either {G} or {W}.)
 Other permanents you control have hexproof. (They can't be the targets of spells or abilities your opponents control.)</CardText>
 <Flavor>"We in the Conclave have a saying: 'When you hold a shield, lend your shield.' The strong must never forget what they owe to the weak."
-– Niszka, Selesnya evangel</Flavor>
+— Niszka, Selesnya evangel</Flavor>
 <Artist>Wayne England</Artist>
 <Watermark>Selesnya</Watermark>
 <Multiverseid>456374</Multiverseid>
@@ -2408,7 +2410,7 @@ Other permanents you control have hexproof. (They can't be the targets of spells
 <No>117</No>
 <Name>Selesnya Charm</Name>
 <Type>Instant</Type>
-<ManaCost>GW (2)</ManaCost>
+<ManaCost>{G}{W}</ManaCost>
 <CardText>Choose one —
 • Target creature gets +2/+2 and gains trample until end of turn.
 • Exile target creature with power 5 or greater.
@@ -2428,7 +2430,7 @@ Other permanents you control have hexproof. (They can't be the targets of spells
 <No>118</No>
 <Name>Selesnya Evangel</Name>
 <Type>Creature — Elf Shaman 1/2</Type>
-<ManaCost>GW (2)</ManaCost>
+<ManaCost>{G}{W}</ManaCost>
 <CardText>{1}, {T}, Tap an untapped creature you control: Create a 1/1 green Saproling creature token.</CardText>
 <Flavor>"The clamor of the city drowns all voices. But together we can sing a harmony that will resonate from Ravnica's tallest spires to her deepest wells."</Flavor>
 <Artist>Rob Alexander</Artist>
@@ -2446,7 +2448,7 @@ Other permanents you control have hexproof. (They can't be the targets of spells
 <No>119</No>
 <Name>Selesnya Guildmage</Name>
 <Type>Creature — Elf Wizard 2/2</Type>
-<ManaCost>{G/W}{G/W} (2)</ManaCost>
+<ManaCost>{G/W}{G/W}</ManaCost>
 <CardText>{3}{G}: Create a 1/1 green Saproling creature token.
 {3}{W}: Creatures you control get +1/+1 until end of turn.</CardText>
 <Artist>Mark Zug</Artist>
@@ -2464,7 +2466,7 @@ Other permanents you control have hexproof. (They can't be the targets of spells
 <No>120</No>
 <Name>Sundering Growth</Name>
 <Type>Instant</Type>
-<ManaCost>{G/W}{G/W} (2)</ManaCost>
+<ManaCost>{G/W}{G/W}</ManaCost>
 <CardText>Destroy target artifact or enchantment, then populate. (Create a token that's a copy of a creature token you control.)</CardText>
 <Flavor>"One day every pillar will be a tree and every hall a glade."
 —Trostani</Flavor>
@@ -2477,7 +2479,7 @@ Other permanents you control have hexproof. (They can't be the targets of spells
 2013/04/15: Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the new token will work.
 2013/04/15: If you control no creature tokens when you populate, nothing will happen.
 2013/04/15: The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
-2017/03/14: You must target an artifact or enchantment to cast <Sundering Growth>. If that artifact or enchantment is an illegal target when <Sundering Growth> tries to resolve, it won't resolve and none of its effects will happen. You won't populate.</Rulings>
+2017/03/14: You must target an artifact or enchantment to cast Sundering Growth. If that artifact or enchantment is an illegal target when Sundering Growth tries to resolve, it won't resolve and none of its effects will happen. You won't populate.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2490,7 +2492,7 @@ Other permanents you control have hexproof. (They can't be the targets of spells
 <No>121</No>
 <Name>Tolsimir Wolfblood</Name>
 <Type>Legendary Creature — Elf Warrior 3/4</Type>
-<ManaCost>4GW (6)</ManaCost>
+<ManaCost>{4}{G}{W}</ManaCost>
 <CardText>Other green creatures you control get +1/+1.
 Other white creatures you control get +1/+1.
 {T}: Create Voja, a legendary 2/2 green and white Wolf creature token.</CardText>
@@ -2512,7 +2514,7 @@ Other white creatures you control get +1/+1.
 <No>122</No>
 <Name>Watchwolf</Name>
 <Type>Creature — Wolf 3/3</Type>
-<ManaCost>GW (2)</ManaCost>
+<ManaCost>{G}{W}</ManaCost>
 <Flavor>Only in Ravnica do the wolves watch the flock.</Flavor>
 <Artist>Kev Walker</Artist>
 <Watermark>Selesnya</Watermark>
@@ -2529,7 +2531,7 @@ Other white creatures you control get +1/+1.
 <No>123</No>
 <Name>Selesnya Signet</Name>
 <Type>Artifact</Type>
-<ManaCost>2 (2)</ManaCost>
+<ManaCost>{2}</ManaCost>
 <CardText>{1}, {T}: Add {G}{W}.</CardText>
 <Flavor>The symbol of the Conclave is one of unity, with tree supporting sun and sun feeding tree.</Flavor>
 <Artist>Raoul Vitale</Artist>
@@ -2552,8 +2554,8 @@ Other white creatures you control get +1/+1.
 <Artist>Christine Choi</Artist>
 <Watermark>Selesnya</Watermark>
 <Multiverseid>456382</Multiverseid>
-<Rulings>2012/10/01: To activate <Grove of the Guardian>'s second ability you can tap any two untapped creatures you control, including ones you haven't controlled continuously since the beginning of your most recent turn.
-2012/10/01: You can't tap <Grove of the Guardian> to activate both abilities at the same time.</Rulings>
+<Rulings>2012/10/01: To activate Grove of the Guardian's second ability you can tap any two untapped creatures you control, including ones you haven't controlled continuously since the beginning of your most recent turn.
+2012/10/01: You can't tap Grove of the Guardian to activate both abilities at the same time.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2593,7 +2595,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>GRN Guild Kit</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2609,6 +2611,6 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>GRN Guild Kit</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 

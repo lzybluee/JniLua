@@ -3,13 +3,13 @@
 <No>1</No>
 <Name>Beacon of Immortality</Name>
 <Type>Instant</Type>
-<ManaCost>5W (6)</ManaCost>
+<ManaCost>{5}{W}</ManaCost>
 <CardText>Double target player's life total. Shuffle Beacon of Immortality into its owner's library.</CardText>
 <Flavor>The cave floods with light. A thousand rays shine forth and meld into one.</Flavor>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>439343</Multiverseid>
 <Rulings>2007/02/01: If you double a negative life total, you do the real math. A life total of -10 becomes -20.
-2007/07/15: <Beacon of Immortality>'s effect counts as life gain (or life loss, if the life total was negative) for effects that trigger on or replace life gain (or life loss).
+2007/07/15: Beacon of Immortality's effect counts as life gain (or life loss, if the life total was negative) for effects that trigger on or replace life gain (or life loss).
 2007/07/15: If a Beacon is countered or doesn't resolve, it's put into its owner's graveyard, not shuffled into the library.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -23,7 +23,7 @@
 <No>2</No>
 <Name>Day of Judgment</Name>
 <Type>Sorcery</Type>
-<ManaCost>2WW (4)</ManaCost>
+<ManaCost>{2}{W}{W}</ManaCost>
 <CardText>Destroy all creatures.</CardText>
 <Artist>Vincent Proce</Artist>
 <Multiverseid>439344</Multiverseid>
@@ -39,12 +39,12 @@
 <No>3</No>
 <Name>Path to Exile</Name>
 <Type>Instant</Type>
-<ManaCost>W (1)</ManaCost>
-<CardText>Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle their library.</CardText>
+<ManaCost>{W}</ManaCost>
+<CardText>Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle.</CardText>
 <Artist>Todd Lockwood</Artist>
 <Multiverseid>439345</Multiverseid>
-<Rulings>2017/03/14: If the targeted creature becomes an illegal target by the time <Path to Exile> would resolve, the entire spell doesn't resolve. The creature's controller won't search for a basic land card.
-2017/03/14: The controller of the exiled creature isn't required to search their library for a basic land. If that player doesn't, the player won't shuffle their library.</Rulings>
+<Rulings>2021/03/19: If the target creature is an illegal target by the time Path to Exile tries to resolve, the spell won't resolve. The creature's controller won't search for a basic land card.
+2021/03/19: The controller of the exiled creature isn't required to search their library for a basic land. If that player doesn't, the player won't shuffle their library.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -57,7 +57,7 @@
 <No>4</No>
 <Name>Shielded by Faith</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>1WW (3)</ManaCost>
+<ManaCost>{1}{W}{W}</ManaCost>
 <CardText>Enchant creature
 Enchanted creature has indestructible.
 Whenever a creature enters the battlefield, you may attach Shielded by Faith to that creature.</CardText>
@@ -74,7 +74,7 @@ Whenever a creature enters the battlefield, you may attach Shielded by Faith to 
 <No>5</No>
 <Name>Veteran's Reflexes</Name>
 <Type>Instant</Type>
-<ManaCost>W (1)</ManaCost>
+<ManaCost>{W}</ManaCost>
 <CardText>Target creature gets +1/+1 until end of turn. Untap that creature.</CardText>
 <Flavor>"Assume everything wants to kill you. At the very least, assume everything wants what's in your pack."</Flavor>
 <Artist>Scott Chou</Artist>
@@ -91,9 +91,9 @@ Whenever a creature enters the battlefield, you may attach Shielded by Faith to 
 <No>6</No>
 <Name>Vow of Duty</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>2W (3)</ManaCost>
+<ManaCost>{2}{W}</ManaCost>
 <CardText>Enchant creature
-Enchanted creature gets +2/+2, has vigilance, and can't attack you or a planeswalker you control.</CardText>
+Enchanted creature gets +2/+2, has vigilance, and can't attack you or planeswalkers you control.</CardText>
 <Flavor>"I prefer loyalty to be a matter of respect, not of magic. But one does what one must."
 —Kaalia of the Vast</Flavor>
 <Artist>Wayne Reynolds</Artist>
@@ -109,12 +109,12 @@ Enchanted creature gets +2/+2, has vigilance, and can't attack you or a planeswa
 <No>7</No>
 <Name>Aether Gale</Name>
 <Type>Sorcery</Type>
-<ManaCost>3UU (5)</ManaCost>
+<ManaCost>{3}{U}{U}</ManaCost>
 <CardText>Return six target nonland permanents to their owners' hands.</CardText>
 <Flavor>The militia formed up in the central plaza awaiting the onslaught, but the giants never quite made it.</Flavor>
 <Artist>Jack Wang</Artist>
 <Multiverseid>439349</Multiverseid>
-<Rulings>2014/11/07: You must choose six different legal targets in order to cast <Aether Gale>. If some, but not all, of those targets become illegal before <Aether Gale> resolves, the remaining legal targets will be put into their owners' hands.</Rulings>
+<Rulings>2014/11/07: You must choose six different legal targets in order to cast Aether Gale. If some, but not all, of those targets become illegal before Aether Gale resolves, the remaining legal targets will be put into their owners' hands.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Explorers of Ixalan</Set>
@@ -126,7 +126,7 @@ Enchanted creature gets +2/+2, has vigilance, and can't attack you or a planeswa
 <No>8</No>
 <Name>Blatant Thievery</Name>
 <Type>Sorcery</Type>
-<ManaCost>4UUU (7)</ManaCost>
+<ManaCost>{4}{U}{U}{U}</ManaCost>
 <CardText>For each opponent, gain control of target permanent that player controls.</CardText>
 <Flavor>Centuries of association with the Sun Empire have taught the dinosaurs that shiny things are important.</Flavor>
 <Artist>Victor Adame Minguez</Artist>
@@ -144,7 +144,7 @@ Enchanted creature gets +2/+2, has vigilance, and can't attack you or a planeswa
 <No>9</No>
 <Name>Concentrate</Name>
 <Type>Sorcery</Type>
-<ManaCost>2UU (4)</ManaCost>
+<ManaCost>{2}{U}{U}</ManaCost>
 <CardText>Draw three cards.</CardText>
 <Flavor>"The treasure in my mind is greater than any worldly glory."</Flavor>
 <Artist>rk post</Artist>
@@ -160,14 +160,14 @@ Enchanted creature gets +2/+2, has vigilance, and can't attack you or a planeswa
 <SetId>E02</SetId>
 <No>10</No>
 <Name>Merfolk Sovereign</Name>
-<Type>Creature — Merfolk 2/2</Type>
-<ManaCost>1UU (3)</ManaCost>
+<Type>Creature — Merfolk Noble 2/2</Type>
+<ManaCost>{1}{U}{U}</ManaCost>
 <CardText>Other Merfolk creatures you control get +1/+1.
 {T}: Target Merfolk creature can't be blocked this turn.</CardText>
 <Flavor>"We are not an empire, and I am not a queen. But I speak with the shout of the rivers and the whisper of the clinging mist."</Flavor>
 <Artist>Slawomir Maniak</Artist>
 <Multiverseid>439352</Multiverseid>
-<Rulings>2009/10/01: To have any effect, <Merfolk Sovereign>'s activated ability must be activated before the declare blockers step begins. Once a Merfolk has become blocked, activating <Merfolk Sovereign>'s ability won't change that.</Rulings>
+<Rulings>2009/10/01: To have any effect, Merfolk Sovereign's activated ability must be activated before the declare blockers step begins. Once a Merfolk has become blocked, activating Merfolk Sovereign's ability won't change that.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -180,14 +180,14 @@ Enchanted creature gets +2/+2, has vigilance, and can't attack you or a planeswa
 <No>11</No>
 <Name>Threads of Disloyalty</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>1UU (3)</ManaCost>
-<CardText>Enchant creature with converted mana cost 2 or less
+<ManaCost>{1}{U}{U}</ManaCost>
+<CardText>Enchant creature with mana value 2 or less
 You control enchanted creature.</CardText>
 <Flavor>"Over time, Konda grew ever more suspicious, fearing even his most loyal allies were being manipulated by unseen hands."
-—The History of Kamigawa</Flavor>
+—*The History of Kamigawa*</Flavor>
 <Artist>Anthony S. Waters</Artist>
 <Multiverseid>439353</Multiverseid>
-<Rulings>2005/02/01: <Threads of Disloyalty> can't target a creature with converted mana cost 3 or greater. If it somehow enchants a creature with converted mana cost 3 or greater, <Threads of Disloyalty> is put into the graveyard the next time state-based actions are checked.
+<Rulings>2005/02/01: Threads of Disloyalty can't target a creature with converted mana cost 3 or greater. If it somehow enchants a creature with converted mana cost 3 or greater, Threads of Disloyalty is put into the graveyard the next time state-based actions are checked.
 2005/02/01: Creatures on the battlefield treat {X} in their mana cost as 0 for the purposes of calculating converted mana costs.
 2005/02/01: Tokens usually have a converted mana cost of 0.</Rulings>
 <Vintage>Legal</Vintage>
@@ -202,7 +202,7 @@ You control enchanted creature.</CardText>
 <No>12</No>
 <Name>Time Warp</Name>
 <Type>Sorcery</Type>
-<ManaCost>3UU (5)</ManaCost>
+<ManaCost>{3}{U}{U}</ManaCost>
 <CardText>Target player takes an extra turn after this one.</CardText>
 <Flavor>Just when you thought you'd survived the first wave.</Flavor>
 <Artist>Jon Foster</Artist>
@@ -220,7 +220,7 @@ You control enchanted creature.</CardText>
 <No>13</No>
 <Name>Unsummon</Name>
 <Type>Instant</Type>
-<ManaCost>U (1)</ManaCost>
+<ManaCost>{U}</ManaCost>
 <CardText>Return target creature to its owner's hand.</CardText>
 <Flavor>Not to be. That is the answer.</Flavor>
 <Artist>Izzy</Artist>
@@ -237,9 +237,9 @@ You control enchanted creature.</CardText>
 <No>14</No>
 <Name>Vow of Flight</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>Enchant creature
-Enchanted creature gets +2/+2, has flying, and can't attack you or a planeswalker you control.</CardText>
+Enchanted creature gets +2/+2, has flying, and can't attack you or planeswalkers you control.</CardText>
 <Flavor>"Soaring is wasted on the winged."
 —Edric, Spymaster of Trest</Flavor>
 <Artist>Erica Yang</Artist>
@@ -255,7 +255,7 @@ Enchanted creature gets +2/+2, has flying, and can't attack you or a planeswalke
 <No>15</No>
 <Name>Bloodbond Vampire</Name>
 <Type>Creature — Vampire Shaman Ally 3/3</Type>
-<ManaCost>2BB (4)</ManaCost>
+<ManaCost>{2}{B}{B}</ManaCost>
 <CardText>Whenever you gain life, put a +1/+1 counter on Bloodbond Vampire.</CardText>
 <Flavor>"Let the vampires join us. In this war, we no longer have the luxury of choosing our comrades."
 —General Tazri, allied commander</Flavor>
@@ -276,7 +276,7 @@ Enchanted creature gets +2/+2, has flying, and can't attack you or a planeswalke
 <No>16</No>
 <Name>Child of Night</Name>
 <Type>Creature — Vampire 2/1</Type>
-<ManaCost>1B (2)</ManaCost>
+<ManaCost>{1}{B}</ManaCost>
 <CardText>Lifelink</CardText>
 <Flavor>Sins that would be too gruesome in the light of day are made more pleasing in the dark of night.</Flavor>
 <Artist>Ash Wood</Artist>
@@ -293,7 +293,7 @@ Enchanted creature gets +2/+2, has flying, and can't attack you or a planeswalke
 <No>17</No>
 <Name>Coat with Venom</Name>
 <Type>Instant</Type>
-<ManaCost>B (1)</ManaCost>
+<ManaCost>{B}</ManaCost>
 <CardText>Target creature gets +1/+2 and gains deathtouch until end of turn. (Any amount of damage it deals to a creature is enough to destroy it.)</CardText>
 <Flavor>"Every Silumgar blade carries the blessing of our dragonlord."
 —Xathi the Infallible</Flavor>
@@ -311,7 +311,7 @@ Enchanted creature gets +2/+2, has flying, and can't attack you or a planeswalke
 <No>18</No>
 <Name>Doom Blade</Name>
 <Type>Instant</Type>
-<ManaCost>1B (2)</ManaCost>
+<ManaCost>{1}{B}</ManaCost>
 <CardText>Destroy target nonblack creature.</CardText>
 <Flavor>The void is without substance but cuts like steel.</Flavor>
 <Artist>Chippy</Artist>
@@ -328,12 +328,12 @@ Enchanted creature gets +2/+2, has flying, and can't attack you or a planeswalke
 <No>19</No>
 <Name>Innocent Blood</Name>
 <Type>Sorcery</Type>
-<ManaCost>B (1)</ManaCost>
+<ManaCost>{B}</ManaCost>
 <CardText>Each player sacrifices a creature.</CardText>
 <Flavor>Zombies mourn for the living and celebrate those who will soon be given the gift of death.</Flavor>
 <Artist>Carl Critchlow</Artist>
 <Multiverseid>439361</Multiverseid>
-<Rulings>2016/06/08: You can cast <Innocent Blood> even if some (or all) players control no creatures. Those players are simply unaffected.</Rulings>
+<Rulings>2016/06/08: You can cast Innocent Blood even if some (or all) players control no creatures. Those players are simply unaffected.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Explorers of Ixalan</Set>
@@ -345,7 +345,7 @@ Enchanted creature gets +2/+2, has flying, and can't attack you or a planeswalke
 <No>20</No>
 <Name>Necropolis Regent</Name>
 <Type>Creature — Vampire 6/5</Type>
-<ManaCost>3BBB (6)</ManaCost>
+<ManaCost>{3}{B}{B}{B}</ManaCost>
 <CardText>Flying
 Whenever a creature you control deals combat damage to a player, put that many +1/+1 counters on it.</CardText>
 <Flavor>"Jarad fancies himself king of the undercity, but he's merely king of rot."</Flavor>
@@ -364,13 +364,13 @@ Whenever a creature you control deals combat damage to a player, put that many +
 <No>21</No>
 <Name>Urge to Feed</Name>
 <Type>Instant</Type>
-<ManaCost>BB (2)</ManaCost>
+<ManaCost>{B}{B}</ManaCost>
 <CardText>Target creature gets -3/-3 until end of turn. You may tap any number of untapped Vampire creatures you control. If you do, put a +1/+1 counter on each of those Vampires.</CardText>
 <Artist>Johann Bodin</Artist>
 <Multiverseid>439363</Multiverseid>
-<Rulings>2010/03/01: You don't choose which untapped Vampire creatures you control to tap (if any) until <Urge to Feed> resolves.
-2010/03/01: If you cast <Urge to Feed> targeting an untapped Vampire creature you control with toughness 3, its toughness will be reduced to 0 by the -3/-3 effect. However, state-based actions aren't checked until the spell has finished resolving. You may then tap that Vampire and put a +1/+1 counter on it, raising its toughness to 1. It will remain on the battlefield.
-2010/03/01: If the targeted creature is an illegal target by the time <Urge to Feed> resolves, the entire spell doesn't resolve. You can't tap any Vampires.</Rulings>
+<Rulings>2010/03/01: You don't choose which untapped Vampire creatures you control to tap (if any) until Urge to Feed resolves.
+2010/03/01: If you cast Urge to Feed targeting an untapped Vampire creature you control with toughness 3, its toughness will be reduced to 0 by the -3/-3 effect. However, state-based actions aren't checked until the spell has finished resolving. You may then tap that Vampire and put a +1/+1 counter on it, raising its toughness to 1. It will remain on the battlefield.
+2010/03/01: If the targeted creature is an illegal target by the time Urge to Feed resolves, the entire spell doesn't resolve. You can't tap any Vampires.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -383,7 +383,7 @@ Whenever a creature you control deals combat damage to a player, put that many +
 <No>22</No>
 <Name>Vampire Interloper</Name>
 <Type>Creature — Vampire Scout 2/1</Type>
-<ManaCost>1B (2)</ManaCost>
+<ManaCost>{1}{B}</ManaCost>
 <CardText>Flying
 Vampire Interloper can't block.</CardText>
 <Flavor>He listens to every heartbeat, deciding which one of hundreds he will stop.</Flavor>
@@ -401,7 +401,7 @@ Vampire Interloper can't block.</CardText>
 <No>23</No>
 <Name>Vampire Nighthawk</Name>
 <Type>Creature — Vampire Shaman 2/3</Type>
-<ManaCost>1BB (3)</ManaCost>
+<ManaCost>{1}{B}{B}</ManaCost>
 <CardText>Flying, deathtouch, lifelink</CardText>
 <Artist>Jason Chan</Artist>
 <Multiverseid>439365</Multiverseid>
@@ -416,8 +416,8 @@ Vampire Interloper can't block.</CardText>
 <SetId>E02</SetId>
 <No>24</No>
 <Name>Vampire Noble</Name>
-<Type>Creature — Vampire 3/2</Type>
-<ManaCost>2B (3)</ManaCost>
+<Type>Creature — Vampire Noble 3/2</Type>
+<ManaCost>{2}{B}</ManaCost>
 <Flavor>"No emergency is so dire that it cannot be dealt with elegantly."
 —Olivia Voldaren</Flavor>
 <Artist>Ryan Alexander Lee</Artist>
@@ -434,8 +434,8 @@ Vampire Interloper can't block.</CardText>
 <No>25</No>
 <Name>Aggravated Assault</Name>
 <Type>Enchantment</Type>
-<ManaCost>2R (3)</ManaCost>
-<CardText>{3}{R}{R}: Untap all creatures you control. After this main phase, there is an additional combat phase followed by an additional main phase. Activate this ability only any time you could cast a sorcery.</CardText>
+<ManaCost>{2}{R}</ManaCost>
+<CardText>{3}{R}{R}: Untap all creatures you control. After this main phase, there is an additional combat phase followed by an additional main phase. Activate only as a sorcery.</CardText>
 <Artist>Greg Staples</Artist>
 <Multiverseid>439367</Multiverseid>
 <Rulings>2004/10/04: If you have enough mana, the ability may be activated more than once in a turn.
@@ -451,9 +451,9 @@ Vampire Interloper can't block.</CardText>
 <No>26</No>
 <Name>Disaster Radius</Name>
 <Type>Sorcery</Type>
-<ManaCost>5RR (7)</ManaCost>
+<ManaCost>{5}{R}{R}</ManaCost>
 <CardText>As an additional cost to cast this spell, reveal a creature card from your hand.
-Disaster Radius deals X damage to each creature your opponents control, where X is the revealed card's converted mana cost.</CardText>
+Disaster Radius deals X damage to each creature your opponents control, where X is the revealed card's mana value.</CardText>
 <Artist>James Paick</Artist>
 <Multiverseid>439368</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -468,14 +468,14 @@ Disaster Radius deals X damage to each creature your opponents control, where X 
 <No>27</No>
 <Name>Mass Mutiny</Name>
 <Type>Sorcery</Type>
-<ManaCost>3RR (5)</ManaCost>
+<ManaCost>{3}{R}{R}</ManaCost>
 <CardText>For each opponent, gain control of up to one target creature that player controls until end of turn. Untap those creatures. They gain haste until end of turn.</CardText>
 <Flavor>"You too, Squib?"</Flavor>
 <Artist>Sidharth Chaturvedi</Artist>
 <Multiverseid>439369</Multiverseid>
-<Rulings>2012/06/01: The phrase "up to one" was inadvertently omitted from <Mass Mutiny>'s rules text. The card has received errata to correct this.
-2012/06/01: You can cast <Mass Mutiny> even if an opponent doesn't control any creatures. You simply won't choose a target for that opponent.
-2012/06/01: <Mass Mutiny> can target untapped creatures.
+<Rulings>2012/06/01: The phrase "up to one" was inadvertently omitted from Mass Mutiny's rules text. The card has received errata to correct this.
+2012/06/01: You can cast Mass Mutiny even if an opponent doesn't control any creatures. You simply won't choose a target for that opponent.
+2012/06/01: Mass Mutiny can target untapped creatures.
 2012/06/01: Gaining control of a creature doesn't cause you to gain control of any Auras or Equipment attached to it. However, if you gain control of a creature enchanted by an Aura with totem armor and that creature would be destroyed that turn, instead the Aura will be destroyed and the creature will survive.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -488,7 +488,7 @@ Disaster Radius deals X damage to each creature your opponents control, where X 
 <No>28</No>
 <Name>Rush of Adrenaline</Name>
 <Type>Instant</Type>
-<ManaCost>R (1)</ManaCost>
+<ManaCost>{R}</ManaCost>
 <CardText>Target creature gets +2/+1 and gains trample until end of turn.</CardText>
 <Flavor>Scarecrows only go so far in sending the message to stay away.</Flavor>
 <Artist>Chris Rallis</Artist>
@@ -505,7 +505,7 @@ Disaster Radius deals X damage to each creature your opponents control, where X 
 <No>29</No>
 <Name>Shared Animosity</Name>
 <Type>Enchantment</Type>
-<ManaCost>2R (3)</ManaCost>
+<ManaCost>{2}{R}</ManaCost>
 <CardText>Whenever a creature you control attacks, it gets +1/+0 until end of turn for each other attacking creature that shares a creature type with it.</CardText>
 <Flavor>"It is the nature of souls that they burn more brightly together than apart."
 —Vessifrus, flamekin demagogue</Flavor>
@@ -525,9 +525,9 @@ Disaster Radius deals X damage to each creature your opponents control, where X 
 <No>30</No>
 <Name>Vow of Lightning</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>2R (3)</ManaCost>
+<ManaCost>{2}{R}</ManaCost>
 <CardText>Enchant creature
-Enchanted creature gets +2/+2, has first strike, and can't attack you or a planeswalker you control.</CardText>
+Enchanted creature gets +2/+2, has first strike, and can't attack you or planeswalkers you control.</CardText>
 <Flavor>"Ruhan would never agree to such terms."
 —Ruhan of the Fomori</Flavor>
 <Artist>Svetlin Velinov</Artist>
@@ -542,9 +542,9 @@ Enchanted creature gets +2/+2, has first strike, and can't attack you or a plane
 <SetId>E02</SetId>
 <No>31</No>
 <Name>Borderland Ranger</Name>
-<Type>Creature — Human Scout 2/2</Type>
-<ManaCost>2G (3)</ManaCost>
-<CardText>When Borderland Ranger enters the battlefield, you may search your library for a basic land card, reveal it, and put it into your hand. If you do, shuffle your library.</CardText>
+<Type>Creature — Human Scout Ranger 2/2</Type>
+<ManaCost>{2}{G}</ManaCost>
+<CardText>When Borderland Ranger enters the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.</CardText>
 <Flavor>"There's only one route from Kessig into Stensia. Unless you come with me."</Flavor>
 <Artist>Zoltan Boros</Artist>
 <Multiverseid>439373</Multiverseid>
@@ -560,7 +560,7 @@ Enchanted creature gets +2/+2, has first strike, and can't attack you or a plane
 <No>32</No>
 <Name>Giant Growth</Name>
 <Type>Instant</Type>
-<ManaCost>G (1)</ManaCost>
+<ManaCost>{G}</ManaCost>
 <CardText>Target creature gets +3/+3 until end of turn.</CardText>
 <Artist>Matt Cavotta</Artist>
 <Multiverseid>439374</Multiverseid>
@@ -576,7 +576,7 @@ Enchanted creature gets +2/+2, has first strike, and can't attack you or a plane
 <No>33</No>
 <Name>Hunter's Prowess</Name>
 <Type>Sorcery</Type>
-<ManaCost>4G (5)</ManaCost>
+<ManaCost>{4}{G}</ManaCost>
 <CardText>Until end of turn, target creature gets +3/+3 and gains trample and "Whenever this creature deals combat damage to a player, draw that many cards."</CardText>
 <Flavor>To be counted among the warriors of Setessa's Leina Tower, you must not fear death, only failure.</Flavor>
 <Artist>Greg Staples</Artist>
@@ -593,12 +593,12 @@ Enchanted creature gets +2/+2, has first strike, and can't attack you or a plane
 <No>34</No>
 <Name>Prey Upon</Name>
 <Type>Sorcery</Type>
-<ManaCost>G (1)</ManaCost>
+<ManaCost>{G}</ManaCost>
 <CardText>Target creature you control fights target creature you don't control. (Each deals damage equal to its power to the other.)</CardText>
 <Flavor>Nature exists in balance: river and jungle, sky and sea, predator and prey.</Flavor>
 <Artist>Deruchenko Alexander</Artist>
 <Multiverseid>439376</Multiverseid>
-<Rulings>2018/12/07: If either target is an illegal target as <Prey Upon> resolves, no creature will deal or be dealt damage.</Rulings>
+<Rulings>2018/12/07: If either target is an illegal target as Prey Upon resolves, no creature will deal or be dealt damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -611,13 +611,13 @@ Enchanted creature gets +2/+2, has first strike, and can't attack you or a plane
 <No>35</No>
 <Name>Rancor</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>G (1)</ManaCost>
+<ManaCost>{G}</ManaCost>
 <CardText>Enchant creature
 Enchanted creature gets +2/+0 and has trample.
 When Rancor is put into a graveyard from the battlefield, return Rancor to its owner's hand.</CardText>
 <Artist>Kev Walker</Artist>
 <Multiverseid>439377</Multiverseid>
-<Rulings>2018/03/16: If the creature this Aura would enchant is an illegal target by the time <Rancor> tries to resolve, the Aura spell doesn't resolve. It won't enter the battlefield, so it won't be put into a graveyard from the battlefield and its ability won't trigger.</Rulings>
+<Rulings>2018/03/16: If the creature this Aura would enchant is an illegal target by the time Rancor tries to resolve, the Aura spell doesn't resolve. It won't enter the battlefield, so it won't be put into a graveyard from the battlefield and its ability won't trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -630,7 +630,7 @@ When Rancor is put into a graveyard from the battlefield, return Rancor to its o
 <No>36</No>
 <Name>Soul of the Harvest</Name>
 <Type>Creature — Elemental 6/6</Type>
-<ManaCost>4GG (6)</ManaCost>
+<ManaCost>{4}{G}{G}</ManaCost>
 <CardText>Trample
 Whenever another nontoken creature enters the battlefield under your control, you may draw a card.</CardText>
 <Flavor>It's there when a seed sprouts, when gourds ripen on the vines, and when the reapers cut the grains under the Harvest Moon.</Flavor>
@@ -649,9 +649,9 @@ Whenever another nontoken creature enters the battlefield under your control, yo
 <No>37</No>
 <Name>Vow of Wildness</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>Enchant creature
-Enchanted creature gets +3/+3, has trample, and can't attack you or a planeswalker you control.</CardText>
+Enchanted creature gets +3/+3, has trample, and can't attack you or planeswalkers you control.</CardText>
 <Flavor>"Savagery is the birthright of every creature that draws breath—or wishes it could."
 —Karador, Ghost Chieftain</Flavor>
 <Artist>Jim Pavelec</Artist>
@@ -667,7 +667,7 @@ Enchanted creature gets +3/+3, has trample, and can't attack you or a planeswalk
 <No>38</No>
 <Name>Jungle Barrier</Name>
 <Type>Creature — Plant Wall 2/6</Type>
-<ManaCost>2GU (4)</ManaCost>
+<ManaCost>{2}{G}{U}</ManaCost>
 <CardText>Defender (This creature can't attack.)
 When Jungle Barrier enters the battlefield, draw a card.</CardText>
 <Flavor>Within silent clearings guarded by living palisades, the natural world guards its most precious secrets.</Flavor>
@@ -684,12 +684,12 @@ When Jungle Barrier enters the battlefield, draw a card.</CardText>
 <No>39</No>
 <Name>Lightning Helix</Name>
 <Type>Instant</Type>
-<ManaCost>RW (2)</ManaCost>
+<ManaCost>{R}{W}</ManaCost>
 <CardText>Lightning Helix deals 3 damage to any target and you gain 3 life.</CardText>
 <Flavor>Though less well-known than its army of soldiers, the Boros Legion's mage-priests are as respected by the innocent as they are hated by the ghosts of the guilty.</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>439381</Multiverseid>
-<Rulings>2017/11/17: If the chosen target is illegal when <Lightning Helix> tries to resolve, it won't resolve and none of its effects will happen. You won't gain 3 life.</Rulings>
+<Rulings>2017/11/17: If the chosen target is illegal when Lightning Helix tries to resolve, it won't resolve and none of its effects will happen. You won't gain 3 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -702,7 +702,7 @@ When Jungle Barrier enters the battlefield, draw a card.</CardText>
 <No>40</No>
 <Name>Mortify</Name>
 <Type>Instant</Type>
-<ManaCost>1WB (3)</ManaCost>
+<ManaCost>{1}{W}{B}</ManaCost>
 <CardText>Destroy target creature or enchantment.</CardText>
 <Flavor>Many who cross Sorin's path come down with a sudden and fatal case of being-in-the-way-of-a-millennia-old-vampire.</Flavor>
 <Artist>Nils Hamm</Artist>
@@ -720,7 +720,7 @@ When Jungle Barrier enters the battlefield, draw a card.</CardText>
 <No>41</No>
 <Name>Zealous Persecution</Name>
 <Type>Instant</Type>
-<ManaCost>WB (2)</ManaCost>
+<ManaCost>{W}{B}</ManaCost>
 <CardText>Until end of turn, creatures you control get +1/+1 and creatures your opponents control get -1/-1.</CardText>
 <Flavor>"Rejoice! Your vile blood will help fulfill our righteous cause."</Flavor>
 <Artist>Sara Winters</Artist>
@@ -737,15 +737,15 @@ When Jungle Barrier enters the battlefield, draw a card.</CardText>
 <No>42</No>
 <Name>Adaptive Automaton</Name>
 <Type>Artifact Creature — Construct 2/2</Type>
-<ManaCost>3 (3)</ManaCost>
+<ManaCost>{3}</ManaCost>
 <CardText>As Adaptive Automaton enters the battlefield, choose a creature type.
 Adaptive Automaton is the chosen type in addition to its other types.
 Other creatures you control of the chosen type get +1/+1.</CardText>
 <Artist>Igor Kieryluk</Artist>
 <Multiverseid>439384</Multiverseid>
-<Rulings>2011/09/22: The choice of creature type is made as <Adaptive Automaton> enters the battlefield. Players can't respond to this choice. The bonus starts applying immediately.
-2011/09/22: You must choose an existing _Magic_ creature type.
-2011/09/22: Even though <Adaptive Automaton> is a Construct, other Construct creatures you control won't get +1/+1 (unless you chose Construct as <Adaptive Automaton> entered the battlefield).</Rulings>
+<Rulings>2020/08/07: The choice of creature type is made as Adaptive Automaton enters the battlefield. Players can't take any actions between the time the choice is made and the time the appropriate creatures begin to get +1/+1.
+2020/08/07: You must choose an existing creature type, such as Human or Warrior. Card types such as artifact and supertypes such as legendary can't be chosen.
+2020/08/07: Even though Adaptive Automaton is a Construct, other Construct creatures you control won't get +1/+1 unless you chose Construct as Adaptive Automaton entered the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -758,7 +758,7 @@ Other creatures you control of the chosen type get +1/+1.</CardText>
 <No>43</No>
 <Name>Prismatic Lens</Name>
 <Type>Artifact</Type>
-<ManaCost>2 (2)</ManaCost>
+<ManaCost>{2}</ManaCost>
 <CardText>{T}: Add {C}.
 {1}, {T}: Add one mana of any color.</CardText>
 <Flavor>It bends not light but mana, aligning its chaotic currents into the sharp angles necessary for the mystic's purposes.</Flavor>
@@ -776,7 +776,7 @@ Other creatures you control of the chosen type get +1/+1.</CardText>
 <No>44</No>
 <Name>Quicksilver Amulet</Name>
 <Type>Artifact</Type>
-<ManaCost>4 (4)</ManaCost>
+<ManaCost>{4}</ManaCost>
 <CardText>{4}, {T}: You may put a creature card from your hand onto the battlefield.</CardText>
 <Flavor>Those who examine the amulet too closely have been known to become part of its ornate carvings.</Flavor>
 <Artist>Brad Rigney</Artist>
@@ -831,7 +831,7 @@ Other creatures you control of the chosen type get +1/+1.</CardText>
 <Name>Tainted Field</Name>
 <Type>Land</Type>
 <CardText>{T}: Add {C}.
-{T}: Add {W} or {B}. Activate this ability only if you control a Swamp.</CardText>
+{T}: Add {W} or {B}. Activate only if you control a Swamp.</CardText>
 <Artist>Don Hazeltine</Artist>
 <Multiverseid>439389</Multiverseid>
 <Vintage>Legal</Vintage>

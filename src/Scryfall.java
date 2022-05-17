@@ -16,11 +16,11 @@ import java.util.regex.Pattern;
 
 public class Scryfall {
 
-    static boolean check = true;
+    static boolean check = false;
     static long smallest = Long.MAX_VALUE;
     static String smallestFile = "";
-    static boolean checkLocal = false;
-    static boolean checkRemote = true;
+    static boolean checkLocal = true;
+    static boolean checkRemote = false;
 
     static class DownloadThread implements Runnable {
         public boolean running = false;
@@ -226,12 +226,14 @@ public class Scryfall {
         }
 
         public void downloadSet(String set) {
-            String url = "https://scryfall.com/sets/" + set;
+            String url = "https://scryfall.com/sets/" + set + "?order=set";
             String content = tryUrl(url);
 
             Vector<String> v = new Vector<>();
-            Pattern pattern = Pattern.compile("(https://img.scryfall.com/cards/normal/[^/]+/.*?/(.*?)\\.jpg)\\?\\d+");
+            Pattern pattern = Pattern.compile("(https://img.scryfall.com/cards/normal/front/././(.*?)\\.jpg)\\?\\d+");
+            //https://img.scryfall.com/cards/normal/front/3/e/3ec0c0fb-1a4f-45f4-85b7-346a6d3ce2c5.jpg?1557546041
             Matcher matcher = pattern.matcher(content);
+            int i = 1;
             while (matcher.find()) {
                 String s = matcher.group(1);
                 if (!v.contains(s)) {
@@ -239,12 +241,14 @@ public class Scryfall {
                     s = s.replace("/normal/", "/png/").replace(".jpg", ".png");
 
                     try {
-                        downLoadFromUrl(s, getNewName(matcher.group(2) + ".png"),
+                        downLoadFromUrl(s, getNewName(String.format("%03d", i) + ".png"),
                                 "E:/Scryfall/" + (set.equals("con") ? "CFX" : set.toUpperCase()));
                     } catch (IOException e) {
                         System.err.println("Error : " + s);
                         e.printStackTrace();
                     }
+                    
+                    i++;
                 }
             }
 
@@ -258,7 +262,7 @@ public class Scryfall {
         }
     }
 
-    static String[] sets = new String[] { "dom", "pdom", "tdom"/*"ss1", "dom", "pdom", "tdom", "ddu", "tddu", "a25", "ta25", "plny", "pnat",
+    static String[] sets = new String[] { "c19", "tc19", "oc19"/*"c18", "tc18", "oc18", "gs1", "bbd", "tbbd", "g18", "ddu", "tddu"*//*"ss1", "dom", "pdom", "tdom", "ddu", "tddu", "a25", "ta25", "plny", "pnat",
             "rix", "prix", "trix", "j18", "f18", "ust", "pust", "tust", "e02", "v17", "ima", "tima", "ddt", "tddt",
             "pgp17", "xln", "pxln", "txln", "pss2", "pxtc", "h17", "htr", "c17", "oc17", "tc17", "ps17", "hou", "phou",
             "thou", "e01", "te01", "cma", "tcma", "akh", "mp2", "pakh", "takh", "w17", "dds", "tdds", "mm3", "tmm3",

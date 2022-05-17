@@ -3,7 +3,7 @@
 <No>1</No>
 <Name>Accorder Paladin</Name>
 <Type>Creature — Human Knight 3/1</Type>
-<ManaCost>1W (2)</ManaCost>
+<ManaCost>{1}{W}</ManaCost>
 <CardText>Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)</CardText>
 <Flavor>"I fight for the suns, the surface, and everything in between."</Flavor>
 <Artist>Kekai Kotaki</Artist>
@@ -21,7 +21,7 @@
 <No>2</No>
 <Name>Ardent Recruit</Name>
 <Type>Creature — Human Soldier 1/1</Type>
-<ManaCost>W (1)</ManaCost>
+<ManaCost>{W}</ManaCost>
 <CardText>Metalcraft — Ardent Recruit gets +2/+2 as long as you control three or more artifacts.</CardText>
 <Flavor>"We lost our homes and our kin. We won't let those rotters take our future as well."</Flavor>
 <Artist>Mike Bierek</Artist>
@@ -39,7 +39,7 @@
 <No>3</No>
 <Name>Banishment Decree</Name>
 <Type>Instant</Type>
-<ManaCost>3WW (5)</ManaCost>
+<ManaCost>{3}{W}{W}</ManaCost>
 <CardText>Put target artifact, creature, or enchantment on top of its owner's library.</CardText>
 <Flavor>"Unworthy of consecration."
 —Axsh, lesser cenobite</Flavor>
@@ -58,7 +58,7 @@
 <No>4</No>
 <Name>Choking Fumes</Name>
 <Type>Instant</Type>
-<ManaCost>2W (3)</ManaCost>
+<ManaCost>{2}{W}</ManaCost>
 <CardText>Put a -1/-1 counter on each attacking creature.</CardText>
 <Flavor>"Fall to your knees and welcome our embrace."
 —Qal-Sha, Priest of Norn</Flavor>
@@ -77,15 +77,15 @@
 <No>5</No>
 <Name>Divine Offering</Name>
 <Type>Instant</Type>
-<ManaCost>1W (2)</ManaCost>
-<CardText>Destroy target artifact. You gain life equal to its converted mana cost.</CardText>
-<Flavor>"The Phyrexians are vulnerable. Do not despair. We will prevail!"
+<ManaCost>{1}{W}</ManaCost>
+<CardText>Destroy target artifact. You gain life equal to its mana value.</CardText>
+<Flavor>"The Phyrexians *are* vulnerable. Do not despair. We will prevail!"
 —Juryan, rebel leader</Flavor>
 <Artist>Terese Nielsen</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>213760</Multiverseid>
 <Rulings>2004/10/04: If the target artifact becomes illegal before resolution, you do not gain any life.
-2013/07/01: If <Divine Offering> resolves, but the artifact regenerates or has indestructible, you'll still gain the life.</Rulings>
+2013/07/01: If Divine Offering resolves, but the artifact regenerates or has indestructible, you'll still gain the life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -98,7 +98,7 @@
 <No>6</No>
 <Name>Frantic Salvage</Name>
 <Type>Instant</Type>
-<ManaCost>3W (4)</ManaCost>
+<ManaCost>{3}{W}</ManaCost>
 <CardText>Put any number of target artifact cards from your graveyard on top of your library.
 Draw a card.</CardText>
 <Flavor>"We will mourn when there is time. For now, we survive."</Flavor>
@@ -118,17 +118,17 @@ Draw a card.</CardText>
 <SetId>MBS</SetId>
 <No>7</No>
 <Name>Gore Vassal</Name>
-<Type>Creature — Hound 2/1</Type>
-<ManaCost>2W (3)</ManaCost>
+<Type>Creature — Phyrexian Dog 2/1</Type>
+<ManaCost>{2}{W}</ManaCost>
 <CardText>Sacrifice Gore Vassal: Put a -1/-1 counter on target creature. Then if that creature's toughness is 1 or greater, regenerate it.</CardText>
 <Flavor>"Rid them of their unfaithful organs. Bring new hearts to the unbelievers."
-—Tome of Machines, verse 1703</Flavor>
+—*Tome of Machines*, verse 1703</Flavor>
 <Artist>Matt Cavotta</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>213798</Multiverseid>
-<Rulings>2011/06/01: You can activate <Gore Vassal>'s ability targeting itself, but it won't get a -1/-1 counter or regenerate because it'll be an illegal target when the ability resolves.
+<Rulings>2011/06/01: You can activate Gore Vassal's ability targeting itself, but it won't get a -1/-1 counter or regenerate because it'll be an illegal target when the ability resolves.
 2011/06/01: The regeneration shield will last until the turn ends or until it's used.
-2011/06/01: Let's say you activate <Gore Vassal>'s ability targeting a creature with 3 toughness and 2 damage marked on it. The regeneration shield will be created just before the creature is destroyed for having damage marked on it equal to or greater than its toughness. The creature will then regenerate. That is, all damage will be removed from it and it will become tapped; any counters on the creature, including the -1/-1 counter put on by this ability, remain.</Rulings>
+2011/06/01: Let's say you activate Gore Vassal's ability targeting a creature with 3 toughness and 2 damage marked on it. The regeneration shield will be created just before the creature is destroyed for having damage marked on it equal to or greater than its toughness. The creature will then regenerate. That is, all damage will be removed from it and it will become tapped; any counters on the creature, including the -1/-1 counter put on by this ability, remain.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -141,13 +141,13 @@ Draw a card.</CardText>
 <No>8</No>
 <Name>Hero of Bladehold</Name>
 <Type>Creature — Human Knight 3/4</Type>
-<ManaCost>2WW (4)</ManaCost>
+<ManaCost>{2}{W}{W}</ManaCost>
 <CardText>Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)
 Whenever Hero of Bladehold attacks, create two 1/1 white Soldier creature tokens that are tapped and attacking.</CardText>
 <Artist>Austin Hsu</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>214064</Multiverseid>
-<Rulings>2011/06/01: Whenever <Hero of Bladehold> attacks, both abilities will trigger. You can put them onto the stack in any order. If the token-creating ability resolves first, the tokens each get +1/+0 until end of turn from the battle cry ability.
+<Rulings>2011/06/01: Whenever Hero of Bladehold attacks, both abilities will trigger. You can put them onto the stack in any order. If the token-creating ability resolves first, the tokens each get +1/+0 until end of turn from the battle cry ability.
 2011/06/01: You choose which opponent or planeswalker an opponent controls that each token is attacking when it is put onto the battlefield.
 2011/06/01: Although the tokens are attacking, they never were declared as attacking creatures (for purposes of abilities that trigger whenever a creature attacks, for example).</Rulings>
 <Vintage>Legal</Vintage>
@@ -162,14 +162,14 @@ Whenever Hero of Bladehold attacks, create two 1/1 white Soldier creature tokens
 <No>9</No>
 <Name>Kemba's Legion</Name>
 <Type>Creature — Cat Soldier 4/6</Type>
-<ManaCost>5WW (7)</ManaCost>
+<ManaCost>{5}{W}{W}</ManaCost>
 <CardText>Vigilance
 Kemba's Legion can block an additional creature each combat for each Equipment attached to Kemba's Legion.</CardText>
 <Flavor>The squabble over succession was quickly replaced by the struggle to survive.</Flavor>
 <Artist>Anthony Francisco</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>214056</Multiverseid>
-<Rulings>2011/06/01: The number of creatures <Kemba's Legion> can block is calculated when blocking creatures are declared. Take into account the number of Equipment attached to <Kemba's Legion> at that time, as well as any other effects that increase the number of creatures <Kemba's Legion> can block.</Rulings>
+<Rulings>2011/06/01: The number of creatures Kemba's Legion can block is calculated when blocking creatures are declared. Take into account the number of Equipment attached to Kemba's Legion at that time, as well as any other effects that increase the number of creatures Kemba's Legion can block.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -182,13 +182,13 @@ Kemba's Legion can block an additional creature each combat for each Equipment a
 <No>10</No>
 <Name>Leonin Relic-Warder</Name>
 <Type>Creature — Cat Cleric 2/2</Type>
-<ManaCost>WW (2)</ManaCost>
+<ManaCost>{W}{W}</ManaCost>
 <CardText>When Leonin Relic-Warder enters the battlefield, you may exile target artifact or enchantment.
 When Leonin Relic-Warder leaves the battlefield, return the exiled card to the battlefield under its owner's control.</CardText>
 <Artist>Greg Staples</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>222860</Multiverseid>
-<Rulings>2011/06/01: If <Leonin Relic-Warder> leaves the battlefield before its first ability has resolved, its second ability will trigger and when it resolves, do nothing. Then its first ability will resolve and exile the targeted artifact or enchantment with no way to return it to the battlefield.</Rulings>
+<Rulings>2011/06/01: If Leonin Relic-Warder leaves the battlefield before its first ability has resolved, its second ability will trigger and when it resolves, do nothing. Then its first ability will resolve and exile the targeted artifact or enchantment with no way to return it to the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -201,7 +201,7 @@ When Leonin Relic-Warder leaves the battlefield, return the exiled card to the b
 <No>11</No>
 <Name>Leonin Skyhunter</Name>
 <Type>Creature — Cat Knight 2/2</Type>
-<ManaCost>WW (2)</ManaCost>
+<ManaCost>{W}{W}</ManaCost>
 <CardText>Flying</CardText>
 <Flavor>"The infection has spread farther than we could glimpse from the heights of Taj-Nar."</Flavor>
 <Artist>Jana Schirmer & Johannes Voss</Artist>
@@ -219,7 +219,7 @@ When Leonin Relic-Warder leaves the battlefield, return the exiled card to the b
 <No>12</No>
 <Name>Loxodon Partisan</Name>
 <Type>Creature — Elephant Soldier 3/4</Type>
-<ManaCost>4W (5)</ManaCost>
+<ManaCost>{4}{W}</ManaCost>
 <CardText>Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)</CardText>
 <Flavor>"This war is not about loxodon or leonin, Sylvok or Auriok. To defeat these rotters, we must do it together."</Flavor>
 <Artist>Matt Stewart</Artist>
@@ -237,7 +237,7 @@ When Leonin Relic-Warder leaves the battlefield, return the exiled card to the b
 <No>13</No>
 <Name>Master's Call</Name>
 <Type>Instant</Type>
-<ManaCost>2W (3)</ManaCost>
+<ManaCost>{2}{W}</ManaCost>
 <CardText>Create two 1/1 colorless Myr artifact creature tokens.</CardText>
 <Flavor>The need to obey was inscribed on every plate in their bodies.</Flavor>
 <Artist>David Rapoza</Artist>
@@ -255,7 +255,7 @@ When Leonin Relic-Warder leaves the battlefield, return the exiled card to the b
 <No>14</No>
 <Name>Mirran Crusader</Name>
 <Type>Creature — Human Knight 2/2</Type>
-<ManaCost>1WW (3)</ManaCost>
+<ManaCost>{1}{W}{W}</ManaCost>
 <CardText>Double strike, protection from black and from green</CardText>
 <Flavor>A symbol of what Mirrodin once was and hope for what it will be again.</Flavor>
 <Artist>Eric Deschamps</Artist>
@@ -273,13 +273,13 @@ When Leonin Relic-Warder leaves the battlefield, return the exiled card to the b
 <No>15</No>
 <Name>Phyrexian Rebirth</Name>
 <Type>Sorcery</Type>
-<ManaCost>4WW (6)</ManaCost>
-<CardText>Destroy all creatures, then create an X/X colorless Horror artifact creature token, where X is the number of creatures destroyed this way.</CardText>
+<ManaCost>{4}{W}{W}</ManaCost>
+<CardText>Destroy all creatures, then create an X/X colorless Phyrexian Horror artifact creature token, where X is the number of creatures destroyed this way.</CardText>
 <Flavor>As long as one drop of the oil exists, the joyous work continues.</Flavor>
 <Artist>Scott Chou</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>214048</Multiverseid>
-<Rulings>2011/06/01: Any triggered abilities that trigger because a creature was destroyed won't be put onto the stack until after <Phyrexian Rebirth> finishes resolving. This means the Horror creature token can be targeted by those abilities, if applicable.
+<Rulings>2011/06/01: Any triggered abilities that trigger because a creature was destroyed won't be put onto the stack until after Phyrexian Rebirth finishes resolving. This means the Horror creature token can be targeted by those abilities, if applicable.
 2013/07/01: If a creature regenerates or has indestructible, it won't be counted when determining the value of X.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -292,8 +292,8 @@ When Leonin Relic-Warder leaves the battlefield, return the exiled card to the b
 <SetId>MBS</SetId>
 <No>16</No>
 <Name>Priests of Norn</Name>
-<Type>Creature — Cleric 1/4</Type>
-<ManaCost>2W (3)</ManaCost>
+<Type>Creature — Phyrexian Cleric 1/4</Type>
+<ManaCost>{2}{W}</ManaCost>
 <CardText>Vigilance
 Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)</CardText>
 <Flavor>"May our blessings sever the tongues of the forsaken."
@@ -312,8 +312,8 @@ Infect (This creature deals damage to creatures in the form of -1/-1 counters an
 <SetId>MBS</SetId>
 <No>17</No>
 <Name>Tine Shrike</Name>
-<Type>Creature — Bird 2/1</Type>
-<ManaCost>3W (4)</ManaCost>
+<Type>Creature — Phyrexian Bird 2/1</Type>
+<ManaCost>{3}{W}</ManaCost>
 <CardText>Flying
 Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)</CardText>
 <Flavor>A new bird of prey—one that hunts sentience.</Flavor>
@@ -332,7 +332,7 @@ Infect (This creature deals damage to creatures in the form of -1/-1 counters an
 <No>18</No>
 <Name>Victory's Herald</Name>
 <Type>Creature — Angel 4/4</Type>
-<ManaCost>3WWW (6)</ManaCost>
+<ManaCost>{3}{W}{W}{W}</ManaCost>
 <CardText>Flying
 Whenever Victory's Herald attacks, attacking creatures gain flying and lifelink until end of turn.</CardText>
 <Flavor>The corruption stirred the heavens above, awaking a shining champion.</Flavor>
@@ -340,7 +340,7 @@ Whenever Victory's Herald attacks, attacking creatures gain flying and lifelink 
 <Watermark>Mirran</Watermark>
 <Multiverseid>214030</Multiverseid>
 <Rulings>2011/06/01: Even though the triggered ability affects only attacking creatures, the bonuses will remain for the rest of the turn.
-2011/06/01: <Victory's Herald> also gains flying (which will likely be redundant) and lifelink if it's still attacking when the ability resolves.</Rulings>
+2011/06/01: Victory's Herald also gains flying (which will likely be redundant) and lifelink if it's still attacking when the ability resolves.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -353,7 +353,7 @@ Whenever Victory's Herald attacks, attacking creatures gain flying and lifelink 
 <No>19</No>
 <Name>White Sun's Zenith</Name>
 <Type>Instant</Type>
-<ManaCost>XWWW (3)</ManaCost>
+<ManaCost>{X}{W}{W}{W}</ManaCost>
 <CardText>Create X 2/2 white Cat creature tokens. Shuffle White Sun's Zenith into its owner's library.</CardText>
 <Flavor>After the Battle of Liet Field, the white sun crested above Taj-Nar, bringing hope to all who survived the carnage.</Flavor>
 <Artist>Mike Bierek</Artist>
@@ -372,15 +372,13 @@ Whenever Victory's Herald attacks, attacking creatures gain flying and lifelink 
 <No>20</No>
 <Name>Blue Sun's Zenith</Name>
 <Type>Instant</Type>
-<ManaCost>XUUU (3)</ManaCost>
+<ManaCost>{X}{U}{U}{U}</ManaCost>
 <CardText>Target player draws X cards. Shuffle Blue Sun's Zenith into its owner's library.</CardText>
 <Flavor>"The Origin Query will wait. We must ensure we survive to return to it."
 —Pelyus, vedalken ordinar</Flavor>
 <Artist>Izzy</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>221556</Multiverseid>
-<Rulings>2011/06/01: If this spell doesn't resolve, none of its effects occur. In particular, it will go to the graveyard rather than to its owner's library.
-2018/03/16: Because you follow the spell's instructions in order, you won't be able to draw the same <Blue Sun's Zenith> that you cast.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -393,7 +391,7 @@ Whenever Victory's Herald attacks, attacking creatures gain flying and lifelink 
 <No>21</No>
 <Name>Consecrated Sphinx</Name>
 <Type>Creature — Sphinx 4/6</Type>
-<ManaCost>4UU (6)</ManaCost>
+<ManaCost>{4}{U}{U}</ManaCost>
 <CardText>Flying
 Whenever an opponent draws a card, you may draw two cards.</CardText>
 <Flavor>Blessed by the hands of Jin-Gitaxias.</Flavor>
@@ -402,7 +400,7 @@ Whenever an opponent draws a card, you may draw two cards.</CardText>
 <Multiverseid>214063</Multiverseid>
 <Rulings>2017/11/17: You may either draw two cards or not draw at all. You can't choose to draw only one card.
 2017/11/17: The ability triggers once for each card an opponent draws. You choose whether to draw two cards as each of those abilities resolves.
-2017/11/17: If each player controls a <Consecrated Sphinx>, their abilities will cause each other to trigger until one player chooses not to draw cards.</Rulings>
+2017/11/17: If each player controls a Consecrated Sphinx, their abilities will cause each other to trigger until one player chooses not to draw cards.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -415,7 +413,7 @@ Whenever an opponent draws a card, you may draw two cards.</CardText>
 <No>22</No>
 <Name>Corrupted Conscience</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>3UU (5)</ManaCost>
+<ManaCost>{3}{U}{U}</ManaCost>
 <CardText>Enchant creature
 You control enchanted creature.
 Enchanted creature has infect. (It deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)</CardText>
@@ -436,17 +434,17 @@ Enchanted creature has infect. (It deals damage to creatures in the form of -1/-
 <No>23</No>
 <Name>Cryptoplasm</Name>
 <Type>Creature — Shapeshifter 2/2</Type>
-<ManaCost>1UU (3)</ManaCost>
+<ManaCost>{1}{U}{U}</ManaCost>
 <CardText>At the beginning of your upkeep, you may have Cryptoplasm become a copy of another target creature, except it has this ability.</CardText>
 <Flavor>"If left in the enemy's shape too long, it might be lost to them."
 —Vy Covalt, Neurok agent</Flavor>
 <Artist>Eric Deschamps</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>214037</Multiverseid>
-<Rulings>2011/06/01: You choose the target for the triggered ability when the ability is put onto the stack. You choose whether or not <Cryptoplasm> becomes a copy of that creature when the ability resolves.
+<Rulings>2011/06/01: You choose the target for the triggered ability when the ability is put onto the stack. You choose whether or not Cryptoplasm becomes a copy of that creature when the ability resolves.
 2011/06/01: The copy effect lasts indefinitely. Often, it will last until it is overwritten by another copy effect (if it copies another creature on a future turn, perhaps.)
-2011/06/01: If the creature is an illegal target when the ability tries to resolve, it won't resolve. <Cryptoplasm> won't become a copy of that creature; it remains whatever it was before.
-2011/06/01: If another creature becomes a copy of <Cryptoplasm>, it will become a copy of whatever <Cryptoplasm> is currently copying (if anything), plus it will have <Cryptoplasm>'s triggered ability.</Rulings>
+2011/06/01: If the creature is an illegal target when the ability tries to resolve, it won't resolve. Cryptoplasm won't become a copy of that creature; it remains whatever it was before.
+2011/06/01: If another creature becomes a copy of Cryptoplasm, it will become a copy of whatever Cryptoplasm is currently copying (if anything), plus it will have Cryptoplasm's triggered ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -459,8 +457,8 @@ Enchanted creature has infect. (It deals damage to creatures in the form of -1/-
 <No>24</No>
 <Name>Distant Memories</Name>
 <Type>Sorcery</Type>
-<ManaCost>2UU (4)</ManaCost>
-<CardText>Search your library for a card, exile it, then shuffle your library. Any opponent may have you put that card into your hand. If no player does, you draw three cards.</CardText>
+<ManaCost>{2}{U}{U}</ManaCost>
+<CardText>Search your library for a card, exile it, then shuffle. Any opponent may have you put that card into your hand. If no player does, you draw three cards.</CardText>
 <Flavor>"The fleeting shadows of his primitive self have all but vanished."
 —Jin-Gitaxias, Core Augur</Flavor>
 <Artist>Karl Kopinski</Artist>
@@ -481,14 +479,14 @@ Enchanted creature has infect. (It deals damage to creatures in the form of -1/-
 <No>25</No>
 <Name>Fuel for the Cause</Name>
 <Type>Instant</Type>
-<ManaCost>2UU (4)</ManaCost>
+<ManaCost>{2}{U}{U}</ManaCost>
 <CardText>Counter target spell, then proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)</CardText>
 <Flavor>"Your ideas will be discarded and your will repurposed."</Flavor>
 <Artist>Steven Belledin</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>213736</Multiverseid>
-<Rulings>2011/06/01: You must be able to target another spell in order to cast <Fuel for the Cause>. You can't just cast it in order to proliferate, and it can't target itself.
-2011/06/01: If the spell is an illegal target when <Fuel for the Cause> tries to resolve, it won't resolve. You won't proliferate.</Rulings>
+<Rulings>2011/06/01: You must be able to target another spell in order to cast Fuel for the Cause. You can't just cast it in order to proliferate, and it can't target itself.
+2011/06/01: If the spell is an illegal target when Fuel for the Cause tries to resolve, it won't resolve. You won't proliferate.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -501,7 +499,7 @@ Enchanted creature has infect. (It deals damage to creatures in the form of -1/-
 <No>26</No>
 <Name>Mirran Spy</Name>
 <Type>Creature — Drone 1/3</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>Flying
 Whenever you cast an artifact spell, you may untap target creature.</CardText>
 <Flavor>Accurate information is a precious commodity in times of war.</Flavor>
@@ -520,14 +518,14 @@ Whenever you cast an artifact spell, you may untap target creature.</CardText>
 <No>27</No>
 <Name>Mitotic Manipulation</Name>
 <Type>Sorcery</Type>
-<ManaCost>1UU (3)</ManaCost>
+<ManaCost>{1}{U}{U}</ManaCost>
 <CardText>Look at the top seven cards of your library. You may put one of those cards onto the battlefield if it has the same name as a permanent. Put the rest on the bottom of your library in any order.</CardText>
 <Flavor>"They can't even comprehend nature. How could they improve it?"
 —Venser</Flavor>
 <Artist>Dan Scott</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>214071</Multiverseid>
-<Rulings>2011/06/01: "The same name as a permanent" means the same name as a permanent currently on the battlefield as <Mitotic Manipulation> resolves.
+<Rulings>2011/06/01: "The same name as a permanent" means the same name as a permanent currently on the battlefield as Mitotic Manipulation resolves.
 2011/06/01: No matter how many of the seven cards have the same name as a permanent, you can put only one of them onto the battlefield.
 2011/06/01: You don't reveal any of the other cards or the order in which they go to the bottom of your library.</Rulings>
 <Vintage>Legal</Vintage>
@@ -542,7 +540,7 @@ Whenever you cast an artifact spell, you may untap target creature.</CardText>
 <No>28</No>
 <Name>Neurok Commando</Name>
 <Type>Creature — Human Rogue 2/1</Type>
-<ManaCost>1UU (3)</ManaCost>
+<ManaCost>{1}{U}{U}</ManaCost>
 <CardText>Shroud (This creature can't be the target of spells or abilities.)
 Whenever Neurok Commando deals combat damage to a player, you may draw a card.</CardText>
 <Flavor>"There's no more time for secluded study. Answers are there only for those with the courage to take them."</Flavor>
@@ -561,8 +559,8 @@ Whenever Neurok Commando deals combat damage to a player, you may draw a card.</
 <SetId>MBS</SetId>
 <No>29</No>
 <Name>Oculus</Name>
-<Type>Creature — Homunculus 1/1</Type>
-<ManaCost>1U (2)</ManaCost>
+<Type>Creature — Phyrexian Homunculus 1/1</Type>
+<ManaCost>{1}{U}</ManaCost>
 <CardText>When Oculus dies, you may draw a card.</CardText>
 <Flavor>"In its gaze I saw no mercy, no recognition that I was worthy to exist."
 —Kara Vrist, Neurok agent</Flavor>
@@ -581,7 +579,7 @@ Whenever Neurok Commando deals combat damage to a player, you may draw a card.</
 <No>30</No>
 <Name>Quicksilver Geyser</Name>
 <Type>Instant</Type>
-<ManaCost>4U (5)</ManaCost>
+<ManaCost>{4}{U}</ManaCost>
 <CardText>Return up to two target nonland permanents to their owners' hands.</CardText>
 <Flavor>"Phyrexians are tenacious. That's not the same thing as clever."
 —Tezzeret</Flavor>
@@ -599,8 +597,8 @@ Whenever Neurok Commando deals combat damage to a player, you may draw a card.</
 <SetId>MBS</SetId>
 <No>31</No>
 <Name>Serum Raker</Name>
-<Type>Creature — Drake 3/2</Type>
-<ManaCost>2UU (4)</ManaCost>
+<Type>Creature — Phyrexian Drake 3/2</Type>
+<ManaCost>{2}{U}{U}</ManaCost>
 <CardText>Flying
 When Serum Raker dies, each player discards a card.</CardText>
 <Flavor>The serum from the blinkmoths they gather greases the joints of witch engines.</Flavor>
@@ -619,15 +617,15 @@ When Serum Raker dies, each player discards a card.</CardText>
 <No>32</No>
 <Name>Spire Serpent</Name>
 <Type>Creature — Serpent 3/5</Type>
-<ManaCost>4U (5)</ManaCost>
+<ManaCost>{4}{U}</ManaCost>
 <CardText>Defender
 Metalcraft — As long as you control three or more artifacts, Spire Serpent gets +2/+2 and can attack as though it didn't have defender.</CardText>
 <Flavor>A mirror to draw its eye, a rod to rouse its rage, and a sword to break its bonds.</Flavor>
 <Artist>Johann Bodin</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>213801</Multiverseid>
-<Rulings>2011/06/01: <Spire Serpent> still has defender if you control three or more artifacts, although it will be able to attack.
-2011/06/01: If <Spire Serpent> has been declared as an attacker, and you stop controlling three or more artifacts later in combat, <Spire Serpent> continues being an attacking creature until combat ends.</Rulings>
+<Rulings>2011/06/01: Spire Serpent still has defender if you control three or more artifacts, although it will be able to attack.
+2011/06/01: If Spire Serpent has been declared as an attacker, and you stop controlling three or more artifacts later in combat, Spire Serpent continues being an attacking creature until combat ends.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -640,7 +638,7 @@ Metalcraft — As long as you control three or more artifacts, Spire Serpent get
 <No>33</No>
 <Name>Steel Sabotage</Name>
 <Type>Instant</Type>
-<ManaCost>U (1)</ManaCost>
+<ManaCost>{U}</ManaCost>
 <CardText>Choose one —
 • Counter target artifact spell.
 • Return target artifact to its owner's hand.</CardText>
@@ -662,8 +660,8 @@ Metalcraft — As long as you control three or more artifacts, Spire Serpent get
 <No>34</No>
 <Name>Treasure Mage</Name>
 <Type>Creature — Human Wizard 2/2</Type>
-<ManaCost>2U (3)</ManaCost>
-<CardText>When Treasure Mage enters the battlefield, you may search your library for an artifact card with converted mana cost 6 or greater, reveal it, put it into your hand, then shuffle your library.</CardText>
+<ManaCost>{2}{U}</ManaCost>
+<CardText>When Treasure Mage enters the battlefield, you may search your library for an artifact card with mana value 6 or greater, reveal it, put it into your hand, then shuffle.</CardText>
 <Artist>Ryan Pancoast</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>213753</Multiverseid>
@@ -680,14 +678,14 @@ Metalcraft — As long as you control three or more artifacts, Spire Serpent get
 <No>35</No>
 <Name>Turn the Tide</Name>
 <Type>Instant</Type>
-<ManaCost>1U (2)</ManaCost>
+<ManaCost>{1}{U}</ManaCost>
 <CardText>Creatures your opponents control get -2/-0 until end of turn.</CardText>
 <Flavor>"Let their mindless armies come and face the might of genius."
 —Varil, Neurok partisan</Flavor>
 <Artist>Jason Felix</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>213821</Multiverseid>
-<Rulings>2011/06/01: Only creatures your opponents control when <Turn the Tide> resolves are affected. Creatures that enter the battlefield later in the turn are not.</Rulings>
+<Rulings>2011/06/01: Only creatures your opponents control when Turn the Tide resolves are affected. Creatures that enter the battlefield later in the turn are not.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -699,8 +697,8 @@ Metalcraft — As long as you control three or more artifacts, Spire Serpent get
 <SetId>MBS</SetId>
 <No>36</No>
 <Name>Vedalken Anatomist</Name>
-<Type>Creature — Vedalken Wizard 1/2</Type>
-<ManaCost>2U (3)</ManaCost>
+<Type>Creature — Phyrexian Vedalken Wizard 1/2</Type>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>{2}{U}, {T}: Put a -1/-1 counter on target creature. You may tap or untap that creature.</CardText>
 <Flavor>"Specimen 211 examination report. Observation: graft sublimation incomplete. Result: death. Prepare specimen 212."</Flavor>
 <Artist>Greg Staples</Artist>
@@ -719,7 +717,7 @@ Metalcraft — As long as you control three or more artifacts, Spire Serpent get
 <No>37</No>
 <Name>Vedalken Infuser</Name>
 <Type>Creature — Vedalken Wizard 1/4</Type>
-<ManaCost>3U (4)</ManaCost>
+<ManaCost>{3}{U}</ManaCost>
 <CardText>At the beginning of your upkeep, you may put a charge counter on target artifact.</CardText>
 <Flavor>"All plans begin as dreams. I intend to awaken them."</Flavor>
 <Artist>Ryan Pancoast</Artist>
@@ -738,7 +736,7 @@ Metalcraft — As long as you control three or more artifacts, Spire Serpent get
 <No>38</No>
 <Name>Vivisection</Name>
 <Type>Sorcery</Type>
-<ManaCost>3U (4)</ManaCost>
+<ManaCost>{3}{U}</ManaCost>
 <CardText>As an additional cost to cast this spell, sacrifice a creature.
 Draw three cards.</CardText>
 <Flavor>Phyrexians research with the grace of surgeons and the finesse of butchers.</Flavor>
@@ -759,7 +757,7 @@ Draw three cards.</CardText>
 <No>39</No>
 <Name>Black Sun's Zenith</Name>
 <Type>Sorcery</Type>
-<ManaCost>XBB (2)</ManaCost>
+<ManaCost>{X}{B}{B}</ManaCost>
 <CardText>Put X -1/-1 counters on each creature. Shuffle Black Sun's Zenith into its owner's library.</CardText>
 <Flavor>"Under the suns, Mirrodin kneels and begs us for perfection."
 —Geth, Lord of the Vault</Flavor>
@@ -778,8 +776,8 @@ Draw three cards.</CardText>
 <SetId>MBS</SetId>
 <No>40</No>
 <Name>Caustic Hound</Name>
-<Type>Creature — Hound 4/4</Type>
-<ManaCost>5B (6)</ManaCost>
+<Type>Creature — Phyrexian Dog 4/4</Type>
+<ManaCost>{5}{B}</ManaCost>
 <CardText>When Caustic Hound dies, each player loses 4 life.</CardText>
 <Flavor>At first, the Mirrans aimed for its exposed gut. The survivors quickly learned to do otherwise.</Flavor>
 <Artist>Dave Allsop</Artist>
@@ -796,8 +794,8 @@ Draw three cards.</CardText>
 <SetId>MBS</SetId>
 <No>41</No>
 <Name>Flensermite</Name>
-<Type>Creature — Gremlin 1/1</Type>
-<ManaCost>1B (2)</ManaCost>
+<Type>Creature — Phyrexian Gremlin 1/1</Type>
+<ManaCost>{1}{B}</ManaCost>
 <CardText>Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)
 Lifelink (Damage dealt by this creature also causes you to gain that much life.)</CardText>
 <Artist>Dave Allsop</Artist>
@@ -814,8 +812,8 @@ Lifelink (Damage dealt by this creature also causes you to gain that much life.)
 <SetId>MBS</SetId>
 <No>42</No>
 <Name>Flesh-Eater Imp</Name>
-<Type>Creature — Imp 2/2</Type>
-<ManaCost>3B (4)</ManaCost>
+<Type>Creature — Phyrexian Imp 2/2</Type>
+<ManaCost>{3}{B}</ManaCost>
 <CardText>Flying
 Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)
 Sacrifice a creature: Flesh-Eater Imp gets +1/+1 until end of turn.</CardText>
@@ -834,13 +832,13 @@ Sacrifice a creature: Flesh-Eater Imp gets +1/+1 until end of turn.</CardText>
 <No>43</No>
 <Name>Go for the Throat</Name>
 <Type>Instant</Type>
-<ManaCost>1B (2)</ManaCost>
+<ManaCost>{1}{B}</ManaCost>
 <CardText>Destroy target nonartifact creature.</CardText>
 <Flavor>Having flesh is increasingly a liability on Mirrodin.</Flavor>
 <Artist>David Rapoza</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>213799</Multiverseid>
-<Rulings>2011/06/01: If the targeted creature is also an artifact when <Go for the Throat> tries to resolve, it won't resolve.</Rulings>
+<Rulings>2011/06/01: If the targeted creature is also an artifact when Go for the Throat tries to resolve, it won't resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -853,7 +851,7 @@ Sacrifice a creature: Flesh-Eater Imp gets +1/+1 until end of turn.</CardText>
 <No>44</No>
 <Name>Gruesome Encore</Name>
 <Type>Sorcery</Type>
-<ManaCost>2B (3)</ManaCost>
+<ManaCost>{2}{B}</ManaCost>
 <CardText>Put target creature card from an opponent's graveyard onto the battlefield under your control. It gains haste. Exile it at the beginning of the next end step. If that creature would leave the battlefield, exile it instead of putting it anywhere else.</CardText>
 <Artist>Adrian Smith</Artist>
 <Watermark>Phyrexian</Watermark>
@@ -870,8 +868,8 @@ Sacrifice a creature: Flesh-Eater Imp gets +1/+1 until end of turn.</CardText>
 <No>45</No>
 <Name>Horrifying Revelation</Name>
 <Type>Sorcery</Type>
-<ManaCost>B (1)</ManaCost>
-<CardText>Target player discards a card, then puts the top card of their library into their graveyard.</CardText>
+<ManaCost>{B}</ManaCost>
+<CardText>Target player discards a card, then mills a card.</CardText>
 <Flavor>"Ours is a glorious transmission! Behold a future where all bow to the Father of Machines."
 —Isila, Priest of Sheoldred</Flavor>
 <Artist>Shelly Wan</Artist>
@@ -889,15 +887,17 @@ Sacrifice a creature: Flesh-Eater Imp gets +1/+1 until end of turn.</CardText>
 <SetId>MBS</SetId>
 <No>46</No>
 <Name>Massacre Wurm</Name>
-<Type>Creature — Wurm 6/5</Type>
-<ManaCost>3BBB (6)</ManaCost>
+<Type>Creature — Phyrexian Wurm 6/5</Type>
+<ManaCost>{3}{B}{B}{B}</ManaCost>
 <CardText>When Massacre Wurm enters the battlefield, creatures your opponents control get -2/-2 until end of turn.
 Whenever a creature an opponent controls dies, that player loses 2 life.</CardText>
 <Artist>Jason Chan</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>214044</Multiverseid>
-<Rulings>2011/06/01: If an opponent controls a creature you own, that opponent will lose 2 life when that creature is put into your graveyard from the battlefield.
-2011/06/01: If a creature an opponent controls is put into the graveyard from the battlefield at the same time as <Massacre Wurm>, its last ability will trigger.</Rulings>
+<Rulings>2020/06/23: Massacre Wurm's first ability affects only creatures your opponents control at the time it resolves. Creatures they begin to control later in the turn won't get -2/-2.
+2020/06/23: Massacre Wurm's triggered ability triggers if a creature an opponent controls dies for any reason, including from its first ability reducing its toughness to 0, as long as Massacre Wurm remains on the battlefield.
+2020/06/23: If a creature an opponent controls dies at the same time as Massacre Wurm, Massacre Wurm's last ability triggers for that creature.
+2020/06/23: If your life total is brought to 0 or less at the same time that a creature an opponent controls is dealt lethal damage, you lose the game before Massacre Wurm's last ability goes on the stack.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -910,7 +910,7 @@ Whenever a creature an opponent controls dies, that player loses 2 life.</CardTe
 <No>47</No>
 <Name>Morbid Plunder</Name>
 <Type>Sorcery</Type>
-<ManaCost>1BB (3)</ManaCost>
+<ManaCost>{1}{B}{B}</ManaCost>
 <CardText>Return up to two target creature cards from your graveyard to your hand.</CardText>
 <Flavor>Even the dead are raw materials for the Phyrexian vision of perfection.</Flavor>
 <Artist>Mike Bierek</Artist>
@@ -927,16 +927,16 @@ Whenever a creature an opponent controls dies, that player loses 2 life.</CardTe
 <SetId>MBS</SetId>
 <No>48</No>
 <Name>Nested Ghoul</Name>
-<Type>Creature — Zombie Warrior 4/2</Type>
-<ManaCost>3BB (5)</ManaCost>
-<CardText>Whenever a source deals damage to Nested Ghoul, create a 2/2 black Zombie creature token.</CardText>
+<Type>Creature — Phyrexian Zombie Warrior 4/2</Type>
+<ManaCost>{3}{B}{B}</ManaCost>
+<CardText>Whenever a source deals damage to Nested Ghoul, create a 2/2 black Phyrexian Zombie creature token.</CardText>
 <Flavor>"The chest cavity is cleared of useless meat. I know just what to do with the space."
 —Gyed, Vault Priest</Flavor>
 <Artist>Dave Kendall</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>213816</Multiverseid>
-<Rulings>2011/06/01: If multiple sources deal damage to <Nested Ghoul> simultaneously (because it was blocked by multiple creatures, for example), the ability will trigger for each source dealing damage to <Nested Ghoul>.
-2011/06/01: <Nested Ghoul>'s ability will trigger if a source with infect deals damage to it.</Rulings>
+<Rulings>2011/06/01: Nested Ghoul's ability will trigger if a source with infect deals damage to it.
+2011/06/01: If multiple sources deal damage to Nested Ghoul simultaneously (because it was blocked by multiple creatures, for example), the ability will trigger for each source dealing damage to Nested Ghoul.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -949,10 +949,10 @@ Whenever a creature an opponent controls dies, that player loses 2 life.</CardTe
 <No>49</No>
 <Name>Phyresis</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>1B (2)</ManaCost>
+<ManaCost>{1}{B}</ManaCost>
 <CardText>Enchant creature
 Enchanted creature has infect. (It deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)</CardText>
-<Flavor>"Perfection is at hand. You have been freed of weakness and made compleat."
+<Flavor>"Perfection is at hand. You have been freed of weakness and made *compleat*."
 —Sheoldred, Whispering One</Flavor>
 <Artist>Izzy</Artist>
 <Watermark>Phyrexian</Watermark>
@@ -969,14 +969,14 @@ Enchanted creature has infect. (It deals damage to creatures in the form of -1/-
 <SetId>MBS</SetId>
 <No>50</No>
 <Name>Phyrexian Crusader</Name>
-<Type>Creature — Zombie Knight 2/2</Type>
-<ManaCost>1BB (3)</ManaCost>
+<Type>Creature — Phyrexian Zombie Knight 2/2</Type>
+<ManaCost>{1}{B}{B}</ManaCost>
 <CardText>First strike, protection from red and from white
 Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)</CardText>
 <Artist>Eric Deschamps</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>213724</Multiverseid>
-<Rulings>2011/06/01: If <Phyrexian Crusader> blocks or is blocked by a creature without first strike or double strike, the damage dealt by <Phyrexian Crusader> results in -1/-1 counters that will affect how much damage the other creature assigns (if it's still on the battlefield).</Rulings>
+<Rulings>2011/06/01: If Phyrexian Crusader blocks or is blocked by a creature without first strike or double strike, the damage dealt by Phyrexian Crusader results in -1/-1 counters that will affect how much damage the other creature assigns (if it's still on the battlefield).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -988,8 +988,8 @@ Infect (This creature deals damage to creatures in the form of -1/-1 counters an
 <SetId>MBS</SetId>
 <No>51</No>
 <Name>Phyrexian Rager</Name>
-<Type>Creature — Horror 2/2</Type>
-<ManaCost>2B (3)</ManaCost>
+<Type>Creature — Phyrexian Horror 2/2</Type>
+<ManaCost>{2}{B}</ManaCost>
 <CardText>When Phyrexian Rager enters the battlefield, you draw a card and you lose 1 life.</CardText>
 <Flavor>"I believe many worlds will bow to Phyrexia. Mirrodin is merely the first."
 —Sheoldred, Whispering One</Flavor>
@@ -1007,8 +1007,8 @@ Infect (This creature deals damage to creatures in the form of -1/-1 counters an
 <SetId>MBS</SetId>
 <No>52</No>
 <Name>Phyrexian Vatmother</Name>
-<Type>Creature — Horror 4/5</Type>
-<ManaCost>2BB (4)</ManaCost>
+<Type>Creature — Phyrexian Horror 4/5</Type>
+<ManaCost>{2}{B}{B}</ManaCost>
 <CardText>Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)
 At the beginning of your upkeep, you get a poison counter.</CardText>
 <Artist>Stephan Martiniere</Artist>
@@ -1026,14 +1026,14 @@ At the beginning of your upkeep, you get a poison counter.</CardText>
 <No>53</No>
 <Name>Sangromancer</Name>
 <Type>Creature — Vampire Shaman 3/3</Type>
-<ManaCost>2BB (4)</ManaCost>
+<ManaCost>{2}{B}{B}</ManaCost>
 <CardText>Flying
 Whenever a creature an opponent controls dies, you may gain 3 life.
 Whenever an opponent discards a card, you may gain 3 life.</CardText>
 <Artist>Igor Kieryluk</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>214062</Multiverseid>
-<Rulings>2011/06/01: If one or more creatures an opponent controls are put into the graveyard at the same time as <Sangromancer>, <Sangromancer>'s first ability will trigger that many times.</Rulings>
+<Rulings>2011/06/01: If one or more creatures an opponent controls are put into the graveyard at the same time as Sangromancer, Sangromancer's first ability will trigger that many times.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1045,8 +1045,8 @@ Whenever an opponent discards a card, you may gain 3 life.</CardText>
 <SetId>MBS</SetId>
 <No>54</No>
 <Name>Scourge Servant</Name>
-<Type>Creature — Zombie 3/3</Type>
-<ManaCost>4B (5)</ManaCost>
+<Type>Creature — Phyrexian Zombie 3/3</Type>
+<ManaCost>{4}{B}</ManaCost>
 <CardText>Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)</CardText>
 <Flavor>"The union of the oil and necrogen has produced many pleasing reactions."
 —Sheoldred, Whispering One</Flavor>
@@ -1064,15 +1064,15 @@ Whenever an opponent discards a card, you may gain 3 life.</CardText>
 <SetId>MBS</SetId>
 <No>55</No>
 <Name>Septic Rats</Name>
-<Type>Creature — Rat 2/2</Type>
-<ManaCost>1BB (3)</ManaCost>
+<Type>Creature — Phyrexian Rat 2/2</Type>
+<ManaCost>{1}{B}{B}</ManaCost>
 <CardText>Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)
 Whenever Septic Rats attacks, if defending player is poisoned, it gets +1/+1 until end of turn.</CardText>
 <Artist>Cos Koniotis</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>213748</Multiverseid>
 <Rulings>2011/06/01: A player is poisoned if that player has one or more poison counters.
-2011/06/01: <Septic Rats> gets a maximum of +1/+1 from its ability, no matter how many poison counters the defending player has.</Rulings>
+2011/06/01: Septic Rats gets a maximum of +1/+1 from its ability, no matter how many poison counters the defending player has.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1085,14 +1085,14 @@ Whenever Septic Rats attacks, if defending player is poisoned, it gets +1/+1 unt
 <No>56</No>
 <Name>Spread the Sickness</Name>
 <Type>Sorcery</Type>
-<ManaCost>4B (5)</ManaCost>
+<ManaCost>{4}{B}</ManaCost>
 <CardText>Destroy target creature, then proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)</CardText>
 <Flavor>Life is ephemeral. Phyrexia is eternal.</Flavor>
 <Artist>Jaime Jones</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>221557</Multiverseid>
-<Rulings>2011/06/01: If the creature is an illegal target when <Spread the Sickness> tries to resolve, the spell doesn't resolve. You won't proliferate.
-2013/07/01: If the creature regenerates or has indestructible when <Spread the Sickness> resolves, you'll still proliferate.</Rulings>
+<Rulings>2011/06/01: If the creature is an illegal target when Spread the Sickness tries to resolve, the spell doesn't resolve. You won't proliferate.
+2013/07/01: If the creature regenerates or has indestructible when Spread the Sickness resolves, you'll still proliferate.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1105,13 +1105,13 @@ Whenever Septic Rats attacks, if defending player is poisoned, it gets +1/+1 unt
 <No>57</No>
 <Name>Virulent Wound</Name>
 <Type>Instant</Type>
-<ManaCost>B (1)</ManaCost>
+<ManaCost>{B}</ManaCost>
 <CardText>Put a -1/-1 counter on target creature. When that creature dies this turn, its controller gets a poison counter.</CardText>
 <Flavor>Sadly, the extent of Gerkk's healing knowledge was "don't pick at it."</Flavor>
 <Artist>Whit Brachna</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>213777</Multiverseid>
-<Rulings>2011/06/01: If the creature is not put into a graveyard on the turn <Virulent Wound> resolves, its controller won't get a poison counter.</Rulings>
+<Rulings>2011/06/01: If the creature is not put into a graveyard on the turn Virulent Wound resolves, its controller won't get a poison counter.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1124,7 +1124,7 @@ Whenever Septic Rats attacks, if defending player is poisoned, it gets +1/+1 unt
 <No>58</No>
 <Name>Blisterstick Shaman</Name>
 <Type>Creature — Goblin Shaman 2/1</Type>
-<ManaCost>2R (3)</ManaCost>
+<ManaCost>{2}{R}</ManaCost>
 <CardText>When Blisterstick Shaman enters the battlefield, it deals 1 damage to any target.</CardText>
 <Flavor>A productive warren requires a good deal of prodding.</Flavor>
 <Artist>Svetlin Velinov</Artist>
@@ -1142,13 +1142,13 @@ Whenever Septic Rats attacks, if defending player is poisoned, it gets +1/+1 unt
 <No>59</No>
 <Name>Burn the Impure</Name>
 <Type>Instant</Type>
-<ManaCost>1R (2)</ManaCost>
+<ManaCost>{1}{R}</ManaCost>
 <CardText>Burn the Impure deals 3 damage to target creature. If that creature has infect, Burn the Impure deals 3 damage to that creature's controller.</CardText>
 <Flavor>Flame doesn't kneel to Phyrexia.</Flavor>
 <Artist>Nic Klein</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>213771</Multiverseid>
-<Rulings>2011/06/01: If the creature is an illegal target when <Burn the Impure> resolves, the spell won't resolve and none of its effects will happen, even if that creature has infect.</Rulings>
+<Rulings>2011/06/01: If the creature is an illegal target when Burn the Impure resolves, the spell won't resolve and none of its effects will happen, even if that creature has infect.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1161,16 +1161,16 @@ Whenever Septic Rats attacks, if defending player is poisoned, it gets +1/+1 unt
 <No>60</No>
 <Name>Concussive Bolt</Name>
 <Type>Sorcery</Type>
-<ManaCost>3RR (5)</ManaCost>
+<ManaCost>{3}{R}{R}</ManaCost>
 <CardText>Concussive Bolt deals 4 damage to target player or planeswalker.
 Metalcraft — If you control three or more artifacts, creatures controlled by that player or by that planeswalker's controller can't block this turn.</CardText>
 <Flavor>Shock one, awe the rest.</Flavor>
 <Artist>Johann Bodin</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>213756</Multiverseid>
-<Rulings>2011/06/01: The number of artifacts you control is checked only once: when <Concussive Bolt> resolves. If you don't control three or more artifacts at that time, creatures will be able to block that turn, even if you gain control of more artifacts later in the turn.
-2011/06/01: If the player is an illegal target when <Concussive Bolt> resolves, the spell won't resolve. None of its effects will happen, even if you control three or more artifacts.
-2011/06/01: If you controlled three or more artifacts as <Concussive Bolt> resolved, the targeted player won't be able to block with any creatures this turn. That is, the set of affected creatures isn't locked in as the spell resolves.</Rulings>
+<Rulings>2011/06/01: The number of artifacts you control is checked only once: when Concussive Bolt resolves. If you don't control three or more artifacts at that time, creatures will be able to block that turn, even if you gain control of more artifacts later in the turn.
+2011/06/01: If the player is an illegal target when Concussive Bolt resolves, the spell won't resolve. None of its effects will happen, even if you control three or more artifacts.
+2011/06/01: If you controlled three or more artifacts as Concussive Bolt resolved, the targeted player won't be able to block with any creatures this turn. That is, the set of affected creatures isn't locked in as the spell resolves.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1183,13 +1183,13 @@ Metalcraft — If you control three or more artifacts, creatures controlled by t
 <No>61</No>
 <Name>Crush</Name>
 <Type>Instant</Type>
-<ManaCost>R (1)</ManaCost>
+<ManaCost>{R}</ManaCost>
 <CardText>Destroy target noncreature artifact.</CardText>
 <Flavor>A golem's hands know no tenderness.</Flavor>
 <Artist>Matt Stewart</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>213806</Multiverseid>
-<Rulings>2011/06/01: If the targeted artifact is also a creature when <Crush> tries to resolve, it won't resolve.</Rulings>
+<Rulings>2011/06/01: If the targeted artifact is also a creature when Crush tries to resolve, it won't resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1202,8 +1202,8 @@ Metalcraft — If you control three or more artifacts, creatures controlled by t
 <No>62</No>
 <Name>Galvanoth</Name>
 <Type>Creature — Beast 3/3</Type>
-<ManaCost>3RR (5)</ManaCost>
-<CardText>At the beginning of your upkeep, you may look at the top card of your library. If it's an instant or sorcery card, you may cast it without paying its mana cost.</CardText>
+<ManaCost>{3}{R}{R}</ManaCost>
+<CardText>At the beginning of your upkeep, you may look at the top card of your library. You may cast it without paying its mana cost if it's an instant or sorcery spell.</CardText>
 <Flavor>It chews open Mirrodin's husk and feeds on the outpouring of energy.</Flavor>
 <Artist>Kev Walker</Artist>
 <Watermark>Mirran</Watermark>
@@ -1224,7 +1224,7 @@ Metalcraft — If you control three or more artifacts, creatures controlled by t
 <No>63</No>
 <Name>Gnathosaur</Name>
 <Type>Creature — Dinosaur 5/4</Type>
-<ManaCost>4RR (6)</ManaCost>
+<ManaCost>{4}{R}{R}</ManaCost>
 <CardText>Sacrifice an artifact: Gnathosaur gains trample until end of turn.</CardText>
 <Flavor>Mirran creatures that could withstand the Phyrexian oil found an abundance of crunchy snacks.</Flavor>
 <Artist>Jason Chan</Artist>
@@ -1242,7 +1242,7 @@ Metalcraft — If you control three or more artifacts, creatures controlled by t
 <No>64</No>
 <Name>Goblin Wardriver</Name>
 <Type>Creature — Goblin Warrior 2/2</Type>
-<ManaCost>RR (2)</ManaCost>
+<ManaCost>{R}{R}</ManaCost>
 <CardText>Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)</CardText>
 <Flavor>"A true warrior fights with whatever's handy."
 —Qerk of the Secret Warren</Flavor>
@@ -1261,7 +1261,7 @@ Metalcraft — If you control three or more artifacts, creatures controlled by t
 <No>65</No>
 <Name>Hellkite Igniter</Name>
 <Type>Creature — Dragon 5/5</Type>
-<ManaCost>5RR (7)</ManaCost>
+<ManaCost>{5}{R}{R}</ManaCost>
 <CardText>Flying, haste
 {1}{R}: Hellkite Igniter gets +X/+0 until end of turn, where X is the number of artifacts you control.</CardText>
 <Flavor>Its flight sets the sky itself on fire.</Flavor>
@@ -1281,7 +1281,7 @@ Metalcraft — If you control three or more artifacts, creatures controlled by t
 <No>66</No>
 <Name>Hero of Oxid Ridge</Name>
 <Type>Creature — Human Knight 4/2</Type>
-<ManaCost>2RR (4)</ManaCost>
+<ManaCost>{2}{R}{R}</ManaCost>
 <CardText>Haste
 Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)
 Whenever Hero of Oxid Ridge attacks, creatures with power 1 or less can't block this turn.</CardText>
@@ -1302,14 +1302,14 @@ Whenever Hero of Oxid Ridge attacks, creatures with power 1 or less can't block 
 <No>67</No>
 <Name>Into the Core</Name>
 <Type>Instant</Type>
-<ManaCost>2RR (4)</ManaCost>
+<ManaCost>{2}{R}{R}</ManaCost>
 <CardText>Exile two target artifacts.</CardText>
 <Flavor>"They believe they're driving us back, but we're leading them to their doom."
 —Kethek, furnace stoker</Flavor>
 <Artist>Whit Brachna</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>213788</Multiverseid>
-<Rulings>2011/06/01: You must be able to target two different artifacts in order to cast <Into the Core>.</Rulings>
+<Rulings>2011/06/01: You must be able to target two different artifacts in order to cast Into the Core.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1322,7 +1322,7 @@ Whenever Hero of Oxid Ridge attacks, creatures with power 1 or less can't block 
 <No>68</No>
 <Name>Koth's Courier</Name>
 <Type>Creature — Human Rogue 2/3</Type>
-<ManaCost>1RR (3)</ManaCost>
+<ManaCost>{1}{R}{R}</ManaCost>
 <CardText>Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)</CardText>
 <Flavor>Koth sent partisans into the Tangle to bring survivors to the safe haven of the tunnels below Kuldotha.</Flavor>
 <Artist>Wayne Reynolds</Artist>
@@ -1340,13 +1340,15 @@ Whenever Hero of Oxid Ridge attacks, creatures with power 1 or less can't block 
 <No>69</No>
 <Name>Kuldotha Flamefiend</Name>
 <Type>Creature — Elemental 4/4</Type>
-<ManaCost>4RR (6)</ManaCost>
+<ManaCost>{4}{R}{R}</ManaCost>
 <CardText>When Kuldotha Flamefiend enters the battlefield, you may sacrifice an artifact. If you do, Kuldotha Flamefiend deals 4 damage divided as you choose among any number of targets.</CardText>
 <Artist>Raymond Swanland</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>213810</Multiverseid>
-<Rulings>2011/06/01: <Kuldotha Flamefiend>'s ability may target up to four creatures and/or players. Each must be chosen to receive at least 1 damage.
-2011/06/01: You choose the target(s) and how the damage will be divided when you put the triggered ability on the stack. You don't choose whether to sacrifice an artifact or which artifact you're sacrificing until the ability resolves. Once you decide to sacrifice an artifact (or not), it's too late for players to respond.</Rulings>
+<Rulings>2020/08/07: You divide the damage as Kuldotha Flamefiend's triggered ability is put onto the stack, not as it resolves. Each target must be assigned at least 1 damage. You can't choose more than 4 targets and assign 0 damage to a target.
+2020/08/07: You may choose zero targets. If you do, Kuldotha Flamefiend deals no damage, but you may sacrifice an artifact.
+2020/08/07: If some of the targets become illegal for Kuldotha Flamefiend's ability, the original division of damage still applies, but the damage that would have been dealt to illegal targets isn't dealt at all. If all of the targets become illegal, you can't sacrifice an artifact.
+2020/08/07: You don't choose whether to sacrifice an artifact or which artifact you're sacrificing until the ability resolves. Once you decide to sacrifice an artifact (or not), it's too late for players to respond.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1359,10 +1361,10 @@ Whenever Hero of Oxid Ridge attacks, creatures with power 1 or less can't block 
 <No>70</No>
 <Name>Kuldotha Ringleader</Name>
 <Type>Creature — Giant Berserker 4/4</Type>
-<ManaCost>4R (5)</ManaCost>
+<ManaCost>{4}{R}</ManaCost>
 <CardText>Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)
 Kuldotha Ringleader attacks each combat if able.</CardText>
-<Flavor>Being surrounded by goblins is less objectionable when they're fighting for you.</Flavor>
+<Flavor>Being surrounded by goblins is less objectionable when they're fighting *for* you.</Flavor>
 <Artist>Greg Staples</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>213787</Multiverseid>
@@ -1378,7 +1380,7 @@ Kuldotha Ringleader attacks each combat if able.</CardText>
 <No>71</No>
 <Name>Metallic Mastery</Name>
 <Type>Sorcery</Type>
-<ManaCost>2R (3)</ManaCost>
+<ManaCost>{2}{R}</ManaCost>
 <CardText>Gain control of target artifact until end of turn. Untap that artifact. It gains haste until end of turn.</CardText>
 <Flavor>"All will be reforged in the fires of glory."
 —Urabrask the Hidden</Flavor>
@@ -1397,7 +1399,7 @@ Kuldotha Ringleader attacks each combat if able.</CardText>
 <No>72</No>
 <Name>Ogre Resister</Name>
 <Type>Creature — Ogre 4/3</Type>
-<ManaCost>2RR (4)</ManaCost>
+<ManaCost>{2}{R}{R}</ManaCost>
 <Flavor>He didn't have a word for "home," but he knew it was something to be defended.</Flavor>
 <Artist>Efrem Palacios</Artist>
 <Watermark>Mirran</Watermark>
@@ -1414,15 +1416,15 @@ Kuldotha Ringleader attacks each combat if able.</CardText>
 <No>73</No>
 <Name>Rally the Forces</Name>
 <Type>Instant</Type>
-<ManaCost>2R (3)</ManaCost>
+<ManaCost>{2}{R}</ManaCost>
 <CardText>Attacking creatures get +1/+0 and gain first strike until end of turn.</CardText>
 <Flavor>"Drive them back! Make their underworld into their grave!"
 —Koth of the Hammer</Flavor>
 <Artist>Steven Belledin</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>213767</Multiverseid>
-<Rulings>2011/06/01: Even though <Rally the Forces> affects only attacking creatures, the bonus will remain for the rest of the turn.
-2011/06/01: If <Rally the Forces> is cast before attackers are declared or after combat ends, it won't do anything.</Rulings>
+<Rulings>2011/06/01: Even though Rally the Forces affects only attacking creatures, the bonus will remain for the rest of the turn.
+2011/06/01: If Rally the Forces is cast before attackers are declared or after combat ends, it won't do anything.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1435,7 +1437,7 @@ Kuldotha Ringleader attacks each combat if able.</CardText>
 <No>74</No>
 <Name>Red Sun's Zenith</Name>
 <Type>Sorcery</Type>
-<ManaCost>XR (1)</ManaCost>
+<ManaCost>{X}{R}</ManaCost>
 <CardText>Red Sun's Zenith deals X damage to any target. If a creature dealt damage this way would die this turn, exile it instead. Shuffle Red Sun's Zenith into its owner's library.</CardText>
 <Artist>Svetlin Velinov</Artist>
 <Watermark>Mirran</Watermark>
@@ -1453,7 +1455,7 @@ Kuldotha Ringleader attacks each combat if able.</CardText>
 <No>75</No>
 <Name>Slagstorm</Name>
 <Type>Sorcery</Type>
-<ManaCost>1RR (3)</ManaCost>
+<ManaCost>{1}{R}{R}</ManaCost>
 <CardText>Choose one —
 • Slagstorm deals 3 damage to each creature.
 • Slagstorm deals 3 damage to each player.</CardText>
@@ -1474,13 +1476,13 @@ Kuldotha Ringleader attacks each combat if able.</CardText>
 <No>76</No>
 <Name>Spiraling Duelist</Name>
 <Type>Creature — Human Berserker 3/1</Type>
-<ManaCost>2RR (4)</ManaCost>
+<ManaCost>{2}{R}{R}</ManaCost>
 <CardText>Metalcraft — Spiraling Duelist has double strike as long as you control three or more artifacts.</CardText>
 <Flavor>"I never move the same way twice. Those rotters can't grasp chaos."</Flavor>
 <Artist>Karl Kopinski</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>222859</Multiverseid>
-<Rulings>2011/06/01: If <Spiraling Duelist> has double strike as the combat damage step begins, there will be a second combat damage step. As that second combat damage step begins, if <Spiraling Duelist> no longer has double strike (perhaps because an artifact creature you controlled was destroyed), <Spiraling Duelist> will not assign combat damage a second time.</Rulings>
+<Rulings>2011/06/01: If Spiraling Duelist has double strike as the combat damage step begins, there will be a second combat damage step. As that second combat damage step begins, if Spiraling Duelist no longer has double strike (perhaps because an artifact creature you controlled was destroyed), Spiraling Duelist will not assign combat damage a second time.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1492,8 +1494,8 @@ Kuldotha Ringleader attacks each combat if able.</CardText>
 <SetId>MBS</SetId>
 <No>77</No>
 <Name>Blightwidow</Name>
-<Type>Creature — Spider 2/4</Type>
-<ManaCost>3G (4)</ManaCost>
+<Type>Creature — Phyrexian Spider 2/4</Type>
+<ManaCost>{3}{G}</ManaCost>
 <CardText>Reach (This creature can block creatures with flying.)
 Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)</CardText>
 <Artist>Daniel Ljunggren</Artist>
@@ -1511,7 +1513,7 @@ Infect (This creature deals damage to creatures in the form of -1/-1 counters an
 <No>78</No>
 <Name>Creeping Corrosion</Name>
 <Type>Sorcery</Type>
-<ManaCost>2GG (4)</ManaCost>
+<ManaCost>{2}{G}{G}</ManaCost>
 <CardText>Destroy all artifacts.</CardText>
 <Flavor>"We will reveal the futility of their heresy by showing them how fragile their relics are."
 —Vorinclex, Voice of Hunger</Flavor>
@@ -1530,14 +1532,14 @@ Infect (This creature deals damage to creatures in the form of -1/-1 counters an
 <No>79</No>
 <Name>Fangren Marauder</Name>
 <Type>Creature — Beast 5/5</Type>
-<ManaCost>5G (6)</ManaCost>
+<ManaCost>{5}{G}</ManaCost>
 <CardText>Whenever an artifact is put into a graveyard from the battlefield, you may gain 5 life.</CardText>
 <Flavor>"The fangren fight without comfort of any kind. We can ask no less of ourselves."
 —Tilien, Sylvok partisan</Flavor>
 <Artist>James Ryman</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>213732</Multiverseid>
-<Rulings>2011/06/01: If <Fangren Marauder> has itself become an artifact for some reason, you'll gain 5 life when it is put into a graveyard from the battlefield.</Rulings>
+<Rulings>2011/06/01: If Fangren Marauder has itself become an artifact for some reason, you'll gain 5 life when it is put into a graveyard from the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1549,8 +1551,8 @@ Infect (This creature deals damage to creatures in the form of -1/-1 counters an
 <SetId>MBS</SetId>
 <No>80</No>
 <Name>Glissa's Courier</Name>
-<Type>Creature — Horror 2/3</Type>
-<ManaCost>1GG (3)</ManaCost>
+<Type>Creature — Phyrexian Horror 2/3</Type>
+<ManaCost>{1}{G}{G}</ManaCost>
 <CardText>Mountainwalk (This creature can't be blocked as long as defending player controls a Mountain.)</CardText>
 <Flavor>"So, the survivors from Oxid Ridge are on the move. Let them come and witness predation in its purest form."
 —Glissa</Flavor>
@@ -1569,16 +1571,16 @@ Infect (This creature deals damage to creatures in the form of -1/-1 counters an
 <No>81</No>
 <Name>Green Sun's Zenith</Name>
 <Type>Sorcery</Type>
-<ManaCost>XG (1)</ManaCost>
-<CardText>Search your library for a green creature card with converted mana cost X or less, put it onto the battlefield, then shuffle your library. Shuffle Green Sun's Zenith into its owner's library.</CardText>
+<ManaCost>{X}{G}</ManaCost>
+<CardText>Search your library for a green creature card with mana value X or less, put it onto the battlefield, then shuffle. Shuffle Green Sun's Zenith into its owner's library.</CardText>
 <Flavor>As the green sun crowned, Phyrexian prophecies glowed on the Tree of Tales.</Flavor>
 <Artist>David Rapoza</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>221559</Multiverseid>
 <Rulings>2011/06/01: If this spell doesn't resolve, none of its effects occur. In particular, it will go to the graveyard rather than to its owner's library.
-2016/06/08: If <Green Sun's Zenith> is countered, none of its effects will happen. Notably, it will be put into its owner's graveyard rather than shuffled into its owner's library.
-2016/06/08: In most cases, if you own <Green Sun's Zenith> and cast it, you'll shuffle your library twice. In practice, shuffling once is sufficient, but effects that care about you shuffling your library (like Psychogenic Probe, for example) will see that you've shuffled twice.
-2016/06/08: If you own <Green Sun's Zenith>, but an opponent casts it (due to Knowledge Pool's effect, for example), that opponent searches their library for an appropriate creature card, then shuffles that library. That opponent then shuffles <Green Sun's Zenith> into your library. You won't shuffle any library in this case.</Rulings>
+2016/06/08: If Green Sun's Zenith is countered, none of its effects will happen. Notably, it will be put into its owner's graveyard rather than shuffled into its owner's library.
+2016/06/08: In most cases, if you own Green Sun's Zenith and cast it, you'll shuffle your library twice. In practice, shuffling once is sufficient, but effects that care about you shuffling your library (like Psychogenic Probe, for example) will see that you've shuffled twice.
+2016/06/08: If you own Green Sun's Zenith, but an opponent casts it (due to Knowledge Pool's effect, for example), that opponent searches their library for an appropriate creature card, then shuffles that library. That opponent then shuffles Green Sun's Zenith into your library. You won't shuffle any library in this case.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Banned</Modern>
@@ -1591,7 +1593,7 @@ Infect (This creature deals damage to creatures in the form of -1/-1 counters an
 <No>82</No>
 <Name>Lead the Stampede</Name>
 <Type>Sorcery</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>Look at the top five cards of your library. You may reveal any number of creature cards from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in any order.</CardText>
 <Artist>Efrem Palacios</Artist>
 <Watermark>Mirran</Watermark>
@@ -1608,16 +1610,16 @@ Infect (This creature deals damage to creatures in the form of -1/-1 counters an
 <No>83</No>
 <Name>Melira's Keepers</Name>
 <Type>Creature — Human Warrior 4/4</Type>
-<ManaCost>4G (5)</ManaCost>
+<ManaCost>{4}{G}</ManaCost>
 <CardText>Melira's Keepers can't have counters put on it.</CardText>
 <Flavor>Her warriors are the last defense against the coming storm.</Flavor>
 <Artist>Eric Deschamps</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>213796</Multiverseid>
-<Rulings>2011/06/01: <Melira's Keepers> can't have any kind of counters placed on it, not just -1/-1 counters.
-2011/06/01: Damage from a source with infect has no effect on <Melira's Keepers>. No -1/-1 counters are placed on it, and no damage is marked on it. The damage is still dealt for purposes of effects that care about damage, such as lifelink.
-2011/06/01: If <Melira's Keepers> would enter the battlefield with a counter on it, it simply enters the battlefield without that counter.
-2011/06/01: If a creature with a counter on it becomes a copy of <Melira's Keepers>, those counters will remain.</Rulings>
+<Rulings>2011/06/01: Melira's Keepers can't have any kind of counters placed on it, not just -1/-1 counters.
+2011/06/01: If a creature with a counter on it becomes a copy of Melira's Keepers, those counters will remain.
+2011/06/01: Damage from a source with infect has no effect on Melira's Keepers. No -1/-1 counters are placed on it, and no damage is marked on it. The damage is still dealt for purposes of effects that care about damage, such as lifelink.
+2011/06/01: If Melira's Keepers would enter the battlefield with a counter on it, it simply enters the battlefield without that counter.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1630,7 +1632,7 @@ Infect (This creature deals damage to creatures in the form of -1/-1 counters an
 <No>84</No>
 <Name>Mirran Mettle</Name>
 <Type>Instant</Type>
-<ManaCost>G (1)</ManaCost>
+<ManaCost>{G}</ManaCost>
 <CardText>Target creature gets +2/+2 until end of turn.
 Metalcraft — That creature gets +4/+4 until end of turn instead if you control three or more artifacts.</CardText>
 <Flavor>"Our land will not yield to Phyrexian corruption!"</Flavor>
@@ -1648,15 +1650,15 @@ Metalcraft — That creature gets +4/+4 until end of turn instead if you control
 <SetId>MBS</SetId>
 <No>85</No>
 <Name>Phyrexian Hydra</Name>
-<Type>Creature — Hydra 7/7</Type>
-<ManaCost>3GG (5)</ManaCost>
+<Type>Creature — Phyrexian Hydra 7/7</Type>
+<ManaCost>{3}{G}{G}</ManaCost>
 <CardText>Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)
 If damage would be dealt to Phyrexian Hydra, prevent that damage. Put a -1/-1 counter on Phyrexian Hydra for each 1 damage prevented this way.</CardText>
 <Artist>Mike Bierek</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>214060</Multiverseid>
-<Rulings>2011/06/01: If multiple damage prevention effects, including <Phyrexian Hydra>'s, are attempting to prevent damage that would be dealt to <Phyrexian Hydra>, its controller chooses which to apply.
-2011/06/01: If damage dealt to <Phyrexian Hydra> can't be prevented (due to Leyline of Punishment, for example), it will be dealt as normal and won't cause <Phyrexian Hydra> to put -1/-1 counters on itself.</Rulings>
+<Rulings>2011/06/01: If multiple damage prevention effects, including Phyrexian Hydra's, are attempting to prevent damage that would be dealt to Phyrexian Hydra, its controller chooses which to apply.
+2011/06/01: If damage dealt to Phyrexian Hydra can't be prevented (due to Leyline of Punishment, for example), it will be dealt as normal and won't cause Phyrexian Hydra to put -1/-1 counters on itself.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1669,14 +1671,14 @@ If damage would be dealt to Phyrexian Hydra, prevent that damage. Put a -1/-1 co
 <No>86</No>
 <Name>Pistus Strike</Name>
 <Type>Instant</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>Destroy target creature with flying. Its controller gets a poison counter.</CardText>
 <Flavor>"Even a nuisance such as the pistus fly has a purpose in our new world."
 —Glissa</Flavor>
 <Artist>Jaime Jones</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>213744</Multiverseid>
-<Rulings>2011/06/01: If the creature is an illegal target when <Pistus Strike> tries to resolve, the spell doesn't resolve. No player gets a poison counter.
+<Rulings>2011/06/01: If the creature is an illegal target when Pistus Strike tries to resolve, the spell doesn't resolve. No player gets a poison counter.
 2013/07/01: If the creature with flying regenerates or has indestructible, its controller will still get a poison counter.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1689,14 +1691,14 @@ If damage would be dealt to Phyrexian Hydra, prevent that damage. Put a -1/-1 co
 <SetId>MBS</SetId>
 <No>87</No>
 <Name>Plaguemaw Beast</Name>
-<Type>Creature — Beast 4/3</Type>
-<ManaCost>3GG (5)</ManaCost>
+<Type>Creature — Phyrexian Beast 4/3</Type>
+<ManaCost>{3}{G}{G}</ManaCost>
 <CardText>{T}, Sacrifice a creature: Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)</CardText>
 <Flavor>Phyrexia's spiral of consumption grows ever wider and darker.</Flavor>
 <Artist>Whit Brachna</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>213752</Multiverseid>
-<Rulings>2011/06/01: You can sacrifice <Plaguemaw Beast> to pay the cost of its own activated ability.
+<Rulings>2011/06/01: You can sacrifice Plaguemaw Beast to pay the cost of its own activated ability.
 2011/06/01: You can activate the ability even if there are no players or permanents with counters on them.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1710,14 +1712,12 @@ If damage would be dealt to Phyrexian Hydra, prevent that damage. Put a -1/-1 co
 <No>88</No>
 <Name>Praetor's Counsel</Name>
 <Type>Sorcery</Type>
-<ManaCost>5GGG (8)</ManaCost>
+<ManaCost>{5}{G}{G}{G}</ManaCost>
 <CardText>Return all cards from your graveyard to your hand. Exile Praetor's Counsel. You have no maximum hand size for the rest of the game.</CardText>
 <Flavor>As the Phyrexian contagion corroded Karn's body, the praetors whispered psalms to corrupt his mind.</Flavor>
 <Artist>Daarken</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>214034</Multiverseid>
-<Rulings>2011/06/01: If multiple effects modify your hand size, apply them in timestamp order. For example, if you put Null Profusion (an enchantment that says your maximum hand size is two) onto the battlefield and then resolve <Praetor's Counsel>, you have no maximum hand size. However, if those events happened in the opposite order, your maximum hand size would be two.
-2011/06/01: Later effects that modify your maximum hand size, but don't set it to a specific number, will have no effect.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1729,8 +1729,8 @@ If damage would be dealt to Phyrexian Hydra, prevent that damage. Put a -1/-1 co
 <SetId>MBS</SetId>
 <No>89</No>
 <Name>Quilled Slagwurm</Name>
-<Type>Creature — Wurm 8/8</Type>
-<ManaCost>4GGG (7)</ManaCost>
+<Type>Creature — Phyrexian Wurm 8/8</Type>
+<ManaCost>{4}{G}{G}{G}</ManaCost>
 <Flavor>Vorinclex removed its teeth so it wouldn't waste time chewing before moving to the next kill.</Flavor>
 <Artist>Matt Stewart</Artist>
 <Watermark>Phyrexian</Watermark>
@@ -1746,14 +1746,14 @@ If damage would be dealt to Phyrexian Hydra, prevent that damage. Put a -1/-1 co
 <SetId>MBS</SetId>
 <No>90</No>
 <Name>Rot Wolf</Name>
-<Type>Creature — Wolf 2/2</Type>
-<ManaCost>2G (3)</ManaCost>
+<Type>Creature — Phyrexian Wolf 2/2</Type>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)
 Whenever a creature dealt damage by Rot Wolf this turn dies, you may draw a card.</CardText>
 <Artist>Nils Hamm</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>213774</Multiverseid>
-<Rulings>2011/06/01: If <Rot Wolf> and a creature dealt damage by <Rot Wolf> go to the graveyard at the same time, <Rot Wolf>'s ability will trigger.</Rulings>
+<Rulings>2011/06/01: If Rot Wolf and a creature dealt damage by Rot Wolf go to the graveyard at the same time, Rot Wolf's ability will trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1766,9 +1766,9 @@ Whenever a creature dealt damage by Rot Wolf this turn dies, you may draw a card
 <No>91</No>
 <Name>Tangle Mantis</Name>
 <Type>Creature — Insect 3/4</Type>
-<ManaCost>2GG (4)</ManaCost>
+<ManaCost>{2}{G}{G}</ManaCost>
 <CardText>Trample</CardText>
-<Flavor>The fiercest hunters in the Tangle don't seek out the mantises. They are the mantises.</Flavor>
+<Flavor>The fiercest hunters in the Tangle don't seek out the mantises. They *are* the mantises.</Flavor>
 <Artist>Chris Rahn</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>222862</Multiverseid>
@@ -1784,7 +1784,7 @@ Whenever a creature dealt damage by Rot Wolf this turn dies, you may draw a card
 <No>92</No>
 <Name>Thrun, the Last Troll</Name>
 <Type>Legendary Creature — Troll Shaman 4/4</Type>
-<ManaCost>2GG (4)</ManaCost>
+<ManaCost>{2}{G}{G}</ManaCost>
 <CardText>This spell can't be countered.
 Hexproof (This creature can't be the target of spells or abilities your opponents control.)
 {1}{G}: Regenerate Thrun, the Last Troll.</CardText>
@@ -1804,7 +1804,7 @@ Hexproof (This creature can't be the target of spells or abilities your opponent
 <No>93</No>
 <Name>Unnatural Predation</Name>
 <Type>Instant</Type>
-<ManaCost>G (1)</ManaCost>
+<ManaCost>{G}</ManaCost>
 <CardText>Target creature gets +1/+1 and gains trample until end of turn.</CardText>
 <Flavor>"Domination by the strongest—that is all that matters in the Tangle now."
 —Vorinclex, Voice of Hunger</Flavor>
@@ -1822,14 +1822,14 @@ Hexproof (This creature can't be the target of spells or abilities your opponent
 <SetId>MBS</SetId>
 <No>94</No>
 <Name>Viridian Corrupter</Name>
-<Type>Creature — Elf Shaman 2/2</Type>
-<ManaCost>1GG (3)</ManaCost>
+<Type>Creature — Phyrexian Elf Shaman 2/2</Type>
+<ManaCost>{1}{G}{G}</ManaCost>
 <CardText>Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)
 When Viridian Corrupter enters the battlefield, destroy target artifact.</CardText>
 <Artist>Matt Cavotta</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>213772</Multiverseid>
-<Rulings>2011/06/01: If there are no artifacts on the battlefield when <Viridian Corrupter> enters the battlefield, its enters-the-battlefield does nothing. <Viridian Corrupter> will simply enter the battlefield.
+<Rulings>2011/06/01: If there are no artifacts on the battlefield when Viridian Corrupter enters the battlefield, its enters-the-battlefield does nothing. Viridian Corrupter will simply enter the battlefield.
 2011/06/01: The enters-the-battlefield ability is not optional. You must target an artifact you control if there are no other artifacts on the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1842,9 +1842,9 @@ When Viridian Corrupter enters the battlefield, destroy target artifact.</CardTe
 <SetId>MBS</SetId>
 <No>95</No>
 <Name>Viridian Emissary</Name>
-<Type>Creature — Elf Scout 2/1</Type>
-<ManaCost>1G (2)</ManaCost>
-<CardText>When Viridian Emissary dies, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.</CardText>
+<Type>Creature — Phyrexian Elf Scout 2/1</Type>
+<ManaCost>{1}{G}</ManaCost>
+<CardText>When Viridian Emissary dies, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle.</CardText>
 <Artist>Matt Stewart</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>213728</Multiverseid>
@@ -1859,14 +1859,14 @@ When Viridian Corrupter enters the battlefield, destroy target artifact.</CardTe
 <SetId>MBS</SetId>
 <No>96</No>
 <Name>Glissa, the Traitor</Name>
-<Type>Legendary Creature — Zombie Elf 3/3</Type>
-<ManaCost>BGG (3)</ManaCost>
+<Type>Legendary Creature — Phyrexian Zombie Elf 3/3</Type>
+<ManaCost>{B}{G}{G}</ManaCost>
 <CardText>First strike, deathtouch
 Whenever a creature an opponent controls dies, you may return target artifact card from your graveyard to your hand.</CardText>
 <Artist>Chris Rahn</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>214072</Multiverseid>
-<Rulings>2011/06/01: If an artifact you own and a creature an opponent controls go to the graveyard at the same time, you may choose that artifact card as the target of <Glissa, the Traitor>'s ability (even if they're the same card: an artifact creature you own that an opponent controlled).</Rulings>
+<Rulings>2011/06/01: If an artifact you own and a creature an opponent controls go to the graveyard at the same time, you may choose that artifact card as the target of Glissa, the Traitor's ability (even if they're the same card: an artifact creature you own that an opponent controlled).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1879,10 +1879,10 @@ Whenever a creature an opponent controls dies, you may return target artifact ca
 <No>97</No>
 <Name>Tezzeret, Agent of Bolas</Name>
 <Type>Legendary Planeswalker — Tezzeret (Loyalty: 3)</Type>
-<ManaCost>2UB (4)</ManaCost>
-<CardText>+1: Look at the top five cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
--1: Target artifact becomes an artifact creature with base power and toughness 5/5.
--4: Target player loses X life and you gain X life, where X is twice the number of artifacts you control.</CardText>
+<ManaCost>{2}{U}{B}</ManaCost>
+<CardText>[+1]: Look at the top five cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
+[-1]: Target artifact becomes an artifact creature with base power and toughness 5/5.
+[-4]: Target player loses X life and you gain X life, where X is twice the number of artifacts you control.</CardText>
 <Artist>Aleksi Briclot</Artist>
 <Multiverseid>214065</Multiverseid>
 <Rulings>2011/06/01: The artifact targeted by the second ability will retain any types, subtypes, or supertypes it has. Notably, if an Equipment becomes an artifact creature, it can't be attached to another creature. If it was attached to a creature, it becomes unattached.
@@ -1901,7 +1901,7 @@ Whenever a creature an opponent controls dies, you may return target artifact ca
 <No>98</No>
 <Name>Bladed Sentinel</Name>
 <Type>Artifact Creature — Construct 2/4</Type>
-<ManaCost>4 (4)</ManaCost>
+<ManaCost>{4}</ManaCost>
 <CardText>{W}: Bladed Sentinel gains vigilance until end of turn.</CardText>
 <Flavor>The Mirran partisans created hundreds of patrol sentinels to divert Phyrexian assaults from the Tangle.</Flavor>
 <Artist>Tomasz Jedruszek</Artist>
@@ -1918,14 +1918,17 @@ Whenever a creature an opponent controls dies, you may return target artifact ca
 <SetId>MBS</SetId>
 <No>99</No>
 <Name>Blightsteel Colossus</Name>
-<Type>Artifact Creature — Golem 11/11</Type>
-<ManaCost>12 (12)</ManaCost>
+<Type>Artifact Creature — Phyrexian Golem 11/11</Type>
+<ManaCost>{12}</ManaCost>
 <CardText>Trample, infect, indestructible
 If Blightsteel Colossus would be put into a graveyard from anywhere, reveal Blightsteel Colossus and shuffle it into its owner's library instead.</CardText>
 <Artist>Chris Rahn</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>221563</Multiverseid>
-<Rulings>2013/07/01: Lethal damage and effects that say "destroy" won't cause a creature with indestructible to be put into the graveyard. However, a creature with indestructible can be put into the graveyard for a number of reasons. The most likely reasons are if it's sacrificed or if its toughness is 0 or less. (In these cases, of course, <Blightsteel Colossus> would be shuffled into its owner's library instead of being put into its owner's graveyard.)</Rulings>
+<Rulings>2020/08/07: Damage that a creature with infect deals doesn't result in damage being marked on a creature or a player losing life. Instead, it results in that many -1/-1 counters being put on that creature or that many poison counters being given to that player. Damage dealt to planeswalkers still results in that planeswalker losing that many loyalty counters.
+2020/08/07: A player who has ten or more poison counters loses the game. This is a state-based action.
+2020/08/07: The -1/-1 counters remain on the creature indefinitely. They're not removed if the creature regenerates or the turn ends.
+2020/08/07: Damage from a source with infect is damage in all respects. If the source with infect also has lifelink, damage dealt by that source also causes its controller to gain that much life. Damage from a source with infect can be prevented or redirected. Abilities that trigger on damage being dealt will trigger if a source with infect deals damage, if appropriate.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1938,17 +1941,21 @@ If Blightsteel Colossus would be put into a graveyard from anywhere, reveal Blig
 <No>100</No>
 <Name>Bonehoard</Name>
 <Type>Artifact — Equipment</Type>
-<ManaCost>4 (4)</ManaCost>
-<CardText>Living weapon (When this Equipment enters the battlefield, create a 0/0 black Germ creature token, then attach this to it.)
+<ManaCost>{4}</ManaCost>
+<CardText>Living weapon (When this Equipment enters the battlefield, create a 0/0 black Phyrexian Germ creature token, then attach this to it.)
 Equipped creature gets +X/+X, where X is the number of creature cards in all graveyards.
 Equip {2}</CardText>
 <Artist>Chippy</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>214040</Multiverseid>
 <Rulings>2011/06/01: The value of X is calculated continuously as the number of creature cards in graveyards changes.
-2011/06/01: If there are no creature cards in any graveyard when <Bonehoard>'s living weapon ability resolves, the Germ will be 0/0 and put into its owner's graveyard.
-2011/06/01: Although creature tokens go to the graveyard before ceasing to exist, they never count as creature cards and won't increase the bonus granted by <Bonehoard>, however briefly.
-2011/06/01: If lethal damage is dealt simultaneously to the equipped creature and another creature, both creatures are put into the graveyard at the same time. The equipped creature won't get an additional bonus from the other creature.</Rulings>
+2011/06/01: If there are no creature cards in any graveyard when Bonehoard's living weapon ability resolves, the Germ will be 0/0 and put into its owner's graveyard.
+2011/06/01: Although creature tokens go to the graveyard before ceasing to exist, they never count as creature cards and won't increase the bonus granted by Bonehoard, however briefly.
+2011/06/01: If lethal damage is dealt simultaneously to the equipped creature and another creature, both creatures are put into the graveyard at the same time. The equipped creature won't get an additional bonus from the other creature.
+2020/08/07: If the living weapon trigger causes two Germs to be created (due to an effect such as that of Doubling Season), the Equipment becomes attached to one of them. The other will be put into your graveyard and subsequently cease to exist, unless another effect raises its toughness above 0.
+2020/08/07: The Germ token enters the battlefield as a 0/0 creature and the Equipment becomes attached to it before state-based actions would cause the token to die. Abilities that trigger as the token enters the battlefield see that a 0/0 creature entered the battlefield.
+2020/08/07: Like other Equipment, each Equipment with living weapon has an equip cost. You can pay this cost to attach an Equipment to another creature you control. Once the Germ token is no longer equipped, it will be put into your graveyard and subsequently cease to exist, unless another effect raises its toughness above 0.
+2020/08/07: If the Germ token is destroyed, the Equipment remains on the battlefield as with any other Equipment.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1961,7 +1968,7 @@ Equip {2}</CardText>
 <No>101</No>
 <Name>Brass Squire</Name>
 <Type>Artifact Creature — Myr 1/3</Type>
-<ManaCost>3 (3)</ManaCost>
+<ManaCost>{3}</ManaCost>
 <CardText>{T}: Attach target Equipment you control to target creature you control.</CardText>
 <Flavor>"I admire it. Few pull off pluck and subservience at the same time."
 —Ezuri, renegade leader</Flavor>
@@ -1969,7 +1976,7 @@ Equip {2}</CardText>
 <Watermark>Mirran</Watermark>
 <Multiverseid>213800</Multiverseid>
 <Rulings>2011/06/01: If one of the targets is illegal when the activated ability resolves, nothing will happen and the Equipment won't move. Notably, if an opponent gains control of either target in response, the Equipment won't move.
-2011/06/01: Unlike the equip ability, <Brass Squire>'s ability can be activated whenever you could cast an instant.</Rulings>
+2011/06/01: Unlike the equip ability, Brass Squire's ability can be activated whenever you could cast an instant.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1982,7 +1989,7 @@ Equip {2}</CardText>
 <No>102</No>
 <Name>Copper Carapace</Name>
 <Type>Artifact — Equipment</Type>
-<ManaCost>1 (1)</ManaCost>
+<ManaCost>{1}</ManaCost>
 <CardText>Equipped creature gets +2/+2 and can't block.
 Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)</CardText>
 <Flavor>"We will fight as they do: our flesh protected behind metal."
@@ -2001,8 +2008,8 @@ Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)
 <SetId>MBS</SetId>
 <No>103</No>
 <Name>Core Prowler</Name>
-<Type>Artifact Creature — Horror 2/2</Type>
-<ManaCost>4 (4)</ManaCost>
+<Type>Artifact Creature — Phyrexian Horror 2/2</Type>
+<ManaCost>{4}</ManaCost>
 <CardText>Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)
 When Core Prowler dies, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)</CardText>
 <Artist>Dave Allsop</Artist>
@@ -2020,7 +2027,7 @@ When Core Prowler dies, proliferate. (Choose any number of permanents and/or pla
 <No>104</No>
 <Name>Darksteel Plate</Name>
 <Type>Artifact — Equipment</Type>
-<ManaCost>3 (3)</ManaCost>
+<ManaCost>{3}</ManaCost>
 <CardText>Indestructible
 Equipped creature has indestructible.
 Equip {2}</CardText>
@@ -2041,8 +2048,8 @@ Equip {2}</CardText>
 <No>105</No>
 <Name>Decimator Web</Name>
 <Type>Artifact</Type>
-<ManaCost>4 (4)</ManaCost>
-<CardText>{4}, {T}: Target opponent loses 2 life, gets a poison counter, then puts the top six cards of their library into their graveyard.</CardText>
+<ManaCost>{4}</ManaCost>
+<CardText>{4}, {T}: Target opponent loses 2 life, gets a poison counter, then mills six cards.</CardText>
 <Flavor>Mycosynth grew unfettered beneath the black lacuna, metastasizing into a matrix of noxious energy.</Flavor>
 <Artist>Daniel Ljunggren</Artist>
 <Watermark>Phyrexian</Watermark>
@@ -2058,8 +2065,8 @@ Equip {2}</CardText>
 <SetId>MBS</SetId>
 <No>106</No>
 <Name>Dross Ripper</Name>
-<Type>Artifact Creature — Hound 3/3</Type>
-<ManaCost>4 (4)</ManaCost>
+<Type>Artifact Creature — Phyrexian Dog 3/3</Type>
+<ManaCost>{4}</ManaCost>
 <CardText>{2}{B}: Dross Ripper gets +1/+1 until end of turn.</CardText>
 <Flavor>"Such a creation serves no purpose other than exterminating every one of us."
 —Sadra Alic, Neurok strategist</Flavor>
@@ -2078,8 +2085,8 @@ Equip {2}</CardText>
 <No>107</No>
 <Name>Flayer Husk</Name>
 <Type>Artifact — Equipment</Type>
-<ManaCost>1 (1)</ManaCost>
-<CardText>Living weapon (When this Equipment enters the battlefield, create a 0/0 black Germ creature token, then attach this to it.)
+<ManaCost>{1}</ManaCost>
+<CardText>Living weapon (When this Equipment enters the battlefield, create a 0/0 black Phyrexian Germ creature token, then attach this to it.)
 Equipped creature gets +1/+1.
 Equip {2}</CardText>
 <Artist>Igor Kieryluk</Artist>
@@ -2097,7 +2104,7 @@ Equip {2}</CardText>
 <No>108</No>
 <Name>Gust-Skimmer</Name>
 <Type>Artifact Creature — Insect 2/1</Type>
-<ManaCost>2 (2)</ManaCost>
+<ManaCost>{2}</ManaCost>
 <CardText>{U}: Gust-Skimmer gains flying until end of turn.</CardText>
 <Flavor>Phyrexian smog clouds choked the skies, threatening creatures who couldn't comprehend the menace below.</Flavor>
 <Artist>Dan Scott</Artist>
@@ -2115,7 +2122,7 @@ Equip {2}</CardText>
 <No>109</No>
 <Name>Hexplate Golem</Name>
 <Type>Artifact Creature — Golem 5/7</Type>
-<ManaCost>7 (7)</ManaCost>
+<ManaCost>{7}</ManaCost>
 <Flavor>"Use everything. Iron, rust, scrap . . . even the ground must join our cause."
 —Ezuri, renegade leader</Flavor>
 <Artist>Matt Cavotta</Artist>
@@ -2133,14 +2140,14 @@ Equip {2}</CardText>
 <No>110</No>
 <Name>Ichor Wellspring</Name>
 <Type>Artifact</Type>
-<ManaCost>2 (2)</ManaCost>
+<ManaCost>{2}</ManaCost>
 <CardText>When Ichor Wellspring enters the battlefield or is put into a graveyard from the battlefield, draw a card.</CardText>
 <Flavor>"Our glorious infection has taken hold."
 —Elesh Norn, Grand Cenobite</Flavor>
 <Artist>Steven Belledin</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>213737</Multiverseid>
-<Rulings>2011/06/01: The ability will trigger when <Ichor Wellspring> is put into a graveyard from the battlefield, even if the ability that triggered when it entered the battlefield hasn't resolved yet.</Rulings>
+<Rulings>2011/06/01: The ability will trigger when Ichor Wellspring is put into a graveyard from the battlefield, even if the ability that triggered when it entered the battlefield hasn't resolved yet.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2153,22 +2160,22 @@ Equip {2}</CardText>
 <No>111</No>
 <Name>Knowledge Pool</Name>
 <Type>Artifact</Type>
-<ManaCost>6 (6)</ManaCost>
+<ManaCost>{6}</ManaCost>
 <CardText>Imprint — When Knowledge Pool enters the battlefield, each player exiles the top three cards of their library.
-Whenever a player casts a spell from their hand, that player exiles it. If the player does, they may cast another nonland card exiled with Knowledge Pool without paying that card's mana cost.</CardText>
+Whenever a player casts a spell from their hand, that player exiles it. If the player does, they may cast a spell from among other cards exiled with Knowledge Pool without paying its mana cost.</CardText>
 <Artist>Mike Bierek</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>214035</Multiverseid>
-<Rulings>2011/06/01: You may cast any other card exiled by <Knowledge Pool>, including one owned by an opponent. Any card exiled by <Knowledge Pool>'s enters-the-battlefield ability or its other triggered ability may be cast.
+<Rulings>2011/06/01: You may cast any other card exiled by Knowledge Pool, including one owned by an opponent. Any card exiled by Knowledge Pool's enters-the-battlefield ability or its other triggered ability may be cast.
 2011/06/01: The spell a player casts from their hand won't resolve if it's exiled, even if that spell can't be countered by spells or abilities.
-2011/06/01: If the original spell isn't exiled (perhaps because it's countered by another spell or ability before <Knowledge Pool>'s second triggered ability resolves), the rest of the ability does nothing. The player doesn't get to cast an exiled card.
-2011/06/01: If there are no nonland cards exiled by <Knowledge Pool>, the original spell is still exiled.
+2011/06/01: If the original spell isn't exiled (perhaps because it's countered by another spell or ability before Knowledge Pool's second triggered ability resolves), the rest of the ability does nothing. The player doesn't get to cast an exiled card.
+2011/06/01: If there are no nonland cards exiled by Knowledge Pool, the original spell is still exiled.
 2011/06/01: You may pay additional costs, such as kicker costs, of the exiled card.
 2011/06/01: If the card has any mandatory additional costs, as Kuldotha Rebirth does, you must pay them in order to cast the spell.
 2011/06/01: Timing restrictions based on the card's type are ignored. For example, you can cast an exiled creature card this way. Other restrictions, such as Spinal Embrace's "Cast Spinal Embrace only during combat" are not ignored.
 2011/06/01: If the card you cast without paying its mana cost has an X in its mana cost, you must choose 0 as its value.
 2011/06/01: Any other abilities that trigger when you cast the original spell (for example, if you cast Emrakul, the Aeons Torn) will still trigger and go on the stack.
-2011/06/01: If multiple <Knowledge Pool>s are on the battlefield, keep track of which cards are exiled by each of them. Whenever a player casts a spell from their hand: -- If all <Knowledge Pool>s are controlled by the same player, that player chooses the order in which the triggered abilities are put onto the stack. The last one put onto the stack will be the first to resolve. -- If multiple players each control one or more <Knowledge Pool>s, the active player put their triggered abilities on the stack in any order, then each other player in turn order does the same. The last ability put onto the stack this way will be the first to resolve. -- The first triggered ability to resolve will exile the original spell, then the player who cast that spell may cast one of the nonland cards exiled by the <Knowledge Pool> that generated that triggered ability. The abilities of other <Knowledge Pool>s will do nothing when they resolve, as the original spell will already have been exiled.</Rulings>
+2011/06/01: If multiple Knowledge Pools are on the battlefield, keep track of which cards are exiled by each of them. Whenever a player casts a spell from their hand: -- If all Knowledge Pools are controlled by the same player, that player chooses the order in which the triggered abilities are put onto the stack. The last one put onto the stack will be the first to resolve. -- If multiple players each control one or more Knowledge Pools, the active player put their triggered abilities on the stack in any order, then each other player in turn order does the same. The last ability put onto the stack this way will be the first to resolve. -- The first triggered ability to resolve will exile the original spell, then the player who cast that spell may cast one of the nonland cards exiled by the Knowledge Pool that generated that triggered ability. The abilities of other Knowledge Pools will do nothing when they resolve, as the original spell will already have been exiled.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2181,7 +2188,7 @@ Whenever a player casts a spell from their hand, that player exiles it. If the p
 <No>112</No>
 <Name>Lumengrid Gargoyle</Name>
 <Type>Artifact Creature — Gargoyle 4/4</Type>
-<ManaCost>6 (6)</ManaCost>
+<ManaCost>{6}</ManaCost>
 <CardText>Flying</CardText>
 <Flavor>"Anything that watches without sleep and fights without fear is a valuable ally against the Phyrexians."
 —Kara Vrist, Neurok agent</Flavor>
@@ -2200,12 +2207,12 @@ Whenever a player casts a spell from their hand, that player exiles it. If the p
 <No>113</No>
 <Name>Magnetic Mine</Name>
 <Type>Artifact</Type>
-<ManaCost>4 (4)</ManaCost>
+<ManaCost>{4}</ManaCost>
 <CardText>Whenever another artifact is put into a graveyard from the battlefield, Magnetic Mine deals 2 damage to that artifact's controller.</CardText>
 <Artist>David Rapoza</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>213740</Multiverseid>
-<Rulings>2011/06/01: <Magnetic Mine> will not trigger when it is put into a graveyard from the battlefield itself, although it will trigger if another artifact is put into the graveyard from the battlefield at the same time.</Rulings>
+<Rulings>2011/06/01: Magnetic Mine will not trigger when it is put into a graveyard from the battlefield itself, although it will trigger if another artifact is put into the graveyard from the battlefield at the same time.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2218,7 +2225,7 @@ Whenever a player casts a spell from their hand, that player exiles it. If the p
 <No>114</No>
 <Name>Mirrorworks</Name>
 <Type>Artifact</Type>
-<ManaCost>5 (5)</ManaCost>
+<ManaCost>{5}</ManaCost>
 <CardText>Whenever another nontoken artifact enters the battlefield under your control, you may pay {2}. If you do, create a token that's a copy of that artifact.</CardText>
 <Flavor>The faces of Geth's corpse-dredgers are disturbingly similar.</Flavor>
 <Artist>John Avon</Artist>
@@ -2227,7 +2234,7 @@ Whenever a player casts a spell from their hand, that player exiles it. If the p
 <Rulings>2011/06/01: Each time the ability triggers, you can pay {2} only one time to get one token.
 2011/06/01: As the token is created, it checks the printed values of the artifact it's copying, as well as any copy effects that have been applied to it.
 2011/06/01: The copiable values of the token's characteristics are the same as the copiable values of the characteristics of the artifact it's copying.
-2011/06/01: If the artifact that caused <Mirrorworks>'s ability to trigger has already left the battlefield by the time the ability resolves, you can still pay {2}. If you do, you'll still put a token onto the battlefield. That token has the copiable values of the characteristics of that nontoken artifact as it last existed on the battlefield.</Rulings>
+2011/06/01: If the artifact that caused Mirrorworks's ability to trigger has already left the battlefield by the time the ability resolves, you can still pay {2}. If you do, you'll still put a token onto the battlefield. That token has the copiable values of the characteristics of that nontoken artifact as it last existed on the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2240,8 +2247,8 @@ Whenever a player casts a spell from their hand, that player exiles it. If the p
 <No>115</No>
 <Name>Mortarpod</Name>
 <Type>Artifact — Equipment</Type>
-<ManaCost>2 (2)</ManaCost>
-<CardText>Living weapon (When this Equipment enters the battlefield, create a 0/0 black Germ creature token, then attach this to it.)
+<ManaCost>{2}</ManaCost>
+<CardText>Living weapon (When this Equipment enters the battlefield, create a 0/0 black Phyrexian Germ creature token, then attach this to it.)
 Equipped creature gets +0/+1 and has "Sacrifice this creature: This creature deals 1 damage to any target."
 Equip {2}</CardText>
 <Artist>Eric Deschamps</Artist>
@@ -2259,9 +2266,9 @@ Equip {2}</CardText>
 <SetId>MBS</SetId>
 <No>116</No>
 <Name>Myr Sire</Name>
-<Type>Artifact Creature — Myr 1/1</Type>
-<ManaCost>2 (2)</ManaCost>
-<CardText>When Myr Sire dies, create a 1/1 colorless Myr artifact creature token.</CardText>
+<Type>Artifact Creature — Phyrexian Myr 1/1</Type>
+<ManaCost>{2}</ManaCost>
+<CardText>When Myr Sire dies, create a 1/1 colorless Phyrexian Myr artifact creature token.</CardText>
 <Flavor>For the Phyrexians, death is not an end, nor a one-time occurrence.</Flavor>
 <Artist>Jaime Jones</Artist>
 <Watermark>Phyrexian</Watermark>
@@ -2278,9 +2285,9 @@ Equip {2}</CardText>
 <No>117</No>
 <Name>Myr Turbine</Name>
 <Type>Artifact</Type>
-<ManaCost>5 (5)</ManaCost>
+<ManaCost>{5}</ManaCost>
 <CardText>{T}: Create a 1/1 colorless Myr artifact creature token.
-{T}, Tap five untapped Myr you control: Search your library for a Myr creature card, put it onto the battlefield, then shuffle your library.</CardText>
+{T}, Tap five untapped Myr you control: Search your library for a Myr creature card, put it onto the battlefield, then shuffle.</CardText>
 <Artist>Randis Albion</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>213757</Multiverseid>
@@ -2297,16 +2304,16 @@ Equip {2}</CardText>
 <No>118</No>
 <Name>Myr Welder</Name>
 <Type>Artifact Creature — Myr 1/4</Type>
-<ManaCost>3 (3)</ManaCost>
+<ManaCost>{3}</ManaCost>
 <CardText>Imprint — {T}: Exile target artifact card from a graveyard.
 Myr Welder has all activated abilities of all cards exiled with it.</CardText>
 <Flavor>Memnarch designed some myr to follow the levelers and reaffix lost parts. Mirran partisans put that instinct to good use.</Flavor>
 <Artist>Austin Hsu</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>214067</Multiverseid>
-<Rulings>2011/06/01: <Myr Welder> has only the activated abilities of cards it exiles. It doesn't gain triggered abilities or static abilities.
+<Rulings>2011/06/01: Myr Welder has only the activated abilities of cards it exiles. It doesn't gain triggered abilities or static abilities.
 2011/06/01: Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keywords are activated abilities; they have colons in their reminder text.
-2011/06/01: If an activated ability of a card exiled with <Myr Welder> references the card it's printed on by name, treat <Myr Welder>'s version of that ability as though it referenced <Myr Welder> by name instead. For example, if Lux Cannon (which says, in part, "{T}: Put a charge counter on Lux Cannon.") has been exiled by <Myr Welder>, <Myr Welder> has the ability "{T}: Put a charge counter on <Myr Welder>."</Rulings>
+2011/06/01: If an activated ability of a card exiled with Myr Welder references the card it's printed on by name, treat Myr Welder's version of that ability as though it referenced Myr Welder by name instead. For example, if Lux Cannon (which says, in part, "{T}: Put a charge counter on Lux Cannon.") has been exiled by Myr Welder, Myr Welder has the ability "{T}: Put a charge counter on Myr Welder."</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2319,7 +2326,7 @@ Myr Welder has all activated abilities of all cards exiled with it.</CardText>
 <No>119</No>
 <Name>Peace Strider</Name>
 <Type>Artifact Creature — Construct 3/3</Type>
-<ManaCost>4 (4)</ManaCost>
+<ManaCost>{4}</ManaCost>
 <CardText>When Peace Strider enters the battlefield, you gain 3 life.</CardText>
 <Flavor>"The Vanished must have sent it from beyond to aid us in this struggle."
 —Kessla, Sylvok shaman</Flavor>
@@ -2337,8 +2344,8 @@ Myr Welder has all activated abilities of all cards exiled with it.</CardText>
 <SetId>MBS</SetId>
 <No>120</No>
 <Name>Phyrexian Digester</Name>
-<Type>Artifact Creature — Construct 2/1</Type>
-<ManaCost>3 (3)</ManaCost>
+<Type>Artifact Creature — Phyrexian Construct 2/1</Type>
+<ManaCost>{3}</ManaCost>
 <CardText>Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)</CardText>
 <Flavor>"Our cause will ripen in the fertile flesh of the unworthy."
 —Sheoldred, Whispering One</Flavor>
@@ -2356,8 +2363,8 @@ Myr Welder has all activated abilities of all cards exiled with it.</CardText>
 <SetId>MBS</SetId>
 <No>121</No>
 <Name>Phyrexian Juggernaut</Name>
-<Type>Artifact Creature — Juggernaut 5/5</Type>
-<ManaCost>6 (6)</ManaCost>
+<Type>Artifact Creature — Phyrexian Juggernaut 5/5</Type>
+<ManaCost>{6}</ManaCost>
 <CardText>Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)
 Phyrexian Juggernaut attacks each combat if able.</CardText>
 <Flavor>Where nature impedes, Phyrexians overcome.</Flavor>
@@ -2375,8 +2382,8 @@ Phyrexian Juggernaut attacks each combat if able.</CardText>
 <SetId>MBS</SetId>
 <No>122</No>
 <Name>Phyrexian Revoker</Name>
-<Type>Artifact Creature — Horror 2/1</Type>
-<ManaCost>2 (2)</ManaCost>
+<Type>Artifact Creature — Phyrexian Horror 2/1</Type>
+<ManaCost>{2}</ManaCost>
 <CardText>As Phyrexian Revoker enters the battlefield, choose a nonland card name.
 Activated abilities of sources with the chosen name can't be activated.</CardText>
 <Flavor>Basic senses like sight and taste are reserved for those in power.</Flavor>
@@ -2384,7 +2391,7 @@ Activated abilities of sources with the chosen name can't be activated.</CardTex
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>220589</Multiverseid>
 <Rulings>2014/07/18: Activated abilities are written in the form "Cost: Effect." Some keywords are activated abilities and will have colons in their reminder texts. Static and triggered abilities of sources with the chosen name are unaffected.
-2014/07/18: <Phyrexian Revoker>'s ability affects sources with the chosen name no matter what zone they are in. For example, if Soul of Ravnica is the chosen name, the ability that exiles it from a player's graveyard can't be activated.</Rulings>
+2014/07/18: Phyrexian Revoker's ability affects sources with the chosen name no matter what zone they are in. For example, if Soul of Ravnica is the chosen name, the ability that exiles it from a player's graveyard can't be activated.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2396,8 +2403,8 @@ Activated abilities of sources with the chosen name can't be activated.</CardTex
 <SetId>MBS</SetId>
 <No>123</No>
 <Name>Pierce Strider</Name>
-<Type>Artifact Creature — Construct 3/3</Type>
-<ManaCost>4 (4)</ManaCost>
+<Type>Artifact Creature — Phyrexian Construct 3/3</Type>
+<ManaCost>{4}</ManaCost>
 <CardText>When Pierce Strider enters the battlefield, target opponent loses 3 life.</CardText>
 <Flavor>"Pain isn't a negative stimulus. Pain is a sign of your imperfection."
 —Sheoldred, Whispering One</Flavor>
@@ -2416,7 +2423,7 @@ Activated abilities of sources with the chosen name can't be activated.</CardTex
 <No>124</No>
 <Name>Piston Sledge</Name>
 <Type>Artifact — Equipment</Type>
-<ManaCost>3 (3)</ManaCost>
+<ManaCost>{3}</ManaCost>
 <CardText>When Piston Sledge enters the battlefield, attach it to target creature you control.
 Equipped creature gets +3/+1.
 Equip—Sacrifice an artifact.</CardText>
@@ -2424,8 +2431,8 @@ Equip—Sacrifice an artifact.</CardText>
 <Artist>Pete Venters</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>213742</Multiverseid>
-<Rulings>2011/06/01: If there are no creatures on the battlefield that <Piston Sledge> could be attached to when its enters-the-battlefield triggered ability resolves, it remains on the battlefield unattached.
-2011/06/01: You can sacrifice <Piston Sledge> to pay its own equip cost. It won't become attached as it will be in your graveyard.</Rulings>
+<Rulings>2011/06/01: If there are no creatures on the battlefield that Piston Sledge could be attached to when its enters-the-battlefield triggered ability resolves, it remains on the battlefield unattached.
+2011/06/01: You can sacrifice Piston Sledge to pay its own equip cost. It won't become attached as it will be in your graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2437,8 +2444,8 @@ Equip—Sacrifice an artifact.</CardText>
 <SetId>MBS</SetId>
 <No>125</No>
 <Name>Plague Myr</Name>
-<Type>Artifact Creature — Myr 1/1</Type>
-<ManaCost>2 (2)</ManaCost>
+<Type>Artifact Creature — Phyrexian Myr 1/1</Type>
+<ManaCost>{2}</ManaCost>
 <CardText>Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)
 {T}: Add {C}.</CardText>
 <Flavor>They watch for a new master, one more sinister than the last.</Flavor>
@@ -2456,8 +2463,8 @@ Equip—Sacrifice an artifact.</CardText>
 <SetId>MBS</SetId>
 <No>126</No>
 <Name>Psychosis Crawler</Name>
-<Type>Artifact Creature — Horror */*</Type>
-<ManaCost>5 (5)</ManaCost>
+<Type>Artifact Creature — Phyrexian Horror */*</Type>
+<ManaCost>{5}</ManaCost>
 <CardText>Psychosis Crawler's power and toughness are each equal to the number of cards in your hand.
 Whenever you draw a card, each opponent loses 1 life.</CardText>
 <Flavor>"If that brain can't figure out the secret of the serum, then add more brains."
@@ -2465,7 +2472,7 @@ Whenever you draw a card, each opponent loses 1 life.</CardText>
 <Artist>Stephan Martiniere</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>214047</Multiverseid>
-<Rulings>2011/06/01: If an effect causes you to draw multiple cards, <Psychosis Crawler> will trigger that many times.</Rulings>
+<Rulings>2011/06/01: If an effect causes you to draw multiple cards, Psychosis Crawler will trigger that many times.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2478,7 +2485,7 @@ Whenever you draw a card, each opponent loses 1 life.</CardText>
 <No>127</No>
 <Name>Razorfield Rhino</Name>
 <Type>Artifact Creature — Rhino 4/4</Type>
-<ManaCost>6 (6)</ManaCost>
+<ManaCost>{6}</ManaCost>
 <CardText>Metalcraft — Razorfield Rhino gets +2/+2 as long as you control three or more artifacts.</CardText>
 <Flavor>Adapted to tread on razorgrass, the rhino proved adept at treading on Phyrexians as well.</Flavor>
 <Artist>Kekai Kotaki</Artist>
@@ -2495,15 +2502,15 @@ Whenever you draw a card, each opponent loses 1 life.</CardText>
 <SetId>MBS</SetId>
 <No>128</No>
 <Name>Rusted Slasher</Name>
-<Type>Artifact Creature — Horror 4/1</Type>
-<ManaCost>4 (4)</ManaCost>
+<Type>Artifact Creature — Phyrexian Horror 4/1</Type>
+<ManaCost>{4}</ManaCost>
 <CardText>Sacrifice an artifact: Regenerate Rusted Slasher.</CardText>
 <Flavor>"It's a beautiful vision. Discarded debris is reborn as a singular entity."
 —Urabrask the Hidden</Flavor>
 <Artist>Adrian Smith</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>213746</Multiverseid>
-<Rulings>2011/06/01: You may sacrifice <Rusted Slasher> to pay for its own regeneration ability. If you do, however, it won't regenerate. It'll just end up in its owner's graveyard as a result of the sacrifice.</Rulings>
+<Rulings>2011/06/01: You may sacrifice Rusted Slasher to pay for its own regeneration ability. If you do, however, it won't regenerate. It'll just end up in its owner's graveyard as a result of the sacrifice.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2516,14 +2523,15 @@ Whenever you draw a card, each opponent loses 1 life.</CardText>
 <No>129</No>
 <Name>Shimmer Myr</Name>
 <Type>Artifact Creature — Myr 2/2</Type>
-<ManaCost>3 (3)</ManaCost>
+<ManaCost>{3}</ManaCost>
 <CardText>Flash
 You may cast artifact spells as though they had flash.</CardText>
 <Flavor>It evades Phyrexians by hiding in the spaces between seconds.</Flavor>
 <Artist>Jana Schirmer & Johannes Voss</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>214042</Multiverseid>
-<Rulings>2011/06/01: Because the artifact lands of the original _Mirrodin_(R) block aren't cast, <Shimmer Myr>'s ability doesn't affect them.</Rulings>
+<Rulings>2020/11/10: Once you announce that you're casting a spell, players can't attempt to remove Shimmer Myr from the battlefield to make that casting illegal. Removing Shimmer My after you've cast a spell won't affect that spell.
+2020/11/10: Shimmer Myr has no effect on artifact lands because they aren't cast as spells.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2536,9 +2544,9 @@ You may cast artifact spells as though they had flash.</CardText>
 <No>130</No>
 <Name>Shriekhorn</Name>
 <Type>Artifact</Type>
-<ManaCost>1 (1)</ManaCost>
+<ManaCost>{1}</ManaCost>
 <CardText>Shriekhorn enters the battlefield with three charge counters on it.
-{T}, Remove a charge counter from Shriekhorn: Target player puts the top two cards of their library into their graveyard.</CardText>
+{T}, Remove a charge counter from Shriekhorn: Target player mills two cards.</CardText>
 <Artist>Erica Yang</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>213786</Multiverseid>
@@ -2554,7 +2562,7 @@ You may cast artifact spells as though they had flash.</CardText>
 <No>131</No>
 <Name>Signal Pest</Name>
 <Type>Artifact Creature — Pest 0/1</Type>
-<ManaCost>1 (1)</ManaCost>
+<ManaCost>{1}</ManaCost>
 <CardText>Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)
 Signal Pest can't be blocked except by creatures with flying or reach.</CardText>
 <Flavor>It leaps from tree to tree, revealing the enemy's positions.</Flavor>
@@ -2573,7 +2581,7 @@ Signal Pest can't be blocked except by creatures with flying or reach.</CardText
 <No>132</No>
 <Name>Silverskin Armor</Name>
 <Type>Artifact — Equipment</Type>
-<ManaCost>2 (2)</ManaCost>
+<ManaCost>{2}</ManaCost>
 <CardText>Equipped creature gets +1/+1 and is an artifact in addition to its other types.
 Equip {2}</CardText>
 <Flavor>Partisan spies warned that no armor would protect the body from Phyrexian infection. Neurok strategists took that as a challenge.</Flavor>
@@ -2593,8 +2601,8 @@ Equip {2}</CardText>
 <No>133</No>
 <Name>Skinwing</Name>
 <Type>Artifact — Equipment</Type>
-<ManaCost>4 (4)</ManaCost>
-<CardText>Living weapon (When this Equipment enters the battlefield, create a 0/0 black Germ creature token, then attach this to it.)
+<ManaCost>{4}</ManaCost>
+<CardText>Living weapon (When this Equipment enters the battlefield, create a 0/0 black Phyrexian Germ creature token, then attach this to it.)
 Equipped creature gets +2/+2 and has flying.
 Equip {6}</CardText>
 <Artist>Igor Kieryluk</Artist>
@@ -2612,7 +2620,7 @@ Equip {6}</CardText>
 <No>134</No>
 <Name>Sphere of the Suns</Name>
 <Type>Artifact</Type>
-<ManaCost>2 (2)</ManaCost>
+<ManaCost>{2}</ManaCost>
 <CardText>Sphere of the Suns enters the battlefield tapped and with three charge counters on it.
 {T}, Remove a charge counter from Sphere of the Suns: Add one mana of any color.</CardText>
 <Artist>Jana Schirmer & Johannes Voss</Artist>
@@ -2630,7 +2638,7 @@ Equip {6}</CardText>
 <No>135</No>
 <Name>Spin Engine</Name>
 <Type>Artifact Creature — Construct 3/1</Type>
-<ManaCost>3 (3)</ManaCost>
+<ManaCost>{3}</ManaCost>
 <CardText>{R}: Target creature can't block Spin Engine this turn.</CardText>
 <Flavor>"It will be battle-ready before our strike at Oxid Ridge, and it will guarantee our victory."
 —Ketuc of the Helm</Flavor>
@@ -2649,13 +2657,13 @@ Equip {6}</CardText>
 <No>136</No>
 <Name>Spine of Ish Sah</Name>
 <Type>Artifact</Type>
-<ManaCost>7 (7)</ManaCost>
+<ManaCost>{7}</ManaCost>
 <CardText>When Spine of Ish Sah enters the battlefield, destroy target permanent.
 When Spine of Ish Sah is put into a graveyard from the battlefield, return Spine of Ish Sah to its owner's hand.</CardText>
 <Artist>Daniel Ljunggren</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>214076</Multiverseid>
-<Rulings>2011/06/01: <Spine of Ish Sah>'s last ability doesn't allow you to sacrifice it. You must find another way to get <Spine of Ish Sah> into the graveyard.</Rulings>
+<Rulings>2011/06/01: Spine of Ish Sah's last ability doesn't allow you to sacrifice it. You must find another way to get Spine of Ish Sah into the graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2668,8 +2676,8 @@ When Spine of Ish Sah is put into a graveyard from the battlefield, return Spine
 <No>137</No>
 <Name>Strandwalker</Name>
 <Type>Artifact — Equipment</Type>
-<ManaCost>5 (5)</ManaCost>
-<CardText>Living weapon (When this Equipment enters the battlefield, create a 0/0 black Germ creature token, then attach this to it.)
+<ManaCost>{5}</ManaCost>
+<CardText>Living weapon (When this Equipment enters the battlefield, create a 0/0 black Phyrexian Germ creature token, then attach this to it.)
 Equipped creature gets +2/+4 and has reach.
 Equip {4}</CardText>
 <Artist>Igor Kieryluk</Artist>
@@ -2687,7 +2695,7 @@ Equip {4}</CardText>
 <No>138</No>
 <Name>Sword of Feast and Famine</Name>
 <Type>Artifact — Equipment</Type>
-<ManaCost>3 (3)</ManaCost>
+<ManaCost>{3}</ManaCost>
 <CardText>Equipped creature gets +2/+2 and has protection from black and from green.
 Whenever equipped creature deals combat damage to a player, that player discards a card and you untap all lands you control.
 Equip {2}</CardText>
@@ -2706,8 +2714,8 @@ Equip {2}</CardText>
 <SetId>MBS</SetId>
 <No>139</No>
 <Name>Tangle Hulk</Name>
-<Type>Artifact Creature — Beast 5/3</Type>
-<ManaCost>5 (5)</ManaCost>
+<Type>Artifact Creature — Phyrexian Beast 5/3</Type>
+<ManaCost>{5}</ManaCost>
 <CardText>{2}{G}: Regenerate Tangle Hulk.</CardText>
 <Flavor>"A true Phyrexian predator. It will never know death, just as nature intended."
 —Vorinclex, Voice of Hunger</Flavor>
@@ -2726,13 +2734,13 @@ Equip {2}</CardText>
 <No>140</No>
 <Name>Thopter Assembly</Name>
 <Type>Artifact Creature — Thopter 5/5</Type>
-<ManaCost>6 (6)</ManaCost>
+<ManaCost>{6}</ManaCost>
 <CardText>Flying
 At the beginning of your upkeep, if you control no Thopters other than Thopter Assembly, return Thopter Assembly to its owner's hand and create five 1/1 colorless Thopter artifact creature tokens with flying.</CardText>
 <Artist>Volkan Baǵa</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>214039</Multiverseid>
-<Rulings>2011/06/01: The triggered ability looks for any permanent you control with the creature type Thopter, not just the Thopter tokens previously created by a <Thopter Assembly>.</Rulings>
+<Rulings>2011/06/01: The triggered ability looks for any permanent you control with the creature type Thopter, not just the Thopter tokens previously created by a Thopter Assembly.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2745,7 +2753,7 @@ At the beginning of your upkeep, if you control no Thopters other than Thopter A
 <No>141</No>
 <Name>Titan Forge</Name>
 <Type>Artifact</Type>
-<ManaCost>3 (3)</ManaCost>
+<ManaCost>{3}</ManaCost>
 <CardText>{3}, {T}: Put a charge counter on Titan Forge.
 {T}, Remove three charge counters from Titan Forge: Create a 9/9 colorless Golem artifact creature token.</CardText>
 <Artist>Svetlin Velinov</Artist>
@@ -2763,14 +2771,14 @@ At the beginning of your upkeep, if you control no Thopters other than Thopter A
 <No>142</No>
 <Name>Training Drone</Name>
 <Type>Artifact Creature — Drone 4/4</Type>
-<ManaCost>3 (3)</ManaCost>
+<ManaCost>{3}</ManaCost>
 <CardText>Training Drone can't attack or block unless it's equipped.</CardText>
 <Flavor>"Vulshok flail, Viridian shield, loxodon blade . . . Tazzir, bring the Moriok hook and assemble the rookies."
 —Vy Covalt, Neurok agent</Flavor>
 <Artist>Matt Cavotta</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>213764</Multiverseid>
-<Rulings>2011/06/01: If <Training Drone> has been declared as an attacking or blocking creature, and it stops being equipped later in combat, it won't stop attacking or blocking.</Rulings>
+<Rulings>2011/06/01: If Training Drone has been declared as an attacking or blocking creature, and it stops being equipped later in combat, it won't stop attacking or blocking.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2783,7 +2791,7 @@ At the beginning of your upkeep, if you control no Thopters other than Thopter A
 <No>143</No>
 <Name>Viridian Claw</Name>
 <Type>Artifact — Equipment</Type>
-<ManaCost>2 (2)</ManaCost>
+<ManaCost>{2}</ManaCost>
 <CardText>Equipped creature gets +1/+0 and has first strike.
 Equip {1}</CardText>
 <Flavor>"Phyrexians can't corrupt what they can't get close enough to touch."</Flavor>
@@ -2810,8 +2818,8 @@ Equip {1}</CardText>
 <Multiverseid>213775</Multiverseid>
 <Rulings>2011/06/01: The last activated ability affects all attacking creatures, not just those you control.
 2011/06/01: The word "you" in a permanent's trigger condition always refers to the permanent's current controller.
-2011/06/01: Gaining control of <Contested War Zone> doesn't cause it to tap or untap.
-2011/06/01: In some multiplayer formats, creatures controlled by different players may deal combat damage to you simultaneously. If this happens, you control each triggered ability and can put them on the stack in any order. The last ability to resolve will determine who ends up controlling <Contested War Zone>.</Rulings>
+2011/06/01: Gaining control of Contested War Zone doesn't cause it to tap or untap.
+2011/06/01: In some multiplayer formats, creatures controlled by different players may deal combat damage to you simultaneously. If this happens, you control each triggered ability and can put them on the stack in any order. The last ability to resolve will determine who ends up controlling Contested War Zone.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2825,12 +2833,12 @@ Equip {1}</CardText>
 <Name>Inkmoth Nexus</Name>
 <Type>Land</Type>
 <CardText>{T}: Add {C}.
-{1}: Inkmoth Nexus becomes a 1/1 Blinkmoth artifact creature with flying and infect until end of turn. It's still a land. (It deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)</CardText>
+{1}: Inkmoth Nexus becomes a 1/1 Phyrexian Blinkmoth artifact creature with flying and infect until end of turn. It's still a land. (It deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)</CardText>
 <Artist>Jung Park</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>213731</Multiverseid>
-<Rulings>2011/06/01: If <Inkmoth Nexus> entered the battlefield this turn and it's not a creature, it can be tapped for mana. If it becomes a creature that turn, it can't attack or be tapped for mana.
-2011/06/01: If you've controlled <Inkmoth Nexus> continuously since your most recent turn began and it becomes a creature, it can attack or be tapped for mana.</Rulings>
+<Rulings>2011/06/01: If Inkmoth Nexus entered the battlefield this turn and it's not a creature, it can be tapped for mana. If it becomes a creature that turn, it can't attack or be tapped for mana.
+2011/06/01: If you've controlled Inkmoth Nexus continuously since your most recent turn began and it becomes a creature, it can attack or be tapped for mana.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2850,7 +2858,7 @@ Equip {1}</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Mirrodin Besieged</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2865,7 +2873,7 @@ Equip {1}</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Mirrodin Besieged</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2880,7 +2888,7 @@ Equip {1}</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Mirrodin Besieged</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2895,7 +2903,7 @@ Equip {1}</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Mirrodin Besieged</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2910,7 +2918,7 @@ Equip {1}</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Mirrodin Besieged</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2925,7 +2933,7 @@ Equip {1}</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Mirrodin Besieged</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2940,7 +2948,7 @@ Equip {1}</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Mirrodin Besieged</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2955,7 +2963,7 @@ Equip {1}</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Mirrodin Besieged</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2970,7 +2978,7 @@ Equip {1}</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Mirrodin Besieged</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2985,6 +2993,6 @@ Equip {1}</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Mirrodin Besieged</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 

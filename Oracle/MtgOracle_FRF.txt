@@ -3,14 +3,17 @@
 <No>1</No>
 <Name>Ugin, the Spirit Dragon</Name>
 <Type>Legendary Planeswalker — Ugin (Loyalty: 7)</Type>
-<ManaCost>8 (8)</ManaCost>
-<CardText>+2: Ugin, the Spirit Dragon deals 3 damage to any target.
--X: Exile each permanent with converted mana cost X or less that's one or more colors.
--10: You gain 7 life, draw seven cards, then put up to seven permanent cards from your hand onto the battlefield.</CardText>
+<ManaCost>{8}</ManaCost>
+<CardText>[+2]: Ugin, the Spirit Dragon deals 3 damage to any target.
+[-X]: Exile each permanent with mana value X or less that's one or more colors.
+[-10]: You gain 7 life, draw seven cards, then put up to seven permanent cards from your hand onto the battlefield.</CardText>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>391948</Multiverseid>
 <Rulings>2014/11/24: If you choose to put permanent cards with morph onto the battlefield with the third ability, you must put them onto the battlefield face up.
-2014/11/24: <Ugin, the Spirit Dragon> is not a Dragon card; that is, he doesn't have the creature type Dragon. Spells and abilities that refer to Dragon cards or Dragons don't apply to Ugin.</Rulings>
+2014/11/24: Ugin, the Spirit Dragon is not a Dragon card; that is, he doesn't have the creature type Dragon. Spells and abilities that refer to Dragon cards or Dragons don't apply to Ugin.
+2020/06/23: If a permanent has {X} in its mana cost, X is considered to be 0.
+2020/06/23: The converted mana cost of a token that isn't a copy of another object is 0. A token that is a copy of another object has the same mana cost as that object.
+2020/06/23: A permanent card is an artifact, creature, enchantment, land, or planeswalker card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -23,14 +26,14 @@
 <No>2</No>
 <Name>Abzan Advantage</Name>
 <Type>Instant</Type>
-<ManaCost>1W (2)</ManaCost>
+<ManaCost>{1}{W}</ManaCost>
 <CardText>Target player sacrifices an enchantment. Bolster 1. (Choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.)</CardText>
 <Flavor>"To survive, you must seize every opportunity."
 —Daghatar the Adamant</Flavor>
 <Artist>Winona Nelson</Artist>
 <Watermark>Abzan</Watermark>
 <Multiverseid>391781</Multiverseid>
-<Rulings>2014/11/24: You can target any player with <Abzan Advantage>, even if that player doesn't control an enchantment.
+<Rulings>2014/11/24: You can target any player with Abzan Advantage, even if that player doesn't control an enchantment.
 2014/11/24: The enchantment will have already left the battlefield when you bolster 1.
 2014/11/24: Bolster itself doesn't target any creature, though some spells and abilities that bolster may have other effects that target creatures. For example, you could put counters on a creature with protection from white with Abzan Skycaptain's bolster ability.
 2014/11/24: You determine which creature to put counters on as the spell or ability that instructs you to bolster resolves.</Rulings>
@@ -46,7 +49,7 @@
 <No>3</No>
 <Name>Abzan Runemark</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>2W (3)</ManaCost>
+<ManaCost>{2}{W}</ManaCost>
 <CardText>Enchant creature
 Enchanted creature gets +2/+2.
 Enchanted creature has vigilance as long as you control a black or green permanent.</CardText>
@@ -65,14 +68,14 @@ Enchanted creature has vigilance as long as you control a black or green permane
 <No>4</No>
 <Name>Abzan Skycaptain</Name>
 <Type>Creature — Bird Soldier 2/2</Type>
-<ManaCost>3W (4)</ManaCost>
+<ManaCost>{3}{W}</ManaCost>
 <CardText>Flying
 When Abzan Skycaptain dies, bolster 2. (Choose a creature with the least toughness among creatures you control and put two +1/+1 counters on it.)</CardText>
 <Flavor>"A tempest is coming. Turn your faces toward the wind!"</Flavor>
 <Artist>Matt Stewart</Artist>
 <Watermark>Abzan</Watermark>
 <Multiverseid>391785</Multiverseid>
-<Rulings>2014/11/24: Bolster itself doesn't target any creature, though some spells and abilities that bolster may have other effects that target creatures. For example, you could put counters on a creature with protection from white with <Abzan Skycaptain>'s bolster ability.
+<Rulings>2014/11/24: Bolster itself doesn't target any creature, though some spells and abilities that bolster may have other effects that target creatures. For example, you could put counters on a creature with protection from white with Abzan Skycaptain's bolster ability.
 2014/11/24: You determine which creature to put counters on as the spell or ability that instructs you to bolster resolves.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -86,7 +89,7 @@ When Abzan Skycaptain dies, bolster 2. (Choose a creature with the least toughne
 <No>5</No>
 <Name>Arashin Cleric</Name>
 <Type>Creature — Human Cleric 1/3</Type>
-<ManaCost>1W (2)</ManaCost>
+<ManaCost>{1}{W}</ManaCost>
 <CardText>When Arashin Cleric enters the battlefield, you gain 3 life.</CardText>
 <Flavor>"We'll have time to put out the fires when those trapped within the ruins are safe."</Flavor>
 <Artist>Chris Rahn</Artist>
@@ -104,7 +107,7 @@ When Abzan Skycaptain dies, bolster 2. (Choose a creature with the least toughne
 <No>6</No>
 <Name>Aven Skirmisher</Name>
 <Type>Creature — Bird Warrior 1/1</Type>
-<ManaCost>W (1)</ManaCost>
+<ManaCost>{W}</ManaCost>
 <CardText>Flying</CardText>
 <Flavor>"We do not hide from the dragons that pretend to rule the skies. If we did, the dragons would become our rulers, and our way of life would be lost."</Flavor>
 <Artist>Jason Rainville</Artist>
@@ -122,16 +125,16 @@ When Abzan Skycaptain dies, bolster 2. (Choose a creature with the least toughne
 <No>7</No>
 <Name>Channel Harm</Name>
 <Type>Instant</Type>
-<ManaCost>5W (6)</ManaCost>
+<ManaCost>{5}{W}</ManaCost>
 <CardText>Prevent all damage that would be dealt to you and permanents you control this turn by sources you don't control. If damage is prevented this way, you may have Channel Harm deal that much damage to target creature.</CardText>
 <Artist>David Gaillet</Artist>
 <Multiverseid>391808</Multiverseid>
-<Rulings>2014/11/24: <Channel Harm>'s only target is the creature it may deal damage to. You choose that target as you cast <Channel Harm>, not at the time it prevents damage.
-2014/11/24: If the target creature is an illegal target as <Channel Harm> tries to resolve, the entire spell doesn't resolve. No damage will be prevented.
-2014/11/24: Whether the target creature is still a legal target is not checked after <Channel Harm> resolves. Damage will still be prevented, even if <Channel Harm> can't deal damage to that creature.
-2014/11/24: <Channel Harm>'s effect is not a redirection effect. If it prevents damage, you may have <Channel Harm> (not the original source) deal damage to the creature as part of that prevention effect. <Channel Harm> is the source of the new damage, so the characteristics of the original source (such as its color, or whether it had lifelink or deathtouch) don't affect the new damage. The new damage is not combat damage, even if the prevented damage was.
-2014/11/24: You can choose a creature you control as the target. If you do, the damage <Channel Harm> deals to that creature won't be prevented.
-2014/11/24: If two players have each cast <Channel Harm> targeting a creature the other controls, and a source one player controls would deal damage to the second player or a permanent that player controls, one <Channel Harm> will prevent that damage and try to deal damage to the creature controlled by the first player. That player's <Channel Harm> will then prevent that damage and try to deal damage to the creature controlled by the second player. This forms a loop that either player can break by choosing to not have <Channel Harm> try to deal damage. It doesn't matter which player breaks the loop, as no damage will be dealt in either case.</Rulings>
+<Rulings>2014/11/24: Channel Harm's only target is the creature it may deal damage to. You choose that target as you cast Channel Harm, not at the time it prevents damage.
+2014/11/24: If the target creature is an illegal target as Channel Harm tries to resolve, the entire spell doesn't resolve. No damage will be prevented.
+2014/11/24: Whether the target creature is still a legal target is not checked after Channel Harm resolves. Damage will still be prevented, even if Channel Harm can't deal damage to that creature.
+2014/11/24: Channel Harm's effect is not a redirection effect. If it prevents damage, you may have Channel Harm (not the original source) deal damage to the creature as part of that prevention effect. Channel Harm is the source of the new damage, so the characteristics of the original source (such as its color, or whether it had lifelink or deathtouch) don't affect the new damage. The new damage is not combat damage, even if the prevented damage was.
+2014/11/24: You can choose a creature you control as the target. If you do, the damage Channel Harm deals to that creature won't be prevented.
+2014/11/24: If two players have each cast Channel Harm targeting a creature the other controls, and a source one player controls would deal damage to the second player or a permanent that player controls, one Channel Harm will prevent that damage and try to deal damage to the creature controlled by the first player. That player's Channel Harm will then prevent that damage and try to deal damage to the creature controlled by the second player. This forms a loop that either player can break by choosing to not have Channel Harm try to deal damage. It doesn't matter which player breaks the loop, as no damage will be dealt in either case.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -144,7 +147,7 @@ When Abzan Skycaptain dies, bolster 2. (Choose a creature with the least toughne
 <No>8</No>
 <Name>Citadel Siege</Name>
 <Type>Enchantment</Type>
-<ManaCost>2WW (4)</ManaCost>
+<ManaCost>{2}{W}{W}</ManaCost>
 <CardText>As Citadel Siege enters the battlefield, choose Khans or Dragons.
 • Khans — At the beginning of combat on your turn, put two +1/+1 counters on target creature you control.
 • Dragons — At the beginning of combat on each opponent's turn, tap target creature that player controls.</CardText>
@@ -165,7 +168,7 @@ When Abzan Skycaptain dies, bolster 2. (Choose a creature with the least toughne
 <No>9</No>
 <Name>Daghatar the Adamant</Name>
 <Type>Legendary Creature — Human Warrior 0/0</Type>
-<ManaCost>3W (4)</ManaCost>
+<ManaCost>{3}{W}</ManaCost>
 <CardText>Vigilance
 Daghatar the Adamant enters the battlefield with four +1/+1 counters on it.
 {1}{B/G}{B/G}: Move a +1/+1 counter from target creature onto a second target creature.</CardText>
@@ -173,7 +176,7 @@ Daghatar the Adamant enters the battlefield with four +1/+1 counters on it.
 <Artist>Zack Stella</Artist>
 <Watermark>Abzan</Watermark>
 <Multiverseid>391815</Multiverseid>
-<Rulings>2014/11/24: The two targets of the last ability must be different creatures. Either one may be <Daghatar the Adamant>.
+<Rulings>2014/11/24: The two targets of the last ability must be different creatures. Either one may be Daghatar the Adamant.
 2014/11/24: The +1/+1 counter is moved only if both targets are still legal as the ability resolves.
 2014/11/24: To move a counter from one creature to another, the counter is removed from the first creature and placed on the second. Any abilities that care about a counter being placed on the second creature will apply.</Rulings>
 <Vintage>Legal</Vintage>
@@ -188,7 +191,7 @@ Daghatar the Adamant enters the battlefield with four +1/+1 counters on it.
 <No>10</No>
 <Name>Dragon Bell Monk</Name>
 <Type>Creature — Human Monk 2/2</Type>
-<ManaCost>2W (3)</ManaCost>
+<ManaCost>{2}{W}</ManaCost>
 <CardText>Vigilance
 Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)</CardText>
 <Flavor>He has spent years training his eyes and ears to detect the subtle signs of a dragon's approach.</Flavor>
@@ -211,7 +214,7 @@ Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until e
 <No>11</No>
 <Name>Dragonscale General</Name>
 <Type>Creature — Human Warrior 2/3</Type>
-<ManaCost>3W (4)</ManaCost>
+<ManaCost>{3}{W}</ManaCost>
 <CardText>At the beginning of your end step, bolster X, where X is the number of tapped creatures you control. (Choose a creature with the least toughness among creatures you control and put X +1/+1 counters on it.)</CardText>
 <Flavor>"Dragons seek war. I bring it to them."</Flavor>
 <Artist>Volkan Baǵa</Artist>
@@ -233,7 +236,7 @@ Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until e
 <No>12</No>
 <Name>Elite Scaleguard</Name>
 <Type>Creature — Human Soldier 2/3</Type>
-<ManaCost>4W (5)</ManaCost>
+<ManaCost>{4}{W}</ManaCost>
 <CardText>When Elite Scaleguard enters the battlefield, bolster 2. (Choose a creature with the least toughness among creatures you control and put two +1/+1 counters on it.)
 Whenever a creature you control with a +1/+1 counter on it attacks, tap target creature defending player controls.</CardText>
 <Artist>Steve Prescott</Artist>
@@ -253,7 +256,7 @@ Whenever a creature you control with a +1/+1 counter on it attacks, tap target c
 <No>13</No>
 <Name>Great-Horn Krushok</Name>
 <Type>Creature — Beast 3/5</Type>
-<ManaCost>4W (5)</ManaCost>
+<ManaCost>{4}{W}</ManaCost>
 <Flavor>Perfectly suited for life in the Shifting Wastes, the krushok is well protected by its horn, its hide, and its temper.</Flavor>
 <Artist>YW Tang</Artist>
 <Multiverseid>391848</Multiverseid>
@@ -269,7 +272,7 @@ Whenever a creature you control with a +1/+1 counter on it attacks, tap target c
 <No>14</No>
 <Name>Honor's Reward</Name>
 <Type>Instant</Type>
-<ManaCost>2W (3)</ManaCost>
+<ManaCost>{2}{W}</ManaCost>
 <CardText>You gain 4 life. Bolster 2. (Choose a creature with the least toughness among creatures you control and put two +1/+1 counters on it.)</CardText>
 <Flavor>It seldom rains in Abzan lands. When it does, the khan marks the occasion by honoring the families of the fallen.</Flavor>
 <Artist>Izzy</Artist>
@@ -289,7 +292,7 @@ Whenever a creature you control with a +1/+1 counter on it attacks, tap target c
 <No>15</No>
 <Name>Jeskai Barricade</Name>
 <Type>Creature — Wall 0/4</Type>
-<ManaCost>1W (2)</ManaCost>
+<ManaCost>{1}{W}</ManaCost>
 <CardText>Flash (You may cast this spell any time you could cast an instant.)
 Defender
 When Jeskai Barricade enters the battlefield, you may return another target creature you control to its owner's hand.</CardText>
@@ -308,7 +311,7 @@ When Jeskai Barricade enters the battlefield, you may return another target crea
 <No>16</No>
 <Name>Lightform</Name>
 <Type>Enchantment</Type>
-<ManaCost>1WW (3)</ManaCost>
+<ManaCost>{1}{W}{W}</ManaCost>
 <CardText>When Lightform enters the battlefield, it becomes an Aura with enchant creature. Manifest the top card of your library and attach Lightform to it. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)
 Enchanted creature has flying and lifelink.</CardText>
 <Artist>Steve Prescott</Artist>
@@ -349,7 +352,7 @@ Enchanted creature has flying and lifelink.</CardText>
 <No>17</No>
 <Name>Lotus-Eye Mystics</Name>
 <Type>Creature — Human Monk 3/2</Type>
-<ManaCost>3W (4)</ManaCost>
+<ManaCost>{3}{W}</ManaCost>
 <CardText>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
 When Lotus-Eye Mystics enters the battlefield, return target enchantment card from your graveyard to your hand.</CardText>
 <Flavor>Every action has a foreseen purpose.</Flavor>
@@ -372,7 +375,7 @@ When Lotus-Eye Mystics enters the battlefield, return target enchantment card fr
 <No>18</No>
 <Name>Mardu Woe-Reaper</Name>
 <Type>Creature — Human Warrior 2/1</Type>
-<ManaCost>W (1)</ManaCost>
+<ManaCost>{W}</ManaCost>
 <CardText>Whenever Mardu Woe-Reaper or another Warrior enters the battlefield under your control, you may exile target creature card from a graveyard. If you do, you gain 1 life.</CardText>
 <Flavor>"Those who died in battle deserve their rest."</Flavor>
 <Artist>Willian Murai</Artist>
@@ -390,7 +393,7 @@ When Lotus-Eye Mystics enters the battlefield, return target enchantment card fr
 <No>19</No>
 <Name>Mastery of the Unseen</Name>
 <Type>Enchantment</Type>
-<ManaCost>1W (2)</ManaCost>
+<ManaCost>{1}{W}</ManaCost>
 <CardText>Whenever a permanent you control is turned face up, you gain 1 life for each creature you control.
 {3}{W}: Manifest the top card of your library. (Put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)</CardText>
 <Artist>Daniel Ljunggren</Artist>
@@ -420,15 +423,15 @@ When Lotus-Eye Mystics enters the battlefield, return target enchantment card fr
 <No>20</No>
 <Name>Monastery Mentor</Name>
 <Type>Creature — Human Monk 2/2</Type>
-<ManaCost>2W (3)</ManaCost>
+<ManaCost>{2}{W}</ManaCost>
 <CardText>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
 Whenever you cast a noncreature spell, create a 1/1 white Monk creature token with prowess.</CardText>
 <Flavor>"Speak little. Do much."</Flavor>
 <Artist>Magali Villeneuve</Artist>
 <Watermark>Jeskai</Watermark>
 <Multiverseid>391883</Multiverseid>
-<Rulings>2014/11/24: Casting a noncreature spell will cause both prowess and <Monastery Mentor>'s other ability to trigger. You can put these abilities on the stack in either order. Whichever ability is put on the stack last will resolve first.
-2014/11/24: The spell that causes <Monastery Mentor>'s second ability to trigger will not cause the prowess ability of the Monk token that's created to trigger.
+<Rulings>2014/11/24: Casting a noncreature spell will cause both prowess and Monastery Mentor's other ability to trigger. You can put these abilities on the stack in either order. Whichever ability is put on the stack last will resolve first.
+2014/11/24: The spell that causes Monastery Mentor's second ability to trigger will not cause the prowess ability of the Monk token that's created to trigger.
 2014/11/24: Any spell you cast that doesn't have the type creature will cause prowess to trigger. If a spell has multiple types, and one of those types is creature (such as an artifact creature), casting it won't cause prowess to trigger. Playing a land also won't cause prowess to trigger.
 2014/11/24: Prowess triggers only once for any spell, even if that spell has multiple types.
 2014/11/24: Prowess goes on the stack on top of the spell that caused it to trigger. It will resolve before that spell.
@@ -445,12 +448,13 @@ Whenever you cast a noncreature spell, create a 1/1 white Monk creature token wi
 <No>21</No>
 <Name>Pressure Point</Name>
 <Type>Instant</Type>
-<ManaCost>1W (2)</ManaCost>
+<ManaCost>{1}{W}</ManaCost>
 <CardText>Tap target creature.
 Draw a card.</CardText>
 <Flavor>By studying dragon anatomy, Jeskai monks have learned how to locate clusters of nerves that will incapacitate even the mightiest dragons.</Flavor>
 <Artist>Chase Stone</Artist>
 <Multiverseid>391896</Multiverseid>
+<Rulings>2020/09/25: If the target creature is an illegal target by the time Pressure Point tries to resolve, the spell doesn't resolve. You don't draw a card. If the target is legal but doesn't become tapped (most likely because it's already tapped), you do draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -463,8 +467,8 @@ Draw a card.</CardText>
 <No>22</No>
 <Name>Rally the Ancestors</Name>
 <Type>Instant</Type>
-<ManaCost>XWW (2)</ManaCost>
-<CardText>Return each creature card with converted mana cost X or less from your graveyard to the battlefield. Exile those creatures at the beginning of your next upkeep. Exile Rally the Ancestors.</CardText>
+<ManaCost>{X}{W}{W}</ManaCost>
+<CardText>Return each creature card with mana value X or less from your graveyard to the battlefield. Exile those creatures at the beginning of your next upkeep. Exile Rally the Ancestors.</CardText>
 <Flavor>"The family is a tree, and in times of need, every branch can be a weapon."
 —Daghatar the Adamant</Flavor>
 <Artist>Nils Hamm</Artist>
@@ -481,14 +485,14 @@ Draw a card.</CardText>
 <No>23</No>
 <Name>Sage's Reverie</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>3W (4)</ManaCost>
+<ManaCost>{3}{W}</ManaCost>
 <CardText>Enchant creature
 When Sage's Reverie enters the battlefield, draw a card for each Aura you control that's attached to a creature.
 Enchanted creature gets +1/+1 for each Aura you control that's attached to a creature.</CardText>
 <Artist>Jason Rainville</Artist>
 <Multiverseid>391910</Multiverseid>
-<Rulings>2014/11/24: An Aura doesn't necessarily need the enchant creature ability for the abilities of <Sage's Reverie> to count it. For example, an Aura with enchant permanent that's attached to a creature will count.
-2014/11/24: Count the number of Auras you control attached to creatures as the enters-the-battlefield ability resolves to determine how many cards to draw. This will include <Sage's Reverie> as long as it's still on the battlefield at that time.</Rulings>
+<Rulings>2014/11/24: An Aura doesn't necessarily need the enchant creature ability for the abilities of Sage's Reverie to count it. For example, an Aura with enchant permanent that's attached to a creature will count.
+2014/11/24: Count the number of Auras you control attached to creatures as the enters-the-battlefield ability resolves to determine how many cards to draw. This will include Sage's Reverie as long as it's still on the battlefield at that time.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -501,7 +505,7 @@ Enchanted creature gets +1/+1 for each Aura you control that's attached to a cre
 <No>24</No>
 <Name>Sandblast</Name>
 <Type>Instant</Type>
-<ManaCost>2W (3)</ManaCost>
+<ManaCost>{2}{W}</ManaCost>
 <CardText>Sandblast deals 5 damage to target attacking or blocking creature.</CardText>
 <Flavor>In the Shifting Wastes, more are killed by sand than by steel.</Flavor>
 <Artist>Min Yum</Artist>
@@ -518,14 +522,14 @@ Enchanted creature gets +1/+1 for each Aura you control that's attached to a cre
 <No>25</No>
 <Name>Sandsteppe Outcast</Name>
 <Type>Creature — Human Warrior 2/1</Type>
-<ManaCost>2W (3)</ManaCost>
+<ManaCost>{2}{W}</ManaCost>
 <CardText>When Sandsteppe Outcast enters the battlefield, choose one —
 • Put a +1/+1 counter on Sandsteppe Outcast.
 • Create a 1/1 white Spirit creature token with flying.</CardText>
 <Artist>Wesley Burt</Artist>
 <Multiverseid>391914</Multiverseid>
-<Rulings>2014/11/24: You choose which mode you're using as you put the ability on the stack, after the creature has entered the battlefield. Once you've chosen a mode, you can't change that mode even if the creature leaves the battlefield in response to that ability.
-2014/11/24: If a mode requires a target and there are no legal targets available, you must choose the mode that adds a +1/+1 counter.</Rulings>
+<Rulings>2014/11/24: If a mode requires a target and there are no legal targets available, you must choose the mode that adds a +1/+1 counter.
+2014/11/24: You choose which mode you're using as you put the ability on the stack, after the creature has entered the battlefield. Once you've chosen a mode, you can't change that mode even if the creature leaves the battlefield in response to that ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -538,7 +542,7 @@ Enchanted creature gets +1/+1 for each Aura you control that's attached to a cre
 <No>26</No>
 <Name>Soul Summons</Name>
 <Type>Sorcery</Type>
-<ManaCost>1W (2)</ManaCost>
+<ManaCost>{1}{W}</ManaCost>
 <CardText>Manifest the top card of your library. (Put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)</CardText>
 <Flavor>Ugin's magic reaches beyond the dragons. The clans have adapted it for war.</Flavor>
 <Artist>Johann Bodin</Artist>
@@ -568,7 +572,7 @@ Enchanted creature gets +1/+1 for each Aura you control that's attached to a cre
 <No>27</No>
 <Name>Soulfire Grand Master</Name>
 <Type>Creature — Human Monk 2/2</Type>
-<ManaCost>1W (2)</ManaCost>
+<ManaCost>{1}{W}</ManaCost>
 <CardText>Lifelink
 Instant and sorcery spells you control have lifelink.
 {2}{U/R}{U/R}: The next time you cast an instant or sorcery spell from your hand this turn, put that card into your hand instead of into your graveyard as it resolves.</CardText>
@@ -576,7 +580,7 @@ Instant and sorcery spells you control have lifelink.
 <Watermark>Jeskai</Watermark>
 <Multiverseid>391927</Multiverseid>
 <Rulings>2014/11/24: An instant or sorcery spell with lifelink causes its controller to gain life only if it's the source of any damage that's dealt. An instant or sorcery spell with lifelink that causes another source to deal damage won't cause its controller to gain life.
-2014/11/24: After you activate <Soulfire Grand Master>'s last ability, if the next instant or sorcery spell you cast from your hand doesn't resolve, it won't be put into your hand and the effect won't be applied to the next spell you cast.
+2014/11/24: After you activate Soulfire Grand Master's last ability, if the next instant or sorcery spell you cast from your hand doesn't resolve, it won't be put into your hand and the effect won't be applied to the next spell you cast.
 2014/11/24: A spell that instructs you to exile it (for example, Temporal Trespass) won't be put into your hand because it's not put into your graveyard as it resolves.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -590,9 +594,9 @@ Instant and sorcery spells you control have lifelink.
 <No>28</No>
 <Name>Valorous Stance</Name>
 <Type>Instant</Type>
-<ManaCost>1W (2)</ManaCost>
+<ManaCost>{1}{W}</ManaCost>
 <CardText>Choose one —
-• Target creature gains indestructible until end of turn.
+• Target creature gains indestructible until end of turn. (Damage and effects that say "destroy" don't destroy it.)
 • Destroy target creature with toughness 4 or greater.</CardText>
 <Flavor>"Every choice alters the path of fate."
 —Sarkhan Vol</Flavor>
@@ -610,15 +614,15 @@ Instant and sorcery spells you control have lifelink.
 <No>29</No>
 <Name>Wandering Champion</Name>
 <Type>Creature — Human Monk 3/1</Type>
-<ManaCost>1W (2)</ManaCost>
+<ManaCost>{1}{W}</ManaCost>
 <CardText>Whenever Wandering Champion deals combat damage to a player, if you control a blue or red permanent, you may discard a card. If you do, draw a card.</CardText>
 <Flavor>"Learn from your enemies, but do not tolerate them."</Flavor>
 <Artist>Willian Murai</Artist>
 <Watermark>Jeskai</Watermark>
 <Multiverseid>391952</Multiverseid>
-<Rulings>2018/12/07: <Wandering Champion>'s ability doesn't trigger if you don't control a blue or red permanent immediately after it deals combat damage to a player.
-2018/12/07: If the only blue or red permanent you control is a creature that's dealt lethal damage at the same time as <Wandering Champion> deals combat damage, <Wandering Champion>'s ability triggers.
-2018/12/07: If you don't control a blue or red permanent as <Wandering Champion>'s ability resolves, you can't discard and draw a card. The blue or red permanent you control as the ability resolves doesn't have to be one you controlled as the ability triggered.</Rulings>
+<Rulings>2018/12/07: Wandering Champion's ability doesn't trigger if you don't control a blue or red permanent immediately after it deals combat damage to a player.
+2018/12/07: If the only blue or red permanent you control is a creature that's dealt lethal damage at the same time as Wandering Champion deals combat damage, Wandering Champion's ability triggers.
+2018/12/07: If you don't control a blue or red permanent as Wandering Champion's ability resolves, you can't discard and draw a card. The blue or red permanent you control as the ability resolves doesn't have to be one you controlled as the ability triggered.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -631,15 +635,15 @@ Instant and sorcery spells you control have lifelink.
 <No>30</No>
 <Name>Wardscale Dragon</Name>
 <Type>Creature — Dragon 4/4</Type>
-<ManaCost>4WW (6)</ManaCost>
+<ManaCost>{4}{W}{W}</ManaCost>
 <CardText>Flying
 As long as Wardscale Dragon is attacking, defending player can't cast spells.</CardText>
 <Flavor>Dromoka's brood emerge from the dragon tempests covered with tough scales that protect them from most clan weapons and magic.</Flavor>
 <Artist>Jason Rainville</Artist>
 <Watermark>Dromoka</Watermark>
 <Multiverseid>391955</Multiverseid>
-<Rulings>2014/11/24: "Defending player" refers to the player <Wardscale Dragon> is attacking or the controller of the planeswalker <Wardscale Dragon> is attacking. In multiplayer formats that allow attacking multiple players, your other opponents can still cast spells, even if you control other creatures attacking those players or planeswalkers those players control.
-2014/11/24: The defending player can still activate abilities or take special actions, such as turning a face-down creature face up.</Rulings>
+<Rulings>2014/11/24: The defending player can still activate abilities or take special actions, such as turning a face-down creature face up.
+2014/11/24: "Defending player" refers to the player Wardscale Dragon is attacking or the controller of the planeswalker Wardscale Dragon is attacking. In multiplayer formats that allow attacking multiple players, your other opponents can still cast spells, even if you control other creatures attacking those players or planeswalkers those players control.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -652,7 +656,7 @@ As long as Wardscale Dragon is attacking, defending player can't cast spells.</C
 <No>31</No>
 <Name>Aven Surveyor</Name>
 <Type>Creature — Bird Scout 2/2</Type>
-<ManaCost>3UU (5)</ManaCost>
+<ManaCost>{3}{U}{U}</ManaCost>
 <CardText>Flying
 When Aven Surveyor enters the battlefield, choose one —
 • Put a +1/+1 counter on Aven Surveyor.
@@ -673,7 +677,7 @@ When Aven Surveyor enters the battlefield, choose one —
 <No>32</No>
 <Name>Cloudform</Name>
 <Type>Enchantment</Type>
-<ManaCost>1UU (3)</ManaCost>
+<ManaCost>{1}{U}{U}</ManaCost>
 <CardText>When Cloudform enters the battlefield, it becomes an Aura with enchant creature. Manifest the top card of your library and attach Cloudform to it. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)
 Enchanted creature has flying and hexproof.</CardText>
 <Artist>Noah Bradley</Artist>
@@ -682,7 +686,7 @@ Enchanted creature has flying and hexproof.</CardText>
 2014/11/24: If a face-down permanent you control leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends.
 2014/11/24: You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for indicating this include using markers or dice, or simply placing them in order on the battlefield. You must also track how each became face down (manifested, cast face down using the morph ability, and so on).
 2014/11/24: There are no cards in the Fate Reforged set that would turn a face-down instant or sorcery card on the battlefield face up, but some older cards can try to do this. If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it's an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won't trigger, because even though you revealed the card, it never turned face up.
-2014/11/24: The face-down permanent is a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a converted mana cost of 0. Other effects that apply to the permanent can still grant or change any of these characteristics.
+2014/11/24: The face-down permanent is a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the permanent can still grant or change any of these characteristics.
 2014/11/24: You'll still manifest the top card of your library even if the "Form" isn't on the battlefield as its enters-the-battlefield ability resolves.
 2014/11/24: If you have no cards in your library as the ability resolves, the "Form" will be put into its owner's graveyard as a state-based action.
 2014/11/24: If the enchanted creature is turned face up, the "Form" will continue to enchant it.
@@ -714,7 +718,7 @@ Enchanted creature has flying and hexproof.</CardText>
 <No>33</No>
 <Name>Enhanced Awareness</Name>
 <Type>Instant</Type>
-<ManaCost>4U (5)</ManaCost>
+<ManaCost>{4}{U}</ManaCost>
 <CardText>Draw three cards, then discard a card.</CardText>
 <Flavor>"Study the topography of your enemies, and you will have a map to victory."
 —Shu Yun, the Silent Tempest</Flavor>
@@ -732,10 +736,10 @@ Enchanted creature has flying and hexproof.</CardText>
 <No>34</No>
 <Name>Fascination</Name>
 <Type>Sorcery</Type>
-<ManaCost>XUU (2)</ManaCost>
+<ManaCost>{X}{U}{U}</ManaCost>
 <CardText>Choose one —
 • Each player draws X cards.
-• Each player puts the top X cards of their library into their graveyard.</CardText>
+• Each player mills X cards.</CardText>
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>391829</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -750,14 +754,14 @@ Enchanted creature has flying and hexproof.</CardText>
 <No>35</No>
 <Name>Frost Walker</Name>
 <Type>Creature — Elemental 4/1</Type>
-<ManaCost>1U (2)</ManaCost>
+<ManaCost>{1}{U}</ManaCost>
 <CardText>When Frost Walker becomes the target of a spell or ability, sacrifice it.</CardText>
 <Flavor>"As the clans carved out their territories, we saw allies where the Mardu saw only obstacles."
 —Yasova Dragonclaw</Flavor>
 <Artist>Mike Bierek</Artist>
 <Watermark>Temur</Watermark>
 <Multiverseid>391841</Multiverseid>
-<Rulings>2014/11/24: If <Frost Walker> becomes the target of a spell or ability, its ability triggers and is put on the stack on top of that spell or ability. <Frost Walker>'s ability will resolve (causing it to be sacrificed) first. Unless the spell or ability has another target, it won't resolve as it tries to resolve for having no legal targets.</Rulings>
+<Rulings>2014/11/24: If Frost Walker becomes the target of a spell or ability, its ability triggers and is put on the stack on top of that spell or ability. Frost Walker's ability will resolve (causing it to be sacrificed) first. Unless the spell or ability has another target, it won't resolve as it tries to resolve for having no legal targets.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -770,29 +774,29 @@ Enchanted creature has flying and hexproof.</CardText>
 <No>36</No>
 <Name>Jeskai Infiltrator</Name>
 <Type>Creature — Human Monk 2/3</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>Jeskai Infiltrator can't be blocked as long as you control no other creatures.
 When Jeskai Infiltrator deals combat damage to a player, exile it and the top card of your library in a face-down pile, shuffle that pile, then manifest those cards. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)</CardText>
 <Artist>Cynthia Sheppard</Artist>
 <Watermark>Jeskai</Watermark>
 <Multiverseid>391862</Multiverseid>
-<Rulings>2014/11/24: Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+<Rulings>2014/11/24: Unlike a face-down creature that was cast using the morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
+2014/11/24: Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
 2014/11/24: Because face-down creatures don't have names, they can't have the same name as any other creature, even another face-down creature.
 2014/11/24: A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren't affected.
-2014/11/24: Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
-2014/11/24: The pile is shuffled to disguise from your opponents which manifested creature is which. After you manifest the cards, you can look at them.
 2014/11/24: If a face-down permanent you control leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends.
+2014/11/24: At any time, you can look at a face-down permanent you control. You can't look at face-down permanents you don't control unless an effect allows you to or instructs you to.
 2014/11/24: You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for indicating this include using markers or dice, or simply placing them in order on the battlefield. You must also track how each became face down (manifested, cast face down using the morph ability, and so on).
 2014/11/24: There are no cards in the Fate Reforged set that would turn a face-down instant or sorcery card on the battlefield face up, but some older cards can try to do this. If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it's an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won't trigger, because even though you revealed the card, it never turned face up.
 2014/11/24: Some older Magic sets feature double-faced cards, which have a Magic card face on each side rather than a Magic card face on one side and a Magic card back on the other. The rules for double-faced cards are changing slightly to account for the possibility that they are manifested. If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, it can't transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up. A double-faced permanent on the battlefield still can't be turned face down.
-2014/11/24: At any time, you can look at a face-down permanent you control. You can't look at face-down permanents you don't control unless an effect allows you to or instructs you to.
-2014/11/24: If <Jeskai Infiltrator> isn't on the battlefield as its triggered ability resolves, you'll manifest just the top card of your library.
-2014/11/24: A card's owner is public information at all times. If the two cards you exile are owned by different players (perhaps because you gained control of a <Jeskai Infiltrator> owned by your opponent), which card is which is no longer hidden from your opponent. That player will know which face-down creature they own.
+2014/11/24: Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
+2014/11/24: The pile is shuffled to disguise from your opponents which manifested creature is which. After you manifest the cards, you can look at them.
+2014/11/24: If Jeskai Infiltrator isn't on the battlefield as its triggered ability resolves, you'll manifest just the top card of your library.
+2014/11/24: A card's owner is public information at all times. If the two cards you exile are owned by different players (perhaps because you gained control of a Jeskai Infiltrator owned by your opponent), which card is which is no longer hidden from your opponent. That player will know which face-down creature they own.
 2014/11/24: If you manifest a card owned by an opponent and you leave the game, that card is exiled.
 2014/11/24: The face-down permanent is a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a converted mana cost of 0. Other effects that apply to the permanent can still grant or change any of these characteristics.
 2014/11/24: Any time you have priority, you may turn a manifested creature face up by revealing that it's a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn't use the stack and can't be responded to.
 2014/11/24: If a manifested creature would have morph if it were face up, you may also turn it face up by paying its morph cost.
-2014/11/24: Unlike a face-down creature that was cast using the morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
 2018/07/13: The face-down characteristics of a permanent are copiable values. If another object becomes a copy of a face-down creature or if a token is created that's a copy of a face-down creature, that new object is a 2/2 colorless face-up creature with no abilities.
 2018/07/13: Any time you have priority, you may turn a manifested creature face up by revealing that it's a creature card (ignoring any type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn't use the stack and can't be responded to.
 2018/07/13: Because face-down creatures don't have a name, they can't have the same name as any other creature or share any creature types with any other creature, even another face-down creature.
@@ -813,7 +817,7 @@ When Jeskai Infiltrator deals combat damage to a player, exile it and the top ca
 <No>37</No>
 <Name>Jeskai Runemark</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>Enchant creature
 Enchanted creature gets +2/+2.
 Enchanted creature has flying as long as you control a red or white permanent.</CardText>
@@ -833,7 +837,7 @@ Enchanted creature has flying as long as you control a red or white permanent.</
 <No>38</No>
 <Name>Jeskai Sage</Name>
 <Type>Creature — Human Monk 1/1</Type>
-<ManaCost>1U (2)</ManaCost>
+<ManaCost>{1}{U}</ManaCost>
 <CardText>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
 When Jeskai Sage dies, draw a card.</CardText>
 <Flavor>"The one who conquers the mind is greater than the one who conquers the world."</Flavor>
@@ -856,7 +860,7 @@ When Jeskai Sage dies, draw a card.</CardText>
 <No>39</No>
 <Name>Lotus Path Djinn</Name>
 <Type>Creature — Djinn Monk 2/3</Type>
-<ManaCost>3U (4)</ManaCost>
+<ManaCost>{3}{U}</ManaCost>
 <CardText>Flying
 Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)</CardText>
 <Flavor>"The lotus takes root where body and mind intersect. It blooms when body and mind become one."</Flavor>
@@ -879,15 +883,15 @@ Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until e
 <No>40</No>
 <Name>Marang River Prowler</Name>
 <Type>Creature — Human Rogue 2/1</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>Marang River Prowler can't block and can't be blocked.
 You may cast Marang River Prowler from your graveyard as long as you control a black or green permanent.</CardText>
 <Flavor>The currents of the Marang wash away both tracks and blood.</Flavor>
 <Artist>Yefim Kligerman</Artist>
 <Watermark>Sultai</Watermark>
 <Multiverseid>391872</Multiverseid>
-<Rulings>2018/12/07: You must follow the normal timing permissions and restrictions and pay its cost to cast <Marang River Prowler> from your graveyard.
-2018/12/07: <Marang River Prowler> checks if you control a black or green permanent only as you begin to cast it. Once you begin to cast <Marang River Prowler> from your graveyard, it doesn't matter what happens to the black or green permanents you control.</Rulings>
+<Rulings>2018/12/07: You must follow the normal timing permissions and restrictions and pay its cost to cast Marang River Prowler from your graveyard.
+2018/12/07: Marang River Prowler checks if you control a black or green permanent only as you begin to cast it. Once you begin to cast Marang River Prowler from your graveyard, it doesn't matter what happens to the black or green permanents you control.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -900,9 +904,9 @@ You may cast Marang River Prowler from your graveyard as long as you control a b
 <No>41</No>
 <Name>Mindscour Dragon</Name>
 <Type>Creature — Dragon 4/4</Type>
-<ManaCost>4UU (6)</ManaCost>
+<ManaCost>{4}{U}{U}</ManaCost>
 <CardText>Flying
-Whenever Mindscour Dragon deals combat damage to an opponent, target player puts the top four cards of their library into their graveyard.</CardText>
+Whenever Mindscour Dragon deals combat damage to an opponent, target player mills four cards.</CardText>
 <Flavor>"The bells may one day ring as an anthem of our own end."
 —Kyu, Sage-Eye mystic</Flavor>
 <Artist>Wesley Burt</Artist>
@@ -920,7 +924,7 @@ Whenever Mindscour Dragon deals combat damage to an opponent, target player puts
 <No>42</No>
 <Name>Mistfire Adept</Name>
 <Type>Creature — Human Monk 3/3</Type>
-<ManaCost>3U (4)</ManaCost>
+<ManaCost>{3}{U}</ManaCost>
 <CardText>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
 Whenever you cast a noncreature spell, target creature gains flying until end of turn.</CardText>
 <Flavor>"The quieter the skies, the calmer the mind."</Flavor>
@@ -943,7 +947,7 @@ Whenever you cast a noncreature spell, target creature gains flying until end of
 <No>43</No>
 <Name>Monastery Siege</Name>
 <Type>Enchantment</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>As Monastery Siege enters the battlefield, choose Khans or Dragons.
 • Khans — At the beginning of your draw step, draw an additional card, then discard a card.
 • Dragons — Spells your opponents cast that target you or a permanent you control cost {2} more to cast.</CardText>
@@ -966,7 +970,7 @@ Whenever you cast a noncreature spell, target creature gains flying until end of
 <No>44</No>
 <Name>Neutralizing Blast</Name>
 <Type>Instant</Type>
-<ManaCost>1U (2)</ManaCost>
+<ManaCost>{1}{U}</ManaCost>
 <CardText>Counter target multicolored spell.</CardText>
 <Flavor>"To defeat your enemies, you must remove their ability to make war against you."</Flavor>
 <Artist>Dan Scott</Artist>
@@ -983,12 +987,12 @@ Whenever you cast a noncreature spell, target creature gains flying until end of
 <No>45</No>
 <Name>Rakshasa's Disdain</Name>
 <Type>Instant</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>Counter target spell unless its controller pays {1} for each card in your graveyard.</CardText>
 <Flavor>"Every failure, every death only makes my strength greater."</Flavor>
 <Artist>Seb McKinnon</Artist>
 <Multiverseid>391900</Multiverseid>
-<Rulings>2014/11/24: Count the number of cards in your graveyard as <Rakshasa's Disdain> resolves to determine how much mana the controller of the target spell must pay to avoid the spell being countered. <Rakshasa's Disdain> is still on the stack at this time and won't count toward this number.</Rulings>
+<Rulings>2014/11/24: Count the number of cards in your graveyard as Rakshasa's Disdain resolves to determine how much mana the controller of the target spell must pay to avoid the spell being countered. Rakshasa's Disdain is still on the stack at this time and won't count toward this number.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1001,7 +1005,7 @@ Whenever you cast a noncreature spell, target creature gains flying until end of
 <No>46</No>
 <Name>Reality Shift</Name>
 <Type>Instant</Type>
-<ManaCost>1U (2)</ManaCost>
+<ManaCost>{1}{U}</ManaCost>
 <CardText>Exile target creature. Its controller manifests the top card of their library. (That player puts the top card of their library onto the battlefield face down as a 2/2 creature. If it's a creature card, it can be turned face up any time for its mana cost.)</CardText>
 <Artist>Howard Lyon</Artist>
 <Multiverseid>391903</Multiverseid>
@@ -1030,7 +1034,7 @@ Whenever you cast a noncreature spell, target creature gains flying until end of
 <No>47</No>
 <Name>Refocus</Name>
 <Type>Instant</Type>
-<ManaCost>1U (2)</ManaCost>
+<ManaCost>{1}{U}</ManaCost>
 <CardText>Untap target creature.
 Draw a card.</CardText>
 <Flavor>"Before you can open your third eye, you must prove you can open the first two."</Flavor>
@@ -1048,13 +1052,13 @@ Draw a card.</CardText>
 <No>48</No>
 <Name>Renowned Weaponsmith</Name>
 <Type>Creature — Human Artificer 1/3</Type>
-<ManaCost>1U (2)</ManaCost>
+<ManaCost>{1}{U}</ManaCost>
 <CardText>{T}: Add {C}{C}. Spend this mana only to cast artifact spells or activate abilities of artifacts.
-{U}, {T}: Search your library for a card named Heart-Piercer Bow or Vial of Dragonfire, reveal it, put it into your hand, then shuffle your library.</CardText>
+{U}, {T}: Search your library for a card named Heart-Piercer Bow or Vial of Dragonfire, reveal it, put it into your hand, then shuffle.</CardText>
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>391905</Multiverseid>
 <Rulings>2019/07/12: Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keyword abilities, such as equip, are activated abilities and will have colons in their reminder text. You can't spend mana added by this ability to pay costs of triggered abilities of artifacts such as the first ability of Chandra's Regulator.
-2019/07/12: The mana generated by <Renowned Weaponsmith>'s first ability can't be spent to activate abilities of artifact sources that aren't on the battlefield.</Rulings>
+2019/07/12: The mana generated by Renowned Weaponsmith's first ability can't be spent to activate abilities of artifact sources that aren't on the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1067,7 +1071,7 @@ Draw a card.</CardText>
 <No>49</No>
 <Name>Rite of Undoing</Name>
 <Type>Instant</Type>
-<ManaCost>4U (5)</ManaCost>
+<ManaCost>{4}{U}</ManaCost>
 <CardText>Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)
 Return target nonland permanent you control and target nonland permanent you don't control to their owners' hands.</CardText>
 <Artist>Anastasia Ovchinnikova</Artist>
@@ -1090,7 +1094,7 @@ Return target nonland permanent you control and target nonland permanent you don
 <No>50</No>
 <Name>Sage-Eye Avengers</Name>
 <Type>Creature — Djinn Monk 4/5</Type>
-<ManaCost>4UU (6)</ManaCost>
+<ManaCost>{4}{U}{U}</ManaCost>
 <CardText>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
 Whenever Sage-Eye Avengers attacks, you may return target creature to its owner's hand if its power is less than Sage-Eye Avengers's power.</CardText>
 <Artist>Dan Scott</Artist>
@@ -1112,18 +1116,18 @@ Whenever Sage-Eye Avengers attacks, you may return target creature to its owner'
 <No>51</No>
 <Name>Shifting Loyalties</Name>
 <Type>Sorcery</Type>
-<ManaCost>5U (6)</ManaCost>
+<ManaCost>{5}{U}</ManaCost>
 <CardText>Exchange control of two target permanents that share a card type. (Artifact, creature, enchantment, land, and planeswalker are card types.)</CardText>
 <Flavor>"Show the enemy the true path, and the spirit will yearn to follow it."
 —Houn, Jeskai elder</Flavor>
 <Artist>James Ryman</Artist>
 <Multiverseid>391919</Multiverseid>
-<Rulings>2014/11/24: If one of the target permanents is an illegal target when <Shifting Loyalties> resolves, the exchange won't happen. If both permanents are illegal targets (perhaps because they no longer share a card type), <Shifting Loyalties> won't resolve.
+<Rulings>2014/11/24: If one of the target permanents is an illegal target when Shifting Loyalties resolves, the exchange won't happen. If both permanents are illegal targets (perhaps because they no longer share a card type), Shifting Loyalties won't resolve.
 2014/11/24: Either target can have card types the other does not, as long as they share at least one card type. For example, you could target a creature and an artifact creature.
 2014/11/24: You don't have to control either target permanent.
-2014/11/24: If the same player controls both permanents when <Shifting Loyalties> resolves, nothing happens.
+2014/11/24: If the same player controls both permanents when Shifting Loyalties resolves, nothing happens.
 2014/11/24: Gaining control of an Aura or Equipment doesn't cause it to move, though gaining control of an Equipment will allow you to activate its equip ability later to attach it to a creature you control.
-2014/11/24: If another spell or ability allows you to change the targets of <Shifting Loyalties> (or perhaps copy it and choose new targets for the copy), you can change the targets only such that the final set of targets is still legal. For example, if <Shifting Loyalties> targets a creature you control and a creature an opponent controls, you couldn't change just the second target to a noncreature permanent controlled by that player. You could, however, change just the second target to a creature controlled by a different opponent. The two new targets can share a different card type than the two original targets did.</Rulings>
+2014/11/24: If another spell or ability allows you to change the targets of Shifting Loyalties (or perhaps copy it and choose new targets for the copy), you can change the targets only such that the final set of targets is still legal. For example, if Shifting Loyalties targets a creature you control and a creature an opponent controls, you couldn't change just the second target to a noncreature permanent controlled by that player. You could, however, change just the second target to a creature controlled by a different opponent. The two new targets can share a different card type than the two original targets did.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1136,7 +1140,7 @@ Whenever Sage-Eye Avengers attacks, you may return target creature to its owner'
 <No>52</No>
 <Name>Shu Yun, the Silent Tempest</Name>
 <Type>Legendary Creature — Human Monk 3/2</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
 Whenever you cast a noncreature spell, you may pay {R/W}{R/W}. If you do, target creature gains double strike until end of turn.</CardText>
 <Artist>David Gaillet</Artist>
@@ -1158,8 +1162,8 @@ Whenever you cast a noncreature spell, you may pay {R/W}{R/W}. If you do, target
 <No>53</No>
 <Name>Sultai Skullkeeper</Name>
 <Type>Creature — Naga Shaman 2/1</Type>
-<ManaCost>1U (2)</ManaCost>
-<CardText>When Sultai Skullkeeper enters the battlefield, put the top two cards of your library into your graveyard.</CardText>
+<ManaCost>{1}{U}</ManaCost>
+<CardText>When Sultai Skullkeeper enters the battlefield, mill two cards.</CardText>
 <Flavor>A skullkeeper is the first to arrive after the palace archers strike down intruders, probing their brains for choice bits of knowledge.</Flavor>
 <Artist>Ryan Barger</Artist>
 <Watermark>Sultai</Watermark>
@@ -1176,7 +1180,7 @@ Whenever you cast a noncreature spell, you may pay {R/W}{R/W}. If you do, target
 <No>54</No>
 <Name>Supplant Form</Name>
 <Type>Instant</Type>
-<ManaCost>4UU (6)</ManaCost>
+<ManaCost>{4}{U}{U}</ManaCost>
 <CardText>Return target creature to its owner's hand. You create a token that's a copy of that creature.</CardText>
 <Flavor>"Ice can be shaped to any form, even the whisper of a memory."
 —Mytha, Temur shaman</Flavor>
@@ -1186,7 +1190,7 @@ Whenever you cast a noncreature spell, you may pay {R/W}{R/W}. If you do, target
 2014/11/24: If you return a face-down creature to its owner's hand, the token will be a face-up colorless 2/2 creature with no name, no abilities, and no creature types. (The face-down creature card will be revealed to all players as it leaves the battlefield.)
 2014/11/24: If the copied creature had {X} in its mana cost, X is 0.
 2014/11/24: If the copied creature was copying something else, the token enters the battlefield as whatever that creature was copying.
-2014/11/24: If the copied creature is a token, the token created by <Supplant Form> copies the original characteristics of that token as stated by the effect that put it onto the battlefield.
+2014/11/24: If the copied creature is a token, the token created by Supplant Form copies the original characteristics of that token as stated by the effect that put it onto the battlefield.
 2014/11/24: The token copies exactly what was printed on the creature and nothing else (unless that creature was copying something else or was a token; see below). It doesn't copy whether that creature was tapped or untapped, whether it had any counters on it or Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1200,7 +1204,7 @@ Whenever you cast a noncreature spell, you may pay {R/W}{R/W}. If you do, target
 <No>55</No>
 <Name>Temporal Trespass</Name>
 <Type>Sorcery</Type>
-<ManaCost>8UUU (11)</ManaCost>
+<ManaCost>{8}{U}{U}{U}</ManaCost>
 <CardText>Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)
 Take an extra turn after this one. Exile Temporal Trespass.</CardText>
 <Flavor>Few truly live in the moment.</Flavor>
@@ -1224,14 +1228,14 @@ Take an extra turn after this one. Exile Temporal Trespass.</CardText>
 <No>56</No>
 <Name>Torrent Elemental</Name>
 <Type>Creature — Elemental 3/5</Type>
-<ManaCost>4U (5)</ManaCost>
+<ManaCost>{4}{U}</ManaCost>
 <CardText>Flying
 Whenever Torrent Elemental attacks, tap all creatures defending player controls.
-{3}{B/G}{B/G}: Put Torrent Elemental from exile onto the battlefield tapped. Activate this ability only any time you could cast a sorcery.</CardText>
+{3}{B/G}{B/G}: Put Torrent Elemental from exile onto the battlefield tapped. Activate only as a sorcery.</CardText>
 <Artist>James Paick</Artist>
 <Watermark>Sultai</Watermark>
 <Multiverseid>391945</Multiverseid>
-<Rulings>2014/11/24: "Defending player" refers to the player <Torrent Elemental> is attacking or the controller of the planeswalker <Torrent Elemental> is attacking. In multiplayer formats that allow attacking multiple players, creatures controlled by other players won't be tapped, even if you control other creatures attacking those players or planeswalkers those players control.</Rulings>
+<Rulings>2014/11/24: "Defending player" refers to the player Torrent Elemental is attacking or the controller of the planeswalker Torrent Elemental is attacking. In multiplayer formats that allow attacking multiple players, creatures controlled by other players won't be tapped, even if you control other creatures attacking those players or planeswalkers those players control.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1244,7 +1248,7 @@ Whenever Torrent Elemental attacks, tap all creatures defending player controls.
 <No>57</No>
 <Name>Whisk Away</Name>
 <Type>Instant</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>Put target attacking or blocking creature on top of its owner's library.</CardText>
 <Flavor>The maneuvers of the Abzan formation intrigued Ojutai in both their complexity and their futility.</Flavor>
 <Artist>Zack Stella</Artist>
@@ -1261,16 +1265,16 @@ Whenever Torrent Elemental attacks, tap all creatures defending player controls.
 <No>58</No>
 <Name>Will of the Naga</Name>
 <Type>Instant</Type>
-<ManaCost>4UU (6)</ManaCost>
+<ManaCost>{4}{U}{U}</ManaCost>
 <CardText>Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)
 Tap up to two target creatures. Those creatures don't untap during their controller's next untap step.</CardText>
 <Flavor>The charm of a naga is undeniable.</Flavor>
 <Artist>Wayne Reynolds</Artist>
 <Watermark>Sultai</Watermark>
 <Multiverseid>391961</Multiverseid>
-<Rulings>2014/11/24: <Will of the Naga> can target creatures that are already tapped. Those creatures won't untap during their controller's next untap step.
-2014/11/24: <Will of the Naga> tracks the creatures, but not their controllers. If any of those creatures changes controllers before its first controller's next untap step, then it won't untap during its new controller's next untap step.
-2014/11/24: If you chose two targets and one is an illegal target as <Will of the Naga> resolves, that creature won't become tapped and it won't be stopped from untapping during its controller's next untap step. It won't be affected by <Will of the Naga> in any way.
+<Rulings>2014/11/24: Will of the Naga can target creatures that are already tapped. Those creatures won't untap during their controller's next untap step.
+2014/11/24: Will of the Naga tracks the creatures, but not their controllers. If any of those creatures changes controllers before its first controller's next untap step, then it won't untap during its new controller's next untap step.
+2014/11/24: If you chose two targets and one is an illegal target as Will of the Naga resolves, that creature won't become tapped and it won't be stopped from untapping during its controller's next untap step. It won't be affected by Will of the Naga in any way.
 2014/11/24: You exile cards from your graveyard at the same time you pay the spell's cost. Exiling a card this way is simply another way to pay that cost.
 2014/11/24: Delve doesn't change a spell's mana cost or converted mana cost. For example, the converted mana cost of Tasigur's Cruelty (with mana cost {5}{B}) is 6 even if you exile three cards to cast it.
 2014/11/24: You can't exile cards to pay for the colored mana requirements of a spell with delve.
@@ -1288,7 +1292,7 @@ Tap up to two target creatures. Those creatures don't untap during their control
 <No>59</No>
 <Name>Write into Being</Name>
 <Type>Sorcery</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>Look at the top two cards of your library. Manifest one of those cards, then put the other on the top or bottom of your library. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)</CardText>
 <Artist>Yeong-Hao Han</Artist>
 <Multiverseid>391964</Multiverseid>
@@ -1306,7 +1310,7 @@ Tap up to two target creatures. Those creatures don't untap during their control
 <No>60</No>
 <Name>Alesha's Vanguard</Name>
 <Type>Creature — Orc Warrior 3/3</Type>
-<ManaCost>3B (4)</ManaCost>
+<ManaCost>{3}{B}</ManaCost>
 <CardText>Dash {2}{B} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)</CardText>
 <Flavor>Boundaries drawn on maps or marked with stone have no meaning for the Mardu.</Flavor>
 <Artist>Torstein Nordstrand</Artist>
@@ -1328,15 +1332,15 @@ Tap up to two target creatures. Those creatures don't untap during their control
 <No>61</No>
 <Name>Ancestral Vengeance</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>BB (2)</ManaCost>
+<ManaCost>{B}{B}</ManaCost>
 <CardText>Enchant creature
 When Ancestral Vengeance enters the battlefield, put a +1/+1 counter on target creature you control.
 Enchanted creature gets -1/-1.</CardText>
 <Flavor>The defenses of the Abzan extend well beyond the walls of their fortresses.</Flavor>
 <Artist>Yohann Schepacz</Artist>
 <Multiverseid>391790</Multiverseid>
-<Rulings>2014/11/24: If the creature targeted by <Ancestral Vengeance>'s enchant creature ability is an illegal target as <Ancestral Vengeance> tries to resolve, <Ancestral Vengeance> won't resolve. It won't enter the battlefield, and its enters-the-battlefield ability won't trigger.
-2014/11/24: If <Ancestral Vengeance> causes the enchanted creature to have toughness 0, that creature and <Ancestral Vengeance> will be put into their owners' graveyards. The enters-the-battlefield ability will still apply.</Rulings>
+<Rulings>2014/11/24: If the creature targeted by Ancestral Vengeance's enchant creature ability is an illegal target as Ancestral Vengeance tries to resolve, Ancestral Vengeance won't resolve. It won't enter the battlefield, and its enters-the-battlefield ability won't trigger.
+2014/11/24: If Ancestral Vengeance causes the enchanted creature to have toughness 0, that creature and Ancestral Vengeance will be put into their owners' graveyards. The enters-the-battlefield ability will still apply.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1349,7 +1353,7 @@ Enchanted creature gets -1/-1.</CardText>
 <No>62</No>
 <Name>Archfiend of Depravity</Name>
 <Type>Creature — Demon 5/4</Type>
-<ManaCost>3BB (5)</ManaCost>
+<ManaCost>{3}{B}{B}</ManaCost>
 <CardText>Flying
 At the beginning of each opponent's end step, that player chooses up to two creatures they control, then sacrifices the rest.</CardText>
 <Flavor>"Why would I kill you all? Who then would be left to worship me?"</Flavor>
@@ -1370,13 +1374,13 @@ At the beginning of each opponent's end step, that player chooses up to two crea
 <No>63</No>
 <Name>Battle Brawler</Name>
 <Type>Creature — Orc Warrior 2/2</Type>
-<ManaCost>1B (2)</ManaCost>
+<ManaCost>{1}{B}</ManaCost>
 <CardText>As long as you control a red or white permanent, Battle Brawler gets +1/+0 and has first strike.</CardText>
 <Flavor>Every time he returns from battle unscathed, he feels a tinge of disappointment.</Flavor>
 <Artist>Karl Kopinski</Artist>
 <Watermark>Mardu</Watermark>
 <Multiverseid>391800</Multiverseid>
-<Rulings>2014/11/24: If <Battle Brawler> assigns combat damage during the first combat damage step, and then it loses first strike before the second combat damage step (perhaps because you no longer control a red or white permanent), it won't assign combat damage again in the second combat damage step.</Rulings>
+<Rulings>2014/11/24: If Battle Brawler assigns combat damage during the first combat damage step, and then it loses first strike before the second combat damage step (perhaps because you no longer control a red or white permanent), it won't assign combat damage again in the second combat damage step.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1389,7 +1393,7 @@ At the beginning of each opponent's end step, that player chooses up to two crea
 <No>64</No>
 <Name>Brutal Hordechief</Name>
 <Type>Creature — Orc Warrior 3/3</Type>
-<ManaCost>3B (4)</ManaCost>
+<ManaCost>{3}{B}</ManaCost>
 <CardText>Whenever a creature you control attacks, defending player loses 1 life and you gain 1 life.
 {3}{R/W}{R/W}: Creatures your opponents control block this turn if able, and you choose how those creatures block.</CardText>
 <Artist>Tyler Jacobson</Artist>
@@ -1398,8 +1402,8 @@ At the beginning of each opponent's end step, that player chooses up to two crea
 <Rulings>2014/11/24: All blocking declarations must still be legal.
 2014/11/24: If there's a cost associated with having a creature block and you choose for that creature to block, its controller can choose to pay that cost or not. If that player decides to not pay that cost, you must propose a new set of blocking creatures.
 2014/11/24: You'll choose how each creature controlled by an opponent blocks, even if that creature wasn't on the battlefield or wasn't controlled by an opponent as the activated ability resolved.
-2014/11/24: In a multiplayer game, if more than one player activates <Brutal Hordechief>'s activated ability on the same turn, the controller of the last ability to resolve will choose how any creatures controlled by players who didn't resolve this ability will block.
-2014/11/24: The defending player affected by <Brutal Hordechief>'s triggered ability is determined relative to the creature that attacked. For example, if <Brutal Hordechief> attacked one opponent and two other creatures you control attacked another opponent, the first opponent would lose 1 life and the second opponent would lose 2 life. You'd gain a total of 3 life.</Rulings>
+2014/11/24: In a multiplayer game, if more than one player activates Brutal Hordechief's activated ability on the same turn, the controller of the last ability to resolve will choose how any creatures controlled by players who didn't resolve this ability will block.
+2014/11/24: The defending player affected by Brutal Hordechief's triggered ability is determined relative to the creature that attacked. For example, if Brutal Hordechief attacked one opponent and two other creatures you control attacked another opponent, the first opponent would lose 1 life and the second opponent would lose 2 life. You'd gain a total of 3 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1412,7 +1416,7 @@ At the beginning of each opponent's end step, that player chooses up to two crea
 <No>65</No>
 <Name>Crux of Fate</Name>
 <Type>Sorcery</Type>
-<ManaCost>3BB (5)</ManaCost>
+<ManaCost>{3}{B}{B}</ManaCost>
 <CardText>Choose one —
 • Destroy all Dragon creatures.
 • Destroy all non-Dragon creatures.</CardText>
@@ -1431,7 +1435,7 @@ At the beginning of each opponent's end step, that player chooses up to two crea
 <No>66</No>
 <Name>Dark Deal</Name>
 <Type>Sorcery</Type>
-<ManaCost>2B (3)</ManaCost>
+<ManaCost>{2}{B}</ManaCost>
 <CardText>Each player discards all the cards in their hand, then draws that many cards minus one.</CardText>
 <Flavor>The first khans of the Sultai relied on the magic of the rakshasa to ensure the survival of the clan.</Flavor>
 <Artist>Scott Murphy</Artist>
@@ -1449,13 +1453,13 @@ At the beginning of each opponent's end step, that player chooses up to two crea
 <No>67</No>
 <Name>Diplomacy of the Wastes</Name>
 <Type>Sorcery</Type>
-<ManaCost>2B (3)</ManaCost>
+<ManaCost>{2}{B}</ManaCost>
 <CardText>Target opponent reveals their hand. You choose a nonland card from it. That player discards that card. If you control a Warrior, that player loses 2 life.</CardText>
 <Flavor>"Our emissaries are gifted negotiators."
 —Alesha, Who Smiles at Death</Flavor>
 <Artist>Jack Wang</Artist>
 <Multiverseid>391819</Multiverseid>
-<Rulings>2014/11/24: If you control a Warrior as <Diplomacy of the Wastes> resolves, the target opponent will lose 2 life even if that player didn't discard a card (perhaps because they had no cards in hand).</Rulings>
+<Rulings>2014/11/24: If you control a Warrior as Diplomacy of the Wastes resolves, the target opponent will lose 2 life even if that player didn't discard a card (perhaps because they had no cards in hand).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1468,7 +1472,7 @@ At the beginning of each opponent's end step, that player chooses up to two crea
 <No>68</No>
 <Name>Douse in Gloom</Name>
 <Type>Instant</Type>
-<ManaCost>2B (3)</ManaCost>
+<ManaCost>{2}{B}</ManaCost>
 <CardText>Douse in Gloom deals 2 damage to target creature and you gain 2 life.</CardText>
 <Flavor>The Mardu warrior was overjoyed when Tasigur set him free and granted him passage through the jungle. He failed to notice the Sultai leader's cruel smile.</Flavor>
 <Artist>Ryan Yee</Artist>
@@ -1485,7 +1489,7 @@ At the beginning of each opponent's end step, that player chooses up to two crea
 <No>69</No>
 <Name>Fearsome Awakening</Name>
 <Type>Sorcery</Type>
-<ManaCost>4B (5)</ManaCost>
+<ManaCost>{4}{B}</ManaCost>
 <CardText>Return target creature card from your graveyard to the battlefield. If it's a Dragon, put two +1/+1 counters on it.</CardText>
 <Flavor>On Tarkir, dragons emerge from enormous tempests, phenomena tied to Ugin's very presence on the plane.</Flavor>
 <Artist>Véronique Meignaud</Artist>
@@ -1503,7 +1507,7 @@ At the beginning of each opponent's end step, that player chooses up to two crea
 <No>70</No>
 <Name>Ghastly Conscription</Name>
 <Type>Sorcery</Type>
-<ManaCost>5BB (7)</ManaCost>
+<ManaCost>{5}{B}{B}</ManaCost>
 <CardText>Exile all creature cards from target player's graveyard in a face-down pile, shuffle that pile, then manifest those cards. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)</CardText>
 <Artist>YW Tang</Artist>
 <Multiverseid>391843</Multiverseid>
@@ -1534,8 +1538,8 @@ At the beginning of each opponent's end step, that player chooses up to two crea
 <No>71</No>
 <Name>Grave Strength</Name>
 <Type>Sorcery</Type>
-<ManaCost>1B (2)</ManaCost>
-<CardText>Choose target creature. Put the top three cards of your library into your graveyard, then put a +1/+1 counter on that creature for each creature card in your graveyard.</CardText>
+<ManaCost>{1}{B}</ManaCost>
+<CardText>Choose target creature. Mill three cards, then put a +1/+1 counter on that creature for each creature card in your graveyard.</CardText>
 <Flavor>So long as death follows life, the supply lines of the Sultai will never be cut.</Flavor>
 <Artist>Jeff Simpson</Artist>
 <Multiverseid>391847</Multiverseid>
@@ -1551,17 +1555,15 @@ At the beginning of each opponent's end step, that player chooses up to two crea
 <No>72</No>
 <Name>Gurmag Angler</Name>
 <Type>Creature — Zombie Fish 5/5</Type>
-<ManaCost>6B (7)</ManaCost>
+<ManaCost>{6}{B}</ManaCost>
 <CardText>Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)</CardText>
 <Flavor>If everything in the Gurmag Swamp hungers for human flesh, what bait could be more effective?</Flavor>
 <Artist>YW Tang</Artist>
 <Watermark>Sultai</Watermark>
 <Multiverseid>391850</Multiverseid>
-<Rulings>2014/11/24: You exile cards from your graveyard at the same time you pay the spell's cost. Exiling a card this way is simply another way to pay that cost.
-2014/11/24: Delve doesn't change a spell's mana cost or converted mana cost. For example, the converted mana cost of Tasigur's Cruelty (with mana cost {5}{B}) is 6 even if you exile three cards to cast it.
-2014/11/24: You can't exile cards to pay for the colored mana requirements of a spell with delve.
-2014/11/24: You can't exile more cards than the generic mana requirement of a spell with delve. For example, you can't exile more than five cards from your graveyard to cast Tasigur's Cruelty.
-2014/11/24: Because delve isn't an alternative cost, it can be used in conjunction with alternative costs.</Rulings>
+<Rulings>2021/03/19: Delve doesn't change a spell's mana cost or mana value. For example, Treasure Cruise's mana value is 8 even if you exiled three cards to cast it.
+2021/03/19: You can exile cards to pay only for generic mana, and you can't exile more cards than the generic mana requirement of a spell with delve. For example, you can't exile more than seven cards from your graveyard to cast Treasure Cruise unless an effect has increased its cost.
+2021/03/19: Because delve isn't an alternative cost, it can be used in conjunction with alternative costs, such as flashback. It can also be used to pay for additional costs that include generic mana.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1574,7 +1576,7 @@ At the beginning of each opponent's end step, that player chooses up to two crea
 <No>73</No>
 <Name>Hooded Assassin</Name>
 <Type>Creature — Human Assassin 1/2</Type>
-<ManaCost>2B (3)</ManaCost>
+<ManaCost>{2}{B}</ManaCost>
 <CardText>When Hooded Assassin enters the battlefield, choose one —
 • Put a +1/+1 counter on Hooded Assassin.
 • Destroy target creature that was dealt damage this turn.</CardText>
@@ -1595,7 +1597,7 @@ At the beginning of each opponent's end step, that player chooses up to two crea
 <No>74</No>
 <Name>Mardu Shadowspear</Name>
 <Type>Creature — Human Warrior 1/1</Type>
-<ManaCost>B (1)</ManaCost>
+<ManaCost>{B}</ManaCost>
 <CardText>Whenever Mardu Shadowspear attacks, each opponent loses 1 life.
 Dash {1}{B} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)</CardText>
 <Artist>Mark Poole</Artist>
@@ -1617,7 +1619,7 @@ Dash {1}{B} (You may cast this spell for its dash cost. If you do, it gains hast
 <No>75</No>
 <Name>Mardu Strike Leader</Name>
 <Type>Creature — Human Warrior 3/2</Type>
-<ManaCost>2B (3)</ManaCost>
+<ManaCost>{2}{B}</ManaCost>
 <CardText>Whenever Mardu Strike Leader attacks, create a 2/1 black Warrior creature token.
 Dash {3}{B} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)</CardText>
 <Artist>Jason Rainville</Artist>
@@ -1639,13 +1641,13 @@ Dash {3}{B} (You may cast this spell for its dash cost. If you do, it gains hast
 <No>76</No>
 <Name>Merciless Executioner</Name>
 <Type>Creature — Orc Warrior 3/1</Type>
-<ManaCost>2B (3)</ManaCost>
+<ManaCost>{2}{B}</ManaCost>
 <CardText>When Merciless Executioner enters the battlefield, each player sacrifices a creature.</CardText>
 <Flavor>He enjoys his work, for he sees only the worst Abzan criminals: those who betray their own kin.</Flavor>
 <Artist>David Palumbo</Artist>
 <Watermark>Abzan</Watermark>
 <Multiverseid>391879</Multiverseid>
-<Rulings>2014/11/24: If you control no other creatures as <Merciless Executioner>'s ability resolves, you'll have to sacrifice <Merciless Executioner>.</Rulings>
+<Rulings>2014/11/24: If you control no other creatures as Merciless Executioner's ability resolves, you'll have to sacrifice Merciless Executioner.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1658,14 +1660,15 @@ Dash {3}{B} (You may cast this spell for its dash cost. If you do, it gains hast
 <No>77</No>
 <Name>Noxious Dragon</Name>
 <Type>Creature — Dragon 4/4</Type>
-<ManaCost>4BB (6)</ManaCost>
+<ManaCost>{4}{B}{B}</ManaCost>
 <CardText>Flying
-When Noxious Dragon dies, you may destroy target creature with converted mana cost 3 or less.</CardText>
+When Noxious Dragon dies, you may destroy target creature with mana value 3 or less.</CardText>
 <Flavor>Dragons of Silumgar's brood begin to digest their prey even before consuming it, letting their caustic breath do much of the work.</Flavor>
 <Artist>Svetlin Velinov</Artist>
 <Watermark>Silumgar</Watermark>
 <Multiverseid>391888</Multiverseid>
-<Rulings>2014/11/24: A face-down creature has a converted mana cost of 0. However, its converted mana cost changes when it's turned face up. Thus, if a creature is turned face up in response to being targeted by <Noxious Dragon>'s ability, it may become an illegal target.</Rulings>
+<Rulings>2014/11/24: A face-down creature has a converted mana cost of 0. However, its converted mana cost changes when it's turned face up. Thus, if a creature is turned face up in response to being targeted by Noxious Dragon's ability, it may become an illegal target.
+2020/11/10: If a creature on the battlefield has {X} in its mana cost, X is considered to be 0.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1678,13 +1681,13 @@ When Noxious Dragon dies, you may destroy target creature with converted mana co
 <No>78</No>
 <Name>Orc Sureshot</Name>
 <Type>Creature — Orc Archer 4/2</Type>
-<ManaCost>3B (4)</ManaCost>
+<ManaCost>{3}{B}</ManaCost>
 <CardText>Whenever another creature enters the battlefield under your control, target creature an opponent controls gets -1/-1 until end of turn.</CardText>
 <Flavor>"Words have yet to halt an arrow."</Flavor>
 <Artist>Kev Walker</Artist>
 <Watermark>Mardu</Watermark>
 <Multiverseid>391890</Multiverseid>
-<Rulings>2014/11/24: If <Orc Sureshot> enters the battlefield under your control at the same time as another creature, its ability will trigger for that creature.</Rulings>
+<Rulings>2014/11/24: If Orc Sureshot enters the battlefield under your control at the same time as another creature, its ability will trigger for that creature.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1697,7 +1700,7 @@ When Noxious Dragon dies, you may destroy target creature with converted mana co
 <No>79</No>
 <Name>Palace Siege</Name>
 <Type>Enchantment</Type>
-<ManaCost>3BB (5)</ManaCost>
+<ManaCost>{3}{B}{B}</ManaCost>
 <CardText>As Palace Siege enters the battlefield, choose Khans or Dragons.
 • Khans — At the beginning of your upkeep, return target creature card from your graveyard to your hand.
 • Dragons — At the beginning of your upkeep, each opponent loses 2 life and you gain 2 life.</CardText>
@@ -1718,7 +1721,7 @@ When Noxious Dragon dies, you may destroy target creature with converted mana co
 <No>80</No>
 <Name>Qarsi High Priest</Name>
 <Type>Creature — Human Cleric 0/2</Type>
-<ManaCost>B (1)</ManaCost>
+<ManaCost>{B}</ManaCost>
 <CardText>{1}{B}, {T}, Sacrifice another creature: Manifest the top card of your library. (Put that card onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)</CardText>
 <Flavor>"Hear me, nameless, and obey."</Flavor>
 <Artist>Viktor Titov</Artist>
@@ -1749,7 +1752,7 @@ When Noxious Dragon dies, you may destroy target creature with converted mana co
 <No>81</No>
 <Name>Reach of Shadows</Name>
 <Type>Instant</Type>
-<ManaCost>4B (5)</ManaCost>
+<ManaCost>{4}{B}</ManaCost>
 <CardText>Destroy target creature that's one or more colors.</CardText>
 <Flavor>"Is it better to be a fool or a coward? Fools may get things done occasionally, but cowards live longer."
 —Ghelesh Shadowmane, rakshasa mage</Flavor>
@@ -1767,8 +1770,8 @@ When Noxious Dragon dies, you may destroy target creature with converted mana co
 <No>82</No>
 <Name>Sibsig Host</Name>
 <Type>Creature — Zombie 2/6</Type>
-<ManaCost>4B (5)</ManaCost>
-<CardText>When Sibsig Host enters the battlefield, each player puts the top three cards of their library into their graveyard.</CardText>
+<ManaCost>{4}{B}</ManaCost>
+<CardText>When Sibsig Host enters the battlefield, each player mills three cards.</CardText>
 <Flavor>"They were your friends, your family, your clan. They want only to welcome you."
 —Tasigur, the Golden Fang</Flavor>
 <Artist>Steve Prescott</Artist>
@@ -1786,7 +1789,7 @@ When Noxious Dragon dies, you may destroy target creature with converted mana co
 <No>83</No>
 <Name>Sibsig Muckdraggers</Name>
 <Type>Creature — Zombie 3/6</Type>
-<ManaCost>8B (9)</ManaCost>
+<ManaCost>{8}{B}</ManaCost>
 <CardText>Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)
 When Sibsig Muckdraggers enters the battlefield, return target creature card from your graveyard to your hand.</CardText>
 <Artist>Zack Stella</Artist>
@@ -1809,19 +1812,18 @@ When Sibsig Muckdraggers enters the battlefield, return target creature card fro
 <No>84</No>
 <Name>Soulflayer</Name>
 <Type>Creature — Demon 4/4</Type>
-<ManaCost>4BB (6)</ManaCost>
+<ManaCost>{4}{B}{B}</ManaCost>
 <CardText>Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)
 If a creature card with flying was exiled with Soulflayer's delve ability, Soulflayer has flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, reach, trample, and vigilance.</CardText>
 <Artist>Seb McKinnon</Artist>
 <Watermark>Sultai</Watermark>
 <Multiverseid>391928</Multiverseid>
-<Rulings>2014/11/24: Creature cards that have abilities that grant the listed keyword abilities to themselves won't count. For example, exiling a Battle Brawler (a creature with "As long as you control a red or white permanent, Battle Brawler gets +1/+0 and has first strike") with <Soulflayer>'s delve ability won't cause <Soulflayer> to have first strike, even if you control a red or white permanent.
-2014/11/24: You can't exile more cards from your graveyard than you'd need to pay <Soulflayer>'s generic mana requirement. In most situations, this means you can't exile more than four cards, even if you want to exile more to give it extra abilities.
-2014/11/24: You exile cards from your graveyard at the same time you pay the spell's cost. Exiling a card this way is simply another way to pay that cost.
-2014/11/24: Delve doesn't change a spell's mana cost or converted mana cost. For example, the converted mana cost of Tasigur's Cruelty (with mana cost {5}{B}) is 6 even if you exile three cards to cast it.
-2014/11/24: You can't exile cards to pay for the colored mana requirements of a spell with delve.
-2014/11/24: You can't exile more cards than the generic mana requirement of a spell with delve. For example, you can't exile more than five cards from your graveyard to cast Tasigur's Cruelty.
-2014/11/24: Because delve isn't an alternative cost, it can be used in conjunction with alternative costs.</Rulings>
+<Rulings>2014/11/24: Creature cards that have abilities that grant the listed keyword abilities to themselves won't count. For example, exiling a Battle Brawler (a creature with "As long as you control a red or white permanent, Battle Brawler gets +1/+0 and has first strike") with Soulflayer's delve ability won't cause Soulflayer to have first strike, even if you control a red or white permanent.
+2014/11/24: You can't exile more cards from your graveyard than you'd need to pay Soulflayer's generic mana requirement. In most situations, this means you can't exile more than four cards, even if you want to exile more to give it extra abilities.
+2020/01/24: If one of those creature cards has one or more variants of the listed keywords (for example, hexproof from white), this creature gains those specific variants.
+2021/03/19: Delve doesn't change a spell's mana cost or mana value. For example, Treasure Cruise's mana value is 8 even if you exiled three cards to cast it.
+2021/03/19: You can exile cards to pay only for generic mana, and you can't exile more cards than the generic mana requirement of a spell with delve. For example, you can't exile more than seven cards from your graveyard to cast Treasure Cruise unless an effect has increased its cost.
+2021/03/19: Because delve isn't an alternative cost, it can be used in conjunction with alternative costs, such as flashback. It can also be used to pay for additional costs that include generic mana.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1834,7 +1836,7 @@ If a creature card with flying was exiled with Soulflayer's delve ability, Soulf
 <No>85</No>
 <Name>Sultai Emissary</Name>
 <Type>Creature — Zombie Warrior 1/1</Type>
-<ManaCost>1B (2)</ManaCost>
+<ManaCost>{1}{B}</ManaCost>
 <CardText>When Sultai Emissary dies, manifest the top card of your library. (Put that card onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)</CardText>
 <Flavor>To the Sultai, Ugin's power was just one more resource to be exploited.</Flavor>
 <Artist>Mathias Kollros</Artist>
@@ -1865,7 +1867,7 @@ If a creature card with flying was exiled with Soulflayer's delve ability, Soulf
 <No>86</No>
 <Name>Sultai Runemark</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>2B (3)</ManaCost>
+<ManaCost>{2}{B}</ManaCost>
 <CardText>Enchant creature
 Enchanted creature gets +2/+2.
 Enchanted creature has deathtouch as long as you control a green or blue permanent. (Any amount of damage it deals to a creature is enough to destroy it.)</CardText>
@@ -1884,20 +1886,20 @@ Enchanted creature has deathtouch as long as you control a green or blue permane
 <No>87</No>
 <Name>Tasigur, the Golden Fang</Name>
 <Type>Legendary Creature — Human Shaman 4/5</Type>
-<ManaCost>5B (6)</ManaCost>
+<ManaCost>{5}{B}</ManaCost>
 <CardText>Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)
-{2}{G/U}{G/U}: Put the top two cards of your library into your graveyard, then return a nonland card of an opponent's choice from your graveyard to your hand.</CardText>
+{2}{G/U}{G/U}: Mill two cards, then return a nonland card of an opponent's choice from your graveyard to your hand.</CardText>
 <Artist>Chris Rahn</Artist>
 <Watermark>Sultai</Watermark>
 <Multiverseid>391937</Multiverseid>
-<Rulings>2014/11/24: You can't exile more cards than the generic mana requirement of a spell with delve. For example, you can't exile more than five cards from your graveyard to cast Tasigur's Cruelty.
-2014/11/24: You exile cards from your graveyard at the same time you pay the spell's cost. Exiling a card this way is simply another way to pay that cost.
-2014/11/24: Because delve isn't an alternative cost, it can be used in conjunction with alternative costs.
-2014/11/24: Delve doesn't change a spell's mana cost or converted mana cost. For example, the converted mana cost of Tasigur's Cruelty (with mana cost {5}{B}) is 6 even if you exile three cards to cast it.
-2014/11/24: You can't exile cards to pay for the colored mana requirements of a spell with delve.
-2015/01/19: <Tasigur, the Golden Fang> is banned as a commander in Duel Commander format, but it may be part of your deck.
+<Rulings>2015/01/19: Tasigur, the Golden Fang is banned as a commander in Duel Commander format, but it may be part of your deck.
+2018/12/07: The chosen opponent can choose any nonland card in your graveyard, not just one of the cards that was just put there.
 2018/12/07: Tasigur's last ability doesn't target any card or player. You choose an opponent as the ability resolves and that player chooses a nonland card after you put the top two cards of your library into your graveyard.
-2018/12/07: The chosen opponent can choose any nonland card in your graveyard, not just one of the cards that was just put there.</Rulings>
+2021/03/19: Because delve isn't an alternative cost, it can be used in conjunction with alternative costs, such as flashback. It can also be used to pay for additional costs that include generic mana.
+2021/03/19: Delve doesn't change a spell's mana cost or mana value. For example, Treasure Cruise's mana value is 8 even if you exiled three cards to cast it.
+2021/03/19: You can exile cards to pay only for generic mana, and you can't exile more cards than the generic mana requirement of a spell with delve. For example, you can't exile more than seven cards from your graveyard to cast Treasure Cruise unless an effect has increased its cost.
+2021/03/19: Tasigur's last ability doesn't target any card or player. You choose an opponent and that player chooses a nonland card only after you mill two cards.
+2021/03/19: The chosen opponent can choose any nonland card in your graveyard, not just one of the milled cards.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1910,7 +1912,7 @@ Enchanted creature has deathtouch as long as you control a green or blue permane
 <No>88</No>
 <Name>Tasigur's Cruelty</Name>
 <Type>Sorcery</Type>
-<ManaCost>5B (6)</ManaCost>
+<ManaCost>{5}{B}</ManaCost>
 <CardText>Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)
 Each opponent discards two cards.</CardText>
 <Flavor>The cruelest tortures leave no mark upon the flesh.</Flavor>
@@ -1918,9 +1920,9 @@ Each opponent discards two cards.</CardText>
 <Watermark>Sultai</Watermark>
 <Multiverseid>391938</Multiverseid>
 <Rulings>2014/11/24: You exile cards from your graveyard at the same time you pay the spell's cost. Exiling a card this way is simply another way to pay that cost.
-2014/11/24: Delve doesn't change a spell's mana cost or converted mana cost. For example, the converted mana cost of <Tasigur's Cruelty> (with mana cost {5}{B}) is 6 even if you exile three cards to cast it.
+2014/11/24: Delve doesn't change a spell's mana cost or converted mana cost. For example, the converted mana cost of Tasigur's Cruelty (with mana cost {5}{B}) is 6 even if you exile three cards to cast it.
 2014/11/24: You can't exile cards to pay for the colored mana requirements of a spell with delve.
-2014/11/24: You can't exile more cards than the generic mana requirement of a spell with delve. For example, you can't exile more than five cards from your graveyard to cast <Tasigur's Cruelty>.
+2014/11/24: You can't exile more cards than the generic mana requirement of a spell with delve. For example, you can't exile more than five cards from your graveyard to cast Tasigur's Cruelty.
 2014/11/24: Because delve isn't an alternative cost, it can be used in conjunction with alternative costs.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1934,7 +1936,7 @@ Each opponent discards two cards.</CardText>
 <No>89</No>
 <Name>Typhoid Rats</Name>
 <Type>Creature — Rat 1/1</Type>
-<ManaCost>B (1)</ManaCost>
+<ManaCost>{B}</ManaCost>
 <CardText>Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)</CardText>
 <Flavor>When Tasigur sent his ambassadors to the Abzan outpost, the true envoys were not the naga but the infectious rats they carried with them.</Flavor>
 <Artist>Dave Kendall</Artist>
@@ -1952,15 +1954,18 @@ Each opponent discards two cards.</CardText>
 <No>90</No>
 <Name>Alesha, Who Smiles at Death</Name>
 <Type>Legendary Creature — Human Warrior 3/2</Type>
-<ManaCost>2R (3)</ManaCost>
+<ManaCost>{2}{R}</ManaCost>
 <CardText>First strike
 Whenever Alesha, Who Smiles at Death attacks, you may pay {W/B}{W/B}. If you do, return target creature card with power 2 or less from your graveyard to the battlefield tapped and attacking.</CardText>
 <Flavor>"Greet death with sword in hand."</Flavor>
 <Artist>Anastasia Ovchinnikova</Artist>
 <Watermark>Mardu</Watermark>
 <Multiverseid>391787</Multiverseid>
-<Rulings>2014/11/24: You choose which opponent or opposing planeswalker the creature is attacking as you put it onto the battlefield. It doesn't have to be the same player or planeswalker Alesha is attacking.
-2014/11/24: Although the creature you return is attacking, it was never declared as an attacking creature (for purposes of abilities that trigger whenever a creature attacks, for example).</Rulings>
+<Rulings>2021/03/19: While resolving Alesha's triggered ability, you can't pay the cost multiple times to return more than one creature card.
+2021/03/19: Alesha's triggered ability checks the card's power only in your graveyard. The creature will still be tapped and attacking if its power is greater than 2 after it's on the battlefield.
+2021/03/19: You choose which player or planeswalker the returned creature is attacking. It doesn't have to be attacking the same player or planeswalker Alesha is attacking.
+2021/03/19: Although the returned creature is an attacking creature, it was never declared as an attacking creature. This means that abilities that trigger whenever a creature attacks won't trigger when it enters the battlefield attacking.
+2021/03/19: Any effects that say that the returned creature can't attack (such as that of Propaganda, or if the creature has defender) affect only the declaration of attackers. They won't stop the returned creature from entering the battlefield attacking.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1973,16 +1978,16 @@ Whenever Alesha, Who Smiles at Death attacks, you may pay {W/B}{W/B}. If you do,
 <No>91</No>
 <Name>Arcbond</Name>
 <Type>Instant</Type>
-<ManaCost>2R (3)</ManaCost>
+<ManaCost>{2}{R}</ManaCost>
 <CardText>Choose target creature. Whenever that creature is dealt damage this turn, it deals that much damage to each other creature and each player.</CardText>
 <Flavor>"If you must die today, make your death worthy of legend."
 —Alesha, Who Smiles at Death</Flavor>
 <Artist>Slawomir Maniak</Artist>
 <Multiverseid>391793</Multiverseid>
 <Rulings>2014/11/24: The creature is the source of the new damage.
-2014/11/24: The delayed triggered ability <Arcbond> creates will trigger even if the target creature is dealt lethal damage. For example, if a 3/3 creature is targeted by <Arcbond> and later in the turn it blocks a 7/7 creature, the 3/3 creature will deal 7 damage each other creature and each player.
-2014/11/24: Damage dealt by the creature because of the ability <Arcbond> creates isn't combat damage, even if it was combat damage that caused the ability to trigger.
-2014/11/24: If two <Arcbond>s have resolved targeting different creatures, and damage is dealt to one of them, the delayed triggered ability will cause that creature to deal damage to each other creature and player. This will cause the delayed triggered ability from the other <Arcbond> to trigger. The second creature will then deal damage to each other creature and player. This will continue until one or both of the creatures die or the game ends. If this doesn't happen (perhaps because both creatures have indestructible and damage dealt to the players is being prevented), and no player breaks the loop, the game will be a draw.</Rulings>
+2014/11/24: The delayed triggered ability Arcbond creates will trigger even if the target creature is dealt lethal damage. For example, if a 3/3 creature is targeted by Arcbond and later in the turn it blocks a 7/7 creature, the 3/3 creature will deal 7 damage each other creature and each player.
+2014/11/24: Damage dealt by the creature because of the ability Arcbond creates isn't combat damage, even if it was combat damage that caused the ability to trigger.
+2014/11/24: If two Arcbonds have resolved targeting different creatures, and damage is dealt to one of them, the delayed triggered ability will cause that creature to deal damage to each other creature and player. This will cause the delayed triggered ability from the other Arcbond to trigger. The second creature will then deal damage to each other creature and player. This will continue until one or both of the creatures die or the game ends. If this doesn't happen (perhaps because both creatures have indestructible and damage dealt to the players is being prevented), and no player breaks the loop, the game will be a draw.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1995,7 +2000,7 @@ Whenever Alesha, Who Smiles at Death attacks, you may pay {W/B}{W/B}. If you do,
 <No>92</No>
 <Name>Bathe in Dragonfire</Name>
 <Type>Sorcery</Type>
-<ManaCost>2R (3)</ManaCost>
+<ManaCost>{2}{R}</ManaCost>
 <CardText>Bathe in Dragonfire deals 4 damage to target creature.</CardText>
 <Flavor>The scent of cooked flesh lingers in the charred landscape of Tarkir.</Flavor>
 <Artist>Chris Rallis</Artist>
@@ -2012,7 +2017,7 @@ Whenever Alesha, Who Smiles at Death attacks, you may pay {W/B}{W/B}. If you do,
 <No>93</No>
 <Name>Bloodfire Enforcers</Name>
 <Type>Creature — Human Monk 5/2</Type>
-<ManaCost>3R (4)</ManaCost>
+<ManaCost>{3}{R}</ManaCost>
 <CardText>Bloodfire Enforcers has first strike and trample as long as an instant card and a sorcery card are in your graveyard.</CardText>
 <Flavor>Bloodfire practitioners train to focus their rage, building it deep inside themselves until they are ready to release it as a devastating attack.</Flavor>
 <Artist>Yefim Kligerman</Artist>
@@ -2030,7 +2035,7 @@ Whenever Alesha, Who Smiles at Death attacks, you may pay {W/B}{W/B}. If you do,
 <No>94</No>
 <Name>Break Through the Line</Name>
 <Type>Enchantment</Type>
-<ManaCost>1R (2)</ManaCost>
+<ManaCost>{1}{R}</ManaCost>
 <CardText>{R}: Target creature with power 2 or less gains haste until end of turn and can't be blocked this turn.</CardText>
 <Flavor>"If the Mardu were more in tune with their beasts, they would not scare so easily."
 —Jilaya, Temur whisperer</Flavor>
@@ -2049,7 +2054,7 @@ Whenever Alesha, Who Smiles at Death attacks, you may pay {W/B}{W/B}. If you do,
 <No>95</No>
 <Name>Collateral Damage</Name>
 <Type>Instant</Type>
-<ManaCost>R (1)</ManaCost>
+<ManaCost>{R}</ManaCost>
 <CardText>As an additional cost to cast this spell, sacrifice a creature.
 Collateral Damage deals 3 damage to any target.</CardText>
 <Flavor>It is much easier to create fire than to contain it.</Flavor>
@@ -2057,7 +2062,7 @@ Collateral Damage deals 3 damage to any target.</CardText>
 <Multiverseid>391811</Multiverseid>
 <Rulings>2014/11/24: If you sacrifice an attacking or blocking creature during the declare blockers step, it won't deal combat damage. If you wait until the combat damage step, but that creature is dealt lethal damage, it'll be destroyed before you get a chance to sacrifice it.
 2014/11/24: You must sacrifice exactly one creature to cast this spell; you can't cast it without sacrificing a creature, and you can't sacrifice additional creatures.
-2014/11/24: Players can respond to <Collateral Damage> only after it's been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to stop you from casting this spell.</Rulings>
+2014/11/24: Players can respond to Collateral Damage only after it's been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to stop you from casting this spell.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2070,7 +2075,7 @@ Collateral Damage deals 3 damage to any target.</CardText>
 <No>96</No>
 <Name>Defiant Ogre</Name>
 <Type>Creature — Ogre Warrior 3/5</Type>
-<ManaCost>5R (6)</ManaCost>
+<ManaCost>{5}{R}</ManaCost>
 <CardText>When Defiant Ogre enters the battlefield, choose one —
 • Put a +1/+1 counter on Defiant Ogre.
 • Destroy target artifact.</CardText>
@@ -2091,15 +2096,15 @@ Collateral Damage deals 3 damage to any target.</CardText>
 <No>97</No>
 <Name>Dragonrage</Name>
 <Type>Instant</Type>
-<ManaCost>2R (3)</ManaCost>
+<ManaCost>{2}{R}</ManaCost>
 <CardText>Add {R} for each attacking creature you control. Until end of turn, attacking creatures you control gain "{R}: This creature gets +1/+0 until end of turn."</CardText>
 <Flavor>"Dragons in the skies of Tarkir—for the first time, it feels like my home."
 —Sarkhan Vol</Flavor>
 <Artist>Tomasz Jedruszek</Artist>
 <Multiverseid>391823</Multiverseid>
-<Rulings>2014/11/24: Even though it can generate mana, <Dragonrage> isn't a mana ability. It uses the stack and can be responded to.
-2014/11/24: Only creatures that are attacking as <Dragonrage> resolves will count toward how much mana is generated, and only those creatures will gain the "firebreathing" activated ability. In other words, casting <Dragonrage> before you've declared attackers usually won't do anything.
-2014/11/24: Remember that unused mana empties from players' mana pools at the end of each step and phase. For example, if you cast <Dragonrage> during your declare attackers step, except in very rare cases, the mana <Dragonrage> generates won't last until the declare blockers step or the postcombat main phase.</Rulings>
+<Rulings>2014/11/24: Even though it can generate mana, Dragonrage isn't a mana ability. It uses the stack and can be responded to.
+2014/11/24: Only creatures that are attacking as Dragonrage resolves will count toward how much mana is generated, and only those creatures will gain the "firebreathing" activated ability. In other words, casting Dragonrage before you've declared attackers usually won't do anything.
+2014/11/24: Remember that unused mana empties from players' mana pools at the end of each step and phase. For example, if you cast Dragonrage during your declare attackers step, except in very rare cases, the mana Dragonrage generates won't last until the declare blockers step or the postcombat main phase.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2112,15 +2117,15 @@ Collateral Damage deals 3 damage to any target.</CardText>
 <No>98</No>
 <Name>Fierce Invocation</Name>
 <Type>Sorcery</Type>
-<ManaCost>4R (5)</ManaCost>
+<ManaCost>{4}{R}</ManaCost>
 <CardText>Manifest the top card of your library, then put two +1/+1 counters on it. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)</CardText>
 <Flavor>Anger can empower those who embrace it.</Flavor>
 <Artist>Tyler Jacobson</Artist>
 <Multiverseid>391832</Multiverseid>
-<Rulings>2014/11/24: The face-down permanent is a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a converted mana cost of 0. Other effects that apply to the permanent can still grant or change any of these characteristics.
+<Rulings>2014/11/24: Unlike a face-down creature that was cast using the morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
+2014/11/24: The face-down permanent is a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a converted mana cost of 0. Other effects that apply to the permanent can still grant or change any of these characteristics.
 2014/11/24: Any time you have priority, you may turn a manifested creature face up by revealing that it's a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn't use the stack and can't be responded to.
 2014/11/24: If a manifested creature would have morph if it were face up, you may also turn it face up by paying its morph cost.
-2014/11/24: Unlike a face-down creature that was cast using the morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
 2014/11/24: Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
 2014/11/24: Because face-down creatures don't have names, they can't have the same name as any other creature, even another face-down creature.
 2014/11/24: A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren't affected.
@@ -2142,21 +2147,21 @@ Collateral Damage deals 3 damage to any target.</CardText>
 <No>99</No>
 <Name>Flamerush Rider</Name>
 <Type>Creature — Human Warrior 3/3</Type>
-<ManaCost>4R (5)</ManaCost>
+<ManaCost>{4}{R}</ManaCost>
 <CardText>Whenever Flamerush Rider attacks, create a token that's a copy of another target attacking creature and that's tapped and attacking. Exile the token at end of combat.
 Dash {2}{R}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)</CardText>
 <Artist>Min Yum</Artist>
 <Watermark>Mardu</Watermark>
 <Multiverseid>391833</Multiverseid>
 <Rulings>2014/11/24: If a creature enters the battlefield as a copy of or becomes a copy of a creature whose dash cost was paid, the copy won't have haste and won't be returned to its owner's hand.
-2014/11/24: You choose which opponent or opposing planeswalker the token is attacking as you put it onto the battlefield. It doesn't have to be the same player or planeswalker <Flamerush Rider> is attacking.
+2014/11/24: You choose which opponent or opposing planeswalker the token is attacking as you put it onto the battlefield. It doesn't have to be the same player or planeswalker Flamerush Rider is attacking.
 2014/11/24: Although the token is attacking, it was never declared as an attacking creature (for purposes of abilities that trigger whenever a creature attacks, for example).
 2014/11/24: The token copies exactly what was printed on the original creature and nothing else (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that creature has any counters on it or Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on. Notably, it doesn't copy any effects that may have turned a noncreature permanent into a creature. If the token isn't a creature as it enters the battlefield, it won't be attacking.
 2014/11/24: If the copied creature had {X} in its mana cost, X is 0.
 2014/11/24: If the copied creature was copying something else, the token enters the battlefield as whatever that creature was copying.
-2014/11/24: If the copied creature is a token, the token created by <Flamerush Rider> copies the original characteristics of that token as stated by the effect that put it onto the battlefield.
+2014/11/24: If the copied creature is a token, the token created by Flamerush Rider copies the original characteristics of that token as stated by the effect that put it onto the battlefield.
 2014/11/24: Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any "As [this creature] enters the battlefield" or "[This creature] enters the battlefield with" abilities of the copied creature will also work.
-2014/11/24: If another creature becomes or enters the battlefield as a copy of the token, you won't exile that creature at end of combat. However, if <Flamerush Rider> creates multiple tokens due to a replacement effect (like the one Doubling Season creates), you'll exile each of those tokens.
+2014/11/24: If another creature becomes or enters the battlefield as a copy of the token, you won't exile that creature at end of combat. However, if Flamerush Rider creates multiple tokens due to a replacement effect (like the one Doubling Season creates), you'll exile each of those tokens.
 2014/11/24: If you choose to pay the dash cost rather than the mana cost, you're still casting the spell. It goes on the stack and can be responded to and countered. You can cast a creature spell for its dash cost only when you otherwise could cast that creature spell. Most of the time, this means during your main phase when the stack is empty.
 2014/11/24: If you pay the dash cost to cast a creature spell, that card will be returned to its owner's hand only if it's still on the battlefield when its triggered ability resolves. If it dies or goes to another zone before then, it will stay where it is.
 2014/11/24: You don't have to attack with the creature with dash unless another ability says you do.</Rulings>
@@ -2172,17 +2177,17 @@ Dash {2}{R}{R} (You may cast this spell for its dash cost. If you do, it gains h
 <No>100</No>
 <Name>Flamewake Phoenix</Name>
 <Type>Creature — Phoenix 2/2</Type>
-<ManaCost>1RR (3)</ManaCost>
+<ManaCost>{1}{R}{R}</ManaCost>
 <CardText>Flying, haste
 Flamewake Phoenix attacks each combat if able.
 Ferocious — At the beginning of combat on your turn, if you control a creature with power 4 or greater, you may pay {R}. If you do, return Flamewake Phoenix from your graveyard to the battlefield.</CardText>
 <Artist>Min Yum</Artist>
 <Watermark>Temur</Watermark>
 <Multiverseid>391834</Multiverseid>
-<Rulings>2014/11/24: <Flamewake Phoenix>'s ferocious ability triggers only if <Flamewake Phoenix> is in your graveyard and you control a creature with power 4 or greater at the beginning of combat on your turn. Additionally, the ability will check to see if you control a creature with power 4 or greater again as it resolves. If you don't, the ability will have no effect.
-2014/11/24: You still choose which player or planeswalker <Flamewake Phoenix> attacks.
-2014/11/24: If, during your declare attackers step, <Flamewake Phoenix> is tapped or is affected by a spell or ability that says it can't attack, then it doesn't attack. If there's a cost associated with having <Flamewake Phoenix> attack, you're not forced to pay that cost, so it doesn't have to attack in that case either.
-2014/11/24: If <Flamewake Phoenix> enters the battlefield before the combat phase, it will attack that turn if able. If it enters the battlefield after combat, it won't attack that turn and will usually be available to block on the following turn.</Rulings>
+<Rulings>2014/11/24: Flamewake Phoenix's ferocious ability triggers only if Flamewake Phoenix is in your graveyard and you control a creature with power 4 or greater at the beginning of combat on your turn. Additionally, the ability will check to see if you control a creature with power 4 or greater again as it resolves. If you don't, the ability will have no effect.
+2014/11/24: You still choose which player or planeswalker Flamewake Phoenix attacks.
+2014/11/24: If, during your declare attackers step, Flamewake Phoenix is tapped or is affected by a spell or ability that says it can't attack, then it doesn't attack. If there's a cost associated with having Flamewake Phoenix attack, you're not forced to pay that cost, so it doesn't have to attack in that case either.
+2014/11/24: If Flamewake Phoenix enters the battlefield before the combat phase, it will attack that turn if able. If it enters the battlefield after combat, it won't attack that turn and will usually be available to block on the following turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2195,8 +2200,8 @@ Ferocious — At the beginning of combat on your turn, if you control a creature
 <No>101</No>
 <Name>Friendly Fire</Name>
 <Type>Instant</Type>
-<ManaCost>3R (4)</ManaCost>
-<CardText>Target creature's controller reveals a card at random from their hand. Friendly Fire deals damage to that creature and that player equal to the revealed card's converted mana cost.</CardText>
+<ManaCost>{3}{R}</ManaCost>
+<CardText>Target creature's controller reveals a card at random from their hand. Friendly Fire deals damage to that creature and that player equal to the revealed card's mana value.</CardText>
 <Flavor>"Never tell goblins to 'fire at will.'"
 —Urut Barzeel, Mardu hordechief</Flavor>
 <Artist>Anthony Palumbo</Artist>
@@ -2215,7 +2220,7 @@ Ferocious — At the beginning of combat on your turn, if you control a creature
 <No>102</No>
 <Name>Goblin Heelcutter</Name>
 <Type>Creature — Goblin Berserker 3/2</Type>
-<ManaCost>3R (4)</ManaCost>
+<ManaCost>{3}{R}</ManaCost>
 <CardText>Whenever Goblin Heelcutter attacks, target creature can't block this turn.
 Dash {2}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)</CardText>
 <Artist>Jesper Ejsing</Artist>
@@ -2237,7 +2242,7 @@ Dash {2}{R} (You may cast this spell for its dash cost. If you do, it gains hast
 <No>103</No>
 <Name>Gore Swine</Name>
 <Type>Creature — Boar 4/1</Type>
-<ManaCost>2R (3)</ManaCost>
+<ManaCost>{2}{R}</ManaCost>
 <Flavor>"The Mardu are like the gore swine. We are wild, hunt in packs, and rarely clean the blood from our blades."
 —Vallash, Mardu warrior</Flavor>
 <Artist>Jack Wang</Artist>
@@ -2254,17 +2259,17 @@ Dash {2}{R} (You may cast this spell for its dash cost. If you do, it gains hast
 <No>104</No>
 <Name>Humble Defector</Name>
 <Type>Creature — Human Rogue 2/1</Type>
-<ManaCost>1R (2)</ManaCost>
-<CardText>{T}: Draw two cards. Target opponent gains control of Humble Defector. Activate this ability only during your turn.</CardText>
+<ManaCost>{1}{R}</ManaCost>
+<CardText>{T}: Draw two cards. Target opponent gains control of Humble Defector. Activate only during your turn.</CardText>
 <Flavor>"You were once Mardu, so your body and will are strong. Now we must train your mind."
 —Houn, Jeskai elder</Flavor>
 <Artist>Slawomir Maniak</Artist>
 <Watermark>Jeskai</Watermark>
 <Multiverseid>391856</Multiverseid>
-<Rulings>2018/03/16: <Humble Defector>'s ability can be activated any time during your turn, including in response to a spell or ability.
-2018/03/16: If <Humble Defector> isn't on the battlefield as its ability resolves, but the target player is still a legal target, the ability will resolve. You'll draw two cards, even though the player won't gain control of <Humble Defector>.
-2018/03/16: If <Humble Defector> is controlled by a player other than its owner, and its controller leaves the game, the effect giving that player control of <Humble Defector> ends. <Humble Defector> will return to the control of the player still in the game who most recently controlled it.
-2018/03/16: If <Humble Defector>'s owner leaves the game, <Humble Defector> not-so-humbly leaves the game along with that player.</Rulings>
+<Rulings>2020/11/10: Humble Defector's ability can be activated any time during your turn, including in response to a spell or ability.
+2020/11/10: If Humble Defector isn't on the battlefield as its ability resolves, but the target player is still a legal target, the ability will resolve. You'll draw two cards, even though the player doesn't gain control of Humble Defector.
+2020/11/10: If Humble Defector is controlled by a player other than its owner, and its controller leaves the game, the effect giving that player control of Humble Defector ends. Humble Defector will return to the control of the player still in the game who most recently controlled it.
+2020/11/10: If Humble Defector's owner leaves the game, Humble Defector humbly leaves the game along with that player.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2277,13 +2282,13 @@ Dash {2}{R} (You may cast this spell for its dash cost. If you do, it gains hast
 <No>105</No>
 <Name>Hungering Yeti</Name>
 <Type>Creature — Yeti 4/4</Type>
-<ManaCost>4R (5)</ManaCost>
+<ManaCost>{4}{R}</ManaCost>
 <CardText>As long as you control a green or blue permanent, you may cast Hungering Yeti as though it had flash. (You may cast it any time you could cast an instant.)</CardText>
 <Flavor>No clan is as adept at saying "go away" as the Temur.</Flavor>
 <Artist>Tyler Jacobson</Artist>
 <Watermark>Temur</Watermark>
 <Multiverseid>391857</Multiverseid>
-<Rulings>2014/11/24: <Hungering Yeti> checks if you control a green or blue permanent only as you begin to cast it. Once you begin to cast <Hungering Yeti> as though it had flash, it doesn't matter what happens to the green or blue permanents you control.</Rulings>
+<Rulings>2014/11/24: Hungering Yeti checks if you control a green or blue permanent only as you begin to cast it. Once you begin to cast Hungering Yeti as though it had flash, it doesn't matter what happens to the green or blue permanents you control.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2296,14 +2301,14 @@ Dash {2}{R} (You may cast this spell for its dash cost. If you do, it gains hast
 <No>106</No>
 <Name>Lightning Shrieker</Name>
 <Type>Creature — Dragon 5/5</Type>
-<ManaCost>4R (5)</ManaCost>
+<ManaCost>{4}{R}</ManaCost>
 <CardText>Flying, trample, haste
 At the beginning of the end step, Lightning Shrieker's owner shuffles it into their library.</CardText>
 <Flavor>Dragonslayers learned to keep silent about their deeds after seeing the terrible vengeance wrought by Kolaghan and her brood.</Flavor>
 <Artist>Slawomir Maniak</Artist>
 <Watermark>Kolaghan</Watermark>
 <Multiverseid>391868</Multiverseid>
-<Rulings>2014/11/24: <Lightning Shrieker>'s owner shuffles it into their library only if it's on the battlefield as its ability resolves.</Rulings>
+<Rulings>2014/11/24: Lightning Shrieker's owner shuffles it into their library only if it's on the battlefield as its ability resolves.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2316,7 +2321,7 @@ At the beginning of the end step, Lightning Shrieker's owner shuffles it into th
 <No>107</No>
 <Name>Mardu Runemark</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>2R (3)</ManaCost>
+<ManaCost>{2}{R}</ManaCost>
 <CardText>Enchant creature
 Enchanted creature gets +2/+2.
 Enchanted creature has first strike as long as you control a white or black permanent.</CardText>
@@ -2336,7 +2341,7 @@ Enchanted creature has first strike as long as you control a white or black perm
 <No>108</No>
 <Name>Mardu Scout</Name>
 <Type>Creature — Goblin Scout 3/1</Type>
-<ManaCost>RR (2)</ManaCost>
+<ManaCost>{R}{R}</ManaCost>
 <CardText>Dash {1}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)</CardText>
 <Flavor>The Mardu all enjoy war, but only the goblins make a game of it.</Flavor>
 <Artist>Zoltan Boros</Artist>
@@ -2358,15 +2363,15 @@ Enchanted creature has first strike as long as you control a white or black perm
 <No>109</No>
 <Name>Mob Rule</Name>
 <Type>Sorcery</Type>
-<ManaCost>4RR (6)</ManaCost>
+<ManaCost>{4}{R}{R}</ManaCost>
 <CardText>Choose one —
 • Gain control of all creatures with power 4 or greater until end of turn. Untap those creatures. They gain haste until end of turn.
 • Gain control of all creatures with power 3 or less until end of turn. Untap those creatures. They gain haste until end of turn.</CardText>
 <Artist>Jakub Kasper</Artist>
 <Multiverseid>391882</Multiverseid>
-<Rulings>2014/11/24: You choose which mode you're using as you cast <Mob Rule>. Once it's cast, you can't change its mode, even if creatures' powers change in response.
+<Rulings>2014/11/24: You choose which mode you're using as you cast Mob Rule. Once it's cast, you can't change its mode, even if creatures' powers change in response.
 2014/11/24: Once you gain control of a creature, it doesn't matter what happens to its power.
-2014/11/24: <Mob Rule> can affect creatures you already control or ones that are already untapped. It will untap them if applicable and give them haste.
+2014/11/24: Mob Rule can affect creatures you already control or ones that are already untapped. It will untap them if applicable and give them haste.
 2014/11/24: Gaining control of a creature doesn't cause you to gain control of any Auras or Equipment attached to it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2380,7 +2385,7 @@ Enchanted creature has first strike as long as you control a white or black perm
 <No>110</No>
 <Name>Outpost Siege</Name>
 <Type>Enchantment</Type>
-<ManaCost>3R (4)</ManaCost>
+<ManaCost>{3}{R}</ManaCost>
 <CardText>As Outpost Siege enters the battlefield, choose Khans or Dragons.
 • Khans — At the beginning of your upkeep, exile the top card of your library. Until end of turn, you may play that card.
 • Dragons — Whenever a creature you control leaves the battlefield, Outpost Siege deals 1 damage to any target.</CardText>
@@ -2404,15 +2409,15 @@ Enchanted creature has first strike as long as you control a white or black perm
 <No>111</No>
 <Name>Pyrotechnics</Name>
 <Type>Sorcery</Type>
-<ManaCost>4R (5)</ManaCost>
+<ManaCost>{4}{R}</ManaCost>
 <CardText>Pyrotechnics deals 4 damage divided as you choose among any number of targets.</CardText>
 <Flavor>"Take inspiration from your enemies, and make their strengths your own."
 —Alesha, Who Smiles at Death</Flavor>
 <Artist>Matt Stewart</Artist>
 <Multiverseid>391897</Multiverseid>
 <Rulings>2014/11/24: You choose how the damage is divided as you cast the spell, not as it resolves. Each target must be assigned at least 1 damage.
-2014/11/24: If some but not all of <Pyrotechnics>'s targets become illegal, you can't change the division of damage. Damage that would have been dealt to illegal targets simply isn't dealt.
-2014/11/24: If an effect creates a copy of <Pyrotechnics>, the number of targets and division of damage can't be changed. The effect that creates the copy may allow you to change the targets, however.</Rulings>
+2014/11/24: If some but not all of Pyrotechnics's targets become illegal, you can't change the division of damage. Damage that would have been dealt to illegal targets simply isn't dealt.
+2014/11/24: If an effect creates a copy of Pyrotechnics, the number of targets and division of damage can't be changed. The effect that creates the copy may allow you to change the targets, however.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2425,7 +2430,7 @@ Enchanted creature has first strike as long as you control a white or black perm
 <No>112</No>
 <Name>Rageform</Name>
 <Type>Enchantment</Type>
-<ManaCost>2RR (4)</ManaCost>
+<ManaCost>{2}{R}{R}</ManaCost>
 <CardText>When Rageform enters the battlefield, it becomes an Aura with enchant creature. Manifest the top card of your library and attach Rageform to it. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)
 Enchanted creature has double strike. (It deals both first-strike and regular combat damage.)</CardText>
 <Artist>Richard Wright</Artist>
@@ -2458,7 +2463,7 @@ Enchanted creature has double strike. (It deals both first-strike and regular co
 <No>113</No>
 <Name>Shaman of the Great Hunt</Name>
 <Type>Creature — Orc Shaman 4/2</Type>
-<ManaCost>3R (4)</ManaCost>
+<ManaCost>{3}{R}</ManaCost>
 <CardText>Haste
 Whenever a creature you control deals combat damage to a player, put a +1/+1 counter on it.
 Ferocious — {2}{G/U}{G/U}: Draw a card for each creature you control with power 4 or greater.</CardText>
@@ -2477,7 +2482,7 @@ Ferocious — {2}{G/U}{G/U}: Draw a card for each creature you control with powe
 <No>114</No>
 <Name>Shockmaw Dragon</Name>
 <Type>Creature — Dragon 4/4</Type>
-<ManaCost>4RR (6)</ManaCost>
+<ManaCost>{4}{R}{R}</ManaCost>
 <CardText>Flying
 Whenever Shockmaw Dragon deals combat damage to a player, it deals 1 damage to each creature that player controls.</CardText>
 <Flavor>Dragons of the Kolaghan brood are always on the move. They are the driving force behind the Mardu's nomadic way of life.</Flavor>
@@ -2496,7 +2501,7 @@ Whenever Shockmaw Dragon deals combat damage to a player, it deals 1 damage to e
 <No>115</No>
 <Name>Smoldering Efreet</Name>
 <Type>Creature — Efreet Monk 2/2</Type>
-<ManaCost>1R (2)</ManaCost>
+<ManaCost>{1}{R}</ManaCost>
 <CardText>When Smoldering Efreet dies, it deals 2 damage to you.</CardText>
 <Flavor>The efreet are drawn to the Kaisham Wanderers, a loosely organized Jeskai school where trickery is employed to challenge the status quo and upend the belief systems of others.</Flavor>
 <Artist>Chase Stone</Artist>
@@ -2514,14 +2519,14 @@ Whenever Shockmaw Dragon deals combat damage to a player, it deals 1 damage to e
 <No>116</No>
 <Name>Temur Battle Rage</Name>
 <Type>Instant</Type>
-<ManaCost>1R (2)</ManaCost>
-<CardText>Target creature gains double strike until end of turn. (It deals both first-strike and regular combat damage.)
+<ManaCost>{1}{R}</ManaCost>
+<CardText>Target creature gains double strike until end of turn.
 Ferocious — That creature also gains trample until end of turn if you control a creature with power 4 or greater.</CardText>
 <Artist>Jaime Jones</Artist>
 <Watermark>Temur</Watermark>
 <Multiverseid>391940</Multiverseid>
-<Rulings>2014/11/24: If all creatures blocking a creature with double strike and trample are destroyed during the first combat damage step, the creature with double strike and trample will deal all its combat damage to the defending player or planeswalker during the second combat damage step.
-2014/11/24: Ferocious abilities of instants and sorceries that don't use the word "instead" provide an additional effect if you control a creature with power 4 or greater as they resolve.</Rulings>
+<Rulings>2021/03/19: Temur Battle Rage checks whether you control a creature with power 4 or greater as it resolves. If you do, the target creature has trample until end of turn even if you no longer control a creature with power 4 or greater later in the turn.
+2021/03/19: If an attacking creature with double strike and trample destroys all of its blocking creatures with first-strike combat damage, all of its normal combat damage is assigned to the player or planeswalker that creature's attacking.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2534,7 +2539,7 @@ Ferocious — That creature also gains trample until end of turn if you control 
 <No>117</No>
 <Name>Vaultbreaker</Name>
 <Type>Creature — Orc Rogue 4/2</Type>
-<ManaCost>3R (4)</ManaCost>
+<ManaCost>{3}{R}</ManaCost>
 <CardText>Whenever Vaultbreaker attacks, you may discard a card. If you do, draw a card.
 Dash {2}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)</CardText>
 <Artist>Wayne Reynolds</Artist>
@@ -2556,15 +2561,15 @@ Dash {2}{R} (You may cast this spell for its dash cost. If you do, it gains hast
 <No>118</No>
 <Name>Wild Slash</Name>
 <Type>Instant</Type>
-<ManaCost>R (1)</ManaCost>
+<ManaCost>{R}</ManaCost>
 <CardText>Ferocious — If you control a creature with power 4 or greater, damage can't be prevented this turn.
 Wild Slash deals 2 damage to any target.</CardText>
 <Flavor>Never mistake deception for cleverness.</Flavor>
 <Artist>Raymond Swanland</Artist>
 <Watermark>Temur</Watermark>
 <Multiverseid>391959</Multiverseid>
-<Rulings>2014/11/24: <Wild Slash>'s ferocious ability applies to all damage that would be dealt that turn, including the damage <Wild Slash> deals.
-2014/11/24: If you control a creature with power 4 or greater as <Wild Slash> resolves, the ferocious ability will apply. Damage dealt that turn can't be prevented, even if you no longer control a creature with power 4 or greater as that damage would be dealt.
+<Rulings>2014/11/24: Wild Slash's ferocious ability applies to all damage that would be dealt that turn, including the damage Wild Slash deals.
+2014/11/24: If you control a creature with power 4 or greater as Wild Slash resolves, the ferocious ability will apply. Damage dealt that turn can't be prevented, even if you no longer control a creature with power 4 or greater as that damage would be dealt.
 2014/11/24: Ferocious abilities of instants and sorceries that don't use the word "instead" provide an additional effect if you control a creature with power 4 or greater as they resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2577,8 +2582,8 @@ Wild Slash deals 2 damage to any target.</CardText>
 <SetId>FRF</SetId>
 <No>119</No>
 <Name>Abzan Beastmaster</Name>
-<Type>Creature — Hound Shaman 2/1</Type>
-<ManaCost>2G (3)</ManaCost>
+<Type>Creature — Dog Shaman 2/1</Type>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>At the beginning of your upkeep, draw a card if you control the creature with the greatest toughness or tied for the greatest toughness.</CardText>
 <Flavor>His beasts move the great siege towers of the Abzan across the endless sands.</Flavor>
 <Artist>Winona Nelson</Artist>
@@ -2598,7 +2603,7 @@ Wild Slash deals 2 damage to any target.</CardText>
 <No>120</No>
 <Name>Abzan Kin-Guard</Name>
 <Type>Creature — Human Warrior 3/3</Type>
-<ManaCost>3G (4)</ManaCost>
+<ManaCost>{3}{G}</ManaCost>
 <CardText>Abzan Kin-Guard has lifelink as long as you control a white or black permanent.</CardText>
 <Flavor>"The Mardu rush headlong toward extinction. We ensure the longevity of our clan by protecting our territory, not rampaging through it."</Flavor>
 <Artist>Craig J Spearing</Artist>
@@ -2615,11 +2620,11 @@ Wild Slash deals 2 damage to any target.</CardText>
 <SetId>FRF</SetId>
 <No>121</No>
 <Name>Ainok Guide</Name>
-<Type>Creature — Hound Scout 1/1</Type>
-<ManaCost>1G (2)</ManaCost>
+<Type>Creature — Dog Scout 1/1</Type>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>When Ainok Guide enters the battlefield, choose one —
 • Put a +1/+1 counter on Ainok Guide.
-• Search your library for a basic land card, reveal it, then shuffle your library and put that card on top of it.</CardText>
+• Search your library for a basic land card, reveal it, then shuffle and put that card on top.</CardText>
 <Artist>Lucas Graciano</Artist>
 <Multiverseid>391786</Multiverseid>
 <Rulings>2014/11/24: You choose which mode you're using as you put the ability on the stack, after the creature has entered the battlefield. Once you've chosen a mode, you can't change that mode even if the creature leaves the battlefield in response to that ability.
@@ -2636,14 +2641,14 @@ Wild Slash deals 2 damage to any target.</CardText>
 <No>122</No>
 <Name>Ambush Krotiq</Name>
 <Type>Creature — Insect 5/5</Type>
-<ManaCost>5G (6)</ManaCost>
+<ManaCost>{5}{G}</ManaCost>
 <CardText>Trample
 When Ambush Krotiq enters the battlefield, return another creature you control to its owner's hand.</CardText>
 <Flavor>The Abzan merchants soon discovered why this route was clear of dragons.</Flavor>
 <Artist>Filip Burburan</Artist>
 <Watermark>Temur</Watermark>
 <Multiverseid>391789</Multiverseid>
-<Rulings>2014/11/24: If you control no other creatures as <Ambush Krotiq>'s triggered ability resolves, nothing happens. <Ambush Krotiq> remains on the battlefield.
+<Rulings>2014/11/24: If you control no other creatures as Ambush Krotiq's triggered ability resolves, nothing happens. Ambush Krotiq remains on the battlefield.
 2014/11/24: The triggered ability doesn't target any permanent. You choose which one to return as the ability resolves. No player can respond to this choice once the ability starts resolving.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2657,13 +2662,13 @@ When Ambush Krotiq enters the battlefield, return another creature you control t
 <No>123</No>
 <Name>Arashin War Beast</Name>
 <Type>Creature — Beast 6/6</Type>
-<ManaCost>5GG (7)</ManaCost>
+<ManaCost>{5}{G}{G}</ManaCost>
 <CardText>Whenever Arashin War Beast deals combat damage to one or more blocking creatures, manifest the top card of your library. (Put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)</CardText>
 <Artist>Eric Deschamps</Artist>
 <Watermark>Abzan</Watermark>
 <Multiverseid>391792</Multiverseid>
-<Rulings>2014/11/24: <Arashin War Beast>'s ability will trigger only once per combat damage step, no matter how many creatures are blocking it.
-2014/11/24: The face-down permanent is a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a converted mana cost of 0. Other effects that apply to the permanent can still grant or change any of these characteristics.
+<Rulings>2014/11/24: Arashin War Beast's ability will trigger only once per combat damage step, no matter how many creatures are blocking it.
+2014/11/24: The face-down permanent is a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the permanent can still grant or change any of these characteristics.
 2014/11/24: Any time you have priority, you may turn a manifested creature face up by revealing that it's a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn't use the stack and can't be responded to.
 2014/11/24: If a manifested creature would have morph if it were face up, you may also turn it face up by paying its morph cost.
 2014/11/24: Unlike a face-down creature that was cast using the morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
@@ -2688,7 +2693,7 @@ When Ambush Krotiq enters the battlefield, return another creature you control t
 <No>124</No>
 <Name>Archers of Qarsi</Name>
 <Type>Creature — Naga Archer 5/2</Type>
-<ManaCost>3G (4)</ManaCost>
+<ManaCost>{3}{G}</ManaCost>
 <CardText>Defender
 Reach (This creature can block creatures with flying.)</CardText>
 <Flavor>"We think of the naga as creeping cutthroats, slitherers in the swamps. But they are equally at home in the trees."
@@ -2708,7 +2713,7 @@ Reach (This creature can block creatures with flying.)</CardText>
 <No>125</No>
 <Name>Battlefront Krushok</Name>
 <Type>Creature — Beast 3/4</Type>
-<ManaCost>4G (5)</ManaCost>
+<ManaCost>{4}{G}</ManaCost>
 <CardText>Battlefront Krushok can't be blocked by more than one creature.
 Each creature you control with a +1/+1 counter on it can't be blocked by more than one creature.</CardText>
 <Flavor>Krushoks clear debris from fertile fields, fallow fields, and battlefields.</Flavor>
@@ -2728,7 +2733,7 @@ Each creature you control with a +1/+1 counter on it can't be blocked by more th
 <No>126</No>
 <Name>Cached Defenses</Name>
 <Type>Sorcery</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>Bolster 3. (Choose a creature with the least toughness among creatures you control and put three +1/+1 counters on it.)</CardText>
 <Flavor>The glittering scales in the Abzan vaults represent mighty deeds of the past and protection for generations to come.</Flavor>
 <Artist>Zack Stella</Artist>
@@ -2748,7 +2753,7 @@ Each creature you control with a +1/+1 counter on it can't be blocked by more th
 <No>127</No>
 <Name>Destructor Dragon</Name>
 <Type>Creature — Dragon 4/4</Type>
-<ManaCost>4GG (6)</ManaCost>
+<ManaCost>{4}{G}{G}</ManaCost>
 <CardText>Flying
 When Destructor Dragon dies, destroy target noncreature permanent.</CardText>
 <Flavor>After countless attacks on the Salt Road where it passes through the frozen tundra, the Abzan began to refer to the area as Atarka territory rather than Temur lands.</Flavor>
@@ -2767,7 +2772,7 @@ When Destructor Dragon dies, destroy target noncreature permanent.</CardText>
 <No>128</No>
 <Name>Feral Krushok</Name>
 <Type>Creature — Beast 5/4</Type>
-<ManaCost>4G (5)</ManaCost>
+<ManaCost>{4}{G}</ManaCost>
 <Flavor>In a stunning act of diplomacy, Yasova Dragonclaw ceded a portion of Temur lands to the Sultai. Her clan protested until they saw she had given the Sultai the breeding grounds of the krushoks. They hadn't realized she had a sense of humor.</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>391831</Multiverseid>
@@ -2783,7 +2788,7 @@ When Destructor Dragon dies, destroy target noncreature permanent.</CardText>
 <No>129</No>
 <Name>Formless Nurturing</Name>
 <Type>Sorcery</Type>
-<ManaCost>3G (4)</ManaCost>
+<ManaCost>{3}{G}</ManaCost>
 <CardText>Manifest the top card of your library, then put a +1/+1 counter on it. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)</CardText>
 <Artist>Cliff Childs</Artist>
 <Multiverseid>391837</Multiverseid>
@@ -2812,13 +2817,13 @@ When Destructor Dragon dies, destroy target noncreature permanent.</CardText>
 <No>130</No>
 <Name>Frontier Mastodon</Name>
 <Type>Creature — Elephant 3/2</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>Ferocious — Frontier Mastodon enters the battlefield with a +1/+1 counter on it if you control a creature with power 4 or greater.</CardText>
 <Flavor>Each bronze disk on its harness is an offering from a young Temur hunter, a sign of respect to the spirits of the wild.</Flavor>
 <Artist>Nils Hamm</Artist>
 <Watermark>Temur</Watermark>
 <Multiverseid>391839</Multiverseid>
-<Rulings>2014/11/24: <Frontier Mastodon>'s ferocious ability checks if you control a creature with power 4 or greater as <Frontier Mastodon> enters the battlefield. Because <Frontier Mastodon> isn't on the battlefield at this time, it won't count itself.</Rulings>
+<Rulings>2014/11/24: Frontier Mastodon's ferocious ability checks if you control a creature with power 4 or greater as Frontier Mastodon enters the battlefield. Because Frontier Mastodon isn't on the battlefield at this time, it won't count itself.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2831,7 +2836,7 @@ When Destructor Dragon dies, destroy target noncreature permanent.</CardText>
 <No>131</No>
 <Name>Frontier Siege</Name>
 <Type>Enchantment</Type>
-<ManaCost>3G (4)</ManaCost>
+<ManaCost>{3}{G}</ManaCost>
 <CardText>As Frontier Siege enters the battlefield, choose Khans or Dragons.
 • Khans — At the beginning of each of your main phases, add {G}{G}.
 • Dragons — Whenever a creature with flying enters the battlefield under your control, you may have it fight target creature you don't control.</CardText>
@@ -2854,14 +2859,14 @@ When Destructor Dragon dies, destroy target noncreature permanent.</CardText>
 <No>132</No>
 <Name>Fruit of the First Tree</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>3G (4)</ManaCost>
+<ManaCost>{3}{G}</ManaCost>
 <CardText>Enchant creature
 When enchanted creature dies, you gain X life and draw X cards, where X is its toughness.</CardText>
 <Flavor>"I will be the ancestor my descendants call upon for aid. On that day I will take up my sword for my family once more."</Flavor>
 <Artist>Ryan Yee</Artist>
 <Multiverseid>391842</Multiverseid>
 <Rulings>2014/11/24: Use the creature's toughness when it left the battlefield to determine the value of X. If that number is 0 or less, you won't gain life or draw cards. (You won't lose life or discard cards either.)
-2014/11/24: <Fruit of the First Tree> can enchant any creature, but <Fruit of the First Tree>'s controller will gain life and draw cards.</Rulings>
+2014/11/24: Fruit of the First Tree can enchant any creature, but Fruit of the First Tree's controller will gain life and draw cards.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2874,14 +2879,14 @@ When enchanted creature dies, you gain X life and draw X cards, where X is its t
 <No>133</No>
 <Name>Hunt the Weak</Name>
 <Type>Sorcery</Type>
-<ManaCost>3G (4)</ManaCost>
+<ManaCost>{3}{G}</ManaCost>
 <CardText>Put a +1/+1 counter on target creature you control. Then that creature fights target creature you don't control. (Each deals damage equal to its power to the other.)</CardText>
 <Flavor>Dragons scorn the weak, even among their own kind.</Flavor>
 <Artist>Lars Grant-West</Artist>
 <Multiverseid>391858</Multiverseid>
-<Rulings>2018/01/19: You can't cast <Hunt the Weak> unless you choose both a creature you control and a creature you don't control as targets.
-2018/01/19: If either target is an illegal target as <Hunt the Weak> resolves, neither creature will deal or be dealt damage.
-2018/01/19: If the creature you control is an illegal target as <Hunt the Weak> tries to resolve, you won't put a +1/+1 counter on it. If that creature is a legal target but the other creature isn't, you'll still put the counter on the creature you control.</Rulings>
+<Rulings>2018/01/19: You can't cast Hunt the Weak unless you choose both a creature you control and a creature you don't control as targets.
+2018/01/19: If either target is an illegal target as Hunt the Weak resolves, neither creature will deal or be dealt damage.
+2018/01/19: If the creature you control is an illegal target as Hunt the Weak tries to resolve, you won't put a +1/+1 counter on it. If that creature is a legal target but the other creature isn't, you'll still put the counter on the creature you control.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2894,8 +2899,8 @@ When enchanted creature dies, you gain X life and draw X cards, where X is its t
 <No>134</No>
 <Name>Map the Wastes</Name>
 <Type>Sorcery</Type>
-<ManaCost>2G (3)</ManaCost>
-<CardText>Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library. Bolster 1. (Choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.)</CardText>
+<ManaCost>{2}{G}</ManaCost>
+<CardText>Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Bolster 1. (Choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.)</CardText>
 <Artist>Volkan Baǵa</Artist>
 <Watermark>Abzan</Watermark>
 <Multiverseid>391871</Multiverseid>
@@ -2913,7 +2918,7 @@ When enchanted creature dies, you gain X life and draw X cards, where X is its t
 <No>135</No>
 <Name>Return to the Earth</Name>
 <Type>Instant</Type>
-<ManaCost>3G (4)</ManaCost>
+<ManaCost>{3}{G}</ManaCost>
 <CardText>Destroy target artifact, enchantment, or creature with flying.</CardText>
 <Flavor>"Dragons are feared for their breath and their bite, but it is their wings that make them unconquerable. Bring them to earth, and they die like any other beast."
 —Kassur, Sultai hunter</Flavor>
@@ -2931,7 +2936,7 @@ When enchanted creature dies, you gain X life and draw X cards, where X is its t
 <No>136</No>
 <Name>Ruthless Instincts</Name>
 <Type>Instant</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>Choose one —
 • Target nonattacking creature gains reach and deathtouch until end of turn. Untap it.
 • Target attacking creature gets +2/+2 and gains trample until end of turn.</CardText>
@@ -2951,7 +2956,7 @@ When enchanted creature dies, you gain X life and draw X cards, where X is its t
 <No>137</No>
 <Name>Sandsteppe Mastodon</Name>
 <Type>Creature — Elephant 5/5</Type>
-<ManaCost>5GG (7)</ManaCost>
+<ManaCost>{5}{G}{G}</ManaCost>
 <CardText>Reach
 When Sandsteppe Mastodon enters the battlefield, bolster 5. (Choose a creature with the least toughness among creatures you control and put five +1/+1 counters on it.)</CardText>
 <Flavor>A mastodon's path always leads to an oasis.</Flavor>
@@ -2972,14 +2977,14 @@ When Sandsteppe Mastodon enters the battlefield, bolster 5. (Choose a creature w
 <No>138</No>
 <Name>Shamanic Revelation</Name>
 <Type>Sorcery</Type>
-<ManaCost>3GG (5)</ManaCost>
+<ManaCost>{3}{G}{G}</ManaCost>
 <CardText>Draw a card for each creature you control.
 Ferocious — You gain 4 life for each creature you control with power 4 or greater.</CardText>
 <Flavor>First, whispers of ancient days. Then, visions of things to come.</Flavor>
 <Artist>Cynthia Sheppard</Artist>
 <Watermark>Temur</Watermark>
 <Multiverseid>391918</Multiverseid>
-<Rulings>2014/11/24: Ferocious abilities of instants and sorceries that don't use the word "instead" provide an additional effect if you control a creature with power 4 or greater as they resolve.</Rulings>
+<Rulings>2020/08/07: After you draw cards while Shamanic Revelation is resolving, nothing else can happen before you gain the appropriate amount of life. Notably, abilities that trigger when you draw cards won't be put onto the stack until after you've gained life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2992,13 +2997,13 @@ Ferocious — You gain 4 life for each creature you control with power 4 or grea
 <No>139</No>
 <Name>Sudden Reclamation</Name>
 <Type>Instant</Type>
-<ManaCost>3G (4)</ManaCost>
-<CardText>Put the top four cards of your library into your graveyard, then return a creature card and a land card from your graveyard to your hand.</CardText>
+<ManaCost>{3}{G}</ManaCost>
+<CardText>Mill four cards, then return a creature card and a land card from your graveyard to your hand.</CardText>
 <Flavor>"There is no secret buried so deep that we will never find it."
 —Kurtar, Sultai necromancer</Flavor>
 <Artist>Jack Wang</Artist>
 <Multiverseid>391929</Multiverseid>
-<Rulings>2014/11/24: You choose which creature card and land card to return to your hand as <Sudden Reclamation> resolves. This doesn't target either card.
+<Rulings>2014/11/24: You choose which creature card and land card to return to your hand as Sudden Reclamation resolves. This doesn't target either card.
 2014/11/24: If there are no land cards in your graveyard, you still choose a creature card to return, and vice versa.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3012,7 +3017,7 @@ Ferocious — You gain 4 life for each creature you control with power 4 or grea
 <No>140</No>
 <Name>Temur Runemark</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>Enchant creature
 Enchanted creature gets +2/+2.
 Enchanted creature has trample as long as you control a blue or red permanent.</CardText>
@@ -3031,7 +3036,7 @@ Enchanted creature has trample as long as you control a blue or red permanent.</
 <No>141</No>
 <Name>Temur Sabertooth</Name>
 <Type>Creature — Cat 4/3</Type>
-<ManaCost>2GG (4)</ManaCost>
+<ManaCost>{2}{G}{G}</ManaCost>
 <CardText>{1}{G}: You may return another creature you control to its owner's hand. If you do, Temur Sabertooth gains indestructible until end of turn.</CardText>
 <Flavor>The Temur see themselves as a pack, their bonds more primal than the Abzan's.</Flavor>
 <Artist>Mike Sass</Artist>
@@ -3050,7 +3055,7 @@ Enchanted creature has trample as long as you control a blue or red permanent.</
 <No>142</No>
 <Name>Temur War Shaman</Name>
 <Type>Creature — Human Shaman 4/5</Type>
-<ManaCost>4GG (6)</ManaCost>
+<ManaCost>{4}{G}{G}</ManaCost>
 <CardText>When Temur War Shaman enters the battlefield, manifest the top card of your library. (Put that card onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)
 Whenever a permanent you control is turned face up, if it's a creature, you may have it fight target creature you don't control.</CardText>
 <Artist>Nils Hamm</Artist>
@@ -3081,17 +3086,17 @@ Whenever a permanent you control is turned face up, if it's a creature, you may 
 <No>143</No>
 <Name>Warden of the First Tree</Name>
 <Type>Creature — Human 1/1</Type>
-<ManaCost>G (1)</ManaCost>
+<ManaCost>{G}</ManaCost>
 <CardText>{1}{W/B}: Warden of the First Tree becomes a Human Warrior with base power and toughness 3/3.
 {2}{W/B}{W/B}: If Warden of the First Tree is a Warrior, it becomes a Human Spirit Warrior with trample and lifelink.
 {3}{W/B}{W/B}{W/B}: If Warden of the First Tree is a Spirit, put five +1/+1 counters on it.</CardText>
 <Artist>Ryan Alexander Lee</Artist>
 <Watermark>Abzan</Watermark>
 <Multiverseid>391954</Multiverseid>
-<Rulings>2014/11/24: Neither the first nor the second ability has a duration. If one of them resolves, it will remain in effect until <Warden of the First Tree> leaves the battlefield or some subsequent effect changes its characteristics.
-2014/11/24: The first and second activated abilities cause <Warden of the First Tree> to lose any other creature types it has. It retains any card types or supertypes it may have.
+<Rulings>2014/11/24: Neither the first nor the second ability has a duration. If one of them resolves, it will remain in effect until Warden of the First Tree leaves the battlefield or some subsequent effect changes its characteristics.
+2014/11/24: The first and second activated abilities cause Warden of the First Tree to lose any other creature types it has. It retains any card types or supertypes it may have.
 2014/11/24: The first ability overwrites any previous effects that set the creature's base power and toughness to specific values. Any power- or toughness-setting effects that start to apply after the first ability resolves will overwrite this effect.
-2014/11/24: Effects that modify <Warden of the First Tree>'s power or toughness, such as the one created by Titanic Growth, will apply to <Warden of the First Tree> no matter when they started to take effect. The same is true for any +1/+1 counters on <Warden of the First Tree> and effects that switch its power and toughness.</Rulings>
+2014/11/24: Effects that modify Warden of the First Tree's power or toughness, such as the one created by Titanic Growth, will apply to Warden of the First Tree no matter when they started to take effect. The same is true for any +1/+1 counters on Warden of the First Tree and effects that switch its power and toughness.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3104,9 +3109,9 @@ Whenever a permanent you control is turned face up, if it's a creature, you may 
 <No>144</No>
 <Name>Whisperer of the Wilds</Name>
 <Type>Creature — Human Shaman 0/2</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>{T}: Add {G}.
-Ferocious — {T}: Add {G}{G}. Activate this ability only if you control a creature with power 4 or greater.</CardText>
+Ferocious — {T}: Add {G}{G}. Activate only if you control a creature with power 4 or greater.</CardText>
 <Flavor>She speaks only in whispers but can be heard over the fiercest storm.</Flavor>
 <Artist>David Gaillet</Artist>
 <Watermark>Temur</Watermark>
@@ -3123,7 +3128,7 @@ Ferocious — {T}: Add {G}{G}. Activate this ability only if you control a creat
 <No>145</No>
 <Name>Whisperwood Elemental</Name>
 <Type>Creature — Elemental 4/4</Type>
-<ManaCost>3GG (5)</ManaCost>
+<ManaCost>{3}{G}{G}</ManaCost>
 <CardText>At the beginning of your end step, manifest the top card of your library. (Put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)
 Sacrifice Whisperwood Elemental: Until end of turn, face-up nontoken creatures you control gain "When this creature dies, manifest the top card of your library."</CardText>
 <Artist>Raymond Swanland</Artist>
@@ -3155,7 +3160,7 @@ Sacrifice Whisperwood Elemental: Until end of turn, face-up nontoken creatures y
 <No>146</No>
 <Name>Wildcall</Name>
 <Type>Sorcery</Type>
-<ManaCost>XGG (2)</ManaCost>
+<ManaCost>{X}{G}{G}</ManaCost>
 <CardText>Manifest the top card of your library, then put X +1/+1 counters on it. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)</CardText>
 <Flavor>A howl on the wind hides many dangers.</Flavor>
 <Artist>Adam Paquette</Artist>
@@ -3186,13 +3191,13 @@ Sacrifice Whisperwood Elemental: Until end of turn, face-up nontoken creatures y
 <No>147</No>
 <Name>Winds of Qal Sisma</Name>
 <Type>Instant</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>Prevent all combat damage that would be dealt this turn.
 Ferocious — If you control a creature with power 4 or greater, instead prevent all combat damage that would be dealt this turn by creatures your opponents control.</CardText>
 <Artist>Howard Lyon</Artist>
 <Watermark>Temur</Watermark>
 <Multiverseid>391962</Multiverseid>
-<Rulings>2014/11/24: If you control a creature with power 4 or greater as <Winds of Qal Sisma> resolves, the ferocious ability will apply. Combat damage dealt by creatures your opponents control will be prevented, even if you no longer control a creature with power 4 or greater as that damage would be dealt.</Rulings>
+<Rulings>2014/11/24: If you control a creature with power 4 or greater as Winds of Qal Sisma resolves, the ferocious ability will apply. Combat damage dealt by creatures your opponents control will be prevented, even if you no longer control a creature with power 4 or greater as that damage would be dealt.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3205,13 +3210,13 @@ Ferocious — If you control a creature with power 4 or greater, instead prevent
 <No>148</No>
 <Name>Yasova Dragonclaw</Name>
 <Type>Legendary Creature — Human Warrior 4/2</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>Trample
 At the beginning of combat on your turn, you may pay {1}{U/R}{U/R}. If you do, gain control of target creature an opponent controls with power less than Yasova Dragonclaw's power until end of turn, untap that creature, and it gains haste until end of turn.</CardText>
 <Artist>Winona Nelson</Artist>
 <Watermark>Temur</Watermark>
 <Multiverseid>391965</Multiverseid>
-<Rulings>2014/11/24: The powers of the target creature and <Yasova Dragonclaw> are checked as you put the ability on the stack and again as the ability resolves. Once the ability resolves, it doesn't matter what happens to either creature's power.
+<Rulings>2014/11/24: The powers of the target creature and Yasova Dragonclaw are checked as you put the ability on the stack and again as the ability resolves. Once the ability resolves, it doesn't matter what happens to either creature's power.
 2014/11/24: Gaining control of a creature doesn't cause you to gain control of any Auras or Equipment attached to it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3225,7 +3230,7 @@ At the beginning of combat on your turn, you may pay {1}{U/R}{U/R}. If you do, g
 <No>149</No>
 <Name>Atarka, World Render</Name>
 <Type>Legendary Creature — Dragon 6/4</Type>
-<ManaCost>5RG (7)</ManaCost>
+<ManaCost>{5}{R}{G}</ManaCost>
 <CardText>Flying, trample
 Whenever a Dragon you control attacks, it gains double strike until end of turn.</CardText>
 <Flavor>"Her hunger knows no limit. Left unchecked, she would feast on all of Tarkir."
@@ -3245,14 +3250,14 @@ Whenever a Dragon you control attacks, it gains double strike until end of turn.
 <No>150</No>
 <Name>Cunning Strike</Name>
 <Type>Instant</Type>
-<ManaCost>3UR (5)</ManaCost>
+<ManaCost>{3}{U}{R}</ManaCost>
 <CardText>Cunning Strike deals 2 damage to target creature and 2 damage to target player or planeswalker.
 Draw a card.</CardText>
 <Flavor>"The opponent who blocks the path, becomes the path."
 —Shu Yun, the Silent Tempest</Flavor>
 <Artist>Clint Cearley</Artist>
 <Multiverseid>391814</Multiverseid>
-<Rulings>2014/11/24: You can't cast <Cunning Strike> unless you target both a creature and a player. If one target (but not both) is illegal as <Cunning Strike> resolves, it deals damage to the remaining legal target and you draw a card. If both targets are illegal, the spell won't resolve and none of its effects will happen. You won't draw a card in that case.</Rulings>
+<Rulings>2014/11/24: You can't cast Cunning Strike unless you target both a creature and a player. If one target (but not both) is illegal as Cunning Strike resolves, it deals damage to the remaining legal target and you draw a card. If both targets are illegal, the spell won't resolve and none of its effects will happen. You won't draw a card in that case.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3265,7 +3270,7 @@ Draw a card.</CardText>
 <No>151</No>
 <Name>Dromoka, the Eternal</Name>
 <Type>Legendary Creature — Dragon 5/5</Type>
-<ManaCost>3GW (5)</ManaCost>
+<ManaCost>{3}{G}{W}</ManaCost>
 <CardText>Flying
 Whenever a Dragon you control attacks, bolster 2. (Choose a creature with the least toughness among creatures you control and put two +1/+1 counters on it.)</CardText>
 <Flavor>"The bane of countless shattered weapons, each a failure to slay her."
@@ -3288,13 +3293,13 @@ Whenever a Dragon you control attacks, bolster 2. (Choose a creature with the le
 <No>152</No>
 <Name>Ethereal Ambush</Name>
 <Type>Instant</Type>
-<ManaCost>3GU (5)</ManaCost>
+<ManaCost>{3}{G}{U}</ManaCost>
 <CardText>Manifest the top two cards of your library. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)</CardText>
 <Flavor>The energies of the Temur lands are readily unleashed upon intruders.</Flavor>
 <Artist>Lius Lasahido</Artist>
 <Multiverseid>391828</Multiverseid>
 <Rulings>2014/11/24: The cards are manifested one at a time. It must remain clear which face-down creature was the top card of your library and which one was the second card of your library.
-2014/11/24: If you're playing with the top card of your library revealed as <Ethereal Ambush> resolves (perhaps because you control a card such as Courser of Kruphix), you'll manifest the top card, reveal the next card (now the top card), and then manifest that card.
+2014/11/24: If you're playing with the top card of your library revealed as Ethereal Ambush resolves (perhaps because you control a card such as Courser of Kruphix), you'll manifest the top card, reveal the next card (now the top card), and then manifest that card.
 2014/11/24: The face-down permanent is a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a converted mana cost of 0. Other effects that apply to the permanent can still grant or change any of these characteristics.
 2014/11/24: Any time you have priority, you may turn a manifested creature face up by revealing that it's a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn't use the stack and can't be responded to.
 2014/11/24: If a manifested creature would have morph if it were face up, you may also turn it face up by paying its morph cost.
@@ -3320,12 +3325,12 @@ Whenever a Dragon you control attacks, bolster 2. (Choose a creature with the le
 <No>153</No>
 <Name>Grim Contest</Name>
 <Type>Instant</Type>
-<ManaCost>1BG (3)</ManaCost>
+<ManaCost>{1}{B}{G}</ManaCost>
 <CardText>Choose target creature you control and target creature an opponent controls. Each of those creatures deals damage equal to its toughness to the other.</CardText>
 <Flavor>The invader hoped he could survive the beast's jaws and emerge through its rotting skin.</Flavor>
 <Artist>Phill Simmer</Artist>
 <Multiverseid>391849</Multiverseid>
-<Rulings>2014/11/24: If either target is an illegal target as <Grim Contest> tries to resolve, neither creature will deal or be dealt damage.</Rulings>
+<Rulings>2014/11/24: If either target is an illegal target as Grim Contest tries to resolve, neither creature will deal or be dealt damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3338,7 +3343,7 @@ Whenever a Dragon you control attacks, bolster 2. (Choose a creature with the le
 <No>154</No>
 <Name>Harsh Sustenance</Name>
 <Type>Instant</Type>
-<ManaCost>1WB (3)</ManaCost>
+<ManaCost>{1}{W}{B}</ManaCost>
 <CardText>Harsh Sustenance deals X damage to any target and you gain X life, where X is the number of creatures you control.</CardText>
 <Flavor>The Shifting Wastes provide refuge to those who know where to look for it.</Flavor>
 <Artist>Cynthia Sheppard</Artist>
@@ -3355,7 +3360,7 @@ Whenever a Dragon you control attacks, bolster 2. (Choose a creature with the le
 <No>155</No>
 <Name>Kolaghan, the Storm's Fury</Name>
 <Type>Legendary Creature — Dragon 4/5</Type>
-<ManaCost>3BR (5)</ManaCost>
+<ManaCost>{3}{B}{R}</ManaCost>
 <CardText>Flying
 Whenever a Dragon you control attacks, creatures you control get +1/+0 until end of turn.
 Dash {3}{B}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)</CardText>
@@ -3378,7 +3383,7 @@ Dash {3}{B}{R} (You may cast this spell for its dash cost. If you do, it gains h
 <No>156</No>
 <Name>Ojutai, Soul of Winter</Name>
 <Type>Legendary Creature — Dragon 5/6</Type>
-<ManaCost>5WU (7)</ManaCost>
+<ManaCost>{5}{W}{U}</ManaCost>
 <CardText>Flying, vigilance
 Whenever a Dragon you control attacks, tap target nonland permanent an opponent controls. That permanent doesn't untap during its controller's next untap step.</CardText>
 <Flavor>"When I battled Ojutai, I realized my learning had only begun."
@@ -3401,7 +3406,7 @@ Whenever a Dragon you control attacks, tap target nonland permanent an opponent 
 <No>157</No>
 <Name>Silumgar, the Drifting Death</Name>
 <Type>Legendary Creature — Dragon 3/7</Type>
-<ManaCost>4UB (6)</ManaCost>
+<ManaCost>{4}{U}{B}</ManaCost>
 <CardText>Flying, hexproof
 Whenever a Dragon you control attacks, creatures defending player controls get -1/-1 until end of turn.</CardText>
 <Flavor>"No machinations, no puppet strings, no plots. Just pure, sweeping death."
@@ -3422,7 +3427,7 @@ Whenever a Dragon you control attacks, creatures defending player controls get -
 <No>158</No>
 <Name>War Flare</Name>
 <Type>Instant</Type>
-<ManaCost>2RW (4)</ManaCost>
+<ManaCost>{2}{R}{W}</ManaCost>
 <CardText>Creatures you control get +2/+1 until end of turn. Untap those creatures.</CardText>
 <Flavor>"No sun or fire can warm my blood quite like a war flare."
 —Urut Barzeel, Mardu hordechief</Flavor>
@@ -3440,7 +3445,7 @@ Whenever a Dragon you control attacks, creatures defending player controls get -
 <No>159</No>
 <Name>Goblin Boom Keg</Name>
 <Type>Artifact</Type>
-<ManaCost>4 (4)</ManaCost>
+<ManaCost>{4}</ManaCost>
 <CardText>At the beginning of your upkeep, sacrifice Goblin Boom Keg.
 When Goblin Boom Keg is put into a graveyard from the battlefield, it deals 3 damage to any target.</CardText>
 <Flavor>Dragonfire spawned many imitations. Some were more dramatic than others.</Flavor>
@@ -3458,14 +3463,15 @@ When Goblin Boom Keg is put into a graveyard from the battlefield, it deals 3 da
 <No>160</No>
 <Name>Hero's Blade</Name>
 <Type>Artifact — Equipment</Type>
-<ManaCost>2 (2)</ManaCost>
+<ManaCost>{2}</ManaCost>
 <CardText>Equipped creature gets +3/+2.
 Whenever a legendary creature enters the battlefield under your control, you may attach Hero's Blade to it.
-Equip {4}</CardText>
+Equip {4} ({4}: Attach to target creature you control. Equip only as a sorcery.)</CardText>
 <Flavor>The best swords are forged with dragonfire.</Flavor>
 <Artist>Aaron Miller</Artist>
 <Multiverseid>391852</Multiverseid>
-<Rulings>2014/11/24: The triggered ability will trigger when one of the Gods from Theros block enters the battlefield only if your devotion is high enough that it's a creature when it enters. If <Hero's Blade> is attached to a God that stops being a creature (or any creature that stops being a creature), it will become unattached.</Rulings>
+<Rulings>2014/11/24: The triggered ability will trigger when one of the Gods from Theros block enters the battlefield only if your devotion is high enough that it's a creature when it enters. If Hero's Blade is attached to a God that stops being a creature (or any creature that stops being a creature), it will become unattached.
+2020/11/10: If the legendary creature that entered the battlefield leaves the battlefield before Hero's Blade becomes attached, Hero's Blade stays as it was. If it's already attached to another creature, it remains attached to that creature.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3478,13 +3484,13 @@ Equip {4}</CardText>
 <No>161</No>
 <Name>Hewed Stone Retainers</Name>
 <Type>Artifact Creature — Golem 4/4</Type>
-<ManaCost>3 (3)</ManaCost>
+<ManaCost>{3}</ManaCost>
 <CardText>Cast this spell only if you've cast another spell this turn.</CardText>
 <Flavor>"Their origins are shrouded in mystery. I believe they are the protectors of the lost secrets of our world."
 —Jilaya, Temur whisperer</Flavor>
 <Artist>David Seguin</Artist>
 <Multiverseid>391853</Multiverseid>
-<Rulings>2014/11/24: It doesn't matter whether the other spell resolved. It could have been countered or, if you've somehow cast <Hewed Stone Retainers> as though it had flash, it could still be on the stack.</Rulings>
+<Rulings>2014/11/24: It doesn't matter whether the other spell resolved. It could have been countered or, if you've somehow cast Hewed Stone Retainers as though it had flash, it could still be on the stack.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3497,7 +3503,7 @@ Equip {4}</CardText>
 <No>162</No>
 <Name>Pilgrim of the Fires</Name>
 <Type>Artifact Creature — Golem 6/4</Type>
-<ManaCost>7 (7)</ManaCost>
+<ManaCost>{7}</ManaCost>
 <CardText>First strike, trample</CardText>
 <Flavor>The most skilled Jeskai artisans can craft imposing golems with such precision that they will last an eternity—the time believed necessary to master the Fires of the Jeskai Way.</Flavor>
 <Artist>Izzy</Artist>
@@ -3514,13 +3520,13 @@ Equip {4}</CardText>
 <No>163</No>
 <Name>Scroll of the Masters</Name>
 <Type>Artifact</Type>
-<ManaCost>2 (2)</ManaCost>
+<ManaCost>{2}</ManaCost>
 <CardText>Whenever you cast a noncreature spell, put a lore counter on Scroll of the Masters.
 {3}, {T}: Target creature you control gets +1/+1 until end of turn for each lore counter on Scroll of the Masters.</CardText>
 <Artist>Lake Hurwitz</Artist>
 <Multiverseid>391916</Multiverseid>
-<Rulings>2014/11/24: Count the number of lore counters on <Scroll of the Masters> as the activated ability resolves to determine how big a bonus the target creature gets. If <Scroll of the Masters> isn't on the battlefield at that time, use the number of lore counters on it when it left the battlefield.
-2014/11/24: Once the activated ability has resolved, changing the number of lore counters on <Scroll of the Masters> won't affect the bonus that activation granted.</Rulings>
+<Rulings>2014/11/24: Count the number of lore counters on Scroll of the Masters as the activated ability resolves to determine how big a bonus the target creature gets. If Scroll of the Masters isn't on the battlefield at that time, use the number of lore counters on it when it left the battlefield.
+2014/11/24: Once the activated ability has resolved, changing the number of lore counters on Scroll of the Masters won't affect the bonus that activation granted.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3533,7 +3539,7 @@ Equip {4}</CardText>
 <No>164</No>
 <Name>Ugin's Construct</Name>
 <Type>Artifact Creature — Construct 4/5</Type>
-<ManaCost>4 (4)</ManaCost>
+<ManaCost>{4}</ManaCost>
 <CardText>When Ugin's Construct enters the battlefield, sacrifice a permanent that's one or more colors.</CardText>
 <Flavor>While trapping the Eldrazi on Zendikar, Ugin learned little from Sorin, but he gleaned the rudiments of lithomancy from Nahiri.</Flavor>
 <Artist>Peter Mohrbacher</Artist>
@@ -3749,7 +3755,7 @@ When Wind-Scarred Crag enters the battlefield, you gain 1 life.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Fate Reforged</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -3764,7 +3770,7 @@ When Wind-Scarred Crag enters the battlefield, you gain 1 life.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Fate Reforged</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -3779,7 +3785,7 @@ When Wind-Scarred Crag enters the battlefield, you gain 1 life.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Fate Reforged</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -3794,7 +3800,7 @@ When Wind-Scarred Crag enters the battlefield, you gain 1 life.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Fate Reforged</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -3809,7 +3815,7 @@ When Wind-Scarred Crag enters the battlefield, you gain 1 life.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Fate Reforged</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -3824,7 +3830,7 @@ When Wind-Scarred Crag enters the battlefield, you gain 1 life.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Fate Reforged</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -3839,7 +3845,7 @@ When Wind-Scarred Crag enters the battlefield, you gain 1 life.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Fate Reforged</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -3854,7 +3860,7 @@ When Wind-Scarred Crag enters the battlefield, you gain 1 life.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Fate Reforged</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -3869,7 +3875,7 @@ When Wind-Scarred Crag enters the battlefield, you gain 1 life.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Fate Reforged</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -3884,6 +3890,6 @@ When Wind-Scarred Crag enters the battlefield, you gain 1 life.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Fate Reforged</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 

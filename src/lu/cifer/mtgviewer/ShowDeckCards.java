@@ -204,10 +204,10 @@ public class ShowDeckCards {
 			int rank1 = getRank(c1);
 			int rank2 = getRank(c2);
 			if (rank1 == rank2) {
-				if (c1.converted == c2.converted) {
+				if (c1.value == c2.value) {
 					return c1.name.compareTo(c2.name);
 				}
-				return c1.converted - c2.converted;
+				return c1.value - c2.value;
 			}
 			return rank1 - rank2;
 		}
@@ -381,9 +381,9 @@ public class ShowDeckCards {
 						if (card.types.contains("Land")) {
 							landNum += num;
 						}
-						int cmc = card.converted;
+						int cmc = card.value;
 						if (card.isSplit) {
-							cmc += CardAnalyzer.get(card.otherPart.get(0)).converted;
+							cmc += CardAnalyzer.get(card.otherPart.get(0)).value;
 						}
 						totalCmc += cmc * num;
 						cardNum += num;

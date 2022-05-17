@@ -3,7 +3,7 @@
 <No>1</No>
 <Name>Ezuri, Renegade Leader</Name>
 <Type>Legendary Creature — Elf Warrior 2/2</Type>
-<ManaCost>1GG (3)</ManaCost>
+<ManaCost>{1}{G}{G}</ManaCost>
 <CardText>{G}: Regenerate another target Elf.
 {2}{G}{G}{G}: Elf creatures you control get +3/+3 and gain trample until end of turn.</CardText>
 <Flavor>Great hero or grand betrayer? The truth of Ezuri's legacy is clouded by the fog of legend.</Flavor>
@@ -23,7 +23,7 @@
 <No>2</No>
 <Name>Dwynen, Gilt-Leaf Daen</Name>
 <Type>Legendary Creature — Elf Warrior 3/4</Type>
-<ManaCost>2GG (4)</ManaCost>
+<ManaCost>{2}{G}{G}</ManaCost>
 <CardText>Reach
 Other Elf creatures you control get +1/+1.
 Whenever Dwynen, Gilt-Leaf Daen attacks, you gain 1 life for each attacking Elf you control.</CardText>
@@ -43,7 +43,7 @@ Whenever Dwynen, Gilt-Leaf Daen attacks, you gain 1 life for each attacking Elf 
 <No>3</No>
 <Name>Dwynen's Elite</Name>
 <Type>Creature — Elf Warrior 2/2</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>When Dwynen's Elite enters the battlefield, if you control another Elf, create a 1/1 green Elf Warrior creature token.</CardText>
 <Flavor>Call one, call them all.</Flavor>
 <Artist>Volkan Baǵa</Artist>
@@ -60,9 +60,9 @@ Whenever Dwynen, Gilt-Leaf Daen attacks, you gain 1 life for each attacking Elf 
 <No>4</No>
 <Name>Elvish Aberration</Name>
 <Type>Creature — Elf Mutant 4/5</Type>
-<ManaCost>5G (6)</ManaCost>
+<ManaCost>{5}{G}</ManaCost>
 <CardText>{T}: Add {G}{G}{G}.
-Forestcycling {2} ({2}, Discard this card: Search your library for a Forest card, reveal it, and put it into your hand, then shuffle your library.)</CardText>
+Forestcycling {2} ({2}, Discard this card: Search your library for a Forest card, reveal it, put it into your hand, then shuffle.)</CardText>
 <Artist>Johann Bodin</Artist>
 <Multiverseid>442740</Multiverseid>
 <Rulings>2009/02/01: Unlike the normal cycling ability, Forestcycling doesn't allow you to draw a card. Instead, it lets you search your library for a Forest card. After you find a Forest card in your library, you reveal it, put it into your hand, then shuffle your library.
@@ -80,14 +80,14 @@ Forestcycling {2} ({2}, Discard this card: Search your library for a Forest card
 <No>5</No>
 <Name>Elvish Archdruid</Name>
 <Type>Creature — Elf Druid 2/2</Type>
-<ManaCost>1GG (3)</ManaCost>
+<ManaCost>{1}{G}{G}</ManaCost>
 <CardText>Other Elf creatures you control get +1/+1.
 {T}: Add {G} for each Elf you control.</CardText>
 <Flavor>"The elves tend the forest, and the forest sustains the elves. My role is to ensure that the cycle continues."</Flavor>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>442741</Multiverseid>
-<Rulings>2009/10/01: <Elvish Archdruid>'s first ability affects only other Elves you control. However, <Elvish Archdruid>'s second ability counts all Elves you control — including itself.
-2011/09/22: <Elvish Archdruid>'s activated ability is a mana ability. It doesn't use the stack and players can't respond to it.</Rulings>
+<Rulings>2009/10/01: Elvish Archdruid's first ability affects only other Elves you control. However, Elvish Archdruid's second ability counts all Elves you control — including itself.
+2011/09/22: Elvish Archdruid's activated ability is a mana ability. It doesn't use the stack and players can't respond to it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -100,13 +100,13 @@ Forestcycling {2} ({2}, Discard this card: Search your library for a Forest card
 <No>6</No>
 <Name>Elvish Branchbender</Name>
 <Type>Creature — Elf Druid 2/2</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>{T}: Until end of turn, target Forest becomes an X/X Treefolk creature in addition to its other types, where X is the number of Elves you control.</CardText>
 <Flavor>"How do the vinebred feel? Fah! We do not ask the puppet how it feels when the puppeteer bids it dance."</Flavor>
 <Artist>Ralph Horsley</Artist>
 <Multiverseid>442742</Multiverseid>
 <Rulings>2007/10/01: The value of X is determined when the ability resolves. It won't change later, even if the number of Elves you control changes.
-2007/10/01: If you control no Elves when the ability resolves, the Forest will become a 0/0 creature and be put into the graveyard. However, since <Elvish Branchbender> is itself an Elf, the Forest will usually be at least a 1/1.
+2007/10/01: If you control no Elves when the ability resolves, the Forest will become a 0/0 creature and be put into the graveyard. However, since Elvish Branchbender is itself an Elf, the Forest will usually be at least a 1/1.
 2008/08/01: A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -120,7 +120,7 @@ Forestcycling {2} ({2}, Discard this card: Search your library for a Forest card
 <No>7</No>
 <Name>Elvish Mystic</Name>
 <Type>Creature — Elf Druid 1/1</Type>
-<ManaCost>G (1)</ManaCost>
+<ManaCost>{G}</ManaCost>
 <CardText>{T}: Add {G}.</CardText>
 <Flavor>"Life grows everywhere. My kin merely find those places where it grows strongest."
 —Nissa Revane</Flavor>
@@ -138,12 +138,12 @@ Forestcycling {2} ({2}, Discard this card: Search your library for a Forest card
 <No>8</No>
 <Name>Elvish Vanguard</Name>
 <Type>Creature — Elf Warrior 1/1</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>Whenever another Elf enters the battlefield, put a +1/+1 counter on Elvish Vanguard.</CardText>
 <Flavor>"Our lives are woven together like the trees' branches over our heads, forming a canopy that protects us all."</Flavor>
 <Artist>Steve Prescott</Artist>
 <Multiverseid>442744</Multiverseid>
-<Rulings>2016/06/08: If <Elvish Vanguard> enters the battlefield at the same time as another Elf, its ability will trigger.</Rulings>
+<Rulings>2016/06/08: If Elvish Vanguard enters the battlefield at the same time as another Elf, its ability will trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Duel Decks: Elves vs. Inventors</Set>
@@ -155,13 +155,13 @@ Forestcycling {2} ({2}, Discard this card: Search your library for a Forest card
 <No>9</No>
 <Name>Ezuri's Archers</Name>
 <Type>Creature — Elf Archer 1/2</Type>
-<ManaCost>G (1)</ManaCost>
+<ManaCost>{G}</ManaCost>
 <CardText>Reach (This creature can block creatures with flying.)
 Whenever Ezuri's Archers blocks a creature with flying, Ezuri's Archers gets +3/+0 until end of turn.</CardText>
 <Flavor>Eyes and arrows trained ever skyward.</Flavor>
 <Artist>Shelly Wan</Artist>
 <Multiverseid>442745</Multiverseid>
-<Rulings>2011/01/01: If <Ezuri's Archers> somehow blocks multiple creatures with flying (perhaps because it's equipped by Echo Circlet), its ability triggers that many times.</Rulings>
+<Rulings>2011/01/01: If Ezuri's Archers somehow blocks multiple creatures with flying (perhaps because it's equipped by Echo Circlet), its ability triggers that many times.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -174,12 +174,14 @@ Whenever Ezuri's Archers blocks a creature with flying, Ezuri's Archers gets +3/
 <No>10</No>
 <Name>Fierce Empath</Name>
 <Type>Creature — Elf 1/1</Type>
-<ManaCost>2G (3)</ManaCost>
-<CardText>When Fierce Empath enters the battlefield, you may search your library for a creature card with converted mana cost 6 or greater, reveal it, put it into your hand, then shuffle your library.</CardText>
+<ManaCost>{2}{G}</ManaCost>
+<CardText>When Fierce Empath enters the battlefield, you may search your library for a creature card with mana value 6 or greater, reveal it, put it into your hand, then shuffle.</CardText>
 <Artist>Johann Bodin</Artist>
 <Multiverseid>442746</Multiverseid>
+<Rulings>2020/06/23: If a card in a player's library has {X} in its mana cost, X is considered to be 0.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
+<Modern>Legal</Modern>
 <Set>Duel Decks: Elves vs. Inventors</Set>
 <Rarity>Common</Rarity>
 </Card>
@@ -189,13 +191,13 @@ Whenever Ezuri's Archers blocks a creature with flying, Ezuri's Archers gets +3/
 <No>11</No>
 <Name>Gladehart Cavalry</Name>
 <Type>Creature — Elf Knight 6/6</Type>
-<ManaCost>5GG (7)</ManaCost>
+<ManaCost>{5}{G}{G}</ManaCost>
 <CardText>When Gladehart Cavalry enters the battlefield, support 6. (Put a +1/+1 counter on each of up to six other target creatures.)
 Whenever a creature you control with a +1/+1 counter on it dies, you gain 2 life.</CardText>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>442747</Multiverseid>
-<Rulings>2016/01/22: If <Gladehart Cavalry> dies at the same time as a creature you control with a +1/+1 counter on it, its ability will trigger.
-2016/01/22: If <Gladehart Cavalry> somehow gets a +1/+1 counter, it dying will cause its own ability to trigger.
+<Rulings>2016/01/22: If Gladehart Cavalry dies at the same time as a creature you control with a +1/+1 counter on it, its ability will trigger.
+2016/01/22: If Gladehart Cavalry somehow gets a +1/+1 counter, it dying will cause its own ability to trigger.
 2016/01/22: You gain 2 life per creature, not per +1/+1 counter.
 2016/01/22: You can't put more than one +1/+1 counter on any one target using the support action.
 2016/01/22: Support can target a creature you don't control.
@@ -212,13 +214,13 @@ Whenever a creature you control with a +1/+1 counter on it dies, you gain 2 life
 <No>12</No>
 <Name>Ivy Lane Denizen</Name>
 <Type>Creature — Elf Warrior 2/3</Type>
-<ManaCost>3G (4)</ManaCost>
+<ManaCost>{3}{G}</ManaCost>
 <CardText>Whenever another green creature enters the battlefield under your control, put a +1/+1 counter on target creature.</CardText>
 <Flavor>"Skyknight gear? Well, I have drake-skin gauntlets, supple and fireproof. Or a ceratok chestplate that'll stop a crossbow bolt."</Flavor>
 <Artist>Winona Nelson</Artist>
 <Multiverseid>442748</Multiverseid>
-<Rulings>2013/01/24: The green creature that entered the battlefield can be chosen as the target of <Ivy Lane Denizen>'s ability.
-2013/01/24: <Ivy Lane Denizen> can be chosen as the target of its own ability.</Rulings>
+<Rulings>2020/11/10: The green creature that entered the battlefield can be chosen as the target of Ivy Lane Denizen's ability.
+2020/11/10: Ivy Lane Denizen can be chosen as the target of its own ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -231,7 +233,7 @@ Whenever a creature you control with a +1/+1 counter on it dies, you gain 2 life
 <No>13</No>
 <Name>Jagged-Scar Archers</Name>
 <Type>Creature — Elf Archer */*</Type>
-<ManaCost>1GG (3)</ManaCost>
+<ManaCost>{1}{G}{G}</ManaCost>
 <CardText>Jagged-Scar Archers's power and toughness are each equal to the number of Elves you control.
 {T}: Jagged-Scar Archers deals damage equal to its power to target creature with flying.</CardText>
 <Artist>Paolo Parente</Artist>
@@ -248,9 +250,9 @@ Whenever a creature you control with a +1/+1 counter on it dies, you gain 2 life
 <No>14</No>
 <Name>Krosan Tusker</Name>
 <Type>Creature — Boar Beast 6/5</Type>
-<ManaCost>5GG (7)</ManaCost>
+<ManaCost>{5}{G}{G}</ManaCost>
 <CardText>Cycling {2}{G} ({2}{G}, Discard this card: Draw a card.)
-When you cycle Krosan Tusker, you may search your library for a basic land card, reveal that card, put it into your hand, then shuffle your library. (Do this before you draw.)</CardText>
+When you cycle Krosan Tusker, you may search your library for a basic land card, reveal that card, put it into your hand, then shuffle. (Do this before you draw.)</CardText>
 <Artist>Kev Walker</Artist>
 <Multiverseid>442750</Multiverseid>
 <Rulings>2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
@@ -268,12 +270,12 @@ When you cycle Krosan Tusker, you may search your library for a basic land card,
 <No>15</No>
 <Name>Kujar Seedsculptor</Name>
 <Type>Creature — Elf Druid 1/2</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>When Kujar Seedsculptor enters the battlefield, put a +1/+1 counter on target creature you control.</CardText>
 <Flavor>Every leaf, tree, and building in Kujar has been placed to achieve maximum harmony, in accordance with the elvish philosophy known as the Great Conduit.</Flavor>
 <Artist>Anna Steinbauer</Artist>
 <Multiverseid>442751</Multiverseid>
-<Rulings>2016/09/20: <Kujar Seedsculptor> can be the target of its own triggered ability.</Rulings>
+<Rulings>2016/09/20: Kujar Seedsculptor can be the target of its own triggered ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -286,7 +288,7 @@ When you cycle Krosan Tusker, you may search your library for a basic land card,
 <No>16</No>
 <Name>Lead the Stampede</Name>
 <Type>Sorcery</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>Look at the top five cards of your library. You may reveal any number of creature cards from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in any order.</CardText>
 <Artist>Efrem Palacios</Artist>
 <Multiverseid>442752</Multiverseid>
@@ -302,7 +304,7 @@ When you cycle Krosan Tusker, you may search your library for a basic land card,
 <No>17</No>
 <Name>Leaf Gilder</Name>
 <Type>Creature — Elf Druid 2/1</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>{T}: Add {G}.</CardText>
 <Flavor>Eidren, perfect of Lys Alana, ordered hundreds of trees uprooted and rearranged into a pattern he deemed beautiful. Thus the Gilt-Leaf Wood was born.</Flavor>
 <Artist>Quinton Hoover</Artist>
@@ -319,7 +321,7 @@ When you cycle Krosan Tusker, you may search your library for a basic land card,
 <No>18</No>
 <Name>Llanowar Empath</Name>
 <Type>Creature — Elf Shaman 2/2</Type>
-<ManaCost>3G (4)</ManaCost>
+<ManaCost>{3}{G}</ManaCost>
 <CardText>When Llanowar Empath enters the battlefield, scry 2, then reveal the top card of your library. If it's a creature card, put it into your hand. (To scry 2, look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)</CardText>
 <Artist>Warren Mahy</Artist>
 <Multiverseid>442754</Multiverseid>
@@ -335,7 +337,7 @@ When you cycle Krosan Tusker, you may search your library for a basic land card,
 <No>19</No>
 <Name>Naturalize</Name>
 <Type>Instant</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>Destroy target artifact or enchantment.</CardText>
 <Flavor>The remains of ancient civilizations litter the run-down land.</Flavor>
 <Artist>James Paick</Artist>
@@ -352,15 +354,15 @@ When you cycle Krosan Tusker, you may search your library for a basic land card,
 <No>20</No>
 <Name>Nature's Way</Name>
 <Type>Sorcery</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>Target creature you control gains vigilance and trample until end of turn. It deals damage equal to its power to target creature you don't control.</CardText>
 <Flavor>Many elves incorporate the beauty of nature into their inventions. Very few capture its savagery.</Flavor>
 <Artist>Zack Stella</Artist>
 <Multiverseid>442756</Multiverseid>
-<Rulings>2016/09/20: You can't cast <Nature's Way> unless you choose both a creature you control and a creature you don't control as targets.
-2016/09/20: If either target is an illegal target as <Nature's Way> resolves, no damage will be dealt.
-2016/09/20: If the creature you don't control is an illegal target as <Nature's Way> tries to resolve, the creature you control will still gain vigilance and trample.
-2016/09/20: Trample only applies to the assignment of combat damage, not the damage <Nature's Way> has the creature deal.</Rulings>
+<Rulings>2016/09/20: You can't cast Nature's Way unless you choose both a creature you control and a creature you don't control as targets.
+2016/09/20: If either target is an illegal target as Nature's Way resolves, no damage will be dealt.
+2016/09/20: If the creature you don't control is an illegal target as Nature's Way tries to resolve, the creature you control will still gain vigilance and trample.
+2016/09/20: Trample only applies to the assignment of combat damage, not the damage Nature's Way has the creature deal.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -373,13 +375,13 @@ When you cycle Krosan Tusker, you may search your library for a basic land card,
 <No>21</No>
 <Name>Nissa's Judgment</Name>
 <Type>Sorcery</Type>
-<ManaCost>4G (5)</ManaCost>
+<ManaCost>{4}{G}</ManaCost>
 <CardText>Support 2. (Put a +1/+1 counter on each of up to two target creatures.)
 Choose up to one target creature an opponent controls. Each creature you control with a +1/+1 counter on it deals damage equal to its power to that creature.</CardText>
 <Artist>Tyler Jacobson</Artist>
 <Multiverseid>442757</Multiverseid>
 <Rulings>2016/01/22: You finish the support action before any creatures deal damage. Creatures that get a +1/+1 counter will deal damage to the creature an opponent controls, if applicable.
-2016/01/22: As <Nissa's Judgment> resolves, if at least one of its targets is still legal, it will resolve, affecting only targets that are still legal at that time. If none of its targets are still legal at that time, it won't resolve and none of its effects will happen.
+2016/01/22: As Nissa's Judgment resolves, if at least one of its targets is still legal, it will resolve, affecting only targets that are still legal at that time. If none of its targets are still legal at that time, it won't resolve and none of its effects will happen.
 2016/01/22: You can't put more than one +1/+1 counter on any one target using the support action.
 2016/01/22: Support can target a creature you don't control.
 2016/01/22: If a spell with support has other abilities that target creatures, those abilities and the support ability can target the same creature.</Rulings>
@@ -395,12 +397,12 @@ Choose up to one target creature an opponent controls. Each creature you control
 <No>22</No>
 <Name>Regal Force</Name>
 <Type>Creature — Elemental 5/5</Type>
-<ManaCost>4GGG (7)</ManaCost>
+<ManaCost>{4}{G}{G}{G}</ManaCost>
 <CardText>When Regal Force enters the battlefield, draw a card for each green creature you control.</CardText>
 <Flavor>It rarely moves, standing stock still in its clearing. When it does stir, ravens stop their cawing and crickets their chirping. All of nature watches in awed silence.</Flavor>
 <Artist>Brandon Kitkouski</Artist>
 <Multiverseid>442758</Multiverseid>
-<Rulings>2016/06/08: If <Regal Force> is still on the battlefield as its triggered ability resolves, its ability will count itself.</Rulings>
+<Rulings>2016/06/08: If Regal Force is still on the battlefield as its triggered ability resolves, its ability will count itself.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -413,14 +415,14 @@ Choose up to one target creature an opponent controls. Each creature you control
 <No>23</No>
 <Name>Sylvan Advocate</Name>
 <Type>Creature — Elf Druid Ally 2/3</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>Vigilance
 As long as you control six or more lands, Sylvan Advocate and land creatures you control get +2/+2.</CardText>
 <Flavor>"The land gives of itself. Its abundance provides, even in times of chaos."</Flavor>
 <Artist>Volkan Baǵa</Artist>
 <Multiverseid>442759</Multiverseid>
 <Rulings>2016/01/22: A "land creature" is a permanent that's both a land and a creature.
-2016/01/22: Damage remains marked on creatures until the turn ends. If <Sylvan Advocate>'s ability stops applying (because <Sylvan Advocate> leaves the battlefield or you no longer control six or more lands), then any land creatures that needed the toughness bonus to stay alive will be destroyed.</Rulings>
+2016/01/22: Damage remains marked on creatures until the turn ends. If Sylvan Advocate's ability stops applying (because Sylvan Advocate leaves the battlefield or you no longer control six or more lands), then any land creatures that needed the toughness bonus to stay alive will be destroyed.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -433,7 +435,7 @@ As long as you control six or more lands, Sylvan Advocate and land creatures you
 <No>24</No>
 <Name>Talara's Battalion</Name>
 <Type>Creature — Elf Warrior 4/3</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>Cast this spell only if you've cast another green spell this turn.
 Trample</CardText>
 <Flavor>The safewright Talara protects a delicate woodland waterfall. She has vowed to send wave after wave of warriors to slay any who would dare disturb its beauty.</Flavor>
@@ -451,7 +453,7 @@ Trample</CardText>
 <No>25</No>
 <Name>Viridian Shaman</Name>
 <Type>Creature — Elf Shaman 2/2</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>When Viridian Shaman enters the battlefield, destroy target artifact.</CardText>
 <Flavor>She stands as a living symbol of the natural world and an enemy of the forces that threaten it.</Flavor>
 <Artist>Scott M. Fischer</Artist>
@@ -468,10 +470,10 @@ Trample</CardText>
 <No>26</No>
 <Name>Wildheart Invoker</Name>
 <Type>Creature — Elf Shaman 4/3</Type>
-<ManaCost>2GG (4)</ManaCost>
+<ManaCost>{2}{G}{G}</ManaCost>
 <CardText>{8}: Target creature gets +5/+5 and gains trample until end of turn.</CardText>
 <Flavor>"Life as we know it dangles on the brink of extinction. We must show the strength they would steal from us."
-—The Invokers' Tales</Flavor>
+—*The Invokers' Tales*</Flavor>
 <Artist>Erica Yang</Artist>
 <Multiverseid>442762</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -486,7 +488,7 @@ Trample</CardText>
 <No>27</No>
 <Name>Yeva, Nature's Herald</Name>
 <Type>Legendary Creature — Elf Shaman 4/4</Type>
-<ManaCost>2GG (4)</ManaCost>
+<ManaCost>{2}{G}{G}</ManaCost>
 <CardText>Flash (You may cast this spell any time you could cast an instant.)
 You may cast green creature spells as though they had flash.</CardText>
 <Flavor>"I can call an army to my side in the blink of an eye. Best not blink."</Flavor>
@@ -569,7 +571,7 @@ Cycling {G} ({G}, Discard this card: Draw a card.)</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Elves vs. Inventors</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -584,7 +586,7 @@ Cycling {G} ({G}, Discard this card: Draw a card.)</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Elves vs. Inventors</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -599,7 +601,7 @@ Cycling {G} ({G}, Discard this card: Draw a card.)</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Elves vs. Inventors</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -614,7 +616,7 @@ Cycling {G} ({G}, Discard this card: Draw a card.)</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Elves vs. Inventors</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -622,7 +624,7 @@ Cycling {G} ({G}, Discard this card: Draw a card.)</CardText>
 <No>35</No>
 <Name>Goblin Welder</Name>
 <Type>Creature — Goblin Artificer 1/1</Type>
-<ManaCost>R (1)</ManaCost>
+<ManaCost>{R}</ManaCost>
 <CardText>{T}: Choose target artifact a player controls and target artifact card in that player's graveyard. If both targets are still legal as this ability resolves, that player simultaneously sacrifices the artifact and returns the artifact card to the battlefield.</CardText>
 <Artist>Victor Adame Minguez</Artist>
 <Multiverseid>442771</Multiverseid>
@@ -638,12 +640,12 @@ Cycling {G} ({G}, Discard this card: Draw a card.)</CardText>
 <No>36</No>
 <Name>Artificer's Epiphany</Name>
 <Type>Instant</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>Draw two cards. If you control no artifacts, discard a card.</CardText>
 <Flavor>The artificers of Kaladesh strive ceaselessly for perfection, progress, and the ultimate expression of elegance.</Flavor>
 <Artist>Kieran Yanner</Artist>
 <Multiverseid>442772</Multiverseid>
-<Rulings>2015/06/22: If you control at least one artifact as <Artificer's Epiphany> resolves, you can't discard a card, even if you want to.</Rulings>
+<Rulings>2015/06/22: If you control at least one artifact as Artificer's Epiphany resolves, you can't discard a card, even if you want to.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -656,7 +658,7 @@ Cycling {G} ({G}, Discard this card: Draw a card.)</CardText>
 <No>37</No>
 <Name>Etherium Sculptor</Name>
 <Type>Artifact Creature — Vedalken Artificer 1/2</Type>
-<ManaCost>1U (2)</ManaCost>
+<ManaCost>{1}{U}</ManaCost>
 <CardText>Artifact spells you cast cost {1} less to cast.</CardText>
 <Flavor>The greatest masters of the craft abandon tools altogether, shaping metal with hand and mind alone.</Flavor>
 <Artist>Steven Belledin</Artist>
@@ -676,7 +678,7 @@ Cycling {G} ({G}, Discard this card: Draw a card.)</CardText>
 <No>38</No>
 <Name>Faerie Mechanist</Name>
 <Type>Artifact Creature — Faerie Artificer 2/2</Type>
-<ManaCost>3U (4)</ManaCost>
+<ManaCost>{3}{U}</ManaCost>
 <CardText>Flying
 When Faerie Mechanist enters the battlefield, look at the top three cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in any order.</CardText>
 <Artist>Matt Cavotta</Artist>
@@ -693,7 +695,7 @@ When Faerie Mechanist enters the battlefield, look at the top three cards of you
 <No>39</No>
 <Name>Riddlesmith</Name>
 <Type>Creature — Human Artificer 2/1</Type>
-<ManaCost>1U (2)</ManaCost>
+<ManaCost>{1}{U}</ManaCost>
 <CardText>Whenever you cast an artifact spell, you may draw a card. If you do, discard a card.</CardText>
 <Flavor>The Neurok see the artificer as an archaeologist, clearing away falsehoods to see the truth hidden beneath.</Flavor>
 <Artist>Eric Deschamps</Artist>
@@ -710,8 +712,8 @@ When Faerie Mechanist enters the battlefield, look at the top three cards of you
 <No>40</No>
 <Name>Treasure Mage</Name>
 <Type>Creature — Human Wizard 2/2</Type>
-<ManaCost>2U (3)</ManaCost>
-<CardText>When Treasure Mage enters the battlefield, you may search your library for an artifact card with converted mana cost 6 or greater, reveal it, put it into your hand, then shuffle your library.</CardText>
+<ManaCost>{2}{U}</ManaCost>
+<CardText>When Treasure Mage enters the battlefield, you may search your library for an artifact card with mana value 6 or greater, reveal it, put it into your hand, then shuffle.</CardText>
 <Artist>Ryan Pancoast</Artist>
 <Multiverseid>442776</Multiverseid>
 <Rulings>2011/06/01: If a card in your library has X in its mana cost, X is considered to be 0.</Rulings>
@@ -727,11 +729,11 @@ When Faerie Mechanist enters the battlefield, look at the top three cards of you
 <No>41</No>
 <Name>Trinket Mage</Name>
 <Type>Creature — Human Wizard 2/2</Type>
-<ManaCost>2U (3)</ManaCost>
-<CardText>When Trinket Mage enters the battlefield, you may search your library for an artifact card with converted mana cost 1 or less, reveal that card, and put it into your hand. If you do, shuffle your library.</CardText>
+<ManaCost>{2}{U}</ManaCost>
+<CardText>When Trinket Mage enters the battlefield, you may search your library for an artifact card with mana value 1 or less, reveal that card, put it into your hand, then shuffle.</CardText>
 <Artist>Scott Chou</Artist>
 <Multiverseid>442777</Multiverseid>
-<Rulings>2011/01/01: If the mana cost of a card in your library includes {X}, X is considered to be 0.</Rulings>
+<Rulings>2021/03/19: If a card in a player's library has {X} in its mana cost, X is considered to be 0.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -744,12 +746,12 @@ When Faerie Mechanist enters the battlefield, look at the top three cards of you
 <No>42</No>
 <Name>Trophy Mage</Name>
 <Type>Creature — Human Wizard 2/2</Type>
-<ManaCost>2U (3)</ManaCost>
-<CardText>When Trophy Mage enters the battlefield, you may search your library for an artifact card with converted mana cost 3, reveal it, put it into your hand, then shuffle your library.</CardText>
+<ManaCost>{2}{U}</ManaCost>
+<CardText>When Trophy Mage enters the battlefield, you may search your library for an artifact card with mana value 3, reveal it, put it into your hand, then shuffle.</CardText>
 <Flavor>"The tools of the past will help us forge the future."</Flavor>
 <Artist>Anna Steinbauer</Artist>
 <Multiverseid>442778</Multiverseid>
-<Rulings>2017/02/09: <Trophy Mage>'s ability finds an artifact card with converted mana cost exactly 3.</Rulings>
+<Rulings>2017/02/09: Trophy Mage's ability finds an artifact card with converted mana cost exactly 3.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -762,13 +764,13 @@ When Faerie Mechanist enters the battlefield, look at the top three cards of you
 <No>43</No>
 <Name>Whirler Rogue</Name>
 <Type>Creature — Human Rogue Artificer 2/2</Type>
-<ManaCost>2UU (4)</ManaCost>
+<ManaCost>{2}{U}{U}</ManaCost>
 <CardText>When Whirler Rogue enters the battlefield, create two 1/1 colorless Thopter artifact creature tokens with flying.
 Tap two untapped artifacts you control: Target creature can't be blocked this turn.</CardText>
 <Artist>Winona Nelson</Artist>
 <Multiverseid>442779</Multiverseid>
 <Rulings>2015/06/22: You may tap any two untapped artifacts you control, including artifact creatures that haven't been under your control continuously since the beginning of your most recent turn.
-2015/06/22: Activating the second ability of <Whirler Rogue> after a creature has become blocked won't cause it to become unblocked.</Rulings>
+2015/06/22: Activating the second ability of Whirler Rogue after a creature has become blocked won't cause it to become unblocked.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -781,9 +783,9 @@ Tap two untapped artifacts you control: Target creature can't be blocked this tu
 <No>44</No>
 <Name>Barrage Ogre</Name>
 <Type>Creature — Ogre Warrior 3/3</Type>
-<ManaCost>3RR (5)</ManaCost>
+<ManaCost>{3}{R}{R}</ManaCost>
 <CardText>{T}, Sacrifice an artifact: Barrage Ogre deals 2 damage to any target.</CardText>
-<Flavor>The elves had devised countless strategies to combat Memnarch's war machines, but they had no idea what to do when one was thrown at them.</Flavor>
+<Flavor>The elves had devised countless strategies to combat Memnarch's war machines, but they had no idea what to do when one was *thrown* at them.</Flavor>
 <Artist>David Rapoza</Artist>
 <Multiverseid>442780</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -798,7 +800,7 @@ Tap two untapped artifacts you control: Target creature can't be blocked this tu
 <No>45</No>
 <Name>Galvanic Blast</Name>
 <Type>Instant</Type>
-<ManaCost>R (1)</ManaCost>
+<ManaCost>{R}</ManaCost>
 <CardText>Galvanic Blast deals 2 damage to any target.
 Metalcraft — Galvanic Blast deals 4 damage instead if you control three or more artifacts.</CardText>
 <Artist>Marc Simonetti</Artist>
@@ -815,7 +817,7 @@ Metalcraft — Galvanic Blast deals 4 damage instead if you control three or mor
 <No>46</No>
 <Name>Ghirapur Gearcrafter</Name>
 <Type>Creature — Human Artificer 2/1</Type>
-<ManaCost>2R (3)</ManaCost>
+<ManaCost>{2}{R}</ManaCost>
 <CardText>When Ghirapur Gearcrafter enters the battlefield, create a 1/1 colorless Thopter artifact creature token with flying. (A creature with flying can't be blocked except by creatures with flying or reach.)</CardText>
 <Flavor>The metal must be pure. The hand must be steady. The product must be perfect.</Flavor>
 <Artist>Victor Adame Minguez</Artist>
@@ -832,7 +834,7 @@ Metalcraft — Galvanic Blast deals 4 damage instead if you control three or mor
 <No>47</No>
 <Name>Pia and Kiran Nalaar</Name>
 <Type>Legendary Creature — Human Artificer 2/2</Type>
-<ManaCost>2RR (4)</ManaCost>
+<ManaCost>{2}{R}{R}</ManaCost>
 <CardText>When Pia and Kiran Nalaar enters the battlefield, create two 1/1 colorless Thopter artifact creature tokens with flying.
 {2}{R}, Sacrifice an artifact: Pia and Kiran Nalaar deals 2 damage to any target.</CardText>
 <Artist>Eric Deschamps</Artist>
@@ -849,7 +851,7 @@ Metalcraft — Galvanic Blast deals 4 damage instead if you control three or mor
 <No>48</No>
 <Name>Shrapnel Blast</Name>
 <Type>Instant</Type>
-<ManaCost>1R (2)</ManaCost>
+<ManaCost>{1}{R}</ManaCost>
 <CardText>As an additional cost to cast this spell, sacrifice an artifact.
 Shrapnel Blast deals 5 damage to any target.</CardText>
 <Flavor>From trinket to trauma.</Flavor>
@@ -869,14 +871,14 @@ Shrapnel Blast deals 5 damage to any target.</CardText>
 <No>49</No>
 <Name>Welding Sparks</Name>
 <Type>Instant</Type>
-<ManaCost>2R (3)</ManaCost>
+<ManaCost>{2}{R}</ManaCost>
 <CardText>Welding Sparks deals X damage to target creature, where X is 3 plus the number of artifacts you control.</CardText>
 <Flavor>"The fires of invention burn in all of us. I fight for the freedom to unleash those flames."
 —Pia Nalaar</Flavor>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>442785</Multiverseid>
-<Rulings>2016/09/20: If you control zero artifacts, <Welding Sparks> deals 3 damage to the target creature.
-2016/09/20: The number of artifacts you control is counted only as <Welding Sparks> resolves.</Rulings>
+<Rulings>2020/11/10: If you control zero artifacts, Welding Sparks deals 3 damage to the target creature.
+2020/11/10: The number of artifacts you control is counted only as Welding Sparks resolves.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -889,17 +891,17 @@ Shrapnel Blast deals 5 damage to any target.</CardText>
 <No>50</No>
 <Name>Maverick Thopterist</Name>
 <Type>Creature — Human Artificer 2/2</Type>
-<ManaCost>3UR (5)</ManaCost>
+<ManaCost>{3}{U}{R}</ManaCost>
 <CardText>Improvise (Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for {1}.)
 When Maverick Thopterist enters the battlefield, create two 1/1 colorless Thopter artifact creature tokens with flying.</CardText>
 <Artist>Zack Stella</Artist>
 <Multiverseid>442786</Multiverseid>
-<Rulings>2018/07/13: Improvise doesn't change a spell's mana cost or converted mana cost.
+<Rulings>2018/07/13: Tapping an artifact won't cause its abilities to stop applying unless those abilities say so.
+2018/07/13: Improvise doesn't change a spell's mana cost or converted mana cost.
 2018/07/13: When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Improvise applies after the total cost is calculated.
 2018/07/13: Improvise can't pay for {W}, {U}, {B}, {R}, {G}, or {C} mana symbols in a spell's total cost.
 2018/07/13: Improvise can't be used to pay for anything other than the cost of casting the spell. For example, it can't be used during the resolution of an ability that says "Counter target spell unless its controller pays {3}."
 2018/07/13: If an artifact you control has a mana ability with {T} in the cost, activating that ability while casting a spell with improvise will result in the artifact being tapped when you pay the spell's costs. You won't be able to tap it again for improvise. Similarly, if you sacrifice an artifact to activate a mana ability while casting a spell with improvise, that artifact won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for improvise.
-2018/07/13: Tapping an artifact won't cause its abilities to stop applying unless those abilities say so.
 2018/07/13: Equipment attached to a creature doesn't become tapped when that creature becomes tapped, and tapping that Equipment doesn't cause the creature to become tapped.
 2018/07/13: When using improvise to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap artifacts you control to help pay that cost. For example, if you cast Saheeli's Directive and choose X to be 3, the total cost is {3}{R}{R}{R}. If you tap two artifacts, you'll have to pay {1}{R}{R}{R}.</Rulings>
 <Vintage>Legal</Vintage>
@@ -914,14 +916,14 @@ When Maverick Thopterist enters the battlefield, create two 1/1 colorless Thopte
 <No>51</No>
 <Name>Reclusive Artificer</Name>
 <Type>Creature — Human Artificer 2/3</Type>
-<ManaCost>2UR (4)</ManaCost>
+<ManaCost>{2}{U}{R}</ManaCost>
 <CardText>Haste (This creature can attack and {T} as soon as it comes under your control.)
 When Reclusive Artificer enters the battlefield, you may have it deal damage to target creature equal to the number of artifacts you control.</CardText>
 <Flavor>It's wise not to disturb an artist at work.</Flavor>
 <Artist>Cynthia Sheppard</Artist>
 <Multiverseid>442787</Multiverseid>
-<Rulings>2015/06/22: Count the number of artifacts you control as <Reclusive Artificer>'s triggered ability resolves to determine how much damage it deals.
-2015/06/22: If you are the only player who controls a creature when <Reclusive Artificer>'s second ability triggers, you must choose one of those creatures as the target, although you can choose to not deal it damage.</Rulings>
+<Rulings>2015/06/22: Count the number of artifacts you control as Reclusive Artificer's triggered ability resolves to determine how much damage it deals.
+2015/06/22: If you are the only player who controls a creature when Reclusive Artificer's second ability triggers, you must choose one of those creatures as the target, although you can choose to not deal it damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -934,11 +936,11 @@ When Reclusive Artificer enters the battlefield, you may have it deal damage to 
 <No>52</No>
 <Name>Darksteel Plate</Name>
 <Type>Artifact — Equipment</Type>
-<ManaCost>3 (3)</ManaCost>
+<ManaCost>{3}</ManaCost>
 <CardText>Indestructible
 Equipped creature has indestructible.
 Equip {2}</CardText>
-<Flavor>If there can be no victory, then I will fight forever."
+<Flavor>"If there can be no victory, then I will fight forever."
 —Koth of the Hammer</Flavor>
 <Artist>Daniel Ljunggren</Artist>
 <Multiverseid>442788</Multiverseid>
@@ -954,7 +956,7 @@ Equip {2}</CardText>
 <No>53</No>
 <Name>Filigree Familiar</Name>
 <Type>Artifact Creature — Fox 2/2</Type>
-<ManaCost>3 (3)</ManaCost>
+<ManaCost>{3}</ManaCost>
 <CardText>When Filigree Familiar enters the battlefield, you gain 2 life.
 When Filigree Familiar dies, draw a card.</CardText>
 <Flavor>"It's the must-have gift for everyone on your list. Get one for yourself, too!"
@@ -973,13 +975,13 @@ When Filigree Familiar dies, draw a card.</CardText>
 <No>54</No>
 <Name>Ichor Wellspring</Name>
 <Type>Artifact</Type>
-<ManaCost>2 (2)</ManaCost>
+<ManaCost>{2}</ManaCost>
 <CardText>When Ichor Wellspring enters the battlefield or is put into a graveyard from the battlefield, draw a card.</CardText>
 <Flavor>"Our glorious infection has taken hold."
 —Elesh Norn, Grand Cenobite</Flavor>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>442790</Multiverseid>
-<Rulings>2011/06/01: The ability will trigger when <Ichor Wellspring> is put into a graveyard from the battlefield, even if the ability that triggered when it entered the battlefield hasn't resolved yet.</Rulings>
+<Rulings>2011/06/01: The ability will trigger when Ichor Wellspring is put into a graveyard from the battlefield, even if the ability that triggered when it entered the battlefield hasn't resolved yet.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -992,13 +994,13 @@ When Filigree Familiar dies, draw a card.</CardText>
 <No>55</No>
 <Name>Inventor's Goggles</Name>
 <Type>Artifact — Equipment</Type>
-<ManaCost>1 (1)</ManaCost>
+<ManaCost>{1}</ManaCost>
 <CardText>Equipped creature gets +1/+2.
 Whenever an Artificer enters the battlefield under your control, you may attach Inventor's Goggles to it.
 Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)</CardText>
 <Artist>Jason Felix</Artist>
 <Multiverseid>442791</Multiverseid>
-<Rulings>2016/09/20: If the Artificer that entered the battlefield leaves the battlefield before <Inventor's Goggles> becomes attached, <Inventor's Goggles> stays as it was. If it's already attached to another creature, it remains attached to that creature.</Rulings>
+<Rulings>2016/09/20: If the Artificer that entered the battlefield leaves the battlefield before Inventor's Goggles becomes attached, Inventor's Goggles stays as it was. If it's already attached to another creature, it remains attached to that creature.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1011,12 +1013,12 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <No>56</No>
 <Name>Mycosynth Wellspring</Name>
 <Type>Artifact</Type>
-<ManaCost>2 (2)</ManaCost>
-<CardText>When Mycosynth Wellspring enters the battlefield or is put into a graveyard from the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.</CardText>
+<ManaCost>{2}</ManaCost>
+<CardText>When Mycosynth Wellspring enters the battlefield or is put into a graveyard from the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.</CardText>
 <Flavor>The oil created the mycosynth. The mycosynth created New Phyrexia.</Flavor>
 <Artist>David Rapoza</Artist>
 <Multiverseid>442792</Multiverseid>
-<Rulings>2011/06/01: The ability will trigger when <Mycosynth Wellspring> is put into a graveyard from the battlefield, even if the ability that triggered when it entered the battlefield hasn't resolved yet.</Rulings>
+<Rulings>2011/06/01: The ability will trigger when Mycosynth Wellspring is put into a graveyard from the battlefield, even if the ability that triggered when it entered the battlefield hasn't resolved yet.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1029,14 +1031,14 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 <No>57</No>
 <Name>Myr Battlesphere</Name>
 <Type>Artifact Creature — Myr Construct 4/7</Type>
-<ManaCost>7 (7)</ManaCost>
+<ManaCost>{7}</ManaCost>
 <CardText>When Myr Battlesphere enters the battlefield, create four 1/1 colorless Myr artifact creature tokens.
 Whenever Myr Battlesphere attacks, you may tap X untapped Myr you control. If you do, Myr Battlesphere gets +X/+0 until end of turn and deals X damage to the player or planeswalker it's attacking.</CardText>
 <Artist>Franz Vohwinkel</Artist>
 <Multiverseid>442793</Multiverseid>
-<Rulings>2011/01/01: You choose the value for X as the last ability resolves. You can't choose a value for X that's greater than the number of untapped Myr you control.
-2011/01/01: You can tap any untapped Myr you control as the last ability resolves, not just the Myr tokens you put onto the battlefield with the first ability. This includes Myr that haven't been under your control since your most recent turn began.
-2011/01/01: As the last ability resolves, you can tap untapped Myr you control even if <Myr Battlesphere> is no longer on the battlefield by then. If that has happened, <Myr Battlesphere> won't be able to get the +X/+0 bonus, but it will still deal X damage to the defending player.</Rulings>
+<Rulings>2020/08/07: You choose the value for X as the last ability resolves. You can't choose a value for X that's greater than the number of untapped Myr you control.
+2020/08/07: You can tap any untapped Myr you control as the last ability resolves, not just the Myr tokens you created with the first ability. This includes Myr that haven't been under your control since your most recent turn began.
+2020/08/07: As the last ability resolves, you can tap untapped Myr you control even if Myr Battlesphere is no longer on the battlefield by then. If that has happened, Myr Battlesphere won't be able to get the +X/+0 bonus, but it will still deal X damage to the appropriate player or planeswalker.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1048,9 +1050,9 @@ Whenever Myr Battlesphere attacks, you may tap X untapped Myr you control. If yo
 <SetId>DDU</SetId>
 <No>58</No>
 <Name>Myr Sire</Name>
-<Type>Artifact Creature — Myr 1/1</Type>
-<ManaCost>2 (2)</ManaCost>
-<CardText>When Myr Sire dies, create a 1/1 colorless Myr artifact creature token.</CardText>
+<Type>Artifact Creature — Phyrexian Myr 1/1</Type>
+<ManaCost>{2}</ManaCost>
+<CardText>When Myr Sire dies, create a 1/1 colorless Phyrexian Myr artifact creature token.</CardText>
 <Flavor>For the Phyrexians, death is not an end, nor a one-time occurrence.</Flavor>
 <Artist>Jaime Jones</Artist>
 <Multiverseid>442794</Multiverseid>
@@ -1066,12 +1068,12 @@ Whenever Myr Battlesphere attacks, you may tap X untapped Myr you control. If yo
 <No>59</No>
 <Name>Neurok Replica</Name>
 <Type>Artifact Creature — Wizard 1/4</Type>
-<ManaCost>3 (3)</ManaCost>
+<ManaCost>{3}</ManaCost>
 <CardText>{1}{U}, Sacrifice Neurok Replica: Return target creature to its owner's hand.</CardText>
 <Flavor>All the curiosity of the Neurok with only a trace of their duplicity.</Flavor>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Multiverseid>442795</Multiverseid>
-<Rulings>2011/01/01: You may target <Neurok Replica> with its own ability. However, if you do, the ability won't resolve for having an illegal target.</Rulings>
+<Rulings>2011/01/01: You may target Neurok Replica with its own ability. However, if you do, the ability won't resolve for having an illegal target.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1084,7 +1086,7 @@ Whenever Myr Battlesphere attacks, you may tap X untapped Myr you control. If yo
 <No>60</No>
 <Name>Pyrite Spellbomb</Name>
 <Type>Artifact</Type>
-<ManaCost>1 (1)</ManaCost>
+<ManaCost>{1}</ManaCost>
 <CardText>{R}, Sacrifice Pyrite Spellbomb: It deals 2 damage to any target.
 {1}, Sacrifice Pyrite Spellbomb: Draw a card.</CardText>
 <Flavor>"Melt that which was never frozen."
@@ -1103,13 +1105,13 @@ Whenever Myr Battlesphere attacks, you may tap X untapped Myr you control. If yo
 <No>61</No>
 <Name>Scuttling Doom Engine</Name>
 <Type>Artifact Creature — Construct 6/6</Type>
-<ManaCost>6 (6)</ManaCost>
+<ManaCost>{6}</ManaCost>
 <CardText>Scuttling Doom Engine can't be blocked by creatures with power 2 or less.
 When Scuttling Doom Engine dies, it deals 6 damage to target opponent or planeswalker.</CardText>
 <Flavor>A masterwork of spite, inspired by madness.</Flavor>
 <Artist>Filip Burburan</Artist>
 <Multiverseid>442797</Multiverseid>
-<Rulings>2014/07/18: Once <Scuttling Doom Engine> has been blocked by a creature, reducing that creature's power to 2 or less won't change or undo that block.</Rulings>
+<Rulings>2014/07/18: Once Scuttling Doom Engine has been blocked by a creature, reducing that creature's power to 2 or less won't change or undo that block.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1122,8 +1124,8 @@ When Scuttling Doom Engine dies, it deals 6 damage to target opponent or planesw
 <No>62</No>
 <Name>Solemn Simulacrum</Name>
 <Type>Artifact Creature — Golem 2/2</Type>
-<ManaCost>4 (4)</ManaCost>
-<CardText>When Solemn Simulacrum enters the battlefield, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle your library.
+<ManaCost>{4}</ManaCost>
+<CardText>When Solemn Simulacrum enters the battlefield, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.
 When Solemn Simulacrum dies, you may draw a card.</CardText>
 <Artist>Dan Scott</Artist>
 <Multiverseid>442798</Multiverseid>
@@ -1139,12 +1141,12 @@ When Solemn Simulacrum dies, you may draw a card.</CardText>
 <No>63</No>
 <Name>Thopter Assembly</Name>
 <Type>Artifact Creature — Thopter 5/5</Type>
-<ManaCost>6 (6)</ManaCost>
+<ManaCost>{6}</ManaCost>
 <CardText>Flying
 At the beginning of your upkeep, if you control no Thopters other than Thopter Assembly, return Thopter Assembly to its owner's hand and create five 1/1 colorless Thopter artifact creature tokens with flying.</CardText>
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>442799</Multiverseid>
-<Rulings>2011/06/01: The triggered ability looks for any permanent you control with the creature type Thopter, not just the Thopter tokens previously created by a <Thopter Assembly>.</Rulings>
+<Rulings>2011/06/01: The triggered ability looks for any permanent you control with the creature type Thopter, not just the Thopter tokens previously created by a Thopter Assembly.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1157,7 +1159,7 @@ At the beginning of your upkeep, if you control no Thopters other than Thopter A
 <No>64</No>
 <Name>Voyager Staff</Name>
 <Type>Artifact</Type>
-<ManaCost>1 (1)</ManaCost>
+<ManaCost>{1}</ManaCost>
 <CardText>{2}, Sacrifice Voyager Staff: Exile target creature. Return the exiled card to the battlefield under its owner's control at the beginning of the next end step.</CardText>
 <Flavor>Voyager staffs are sought by those hoping to find an escape from the sprawling glut of Ravnica.</Flavor>
 <Artist>Tsutomu Kawade</Artist>
@@ -1179,7 +1181,7 @@ At the beginning of your upkeep, if you control no Thopters other than Thopter A
 <Flavor>Structures built from darksteel yield to neither assault nor age.</Flavor>
 <Artist>John Avon</Artist>
 <Multiverseid>442801</Multiverseid>
-<Rulings>2014/07/18: Although <Darksteel Citadel> is an artifact, it can't be cast as a spell. Playing it follows the normal rules for playing a land.</Rulings>
+<Rulings>2014/07/18: Although Darksteel Citadel is an artifact, it can't be cast as a spell. Playing it follows the normal rules for playing a land.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1209,8 +1211,7 @@ At the beginning of your upkeep, if you control no Thopters other than Thopter A
 <No>67</No>
 <Name>Great Furnace</Name>
 <Type>Artifact Land</Type>
-<CardText>(Great Furnace isn't a spell.)
-{T}: Add {R}.</CardText>
+<CardText>{T}: Add {R}.</CardText>
 <Flavor>Kuldotha, wellspring of molten metal, temple of the goblin horde.</Flavor>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>442803</Multiverseid>
@@ -1321,7 +1322,7 @@ When Temple of Epiphany enters the battlefield, scry 1.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Elves vs. Inventors</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -1336,7 +1337,7 @@ When Temple of Epiphany enters the battlefield, scry 1.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Elves vs. Inventors</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -1351,7 +1352,7 @@ When Temple of Epiphany enters the battlefield, scry 1.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Elves vs. Inventors</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -1366,6 +1367,6 @@ When Temple of Epiphany enters the battlefield, scry 1.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Elves vs. Inventors</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 

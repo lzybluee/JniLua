@@ -3,7 +3,7 @@
 <No>1</No>
 <Name>Jhoira of the Ghitu</Name>
 <Type>Legendary Creature — Human Wizard 2/2</Type>
-<ManaCost>1UR (3)</ManaCost>
+<ManaCost>{1}{U}{R}</ManaCost>
 <CardText>{2}, Exile a nonland card from your hand: Put four time counters on the exiled card. If it doesn't have suspend, it gains suspend. (At the beginning of your upkeep, remove a time counter from that card. When the last is removed, cast it without paying its mana cost. If it's a creature, it has haste.)</CardText>
 <Artist>Magali Villeneuve</Artist>
 <Multiverseid>426573</Multiverseid>
@@ -27,7 +27,7 @@
 <No>2</No>
 <Name>Beacon of Tomorrows</Name>
 <Type>Sorcery</Type>
-<ManaCost>6UU (8)</ManaCost>
+<ManaCost>{6}{U}{U}</ManaCost>
 <CardText>Target player takes an extra turn after this one. Shuffle Beacon of Tomorrows into its owner's library.</CardText>
 <Flavor>To look into its light is to meet the gaze of history.</Flavor>
 <Artist>Jeremy Jarvis</Artist>
@@ -45,22 +45,28 @@
 <No>3</No>
 <Name>Deep-Sea Kraken</Name>
 <Type>Creature — Kraken 6/6</Type>
-<ManaCost>7UUU (10)</ManaCost>
+<ManaCost>{7}{U}{U}{U}</ManaCost>
 <CardText>Deep-Sea Kraken can't be blocked.
 Suspend 9—{2}{U} (Rather than cast this card from your hand, you may pay {2}{U} and exile it with nine time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)
 Whenever an opponent casts a spell, if Deep-Sea Kraken is suspended, remove a time counter from it.</CardText>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>426575</Multiverseid>
-<Rulings>2013/06/07: You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage's effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time.
-2013/06/07: Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
-2013/06/07: If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
-2013/06/07: If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again during the card's owner's next upkeep.
-2013/06/07: When the last time counter is removed, the second triggered ability of suspend will trigger. It doesn't matter why the last time counter was removed or what effect removed it.
-2013/06/07: If the second triggered ability of suspend (the one that lets you cast the card) is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
-2013/06/07: As the second triggered ability resolves, you must cast the card if able. Timing restrictions based on the card's type are ignored.
-2013/06/07: If you can't cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it's no longer suspended.
-2013/06/07: If the spell has any mandatory additional costs, you must pay those if able. However, if an additional cost includes a mana payment, you are forced to pay that cost only if there's enough mana in your mana pool at the time you cast the spell. You aren't forced to activate any mana abilities, although you may do so if you wish.
-2013/06/07: A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it (or, in some rare cases, gains control of the creature spell itself).</Rulings>
+<Rulings>2021/06/18: Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that causes you to cast the card when the last time counter is removed. If you cast a creature spell this way, it gains haste until you lose control of that creature (or, in rare cases, you lose control of the creature spell while it's on the stack).
+2021/06/18: You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+2021/06/18: Cards exiled with suspend are exiled face up.
+2021/06/18: Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+2021/06/18: If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+2021/06/18: If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+2021/06/18: If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+2021/06/18: When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+2021/06/18: If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+2021/06/18: As the second triggered ability resolves, you must cast the card if able. You must do so even if it requires targets and the only legal targets are ones that you really don't want to target. Timing permissions based on the card's type are ignored.
+2021/06/18: If you can't cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it's no longer suspended.
+2021/06/18: If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+2021/06/18: You are never forced to activate mana abilities to pay costs, so if there is a mandatory additional mana cost (such as from Thalia, Guardian of Thraben), you can decline to activate mana abilities to pay for it and hence fail to cast the suspended card, leaving it in exile.
+2021/06/18: If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+2021/06/18: The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+2021/06/18: A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it. (In some rare cases, another player may gain control of the creature spell itself. If this happens, the creature won't enter the battlefield with haste.)</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -73,8 +79,8 @@ Whenever an opponent casts a spell, if Deep-Sea Kraken is suspended, remove a ti
 <No>4</No>
 <Name>Mind's Desire</Name>
 <Type>Sorcery</Type>
-<ManaCost>4UU (6)</ManaCost>
-<CardText>Shuffle your library. Then exile the top card of your library. Until end of turn, you may play that card without paying its mana cost. (If it has X in its mana cost, X is 0.)
+<ManaCost>{4}{U}{U}</ManaCost>
+<CardText>Shuffle your library. Then exile the top card of your library. Until end of turn, you may play that card without paying its mana cost.
 Storm (When you cast this spell, copy it for each spell cast before it this turn.)</CardText>
 <Artist>Anthony Francisco</Artist>
 <Multiverseid>426576</Multiverseid>
@@ -95,7 +101,7 @@ Storm (When you cast this spell, copy it for each spell cast before it this turn
 <No>5</No>
 <Name>Peer Through Depths</Name>
 <Type>Instant — Arcane</Type>
-<ManaCost>1U (2)</ManaCost>
+<ManaCost>{1}{U}</ManaCost>
 <CardText>Look at the top five cards of your library. You may reveal an instant or sorcery card from among them and put it into your hand. Put the rest on the bottom of your library in any order.</CardText>
 <Artist>Anthony S. Waters</Artist>
 <Multiverseid>426577</Multiverseid>
@@ -112,16 +118,16 @@ Storm (When you cast this spell, copy it for each spell cast before it this turn
 <No>6</No>
 <Name>Quicken</Name>
 <Type>Instant</Type>
-<ManaCost>U (1)</ManaCost>
-<CardText>The next sorcery card you cast this turn can be cast as though it had flash. (It can be cast any time you could cast an instant.)
+<ManaCost>{U}</ManaCost>
+<CardText>The next sorcery spell you cast this turn can be cast as though it had flash. (It can be cast any time you could cast an instant.)
 Draw a card.</CardText>
-<Flavor>A skilled Izzet chronarch can carry out an epic vendetta between the fall of one hourglass grain and the next.</Flavor>
+<Flavor>A skilled Izzet Chronarch can carry out an epic vendetta between the fall of one hourglass grain and the next.</Flavor>
 <Artist>Aleksi Briclot</Artist>
 <Multiverseid>426578</Multiverseid>
-<Rulings>2006/02/01: You don't choose a sorcery card when <Quicken> resolves. Rather, this sets up a rule that is true for you until the turn ends or until you cast a sorcery card, even if you cast that sorcery at a time you normally could.
-2006/02/01: If you cast multiple <Quicken>s on the same turn, they'll all apply to the very next sorcery spell you cast.
-2006/09/25: After <Quicken> resolves, you can Suspend a sorcery in your hand any time you can cast an instant. As soon as you actually cast a sorcery, you lose this capability.
-2013/07/01: Casting a copy of a sorcery card won't "use up" <Quicken>'s effect because the copy isn't a card.</Rulings>
+<Rulings>2006/02/01: You don't choose a sorcery card when Quicken resolves. Rather, this sets up a rule that is true for you until the turn ends or until you cast a sorcery card, even if you cast that sorcery at a time you normally could.
+2006/02/01: If you cast multiple Quickens on the same turn, they'll all apply to the very next sorcery spell you cast.
+2006/09/25: After Quicken resolves, you can Suspend a sorcery in your hand any time you can cast an instant. As soon as you actually cast a sorcery, you lose this capability.
+2013/07/01: Casting a copy of a sorcery card won't "use up" Quicken's effect because the copy isn't a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -134,7 +140,7 @@ Draw a card.</CardText>
 <No>7</No>
 <Name>Reach Through Mists</Name>
 <Type>Instant — Arcane</Type>
-<ManaCost>U (1)</ManaCost>
+<ManaCost>{U}</ManaCost>
 <CardText>Draw a card.</CardText>
 <Flavor>"Know one part of the name, obsession begins. Know two parts, paranoia sets in. Know three parts, madness descends. Know all, and only the kami know what will become of you."
 —Lady Azami</Flavor>
@@ -152,7 +158,7 @@ Draw a card.</CardText>
 <No>8</No>
 <Name>Sage-Eye Avengers</Name>
 <Type>Creature — Djinn Monk 4/5</Type>
-<ManaCost>4UU (6)</ManaCost>
+<ManaCost>{4}{U}{U}</ManaCost>
 <CardText>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
 Whenever Sage-Eye Avengers attacks, you may return target creature to its owner's hand if its power is less than Sage-Eye Avengers's power.</CardText>
 <Artist>Dan Scott</Artist>
@@ -173,9 +179,9 @@ Whenever Sage-Eye Avengers attacks, you may return target creature to its owner'
 <No>9</No>
 <Name>Sift Through Sands</Name>
 <Type>Instant — Arcane</Type>
-<ManaCost>1UU (3)</ManaCost>
+<ManaCost>{1}{U}{U}</ManaCost>
 <CardText>Draw two cards, then discard a card.
-If you've cast a spell named Peer Through Depths and a spell named Reach Through Mists this turn, you may search your library for a card named The Unspeakable, put it onto the battlefield, then shuffle your library.</CardText>
+If you've cast a spell named Peer Through Depths and a spell named Reach Through Mists this turn, you may search your library for a card named The Unspeakable, put it onto the battlefield, then shuffle.</CardText>
 <Artist>Anthony S. Waters</Artist>
 <Multiverseid>426581</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -190,7 +196,7 @@ If you've cast a spell named Peer Through Depths and a spell named Reach Through
 <No>10</No>
 <Name>Snap</Name>
 <Type>Instant</Type>
-<ManaCost>1U (2)</ManaCost>
+<ManaCost>{1}{U}</ManaCost>
 <CardText>Return target creature to its owner's hand. Untap up to two lands.</CardText>
 <Flavor>It doesn't matter if the mind or body cracks first. They both have to go.</Flavor>
 <Artist>Véronique Meignaud</Artist>
@@ -208,12 +214,12 @@ If you've cast a spell named Peer Through Depths and a spell named Reach Through
 <No>11</No>
 <Name>Talrand, Sky Summoner</Name>
 <Type>Legendary Creature — Merfolk Wizard 2/2</Type>
-<ManaCost>2UU (4)</ManaCost>
+<ManaCost>{2}{U}{U}</ManaCost>
 <CardText>Whenever you cast an instant or sorcery spell, create a 2/2 blue Drake creature token with flying.</CardText>
 <Flavor>"The seas are vast, but the skies are even more so. Why be content with one kingdom when I can rule them both?"</Flavor>
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>426583</Multiverseid>
-<Rulings>2018/12/07: Talrand's triggered ability resolves before the spell that caused it to trigger, but after targets have been chosen for that spell. It resolves even if that spell is countered.</Rulings>
+<Rulings>2021/03/19: An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger, but after targets have been chosen for that spell. It resolves even if that spell is countered.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -226,7 +232,7 @@ If you've cast a spell named Peer Through Depths and a spell named Reach Through
 <No>12</No>
 <Name>Temporal Fissure</Name>
 <Type>Sorcery</Type>
-<ManaCost>4U (5)</ManaCost>
+<ManaCost>{4}{U}</ManaCost>
 <CardText>Return target permanent to its owner's hand.
 Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)</CardText>
 <Artist>Seb McKinnon</Artist>
@@ -247,7 +253,7 @@ Storm (When you cast this spell, copy it for each spell cast before it this turn
 <No>13</No>
 <Name>The Unspeakable</Name>
 <Type>Legendary Creature — Spirit 6/7</Type>
-<ManaCost>6UUU (9)</ManaCost>
+<ManaCost>{6}{U}{U}{U}</ManaCost>
 <CardText>Flying, trample
 Whenever The Unspeakable deals combat damage to a player, you may return target Arcane card from your graveyard to your hand.</CardText>
 <Flavor>The rumors are horrifying; the truth is worse.</Flavor>
@@ -265,7 +271,7 @@ Whenever The Unspeakable deals combat damage to a player, you may return target 
 <No>14</No>
 <Name>Desperate Ritual</Name>
 <Type>Instant — Arcane</Type>
-<ManaCost>1R (2)</ManaCost>
+<ManaCost>{1}{R}</ManaCost>
 <CardText>Add {R}{R}{R}.
 Splice onto Arcane {1}{R} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)</CardText>
 <Artist>Wayne Reynolds</Artist>
@@ -274,7 +280,7 @@ Splice onto Arcane {1}{R} (As you cast an Arcane spell, you may reveal this card
 2013/06/07: A card with a splice ability can't be spliced onto itself because the spell is on the stack (and not in your hand) when you reveal the cards you want to splice onto it.
 2013/06/07: You choose all targets for the spell after revealing cards you want to splice, including any targets required by the text of any of those cards. You may choose a different target for each instance of the word "target" on the resulting spell.
 2013/06/07: If all of the spell's targets are illegal when the spell tries to resolve, it won't resolve and none of its effects will happen.
-2013/06/07: <Desperate Ritual> isn't a mana ability. When cast, it (or the spell it's spliced onto) goes on the stack like any spell and can be responded to.</Rulings>
+2013/06/07: Desperate Ritual isn't a mana ability. When cast, it (or the spell it's spliced onto) goes on the stack like any spell and can be responded to.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -287,10 +293,10 @@ Splice onto Arcane {1}{R} (As you cast an Arcane spell, you may reveal this card
 <No>15</No>
 <Name>Empty the Warrens</Name>
 <Type>Sorcery</Type>
-<ManaCost>3R (4)</ManaCost>
+<ManaCost>{3}{R}</ManaCost>
 <CardText>Create two 1/1 red Goblin creature tokens.
 Storm (When you cast this spell, copy it for each spell cast before it this turn.)</CardText>
-<Flavor>It's never just one goblin.</Flavor>
+<Flavor>It's never just *one* goblin.</Flavor>
 <Artist>Jasper Sandner</Artist>
 <Multiverseid>426587</Multiverseid>
 <Rulings>2013/06/07: The copies are put directly onto the stack. They aren't cast and won't be counted by other spells with storm cast later in the turn.
@@ -309,7 +315,7 @@ Storm (When you cast this spell, copy it for each spell cast before it this turn
 <No>16</No>
 <Name>Grapeshot</Name>
 <Type>Sorcery</Type>
-<ManaCost>1R (2)</ManaCost>
+<ManaCost>{1}{R}</ManaCost>
 <CardText>Grapeshot deals 1 damage to any target.
 Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)</CardText>
 <Flavor>Mages often seek to emulate the powerful relics lost to time and apocalypse.</Flavor>
@@ -332,21 +338,26 @@ Storm (When you cast this spell, copy it for each spell cast before it this turn
 <No>17</No>
 <Name>Rift Bolt</Name>
 <Type>Sorcery</Type>
-<ManaCost>2R (3)</ManaCost>
+<ManaCost>{2}{R}</ManaCost>
 <CardText>Rift Bolt deals 3 damage to any target.
 Suspend 1—{R} (Rather than cast this card from your hand, you may pay {R} and exile it with a time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)</CardText>
 <Artist>Daniel Ljunggren</Artist>
 <Multiverseid>426589</Multiverseid>
-<Rulings>2013/06/07: You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage's effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time.
-2013/06/07: Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
-2013/06/07: If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
-2013/06/07: If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again during the card's owner's next upkeep.
-2013/06/07: When the last time counter is removed, the second triggered ability of suspend will trigger. It doesn't matter why the last time counter was removed or what effect removed it.
-2013/06/07: If the second triggered ability of suspend (the one that lets you cast the card) is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
-2013/06/07: As the second triggered ability resolves, you must cast the card if able. Timing restrictions based on the card's type are ignored.
-2013/06/07: If you can't cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it's no longer suspended.
-2013/06/07: If the spell has any mandatory additional costs, you must pay those if able. However, if an additional cost includes a mana payment, you are forced to pay that cost only if there's enough mana in your mana pool at the time you cast the spell. You aren't forced to activate any mana abilities, although you may do so if you wish.
-2013/06/07: A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it (or, in some rare cases, gains control of the creature spell itself).</Rulings>
+<Rulings>2021/06/18: Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that causes you to cast the card when the last time counter is removed. If you cast a creature spell this way, it gains haste until you lose control of that creature (or, in rare cases, you lose control of the creature spell while it's on the stack).
+2021/06/18: You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+2021/06/18: Cards exiled with suspend are exiled face up.
+2021/06/18: Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+2021/06/18: If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+2021/06/18: If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+2021/06/18: If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+2021/06/18: When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+2021/06/18: If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+2021/06/18: As the second triggered ability resolves, you must cast the card if able. You must do so even if it requires targets and the only legal targets are ones that you really don't want to target. Timing permissions based on the card's type are ignored.
+2021/06/18: If you can't cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it's no longer suspended.
+2021/06/18: If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+2021/06/18: You are never forced to activate mana abilities to pay costs, so if there is a mandatory additional mana cost (such as from Thalia, Guardian of Thraben), you can decline to activate mana abilities to pay for it and hence fail to cast the suspended card, leaving it in exile.
+2021/06/18: If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+2021/06/18: The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -359,21 +370,26 @@ Suspend 1—{R} (Rather than cast this card from your hand, you may pay {R} and 
 <No>18</No>
 <Name>Shivan Meteor</Name>
 <Type>Sorcery</Type>
-<ManaCost>3RR (5)</ManaCost>
+<ManaCost>{3}{R}{R}</ManaCost>
 <CardText>Shivan Meteor deals 13 damage to target creature.
 Suspend 2—{1}{R}{R} (Rather than cast this card from your hand, you may pay {1}{R}{R} and exile it with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)</CardText>
 <Artist>Chippy</Artist>
 <Multiverseid>426590</Multiverseid>
-<Rulings>2013/06/07: You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage's effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time.
-2013/06/07: Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
-2013/06/07: If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
-2013/06/07: If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again during the card's owner's next upkeep.
-2013/06/07: When the last time counter is removed, the second triggered ability of suspend will trigger. It doesn't matter why the last time counter was removed or what effect removed it.
-2013/06/07: If the second triggered ability of suspend (the one that lets you cast the card) is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
-2013/06/07: As the second triggered ability resolves, you must cast the card if able. Timing restrictions based on the card's type are ignored.
-2013/06/07: If you can't cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it's no longer suspended.
-2013/06/07: If the spell has any mandatory additional costs, you must pay those if able. However, if an additional cost includes a mana payment, you are forced to pay that cost only if there's enough mana in your mana pool at the time you cast the spell. You aren't forced to activate any mana abilities, although you may do so if you wish.
-2013/06/07: A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it (or, in some rare cases, gains control of the creature spell itself).</Rulings>
+<Rulings>2021/06/18: Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that causes you to cast the card when the last time counter is removed. If you cast a creature spell this way, it gains haste until you lose control of that creature (or, in rare cases, you lose control of the creature spell while it's on the stack).
+2021/06/18: You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+2021/06/18: Cards exiled with suspend are exiled face up.
+2021/06/18: Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+2021/06/18: If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+2021/06/18: If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+2021/06/18: If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+2021/06/18: When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+2021/06/18: If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+2021/06/18: As the second triggered ability resolves, you must cast the card if able. You must do so even if it requires targets and the only legal targets are ones that you really don't want to target. Timing permissions based on the card's type are ignored.
+2021/06/18: If you can't cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it's no longer suspended.
+2021/06/18: If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+2021/06/18: You are never forced to activate mana abilities to pay costs, so if there is a mandatory additional mana cost (such as from Thalia, Guardian of Thraben), you can decline to activate mana abilities to pay for it and hence fail to cast the suspended card, leaving it in exile.
+2021/06/18: If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+2021/06/18: The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -386,11 +402,11 @@ Suspend 2—{1}{R}{R} (Rather than cast this card from your hand, you may pay {1
 <No>19</No>
 <Name>Volcanic Vision</Name>
 <Type>Sorcery</Type>
-<ManaCost>5RR (7)</ManaCost>
-<CardText>Return target instant or sorcery card from your graveyard to your hand. Volcanic Vision deals damage equal to that card's converted mana cost to each creature your opponents control. Exile Volcanic Vision.</CardText>
+<ManaCost>{5}{R}{R}</ManaCost>
+<CardText>Return target instant or sorcery card from your graveyard to your hand. Volcanic Vision deals damage equal to that card's mana value to each creature your opponents control. Exile Volcanic Vision.</CardText>
 <Artist>Noah Bradley</Artist>
 <Multiverseid>426591</Multiverseid>
-<Rulings>2015/02/25: If the target instant or sorcery card becomes an illegal target before <Volcanic Vision> resolves, the spell won't resolve and none of its effects will happen. No damage will be dealt and <Volcanic Vision> won't be exiled.
+<Rulings>2015/02/25: If the target instant or sorcery card becomes an illegal target before Volcanic Vision resolves, the spell won't resolve and none of its effects will happen. No damage will be dealt and Volcanic Vision won't be exiled.
 2015/02/25: If the target has {X} in its mana cost, X is 0.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -404,12 +420,12 @@ Suspend 2—{1}{R}{R} (Rather than cast this card from your hand, you may pay {1
 <No>20</No>
 <Name>Young Pyromancer</Name>
 <Type>Creature — Human Shaman 2/1</Type>
-<ManaCost>1R (2)</ManaCost>
+<ManaCost>{1}{R}</ManaCost>
 <CardText>Whenever you cast an instant or sorcery spell, create a 1/1 red Elemental creature token.</CardText>
 <Flavor>Immolation is the sincerest form of flattery.</Flavor>
 <Artist>Cynthia Sheppard</Artist>
 <Multiverseid>426592</Multiverseid>
-<Rulings>2018/12/07: <Young Pyromancer>'s triggered ability will resolve before the spell that caused it to trigger, but after targets have been chosen for that spell. It resolves even if that spell is countered.</Rulings>
+<Rulings>2021/03/19: An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger, but after targets have been chosen for that spell. It resolves even if that spell is countered.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -422,8 +438,8 @@ Suspend 2—{1}{R}{R} (Rather than cast this card from your hand, you may pay {1
 <No>21</No>
 <Name>Firemind's Foresight</Name>
 <Type>Instant</Type>
-<ManaCost>5UR (7)</ManaCost>
-<CardText>Search your library for an instant card with converted mana cost 3, reveal it, and put it into your hand. Then repeat this process for instant cards with converted mana costs 2 and 1. Then shuffle your library.</CardText>
+<ManaCost>{5}{U}{R}</ManaCost>
+<CardText>Search your library for an instant card with mana value 3, reveal it, and put it into your hand. Then repeat this process for instant cards with mana values 2 and 1. Then shuffle.</CardText>
 <Artist>Dan Scott</Artist>
 <Multiverseid>426593</Multiverseid>
 <Rulings>2012/10/01: You don't have to find any instant cards in your library, even if they are there.
@@ -440,14 +456,14 @@ Suspend 2—{1}{R}{R} (Rather than cast this card from your hand, you may pay {1
 <No>22</No>
 <Name>Goblin Electromancer</Name>
 <Type>Creature — Goblin Wizard 2/2</Type>
-<ManaCost>UR (2)</ManaCost>
+<ManaCost>{U}{R}</ManaCost>
 <CardText>Instant and sorcery spells you cast cost {1} less to cast.</CardText>
 <Flavor>When asked how much power is required, Izzet mages always answer "more."</Flavor>
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>426594</Multiverseid>
-<Rulings>2017/03/14: Two <Goblin Electromancer>s will make instant and sorcery spells you cast cost {2} less to cast, and so on.
+<Rulings>2017/03/14: Two Goblin Electromancers will make instant and sorcery spells you cast cost {2} less to cast, and so on.
 2018/10/05: To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The converted mana cost of the spell remains unchanged, no matter what the total cost to cast it was.
-2018/10/05: <Goblin Electromancer>'s effect reduces only generic mana in the spell's total cost.</Rulings>
+2018/10/05: Goblin Electromancer's effect reduces only generic mana in the spell's total cost.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -460,7 +476,7 @@ Suspend 2—{1}{R}{R} (Rather than cast this card from your hand, you may pay {1
 <No>23</No>
 <Name>Jori En, Ruin Diver</Name>
 <Type>Legendary Creature — Merfolk Wizard 2/3</Type>
-<ManaCost>1UR (3)</ManaCost>
+<ManaCost>{1}{U}{R}</ManaCost>
 <CardText>Whenever you cast your second spell each turn, draw a card.</CardText>
 <Flavor>"Some relic hunters have given up exploring and gone to fight the Eldrazi. But I know our work is more important than ever. The secrets we uncover could lead to the world's salvation."</Flavor>
 <Artist>Igor Kieryluk</Artist>
@@ -479,12 +495,12 @@ Suspend 2—{1}{R}{R} (Rather than cast this card from your hand, you may pay {1
 <No>24</No>
 <Name>Nivix Cyclops</Name>
 <Type>Creature — Cyclops 1/4</Type>
-<ManaCost>1UR (3)</ManaCost>
+<ManaCost>{1}{U}{R}</ManaCost>
 <CardText>Defender
 Whenever you cast an instant or sorcery spell, Nivix Cyclops gets +3/+0 until end of turn and can attack this turn as though it didn't have defender.</CardText>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>426596</Multiverseid>
-<Rulings>2013/04/15: <Nivix Cyclops> still has defender after its triggered ability resolves, although it will be able to attack.</Rulings>
+<Rulings>2013/04/15: Nivix Cyclops still has defender after its triggered ability resolves, although it will be able to attack.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -497,13 +513,13 @@ Whenever you cast an instant or sorcery spell, Nivix Cyclops gets +3/+0 until en
 <No>25</No>
 <Name>Spellheart Chimera</Name>
 <Type>Creature — Chimera */3</Type>
-<ManaCost>1UR (3)</ManaCost>
+<ManaCost>{1}{U}{R}</ManaCost>
 <CardText>Flying, trample
 Spellheart Chimera's power is equal to the number of instant and sorcery cards in your graveyard.</CardText>
 <Flavor>Thaumaturges remain silent around chimeras, lest their words conjure even stranger beasts.</Flavor>
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>426597</Multiverseid>
-<Rulings>2013/09/15: The ability that defines <Spellheart Chimera>'s power functions in all zones, not just the battlefield.</Rulings>
+<Rulings>2013/09/15: The ability that defines Spellheart Chimera's power functions in all zones, not just the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -516,7 +532,7 @@ Spellheart Chimera's power is equal to the number of instant and sorcery cards i
 <No>26</No>
 <Name>Nucklavee</Name>
 <Type>Creature — Beast 4/4</Type>
-<ManaCost>4{U/R}{U/R} (6)</ManaCost>
+<ManaCost>{4}{U/R}{U/R}</ManaCost>
 <CardText>When Nucklavee enters the battlefield, you may return target red sorcery card from your graveyard to your hand.
 When Nucklavee enters the battlefield, you may return target blue instant card from your graveyard to your hand.</CardText>
 <Flavor>It loathes all tastes but two: spells and flesh.</Flavor>
@@ -558,7 +574,7 @@ When Swiftwater Cliffs enters the battlefield, you gain 1 life.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Mind vs. Might</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -573,7 +589,7 @@ When Swiftwater Cliffs enters the battlefield, you gain 1 life.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Mind vs. Might</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -588,7 +604,7 @@ When Swiftwater Cliffs enters the battlefield, you gain 1 life.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Mind vs. Might</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -603,7 +619,7 @@ When Swiftwater Cliffs enters the battlefield, you gain 1 life.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Mind vs. Might</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -618,7 +634,7 @@ When Swiftwater Cliffs enters the battlefield, you gain 1 life.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Mind vs. Might</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -633,7 +649,7 @@ When Swiftwater Cliffs enters the battlefield, you gain 1 life.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Mind vs. Might</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -641,12 +657,12 @@ When Swiftwater Cliffs enters the battlefield, you gain 1 life.
 <No>34</No>
 <Name>Lovisa Coldeyes</Name>
 <Type>Legendary Creature — Human 3/3</Type>
-<ManaCost>3RR (5)</ManaCost>
+<ManaCost>{3}{R}{R}</ManaCost>
 <CardText>Each creature that's a Barbarian, a Warrior, or a Berserker gets +2/+2 and has haste.</CardText>
 <Flavor>"A massacre? It is a mercy we grant them. This way they won't freeze to death."</Flavor>
 <Artist>Anna Steinbauer</Artist>
 <Multiverseid>426606</Multiverseid>
-<Rulings>2006/07/15: Each creature with at least one of those subtypes gets +2/+2 from <Lovisa Coldeyes>' ability, regardless of how many of those subtypes it has. For example, a 3/3 Mistform Ultimus would become 5/5, not 9/9.</Rulings>
+<Rulings>2006/07/15: Each creature with at least one of those subtypes gets +2/+2 from Lovisa Coldeyes' ability, regardless of how many of those subtypes it has. For example, a 3/3 Mistform Ultimus would become 5/5, not 9/9.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -659,7 +675,7 @@ When Swiftwater Cliffs enters the battlefield, you gain 1 life.
 <No>35</No>
 <Name>Beacon of Destruction</Name>
 <Type>Instant</Type>
-<ManaCost>3RR (5)</ManaCost>
+<ManaCost>{3}{R}{R}</ManaCost>
 <CardText>Beacon of Destruction deals 5 damage to any target. Shuffle Beacon of Destruction into its owner's library.</CardText>
 <Flavor>The Great Furnace's blessing is a spectacular sight, but the best view comes at a high cost.</Flavor>
 <Artist>Greg Hildebrandt</Artist>
@@ -677,7 +693,7 @@ When Swiftwater Cliffs enters the battlefield, you gain 1 life.
 <No>36</No>
 <Name>Boldwyr Intimidator</Name>
 <Type>Creature — Giant Warrior 5/5</Type>
-<ManaCost>5RR (7)</ManaCost>
+<ManaCost>{5}{R}{R}</ManaCost>
 <CardText>Cowards can't block Warriors.
 {R}: Target creature becomes a Coward until end of turn.
 {2}{R}: Target creature becomes a Warrior until end of turn.</CardText>
@@ -699,12 +715,18 @@ When Swiftwater Cliffs enters the battlefield, you gain 1 life.
 <No>37</No>
 <Name>Firebolt</Name>
 <Type>Sorcery</Type>
-<ManaCost>R (1)</ManaCost>
+<ManaCost>{R}</ManaCost>
 <CardText>Firebolt deals 2 damage to any target.
 Flashback {4}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</CardText>
 <Flavor>"There's more where that came from!"</Flavor>
 <Artist>Chris Rallis</Artist>
 <Multiverseid>426609</Multiverseid>
+<Rulings>2021/03/19: "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+2021/03/19: You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+2021/03/19: To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+2021/03/19: A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+2021/03/19: You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+2021/03/19: If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -717,7 +739,7 @@ Flashback {4}{R} (You may cast this card from your graveyard for its flashback c
 <No>38</No>
 <Name>Gorehorn Minotaurs</Name>
 <Type>Creature — Minotaur Warrior 3/3</Type>
-<ManaCost>2RR (4)</ManaCost>
+<ManaCost>{2}{R}{R}</ManaCost>
 <CardText>Bloodthirst 2 (If an opponent was dealt damage this turn, this creature enters the battlefield with two +1/+1 counters on it.)</CardText>
 <Flavor>Some of the eleven minotaur clans of Mirtiin are expert crafters and learned philosophers. Others just like to hit stuff.</Flavor>
 <Artist>Wayne Reynolds</Artist>
@@ -734,7 +756,7 @@ Flashback {4}{R} (You may cast this card from your graveyard for its flashback c
 <No>39</No>
 <Name>Kamahl, Pit Fighter</Name>
 <Type>Legendary Creature — Human Barbarian 6/1</Type>
-<ManaCost>4RR (6)</ManaCost>
+<ManaCost>{4}{R}{R}</ManaCost>
 <CardText>Haste (This creature can attack and {T} as soon as it comes under your control.)
 {T}: Kamahl, Pit Fighter deals 3 damage to any target.</CardText>
 <Flavor>In times when freedom seems lost, great souls arise to reclaim it.</Flavor>
@@ -753,7 +775,7 @@ Flashback {4}{R} (You may cast this card from your graveyard for its flashback c
 <No>40</No>
 <Name>Kruin Striker</Name>
 <Type>Creature — Human Warrior 2/1</Type>
-<ManaCost>1R (2)</ManaCost>
+<ManaCost>{1}{R}</ManaCost>
 <CardText>Whenever another creature enters the battlefield under your control, Kruin Striker gets +1/+0 and gains trample until end of turn.</CardText>
 <Flavor>Unhappy with the creation of the wolfir, Rorica broke with her order and led a crusade against the "reformed werewolves."</Flavor>
 <Artist>Christopher Moeller</Artist>
@@ -770,7 +792,7 @@ Flashback {4}{R} (You may cast this card from your graveyard for its flashback c
 <No>41</No>
 <Name>Zo-Zu the Punisher</Name>
 <Type>Legendary Creature — Goblin Warrior 2/2</Type>
-<ManaCost>1RR (3)</ManaCost>
+<ManaCost>{1}{R}{R}</ManaCost>
 <CardText>Whenever a land enters the battlefield, Zo-Zu the Punisher deals 2 damage to that land's controller.</CardText>
 <Flavor>He does not tolerate intruders.</Flavor>
 <Artist>Wayne Reynolds</Artist>
@@ -787,7 +809,7 @@ Flashback {4}{R} (You may cast this card from your graveyard for its flashback c
 <No>42</No>
 <Name>Ambassador Oak</Name>
 <Type>Creature — Treefolk Warrior 3/3</Type>
-<ManaCost>3G (4)</ManaCost>
+<ManaCost>{3}{G}</ManaCost>
 <CardText>When Ambassador Oak enters the battlefield, create a 1/1 green Elf Warrior creature token.</CardText>
 <Flavor>Treefolk and elves share a common interest in the forests, but really the elves just feel at home with the view from above.</Flavor>
 <Artist>Steve Prescott</Artist>
@@ -804,11 +826,17 @@ Flashback {4}{R} (You may cast this card from your graveyard for its flashback c
 <No>43</No>
 <Name>Beast Attack</Name>
 <Type>Instant</Type>
-<ManaCost>2GGG (5)</ManaCost>
+<ManaCost>{2}{G}{G}{G}</ManaCost>
 <CardText>Create a 4/4 green Beast creature token.
 Flashback {2}{G}{G}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</CardText>
 <Artist>Ciruelo</Artist>
 <Multiverseid>426615</Multiverseid>
+<Rulings>2021/03/19: "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+2021/03/19: You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+2021/03/19: To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+2021/03/19: A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+2021/03/19: You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+2021/03/19: If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Duel Decks: Mind vs. Might</Set>
@@ -820,11 +848,17 @@ Flashback {2}{G}{G}{G} (You may cast this card from your graveyard for its flash
 <No>44</No>
 <Name>Call of the Herd</Name>
 <Type>Sorcery</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>Create a 3/3 green Elephant creature token.
 Flashback {3}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</CardText>
 <Artist>Carl Critchlow</Artist>
 <Multiverseid>426616</Multiverseid>
+<Rulings>2021/03/19: "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+2021/03/19: You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+2021/03/19: To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+2021/03/19: A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+2021/03/19: You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+2021/03/19: If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -837,7 +871,7 @@ Flashback {3}{G} (You may cast this card from your graveyard for its flashback c
 <No>45</No>
 <Name>Cloudcrown Oak</Name>
 <Type>Creature — Treefolk Warrior 3/4</Type>
-<ManaCost>2GG (4)</ManaCost>
+<ManaCost>{2}{G}{G}</ManaCost>
 <CardText>Reach (This creature can block creatures with flying.)</CardText>
 <Flavor>"Clever folk build their homes near cloudcrowns. If a hawk or even just a faerie tries to swoop in, it'll get swatted from here to Cloverdell."
 —Calydd, kithkin farmer</Flavor>
@@ -855,12 +889,11 @@ Flashback {3}{G} (You may cast this card from your graveyard for its flashback c
 <No>46</No>
 <Name>Harmonize</Name>
 <Type>Sorcery</Type>
-<ManaCost>2GG (4)</ManaCost>
+<ManaCost>{2}{G}{G}</ManaCost>
 <CardText>Draw three cards.</CardText>
 <Flavor>"Words lie. People lie. The land tells the truth."</Flavor>
 <Artist>Paul Lee</Artist>
 <Multiverseid>426618</Multiverseid>
-<Rulings>2007/02/01: This is the timeshifted version of Concentrate.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -873,7 +906,7 @@ Flashback {3}{G} (You may cast this card from your graveyard for its flashback c
 <No>47</No>
 <Name>Increasing Savagery</Name>
 <Type>Sorcery</Type>
-<ManaCost>2GG (4)</ManaCost>
+<ManaCost>{2}{G}{G}</ManaCost>
 <CardText>Put five +1/+1 counters on target creature. If this spell was cast from a graveyard, put ten +1/+1 counters on that creature instead.
 Flashback {5}{G}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</CardText>
 <Artist>Steve Prescott</Artist>
@@ -890,8 +923,8 @@ Flashback {5}{G}{G} (You may cast this card from your graveyard for its flashbac
 <No>48</No>
 <Name>Rampant Growth</Name>
 <Type>Sorcery</Type>
-<ManaCost>1G (2)</ManaCost>
-<CardText>Search your library for a basic land card and put that card onto the battlefield tapped. Then shuffle your library.</CardText>
+<ManaCost>{1}{G}</ManaCost>
+<CardText>Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.</CardText>
 <Flavor>Nature grows solutions to its problems.</Flavor>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>426620</Multiverseid>
@@ -909,7 +942,7 @@ Flashback {5}{G}{G} (You may cast this card from your graveyard for its flashbac
 <No>49</No>
 <Name>Roar of the Wurm</Name>
 <Type>Sorcery</Type>
-<ManaCost>6G (7)</ManaCost>
+<ManaCost>{6}{G}</ManaCost>
 <CardText>Create a 6/6 green Wurm creature token.
 Flashback {3}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</CardText>
 <Artist>Kev Walker</Artist>
@@ -925,12 +958,12 @@ Flashback {3}{G} (You may cast this card from your graveyard for its flashback c
 <No>50</No>
 <Name>Skarrgan Pit-Skulk</Name>
 <Type>Creature — Human Warrior 1/1</Type>
-<ManaCost>G (1)</ManaCost>
+<ManaCost>{G}</ManaCost>
 <CardText>Bloodthirst 1 (If an opponent was dealt damage this turn, this creature enters the battlefield with a +1/+1 counter on it.)
 Creatures with power less than Skarrgan Pit-Skulk's power can't block it.</CardText>
 <Artist>Liam Sharp</Artist>
 <Multiverseid>426622</Multiverseid>
-<Rulings>2006/02/01: <Skarrgan Pit-Skulk> compares each blocker's power against its own as blockers are being declared.</Rulings>
+<Rulings>2006/02/01: Skarrgan Pit-Skulk compares each blocker's power against its own as blockers are being declared.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -943,7 +976,7 @@ Creatures with power less than Skarrgan Pit-Skulk's power can't block it.</CardT
 <No>51</No>
 <Name>Sylvan Might</Name>
 <Type>Instant</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>Target creature gets +2/+2 and gains trample until end of turn.
 Flashback {2}{G}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</CardText>
 <Artist>Arnie Swekel</Artist>
@@ -959,7 +992,7 @@ Flashback {2}{G}{G} (You may cast this card from your graveyard for its flashbac
 <No>52</No>
 <Name>Talara's Battalion</Name>
 <Type>Creature — Elf Warrior 4/3</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>Cast this spell only if you've cast another green spell this turn.
 Trample</CardText>
 <Flavor>The safewright Talara protects a delicate woodland waterfall. She has vowed to send wave after wave of warriors to slay any who would dare disturb its beauty.</Flavor>
@@ -977,13 +1010,15 @@ Trample</CardText>
 <No>53</No>
 <Name>Radha, Heir to Keld</Name>
 <Type>Legendary Creature — Elf Warrior 2/2</Type>
-<ManaCost>RG (2)</ManaCost>
+<ManaCost>{R}{G}</ManaCost>
 <CardText>Whenever Radha, Heir to Keld attacks, you may add {R}{R}.
 {T}: Add {G}.</CardText>
 <Flavor>"Run home, cur. I've already taken your master's head. Don't make me thrash you with it."</Flavor>
 <Artist>Jim Murray</Artist>
 <Multiverseid>426625</Multiverseid>
-<Rulings>2007/02/01: Radha's triggered ability is not a mana ability (because it doesn't trigger from another mana ability). It goes on the stack and it can be countered.</Rulings>
+<Rulings>2007/02/01: Radha's triggered ability is not a mana ability (because it doesn't trigger from another mana ability). It goes on the stack and it can be countered.
+2021/03/19: Radha's triggered ability is not a mana ability because it doesn't trigger from another mana ability. It goes on the stack and it can be countered.
+2021/03/19: You lose the mana produced by Radha's ability before blockers are declared if you don't spend it first.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -996,7 +1031,7 @@ Trample</CardText>
 <No>54</No>
 <Name>Relentless Hunter</Name>
 <Type>Creature — Human Warrior 3/3</Type>
-<ManaCost>1RG (3)</ManaCost>
+<ManaCost>{1}{R}{G}</ManaCost>
 <CardText>{1}{R}{G}: Relentless Hunter gets +1/+1 and gains trample until end of turn.</CardText>
 <Flavor>"I swore to take one head for each member of my family they killed. My task is nowhere near its end."</Flavor>
 <Artist>Matt Stewart</Artist>
@@ -1013,12 +1048,12 @@ Trample</CardText>
 <No>55</No>
 <Name>Burning-Tree Emissary</Name>
 <Type>Creature — Human Shaman 2/2</Type>
-<ManaCost>{R/G}{R/G} (2)</ManaCost>
+<ManaCost>{R/G}{R/G}</ManaCost>
 <CardText>When Burning-Tree Emissary enters the battlefield, add {R}{G}.</CardText>
 <Flavor>Those who regard the Gruul as savage simpletons underestimate the subtle power of their shamans.</Flavor>
 <Artist>Izzy</Artist>
 <Multiverseid>426627</Multiverseid>
-<Rulings>2017/03/14: <Burning-Tree Emissary>'s ability isn't a mana ability. It uses the stack and can be responded to.</Rulings>
+<Rulings>2017/03/14: Burning-Tree Emissary's ability isn't a mana ability. It uses the stack and can be responded to.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1031,7 +1066,7 @@ Trample</CardText>
 <No>56</No>
 <Name>Guttural Response</Name>
 <Type>Instant</Type>
-<ManaCost>{R/G} (1)</ManaCost>
+<ManaCost>{R/G}</ManaCost>
 <CardText>Counter target blue instant spell.</CardText>
 <Flavor>A savage cry with the power to shatter minds.</Flavor>
 <Artist>Ben Wootten</Artist>
@@ -1048,13 +1083,13 @@ Trample</CardText>
 <No>57</No>
 <Name>Rubblebelt Raiders</Name>
 <Type>Creature — Human Warrior 3/3</Type>
-<ManaCost>1{R/G}{R/G}{R/G} (4)</ManaCost>
+<ManaCost>{1}{R/G}{R/G}{R/G}</ManaCost>
 <CardText>Whenever Rubblebelt Raiders attacks, put a +1/+1 counter on it for each attacking creature you control.</CardText>
 <Flavor>"This city will perish, and the Gruul will cheer as the boar-god crushes the last bricks into dust."
 —Nikya of the Old Ways</Flavor>
 <Artist>Chippy</Artist>
 <Multiverseid>426629</Multiverseid>
-<Rulings>2013/01/24: Count the number of attacking creatures you control when <Rubblebelt Raiders>'s ability resolves, including <Rubblebelt Raiders> itself, to determine how many +1/+1 counters to put on it.</Rulings>
+<Rulings>2013/01/24: Count the number of attacking creatures you control when Rubblebelt Raiders's ability resolves, including Rubblebelt Raiders itself, to determine how many +1/+1 counters to put on it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1067,14 +1102,14 @@ Trample</CardText>
 <No>58</No>
 <Name>Coat of Arms</Name>
 <Type>Artifact</Type>
-<ManaCost>5 (5)</ManaCost>
+<ManaCost>{5}</ManaCost>
 <CardText>Each creature gets +1/+1 for each other creature on the battlefield that shares at least one creature type with it. (For example, if two Goblin Warriors and a Goblin Shaman are on the battlefield, each gets +2/+2.)</CardText>
 <Flavor>A banner for bonds of blood or belief.</Flavor>
 <Artist>Scott M. Fischer</Artist>
 <Multiverseid>426630</Multiverseid>
 <Rulings>2004/10/04: If a creature has more than one creature type, and one of those types matches the creature you are calculating for, then count that creature. Only one type needs to match in order to get counted.
 2004/10/04: If you have a creature with more than one creature type, count all creatures which have either creature type.
-2009/10/01: Sharing multiple creature types doesn't give an additional bonus. <Coat of Arms> counts creatures, not creature types.</Rulings>
+2009/10/01: Sharing multiple creature types doesn't give an additional bonus. Coat of Arms counts creatures, not creature types.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1111,7 +1146,7 @@ When Rugged Highlands enters the battlefield, you gain 1 life.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Mind vs. Might</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -1126,7 +1161,7 @@ When Rugged Highlands enters the battlefield, you gain 1 life.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Mind vs. Might</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -1141,7 +1176,7 @@ When Rugged Highlands enters the battlefield, you gain 1 life.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Mind vs. Might</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -1156,7 +1191,7 @@ When Rugged Highlands enters the battlefield, you gain 1 life.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Mind vs. Might</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -1171,7 +1206,7 @@ When Rugged Highlands enters the battlefield, you gain 1 life.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Mind vs. Might</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -1186,6 +1221,6 @@ When Rugged Highlands enters the battlefield, you gain 1 life.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Mind vs. Might</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 

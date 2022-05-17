@@ -109,21 +109,21 @@ public class Ranking {
 	public static void main(String[] args) {
 		CardParser.initOracle();
 		CardAnalyzer.initData();
-		getRank("A25");
-		getRank("AER");
-		getRank("AKH");
-		getRank("BFZ");
+//		getRank("A25");
+//		getRank("AER");
+//		getRank("AKH");
+//		getRank("BFZ");
 		getRank("DOM");
-		getRank("DTK");
-		getRank("EMN");
-		getRank("HOU");
-		getRank("IMA");
-		getRank("KLD");
-		getRank("MM3");
-		getRank("OGW");
-		getRank("ORI");
-		getRank("RIX");
-		getRank("SOI");
-		getRank("XLN");
+//		getRank("DTK");
+//		getRank("EMN");
+//		getRank("HOU");
+//		getRank("IMA");
+//		getRank("KLD");
+//		getRank("MM3");
+//		getRank("OGW");
+//		getRank("ORI");
+//		getRank("RIX");
+//		getRank("SOI");
+//		getRank("XLN");
 	}
 }

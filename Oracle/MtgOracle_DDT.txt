@@ -3,15 +3,15 @@
 <No>1</No>
 <Name>Master of Waves</Name>
 <Type>Creature — Merfolk Wizard 2/1</Type>
-<ManaCost>3U (4)</ManaCost>
+<ManaCost>{3}{U}</ManaCost>
 <CardText>Protection from red
 Elemental creatures you control get +1/+1.
 When Master of Waves enters the battlefield, create a number of 1/0 blue Elemental creature tokens equal to your devotion to blue. (Each {U} in the mana costs of permanents you control counts toward your devotion to blue.)</CardText>
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>438441</Multiverseid>
-<Rulings>2013/09/15: Use your devotion to blue as the triggered ability resolves to determine how many tokens are put onto the battlefield. If <Master of Waves> is still on the battlefield at that time, its mana cost will count toward your devotion to blue.
+<Rulings>2013/09/15: Use your devotion to blue as the triggered ability resolves to determine how many tokens are put onto the battlefield. If Master of Waves is still on the battlefield at that time, its mana cost will count toward your devotion to blue.
 2013/09/15: Barring other effects, the Elemental tokens will enter the battlefield as 2/1 creatures.
-2013/09/15: If <Master of Waves> leaves the battlefield, and nothing else is raising the toughness of the Elemental tokens above 0, the Elemental tokens will die and subsequently cease to exist.
+2013/09/15: If Master of Waves leaves the battlefield, and nothing else is raising the toughness of the Elemental tokens above 0, the Elemental tokens will die and subsequently cease to exist.
 2013/09/15: Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
 2013/09/15: Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
 2013/09/15: Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
@@ -28,7 +28,7 @@ When Master of Waves enters the battlefield, create a number of 1/0 blue Element
 <No>2</No>
 <Name>Aquitect's Will</Name>
 <Type>Tribal Sorcery — Merfolk</Type>
-<ManaCost>U (1)</ManaCost>
+<ManaCost>{U}</ManaCost>
 <CardText>Put a flood counter on target land. That land is an Island in addition to its other types for as long as it has a flood counter on it. If you control a Merfolk, draw a card.</CardText>
 <Flavor>"You may want to hold your breath."
 —Kellyg, merrow aquitect</Flavor>
@@ -46,15 +46,15 @@ When Master of Waves enters the battlefield, create a number of 1/0 blue Element
 <No>3</No>
 <Name>Claustrophobia</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>1UU (3)</ManaCost>
+<ManaCost>{1}{U}{U}</ManaCost>
 <CardText>Enchant creature
 When Claustrophobia enters the battlefield, tap enchanted creature.
 Enchanted creature doesn't untap during its controller's untap step.</CardText>
 <Flavor>Six feet of earth muffled his cries.</Flavor>
 <Artist>Ryan Pancoast</Artist>
 <Multiverseid>438443</Multiverseid>
-<Rulings>2015/06/22: <Claustrophobia> can target and enchant a tapped or untapped creature.
-2015/06/22: The enchanted creature can still be untapped in other ways. <Claustrophobia> will remain attached, and the creature will continue to not untap during its controller's untap step.</Rulings>
+<Rulings>2015/06/22: Claustrophobia can target and enchant a tapped or untapped creature.
+2015/06/22: The enchanted creature can still be untapped in other ways. Claustrophobia will remain attached, and the creature will continue to not untap during its controller's untap step.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -67,7 +67,7 @@ Enchanted creature doesn't untap during its controller's untap step.</CardText>
 <No>4</No>
 <Name>Concentrate</Name>
 <Type>Sorcery</Type>
-<ManaCost>2UU (4)</ManaCost>
+<ManaCost>{2}{U}{U}</ManaCost>
 <CardText>Draw three cards.</CardText>
 <Flavor>"The treasure in my mind is greater than any worldly glory."</Flavor>
 <Artist>rk post</Artist>
@@ -84,7 +84,7 @@ Enchanted creature doesn't untap during its controller's untap step.</CardText>
 <No>5</No>
 <Name>Engulf the Shore</Name>
 <Type>Instant</Type>
-<ManaCost>3U (4)</ManaCost>
+<ManaCost>{3}{U}</ManaCost>
 <CardText>Return to their owners' hands all creatures with toughness less than or equal to the number of Islands you control.</CardText>
 <Flavor>"The tides have begun to ignore the moon."
 —Tamiyo's journal</Flavor>
@@ -102,7 +102,7 @@ Enchanted creature doesn't untap during its controller's untap step.</CardText>
 <No>6</No>
 <Name>Essence Scatter</Name>
 <Type>Instant</Type>
-<ManaCost>1U (2)</ManaCost>
+<ManaCost>{1}{U}</ManaCost>
 <CardText>Counter target creature spell.</CardText>
 <Flavor>"What you attempt to pull from the aether, I can spread onto the wind."
 —Jace Beleren</Flavor>
@@ -121,7 +121,7 @@ Enchanted creature doesn't untap during its controller's untap step.</CardText>
 <No>7</No>
 <Name>Harbinger of the Tides</Name>
 <Type>Creature — Merfolk Wizard 2/2</Type>
-<ManaCost>UU (2)</ManaCost>
+<ManaCost>{U}{U}</ManaCost>
 <CardText>You may cast Harbinger of the Tides as though it had flash if you pay {2} more to cast it. (You may cast it any time you could cast an instant.)
 When Harbinger of the Tides enters the battlefield, you may return target tapped creature an opponent controls to its owner's hand.</CardText>
 <Artist>Svetlin Velinov</Artist>
@@ -138,7 +138,7 @@ When Harbinger of the Tides enters the battlefield, you may return target tapped
 <No>8</No>
 <Name>Inkfathom Divers</Name>
 <Type>Creature — Merfolk Soldier 3/3</Type>
-<ManaCost>3UU (5)</ManaCost>
+<ManaCost>{3}{U}{U}</ManaCost>
 <CardText>Islandwalk (This creature can't be blocked as long as defending player controls an Island.)
 When Inkfathom Divers enters the battlefield, look at the top four cards of your library, then put them back in any order.</CardText>
 <Artist>Steven Belledin</Artist>
@@ -155,11 +155,12 @@ When Inkfathom Divers enters the battlefield, look at the top four cards of your
 <No>9</No>
 <Name>Master of the Pearl Trident</Name>
 <Type>Creature — Merfolk 2/2</Type>
-<ManaCost>UU (2)</ManaCost>
+<ManaCost>{U}{U}</ManaCost>
 <CardText>Other Merfolk creatures you control get +1/+1 and have islandwalk. (They can't be blocked as long as defending player controls an Island.)</CardText>
 <Flavor>"Let the land dwellers know the coast is no longer the border between our realms. A new age of empire has begun."</Flavor>
 <Artist>Ryan Pancoast</Artist>
 <Multiverseid>438449</Multiverseid>
+<Rulings>2021/03/19: Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a Merfolk you control may become lethal if Master of the Pearl Trident leaves the battlefield during that turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -172,7 +173,7 @@ When Inkfathom Divers enters the battlefield, look at the top four cards of your
 <No>10</No>
 <Name>Merfolk Looter</Name>
 <Type>Creature — Merfolk Rogue 1/1</Type>
-<ManaCost>1U (2)</ManaCost>
+<ManaCost>{1}{U}</ManaCost>
 <CardText>{T}: Draw a card, then discard a card.</CardText>
 <Flavor>Merfolk don't always know what they're looking for, but they're certain once they find it.</Flavor>
 <Artist>Austin Hsu</Artist>
@@ -189,14 +190,14 @@ When Inkfathom Divers enters the battlefield, look at the top four cards of your
 <SetId>DDT</SetId>
 <No>11</No>
 <Name>Merfolk Sovereign</Name>
-<Type>Creature — Merfolk 2/2</Type>
-<ManaCost>1UU (3)</ManaCost>
+<Type>Creature — Merfolk Noble 2/2</Type>
+<ManaCost>{1}{U}{U}</ManaCost>
 <CardText>Other Merfolk creatures you control get +1/+1.
 {T}: Target Merfolk creature can't be blocked this turn.</CardText>
 <Flavor>"Be like the sea: flow around that which is unmovable; for everything else, crash into it unrelentingly."</Flavor>
 <Artist>Jesper Ejsing</Artist>
 <Multiverseid>438451</Multiverseid>
-<Rulings>2009/10/01: To have any effect, <Merfolk Sovereign>'s activated ability must be activated before the declare blockers step begins. Once a Merfolk has become blocked, activating <Merfolk Sovereign>'s ability won't change that.</Rulings>
+<Rulings>2009/10/01: To have any effect, Merfolk Sovereign's activated ability must be activated before the declare blockers step begins. Once a Merfolk has become blocked, activating Merfolk Sovereign's ability won't change that.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -209,7 +210,7 @@ When Inkfathom Divers enters the battlefield, look at the top four cards of your
 <No>12</No>
 <Name>Merfolk Wayfinder</Name>
 <Type>Creature — Merfolk Scout 1/2</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>Flying
 When Merfolk Wayfinder enters the battlefield, reveal the top three cards of your library. Put all Island cards revealed this way into your hand and the rest on the bottom of your library in any order.</CardText>
 <Artist>Christopher Moeller</Artist>
@@ -227,7 +228,7 @@ When Merfolk Wayfinder enters the battlefield, reveal the top three cards of you
 <No>13</No>
 <Name>Merrow Reejerey</Name>
 <Type>Creature — Merfolk Soldier 2/2</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>Other Merfolk creatures you control get +1/+1.
 Whenever you cast a Merfolk spell, you may tap or untap target permanent.</CardText>
 <Flavor>Steady and silent as the deep current, the reejerey guides the course of the school.</Flavor>
@@ -245,7 +246,7 @@ Whenever you cast a Merfolk spell, you may tap or untap target permanent.</CardT
 <No>14</No>
 <Name>Mind Spring</Name>
 <Type>Sorcery</Type>
-<ManaCost>XUU (2)</ManaCost>
+<ManaCost>{X}{U}{U}</ManaCost>
 <CardText>Draw X cards.</CardText>
 <Flavor>Fragments of thought refract and multiply, surging in a geyser of dizzying insight.</Flavor>
 <Artist>Mark Zug</Artist>
@@ -262,7 +263,7 @@ Whenever you cast a Merfolk spell, you may tap or untap target permanent.</CardT
 <No>15</No>
 <Name>Misdirection</Name>
 <Type>Instant</Type>
-<ManaCost>3UU (5)</ManaCost>
+<ManaCost>{3}{U}{U}</ManaCost>
 <CardText>You may exile a blue card from your hand rather than pay this spell's mana cost.
 Change the target of target spell with a single target.</CardText>
 <Artist>Mathias Kollros</Artist>
@@ -286,12 +287,12 @@ Change the target of target spell with a single target.</CardText>
 <No>16</No>
 <Name>Rootwater Hunter</Name>
 <Type>Creature — Merfolk 1/1</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>{T}: Rootwater Hunter deals 1 damage to any target.</CardText>
 <Flavor>"Bitter water, vicious wave;
 Shadow-cold shallows, root-made maze.
 Home's angry embrace."
-—Rootwater Saga</Flavor>
+—*Rootwater Saga*</Flavor>
 <Artist>Brom</Artist>
 <Multiverseid>438456</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -305,12 +306,12 @@ Home's angry embrace."
 <No>17</No>
 <Name>Scroll Thief</Name>
 <Type>Creature — Merfolk Rogue 1/3</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>Whenever Scroll Thief deals combat damage to a player, draw a card.</CardText>
 <Flavor>Kapsho merfolk have infiltrated fortresses as remote as the desert citadel in Sunari in their relentless quest for arcane knowledge.</Flavor>
 <Artist>Alex Horley-Orlandelli</Artist>
 <Multiverseid>438457</Multiverseid>
-<Rulings>2010/08/15: The ability triggers just once each time <Scroll Thief> deals combat damage to a player, regardless of how much damage it deals.
+<Rulings>2010/08/15: The ability triggers just once each time Scroll Thief deals combat damage to a player, regardless of how much damage it deals.
 2010/08/15: The ability is mandatory. You must draw a card when it resolves.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -324,7 +325,7 @@ Home's angry embrace."
 <No>18</No>
 <Name>Streambed Aquitects</Name>
 <Type>Creature — Merfolk Scout 2/3</Type>
-<ManaCost>1UU (3)</ManaCost>
+<ManaCost>{1}{U}{U}</ManaCost>
 <CardText>{T}: Target Merfolk creature gets +1/+1 and gains islandwalk until end of turn. (It can't be blocked as long as defending player controls an Island.)
 {T}: Target land becomes an Island until end of turn.</CardText>
 <Artist>William O'Connor</Artist>
@@ -341,7 +342,7 @@ Home's angry embrace."
 <No>19</No>
 <Name>Tidal Courier</Name>
 <Type>Creature — Merfolk 1/2</Type>
-<ManaCost>3U (4)</ManaCost>
+<ManaCost>{3}{U}</ManaCost>
 <CardText>When Tidal Courier enters the battlefield, reveal the top four cards of your library. Put all Merfolk cards revealed this way into your hand and the rest on the bottom of your library in any order.
 {3}{U}: Tidal Courier gains flying until end of turn.</CardText>
 <Artist>Slawomir Maniak</Artist>
@@ -357,7 +358,7 @@ Home's angry embrace."
 <No>20</No>
 <Name>Tidal Warrior</Name>
 <Type>Creature — Merfolk Warrior 1/1</Type>
-<ManaCost>U (1)</ManaCost>
+<ManaCost>{U}</ManaCost>
 <CardText>{T}: Target land becomes an Island until end of turn.</CardText>
 <Flavor>The tide of battle favors those who can swim.</Flavor>
 <Artist>Daren Bader</Artist>
@@ -373,7 +374,7 @@ Home's angry embrace."
 <No>21</No>
 <Name>Tidal Wave</Name>
 <Type>Instant</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>Create a 5/5 blue Wall creature token with defender. Sacrifice it at the beginning of the next end step.</CardText>
 <Flavor>"The floor of the sea is paved with the shattered remnants of vessels that navigated its surface unwelcomed."
 —Thassa, god of the sea</Flavor>
@@ -390,13 +391,13 @@ Home's angry embrace."
 <No>22</No>
 <Name>Tidebinder Mage</Name>
 <Type>Creature — Merfolk Wizard 2/2</Type>
-<ManaCost>UU (2)</ManaCost>
+<ManaCost>{U}{U}</ManaCost>
 <CardText>When Tidebinder Mage enters the battlefield, tap target red or green creature an opponent controls. That creature doesn't untap during its controller's untap step for as long as you control Tidebinder Mage.</CardText>
 <Artist>John Severin Brassell</Artist>
 <Multiverseid>438462</Multiverseid>
-<Rulings>2013/07/01: If you lose control of <Tidebinder Mage> between when it entered the battlefield and when the ability resolves, the target creature will become tapped. However, it won't be affected by the other effect and will untap as normal during its controller's untap step.
-2013/07/01: If another player gains control of <Tidebinder Mage>, the creature will no longer be affected by the ability preventing it from untapping, even if you later regain control of <Tidebinder Mage>.
-2013/07/01: If you gain control of the creature that's being prevented from untapping, that creature won't untap during your untap step for as long as you control <Tidebinder Mage>.
+<Rulings>2013/07/01: If you lose control of Tidebinder Mage between when it entered the battlefield and when the ability resolves, the target creature will become tapped. However, it won't be affected by the other effect and will untap as normal during its controller's untap step.
+2013/07/01: If another player gains control of Tidebinder Mage, the creature will no longer be affected by the ability preventing it from untapping, even if you later regain control of Tidebinder Mage.
+2013/07/01: If you gain control of the creature that's being prevented from untapping, that creature won't untap during your untap step for as long as you control Tidebinder Mage.
 2013/07/01: The ability can target a tapped creature. If the targeted creature is already tapped when it resolves, that creature just remains tapped and doesn't untap during its controller's next untap step.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -410,7 +411,7 @@ Home's angry embrace."
 <No>23</No>
 <Name>Triton Tactics</Name>
 <Type>Instant</Type>
-<ManaCost>U (1)</ManaCost>
+<ManaCost>{U}</ManaCost>
 <CardText>Up to two target creatures each get +0/+3 until end of turn. Untap those creatures. At this turn's next end of combat, tap each creature that was blocked by one of those creatures this turn and it doesn't untap during its controller's next untap step.</CardText>
 <Artist>Jack Wang</Artist>
 <Multiverseid>438463</Multiverseid>
@@ -426,7 +427,7 @@ Home's angry embrace."
 <No>24</No>
 <Name>Wake Thrasher</Name>
 <Type>Creature — Merfolk Soldier 1/1</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>Whenever a permanent you control becomes untapped, Wake Thrasher gets +1/+1 until end of turn.</CardText>
 <Flavor>Anyone who thinks merrows have more brains than brawn has never been run over by one.</Flavor>
 <Artist>Jesper Ejsing</Artist>
@@ -444,7 +445,7 @@ Home's angry embrace."
 <No>25</No>
 <Name>Cold-Eyed Selkie</Name>
 <Type>Creature — Merfolk Rogue 1/1</Type>
-<ManaCost>1{G/U}{G/U} (3)</ManaCost>
+<ManaCost>{1}{G/U}{G/U}</ManaCost>
 <CardText>Islandwalk (This creature can't be blocked as long as defending player controls an Island.)
 Whenever Cold-Eyed Selkie deals combat damage to a player, you may draw that many cards.</CardText>
 <Flavor>She follows the old tributaries built when merrows still shaped the tides.</Flavor>
@@ -504,7 +505,7 @@ Cycling {U} ({U}, Discard this card: Draw a card.)</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Merfolk vs. Goblins</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -519,7 +520,7 @@ Cycling {U} ({U}, Discard this card: Draw a card.)</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Merfolk vs. Goblins</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -534,7 +535,7 @@ Cycling {U} ({U}, Discard this card: Draw a card.)</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Merfolk vs. Goblins</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -549,7 +550,7 @@ Cycling {U} ({U}, Discard this card: Draw a card.)</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Merfolk vs. Goblins</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -557,14 +558,14 @@ Cycling {U} ({U}, Discard this card: Draw a card.)</CardText>
 <No>32</No>
 <Name>Warren Instigator</Name>
 <Type>Creature — Goblin Berserker 1/1</Type>
-<ManaCost>RR (2)</ManaCost>
+<ManaCost>{R}{R}</ManaCost>
 <CardText>Double strike
 Whenever Warren Instigator deals damage to an opponent, you may put a Goblin creature card from your hand onto the battlefield.</CardText>
 <Flavor>There is always a rabble to be roused.</Flavor>
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>438472</Multiverseid>
-<Rulings>2009/10/01: <Warren Instigator>'s ability triggers when it deals any kind of damage to an opponent, not just combat damage.
-2009/10/01: If <Warren Instigator> attacks an opponent and isn't blocked, its double strike ability will cause it to deal combat damage to that opponent twice, once during each combat damage step. Its triggered ability will thus trigger twice: <Warren Instigator> deals first-strike combat damage, its ability triggers and resolves, it deals regular combat damage, and its ability triggers and resolves again.</Rulings>
+<Rulings>2009/10/01: Warren Instigator's ability triggers when it deals any kind of damage to an opponent, not just combat damage.
+2009/10/01: If Warren Instigator attacks an opponent and isn't blocked, its double strike ability will cause it to deal combat damage to that opponent twice, once during each combat damage step. Its triggered ability will thus trigger twice: Warren Instigator deals first-strike combat damage, its ability triggers and resolves, it deals regular combat damage, and its ability triggers and resolves again.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -577,13 +578,13 @@ Whenever Warren Instigator deals damage to an opponent, you may put a Goblin cre
 <No>33</No>
 <Name>Battle Squadron</Name>
 <Type>Creature — Goblin */*</Type>
-<ManaCost>3RR (5)</ManaCost>
+<ManaCost>{3}{R}{R}</ManaCost>
 <CardText>Flying
 Battle Squadron's power and toughness are each equal to the number of creatures you control.</CardText>
 <Flavor>The goblins made an unruly pile with military precision.</Flavor>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>438473</Multiverseid>
-<Rulings>2016/06/08: <Battle Squadron>'s last ability applies in all zones. While it's on the battlefield, it counts itself, so it'll be at least 1/1.</Rulings>
+<Rulings>2016/06/08: Battle Squadron's last ability applies in all zones. While it's on the battlefield, it counts itself, so it'll be at least 1/1.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Duel Decks: Merfolk vs. Goblins</Set>
@@ -595,7 +596,7 @@ Battle Squadron's power and toughness are each equal to the number of creatures 
 <No>34</No>
 <Name>Boggart Brute</Name>
 <Type>Creature — Goblin Warrior 3/2</Type>
-<ManaCost>2R (3)</ManaCost>
+<ManaCost>{2}{R}</ManaCost>
 <CardText>Menace (This creature can't be blocked except by two or more creatures.)</CardText>
 <Flavor>He has the biggest bashing stick, so it's a safe bet he's the leader.</Flavor>
 <Artist>Igor Kieryluk</Artist>
@@ -613,7 +614,7 @@ Battle Squadron's power and toughness are each equal to the number of creatures 
 <No>35</No>
 <Name>Brute Strength</Name>
 <Type>Instant</Type>
-<ManaCost>1R (2)</ManaCost>
+<ManaCost>{1}{R}</ManaCost>
 <CardText>Target creature gets +3/+1 and gains trample until end of turn.</CardText>
 <Flavor>It's not the size of the rock. It's how badly you want to lift it.</Flavor>
 <Artist>Wayne Reynolds</Artist>
@@ -630,12 +631,12 @@ Battle Squadron's power and toughness are each equal to the number of creatures 
 <No>36</No>
 <Name>Cleaver Riot</Name>
 <Type>Sorcery</Type>
-<ManaCost>4R (5)</ManaCost>
+<ManaCost>{4}{R}</ManaCost>
 <CardText>Creatures you control gain double strike until end of turn. (They deal both first-strike and regular combat damage.)</CardText>
 <Flavor>Measure once, cut twice.</Flavor>
 <Artist>Dave Kendall</Artist>
 <Multiverseid>438476</Multiverseid>
-<Rulings>2012/07/01: <Cleaver Riot> affects only creatures you control at the time it resolves. It won't affect creatures that come under your control later in the turn.</Rulings>
+<Rulings>2012/07/01: Cleaver Riot affects only creatures you control at the time it resolves. It won't affect creatures that come under your control later in the turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -648,9 +649,9 @@ Battle Squadron's power and toughness are each equal to the number of creatures 
 <No>37</No>
 <Name>Ember Hauler</Name>
 <Type>Creature — Goblin 2/2</Type>
-<ManaCost>RR (2)</ManaCost>
+<ManaCost>{R}{R}</ManaCost>
 <CardText>{1}, Sacrifice Ember Hauler: It deals 2 damage to any target.</CardText>
-<Flavor>Flurk's crude goblin language didn't differentiate between "I bring the flame" and "I am the flame."</Flavor>
+<Flavor>Flurk's crude goblin language didn't differentiate between "I *bring* the flame" and "I *am* the flame."</Flavor>
 <Artist>Steve Prescott</Artist>
 <Multiverseid>438477</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -665,7 +666,7 @@ Battle Squadron's power and toughness are each equal to the number of creatures 
 <No>38</No>
 <Name>Foundry Street Denizen</Name>
 <Type>Creature — Goblin Warrior 1/1</Type>
-<ManaCost>R (1)</ManaCost>
+<ManaCost>{R}</ManaCost>
 <CardText>Whenever another red creature enters the battlefield under your control, Foundry Street Denizen gets +1/+0 until end of turn.</CardText>
 <Flavor>After the Foundry Street riot, Arrester Hulbein tried to ban bludgeons. Which, inevitably, resulted in another riot.</Flavor>
 <Artist>Raoul Vitale</Artist>
@@ -682,7 +683,7 @@ Battle Squadron's power and toughness are each equal to the number of creatures 
 <No>39</No>
 <Name>Gempalm Incinerator</Name>
 <Type>Creature — Goblin 2/1</Type>
-<ManaCost>2R (3)</ManaCost>
+<ManaCost>{2}{R}</ManaCost>
 <CardText>Cycling {1}{R} ({1}{R}, Discard this card: Draw a card.)
 When you cycle Gempalm Incinerator, you may have it deal X damage to target creature, where X is the number of Goblins on the battlefield.</CardText>
 <Artist>Mark Behm</Artist>
@@ -703,13 +704,13 @@ When you cycle Gempalm Incinerator, you may have it deal X damage to target crea
 <No>40</No>
 <Name>Ghostfire</Name>
 <Type>Instant</Type>
-<ManaCost>2R (3)</ManaCost>
+<ManaCost>{2}{R}</ManaCost>
 <CardText>Ghostfire is colorless.
 Ghostfire deals 3 damage to any target.</CardText>
 <Flavor>Only those gifted with the eye of Ugin, the spirit dragon, can see his fiery breath.</Flavor>
 <Artist>Cyril Van Der Haegen</Artist>
 <Multiverseid>438480</Multiverseid>
-<Rulings>2007/05/01: <Ghostfire> is colorless in all zones. Its damage comes from a colorless source.</Rulings>
+<Rulings>2007/05/01: Ghostfire is colorless in all zones. Its damage comes from a colorless source.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -722,7 +723,7 @@ Ghostfire deals 3 damage to any target.</CardText>
 <No>41</No>
 <Name>Goblin Chieftain</Name>
 <Type>Creature — Goblin 2/2</Type>
-<ManaCost>1RR (3)</ManaCost>
+<ManaCost>{1}{R}{R}</ManaCost>
 <CardText>Haste (This creature can attack and {T} as soon as it comes under your control.)
 Other Goblin creatures you control get +1/+1 and have haste.</CardText>
 <Flavor>"It's time for the 'Smash, Smash' song!"</Flavor>
@@ -740,7 +741,7 @@ Other Goblin creatures you control get +1/+1 and have haste.</CardText>
 <No>42</No>
 <Name>Goblin Diplomats</Name>
 <Type>Creature — Goblin 2/1</Type>
-<ManaCost>1R (2)</ManaCost>
+<ManaCost>{1}{R}</ManaCost>
 <CardText>{T}: Each creature attacks this turn if able.</CardText>
 <Flavor>When you need to convey that special kind of message.</Flavor>
 <Artist>Izzy</Artist>
@@ -760,7 +761,7 @@ Other Goblin creatures you control get +1/+1 and have haste.</CardText>
 <No>43</No>
 <Name>Goblin Glory Chaser</Name>
 <Type>Creature — Goblin Warrior 1/1</Type>
-<ManaCost>R (1)</ManaCost>
+<ManaCost>{R}</ManaCost>
 <CardText>Renown 1 (When this creature deals combat damage to a player, if it isn't renowned, put a +1/+1 counter on it and it becomes renowned.)
 As long as Goblin Glory Chaser is renowned, it has menace. (It can't be blocked except by two or more creatures.)</CardText>
 <Artist>Greg Staples</Artist>
@@ -781,7 +782,7 @@ As long as Goblin Glory Chaser is renowned, it has menace. (It can't be blocked 
 <No>44</No>
 <Name>Goblin Goon</Name>
 <Type>Creature — Goblin Mutant 6/6</Type>
-<ManaCost>3R (4)</ManaCost>
+<ManaCost>{3}{R}</ManaCost>
 <CardText>Goblin Goon can't attack unless you control more creatures than defending player.
 Goblin Goon can't block unless you control more creatures than attacking player.</CardText>
 <Artist>Steve Prescott</Artist>
@@ -797,15 +798,15 @@ Goblin Goon can't block unless you control more creatures than attacking player.
 <No>45</No>
 <Name>Goblin Grenade</Name>
 <Type>Sorcery</Type>
-<ManaCost>R (1)</ManaCost>
+<ManaCost>{R}</ManaCost>
 <CardText>As an additional cost to cast this spell, sacrifice a Goblin.
 Goblin Grenade deals 5 damage to any target.</CardText>
 <Flavor>Don't underestimate the aerodynamic qualities of the common goblin.</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>438485</Multiverseid>
 <Rulings>2004/10/04: You can't sacrifice more than one Goblin to get a greater effect.
-2011/09/22: Players can only respond once <Goblin Grenade> has been cast and all its costs have been paid. No one can try and destroy the Goblin to prevent you from casting <Goblin Grenade>.
-2011/09/22: The Goblin you sacrifice to cast <Goblin Grenade> doesn't have to be a creature. For example, you could sacrifice Boggart Shenanigans (a tribal enchantment with the subtype Goblin).</Rulings>
+2011/09/22: Players can only respond once Goblin Grenade has been cast and all its costs have been paid. No one can try and destroy the Goblin to prevent you from casting Goblin Grenade.
+2011/09/22: The Goblin you sacrifice to cast Goblin Grenade doesn't have to be a creature. For example, you could sacrifice Boggart Shenanigans (a tribal enchantment with the subtype Goblin).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -818,13 +819,13 @@ Goblin Grenade deals 5 damage to any target.</CardText>
 <No>46</No>
 <Name>Goblin Rabblemaster</Name>
 <Type>Creature — Goblin Warrior 2/2</Type>
-<ManaCost>2R (3)</ManaCost>
+<ManaCost>{2}{R}</ManaCost>
 <CardText>Other Goblin creatures you control attack each combat if able.
 At the beginning of combat on your turn, create a 1/1 red Goblin creature token with haste.
 Whenever Goblin Rabblemaster attacks, it gets +1/+0 until end of turn for each other attacking Goblin.</CardText>
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>438486</Multiverseid>
-<Rulings>2014/07/18: Although <Goblin Rabblemaster> doesn't force itself to attack, if you control two of them, they'll force each other to attack if able.
+<Rulings>2014/07/18: Although Goblin Rabblemaster doesn't force itself to attack, if you control two of them, they'll force each other to attack if able.
 2014/07/18: If, during your declare attackers step, a creature that must attack if able is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under your control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack, you're not forced to pay that cost, so it doesn't have to attack in that case either.
 2014/07/18: The number of attacking Goblins is counted as the last ability resolves, and the bonus is locked in at that time.</Rulings>
 <Vintage>Legal</Vintage>
@@ -839,14 +840,14 @@ Whenever Goblin Rabblemaster attacks, it gets +1/+0 until end of turn for each o
 <No>47</No>
 <Name>Goblin Razerunners</Name>
 <Type>Creature — Goblin Warrior 3/4</Type>
-<ManaCost>2RR (4)</ManaCost>
+<ManaCost>{2}{R}{R}</ManaCost>
 <CardText>{1}{R}, Sacrifice a land: Put a +1/+1 counter on Goblin Razerunners.
 At the beginning of your end step, you may have Goblin Razerunners deal damage equal to the number of +1/+1 counters on it to target player or planeswalker.</CardText>
 <Flavor>Finding themselves in a new and unexplored world, they immediately set it on fire.</Flavor>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>438487</Multiverseid>
-<Rulings>2009/02/01: You don't count how many +1/+1 counters are on <Goblin Razerunners> until its triggered ability resolves.
-2009/02/01: If <Goblin Razerunners> leaves the battlefield after its ability triggers but before it resolves, the amount of damage it deals is equal to the number of +1/+1 counters that were on it as it last existed on the battlefield.</Rulings>
+<Rulings>2009/02/01: You don't count how many +1/+1 counters are on Goblin Razerunners until its triggered ability resolves.
+2009/02/01: If Goblin Razerunners leaves the battlefield after its ability triggers but before it resolves, the amount of damage it deals is equal to the number of +1/+1 counters that were on it as it last existed on the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -859,7 +860,7 @@ At the beginning of your end step, you may have Goblin Razerunners deal damage e
 <No>48</No>
 <Name>Goblin Ringleader</Name>
 <Type>Creature — Goblin 2/2</Type>
-<ManaCost>3R (4)</ManaCost>
+<ManaCost>{3}{R}</ManaCost>
 <CardText>Haste (This creature can attack and {T} as soon as it comes under your control.)
 When Goblin Ringleader enters the battlefield, reveal the top four cards of your library. Put all Goblin cards revealed this way into your hand and the rest on the bottom of your library in any order.</CardText>
 <Artist>Gabor Szikszai</Artist>
@@ -877,7 +878,7 @@ When Goblin Ringleader enters the battlefield, reveal the top four cards of your
 <No>49</No>
 <Name>Goblin Tunneler</Name>
 <Type>Creature — Goblin Rogue 1/1</Type>
-<ManaCost>1R (2)</ManaCost>
+<ManaCost>{1}{R}</ManaCost>
 <CardText>{T}: Target creature with power 2 or less can't be blocked this turn.</CardText>
 <Flavor>"The best way over the mountain is through."</Flavor>
 <Artist>Jesper Ejsing</Artist>
@@ -896,7 +897,7 @@ When Goblin Ringleader enters the battlefield, reveal the top four cards of your
 <No>50</No>
 <Name>Goblin Wardriver</Name>
 <Type>Creature — Goblin Warrior 2/2</Type>
-<ManaCost>RR (2)</ManaCost>
+<ManaCost>{R}{R}</ManaCost>
 <CardText>Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)</CardText>
 <Flavor>"A true warrior fights with whatever's handy."
 —Qerk of the Secret Warren</Flavor>
@@ -914,7 +915,7 @@ When Goblin Ringleader enters the battlefield, reveal the top four cards of your
 <No>51</No>
 <Name>Hordeling Outburst</Name>
 <Type>Sorcery</Type>
-<ManaCost>1RR (3)</ManaCost>
+<ManaCost>{1}{R}{R}</ManaCost>
 <CardText>Create three 1/1 red Goblin creature tokens.</CardText>
 <Flavor>"Leave no scraps, lest you attract pests."
 —Mardu threat</Flavor>
@@ -932,7 +933,7 @@ When Goblin Ringleader enters the battlefield, reveal the top four cards of your
 <No>52</No>
 <Name>Krenko, Mob Boss</Name>
 <Type>Legendary Creature — Goblin Warrior 3/3</Type>
-<ManaCost>2RR (4)</ManaCost>
+<ManaCost>{2}{R}{R}</ManaCost>
 <CardText>{T}: Create X 1/1 red Goblin creature tokens, where X is the number of Goblins you control.</CardText>
 <Flavor>"He displays a perverse charisma fueled by avarice. Highly dangerous. Recommend civil sanctions."
 —Agmand Sarv, Azorius hussar</Flavor>
@@ -951,7 +952,7 @@ When Goblin Ringleader enters the battlefield, reveal the top four cards of your
 <No>53</No>
 <Name>Krenko's Command</Name>
 <Type>Sorcery</Type>
-<ManaCost>1R (2)</ManaCost>
+<ManaCost>{1}{R}</ManaCost>
 <CardText>Create two 1/1 red Goblin creature tokens.</CardText>
 <Flavor>Goblins are eager to follow orders, especially when those orders involve stealing, hurting, annoying, eating, destroying, or swearing.</Flavor>
 <Artist>Karl Kopinski</Artist>
@@ -968,7 +969,7 @@ When Goblin Ringleader enters the battlefield, reveal the top four cards of your
 <No>54</No>
 <Name>Relentless Assault</Name>
 <Type>Sorcery</Type>
-<ManaCost>2RR (4)</ManaCost>
+<ManaCost>{2}{R}{R}</ManaCost>
 <CardText>Untap all creatures that attacked this turn. After this main phase, there is an additional combat phase followed by an additional main phase.</CardText>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>438494</Multiverseid>
@@ -988,7 +989,7 @@ When Goblin Ringleader enters the battlefield, reveal the top four cards of your
 <No>55</No>
 <Name>Tarfire</Name>
 <Type>Tribal Instant — Goblin</Type>
-<ManaCost>R (1)</ManaCost>
+<ManaCost>{R}</ManaCost>
 <CardText>Tarfire deals 2 damage to any target.</CardText>
 <Flavor>"After Auntie brushed the soot from her eyes, she discovered something wonderful: the fire had turned the goat into something that smelled delicious."
 —A tale of Auntie Grub</Flavor>
@@ -1006,13 +1007,13 @@ When Goblin Ringleader enters the battlefield, reveal the top four cards of your
 <No>56</No>
 <Name>Brittle Effigy</Name>
 <Type>Artifact</Type>
-<ManaCost>1 (1)</ManaCost>
+<ManaCost>{1}</ManaCost>
 <CardText>{4}, {T}, Exile Brittle Effigy: Exile target creature.</CardText>
 <Flavor>"In my early experiments in phylactery, I found that fragile forms have their uses."
 —Rocati, Duke of Martyne</Flavor>
 <Artist>John Avon</Artist>
 <Multiverseid>438496</Multiverseid>
-<Rulings>2010/08/15: <Brittle Effigy> is exiled as a cost to activate its ability, not as part of its effect. If the targeted creature is an illegal target by the time the ability would resolve, the ability doesn't resolve, but <Brittle Effigy> remains exiled.</Rulings>
+<Rulings>2010/08/15: Brittle Effigy is exiled as a cost to activate its ability, not as part of its effect. If the targeted creature is an illegal target by the time the ability would resolve, the ability doesn't resolve, but Brittle Effigy remains exiled.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1025,12 +1026,12 @@ When Goblin Ringleader enters the battlefield, reveal the top four cards of your
 <No>57</No>
 <Name>Goblin Charbelcher</Name>
 <Type>Artifact</Type>
-<ManaCost>4 (4)</ManaCost>
+<ManaCost>{4}</ManaCost>
 <CardText>{3}, {T}: Reveal cards from the top of your library until you reveal a land card. Goblin Charbelcher deals damage equal to the number of nonland cards revealed this way to any target. If the revealed land card was a Mountain, Goblin Charbelcher deals double that damage instead. Put the revealed cards on the bottom of your library in any order.</CardText>
 <Artist>Jesper Ejsing</Artist>
 <Multiverseid>438497</Multiverseid>
-<Rulings>2016/06/08: You must choose a target for <Goblin Charbelcher>'s ability as you activate it, before you reveal any cards.
-2016/06/08: If you reveal no land cards, <Goblin Charbelcher> deals damage equal to the number of cards revealed, and then you may order your library as you like.</Rulings>
+<Rulings>2016/06/08: You must choose a target for Goblin Charbelcher's ability as you activate it, before you reveal any cards.
+2016/06/08: If you reveal no land cards, Goblin Charbelcher deals damage equal to the number of cards revealed, and then you may order your library as you like.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1085,7 +1086,7 @@ Cycling {R} ({R}, Discard this card: Draw a card.)</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Merfolk vs. Goblins</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -1100,7 +1101,7 @@ Cycling {R} ({R}, Discard this card: Draw a card.)</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Merfolk vs. Goblins</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -1115,7 +1116,7 @@ Cycling {R} ({R}, Discard this card: Draw a card.)</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Merfolk vs. Goblins</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -1130,6 +1131,6 @@ Cycling {R} ({R}, Discard this card: Draw a card.)</CardText>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Merfolk vs. Goblins</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 

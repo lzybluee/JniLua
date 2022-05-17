@@ -3,13 +3,13 @@
 <No>1</No>
 <Name>Ajani Vengeant</Name>
 <Type>Legendary Planeswalker — Ajani (Loyalty: 3)</Type>
-<ManaCost>2RW (4)</ManaCost>
-<CardText>+1: Target permanent doesn't untap during its controller's next untap step.
--2: Ajani Vengeant deals 3 damage to any target and you gain 3 life.
--7: Destroy all lands target player controls.</CardText>
+<ManaCost>{2}{R}{W}</ManaCost>
+<CardText>[+1]: Target permanent doesn't untap during its controller's next untap step.
+[-2]: Ajani Vengeant deals 3 damage to any target and you gain 3 life.
+[-7]: Destroy all lands target player controls.</CardText>
 <Artist>Izzy</Artist>
 <Multiverseid>266299</Multiverseid>
-<Rulings>2008/10/01: You may target any permanent with <Ajani Vengeant>'s first ability. It doesn't have to be tapped.
+<Rulings>2008/10/01: You may target any permanent with Ajani Vengeant's first ability. It doesn't have to be tapped.
 2008/10/01: The first ability tracks the permanent, but not its controller. If the permanent changes controllers before its first controller's next untap step has come around, then it won't untap during its new controller's next untap step.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -23,7 +23,7 @@
 <No>2</No>
 <Name>Kird Ape</Name>
 <Type>Creature — Ape 1/1</Type>
-<ManaCost>R (1)</ManaCost>
+<ManaCost>{R}</ManaCost>
 <CardText>Kird Ape gets +1/+2 as long as you control a Forest.</CardText>
 <Flavor>Apes can be gentle, contemplative beasts—but context is everything.</Flavor>
 <Artist>Terese Nielsen</Artist>
@@ -40,15 +40,14 @@
 <No>3</No>
 <Name>Essence Warden</Name>
 <Type>Creature — Elf Shaman 1/1</Type>
-<ManaCost>G (1)</ManaCost>
+<ManaCost>{G}</ManaCost>
 <CardText>Whenever another creature enters the battlefield, you gain 1 life.</CardText>
 <Flavor>"The more our numbers grow, the more I gain hope that Volrath and his cursed stronghold will one day fall."
 —Eladamri, Lord of Leaves</Flavor>
 <Artist>Terese Nielsen</Artist>
 <Multiverseid>249374</Multiverseid>
 <Rulings>2004/10/04: Does not trigger on a card on the battlefield being changed into a creature.
-2004/10/04: The ability will not trigger on itself entering the battlefield, but it will trigger on any other creature that is put onto the battlefield at the same time.
-2007/02/01: This is the timeshifted version of Soul Warden.</Rulings>
+2004/10/04: The ability will not trigger on itself entering the battlefield, but it will trigger on any other creature that is put onto the battlefield at the same time.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -61,13 +60,13 @@
 <No>4</No>
 <Name>Wild Nacatl</Name>
 <Type>Creature — Cat Warrior 1/1</Type>
-<ManaCost>G (1)</ManaCost>
+<ManaCost>{G}</ManaCost>
 <CardText>Wild Nacatl gets +1/+1 as long as you control a Mountain.
 Wild Nacatl gets +1/+1 as long as you control a Plains.</CardText>
 <Flavor>"The Cloud Nacatl sit and think, a bunch of soft paws. We are the Claws of Marisi, stalking, pouncing, drawing blood."</Flavor>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>249401</Multiverseid>
-<Rulings>2008/10/01: <Wild Nacatl>'s abilities check for lands with the subtypes Mountain and Plains. Those lands don't need to be named Mountain and Plains. <Wild Nacatl> will get both bonuses if those two subtypes are contained among the lands you control, even if they're from the same land (such as Plateau or Sacred Foundry).</Rulings>
+<Rulings>2008/10/01: Wild Nacatl's abilities check for lands with the subtypes Mountain and Plains. Those lands don't need to be named Mountain and Plains. Wild Nacatl will get both bonuses if those two subtypes are contained among the lands you control, even if they're from the same land (such as Plateau or Sacred Foundry).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -80,12 +79,12 @@ Wild Nacatl gets +1/+1 as long as you control a Plains.</CardText>
 <No>5</No>
 <Name>Loam Lion</Name>
 <Type>Creature — Cat 1/1</Type>
-<ManaCost>W (1)</ManaCost>
+<ManaCost>{W}</ManaCost>
 <CardText>Loam Lion gets +1/+2 as long as you control a Forest.</CardText>
 <Flavor>In Zendikar, today's grassland could be tomorrow's jungle, and hunting grounds change as quickly as the weather.</Flavor>
 <Artist>Daniel Ljunggren</Artist>
 <Multiverseid>249377</Multiverseid>
-<Rulings>2010/03/01: <Loam Lion> either gets +1/+2 or it doesn't. It doesn't get the bonus for each Forest you control.</Rulings>
+<Rulings>2010/03/01: Loam Lion either gets +1/+2 or it doesn't. It doesn't get the bonus for each Forest you control.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -98,7 +97,7 @@ Wild Nacatl gets +1/+1 as long as you control a Plains.</CardText>
 <No>6</No>
 <Name>Canyon Wildcat</Name>
 <Type>Creature — Cat 2/1</Type>
-<ManaCost>1R (2)</ManaCost>
+<ManaCost>{1}{R}</ManaCost>
 <CardText>Mountainwalk (This creature can't be blocked as long as defending player controls a Mountain.)</CardText>
 <Flavor>"Relative of yours?" Ertai teased. Mirri simply sneered.</Flavor>
 <Artist>Gary Leach</Artist>
@@ -115,7 +114,7 @@ Wild Nacatl gets +1/+1 as long as you control a Plains.</CardText>
 <No>7</No>
 <Name>Jade Mage</Name>
 <Type>Creature — Human Shaman 2/1</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>{2}{G}: Create a 1/1 green Saproling creature token.</CardText>
 <Flavor>"We are one with the wild things. Life blooms from our fingertips and nature responds to our summons."
 —Jade creed</Flavor>
@@ -132,9 +131,9 @@ Wild Nacatl gets +1/+1 as long as you control a Plains.</CardText>
 <SetId>DDH</SetId>
 <No>8</No>
 <Name>Sylvan Ranger</Name>
-<Type>Creature — Elf Scout 1/1</Type>
-<ManaCost>1G (2)</ManaCost>
-<CardText>When Sylvan Ranger enters the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.</CardText>
+<Type>Creature — Elf Scout Ranger 1/1</Type>
+<ManaCost>{1}{G}</ManaCost>
+<CardText>When Sylvan Ranger enters the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.</CardText>
 <Flavor>"Not all paths are found on the forest floor."</Flavor>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>249399</Multiverseid>
@@ -150,17 +149,17 @@ Wild Nacatl gets +1/+1 as long as you control a Plains.</CardText>
 <No>9</No>
 <Name>Ajani's Pridemate</Name>
 <Type>Creature — Cat Soldier 2/2</Type>
-<ManaCost>1W (2)</ManaCost>
+<ManaCost>{1}{W}</ManaCost>
 <CardText>Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate.</CardText>
 <Flavor>"When one of us prospers, the pride prospers."
 —Jazal Goldmane</Flavor>
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>249413</Multiverseid>
-<Rulings>2019/05/03: The ability of <Ajani's Pridemate> triggers just once for each life-gaining event, whether it's 1 life from Ajani's Welcome or 2 life from Battlefield Promotion.
-2019/05/03: If <Ajani's Pridemate> is dealt lethal damage at the same time that you gain life, it won't receive a counter from its ability in time to save it.
-2019/05/03: Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, <Ajani's Pridemate>'s ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
-2019/05/03: If you gain an amount of life "for each" of something, that life is gained as one event and the ability of <Ajani's Pridemate> triggers only once.
-2019/05/03: In a Two-Headed Giant game, life gained by your teammate won't cause the ability to trigger, even though it caused your team's life total to increase.</Rulings>
+<Rulings>2021/03/19: The ability of Ajani's Pridemate triggers just once for each life-gaining event, whether it's 1 life from Paradise Plume or 2 life from Mycologist.
+2021/03/19: If Ajani's Pridemate is dealt lethal damage at the same time that you gain life, it won't receive a counter from its ability in time to save it.
+2021/03/19: Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, Ajani's Pridemate's ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+2021/03/19: If you gain an amount of life "for each" of something, that life is gained as one event and the ability of Ajani's Pridemate triggers only once.
+2021/03/19: In a Two-Headed Giant game, life gained by your teammate won't cause the ability to trigger, even though it caused your team's life total to increase.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -173,12 +172,15 @@ Wild Nacatl gets +1/+1 as long as you control a Plains.</CardText>
 <No>10</No>
 <Name>Qasali Pridemage</Name>
 <Type>Creature — Cat Wizard 2/2</Type>
-<ManaCost>GW (2)</ManaCost>
+<ManaCost>{G}{W}</ManaCost>
 <CardText>Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)
 {1}, Sacrifice Qasali Pridemage: Destroy target artifact or enchantment.</CardText>
 <Flavor>An elder in one pride, of the Sigiled caste in another.</Flavor>
 <Artist>Chris Rahn</Artist>
 <Multiverseid>249405</Multiverseid>
+<Rulings>2021/03/19: If you declare exactly one creature as an attacker, each exalted ability on each permanent you control (including, perhaps, the attacking creature itself) will trigger.
+2021/03/19: You must attack with exactly one creature for exalted abilities to trigger. Exalted abilities won't trigger if you attack a player with one creature and a planeswalker with another, for example, or if you attack with two creatures but one is removed from combat.
+2021/03/19: Some effects put creatures onto the battlefield attacking. Since those creatures were never declared as attackers, they're ignored by exalted abilities. They won't cause exalted abilities to trigger. If any exalted abilities have already triggered (because exactly one creature was declared as an attacker), those abilities will resolve as normal even though there may now be multiple attackers.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -191,7 +193,7 @@ Wild Nacatl gets +1/+1 as long as you control a Plains.</CardText>
 <No>11</No>
 <Name>Grazing Gladehart</Name>
 <Type>Creature — Antelope 2/2</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>Landfall — Whenever a land enters the battlefield under your control, you may gain 2 life.</CardText>
 <Flavor>"Don't be fooled. If it were as docile as it looks, it would've died off long ago."
 —Yon Basrel, Oran-Rief survivalist</Flavor>
@@ -211,7 +213,7 @@ Wild Nacatl gets +1/+1 as long as you control a Plains.</CardText>
 <No>12</No>
 <Name>Fleetfoot Panther</Name>
 <Type>Creature — Cat 3/4</Type>
-<ManaCost>1GW (3)</ManaCost>
+<ManaCost>{1}{G}{W}</ManaCost>
 <CardText>Flash
 When Fleetfoot Panther enters the battlefield, return a green or white creature you control to its owner's hand.</CardText>
 <Artist>Mark Brill</Artist>
@@ -228,7 +230,7 @@ When Fleetfoot Panther enters the battlefield, return a green or white creature 
 <No>13</No>
 <Name>Woolly Thoctar</Name>
 <Type>Creature — Beast 5/4</Type>
-<ManaCost>RGW (3)</ManaCost>
+<ManaCost>{R}{G}{W}</ManaCost>
 <Flavor>One of the most ferocious and deadly gargantuans, the thoctar never sees its worshippers, but it often awakens surrounded by gifts and sacrifices.</Flavor>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>249368</Multiverseid>
@@ -244,7 +246,7 @@ When Fleetfoot Panther enters the battlefield, return a green or white creature 
 <No>14</No>
 <Name>Briarhorn</Name>
 <Type>Creature — Elemental 3/3</Type>
-<ManaCost>3G (4)</ManaCost>
+<ManaCost>{3}{G}</ManaCost>
 <CardText>Flash
 When Briarhorn enters the battlefield, target creature gets +3/+3 until end of turn.
 Evoke {1}{G} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)</CardText>
@@ -263,7 +265,7 @@ Evoke {1}{G} (You may cast this spell for its evoke cost. If you do, it's sacrif
 <No>15</No>
 <Name>Loxodon Hierarch</Name>
 <Type>Creature — Elephant Cleric 4/4</Type>
-<ManaCost>2GW (4)</ManaCost>
+<ManaCost>{2}{G}{W}</ManaCost>
 <CardText>When Loxodon Hierarch enters the battlefield, you gain 4 life.
 {G}{W}, Sacrifice Loxodon Hierarch: Regenerate each creature you control.</CardText>
 <Flavor>"I have lived long, and I remember how this city once was. If my death serves to bring back the Ravnica in my memory, then so be it."</Flavor>
@@ -282,13 +284,13 @@ Evoke {1}{G} (You may cast this spell for its evoke cost. If you do, it's sacrif
 <No>16</No>
 <Name>Spitemare</Name>
 <Type>Creature — Elemental 3/3</Type>
-<ManaCost>2{R/W}{R/W} (4)</ManaCost>
+<ManaCost>{2}{R/W}{R/W}</ManaCost>
 <CardText>Whenever Spitemare is dealt damage, it deals that much damage to any target.</CardText>
 <Flavor>"I knew a creature carved from a dream of wild freedom. Any attempt to leash or exploit it failed, and at terrible cost."
 —Ashling</Flavor>
 <Artist>Matt Cavotta</Artist>
 <Multiverseid>249388</Multiverseid>
-<Rulings>2008/08/01: Even if the amount of damage dealt to <Spitemare> is enough to destroy it, <Spitemare>'s ability will trigger and it will deal the full amount of damage to the target.</Rulings>
+<Rulings>2008/08/01: Even if the amount of damage dealt to Spitemare is enough to destroy it, Spitemare's ability will trigger and it will deal the full amount of damage to the target.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -301,7 +303,7 @@ Evoke {1}{G} (You may cast this spell for its evoke cost. If you do, it's sacrif
 <No>17</No>
 <Name>Marisi's Twinclaws</Name>
 <Type>Creature — Cat Warrior 2/4</Type>
-<ManaCost>2{R/W}G (4)</ManaCost>
+<ManaCost>{2}{R/W}{G}</ManaCost>
 <CardText>Double strike</CardText>
 <Flavor>"Looks like we're completely outnumbered."
 "Lucky for us. I thought we'd be bored."</Flavor>
@@ -319,7 +321,7 @@ Evoke {1}{G} (You may cast this spell for its evoke cost. If you do, it's sacrif
 <No>18</No>
 <Name>Ageless Entity</Name>
 <Type>Creature — Elemental 4/4</Type>
-<ManaCost>3GG (5)</ManaCost>
+<ManaCost>{3}{G}{G}</ManaCost>
 <CardText>Whenever you gain life, put that many +1/+1 counters on Ageless Entity.</CardText>
 <Flavor>Tel-Jilad's sworn protectors are the trolls, yet more fearsome protectors were created by the Tangle itself.</Flavor>
 <Artist>Jeff Miracola</Artist>
@@ -336,7 +338,7 @@ Evoke {1}{G} (You may cast this spell for its evoke cost. If you do, it's sacrif
 <No>19</No>
 <Name>Pride of Lions</Name>
 <Type>Creature — Cat 4/4</Type>
-<ManaCost>3GG (5)</ManaCost>
+<ManaCost>{3}{G}{G}</ManaCost>
 <CardText>You may have Pride of Lions assign its combat damage as though it weren't blocked.</CardText>
 <Flavor>There's only one thing worse than a hungry lion—many hungry lions.</Flavor>
 <Artist>Carl Critchlow</Artist>
@@ -355,7 +357,7 @@ Evoke {1}{G} (You may cast this spell for its evoke cost. If you do, it's sacrif
 <No>20</No>
 <Name>Nacatl Hunt-Pride</Name>
 <Type>Creature — Cat Warrior 5/4</Type>
-<ManaCost>5W (6)</ManaCost>
+<ManaCost>{5}{W}</ManaCost>
 <CardText>Vigilance
 {R}, {T}: Target creature can't block this turn.
 {G}, {T}: Target creature blocks this turn if able.</CardText>
@@ -363,7 +365,7 @@ Evoke {1}{G} (You may cast this spell for its evoke cost. If you do, it's sacrif
 <Artist>Steve Prescott</Artist>
 <Multiverseid>249409</Multiverseid>
 <Rulings>2009/02/01: If either ability is activated after blockers have been declared, it won't cause those blocks to change.
-2009/02/01: If you attack with <Nacatl Hunt-Pride>, you get the chance to activate one of its abilities before blockers are declared.</Rulings>
+2009/02/01: If you attack with Nacatl Hunt-Pride, you get the chance to activate one of its abilities before blockers are declared.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -376,13 +378,13 @@ Evoke {1}{G} (You may cast this spell for its evoke cost. If you do, it's sacrif
 <No>21</No>
 <Name>Firemane Angel</Name>
 <Type>Creature — Angel 4/3</Type>
-<ManaCost>3RWW (6)</ManaCost>
+<ManaCost>{3}{R}{W}{W}</ManaCost>
 <CardText>Flying, first strike
 At the beginning of your upkeep, if Firemane Angel is in your graveyard or on the battlefield, you may gain 1 life.
-{6}{R}{R}{W}{W}: Return Firemane Angel from your graveyard to the battlefield. Activate this ability only during your upkeep.</CardText>
+{6}{R}{R}{W}{W}: Return Firemane Angel from your graveyard to the battlefield. Activate only during your upkeep.</CardText>
 <Artist>Matt Cavotta</Artist>
 <Multiverseid>249366</Multiverseid>
-<Rulings>2017/11/17: If <Firemane Angel> is put into your graveyard from the battlefield or returned from your graveyard to the battlefield during your upkeep before its triggered ability resolves, you won't gain 1 life.</Rulings>
+<Rulings>2017/11/17: If Firemane Angel is put into your graveyard from the battlefield or returned from your graveyard to the battlefield during your upkeep before its triggered ability resolves, you won't gain 1 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -395,7 +397,7 @@ At the beginning of your upkeep, if Firemane Angel is in your graveyard or on th
 <No>22</No>
 <Name>Ajani's Mantra</Name>
 <Type>Enchantment</Type>
-<ManaCost>1W (2)</ManaCost>
+<ManaCost>{1}{W}</ManaCost>
 <CardText>At the beginning of your upkeep, you may gain 1 life.</CardText>
 <Flavor>"He hasn't returned to the Cloud Forest. But I can still sense his calming presence."
 —Zaliki of Naya</Flavor>
@@ -413,13 +415,13 @@ At the beginning of your upkeep, if Firemane Angel is in your graveyard or on th
 <No>23</No>
 <Name>Lightning Helix</Name>
 <Type>Instant</Type>
-<ManaCost>RW (2)</ManaCost>
+<ManaCost>{R}{W}</ManaCost>
 <CardText>Lightning Helix deals 3 damage to any target and you gain 3 life.</CardText>
 <Flavor>"Rage is not the answer. Rage followed by fitting vengeance is the answer."
 —Ajani</Flavor>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>249386</Multiverseid>
-<Rulings>2017/11/17: If the chosen target is illegal when <Lightning Helix> tries to resolve, it won't resolve and none of its effects will happen. You won't gain 3 life.</Rulings>
+<Rulings>2017/11/17: If the chosen target is illegal when Lightning Helix tries to resolve, it won't resolve and none of its effects will happen. You won't gain 3 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -432,7 +434,7 @@ At the beginning of your upkeep, if Firemane Angel is in your graveyard or on th
 <No>24</No>
 <Name>Lead the Stampede</Name>
 <Type>Sorcery</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>Look at the top five cards of your library. You may reveal any number of creature cards from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in any order.</CardText>
 <Artist>Efrem Palacios</Artist>
 <Multiverseid>249369</Multiverseid>
@@ -448,13 +450,13 @@ At the beginning of your upkeep, if Firemane Angel is in your graveyard or on th
 <No>25</No>
 <Name>Griffin Guide</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>2W (3)</ManaCost>
+<ManaCost>{2}{W}</ManaCost>
 <CardText>Enchant creature
 Enchanted creature gets +2/+2 and has flying.
 When enchanted creature dies, create a 2/2 white Griffin creature token with flying.</CardText>
 <Artist>Jim Nelson</Artist>
 <Multiverseid>249372</Multiverseid>
-<Rulings>2006/09/25: If <Griffin Guide> and the enchanted creature go to the graveyard at the same time, <Griffin Guide>'s ability will trigger.</Rulings>
+<Rulings>2006/09/25: If Griffin Guide and the enchanted creature go to the graveyard at the same time, Griffin Guide's ability will trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -467,14 +469,14 @@ When enchanted creature dies, create a 2/2 white Griffin creature token with fly
 <No>26</No>
 <Name>Recumbent Bliss</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>2W (3)</ManaCost>
+<ManaCost>{2}{W}</ManaCost>
 <CardText>Enchant creature
 Enchanted creature can't attack or block.
 At the beginning of your upkeep, you may gain 1 life.</CardText>
 <Flavor>Kithkin somnomancers enjoy the peaceful dreams wafting from their victims.</Flavor>
 <Artist>Todd Lockwood</Artist>
 <Multiverseid>249400</Multiverseid>
-<Rulings>2008/08/01: The triggered ability is on the Aura, not the creature. It triggers at the beginning of the upkeep of <Recumbent Bliss>'s controller, not the enchanted creature's controller, and <Recumbent Bliss>'s controller will gain the life.</Rulings>
+<Rulings>2008/08/01: The triggered ability is on the Aura, not the creature. It triggers at the beginning of the upkeep of Recumbent Bliss's controller, not the enchanted creature's controller, and Recumbent Bliss's controller will gain the life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -487,13 +489,13 @@ At the beginning of your upkeep, you may gain 1 life.</CardText>
 <No>27</No>
 <Name>Searing Meditation</Name>
 <Type>Enchantment</Type>
-<ManaCost>1RW (3)</ManaCost>
+<ManaCost>{1}{R}{W}</ManaCost>
 <CardText>Whenever you gain life, you may pay {2}. If you do, Searing Meditation deals 2 damage to any target.</CardText>
 <Flavor>"When I meditate I see the world as it should be. All that does not fit, I remove."
 —Alovnek, Boros guildmage</Flavor>
 <Artist>Dave Dorman</Artist>
 <Multiverseid>249380</Multiverseid>
-<Rulings>2005/10/01: <Searing Meditation> doesn't care how much life you gain. It triggers just once for each life-gaining event, whether it's 1 life from Firemane Angel or 15 life from Brightflame.</Rulings>
+<Rulings>2005/10/01: Searing Meditation doesn't care how much life you gain. It triggers just once for each life-gaining event, whether it's 1 life from Firemane Angel or 15 life from Brightflame.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -506,7 +508,7 @@ At the beginning of your upkeep, you may gain 1 life.</CardText>
 <No>28</No>
 <Name>Behemoth Sledge</Name>
 <Type>Artifact — Equipment</Type>
-<ManaCost>1GW (3)</ManaCost>
+<ManaCost>{1}{G}{W}</ManaCost>
 <CardText>Equipped creature gets +2/+2 and has trample and lifelink.
 Equip {3}</CardText>
 <Flavor>"May this grant you all the strength of the behemoths and none of their serenity."
@@ -526,7 +528,7 @@ Equip {3}</CardText>
 <No>29</No>
 <Name>Naya Charm</Name>
 <Type>Instant</Type>
-<ManaCost>RGW (3)</ManaCost>
+<ManaCost>{R}{G}{W}</ManaCost>
 <CardText>Choose one —
 • Naya Charm deals 3 damage to target creature.
 • Return target card from a graveyard to its owner's hand.
@@ -549,9 +551,9 @@ Equip {3}</CardText>
 <No>30</No>
 <Name>Sylvan Bounty</Name>
 <Type>Instant</Type>
-<ManaCost>5G (6)</ManaCost>
+<ManaCost>{5}{G}</ManaCost>
 <CardText>Target player gains 8 life.
-Basic landcycling {1}{G} ({1}{G}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.)</CardText>
+Basic landcycling {1}{G} ({1}{G}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)</CardText>
 <Flavor>Some who scouted new lands chose to stay.</Flavor>
 <Artist>Chris Rahn</Artist>
 <Multiverseid>249392</Multiverseid>
@@ -571,15 +573,15 @@ Basic landcycling {1}{G} ({1}{G}, Discard this card: Search your library for a b
 <No>31</No>
 <Name>Titanic Ultimatum</Name>
 <Type>Sorcery</Type>
-<ManaCost>RRGGGWW (7)</ManaCost>
+<ManaCost>{R}{R}{G}{G}{G}{W}{W}</ManaCost>
 <CardText>Until end of turn, creatures you control get +5/+5 and gain first strike, trample, and lifelink.</CardText>
 <Flavor>"Retribution is best delivered by claws and rage, with both magnified."
 —Ajani</Flavor>
 <Artist>Steve Prescott</Artist>
 <Multiverseid>249370</Multiverseid>
-<Rulings>2008/10/01: The set of creatures affected is fixed as <Titanic Ultimatum> resolves.
+<Rulings>2008/10/01: The set of creatures affected is fixed as Titanic Ultimatum resolves.
 2008/10/01: Multiple instances of first strike and trample are redundant.
-2009/10/01: If a creature you control already has lifelink, <Titanic Ultimatum> will give it a second instance of lifelink; however, multiple instances of lifelink on the same creature are redundant. You still only gain life equal to the amount of damage dealt, regardless of how many instances of lifelink the creature has.</Rulings>
+2009/10/01: If a creature you control already has lifelink, Titanic Ultimatum will give it a second instance of lifelink; however, multiple instances of lifelink on the same creature are redundant. You still only gain life equal to the amount of damage dealt, regardless of how many instances of lifelink the creature has.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -592,7 +594,7 @@ Basic landcycling {1}{G} ({1}{G}, Discard this card: Search your library for a b
 <No>32</No>
 <Name>Evolving Wilds</Name>
 <Type>Land</Type>
-<CardText>{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.</CardText>
+<CardText>{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.</CardText>
 <Flavor>Every world is an organism, able to grow new lands. Some just do it faster than others.</Flavor>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>249395</Multiverseid>
@@ -661,7 +663,7 @@ When Kazandu Refuge enters the battlefield, you gain 1 life.
 <Type>Land — Forest</Type>
 <CardText>({T}: Add {G}.)
 Sapseep Forest enters the battlefield tapped.
-{G}, {T}: You gain 1 life. Activate this ability only if you control two or more green permanents.</CardText>
+{G}, {T}: You gain 1 life. Activate only if you control two or more green permanents.</CardText>
 <Artist>Aleksi Briclot</Artist>
 <Multiverseid>249389</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -700,7 +702,7 @@ Sapseep Forest enters the battlefield tapped.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Ajani vs. Nicol Bolas</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -715,7 +717,7 @@ Sapseep Forest enters the battlefield tapped.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Ajani vs. Nicol Bolas</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -730,7 +732,7 @@ Sapseep Forest enters the battlefield tapped.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Ajani vs. Nicol Bolas</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -745,7 +747,7 @@ Sapseep Forest enters the battlefield tapped.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Ajani vs. Nicol Bolas</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -753,10 +755,10 @@ Sapseep Forest enters the battlefield tapped.
 <No>42</No>
 <Name>Nicol Bolas, Planeswalker</Name>
 <Type>Legendary Planeswalker — Bolas (Loyalty: 5)</Type>
-<ManaCost>4UBBR (8)</ManaCost>
-<CardText>+3: Destroy target noncreature permanent.
--2: Gain control of target creature.
--9: Nicol Bolas, Planeswalker deals 7 damage to target player or planeswalker. That player or that planeswalker's controller discards seven cards, then sacrifices seven permanents.</CardText>
+<ManaCost>{4}{U}{B}{B}{R}</ManaCost>
+<CardText>[+3]: Destroy target noncreature permanent.
+[-2]: Gain control of target creature.
+[-9]: Nicol Bolas, Planeswalker deals 7 damage to target player or planeswalker. That player or that planeswalker's controller discards seven cards, then sacrifices seven permanents.</CardText>
 <Artist>Izzy</Artist>
 <Multiverseid>266154</Multiverseid>
 <Rulings>2009/02/01: The control-change effect has no duration. It will last until the game ends or the affected creature leaves the battlefield. It may be superseded by a later control-change effect.
@@ -774,7 +776,7 @@ Sapseep Forest enters the battlefield tapped.
 <No>43</No>
 <Name>Surveilling Sprite</Name>
 <Type>Creature — Faerie Rogue 1/1</Type>
-<ManaCost>1U (2)</ManaCost>
+<ManaCost>{1}{U}</ManaCost>
 <CardText>Flying
 When Surveilling Sprite dies, you may draw a card.</CardText>
 <Flavor>Their natural curiosity, combined with a knack for trespassing, makes sprites excellent spies.</Flavor>
@@ -792,7 +794,7 @@ When Surveilling Sprite dies, you may draw a card.</CardText>
 <No>44</No>
 <Name>Nightscape Familiar</Name>
 <Type>Creature — Zombie 1/1</Type>
-<ManaCost>1B (2)</ManaCost>
+<ManaCost>{1}{B}</ManaCost>
 <CardText>Blue spells and red spells you cast cost {1} less to cast.
 {1}{B}: Regenerate Nightscape Familiar.</CardText>
 <Flavor>Nightscape masters don't stop at raising the spirit of a fallen battlemage. They raise the flesh along with it.</Flavor>
@@ -816,7 +818,7 @@ When Surveilling Sprite dies, you may draw a card.</CardText>
 <No>45</No>
 <Name>Slavering Nulls</Name>
 <Type>Creature — Goblin Zombie 2/1</Type>
-<ManaCost>1R (2)</ManaCost>
+<ManaCost>{1}{R}</ManaCost>
 <CardText>Whenever Slavering Nulls deals combat damage to a player, if you control a Swamp, you may have that player discard a card.</CardText>
 <Flavor>Having lost their minds, they now want yours.</Flavor>
 <Artist>Dave Kendall</Artist>
@@ -833,7 +835,7 @@ When Surveilling Sprite dies, you may draw a card.</CardText>
 <No>46</No>
 <Name>Brackwater Elemental</Name>
 <Type>Creature — Elemental 4/4</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>When Brackwater Elemental attacks or blocks, sacrifice it at the beginning of the next end step.
 Unearth {2}{U} ({2}{U}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)</CardText>
 <Artist>Thomas M. Baxa</Artist>
@@ -850,7 +852,7 @@ Unearth {2}{U} ({2}{U}: Return this card from your graveyard to the battlefield.
 <No>47</No>
 <Name>Morgue Toad</Name>
 <Type>Creature — Frog 2/2</Type>
-<ManaCost>2B (3)</ManaCost>
+<ManaCost>{2}{B}</ManaCost>
 <CardText>Sacrifice Morgue Toad: Add {U}{R}.</CardText>
 <Flavor>"The toads of Urborg aren't fast, powerful, or pleasant, but they have their uses."
 —Ertai</Flavor>
@@ -866,13 +868,13 @@ Unearth {2}{U} ({2}{U}: Return this card from your graveyard to the battlefield.
 <SetId>DDH</SetId>
 <No>48</No>
 <Name>Hellfire Mongrel</Name>
-<Type>Creature — Elemental Hound 2/2</Type>
-<ManaCost>2R (3)</ManaCost>
+<Type>Creature — Elemental Dog 2/2</Type>
+<ManaCost>{2}{R}</ManaCost>
 <CardText>At the beginning of each opponent's upkeep, if that player has two or fewer cards in hand, Hellfire Mongrel deals 2 damage to that player.</CardText>
 <Flavor>There is no fondness between the hound and its master. There is only a common appreciation of the hunt.</Flavor>
 <Artist>Dan Scott</Artist>
 <Multiverseid>249408</Multiverseid>
-<Rulings>2009/10/01: <Hellfire Mongrel>'s triggered ability has an "intervening 'if' clause." That means (1) the ability won't trigger at all unless the opponent whose turn it is has two or fewer cards in hand as their upkeep starts, and (2) the ability will do nothing if that player has three or more cards in hand by the time it resolves.
+<Rulings>2009/10/01: Hellfire Mongrel's triggered ability has an "intervening 'if' clause." That means (1) the ability won't trigger at all unless the opponent whose turn it is has two or fewer cards in hand as their upkeep starts, and (2) the ability will do nothing if that player has three or more cards in hand by the time it resolves.
 2009/10/01: In a Two-Headed Giant game, this ability will potentially trigger twice at the beginning of the opposing team's upkeep — once for each player on that team.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -886,7 +888,7 @@ Unearth {2}{U} ({2}{U}: Return this card from your graveyard to the battlefield.
 <No>49</No>
 <Name>Dimir Cutpurse</Name>
 <Type>Creature — Spirit 2/2</Type>
-<ManaCost>1UB (3)</ManaCost>
+<ManaCost>{1}{U}{B}</ManaCost>
 <CardText>Whenever Dimir Cutpurse deals combat damage to a player, that player discards a card and you draw a card.</CardText>
 <Flavor>Other guilds demand tolls from those who travel their territories, but not House Dimir. It takes its share secretly, one coin purse at a time.</Flavor>
 <Artist>Kev Walker</Artist>
@@ -903,7 +905,7 @@ Unearth {2}{U} ({2}{U}: Return this card from your graveyard to the battlefield.
 <No>50</No>
 <Name>Steamcore Weird</Name>
 <Type>Creature — Weird 1/3</Type>
-<ManaCost>3U (4)</ManaCost>
+<ManaCost>{3}{U}</ManaCost>
 <CardText>When Steamcore Weird enters the battlefield, if {R} was spent to cast it, it deals 2 damage to any target.</CardText>
 <Flavor>Like many Izzet creations, weirds are based on wild contradictions yet somehow manage to work.</Flavor>
 <Artist>Justin Norman</Artist>
@@ -920,7 +922,7 @@ Unearth {2}{U} ({2}{U}: Return this card from your graveyard to the battlefield.
 <No>51</No>
 <Name>Moroii</Name>
 <Type>Creature — Vampire 4/4</Type>
-<ManaCost>2UB (4)</ManaCost>
+<ManaCost>{2}{U}{B}</ManaCost>
 <CardText>Flying
 At the beginning of your upkeep, you lose 1 life.</CardText>
 <Flavor>"Touched by moroii"
@@ -939,7 +941,7 @@ At the beginning of your upkeep, you lose 1 life.</CardText>
 <No>52</No>
 <Name>Blazing Specter</Name>
 <Type>Creature — Specter 2/2</Type>
-<ManaCost>2BR (4)</ManaCost>
+<ManaCost>{2}{B}{R}</ManaCost>
 <CardText>Flying, haste
 Whenever Blazing Specter deals combat damage to a player, that player discards a card.</CardText>
 <Artist>Marc Fishman</Artist>
@@ -955,7 +957,7 @@ Whenever Blazing Specter deals combat damage to a player, that player discards a
 <No>53</No>
 <Name>Fire-Field Ogre</Name>
 <Type>Creature — Ogre Mutant 4/2</Type>
-<ManaCost>1UBR (4)</ManaCost>
+<ManaCost>{1}{U}{B}{R}</ManaCost>
 <CardText>First strike
 Unearth {U}{B}{R} ({U}{B}{R}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)</CardText>
 <Artist>Mitch Cotie</Artist>
@@ -977,13 +979,14 @@ Unearth {U}{B}{R} ({U}{B}{R}: Return this card from your graveyard to the battle
 <No>54</No>
 <Name>Shriekmaw</Name>
 <Type>Creature — Elemental 3/2</Type>
-<ManaCost>4B (5)</ManaCost>
+<ManaCost>{4}{B}</ManaCost>
 <CardText>Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)
 When Shriekmaw enters the battlefield, destroy target nonartifact, nonblack creature.
 Evoke {1}{B} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)</CardText>
 <Artist>Steve Prescott</Artist>
 <Multiverseid>259272</Multiverseid>
-<Rulings>2013/04/15: If you cast this card for its evoke cost, you may put the sacrifice trigger and the regular enters-the-battlefield trigger on the stack in either order. The one put on the stack last will resolve first.</Rulings>
+<Rulings>2021/03/19: To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an evoke cost), add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+2021/03/19: If you pay the evoke cost, you can have Shriekmaw's own triggered ability resolve before the evoke triggered ability. You can cast spells after that ability resolves but before you have to sacrifice Shriekmaw.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -996,12 +999,12 @@ Evoke {1}{B} (You may cast this spell for its evoke cost. If you do, it's sacrif
 <No>55</No>
 <Name>Ogre Savant</Name>
 <Type>Creature — Ogre Wizard 3/2</Type>
-<ManaCost>4R (5)</ManaCost>
+<ManaCost>{4}{R}</ManaCost>
 <CardText>When Ogre Savant enters the battlefield, if {U} was spent to cast it, return target creature to its owner's hand.</CardText>
 <Flavor>He's an oxymoron.</Flavor>
 <Artist>Paolo Parente</Artist>
 <Multiverseid>249387</Multiverseid>
-<Rulings>2006/02/01: If {U} was spent to cast <Ogre Savant> and no other creatures are on the battlefield, the Ogre will have to return itself.
+<Rulings>2006/02/01: If {U} was spent to cast Ogre Savant and no other creatures are on the battlefield, the Ogre will have to return itself.
 2006/02/01: The ability is not optional.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1015,9 +1018,9 @@ Evoke {1}{B} (You may cast this spell for its evoke cost. If you do, it's sacrif
 <No>56</No>
 <Name>Jhessian Zombies</Name>
 <Type>Creature — Zombie 2/4</Type>
-<ManaCost>4UB (6)</ManaCost>
+<ManaCost>{4}{U}{B}</ManaCost>
 <CardText>Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)
-Islandcycling {2}, swampcycling {2} ({2}, Discard this card: Search your library for an Island or Swamp card, reveal it, put it into your hand, then shuffle your library.)</CardText>
+Islandcycling {2}, swampcycling {2} ({2}, Discard this card: Search your library for an Island or Swamp card, reveal it, put it into your hand, then shuffle.)</CardText>
 <Artist>Ash Wood</Artist>
 <Multiverseid>259277</Multiverseid>
 <Rulings>2009/05/01: Unlike the normal cycling ability, landcycling doesn't allow you to draw a card. Instead, it lets you search your library for a land card of the specified land type, reveal it, put it into your hand, then shuffle your library.
@@ -1037,9 +1040,9 @@ Islandcycling {2}, swampcycling {2} ({2}, Discard this card: Search your library
 <No>57</No>
 <Name>Igneous Pouncer</Name>
 <Type>Creature — Elemental 5/1</Type>
-<ManaCost>4BR (6)</ManaCost>
+<ManaCost>{4}{B}{R}</ManaCost>
 <CardText>Haste
-Swampcycling {2}, mountaincycling {2} ({2}, Discard this card: Search your library for a Swamp or Mountain card, reveal it, put it into your hand, then shuffle your library.)</CardText>
+Swampcycling {2}, mountaincycling {2} ({2}, Discard this card: Search your library for a Swamp or Mountain card, reveal it, put it into your hand, then shuffle.)</CardText>
 <Artist>Chippy</Artist>
 <Multiverseid>249410</Multiverseid>
 <Rulings>2009/05/01: Unlike the normal cycling ability, landcycling doesn't allow you to draw a card. Instead, it lets you search your library for a land card of the specified land type, reveal it, put it into your hand, then shuffle your library.
@@ -1059,7 +1062,7 @@ Swampcycling {2}, mountaincycling {2} ({2}, Discard this card: Search your libra
 <No>58</No>
 <Name>Vapor Snag</Name>
 <Type>Instant</Type>
-<ManaCost>U (1)</ManaCost>
+<ManaCost>{U}</ManaCost>
 <CardText>Return target creature to its owner's hand. Its controller loses 1 life.</CardText>
 <Flavor>"This creature is inadequate. Send it to the splicers for innovation."
 —Malcator, Executor of Synthesis</Flavor>
@@ -1077,13 +1080,13 @@ Swampcycling {2}, mountaincycling {2} ({2}, Discard this card: Search your libra
 <No>59</No>
 <Name>Countersquall</Name>
 <Type>Instant</Type>
-<ManaCost>UB (2)</ManaCost>
+<ManaCost>{U}{B}</ManaCost>
 <CardText>Counter target noncreature spell. Its controller loses 2 life.</CardText>
 <Flavor>"The essence of every world, every spell, and every thought is power. Nothing else matters, because nothing else exists."
 —Nicol Bolas</Flavor>
 <Artist>Anthony Francisco</Artist>
 <Multiverseid>249406</Multiverseid>
-<Rulings>2018/12/07: A spell that can't be countered is a legal target for <Countersquall>. The spell won't be countered when <Countersquall> resolves, but its controller still loses 2 life.</Rulings>
+<Rulings>2018/12/07: A spell that can't be countered is a legal target for Countersquall. The spell won't be countered when Countersquall resolves, but its controller still loses 2 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1096,7 +1099,7 @@ Swampcycling {2}, mountaincycling {2} ({2}, Discard this card: Search your libra
 <No>60</No>
 <Name>Obelisk of Grixis</Name>
 <Type>Artifact</Type>
-<ManaCost>3 (3)</ManaCost>
+<ManaCost>{3}</ManaCost>
 <CardText>{T}: Add {U}, {B}, or {R}.</CardText>
 <Flavor>Like most features of Grixis, the obelisks that remain from the time of Alara now exist only for dark exploitation.</Flavor>
 <Artist>Nils Hamm</Artist>
@@ -1113,7 +1116,7 @@ Swampcycling {2}, mountaincycling {2} ({2}, Discard this card: Search your libra
 <No>61</No>
 <Name>Recoil</Name>
 <Type>Instant</Type>
-<ManaCost>1UB (3)</ManaCost>
+<ManaCost>{1}{U}{B}</ManaCost>
 <CardText>Return target permanent to its owner's hand. Then that player discards a card.</CardText>
 <Flavor>Anything sent into a plagued world is bound to come back infected.</Flavor>
 <Artist>Alan Pollack</Artist>
@@ -1129,7 +1132,7 @@ Swampcycling {2}, mountaincycling {2} ({2}, Discard this card: Search your libra
 <No>62</No>
 <Name>Undermine</Name>
 <Type>Instant</Type>
-<ManaCost>UUB (3)</ManaCost>
+<ManaCost>{U}{U}{B}</ManaCost>
 <CardText>Counter target spell. Its controller loses 3 life.</CardText>
 <Flavor>"Which would you like first, the insult or the injury?"</Flavor>
 <Artist>Massimilano Frezzato</Artist>
@@ -1145,7 +1148,7 @@ Swampcycling {2}, mountaincycling {2} ({2}, Discard this card: Search your libra
 <No>63</No>
 <Name>Grixis Charm</Name>
 <Type>Instant</Type>
-<ManaCost>UBR (3)</ManaCost>
+<ManaCost>{U}{B}{R}</ManaCost>
 <CardText>Choose one —
 • Return target permanent to its owner's hand.
 • Target creature gets -4/-4 until end of turn.
@@ -1169,7 +1172,7 @@ Swampcycling {2}, mountaincycling {2} ({2}, Discard this card: Search your libra
 <No>64</No>
 <Name>Icy Manipulator</Name>
 <Type>Artifact</Type>
-<ManaCost>4 (4)</ManaCost>
+<ManaCost>{4}</ManaCost>
 <CardText>{1}, {T}: Tap target artifact, creature, or land.</CardText>
 <Flavor>In fire there is the spark of chaos and destruction, the seed of life. In ice there is perfect tranquility, perfect order, and the silence of death.</Flavor>
 <Artist>Matt Cavotta</Artist>
@@ -1187,7 +1190,7 @@ Swampcycling {2}, mountaincycling {2} ({2}, Discard this card: Search your libra
 <No>65</No>
 <Name>Deep Analysis</Name>
 <Type>Sorcery</Type>
-<ManaCost>3U (4)</ManaCost>
+<ManaCost>{3}{U}</ManaCost>
 <CardText>Target player draws two cards.
 Flashback—{1}{U}, Pay 3 life. (You may cast this card from your graveyard for its flashback cost. Then exile it.)</CardText>
 <Flavor>"No fact escapes me. Why do you think you can?"</Flavor>
@@ -1204,7 +1207,7 @@ Flashback—{1}{U}, Pay 3 life. (You may cast this card from your graveyard for 
 <No>66</No>
 <Name>Agonizing Demise</Name>
 <Type>Instant</Type>
-<ManaCost>3B (4)</ManaCost>
+<ManaCost>{3}{B}</ManaCost>
 <CardText>Kicker {1}{R} (You may pay an additional {1}{R} as you cast this spell.)
 Destroy target nonblack creature. It can't be regenerated. If this spell was kicked, Agonizing Demise deals damage equal to that creature's power to the creature's controller.</CardText>
 <Artist>Mark Brill</Artist>
@@ -1220,7 +1223,7 @@ Destroy target nonblack creature. It can't be regenerated. If this spell was kic
 <No>67</No>
 <Name>Slave of Bolas</Name>
 <Type>Sorcery</Type>
-<ManaCost>3{U/R}B (5)</ManaCost>
+<ManaCost>{3}{U/R}{B}</ManaCost>
 <CardText>Gain control of target creature. Untap that creature. It gains haste until end of turn. Sacrifice it at the beginning of the next end step.</CardText>
 <Flavor>Nicol Bolas doesn't distinguish between servants and victims.</Flavor>
 <Artist>Steve Argyle</Artist>
@@ -1239,7 +1242,7 @@ Destroy target nonblack creature. It can't be regenerated. If this spell was kic
 <No>68</No>
 <Name>Elder Mastery</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>3UBR (6)</ManaCost>
+<ManaCost>{3}{U}{B}{R}</ManaCost>
 <CardText>Enchant creature
 Enchanted creature gets +3/+3 and has flying.
 Whenever enchanted creature deals damage to a player, that player discards two cards.</CardText>
@@ -1259,14 +1262,14 @@ Whenever enchanted creature deals damage to a player, that player discards two c
 <No>69</No>
 <Name>Cruel Ultimatum</Name>
 <Type>Sorcery</Type>
-<ManaCost>UUBBBRR (7)</ManaCost>
+<ManaCost>{U}{U}{B}{B}{B}{R}{R}</ManaCost>
 <CardText>Target opponent sacrifices a creature, discards three cards, then loses 5 life. You return a creature card from your graveyard to your hand, draw three cards, then gain 5 life.</CardText>
 <Flavor>There is always a greater power.</Flavor>
 <Artist>Ralph Horsley</Artist>
 <Multiverseid>259262</Multiverseid>
-<Rulings>2017/03/14: <Cruel Ultimatum>'s only target is an opponent. You don't choose which creature card in your graveyard you'll return to your hand until <Cruel Ultimatum> resolves.
-2017/03/14: All of the actions for <Cruel Ultimatum> are performed sequentially, in the order listed. Earlier actions may affect how you perform later actions. For example, if the opponent sacrifices a creature that they control but you own, it will end up in your graveyard. When <Cruel Ultimatum> lets you return a creature card from your graveyard to your hand, you can choose that one.
-2017/03/14: If, as <Cruel Ultimatum> begins to resolve, your opponent's life total is 5 or less and you have two or fewer cards in your library, the game will result in a draw. Your opponent's life total will drop to 0 or less, but <Cruel Ultimatum> must finish resolving completely before state-based actions are performed. You'll then be forced to draw three cards and fail to draw one. When state-based actions are finally performed, you and your opponent will both lose the game at the same time, which means the game is a draw.</Rulings>
+<Rulings>2017/03/14: Cruel Ultimatum's only target is an opponent. You don't choose which creature card in your graveyard you'll return to your hand until Cruel Ultimatum resolves.
+2017/03/14: All of the actions for Cruel Ultimatum are performed sequentially, in the order listed. Earlier actions may affect how you perform later actions. For example, if the opponent sacrifices a creature that they control but you own, it will end up in your graveyard. When Cruel Ultimatum lets you return a creature card from your graveyard to your hand, you can choose that one.
+2017/03/14: If, as Cruel Ultimatum begins to resolve, your opponent's life total is 5 or less and you have two or fewer cards in your library, the game will result in a draw. Your opponent's life total will drop to 0 or less, but Cruel Ultimatum must finish resolving completely before state-based actions are performed. You'll then be forced to draw three cards and fail to draw one. When state-based actions are finally performed, you and your opponent will both lose the game at the same time, which means the game is a draw.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1279,10 +1282,10 @@ Whenever enchanted creature deals damage to a player, that player discards two c
 <No>70</No>
 <Name>Profane Command</Name>
 <Type>Sorcery</Type>
-<ManaCost>XBB (2)</ManaCost>
+<ManaCost>{X}{B}{B}</ManaCost>
 <CardText>Choose two —
 • Target player loses X life.
-• Return target creature card with converted mana cost X or less from your graveyard to the battlefield.
+• Return target creature card with mana value X or less from your graveyard to the battlefield.
 • Target creature gets -X/-X until end of turn.
 • Up to X target creatures gain fear until end of turn. (They can't be blocked except by artifact creatures and/or black creatures.)</CardText>
 <Artist>Wayne England</Artist>
@@ -1300,7 +1303,7 @@ Whenever enchanted creature deals damage to a player, that player discards two c
 <No>71a</No>
 <Name>Spite (Spite/Malice)</Name>
 <Type>Instant</Type>
-<ManaCost>3U (4)</ManaCost>
+<ManaCost>{3}{U}</ManaCost>
 <CardText>Counter target noncreature spell.</CardText>
 <Artist>David Martin</Artist>
 <Multiverseid>249394</Multiverseid>
@@ -1316,7 +1319,7 @@ Whenever enchanted creature deals damage to a player, that player discards two c
 <No>71b</No>
 <Name>Malice (Spite/Malice)</Name>
 <Type>Instant</Type>
-<ManaCost>3B (4)</ManaCost>
+<ManaCost>{3}{B}</ManaCost>
 <CardText>Destroy target nonblack creature. It can't be regenerated.</CardText>
 <Artist>David Martin</Artist>
 <Multiverseid>249394</Multiverseid>
@@ -1332,7 +1335,7 @@ Whenever enchanted creature deals damage to a player, that player discards two c
 <No>72a</No>
 <Name>Pain (Pain/Suffering)</Name>
 <Type>Sorcery</Type>
-<ManaCost>B (1)</ManaCost>
+<ManaCost>{B}</ManaCost>
 <CardText>Target player discards a card.</CardText>
 <Artist>David Martin</Artist>
 <Multiverseid>259281</Multiverseid>
@@ -1348,7 +1351,7 @@ Whenever enchanted creature deals damage to a player, that player discards two c
 <No>72b</No>
 <Name>Suffering (Pain/Suffering)</Name>
 <Type>Sorcery</Type>
-<ManaCost>3R (4)</ManaCost>
+<ManaCost>{3}{R}</ManaCost>
 <CardText>Destroy target land.</CardText>
 <Artist>David Martin</Artist>
 <Multiverseid>259281</Multiverseid>
@@ -1364,7 +1367,7 @@ Whenever enchanted creature deals damage to a player, that player discards two c
 <No>73a</No>
 <Name>Rise (Rise/Fall)</Name>
 <Type>Sorcery</Type>
-<ManaCost>UB (2)</ManaCost>
+<ManaCost>{U}{B}</ManaCost>
 <CardText>Return target creature card from a graveyard and target creature on the battlefield to their owners' hands.</CardText>
 <Artist>Pete Venters</Artist>
 <Multiverseid>259266</Multiverseid>
@@ -1381,7 +1384,7 @@ Whenever enchanted creature deals damage to a player, that player discards two c
 <No>73b</No>
 <Name>Fall (Rise/Fall)</Name>
 <Type>Sorcery</Type>
-<ManaCost>BR (2)</ManaCost>
+<ManaCost>{B}{R}</ManaCost>
 <CardText>Target player reveals two cards at random from their hand, then discards each nonland card revealed this way.</CardText>
 <Artist>Pete Venters</Artist>
 <Multiverseid>259266</Multiverseid>
@@ -1433,7 +1436,7 @@ When Rupture Spire enters the battlefield, sacrifice it unless you pay {1}.
 <No>76</No>
 <Name>Terramorphic Expanse</Name>
 <Type>Land</Type>
-<CardText>{T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.</CardText>
+<CardText>{T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.</CardText>
 <Flavor>Take two steps north into the unsettled future, south into the unquiet past, east into the present day, or west into the great unknown.</Flavor>
 <Artist>Dan Scott</Artist>
 <Multiverseid>249381</Multiverseid>
@@ -1456,7 +1459,7 @@ When Rupture Spire enters the battlefield, sacrifice it unless you pay {1}.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Ajani vs. Nicol Bolas</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -1471,7 +1474,7 @@ When Rupture Spire enters the battlefield, sacrifice it unless you pay {1}.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Ajani vs. Nicol Bolas</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -1486,7 +1489,7 @@ When Rupture Spire enters the battlefield, sacrifice it unless you pay {1}.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Ajani vs. Nicol Bolas</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -1501,6 +1504,6 @@ When Rupture Spire enters the battlefield, sacrifice it unless you pay {1}.
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Duel Decks: Ajani vs. Nicol Bolas</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 

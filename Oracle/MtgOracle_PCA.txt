@@ -3,7 +3,7 @@
 <No>1</No>
 <Name>Armored Griffin</Name>
 <Type>Creature — Griffin 2/3</Type>
-<ManaCost>3W (4)</ManaCost>
+<ManaCost>{3}{W}</ManaCost>
 <CardText>Flying, vigilance</CardText>
 <Flavor>When an order for griffin barding comes in, blacksmiths prepare their forges for months of exacting work. They know griffins always detect imperfections and never haggle.</Flavor>
 <Artist>Brad Rigney</Artist>
@@ -19,7 +19,7 @@
 <No>2</No>
 <Name>Auramancer</Name>
 <Type>Creature — Human Wizard 2/2</Type>
-<ManaCost>2W (3)</ManaCost>
+<ManaCost>{2}{W}</ManaCost>
 <CardText>When Auramancer enters the battlefield, you may return target enchantment card from your graveyard to your hand.</CardText>
 <Flavor>"In memories, we can find our deepest reserves of strength."</Flavor>
 <Artist>Rebecca Guay</Artist>
@@ -36,11 +36,11 @@
 <No>3</No>
 <Name>Auratouched Mage</Name>
 <Type>Creature — Human Wizard 3/3</Type>
-<ManaCost>5W (6)</ManaCost>
-<CardText>When Auratouched Mage enters the battlefield, search your library for an Aura card that could enchant it. If Auratouched Mage is still on the battlefield, put that Aura card onto the battlefield attached to it. Otherwise, reveal the Aura card and put it into your hand. Then shuffle your library.</CardText>
+<ManaCost>{5}{W}</ManaCost>
+<CardText>When Auratouched Mage enters the battlefield, search your library for an Aura card that could enchant it. If Auratouched Mage is still on the battlefield, put that Aura card onto the battlefield attached to it. Otherwise, reveal the Aura card and put it into your hand. Then shuffle.</CardText>
 <Artist>Jeff Miracola</Artist>
 <Multiverseid>423428</Multiverseid>
-<Rulings>2005/10/01: Any Aura card you find must be able to enchant <Auratouched Mage> as it currently exists, or as it most recently existed on the battlefield if it's no longer on the battlefield. If an effect has made the Mage an artifact, for example, you could search for an Aura with "enchant artifact."</Rulings>
+<Rulings>2005/10/01: Any Aura card you find must be able to enchant Auratouched Mage as it currently exists, or as it most recently existed on the battlefield if it's no longer on the battlefield. If an effect has made the Mage an artifact, for example, you could search for an Aura with "enchant artifact."</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -53,12 +53,13 @@
 <No>4</No>
 <Name>Cage of Hands</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>2W (3)</ManaCost>
+<ManaCost>{2}{W}</ManaCost>
 <CardText>Enchant creature
 Enchanted creature can't attack or block.
 {1}{W}: Return Cage of Hands to its owner's hand.</CardText>
 <Artist>Mark Tedin</Artist>
 <Multiverseid>423429</Multiverseid>
+<Rulings>2020/11/10: The ability to return Cage of Hands to its owner's hand can only be activated if Cage of Hands is on the battlefield. If Cage of Hands is no longer on the battlefield when the ability resolves, Cage of Hands remains in its new zone and isn't returned to its owner's hand.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -71,7 +72,7 @@ Enchanted creature can't attack or block.
 <No>5</No>
 <Name>Celestial Ancient</Name>
 <Type>Creature — Elemental 3/3</Type>
-<ManaCost>3WW (5)</ManaCost>
+<ManaCost>{3}{W}{W}</ManaCost>
 <CardText>Flying
 Whenever you cast an enchantment spell, put a +1/+1 counter on each creature you control.</CardText>
 <Flavor>"We thought the clouds had moved from the night sky. Then the night sky moved, and the horizon grew wings."
@@ -90,15 +91,15 @@ Whenever you cast an enchantment spell, put a +1/+1 counter on each creature you
 <No>6</No>
 <Name>Felidar Umbra</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>1W (2)</ManaCost>
+<ManaCost>{1}{W}</ManaCost>
 <CardText>Enchant creature
 Enchanted creature has lifelink.
 {1}{W}: Attach Felidar Umbra to target creature you control.
 Totem armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)</CardText>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>423431</Multiverseid>
-<Rulings>2012/06/01: If <Felidar Umbra> is enchanting a creature with first strike, you can activate its ability and attach it to a creature without first strike during the first combat damage step. Each of those creatures will have lifelink when dealing combat damage and you'll gain life accordingly.
-2012/06/01: It's not possible for <Felidar Umbra> to save two creatures that are being destroyed simultaneously.</Rulings>
+<Rulings>2012/06/01: If Felidar Umbra is enchanting a creature with first strike, you can activate its ability and attach it to a creature without first strike during the first combat damage step. Each of those creatures will have lifelink when dealing combat damage and you'll gain life accordingly.
+2012/06/01: It's not possible for Felidar Umbra to save two creatures that are being destroyed simultaneously.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Planechase Anthology</Set>
@@ -110,7 +111,7 @@ Totem armor (If enchanted creature would be destroyed, instead remove all damage
 <No>7</No>
 <Name>Ghostly Prison</Name>
 <Type>Enchantment</Type>
-<ManaCost>2W (3)</ManaCost>
+<ManaCost>{2}{W}</ManaCost>
 <CardText>Creatures can't attack you unless their controller pays {2} for each creature they control that's attacking you.</CardText>
 <Flavor>"May the memory of our fallen heroes ensnare the violent hearts of lesser men."
 —Great Threshold of Monserkat inscription</Flavor>
@@ -130,7 +131,7 @@ Totem armor (If enchanted creature would be destroyed, instead remove all damage
 <No>8</No>
 <Name>Hyena Umbra</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>W (1)</ManaCost>
+<ManaCost>{W}</ManaCost>
 <CardText>Enchant creature
 Enchanted creature gets +1/+1 and has first strike.
 Totem armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)</CardText>
@@ -159,14 +160,14 @@ Totem armor (If enchanted creature would be destroyed, instead remove all damage
 <No>9</No>
 <Name>Kor Spiritdancer</Name>
 <Type>Creature — Kor Wizard 0/2</Type>
-<ManaCost>1W (2)</ManaCost>
+<ManaCost>{1}{W}</ManaCost>
 <CardText>Kor Spiritdancer gets +2/+2 for each Aura attached to it.
 Whenever you cast an Aura spell, you may draw a card.</CardText>
 <Flavor>She reaches beyond the physical realm, touching the ideals from which all creatures draw their power.</Flavor>
 <Artist>Scott Chou</Artist>
 <Multiverseid>423434</Multiverseid>
-<Rulings>2010/06/15: If you cast an Aura spell, <Kor Spiritdancer>'s second ability triggers and goes on the stack on top of it. The ability will resolve before the spell does.
-2010/06/15: The second ability triggers when you cast any Aura spell, not just one that targets <Kor Spiritdancer>.</Rulings>
+<Rulings>2010/06/15: If you cast an Aura spell, Kor Spiritdancer's second ability triggers and goes on the stack on top of it. The ability will resolve before the spell does.
+2010/06/15: The second ability triggers when you cast any Aura spell, not just one that targets Kor Spiritdancer.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -179,7 +180,7 @@ Whenever you cast an Aura spell, you may draw a card.</CardText>
 <No>10</No>
 <Name>Mammoth Umbra</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>4W (5)</ManaCost>
+<ManaCost>{4}{W}</ManaCost>
 <CardText>Enchant creature
 Enchanted creature gets +3/+3 and has vigilance.
 Totem armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)</CardText>
@@ -208,14 +209,13 @@ Totem armor (If enchanted creature would be destroyed, instead remove all damage
 <No>11</No>
 <Name>Sigil of the Empty Throne</Name>
 <Type>Enchantment</Type>
-<ManaCost>3WW (5)</ManaCost>
+<ManaCost>{3}{W}{W}</ManaCost>
 <CardText>Whenever you cast an enchantment spell, create a 4/4 white Angel creature token with flying.</CardText>
 <Flavor>When Asha left Bant, she ensured that the world would have protection and order in her absence.</Flavor>
 <Artist>Cyril Van Der Haegen</Artist>
 <Multiverseid>423436</Multiverseid>
-<Rulings>2009/02/01: The triggered ability will resolve before the enchantment spell that caused it to trigger.
-2009/02/01: When you cast an Aura spell, you have to choose a target for it before this ability puts an Angel token onto the battlefield. In other words, you can't play an Aura spell intending to enchant the Angel that will be created as a result.
-2009/02/01: Casting <Sigil of the Empty Throne> won't trigger its own ability. It has to be on the battlefield for its ability to work.</Rulings>
+<Rulings>2021/03/19: An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger, but after targets have been chosen for that spell. It resolves even if that spell is countered.
+2021/03/19: Because it's not on the battlefield yet, casting Sigil of the Empty Throne won't cause its own ability to trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -228,7 +228,7 @@ Totem armor (If enchanted creature would be destroyed, instead remove all damage
 <No>12</No>
 <Name>Spirit Mantle</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>1W (2)</ManaCost>
+<ManaCost>{1}{W}</ManaCost>
 <CardText>Enchant creature
 Enchanted creature gets +1/+1 and has protection from creatures.</CardText>
 <Flavor>The shield of unimpeachable purity is as strong as any wrought on the anvil.</Flavor>
@@ -246,8 +246,8 @@ Enchanted creature gets +1/+1 and has protection from creatures.</CardText>
 <No>13</No>
 <Name>Three Dreams</Name>
 <Type>Sorcery</Type>
-<ManaCost>4W (5)</ManaCost>
-<CardText>Search your library for up to three Aura cards with different names, reveal them, and put them into your hand. Then shuffle your library.</CardText>
+<ManaCost>{4}{W}</ManaCost>
+<CardText>Search your library for up to three Aura cards with different names, reveal them, put them into your hand, then shuffle.</CardText>
 <Flavor>"Choose one to heal, one to harm, and one to grant you the prudence to use them."
 —Miotri, auratouched mage</Flavor>
 <Artist>Shishizaru</Artist>
@@ -264,7 +264,7 @@ Enchanted creature gets +1/+1 and has protection from creatures.</CardText>
 <No>14</No>
 <Name>Augury Owl</Name>
 <Type>Creature — Bird 1/1</Type>
-<ManaCost>1U (2)</ManaCost>
+<ManaCost>{1}{U}</ManaCost>
 <CardText>Flying
 When Augury Owl enters the battlefield, scry 3. (Look at the top three cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)</CardText>
 <Artist>Jim Nelson</Artist>
@@ -281,7 +281,7 @@ When Augury Owl enters the battlefield, scry 3. (Look at the top three cards of 
 <No>15</No>
 <Name>Cancel</Name>
 <Type>Instant</Type>
-<ManaCost>1UU (3)</ManaCost>
+<ManaCost>{1}{U}{U}</ManaCost>
 <CardText>Counter target spell.</CardText>
 <Flavor>"What you are attempting is not against the law. It is, however, extremely foolish."</Flavor>
 <Artist>David Palumbo</Artist>
@@ -298,7 +298,7 @@ When Augury Owl enters the battlefield, scry 3. (Look at the top three cards of 
 <No>16</No>
 <Name>Concentrate</Name>
 <Type>Sorcery</Type>
-<ManaCost>2UU (4)</ManaCost>
+<ManaCost>{2}{U}{U}</ManaCost>
 <CardText>Draw three cards.</CardText>
 <Flavor>"The treasure in my mind is greater than any worldly glory."</Flavor>
 <Artist>rk post</Artist>
@@ -315,7 +315,7 @@ When Augury Owl enters the battlefield, scry 3. (Look at the top three cards of 
 <No>17</No>
 <Name>Guard Gomazoa</Name>
 <Type>Creature — Jellyfish 1/3</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>Defender, flying
 Prevent all combat damage that would be dealt to Guard Gomazoa.</CardText>
 <Flavor>It lingers near the outposts of the Makindi Trenches, inadvertently granting another layer of defense.</Flavor>
@@ -333,9 +333,9 @@ Prevent all combat damage that would be dealt to Guard Gomazoa.</CardText>
 <No>18</No>
 <Name>Higure, the Still Wind</Name>
 <Type>Legendary Creature — Human Ninja 3/4</Type>
-<ManaCost>3UU (5)</ManaCost>
+<ManaCost>{3}{U}{U}</ManaCost>
 <CardText>Ninjutsu {2}{U}{U} ({2}{U}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
-Whenever Higure, the Still Wind deals combat damage to a player, you may search your library for a Ninja card, reveal it, and put it into your hand. If you do, shuffle your library.
+Whenever Higure, the Still Wind deals combat damage to a player, you may search your library for a Ninja card, reveal it, put it into your hand, then shuffle.
 {2}: Target Ninja creature can't be blocked this turn.</CardText>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>423443</Multiverseid>
@@ -353,14 +353,14 @@ Whenever Higure, the Still Wind deals combat damage to a player, you may search 
 <No>19</No>
 <Name>Illusory Angel</Name>
 <Type>Creature — Angel Illusion 4/4</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>Cast this spell only if you've cast another spell this turn.
 Flying</CardText>
 <Flavor>"Yes, she is made of pure belief—but I hardly see why that makes her unique."
 —Reith, master illusionist</Flavor>
 <Artist>Allen Williams</Artist>
 <Multiverseid>423444</Multiverseid>
-<Rulings>2014/07/18: It doesn't matter whether the other spell resolved. It could have been countered or, if you've somehow cast <Illusory Angel> as though it had flash, it could still be on the stack.</Rulings>
+<Rulings>2014/07/18: It doesn't matter whether the other spell resolved. It could have been countered or, if you've somehow cast Illusory Angel as though it had flash, it could still be on the stack.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -373,7 +373,7 @@ Flying</CardText>
 <No>20</No>
 <Name>Mistblade Shinobi</Name>
 <Type>Creature — Human Ninja 1/1</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>Ninjutsu {U} ({U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
 Whenever Mistblade Shinobi deals combat damage to a player, you may return target creature that player controls to its owner's hand.</CardText>
 <Artist>Kev Walker</Artist>
@@ -390,11 +390,17 @@ Whenever Mistblade Shinobi deals combat damage to a player, you may return targe
 <No>21</No>
 <Name>Ninja of the Deep Hours</Name>
 <Type>Creature — Human Ninja 2/2</Type>
-<ManaCost>3U (4)</ManaCost>
+<ManaCost>{3}{U}</ManaCost>
 <CardText>Ninjutsu {1}{U} ({1}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
 Whenever Ninja of the Deep Hours deals combat damage to a player, you may draw a card.</CardText>
 <Artist>Dan Scott</Artist>
 <Multiverseid>423446</Multiverseid>
+<Rulings>2021/03/19: The ninjutsu ability can be activated only after blockers have been declared. Before then, attacking creatures are neither blocked nor unblocked.
+2021/03/19: As you activate a ninjutsu ability, you reveal the Ninja card in your hand and return the attacking creature. The Ninja isn't put onto the battlefield until the ability resolves. If it leaves your hand before then, it won't enter the battlefield at all.
+2021/03/19: The creature put onto the battlefield with ninjutsu enters the battlefield attacking the same player or planeswalker that the returned creature was attacking. This is a rule specific to ninjutsu.
+2021/03/19: Although the Ninja is attacking, it was never declared as an attacking creature (for purposes of abilities that trigger whenever a creature attacks, for example).
+2021/03/19: The ninjutsu ability can be activated during the declare blockers step, combat damage step, or end of combat step. If you wait until after the declare blockers step, because all combat damage is dealt at once, the Ninja won't normally deal combat damage.
+2021/03/19: If a creature in combat has first strike or double strike, you can activate the ninjutsu ability during the first-strike combat damage step. The Ninja will deal combat damage during the regular combat damage step in this case, even if it has first strike.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -407,7 +413,7 @@ Whenever Ninja of the Deep Hours deals combat damage to a player, you may draw a
 <No>22</No>
 <Name>Peregrine Drake</Name>
 <Type>Creature — Drake 2/3</Type>
-<ManaCost>4U (5)</ManaCost>
+<ManaCost>{4}{U}</ManaCost>
 <CardText>Flying
 When Peregrine Drake enters the battlefield, untap up to five lands.</CardText>
 <Flavor>That the Tolarian mists parted for the drakes was warning enough to stay away.</Flavor>
@@ -425,16 +431,14 @@ When Peregrine Drake enters the battlefield, untap up to five lands.</CardText>
 <No>23</No>
 <Name>Primal Plasma</Name>
 <Type>Creature — Elemental Shapeshifter */*</Type>
-<ManaCost>3U (4)</ManaCost>
+<ManaCost>{3}{U}</ManaCost>
 <CardText>As Primal Plasma enters the battlefield, it becomes your choice of a 3/3 creature, a 2/2 creature with flying, or a 1/6 creature with defender.</CardText>
 <Flavor>Tocasia brushed the gears and cogs from the table. There, before two wide-eyed brothers, she began a lesson on raw elemental magic.</Flavor>
 <Artist>Luca Zontini</Artist>
 <Multiverseid>423448</Multiverseid>
-<Rulings>2007/02/01: If a creature that's already on the battlefield becomes a copy of <Primal Plasma>, it copies the power, toughness, and abilities that were chosen for <Primal Plasma> when it entered the battlefield.
-2007/02/01: This is the timeshifted version of Primal Clay.
-2018/03/16: In zones other than the battlefield, this creature card is 0/0.
-2018/03/16: If another permanent enters the battlefield as a copy of this creature, the controller of that permanent will get to make a new choice. The copy won't necessarily have the same power, toughness, and abilities as the original.
-2018/03/16: If a creature that's already on the battlefield becomes a copy of this creature, it copies the power, toughness, and abilities that were chosen for this creature as it entered the battlefield.</Rulings>
+<Rulings>2021/03/19: While not on the battlefield, Primal Plasma is a 0/0 creature card. It doesn't have flying or defender.
+2021/03/19: If an object on the battlefield becomes a copy of Primal Plasma, it copies the values determined by its enters-the-battlefield replacement effect.
+2021/03/19: If an object enters the battlefield as a copy of Primal Plasma, it copies the values determined by its enters-the-battlefield replacement effect, but its power and toughness are determined by the copy's own enters-the-battlefield replacement effect. This can cause you to have a 3/3 creature with flying, or a 1/6 creature with flying and defender, for example.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -447,19 +451,19 @@ When Peregrine Drake enters the battlefield, untap up to five lands.</CardText>
 <No>24</No>
 <Name>Sakashima's Student</Name>
 <Type>Creature — Human Ninja 0/0</Type>
-<ManaCost>2UU (4)</ManaCost>
+<ManaCost>{2}{U}{U}</ManaCost>
 <CardText>Ninjutsu {1}{U} ({1}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
 You may have Sakashima's Student enter the battlefield as a copy of any creature on the battlefield, except it's a Ninja in addition to its other creature types.</CardText>
 <Artist>Brian Snõddy</Artist>
 <Multiverseid>423449</Multiverseid>
-<Rulings>2012/06/01: Because you return the unblocked attacking creature to its owner's hand while activating the ninjutsu ability, you can't have <Sakashima's Student> enter the battlefield as a copy of that creature.
-2012/06/01: <Sakashima's Student> copies exactly what was printed on the original creature (unless that creature is copying something else or is a token; see below) and it is a Ninja in addition to its other types. It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or any Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
-2012/06/01: If the chosen creature has {X} in its mana cost, X is zero.
-2012/06/01: If the chosen creature is copying something else (for example, if the chosen creature is another <Sakashima's Student>), then your <Sakashima's Student> enters the battlefield as whatever the chosen creature copied.
-2012/06/01: If the chosen creature is a token, <Sakashima's Student> copies the original characteristics of that token as stated by the effect that put the token onto the battlefield. <Sakashima's Student> is not a token.
-2012/06/01: Any enters-the-battlefield abilities of the copied creature will trigger when <Sakashima's Student> enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the chosen creature (like devour) will also work.
-2012/06/01: If <Sakashima's Student> somehow enters the battlefield at the same time as another creature, <Sakashima's Student> can't become a copy of that creature. You may choose only a creature that's already on the battlefield.
-2012/06/01: You can choose not to copy anything. In that case, <Sakashima's Student> enters the battlefield as a 0/0 creature, and is probably put into the graveyard immediately.</Rulings>
+<Rulings>2012/06/01: If the chosen creature has {X} in its mana cost, X is zero.
+2012/06/01: Because you return the unblocked attacking creature to its owner's hand while activating the ninjutsu ability, you can't have Sakashima's Student enter the battlefield as a copy of that creature.
+2012/06/01: Sakashima's Student copies exactly what was printed on the original creature (unless that creature is copying something else or is a token; see below) and it is a Ninja in addition to its other types. It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or any Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+2012/06/01: If the chosen creature is copying something else (for example, if the chosen creature is another Sakashima's Student), then your Sakashima's Student enters the battlefield as whatever the chosen creature copied.
+2012/06/01: If the chosen creature is a token, Sakashima's Student copies the original characteristics of that token as stated by the effect that put the token onto the battlefield. Sakashima's Student is not a token.
+2012/06/01: Any enters-the-battlefield abilities of the copied creature will trigger when Sakashima's Student enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the chosen creature (like devour) will also work.
+2012/06/01: If Sakashima's Student somehow enters the battlefield at the same time as another creature, Sakashima's Student can't become a copy of that creature. You may choose only a creature that's already on the battlefield.
+2012/06/01: You can choose not to copy anything. In that case, Sakashima's Student enters the battlefield as a 0/0 creature, and is probably put into the graveyard immediately.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Planechase Anthology</Set>
@@ -471,7 +475,7 @@ You may have Sakashima's Student enter the battlefield as a copy of any creature
 <No>25</No>
 <Name>See Beyond</Name>
 <Type>Sorcery</Type>
-<ManaCost>1U (2)</ManaCost>
+<ManaCost>{1}{U}</ManaCost>
 <CardText>Draw two cards, then shuffle a card from your hand into your library.</CardText>
 <Flavor>Ancient lore locked in a mind driven mad is just as safe as when it was locked deep underground.</Flavor>
 <Artist>Andrew Robinson</Artist>
@@ -490,7 +494,7 @@ You may have Sakashima's Student enter the battlefield as a copy of any creature
 <No>26</No>
 <Name>Sunken Hope</Name>
 <Type>Enchantment</Type>
-<ManaCost>3UU (5)</ManaCost>
+<ManaCost>{3}{U}{U}</ManaCost>
 <CardText>At the beginning of each player's upkeep, that player returns a creature they control to its owner's hand.</CardText>
 <Flavor>"I don't concern myself with my enemy's hopes. Hopes follow the tides. They will retreat soon enough."
 —Ambassador Laquatus</Flavor>
@@ -508,10 +512,10 @@ You may have Sakashima's Student enter the battlefield as a copy of any creature
 <No>27</No>
 <Name>Walker of Secret Ways</Name>
 <Type>Creature — Human Ninja 1/2</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>Ninjutsu {1}{U} ({1}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
 Whenever Walker of Secret Ways deals combat damage to a player, look at that player's hand.
-{1}{U}: Return target Ninja you control to its owner's hand. Activate this ability only during your turn.</CardText>
+{1}{U}: Return target Ninja you control to its owner's hand. Activate only during your turn.</CardText>
 <Artist>Scott M. Fischer</Artist>
 <Multiverseid>423452</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -526,15 +530,15 @@ Whenever Walker of Secret Ways deals combat damage to a player, look at that pla
 <No>28</No>
 <Name>Wall of Frost</Name>
 <Type>Creature — Wall 0/7</Type>
-<ManaCost>1UU (3)</ManaCost>
+<ManaCost>{1}{U}{U}</ManaCost>
 <CardText>Defender
 Whenever Wall of Frost blocks a creature, that creature doesn't untap during its controller's next untap step.</CardText>
 <Flavor>"I welcome it. The pasture is cleared of weeds and the wolves are frozen solid."
 —Lumi, goatherd</Flavor>
 <Artist>Mike Bierek</Artist>
 <Multiverseid>423453</Multiverseid>
-<Rulings>2014/07/18: <Wall of Frost>'s ability tracks the creature, not the creature's controller. That is, if the creature changes controllers before its first controller's next untap step, then it won't untap during its new controller's next untap step.
-2014/07/18: If the creature isn't tapped during its controller's next untap step (perhaps because it was untapped by a spell), <Wall of Frost>'s ability has no effect at that time. It won't try to keep the creature tapped on subsequent turns.</Rulings>
+<Rulings>2014/07/18: Wall of Frost's ability tracks the creature, not the creature's controller. That is, if the creature changes controllers before its first controller's next untap step, then it won't untap during its new controller's next untap step.
+2014/07/18: If the creature isn't tapped during its controller's next untap step (perhaps because it was untapped by a spell), Wall of Frost's ability has no effect at that time. It won't try to keep the creature tapped on subsequent turns.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -547,7 +551,7 @@ Whenever Wall of Frost blocks a creature, that creature doesn't untap during its
 <No>29</No>
 <Name>Whirlpool Warrior</Name>
 <Type>Creature — Merfolk Warrior 2/2</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>When Whirlpool Warrior enters the battlefield, shuffle the cards from your hand into your library, then draw that many cards.
 {R}, Sacrifice Whirlpool Warrior: Each player shuffles the cards from their hand into their library, then draws that many cards.</CardText>
 <Artist>Kev Walker</Artist>
@@ -563,7 +567,7 @@ Whenever Wall of Frost blocks a creature, that creature doesn't untap during its
 <No>30</No>
 <Name>Assassinate</Name>
 <Type>Sorcery</Type>
-<ManaCost>2B (3)</ManaCost>
+<ManaCost>{2}{B}</ManaCost>
 <CardText>Destroy target tapped creature.</CardText>
 <Flavor>"This is how wars are won—not with armies of soldiers but with a single knife blade, artfully placed."
 —Yurin, royal assassin</Flavor>
@@ -581,7 +585,7 @@ Whenever Wall of Frost blocks a creature, that creature doesn't untap during its
 <No>31</No>
 <Name>Cadaver Imp</Name>
 <Type>Creature — Imp 1/1</Type>
-<ManaCost>1BB (3)</ManaCost>
+<ManaCost>{1}{B}{B}</ManaCost>
 <CardText>Flying
 When Cadaver Imp enters the battlefield, you may return target creature card from your graveyard to your hand.</CardText>
 <Flavor>The mouth must be pried open before rigor mortis sets in. Otherwise the returning soul can find no ingress.</Flavor>
@@ -599,7 +603,7 @@ When Cadaver Imp enters the battlefield, you may return target creature card fro
 <No>32</No>
 <Name>Dark Hatchling</Name>
 <Type>Creature — Horror 3/3</Type>
-<ManaCost>4BB (6)</ManaCost>
+<ManaCost>{4}{B}{B}</ManaCost>
 <CardText>Flying
 When Dark Hatchling enters the battlefield, destroy target nonblack creature. It can't be regenerated.</CardText>
 <Artist>Brad Rigney</Artist>
@@ -615,7 +619,7 @@ When Dark Hatchling enters the battlefield, destroy target nonblack creature. It
 <No>33</No>
 <Name>Ink-Eyes, Servant of Oni</Name>
 <Type>Legendary Creature — Rat Ninja 5/4</Type>
-<ManaCost>4BB (6)</ManaCost>
+<ManaCost>{4}{B}{B}</ManaCost>
 <CardText>Ninjutsu {3}{B}{B} ({3}{B}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
 Whenever Ink-Eyes, Servant of Oni deals combat damage to a player, you may put target creature card from that player's graveyard onto the battlefield under your control.
 {1}{B}: Regenerate Ink-Eyes.</CardText>
@@ -634,7 +638,7 @@ Whenever Ink-Eyes, Servant of Oni deals combat damage to a player, you may put t
 <No>34</No>
 <Name>Liliana's Specter</Name>
 <Type>Creature — Specter 2/1</Type>
-<ManaCost>1BB (3)</ManaCost>
+<ManaCost>{1}{B}{B}</ManaCost>
 <CardText>Flying
 When Liliana's Specter enters the battlefield, each opponent discards a card.</CardText>
 <Flavor>"The finest minions know what I need without me ever saying a thing."
@@ -653,12 +657,12 @@ When Liliana's Specter enters the battlefield, each opponent discards a card.</C
 <No>35</No>
 <Name>Okiba-Gang Shinobi</Name>
 <Type>Creature — Rat Ninja 3/2</Type>
-<ManaCost>3BB (5)</ManaCost>
+<ManaCost>{3}{B}{B}</ManaCost>
 <CardText>Ninjutsu {3}{B} ({3}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
 Whenever Okiba-Gang Shinobi deals combat damage to a player, that player discards two cards.</CardText>
 <Artist>Mark Zug</Artist>
 <Multiverseid>423460</Multiverseid>
-<Rulings>2005/02/01: If the defending player has two or fewer cards in hand when <Okiba-Gang Shinobi> deals combat damage to that player, they are all discarded.</Rulings>
+<Rulings>2005/02/01: If the defending player has two or fewer cards in hand when Okiba-Gang Shinobi deals combat damage to that player, they are all discarded.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -671,12 +675,12 @@ Whenever Okiba-Gang Shinobi deals combat damage to a player, that player discard
 <No>36</No>
 <Name>Skullsnatcher</Name>
 <Type>Creature — Rat Ninja 2/1</Type>
-<ManaCost>1B (2)</ManaCost>
+<ManaCost>{1}{B}</ManaCost>
 <CardText>Ninjutsu {B} ({B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
 Whenever Skullsnatcher deals combat damage to a player, exile up to two target cards from that player's graveyard.</CardText>
 <Artist>Matt Cavotta</Artist>
 <Multiverseid>423461</Multiverseid>
-<Rulings>2005/02/01: <Skullsnatcher>'s ability can target zero, one, or two cards in that player's graveyard.</Rulings>
+<Rulings>2005/02/01: Skullsnatcher's ability can target zero, one, or two cards in that player's graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -689,7 +693,7 @@ Whenever Skullsnatcher deals combat damage to a player, exile up to two target c
 <No>37</No>
 <Name>Throat Slitter</Name>
 <Type>Creature — Rat Ninja 2/2</Type>
-<ManaCost>4B (5)</ManaCost>
+<ManaCost>{4}{B}</ManaCost>
 <CardText>Ninjutsu {2}{B} ({2}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
 Whenever Throat Slitter deals combat damage to a player, destroy target nonblack creature that player controls.</CardText>
 <Artist>Paolo Parente</Artist>
@@ -706,7 +710,7 @@ Whenever Throat Slitter deals combat damage to a player, destroy target nonblack
 <No>38</No>
 <Name>Tormented Soul</Name>
 <Type>Creature — Spirit 1/1</Type>
-<ManaCost>B (1)</ManaCost>
+<ManaCost>{B}</ManaCost>
 <CardText>Tormented Soul can't block and can't be blocked.</CardText>
 <Flavor>Those who raged most bitterly at the world in life are cursed to roam the nether realms in death.</Flavor>
 <Artist>Karl Kopinski</Artist>
@@ -723,7 +727,7 @@ Whenever Throat Slitter deals combat damage to a player, destroy target nonblack
 <No>39</No>
 <Name>Arc Trail</Name>
 <Type>Sorcery</Type>
-<ManaCost>1R (2)</ManaCost>
+<ManaCost>{1}{R}</ManaCost>
 <CardText>Arc Trail deals 2 damage to any target and 1 damage to another target.</CardText>
 <Flavor>"Don't try to hit your enemies. Concentrate on the space between them, and fill the air with doom."
 —Spear-Tribe teaching</Flavor>
@@ -741,7 +745,7 @@ Whenever Throat Slitter deals combat damage to a player, destroy target nonblack
 <No>40</No>
 <Name>Beetleback Chief</Name>
 <Type>Creature — Goblin Warrior 2/2</Type>
-<ManaCost>2RR (4)</ManaCost>
+<ManaCost>{2}{R}{R}</ManaCost>
 <CardText>When Beetleback Chief enters the battlefield, create two 1/1 red Goblin creature tokens.</CardText>
 <Flavor>Whether trained, ridden, or eaten, few goblin military innovations have rivaled the bug.</Flavor>
 <Artist>Wayne England</Artist>
@@ -757,8 +761,8 @@ Whenever Throat Slitter deals combat damage to a player, destroy target nonblack
 <No>41</No>
 <Name>Erratic Explosion</Name>
 <Type>Sorcery</Type>
-<ManaCost>2R (3)</ManaCost>
-<CardText>Choose any target. Reveal cards from the top of your library until you reveal a nonland card. Erratic Explosion deals damage equal to that card's converted mana cost to that permanent or player. Put the revealed cards on the bottom of your library in any order.</CardText>
+<ManaCost>{2}{R}</ManaCost>
+<CardText>Choose any target. Reveal cards from the top of your library until you reveal a nonland card. Erratic Explosion deals damage equal to that card's mana value to that permanent or player. Put the revealed cards on the bottom of your library in any order.</CardText>
 <Artist>Gary Ruddell</Artist>
 <Multiverseid>423466</Multiverseid>
 <Rulings>2004/10/04: If all your cards are lands, no damage is dealt.</Rulings>
@@ -773,7 +777,7 @@ Whenever Throat Slitter deals combat damage to a player, destroy target nonblack
 <No>42</No>
 <Name>Fiery Conclusion</Name>
 <Type>Instant</Type>
-<ManaCost>1R (2)</ManaCost>
+<ManaCost>{1}{R}</ManaCost>
 <CardText>As an additional cost to cast this spell, sacrifice a creature.
 Fiery Conclusion deals 5 damage to target creature.</CardText>
 <Flavor>The Boros legionnaire saw a noble sacrifice, the Rakdos thug a blazing suicide, and the Izzet alchemist an experiment gone awry.</Flavor>
@@ -793,9 +797,9 @@ Fiery Conclusion deals 5 damage to target creature.</CardText>
 <No>43</No>
 <Name>Fiery Fall</Name>
 <Type>Instant</Type>
-<ManaCost>5R (6)</ManaCost>
+<ManaCost>{5}{R}</ManaCost>
 <CardText>Fiery Fall deals 5 damage to target creature.
-Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.)</CardText>
+Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)</CardText>
 <Flavor>Jund feasts on the unprepared.</Flavor>
 <Artist>Daarken</Artist>
 <Multiverseid>423468</Multiverseid>
@@ -815,16 +819,13 @@ Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a b
 <No>44</No>
 <Name>Fling</Name>
 <Type>Instant</Type>
-<ManaCost>1R (2)</ManaCost>
+<ManaCost>{1}{R}</ManaCost>
 <CardText>As an additional cost to cast this spell, sacrifice a creature.
 Fling deals damage equal to the sacrificed creature's power to any target.</CardText>
 <Flavor>About halfway to the target, Snukk vowed that he had been tricked for the last time.</Flavor>
 <Artist>Paolo Parente</Artist>
 <Multiverseid>423469</Multiverseid>
-<Rulings>2010/08/15: The sacrificed creature's last known existence on the battlefield is checked to determine its power.
-2010/08/15: If you sacrifice an attacking or blocking creature during the declare blockers step, it won't deal combat damage. If you wait until the combat damage step, but that creature is dealt lethal damage, it'll be destroyed before you get a chance to sacrifice it.
-2013/04/15: You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures.
-2013/04/15: Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell.
+<Rulings>2019/10/04: The sacrificed creature's last known existence on the battlefield is checked to determine its power.
 2019/10/04: You must sacrifice exactly one creature to cast this spell; you can't cast it without sacrificing a creature, and you can't sacrifice additional creatures.
 2019/10/04: Players can only respond once this spell has been cast and all its costs have been paid. No one can try to interfere with the creature you sacrificed to prevent you from casting this spell.</Rulings>
 <Vintage>Legal</Vintage>
@@ -839,7 +840,7 @@ Fling deals damage equal to the sacrificed creature's power to any target.</Card
 <No>45</No>
 <Name>Hellion Eruption</Name>
 <Type>Sorcery</Type>
-<ManaCost>5R (6)</ManaCost>
+<ManaCost>{5}{R}</ManaCost>
 <CardText>Sacrifice all creatures you control, then create that many 4/4 red Hellion creature tokens.</CardText>
 <Flavor>Just when you thought you'd be safe, in the middle of an open field with no Eldrazi around for miles.</Flavor>
 <Artist>Anthony Francisco</Artist>
@@ -856,12 +857,12 @@ Fling deals damage equal to the sacrificed creature's power to any target.</Card
 <No>46</No>
 <Name>Hissing Iguanar</Name>
 <Type>Creature — Lizard 3/1</Type>
-<ManaCost>2R (3)</ManaCost>
+<ManaCost>{2}{R}</ManaCost>
 <CardText>Whenever another creature dies, you may have Hissing Iguanar deal 1 damage to target player or planeswalker.</CardText>
 <Flavor>Viashino thrashes keep iguanars as hunting companions, giving them wounded captives as playthings.</Flavor>
 <Artist>Brandon Kitkouski</Artist>
 <Multiverseid>423471</Multiverseid>
-<Rulings>2018/12/07: If <Hissing Iguanar> dies at the same time as another creature, <Hissing Iguanar>'s ability triggers.</Rulings>
+<Rulings>2018/12/07: If Hissing Iguanar dies at the same time as another creature, Hissing Iguanar's ability triggers.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -874,12 +875,12 @@ Fling deals damage equal to the sacrificed creature's power to any target.</Card
 <No>47</No>
 <Name>Mark of Mutiny</Name>
 <Type>Sorcery</Type>
-<ManaCost>2R (3)</ManaCost>
+<ManaCost>{2}{R}</ManaCost>
 <CardText>Gain control of target creature until end of turn. Put a +1/+1 counter on it and untap it. That creature gains haste until end of turn. (It can attack and {T} this turn.)</CardText>
 <Flavor>The flame of anger is hard to douse once lit.</Flavor>
 <Artist>Mike Bierek</Artist>
 <Multiverseid>423472</Multiverseid>
-<Rulings>2017/11/17: <Mark of Mutiny> can target any creature, even one that you already control or that is already untapped.
+<Rulings>2017/11/17: Mark of Mutiny can target any creature, even one that you already control or that is already untapped.
 2017/11/17: The +1/+1 counter remains on the creature after the control-changing effect ends.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -893,15 +894,15 @@ Fling deals damage equal to the sacrificed creature's power to any target.</Card
 <No>48</No>
 <Name>Mass Mutiny</Name>
 <Type>Sorcery</Type>
-<ManaCost>3RR (5)</ManaCost>
+<ManaCost>{3}{R}{R}</ManaCost>
 <CardText>For each opponent, gain control of up to one target creature that player controls until end of turn. Untap those creatures. They gain haste until end of turn.</CardText>
 <Flavor>"What say you, my most trusted advisors? . . . Advisors?"
 —Edra, merfolk sovereign</Flavor>
 <Artist>Carl Critchlow</Artist>
 <Multiverseid>423473</Multiverseid>
-<Rulings>2012/06/01: The phrase "up to one" was inadvertently omitted from <Mass Mutiny>'s rules text. The card has received errata to correct this.
-2012/06/01: You can cast <Mass Mutiny> even if an opponent doesn't control any creatures. You simply won't choose a target for that opponent.
-2012/06/01: <Mass Mutiny> can target untapped creatures.
+<Rulings>2012/06/01: The phrase "up to one" was inadvertently omitted from Mass Mutiny's rules text. The card has received errata to correct this.
+2012/06/01: You can cast Mass Mutiny even if an opponent doesn't control any creatures. You simply won't choose a target for that opponent.
+2012/06/01: Mass Mutiny can target untapped creatures.
 2012/06/01: Gaining control of a creature doesn't cause you to gain control of any Auras or Equipment attached to it. However, if you gain control of a creature enchanted by an Aura with totem armor and that creature would be destroyed that turn, instead the Aura will be destroyed and the creature will survive.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -914,7 +915,7 @@ Fling deals damage equal to the sacrificed creature's power to any target.</Card
 <No>49</No>
 <Name>Mudbutton Torchrunner</Name>
 <Type>Creature — Goblin Warrior 1/1</Type>
-<ManaCost>2R (3)</ManaCost>
+<ManaCost>{2}{R}</ManaCost>
 <CardText>When Mudbutton Torchrunner dies, it deals 3 damage to any target.</CardText>
 <Flavor>The oil sloshes against his skull as he nears his destination: the Frogtosser Games and the lighting of the Flaming Boggart.</Flavor>
 <Artist>Steve Ellis</Artist>
@@ -931,13 +932,13 @@ Fling deals damage equal to the sacrificed creature's power to any target.</Card
 <No>50</No>
 <Name>Preyseizer Dragon</Name>
 <Type>Creature — Dragon 4/4</Type>
-<ManaCost>4RR (6)</ManaCost>
+<ManaCost>{4}{R}{R}</ManaCost>
 <CardText>Flying
 Devour 2 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with twice that many +1/+1 counters on it.)
 Whenever Preyseizer Dragon attacks, it deals damage to any target equal to the number of +1/+1 counters on Preyseizer Dragon.</CardText>
 <Artist>Daarken</Artist>
 <Multiverseid>423475</Multiverseid>
-<Rulings>2012/06/01: <Preyseizer Dragon>'s ability counts the number of +1/+1 counters on it when the ability resolves. It counts any +1/+1 counters, not just ones put on it due to devour.</Rulings>
+<Rulings>2012/06/01: Preyseizer Dragon's ability counts the number of +1/+1 counters on it when the ability resolves. It counts any +1/+1 counters, not just ones put on it due to devour.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Planechase Anthology</Set>
@@ -949,14 +950,14 @@ Whenever Preyseizer Dragon attacks, it deals damage to any target equal to the n
 <No>51</No>
 <Name>Rivals' Duel</Name>
 <Type>Sorcery</Type>
-<ManaCost>3R (4)</ManaCost>
+<ManaCost>{3}{R}</ManaCost>
 <CardText>Choose two target creatures that share no creature types. Those creatures fight each other. (Each deals damage equal to its power to the other.)</CardText>
 <Flavor>They could agree on one thing only: one of them must die.</Flavor>
 <Artist>Zoltan Boros & Gabor Szikszai</Artist>
 <Multiverseid>423476</Multiverseid>
-<Rulings>2008/04/01: The two creatures may be controlled by the same player.
-2008/04/01: If either one of the creatures leaves the battlefield before <Rivals' Duel> resolves, no damage is dealt to or by the remaining creature. If both creatures leave the battlefield before <Rivals' Duel> resolves, the spell doesn't resolve for having no legal targets.
-2008/04/01: If, by the time <Rivals' Duel> resolves, an effect has caused the two target creatures to share a creature type, <Rivals' Duel> doesn't resolve for having no legal targets.</Rulings>
+<Rulings>2008/04/01: If, by the time Rivals' Duel resolves, an effect has caused the two target creatures to share a creature type, Rivals' Duel doesn't resolve for having no legal targets.
+2008/04/01: The two creatures may be controlled by the same player.
+2008/04/01: If either one of the creatures leaves the battlefield before Rivals' Duel resolves, no damage is dealt to or by the remaining creature. If both creatures leave the battlefield before Rivals' Duel resolves, the spell doesn't resolve for having no legal targets.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -969,7 +970,7 @@ Whenever Preyseizer Dragon attacks, it deals damage to any target equal to the n
 <No>52</No>
 <Name>Thorn-Thrash Viashino</Name>
 <Type>Creature — Viashino Warrior 2/2</Type>
-<ManaCost>3R (4)</ManaCost>
+<ManaCost>{3}{R}</ManaCost>
 <CardText>Devour 2 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with twice that many +1/+1 counters on it.)
 {G}: Thorn-Thrash Viashino gains trample until end of turn.</CardText>
 <Artist>Jon Foster</Artist>
@@ -990,7 +991,7 @@ Whenever Preyseizer Dragon attacks, it deals damage to any target equal to the n
 <No>53</No>
 <Name>Thunder-Thrash Elder</Name>
 <Type>Creature — Viashino Warrior 1/1</Type>
-<ManaCost>2R (3)</ManaCost>
+<ManaCost>{2}{R}</ManaCost>
 <CardText>Devour 3 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with three times that many +1/+1 counters on it.)</CardText>
 <Flavor>Viashino thrashes are led by elders who have survived countless challenges.</Flavor>
 <Artist>Brandon Kitkouski</Artist>
@@ -1011,13 +1012,13 @@ Whenever Preyseizer Dragon attacks, it deals damage to any target equal to the n
 <No>54</No>
 <Name>Warstorm Surge</Name>
 <Type>Enchantment</Type>
-<ManaCost>5R (6)</ManaCost>
+<ManaCost>{5}{R}</ManaCost>
 <CardText>Whenever a creature enters the battlefield under your control, it deals damage equal to its power to any target.</CardText>
 <Flavor>"Listen to the roar! Feel the thunder! The Immersturm shouts its approval with every bolt of lightning!"</Flavor>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>423479</Multiverseid>
 <Rulings>2011/09/22: The creature that entered the battlefield deals damage equal to its current power to the targeted permanent or player. If it's no longer on the battlefield, its last known existence on the battlefield is checked to determine its power.
-2011/09/22: <Warstorm Surge> is the source of the ability, but the creature is the source of the damage. The ability couldn't target a creature with protection from red, for example. It could target a creature with protection from creatures, but all the damage would be prevented. Since damage is dealt by the creature, abilities like lifelink, deathtouch and infect are taken into account, even if the creature has left the battlefield by the time it deals damage.</Rulings>
+2011/09/22: Warstorm Surge is the source of the ability, but the creature is the source of the damage. The ability couldn't target a creature with protection from red, for example. It could target a creature with protection from creatures, but all the damage would be prevented. Since damage is dealt by the creature, abilities like lifelink, deathtouch and infect are taken into account, even if the creature has left the battlefield by the time it deals damage.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1030,14 +1031,14 @@ Whenever Preyseizer Dragon attacks, it deals damage to any target equal to the n
 <No>55</No>
 <Name>Aura Gnarlid</Name>
 <Type>Creature — Beast 2/2</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>Creatures with power less than Aura Gnarlid's power can't block it.
 Aura Gnarlid gets +1/+1 for each Aura on the battlefield.</CardText>
 <Flavor>Kill a gnarlid with your first blow, or it'll cheerfully show you how it's done.</Flavor>
 <Artist>Lars Grant-West</Artist>
 <Multiverseid>423480</Multiverseid>
-<Rulings>2010/06/15: The power of each potential blocking creature is checked against <Aura Gnarlid>'s power only as blockers are declared. Once a creature blocks <Aura Gnarlid>, increasing the Gnarlid's power or decreasing the blocking creature's power won't undo that block.
-2010/06/15: <Aura Gnarlid>'s second ability counts each Aura regardless of who controls it.</Rulings>
+<Rulings>2010/06/15: The power of each potential blocking creature is checked against Aura Gnarlid's power only as blockers are declared. Once a creature blocks Aura Gnarlid, increasing the Gnarlid's power or decreasing the blocking creature's power won't undo that block.
+2010/06/15: Aura Gnarlid's second ability counts each Aura regardless of who controls it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1050,7 +1051,7 @@ Aura Gnarlid gets +1/+1 for each Aura on the battlefield.</CardText>
 <No>56</No>
 <Name>Awakening Zone</Name>
 <Type>Enchantment</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>At the beginning of your upkeep, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."</CardText>
 <Flavor>The ground erupted in time with the hedron's thrum, a dirge of the last days.</Flavor>
 <Artist>Johann Bodin</Artist>
@@ -1067,14 +1068,14 @@ Aura Gnarlid gets +1/+1 for each Aura on the battlefield.</CardText>
 <No>57</No>
 <Name>Beast Within</Name>
 <Type>Instant</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>Destroy target permanent. Its controller creates a 3/3 green Beast creature token.</CardText>
 <Flavor>"Kill the weak so they can't drag the strong down to their level. This is true compassion."
 —Benzir, archdruid of Temple Might</Flavor>
 <Artist>Dave Allsop</Artist>
 <Multiverseid>423482</Multiverseid>
-<Rulings>2011/06/01: If the permanent is an illegal target when <Beast Within> tries to resolve, the spell won't resolve and none of its effects will happen. The permanent's controller won't get a Beast token.
-2013/07/01: If the permanent is still a legal target but is not destroyed (perhaps because it regenerated or has indestructible), its controller still gets the Beast token.</Rulings>
+<Rulings>2013/07/01: If the permanent is still a legal target but is not destroyed (perhaps because it regenerated or has indestructible), its controller still gets the Beast token.
+2021/03/19: If the target permanent is an illegal target by the time Beast Within tries to resolve, the spell won't resolve. No player creates a Beast token. If the target is legal but not destroyed (most likely because it has indestructible), its controller does create a Beast token.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1087,24 +1088,22 @@ Aura Gnarlid gets +1/+1 for each Aura on the battlefield.</CardText>
 <No>58</No>
 <Name>Boar Umbra</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>Enchant creature
 Enchanted creature gets +3/+3.
 Totem armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)</CardText>
 <Flavor>"From in here, everything looks like dinner."</Flavor>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>423483</Multiverseid>
-<Rulings>2010/06/15: If a creature enchanted with an Aura that has totem armor would be destroyed by multiple state-based actions at the same time the totem armor's effect will replace all of them and save the creature.
-2010/06/15: If a spell or ability (such as Planar Cleansing) would destroy both an Aura with totem armor and the permanent it's enchanting at the same time, totem armor's effect will save the enchanted permanent from being destroyed. Instead, the spell or ability will destroy the Aura in two different ways at the same time, but the result is the same as destroying it once.
-2010/06/15: Totem armor's effect is mandatory. If the enchanted permanent would be destroyed, you must remove all damage from it and destroy the Aura that has totem armor instead.
-2010/06/15: Say you control a permanent enchanted with an Aura that has totem armor, and the enchanted permanent has gained a regeneration shield. The next time it would be destroyed, you choose whether to apply the regeneration effect or the totem armor effect. The other effect is unused and remains, in case the permanent would be destroyed again.
-2010/06/15: If a spell or ability says that it would "destroy" a permanent enchanted with an Aura that has totem armor, that spell or ability causes the Aura to be destroyed instead. (This matters for cards such as Karmic Justice.) Totem armor doesn't destroy the Aura; rather, it changes the effects of the spell or ability. On the other hand, if a spell or ability deals lethal damage to a creature enchanted with an Aura that has totem armor, the game rules regarding lethal damage cause the Aura to be destroyed, not that spell or ability.
-2010/06/15: Totem armor's effect is not regeneration. Specifically, if totem armor's effect is applied, the enchanted permanent does not become tapped and is not removed from combat as a result. Effects that say the enchanted permanent can't be regenerated (as Vendetta does) won't prevent totem armor's effect from being applied.
-2010/06/15: Totem armor's effect is applied no matter why the enchanted permanent would be destroyed: because it's been dealt lethal damage, or because it's being affected by an effect that says to "destroy" it (such as Doom Blade). In either case, all damage is removed from the permanent and the Aura is destroyed instead.
-2010/06/15: If a permanent you control is enchanted with multiple Auras that have totem armor, and the enchanted permanent would be destroyed, one of those Auras is destroyed instead — but only one of them. You choose which one because you control the enchanted permanent.
-2013/07/01: Totem armor has no effect if the enchanted permanent is put into a graveyard for any other reason, such as if it's sacrificed, if it's legendary and another legendary permanent with the same name is controlled by the same player, or if its toughness is 0 or less.
-2013/07/01: If a creature enchanted with an Aura that has totem armor has indestructible, lethal damage and effects that try to destroy it simply have no effect. Totem armor won't do anything because it won't have to.
-2013/07/01: Say you control a permanent enchanted with an Aura that has totem armor, and that Aura has gained a regeneration shield. The next time the enchanted permanent would be destroyed, the Aura would be destroyed instead — but it regenerates, so nothing is destroyed at all. Alternately, if that Aura somehow gains indestructible, the enchanted permanent is effectively indestructible as well.</Rulings>
+<Rulings>2018/07/13: Totem armor's effect is mandatory. If the enchanted permanent would be destroyed, you must remove all damage from it (if it has any) and destroy the Aura that has totem armor instead.
+2018/07/13: Totem armor's effect is applied no matter why the enchanted permanent would be destroyed: because it's been dealt lethal damage, or because it's being affected by an effect that says to "destroy" it (such as Putrefy). In either case, all damage is removed from the permanent and the Aura is destroyed instead.
+2018/07/13: If a permanent you control is enchanted with multiple Auras that have totem armor, and the enchanted permanent would be destroyed, one of those Auras is destroyed instead — but only one of them. You choose which one because you control the enchanted permanent.
+2018/07/13: If a permanent enchanted with an Aura that has totem armor would be destroyed by multiple state-based actions at the same time (most likely because a creature with deathtouch has dealt damage to that creature greater than or equal to its toughness) totem armor's effect will replace all of them and save the creature.
+2018/07/13: If a spell or ability (such as Akroma's Vengeance) would destroy both an Aura with totem armor and the permanent it's enchanting at the same time, totem armor's effect will save the enchanted permanent from being destroyed. Instead, the spell or ability will destroy the Aura in two different ways at the same time, but the result is the same as destroying it once.
+2018/07/13: Totem armor's effect is not regeneration. Specifically, if totem armor's effect is applied, the enchanted permanent does not become tapped and is not removed from combat as a result. Effects that say the enchanted permanent can't be regenerated (as Putrefy does) won't prevent totem armor's effect from being applied.
+2018/07/13: If a spell or ability says that it would "destroy" a permanent enchanted with an Aura that has totem armor, that spell or ability is what causes the Aura to be destroyed instead. Totem armor doesn't destroy the Aura; rather, it changes the effects of the spell or ability. On the other hand, if a spell or ability deals lethal damage to a creature enchanted with an Aura that has totem armor, the game rules regarding lethal damage cause the Aura to be destroyed, not that spell or ability.
+2018/07/13: Totem armor has no effect if the enchanted permanent is put into a graveyard for any other reason, such as if it's sacrificed, if the "legend rule" applies to it, or if its toughness is 0 or less.
+2018/07/13: If a permanent enchanted with an Aura that has totem armor has indestructible, lethal damage and effects that try to destroy it simply have no effect. Totem armor won't do anything because it won't have to.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1117,7 +1116,7 @@ Totem armor (If enchanted creature would be destroyed, instead remove all damage
 <No>59</No>
 <Name>Bramble Elemental</Name>
 <Type>Creature — Elemental 4/4</Type>
-<ManaCost>3GG (5)</ManaCost>
+<ManaCost>{3}{G}{G}</ManaCost>
 <CardText>Whenever an Aura becomes attached to Bramble Elemental, create two 1/1 green Saproling creature tokens.</CardText>
 <Flavor>In abandoned corners of Ravnica, nature has begun to reclaim what it once owned.</Flavor>
 <Artist>Tomas Giorello</Artist>
@@ -1134,7 +1133,7 @@ Totem armor (If enchanted creature would be destroyed, instead remove all damage
 <No>60</No>
 <Name>Brindle Shoat</Name>
 <Type>Creature — Boar 1/1</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>When Brindle Shoat dies, create a 3/3 green Boar creature token.</CardText>
 <Flavor>Hunters lure the stripling boar into the open, hoping to trap greater prey.</Flavor>
 <Artist>Steven Belledin</Artist>
@@ -1149,10 +1148,10 @@ Totem armor (If enchanted creature would be destroyed, instead remove all damage
 <SetId>PCA</SetId>
 <No>61</No>
 <Name>Brutalizer Exarch</Name>
-<Type>Creature — Cleric 3/3</Type>
-<ManaCost>5G (6)</ManaCost>
+<Type>Creature — Phyrexian Cleric 3/3</Type>
+<ManaCost>{5}{G}</ManaCost>
 <CardText>When Brutalizer Exarch enters the battlefield, choose one —
-• Search your library for a creature card, reveal it, then shuffle your library and put that card on top of it.
+• Search your library for a creature card, reveal it, then shuffle and put that card on top.
 • Put target noncreature permanent on the bottom of its owner's library.</CardText>
 <Artist>Mark Zug</Artist>
 <Multiverseid>423486</Multiverseid>
@@ -1168,8 +1167,8 @@ Totem armor (If enchanted creature would be destroyed, instead remove all damage
 <No>62</No>
 <Name>Cultivate</Name>
 <Type>Sorcery</Type>
-<ManaCost>2G (3)</ManaCost>
-<CardText>Search your library for up to two basic land cards, reveal those cards, and put one onto the battlefield tapped and the other into your hand. Then shuffle your library.</CardText>
+<ManaCost>{2}{G}</ManaCost>
+<CardText>Search your library for up to two basic land cards, reveal those cards, put one onto the battlefield tapped and the other into your hand, then shuffle.</CardText>
 <Flavor>All seeds share a common bond, calling to each other across infinity.</Flavor>
 <Artist>Anthony Palumbo</Artist>
 <Multiverseid>423487</Multiverseid>
@@ -1186,7 +1185,7 @@ Totem armor (If enchanted creature would be destroyed, instead remove all damage
 <No>63</No>
 <Name>Dowsing Shaman</Name>
 <Type>Creature — Centaur Shaman 3/4</Type>
-<ManaCost>4G (5)</ManaCost>
+<ManaCost>{4}{G}</ManaCost>
 <CardText>{2}{G}, {T}: Return target enchantment card from your graveyard to your hand.</CardText>
 <Flavor>He combs the streets looking for the lost light, the discarded enigmas of the city.</Flavor>
 <Artist>Wayne Reynolds</Artist>
@@ -1203,13 +1202,13 @@ Totem armor (If enchanted creature would be destroyed, instead remove all damage
 <No>64</No>
 <Name>Dreampod Druid</Name>
 <Type>Creature — Human Druid 2/2</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>At the beginning of each upkeep, if Dreampod Druid is enchanted, create a 1/1 green Saproling creature token.</CardText>
 <Flavor>"Don't mistake my creations for mere vegetation. They are my children, loyal and fierce."</Flavor>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>423489</Multiverseid>
-<Rulings>2012/06/01: <Dreampod Druid>'s ability checks to see if it's enchanted at the beginning of each upkeep. If it's not, the ability won't trigger. If the ability triggers but <Dreampod Druid> isn't enchanted when that ability resolves, the ability will do nothing.
-2012/06/01: Notably, if <Dreampod Druid> leaves the battlefield while its ability is on the stack, that ability will use <Dreampod Druid>'s last known information to determine whether or not it was enchanted. If it was enchanted when it left the battlefield, the ability will resolve and create a Saproling.</Rulings>
+<Rulings>2012/06/01: Dreampod Druid's ability checks to see if it's enchanted at the beginning of each upkeep. If it's not, the ability won't trigger. If the ability triggers but Dreampod Druid isn't enchanted when that ability resolves, the ability will do nothing.
+2012/06/01: Notably, if Dreampod Druid leaves the battlefield while its ability is on the stack, that ability will use Dreampod Druid's last known information to determine whether or not it was enchanted. If it was enchanted when it left the battlefield, the ability will resolve and create a Saproling.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Planechase Anthology</Set>
@@ -1221,7 +1220,7 @@ Totem armor (If enchanted creature would be destroyed, instead remove all damage
 <No>65</No>
 <Name>Gluttonous Slime</Name>
 <Type>Creature — Ooze 2/2</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>Flash
 Devour 1 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with that many +1/+1 counters on it.)</CardText>
 <Flavor>On Jund, everything eventually ends up in something else's stomach.</Flavor>
@@ -1239,7 +1238,7 @@ Devour 1 (As this enters the battlefield, you may sacrifice any number of creatu
 <No>66</No>
 <Name>Lumberknot</Name>
 <Type>Creature — Treefolk 1/1</Type>
-<ManaCost>2GG (4)</ManaCost>
+<ManaCost>{2}{G}{G}</ManaCost>
 <CardText>Hexproof (This creature can't be the target of spells or abilities your opponents control.)
 Whenever a creature dies, put a +1/+1 counter on Lumberknot.</CardText>
 <Flavor>Animated by geists fused in its oak, it hungers for more life to add to its core.</Flavor>
@@ -1257,7 +1256,7 @@ Whenever a creature dies, put a +1/+1 counter on Lumberknot.</CardText>
 <No>67</No>
 <Name>Mitotic Slime</Name>
 <Type>Creature — Ooze 4/4</Type>
-<ManaCost>4G (5)</ManaCost>
+<ManaCost>{4}{G}</ManaCost>
 <CardText>When Mitotic Slime dies, create two 2/2 green Ooze creature tokens. They have "When this creature dies, create two 1/1 green Ooze creature tokens."</CardText>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>423492</Multiverseid>
@@ -1273,7 +1272,7 @@ Whenever a creature dies, put a +1/+1 counter on Lumberknot.</CardText>
 <No>68</No>
 <Name>Mycoloth</Name>
 <Type>Creature — Fungus 4/4</Type>
-<ManaCost>3GG (5)</ManaCost>
+<ManaCost>{3}{G}{G}</ManaCost>
 <CardText>Devour 2 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with twice that many +1/+1 counters on it.)
 At the beginning of your upkeep, create a 1/1 green Saproling creature token for each +1/+1 counter on Mycoloth.</CardText>
 <Artist>Raymond Swanland</Artist>
@@ -1282,7 +1281,7 @@ At the beginning of your upkeep, create a 1/1 green Saproling creature token for
 2008/10/01: If you cast this as a spell, you choose how many and which creatures to devour as part of the resolution of that spell. (It can't be countered at this point.) The same is true of a spell or ability that lets you put a creature with devour onto the battlefield.
 2008/10/01: You may sacrifice only creatures that are already on the battlefield. If a creature with devour and another creature are entering the battlefield under your control at the same time, the creature with devour can't devour that other creature. The creature with devour also can't devour itself.
 2008/10/01: If multiple creatures with devour are entering the battlefield under your control at the same time, you may use each one's devour ability. A creature you already control can be devoured by only one of them, however. (In other words, you can't sacrifice the same creature to satisfy multiple devour abilities.) All creatures devoured this way are sacrificed at the same time.
-2008/10/01: The number of Saproling tokens created by the triggered ability is based on the number of +1/+1 counters on <Mycoloth>, not on the number of creatures <Mycoloth> devoured. It doesn't matter where the +1/+1 counters came from.</Rulings>
+2008/10/01: The number of Saproling tokens created by the triggered ability is based on the number of +1/+1 counters on Mycoloth, not on the number of creatures Mycoloth devoured. It doesn't matter where the +1/+1 counters came from.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1295,7 +1294,7 @@ At the beginning of your upkeep, create a 1/1 green Saproling creature token for
 <No>69</No>
 <Name>Nest Invader</Name>
 <Type>Creature — Eldrazi Drone 2/2</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>When Nest Invader enters the battlefield, create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."</CardText>
 <Flavor>It nurtures its masters' glorious future.</Flavor>
 <Artist>Trevor Claxton</Artist>
@@ -1312,7 +1311,7 @@ At the beginning of your upkeep, create a 1/1 green Saproling creature token for
 <No>70</No>
 <Name>Nullmage Advocate</Name>
 <Type>Creature — Insect Druid 2/3</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>{T}: Return two target cards from an opponent's graveyard to their hand. Destroy target artifact or enchantment.</CardText>
 <Flavor>"Our unity unmasks your deceit."</Flavor>
 <Artist>Darrell Riche</Artist>
@@ -1329,8 +1328,8 @@ At the beginning of your upkeep, create a 1/1 green Saproling creature token for
 <No>71</No>
 <Name>Ondu Giant</Name>
 <Type>Creature — Giant Druid 2/4</Type>
-<ManaCost>3G (4)</ManaCost>
-<CardText>When Ondu Giant enters the battlefield, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.</CardText>
+<ManaCost>{3}{G}</ManaCost>
+<CardText>When Ondu Giant enters the battlefield, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle.</CardText>
 <Flavor>Some druids nurture gardens. Others nurture continents.</Flavor>
 <Artist>Igor Kieryluk</Artist>
 <Multiverseid>423496</Multiverseid>
@@ -1346,12 +1345,12 @@ At the beginning of your upkeep, create a 1/1 green Saproling creature token for
 <No>72</No>
 <Name>Overrun</Name>
 <Type>Sorcery</Type>
-<ManaCost>2GGG (5)</ManaCost>
+<ManaCost>{2}{G}{G}{G}</ManaCost>
 <CardText>Creatures you control get +3/+3 and gain trample until end of turn.</CardText>
 <Flavor>Nature doesn't walk.</Flavor>
 <Artist>Carl Critchlow</Artist>
 <Multiverseid>423497</Multiverseid>
-<Rulings>2009/10/01: <Overrun> affects only creatures you control at the time it resolves. It won't affect creatures that come under your control later in the turn.</Rulings>
+<Rulings>2009/10/01: Overrun affects only creatures you control at the time it resolves. It won't affect creatures that come under your control later in the turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1364,7 +1363,7 @@ At the beginning of your upkeep, create a 1/1 green Saproling creature token for
 <No>73</No>
 <Name>Penumbra Spider</Name>
 <Type>Creature — Spider 2/4</Type>
-<ManaCost>2GG (4)</ManaCost>
+<ManaCost>{2}{G}{G}</ManaCost>
 <CardText>Reach
 When Penumbra Spider dies, create a 2/4 black Spider creature token with reach.</CardText>
 <Flavor>When it snared a passing cockatrice, its own soul darkly doubled.</Flavor>
@@ -1382,13 +1381,13 @@ When Penumbra Spider dies, create a 2/4 black Spider creature token with reach.<
 <No>74</No>
 <Name>Predatory Urge</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>3G (4)</ManaCost>
+<ManaCost>{3}{G}</ManaCost>
 <CardText>Enchant creature
 Enchanted creature has "{T}: This creature deals damage equal to its power to target creature. That creature deals damage equal to its power to this creature."</CardText>
 <Artist>Scott Chou</Artist>
 <Multiverseid>423499</Multiverseid>
-<Rulings>2009/10/01: The controller of the enchanted creature may activate the ability, not the controller of <Predatory Urge>.
-2009/10/01: If the enchanted creature's ability is activated, that creature is the one that will deal and be dealt damage when the ability resolves. It doesn't matter if <Predatory Urge> leaves the battlefield or somehow becomes attached to another creature by that time.
+<Rulings>2009/10/01: The controller of the enchanted creature may activate the ability, not the controller of Predatory Urge.
+2009/10/01: If the enchanted creature's ability is activated, that creature is the one that will deal and be dealt damage when the ability resolves. It doesn't matter if Predatory Urge leaves the battlefield or somehow becomes attached to another creature by that time.
 2009/10/01: If the targeted creature leaves the battlefield (or otherwise becomes an illegal target) before the ability resolves, the ability doesn't resolve. The enchanted creature isn't dealt damage.
 2009/10/01: On the other hand, if the enchanted creature leaves the battlefield before the ability resolves, the ability continues to resolve. The enchanted creature deals damage to the targeted creature equal to the power the enchanted creature had as it last existed on the battlefield.
 2009/10/01: You may have the enchanted creature target itself with its own ability. If you do, it will deal damage to itself equal to its power, then immediately do it again.</Rulings>
@@ -1404,15 +1403,15 @@ Enchanted creature has "{T}: This creature deals damage equal to its power to ta
 <No>75</No>
 <Name>Quiet Disrepair</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>Enchant artifact or enchantment
 At the beginning of your upkeep, choose one —
 • Destroy enchanted permanent.
 • You gain 2 life.</CardText>
 <Artist>Glen Angus</Artist>
 <Multiverseid>423500</Multiverseid>
-<Rulings>2007/05/01: If you choose the "destroy" mode and <Quiet Disrepair> is moved to a different permanent while the ability is on the stack, the newly enchanted permanent will be destroyed when the ability resolves.
-2007/05/01: If you choose the "destroy" mode and <Quiet Disrepair> leaves the battlefield while the ability is on the stack, the last permanent it enchanted will be destroyed.</Rulings>
+<Rulings>2007/05/01: If you choose the "destroy" mode and Quiet Disrepair is moved to a different permanent while the ability is on the stack, the newly enchanted permanent will be destroyed when the ability resolves.
+2007/05/01: If you choose the "destroy" mode and Quiet Disrepair leaves the battlefield while the ability is on the stack, the last permanent it enchanted will be destroyed.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1425,13 +1424,13 @@ At the beginning of your upkeep, choose one —
 <No>76</No>
 <Name>Rancor</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>G (1)</ManaCost>
+<ManaCost>{G}</ManaCost>
 <CardText>Enchant creature
 Enchanted creature gets +2/+0 and has trample.
 When Rancor is put into a graveyard from the battlefield, return Rancor to its owner's hand.</CardText>
 <Artist>Kev Walker</Artist>
 <Multiverseid>423501</Multiverseid>
-<Rulings>2018/03/16: If the creature this Aura would enchant is an illegal target by the time <Rancor> tries to resolve, the Aura spell doesn't resolve. It won't enter the battlefield, so it won't be put into a graveyard from the battlefield and its ability won't trigger.</Rulings>
+<Rulings>2018/03/16: If the creature this Aura would enchant is an illegal target by the time Rancor tries to resolve, the Aura spell doesn't resolve. It won't enter the battlefield, so it won't be put into a graveyard from the battlefield and its ability won't trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1444,7 +1443,7 @@ When Rancor is put into a graveyard from the battlefield, return Rancor to its o
 <No>77</No>
 <Name>Silhana Ledgewalker</Name>
 <Type>Creature — Elf Rogue 1/1</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>Hexproof (This creature can't be the target of spells or abilities your opponents control.)
 Silhana Ledgewalker can't be blocked except by creatures with flying.</CardText>
 <Flavor>Street folk call them "spire mice," but behind the mockery is an unspoken envy of the ledgewalkers' skill at avoiding harm.</Flavor>
@@ -1463,33 +1462,23 @@ Silhana Ledgewalker can't be blocked except by creatures with flying.</CardText>
 <No>78</No>
 <Name>Snake Umbra</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>Enchant creature
 Enchanted creature gets +1/+1 and has "Whenever this creature deals damage to an opponent, you may draw a card."
 Totem armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)</CardText>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>423503</Multiverseid>
-<Rulings>2010/06/15: If a permanent you control is enchanted with multiple Auras that have totem armor, and the enchanted permanent would be destroyed, one of those Auras is destroyed instead — but only one of them. You choose which one because you control the enchanted permanent.
-2010/06/15: Totem armor's effect is applied no matter why the enchanted permanent would be destroyed: because it's been dealt lethal damage, or because it's being affected by an effect that says to "destroy" it (such as Doom Blade). In either case, all damage is removed from the permanent and the Aura is destroyed instead.
-2010/06/15: <Snake Umbra> grants the triggered ability to the creature. It triggers whenever the enchanted creature deals damage to an opponent of its controller (who is not necessarily an opponent of the Aura's controller). In other words, if your <Snake Umbra> winds up enchanting your opponent's creature, that opponent will draw a card whenever that creature damages you.
-2010/06/15: If a spell or ability says that it would "destroy" a permanent enchanted with an Aura that has totem armor, that spell or ability causes the Aura to be destroyed instead. (This matters for cards such as Karmic Justice.) Totem armor doesn't destroy the Aura; rather, it changes the effects of the spell or ability. On the other hand, if a spell or ability deals lethal damage to a creature enchanted with an Aura that has totem armor, the game rules regarding lethal damage cause the Aura to be destroyed, not that spell or ability.
-2010/06/15: Say you control a permanent enchanted with an Aura that has totem armor, and the enchanted permanent has gained a regeneration shield. The next time it would be destroyed, you choose whether to apply the regeneration effect or the totem armor effect. The other effect is unused and remains, in case the permanent would be destroyed again.
-2010/06/15: Totem armor's effect is not regeneration. Specifically, if totem armor's effect is applied, the enchanted permanent does not become tapped and is not removed from combat as a result. Effects that say the enchanted permanent can't be regenerated (as Vendetta does) won't prevent totem armor's effect from being applied.
-2010/06/15: If a spell or ability (such as Planar Cleansing) would destroy both an Aura with totem armor and the permanent it's enchanting at the same time, totem armor's effect will save the enchanted permanent from being destroyed. Instead, the spell or ability will destroy the Aura in two different ways at the same time, but the result is the same as destroying it once.
-2010/06/15: If a creature enchanted with an Aura that has totem armor would be destroyed by multiple state-based actions at the same time the totem armor's effect will replace all of them and save the creature.
+<Rulings>2010/06/15: Snake Umbra grants the triggered ability to the creature. It triggers whenever the enchanted creature deals damage to an opponent of its controller (who is not necessarily an opponent of the Aura's controller). In other words, if your Snake Umbra winds up enchanting your opponent's creature, that opponent will draw a card whenever that creature damages you.
 2010/06/15: The ability triggers when the enchanted creature deals any damage, not just combat damage.
-2010/06/15: Totem armor's effect is mandatory. If the enchanted permanent would be destroyed, you must remove all damage from it and destroy the Aura that has totem armor instead.
-2013/07/01: Totem armor has no effect if the enchanted permanent is put into a graveyard for any other reason, such as if it's sacrificed, if it's legendary and another legendary permanent with the same name is controlled by the same player, or if its toughness is 0 or less.
-2013/07/01: If a creature enchanted with an Aura that has totem armor has indestructible, lethal damage and effects that try to destroy it simply have no effect. Totem armor won't do anything because it won't have to.
-2013/07/01: Say you control a permanent enchanted with an Aura that has totem armor, and that Aura has gained a regeneration shield. The next time the enchanted permanent would be destroyed, the Aura would be destroyed instead — but it regenerates, so nothing is destroyed at all. Alternately, if that Aura somehow gains indestructible, the enchanted permanent is effectively indestructible as well.
-2018/07/13: Totem armor's effect is mandatory. If the enchanted permanent would be destroyed, you must remove all damage from it (if it has any) and destroy the Aura that has totem armor instead.
 2018/07/13: If a permanent enchanted with an Aura that has totem armor has indestructible, lethal damage and effects that try to destroy it simply have no effect. Totem armor won't do anything because it won't have to.
-2018/07/13: Totem armor has no effect if the enchanted permanent is put into a graveyard for any other reason, such as if it's sacrificed, if the "legend rule" applies to it, or if its toughness is 0 or less.
 2018/07/13: If a spell or ability says that it would "destroy" a permanent enchanted with an Aura that has totem armor, that spell or ability is what causes the Aura to be destroyed instead. Totem armor doesn't destroy the Aura; rather, it changes the effects of the spell or ability. On the other hand, if a spell or ability deals lethal damage to a creature enchanted with an Aura that has totem armor, the game rules regarding lethal damage cause the Aura to be destroyed, not that spell or ability.
-2018/07/13: Totem armor's effect is not regeneration. Specifically, if totem armor's effect is applied, the enchanted permanent does not become tapped and is not removed from combat as a result. Effects that say the enchanted permanent can't be regenerated (as Putrefy does) won't prevent totem armor's effect from being applied.
-2018/07/13: If a spell or ability (such as Akroma's Vengeance) would destroy both an Aura with totem armor and the permanent it's enchanting at the same time, totem armor's effect will save the enchanted permanent from being destroyed. Instead, the spell or ability will destroy the Aura in two different ways at the same time, but the result is the same as destroying it once.
+2018/07/13: Totem armor has no effect if the enchanted permanent is put into a graveyard for any other reason, such as if it's sacrificed, if the "legend rule" applies to it, or if its toughness is 0 or less.
+2018/07/13: Totem armor's effect is mandatory. If the enchanted permanent would be destroyed, you must remove all damage from it (if it has any) and destroy the Aura that has totem armor instead.
+2018/07/13: Totem armor's effect is applied no matter why the enchanted permanent would be destroyed: because it's been dealt lethal damage, or because it's being affected by an effect that says to "destroy" it (such as Putrefy). In either case, all damage is removed from the permanent and the Aura is destroyed instead.
+2018/07/13: If a permanent you control is enchanted with multiple Auras that have totem armor, and the enchanted permanent would be destroyed, one of those Auras is destroyed instead — but only one of them. You choose which one because you control the enchanted permanent.
 2018/07/13: If a permanent enchanted with an Aura that has totem armor would be destroyed by multiple state-based actions at the same time (most likely because a creature with deathtouch has dealt damage to that creature greater than or equal to its toughness) totem armor's effect will replace all of them and save the creature.
-2018/07/13: Totem armor's effect is applied no matter why the enchanted permanent would be destroyed: because it's been dealt lethal damage, or because it's being affected by an effect that says to "destroy" it (such as Putrefy). In either case, all damage is removed from the permanent and the Aura is destroyed instead.</Rulings>
+2018/07/13: If a spell or ability (such as Akroma's Vengeance) would destroy both an Aura with totem armor and the permanent it's enchanting at the same time, totem armor's effect will save the enchanted permanent from being destroyed. Instead, the spell or ability will destroy the Aura in two different ways at the same time, but the result is the same as destroying it once.
+2018/07/13: Totem armor's effect is not regeneration. Specifically, if totem armor's effect is applied, the enchanted permanent does not become tapped and is not removed from combat as a result. Effects that say the enchanted permanent can't be regenerated (as Putrefy does) won't prevent totem armor's effect from being applied.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1502,7 +1491,7 @@ Totem armor (If enchanted creature would be destroyed, instead remove all damage
 <No>79</No>
 <Name>Tukatongue Thallid</Name>
 <Type>Creature — Fungus 1/1</Type>
-<ManaCost>G (1)</ManaCost>
+<ManaCost>{G}</ManaCost>
 <CardText>When Tukatongue Thallid dies, create a 1/1 green Saproling creature token.</CardText>
 <Flavor>Jund's thallids tried to disguise their deliciousness by covering themselves in spines harvested from the tukatongue tree.</Flavor>
 <Artist>Vance Kovacs</Artist>
@@ -1518,9 +1507,9 @@ Totem armor (If enchanted creature would be destroyed, instead remove all damage
 <SetId>PCA</SetId>
 <No>80</No>
 <Name>Viridian Emissary</Name>
-<Type>Creature — Elf Scout 2/1</Type>
-<ManaCost>1G (2)</ManaCost>
-<CardText>When Viridian Emissary dies, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.</CardText>
+<Type>Creature — Phyrexian Elf Scout 2/1</Type>
+<ManaCost>{1}{G}</ManaCost>
+<CardText>When Viridian Emissary dies, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle.</CardText>
 <Artist>Matt Stewart</Artist>
 <Multiverseid>423505</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1535,7 +1524,7 @@ Totem armor (If enchanted creature would be destroyed, instead remove all damage
 <No>81</No>
 <Name>Wall of Blossoms</Name>
 <Type>Creature — Plant Wall 0/4</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>Defender
 When Wall of Blossoms enters the battlefield, draw a card.</CardText>
 <Flavor>Each flower identical, every leaf and petal disturbingly exact.</Flavor>
@@ -1553,7 +1542,7 @@ When Wall of Blossoms enters the battlefield, draw a card.</CardText>
 <No>82</No>
 <Name>Baleful Strix</Name>
 <Type>Artifact Creature — Bird 1/1</Type>
-<ManaCost>UB (2)</ManaCost>
+<ManaCost>{U}{B}</ManaCost>
 <CardText>Flying, deathtouch
 When Baleful Strix enters the battlefield, draw a card.</CardText>
 <Flavor>Its beak rends flesh and bone, exposing the tender marrow of dream.</Flavor>
@@ -1570,18 +1559,20 @@ When Baleful Strix enters the battlefield, draw a card.</CardText>
 <No>83</No>
 <Name>Bituminous Blast</Name>
 <Type>Instant</Type>
-<ManaCost>3BR (5)</ManaCost>
+<ManaCost>{3}{B}{R}</ManaCost>
 <CardText>Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)
 Bituminous Blast deals 4 damage to target creature.</CardText>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>423508</Multiverseid>
-<Rulings>2009/05/01: When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
-2009/05/01: If a spell with cascade is countered, the cascade ability will still resolve normally.
-2009/05/01: Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
-2009/05/01: If you cast the last exiled card, you're casting it as a spell. It can be countered. If that card has cascade, the new spell's cascade ability will trigger, and you'll repeat the process for the new spell.
-2009/05/01: After you're done exiling cards and casting the last one if you chose to do so, the remaining exiled cards are randomly placed on the bottom of your library. Neither you nor any other player is allowed to know the order of those cards.
-2009/05/01: You exile the cards face-up. All players will be able to see them.
-2017/04/18: The converted mana cost of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.</Rulings>
+<Rulings>2021/06/18: A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+2021/06/18: Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
+2021/06/18: When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
+2021/06/18: If a spell with cascade is countered, the cascade ability will still resolve normally.
+2021/06/18: You exile the cards face up. All players will be able to see them.
+2021/06/18: If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+2021/06/18: If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+2021/06/18: Due to a recent rules change to cascade, not only do you stop exiling cards if you exile a nonland card with lesser mana value than the spell with cascade, but the resulting spell you cast must also have lesser mana value. Previously, in cases where a card's mana value differed from the resulting spell, such as with some modal double-faced cards or cards with an Adventure, you could cast a spell with a higher mana value than the exiled card.
+2021/06/18: The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1594,18 +1585,20 @@ Bituminous Blast deals 4 damage to target creature.</CardText>
 <No>84</No>
 <Name>Bloodbraid Elf</Name>
 <Type>Creature — Elf Berserker 3/2</Type>
-<ManaCost>2RG (4)</ManaCost>
+<ManaCost>{2}{R}{G}</ManaCost>
 <CardText>Haste
 Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)</CardText>
 <Artist>Steve Argyle</Artist>
 <Multiverseid>423509</Multiverseid>
-<Rulings>2009/05/01: When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
-2009/05/01: If a spell with cascade is countered, the cascade ability will still resolve normally.
-2009/05/01: Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
-2009/05/01: If you cast the last exiled card, you're casting it as a spell. It can be countered. If that card has cascade, the new spell's cascade ability will trigger, and you'll repeat the process for the new spell.
-2009/05/01: After you're done exiling cards and casting the last one if you chose to do so, the remaining exiled cards are randomly placed on the bottom of your library. Neither you nor any other player is allowed to know the order of those cards.
-2009/05/01: You exile the cards face-up. All players will be able to see them.
-2017/04/18: The converted mana cost of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.</Rulings>
+<Rulings>2021/06/18: A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+2021/06/18: Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
+2021/06/18: When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
+2021/06/18: If a spell with cascade is countered, the cascade ability will still resolve normally.
+2021/06/18: You exile the cards face up. All players will be able to see them.
+2021/06/18: If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+2021/06/18: If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+2021/06/18: Due to a recent rules change to cascade, not only do you stop exiling cards if you exile a nonland card with lesser mana value than the spell with cascade, but the resulting spell you cast must also have lesser mana value. Previously, in cases where a card's mana value differed from the resulting spell, such as with some modal double-faced cards or cards with an Adventure, you could cast a spell with a higher mana value than the exiled card.
+2021/06/18: The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1618,7 +1611,7 @@ Cascade (When you cast this spell, exile cards from the top of your library unti
 <No>85</No>
 <Name>Deny Reality</Name>
 <Type>Sorcery</Type>
-<ManaCost>3UB (5)</ManaCost>
+<ManaCost>{3}{U}{B}</ManaCost>
 <CardText>Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)
 Return target permanent to its owner's hand.</CardText>
 <Artist>Jean-Sébastien Rossbach</Artist>
@@ -1642,9 +1635,9 @@ Return target permanent to its owner's hand.</CardText>
 <No>86</No>
 <Name>Dimir Infiltrator</Name>
 <Type>Creature — Spirit 1/3</Type>
-<ManaCost>UB (2)</ManaCost>
+<ManaCost>{U}{B}</ManaCost>
 <CardText>Dimir Infiltrator can't be blocked.
-Transmute {1}{U}{B} ({1}{U}{B}, Discard this card: Search your library for a card with the same converted mana cost as this card, reveal it, and put it into your hand. Then shuffle your library. Transmute only as a sorcery.)</CardText>
+Transmute {1}{U}{B} ({1}{U}{B}, Discard this card: Search your library for a card with the same mana value as this card, reveal it, put it into your hand, then shuffle. Transmute only as a sorcery.)</CardText>
 <Artist>Jim Nelson</Artist>
 <Multiverseid>423511</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -1659,7 +1652,7 @@ Transmute {1}{U}{B} ({1}{U}{B}, Discard this card: Search your library for a car
 <No>87</No>
 <Name>Dragonlair Spider</Name>
 <Type>Creature — Spider 5/6</Type>
-<ManaCost>2RRGG (6)</ManaCost>
+<ManaCost>{2}{R}{R}{G}{G}</ManaCost>
 <CardText>Reach
 Whenever an opponent casts a spell, create a 1/1 green Insect creature token.</CardText>
 <Flavor>Swarms thrive in its nest, feeding on leathery bits of discarded wing.</Flavor>
@@ -1678,18 +1671,18 @@ Whenever an opponent casts a spell, create a 1/1 green Insect creature token.</C
 <No>88</No>
 <Name>Elderwood Scion</Name>
 <Type>Creature — Elemental 4/4</Type>
-<ManaCost>3GW (5)</ManaCost>
+<ManaCost>{3}{G}{W}</ManaCost>
 <CardText>Trample, lifelink
 Spells you cast that target Elderwood Scion cost {2} less to cast.
 Spells your opponents cast that target Elderwood Scion cost {2} more to cast.</CardText>
 <Flavor>The Sunbriar druids believe that every life begins in its heart and ends under its hooves.</Flavor>
 <Artist>Nils Hamm</Artist>
 <Multiverseid>423513</Multiverseid>
-<Rulings>2012/06/01: None of <Elderwood Scion>'s abilities affect abilities that target it.
-2012/06/01: Aura spells require a target when they are cast. <Elderwood Scion>'s cost-reduction ability will affect Aura spells cast targeting it.
-2012/06/01: Spells you cast that target <Elderwood Scion> will cost {2} less to cast even if those spells have additional targets. The same is true for spells your opponents cast costing {2} more.
-2012/06/01: <Elderwood Scion>'s cost-reduction ability can't reduce the colored mana requirement of a spell.
-2012/06/01: <Elderwood Scion>'s cost-reduction ability can apply to any cost of a spell, including additional or alternative costs.</Rulings>
+<Rulings>2012/06/01: None of Elderwood Scion's abilities affect abilities that target it.
+2012/06/01: Aura spells require a target when they are cast. Elderwood Scion's cost-reduction ability will affect Aura spells cast targeting it.
+2012/06/01: Spells you cast that target Elderwood Scion will cost {2} less to cast even if those spells have additional targets. The same is true for spells your opponents cast costing {2} more.
+2012/06/01: Elderwood Scion's cost-reduction ability can't reduce the colored mana requirement of a spell.
+2012/06/01: Elderwood Scion's cost-reduction ability can apply to any cost of a spell, including additional or alternative costs.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Planechase Anthology</Set>
@@ -1701,20 +1694,20 @@ Spells your opponents cast that target Elderwood Scion cost {2} more to cast.</C
 <No>89</No>
 <Name>Enigma Sphinx</Name>
 <Type>Artifact Creature — Sphinx 5/4</Type>
-<ManaCost>4WUB (7)</ManaCost>
+<ManaCost>{4}{W}{U}{B}</ManaCost>
 <CardText>Flying
 When Enigma Sphinx is put into your graveyard from the battlefield, put it into your library third from the top.
 Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)</CardText>
 <Artist>Chris Rahn</Artist>
 <Multiverseid>423514</Multiverseid>
-<Rulings>2009/05/01: When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
+<Rulings>2009/05/01: Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
 2009/05/01: If a spell with cascade is countered, the cascade ability will still resolve normally.
 2009/05/01: You exile the cards face-up. All players will be able to see them.
 2009/05/01: If you cast the last exiled card, you're casting it as a spell. It can be countered. If that card has cascade, the new spell's cascade ability will trigger, and you'll repeat the process for the new spell.
-2009/05/01: Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
-2009/05/01: After <Enigma Sphinx>'s middle ability triggers, if <Enigma Sphinx> is removed from your graveyard in response, it won't be put into your library.
-2009/05/01: If you have zero or one card left in your library when <Enigma Sphinx>'s middle ability resolves, <Enigma Sphinx> is put on the bottom of your library.
-2009/05/01: If you control an <Enigma Sphinx> that's owned by another player, it's put into that player's graveyard from the battlefield, so <Enigma Sphinx>'s middle ability won't trigger.
+2009/05/01: When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
+2009/05/01: After Enigma Sphinx's middle ability triggers, if Enigma Sphinx is removed from your graveyard in response, it won't be put into your library.
+2009/05/01: If you have zero or one card left in your library when Enigma Sphinx's middle ability resolves, Enigma Sphinx is put on the bottom of your library.
+2009/05/01: If you control an Enigma Sphinx that's owned by another player, it's put into that player's graveyard from the battlefield, so Enigma Sphinx's middle ability won't trigger.
 2009/05/01: After you're done exiling cards and casting the last one if you chose to do so, the remaining exiled cards are randomly placed on the bottom of your library. Neither you nor any other player is allowed to know the order of those cards.
 2017/04/18: The converted mana cost of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.</Rulings>
 <Vintage>Legal</Vintage>
@@ -1729,7 +1722,7 @@ Cascade (When you cast this spell, exile cards from the top of your library unti
 <No>90</No>
 <Name>Enlisted Wurm</Name>
 <Type>Creature — Wurm 5/5</Type>
-<ManaCost>4GW (6)</ManaCost>
+<ManaCost>{4}{G}{W}</ManaCost>
 <CardText>Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)</CardText>
 <Flavor>A match for any army—even its own.</Flavor>
 <Artist>Steve Prescott</Artist>
@@ -1753,12 +1746,12 @@ Cascade (When you cast this spell, exile cards from the top of your library unti
 <No>91</No>
 <Name>Etherium-Horn Sorcerer</Name>
 <Type>Artifact Creature — Minotaur Wizard 3/6</Type>
-<ManaCost>4UR (6)</ManaCost>
+<ManaCost>{4}{U}{R}</ManaCost>
 <CardText>{1}{U}{R}: Return Etherium-Horn Sorcerer to its owner's hand.
 Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)</CardText>
 <Artist>Franz Vohwinkel</Artist>
 <Multiverseid>423516</Multiverseid>
-<Rulings>2012/06/01: <Etherium-Horn Sorcerer>'s first ability can only be activated when it is on the battlefield. If <Etherium-Horn Sorcerer> isn't on the battlefield when the ability resolves, the ability won't do anything.</Rulings>
+<Rulings>2012/06/01: Etherium-Horn Sorcerer's first ability can only be activated when it is on the battlefield. If Etherium-Horn Sorcerer isn't on the battlefield when the ability resolves, the ability won't do anything.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Planechase Anthology</Set>
@@ -1770,7 +1763,7 @@ Cascade (When you cast this spell, exile cards from the top of your library unti
 <No>92</No>
 <Name>Fires of Yavimaya</Name>
 <Type>Enchantment</Type>
-<ManaCost>1RG (3)</ManaCost>
+<ManaCost>{1}{R}{G}</ManaCost>
 <CardText>Creatures you control have haste.
 Sacrifice Fires of Yavimaya: Target creature gets +2/+2 until end of turn.</CardText>
 <Artist>Val Mayerik</Artist>
@@ -1786,7 +1779,7 @@ Sacrifice Fires of Yavimaya: Target creature gets +2/+2 until end of turn.</Card
 <No>93</No>
 <Name>Fusion Elemental</Name>
 <Type>Creature — Elemental 8/8</Type>
-<ManaCost>WUBRG (5)</ManaCost>
+<ManaCost>{W}{U}{B}{R}{G}</ManaCost>
 <Flavor>As the shards merged into the Maelstrom, their mana energies fused into new monstrosities.</Flavor>
 <Artist>Michael Komarck</Artist>
 <Multiverseid>423518</Multiverseid>
@@ -1802,7 +1795,7 @@ Sacrifice Fires of Yavimaya: Target creature gets +2/+2 until end of turn.</Card
 <No>94</No>
 <Name>Glen Elendra Liege</Name>
 <Type>Creature — Faerie Knight 2/3</Type>
-<ManaCost>1{U/B}{U/B}{U/B} (4)</ManaCost>
+<ManaCost>{1}{U/B}{U/B}{U/B}</ManaCost>
 <CardText>Flying
 Other blue creatures you control get +1/+1.
 Other black creatures you control get +1/+1.</CardText>
@@ -1822,14 +1815,14 @@ Other black creatures you control get +1/+1.</CardText>
 <No>95</No>
 <Name>Hellkite Hatchling</Name>
 <Type>Creature — Dragon 2/2</Type>
-<ManaCost>2RG (4)</ManaCost>
+<ManaCost>{2}{R}{G}</ManaCost>
 <CardText>Devour 1 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with that many +1/+1 counters on it.)
 Hellkite Hatchling has flying and trample if it devoured a creature.</CardText>
 <Flavor>A killing machine from birth.</Flavor>
 <Artist>Daarken</Artist>
 <Multiverseid>423520</Multiverseid>
-<Rulings>2009/02/01: <Hellkite Hatchling> has flying and trample if at least one creature was sacrificed as a result of the Hatchling's devour ability as it entered the battlefield. It retains those abilities even if its +1/+1 counters are somehow removed.
-2009/02/01: If another creature becomes a copy of <Hellkite Hatchling> (due to Mirrorweave, for example), the second ability checks to see whether that creature — not the original <Hellkite Hatchling> — devoured a creature as it entered the battlefield.</Rulings>
+<Rulings>2009/02/01: Hellkite Hatchling has flying and trample if at least one creature was sacrificed as a result of the Hatchling's devour ability as it entered the battlefield. It retains those abilities even if its +1/+1 counters are somehow removed.
+2009/02/01: If another creature becomes a copy of Hellkite Hatchling (due to Mirrorweave, for example), the second ability checks to see whether that creature — not the original Hellkite Hatchling — devoured a creature as it entered the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1842,13 +1835,13 @@ Hellkite Hatchling has flying and trample if it devoured a creature.</CardText>
 <No>96</No>
 <Name>Indrik Umbra</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>4GW (6)</ManaCost>
+<ManaCost>{4}{G}{W}</ManaCost>
 <CardText>Enchant creature
 Enchanted creature gets +4/+4 and has first strike, and all creatures able to block it do so.
 Totem armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)</CardText>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>423521</Multiverseid>
-<Rulings>2012/06/01: <Indrik Umbra> does not give any creature the ability to block the enchanted creature. It just forces those creatures which are already able to block that creature to do so.
+<Rulings>2012/06/01: Indrik Umbra does not give any creature the ability to block the enchanted creature. It just forces those creatures which are already able to block that creature to do so.
 2012/06/01: If, during a player's declare blockers step, a creature is tapped or it's affected by a spell or ability that says it can't block, then it doesn't block. If there's a cost associated with having a creature block, its controller isn't forced to pay that cost. The creature doesn't have to block.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1861,7 +1854,7 @@ Totem armor (If enchanted creature would be destroyed, instead remove all damage
 <No>97</No>
 <Name>Inkfathom Witch</Name>
 <Type>Creature — Merfolk Wizard 1/1</Type>
-<ManaCost>1{U/B} (2)</ManaCost>
+<ManaCost>{1}{U/B}</ManaCost>
 <CardText>Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)
 {2}{U}{B}: Each unblocked creature has base power and toughness 4/1 until end of turn.</CardText>
 <Flavor>The murk of the Wanderbrine concealed unseemly rituals designed to bring out the worst in merrowkind.</Flavor>
@@ -1869,8 +1862,8 @@ Totem armor (If enchanted creature would be destroyed, instead remove all damage
 <Multiverseid>423522</Multiverseid>
 <Rulings>2008/05/01: An "unblocked creature" is a creature that attacked and wasn't blocked. Creatures aren't "blocked" or "unblocked" until the declare blockers step, so activating this ability before then (or after combat ends) will have no effect.
 2008/05/01: Creatures stop being unblocked as the combat phase ends. However, they'll stay 4/1 until turn ends.
-2008/05/01: <Inkfathom Witch> doesn't cause creatures to lose their abilities.
-2008/05/01: If <Inkfathom Witch> is attacking and unblocked, it can make itself 4/1.
+2008/05/01: Inkfathom Witch doesn't cause creatures to lose their abilities.
+2008/05/01: If Inkfathom Witch is attacking and unblocked, it can make itself 4/1.
 2009/10/01: The effect from the ability overwrites other effects that set power and/or toughness if and only if those effects existed before the ability resolved. It will not overwrite effects that modify power or toughness (whether from a static ability, counters, or a resolved spell or ability), nor will it overwrite effects that set power and toughness which come into existence after the ability resolves. Effects that switch the creature's power and toughness are always applied after any other power or toughness changing effects, including this one, regardless of the order in which they are created.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1884,7 +1877,7 @@ Totem armor (If enchanted creature would be destroyed, instead remove all damage
 <No>98</No>
 <Name>Kathari Remnant</Name>
 <Type>Creature — Bird Skeleton 0/1</Type>
-<ManaCost>2UB (4)</ManaCost>
+<ManaCost>{2}{U}{B}</ManaCost>
 <CardText>Flying
 {B}: Regenerate Kathari Remnant.
 Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)</CardText>
@@ -1909,7 +1902,7 @@ Cascade (When you cast this spell, exile cards from the top of your library unti
 <No>99</No>
 <Name>Krond the Dawn-Clad</Name>
 <Type>Legendary Creature — Archon 6/6</Type>
-<ManaCost>GGGWWW (6)</ManaCost>
+<ManaCost>{G}{G}{G}{W}{W}{W}</ManaCost>
 <CardText>Flying, vigilance
 Whenever Krond the Dawn-Clad attacks, if it's enchanted, exile target permanent.</CardText>
 <Flavor>Krond, the personification of the dawn's light, lives to exact justice on his nemesis Vela.</Flavor>
@@ -1927,7 +1920,7 @@ Whenever Krond the Dawn-Clad attacks, if it's enchanted, exile target permanent.
 <No>100</No>
 <Name>Last Stand</Name>
 <Type>Sorcery</Type>
-<ManaCost>WUBRG (5)</ManaCost>
+<ManaCost>{W}{U}{B}{R}{G}</ManaCost>
 <CardText>Target opponent loses 2 life for each Swamp you control. Last Stand deals damage to target creature equal to the number of Mountains you control. Create a 1/1 green Saproling creature token for each Forest you control. You gain 2 life for each Plains you control. Draw a card for each Island you control, then discard that many cards.</CardText>
 <Artist>Ron Spencer</Artist>
 <Multiverseid>423525</Multiverseid>
@@ -1942,14 +1935,14 @@ Whenever Krond the Dawn-Clad attacks, if it's enchanted, exile target permanent.
 <No>101</No>
 <Name>Maelstrom Wanderer</Name>
 <Type>Legendary Creature — Elemental 7/5</Type>
-<ManaCost>5GUR (8)</ManaCost>
+<ManaCost>{5}{G}{U}{R}</ManaCost>
 <CardText>Creatures you control have haste.
 Cascade, cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order. Then do it again.)</CardText>
 <Artist>Thomas M. Baxa</Artist>
 <Multiverseid>423526</Multiverseid>
-<Rulings>2016/06/08: <Maelstrom Wanderer> gives itself haste.
-2016/06/08: Each instance of cascade triggers and resolves separately. The spell you cast due to the first cascade ability will go on the stack on top of the second cascade ability. That spell will resolve before you exile cards for the second cascade ability.
-2016/06/08: No matter what spell you cast with the first cascade trigger (or with any cascade triggers that result from casting that spell), the second cascade trigger will look for a spell with converted mana cost less than <Maelstrom Wanderer>'s converted mana cost of 8.</Rulings>
+<Rulings>2020/11/10: Maelstrom Wanderer gives itself haste.
+2020/11/10: Each instance of cascade triggers and resolves separately. The spell you cast due to the first cascade ability will go on the stack on top of the second cascade ability. That spell will resolve before you exile cards for the second cascade ability.
+2020/11/10: No matter what spell you cast with the first cascade trigger (or with any cascade triggers that result from casting that spell), the second cascade trigger will look for a spell with converted mana cost less than Maelstrom Wanderer's converted mana cost of 8.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Planechase Anthology</Set>
@@ -1961,7 +1954,7 @@ Cascade, cascade (When you cast this spell, exile cards from the top of your lib
 <No>102</No>
 <Name>Noggle Ransacker</Name>
 <Type>Creature — Noggle Rogue 2/1</Type>
-<ManaCost>2{U/R} (3)</ManaCost>
+<ManaCost>{2}{U/R}</ManaCost>
 <CardText>When Noggle Ransacker enters the battlefield, each player draws two cards, then discards a card at random.</CardText>
 <Flavor>Noggles live purely by what they can scavenge. There is not a single thing a noggle eats, wears, or uses that did not once belong to another.</Flavor>
 <Artist>Alex Horley-Orlandelli</Artist>
@@ -1979,7 +1972,7 @@ Cascade, cascade (When you cast this spell, exile cards from the top of your lib
 <No>103</No>
 <Name>Pollenbright Wings</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>4GW (6)</ManaCost>
+<ManaCost>{4}{G}{W}</ManaCost>
 <CardText>Enchant creature
 Enchanted creature has flying.
 Whenever enchanted creature deals combat damage to a player, create that many 1/1 green Saproling creature tokens.</CardText>
@@ -1997,12 +1990,22 @@ Whenever enchanted creature deals combat damage to a player, create that many 1/
 <No>104</No>
 <Name>Shardless Agent</Name>
 <Type>Artifact Creature — Human Rogue 2/2</Type>
-<ManaCost>1GU (3)</ManaCost>
+<ManaCost>{1}{G}{U}</ManaCost>
 <CardText>Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)</CardText>
 <Artist>Izzy</Artist>
 <Multiverseid>423529</Multiverseid>
+<Rulings>2021/06/18: A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+2021/06/18: Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
+2021/06/18: When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
+2021/06/18: If a spell with cascade is countered, the cascade ability will still resolve normally.
+2021/06/18: You exile the cards face up. All players will be able to see them.
+2021/06/18: If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+2021/06/18: If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+2021/06/18: Due to a recent rules change to cascade, not only do you stop exiling cards if you exile a nonland card with lesser mana value than the spell with cascade, but the resulting spell you cast must also have lesser mana value. Previously, in cases where a card's mana value differed from the resulting spell, such as with some modal double-faced cards or cards with an Adventure, you could cast a spell with a higher mana value than the exiled card.
+2021/06/18: The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
+<Modern>Legal</Modern>
 <Set>Planechase Anthology</Set>
 <Rarity>Uncommon</Rarity>
 </Card>
@@ -2012,9 +2015,9 @@ Whenever enchanted creature deals combat damage to a player, create that many 1/
 <No>105</No>
 <Name>Silent-Blade Oni</Name>
 <Type>Creature — Demon Ninja 6/5</Type>
-<ManaCost>3UUBB (7)</ManaCost>
+<ManaCost>{3}{U}{U}{B}{B}</ManaCost>
 <CardText>Ninjutsu {4}{U}{B} ({4}{U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
-Whenever Silent-Blade Oni deals combat damage to a player, look at that player's hand. You may cast a nonland card in it without paying that card's mana cost.</CardText>
+Whenever Silent-Blade Oni deals combat damage to a player, look at that player's hand. You may cast a spell from among those cards without paying its mana cost.</CardText>
 <Artist>Steve Prescott</Artist>
 <Multiverseid>423530</Multiverseid>
 <Rulings>2012/06/01: If you cast a permanent spell this way, it will enter the battlefield under your control when it resolves. If you cast an instant or sorcery spell this way, that card will be put into its owner's graveyard when it resolves.
@@ -2031,7 +2034,7 @@ Whenever Silent-Blade Oni deals combat damage to a player, look at that player's
 <No>106</No>
 <Name>Thromok the Insatiable</Name>
 <Type>Legendary Creature — Hellion 0/0</Type>
-<ManaCost>3RG (5)</ManaCost>
+<ManaCost>{3}{R}{G}</ManaCost>
 <CardText>Devour X, where X is the number of creatures devoured this way (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with X +1/+1 counters on it for each of those creatures.)</CardText>
 <Artist>Terese Nielsen</Artist>
 <Multiverseid>423531</Multiverseid>
@@ -2047,7 +2050,7 @@ Whenever Silent-Blade Oni deals combat damage to a player, look at that player's
 <No>107</No>
 <Name>Vela the Night-Clad</Name>
 <Type>Legendary Creature — Human Wizard 4/4</Type>
-<ManaCost>4UB (6)</ManaCost>
+<ManaCost>{4}{U}{B}</ManaCost>
 <CardText>Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)
 Other creatures you control have intimidate.
 Whenever Vela the Night-Clad or another creature you control leaves the battlefield, each opponent loses 1 life.</CardText>
@@ -2066,8 +2069,8 @@ Whenever Vela the Night-Clad or another creature you control leaves the battlefi
 <No>108</No>
 <Name>Armillary Sphere</Name>
 <Type>Artifact</Type>
-<ManaCost>2 (2)</ManaCost>
-<CardText>{2}, {T}, Sacrifice Armillary Sphere: Search your library for up to two basic land cards, reveal them, put them into your hand, then shuffle your library.</CardText>
+<ManaCost>{2}</ManaCost>
+<CardText>{2}, {T}, Sacrifice Armillary Sphere: Search your library for up to two basic land cards, reveal them, put them into your hand, then shuffle.</CardText>
 <Flavor>The mysterious purpose of two of the rings had eluded Esper mages—until now.</Flavor>
 <Artist>Franz Vohwinkel</Artist>
 <Multiverseid>423533</Multiverseid>
@@ -2083,14 +2086,14 @@ Whenever Vela the Night-Clad or another creature you control leaves the battlefi
 <No>109</No>
 <Name>Farsight Mask</Name>
 <Type>Artifact</Type>
-<ManaCost>5 (5)</ManaCost>
+<ManaCost>{5}</ManaCost>
 <CardText>Whenever a source an opponent controls deals damage to you, if Farsight Mask is untapped, you may draw a card.</CardText>
 <Flavor>It turns the adversity of the moment into the knowledge of a lifetime.</Flavor>
 <Artist>Ben Thompson</Artist>
 <Multiverseid>423534</Multiverseid>
 <Rulings>2004/12/01: This triggers each time a source an opponent controls deals damage to you. If the same source deals damage more than once in a turn, it triggers for each of those times.
 2004/12/01: You draw no more than one card each time a source an opponent controls damages you, no matter how much damage the source deals.
-2004/12/01: <Farsight Mask> must be untapped both when the damage is dealt and when you would draw the card.
+2004/12/01: Farsight Mask must be untapped both when the damage is dealt and when you would draw the card.
 2004/12/01: Each instance of each creature's combat damage is counted separately. If three creatures with double strike attack you and all of them are unblocked, you may draw up to six cards.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2104,8 +2107,8 @@ Whenever Vela the Night-Clad or another creature you control leaves the battlefi
 <No>110</No>
 <Name>Flayer Husk</Name>
 <Type>Artifact — Equipment</Type>
-<ManaCost>1 (1)</ManaCost>
-<CardText>Living weapon (When this Equipment enters the battlefield, create a 0/0 black Germ creature token, then attach this to it.)
+<ManaCost>{1}</ManaCost>
+<CardText>Living weapon (When this Equipment enters the battlefield, create a 0/0 black Phyrexian Germ creature token, then attach this to it.)
 Equipped creature gets +1/+1.
 Equip {2}</CardText>
 <Artist>Igor Kieryluk</Artist>
@@ -2122,14 +2125,14 @@ Equip {2}</CardText>
 <No>111</No>
 <Name>Fractured Powerstone</Name>
 <Type>Artifact</Type>
-<ManaCost>2 (2)</ManaCost>
+<ManaCost>{2}</ManaCost>
 <CardText>{T}: Add {C}.
-{T}: Roll the planar die. Activate this ability only any time you could cast a sorcery.</CardText>
+{T}: Roll the planar die. Activate only as a sorcery.</CardText>
 <Flavor>The Thran learned to capture mana, but power inevitably escapes its bonds.</Flavor>
 <Artist>Rob Alexander</Artist>
 <Multiverseid>423536</Multiverseid>
-<Rulings>2012/06/01: In non-Planechase games, <Fractured Powerstone>'s second ability will have no effect.
-2012/06/01: Rolling the planar die this way doesn't count when determining the cost of the special action of rolling the planar die. For example, if you roll the planar die twice in a turn, then activate <Fractured Powerstone> to roll it a third time, rolling the planar die again that turn will cost {2}.</Rulings>
+<Rulings>2012/06/01: In non-Planechase games, Fractured Powerstone's second ability will have no effect.
+2012/06/01: Rolling the planar die this way doesn't count when determining the cost of the special action of rolling the planar die. For example, if you roll the planar die twice in a turn, then activate Fractured Powerstone to roll it a third time, rolling the planar die again that turn will cost {2}.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Planechase Anthology</Set>
@@ -2141,15 +2144,15 @@ Equip {2}</CardText>
 <No>112</No>
 <Name>Quietus Spike</Name>
 <Type>Artifact — Equipment</Type>
-<ManaCost>3 (3)</ManaCost>
+<ManaCost>{3}</ManaCost>
 <CardText>Equipped creature has deathtouch.
 Whenever equipped creature deals combat damage to a player, that player loses half their life, rounded up.
 Equip {3}</CardText>
 <Artist>Mark Brill</Artist>
 <Multiverseid>423537</Multiverseid>
 <Rulings>2008/10/01: That player loses half their life after combat damage has been subtracted from the player's life total. The amount of life the player loses is determined as the triggered ability resolves.
-2008/10/01: If multiple <Quietus Spike>s trigger at the same time, that player loses half their life when the first ability resolves, then loses half of the remainder when the next ability resolves, and so on. The player does not lose the same amount each time.
-2010/06/15: In a Two-Headed Giant game, after combat damage is dealt, <Quietus Spike> looks at that player's life total (which is the same as the team's life total) when determining how much life the team will lose, which basically means the team's life total is halved. Here's an example of the math: The team has 19 life, so the player has 19 life. <Quietus Spike> causes the team to lose 10 life (19 divided by 2, rounded up). The team's life total becomes 9 (19 minus 10).</Rulings>
+2008/10/01: If multiple Quietus Spikes trigger at the same time, that player loses half their life when the first ability resolves, then loses half of the remainder when the next ability resolves, and so on. The player does not lose the same amount each time.
+2010/06/15: In a Two-Headed Giant game, after combat damage is dealt, Quietus Spike looks at that player's life total (which is the same as the team's life total) when determining how much life the team will lose, which basically means the team's life total is halved. Here's an example of the math: The team has 19 life, so the player has 19 life. Quietus Spike causes the team to lose 10 life (19 divided by 2, rounded up). The team's life total becomes 9 (19 minus 10).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2162,14 +2165,14 @@ Equip {3}</CardText>
 <No>113</No>
 <Name>Sai of the Shinobi</Name>
 <Type>Artifact — Equipment</Type>
-<ManaCost>1 (1)</ManaCost>
+<ManaCost>{1}</ManaCost>
 <CardText>Equipped creature gets +1/+1.
 Whenever a creature enters the battlefield under your control, you may attach Sai of the Shinobi to it.
 Equip {2}</CardText>
 <Flavor>The passing of the sai presages the end of the old clan and the ascent of the new.</Flavor>
 <Artist>Brian Snõddy</Artist>
 <Multiverseid>423538</Multiverseid>
-<Rulings>2018/03/16: If you choose not to attach <Sai of the Shinobi> to a creature that enters the battlefield, or if you can't (most likely because the creature has left the battlefield by the time the triggered ability resolves), <Sai of the Shinobi> doesn't move.</Rulings>
+<Rulings>2018/03/16: If you choose not to attach Sai of the Shinobi to a creature that enters the battlefield, or if you can't (most likely because the creature has left the battlefield by the time the triggered ability resolves), Sai of the Shinobi doesn't move.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Planechase Anthology</Set>
@@ -2181,7 +2184,7 @@ Equip {2}</CardText>
 <No>114</No>
 <Name>Thran Golem</Name>
 <Type>Artifact Creature — Golem 3/3</Type>
-<ManaCost>5 (5)</ManaCost>
+<ManaCost>{5}</ManaCost>
 <CardText>As long as Thran Golem is enchanted, it gets +2/+2 and has flying, first strike, and trample.</CardText>
 <Flavor>The golems of the ancient Thran still draw power in ways that baffle the artificers of today.</Flavor>
 <Artist>Ron Spears</Artist>
@@ -2198,7 +2201,7 @@ Equip {2}</CardText>
 <No>115</No>
 <Name>Whispersilk Cloak</Name>
 <Type>Artifact — Equipment</Type>
-<ManaCost>3 (3)</ManaCost>
+<ManaCost>{3}</ManaCost>
 <CardText>Equipped creature can't be blocked and has shroud. (It can't be the target of spells or abilities.)
 Equip {2}</CardText>
 <Flavor>Such cloaks are in high demand both by assassins and by those who fear them.</Flavor>
@@ -2239,11 +2242,11 @@ When Dimir Aqueduct enters the battlefield, return a land you control to its own
 —Pulan, Bant orchardist</Flavor>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>423542</Multiverseid>
-<Rulings>2009/02/01: The colors of mana are white, blue, black, red, and green. <Exotic Orchard> can't be tapped for colorless mana, even if a land an opponent controls could produce colorless mana.
-2009/02/01: <Exotic Orchard> checks the effects of all mana-producing abilities of lands your opponents control, but it doesn't check their costs. For example, Vivid Crag has the ability "{T}, Remove a charge counter from Vivid Crag: Add one mana of any color." If an opponent controls Vivid Crag and you control <Exotic Orchard>, you can tap <Exotic Orchard> for any color of mana. It doesn't matter whether Vivid Crag has a charge counter on it, and it doesn't matter whether it's untapped.
-2009/02/01: When determining what colors of mana your opponents' lands could produce, <Exotic Orchard> takes into account any applicable replacement effects that would apply to those lands' mana abilities (such as Contamination's effect, for example). If there are more than one, consider them in any possible order.
-2009/02/01: <Exotic Orchard> doesn't care about any restrictions or riders your opponents' lands (such as Ancient Ziggurat or Hall of the Bandit Lord) put on the mana they produce. It just cares about colors of mana.
-2009/02/01: Lands that produce mana based only on what other lands "could produce" won't help each other unless some other land allows one of them to actually produce some type of mana. For example, if you control an <Exotic Orchard> and your opponent controls an <Exotic Orchard> and a Reflecting Pool, none of those lands would produce mana if their mana abilities were activated. On the other hand, if you control a Forest and an <Exotic Orchard>, and your opponent controls an <Exotic Orchard> and a Reflecting Pool, then each of those lands can be tapped to produce {G}. Your opponent's <Exotic Orchard> can produce {G} because you control a Forest. Your <Exotic Orchard> and your opponent's Reflecting Pool can each produce {G} because your opponent's <Exotic Orchard> can produce {G}.</Rulings>
+<Rulings>2009/02/01: The colors of mana are white, blue, black, red, and green. Exotic Orchard can't be tapped for colorless mana, even if a land an opponent controls could produce colorless mana.
+2009/02/01: Exotic Orchard checks the effects of all mana-producing abilities of lands your opponents control, but it doesn't check their costs. For example, Vivid Crag has the ability "{T}, Remove a charge counter from Vivid Crag: Add one mana of any color." If an opponent controls Vivid Crag and you control Exotic Orchard, you can tap Exotic Orchard for any color of mana. It doesn't matter whether Vivid Crag has a charge counter on it, and it doesn't matter whether it's untapped.
+2009/02/01: When determining what colors of mana your opponents' lands could produce, Exotic Orchard takes into account any applicable replacement effects that would apply to those lands' mana abilities (such as Contamination's effect, for example). If there are more than one, consider them in any possible order.
+2009/02/01: Exotic Orchard doesn't care about any restrictions or riders your opponents' lands (such as Ancient Ziggurat or Hall of the Bandit Lord) put on the mana they produce. It just cares about colors of mana.
+2009/02/01: Lands that produce mana based only on what other lands "could produce" won't help each other unless some other land allows one of them to actually produce some type of mana. For example, if you control an Exotic Orchard and your opponent controls an Exotic Orchard and a Reflecting Pool, none of those lands would produce mana if their mana abilities were activated. On the other hand, if you control a Forest and an Exotic Orchard, and your opponent controls an Exotic Orchard and a Reflecting Pool, then each of those lands can be tapped to produce {G}. Your opponent's Exotic Orchard can produce {G} because you control a Forest. Your Exotic Orchard and your opponent's Reflecting Pool can each produce {G} because your opponent's Exotic Orchard can produce {G}.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2344,7 +2347,7 @@ When Khalni Garden enters the battlefield, create a 0/1 green Plant creature tok
 <Type>Land</Type>
 <CardText>Krosan Verge enters the battlefield tapped.
 {T}: Add {C}.
-{2}, {T}, Sacrifice Krosan Verge: Search your library for a Forest card and a Plains card, put them onto the battlefield tapped, then shuffle your library.</CardText>
+{2}, {T}, Sacrifice Krosan Verge: Search your library for a Forest card and a Plains card, put them onto the battlefield tapped, then shuffle.</CardText>
 <Artist>Tony Szczudlo</Artist>
 <Multiverseid>423548</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2430,7 +2433,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <Name>Tainted Isle</Name>
 <Type>Land</Type>
 <CardText>{T}: Add {C}.
-{T}: Add {U} or {B}. Activate this ability only if you control a Swamp.</CardText>
+{T}: Add {U} or {B}. Activate only if you control a Swamp.</CardText>
 <Artist>Alan Pollack</Artist>
 <Multiverseid>423553</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2444,7 +2447,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <No>129</No>
 <Name>Terramorphic Expanse</Name>
 <Type>Land</Type>
-<CardText>{T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.</CardText>
+<CardText>{T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.</CardText>
 <Artist>Dan Scott</Artist>
 <Multiverseid>423554</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2500,7 +2503,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Planechase Anthology</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2515,7 +2518,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Planechase Anthology</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2530,7 +2533,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Planechase Anthology</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2545,7 +2548,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Planechase Anthology</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2560,7 +2563,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Planechase Anthology</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2575,7 +2578,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Planechase Anthology</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2590,7 +2593,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Planechase Anthology</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2605,7 +2608,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Planechase Anthology</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2620,7 +2623,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Planechase Anthology</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2635,7 +2638,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Planechase Anthology</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2650,7 +2653,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Planechase Anthology</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2665,7 +2668,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Planechase Anthology</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2680,7 +2683,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Planechase Anthology</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2695,7 +2698,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Planechase Anthology</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2710,7 +2713,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Planechase Anthology</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2725,7 +2728,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Planechase Anthology</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2740,7 +2743,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Planechase Anthology</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2755,7 +2758,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Planechase Anthology</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2770,7 +2773,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Planechase Anthology</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2785,7 +2788,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Planechase Anthology</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2800,7 +2803,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Planechase Anthology</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2815,7 +2818,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Planechase Anthology</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2830,7 +2833,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Planechase Anthology</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2845,7 +2848,7 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Planechase Anthology</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 
 <Card>
@@ -2860,6 +2863,6 @@ When Selesnya Sanctuary enters the battlefield, return a land you control to its
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
 <Set>Planechase Anthology</Set>
-<Rarity>Land</Rarity>
+<Rarity>Common</Rarity>
 </Card>
 

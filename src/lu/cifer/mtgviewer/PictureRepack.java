@@ -64,7 +64,7 @@ public class PictureRepack {
 	}
 
 	void generateCmd(ReprintInfo reprint) {
-		String path = "C:\\Forge\\cardsDir\\" + getForgeFolder(reprint.altCode) + "\\" + getForgeName(reprint.card);
+		String path = "C:\\Forge\\cardsDir\\" + getForgeFolder(reprint.code) + "\\" + getForgeName(reprint.card);
 		if (reprint.sameIndex > 0 && !reprint.card.isMeld && !path.contains("Kaya, Ghost Assassin")) {
 			path += reprint.sameIndex;
 		}

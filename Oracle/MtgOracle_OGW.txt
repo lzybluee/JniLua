@@ -3,7 +3,7 @@
 <No>1</No>
 <Name>Deceiver of Form</Name>
 <Type>Creature — Eldrazi 8/8</Type>
-<ManaCost>6C (7)</ManaCost>
+<ManaCost>{6}{C}</ManaCost>
 <CardText>({C} represents colorless mana.)
 At the beginning of combat on your turn, reveal the top card of your library. If a creature card is revealed this way, you may have creatures you control other than Deceiver of Form become copies of that card until end of turn. You may put that card on the bottom of your library.</CardText>
 <Artist>Viktor Titov</Artist>
@@ -24,13 +24,13 @@ At the beginning of combat on your turn, reveal the top card of your library. If
 <No>2</No>
 <Name>Eldrazi Mimic</Name>
 <Type>Creature — Eldrazi 2/1</Type>
-<ManaCost>2 (2)</ManaCost>
+<ManaCost>{2}</ManaCost>
 <CardText>Whenever another colorless creature enters the battlefield under your control, you may change Eldrazi Mimic's base power and toughness to that creature's power and toughness until end of turn.</CardText>
 <Flavor>It is consistently inconsistent.</Flavor>
 <Artist>Craig J Spearing</Artist>
 <Multiverseid>407512</Multiverseid>
-<Rulings>2016/01/22: Use the new creature's power and toughness at the time the ability resolves to determine the base power and toughness of <Eldrazi Mimic>. If that creature is no longer on the battlefield at that time, use its power and toughness when it left the battlefield. (Keep in mind that those values may be negative, for example if a spell like Spatial Contortion giving it +3/-3 is what caused it to leave the battlefield.)
-2016/01/22: <Eldrazi Mimic>'s ability will overwrite any other effect setting its base power and toughness. Such effects that begin to apply after that ability resolves will similarly overwrite the ability. Effects that modify <Eldrazi Mimic>'s power and/or toughness but don't set its base power and/or toughness to specific values will apply no matter when they started to apply. The same is true for any +1/+1 counters it may have.</Rulings>
+<Rulings>2016/01/22: Use the new creature's power and toughness at the time the ability resolves to determine the base power and toughness of Eldrazi Mimic. If that creature is no longer on the battlefield at that time, use its power and toughness when it left the battlefield. (Keep in mind that those values may be negative, for example if a spell like Spatial Contortion giving it +3/-3 is what caused it to leave the battlefield.)
+2016/01/22: Eldrazi Mimic's ability will overwrite any other effect setting its base power and toughness. Such effects that begin to apply after that ability resolves will similarly overwrite the ability. Effects that modify Eldrazi Mimic's power and/or toughness but don't set its base power and/or toughness to specific values will apply no matter when they started to apply. The same is true for any +1/+1 counters it may have.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -43,15 +43,15 @@ At the beginning of combat on your turn, reveal the top card of your library. If
 <No>3</No>
 <Name>Endbringer</Name>
 <Type>Creature — Eldrazi 5/5</Type>
-<ManaCost>5C (6)</ManaCost>
+<ManaCost>{5}{C}</ManaCost>
 <CardText>Untap Endbringer during each other player's untap step.
 {T}: Endbringer deals 1 damage to any target.
 {C}, {T}: Target creature can't attack or block this turn.
 {C}{C}, {T}: Draw a card.</CardText>
 <Artist>Vincent Proce</Artist>
 <Multiverseid>407513</Multiverseid>
-<Rulings>2016/01/22: <Endbringer> untaps at the same time as the active player's permanents. You can't choose to not untap it at that time.
-2016/01/22: If an effect states that <Endbringer> doesn't untap during your untap step, that effect won't apply during another player's untap step.
+<Rulings>2016/01/22: Endbringer untaps at the same time as the active player's permanents. You can't choose to not untap it at that time.
+2016/01/22: If an effect states that Endbringer doesn't untap during your untap step, that effect won't apply during another player's untap step.
 2016/01/22: Activating the second activated ability after a creature has legally been declared as an attacker or blocker won't change or undo that attack or block.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -65,10 +65,10 @@ At the beginning of combat on your turn, reveal the top card of your library. If
 <No>4</No>
 <Name>Kozilek, the Great Distortion</Name>
 <Type>Legendary Creature — Eldrazi 12/12</Type>
-<ManaCost>8CC (10)</ManaCost>
+<ManaCost>{8}{C}{C}</ManaCost>
 <CardText>When you cast this spell, if you have fewer than seven cards in hand, draw cards equal to the difference.
 Menace
-Discard a card with converted mana cost X: Counter target spell with converted mana cost X.</CardText>
+Discard a card with mana value X: Counter target spell with mana value X.</CardText>
 <Flavor>A void as cryptic as reality itself.</Flavor>
 <Artist>Aleksi Briclot</Artist>
 <Multiverseid>407514</Multiverseid>
@@ -88,13 +88,13 @@ Discard a card with converted mana cost X: Counter target spell with converted m
 <No>5</No>
 <Name>Kozilek's Pathfinder</Name>
 <Type>Creature — Eldrazi 5/5</Type>
-<ManaCost>6 (6)</ManaCost>
+<ManaCost>{6}</ManaCost>
 <CardText>{C}: Target creature can't block Kozilek's Pathfinder this turn. ({C} represents colorless mana.)</CardText>
 <Flavor>"We didn't know where it came from or where it was going. All we knew was that we did not matter."
 —Akiri, kor line-slinger</Flavor>
 <Artist>James Zapata</Artist>
 <Multiverseid>407515</Multiverseid>
-<Rulings>2016/01/22: Activating the ability once <Kozilek's Pathfinder> has been legally blocked won't change or undo that block.</Rulings>
+<Rulings>2016/01/22: Activating the ability once Kozilek's Pathfinder has been legally blocked won't change or undo that block.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -107,9 +107,9 @@ Discard a card with converted mana cost X: Counter target spell with converted m
 <No>6</No>
 <Name>Matter Reshaper</Name>
 <Type>Creature — Eldrazi 3/2</Type>
-<ManaCost>2C (3)</ManaCost>
+<ManaCost>{2}{C}</ManaCost>
 <CardText>({C} represents colorless mana.)
-When Matter Reshaper dies, reveal the top card of your library. You may put that card onto the battlefield if it's a permanent card with converted mana cost 3 or less. Otherwise, put that card into your hand.</CardText>
+When Matter Reshaper dies, reveal the top card of your library. You may put that card onto the battlefield if it's a permanent card with mana value 3 or less. Otherwise, put that card into your hand.</CardText>
 <Artist>Chris Rahn</Artist>
 <Multiverseid>407516</Multiverseid>
 <Rulings>2016/01/22: If you put an Aura card onto the battlefield this way, you choose what it enchants as it enters the battlefield. You must be able to choose a legal player or permanent or you can't put the Aura onto the battlefield.
@@ -126,14 +126,14 @@ When Matter Reshaper dies, reveal the top card of your library. You may put that
 <No>7</No>
 <Name>Reality Smasher</Name>
 <Type>Creature — Eldrazi 5/5</Type>
-<ManaCost>4C (5)</ManaCost>
+<ManaCost>{4}{C}</ManaCost>
 <CardText>({C} represents colorless mana.)
 Trample, haste
 Whenever Reality Smasher becomes the target of a spell an opponent controls, counter that spell unless its controller discards a card.</CardText>
 <Flavor>As easy to stop as it is to comprehend.</Flavor>
 <Artist>Jason Rainville</Artist>
 <Multiverseid>407517</Multiverseid>
-<Rulings>2016/01/22: The last ability will trigger due to any spell controlled by an opponent (including an Aura spell) that targets <Reality Smasher>.</Rulings>
+<Rulings>2016/01/22: The last ability will trigger due to any spell controlled by an opponent (including an Aura spell) that targets Reality Smasher.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -146,13 +146,14 @@ Whenever Reality Smasher becomes the target of a spell an opponent controls, cou
 <No>8</No>
 <Name>Spatial Contortion</Name>
 <Type>Instant</Type>
-<ManaCost>1C (2)</ManaCost>
+<ManaCost>{1}{C}</ManaCost>
 <CardText>({C} represents colorless mana.)
 Target creature gets +3/-3 until end of turn.</CardText>
 <Flavor>"For those without the Planeswalker spark, the merest touch of the Blind Eternities can kill."
 —Ugin</Flavor>
 <Artist>Daarken</Artist>
 <Multiverseid>407518</Multiverseid>
+<Rulings>2021/02/01: Spatial Contortion is banned in Pauper (not just non-legal), due to a special case on MTGO: https://magic.wizards.com/en/articles/archive/news/january-21-2019-banned-and-restricted-announcement</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -165,7 +166,7 @@ Target creature gets +3/-3 until end of turn.</CardText>
 <No>9</No>
 <Name>Thought-Knot Seer</Name>
 <Type>Creature — Eldrazi 4/4</Type>
-<ManaCost>3C (4)</ManaCost>
+<ManaCost>{3}{C}</ManaCost>
 <CardText>({C} represents colorless mana.)
 When Thought-Knot Seer enters the battlefield, target opponent reveals their hand. You choose a nonland card from it and exile that card.
 When Thought-Knot Seer leaves the battlefield, target opponent draws a card.</CardText>
@@ -183,14 +184,14 @@ When Thought-Knot Seer leaves the battlefield, target opponent draws a card.</Ca
 <No>10</No>
 <Name>Walker of the Wastes</Name>
 <Type>Creature — Eldrazi 4/4</Type>
-<ManaCost>4C (5)</ManaCost>
+<ManaCost>{4}{C}</ManaCost>
 <CardText>({C} represents colorless mana.)
 Trample
 Walker of the Wastes gets +1/+1 for each land you control named Wastes.</CardText>
 <Flavor>In the absence of life, something yet grows.</Flavor>
 <Artist>Joseph Meehan</Artist>
 <Multiverseid>407520</Multiverseid>
-<Rulings>2016/01/22: The last ability applies only if <Walker of the Wastes> is on the battlefield.</Rulings>
+<Rulings>2016/01/22: The last ability applies only if Walker of the Wastes is on the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -203,7 +204,7 @@ Walker of the Wastes gets +1/+1 for each land you control named Wastes.</CardTex
 <No>11</No>
 <Name>Warden of Geometries</Name>
 <Type>Creature — Eldrazi Drone 2/3</Type>
-<ManaCost>4 (4)</ManaCost>
+<ManaCost>{4}</ManaCost>
 <CardText>Vigilance
 {T}: Add {C}. ({C} represents colorless mana.)</CardText>
 <Flavor>The wastelands disorient even the most experienced scouts, making them easy prey for Kozilek's drones.</Flavor>
@@ -221,7 +222,7 @@ Walker of the Wastes gets +1/+1 for each land you control named Wastes.</CardTex
 <No>12</No>
 <Name>Warping Wail</Name>
 <Type>Instant</Type>
-<ManaCost>1C (2)</ManaCost>
+<ManaCost>{1}{C}</ManaCost>
 <CardText>({C} represents colorless mana.)
 Choose one —
 • Exile target creature with power or toughness 1 or less.
@@ -241,7 +242,7 @@ Choose one —
 <No>13</No>
 <Name>Eldrazi Displacer</Name>
 <Type>Creature — Eldrazi 3/3</Type>
-<ManaCost>2W (3)</ManaCost>
+<ManaCost>{2}{W}</ManaCost>
 <CardText>Devoid (This card has no color.)
 {2}{C}: Exile another target creature, then return it to the battlefield tapped under its owner's control. ({C} represents colorless mana.)</CardText>
 <Artist>Daarken</Artist>
@@ -260,7 +261,7 @@ Choose one —
 <No>14</No>
 <Name>Affa Protector</Name>
 <Type>Creature — Human Soldier Ally 1/4</Type>
-<ManaCost>2W (3)</ManaCost>
+<ManaCost>{2}{W}</ManaCost>
 <CardText>Vigilance</CardText>
 <Flavor>"Through all the terrors we face, I hold on to the memory of the world before the Eldrazi came. I'd like to see that world again."</Flavor>
 <Artist>Izzy</Artist>
@@ -277,7 +278,7 @@ Choose one —
 <No>15</No>
 <Name>Allied Reinforcements</Name>
 <Type>Sorcery</Type>
-<ManaCost>3W (4)</ManaCost>
+<ManaCost>{3}{W}</ManaCost>
 <CardText>Create two 2/2 white Knight Ally creature tokens.</CardText>
 <Flavor>"Our formation was scattered after Sea Gate fell. If you're fighting the Eldrazi, consider us your newest recruits."</Flavor>
 <Artist>Matt Stewart</Artist>
@@ -294,8 +295,8 @@ Choose one —
 <No>16</No>
 <Name>Call the Gatewatch</Name>
 <Type>Sorcery</Type>
-<ManaCost>2W (3)</ManaCost>
-<CardText>Search your library for a planeswalker card, reveal it, and put it into your hand. Then shuffle your library.</CardText>
+<ManaCost>{2}{W}</ManaCost>
+<CardText>Search your library for a planeswalker card, reveal it, put it into your hand, then shuffle.</CardText>
 <Flavor>"I've heard it said that a Planeswalker is someone who can always run from danger. But Gideon's right: we're also the ones who can choose to stay."
 —Jace Beleren</Flavor>
 <Artist>Yefim Kligerman</Artist>
@@ -312,14 +313,14 @@ Choose one —
 <No>17</No>
 <Name>Dazzling Reflection</Name>
 <Type>Instant</Type>
-<ManaCost>1W (2)</ManaCost>
+<ManaCost>{1}{W}</ManaCost>
 <CardText>You gain life equal to target creature's power. The next time that creature would deal damage this turn, prevent that damage.</CardText>
 <Flavor>"The light of a felidar's horns can give even an Eldrazi pause."
 —Zarra, lullmage</Flavor>
 <Artist>David Palumbo</Artist>
 <Multiverseid>407527</Multiverseid>
-<Rulings>2016/01/22: You gain the life as soon as <Dazzling Reflection> resolves, not as the damage is prevented.
-2016/01/22: If two <Dazzling Reflection>s targeting the same creature have resolved in the same turn, only one prevention effect will apply the next time it would deal damage. The other effect will apply if the creature would deal damage a second time later that turn.</Rulings>
+<Rulings>2016/01/22: You gain the life as soon as Dazzling Reflection resolves, not as the damage is prevented.
+2016/01/22: If two Dazzling Reflections targeting the same creature have resolved in the same turn, only one prevention effect will apply the next time it would deal damage. The other effect will apply if the creature would deal damage a second time later that turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -332,7 +333,7 @@ Choose one —
 <No>18</No>
 <Name>Expedition Raptor</Name>
 <Type>Creature — Bird 2/2</Type>
-<ManaCost>3WW (5)</ManaCost>
+<ManaCost>{3}{W}{W}</ManaCost>
 <CardText>Flying
 When Expedition Raptor enters the battlefield, support 2. (Put a +1/+1 counter on each of up to two other target creatures.)</CardText>
 <Artist>Johann Bodin</Artist>
@@ -352,8 +353,8 @@ When Expedition Raptor enters the battlefield, support 2. (Put a +1/+1 counter o
 <No>19</No>
 <Name>General Tazri</Name>
 <Type>Legendary Creature — Human Ally 3/4</Type>
-<ManaCost>4W (5)</ManaCost>
-<CardText>When General Tazri enters the battlefield, you may search your library for an Ally creature card, reveal it, put it into your hand, then shuffle your library.
+<ManaCost>{4}{W}</ManaCost>
+<CardText>When General Tazri enters the battlefield, you may search your library for an Ally creature card, reveal it, put it into your hand, then shuffle.
 {W}{U}{B}{R}{G}: Ally creatures you control get +X/+X until end of turn, where X is the number of colors among those creatures.</CardText>
 <Artist>Chris Rahn</Artist>
 <Multiverseid>407529</Multiverseid>
@@ -371,7 +372,7 @@ When Expedition Raptor enters the battlefield, support 2. (Put a +1/+1 counter o
 <No>20</No>
 <Name>Immolating Glare</Name>
 <Type>Instant</Type>
-<ManaCost>1W (2)</ManaCost>
+<ManaCost>{1}{W}</ManaCost>
 <CardText>Destroy target attacking creature.</CardText>
 <Flavor>"The sun can warm your skin or blister it, nurture your crops or wither them, light your path or blind you. She is a fickle friend, but a far worse enemy."
 —Nazra of the Stone Havens</Flavor>
@@ -389,14 +390,14 @@ When Expedition Raptor enters the battlefield, support 2. (Put a +1/+1 counter o
 <No>21</No>
 <Name>Iona's Blessing</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>3W (4)</ManaCost>
+<ManaCost>{3}{W}</ManaCost>
 <CardText>Enchant creature
 Enchanted creature gets +2/+2, has vigilance, and can block an additional creature each combat.</CardText>
 <Flavor>"Walk now in my light. When the rest of the world closes its eyes, you will still see."
 —Iona</Flavor>
 <Artist>David Gaillet</Artist>
 <Multiverseid>407531</Multiverseid>
-<Rulings>2016/01/22: The ability to block an additional creature is cumulative. If a creature is enchanted with two <Iona's Blessing>s, it can block three creatures each combat. (The +2/+2 is also cumulative, but you knew that.)</Rulings>
+<Rulings>2016/01/22: The ability to block an additional creature is cumulative. If a creature is enchanted with two Iona's Blessings, it can block three creatures each combat. (The +2/+2 is also cumulative, but you knew that.)</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -409,16 +410,16 @@ Enchanted creature gets +2/+2, has vigilance, and can block an additional creatu
 <No>22</No>
 <Name>Isolation Zone</Name>
 <Type>Enchantment</Type>
-<ManaCost>2WW (4)</ManaCost>
+<ManaCost>{2}{W}{W}</ManaCost>
 <CardText>When Isolation Zone enters the battlefield, exile target creature or enchantment an opponent controls until Isolation Zone leaves the battlefield. (That permanent returns under its owner's control.)</CardText>
 <Flavor>When properly aligned, hedrons become powerful tools of binding.</Flavor>
 <Artist>Chris Rallis</Artist>
 <Multiverseid>407532</Multiverseid>
-<Rulings>2016/01/22: If <Isolation Zone> leaves the battlefield before its triggered ability resolves, the target creature or enchantment won't be exiled.
+<Rulings>2016/01/22: If Isolation Zone leaves the battlefield before its triggered ability resolves, the target creature or enchantment won't be exiled.
 2016/01/22: Auras attached to the exiled creature or enchantment will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist.
 2016/01/22: If a token is exiled, it ceases to exist. It won't be returned to the battlefield.
-2016/01/22: The exiled card returns to the battlefield immediately after <Isolation Zone> leaves the battlefield. Nothing happens between the two events, including state-based actions.
-2016/01/22: In a multiplayer game, if <Isolation Zone>'s owner leaves the game, the exiled card will return to the battlefield. Because the one-shot effect that returns the card isn't an ability that goes on the stack, it won't cease to exist along with the leaving player's spells and abilities on the stack.</Rulings>
+2016/01/22: The exiled card returns to the battlefield immediately after Isolation Zone leaves the battlefield. Nothing happens between the two events, including state-based actions.
+2016/01/22: In a multiplayer game, if Isolation Zone's owner leaves the game, the exiled card will return to the battlefield. Because the one-shot effect that returns the card isn't an ability that goes on the stack, it won't cease to exist along with the leaving player's spells and abilities on the stack.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -431,7 +432,7 @@ Enchanted creature gets +2/+2, has vigilance, and can block an additional creatu
 <No>23</No>
 <Name>Kor Scythemaster</Name>
 <Type>Creature — Kor Soldier Ally 3/1</Type>
-<ManaCost>2W (3)</ManaCost>
+<ManaCost>{2}{W}</ManaCost>
 <CardText>Kor Scythemaster has first strike as long as it's attacking.</CardText>
 <Flavor>The kor of Zendikar are known for quiet determination in the face of overwhelming odds.</Flavor>
 <Artist>Ryan Pancoast</Artist>
@@ -448,7 +449,7 @@ Enchanted creature gets +2/+2, has vigilance, and can block an additional creatu
 <No>24</No>
 <Name>Kor Sky Climber</Name>
 <Type>Creature — Kor Soldier Ally 3/2</Type>
-<ManaCost>2W (3)</ManaCost>
+<ManaCost>{2}{W}</ManaCost>
 <CardText>{1}{W}: Kor Sky Climber gains flying until end of turn.</CardText>
 <Flavor>"With rope, I can fly as far as the rope can reach. But with light, the sky is the limit."</Flavor>
 <Artist>Victor Adame Minguez</Artist>
@@ -465,7 +466,7 @@ Enchanted creature gets +2/+2, has vigilance, and can block an additional creatu
 <No>25</No>
 <Name>Linvala, the Preserver</Name>
 <Type>Legendary Creature — Angel 5/5</Type>
-<ManaCost>4WW (6)</ManaCost>
+<ManaCost>{4}{W}{W}</ManaCost>
 <CardText>Flying
 When Linvala, the Preserver enters the battlefield, if an opponent has more life than you, you gain 5 life.
 When Linvala enters the battlefield, if an opponent controls more creatures than you, create a 3/3 white Angel creature token with flying.</CardText>
@@ -485,7 +486,7 @@ When Linvala enters the battlefield, if an opponent controls more creatures than
 <No>26</No>
 <Name>Make a Stand</Name>
 <Type>Instant</Type>
-<ManaCost>2W (3)</ManaCost>
+<ManaCost>{2}{W}</ManaCost>
 <CardText>Creatures you control get +1/+0 and gain indestructible until end of turn. (Damage and effects that say "destroy" don't destroy them.)</CardText>
 <Flavor>For a moment they stood tall, all fear forgotten.</Flavor>
 <Artist>Magali Villeneuve</Artist>
@@ -502,7 +503,7 @@ When Linvala enters the battlefield, if an opponent controls more creatures than
 <No>27</No>
 <Name>Makindi Aeronaut</Name>
 <Type>Creature — Kor Scout Ally 1/3</Type>
-<ManaCost>1W (2)</ManaCost>
+<ManaCost>{1}{W}</ManaCost>
 <CardText>Flying</CardText>
 <Flavor>"The Eldrazi have surprised us before. It's my job to make sure that never happens again."</Flavor>
 <Artist>Matt Stewart</Artist>
@@ -519,13 +520,13 @@ When Linvala enters the battlefield, if an opponent controls more creatures than
 <No>28</No>
 <Name>Mighty Leap</Name>
 <Type>Instant</Type>
-<ManaCost>1W (2)</ManaCost>
+<ManaCost>{1}{W}</ManaCost>
 <CardText>Target creature gets +2/+2 and gains flying until end of turn.</CardText>
 <Flavor>"We may have lost faith in our gods, but we are far from losing faith in ourselves."
 —Munda, ambush leader</Flavor>
 <Artist>Winona Nelson</Artist>
 <Multiverseid>407538</Multiverseid>
-<Rulings>2018/07/13: Giving a creature flying after it's already been blocked won't change or undo that block. If you want to affect what can block the creature, you must cast <Mighty Leap> during the declare attackers step at the latest.</Rulings>
+<Rulings>2018/07/13: Giving a creature flying after it's already been blocked won't change or undo that block. If you want to affect what can block the creature, you must cast Mighty Leap during the declare attackers step at the latest.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -538,7 +539,7 @@ When Linvala enters the battlefield, if an opponent controls more creatures than
 <No>29</No>
 <Name>Munda's Vanguard</Name>
 <Type>Creature — Kor Knight Ally 3/3</Type>
-<ManaCost>4W (5)</ManaCost>
+<ManaCost>{4}{W}</ManaCost>
 <CardText>Cohort — {T}, Tap an untapped Ally you control: Put a +1/+1 counter on each creature you control.</CardText>
 <Flavor>"Do not let yourselves fall now. Zendikar is depending on us—on you!"</Flavor>
 <Artist>Steve Prescott</Artist>
@@ -556,14 +557,14 @@ When Linvala enters the battlefield, if an opponent controls more creatures than
 <No>30</No>
 <Name>Oath of Gideon</Name>
 <Type>Legendary Enchantment</Type>
-<ManaCost>2W (3)</ManaCost>
+<ManaCost>{2}{W}</ManaCost>
 <CardText>When Oath of Gideon enters the battlefield, create two 1/1 white Kor Ally creature tokens.
 Each planeswalker you control enters the battlefield with an additional loyalty counter on it.</CardText>
 <Flavor>"For justice and peace, I will keep watch."</Flavor>
 <Artist>Wesley Burt</Artist>
 <Multiverseid>407540</Multiverseid>
 <Rulings>2016/01/22: Each of the Oaths is legendary: if you control more than one of any particular Oath, you choose one to remain on the battlefield and the others are put into your graveyard.
-2016/01/22: The "legend rule" checks the full names of legendary permanents. You can control <Oath of Gideon> and Oath of Chandra at the same time, for example.
+2016/01/22: The "legend rule" checks the full names of legendary permanents. You can control Oath of Gideon and Oath of Chandra at the same time, for example.
 2016/01/22: Even if you control a particular Oath, you can cast another of that Oath to take advantage of its enters-the-battlefield ability. It will enter the battlefield, causing its first ability to trigger. You will then choose one to keep, as detailed above, and then its enters-the-battlefield ability will resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -577,7 +578,7 @@ Each planeswalker you control enters the battlefield with an additional loyalty 
 <No>31</No>
 <Name>Ondu War Cleric</Name>
 <Type>Creature — Human Cleric Ally 2/2</Type>
-<ManaCost>1W (2)</ManaCost>
+<ManaCost>{1}{W}</ManaCost>
 <CardText>Cohort — {T}, Tap an untapped Ally you control: You gain 2 life.</CardText>
 <Flavor>"I will follow the light of Iona into battle, and I will know no fear."</Flavor>
 <Artist>Ben Maier</Artist>
@@ -595,7 +596,7 @@ Each planeswalker you control enters the battlefield with an additional loyalty 
 <No>32</No>
 <Name>Relief Captain</Name>
 <Type>Creature — Kor Knight Ally 3/2</Type>
-<ManaCost>2WW (4)</ManaCost>
+<ManaCost>{2}{W}{W}</ManaCost>
 <CardText>When Relief Captain enters the battlefield, support 3. (Put a +1/+1 counter on each of up to three other target creatures.)</CardText>
 <Flavor>Sometimes gestures of support are small. Sometimes not.</Flavor>
 <Artist>Anastasia Ovchinnikova</Artist>
@@ -615,7 +616,7 @@ Each planeswalker you control enters the battlefield with an additional loyalty 
 <No>33</No>
 <Name>Searing Light</Name>
 <Type>Instant</Type>
-<ManaCost>W (1)</ManaCost>
+<ManaCost>{W}</ManaCost>
 <CardText>Destroy target attacking or blocking creature with power 2 or less.</CardText>
 <Flavor>"Light can lay bare our fears. It can also make them go away."
 —Nazra of the Stone Havens</Flavor>
@@ -633,7 +634,7 @@ Each planeswalker you control enters the battlefield with an additional loyalty 
 <No>34</No>
 <Name>Shoulder to Shoulder</Name>
 <Type>Sorcery</Type>
-<ManaCost>2W (3)</ManaCost>
+<ManaCost>{2}{W}</ManaCost>
 <CardText>Support 2. (Put a +1/+1 counter on each of up to two target creatures.)
 Draw a card.</CardText>
 <Flavor>"Sea Gate may have fallen, but we still stand. We still fight."
@@ -655,7 +656,7 @@ Draw a card.</CardText>
 <No>35</No>
 <Name>Spawnbinder Mage</Name>
 <Type>Creature — Human Wizard Ally 2/4</Type>
-<ManaCost>3W (4)</ManaCost>
+<ManaCost>{3}{W}</ManaCost>
 <CardText>Cohort — {T}, Tap an untapped Ally you control: Tap target creature.</CardText>
 <Flavor>"Follow me. Step lightly. And resist the urge to kick them."</Flavor>
 <Artist>Dan Scott</Artist>
@@ -673,7 +674,7 @@ Draw a card.</CardText>
 <No>36</No>
 <Name>Steppe Glider</Name>
 <Type>Creature — Elemental 2/4</Type>
-<ManaCost>4W (5)</ManaCost>
+<ManaCost>{4}{W}</ManaCost>
 <CardText>Flying, vigilance
 {1}{W}: Target creature with a +1/+1 counter on it gains flying and vigilance until end of turn.</CardText>
 <Flavor>It glides over the landscape. It also happens to be one.</Flavor>
@@ -691,15 +692,15 @@ Draw a card.</CardText>
 <No>37</No>
 <Name>Stone Haven Outfitter</Name>
 <Type>Creature — Kor Artificer Ally 2/2</Type>
-<ManaCost>1W (2)</ManaCost>
+<ManaCost>{1}{W}</ManaCost>
 <CardText>Equipped creatures you control get +1/+1.
 Whenever an equipped creature you control dies, draw a card.</CardText>
 <Flavor>The makers and menders are the first called to battle and the last to leave.</Flavor>
 <Artist>Jason Rainville</Artist>
 <Multiverseid>407547</Multiverseid>
-<Rulings>2016/01/22: The bonuses gained from <Stone Haven Outfitter>'s abilities are in addition to any bonuses given by the Equipment.
-2016/01/22: Equipped creatures will get just +1/+1 from <Stone Haven Outfitter>, no matter how many Equipment are attached to them. Similarly, the last ability will trigger just once per equipped creature.
-2016/01/22: In this context, "equipped creatures you control" and "equipped creature you control" refer to any creatures you control with Equipment attached to them. In the highly unusual case that <Stone Haven Outfitter> becomes an Equipment, the meaning of its abilities doesn't change. The bonuses continue to refer to any equipped creature you control. They aren't bonuses applied solely to the creature <Stone Haven Outfitter> is attached to.</Rulings>
+<Rulings>2016/01/22: The bonuses gained from Stone Haven Outfitter's abilities are in addition to any bonuses given by the Equipment.
+2016/01/22: Equipped creatures will get just +1/+1 from Stone Haven Outfitter, no matter how many Equipment are attached to them. Similarly, the last ability will trigger just once per equipped creature.
+2016/01/22: In this context, "equipped creatures you control" and "equipped creature you control" refer to any creatures you control with Equipment attached to them. In the highly unusual case that Stone Haven Outfitter becomes an Equipment, the meaning of its abilities doesn't change. The bonuses continue to refer to any equipped creature you control. They aren't bonuses applied solely to the creature Stone Haven Outfitter is attached to.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -712,7 +713,7 @@ Whenever an equipped creature you control dies, draw a card.</CardText>
 <No>38</No>
 <Name>Stoneforge Acolyte</Name>
 <Type>Creature — Kor Artificer Ally 1/2</Type>
-<ManaCost>W (1)</ManaCost>
+<ManaCost>{W}</ManaCost>
 <CardText>Cohort — {T}, Tap an untapped Ally you control: Look at the top four cards of your library. You may reveal an Equipment card from among them and put it into your hand. Put the rest on the bottom of your library in any order.</CardText>
 <Flavor>"The stone speaks. We are merely interpreters."</Flavor>
 <Artist>Chris Rallis</Artist>
@@ -730,12 +731,12 @@ Whenever an equipped creature you control dies, draw a card.</CardText>
 <No>39</No>
 <Name>Wall of Resurgence</Name>
 <Type>Creature — Wall 0/6</Type>
-<ManaCost>2W (3)</ManaCost>
+<ManaCost>{2}{W}</ManaCost>
 <CardText>Defender
 When Wall of Resurgence enters the battlefield, you may put three +1/+1 counters on target land you control. If you do, that land becomes a 0/0 Elemental creature with haste that's still a land.</CardText>
 <Artist>Daniel Ljunggren</Artist>
 <Multiverseid>407549</Multiverseid>
-<Rulings>2016/01/22: If you target a land that's already a creature with <Wall of Resurgence>'s triggered ability, that land creature's base power and toughness will become 0/0, overwriting its previous base power and toughness. Other effects that modify its power and/or toughness (including the new and any previously-existing +1/+1 counters) will continue to apply.</Rulings>
+<Rulings>2016/01/22: If you target a land that's already a creature with Wall of Resurgence's triggered ability, that land creature's base power and toughness will become 0/0, overwriting its previous base power and toughness. Other effects that modify its power and/or toughness (including the new and any previously-existing +1/+1 counters) will continue to apply.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -748,7 +749,7 @@ When Wall of Resurgence enters the battlefield, you may put three +1/+1 counters
 <No>40</No>
 <Name>Abstruse Interference</Name>
 <Type>Instant</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>Devoid (This card has no color.)
 Counter target spell unless its controller pays {1}. You create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this creature: Add {C}." ({C} represents colorless mana.)</CardText>
 <Artist>Igor Kieryluk</Artist>
@@ -766,7 +767,7 @@ Counter target spell unless its controller pays {1}. You create a 1/1 colorless 
 <No>41</No>
 <Name>Blinding Drone</Name>
 <Type>Creature — Eldrazi Drone 1/3</Type>
-<ManaCost>1U (2)</ManaCost>
+<ManaCost>{1}{U}</ManaCost>
 <CardText>Devoid (This card has no color.)
 {C}, {T}: Tap target creature. ({C} represents colorless mana.)</CardText>
 <Flavor>"Zendikar's true gods have risen. Whether in reverence or agony, all the world will kneel."
@@ -785,13 +786,13 @@ Counter target spell unless its controller pays {1}. You create a 1/1 colorless 
 <No>42</No>
 <Name>Cultivator Drone</Name>
 <Type>Creature — Eldrazi Drone 2/3</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>Devoid (This card has no color.)
 {T}: Add {C}. Spend this mana only to cast a colorless spell, activate an ability of a colorless permanent, or pay a cost that contains {C}. ({C} represents colorless mana.)</CardText>
 <Artist>Slawomir Maniak</Artist>
 <Multiverseid>407552</Multiverseid>
-<Rulings>2016/01/22: Mana produced by <Cultivator Drone> may be used to cast any colorless spell, including most artifact spells, face-down spells, and spells with devoid.
-2016/01/22: Some triggered abilities include a cost as part of their resolution. For example, Bearer of Silence's ability says, in part, "When you cast Bearer of Silence, you may pay {1}{C}." You may use mana produced by <Cultivator Drone> to help pay that cost. In fact, you could tap two <Cultivator Drone>s to pay the entire cost.</Rulings>
+<Rulings>2016/01/22: Mana produced by Cultivator Drone may be used to cast any colorless spell, including most artifact spells, face-down spells, and spells with devoid.
+2016/01/22: Some triggered abilities include a cost as part of their resolution. For example, Bearer of Silence's ability says, in part, "When you cast Bearer of Silence, you may pay {1}{C}." You may use mana produced by Cultivator Drone to help pay that cost. In fact, you could tap two Cultivator Drones to pay the entire cost.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -804,13 +805,13 @@ Counter target spell unless its controller pays {1}. You create a 1/1 colorless 
 <No>43</No>
 <Name>Deepfathom Skulker</Name>
 <Type>Creature — Eldrazi 4/4</Type>
-<ManaCost>5U (6)</ManaCost>
+<ManaCost>{5}{U}</ManaCost>
 <CardText>Devoid (This card has no color.)
 Whenever a creature you control deals combat damage to a player, you may draw a card.
 {3}{C}: Target creature can't be blocked this turn. ({C} represents colorless mana.)</CardText>
 <Artist>Joseph Meehan</Artist>
 <Multiverseid>407553</Multiverseid>
-<Rulings>2016/01/22: Activating <Deepfathom Skulker>'s last ability after it's been legally blocked won't change or undo that block. The declare attackers step is the last time you can activate the ability and have it be effective.</Rulings>
+<Rulings>2016/01/22: Activating Deepfathom Skulker's last ability after it's been legally blocked won't change or undo that block. The declare attackers step is the last time you can activate the ability and have it be effective.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -823,14 +824,14 @@ Whenever a creature you control deals combat damage to a player, you may draw a 
 <No>44</No>
 <Name>Dimensional Infiltrator</Name>
 <Type>Creature — Eldrazi 2/1</Type>
-<ManaCost>1U (2)</ManaCost>
+<ManaCost>{1}{U}</ManaCost>
 <CardText>Devoid (This card has no color.)
 Flash
 Flying
 {1}{C}: Target opponent exiles the top card of their library. If it's a land card, you may return Dimensional Infiltrator to its owner's hand. ({C} represents colorless mana.)</CardText>
 <Artist>Chase Stone</Artist>
 <Multiverseid>407554</Multiverseid>
-<Rulings>2016/01/22: You choose whether to return <Dimensional Infiltrator> to its owner's hand as its ability resolves. If the exiled card is a land card, you can't wait and return <Dimensional Infiltrator> at a later time.</Rulings>
+<Rulings>2016/01/22: You choose whether to return Dimensional Infiltrator to its owner's hand as its ability resolves. If the exiled card is a land card, you can't wait and return Dimensional Infiltrator at a later time.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -843,7 +844,7 @@ Flying
 <No>45</No>
 <Name>Gravity Negator</Name>
 <Type>Creature — Eldrazi Drone 2/3</Type>
-<ManaCost>3U (4)</ManaCost>
+<ManaCost>{3}{U}</ManaCost>
 <CardText>Devoid (This card has no color.)
 Flying
 Whenever Gravity Negator attacks, you may pay {C}. If you do, another target creature gains flying until end of turn. ({C} represents colorless mana.)</CardText>
@@ -861,7 +862,7 @@ Whenever Gravity Negator attacks, you may pay {C}. If you do, another target cre
 <No>46</No>
 <Name>Prophet of Distortion</Name>
 <Type>Creature — Eldrazi Drone 1/2</Type>
-<ManaCost>U (1)</ManaCost>
+<ManaCost>{U}</ManaCost>
 <CardText>Devoid (This card has no color.)
 {3}{C}: Draw a card. ({C} represents colorless mana.)</CardText>
 <Flavor>It doesn't twist words. It twists worlds.</Flavor>
@@ -879,7 +880,7 @@ Whenever Gravity Negator attacks, you may pay {C}. If you do, another target cre
 <No>47</No>
 <Name>Slip Through Space</Name>
 <Type>Sorcery</Type>
-<ManaCost>U (1)</ManaCost>
+<ManaCost>{U}</ManaCost>
 <CardText>Devoid (This card has no color.)
 Target creature can't be blocked this turn.
 Draw a card.</CardText>
@@ -898,7 +899,7 @@ Draw a card.</CardText>
 <No>48</No>
 <Name>Thought Harvester</Name>
 <Type>Creature — Eldrazi Drone 2/4</Type>
-<ManaCost>3U (4)</ManaCost>
+<ManaCost>{3}{U}</ManaCost>
 <CardText>Devoid (This card has no color.)
 Flying
 Whenever you cast a colorless spell, target opponent exiles the top card of their library.</CardText>
@@ -908,7 +909,7 @@ Whenever you cast a colorless spell, target opponent exiles the top card of thei
 <Multiverseid>407558</Multiverseid>
 <Rulings>2016/01/22: The card is exiled face up.
 2016/01/22: The triggered ability will resolve before the colorless spell that caused it to trigger.
-2016/01/22: The Battle for Zendikar colorless creature cards Blight Herder and Ruin Processor each have an ability that triggers when you cast it that allows you to put a card owned by an opponent from exile into that player's graveyard. Both that ability and <Thought Harvester>'s ability trigger at the same time, so you can put them on the stack in any order. If <Thought Harvester>'s ability resolves first (meaning it went on the stack last), the card exiled by that ability can be "processed" by the other ability.</Rulings>
+2016/01/22: The Battle for Zendikar colorless creature cards Blight Herder and Ruin Processor each have an ability that triggers when you cast it that allows you to put a card owned by an opponent from exile into that player's graveyard. Both that ability and Thought Harvester's ability trigger at the same time, so you can put them on the stack in any order. If Thought Harvester's ability resolves first (meaning it went on the stack last), the card exiled by that ability can be "processed" by the other ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -921,7 +922,7 @@ Whenever you cast a colorless spell, target opponent exiles the top card of thei
 <No>49</No>
 <Name>Void Shatter</Name>
 <Type>Instant</Type>
-<ManaCost>1UU (3)</ManaCost>
+<ManaCost>{1}{U}{U}</ManaCost>
 <CardText>Devoid (This card has no color.)
 Counter target spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard.</CardText>
 <Flavor>Eldrazi break concentration like glass.</Flavor>
@@ -939,7 +940,7 @@ Counter target spell. If that spell is countered this way, exile it instead of p
 <No>50</No>
 <Name>Ancient Crab</Name>
 <Type>Creature — Crab 1/5</Type>
-<ManaCost>1UU (3)</ManaCost>
+<ManaCost>{1}{U}{U}</ManaCost>
 <Flavor>After the fall of Sea Gate and the draining of the Halimar basin, the crab set off to find a new home.</Flavor>
 <Artist>Steve Prescott</Artist>
 <Multiverseid>407560</Multiverseid>
@@ -955,7 +956,7 @@ Counter target spell. If that spell is countered this way, exile it instead of p
 <No>51</No>
 <Name>Comparative Analysis</Name>
 <Type>Instant</Type>
-<ManaCost>3U (4)</ManaCost>
+<ManaCost>{3}{U}</ManaCost>
 <CardText>Surge {2}{U} (You may cast this spell for its surge cost if you or a teammate has cast another spell this turn.)
 Target player draws two cards.</CardText>
 <Flavor>"Our time grows short. If we wish to vanquish the Eldrazi, we must unlock the hedrons' secrets."
@@ -978,14 +979,14 @@ Target player draws two cards.</CardText>
 <No>52</No>
 <Name>Containment Membrane</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>Surge {U} (You may cast this spell for its surge cost if you or a teammate has cast another spell this turn.)
 Enchant creature
 Enchanted creature doesn't untap during its controller's untap step.</CardText>
 <Artist>Daarken</Artist>
 <Multiverseid>407562</Multiverseid>
-<Rulings>2016/01/22: <Containment Membrane> can target and be attached to an untapped creature. It just won't have any effect until that creature becomes tapped.
-2016/01/22: The enchanted creature can still be untapped by other spells and abilities.
+<Rulings>2016/01/22: The enchanted creature can still be untapped by other spells and abilities.
+2016/01/22: Containment Membrane can target and be attached to an untapped creature. It just won't have any effect until that creature becomes tapped.
 2016/01/22: For some cards, surge represents only an alternative cost, a discount that applies if you or a teammate has cast another spell this turn. Other cards, like Reckless Bushwhacker, have additional abilities or effects if you paid the surge cost to cast the spell.
 2016/01/22: The other spell that you or a teammate cast can be one that's resolved, one that was countered, or (for instants with surge) one that's still on the stack.
 2016/01/22: If an instant or sorcery spell cast for its surge cost is copied, the copy is also considered to have had its surge cost paid.
@@ -1002,9 +1003,9 @@ Enchanted creature doesn't untap during its controller's untap step.</CardText>
 <No>53</No>
 <Name>Crush of Tentacles</Name>
 <Type>Sorcery</Type>
-<ManaCost>4UU (6)</ManaCost>
+<ManaCost>{4}{U}{U}</ManaCost>
 <CardText>Surge {3}{U}{U} (You may cast this spell for its surge cost if you or a teammate has cast another spell this turn.)
-Return all nonland permanents to their owners' hands. If Crush of Tentacles's surge cost was paid, create an 8/8 blue Octopus creature token.</CardText>
+Return all nonland permanents to their owners' hands. If this spell's surge cost was paid, create an 8/8 blue Octopus creature token.</CardText>
 <Artist>Jama Jurabaev</Artist>
 <Multiverseid>407563</Multiverseid>
 <Rulings>2016/01/22: All other nonland permanents will already be in their owners' hands by the time the Octopus token is created. Any triggered abilities or abilities that would have otherwise affected that Octopus won't be around to matter.
@@ -1024,13 +1025,13 @@ Return all nonland permanents to their owners' hands. If Crush of Tentacles's su
 <No>54</No>
 <Name>Cyclone Sire</Name>
 <Type>Creature — Elemental 3/4</Type>
-<ManaCost>4U (5)</ManaCost>
+<ManaCost>{4}{U}</ManaCost>
 <CardText>Flying
 When Cyclone Sire dies, you may put three +1/+1 counters on target land you control. If you do, that land becomes a 0/0 Elemental creature with haste that's still a land.</CardText>
 <Flavor>The rampaging Roil creates life out of the most volatile elements.</Flavor>
 <Artist>Igor Kieryluk</Artist>
 <Multiverseid>407564</Multiverseid>
-<Rulings>2016/01/22: If you target a land that's already a creature with <Cyclone Sire>'s triggered ability, that land creature's base power and toughness will become 0/0, overwriting its previous base power and toughness. Other effects that modify its power and/or toughness (including the new and any previously-existing +1/+1 counters) will continue to apply.</Rulings>
+<Rulings>2016/01/22: If you target a land that's already a creature with Cyclone Sire's triggered ability, that land creature's base power and toughness will become 0/0, overwriting its previous base power and toughness. Other effects that modify its power and/or toughness (including the new and any previously-existing +1/+1 counters) will continue to apply.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1043,15 +1044,15 @@ When Cyclone Sire dies, you may put three +1/+1 counters on target land you cont
 <No>55</No>
 <Name>Gift of Tusks</Name>
 <Type>Instant</Type>
-<ManaCost>U (1)</ManaCost>
+<ManaCost>{U}</ManaCost>
 <CardText>Until end of turn, target creature loses all abilities and becomes a green Elephant with base power and toughness 3/3.</CardText>
 <Flavor>It's an experience you'll never forget.</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>407565</Multiverseid>
 <Rulings>2016/01/22: The creature will lose all other colors and creature types, but it will retain any other card types (such as artifact) or supertypes (such as legendary) it may have.
-2016/01/22: <Gift of Tusks> overwrites all previous effects that set the creature's base power and toughness to specific values. Any power- or toughness-setting effects that start to apply after <Gift of Tusks> resolves will overwrite this effect.
-2016/01/22: <Gift of Tusks> doesn't counter abilities that have already triggered or been activated. In particular, there is no way to cast this spell to stop a creature's ability that says "At the beginning of your upkeep," "When this creature enters the battlefield," or similar from triggering.
-2016/01/22: If the affected creature gains an ability after <Gift of Tusks> resolves, it will keep that ability.
+2016/01/22: Gift of Tusks overwrites all previous effects that set the creature's base power and toughness to specific values. Any power- or toughness-setting effects that start to apply after Gift of Tusks resolves will overwrite this effect.
+2016/01/22: Gift of Tusks doesn't counter abilities that have already triggered or been activated. In particular, there is no way to cast this spell to stop a creature's ability that says "At the beginning of your upkeep," "When this creature enters the battlefield," or similar from triggering.
+2016/01/22: If the affected creature gains an ability after Gift of Tusks resolves, it will keep that ability.
 2016/01/22: Effects that modify a creature's power and/or toughness, such as the effect of Titanic Growth, will apply to the creature no matter when they started to take effect. The same is true for any counters that change its power and/or toughness and effects that switch its power and toughness.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1065,14 +1066,14 @@ When Cyclone Sire dies, you may put three +1/+1 counters on target land you cont
 <No>56</No>
 <Name>Grip of the Roil</Name>
 <Type>Instant</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>Surge {1}{U} (You may cast this spell for its surge cost if you or a teammate has cast another spell this turn.)
 Tap target creature. It doesn't untap during its controller's next untap step.
 Draw a card.</CardText>
 <Artist>Volkan Baǵa</Artist>
 <Multiverseid>407566</Multiverseid>
-<Rulings>2016/01/22: <Grip of the Roil> can target a creature that's already tapped. It still won't untap during its controller's next untap step.
-2016/01/22: <Grip of the Roil> tracks the creature, but not its controller. If the creature changes controllers before its first controller's next untap step has come around, then it won't untap during its new controller's next untap step.
+<Rulings>2016/01/22: Grip of the Roil can target a creature that's already tapped. It still won't untap during its controller's next untap step.
+2016/01/22: Grip of the Roil tracks the creature, but not its controller. If the creature changes controllers before its first controller's next untap step has come around, then it won't untap during its new controller's next untap step.
 2016/01/22: For some cards, surge represents only an alternative cost, a discount that applies if you or a teammate has cast another spell this turn. Other cards, like Reckless Bushwhacker, have additional abilities or effects if you paid the surge cost to cast the spell.
 2016/01/22: The other spell that you or a teammate cast can be one that's resolved, one that was countered, or (for instants with surge) one that's still on the stack.
 2016/01/22: If an instant or sorcery spell cast for its surge cost is copied, the copy is also considered to have had its surge cost paid.
@@ -1089,13 +1090,13 @@ Draw a card.</CardText>
 <No>57</No>
 <Name>Hedron Alignment</Name>
 <Type>Enchantment</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>Hexproof
 At the beginning of your upkeep, you may reveal your hand. If you do, you win the game if you own a card named Hedron Alignment in exile, in your hand, in your graveyard, and on the battlefield.
 {1}{U}: Scry 1.</CardText>
 <Artist>Craig J Spearing</Artist>
 <Multiverseid>407567</Multiverseid>
-<Rulings>2016/01/22: The <Hedron Alignment> in exile must be face up. If it's face down, it won't count, even if you are allowed to look at it.</Rulings>
+<Rulings>2016/01/22: The Hedron Alignment in exile must be face up. If it's face down, it won't count, even if you are allowed to look at it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1108,7 +1109,7 @@ At the beginning of your upkeep, you may reveal your hand. If you do, you win th
 <No>58</No>
 <Name>Jwar Isle Avenger</Name>
 <Type>Creature — Sphinx 3/3</Type>
-<ManaCost>4U (5)</ManaCost>
+<ManaCost>{4}{U}</ManaCost>
 <CardText>Surge {2}{U} (You may cast this spell for its surge cost if you or a teammate has cast another spell this turn.)
 Flying</CardText>
 <Flavor>Though solitary by nature, the sphinxes did not hesitate to join in the fight against the Eldrazi.</Flavor>
@@ -1130,7 +1131,7 @@ Flying</CardText>
 <No>59</No>
 <Name>Negate</Name>
 <Type>Instant</Type>
-<ManaCost>1U (2)</ManaCost>
+<ManaCost>{1}{U}</ManaCost>
 <CardText>Counter target noncreature spell.</CardText>
 <Flavor>"Eventually, everything returns to silence."
 —Zarra, lullmage</Flavor>
@@ -1149,7 +1150,7 @@ Flying</CardText>
 <No>60</No>
 <Name>Oath of Jace</Name>
 <Type>Legendary Enchantment</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>When Oath of Jace enters the battlefield, draw three cards, then discard two cards.
 At the beginning of your upkeep, scry X, where X is the number of planeswalkers you control.</CardText>
 <Flavor>"For the sake of the Multiverse, I will keep watch."</Flavor>
@@ -1171,7 +1172,7 @@ At the beginning of your upkeep, scry X, where X is the number of planeswalkers 
 <No>61</No>
 <Name>Overwhelming Denial</Name>
 <Type>Instant</Type>
-<ManaCost>2UU (4)</ManaCost>
+<ManaCost>{2}{U}{U}</ManaCost>
 <CardText>Surge {U}{U} (You may cast this spell for its surge cost if you or a teammate has cast another spell this turn.)
 This spell can't be countered.
 Counter target spell.</CardText>
@@ -1193,7 +1194,7 @@ Counter target spell.</CardText>
 <No>62</No>
 <Name>Roiling Waters</Name>
 <Type>Sorcery</Type>
-<ManaCost>5UU (7)</ManaCost>
+<ManaCost>{5}{U}{U}</ManaCost>
 <CardText>Return up to two target creatures your opponents control to their owners' hands. Target player draws two cards.</CardText>
 <Flavor>"The Roil may be unpredictable, but it is not uncontrollable."
 —Noyan Dar, Tazeem roilmage</Flavor>
@@ -1211,7 +1212,7 @@ Counter target spell.</CardText>
 <No>63</No>
 <Name>Sphinx of the Final Word</Name>
 <Type>Creature — Sphinx 5/5</Type>
-<ManaCost>5UU (7)</ManaCost>
+<ManaCost>{5}{U}{U}</ManaCost>
 <CardText>This spell can't be countered.
 Flying, hexproof
 Instant and sorcery spells you control can't be countered.</CardText>
@@ -1231,7 +1232,7 @@ Instant and sorcery spells you control can't be countered.</CardText>
 <No>64</No>
 <Name>Sweep Away</Name>
 <Type>Instant</Type>
-<ManaCost>2U (3)</ManaCost>
+<ManaCost>{2}{U}</ManaCost>
 <CardText>Return target creature to its owner's hand. If that creature is attacking, you may put it on top of its owner's library instead.</CardText>
 <Flavor>The Roil takes many forms. It also takes many victims.</Flavor>
 <Artist>Winona Nelson</Artist>
@@ -1248,7 +1249,7 @@ Instant and sorcery spells you control can't be countered.</CardText>
 <No>65</No>
 <Name>Umara Entangler</Name>
 <Type>Creature — Merfolk Rogue Ally 2/1</Type>
-<ManaCost>1U (2)</ManaCost>
+<ManaCost>{1}{U}</ManaCost>
 <CardText>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)</CardText>
 <Flavor>"Sea Gate is gone, the Halimar basin empty. But rebuild the seawall and give these waters time, and they will fill the basin anew."</Flavor>
 <Artist>James Ryman</Artist>
@@ -1265,7 +1266,7 @@ Instant and sorcery spells you control can't be countered.</CardText>
 <No>66</No>
 <Name>Unity of Purpose</Name>
 <Type>Instant</Type>
-<ManaCost>3U (4)</ManaCost>
+<ManaCost>{3}{U}</ManaCost>
 <CardText>Support 2. (Put a +1/+1 counter on each of up to two target creatures.)
 Untap each creature you control with a +1/+1 counter on it.</CardText>
 <Flavor>Faced with the novel problem of inspiring an army, Jace asked himself: "What would Gideon say?"</Flavor>
@@ -1286,14 +1287,14 @@ Untap each creature you control with a +1/+1 counter on it.</CardText>
 <No>67</No>
 <Name>Bearer of Silence</Name>
 <Type>Creature — Eldrazi 2/1</Type>
-<ManaCost>1B (2)</ManaCost>
+<ManaCost>{1}{B}</ManaCost>
 <CardText>Devoid (This card has no color.)
 When you cast this spell, you may pay {1}{C}. If you do, target opponent sacrifices a creature. ({C} represents colorless mana.)
 Flying
 Bearer of Silence can't block.</CardText>
 <Artist>Tyler Jacobson</Artist>
 <Multiverseid>407577</Multiverseid>
-<Rulings>2016/01/22: <Bearer of Silence>'s triggered ability targets only the player, not any creature. For example, the player may sacrifice a creature with hexproof.
+<Rulings>2016/01/22: Bearer of Silence's triggered ability targets only the player, not any creature. For example, the player may sacrifice a creature with hexproof.
 2016/01/22: Players can respond to the triggered ability, but once it starts resolving and you decide whether to pay {1}{C}, it's too late for anyone to respond.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1307,14 +1308,14 @@ Bearer of Silence can't block.</CardText>
 <No>68</No>
 <Name>Dread Defiler</Name>
 <Type>Creature — Eldrazi 6/8</Type>
-<ManaCost>6B (7)</ManaCost>
+<ManaCost>{6}{B}</ManaCost>
 <CardText>Devoid (This card has no color.)
 {3}{C}, Exile a creature card from your graveyard: Target opponent loses life equal to the exiled card's power. ({C} represents colorless mana.)</CardText>
 <Flavor>It left behind an echoing emptiness more horrible than the grave.</Flavor>
 <Artist>Slawomir Maniak</Artist>
 <Multiverseid>407578</Multiverseid>
-<Rulings>2016/01/22: Use the card's power as it last existed in your graveyard to determine how much life is lost.
-2016/01/22: A creature token is not a creature card. Although a token does go to the graveyard briefly if it dies, it ceases to exist before you have the opportunity to do anything.</Rulings>
+<Rulings>2016/01/22: A creature token is not a creature card. Although a token does go to the graveyard briefly if it dies, it ceases to exist before you have the opportunity to do anything.
+2016/01/22: Use the card's power as it last existed in your graveyard to determine how much life is lost.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1327,7 +1328,7 @@ Bearer of Silence can't block.</CardText>
 <No>69</No>
 <Name>Essence Depleter</Name>
 <Type>Creature — Eldrazi Drone 2/3</Type>
-<ManaCost>2B (3)</ManaCost>
+<ManaCost>{2}{B}</ManaCost>
 <CardText>Devoid (This card has no color.)
 {1}{C}: Target opponent loses 1 life and you gain 1 life. ({C} represents colorless mana.)</CardText>
 <Flavor>When Kozilek emerged at Sea Gate, his brood lineage swarmed to the surface.</Flavor>
@@ -1345,14 +1346,14 @@ Bearer of Silence can't block.</CardText>
 <No>70</No>
 <Name>Flaying Tendrils</Name>
 <Type>Sorcery</Type>
-<ManaCost>1BB (3)</ManaCost>
+<ManaCost>{1}{B}{B}</ManaCost>
 <CardText>Devoid (This card has no color.)
 All creatures get -2/-2 until end of turn. If a creature would die this turn, exile it instead.</CardText>
 <Flavor>Only one Eldrazi stood against them, yet the defenders were outnumbered.</Flavor>
 <Artist>Slawomir Maniak</Artist>
 <Multiverseid>407580</Multiverseid>
-<Rulings>2016/01/22: Only creatures that are on the battlefield as <Flaying Tendrils> resolves will get -2/-2. However, any creature that would die that turn will be exiled, even if it wasn't on the battlefield or wasn't a creature as <Flaying Tendrils> resolved.
-2016/01/22: Creatures that <Flaying Tendrils> would cause to die will be exiled instead. The game doesn't check to see which creatures die until after <Flaying Tendrils> has finished resolving.</Rulings>
+<Rulings>2016/01/22: Only creatures that are on the battlefield as Flaying Tendrils resolves will get -2/-2. However, any creature that would die that turn will be exiled, even if it wasn't on the battlefield or wasn't a creature as Flaying Tendrils resolved.
+2016/01/22: Creatures that Flaying Tendrils would cause to die will be exiled instead. The game doesn't check to see which creatures die until after Flaying Tendrils has finished resolving.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1365,7 +1366,7 @@ All creatures get -2/-2 until end of turn. If a creature would die this turn, ex
 <No>71</No>
 <Name>Havoc Sower</Name>
 <Type>Creature — Eldrazi Drone 3/3</Type>
-<ManaCost>3B (4)</ManaCost>
+<ManaCost>{3}{B}</ManaCost>
 <CardText>Devoid (This card has no color.)
 {1}{C}: Havoc Sower gets +2/+1 until end of turn. ({C} represents colorless mana.)</CardText>
 <Flavor>It grew with a terrible swiftness.</Flavor>
@@ -1383,7 +1384,7 @@ All creatures get -2/-2 until end of turn. If a creature would die this turn, ex
 <No>72</No>
 <Name>Inverter of Truth</Name>
 <Type>Creature — Eldrazi 6/6</Type>
-<ManaCost>2BB (4)</ManaCost>
+<ManaCost>{2}{B}{B}</ManaCost>
 <CardText>Devoid (This card has no color.)
 Flying
 When Inverter of Truth enters the battlefield, exile all cards from your library face down, then shuffle all cards from your graveyard into your library.</CardText>
@@ -1404,13 +1405,13 @@ When Inverter of Truth enters the battlefield, exile all cards from your library
 <No>73</No>
 <Name>Kozilek's Shrieker</Name>
 <Type>Creature — Eldrazi Drone 3/2</Type>
-<ManaCost>2B (3)</ManaCost>
+<ManaCost>{2}{B}</ManaCost>
 <CardText>Devoid (This card has no color.)
 {C}: Kozilek's Shrieker gets +1/+0 and gains menace until end of turn. (It can't be blocked except by two or more creatures. {C} represents colorless mana.)</CardText>
 <Flavor>Listen to the sound of defeat.</Flavor>
 <Artist>Jason Felix</Artist>
 <Multiverseid>407583</Multiverseid>
-<Rulings>2016/01/22: If <Kozilek's Shrieker> gains menace after it's been legally blocked by one creature, it will remain blocked.
+<Rulings>2016/01/22: If Kozilek's Shrieker gains menace after it's been legally blocked by one creature, it will remain blocked.
 2016/01/22: Multiple instances of menace on the same creature are redundant.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1424,9 +1425,9 @@ When Inverter of Truth enters the battlefield, exile all cards from your library
 <No>74</No>
 <Name>Kozilek's Translator</Name>
 <Type>Creature — Eldrazi Drone 3/5</Type>
-<ManaCost>4B (5)</ManaCost>
+<ManaCost>{4}{B}</ManaCost>
 <CardText>Devoid (This card has no color.)
-Pay 1 life: Add {C}. Activate this ability only once each turn. ({C} represents colorless mana.)</CardText>
+Pay 1 life: Add {C}. Activate only once each turn. ({C} represents colorless mana.)</CardText>
 <Flavor>From nothingness, sustenance.</Flavor>
 <Artist>Izzy</Artist>
 <Multiverseid>407584</Multiverseid>
@@ -1442,7 +1443,7 @@ Pay 1 life: Add {C}. Activate this ability only once each turn. ({C} represents 
 <No>75</No>
 <Name>Oblivion Strike</Name>
 <Type>Sorcery</Type>
-<ManaCost>3B (4)</ManaCost>
+<ManaCost>{3}{B}</ManaCost>
 <CardText>Devoid (This card has no color.)
 Exile target creature.</CardText>
 <Flavor>It's bad enough to be torn to pieces. It's worse by far to be torn from the world itself.</Flavor>
@@ -1460,13 +1461,13 @@ Exile target creature.</CardText>
 <No>76</No>
 <Name>Reaver Drone</Name>
 <Type>Creature — Eldrazi Drone 2/1</Type>
-<ManaCost>B (1)</ManaCost>
+<ManaCost>{B}</ManaCost>
 <CardText>Devoid (This card has no color.)
 At the beginning of your upkeep, you lose 1 life unless you control another colorless creature.</CardText>
 <Flavor>Kozilek's brood infiltrates and deceives. The spawn of Ulamog mindlessly consume.</Flavor>
 <Artist>Chris Rallis</Artist>
 <Multiverseid>407586</Multiverseid>
-<Rulings>2016/01/22: Whether you control another colorless creature is checked as the ability resolves. This check will happen even if <Reaver Drone> leaves the battlefield in response to the ability.</Rulings>
+<Rulings>2016/01/22: Whether you control another colorless creature is checked as the ability resolves. This check will happen even if Reaver Drone leaves the battlefield in response to the ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1479,7 +1480,7 @@ At the beginning of your upkeep, you lose 1 life unless you control another colo
 <No>77</No>
 <Name>Sifter of Skulls</Name>
 <Type>Creature — Eldrazi 4/3</Type>
-<ManaCost>3B (4)</ManaCost>
+<ManaCost>{3}{B}</ManaCost>
 <CardText>Devoid (This card has no color.)
 Whenever another nontoken creature you control dies, create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this creature: Add {C}." ({C} represents colorless mana.)</CardText>
 <Artist>Slawomir Maniak</Artist>
@@ -1496,7 +1497,7 @@ Whenever another nontoken creature you control dies, create a 1/1 colorless Eldr
 <No>78</No>
 <Name>Sky Scourer</Name>
 <Type>Creature — Eldrazi Drone 1/2</Type>
-<ManaCost>1B (2)</ManaCost>
+<ManaCost>{1}{B}</ManaCost>
 <CardText>Devoid (This card has no color.)
 Flying
 Whenever you cast a colorless spell, Sky Scourer gets +1/+0 until end of turn.</CardText>
@@ -1516,7 +1517,7 @@ Whenever you cast a colorless spell, Sky Scourer gets +1/+0 until end of turn.</
 <No>79</No>
 <Name>Slaughter Drone</Name>
 <Type>Creature — Eldrazi Drone 2/2</Type>
-<ManaCost>1B (2)</ManaCost>
+<ManaCost>{1}{B}</ManaCost>
 <CardText>Devoid (This card has no color.)
 {C}: Slaughter Drone gains deathtouch until end of turn. (Any amount of damage it deals to a creature is enough to destroy it. {C} represents colorless mana.)</CardText>
 <Flavor>It kills what is, making way for what should not be.</Flavor>
@@ -1534,7 +1535,7 @@ Whenever you cast a colorless spell, Sky Scourer gets +1/+0 until end of turn.</
 <No>80</No>
 <Name>Unnatural Endurance</Name>
 <Type>Instant</Type>
-<ManaCost>B (1)</ManaCost>
+<ManaCost>{B}</ManaCost>
 <CardText>Devoid (This card has no color.)
 Target creature gets +2/+0 until end of turn. Regenerate it.</CardText>
 <Flavor>"Eldrazi don't die easy. Sometimes they don't die at all."
@@ -1553,7 +1554,7 @@ Target creature gets +2/+0 until end of turn. Regenerate it.</CardText>
 <No>81</No>
 <Name>Visions of Brutality</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>1B (2)</ManaCost>
+<ManaCost>{1}{B}</ManaCost>
 <CardText>Devoid (This card has no color.)
 Enchant creature
 Enchanted creature can't block.
@@ -1572,7 +1573,7 @@ Whenever enchanted creature deals damage, its controller loses that much life.</
 <No>82</No>
 <Name>Witness the End</Name>
 <Type>Sorcery</Type>
-<ManaCost>3B (4)</ManaCost>
+<ManaCost>{3}{B}</ManaCost>
 <CardText>Devoid (This card has no color.)
 Target opponent exiles two cards from their hand and loses 2 life.</CardText>
 <Flavor>"Ulamog stood before us at Sea Gate, ready to succumb . . . and then Kozilek arose. Whatever hope I had for our world died."
@@ -1592,13 +1593,13 @@ Target opponent exiles two cards from their hand and loses 2 life.</CardText>
 <No>83</No>
 <Name>Corpse Churn</Name>
 <Type>Instant</Type>
-<ManaCost>1B (2)</ManaCost>
-<CardText>Put the top three cards of your library into your graveyard, then you may return a creature card from your graveyard to your hand.</CardText>
+<ManaCost>{1}{B}</ManaCost>
+<CardText>Mill three cards, then you may return a creature card from your graveyard to your hand. (To mill a card, put the top card of your library into your graveyard.)</CardText>
 <Flavor>"The distraction of your life has ended. Now your service begins."
 —Kalitas, thrall of Ulamog</Flavor>
 <Artist>Magali Villeneuve</Artist>
 <Multiverseid>407593</Multiverseid>
-<Rulings>2016/01/22: <Corpse Churn> doesn't target the creature card in your graveyard. You may choose one of the three cards you put there from your library.</Rulings>
+<Rulings>2020/11/10: Because Corpse Churn doesn't target the creature card in your graveyard, you may choose one of the three cards you put there from your library if applicable.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1611,7 +1612,7 @@ Target opponent exiles two cards from their hand and loses 2 life.</CardText>
 <No>84</No>
 <Name>Drana's Chosen</Name>
 <Type>Creature — Vampire Shaman Ally 2/2</Type>
-<ManaCost>3B (4)</ManaCost>
+<ManaCost>{3}{B}</ManaCost>
 <CardText>Cohort — {T}, Tap an untapped Ally you control: Create a tapped 2/2 black Zombie creature token.</CardText>
 <Flavor>"Drana commands me. I command my nulls. And so her bidding is done."</Flavor>
 <Artist>Deruchenko Alexander</Artist>
@@ -1629,7 +1630,7 @@ Target opponent exiles two cards from their hand and loses 2 life.</CardText>
 <No>85</No>
 <Name>Grasp of Darkness</Name>
 <Type>Instant</Type>
-<ManaCost>BB (2)</ManaCost>
+<ManaCost>{B}{B}</ManaCost>
 <CardText>Target creature gets -4/-4 until end of turn.</CardText>
 <Flavor>"I welcome the use of even the foulest magic if it will rid us of the monstrosities that plague our world."
 —Munda, ambush leader</Flavor>
@@ -1647,16 +1648,16 @@ Target opponent exiles two cards from their hand and loses 2 life.</CardText>
 <No>86</No>
 <Name>Kalitas, Traitor of Ghet</Name>
 <Type>Legendary Creature — Vampire Warrior 3/4</Type>
-<ManaCost>2BB (4)</ManaCost>
+<ManaCost>{2}{B}{B}</ManaCost>
 <CardText>Lifelink
 If a nontoken creature an opponent controls would die, instead exile that card and create a 2/2 black Zombie creature token.
 {2}{B}, Sacrifice another Vampire or Zombie: Put two +1/+1 counters on Kalitas, Traitor of Ghet.</CardText>
 <Artist>Todd Lockwood</Artist>
 <Multiverseid>407596</Multiverseid>
 <Rulings>2016/01/22: Abilities that trigger whenever a creature an opponent controls dies won't trigger unless that creature is a token (see below).
+2016/01/22: You can't sacrifice Kalitas to activate the last ability, even if it's somehow become a Zombie.
 2016/01/22: If a creature token an opponent controls dies, it goes to that player's graveyard as normal before ceasing to exist.
-2016/01/22: If Kalitas dies at the same time as creatures your opponents control, those creature cards will be exiled and you'll get that many Zombies.
-2016/01/22: You can't sacrifice Kalitas to activate the last ability, even if it's somehow become a Zombie.</Rulings>
+2016/01/22: If Kalitas dies at the same time as creatures your opponents control, those creature cards will be exiled and you'll get that many Zombies.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1669,7 +1670,7 @@ If a nontoken creature an opponent controls would die, instead exile that card a
 <No>87</No>
 <Name>Malakir Soothsayer</Name>
 <Type>Creature — Vampire Shaman Ally 4/4</Type>
-<ManaCost>4B (5)</ManaCost>
+<ManaCost>{4}{B}</ManaCost>
 <CardText>Cohort — {T}, Tap an untapped Ally you control: You draw a card and you lose 1 life.</CardText>
 <Flavor>"Your blood whispers secrets your mind could never comprehend."</Flavor>
 <Artist>Greg Opalinski</Artist>
@@ -1687,7 +1688,7 @@ If a nontoken creature an opponent controls would die, instead exile that card a
 <No>88</No>
 <Name>Null Caller</Name>
 <Type>Creature — Vampire Shaman 2/4</Type>
-<ManaCost>3B (4)</ManaCost>
+<ManaCost>{3}{B}</ManaCost>
 <CardText>{3}{B}, Exile a creature card from your graveyard: Create a tapped 2/2 black Zombie creature token.</CardText>
 <Flavor>Zendikar's defenders include both healers and vampires. One way or another, the fallen will return to the fight.</Flavor>
 <Artist>Darek Zabrocki</Artist>
@@ -1705,7 +1706,7 @@ If a nontoken creature an opponent controls would die, instead exile that card a
 <No>89</No>
 <Name>Remorseless Punishment</Name>
 <Type>Sorcery</Type>
-<ManaCost>3BB (5)</ManaCost>
+<ManaCost>{3}{B}{B}</ManaCost>
 <CardText>Target opponent loses 5 life unless that player discards two cards or sacrifices a creature or planeswalker. Repeat this process once.</CardText>
 <Flavor>"I have suffered a thousand lifetimes of agony on this wretched world. I've far less time to share with you, but I assure you, no less pain."
 —Ob Nixilis</Flavor>
@@ -1713,7 +1714,7 @@ If a nontoken creature an opponent controls would die, instead exile that card a
 <Multiverseid>407599</Multiverseid>
 <Rulings>2016/01/22: The player can't choose to discard two cards unless they have at least two cards in hand. Similarly, that player can't choose to sacrifice a creature or planeswalker unless they control one. This means that if the target opponent doesn't have two cards in hand and doesn't control a creature or planeswalker, that player will lose 5 life and then lose 5 life again.
 2016/01/22: No player may take any actions between the two times the player goes through the process.
-2016/01/22: Any abilities that trigger while <Remorseless Punishment> is resolving will be put on the stack after it has completely resolved.
+2016/01/22: Any abilities that trigger while Remorseless Punishment is resolving will be put on the stack after it has completely resolved.
 2016/04/08: The same player chooses both times. In a multiplayer game, you can't choose a different opponent to repeat the process.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1727,7 +1728,7 @@ If a nontoken creature an opponent controls would die, instead exile that card a
 <No>90</No>
 <Name>Tar Snare</Name>
 <Type>Instant</Type>
-<ManaCost>2B (3)</ManaCost>
+<ManaCost>{2}{B}</ManaCost>
 <CardText>Target creature gets -3/-2 until end of turn.</CardText>
 <Flavor>The amorphous, magically animated residue known as the Fathom Sludge lurks in the Hagra Cistern, attacking its prey with pseudopods and dragging it down to be digested.</Flavor>
 <Artist>Karl Kopinski</Artist>
@@ -1744,7 +1745,7 @@ If a nontoken creature an opponent controls would die, instead exile that card a
 <No>91</No>
 <Name>Untamed Hunger</Name>
 <Type>Enchantment — Aura</Type>
-<ManaCost>2B (3)</ManaCost>
+<ManaCost>{2}{B}</ManaCost>
 <CardText>Enchant creature
 Enchanted creature gets +2/+1 and has menace. (It can't be blocked except by two or more creatures.)</CardText>
 <Flavor>"Mindlessness is not weakness. When we are lost to hunger we are unstoppable."
@@ -1763,13 +1764,13 @@ Enchanted creature gets +2/+1 and has menace. (It can't be blocked except by two
 <No>92</No>
 <Name>Vampire Envoy</Name>
 <Type>Creature — Vampire Cleric Ally 1/4</Type>
-<ManaCost>2B (3)</ManaCost>
+<ManaCost>{2}{B}</ManaCost>
 <CardText>Flying
 Whenever Vampire Envoy becomes tapped, you gain 1 life.</CardText>
 <Flavor>"Zendikar will fight until it has bled its last."</Flavor>
 <Artist>Johannes Voss</Artist>
 <Multiverseid>407602</Multiverseid>
-<Rulings>2016/01/22: <Vampire Envoy>'s last ability will trigger if it becomes tapped for any reason, including attacking. However, if it enters the battlefield tapped for some reason, the ability won't trigger.</Rulings>
+<Rulings>2016/01/22: Vampire Envoy's last ability will trigger if it becomes tapped for any reason, including attacking. However, if it enters the battlefield tapped for some reason, the ability won't trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1782,7 +1783,7 @@ Whenever Vampire Envoy becomes tapped, you gain 1 life.</CardText>
 <No>93</No>
 <Name>Zulaport Chainmage</Name>
 <Type>Creature — Human Shaman Ally 4/2</Type>
-<ManaCost>3B (4)</ManaCost>
+<ManaCost>{3}{B}</ManaCost>
 <CardText>Cohort — {T}, Tap an untapped Ally you control: Target opponent loses 2 life.</CardText>
 <Flavor>The chains obey her. Everything else would do best to get out of her way.</Flavor>
 <Artist>Chris Rallis</Artist>
@@ -1800,7 +1801,7 @@ Whenever Vampire Envoy becomes tapped, you gain 1 life.</CardText>
 <No>94</No>
 <Name>Consuming Sinkhole</Name>
 <Type>Instant</Type>
-<ManaCost>3R (4)</ManaCost>
+<ManaCost>{3}{R}</ManaCost>
 <CardText>Devoid (This card has no color.)
 Choose one —
 • Exile target land creature.
@@ -1822,14 +1823,14 @@ Choose one —
 <No>95</No>
 <Name>Eldrazi Aggressor</Name>
 <Type>Creature — Eldrazi Drone 2/3</Type>
-<ManaCost>2R (3)</ManaCost>
+<ManaCost>{2}{R}</ManaCost>
 <CardText>Devoid (This card has no color.)
 Eldrazi Aggressor has haste as long as you control another colorless creature.</CardText>
 <Flavor>"They employ a foul sort of teamwork."
 —General Tazri, allied commander</Flavor>
 <Artist>Mathias Kollros</Artist>
 <Multiverseid>407605</Multiverseid>
-<Rulings>2016/01/22: If it's the turn <Eldrazi Aggressor> comes under your control, and it loses haste after being declared as an attacker, it will continue to attack. It won't be removed from combat.</Rulings>
+<Rulings>2016/01/22: If it's the turn Eldrazi Aggressor comes under your control, and it loses haste after being declared as an attacker, it will continue to attack. It won't be removed from combat.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1842,13 +1843,13 @@ Eldrazi Aggressor has haste as long as you control another colorless creature.</
 <No>96</No>
 <Name>Eldrazi Obligator</Name>
 <Type>Creature — Eldrazi 3/1</Type>
-<ManaCost>2R (3)</ManaCost>
+<ManaCost>{2}{R}</ManaCost>
 <CardText>Devoid (This card has no color.)
 When you cast this spell, you may pay {1}{C}. If you do, gain control of target creature until end of turn, untap that creature, and it gains haste until end of turn. ({C} represents colorless mana.)
 Haste</CardText>
 <Artist>Jason Felix</Artist>
 <Multiverseid>407606</Multiverseid>
-<Rulings>2016/01/22: You may choose any creature as the target of <Eldrazi Obligator>'s triggered ability, including one that's untapped or one you already control.</Rulings>
+<Rulings>2016/01/22: You may choose any creature as the target of Eldrazi Obligator's triggered ability, including one that's untapped or one you already control.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1861,14 +1862,14 @@ Haste</CardText>
 <No>97</No>
 <Name>Immobilizer Eldrazi</Name>
 <Type>Creature — Eldrazi Drone 2/1</Type>
-<ManaCost>1R (2)</ManaCost>
+<ManaCost>{1}{R}</ManaCost>
 <CardText>Devoid (This card has no color.)
 {2}{C}: Each creature with toughness greater than its power can't block this turn. ({C} represents colorless mana.)</CardText>
 <Flavor>It denied the Zendikari the chance to stand and die fighting.</Flavor>
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>407607</Multiverseid>
-<Rulings>2016/01/22: You compare the power and toughness as you declare blockers, not as <Immobilizer Eldrazi>'s ability resolves. For example, if you control a 3/3 creature as the ability resolves, then later that turn it gets +0/+1 such that it's 3/4 as blockers are declared, it won't be able to block.
-2016/01/22: If a creature has already been legally declared as a blocker, <Immobilizer Eldrazi>'s ability won't change or undo that block.</Rulings>
+<Rulings>2016/01/22: You compare the power and toughness as you declare blockers, not as Immobilizer Eldrazi's ability resolves. For example, if you control a 3/3 creature as the ability resolves, then later that turn it gets +0/+1 such that it's 3/4 as blockers are declared, it won't be able to block.
+2016/01/22: If a creature has already been legally declared as a blocker, Immobilizer Eldrazi's ability won't change or undo that block.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1881,14 +1882,14 @@ Haste</CardText>
 <No>98</No>
 <Name>Kozilek's Return</Name>
 <Type>Instant</Type>
-<ManaCost>2R (3)</ManaCost>
+<ManaCost>{2}{R}</ManaCost>
 <CardText>Devoid (This card has no color.)
 Kozilek's Return deals 2 damage to each creature.
-Whenever you cast an Eldrazi creature spell with converted mana cost 7 or greater, you may exile Kozilek's Return from your graveyard. If you do, Kozilek's Return deals 5 damage to each creature.</CardText>
+Whenever you cast an Eldrazi creature spell with mana value 7 or greater, you may exile Kozilek's Return from your graveyard. If you do, Kozilek's Return deals 5 damage to each creature.</CardText>
 <Artist>Lius Lasahido</Artist>
 <Multiverseid>407608</Multiverseid>
-<Rulings>2016/01/22: The last ability triggers only if <Kozilek's Return> is in your graveyard as you cast the Eldrazi creature spell. That ability will resolve before the Eldrazi creature spell does. In other words, that Eldrazi won't be on the battlefield yet and won't be dealt damage by <Kozilek's Return>.
-2016/01/22: Exiling <Kozilek's Return> due to the last ability isn't the same as casting it as a spell. Cards that say "Counter target spell" won't work.</Rulings>
+<Rulings>2016/01/22: The last ability triggers only if Kozilek's Return is in your graveyard as you cast the Eldrazi creature spell. That ability will resolve before the Eldrazi creature spell does. In other words, that Eldrazi won't be on the battlefield yet and won't be dealt damage by Kozilek's Return.
+2016/01/22: Exiling Kozilek's Return due to the last ability isn't the same as casting it as a spell. Cards that say "Counter target spell" won't work.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1901,7 +1902,7 @@ Whenever you cast an Eldrazi creature spell with converted mana cost 7 or greate
 <No>99</No>
 <Name>Maw of Kozilek</Name>
 <Type>Creature — Eldrazi Drone 2/5</Type>
-<ManaCost>3R (4)</ManaCost>
+<ManaCost>{3}{R}</ManaCost>
 <CardText>Devoid (This card has no color.)
 {C}: Maw of Kozilek gets +2/-2 until end of turn. ({C} represents colorless mana.)</CardText>
 <Flavor>"The Eldrazi make worse than ruins—they make a world where not even ruins stand."
@@ -1920,7 +1921,7 @@ Whenever you cast an Eldrazi creature spell with converted mana cost 7 or greate
 <No>100</No>
 <Name>Reality Hemorrhage</Name>
 <Type>Instant</Type>
-<ManaCost>1R (2)</ManaCost>
+<ManaCost>{1}{R}</ManaCost>
 <CardText>Devoid (This card has no color.)
 Reality Hemorrhage deals 2 damage to any target.</CardText>
 <Flavor>Tarek could not tell whether he was losing his blood or his mind.</Flavor>
@@ -1938,7 +1939,7 @@ Reality Hemorrhage deals 2 damage to any target.</CardText>
 <No>101</No>
 <Name>Akoum Flameseeker</Name>
 <Type>Creature — Human Shaman Ally 3/2</Type>
-<ManaCost>2R (3)</ManaCost>
+<ManaCost>{2}{R}</ManaCost>
 <CardText>Cohort — {T}, Tap an untapped Ally you control: Discard a card. If you do, draw a card.</CardText>
 <Flavor>In the face of extinction, the most perilous endeavors can be cause for hope.</Flavor>
 <Artist>Willian Murai</Artist>
@@ -1957,7 +1958,7 @@ Reality Hemorrhage deals 2 damage to any target.</CardText>
 <No>102</No>
 <Name>Boulder Salvo</Name>
 <Type>Sorcery</Type>
-<ManaCost>4R (5)</ManaCost>
+<ManaCost>{4}{R}</ManaCost>
 <CardText>Surge {1}{R} (You may cast this spell for its surge cost if you or a teammate has cast another spell this turn.)
 Boulder Salvo deals 4 damage to target creature.</CardText>
 <Flavor>"If someone claims the sky is falling, I listen."
@@ -1967,7 +1968,7 @@ Boulder Salvo deals 4 damage to target creature.</CardText>
 <Rulings>2016/01/22: For some cards, surge represents only an alternative cost, a discount that applies if you or a teammate has cast another spell this turn. Other cards, like Reckless Bushwhacker, have additional abilities or effects if you paid the surge cost to cast the spell.
 2016/01/22: The other spell that you or a teammate cast can be one that's resolved, one that was countered, or (for instants with surge) one that's still on the stack.
 2016/01/22: If an instant or sorcery spell cast for its surge cost is copied, the copy is also considered to have had its surge cost paid.
-2016/01/22: Casting a spell for its surge cost doesn't change its mana cost or its converted mana cost.</Rulings>
+2016/01/22: Casting a spell for its surge cost doesn't change its mana cost or its mana value.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1980,7 +1981,7 @@ Boulder Salvo deals 4 damage to target creature.</CardText>
 <No>103</No>
 <Name>Brute Strength</Name>
 <Type>Instant</Type>
-<ManaCost>1R (2)</ManaCost>
+<ManaCost>{1}{R}</ManaCost>
 <CardText>Target creature gets +3/+1 and gains trample until end of turn.</CardText>
 <Flavor>It's not the size of the rock. It's how badly you want to lift it.</Flavor>
 <Artist>Wayne Reynolds</Artist>
@@ -1997,10 +1998,10 @@ Boulder Salvo deals 4 damage to target creature.</CardText>
 <No>104</No>
 <Name>Chandra, Flamecaller</Name>
 <Type>Legendary Planeswalker — Chandra (Loyalty: 4)</Type>
-<ManaCost>4RR (6)</ManaCost>
-<CardText>+1: Create two 3/1 red Elemental creature tokens with haste. Exile them at the beginning of the next end step.
-0: Discard all the cards in your hand, then draw that many cards plus one.
--X: Chandra, Flamecaller deals X damage to each creature.</CardText>
+<ManaCost>{4}{R}{R}</ManaCost>
+<CardText>[+1]: Create two 3/1 red Elemental creature tokens with haste. Exile them at the beginning of the next end step.
+[0]: Discard all the cards in your hand, then draw that many cards plus one.
+[-X]: Chandra, Flamecaller deals X damage to each creature.</CardText>
 <Artist>Jason Rainville</Artist>
 <Multiverseid>407614</Multiverseid>
 <Rulings>2016/01/22: You can activate Chandra's second ability while you have an empty hand. If you do, you'll draw one card.
@@ -2017,7 +2018,7 @@ Boulder Salvo deals 4 damage to target creature.</CardText>
 <No>105</No>
 <Name>Cinder Hellion</Name>
 <Type>Creature — Hellion 4/4</Type>
-<ManaCost>4R (5)</ManaCost>
+<ManaCost>{4}{R}</ManaCost>
 <CardText>Trample
 When Cinder Hellion enters the battlefield, it deals 2 damage to target opponent or planeswalker.</CardText>
 <Flavor>Chandra used jets of flame to lure hellions into the path of oncoming Eldrazi.</Flavor>
@@ -2035,13 +2036,13 @@ When Cinder Hellion enters the battlefield, it deals 2 damage to target opponent
 <No>106</No>
 <Name>Devour in Flames</Name>
 <Type>Sorcery</Type>
-<ManaCost>2R (3)</ManaCost>
+<ManaCost>{2}{R}</ManaCost>
 <CardText>As an additional cost to cast this spell, return a land you control to its owner's hand.
 Devour in Flames deals 5 damage to target creature or planeswalker.</CardText>
 <Flavor>Ob Nixilis had prepared for every eventuality—except Chandra Nalaar.</Flavor>
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>407616</Multiverseid>
-<Rulings>2016/01/22: Once you announce that you're casting <Devour in Flames>, it's too late for anyone to interrupt you by trying to remove the land you're returning.</Rulings>
+<Rulings>2016/01/22: Once you announce that you're casting Devour in Flames, it's too late for anyone to interrupt you by trying to remove the land you're returning.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2054,7 +2055,7 @@ Devour in Flames deals 5 damage to target creature or planeswalker.</CardText>
 <No>107</No>
 <Name>Embodiment of Fury</Name>
 <Type>Creature — Elemental 4/3</Type>
-<ManaCost>3R (4)</ManaCost>
+<ManaCost>{3}{R}</ManaCost>
 <CardText>Trample
 Land creatures you control have trample.
 Landfall — Whenever a land enters the battlefield under your control, you may have target land you control become a 3/3 Elemental creature with haste until end of turn. It's still a land.</CardText>
@@ -2074,7 +2075,7 @@ Landfall — Whenever a land enters the battlefield under your control, you may 
 <No>108</No>
 <Name>Expedite</Name>
 <Type>Instant</Type>
-<ManaCost>R (1)</ManaCost>
+<ManaCost>{R}</ManaCost>
 <CardText>Target creature gains haste until end of turn.
 Draw a card.</CardText>
 <Flavor>"I run, and thunder follows."</Flavor>
@@ -2092,13 +2093,13 @@ Draw a card.</CardText>
 <No>109</No>
 <Name>Fall of the Titans</Name>
 <Type>Instant</Type>
-<ManaCost>XXR (1)</ManaCost>
+<ManaCost>{X}{X}{R}</ManaCost>
 <CardText>Surge {X}{R} (You may cast this spell for its surge cost if you or a teammate has cast another spell this turn.)
 Fall of the Titans deals X damage to each of up to two targets.</CardText>
 <Flavor>As Gideon kept the brood lineages at bay, Chandra incinerated the bound Eldrazi titans.</Flavor>
 <Artist>Chris Rallis</Artist>
 <Multiverseid>407619</Multiverseid>
-<Rulings>2016/01/22: Fall of the Titan's converted mana cost is based on its mana cost of {X}{X}{R}, even if you're casting it for its surge cost. For example, if you cast <Fall of the Titans> for its surge cost and choose 4 for X, its converted mana cost will be 9.
+<Rulings>2016/01/22: Fall of the Titan's converted mana cost is based on its mana cost of {X}{X}{R}, even if you're casting it for its surge cost. For example, if you cast Fall of the Titans for its surge cost and choose 4 for X, its converted mana cost will be 9.
 2016/01/22: For some cards, surge represents only an alternative cost, a discount that applies if you or a teammate has cast another spell this turn. Other cards, like Reckless Bushwhacker, have additional abilities or effects if you paid the surge cost to cast the spell.
 2016/01/22: The other spell that you or a teammate cast can be one that's resolved, one that was countered, or (for instants with surge) one that's still on the stack.
 2016/01/22: If an instant or sorcery spell cast for its surge cost is copied, the copy is also considered to have had its surge cost paid.
@@ -2115,9 +2116,9 @@ Fall of the Titans deals X damage to each of up to two targets.</CardText>
 <No>110</No>
 <Name>Goblin Dark-Dwellers</Name>
 <Type>Creature — Goblin 4/4</Type>
-<ManaCost>3RR (5)</ManaCost>
+<ManaCost>{3}{R}{R}</ManaCost>
 <CardText>Menace
-When Goblin Dark-Dwellers enters the battlefield, you may cast target instant or sorcery card with converted mana cost 3 or less from your graveyard without paying its mana cost. If that card would be put into your graveyard this turn, exile it instead.</CardText>
+When Goblin Dark-Dwellers enters the battlefield, you may cast target instant or sorcery card with mana value 3 or less from your graveyard without paying its mana cost. If that spell would be put into your graveyard this turn, exile it instead.</CardText>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>407620</Multiverseid>
 <Rulings>2016/01/22: You cast the card during the resolution of the enters-the-battlefield ability, not later in the turn. If it's a sorcery card, ignore the timing restrictions based on it being a sorcery card. Other timing restrictions, such as "Cast [this card] only during combat," must be followed.
@@ -2138,7 +2139,7 @@ When Goblin Dark-Dwellers enters the battlefield, you may cast target instant or
 <No>111</No>
 <Name>Goblin Freerunner</Name>
 <Type>Creature — Goblin Warrior Ally 3/2</Type>
-<ManaCost>3R (4)</ManaCost>
+<ManaCost>{3}{R}</ManaCost>
 <CardText>Surge {1}{R} (You may cast this spell for its surge cost if you or a teammate has cast another spell this turn.)
 Menace (This creature can't be blocked except by two or more creatures.)</CardText>
 <Flavor>There are old goblins and ambitious goblins, but very few old, ambitious goblins.</Flavor>
@@ -2160,8 +2161,8 @@ Menace (This creature can't be blocked except by two or more creatures.)</CardTe
 <No>112</No>
 <Name>Kazuul's Toll Collector</Name>
 <Type>Creature — Ogre Warrior 3/2</Type>
-<ManaCost>2R (3)</ManaCost>
-<CardText>{0}: Attach target Equipment you control to Kazuul's Toll Collector. Activate this ability only any time you could cast a sorcery.</CardText>
+<ManaCost>{2}{R}</ManaCost>
+<CardText>{0}: Attach target Equipment you control to Kazuul's Toll Collector. Activate only as a sorcery.</CardText>
 <Flavor>Travelers are advised to bring extra swords, preferably shiny ones.</Flavor>
 <Artist>Greg Staples</Artist>
 <Multiverseid>407622</Multiverseid>
@@ -2177,16 +2178,16 @@ Menace (This creature can't be blocked except by two or more creatures.)</CardTe
 <No>113</No>
 <Name>Oath of Chandra</Name>
 <Type>Legendary Enchantment</Type>
-<ManaCost>1R (2)</ManaCost>
+<ManaCost>{1}{R}</ManaCost>
 <CardText>When Oath of Chandra enters the battlefield, it deals 3 damage to target creature an opponent controls.
 At the beginning of each end step, if a planeswalker entered the battlefield under your control this turn, Oath of Chandra deals 2 damage to each opponent.</CardText>
 <Flavor>"If it means that people can live in freedom, yeah, I'll keep watch."</Flavor>
 <Artist>Wesley Burt</Artist>
 <Multiverseid>407623</Multiverseid>
-<Rulings>2016/01/22: <Oath of Chandra>'s last ability will trigger even if the planeswalker that entered the battlefield under your control is no longer on the battlefield, no longer under your control, or no longer a planeswalker. This is also true if <Oath of Chandra> wasn't on the battlefield when the planeswalker entered.
+<Rulings>2016/01/22: Oath of Chandra's last ability will trigger even if the planeswalker that entered the battlefield under your control is no longer on the battlefield, no longer under your control, or no longer a planeswalker. This is also true if Oath of Chandra wasn't on the battlefield when the planeswalker entered.
 2016/01/22: The last ability triggers only once per turn, even if more than one planeswalker entered the battlefield under your control.
 2016/01/22: Each of the Oaths is legendary: if you control more than one of any particular Oath, you choose one to remain on the battlefield and the others are put into your graveyard.
-2016/01/22: The "legend rule" checks the full names of legendary permanents. You can control Oath of Gideon and <Oath of Chandra> at the same time, for example.
+2016/01/22: The "legend rule" checks the full names of legendary permanents. You can control Oath of Gideon and Oath of Chandra at the same time, for example.
 2016/01/22: Even if you control a particular Oath, you can cast another of that Oath to take advantage of its enters-the-battlefield ability. It will enter the battlefield, causing its first ability to trigger. You will then choose one to keep, as detailed above, and then its enters-the-battlefield ability will resolve.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2200,14 +2201,14 @@ At the beginning of each end step, if a planeswalker entered the battlefield und
 <No>114</No>
 <Name>Press into Service</Name>
 <Type>Sorcery</Type>
-<ManaCost>4R (5)</ManaCost>
+<ManaCost>{4}{R}</ManaCost>
 <CardText>Support 2. (Put a +1/+1 counter on each of up to two target creatures.)
 Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.</CardText>
 <Artist>Steve Prescott</Artist>
 <Multiverseid>407624</Multiverseid>
-<Rulings>2016/01/22: The last target of <Press into Service> can be any creature, even one that's untapped, one you already control, or one targeted by the support part of the spell.
+<Rulings>2016/01/22: The last target of Press into Service can be any creature, even one that's untapped, one you already control, or one targeted by the support part of the spell.
 2016/01/22: Gaining control of a creature doesn't cause you to gain control of any Auras or Equipment attached to it.
-2016/01/22: As <Press into Service> resolves, if at least one of its targets is still legal, it will resolve, affecting only targets that are still legal at that time. If none of its targets are still legal at that time, it won't resolve and none of its effects will happen.
+2016/01/22: As Press into Service resolves, if at least one of its targets is still legal, it will resolve, affecting only targets that are still legal at that time. If none of its targets are still legal at that time, it won't resolve and none of its effects will happen.
 2016/01/22: You can't put more than one +1/+1 counter on any one target using the support action.
 2016/01/22: Support can target a creature you don't control.
 2016/01/22: If a spell with support has other abilities that target creatures, those abilities and the support ability can target the same creature.</Rulings>
@@ -2223,7 +2224,7 @@ Gain control of target creature until end of turn. Untap that creature. It gains
 <No>115</No>
 <Name>Pyromancer's Assault</Name>
 <Type>Enchantment</Type>
-<ManaCost>3R (4)</ManaCost>
+<ManaCost>{3}{R}</ManaCost>
 <CardText>Whenever you cast your second spell each turn, Pyromancer's Assault deals 2 damage to any target.</CardText>
 <Flavor>Never ask a pyromancer if that's the best she's got.</Flavor>
 <Artist>Todd Lockwood</Artist>
@@ -2241,13 +2242,13 @@ Gain control of target creature until end of turn. Untap that creature. It gains
 <No>116</No>
 <Name>Reckless Bushwhacker</Name>
 <Type>Creature — Goblin Warrior Ally 2/1</Type>
-<ManaCost>2R (3)</ManaCost>
+<ManaCost>{2}{R}</ManaCost>
 <CardText>Surge {1}{R} (You may cast this spell for its surge cost if you or a teammate has cast another spell this turn.)
 Haste
 When Reckless Bushwhacker enters the battlefield, if its surge cost was paid, other creatures you control get +1/+0 and gain haste until end of turn.</CardText>
 <Artist>Kieran Yanner</Artist>
 <Multiverseid>407626</Multiverseid>
-<Rulings>2016/01/22: For some cards, surge represents only an alternative cost, a discount that applies if you or a teammate has cast another spell this turn. Other cards, like <Reckless Bushwhacker>, have additional abilities or effects if you paid the surge cost to cast the spell.
+<Rulings>2016/01/22: For some cards, surge represents only an alternative cost, a discount that applies if you or a teammate has cast another spell this turn. Other cards, like Reckless Bushwhacker, have additional abilities or effects if you paid the surge cost to cast the spell.
 2016/01/22: The other spell that you or a teammate cast can be one that's resolved, one that was countered, or (for instants with surge) one that's still on the stack.
 2016/01/22: If an instant or sorcery spell cast for its surge cost is copied, the copy is also considered to have had its surge cost paid.
 2016/01/22: Casting a spell for its surge cost doesn't change its mana cost or its converted mana cost.</Rulings>
@@ -2263,14 +2264,14 @@ When Reckless Bushwhacker enters the battlefield, if its surge cost was paid, ot
 <No>117</No>
 <Name>Sparkmage's Gambit</Name>
 <Type>Sorcery</Type>
-<ManaCost>1R (2)</ManaCost>
+<ManaCost>{1}{R}</ManaCost>
 <CardText>Sparkmage's Gambit deals 1 damage to each of up to two target creatures. Those creatures can't block this turn.</CardText>
 <Flavor>"A touch of lightning, and anyone can be taught to dance."
 —Tobin, sparkmage</Flavor>
 <Artist>Mathias Kollros</Artist>
 <Multiverseid>407627</Multiverseid>
-<Rulings>2016/01/22: If <Sparkmage's Gambit> has two targets, and one of them is illegal as <Sparkmage's Gambit> resolves, only the remaining legal target will be affected. The illegal target won't be dealt damage and will be able to block that turn. If both targets are illegal as <Sparkmage's Gambit> tries to resolve, it won't resolve and none of its effects will happen.
-2016/01/22: If <Sparkmage's Gambit> resolves, but the damage is prevented or redirected, the target creatures still won't be able to block that turn.</Rulings>
+<Rulings>2016/01/22: If Sparkmage's Gambit has two targets, and one of them is illegal as Sparkmage's Gambit resolves, only the remaining legal target will be affected. The illegal target won't be dealt damage and will be able to block that turn. If both targets are illegal as Sparkmage's Gambit tries to resolve, it won't resolve and none of its effects will happen.
+2016/01/22: If Sparkmage's Gambit resolves, but the damage is prevented or redirected, the target creatures still won't be able to block that turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2283,7 +2284,7 @@ When Reckless Bushwhacker enters the battlefield, if its surge cost was paid, ot
 <No>118</No>
 <Name>Tears of Valakut</Name>
 <Type>Instant</Type>
-<ManaCost>1R (2)</ManaCost>
+<ManaCost>{1}{R}</ManaCost>
 <CardText>This spell can't be countered.
 Tears of Valakut deals 5 damage to target creature with flying.</CardText>
 <Flavor>When Kozilek destroyed Sea Gate, distant Valakut could not contain its grief.</Flavor>
@@ -2301,7 +2302,7 @@ Tears of Valakut deals 5 damage to target creature with flying.</CardText>
 <No>119</No>
 <Name>Tyrant of Valakut</Name>
 <Type>Creature — Dragon 5/4</Type>
-<ManaCost>5RR (7)</ManaCost>
+<ManaCost>{5}{R}{R}</ManaCost>
 <CardText>Surge {3}{R}{R} (You may cast this spell for its surge cost if you or a teammate has cast another spell this turn.)
 Flying
 When Tyrant of Valakut enters the battlefield, if its surge cost was paid, it deals 3 damage to any target.</CardText>
@@ -2323,7 +2324,7 @@ When Tyrant of Valakut enters the battlefield, if its surge cost was paid, it de
 <No>120</No>
 <Name>Zada's Commando</Name>
 <Type>Creature — Goblin Archer Ally 2/1</Type>
-<ManaCost>1R (2)</ManaCost>
+<ManaCost>{1}{R}</ManaCost>
 <CardText>First strike
 Cohort — {T}, Tap an untapped Ally you control: Zada's Commando deals 1 damage to target opponent or planeswalker.</CardText>
 <Flavor>"There's a word for someone who brings too much gear to battle: 'survivor.'"
@@ -2343,7 +2344,7 @@ Cohort — {T}, Tap an untapped Ally you control: Zada's Commando deals 1 damage
 <No>121</No>
 <Name>Birthing Hulk</Name>
 <Type>Creature — Eldrazi Drone 5/4</Type>
-<ManaCost>6G (7)</ManaCost>
+<ManaCost>{6}{G}</ManaCost>
 <CardText>Devoid (This card has no color.)
 When Birthing Hulk enters the battlefield, create two 1/1 colorless Eldrazi Scion creature tokens. They have "Sacrifice this creature: Add {C}." ({C} represents colorless mana.)
 {1}{C}: Regenerate Birthing Hulk.</CardText>
@@ -2361,9 +2362,9 @@ When Birthing Hulk enters the battlefield, create two 1/1 colorless Eldrazi Scio
 <No>122</No>
 <Name>Ruin in Their Wake</Name>
 <Type>Sorcery</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>Devoid (This card has no color.)
-Search your library for a basic land card and reveal it. You may put that card onto the battlefield tapped if you control a land named Wastes. Otherwise, put that card into your hand. Then shuffle your library.</CardText>
+Search your library for a basic land card and reveal it. You may put that card onto the battlefield tapped if you control a land named Wastes. Otherwise, put that card into your hand. Then shuffle.</CardText>
 <Artist>Jason Felix</Artist>
 <Multiverseid>407632</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2378,7 +2379,7 @@ Search your library for a basic land card and reveal it. You may put that card o
 <No>123</No>
 <Name>Scion Summoner</Name>
 <Type>Creature — Eldrazi Drone 2/2</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>Devoid (This card has no color.)
 When Scion Summoner enters the battlefield, create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this creature: Add {C}." ({C} represents colorless mana.)</CardText>
 <Artist>Johann Bodin</Artist>
@@ -2395,9 +2396,9 @@ When Scion Summoner enters the battlefield, create a 1/1 colorless Eldrazi Scion
 <No>124</No>
 <Name>Stalking Drone</Name>
 <Type>Creature — Eldrazi Drone 2/2</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>Devoid (This card has no color.)
-{C}: Stalking Drone gets +1/+2 until end of turn. Activate this ability only once each turn. ({C} represents colorless mana.)</CardText>
+{C}: Stalking Drone gets +1/+2 until end of turn. Activate only once each turn. ({C} represents colorless mana.)</CardText>
 <Flavor>As the Eldrazi adapted to the jungles of Zendikar, some took on the tactics of more familiar predators.</Flavor>
 <Artist>Slawomir Maniak</Artist>
 <Multiverseid>407634</Multiverseid>
@@ -2413,14 +2414,14 @@ When Scion Summoner enters the battlefield, create a 1/1 colorless Eldrazi Scion
 <No>125</No>
 <Name>Vile Redeemer</Name>
 <Type>Creature — Eldrazi 3/3</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>Devoid (This card has no color.)
 Flash
 When you cast this spell, you may pay {C}. If you do, create a 1/1 colorless Eldrazi Scion creature token for each nontoken creature that died under your control this turn. Those tokens have "Sacrifice this creature: Add {C}."</CardText>
 <Artist>Jason Rainville</Artist>
 <Multiverseid>407635</Multiverseid>
-<Rulings>2016/01/22: <Vile Redeemer>'s last ability will count any nontoken creature that died while under your control, even if you weren't the creature's owner. It doesn't matter where the card is as the ability resolves. It doesn't have to still be in a graveyard.
-2016/01/22: <Vile Redeemer>'s last ability won't count nontoken creatures that didn't go to a graveyard because of a replacement effect (for example, a creature that was exiled or went to the command zone instead).</Rulings>
+<Rulings>2016/01/22: Vile Redeemer's last ability will count any nontoken creature that died while under your control, even if you weren't the creature's owner. It doesn't matter where the card is as the ability resolves. It doesn't have to still be in a graveyard.
+2016/01/22: Vile Redeemer's last ability won't count nontoken creatures that didn't go to a graveyard because of a replacement effect (for example, a creature that was exiled or went to the command zone instead).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2433,14 +2434,14 @@ When you cast this spell, you may pay {C}. If you do, create a 1/1 colorless Eld
 <No>126</No>
 <Name>World Breaker</Name>
 <Type>Creature — Eldrazi 5/7</Type>
-<ManaCost>6G (7)</ManaCost>
+<ManaCost>{6}{G}</ManaCost>
 <CardText>Devoid (This card has no color.)
 When you cast this spell, exile target artifact, enchantment, or land.
 Reach
 {2}{C}, Sacrifice a land: Return World Breaker from your graveyard to your hand. ({C} represents colorless mana.)</CardText>
 <Artist>Jaime Jones</Artist>
 <Multiverseid>407636</Multiverseid>
-<Rulings>2016/01/22: You can activate the last ability only if <World Breaker> is in your graveyard.</Rulings>
+<Rulings>2016/01/22: You can activate the last ability only if World Breaker is in your graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2453,7 +2454,7 @@ Reach
 <No>127</No>
 <Name>Baloth Pup</Name>
 <Type>Creature — Beast 3/1</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>Baloth Pup has trample as long as it has a +1/+1 counter on it.</CardText>
 <Flavor>A young baloth channels its energy into playful destructiveness. Over time, it becomes less playful but no less destructive.</Flavor>
 <Artist>Steve Prescott</Artist>
@@ -2470,7 +2471,7 @@ Reach
 <No>128</No>
 <Name>Bonds of Mortality</Name>
 <Type>Enchantment</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>When Bonds of Mortality enters the battlefield, draw a card.
 {G}: Creatures your opponents control lose hexproof and indestructible until end of turn.</CardText>
 <Flavor>Jace discovered the leyline pattern needed to anchor Ulamog and Kozilek to reality, but it was Nissa who could trace it on her world.</Flavor>
@@ -2490,7 +2491,7 @@ Reach
 <No>129</No>
 <Name>Canopy Gorger</Name>
 <Type>Creature — Wurm 6/5</Type>
-<ManaCost>4GG (6)</ManaCost>
+<ManaCost>{4}{G}{G}</ManaCost>
 <Flavor>The settlement's defenders were glad to have such a massive, ferocious creature join the fight—but less glad to see it flatten their homes along the way.</Flavor>
 <Artist>Lake Hurwitz</Artist>
 <Multiverseid>407639</Multiverseid>
@@ -2506,7 +2507,7 @@ Reach
 <No>130</No>
 <Name>Elemental Uprising</Name>
 <Type>Instant</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>Target land you control becomes a 4/4 Elemental creature with haste until end of turn. It's still a land. It must be blocked this turn if able.</CardText>
 <Flavor>"My heart and Zendikar's beat as one. Together we will endure."
 —Nissa Revane</Flavor>
@@ -2526,7 +2527,7 @@ Reach
 <No>131</No>
 <Name>Embodiment of Insight</Name>
 <Type>Creature — Elemental 4/4</Type>
-<ManaCost>4G (5)</ManaCost>
+<ManaCost>{4}{G}</ManaCost>
 <CardText>Vigilance
 Land creatures you control have vigilance.
 Landfall — Whenever a land enters the battlefield under your control, you may have target land you control become a 3/3 Elemental creature with haste until end of turn. It's still a land.</CardText>
@@ -2546,13 +2547,13 @@ Landfall — Whenever a land enters the battlefield under your control, you may 
 <No>132</No>
 <Name>Gladehart Cavalry</Name>
 <Type>Creature — Elf Knight 6/6</Type>
-<ManaCost>5GG (7)</ManaCost>
+<ManaCost>{5}{G}{G}</ManaCost>
 <CardText>When Gladehart Cavalry enters the battlefield, support 6. (Put a +1/+1 counter on each of up to six other target creatures.)
 Whenever a creature you control with a +1/+1 counter on it dies, you gain 2 life.</CardText>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>407642</Multiverseid>
-<Rulings>2016/01/22: If <Gladehart Cavalry> dies at the same time as a creature you control with a +1/+1 counter on it, its ability will trigger.
-2016/01/22: If <Gladehart Cavalry> somehow gets a +1/+1 counter, it dying will cause its own ability to trigger.
+<Rulings>2016/01/22: If Gladehart Cavalry dies at the same time as a creature you control with a +1/+1 counter on it, its ability will trigger.
+2016/01/22: If Gladehart Cavalry somehow gets a +1/+1 counter, it dying will cause its own ability to trigger.
 2016/01/22: You gain 2 life per creature, not per +1/+1 counter.
 2016/01/22: You can't put more than one +1/+1 counter on any one target using the support action.
 2016/01/22: Support can target a creature you don't control.
@@ -2569,12 +2570,12 @@ Whenever a creature you control with a +1/+1 counter on it dies, you gain 2 life
 <No>133</No>
 <Name>Harvester Troll</Name>
 <Type>Creature — Troll 2/3</Type>
-<ManaCost>3G (4)</ManaCost>
+<ManaCost>{3}{G}</ManaCost>
 <CardText>When Harvester Troll enters the battlefield, you may sacrifice a creature or land. If you do, put two +1/+1 counters on Harvester Troll.</CardText>
 <Flavor>Having no interest in the greater conflict, the trolls continue to prey upon whatever wanders into their domain.</Flavor>
 <Artist>Greg Staples</Artist>
 <Multiverseid>407643</Multiverseid>
-<Rulings>2016/01/22: Players can respond to the enters-the-battlefield ability (notably, while <Harvester Troll> is still 2/3), but once that ability starts resolving, it's too late for any player to respond. You don't choose which creature or land you're sacrificing, if any, until the ability resolves.</Rulings>
+<Rulings>2016/01/22: Players can respond to the enters-the-battlefield ability (notably, while Harvester Troll is still 2/3), but once that ability starts resolving, it's too late for any player to respond. You don't choose which creature or land you're sacrificing, if any, until the ability resolves.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2587,7 +2588,7 @@ Whenever a creature you control with a +1/+1 counter on it dies, you gain 2 life
 <No>134</No>
 <Name>Lead by Example</Name>
 <Type>Instant</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>Support 2. (Put a +1/+1 counter on each of up to two target creatures.)</CardText>
 <Flavor>Gideon and Nissa carved a path through the Eldrazi swarm, and their Zendikari allies charged into the fray behind them.</Flavor>
 <Artist>Johannes Voss</Artist>
@@ -2607,8 +2608,8 @@ Whenever a creature you control with a +1/+1 counter on it dies, you gain 2 life
 <No>135</No>
 <Name>Loam Larva</Name>
 <Type>Creature — Insect 1/3</Type>
-<ManaCost>1G (2)</ManaCost>
-<CardText>When Loam Larva enters the battlefield, you may search your library for a basic land card, reveal it, then shuffle your library and put that card on top of it.</CardText>
+<ManaCost>{1}{G}</ManaCost>
+<CardText>When Loam Larva enters the battlefield, you may search your library for a basic land card, reveal it, then shuffle and put that card on top.</CardText>
 <Flavor>The forest floor of Murasa is home to life as diverse and vibrant as that of the canopy above.</Flavor>
 <Artist>Jason Kang</Artist>
 <Multiverseid>407645</Multiverseid>
@@ -2624,8 +2625,8 @@ Whenever a creature you control with a +1/+1 counter on it dies, you gain 2 life
 <No>136</No>
 <Name>Natural State</Name>
 <Type>Instant</Type>
-<ManaCost>G (1)</ManaCost>
-<CardText>Destroy target artifact or enchantment with converted mana cost 3 or less.</CardText>
+<ManaCost>{G}</ManaCost>
+<CardText>Destroy target artifact or enchantment with mana value 3 or less.</CardText>
 <Flavor>"Killing the Eldrazi is not enough. We must erase all memory of them from this world."
 —Greenweaver Mina</Flavor>
 <Artist>Volkan Baǵa</Artist>
@@ -2643,7 +2644,7 @@ Whenever a creature you control with a +1/+1 counter on it dies, you gain 2 life
 <No>137</No>
 <Name>Netcaster Spider</Name>
 <Type>Creature — Spider 2/3</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>Reach (This creature can block creatures with flying.)
 Whenever Netcaster Spider blocks a creature with flying, Netcaster Spider gets +2/+0 until end of turn.</CardText>
 <Flavor>In the jungles of Tazeem, aerial assault is not always advantageous.</Flavor>
@@ -2661,10 +2662,10 @@ Whenever Netcaster Spider blocks a creature with flying, Netcaster Spider gets +
 <No>138</No>
 <Name>Nissa, Voice of Zendikar</Name>
 <Type>Legendary Planeswalker — Nissa (Loyalty: 3)</Type>
-<ManaCost>1GG (3)</ManaCost>
-<CardText>+1: Create a 0/1 green Plant creature token.
--2: Put a +1/+1 counter on each creature you control.
--7: You gain X life and draw X cards, where X is the number of lands you control.</CardText>
+<ManaCost>{1}{G}{G}</ManaCost>
+<CardText>[+1]: Create a 0/1 green Plant creature token.
+[-2]: Put a +1/+1 counter on each creature you control.
+[-7]: You gain X life and draw X cards, where X is the number of lands you control.</CardText>
 <Artist>Raymond Swanland</Artist>
 <Multiverseid>407648</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2679,13 +2680,13 @@ Whenever Netcaster Spider blocks a creature with flying, Netcaster Spider gets +
 <No>139</No>
 <Name>Nissa's Judgment</Name>
 <Type>Sorcery</Type>
-<ManaCost>4G (5)</ManaCost>
+<ManaCost>{4}{G}</ManaCost>
 <CardText>Support 2. (Put a +1/+1 counter on each of up to two target creatures.)
 Choose up to one target creature an opponent controls. Each creature you control with a +1/+1 counter on it deals damage equal to its power to that creature.</CardText>
 <Artist>Tyler Jacobson</Artist>
 <Multiverseid>407649</Multiverseid>
 <Rulings>2016/01/22: You finish the support action before any creatures deal damage. Creatures that get a +1/+1 counter will deal damage to the creature an opponent controls, if applicable.
-2016/01/22: As <Nissa's Judgment> resolves, if at least one of its targets is still legal, it will resolve, affecting only targets that are still legal at that time. If none of its targets are still legal at that time, it won't resolve and none of its effects will happen.
+2016/01/22: As Nissa's Judgment resolves, if at least one of its targets is still legal, it will resolve, affecting only targets that are still legal at that time. If none of its targets are still legal at that time, it won't resolve and none of its effects will happen.
 2016/01/22: You can't put more than one +1/+1 counter on any one target using the support action.
 2016/01/22: Support can target a creature you don't control.
 2016/01/22: If a spell with support has other abilities that target creatures, those abilities and the support ability can target the same creature.</Rulings>
@@ -2701,15 +2702,15 @@ Choose up to one target creature an opponent controls. Each creature you control
 <No>140</No>
 <Name>Oath of Nissa</Name>
 <Type>Legendary Enchantment</Type>
-<ManaCost>G (1)</ManaCost>
+<ManaCost>{G}</ManaCost>
 <CardText>When Oath of Nissa enters the battlefield, look at the top three cards of your library. You may reveal a creature, land, or planeswalker card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
 You may spend mana as though it were mana of any color to cast planeswalker spells.</CardText>
 <Flavor>"For the life of every plane, I will keep watch."</Flavor>
 <Artist>Wesley Burt</Artist>
 <Multiverseid>407650</Multiverseid>
-<Rulings>2016/01/22: Each of the Oaths is legendary: if you control more than one of any particular Oath, you choose one to remain on the battlefield and the others are put into your graveyard.
-2016/01/22: The "legend rule" checks the full names of legendary permanents. You can control Oath of Gideon and Oath of Chandra at the same time, for example.
-2016/01/22: Even if you control a particular Oath, you can cast another of that Oath to take advantage of its enters-the-battlefield ability. It will enter the battlefield, causing its first ability to trigger. You will then choose one to keep, as detailed above, and then its enters-the-battlefield ability will resolve.</Rulings>
+<Rulings>2016/01/22: The "legend rule" checks the full names of legendary permanents. You can control Oath of Gideon and Oath of Chandra at the same time, for example.
+2016/01/22: Even if you control a particular Oath, you can cast another of that Oath to take advantage of its enters-the-battlefield ability. It will enter the battlefield, causing its first ability to trigger. You will then choose one to keep, as detailed above, and then its enters-the-battlefield ability will resolve.
+2016/01/22: Each of the Oaths is legendary: if you control more than one of any particular Oath, you choose one to remain on the battlefield and the others are put into your graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2722,12 +2723,12 @@ You may spend mana as though it were mana of any color to cast planeswalker spel
 <No>141</No>
 <Name>Pulse of Murasa</Name>
 <Type>Instant</Type>
-<ManaCost>2G (3)</ManaCost>
+<ManaCost>{2}{G}</ManaCost>
 <CardText>Return target creature or land card from a graveyard to its owner's hand. You gain 6 life.</CardText>
 <Flavor>"Little flower twirl and bloom, arise from this your rocky tomb. Little warrior slash and brawl, be born again to free us all."</Flavor>
 <Artist>Matt Stewart</Artist>
 <Multiverseid>407651</Multiverseid>
-<Rulings>2019/07/12: If the target card is an illegal target by the time <Pulse of Murasa> tries to resolve, the spell doesn't resolve. You won't gain 6 life.</Rulings>
+<Rulings>2019/07/12: If the target card is an illegal target by the time Pulse of Murasa tries to resolve, the spell doesn't resolve. You won't gain 6 life.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2740,7 +2741,7 @@ You may spend mana as though it were mana of any color to cast planeswalker spel
 <No>142</No>
 <Name>Saddleback Lagac</Name>
 <Type>Creature — Lizard 3/1</Type>
-<ManaCost>3G (4)</ManaCost>
+<ManaCost>{3}{G}</ManaCost>
 <CardText>When Saddleback Lagac enters the battlefield, support 2. (Put a +1/+1 counter on each of up to two other target creatures.)</CardText>
 <Flavor>"A good lagac will carry you through thick and thin. A bad one . . . well, it's a tasty dinner."
 —Raff Slugeater, goblin shortcutter</Flavor>
@@ -2761,13 +2762,13 @@ You may spend mana as though it were mana of any color to cast planeswalker spel
 <No>143</No>
 <Name>Seed Guardian</Name>
 <Type>Creature — Elemental 3/4</Type>
-<ManaCost>2GG (4)</ManaCost>
+<ManaCost>{2}{G}{G}</ManaCost>
 <CardText>Reach
 When Seed Guardian dies, create an X/X green Elemental creature token, where X is the number of creature cards in your graveyard.</CardText>
 <Flavor>It is a reminder that spring will always follow winter.</Flavor>
 <Artist>Vincent Proce</Artist>
 <Multiverseid>407653</Multiverseid>
-<Rulings>2016/01/22: Use the number of creature cards in your graveyard as the ability resolves to determine the value of X. <Seed Guardian> will count toward this number as long as it's still in your graveyard at that time.
+<Rulings>2016/01/22: Use the number of creature cards in your graveyard as the ability resolves to determine the value of X. Seed Guardian will count toward this number as long as it's still in your graveyard at that time.
 2016/01/22: Once the Elemental is created, the number of creature cards in your graveyard changing won't cause the Elemental's power or toughness to change.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2781,14 +2782,14 @@ When Seed Guardian dies, create an X/X green Elemental creature token, where X i
 <No>144</No>
 <Name>Sylvan Advocate</Name>
 <Type>Creature — Elf Druid Ally 2/3</Type>
-<ManaCost>1G (2)</ManaCost>
+<ManaCost>{1}{G}</ManaCost>
 <CardText>Vigilance
 As long as you control six or more lands, Sylvan Advocate and land creatures you control get +2/+2.</CardText>
 <Flavor>"The land gives of itself. Its abundance provides, even in times of chaos."</Flavor>
 <Artist>Volkan Baǵa</Artist>
 <Multiverseid>407654</Multiverseid>
 <Rulings>2016/01/22: A "land creature" is a permanent that's both a land and a creature.
-2016/01/22: Damage remains marked on creatures until the turn ends. If <Sylvan Advocate>'s ability stops applying (because <Sylvan Advocate> leaves the battlefield or you no longer control six or more lands), then any land creatures that needed the toughness bonus to stay alive will be destroyed.</Rulings>
+2016/01/22: Damage remains marked on creatures until the turn ends. If Sylvan Advocate's ability stops applying (because Sylvan Advocate leaves the battlefield or you no longer control six or more lands), then any land creatures that needed the toughness bonus to stay alive will be destroyed.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2801,7 +2802,7 @@ As long as you control six or more lands, Sylvan Advocate and land creatures you
 <No>145</No>
 <Name>Tajuru Pathwarden</Name>
 <Type>Creature — Elf Warrior Ally 5/4</Type>
-<ManaCost>4G (5)</ManaCost>
+<ManaCost>{4}{G}</ManaCost>
 <CardText>Vigilance, trample</CardText>
 <Flavor>"My people blazed these pathways long ago, before the Eldrazi came. We will ride them long after the Eldrazi are gone."</Flavor>
 <Artist>Victor Adame Minguez</Artist>
@@ -2818,12 +2819,12 @@ As long as you control six or more lands, Sylvan Advocate and land creatures you
 <No>146</No>
 <Name>Vines of the Recluse</Name>
 <Type>Instant</Type>
-<ManaCost>G (1)</ManaCost>
+<ManaCost>{G}</ManaCost>
 <CardText>Target creature gets +1/+2 and gains reach until end of turn. Untap it. (A creature with reach can block creatures with flying.)</CardText>
 <Flavor>"The most elegant solutions are found in nature. You just have to know where to look."</Flavor>
 <Artist>Dan Scott</Artist>
 <Multiverseid>407656</Multiverseid>
-<Rulings>2016/01/22: You can target an untapped creature with <Vines of the Recluse>. It will still get the other bonuses.</Rulings>
+<Rulings>2016/01/22: You can target an untapped creature with Vines of the Recluse. It will still get the other bonuses.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2836,12 +2837,12 @@ As long as you control six or more lands, Sylvan Advocate and land creatures you
 <No>147</No>
 <Name>Zendikar Resurgent</Name>
 <Type>Enchantment</Type>
-<ManaCost>5GG (7)</ManaCost>
+<ManaCost>{5}{G}{G}</ManaCost>
 <CardText>Whenever you tap a land for mana, add one mana of any type that land produced. (The types of mana are white, blue, black, red, green, and colorless.)
 Whenever you cast a creature spell, draw a card.</CardText>
 <Artist>Chris Rallis</Artist>
 <Multiverseid>407657</Multiverseid>
-<Rulings>2016/01/22: If the land's mana ability produces more than one type of mana, choose one of those types to determine what mana <Zendikar Resurgent> produces.
+<Rulings>2016/01/22: If the land's mana ability produces more than one type of mana, choose one of those types to determine what mana Zendikar Resurgent produces.
 2016/01/22: The last ability will resolve before the creature spell that caused it to trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2855,7 +2856,7 @@ Whenever you cast a creature spell, draw a card.</CardText>
 <No>148</No>
 <Name>Flayer Drone</Name>
 <Type>Creature — Eldrazi Drone 3/1</Type>
-<ManaCost>1BR (3)</ManaCost>
+<ManaCost>{1}{B}{R}</ManaCost>
 <CardText>Devoid (This card has no color.)
 First strike
 Whenever another colorless creature enters the battlefield under your control, target opponent loses 1 life.</CardText>
@@ -2873,10 +2874,10 @@ Whenever another colorless creature enters the battlefield under your control, t
 <No>149</No>
 <Name>Mindmelter</Name>
 <Type>Creature — Eldrazi Drone 2/2</Type>
-<ManaCost>1UB (3)</ManaCost>
+<ManaCost>{1}{U}{B}</ManaCost>
 <CardText>Devoid (This card has no color.)
 Mindmelter can't be blocked.
-{3}{C}: Target opponent exiles a card from their hand. Activate this ability only any time you could cast a sorcery. ({C} represents colorless mana.)</CardText>
+{3}{C}: Target opponent exiles a card from their hand. Activate only as a sorcery. ({C} represents colorless mana.)</CardText>
 <Artist>Jason Felix</Artist>
 <Multiverseid>407659</Multiverseid>
 <Vintage>Legal</Vintage>
@@ -2891,7 +2892,7 @@ Mindmelter can't be blocked.
 <No>150</No>
 <Name>Void Grafter</Name>
 <Type>Creature — Eldrazi Drone 2/4</Type>
-<ManaCost>1GU (3)</ManaCost>
+<ManaCost>{1}{G}{U}</ManaCost>
 <CardText>Devoid (This card has no color.)
 Flash (You may cast this spell any time you could cast an instant.)
 When Void Grafter enters the battlefield, another target creature you control gains hexproof until end of turn.</CardText>
@@ -2909,10 +2910,10 @@ When Void Grafter enters the battlefield, another target creature you control ga
 <No>151</No>
 <Name>Ayli, Eternal Pilgrim</Name>
 <Type>Legendary Creature — Kor Cleric 2/3</Type>
-<ManaCost>WB (2)</ManaCost>
+<ManaCost>{W}{B}</ManaCost>
 <CardText>Deathtouch
 {1}, Sacrifice another creature: You gain life equal to the sacrificed creature's toughness.
-{1}{W}{B}, Sacrifice another creature: Exile target nonland permanent. Activate this ability only if you have at least 10 life more than your starting life total.</CardText>
+{1}{W}{B}, Sacrifice another creature: Exile target nonland permanent. Activate only if you have at least 10 life more than your starting life total.</CardText>
 <Artist>Cynthia Sheppard</Artist>
 <Multiverseid>407661</Multiverseid>
 <Rulings>2016/01/22: Once you've announced either activated ability, it's too late for anyone to interrupt you by trying to remove the creature you sacrifice.
@@ -2930,7 +2931,7 @@ When Void Grafter enters the battlefield, another target creature you control ga
 <No>152</No>
 <Name>Baloth Null</Name>
 <Type>Creature — Zombie Beast 4/5</Type>
-<ManaCost>4BG (6)</ManaCost>
+<ManaCost>{4}{B}{G}</ManaCost>
 <CardText>When Baloth Null enters the battlefield, return up to two target creature cards from your graveyard to your hand.</CardText>
 <Flavor>"Humans use pigs to hunt for mushrooms, don't they? It's like that."
 —Harak, Malakir bloodwitch</Flavor>
@@ -2948,14 +2949,14 @@ When Void Grafter enters the battlefield, another target creature you control ga
 <No>153</No>
 <Name>Cliffhaven Vampire</Name>
 <Type>Creature — Vampire Warrior Ally 2/4</Type>
-<ManaCost>2WB (4)</ManaCost>
+<ManaCost>{2}{W}{B}</ManaCost>
 <CardText>Flying
 Whenever you gain life, each opponent loses 1 life.</CardText>
 <Flavor>"My people are no longer slaves to the Eldrazi, beholden to the past. We will determine our own future."</Flavor>
 <Artist>David Gaillet</Artist>
 <Multiverseid>407663</Multiverseid>
 <Rulings>2016/01/22: The ability triggers just once for each life-gaining event, no matter how much life is gained.
-2016/01/22: A creature with lifelink dealing combat damage causes a single life-gaining event. For example, if a single creature with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), <Cliffhaven Vampire>'s triggered ability will trigger only once. However, if two creatures you control with lifelink deal combat damage at the same time, the ability will trigger twice.
+2016/01/22: A creature with lifelink dealing combat damage causes a single life-gaining event. For example, if a single creature with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), Cliffhaven Vampire's triggered ability will trigger only once. However, if two creatures you control with lifelink deal combat damage at the same time, the ability will trigger twice.
 2016/01/22: In a Two-Headed Giant game, life gained by your teammate won't cause the ability to trigger, even though it causes your team's life total to increase.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2969,7 +2970,7 @@ Whenever you gain life, each opponent loses 1 life.</CardText>
 <No>154</No>
 <Name>Joraga Auxiliary</Name>
 <Type>Creature — Elf Soldier Ally 2/3</Type>
-<ManaCost>1GW (3)</ManaCost>
+<ManaCost>{1}{G}{W}</ManaCost>
 <CardText>{4}{G}{W}: Support 2. (Put a +1/+1 counter on each of up to two other target creatures.)</CardText>
 <Flavor>"Before the battle, I heard them take an oath near the ruins of Sea Gate. I hope they inspire others to keep watch."</Flavor>
 <Artist>David Gaillet</Artist>
@@ -2989,7 +2990,7 @@ Whenever you gain life, each opponent loses 1 life.</CardText>
 <No>155</No>
 <Name>Jori En, Ruin Diver</Name>
 <Type>Legendary Creature — Merfolk Wizard 2/3</Type>
-<ManaCost>1UR (3)</ManaCost>
+<ManaCost>{1}{U}{R}</ManaCost>
 <CardText>Whenever you cast your second spell each turn, draw a card.</CardText>
 <Flavor>"Some relic hunters have given up exploring and gone to fight the Eldrazi. But I know our work is more important than ever. The secrets we uncover could lead to the world's salvation."</Flavor>
 <Artist>Igor Kieryluk</Artist>
@@ -3008,7 +3009,7 @@ Whenever you gain life, each opponent loses 1 life.</CardText>
 <No>156</No>
 <Name>Mina and Denn, Wildborn</Name>
 <Type>Legendary Creature — Elf Ally 4/4</Type>
-<ManaCost>2RG (4)</ManaCost>
+<ManaCost>{2}{R}{G}</ManaCost>
 <CardText>You may play an additional land on each of your turns.
 {R}{G}, Return a land you control to its owner's hand: Target creature gains trample until end of turn.</CardText>
 <Flavor>Greenweaver Mina and her twin brother Denn lead the last of the Mul Daya into an uncertain future.</Flavor>
@@ -3027,11 +3028,11 @@ Whenever you gain life, each opponent loses 1 life.</CardText>
 <No>157</No>
 <Name>Reflector Mage</Name>
 <Type>Creature — Human Wizard 2/3</Type>
-<ManaCost>1WU (3)</ManaCost>
+<ManaCost>{1}{W}{U}</ManaCost>
 <CardText>When Reflector Mage enters the battlefield, return target creature an opponent controls to its owner's hand. That creature's owner can't cast spells with the same name as that creature until your next turn.</CardText>
 <Artist>Willian Murai</Artist>
 <Multiverseid>407667</Multiverseid>
-<Rulings>2016/01/22: <Reflector Mage>'s ability doesn't stop any player from playing lands (in the case that the returned creature was also a land).
+<Rulings>2016/01/22: Reflector Mage's ability doesn't stop any player from playing lands (in the case that the returned creature was also a land).
 2016/01/22: In several cases, the name of the creature that was returned won't match the name of that card once it's back in its owner's hand. For example, if the card was copying another creature, it will probably have a different name in its owner's hand and can be cast again before your next turn. The same is true if a double-faced card with its back face up is returned to its owner's hand this way.
 2016/01/22: If the returned creature had no name while it was on the battlefield (likely because the creature was face down), its owner can still cast face-down creature spells with morph or megamorph, or cast the same card face up, before your next turn.</Rulings>
 <Vintage>Legal</Vintage>
@@ -3046,7 +3047,7 @@ Whenever you gain life, each opponent loses 1 life.</CardText>
 <No>158</No>
 <Name>Relentless Hunter</Name>
 <Type>Creature — Human Warrior 3/3</Type>
-<ManaCost>1RG (3)</ManaCost>
+<ManaCost>{1}{R}{G}</ManaCost>
 <CardText>{1}{R}{G}: Relentless Hunter gets +1/+1 and gains trample until end of turn.</CardText>
 <Flavor>"I swore to take one head for each member of my family they killed. My task is nowhere near its end."</Flavor>
 <Artist>Matt Stewart</Artist>
@@ -3063,7 +3064,7 @@ Whenever you gain life, each opponent loses 1 life.</CardText>
 <No>159</No>
 <Name>Stormchaser Mage</Name>
 <Type>Creature — Human Wizard 1/3</Type>
-<ManaCost>UR (2)</ManaCost>
+<ManaCost>{U}{R}</ManaCost>
 <CardText>Flying, haste
 Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)</CardText>
 <Flavor>Roilmages' tactics are as chaotic as the energies they channel.</Flavor>
@@ -3081,7 +3082,7 @@ Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until e
 <No>160</No>
 <Name>Weapons Trainer</Name>
 <Type>Creature — Human Soldier Ally 3/2</Type>
-<ManaCost>RW (2)</ManaCost>
+<ManaCost>{R}{W}</ManaCost>
 <CardText>Other creatures you control get +1/+0 as long as you control an Equipment.</CardText>
 <Flavor>"When I'm done training you, anything will be a deadly weapon."</Flavor>
 <Artist>Greg Opalinski</Artist>
@@ -3099,7 +3100,7 @@ Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until e
 <No>161</No>
 <Name>Bone Saw</Name>
 <Type>Artifact — Equipment</Type>
-<ManaCost>0 (0)</ManaCost>
+<ManaCost>{0}</ManaCost>
 <CardText>Equipped creature gets +1/+0.
 Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)</CardText>
 <Flavor>Once a simple tool, it—like everything else on Zendikar—has been turned into a weapon against the Eldrazi.</Flavor>
@@ -3117,7 +3118,7 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 <No>162</No>
 <Name>Captain's Claws</Name>
 <Type>Artifact — Equipment</Type>
-<ManaCost>2 (2)</ManaCost>
+<ManaCost>{2}</ManaCost>
 <CardText>Equipped creature gets +1/+0.
 Whenever equipped creature attacks, create a 1/1 white Kor Ally creature token that's tapped and attacking.
 Equip {1}</CardText>
@@ -3138,7 +3139,7 @@ Equip {1}</CardText>
 <No>163</No>
 <Name>Chitinous Cloak</Name>
 <Type>Artifact — Equipment</Type>
-<ManaCost>3 (3)</ManaCost>
+<ManaCost>{3}</ManaCost>
 <CardText>Equipped creature gets +2/+2 and has menace. (It can't be blocked except by two or more creatures.)
 Equip {3}</CardText>
 <Flavor>"If we're going to survive, we have to use every tool at our disposal. Especially the disgusting ones."
@@ -3157,7 +3158,7 @@ Equip {3}</CardText>
 <No>164</No>
 <Name>Hedron Crawler</Name>
 <Type>Artifact Creature — Construct 0/1</Type>
-<ManaCost>2 (2)</ManaCost>
+<ManaCost>{2}</ManaCost>
 <CardText>{T}: Add {C}. ({C} represents colorless mana.)</CardText>
 <Flavor>"It's endearing, in a mystical, pointy sort of way."
 —General Tazri, allied commander</Flavor>
@@ -3175,8 +3176,8 @@ Equip {3}</CardText>
 <No>165</No>
 <Name>Seer's Lantern</Name>
 <Type>Artifact</Type>
-<ManaCost>3 (3)</ManaCost>
-<CardText>{T}: Add {C}. ({C} represents colorless mana.)
+<ManaCost>{3}</ManaCost>
+<CardText>{T}: Add {C}.
 {2}, {T}: Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)</CardText>
 <Flavor>A light to bring hope in dark times.</Flavor>
 <Artist>Jung Park</Artist>
@@ -3193,7 +3194,7 @@ Equip {3}</CardText>
 <No>166</No>
 <Name>Stoneforge Masterwork</Name>
 <Type>Artifact — Equipment</Type>
-<ManaCost>1 (1)</ManaCost>
+<ManaCost>{1}</ManaCost>
 <CardText>Equipped creature gets +1/+1 for each other creature you control that shares a creature type with it.
 Equip {2}</CardText>
 <Flavor>The nomadic kor carry only necessities on their long treks. The coming of the Eldrazi redefined "necessities."</Flavor>
@@ -3213,14 +3214,14 @@ Equip {2}</CardText>
 <No>167</No>
 <Name>Strider Harness</Name>
 <Type>Artifact — Equipment</Type>
-<ManaCost>3 (3)</ManaCost>
+<ManaCost>{3}</ManaCost>
 <CardText>Equipped creature gets +1/+1 and has haste.
 Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)</CardText>
 <Flavor>"Sometimes being fast is as important as being smart."
 —Ryza, Oran-Rief scout</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>407677</Multiverseid>
-<Rulings>2018/01/19: If a creature enters the battlefield under your control and gains haste, but then loses it before attacking, it won't be able to attack that turn. This means that you can't use one <Strider Harness> to allow two new creatures to attack in the same turn.</Rulings>
+<Rulings>2018/01/19: If a creature enters the battlefield under your control and gains haste, but then loses it before attacking, it won't be able to attack that turn. This means that you can't use one Strider Harness to allow two new creatures to attack in the same turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3294,7 +3295,7 @@ When Crumbling Vestige enters the battlefield, add one mana of any color.
 <Rulings>2016/01/22: A land that becomes a creature may be affected by "summoning sickness." You can't attack with it or use any of its {T} abilities (including its mana abilities) unless it began your most recent turn on the battlefield under your control. Note that summoning sickness cares about when that permanent came under your control, not when it became a creature nor when it entered the battlefield.
 2016/01/22: This land is colorless until the last ability gives it colors.
 2016/01/22: When a land becomes a creature, that doesn't count as having a creature enter the battlefield. The permanent was already on the battlefield; it only changed its types. Abilities that trigger whenever a creature enters the battlefield won't trigger.
-2016/01/22: An ability that turns a land into a creature also sets that creature's power and toughness. If the land was already a creature (for example, if it was the target of a spell with awaken), this will overwrite the previous effect that set its power and toughness. Effects that modify its power or toughness will continue to apply no matter when they started to take effect. The same is true for counters that change its power or toughness (such as +1/+1 counters) and effects that switch its power and toughness. For example, if <Hissing Quagmire> has been made a 0/0 creature with three +1/+1 counters on it, activating its last ability will turn it into a 5/5 creature that's still a land.</Rulings>
+2016/01/22: An ability that turns a land into a creature also sets that creature's power and toughness. If the land was already a creature (for example, if it was the target of a spell with awaken), this will overwrite the previous effect that set its power and toughness. Effects that modify its power or toughness will continue to apply no matter when they started to take effect. The same is true for counters that change its power or toughness (such as +1/+1 counters) and effects that switch its power and toughness. For example, if Hissing Quagmire has been made a 0/0 creature with three +1/+1 counters on it, activating its last ability will turn it into a 5/5 creature that's still a land.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3348,13 +3349,13 @@ When Crumbling Vestige enters the battlefield, add one mana of any color.
 {4}{C}, {T}, Sacrifice Mirrorpool: Create a token that's a copy of target creature you control.</CardText>
 <Artist>Cliff Childs</Artist>
 <Multiverseid>407684</Multiverseid>
-<Rulings>2016/01/22: <Mirrorpool>'s third ability can target (and copy) any instant or sorcery spell, not just one with targets.
+<Rulings>2016/01/22: Mirrorpool's third ability can target (and copy) any instant or sorcery spell, not just one with targets.
 2016/01/22: The copy is created on the stack, so it's not cast. Abilities that trigger when a player casts a spell won't trigger. The copy will then resolve like a normal spell, after players get a chance to cast spells and activate abilities.
 2016/01/22: The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
 2016/01/22: If the copied spell is modal (that is, it says "Choose one —" or the like), the copy will have the same modes. You can't choose different ones.
 2016/01/22: If the copied spell has an X whose value was determined as it was cast (like Fall of the Titans does), the copy has the same value of X.
 2016/01/22: You can't choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy, too. For example, if a player sacrifices a 3/3 creature to cast Fling, and you copy it, the copy of Fling will also deal 3 damage to its target.
-2016/01/22: For <Mirrorpool>'s last ability, the token copies exactly what's printed on the original creature and nothing else (unless that creature is copying something else; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+2016/01/22: For Mirrorpool's last ability, the token copies exactly what's printed on the original creature and nothing else (unless that creature is copying something else; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
 2016/01/22: For example, if a token copies a Plains that's been affected by a spell with awaken, the token will be just a land, even though the object being copied is currently a land creature. The same is true if the land has an ability that animates it.
 2016/01/22: If the copied creature has {X} in its mana cost, X is 0.
 2016/01/22: If the copied creature is copying something else when the ability resolves, then the token enters the battlefield as a copy of whatever that creature is copying.
@@ -3379,7 +3380,7 @@ When Crumbling Vestige enters the battlefield, add one mana of any color.
 <Rulings>2016/01/22: A land that becomes a creature may be affected by "summoning sickness." You can't attack with it or use any of its {T} abilities (including its mana abilities) unless it began your most recent turn on the battlefield under your control. Note that summoning sickness cares about when that permanent came under your control, not when it became a creature nor when it entered the battlefield.
 2016/01/22: This land is colorless until the last ability gives it colors.
 2016/01/22: When a land becomes a creature, that doesn't count as having a creature enter the battlefield. The permanent was already on the battlefield; it only changed its types. Abilities that trigger whenever a creature enters the battlefield won't trigger.
-2016/01/22: An ability that turns a land into a creature also sets that creature's power and toughness. If the land was already a creature (for example, if it was the target of a spell with awaken), this will overwrite the previous effect that set its power and toughness. Effects that modify its power or toughness will continue to apply no matter when they started to take effect. The same is true for counters that change its power or toughness (such as +1/+1 counters) and effects that switch its power and toughness. For example, if <Needle Spires> has been made a 0/0 creature with three +1/+1 counters on it, activating its last ability will turn it into a 5/4 creature that's still a land.</Rulings>
+2016/01/22: An ability that turns a land into a creature also sets that creature's power and toughness. If the land was already a creature (for example, if it was the target of a spell with awaken), this will overwrite the previous effect that set its power and toughness. Effects that modify its power or toughness will continue to apply no matter when they started to take effect. The same is true for counters that change its power or toughness (such as +1/+1 counters) and effects that switch its power and toughness. For example, if Needle Spires has been made a 0/0 creature with three +1/+1 counters on it, activating its last ability will turn it into a 5/4 creature that's still a land.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3411,11 +3412,11 @@ When Crumbling Vestige enters the battlefield, add one mana of any color.
 <Name>Sea Gate Wreckage</Name>
 <Type>Land</Type>
 <CardText>{T}: Add {C}. ({C} represents colorless mana.)
-{2}{C}, {T}: Draw a card. Activate this ability only if you have no cards in hand.</CardText>
+{2}{C}, {T}: Draw a card. Activate only if you have no cards in hand.</CardText>
 <Flavor>Once a center for knowledge, Sea Gate now serves as a reminder of what was lost.</Flavor>
 <Artist>Zack Stella</Artist>
 <Multiverseid>407687</Multiverseid>
-<Rulings>2016/01/22: It doesn't matter how many cards are in your hand as the last ability resolves. For example, if you have no cards in hand and control two <Sea Gate Wreckage>s, you can activate the last ability of each of them. You'll draw a card as each ability resolves.</Rulings>
+<Rulings>2016/01/22: It doesn't matter how many cards are in your hand as the last ability resolves. For example, if you have no cards in hand and control two Sea Gate Wreckages, you can activate the last ability of each of them. You'll draw a card as each ability resolves.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3507,7 +3508,7 @@ When Crumbling Vestige enters the battlefield, add one mana of any color.
 2016/01/22: A land that becomes a creature may be affected by "summoning sickness." You can't attack with it or use any of its {T} abilities (including its mana abilities) unless it began your most recent turn on the battlefield under your control. Note that summoning sickness cares about when that permanent came under your control, not when it became a creature nor when it entered the battlefield.
 2016/01/22: This land is colorless until the last ability gives it colors.
 2016/01/22: When a land becomes a creature, that doesn't count as having a creature enter the battlefield. The permanent was already on the battlefield; it only changed its types. Abilities that trigger whenever a creature enters the battlefield won't trigger.
-2016/01/22: An ability that turns a land into a creature also sets that creature's power and toughness. If the land was already a creature (for example, if it was the target of a spell with awaken), this will overwrite the previous effect that set its power and toughness. Effects that modify its power or toughness will continue to apply no matter when they started to take effect. The same is true for counters that change its power or toughness (such as +1/+1 counters) and effects that switch its power and toughness. For example, if <Wandering Fumarole> has been made a 0/0 creature with three +1/+1 counters on it, activating its last ability will turn it into a 4/7 creature that's still a land.</Rulings>
+2016/01/22: An ability that turns a land into a creature also sets that creature's power and toughness. If the land was already a creature (for example, if it was the target of a spell with awaken), this will overwrite the previous effect that set its power and toughness. Effects that modify its power or toughness will continue to apply no matter when they started to take effect. The same is true for counters that change its power or toughness (such as +1/+1 counters) and effects that switch its power and toughness. For example, if Wandering Fumarole has been made a 0/0 creature with three +1/+1 counters on it, activating its last ability will turn it into a 4/7 creature that's still a land.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3517,17 +3518,15 @@ When Crumbling Vestige enters the battlefield, add one mana of any color.
 
 <Card>
 <SetId>OGW</SetId>
-<No>183a</No>
+<No>183</No>
 <Name>Wastes</Name>
 <Type>Basic Land</Type>
 <CardText>{T}: Add {C}.</CardText>
 <Artist>Jason Felix</Artist>
 <Multiverseid>407694</Multiverseid>
-<Rulings>2016/01/22: The mana ability of <Wastes> doesn't appear on the printed cards, but it is in its official Oracle text. (A card's Oracle text (in English) can be found using the Gatherer card database at Gatherer.Wizards.com.) The printed cards display a large colorless mana symbol in a design that's similar to other basic land cards.
-2016/01/22: Because <Wastes> is a basic land, you can include as many of them as you like in your Constructed decks.
-2016/01/22: In Limited events (including Sealed Deck and Booster Draft), <Wastes> must be in your card pool to be included in your deck. You can't add <Wastes> to your card pool in the same way that you can add other basic lands.
-2016/01/22: <Wastes> is not a land type. If something asks you to name a land type, you can't choose <Wastes>.
-2016/01/22: Similarly, colorless is not a color. If something asks you to choose a color, you can't choose colorless.</Rulings>
+<Rulings>2021/03/19: Because Wastes is a basic land, you can include as many of them as you like in your Constructed decks.
+2021/03/19: In Limited events (including Sealed Deck and Booster Draft), Wastes must be in your card pool to be included in your deck. You can't add Wastes to your card pool in the same way that you can add other basic lands.
+2021/03/19: Wastes is not a land type. If something asks you to name a land type, you can't choose Wastes.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3537,17 +3536,33 @@ When Crumbling Vestige enters the battlefield, add one mana of any color.
 
 <Card>
 <SetId>OGW</SetId>
-<No>183b</No>
+<No>183a</No>
 <Name>Wastes</Name>
 <Type>Basic Land</Type>
 <CardText>{T}: Add {C}.</CardText>
 <Artist>Jason Felix</Artist>
 <Multiverseid>407693</Multiverseid>
-<Rulings>2016/01/22: The mana ability of <Wastes> doesn't appear on the printed cards, but it is in its official Oracle text. (A card's Oracle text (in English) can be found using the Gatherer card database at Gatherer.Wizards.com.) The printed cards display a large colorless mana symbol in a design that's similar to other basic land cards.
-2016/01/22: Because <Wastes> is a basic land, you can include as many of them as you like in your Constructed decks.
-2016/01/22: In Limited events (including Sealed Deck and Booster Draft), <Wastes> must be in your card pool to be included in your deck. You can't add <Wastes> to your card pool in the same way that you can add other basic lands.
-2016/01/22: <Wastes> is not a land type. If something asks you to name a land type, you can't choose <Wastes>.
-2016/01/22: Similarly, colorless is not a color. If something asks you to choose a color, you can't choose colorless.</Rulings>
+<Rulings>2021/03/19: Because Wastes is a basic land, you can include as many of them as you like in your Constructed decks.
+2021/03/19: In Limited events (including Sealed Deck and Booster Draft), Wastes must be in your card pool to be included in your deck. You can't add Wastes to your card pool in the same way that you can add other basic lands.
+2021/03/19: Wastes is not a land type. If something asks you to name a land type, you can't choose Wastes.</Rulings>
+<Vintage>Legal</Vintage>
+<Legacy>Legal</Legacy>
+<Modern>Legal</Modern>
+<Set>Oath of the Gatewatch</Set>
+<Rarity>Common</Rarity>
+</Card>
+
+<Card>
+<SetId>OGW</SetId>
+<No>184</No>
+<Name>Wastes</Name>
+<Type>Basic Land</Type>
+<CardText>{T}: Add {C}.</CardText>
+<Artist>Raymond Swanland</Artist>
+<Multiverseid>407696</Multiverseid>
+<Rulings>2021/03/19: Because Wastes is a basic land, you can include as many of them as you like in your Constructed decks.
+2021/03/19: In Limited events (including Sealed Deck and Booster Draft), Wastes must be in your card pool to be included in your deck. You can't add Wastes to your card pool in the same way that you can add other basic lands.
+2021/03/19: Wastes is not a land type. If something asks you to name a land type, you can't choose Wastes.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3562,32 +3577,10 @@ When Crumbling Vestige enters the battlefield, add one mana of any color.
 <Type>Basic Land</Type>
 <CardText>{T}: Add {C}.</CardText>
 <Artist>Raymond Swanland</Artist>
-<Multiverseid>407696</Multiverseid>
-<Rulings>2016/01/22: The mana ability of <Wastes> doesn't appear on the printed cards, but it is in its official Oracle text. (A card's Oracle text (in English) can be found using the Gatherer card database at Gatherer.Wizards.com.) The printed cards display a large colorless mana symbol in a design that's similar to other basic land cards.
-2016/01/22: Because <Wastes> is a basic land, you can include as many of them as you like in your Constructed decks.
-2016/01/22: In Limited events (including Sealed Deck and Booster Draft), <Wastes> must be in your card pool to be included in your deck. You can't add <Wastes> to your card pool in the same way that you can add other basic lands.
-2016/01/22: <Wastes> is not a land type. If something asks you to name a land type, you can't choose <Wastes>.
-2016/01/22: Similarly, colorless is not a color. If something asks you to choose a color, you can't choose colorless.</Rulings>
-<Vintage>Legal</Vintage>
-<Legacy>Legal</Legacy>
-<Modern>Legal</Modern>
-<Set>Oath of the Gatewatch</Set>
-<Rarity>Common</Rarity>
-</Card>
-
-<Card>
-<SetId>OGW</SetId>
-<No>184b</No>
-<Name>Wastes</Name>
-<Type>Basic Land</Type>
-<CardText>{T}: Add {C}.</CardText>
-<Artist>Raymond Swanland</Artist>
 <Multiverseid>407695</Multiverseid>
-<Rulings>2016/01/22: The mana ability of <Wastes> doesn't appear on the printed cards, but it is in its official Oracle text. (A card's Oracle text (in English) can be found using the Gatherer card database at Gatherer.Wizards.com.) The printed cards display a large colorless mana symbol in a design that's similar to other basic land cards.
-2016/01/22: Because <Wastes> is a basic land, you can include as many of them as you like in your Constructed decks.
-2016/01/22: In Limited events (including Sealed Deck and Booster Draft), <Wastes> must be in your card pool to be included in your deck. You can't add <Wastes> to your card pool in the same way that you can add other basic lands.
-2016/01/22: <Wastes> is not a land type. If something asks you to name a land type, you can't choose <Wastes>.
-2016/01/22: Similarly, colorless is not a color. If something asks you to choose a color, you can't choose colorless.</Rulings>
+<Rulings>2021/03/19: Because Wastes is a basic land, you can include as many of them as you like in your Constructed decks.
+2021/03/19: In Limited events (including Sealed Deck and Booster Draft), Wastes must be in your card pool to be included in your deck. You can't add Wastes to your card pool in the same way that you can add other basic lands.
+2021/03/19: Wastes is not a land type. If something asks you to name a land type, you can't choose Wastes.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
