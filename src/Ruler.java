@@ -19,7 +19,7 @@ public class Ruler {
 
 	public static void main(String[] args) {
 		try {
-			FileInputStream fis = new FileInputStream("MagicCompRules 20190823.txt");
+			FileInputStream fis = new FileInputStream("MagicCompRules 20211115.txt");
 			InputStreamReader isr = new InputStreamReader(fis, "UTF-8");
 			BufferedReader reader = new BufferedReader(isr);
 

@@ -1162,7 +1162,7 @@ public class CardAnalyzer {
 
         public String toString() {
             return multiverseid + " " + set + (specialType == null ? "" : " [" + specialType + "]") + " : " + number
-                    + " (" + rarity + ") " + artist
+                    + " (" + rarity + ")" + (artist != null ? " " + artist : "")
                     + (rating > 0 || votes > 0 ? " (" + rating + "|" + votes + ")" : "");
         }
     }
