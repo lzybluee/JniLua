@@ -26,6 +26,7 @@ At the beginning of your end step, create a Blood token for each player who lost
 Whenever Strefan attacks, you may sacrifice two Blood tokens. If you do, you may put a Vampire card from your hand onto the battlefield tapped and attacking. It gains indestructible until end of turn.</CardText>
 <Artist>Chris Rallis</Artist>
 <Multiverseid>547250</Multiverseid>
+<Rulings>2021/11/19: Strefan's first triggered ability counts the number of players that lost any amount of life, even if they also gained that much or more life this turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Crimson Vow Commander</Set>
@@ -42,6 +43,9 @@ Whenever Strefan attacks, you may sacrifice two Blood tokens. If you do, you may
 <Flavor>He sees a flicker of Avacyn's grace in every wingbeat.</Flavor>
 <Artist>Wayne Reynolds</Artist>
 <Multiverseid>547229</Multiverseid>
+<Rulings>2021/11/19: If a creature spell is copied, it's put onto the battlefield as a token as the spell resolves rather than putting the copy of the spell onto the battlefield. The rules that apply to a permanent spell becoming a permanent apply to a copy of a spell becoming a token.
+2021/11/19: The token that a resolving copy of a spell becomes isn't said to have been “created.”
+2021/11/19: The copy remembers any decisions that were made for the original spell as it was cast, including values chosen for X in its mana cost and whether any alternative or additional costs were chosen. For example, if the original creature spell had kicker and its kicker cost was paid, the copy will also be kicked.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Crimson Vow Commander</Set>
@@ -58,6 +62,13 @@ Whenever Strefan attacks, you may sacrifice two Blood tokens. If you do, you may
 Whenever another nontoken Vampire you control dies, you may pay {1} and exile it. If you do, create a 1/1 black Bat creature token with flying. It gains "When this creature deals combat damage to a player, sacrifice it and return the exiled card to the battlefield tapped."</CardText>
 <Artist>Jason A. Engle</Artist>
 <Multiverseid>547230</Multiverseid>
+<Rulings>2021/11/19: Timothar's last ability is linked to the ability it grants the Bat token. If a replacement effect causes you to create more than one Bat token with this effect, they will all have that linked ability, and the exiled card will be returned to the battlefield if any of them deals combat damage to a player.
+2021/11/19: If the exiled card is somehow no longer in exile when the Bat token's triggered ability resolves, you will still sacrifice the Bat token.
+2021/11/19: If another creature enters the battlefield as a copy of the Bat token or another effect creates a copy of the Bat token, it will not have the triggered ability granted by Timothar.
+2021/11/19: The ability of each Bat token you create refers only to the card you exile during the resolution of the ability that created that token. When it deals combat damage to a player, you return only that card to the battlefield, not any other card exiled by Timothar.
+2021/11/19: If you can't exile the card, perhaps because another effect moved the card before the triggered ability started resolving, you can't pay {1} and won't create a token.
+2021/11/19: Timothar's last ability triggers when any nontoken Vampire you control dies, not just nontoken Vampires you own. If you control Timothar and another player's nontoken Vampire and that Vampire dies, you may pay {1} to exile that card from their graveyard.
+2021/11/19: The controller of the Bat token as it deals combat damage to a player will be the controller of its triggered ability, and the exiled card will be returned to the battlefield under that player's control.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Crimson Vow Commander</Set>
@@ -204,6 +215,7 @@ Whenever you draw your second card each turn, create a 1/1 white Spirit creature
 <CardText>Each player reveals the top card of their library. For each creature card revealed this way, create a token that's a copy of that card, except it's 1/1, it's a Spirit in addition to its other types, and it has flying. If no creature cards were revealed this way, return Haunting Imitation to its owner's hand.</CardText>
 <Artist>Liiga Smilshkalne</Artist>
 <Multiverseid>546977</Multiverseid>
+<Rulings>2021/11/19: The revealed cards stay on the top of their owners' libraries.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Crimson Vow Commander</Set>
@@ -217,9 +229,10 @@ Whenever you draw your second card each turn, create a 1/1 white Spirit creature
 <Type>Instant</Type>
 <ManaCost>{X}{U}</ManaCost>
 <CardText>Draw X cards, then discard X cards. Create a 1/1 white Spirit creature token with flying for each card type among cards discarded this way.</CardText>
-<Flavor>In a singe unending moment, a hundred lifetimes of knowledge coursed through his unraveling mind.</Flavor>
+<Flavor>In a single unending moment, a hundred lifetimes of knowledge coursed through his unraveling mind.</Flavor>
 <Artist>Jason Rainville</Artist>
 <Multiverseid>546978</Multiverseid>
+<Rulings>2021/11/19: The card types that you can discard include artifact, creature, enchantment, land, planeswalker, instant, and sorcery. Legendary, basic, and snow are supertypes, not card types. Human, Equipment, and Aura are subtypes, not card types.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Crimson Vow Commander</Set>
@@ -236,6 +249,9 @@ Whenever you draw your second card each turn, create a 1/1 white Spirit creature
 When Spectral Arcanist enters the battlefield, you may cast an instant or sorcery spell with mana value less than or equal to the number of Spirits you control from a graveyard without paying its mana cost. If that spell would be put into a graveyard, exile it instead.</CardText>
 <Artist>Johan Grenier</Artist>
 <Multiverseid>546979</Multiverseid>
+<Rulings>2021/11/19: If you choose to cast the spell, you must do so as Spectral Arcanist's ability is resolving. You can't wait and cast it later.
+2021/11/19: If you cast a spell without paying its mana cost, you may choose to pay additional costs (such as kicker) but not alternative costs (such as flashback).
+2021/11/19: If you cast a spell with X in its mana cost this way, you must choose 0 as the value for X.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Crimson Vow Commander</Set>
@@ -270,6 +286,7 @@ Whenever a Vampire you control dies, you may pay 2 life. If you do, draw a card.
 <Flavor>"Lady Anje said no violence at the wedding. She never said anything about the journey there!"</Flavor>
 <Artist>Aaron J. Riley</Artist>
 <Multiverseid>546981</Multiverseid>
+<Rulings>2021/11/19: You may pay 2 life only once for each Vampire that dies. You can't pay multiple times for the same triggered ability and draw multiple cards.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Crimson Vow Commander</Set>
@@ -336,6 +353,7 @@ Whenever a creature an opponent controls dies, you gain 1 life and create a Bloo
 <CardText>Until end of turn, creatures you control gain menace and "Whenever this creature deals combat damage to a player, exile the top card of that player's library face down. You may look at and play that card for as long as it remains exiled, and you may spend mana as though it were mana of any color to cast that spell."</CardText>
 <Artist>Tomas Duchek</Artist>
 <Multiverseid>546985</Multiverseid>
+<Rulings>2021/11/19: You must pay all costs to play cards exiled this way, and you must follow all normal timing permissions and restrictions. For example, if you play a land this way, you may do so only during your main phase while the stack is empty and only if you haven't yet played a land (unless another effect allows you to play additional lands).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Crimson Vow Commander</Set>
@@ -352,6 +370,16 @@ Whenever a creature an opponent controls dies, you gain 1 life and create a Bloo
 Madness—{2}{B}, Pay 8 life. (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)</CardText>
 <Artist>Oleksandr Kozachenko</Artist>
 <Multiverseid>546986</Multiverseid>
+<Rulings>2021/11/19: If a player controls more than one creature tied for the greatest power among creatures they control while Shadowgrange Archfiend's first ability is resolving, that player chooses which one of those creatures to sacrifice.
+2021/11/19: Cards are discarded in a Magic game only from a player's hand. Effects that put cards into a player's graveyard from anywhere else do not cause those cards to be discarded.
+2021/11/19: Madness works independently of why you're discarding the card. You could discard it to pay a cost, because a spell or ability tells you to, or because you have too many cards in your hand during your cleanup step. You can't discard a card with madness just because you want to, though.
+2021/11/19: A card with madness that's discarded counts as having been discarded even though it's put into exile rather than a graveyard. If it was discarded to pay a cost, that cost is still paid. Abilities that trigger when a card is discarded will still trigger.
+2021/11/19: A spell cast for its madness cost is put onto the stack like any other spell. It can be countered, copied, and so on. As it resolves, it's put onto the battlefield if it's a permanent card or into its owner's graveyard if it's an instant or sorcery card.
+2021/11/19: Casting a spell with madness ignores the timing rules based on the card's card type. For example, you can cast a creature with madness if you discard it during an opponent's turn.
+2021/11/19: To determine the total cost of a spell, start with the mana cost or alternative cost (such as a madness cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+2021/11/19: If you choose not to cast a card with madness when the madness triggered ability resolves, it's put into your graveyard. Madness doesn't give you another chance to cast it later.
+2021/11/19: If you discard a card with madness to pay the cost of a spell or activated ability, that card's madness triggered ability (and the spell that card becomes, if you choose to cast it) will resolve before the spell or ability the discard paid for.
+2021/11/19: If you discard a card with madness while a spell or ability is resolving, it moves immediately to exile. Continue resolving that spell or ability, noting that the card you discarded is not in your graveyard at this time. Its madness triggered ability will be placed onto the stack once that spell or ability has completely resolved.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Crimson Vow Commander</Set>
@@ -368,6 +396,9 @@ Madness—{2}{B}, Pay 8 life. (If you discard this card, discard it into exile. 
 Blood tokens you control are Equipment in addition to their other types and have "Equipped creature gets +2/+0" and equip {2}.</CardText>
 <Artist>Caio Monteiro</Artist>
 <Multiverseid>546987</Multiverseid>
+<Rulings>2021/11/19: Blood tokens stop being Equipment if Arterial Alchemy leaves the battlefield. If any of them are attached to creatures at that time, they become unattached.
+2021/11/19: If you control more than one Arterial Alchemy, creatures equipped with Blood Equipment will get +2/+0 for each Arterial Alchemy. The equip cost is still {2}.
+2021/11/19: If a Blood token is somehow both a creature and an Equipment, it can't be attached to a creature.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Crimson Vow Commander</Set>
@@ -433,6 +464,7 @@ Whenever a creature dealt damage by Markov Enforcer this turn dies, create a Blo
 <Flavor>Killing the slayers was self-preservation. The fire was just for fun.</Flavor>
 <Artist>Campbell White</Artist>
 <Multiverseid>546991</Multiverseid>
+<Rulings>2021/11/19: Midnight Arsonist's triggered ability can't target artifacts that have either activated or triggered mana abilities. An activated mana ability is one that could add mana to a player's mana pool as it resolves, doesn't have a target, and isn't a loyalty ability. A triggered mana ability is one that adds mana to a player's mana pool and triggers based on an activated mana ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Crimson Vow Commander</Set>
@@ -449,6 +481,7 @@ Whenever a creature dealt damage by Markov Enforcer this turn dies, create a Blo
 {R}, Sacrifice two artifacts: Exile the top card of your library. You may play that card this turn.</CardText>
 <Artist>Chris Rallis</Artist>
 <Multiverseid>546992</Multiverseid>
+<Rulings>2021/11/19: Playing a card this way follows all the normal timing rules for that card. For example, if you play a land this way, you may do so only during your main phase while the stack is empty and only if you haven't yet played a land (unless another effect allows you to play additional lands).</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Crimson Vow Commander</Set>
@@ -480,6 +513,7 @@ Whenever a creature dealt damage by Markov Enforcer this turn dies, create a Blo
 <Flavor>For one evening, the dueling bloodlines channeled their feuds into elaborate footwork.</Flavor>
 <Artist>Jason Rainville</Artist>
 <Multiverseid>546994</Multiverseid>
+<Rulings>2021/11/19: If only one or two creatures cards are legal targets as Sinister Waltz resolves, all the legal targets will be put onto the battlefield and no cards will be put on the bottom of your library.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Crimson Vow Commander</Set>
@@ -513,6 +547,7 @@ Whenever an opponent who controls an artifact named Wedding Ring draws a card du
 Whenever an opponent who controls an artifact named Wedding Ring gains life during their turn, you gain that much life.</CardText>
 <Artist>Olena Richards</Artist>
 <Multiverseid>547270</Multiverseid>
+<Rulings>2021/11/19: The trigger conditions of Wedding Ring's second and third abilities care about opponents who control any artifact named Wedding Ring, not just the token copy created by its first ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Crimson Vow Commander</Set>
@@ -546,6 +581,7 @@ Soulbond (You may pair this creature with another unpaired creature when either 
 As long as Doom Weaver is paired with another creature, each of those creatures has "When this creature dies, draw cards equal to its power."</CardText>
 <Artist>Helge C. Balzer</Artist>
 <Multiverseid>547272</Multiverseid>
+<Rulings>2021/11/19: Use the creature's power as it last existed on the battlefield to determine how many cards to draw.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Crimson Vow Commander</Set>
@@ -579,6 +615,7 @@ At the beginning of your upkeep, for each creature you control that's a Wolf or 
 <Flavor>The ruins of the town were a notable upgrade from the wolves' forest den.</Flavor>
 <Artist>Milivoj Ćeran</Artist>
 <Multiverseid>547274</Multiverseid>
+<Rulings>2021/11/19: If you control a creature that is both a Wolf and a Werewolf, it's only counted once for Hollowhenge Overlord's triggered ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Crimson Vow Commander</Set>
@@ -611,6 +648,7 @@ As long as Thundering Mightmare is paired with another creature, each of those c
 Whenever Umbris or another Nightmare or Horror enters the battlefield under your control, target opponent exiles cards from the top of their library until they exile a land card.</CardText>
 <Artist>Daarken</Artist>
 <Multiverseid>547276</Multiverseid>
+<Rulings>2021/11/19: Umbris, Fear Manifest's first ability counts all cards your opponents own in exile, not just cards exiled by the second ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Crimson Vow Commander</Set>

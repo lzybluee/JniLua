@@ -250,15 +250,15 @@ Equip {1}</CardText>
 Whenever you sacrifice a Clue, venture into the dungeon. (Enter the first room or advance to the next room.)</CardText>
 <Artist>Aaron J. Riley</Artist>
 <Multiverseid>531917</Multiverseid>
-<Rulings>2021/07/23: Thorough Investigation's first ability can trigger only once per combat, no matter how many creatures you attack with.
+<Rulings>2021/07/23: Dungeons are removed from the game as a state-based action.
+2021/07/23: Dungeon cards are not part of a player's deck or sideboard. In both constructed and limited formats, players can use any dungeon card when they venture into the dungeon.
+2021/07/23: Thorough Investigation's first ability can trigger only once per combat, no matter how many creatures you attack with.
 2021/07/23: To venture into the dungeon, a player moves their venture marker into the next room of the dungeon they are currently in. If they aren't currently in a dungeon, that player instead chooses a dungeon card from outside the game, puts it into the command zone, and moves their venture marker onto the first room.
 2021/07/23: Moving into a dungeon room will cause its room ability to trigger.
 2021/07/23: Once you resolve the last room ability of a dungeon, that dungeon is now completed and is removed from the game.
 2021/07/23: A player may only have one dungeon in the command zone at a time.
 2021/07/23: The player venturing into the dungeon chooses which dungeon they will venture into. They may choose a dungeon that they have already completed this game.
-2021/07/23: Dungeon cards are not part of a player's deck or sideboard. In both constructed and limited formats, players can use any dungeon card when they venture into the dungeon.
 2021/07/23: You can only move forward (well, downward) in a dungeon, never backwards or sideways.
-2021/07/23: Dungeons are removed from the game as a state-based action.
 2021/07/23: If you somehow venture into the dungeon while a room's ability is on the stack, you will continue on in the dungeon. If you're already in the last room, complete that dungeon and start a new one.
 2021/07/23: Choosing the dungeon or room to venture into is part of resolving the venture into the dungeon keyword action. Once that choice is made, players may not respond until after the appropriate room ability has triggered.</Rulings>
 <Vintage>Legal</Vintage>
@@ -330,6 +330,16 @@ Whenever you sacrifice a Clue, venture into the dungeon. (Enter the first room o
 15+ | Scry X, then draw X cards.</CardText>
 <Artist>Lie Setiawan</Artist>
 <Multiverseid>531920</Multiverseid>
+<Rulings>2021/07/23: Dice are identified by the number of faces each one has. For example, a d20 is a twenty-sided die.
+2021/07/23: Dice used must have equally likely outcomes and the roll must be fair. Although physical dice are recommended, digital substitutes are allowed, provided they have the same number of equally likely outcomes as specified in the original roll instruction.
+2021/07/23: An ability that tells you to roll a die will also specify what to do with the result of that roll. Most often, this is in the form of a "results table" in the card text.
+2021/07/23: The instruction to roll a die and the effect that occurs because of the result are all part of the same ability. Players do not get the chance to respond to the ability after knowing the result of the roll.
+2021/07/23: An effect that says "choose a target, then roll a d20" or similar still uses the normal process of putting an ability on the stack and resolving it. Choosing targets is part of putting the ability on the stack and rolling the d20 happens later, as the ability resolves.
+2021/07/23: Some effects may modify the result of a die roll. This may be part of the instruction to roll a die or it may come from other cards. Anything that references the "result" of a die roll is looking for the result after these modifications. Anything that is looking for the "natural result" is looking for the number shown on the face of the die before these modifications.
+2021/07/23: Some abilities, like that of Pixie Guide and Barbarian Class, replace rolling a die with rolling extra dice and ignoring the lowest roll. The ignored rolls are not considered for the effect that instructed you to roll a die, and do not cause abilities to trigger. For all intents and purposes, once you determine which dice count, any extra dice were never rolled.
+2021/07/23: Some effects instruct you to roll again. This uses the same number and type of dice as the original roll, and that roll will use the same set of possible outcomes.
+2021/07/23: While playing Planechase, rolling the planar die will cause any ability that triggers whenever a player rolls one or more dice to trigger. However, any effect that refers to a numerical result will ignore the rolling of the planar die.
+2021/07/23: Tournament events have more specific rules regarding dice and die-rolling. For more information, please see the most recent version of the Magic Tournament Rules at https://wpn.wizards.com/en/document/magic-gathering-tournament-rules.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Forgotten Realms Commander</Set>
@@ -581,8 +591,7 @@ If a Warlock you control would die, exile it instead.</CardText>
 <Artist>Andrew Mar</Artist>
 <Multiverseid>531932</Multiverseid>
 <Rulings>2021/07/23: Lorcan, Warlock Collector's second ability looks only at the type the card has in the graveyard, not the type it had in any other zone. For example, animated lands dying won't cause the ability to trigger. The opposite is also true. For example, if a creature that was cast as an Adventure is countered, it's a creature card in the graveyard and the triggered ability will trigger.
-2021/07/23: Lorcan's last ability affects all Warlocks you control, not only ones he collected from an opponent's graveyard.
-2021/07/23: If Maddening Hex is attached to your only opponent, it stays attached to that player as the ability resolves.</Rulings>
+2021/07/23: Lorcan's last ability affects all Warlocks you control, not only ones he collected from an opponent's graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Forgotten Realms Commander</Set>
@@ -618,6 +627,20 @@ Roll two d20 and ignore the lower roll.
 15—20 | You choose which creatures block this turn and how those creatures block.</CardText>
 <Artist>Caio Monteiro</Artist>
 <Multiverseid>531934</Multiverseid>
+<Rulings>2021/07/23: If you roll doubles, ignore one of the rolls and use the result of the other.
+2021/07/23: An ignored roll effectively never happens. No abilities will trigger because of an ignored roll.
+2021/07/23: When choosing blocks for creatures you don't control, you must still make legal choices. For example, you can't choose to have a creature without flying or reach block a creature with flying.
+2021/07/23: If there's a cost associated with having a creature block and you choose for that creature to block, its controller can choose to pay that cost or not. If that player doesn't pay that cost, you must propose a new set of blocking creatures.
+2021/07/23: Dice are identified by the number of faces each one has. For example, a d20 is a twenty-sided die.
+2021/07/23: Dice used must have equally likely outcomes and the roll must be fair. Although physical dice are recommended, digital substitutes are allowed, provided they have the same number of equally likely outcomes as specified in the original roll instruction.
+2021/07/23: An ability that tells you to roll a die will also specify what to do with the result of that roll. Most often, this is in the form of a "results table" in the card text.
+2021/07/23: The instruction to roll a die and the effect that occurs because of the result are all part of the same ability. Players do not get the chance to respond to the ability after knowing the result of the roll.
+2021/07/23: An effect that says "choose a target, then roll a d20" or similar still uses the normal process of putting an ability on the stack and resolving it. Choosing targets is part of putting the ability on the stack and rolling the d20 happens later, as the ability resolves.
+2021/07/23: Some effects may modify the result of a die roll. This may be part of the instruction to roll a die or it may come from other cards. Anything that references the "result" of a die roll is looking for the result after these modifications. Anything that is looking for the "natural result" is looking for the number shown on the face of the die before these modifications.
+2021/07/23: Some abilities, like that of Pixie Guide and Barbarian Class, replace rolling a die with rolling extra dice and ignoring the lowest roll. The ignored rolls are not considered for the effect that instructed you to roll a die, and do not cause abilities to trigger. For all intents and purposes, once you determine which dice count, any extra dice were never rolled.
+2021/07/23: Some effects instruct you to roll again. This uses the same number and type of dice as the original roll, and that roll will use the same set of possible outcomes.
+2021/07/23: While playing Planechase, rolling the planar die will cause any ability that triggers whenever a player rolls one or more dice to trigger. However, any effect that refers to a numerical result will ignore the rolling of the planar die.
+2021/07/23: Tournament events have more specific rules regarding dice and die-rolling. For more information, please see the most recent version of the Magic Tournament Rules at https://wpn.wizards.com/en/document/magic-gathering-tournament-rules.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Forgotten Realms Commander</Set>
@@ -683,7 +706,8 @@ Whenever enchanted player casts a noncreature spell, roll a d6. Maddening Hex de
 <Flavor>Much more painful than mere regret.</Flavor>
 <Artist>Bryan Sola</Artist>
 <Multiverseid>531937</Multiverseid>
-<Rulings>2021/07/23: Dice are identified by the number of faces each one has. For example, a d20 is a twenty-sided die.
+<Rulings>2021/07/23: If Maddening Hex is attached to your only opponent, it stays attached to that player as the ability resolves.
+2021/07/23: Dice are identified by the number of faces each one has. For example, a d20 is a twenty-sided die.
 2021/07/23: Dice used must have equally likely outcomes and the roll must be fair. Although physical dice are recommended, digital substitutes are allowed, provided they have the same number of equally likely outcomes as specified in the original roll instruction.
 2021/07/23: An ability that tells you to roll a die will also specify what to do with the result of that roll. Most often, this is in the form of a "results table" in the card text.
 2021/07/23: The instruction to roll a die and the effect that occurs because of the result are all part of the same ability. Players do not get the chance to respond to the ability after knowing the result of the roll.
@@ -845,7 +869,8 @@ Equip {10}. This ability costs {X} less to activate, where X is the power of the
 <Flavor>"Return to the earth and the wind."</Flavor>
 <Artist>Jake Murray</Artist>
 <Multiverseid>531944</Multiverseid>
-<Rulings>2021/07/23: Players make their choices in turn order and get to know what choices were made before theirs. They may choose an artifact or an enchantment that was already chosen by another player. Once all players have made their choices, the permanents are destroyed simultaneously.</Rulings>
+<Rulings>2021/07/23: Players make their choices in turn order and get to know what choices were made before theirs. They may choose an artifact or an enchantment that was already chosen by another player. Once all players have made their choices, the permanents are destroyed simultaneously.
+2021/07/23: You choose whether Ebony Fly becomes a creature as the second ability resolves, after you see the result of the die roll. If you don't choose to make it a creature at that time, you can't choose to make it a creature later in the turn unless you activate the ability again.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Forgotten Realms Commander</Set>
@@ -911,10 +936,10 @@ Ward {4} (Whenever this creature becomes the target of a spell or ability an opp
 15+ | Return those cards to your hand. You gain life equal to their total mana value.</CardText>
 <Artist>Lie Setiawan</Artist>
 <Multiverseid>531947</Multiverseid>
-<Rulings>2021/07/23: Dice are identified by the number of faces each one has. For example, a d20 is a twenty-sided die.
+<Rulings>2021/07/23: The instruction to roll a die and the effect that occurs because of the result are all part of the same ability. Players do not get the chance to respond to the ability after knowing the result of the roll.
+2021/07/23: Dice are identified by the number of faces each one has. For example, a d20 is a twenty-sided die.
 2021/07/23: Dice used must have equally likely outcomes and the roll must be fair. Although physical dice are recommended, digital substitutes are allowed, provided they have the same number of equally likely outcomes as specified in the original roll instruction.
 2021/07/23: An ability that tells you to roll a die will also specify what to do with the result of that roll. Most often, this is in the form of a "results table" in the card text.
-2021/07/23: The instruction to roll a die and the effect that occurs because of the result are all part of the same ability. Players do not get the chance to respond to the ability after knowing the result of the roll.
 2021/07/23: An effect that says "choose a target, then roll a d20" or similar still uses the normal process of putting an ability on the stack and resolving it. Choosing targets is part of putting the ability on the stack and rolling the d20 happens later, as the ability resolves.
 2021/07/23: Some effects may modify the result of a die roll. This may be part of the instruction to roll a die or it may come from other cards. Anything that references the "result" of a die roll is looking for the result after these modifications. Anything that is looking for the "natural result" is looking for the number shown on the face of the die before these modifications.
 2021/07/23: Some abilities, like that of Pixie Guide and Barbarian Class, replace rolling a die with rolling extra dice and ignoring the lowest roll. The ignored rolls are not considered for the effect that instructed you to roll a die, and do not cause abilities to trigger. For all intents and purposes, once you determine which dice count, any extra dice were never rolled.
@@ -1089,6 +1114,9 @@ Whenever Klauth, Unrivaled Ancient attacks, add X mana in any combination of col
 • Smash Relics — Destroy up to X target artifacts and/or enchantments.</CardText>
 <Artist>Olivier Bernard</Artist>
 <Multiverseid>531954</Multiverseid>
+<Rulings>2021/07/23: The commander you control doesn't have to be your commander.
+2021/07/23: Once you've announced that you're casting Klauth's Will, players can't take any actions until you've finished doing so. Notably, opponents can't try to remove your commander to change how many modes you may choose.
+2021/07/23: Whether or not you control a commander is determined only once, as you choose the modes for this spell. If you somehow lose control of that commander before you finish casting the spell (perhaps because you sacrifice it to activate a mana ability), it won't change the number of modes chosen.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Forgotten Realms Commander</Set>
@@ -1211,6 +1239,16 @@ If a creature you control attacking would cause a triggered ability of a permane
 <Flavor>As long as it's never left empty, this magic pouch produces coins every dawn.</Flavor>
 <Artist>Joe Slucher</Artist>
 <Multiverseid>531958</Multiverseid>
+<Rulings>2021/07/23: Dice are identified by the number of faces each one has. For example, a d20 is a twenty-sided die.
+2021/07/23: Dice used must have equally likely outcomes and the roll must be fair. Although physical dice are recommended, digital substitutes are allowed, provided they have the same number of equally likely outcomes as specified in the original roll instruction.
+2021/07/23: An ability that tells you to roll a die will also specify what to do with the result of that roll. Most often, this is in the form of a "results table" in the card text.
+2021/07/23: The instruction to roll a die and the effect that occurs because of the result are all part of the same ability. Players do not get the chance to respond to the ability after knowing the result of the roll.
+2021/07/23: An effect that says "choose a target, then roll a d20" or similar still uses the normal process of putting an ability on the stack and resolving it. Choosing targets is part of putting the ability on the stack and rolling the d20 happens later, as the ability resolves.
+2021/07/23: Some effects may modify the result of a die roll. This may be part of the instruction to roll a die or it may come from other cards. Anything that references the "result" of a die roll is looking for the result after these modifications. Anything that is looking for the "natural result" is looking for the number shown on the face of the die before these modifications.
+2021/07/23: Some abilities, like that of Pixie Guide and Barbarian Class, replace rolling a die with rolling extra dice and ignoring the lowest roll. The ignored rolls are not considered for the effect that instructed you to roll a die, and do not cause abilities to trigger. For all intents and purposes, once you determine which dice count, any extra dice were never rolled.
+2021/07/23: Some effects instruct you to roll again. This uses the same number and type of dice as the original roll, and that roll will use the same set of possible outcomes.
+2021/07/23: While playing Planechase, rolling the planar die will cause any ability that triggers whenever a player rolls one or more dice to trigger. However, any effect that refers to a numerical result will ignore the rolling of the planar die.
+2021/07/23: Tournament events have more specific rules regarding dice and die-rolling. For more information, please see the most recent version of the Magic Tournament Rules at https://wpn.wizards.com/en/document/magic-gathering-tournament-rules.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Forgotten Realms Commander</Set>

@@ -1013,10 +1013,9 @@ Enchanted creature has "{1}, Put a -1/-1 counter on this creature: Untap this cr
 <Flavor>Knowledge fills the mind of a fool and opens the mind of the sage.</Flavor>
 <Artist>Terese Nielsen & Ron Spencer</Artist>
 <Multiverseid>146728</Multiverseid>
-<Rulings>2008/05/01: Thought Reflection doesn't cause you to draw cards. Rather, it causes card-drawing effects to have you draw more cards. It also causes the draw action during your draw step to have you draw two cards.
-2008/05/01: If a spell or ability causes you to draw multiple cards, Thought Reflection's effect doubles the total number you would draw. For example, if you cast Concentrate ("Draw three cards"), you'll draw six cards.
-2008/05/01: The effects of multiple Thought Reflections are cumulative. For example, if you have three Thought Reflections on the battlefield, you'll draw eight times the original number of cards.
-2008/05/01: If two or more replacement effects would apply to a card-drawing event, the player who's drawing the card chooses what order to apply them.</Rulings>
+<Rulings>2020/08/07: If a spell or ability causes you to draw multiple cards, Thought Reflection's effect doubles each card draw. For example, if you cast Harmonize ("Draw three cards"), you'll draw six cards.
+2020/08/07: The effects of multiple Thought Reflections are cumulative. For example, if you have two Thought Reflections on the battlefield, you'll draw four times the original number of cards. If you have three, you'll draw eight times the number of cards, and so on.
+2020/08/07: If two or more replacement effects would apply to a card-drawing event, the player who's drawing the card chooses what order to apply them.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1545,11 +1544,10 @@ Rite of Consumption deals damage equal to the sacrificed creature's power to tar
 <Flavor>The mission of the Nighthearth, Illulia's cult of murderous cinders, is to intensify every pain suffered in Shadowmoor.</Flavor>
 <Artist>Terese Nielsen & Ron Spencer</Artist>
 <Multiverseid>146762</Multiverseid>
-<Rulings>2008/05/01: When Wound Reflection's ability resolves, it checks how much life each opponent lost over the course of the turn, then it causes that opponent to lose that much life. It doesn't matter how the opponent lost life or who caused it. It also doesn't matter if Wound Reflection wasn't on the battlefield at the time some or all of the life was lost.
-2008/05/01: Wound Reflection's ability checks only whether life was lost. It doesn't care whether life was also gained. For example, if an opponent lost 4 life and gained 6 life during the turn, that player will have a higher life total than they started the turn with — but Wound Reflection's ability will still cause that player to lose 4 life.
-2008/05/01: Wound Reflection's ability triggers at the end of every turn. It doesn't have to be your turn, and it doesn't have to be the turn of an opponent that lost life.
-2008/05/01: If Wound Reflection's ability resolves, then an opponent loses life later in the same turn, that life loss is never counted by Wound Reflection.
-2008/05/01: Multiple Wound Reflections are cumulative. They'll both trigger at the same time. One will resolve first. When the second one resolves, it will see the same life loss that the first Wound Reflection saw, as well as the life loss caused by the first Wound Reflection. For example, if an opponent lost 3 life during the turn, the first Wound Reflection will cause that opponent to lose 3 more life, then the second Wound Reflection will cause that opponent to lose 6 life.</Rulings>
+<Rulings>2020/08/07: When Wound Reflection's ability resolves, it checks how much life each opponent lost over the course of the turn, then it causes that opponent to lose that much life. It doesn't matter how the opponent lost life or who caused it. It also doesn't matter if Wound Reflection wasn't on the battlefield at the time some or all of the life was lost.
+2020/08/07: Wound Reflection's ability checks only whether life was lost. It doesn't care whether life was also gained. For example, if an opponent lost 4 life and gained 6 life during the turn, that player will have a higher life total than they started the turn with but Wound Reflection's ability will still cause that player to lose 4 life.
+2020/08/07: If Wound Reflection's ability resolves, then an opponent loses life later in the same turn, that life loss is never counted by Wound Reflection.
+2020/08/07: Multiple Wound Reflections each trigger separately. For example, if an opponent lost 1 life, the first one's triggered ability to resolve causes them to lose another 1 life. Since they've now lost 2 life, the next triggered ability causes them to lose 2 life, and the next 4, and so on.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1655,9 +1653,10 @@ Conspire (As you cast this spell, you may tap two untapped creatures you control
 <Flavor>Each night that his bowl fills, a village mourns.</Flavor>
 <Artist>Jeremy Enecio</Artist>
 <Multiverseid>159402</Multiverseid>
-<Rulings>2008/05/01: You target the player when the ability triggers. You won't know which card is discarded until the ability resolves.
-2008/05/01: Cragganwick Cremator deals damage equal to the discarded creature's power as it exists in the graveyard. (This can matter for certain creatures with variable power, such as Maro or Tarmogoyf.)
-2008/05/01: If you have no cards in hand when Cragganwick Cremator's ability resolves, you don't discard anything.</Rulings>
+<Rulings>2020/08/07: You choose the target player or planeswalker when the ability is put onto the stack. You won't know how much damage will be dealt until the ability resolves.
+2020/08/07: If the target player or planeswalker is an illegal target by the time the ability tries to resolve, the ability won't resolve. You won't discard a card.
+2020/08/07: If you have no cards in hand when Cragganwick Cremator's ability resolves, you don't discard anything.
+2020/08/07: Cragganwick Cremator deals damage equal to the discarded creature card's power as it exists in your graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1986,7 +1985,7 @@ Enchanted creature has "{T}: This creature deals 1 damage to any target."</CardT
 <Flavor>Vengeance is a dish best served twice.</Flavor>
 <Artist>Terese Nielsen & Ron Spencer</Artist>
 <Multiverseid>146727</Multiverseid>
-<Rulings>2008/05/01: If a creature loses double strike after assigning damage in the "first strike" combat damage step (due to Rage Reflection leaving the battlefield, for example), that creature won't assign damage in the "normal" combat damage step.</Rulings>
+<Rulings>2020/08/07: If a creature loses double strike after assigning damage in the first strike combat damage step (due to Rage Reflection leaving the battlefield, for example), that creature won't assign damage in the normal combat damage step.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2310,12 +2309,10 @@ Wither (This deals damage to creatures in the form of -1/-1 counters.)</CardText
 <Flavor>Despite its darkness, Shadowmoor doesn't want for growth. Legions of creeping things thrive in the shade.</Flavor>
 <Artist>Terese Nielsen & Ron Spencer</Artist>
 <Multiverseid>146750</Multiverseid>
-<Rulings>2008/05/01: You're "tapping a permanent for mana" only if you're activating an activated ability of that permanent that includes the {T} symbol in its cost and produces mana as part of its effect.
-2008/05/01: Mana Reflection affects any permanent you tap for mana, not just lands you tap for mana.
-2008/05/01: Mana Reflection doesn't produce any mana itself. Rather, it causes permanents you tap for mana to produce more mana. (This is different than seemingly similar cards like Heartbeat of Spring and Gauntlet of Power.) If the permanent puts any restrictions or riders on the mana it produces, as Pillar of the Paruns and Hall of the Bandit Lord do, that will apply to all the mana it produces this way.
-2008/05/01: Mana Reflection doesn't cause permanents you tap for mana to produce one extra mana — rather, it doubles the type and amount of mana that permanent would produce. For example, if you tap Mystic Gate for {W}{U}, it will produce {W}{W}{U}{U} instead.
-2008/05/01: The effects of multiple Mana Reflections are cumulative. For example, if you have three Mana Reflections on the battlefield, you'll get eight times the original amount and type of mana.
-2008/05/01: If you have Mana Reflection on the battlefield and tap a permanent for mana, but another replacement effect would change the type and/or amount of mana it would produce (such as Contamination, which says "If a land is tapped for mana, it produces {B} instead of any other type and amount"), you decide what order to apply those effects in. In this example, applying Mana Reflection first and Contamination second would result in {B}; applying Contamination first and Mana Reflection second would result in {B}{B}.</Rulings>
+<Rulings>2020/08/07: You're "tapping a permanent for mana" only if you're activating a mana ability of that permanent that includes the {T} symbol in its cost. A mana ability produces mana as part of its effect.
+2020/08/07: If an ability triggers "whenever you tap" something for mana and produces mana, that triggered mana ability won't be affected by Mana Reflection.
+2020/08/07: Mana Reflection doesn't produce any mana itself. Rather, it causes permanents you tap for mana to produce more mana. If the mana ability of that permanent puts any restrictions or riders on the mana it produces, that will apply to all the mana it produces this way.
+2020/08/07: The effects of multiple Mana Reflections are cumulative. For example, if you have two Mana Reflections on the battlefield, you'll get four times the original amount and type of mana. If you have three, you'll get eight times the mana, and so on.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2561,9 +2558,9 @@ When Woodfall Primus enters the battlefield, destroy target noncreature permanen
 Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)</CardText>
 <Artist>Adam Rex</Artist>
 <Multiverseid>151987</Multiverseid>
-<Rulings>2013/06/07: If a permanent has multiple instances of persist, they'll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing.
-2013/06/07: If a creature with persist stops being a creature, persist will still work.
+<Rulings>2013/06/07: If a creature with persist stops being a creature, persist will still work.
 2013/06/07: The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it.
+2013/06/07: If a permanent has multiple instances of persist, they'll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing.
 2013/06/07: If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can't return to the battlefield.
 2013/06/07: When a permanent with persist returns to the battlefield, it's a new object with no memory of or connection to its previous existence.
 2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
@@ -4028,6 +4025,7 @@ Draw a card.</CardText>
 <Flavor>For a moment, objects of pure mana glimmered in the wonderstruck boggart's hands. In the next moment, they were in his mouth, as he chewed contentedly.</Flavor>
 <Artist>Jeff Miracola</Artist>
 <Multiverseid>153968</Multiverseid>
+<Rulings>2020/08/07: You choose which color or colors of mana to add to your mana pool before you draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4233,7 +4231,7 @@ Whenever you cast a green spell, Tattermunge Duo gains forestwalk until end of t
 <Flavor>The stench of bloodcap mushrooms on the breath is enough to ward off even the most potent magics, especially when combined with a special chant: "Hushhh."</Flavor>
 <Artist>Cyril Van Der Haegen</Artist>
 <Multiverseid>146016</Multiverseid>
-<Rulings>2008/05/01: After Vexing Shusher's ability resolves, any spells or abilities that would counter the targeted spell will still resolve. They just won't counter that spell.</Rulings>
+<Rulings>2020/08/07: A spell or ability that counters spells can still target spells that can't be countered. When that spell or ability resolves, the uncounterable spell won't be countered, but any additional effects of the countering spell or ability will still happen.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

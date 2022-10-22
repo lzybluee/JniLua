@@ -447,6 +447,9 @@ Each creature you control can block an additional creature each combat.</CardTex
 Exile target creature. Its controller creates a 1/1 colorless Shapeshifter creature token with changeling.</CardText>
 <Artist>Brandon Dorman</Artist>
 <Multiverseid>446758</Multiverseid>
+<Rulings>2020/08/07: Tribal is a card type (like creature or instant), not a supertype (like legendary).
+2020/08/07: Changeling applies in all zones, not just the battlefield.
+2020/08/07: If the target creature is an illegal target by the time Crib Swap tries to resolve, the spell won't resolve. No player will create a Shapeshifter token.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -775,9 +778,9 @@ Whenever Victory's Herald attacks, attacking creatures gain flying and lifelink 
 <Flavor>Its graceful glide paints the ocean floor with strokes of luminescence.</Flavor>
 <Artist>Jason Kang</Artist>
 <Multiverseid>446775</Multiverseid>
-<Rulings>2016/11/08: You can choose no targets if you don't want to double the counters on any permanents.
-2016/11/08: To double the number of each kind of counter on a permanent, put another counter on it for each counter it already has. Effects that interact with counters being put onto permanents (such as that of Corpsejack Menace or Fathom Mage) apply if appropriate. For example, if Corpsejack Menace has two +1/+1 counters and a divinity counter on it, Deepglow Skate's ability gives Corpsejack Menace four more +1/+1 counters and one more divinity counter.
-2016/11/08: As Deepglow Skate's ability resolves, you must double each kind of counter on the permanents it targets.</Rulings>
+<Rulings>2020/08/07: You can choose no targets if you don't want to double the counters on any permanents.
+2020/08/07: To double the number of each kind of counter on a permanent, put another counter on it for each counter it already has. Effects that interact with counters being put onto permanents apply as appropriate.
+2020/08/07: As Deepglow Skate's ability resolves, you must double each kind of counter on the permanents it targets.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander Anthology Volume II</Set>
@@ -1021,11 +1024,10 @@ Draw two cards, then proliferate. (Choose any number of permanents and/or player
 Whenever Thrummingbird deals combat damage to a player, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)</CardText>
 <Artist>Efrem Palacios</Artist>
 <Multiverseid>446788</Multiverseid>
-<Rulings>2011/01/01: You can choose any player that has a counter, including yourself.
-2011/01/01: You can choose any permanent that has a counter, including ones controlled by opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them, such as suspended cards or a Lightning Storm on the stack.
-2011/01/01: You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
-2011/01/01: If a permanent chosen this way has multiple kinds of counters on it, only a single new counter is put on that permanent.
-2011/01/01: Players can respond to the spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.</Rulings>
+<Rulings>2021/03/19: If a permanent has +1/+1 counters and -1/-1 counters on it, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+2021/03/19: To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+2021/03/19: You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+2021/03/19: Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3297,7 +3299,7 @@ Whenever a card is put into an opponent's graveyard from anywhere, put a +1/+1 c
 <Type>Legendary Creature — Kraken 5/8</Type>
 <ManaCost>{3}{U}{U}{B}</ManaCost>
 <CardText>Islandwalk, swampwalk (This creature can't be blocked as long as defending player controls an Island or a Swamp.)
-Whenever Wrexial, the Risen Deep deals combat damage to a player, you may cast target instant or sorcery card from that player's graveyard without paying its mana cost. If that spell would be put into a graveyard this turn, exile it instead.</CardText>
+Whenever Wrexial, the Risen Deep deals combat damage to a player, you may cast target instant or sorcery card from that player's graveyard without paying its mana cost. If that spell would be put into a graveyard, exile it instead.</CardText>
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>446907</Multiverseid>
 <Rulings>2010/03/01: If you want to cast the targeted card, you cast it as part of the resolution of Wrexial's triggered ability. Timing restrictions based on the card's type are ignored. Other restrictions are not (such as "Cast [this card] only during your end step").
@@ -3521,6 +3523,9 @@ Sacrifice Commander's Sphere: Draw a card.</CardText>
 <Flavor>It harmonizes with the essence of its master.</Flavor>
 <Artist>Ryan Alexander Lee</Artist>
 <Multiverseid>446918</Multiverseid>
+<Rulings>2020/11/10: If you have two commanders, the ability adds one mana of any color in their combined color identities.
+2020/11/10: If your commander is a card that has no colors in its color identity, Commander's Sphere's first ability produces no mana. It doesn't produce {C}.
+2020/11/10: If you don't have a commander, Commander's Sphere's first ability produces no mana.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander Anthology Volume II</Set>
@@ -3642,7 +3647,7 @@ When Epochrasite dies, exile it with three time counters on it and it gains susp
 <Name>Everflowing Chalice</Name>
 <Type>Artifact</Type>
 <ManaCost>{0}</ManaCost>
-<CardText>Multikicker {2}
+<CardText>Multikicker {2} (You may pay an additional {2} any number of times as you cast this spell.)
 Everflowing Chalice enters the battlefield with a charge counter on it for each time it was kicked.
 {T}: Add {C} for each charge counter on Everflowing Chalice.</CardText>
 <Artist>Steve Argyle</Artist>
@@ -3925,6 +3930,7 @@ Whenever Myr Battlesphere attacks, you may tap X untapped Myr you control. If yo
 <Flavor>Mephidross gives up treasure easily . . . as long as you take its place.</Flavor>
 <Artist>Trevor Hairsine</Artist>
 <Multiverseid>446939</Multiverseid>
+<Rulings>2020/08/07: If Myr Retriever dies at the same time as another artifact you own, its ability can target that other artifact card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

@@ -3904,6 +3904,7 @@ Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)
 —Elesh Norn, Grand Cenobite</Flavor>
 <Artist>Martina Pilcerova</Artist>
 <Multiverseid>370734</Multiverseid>
+<Rulings>2020/08/07: Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to an artifact creature you control may become lethal if Darksteel Forge leaves the battlefield during that turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4081,14 +4082,8 @@ Equip {4} ({4}: Attach to target creature you control. Equip only as a sorcery.)
 {T}, Sacrifice Ratchet Bomb: Destroy each nonland permanent with mana value equal to the number of charge counters on Ratchet Bomb.</CardText>
 <Artist>Austin Hsu</Artist>
 <Multiverseid>370623</Multiverseid>
-<Rulings>2011/01/01: As Ratchet Bomb's last ability resolves, its last existence on the battlefield is checked to determine how many charge counters were on it.
-2011/01/01: Ratchet Bomb's second ability destroys only those nonland permanents whose converted mana cost is exactly equal to the number of charge counters on Ratchet Bomb. It doesn't matter who controls them.
-2011/01/01: If Ratchet Bomb's second ability is activated while it has no charge counters on it, it will destroy each nonland permanent with converted mana cost 0.
-2011/01/01: The converted mana cost of a permanent is determined solely by the mana symbols printed in its upper right corner, unless it's copying something else (see below). The converted mana cost is the total amount of mana in that cost, regardless of color. For example, a card with mana cost {3}{U}{U} has converted mana cost 5.
-2011/01/01: If a permanent is copying something else, its converted mana cost is the converted mana cost of whatever it's copying.
-2011/01/01: In all cases, ignore any alternative costs or additional costs (such as kicker) paid when the permanent was cast.
-2011/01/01: If the mana cost of a permanent includes {X}, X is considered to be 0.
-2011/01/01: If a nonland permanent has no mana symbols in its upper right corner (because it's a token that's not copying something else, for example), its converted mana cost is 0.</Rulings>
+<Rulings>2020/08/07: Tokens that aren't a copy of something else don't have a mana cost. Anything without a mana cost normally has a mana value of 0.
+2020/08/07: If a permanent has {X} in its mana cost, X is considered to be 0.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4265,7 +4260,7 @@ Equip {4} ({4}: Attach to target creature you control. Equip only as a sorcery.)
 2018/03/16: If the triggered ability divides damage or distributes counters among a number of targets (for example, the ability of Bogardan Hellkite), the division and number of targets can't be changed. If you choose new targets, you must choose the same number of targets.
 2018/03/16: Any choices made when the triggered ability resolves won't have been made yet when it's copied. Any such choices will be made separately when the copy resolves. If the triggered ability asks you to pay a cost (such as that of Frenzied Goblin), you pay that cost for the copy.
 2018/03/16: If a triggered ability is linked to a second ability, copies of that triggered ability are also linked to that second ability. If the second ability refers to "the exiled card," it refers to all cards exiled by the triggered ability and the copy. For example, if Fiend Hunter's enters-the-battlefield ability is copied and two creatures are exiled, they both return when Fiend Hunter leaves the battlefield.
-2018/03/16: In some cases involving linked abilities, an ability requires information about "the exiled card." When this happens, the ability gets multiple answers. If these answers are being used to determine the value of a variable, the sum is used. For example, if Elite Arcanist's enters-the-battlefield ability is copied, two cards are exiled. The value of X in the activation cost of Elite Arcanist's other ability is the sum of the two cards' converted mana costs. As the ability resolves, you create copies of both cards and can cast none, one, or both of the copies in any order.</Rulings>
+2018/03/16: In some cases involving linked abilities, an ability requires information about "the exiled card." When this happens, the ability gets multiple answers. If these answers are being used to determine the value of a variable, the sum is used. For example, if Elite Arcanist's enters-the-battlefield ability is copied, two cards are exiled. The value of X in the activation cost of Elite Arcanist's other ability is the sum of the two cards' mana values. As the ability resolves, you create copies of both cards and can cast none, one, or both of the copies in any order.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

@@ -330,13 +330,12 @@ When Brilliant Halo is put into a graveyard from the battlefield, return Brillia
 <Flavor>When its power is threatened, the council speaks with a unified voice.</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>382896</Multiverseid>
-<Rulings>2014/05/29: Because the votes are cast in turn order, each player will know the votes of players who voted beforehand.
-2014/05/29: You must vote for one of the available options. You can't abstain.
-2014/05/29: None of the affected permanents are targeted. Players may vote for a permanent with protection from white, for example.
-2014/05/29: Players can't do anything after they finishing voting but before the spell or ability that included the vote finishes resolving.
-2014/05/29: The phrase "the vote is tied" refers only to when there is more than one choice that received the most votes. For example, if a 5-player vote from among three different choices ends 3 votes to 1 vote to 1 vote, the vote isn't tied.
-2014/05/29: No player votes until the spell or ability resolves. Any responses to that spell or ability must be made without knowing the outcome of the vote.
-2017/06/13: If a choice has no votes, it can't have the most votes. If all choices have zero votes, the voting ability has no effect.</Rulings>
+<Rulings>2020/08/07: Because the votes are cast in turn order, each player will know the votes of players who voted beforehand.
+2020/08/07: Each player must vote for one of the candidate permanents. They can't abstain.
+2020/08/07: No player votes until the spell or ability resolves. Any responses to that spell or ability must be made without knowing the outcome of the vote.
+2020/08/07: None of the candidate permanents are targeted. Players may vote for a permanent with protection from white, for example.
+2020/08/07: Players can't do anything after they finishing voting but before the "winning" permanent or permanents are exiled.
+2020/08/07: In the unusual case that no permanents have any votes, nothing is exiled.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Vintage Masters</Set>
@@ -1040,10 +1039,10 @@ Cycling {1}{U} ({1}{U}, Discard this card: Draw a card.)
 When you cycle Choking Tethers, you may tap target creature.</CardText>
 <Artist>Carl Critchlow</Artist>
 <Multiverseid>382887</Multiverseid>
-<Rulings>2008/10/01: You can cycle this card even if there are no targets for the triggered ability. That's because the cycling ability itself has no targets.
-2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
+<Rulings>2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
 2008/10/01: When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
-2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (due to being countered with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.</Rulings>
+2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (due to being countered with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.
+2008/10/01: You can cycle this card even if there are no targets for the triggered ability. That's because the cycling ability itself has no targets.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1153,6 +1152,12 @@ Flashback—{1}{U}, Pay 3 life. (You may cast this card from your graveyard for 
 <Flavor>"The specimen seems to be broken."</Flavor>
 <Artist>Daren Bader</Artist>
 <Multiverseid>382912</Multiverseid>
+<Rulings>2021/03/19: "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+2021/03/19: You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+2021/03/19: To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+2021/03/19: A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+2021/03/19: You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+2021/03/19: If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Vintage Masters</Set>
@@ -1227,7 +1232,7 @@ Storm (When you cast this spell, copy it for each spell cast before it this turn
 Counter target spell.</CardText>
 <Artist>Matt Stewart</Artist>
 <Multiverseid>382943</Multiverseid>
-<Rulings>2016/06/08: If another effect causes Force of Will to cost more, you must pay that additional cost even if you pay its alternative cost.</Rulings>
+<Rulings>2020/08/07: To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as the alternative cost of Force of Will), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Vintage Masters</Set>
@@ -1320,8 +1325,8 @@ Draw two cards.</CardText>
 [-12]: Exile all cards from target player's library, then that player shuffles their hand into their library.</CardText>
 <Artist>Jason Chan</Artist>
 <Multiverseid>382979</Multiverseid>
-<Rulings>2018/03/16: You draw three cards and put two cards back all while Jace's second ability is resolving. Nothing can happen between the two, and no player may choose to take actions.
-2018/03/16: If the targeted player for Jace's last ability has no cards in hand, that player shuffles nothing into their library, and that player's library will remain empty. That player won't lose the game until they try to draw from the empty library.</Rulings>
+<Rulings>2020/08/07: You draw three cards and put two cards back all while Jace's second ability is resolving. Nothing can happen between the two, and no player may choose to take actions.
+2020/08/07: If the target player for Jace's last ability has no cards in hand, that player shuffles nothing into their library, and that player's library will remain empty. That player won't lose the game until they try to draw from the empty library.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3943,6 +3948,8 @@ Krosan Vorine can't be blocked by more than one creature.</CardText>
 <Flavor>Nature's secrets can be read on every tree, every branch, every leaf.</Flavor>
 <Artist>Terese Nielsen</Artist>
 <Multiverseid>383026</Multiverseid>
+<Rulings>2004/10/04: Because the "search" requires you to find a card with certain characteristics, you don't have to find the card if you don't want to.
+2008/08/01: You can find any card with the land type Forest, including Snow-covered Forest or non-Basic lands like Tropical Island, Murmuring Bosk, or Stomping Ground. You can even find a card that is a land in addition to other types, such as Dryad Arbor.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Vintage Masters</Set>
@@ -4481,8 +4488,8 @@ Whenever Brago, King Eternal deals combat damage to a player, exile any number o
 —Marchesa, the Black Rose</Flavor>
 <Artist>Steve Argyle</Artist>
 <Multiverseid>382910</Multiverseid>
-<Rulings>2014/05/29: Deathreap Ritual's ability has an intervening "if" clause, so a creature must have died before the end step begins in order for the ability to trigger. Notably, this means that the trigger won't be on the stack for you to respond to by destroying a creature.
-2014/05/29: You draw one card when the ability resolves, not one card per creature that died during the turn.</Rulings>
+<Rulings>2020/08/07: If a creature didn't die before a turn's end step begins, Deathreap Ritual's ability doesn't trigger at all. The creature may have died before Deathreap Ritual entered the battlefield, however.
+2020/08/07: You draw one card when the ability resolves, not one card per creature that died during the turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Vintage Masters</Set>
@@ -4879,7 +4886,7 @@ Players can't cast spells or play lands with a name originally printed in the Ar
 {T}: Add {C}{C}.</CardText>
 <Artist>Matt Stewart</Artist>
 <Multiverseid>383005</Multiverseid>
-<Rulings>2016/06/08: No player may choose to take actions between determining the result of the flip and damage being dealt if you lost the flip.</Rulings>
+<Rulings>2020/08/07: No player may choose to take actions between determining the result of the flip and damage being dealt if you lost the flip.</Rulings>
 <Vintage>Restricted</Vintage>
 <Legacy>Banned</Legacy>
 <Set>Vintage Masters</Set>

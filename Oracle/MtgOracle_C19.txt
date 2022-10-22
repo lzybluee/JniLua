@@ -1309,7 +1309,7 @@ Flashback {5}{W}{W} (You may cast this card from your graveyard for its flashbac
 <Rulings>2017/04/18: All split cards have two card faces on a single card, and you put a split card onto the stack with only the half you're casting. The characteristics of the half of the card you didn't cast are ignored while the spell is on the stack. For example, if an effect prevents you from casting green spells, you can cast Destined of Destined // Lead, but not Lead.
 2017/04/18: Each split card is a single card. For example, if you discard one, you've discarded one card, not two. If an effect counts the number of instant and sorcery cards in your graveyard, Destined // Lead counts once, not twice.
 2017/04/18: Each split card has two names. If an effect instructs you to choose a card name, you may choose one, but not both.
-2017/04/18: While not on the stack, the characteristics of a split card are the combination of its two halves. For example, Destined // Lead is a green and black card, it is both an instant card and a sorcery card, and its converted mana cost is 6. This means that if an effect allows you to cast a card with converted mana cost 2 from your hand, you can't cast Destined. This is a change from the previous rules for split cards.
+2017/04/18: While not on the stack, the characteristics of a split card are the combination of its two halves. For example, Destined // Lead is a green and black card, it is both an instant card and a sorcery card, and its mana value is 6. This means that if an effect allows you to cast a card with mana value 2 from your hand, you can't cast Destined. This is a change from the previous rules for split cards.
 2017/04/18: Split cards with aftermath have a new frame treatment—the half you can cast from your hand is oriented the same as other cards you'd cast from your hand, while the half you can cast from your graveyard is a traditional split card half. This frame treatment is for your convenience and has no rules significance.
 2017/04/18: If another effect allows you to cast a split card with aftermath from any zone other than a graveyard, you can't cast the half with aftermath.
 2017/04/18: If another effect allows you to cast a split card with aftermath from a graveyard, you may cast either half. If you cast the half that has aftermath, you'll exile the card if it would leave the stack.
@@ -1337,7 +1337,7 @@ Return all creature cards with power 2 or less from your graveyard to your hand.
 <Rulings>2017/04/18: All split cards have two card faces on a single card, and you put a split card onto the stack with only the half you're casting. The characteristics of the half of the card you didn't cast are ignored while the spell is on the stack. For example, if an effect prevents you from casting green spells, you can cast Destined of Destined // Lead, but not Lead.
 2017/04/18: Each split card is a single card. For example, if you discard one, you've discarded one card, not two. If an effect counts the number of instant and sorcery cards in your graveyard, Destined // Lead counts once, not twice.
 2017/04/18: Each split card has two names. If an effect instructs you to choose a card name, you may choose one, but not both.
-2017/04/18: While not on the stack, the characteristics of a split card are the combination of its two halves. For example, Destined // Lead is a green and black card, it is both an instant card and a sorcery card, and its converted mana cost is 6. This means that if an effect allows you to cast a card with converted mana cost 2 from your hand, you can't cast Destined. This is a change from the previous rules for split cards.
+2017/04/18: While not on the stack, the characteristics of a split card are the combination of its two halves. For example, Destined // Lead is a green and black card, it is both an instant card and a sorcery card, and its mana value is 6. This means that if an effect allows you to cast a card with mana value 2 from your hand, you can't cast Destined. This is a change from the previous rules for split cards.
 2017/04/18: Split cards with aftermath have a new frame treatment—the half you can cast from your hand is oriented the same as other cards you'd cast from your hand, while the half you can cast from your graveyard is a traditional split card half. This frame treatment is for your convenience and has no rules significance.
 2017/04/18: If another effect allows you to cast a split card with aftermath from any zone other than a graveyard, you can't cast the half with aftermath.
 2017/04/18: If another effect allows you to cast a split card with aftermath from a graveyard, you may cast either half. If you cast the half that has aftermath, you'll exile the card if it would leave the stack.
@@ -1383,13 +1383,9 @@ Destroy all nontoken creatures.</CardText>
 <Flavor>Those who are chosen do not doubt. Those who remain do not lament.</Flavor>
 <Artist>Joseph Meehan</Artist>
 <Multiverseid>470611</Multiverseid>
-<Rulings>2018/10/05: Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
-2018/10/05: You can tap an untapped creature you haven't controlled continuously since the beginning of your most recent turn to convoke a spell.
-2018/10/05: Convoke doesn't change a spell's mana cost or converted mana cost.
-2018/10/05: When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated.
-2018/10/05: Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
-2018/10/05: When using convoke to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap creatures you control to help pay that cost. For example, if you cast Worldsoul Colossus (a spell with convoke and mana cost {X}{G}{W}) and choose X to be 3, the total cost is {3}{G}{W}. If you tap two green creatures and two white creatures, you'll have to pay {1}.
-2018/10/05: If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.</Rulings>
+<Rulings>2021/03/19: You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+2021/03/19: When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+2021/03/19: If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1755,6 +1751,12 @@ Flashback—{1}{U}, Pay 3 life. (You may cast this card from your graveyard for 
 <Flavor>"The specimen seems to be broken."</Flavor>
 <Artist>Jesper Ejsing</Artist>
 <Multiverseid>470629</Multiverseid>
+<Rulings>2021/03/19: "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+2021/03/19: You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+2021/03/19: To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+2021/03/19: A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+2021/03/19: You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+2021/03/19: If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander 2019</Set>
@@ -1937,7 +1939,7 @@ Retrace (You may cast this card from your graveyard by discarding a land card in
 <CardText>Exile target creature. Its controller manifests the top card of their library. (That player puts the top card of their library onto the battlefield face down as a 2/2 creature. If it's a creature card, it can be turned face up any time for its mana cost.)</CardText>
 <Artist>Howard Lyon</Artist>
 <Multiverseid>470638</Multiverseid>
-<Rulings>2014/11/24: The face-down permanent is a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a converted mana cost of 0. Other effects that apply to the permanent can still grant or change any of these characteristics.
+<Rulings>2014/11/24: The face-down permanent is a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the permanent can still grant or change any of these characteristics.
 2014/11/24: Any time you have priority, you may turn a manifested creature face up by revealing that it's a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn't use the stack and can't be responded to.
 2014/11/24: If a manifested creature would have morph if it were face up, you may also turn it face up by paying its morph cost.
 2014/11/24: Unlike a face-down creature that was cast using the morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
@@ -1949,7 +1951,7 @@ Retrace (You may cast this card from your graveyard by discarding a land card in
 2014/11/24: If a face-down permanent you control leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends.
 2014/11/24: You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for indicating this include using markers or dice, or simply placing them in order on the battlefield. You must also track how each became face down (manifested, cast face down using the morph ability, and so on).
 2014/11/24: There are no cards in the Fate Reforged set that would turn a face-down instant or sorcery card on the battlefield face up, but some older cards can try to do this. If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it's an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won't trigger, because even though you revealed the card, it never turned face up.
-2014/11/24: Some older Magic sets feature double-faced cards, which have a Magic card face on each side rather than a Magic card face on one side and a Magic card back on the other. The rules for double-faced cards are changing slightly to account for the possibility that they are manifested. If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, it can't transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up. A double-faced permanent on the battlefield still can't be turned face down.</Rulings>
+2014/11/24: If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, it can't transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2420,10 +2422,9 @@ Create three tapped 2/2 black Zombie creature tokens and you gain 3 life. If thi
 {X}{B}: Put target artifact or creature card with mana value X from an opponent's graveyard onto the battlefield under your control tapped. Then that player mills X cards.</CardText>
 <Artist>Whit Brachna</Artist>
 <Multiverseid>470660</Multiverseid>
-<Rulings>2011/01/01: If the player has fewer than X cards in their library, they put all cards from their library into their graveyard.
-2011/01/01: The converted mana cost of a card in a graveyard is determined solely by the mana symbols printed in its upper right corner. The converted mana cost is the total amount of mana in that cost, regardless of color. For example, a card with mana cost {3}{U}{U} has converted mana cost 5. If the mana cost of a card in a graveyard includes {X}, X is considered to be 0.
-2011/01/01: The X in Geth's activation cost must be exactly the converted mana cost of the targeted artifact or creature card. You can't pay more than X to put more cards from the opponent's library into their graveyard.
-2011/01/01: If the targeted artifact or creature card leaves the graveyard by the time the ability resolves, the ability doesn't resolve. The player won't put any cards into his graveyard.</Rulings>
+<Rulings>2020/08/07: If a card in a player's graveyard has {X} in its mana cost, X is considered to be 0.
+2020/08/07: The target card must have mana value exactly X. You can't overpay to have the player mill more cards.
+2020/08/07: In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any spells and/or permanents you control from Geth's last ability are exiled.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4541,6 +4542,9 @@ Sacrifice Commander's Sphere: Draw a card.</CardText>
 <Flavor>It harmonizes with the essence of its master.</Flavor>
 <Artist>Ryan Alexander Lee</Artist>
 <Multiverseid>470758</Multiverseid>
+<Rulings>2020/11/10: If you have two commanders, the ability adds one mana of any color in their combined color identities.
+2020/11/10: If your commander is a card that has no colors in its color identity, Commander's Sphere's first ability produces no mana. It doesn't produce {C}.
+2020/11/10: If you don't have a commander, Commander's Sphere's first ability produces no mana.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander 2019</Set>
@@ -4783,7 +4787,7 @@ When Solemn Simulacrum dies, you may draw a card.</CardText>
 2018/03/16: If the triggered ability divides damage or distributes counters among a number of targets (for example, the ability of Bogardan Hellkite), the division and number of targets can't be changed. If you choose new targets, you must choose the same number of targets.
 2018/03/16: Any choices made when the triggered ability resolves won't have been made yet when it's copied. Any such choices will be made separately when the copy resolves. If the triggered ability asks you to pay a cost (such as that of Frenzied Goblin), you pay that cost for the copy.
 2018/03/16: If a triggered ability is linked to a second ability, copies of that triggered ability are also linked to that second ability. If the second ability refers to "the exiled card," it refers to all cards exiled by the triggered ability and the copy. For example, if Fiend Hunter's enters-the-battlefield ability is copied and two creatures are exiled, they both return when Fiend Hunter leaves the battlefield.
-2018/03/16: In some cases involving linked abilities, an ability requires information about "the exiled card." When this happens, the ability gets multiple answers. If these answers are being used to determine the value of a variable, the sum is used. For example, if Elite Arcanist's enters-the-battlefield ability is copied, two cards are exiled. The value of X in the activation cost of Elite Arcanist's other ability is the sum of the two cards' converted mana costs. As the ability resolves, you create copies of both cards and can cast none, one, or both of the copies in any order.</Rulings>
+2018/03/16: In some cases involving linked abilities, an ability requires information about "the exiled card." When this happens, the ability gets multiple answers. If these answers are being used to determine the value of a variable, the sum is used. For example, if Elite Arcanist's enters-the-battlefield ability is copied, two cards are exiled. The value of X in the activation cost of Elite Arcanist's other ability is the sum of the two cards' mana values. As the ability resolves, you create copies of both cards and can cast none, one, or both of the copies in any order.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

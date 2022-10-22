@@ -423,13 +423,12 @@ As long as every card in your card pool started the game in your library or in t
 <Flavor>When its power is threatened, the council speaks with a unified voice.</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>382239</Multiverseid>
-<Rulings>2014/05/29: Because the votes are cast in turn order, each player will know the votes of players who voted beforehand.
-2014/05/29: You must vote for one of the available options. You can't abstain.
-2014/05/29: None of the affected permanents are targeted. Players may vote for a permanent with protection from white, for example.
-2014/05/29: Players can't do anything after they finishing voting but before the spell or ability that included the vote finishes resolving.
-2014/05/29: The phrase "the vote is tied" refers only to when there is more than one choice that received the most votes. For example, if a 5-player vote from among three different choices ends 3 votes to 1 vote to 1 vote, the vote isn't tied.
-2014/05/29: No player votes until the spell or ability resolves. Any responses to that spell or ability must be made without knowing the outcome of the vote.
-2017/06/13: If a choice has no votes, it can't have the most votes. If all choices have zero votes, the voting ability has no effect.</Rulings>
+<Rulings>2020/08/07: Because the votes are cast in turn order, each player will know the votes of players who voted beforehand.
+2020/08/07: Each player must vote for one of the candidate permanents. They can't abstain.
+2020/08/07: No player votes until the spell or ability resolves. Any responses to that spell or ability must be made without knowing the outcome of the vote.
+2020/08/07: None of the candidate permanents are targeted. Players may vote for a permanent with protection from white, for example.
+2020/08/07: Players can't do anything after they finishing voting but before the "winning" permanent or permanents are exiled.
+2020/08/07: In the unusual case that no permanents have any votes, nothing is exiled.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Conspiracy</Set>
@@ -983,8 +982,8 @@ Whenever Brago, King Eternal deals combat damage to a player, exile any number o
 —Marchesa, the Black Rose</Flavor>
 <Artist>Steve Argyle</Artist>
 <Multiverseid>382248</Multiverseid>
-<Rulings>2014/05/29: Deathreap Ritual's ability has an intervening "if" clause, so a creature must have died before the end step begins in order for the ability to trigger. Notably, this means that the trigger won't be on the stack for you to respond to by destroying a creature.
-2014/05/29: You draw one card when the ability resolves, not one card per creature that died during the turn.</Rulings>
+<Rulings>2020/08/07: If a creature didn't die before a turn's end step begins, Deathreap Ritual's ability doesn't trigger at all. The creature may have died before Deathreap Ritual entered the battlefield, however.
+2020/08/07: You draw one card when the ability resolves, not one card per creature that died during the turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Conspiracy</Set>
@@ -2386,7 +2385,8 @@ When Liliana's Specter enters the battlefield, each opponent discards a card.</C
 —Hildin, priest of Avacyn</Flavor>
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>382312</Multiverseid>
-<Rulings>2011/09/22: The morbid ability is mandatory. If there are no other creatures on the battlefield when the ability triggers (and a creature died this turn), the ability must target Morkrut Banshee itself.</Rulings>
+<Rulings>2020/08/07: Morkrut Banshee's morbid ability triggers only once, not once for each creature that has died this turn. If no creatures have died by the time it enters the battlefield, its ability won't trigger at all.
+2020/08/07: If there are no other creatures on the battlefield when the morbid ability triggers, the ability must target Morkrut Banshee itself.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3234,6 +3234,7 @@ Forestcycling {2} ({2}, Discard this card: Search your library for a Forest card
 —Cyrul the Wanderer</Flavor>
 <Artist>Florian de Gesincourt</Artist>
 <Multiverseid>382262</Multiverseid>
+<Rulings>2020/08/07: Exploration's ability is cumulative if you control more than one. It's also cumulative with other effects that let you play additional lands, such as the one from Dryad of the Ilysian Grove.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Conspiracy</Set>

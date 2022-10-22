@@ -27,7 +27,7 @@ When Cataclysmic Gearhulk enters the battlefield, each player chooses an artifac
 <Type>Artifact Creature — Construct 5/6</Type>
 <ManaCost>{4}{U}{U}</ManaCost>
 <CardText>Flash
-When Torrential Gearhulk enters the battlefield, you may cast target instant card from your graveyard without paying its mana cost. If that spell would be put into your graveyard this turn, exile it instead.</CardText>
+When Torrential Gearhulk enters the battlefield, you may cast target instant card from your graveyard without paying its mana cost. If that spell would be put into your graveyard, exile it instead.</CardText>
 <Artist>Jakub Kasper</Artist>
 <Multiverseid>420589</Multiverseid>
 <Rulings>2016/09/20: If you cast the card, you do so as part of the resolution of Torrential Gearhulk's triggered ability. You can't wait to cast it later in the turn. Timing restrictions (such as "Cast [this card] only during combat") still apply.
@@ -298,7 +298,7 @@ Equip {0}</CardText>
 <Flavor>An utterly silent chamber, submitted by an artificer who wished to remain anonymous.</Flavor>
 <Artist>Volkan Baǵa</Artist>
 <Multiverseid>420603</Multiverseid>
-<Rulings>2016/06/08: No player may choose to take actions between determining the result of the flip and damage being dealt if you lost the flip.</Rulings>
+<Rulings>2020/08/07: No player may choose to take actions between determining the result of the flip and damage being dealt if you lost the flip.</Rulings>
 <Vintage>Restricted</Vintage>
 <Legacy>Banned</Legacy>
 <Set>Kaladesh Inventions</Set>
@@ -350,6 +350,7 @@ At the beginning of your draw step, if Mana Vault is tapped, it deals 1 damage t
 <Flavor>On loan from a private collection, this unique mechanism extracts power from a carefully prepared gemstone.</Flavor>
 <Artist>Chris Rahn</Artist>
 <Multiverseid>420606</Multiverseid>
+<Rulings>2020/08/07: If you control Mox Opal and one other artifact, then have a second Mox Opal enter the battlefield as your third artifact, you can't activate either one's mana ability before putting one into your graveyard due to the "legend rule."</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Banned</Modern>
@@ -521,7 +522,8 @@ Whenever equipped creature deals combat damage to a player, that player discards
 Equip {2}</CardText>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>420615</Multiverseid>
-<Rulings>2011/06/01: You'll untap all lands you control even if the player doesn't discard a card.</Rulings>
+<Rulings>2020/08/07: You'll untap all lands you control even if the player can't discard a card.
+2020/08/07: You can tap your lands for mana while the triggered ability is on the stack. However, you'll lose any mana you produce this way if you don't spend it before the end of the current combat damage step.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -540,7 +542,7 @@ Whenever equipped creature deals combat damage to a player, Sword of Fire and Ic
 Equip {2}</CardText>
 <Artist>Volkan Baǵa</Artist>
 <Multiverseid>420616</Multiverseid>
-<Rulings>2013/06/07: The triggered ability has one target: the permanent or player to be dealt 2 damage. If that permanent or player is an illegal target when the ability tries to resolve, it won't resolve and none of its effects will happen. You won't draw a card.</Rulings>
+<Rulings>2020/08/07: If the chosen target is an illegal target by the time the triggered ability tries to resolve, the ability won't resolve. You won't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -559,7 +561,8 @@ Whenever equipped creature deals combat damage to a player, you gain 3 life and 
 Equip {2}</CardText>
 <Artist>Matt Stewart</Artist>
 <Multiverseid>420617</Multiverseid>
-<Rulings>2013/06/07: You may put the triggered ability with no targets. However, If you choose a target creature in your graveyard, and that card is an illegal target when the ability tries to resolve, it won't resolve and none of its effects will happen. You won't gain 3 life.</Rulings>
+<Rulings>2020/08/07: If you choose a target creature card in your graveyard and that card is an illegal target by the time the triggered ability tries to resolve, the ability won't resolve. You won't gain 3 life. If you don't choose a target at all, you just gain 3 life.
+2020/08/07: The triggered ability can target a creature card that was put into your graveyard as a result of state-based actions immediately after the combat damage that caused the ability to trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -677,10 +680,10 @@ As long as a card exiled with Duplicant is a creature card, Duplicant has the po
 {2}, Sacrifice Engineered Explosives: Destroy each nonland permanent with mana value equal to the number of charge counters on Engineered Explosives.</CardText>
 <Artist>James Paick</Artist>
 <Multiverseid>425807</Multiverseid>
-<Rulings>2004/12/01: If Engineered Explosives had no charge counters on it when you sacrificed it, it won't destroy an animated land, because that permanent is a land in addition to being a creature.
-2018/12/07: You can choose any value for X as you cast Engineered Explosives. The value chosen for X doesn't directly affect the number of charge counters Engineered Explosives enters the battlefield with, but it does let you pay more mana and thus spend more colors of mana to cast it.
-2018/12/07: Colorless mana won't give Engineered Explosives another charge counter. Colorless is not a color.
-2018/12/07: A token has a converted mana cost of 0 unless it is copying something else.</Rulings>
+<Rulings>2020/08/07: You can choose any value for X as you cast Engineered Explosives. The value chosen for X doesn't directly affect the number of charge counters Engineered Explosives enters the battlefield with, but it does let you pay more mana and thus spend more colors of mana to cast it.
+2020/08/07: Colorless mana won't give Engineered Explosives another charge counter. Colorless is not a color.
+2020/08/07: Tokens that aren't a copy of something else don't have a mana cost. Anything without a mana cost normally has a mana value of 0.
+2020/08/07: If a permanent has {X} in its mana cost, X is considered to be 0.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -699,7 +702,7 @@ As long as a card exiled with Duplicant is a creature card, Duplicant has the po
 —Consulate engineer's log</Flavor>
 <Artist>Florian de Gesincourt</Artist>
 <Multiverseid>425808</Multiverseid>
-<Rulings>2018/03/16: Ensnaring Bridge's effect checks the number of cards in your hand only while a player (including you) is declaring attackers. Once a creature has legally attacked, changing its power or the number of cards in your hand won't remove it from combat.</Rulings>
+<Rulings>2020/08/07: Ensnaring Bridge's effect checks the number of cards in your hand only while a player (including you) is declaring attackers. Once a creature has legally attacked, changing its power or the number of cards in your hand won't remove it from combat.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -928,10 +931,10 @@ You can't lose the game and your opponents can't win the game.</CardText>
 —Consulate engineer's log</Flavor>
 <Artist>Lius Lasahido</Artist>
 <Multiverseid>425820</Multiverseid>
-<Rulings>2018/03/16: Sundering Titan's ability isn't targeted. When it resolves, Sundering Titan's controller must choose one land for each basic land type (Plains, Island, Swamp, Mountain, and Forest), and then they are destroyed simultaneously.
-2018/03/16: Players can't take actions in between the time you choose the lands and the time you destroy them. Notably, they can't activate mana abilities of those lands.
-2018/03/16: If one of the basic land types isn't present, it isn't chosen. If the only land of a certain type is one you control, you must choose it.
-2018/03/16: If a land has more than one basic land type, it can be chosen more than once.</Rulings>
+<Rulings>2020/08/07: Sundering Titan's ability isn't targeted. When it resolves, Sundering Titan's controller must choose one land for each basic land type (Plains, Island, Swamp, Mountain, and Forest), and then they are destroyed simultaneously.
+2020/08/07: Players can't take actions in between the time you choose the lands and the time you destroy them. Notably, they can't activate mana abilities of those lands.
+2020/08/07: If one of the basic land types isn't present, it isn't chosen. If the only land of a certain type is one you control, you must choose it.
+2020/08/07: If a land has more than one basic land type, it can be chosen more than once.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -988,11 +991,8 @@ Equip {2}</CardText>
 —Confiscation directive</Flavor>
 <Artist>Daniel Ljunggren</Artist>
 <Multiverseid>425823</Multiverseid>
-<Rulings>2004/12/01: Trinisphere's ability affects the total cost of the spell. It is applied *after* any other cost increasers or cost reducers are applied: First apply any cost increases. Next apply any cost reducers. Finally look at the amount of mana you have to pay. If it's less than three mana, you'll pay three mana.
-2004/12/01: Even with a cost reducer on the battlefield, spells can't cost less than three mana to cast.
-2004/12/01: If a spell costs at least three mana due to additional costs, such as kicker costs, that's fine.
-2004/12/01: You still need to pay any additional nonmana costs the spell has, such as sacrificing a creature or discarding cards.
-2004/12/01: Casting a creature with morph face down already costs three mana, even though the converted mana cost of the face-down spell is zero, so Trinisphere normally doesn't modify the total cost of a face-down creature spell. However, if Dream Chisel is reducing that cost while Trinisphere is on the battlefield, you'll still have to pay three mana for the spell.</Rulings>
+<Rulings>2020/08/07: To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. Finally, apply Trinisphere's effect if the mana component of the spell's cost is less than three mana. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+2020/08/07: If Trinisphere leaves the battlefield or becomes tapped or untapped as a cost to cast a spell, this cost is paid after you've locked in the total cost.</Rulings>
 <Vintage>Restricted</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

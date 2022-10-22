@@ -122,9 +122,8 @@ When Sanctum Gargoyle enters the battlefield, you may return target artifact car
 <Flavor>"Wasted potential surrounds us. Lend me that bauble, and let me see what it can be made to be."</Flavor>
 <Artist>Chippy</Artist>
 <Multiverseid>220510</Multiverseid>
-<Rulings>2009/02/01: Returning an artifact you control to its owner's hand is part of the cost of Master Transmuter's activated ability. Paying a cost can't be responded to (with Naturalize, for example).
-2009/02/01: Since Master Transmuter is an artifact, you may return Master Transmuter itself to your hand. If you do, the rest of the ability will still work normally.
-2009/02/01: The artifact card you put onto the battlefield when the ability resolves may be the same card that you returned to your hand when you paid the cost. If so, it returns to the battlefield as a new object with no relation to its previous existence.</Rulings>
+<Rulings>2020/08/07: Master Transmuter can be returned to its owner's hand to pay the cost of its activated ability.
+2020/08/07: The artifact card you put onto the battlefield when the ability resolves may be the same card that you returned to your hand when you paid the cost. If so, it returns to the battlefield as a new object with no relation to its previous existence.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1013,7 +1012,7 @@ Protection from black
 <CardText>When Fierce Empath enters the battlefield, you may search your library for a creature card with mana value 6 or greater, reveal it, put it into your hand, then shuffle.</CardText>
 <Artist>Alan Pollack</Artist>
 <Multiverseid>220475</Multiverseid>
-<Rulings>2020/06/23: If a card in a player's library has {X} in its mana cost, X is considered to be 0.</Rulings>
+<Rulings>2020/08/07: If a card in a player's library has {X} in its mana cost, X is considered to be 0.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2014,7 +2013,7 @@ As long as a card exiled with Duplicant is a creature card, Duplicant has the po
 <Name>Everflowing Chalice</Name>
 <Type>Artifact</Type>
 <ManaCost>{0}</ManaCost>
-<CardText>Multikicker {2}
+<CardText>Multikicker {2} (You may pay an additional {2} any number of times as you cast this spell.)
 Everflowing Chalice enters the battlefield with a charge counter on it for each time it was kicked.
 {T}: Add {C} for each charge counter on Everflowing Chalice.</CardText>
 <Artist>Steve Argyle</Artist>
@@ -2223,10 +2222,10 @@ At the beginning of each upkeep, you may remove a charge counter from Sun Drople
 <CardText>When Sundering Titan enters or leaves the battlefield, choose a land of each basic land type, then destroy those lands.</CardText>
 <Artist>Jim Murray</Artist>
 <Multiverseid>220533</Multiverseid>
-<Rulings>2018/03/16: Sundering Titan's ability isn't targeted. When it resolves, Sundering Titan's controller must choose one land for each basic land type (Plains, Island, Swamp, Mountain, and Forest), and then they are destroyed simultaneously.
-2018/03/16: Players can't take actions in between the time you choose the lands and the time you destroy them. Notably, they can't activate mana abilities of those lands.
-2018/03/16: If one of the basic land types isn't present, it isn't chosen. If the only land of a certain type is one you control, you must choose it.
-2018/03/16: If a land has more than one basic land type, it can be chosen more than once.</Rulings>
+<Rulings>2020/08/07: Sundering Titan's ability isn't targeted. When it resolves, Sundering Titan's controller must choose one land for each basic land type (Plains, Island, Swamp, Mountain, and Forest), and then they are destroyed simultaneously.
+2020/08/07: Players can't take actions in between the time you choose the lands and the time you destroy them. Notably, they can't activate mana abilities of those lands.
+2020/08/07: If one of the basic land types isn't present, it isn't chosen. If the only land of a certain type is one you control, you must choose it.
+2020/08/07: If a land has more than one basic land type, it can be chosen more than once.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2430,7 +2429,8 @@ Graft 1 (This land enters the battlefield with a +1/+1 counter on it. Whenever a
 <No>130</No>
 <Name>Mosswort Bridge</Name>
 <Type>Land</Type>
-<CardText>Hideaway (This land enters the battlefield tapped. When it does, look at the top four cards of your library, exile one face down, then put the rest on the bottom of your library.)
+<CardText>Hideaway 4 (When this land enters the battlefield, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.)
+Mosswort Bridge enters the battlefield tapped.
 {T}: Add {G}.
 {G}, {T}: You may play the exiled card without paying its mana cost if creatures you control have total power 10 or greater.</CardText>
 <Artist>Jeremy Jarvis</Artist>

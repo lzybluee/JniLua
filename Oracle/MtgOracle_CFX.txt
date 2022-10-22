@@ -462,7 +462,7 @@ At the beginning of your upkeep, return an artifact you control to its owner's h
 <Flavor>The more metal it digests, the more its jelly will fetch on the alchemists' market.</Flavor>
 <Artist>Warren Mahy</Artist>
 <Multiverseid>180158</Multiverseid>
-<Rulings>2009/02/01: When Esperzoa's ability resolves, if you control no other artifacts, you'll have to return Esperzoa itself.</Rulings>
+<Rulings>2020/08/07: When Esperzoa's ability resolves, if you control no other artifacts, you'll have to return Esperzoa itself.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -573,9 +573,8 @@ Shroud (This creature can't be the target of spells or abilities.)</CardText>
 <Flavor>"Wasted potential surrounds us. Lend me that bauble, and let me see what it can be made to be."</Flavor>
 <Artist>Chippy</Artist>
 <Multiverseid>179252</Multiverseid>
-<Rulings>2009/02/01: Returning an artifact you control to its owner's hand is part of the cost of Master Transmuter's activated ability. Paying a cost can't be responded to (with Naturalize, for example).
-2009/02/01: Since Master Transmuter is an artifact, you may return Master Transmuter itself to your hand. If you do, the rest of the ability will still work normally.
-2009/02/01: The artifact card you put onto the battlefield when the ability resolves may be the same card that you returned to your hand when you paid the cost. If so, it returns to the battlefield as a new object with no relation to its previous existence.</Rulings>
+<Rulings>2020/08/07: Master Transmuter can be returned to its owner's hand to pay the cost of its activated ability.
+2020/08/07: The artifact card you put onto the battlefield when the ability resolves may be the same card that you returned to your hand when you paid the cost. If so, it returns to the battlefield as a new object with no relation to its previous existence.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -594,7 +593,8 @@ When Parasitic Strix enters the battlefield, if you control a black permanent, t
 <Flavor>After finding no sustenance on the edges of Grixis, it turned to the skies of Bant.</Flavor>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>175021</Multiverseid>
-<Rulings>2009/02/01: The "intervening 'if' clause" means that (1) the ability won't trigger at all unless you control a permanent of the specified color, and (2) the ability will do nothing unless you control a permanent of the specified color at the time it resolves.</Rulings>
+<Rulings>2020/08/07: If you don't control a black permanent immediately after Parasitic Strix enters the battlefield, its ability doesn't trigger. If you don't control one as the ability resolves, no player loses or gains life. It doesn't have to be the same black permanent both times, however.
+2020/08/07: Parasitic Strix's ability triggers only once, no matter how many black permanents you control beyond the first.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1645,6 +1645,10 @@ Devour 1 (As this enters the battlefield, you may sacrifice any number of creatu
 <Flavor>She protects the sacred groves from blight, drought, and the Unbeholden.</Flavor>
 <Artist>Mark Zug</Artist>
 <Multiverseid>179434</Multiverseid>
+<Rulings>2020/08/07: If you declare exactly one creature as an attacker, each exalted ability on each permanent you control (including, perhaps, the attacking creature itself) will trigger.
+2020/08/07: You must attack with exactly one creature for exalted abilities to trigger. Exalted abilities won't trigger if you attack a player with one creature and a planeswalker with another, for example, or if you attack with two creatures but one is removed from combat.
+2020/08/07: Some effects put creatures onto the battlefield attacking. Since those creatures were never declared as attackers, they're ignored by exalted abilities. They won't cause exalted abilities to trigger. If any exalted abilities have already triggered (because exactly one creature was declared as an attacker), those abilities will resolve as normal even though there may now be multiple attackers.
+2020/08/07: In a Two-Headed Giant game, a creature "attacks alone" if it's the only creature declared as an attacker by your entire team. If you control that attacking creature, your exalted abilities will trigger but your teammate's exalted abilities won't.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

@@ -836,14 +836,12 @@ Counter target spell unless its controller pays {3}.</CardText>
 —Tezzeret</Flavor>
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>423706</Multiverseid>
-<Rulings>2017/02/09: Improvise doesn't change a spell's mana cost or converted mana cost.
-2017/02/09: When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Improvise applies after the total cost is calculated.
-2017/02/09: Because improvise isn't an alternative cost, it can be used in conjunction with alternative costs.
-2017/02/09: Improvise can't pay for {W}, {U}, {B}, {R}, {G}, or {C} mana symbols in a spell's total cost.
-2017/02/09: Improvise can't be used to pay for anything other than the cost of casting the spell. For example, it can't be used during the resolution of an ability that says "Counter target spell unless its controller pays {3}."
-2017/02/09: If an artifact you control has a mana ability with {T} in the cost, activating that ability while casting a spell with improvise will result in the artifact being tapped when you pay the spell's costs. You won't be able to tap it again for improvise. Similarly, if you sacrifice an artifact to activate a mana ability while casting a spell with improvise, that artifact won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for improvise.
-2017/02/09: Tapping an artifact won't cause its abilities to stop applying unless those abilities say so.
-2017/02/09: Equipment attached to a creature doesn't become tapped when that creature becomes tapped, and tapping that Equipment doesn't cause the creature to become tapped.</Rulings>
+<Rulings>2020/08/07: When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Improvise applies after the total cost is calculated.
+2020/08/07: Improvise doesn't change a spell's mana cost or mana value.
+2020/08/07: Improvise can't pay for {U} in Metallic Rebuke's total cost.
+2020/08/07: If an artifact you control has a mana ability with {T} in the cost, activating that ability while casting a spell with improvise will result in the artifact being tapped when you pay the spell's costs. You won't be able to tap it again for improvise. Similarly, if you sacrifice an artifact to activate a mana ability while casting a spell with improvise, that artifact won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for improvise.
+2020/08/07: Tapping an artifact won't cause its abilities to stop applying unless those abilities say so.
+2020/08/07: Equipment attached to a creature doesn't become tapped when that creature becomes tapped, and tapping that Equipment doesn't cause the creature to become tapped.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1231,12 +1229,10 @@ Target creature gets -X/-X until end of turn. You gain X life.</CardText>
 Revolt — Destroy that creature if it has mana value 4 or less instead if a permanent you controlled left the battlefield this turn.</CardText>
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>423724</Multiverseid>
-<Rulings>2017/02/09: Fatal Push can target any creature, even one with converted mana cost 5 or greater. The creature's converted mana cost is checked only as Fatal Push resolves.
-2017/02/09: If the mana cost of a creature on the battlefield includes {X}, X is considered to be 0.
-2017/02/09: Revolt abilities check only whether a permanent you controlled left the battlefield this turn or not. They don't apply multiple times if more than one permanent you controlled left the battlefield. They don't check whether the permanent that left the battlefield is still in the zone it moved to.
-2017/02/09: Revolt abilities don't care why the permanent left the battlefield, who caused it to move, or where it moved to. They're equally satisfied by an artifact you sacrificed to pay a cost, a creature you controlled that was destroyed by Murder, or an enchantment you returned to your hand with Leave in the Dust.
-2017/02/09: Tokens that leave the battlefield will satisfy a revolt ability.
-2017/02/09: Energy counters aren't permanents. Paying {E} won't satisfy a revolt ability.</Rulings>
+<Rulings>2020/08/07: Fatal Push can target any creature, even one with mana value 5 or greater. The creature's mana value is checked only as Fatal Push resolves.
+2020/08/07: If a creature on the battlefield has {X} in its mana cost, X is considered to be 0.
+2020/08/07: Revolt abilities don't care why the permanent left the battlefield, who caused it to move, or where it moved to. They're equally satisfied by an artifact you sacrificed to pay a cost, a creature you controlled that was destroyed by Cast Down, or an enchantment you returned to your hand with Cyclonic Rift.
+2020/08/07: Tokens that leave the battlefield will satisfy a revolt ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2657,6 +2653,16 @@ You may cast a spell with mana value 5 or less from your hand without paying its
 <Flavor>"Control the Great Conduit? You might as well try to divert a river with your hands."</Flavor>
 <Artist>Magali Villeneuve</Artist>
 <Multiverseid>423790</Multiverseid>
+<Rulings>2017/02/09: If you control no creatures with power greater than 0 as Rishkar's Expertise resolves, you draw no cards, but you may cast a card with mana value 5 or less from your hand without paying its mana cost.
+2017/02/09: You may cast one of the cards drawn by Rishkar's Expertise's first effect while performing its second effect.
+2017/02/09: A card's mana value is determined solely by the mana symbols printed in its upper right corner. The mana value is the total amount of mana in that cost, regardless of color. For example, a card with mana cost {1}{U}{U} has mana value 3. Ignore any alternative costs, additional costs, cost increases, or cost reductions that could apply to it. A card with no mana cost has a mana value of 0.
+2017/02/09: If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+2017/02/09: The greatest power among creatures you control is determined as Rishkar's Expertise resolves.
+2017/02/09: If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs, such as emerge costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Cathartic Reunion, you must pay those to cast the card.
+2017/02/09: While you're casting your free spell, the Expertise spell is still on the stack. It will be put into its owner's graveyard after the free spell is cast. The free spell can't target the Expertise card in your graveyard. It can target the Expertise spell on the stack, but the Expertise spell will become an illegal target before the free spell resolves.
+2017/02/09: Any triggered abilities that trigger while performing the Expertise spell's first effect won't be put onto the stack until after you're done casting your free spell. They're put onto the stack at the same time as any abilities that triggered while casting that spell regardless of the order in which those abilities triggered.
+2017/02/09: Effects that allow you to "cast" a card don't allow you to play a land card.
+2017/04/18: The mana value of a split card is determined by the combined mana cost of its two halves. If an expertise spell allows you to cast a split card, you may cast either half or, if that split card has fuse, both halves.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2782,11 +2788,10 @@ When you cast a Bolas planeswalker spell, exile Dark Intimations from your grave
 {1}, Sacrifice a creature: Scry 1.</CardText>
 <Artist>Darek Zabrocki</Artist>
 <Multiverseid>423796</Multiverseid>
-<Rulings>2017/02/09: Revolt abilities check only whether a permanent you controlled left the battlefield this turn or not. They don't apply multiple times if more than one permanent you controlled left the battlefield. They don't check whether the permanent that left the battlefield is still in the zone it moved to.
-2017/02/09: Revolt abilities don't care why the permanent left the battlefield, who caused it to move, or where it moved to. They're equally satisfied by an artifact you sacrificed to pay a cost, a creature you controlled that was destroyed by Murder, or an enchantment you returned to your hand with Leave in the Dust.
-2017/02/09: Tokens that leave the battlefield will satisfy a revolt ability.
-2017/02/09: Energy counters aren't permanents. Paying {E} won't satisfy a revolt ability.
-2017/02/09: All cards in the Aether Revolt set with triggered revolt abilities use an intervening "if" clause. A permanent you controlled must have left the battlefield earlier in the turn in order for these abilities to trigger; otherwise they do nothing. In other words, there's no way to have the ability trigger if no permanent you controlled has left the battlefield that turn, even if you intend to have one do so in response to the triggered ability.</Rulings>
+<Rulings>2020/08/07: If a permanent you controlled didn't leave the battlefield before your end step begins, Hidden Stockpile's first ability doesn't trigger at all. The permanent may have left before Hidden Stockpile entered the battlefield, however.
+2020/08/07: Revolt abilities check only whether a permanent you controlled left the battlefield this turn or not. They don't apply multiple times if more than one permanent you controlled left the battlefield. They don't check whether the permanent that left the battlefield is still in the zone it moved to.
+2020/08/07: Revolt abilities don't care why the permanent left the battlefield, who caused it to move, or where it moved to. They're equally satisfied by an artifact you sacrificed to pay a cost, a creature you controlled that was destroyed by Cast Down, or an enchantment you returned to your hand with Cyclonic Rift.
+2020/08/07: Tokens that leave the battlefield will satisfy a revolt ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3864,10 +3869,11 @@ Crew 4 (Tap any number of creatures you control with total power 4 or more: This
 <CardText>When Treasure Keeper dies, reveal cards from the top of your library until you reveal a nonland card with mana value 3 or less. You may cast that card without paying its mana cost. Put all revealed cards not cast this way on the bottom of your library in a random order.</CardText>
 <Artist>James Paick</Artist>
 <Multiverseid>423844</Multiverseid>
-<Rulings>2018/03/16: If you don't cast the nonland card with converted mana cost 3 or less, it'll be put on the bottom of your library in a random order with the other cards.
-2018/03/16: If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs, such as paying {3} to cast a morph card face down. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Cathartic Reunion, those must be paid to cast the card.
-2018/03/16: If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
-2018/03/16: If your library has no nonland cards in it with converted mana cost 3 or less, you'll reveal all the cards in your library, then put them in a random order. Although this is not technically shuffling your library, no player is allowed to know the order of those cards and you will randomize the cards in your deck.</Rulings>
+<Rulings>2020/08/07: If you don't cast the nonland card with mana value 3 or less, it'll be put on the bottom of your library in a random order with the other cards.
+2020/08/07: If your library has no nonland cards in it with mana value 3 or less, you'll reveal all the cards in your library, then put them back in a random order.
+2020/08/07: If a card in a player's library has {X} in its mana cost, X is considered to be 0.
+2020/08/07: If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+2020/08/07: If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3954,8 +3960,8 @@ Crew 1 (Tap any number of creatures you control with total power 1 or more: This
 Remove a +1/+1 counter from Walking Ballista: It deals 1 damage to any target.</CardText>
 <Artist>Daniel Ljunggren</Artist>
 <Multiverseid>423848</Multiverseid>
-<Rulings>2017/02/09: The value of each X in Walking Ballista's mana cost must be equal. For example, if X is 2, you'll pay {4} to cast Walking Ballista and it will enter the battlefield with two +1/+1 counters on it.
-2017/02/09: If Walking Ballista has been dealt damage or had its toughness reduced by an effect, this limits how many times you'll be able to remove +1/+1 counters from it in a single turn. For example, if it has three +1/+1 counters on it and has been dealt 1 damage this turn, it will be destroyed immediately after you activate the ability a second time and you won't be able to activate it a third time.</Rulings>
+<Rulings>2020/08/07: A casting cost of {X}{X} means that you pay twice X. If you want X to be 3, you pay {6} to cast Walking Ballista.
+2020/08/07: If Walking Ballista has been dealt damage or had its toughness reduced by an effect, this limits how many times you'll be able to remove +1/+1 counters from it in a single turn. For example, if it has three +1/+1 counters on it and has been dealt 1 damage this turn, it will be destroyed immediately after you activate the ability a second time and you won't be able to activate it a third time.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

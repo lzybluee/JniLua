@@ -823,9 +823,9 @@ Once during each of your turns, you may cast an instant or sorcery spell from yo
 <Flavor>"Loss has no meaning here. You cannot take from those who have nothing."</Flavor>
 <Artist>Izzy</Artist>
 <Multiverseid>433280</Multiverseid>
-<Rulings>2019/06/14: You must follow the normal timing permissions and restrictions of the card you cast from your graveyard.
+<Rulings>2019/06/14: Once you begin to cast the card, losing control of Kess won't affect the spell. You can finish casting it as normal and it will be exiled if it would be put into your graveyard.
+2019/06/14: You must follow the normal timing permissions and restrictions of the card you cast from your graveyard.
 2019/06/14: You must pay the costs to cast that card. If it has an alternative cost, you may cast it for that cost instead.
-2019/06/14: Once you begin to cast the card, losing control of Kess won't affect the spell. You can finish casting it as normal and it will be exiled if it would be put into your graveyard.
 2019/06/14: If you cast a card from your graveyard using another permission (such as that of flashback), Kess's effect doesn't apply. You can cast another instant or sorcery card from your graveyard.
 2019/06/14: If you cast one instant or sorcery card from your graveyard and then have a new Kess come under your control in the same turn, you may cast another instant or sorcery card from your graveyard that turn.
 2019/06/14: If a sorcery card is put into your graveyard during your main phase and the stack is empty, you have a chance to cast it before any player may attempt to remove that card from your graveyard.
@@ -1189,10 +1189,10 @@ Remove five +1/+1 counters from Ramos: Add {W}{W}{U}{U}{B}{B}{R}{R}{G}{G}. Activ
 {T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)</CardText>
 <Artist>Alayna Danner</Artist>
 <Multiverseid>433297</Multiverseid>
-<Rulings>2020/11/10: If you have two commanders, the last ability adds one mana of any color in their combined color identities.
+<Rulings>2020/11/10: If you don't have a commander, Path of Ancestry's ability produces no mana.
+2020/11/10: If you have two commanders, the last ability adds one mana of any color in their combined color identities.
 2020/11/10: Your commander's creature types are checked immediately after you cast a creature spell spending mana from Path of Ancestry's last ability. They aren't set before the game begins, and they may not be the same types your commander had when you activated that ability. Notably, if your commander is in a hidden zone (like the hand or library) or is phased out, it's considered to have no creature types.
 2020/11/10: If your commander is a card that has no colors in its color identity, Path of Ancestry's ability produces no mana. It doesn't produce {C}.
-2020/11/10: If you don't have a commander, Path of Ancestry's ability produces no mana.
 2020/11/10: If you cast your commander with mana from Path of Ancestry, and your commander hasn't somehow lost all of its creature types while on the stack, you'll scry 1.
 2020/11/10: If your commander has no creature types, it can't share a creature type with any spell that you cast.
 2020/11/10: If Path of Ancestry's last ability produces two mana (most likely due to Mana Reflection), spending those two mana to cast creature spells that share a creature type with your commander will cause two abilities to trigger. Each of those abilities will cause you to scry 1. You won't scry 2. This is true whether you spend the mana on one creature spell or two.</Rulings>
@@ -1874,7 +1874,7 @@ Return target nonland permanent to its owner's hand. If this spell was kicked, d
 <CardText>Exile target creature. Its controller manifests the top card of their library. (That player puts the top card of their library onto the battlefield face down as a 2/2 creature. If it's a creature card, it can be turned face up any time for its mana cost.)</CardText>
 <Artist>Howard Lyon</Artist>
 <Multiverseid>433023</Multiverseid>
-<Rulings>2014/11/24: The face-down permanent is a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a converted mana cost of 0. Other effects that apply to the permanent can still grant or change any of these characteristics.
+<Rulings>2014/11/24: The face-down permanent is a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the permanent can still grant or change any of these characteristics.
 2014/11/24: Any time you have priority, you may turn a manifested creature face up by revealing that it's a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn't use the stack and can't be responded to.
 2014/11/24: If a manifested creature would have morph if it were face up, you may also turn it face up by paying its morph cost.
 2014/11/24: Unlike a face-down creature that was cast using the morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
@@ -1886,7 +1886,7 @@ Return target nonland permanent to its owner's hand. If this spell was kicked, d
 2014/11/24: If a face-down permanent you control leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends.
 2014/11/24: You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for indicating this include using markers or dice, or simply placing them in order on the battlefield. You must also track how each became face down (manifested, cast face down using the morph ability, and so on).
 2014/11/24: There are no cards in the Fate Reforged set that would turn a face-down instant or sorcery card on the battlefield face up, but some older cards can try to do this. If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it's an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won't trigger, because even though you revealed the card, it never turned face up.
-2014/11/24: Some older Magic sets feature double-faced cards, which have a Magic card face on each side rather than a Magic card face on one side and a Magic card back on the other. The rules for double-faced cards are changing slightly to account for the possibility that they are manifested. If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, it can't transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up. A double-faced permanent on the battlefield still can't be turned face down.</Rulings>
+2014/11/24: If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, it can't transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2351,8 +2351,8 @@ Whenever Falkenrath Noble or another creature dies, target player loses 1 life a
 <Flavor>He climbs a staircase of falling souls, fighting the continuous pull of the void.</Flavor>
 <Artist>Kev Walker</Artist>
 <Multiverseid>433047</Multiverseid>
-<Rulings>2020/08/07: Even though the player whose upkeep it is chooses the target creature, you control the ability. An opponent can't target a creature with hexproof they control.
-2020/08/07: The triggered ability can target a creature with indestructible. It won't be destroyed.</Rulings>
+<Rulings>2020/08/07: The triggered ability can target a creature with indestructible. It won't be destroyed.
+2020/08/07: Even though the player whose upkeep it is chooses the target creature, you control the ability. An opponent can't target a creature with hexproof they control.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2742,6 +2742,9 @@ Whenever a Dragon enters the battlefield under your control, it deals X damage t
 <Flavor>Atarka serving-goblins coat themselves with grease imbued with noxious herbs, hoping to discourage their ravenous masters from adding them to the meal.</Flavor>
 <Artist>Steve Prescott</Artist>
 <Multiverseid>433067</Multiverseid>
+<Rulings>2015/02/25: Dragonlord's Servant can't reduce the colored mana requirement of a Dragon spell you cast.
+2015/02/25: If there are any additional costs to cast a Dragon spell, apply those before applying Dragonlord's Servant and any other cost reductions.
+2015/02/25: The ability can apply to alternative costs to cast a Dragon spell.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4128,6 +4131,9 @@ Sacrifice Commander's Sphere: Draw a card.</CardText>
 <Flavor>It harmonizes with the essence of its master.</Flavor>
 <Artist>Ryan Alexander Lee</Artist>
 <Multiverseid>433138</Multiverseid>
+<Rulings>2020/11/10: If you have two commanders, the ability adds one mana of any color in their combined color identities.
+2020/11/10: If your commander is a card that has no colors in its color identity, Commander's Sphere's first ability produces no mana. It doesn't produce {C}.
+2020/11/10: If you don't have a commander, Commander's Sphere's first ability produces no mana.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander 2017</Set>
@@ -5134,7 +5140,8 @@ When Kabira Crossroads enters the battlefield, you gain 2 life.
 <No>261</No>
 <Name>Mosswort Bridge</Name>
 <Type>Land</Type>
-<CardText>Hideaway (This land enters the battlefield tapped. When it does, look at the top four cards of your library, exile one face down, then put the rest on the bottom of your library.)
+<CardText>Hideaway 4 (When this land enters the battlefield, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.)
+Mosswort Bridge enters the battlefield tapped.
 {T}: Add {G}.
 {G}, {T}: You may play the exiled card without paying its mana cost if creatures you control have total power 10 or greater.</CardText>
 <Artist>Jeremy Jarvis</Artist>

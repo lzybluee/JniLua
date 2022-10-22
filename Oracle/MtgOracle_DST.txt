@@ -545,6 +545,7 @@ Search your library for an artifact card with mana value X or less, put it onto 
 —Bruenna, Neurok leader</Flavor>
 <Artist>Jon Foster</Artist>
 <Multiverseid>48147</Multiverseid>
+<Rulings>2020/08/07: If a card in a player's library has {X} in its mana cost, X is considered to be 0 for that card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1010,10 +1011,10 @@ Entwine {2} (Choose both if you pay the entwine cost.)</CardText>
 —Memnarch</Flavor>
 <Artist>Brian Snõddy</Artist>
 <Multiverseid>43540</Multiverseid>
-<Rulings>2004/12/01: Dismantle targets only the artifact that will be destroyed. When Dismantle resolves, you choose which type of counters you want and choose an artifact you control to put them on.
-2004/12/01: It doesn't matter what kind of counters the destroyed artifact had on it, only how many. If an artifact had five bomb counters and two trap counters on it, that converts to seven +1/+1 counters or seven charge counters.
-2004/12/01: You can put +1/+1 counters on a noncreature artifact. They won't do anything unless the artifact becomes a creature, at which time they'll add to the creature's power and toughness.
-2013/07/01: If the artifact regenerates or has indestructible, it won't be destroyed, but you still put the appropriate number of counters onto an artifact you control.</Rulings>
+<Rulings>2020/08/07: Dismantle targets only the artifact that will be destroyed. When Dismantle resolves, you choose which type of counters you want and choose an artifact you control to put them on. No player make take actions between the time you make this choice and the time counters are on the artifact.
+2020/08/07: If the target artifact is an illegal target by the time Dismantle tries to resolve, the spell won't resolve. You won't put any counters on an artifact. If the target is legal but not destroyed (most likely because it has indestructible), you do put counters on an artifact.
+2020/08/07: It doesn't matter what kind of counters the destroyed artifact had on it, only how many. If an artifact had five fuse counters and two trap counters on it, you put seven +1/+1 counters or seven charge counters on an artifact.
+2020/08/07: You can put +1/+1 counters on a noncreature artifact. They won't do anything unless the artifact becomes a creature, at which time they'll add to the creature's power and toughness.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1977,6 +1978,7 @@ If Darksteel Colossus would be put into a graveyard from anywhere, reveal Darkst
 —Pontifex, elder researcher</Flavor>
 <Artist>Martina Pilcerova</Artist>
 <Multiverseid>48072</Multiverseid>
+<Rulings>2020/08/07: Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to an artifact creature you control may become lethal if Darksteel Forge leaves the battlefield during that turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2647,10 +2649,10 @@ Flying</CardText>
 <CardText>When Sundering Titan enters or leaves the battlefield, choose a land of each basic land type, then destroy those lands.</CardText>
 <Artist>Jim Murray</Artist>
 <Multiverseid>42084</Multiverseid>
-<Rulings>2018/03/16: Sundering Titan's ability isn't targeted. When it resolves, Sundering Titan's controller must choose one land for each basic land type (Plains, Island, Swamp, Mountain, and Forest), and then they are destroyed simultaneously.
-2018/03/16: Players can't take actions in between the time you choose the lands and the time you destroy them. Notably, they can't activate mana abilities of those lands.
-2018/03/16: If one of the basic land types isn't present, it isn't chosen. If the only land of a certain type is one you control, you must choose it.
-2018/03/16: If a land has more than one basic land type, it can be chosen more than once.</Rulings>
+<Rulings>2020/08/07: Sundering Titan's ability isn't targeted. When it resolves, Sundering Titan's controller must choose one land for each basic land type (Plains, Island, Swamp, Mountain, and Forest), and then they are destroyed simultaneously.
+2020/08/07: Players can't take actions in between the time you choose the lands and the time you destroy them. Notably, they can't activate mana abilities of those lands.
+2020/08/07: If one of the basic land types isn't present, it isn't chosen. If the only land of a certain type is one you control, you must choose it.
+2020/08/07: If a land has more than one basic land type, it can be chosen more than once.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2689,7 +2691,7 @@ Whenever equipped creature deals combat damage to a player, Sword of Fire and Ic
 Equip {2}</CardText>
 <Artist>Mark Zug</Artist>
 <Multiverseid>46429</Multiverseid>
-<Rulings>2013/06/07: The triggered ability has one target: the permanent or player to be dealt 2 damage. If that permanent or player is an illegal target when the ability tries to resolve, it won't resolve and none of its effects will happen. You won't draw a card.</Rulings>
+<Rulings>2020/08/07: If the chosen target is an illegal target by the time the triggered ability tries to resolve, the ability won't resolve. You won't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2708,7 +2710,8 @@ Whenever equipped creature deals combat damage to a player, you gain 3 life and 
 Equip {2}</CardText>
 <Artist>Mark Zug</Artist>
 <Multiverseid>47453</Multiverseid>
-<Rulings>2013/06/07: You may put the triggered ability with no targets. However, If you choose a target creature in your graveyard, and that card is an illegal target when the ability tries to resolve, it won't resolve and none of its effects will happen. You won't gain 3 life.</Rulings>
+<Rulings>2020/08/07: If you choose a target creature card in your graveyard and that card is an illegal target by the time the triggered ability tries to resolve, the ability won't resolve. You won't gain 3 life. If you don't choose a target at all, you just gain 3 life.
+2020/08/07: The triggered ability can target a creature card that was put into your graveyard as a result of state-based actions immediately after the combat damage that caused the ability to trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2794,11 +2797,8 @@ Equip {2}</CardText>
 <CardText>As long as Trinisphere is untapped, each spell that would cost less than three mana to cast costs three mana to cast. (Additional mana in the cost may be paid with any color of mana or colorless mana. For example, a spell that would cost {1}{B} to cast costs {2}{B} to cast instead.)</CardText>
 <Artist>Tim Hildebrandt</Artist>
 <Multiverseid>43545</Multiverseid>
-<Rulings>2004/12/01: Trinisphere's ability affects the total cost of the spell. It is applied *after* any other cost increasers or cost reducers are applied: First apply any cost increases. Next apply any cost reducers. Finally look at the amount of mana you have to pay. If it's less than three mana, you'll pay three mana.
-2004/12/01: Even with a cost reducer on the battlefield, spells can't cost less than three mana to cast.
-2004/12/01: If a spell costs at least three mana due to additional costs, such as kicker costs, that's fine.
-2004/12/01: You still need to pay any additional nonmana costs the spell has, such as sacrificing a creature or discarding cards.
-2004/12/01: Casting a creature with morph face down already costs three mana, even though the converted mana cost of the face-down spell is zero, so Trinisphere normally doesn't modify the total cost of a face-down creature spell. However, if Dream Chisel is reducing that cost while Trinisphere is on the battlefield, you'll still have to pay three mana for the spell.</Rulings>
+<Rulings>2020/08/07: To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. Finally, apply Trinisphere's effect if the mana component of the spell's cost is less than three mana. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+2020/08/07: If Trinisphere leaves the battlefield or becomes tapped or untapped as a cost to cast a spell, this cost is paid after you've locked in the total cost.</Rulings>
 <Vintage>Restricted</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

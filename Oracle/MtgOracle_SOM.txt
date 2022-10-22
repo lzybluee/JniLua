@@ -314,6 +314,8 @@ When Kemba's Skyguard enters the battlefield, you gain 2 life.</CardText>
 <Artist>Eric Deschamps</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>209712</Multiverseid>
+<Rulings>2020/08/07: An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+2020/08/07: While resolving Myrsmith's ability, you can't pay more than {1} to get more than one Myr.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -469,6 +471,7 @@ When Sunblast Angel enters the battlefield, destroy all tapped creatures.</CardT
 <Artist>Wayne Reynolds</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>194391</Multiverseid>
+<Rulings>2020/08/07: Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to artifact creatures you control may become lethal if Tempered Steel leaves the battlefield during that turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -643,9 +646,9 @@ Tap an untapped blue creature you control: Add {C}{C}. Spend this mana only to c
 <Artist>Steven Belledin</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>207884</Multiverseid>
-<Rulings>2011/01/01: Other blue creatures you control will get +1/+1 whether they are artifacts or not.
-2011/01/01: Turning an artifact creature blue with the second ability will override any other color(s) the creature previously had. It will still be an artifact. You may target a blue artifact creature with this ability.
-2011/01/01: Since Grand Architect's last ability doesn't have a tap symbol in its cost, you can tap a blue creature (including Grand Architect itself) that hasn't been under your control since your most recent turn began to pay the cost.</Rulings>
+<Rulings>2020/08/07: Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a blue creature you control may become lethal if Grand Architect leaves the battlefield during that turn.
+2020/08/07: Grand Architect's second ability causes the affected artifact creature to lose any other colors it has, but it doesn't cause it to stop being an artifact.
+2020/08/07: You can tap any untapped blue creature you control, including one you haven't controlled continuously since the beginning of your most recent turn, to pay the cost of Grand Architect's mana ability. This includes Grand Architect itself.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -791,6 +794,8 @@ When Neurok Invisimancer enters the battlefield, target creature can't be blocke
 <Artist>Eric Deschamps</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>202643</Multiverseid>
+<Rulings>2020/08/07: An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+2020/08/07: You draw a card and discard a card all while Riddlesmith's ability is resolving. Nothing can happen between the two, and no player may choose to take actions.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -933,11 +938,10 @@ Whenever Thrummingbird deals combat damage to a player, proliferate. (Choose any
 <Artist>Efrem Palacios</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>194332</Multiverseid>
-<Rulings>2011/01/01: You can choose any player that has a counter, including yourself.
-2011/01/01: You can choose any permanent that has a counter, including ones controlled by opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them, such as suspended cards or a Lightning Storm on the stack.
-2011/01/01: You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
-2011/01/01: If a permanent chosen this way has multiple kinds of counters on it, only a single new counter is put on that permanent.
-2011/01/01: Players can respond to the spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.</Rulings>
+<Rulings>2021/03/19: If a permanent has +1/+1 counters and -1/-1 counters on it, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+2021/03/19: To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+2021/03/19: You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+2021/03/19: Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1289,10 +1293,9 @@ Destroy target creature. Its controller loses life equal to the number of creatu
 <Artist>Whit Brachna</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>215076</Multiverseid>
-<Rulings>2011/01/01: If the player has fewer than X cards in their library, they put all cards from their library into their graveyard.
-2011/01/01: The converted mana cost of a card in a graveyard is determined solely by the mana symbols printed in its upper right corner. The converted mana cost is the total amount of mana in that cost, regardless of color. For example, a card with mana cost {3}{U}{U} has converted mana cost 5. If the mana cost of a card in a graveyard includes {X}, X is considered to be 0.
-2011/01/01: The X in Geth's activation cost must be exactly the converted mana cost of the targeted artifact or creature card. You can't pay more than X to put more cards from the opponent's library into their graveyard.
-2011/01/01: If the targeted artifact or creature card leaves the graveyard by the time the ability resolves, the ability doesn't resolve. The player won't put any cards into his graveyard.</Rulings>
+<Rulings>2020/08/07: If a card in a player's graveyard has {X} in its mana cost, X is considered to be 0.
+2020/08/07: The target card must have mana value exactly X. You can't overpay to have the player mill more cards.
+2020/08/07: In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any spells and/or permanents you control from Geth's last ability are exiled.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1499,6 +1502,7 @@ When Necrogen Scudder enters the battlefield, you lose 3 life.</CardText>
 <Artist>Eric Deschamps</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>194210</Multiverseid>
+<Rulings>2020/08/07: An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1608,12 +1612,10 @@ Infect (This creature deals damage to creatures in the form of -1/-1 counters an
 <Artist>Chippy</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>212249</Multiverseid>
-<Rulings>2011/01/01: A player who has ten or more poison counters loses the game. This is a state-based action.
-2011/01/01: Infect's effect applies to any damage, not just combat damage.
-2011/01/01: The -1/-1 counters remain on the creature indefinitely. They're not removed if the creature regenerates or the turn ends.
-2011/01/01: Damage from a source with infect is damage in all respects. If the source with infect also has lifelink, damage dealt by that source also causes its controller to gain that much life. Damage from a source with infect can be prevented or redirected. Abilities that trigger on damage being dealt will trigger if a source with infect deals damage, if appropriate.
-2011/01/01: If damage from a source with infect that would be dealt to a player is prevented, that player doesn't get poison counters. If damage from a source with infect that would be dealt to a creature is prevented, that creature doesn't get -1/-1 counters.
-2011/01/01: Damage from a source with infect affects planeswalkers normally.</Rulings>
+<Rulings>2020/08/07: Damage that a creature with infect deals doesn't result in damage being marked on a creature or a player losing life. Instead, it results in that many -1/-1 counters being put on that creature or that many poison counters being given to that player. Damage dealt to planeswalkers still results in that planeswalker losing that many loyalty counters.
+2020/08/07: A player who has ten or more poison counters loses the game. This is a state-based action.
+2020/08/07: The -1/-1 counters remain on the creature indefinitely. They're not removed if the creature regenerates or the turn ends.
+2020/08/07: Damage from a source with infect is damage in all respects. If the source with infect also has lifelink, damage dealt by that source also causes its controller to gain that much life. Damage from a source with infect can be prevented or redirected. Abilities that trigger on damage being dealt will trigger if a source with infect deals damage, if appropriate.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1871,7 +1873,7 @@ Goblin Gaveleer gets +2/+0 for each Equipment attached to it.</CardText>
 <Artist>Svetlin Velinov</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>194373</Multiverseid>
-<Rulings>2011/01/01: Goblin Gaveleer's bonus is in addition to whatever bonus the Equipment gives it.</Rulings>
+<Rulings>2020/08/07: Goblin Gaveleer's bonus is in addition to whatever bonus the Equipment gives it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2496,9 +2498,8 @@ Whenever Liege of the Tangle deals combat damage to a player, you may choose any
 <Artist>Jason Chan</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>194130</Multiverseid>
-<Rulings>2011/01/01: You may choose to target zero lands.
-2011/01/01: Whether a targeted land remains an 8/8 green Elemental creature depends only on whether it has an awakening counter on it, not on whether Liege of the Tangle is still on the battlefield.
-2011/01/01: If all awakening counters on a land are moved to a land without an awakening counter on it (perhaps by using Fate Transfer), the animation effect doesn't follow them. The first land is no longer an 8/8 green Elemental creature because it no longer has an awakening counter on it. The second land isn't an 8/8 green Elemental creature because Liege of the Tangle didn't target it.</Rulings>
+<Rulings>2020/08/07: Whether an affected land remains an 8/8 green Elemental creature depends only on whether it still has an awakening counter on it, not on whether Liege of the Tangle is still on the battlefield.
+2020/08/07: If an awakening counter is moved from an affected land to another land, this doesn't cause the recipient to be affected by Liege of the Tangle's ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3463,7 +3464,7 @@ Equip {1}</CardText>
 <Artist>jD</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>215098</Multiverseid>
-<Rulings>2011/01/01: Kuldotha Forgemaster can be one of the three artifacts you sacrifice to activate the ability.</Rulings>
+<Rulings>2020/08/07: Kuldotha Forgemaster can be one of the three artifacts you sacrifice to activate the ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3679,6 +3680,7 @@ Equip {2}</CardText>
 <Artist>Volkan Baǵa</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>208248</Multiverseid>
+<Rulings>2020/08/07: If you control Mox Opal and one other artifact, then have a second Mox Opal enter the battlefield as your third artifact, you can't activate either one's mana ability before putting one into your graveyard due to the "legend rule."</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Banned</Modern>
@@ -4041,14 +4043,8 @@ Whenever a player casts an instant or sorcery spell that targets only a single G
 <Artist>Austin Hsu</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>205482</Multiverseid>
-<Rulings>2011/01/01: As Ratchet Bomb's last ability resolves, its last existence on the battlefield is checked to determine how many charge counters were on it.
-2011/01/01: Ratchet Bomb's second ability destroys only those nonland permanents whose converted mana cost is exactly equal to the number of charge counters on Ratchet Bomb. It doesn't matter who controls them.
-2011/01/01: If Ratchet Bomb's second ability is activated while it has no charge counters on it, it will destroy each nonland permanent with converted mana cost 0.
-2011/01/01: The converted mana cost of a permanent is determined solely by the mana symbols printed in its upper right corner, unless it's copying something else (see below). The converted mana cost is the total amount of mana in that cost, regardless of color. For example, a card with mana cost {3}{U}{U} has converted mana cost 5.
-2011/01/01: If a permanent is copying something else, its converted mana cost is the converted mana cost of whatever it's copying.
-2011/01/01: In all cases, ignore any alternative costs or additional costs (such as kicker) paid when the permanent was cast.
-2011/01/01: If the mana cost of a permanent includes {X}, X is considered to be 0.
-2011/01/01: If a nonland permanent has no mana symbols in its upper right corner (because it's a token that's not copying something else, for example), its converted mana cost is 0.</Rulings>
+<Rulings>2020/08/07: Tokens that aren't a copy of something else don't have a mana cost. Anything without a mana cost normally has a mana value of 0.
+2020/08/07: If a permanent has {X} in its mana cost, X is considered to be 0.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4354,12 +4350,11 @@ Equip {1}</CardText>
 <Artist>Jana Schirmer & Johannes Voss</Artist>
 <Watermark>Phyrexian</Watermark>
 <Multiverseid>202675</Multiverseid>
-<Rulings>2011/01/01: You can choose any player that has a counter, including yourself.
-2011/01/01: You can choose any permanent that has a counter, including ones controlled by opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them, such as suspended cards or a Lightning Storm on the stack.
-2011/01/01: You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
-2011/01/01: If a permanent chosen this way has multiple kinds of counters on it, only a single new counter is put on that permanent.
-2011/01/01: Players can respond to the spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
-2011/01/01: You may sacrifice Throne of Geth to activate its ability.</Rulings>
+<Rulings>2020/08/07: You may sacrifice Throne of Geth to pay the cost of its own ability.
+2021/03/19: If a permanent has +1/+1 counters and -1/-1 counters on it, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+2021/03/19: To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+2021/03/19: You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+2021/03/19: Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4498,6 +4493,7 @@ Equip {1}</CardText>
 <Artist>Drew Baker</Artist>
 <Watermark>Mirran</Watermark>
 <Multiverseid>210232</Multiverseid>
+<Rulings>2020/08/07: Once Tumble Magnet has run out of charge counters, it remains on the battlefield.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

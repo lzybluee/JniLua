@@ -135,7 +135,7 @@ When Filigree Angel enters the battlefield, you gain 3 life for each artifact yo
 Cycling {W/U} ({W/U}, Discard this card: Draw a card.)</CardText>
 <Artist>Franz Vohwinkel</Artist>
 <Multiverseid>179576</Multiverseid>
-<Rulings>2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.</Rulings>
+<Rulings>2020/08/07: Once a creature has blocked Glassdust Hulk, resolving its triggered ability won't cause it to become unblocked.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -154,12 +154,8 @@ Spells with the chosen name can't be cast.</CardText>
 <Flavor>"This violent wasteland is an indictment of its people. These cowards lack the will to oppose disorder."</Flavor>
 <Artist>Todd Lockwood</Artist>
 <Multiverseid>179547</Multiverseid>
-<Rulings>2009/05/01: No one can cast spells or activate abilities between the time a card is named and the time that Meddling Mage's ability starts to work.
-2009/05/01: Spells with the chosen name that somehow happen to already be on the stack when Meddling Mage enters the battlefield are not affected by Meddling Mage's ability.
-2009/05/01: Although the named card can't be cast, it can still be put onto the battlefield by a spell or ability (if it's a permanent card).
-2009/05/01: You can name either half of a split card, but not both. If you do so, that half (and both halves, if the split card has fuse) can't be cast. The other half is unaffected.
-2009/05/01: If a card with morph is named, that card may still be cast face down. Face-down cards have no names.
-2009/05/01: Once Meddling Mage leaves the battlefield, the named card can be cast again.</Rulings>
+<Rulings>2020/08/07: No one can cast spells or activate abilities between the time a card is named and the time that Meddling Mage's ability begins to apply.
+2020/08/07: Spells with the chosen name that somehow happen to already be on the stack when Meddling Mage enters the battlefield aren't affected by Meddling Mage's ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -619,7 +615,7 @@ Mistvein Borderpost enters the battlefield tapped.
 —Sharuum the Hegemon</Flavor>
 <Artist>Franz Vohwinkel</Artist>
 <Multiverseid>189649</Multiverseid>
-<Rulings>2009/05/01: One of the five artifacts you sacrifice may be Time Sieve itself.</Rulings>
+<Rulings>2020/08/07: You may sacrifice Time Sieve as one of the artifacts to pay the cost of its own ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1828,11 +1824,9 @@ Whenever Spellbound Dragon attacks, draw a card, then discard a card. Spellbound
 <Flavor>During the collision of the shards, entire ways of life disappeared without a trace.</Flavor>
 <Artist>Anthony Francisco</Artist>
 <Multiverseid>180613</Multiverseid>
-<Rulings>2009/05/01: A face-down creature has no name, so it doesn't have the same name as anything else.
-2018/12/07: Maelstrom Pulse has only one target. Other permanents with the same name will be destroyed even if they have hexproof or protection.
-2018/12/07: If the target permanent becomes an illegal target for Maelstrom Pulse, the spell doesn't resolve. Nothing is destroyed.
-2018/12/07: The name of a creature token is the same as the creature types it was created with unless the token is a copy of another creature or the effect that created the token specifically gives it a different name. For example, a 1/1 red Elemental creature token created by Young Pyromancer and a 4/4 green Elemental creature token created by Walker of the Grove are both named "Elemental."
-2018/12/07: If Maelstrom Pulse resolves but the target permanent isn't destroyed (perhaps because it regenerates or has indestructible), all other permanents with the same name as it will still be destroyed.</Rulings>
+<Rulings>2020/08/07: Maelstrom Pulse has only one target. Other permanents with the same name will be destroyed even if they have hexproof or protection.
+2020/08/07: If the target permanent is an illegal target by the time Maelstrom Pulse tries to resolve, the spell won't resolve. You won't destroy any permanents at all. If the target is legal but not destroyed (most likely because it has indestructible), you do destroy other permanents with the same name.
+2020/08/07: The name of a token is the same as the subtypes it was created with unless the token is a copy of another permanent or the effect that created the token specifically gives it a different name. For example, a 1/1 red Elemental creature token created by Young Pyromancer and a 4/4 green Elemental creature token created by Walker of the Grove are both named "Elemental."</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2169,15 +2163,12 @@ Cycling {2}{U} ({2}{U}, Discard this card: Draw a card.)</CardText>
 <Flavor>They are the masters of your mind.</Flavor>
 <Artist>Greg Staples</Artist>
 <Multiverseid>180607</Multiverseid>
-<Rulings>2009/05/01: Playing a card this way works just like playing any other card, with one exception: You're playing the card from your opponent's hand rather than your own. To be specific: -- A card played this way follows the normal timing rules for its card type, as well as any other applicable restrictions such as "Cast [this card] only during combat." For example, you can't play a card from the targeted opponent's hand during your end step unless it's an instant or has flash. -- To cast a nonland card from your opponent's hand this way, you must pay its mana cost. -- You can play a land card from the targeted opponent's hand only if you haven't played a land yet that turn.
-2009/05/01: You control the spells you cast from your opponent's hand, so you make decisions for them as appropriate. For example, if one of those spells says "target creature you control," you'll target one of your creatures, not one of your opponent's creatures.
-2009/05/01: If you cast a spell with cascade this way, you'll control the cascade ability. When it resolves, you'll find a new card to cast from your own library.
-2009/05/01: You can cast spells from the targeted player's hand, but you can't activate abilities. Specifically, you can't cycle cards in that player's hand.
-2009/05/01: This ability doesn't prevent the targeted opponent's triggered abilities from triggering. If one does, that player puts it on the stack and, if applicable, chooses targets for it. Those abilities will resolve as normal.
-2009/05/01: If the resolution of a spell or ability involves having the targeted player cast a spell, that part of the effect simply won't work.
-2009/05/01: After this ability resolves, the targeted player still gets priority at the appropriate times, and can still perform special actions (such as turning a face-down creature face up). However, since that player can't cast any spells or activate abilities — including mana abilities — there's not much they can actually accomplish this way.
-2009/05/01: If you start to play a card from the targeted opponent's hand, there's no way for the opponent to get rid of that card in response (like discarding it to pay Gathan Raiders's morph cost, for example). That's because the first thing that happens when you start to cast a spell is that it moves to the stack, so it's not in your opponent's hand anymore.
-2009/05/01: Once Sen Triplets's ability resolves, it remains in effect for the rest of the turn whether or not you still control Sen Triplets.</Rulings>
+<Rulings>2020/08/07: The target opponent can't activate any abilities, including mana abilities.
+2020/08/07: Activated abilities are written in the form "[Cost]: [Effect]." Some keyword abilities (such as cycling) are activated abilities and will have colons in their reminder texts.
+2020/08/07: Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]." Triggered abilities are unaffected by Sen Triplets.
+2020/08/07: Abilities that create replacement effects, such as a permanent entering the battlefield tapped or with counters on it, are unaffected by Sen Triplets. Abilities that apply "as [this creature] enters the battlefield" are also replacement effects and are unaffected.
+2020/08/07: You can't activate abilities of cards in the target opponent's hand.
+2020/08/07: Sen Triplets doesn't allow you to play more than one land during your turn or change when you may cast spells from the target opponent's hand.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2340,8 +2331,8 @@ When Karrthus, Tyrant of Jund enters the battlefield, gain control of all Dragon
 Other Dragon creatures you control have haste.</CardText>
 <Artist>Dave Kendall</Artist>
 <Multiverseid>180587</Multiverseid>
-<Rulings>2009/05/01: The triggered ability's control-change effect has no duration. Each Dragon you gain control of this way will remain under your control until the game ends, that permanent leaves the battlefield, or some other effect changes its controller.
-2009/05/01: When the triggered ability resolves, you'll gain control of all Dragons, including the Dragons you already control (such as Karrthus itself). Usually this will have no appreciable effect, though it will override any previous control-change abilities (such as if you had gained control of one of those Dragons only for the rest of the turn). Then you'll untap all Dragons, including the ones you already controlled and Karrthus itself (if it had somehow managed to become tapped by then).</Rulings>
+<Rulings>2020/08/07: When the triggered ability resolves, you'll untap all Dragons, including the ones you already control.
+2020/08/07: The control-change effect of Karrthus's triggered ability lasts indefinitely. It doesn't wear off during the cleanup step, and it doesn't expire if Karrthus leaves the battlefield. In a multiplayer game, it does expire if you leave the game.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2593,17 +2584,17 @@ Whenever a creature you control attacks alone, if it's the first combat phase of
 <CardText>The first spell you cast each turn has cascade. (When you cast your first spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)</CardText>
 <Artist>Steven Belledin</Artist>
 <Multiverseid>179540</Multiverseid>
-<Rulings>2009/05/01: Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
-2009/05/01: When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
-2009/05/01: If a spell with cascade is countered, the cascade ability will still resolve normally.
-2009/05/01: You exile the cards face-up. All players will be able to see them.
-2009/05/01: A spell's converted mana cost is determined solely by the mana symbols printed in its upper right corner. If its mana cost includes {X}, take the chosen value of X into account. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
-2009/05/01: After you're done exiling cards and casting the last one if you chose to do so, the remaining exiled cards are randomly placed on the bottom of your library. Neither you nor any other player is allowed to know the order of those cards.
-2009/05/01: Maelstrom Nexus affects the first spell you cast each turn, not just the first spell you cast on your own turn.
-2009/05/01: If the first spell you cast in a turn already has cascade, both cascade abilities will trigger separately. Deal with them one at a time: First one cascade ability will resolve, and you'll cast the applicable card if you want. That new spell will resolve. Then the other cascade ability will resolve in the same way. Finally, the original spell will resolve.
-2009/05/01: This effect takes into account spells that were cast earlier in the turn that Maelstrom Nexus entered the battlefield, including any spells still on the stack. If you've already cast any spells that turn (including Maelstrom Nexus itself), this ability won't give any of your spells cascade that turn.
-2009/05/01: If you cast the last exiled card, you're casting it as a spell. It can be countered. If that card has cascade, the new spell's cascade ability will trigger, and you'll repeat the process for the new spell.
-2017/04/18: The converted mana cost of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.</Rulings>
+<Rulings>2020/08/07: If the first spell you cast in a turn already has cascade, both cascade abilities will trigger separately. Deal with them one at a time: First one cascade ability will resolve, and you'll cast the applicable card if you want. That new spell will resolve. Then the other cascade ability will resolve in the same way. Finally, the original spell will resolve.
+2020/08/07: This effect takes into account spells that were cast earlier in the turn before Maelstrom Nexus entered the battlefield, including any spells still on the stack. If you've already cast any spells that turn (including Maelstrom Nexus itself), this ability won't give any of your spells cascade that turn.
+2021/06/18: The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
+2021/06/18: If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+2021/06/18: Due to a recent rules change to cascade, not only do you stop exiling cards if you exile a nonland card with lesser mana value than the spell with cascade, but the resulting spell you cast must also have lesser mana value. Previously, in cases where a card's mana value differed from the resulting spell, such as with some modal double-faced cards or cards with an Adventure, you could cast a spell with a higher mana value than the exiled card.
+2021/06/18: A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+2021/06/18: Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
+2021/06/18: When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
+2021/06/18: If a spell with cascade is countered, the cascade ability will still resolve normally.
+2021/06/18: You exile the cards face up. All players will be able to see them.
+2021/06/18: If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2657,7 +2648,7 @@ Whenever a creature you control attacks alone, if it's the first combat phase of
 —Tezzeret</Flavor>
 <Artist>Ralph Horsley</Artist>
 <Multiverseid>183017</Multiverseid>
-<Rulings>2009/05/01: The nontoken artifact you sacrifice may be Thopter Foundry itself.</Rulings>
+<Rulings>2020/08/07: You may sacrifice Thopter Foundry to pay the cost of its own ability.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

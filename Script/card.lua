@@ -5,16 +5,16 @@ otherPart -> StringArray
 partIndex -> Integer
 isSplit -> Boolean
 isDoubleFaced -> Boolean
+isMDFC -> Boolean
 isFlip -> Boolean
-isMeld -> Boolean
+isAdventure -> Boolean
 isLegendary -> Boolean
 isFun -> Boolean
-isInCore -> Boolean
 types -> StringArray
 subTypes -> StringArray
 superTypes -> StringArray
 mana -> String
-converted -> Integer
+value -> Integer
 colorIndicator -> String
 power -> String
 toughness -> String
@@ -25,35 +25,29 @@ legal -> StringArray
 restricted -> StringArray
 banned -> StringArray
 reserved -> Boolean
-rarityChanged -> Boolean
 reprintTimes -> Integer
 
-multiverseid -> Integer
-rating -> Float
-votes -> Integer
+multiverseId -> Integer
 set -> String
 code -> String
 folder -> String
-altCode -> String
 number -> String
 flavor -> String
 artist -> String
 rarity -> String
 watermark -> String
-specialType -> String
 picture -> String
 sameIndex -> Integer
-formatedNumber -> String
-order -> Integer
+formattedNumber -> String
+setOrder -> Integer
 reprintIndex -> Integer
-latest -> Boolean
 
-function table_contains_case(t, element)
-function table_contains(t, element)
-function string_contains_case(s, str)
 function string_contains(s, str)
-function table_contains_case(t, str)
+function string_contains_case(s, str)
 function table_contains_str(t, str)
+function table_contains_str_case(t, str)
+function table_contains(t, element)
+function table_contains_case(t, element)
 ]]
 
 function has(obj, str)
@@ -70,7 +64,6 @@ blue = string_contains(mana, 'U') or string_contains(colorIndicator, 'Blue')
 black = string_contains(mana, 'B') or string_contains(colorIndicator, 'Black')
 red = string_contains(mana, 'R') or string_contains(colorIndicator, 'Red')
 green = string_contains(mana, 'G') or string_contains(colorIndicator, 'Green')
-nocolor = string_contains(mana, 'C')
 
 clean = clean_str(text)
 
@@ -115,10 +108,6 @@ function hastext(str)
 	return string_contains(clean, str)
 end
 
-function hasrule(str)
-	return string_contains(rule, str)
-end
-
 function hastype(str)
 	return table_contains(types, str) or table_contains(subTypes, str) or table_contains(superTypes, str)
 end
@@ -126,14 +115,6 @@ end
 function containstype(str)
 	return table_contains_str(types, str) or table_contains_str(subTypes, str) or table_contains_str(superTypes, str)
 end
-
-modern = table_contains(legal, 'Modern')
-legacy = table_contains(legal, 'Legacy')
-
-multicolor = (colors > 1)
-mono = (colors == 1)
-colorless = (colors == 0)
-cl = colorless
 
 pn = tonumber(power)
 tn = tonumber(toughness)
@@ -145,31 +126,17 @@ rare = (rarity == "Rare")
 mythic = (rarity == "Mythic Rare")
 special = (rarity == "Special")
 
-cm = common
-uc = uncommon
-rr = rare
-my = mythic
-sp = special
-
-rm = rare or mythic or special
-
 w = white
 u = blue
 b = black
 r = red
 g = green
 
-tw = textwhite
-tu = textblue
-tb = textblack
-tr = textred
-tg = textgreen
-
-cw = w or tw
-cu = u or tu
-cb = b or tb
-cr = r or tr
-cg = g or tg
+cw = w or textwhite
+cu = u or textblue
+cb = b or textblack
+cr = r or textred
+cg = g or textgreen
 
 ccolors = 0
 if cw then
@@ -188,13 +155,6 @@ if cg then
 	ccolors = ccolors + 1
 end
 
-nw = count_str(mana, 'W')
-nu = count_str(mana, 'U')
-nb = count_str(mana, 'B')
-nr = count_str(mana, 'R')
-ng = count_str(mana, 'G')
-nc = count_str(mana, 'C')
-
 a = artifact
 c = creature
 e = enchantment
@@ -204,25 +164,16 @@ p = planeswalker
 s = sorcery
 t = tribal
 
-m = multicolor
-
-cmc = converted
+m = (colors > 1)
+mv = value
 
 permanent = a or c or e or l or p
-pm = permanent
 
-split = isSplit
-double = isDoubleFaced
-flip = isFlip
-meld = isMeld
 legend = isLegendary
+double = isDoubleFaced
 
+rm = rare or mythic
+
+part = partIndex
 reprint = reprintIndex
-id = multiverseid
-
-nm = hasname
-tx = hastext
-tp = containstype
-
-vanilla = not text
-v = vanilla
+id = multiverseId

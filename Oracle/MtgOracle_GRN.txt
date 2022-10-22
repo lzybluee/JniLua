@@ -875,7 +875,7 @@ Jump-start (You may cast this card from your graveyard by discarding a card in a
 <Name>Mission Briefing</Name>
 <Type>Instant</Type>
 <ManaCost>{U}{U}</ManaCost>
-<CardText>Surveil 2, then choose an instant or sorcery card in your graveyard. You may cast it this turn. If that spell would be put into your graveyard this turn, exile it instead. (To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</CardText>
+<CardText>Surveil 2, then choose an instant or sorcery card in your graveyard. You may cast it this turn. If that spell would be put into your graveyard, exile it instead. (To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</CardText>
 <Artist>Matt Stewart</Artist>
 <Watermark>Dimir</Watermark>
 <Multiverseid>452794</Multiverseid>
@@ -2731,8 +2731,8 @@ Undergrowth — When Kraul Harpooner enters the battlefield, choose up to one ta
 —Emmara</Flavor>
 <Artist>Alex Konstad</Artist>
 <Multiverseid>452887</Multiverseid>
-<Rulings>2019/07/12: The size of the bonus is determined as Might of the Masses resolves; it won't change if the number of creatures you control changes later in the turn.
-2019/07/12: If you target a creature you control with Might of the Masses, remember to count that creature when determining the amount of the bonus.</Rulings>
+<Rulings>2020/08/07: The size of the bonus is determined as Might of the Masses resolves; it won't change if the number of creatures you control changes later in the turn.
+2020/08/07: If you target a creature you control with Might of the Masses, remember to count that creature when determining the amount of the bonus.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3522,7 +3522,7 @@ Whenever Etrata deals combat damage to a player, exile target creature that play
 <Watermark>Izzet</Watermark>
 <Multiverseid>452924</Multiverseid>
 <Rulings>2017/03/14: Two Goblin Electromancers will make instant and sorcery spells you cast cost {2} less to cast, and so on.
-2018/10/05: To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The converted mana cost of the spell remains unchanged, no matter what the total cost to cast it was.
+2018/10/05: To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
 2018/10/05: Goblin Electromancer's effect reduces only generic mana in the spell's total cost.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -3814,13 +3814,10 @@ Create X 1/1 white Soldier creature tokens with lifelink.</CardText>
 <Artist>Zack Stella</Artist>
 <Watermark>Selesnya</Watermark>
 <Multiverseid>452938</Multiverseid>
-<Rulings>2018/10/05: You can tap an untapped creature you haven't controlled continuously since the beginning of your most recent turn to convoke a spell.
-2018/10/05: Convoke doesn't change a spell's mana cost or converted mana cost.
-2018/10/05: When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated.
-2018/10/05: Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
-2018/10/05: Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
-2018/10/05: When using convoke to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap creatures you control to help pay that cost. For example, if you cast Worldsoul Colossus (a spell with convoke and mana cost {X}{G}{W}) and choose X to be 3, the total cost is {3}{G}{W}. If you tap two green creatures and two white creatures, you'll have to pay {1}.
-2018/10/05: If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.</Rulings>
+<Rulings>2021/03/19: You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+2021/03/19: When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+2021/03/19: If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+2021/03/19: When using convoke to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap creatures you control to help pay that cost. For example, if you cast Chord of Calling (a spell with convoke and mana cost {X}{G}{G}{G}) and choose X to be 3, the total cost is {3}{G}{G}{G}. If you tap two green creatures and two red creatures, you'll have to pay {1}{G}.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4140,7 +4137,7 @@ Whenever Swathcutter Giant attacks, it deals 1 damage to each creature defending
 <Artist>Viktor Titov</Artist>
 <Watermark>Boros</Watermark>
 <Multiverseid>452953</Multiverseid>
-<Rulings>2018/10/05: If an attacking creature with double strike and trample destroys all of its blocking creatures with first-strike combat damage, all of its normal combat damage is assigned to the player or planeswalker that creature's attacking.</Rulings>
+<Rulings>2020/08/07: If an attacking creature with double strike and trample destroys all of its blocking creatures with first-strike combat damage, all of its normal combat damage is assigned to the player or planeswalker that creature's attacking.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

@@ -252,7 +252,7 @@ Counter target spell unless its controller pays {1}.</CardText>
 Counter target spell.</CardText>
 <Artist>Jaime Jones</Artist>
 <Multiverseid>429873</Multiverseid>
-<Rulings>2016/06/08: If another effect causes Force of Will to cost more, you must pay that additional cost even if you pay its alternative cost.</Rulings>
+<Rulings>2020/08/07: To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as the alternative cost of Force of Will), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Amonkhet Invocations</Set>
@@ -523,11 +523,9 @@ Rhonas the Indomitable can't attack or block unless you control another creature
 <CardText>Destroy target nonland permanent and all other permanents with the same name as that permanent.</CardText>
 <Artist>Igor Kieryluk</Artist>
 <Multiverseid>429888</Multiverseid>
-<Rulings>2009/05/01: A face-down creature has no name, so it doesn't have the same name as anything else.
-2018/12/07: Maelstrom Pulse has only one target. Other permanents with the same name will be destroyed even if they have hexproof or protection.
-2018/12/07: If the target permanent becomes an illegal target for Maelstrom Pulse, the spell doesn't resolve. Nothing is destroyed.
-2018/12/07: The name of a creature token is the same as the creature types it was created with unless the token is a copy of another creature or the effect that created the token specifically gives it a different name. For example, a 1/1 red Elemental creature token created by Young Pyromancer and a 4/4 green Elemental creature token created by Walker of the Grove are both named "Elemental."
-2018/12/07: If Maelstrom Pulse resolves but the target permanent isn't destroyed (perhaps because it regenerates or has indestructible), all other permanents with the same name as it will still be destroyed.</Rulings>
+<Rulings>2020/08/07: Maelstrom Pulse has only one target. Other permanents with the same name will be destroyed even if they have hexproof or protection.
+2020/08/07: If the target permanent is an illegal target by the time Maelstrom Pulse tries to resolve, the spell won't resolve. You won't destroy any permanents at all. If the target is legal but not destroyed (most likely because it has indestructible), you do destroy other permanents with the same name.
+2020/08/07: The name of a token is the same as the subtypes it was created with unless the token is a copy of another permanent or the effect that created the token specifically gives it a different name. For example, a 1/1 red Elemental creature token created by Young Pyromancer and a 4/4 green Elemental creature token created by Walker of the Grove are both named "Elemental."</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -949,14 +947,10 @@ When The Locust God dies, return it to its owner's hand at the beginning of the 
 When The Scarab God dies, return it to its owner's hand at the beginning of the next end step.</CardText>
 <Artist>Grzegorz Rutkowski</Artist>
 <Multiverseid>430688</Multiverseid>
-<Rulings>2017/07/14: The number of Zombies you control is counted as The Scarab God's first ability resolves. Players can try to change that number in response to the ability (perhaps by activating its second ability).
-2017/07/14: The token copies exactly what was printed on the original card and nothing else, except the characteristics it specifically modifies. It doesn't copy any information about the object the card was before it was put into its owner's graveyard.
-2017/07/14: The token is a Zombie instead of its other types (unlike Zombies created by an eternalize ability) and is black instead of its other colors. Its power and toughness are 4/4. These are copiable values of the token that other effects may copy.
-2017/07/14: Unlike the tokens created by an eternalize ability, this token has the mana cost and thus converted mana cost of the card it's copying.
-2017/07/14: If the card copied by the token had any "when [this permanent] enters the battlefield" abilities, then the token also has those abilities and will trigger them when it's created. Similarly, any "as [this permanent] enters the battlefield" or "[this permanent] enters the battlefield with" abilities that the token has copied will also work.
-2017/07/14: In a Two-Headed Giant game, The Scarab God's first ability causes the opposing team to lose life equal to twice the number of Zombies you control, although you scry only equal to the number of Zombies you control.
-2017/07/14: If this creature dies but leaves your graveyard before the next end step, it will remain in its new zone.
-2017/07/14: The "next end step" refers to the next end step that occurs, not the end step of the next turn. If this creature dies before a turn's end step (for example, during combat), it will be returned to its owner's hand at the beginning of that turn's end step.</Rulings>
+<Rulings>2017/07/14: If this creature dies but leaves your graveyard before the next end step, it will remain in its new zone.
+2017/07/14: The "next end step" refers to the next end step that occurs, not the end step of the next turn. If this creature dies before a turn's end step (for example, during combat), it will be returned to its owner's hand at the beginning of that turn's end step.
+2020/08/07: The number of Zombies you control is counted as The Scarab God's first ability resolves. Players can try to change that number in response to the ability (perhaps by activating its second ability).
+2020/08/07: In a Two-Headed Giant game, The Scarab God's first ability causes the opposing team to lose life equal to twice the number of Zombies you control, although you scry only equal to the number of Zombies you control.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

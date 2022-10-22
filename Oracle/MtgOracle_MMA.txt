@@ -261,10 +261,8 @@ Tap three untapped Kithkin you control: Cloudgoat Ranger gets +2/+0 and gains fl
 <Flavor>"The noble work of our order is to infuse all life on Esper with etherium. Our goal will be reached more rapidly if new life is . . . suppressed."</Flavor>
 <Artist>Izzy</Artist>
 <Multiverseid>370504</Multiverseid>
-<Rulings>2008/10/01: The only difference between a colored artifact and a colorless artifact is, obviously, its color. Unlike most artifacts, a colored artifact requires colored mana to cast. Also unlike most artifacts, a colored artifact has a color in all zones. It will interact with cards that care about color. Other than that, a colored artifact behaves just like any other artifact. It will interact as normal with any card that cares about artifacts, such as Shatter or Arcbound Ravager.
-2008/10/01: In other words: Each turn, each player can cast any number of artifact spells plus a maximum of one nonartifact spell.
-2008/10/01: This effect counts all nonartifact spells that are cast, even those that are countered.
-2008/10/01: This effect takes into account spells that were cast earlier in the turn that Ethersworn Canonist entered the battlefield, including any spells still on the stack. However, any spells on the stack as Ethersworn Canonist enters the battlefield have already been cast by that point, so they're not affected by it.</Rulings>
+<Rulings>2020/08/07: Each turn, each player can cast any number of artifact spells plus a maximum of one nonartifact spell.
+2020/08/07: Ethersworn Canonist takes into account spells that were cast earlier in the turn before Ethersworn Canonist entered the battlefield, including any spells that are somehow still on the stack. However, any spells on the stack as Ethersworn Canonist enters the battlefield have already been cast by that point, so they're not affected by it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -612,8 +610,8 @@ Entwine {1}{W} (Choose both if you pay the entwine cost.)</CardText>
 <Flavor>"No matter how strong, an unarmed fighter is no more than a fool."</Flavor>
 <Artist>Steve Prescott</Artist>
 <Multiverseid>370515</Multiverseid>
-<Rulings>2008/04/01: This ability doesn't target a creature. You may attach the Equipment to a creature that has shroud, for example. However, the creature must be able to be legally equipped by the Equipment. You can't attach the Equipment to a creature that has protection from artifacts, for example.
-2008/04/01: If there is no legal creature for you to attach the Equipment to, it remains on the battlefield unattached.</Rulings>
+<Rulings>2020/08/07: Stonehewer Giant's ability doesn't target a creature. However, the creature must be able to be legally equipped by the Equipment. For example, you could attach the Equipment to a creature with shroud, but not to one with protection from artifacts.
+2020/08/07: If there is no legal creature for you to attach the Equipment to, it remains on the battlefield unattached.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -856,7 +854,7 @@ At the beginning of your upkeep, return an artifact you control to its owner's h
 <Flavor>The more metal it digests, the more its jelly will fetch on the alchemists' market.</Flavor>
 <Artist>Warren Mahy</Artist>
 <Multiverseid>370498</Multiverseid>
-<Rulings>2009/02/01: When Esperzoa's ability resolves, if you control no other artifacts, you'll have to return Esperzoa itself.</Rulings>
+<Rulings>2020/08/07: When Esperzoa's ability resolves, if you control no other artifacts, you'll have to return Esperzoa itself.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -875,7 +873,7 @@ At the beginning of your upkeep, return an artifact you control to its owner's h
 <Artist>Steven Belledin</Artist>
 <Multiverseid>370378</Multiverseid>
 <Rulings>2008/10/01: The only difference between a colored artifact and a colorless artifact is, obviously, its color. Unlike most artifacts, a colored artifact requires colored mana to cast. Also unlike most artifacts, a colored artifact has a color in all zones. It will interact with cards that care about color. Other than that, a colored artifact behaves just like any other artifact. It will interact as normal with any card that cares about artifacts, such as Shatter or Arcbound Ravager.
-2008/10/01: This effect doesn't change the mana cost or converted mana cost of an artifact spell. Rather, it reduces the total cost of the spell, which is the amount you actually pay while casting it. The total cost takes into account additional or alternative costs.
+2008/10/01: This effect doesn't change the mana cost or mana value of an artifact spell. Rather, it reduces the total cost of the spell, which is the amount you actually pay while casting it. The total cost takes into account additional or alternative costs.
 2008/10/01: This effect can reduce only the generic portion of the artifact spell's total cost.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -1485,6 +1483,7 @@ When a creature is put into an opponent's graveyard from the battlefield, if Bri
 <Flavor>Greatness, at any cost.</Flavor>
 <Artist>Scott M. Fischer</Artist>
 <Multiverseid>370413</Multiverseid>
+<Rulings>2020/08/07: If a card in a player's library has {X} in its mana cost, X is considered to be 0.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1824,23 +1823,23 @@ Sacrifice a Goblin: Marsh Flitter has base power and toughness 3/3 until end of 
 Suspend 5—{1}{B} (Rather than cast this card from your hand, you may pay {1}{B} and exile it with five time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)</CardText>
 <Artist>Carl Critchlow</Artist>
 <Multiverseid>370383</Multiverseid>
-<Rulings>2021/03/19: If the creature's power is negative, you still add its power and toughness to determine how much life is lost. If that total is negative, its controller doesn't gain or lose any life. For example, Phthisis destroying a -1/3 creature would cause a loss of 2 life. Pthisis destroying a -4/3 creature would cause no loss of life.
-2021/03/19: If the target creature is an illegal target by the time Phthisis tries to resolve, the spell doesn't resolve. No player loses life. If the target is legal but not destroyed (most likely because it has indestructible), its controller does lose life.
+<Rulings>2021/03/19: If the target creature is an illegal target by the time Phthisis tries to resolve, the spell doesn't resolve. No player loses life. If the target is legal but not destroyed (most likely because it has indestructible), its controller does lose life.
+2021/03/19: If the creature's power is negative, you still add its power and toughness to determine how much life is lost. If that total is negative, its controller doesn't gain or lose any life. For example, Phthisis destroying a -1/3 creature would cause a loss of 2 life. Pthisis destroying a -4/3 creature would cause no loss of life.
 2021/06/18: The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
-2021/06/18: You are never forced to activate mana abilities to pay costs, so if there is a mandatory additional mana cost (such as from Thalia, Guardian of Thraben), you can decline to activate mana abilities to pay for it and hence fail to cast the suspended card, leaving it in exile.
 2021/06/18: If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+2021/06/18: If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
 2021/06/18: Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that causes you to cast the card when the last time counter is removed. If you cast a creature spell this way, it gains haste until you lose control of that creature (or, in rare cases, you lose control of the creature spell while it's on the stack).
 2021/06/18: You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
 2021/06/18: Cards exiled with suspend are exiled face up.
 2021/06/18: Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
 2021/06/18: If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
-2021/06/18: If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
 2021/06/18: If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
 2021/06/18: When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
 2021/06/18: If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
 2021/06/18: As the second triggered ability resolves, you must cast the card if able. You must do so even if it requires targets and the only legal targets are ones that you really don't want to target. Timing permissions based on the card's type are ignored.
 2021/06/18: If you can't cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it's no longer suspended.
-2021/06/18: If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.</Rulings>
+2021/06/18: If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+2021/06/18: You are never forced to activate mana abilities to pay costs, so if there is a mandatory additional mana cost (such as from Thalia, Guardian of Thraben), you can decline to activate mana abilities to pay for it and hence fail to cast the suspended card, leaving it in exile.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2833,10 +2832,9 @@ When Citanul Woodreaders enters the battlefield, if it was kicked, draw two card
 If an effect would put one or more counters on a permanent you control, it puts twice that many of those counters on that permanent instead.</CardText>
 <Artist>Chuck Lukacs</Artist>
 <Multiverseid>370387</Multiverseid>
-<Rulings>2005/10/01: The tokens and counters that Doubling Season creates are exact copies of the kind of tokens and counters that were being created in the first place.
-2005/10/01: Doubling Season affects cards that "enter the battlefield with" a certain number of counters. Triskelion, for example, would enter the battlefield with six +1/+1 counters on it rather than three.
-2005/10/01: If there are two Doubling Seasons on the battlefield, then the number of tokens or counters is four times the original number. If there are three on the battlefield, then the number of tokens or counters is eight times the original number, and so on.
-2005/10/01: Planeswalkers will enter the battlefield with double the normal amount of loyalty counters. However, if you activate an ability whose cost has you put loyalty counters on a planeswalker, the number you put on isn't doubled. This is because those counters are put on as a cost, not as an effect.</Rulings>
+<Rulings>2020/08/07: Doubling Season affects permanents that enter the battlefield with a certain number of counters.
+2020/08/07: Planeswalkers will enter the battlefield with double the normal number of loyalty counters. However, if you activate an ability whose cost has you put loyalty counters on a planeswalker, the number you put on isn't doubled. This is because those counters are put on as a cost, not as an effect.
+2020/08/07: If there are two Doubling Seasons on the battlefield, then the number of tokens or counters is four times the original number. If there are three on the battlefield, then the number of tokens or counters is eight times the original number, and so on.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3544,9 +3542,9 @@ When Woodfall Primus enters the battlefield, destroy target noncreature permanen
 Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)</CardText>
 <Artist>Adam Rex</Artist>
 <Multiverseid>370406</Multiverseid>
-<Rulings>2013/06/07: If a permanent has multiple instances of persist, they'll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing.
-2013/06/07: If a creature with persist stops being a creature, persist will still work.
+<Rulings>2013/06/07: If a creature with persist stops being a creature, persist will still work.
 2013/06/07: The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it.
+2013/06/07: If a permanent has multiple instances of persist, they'll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing.
 2013/06/07: If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can't return to the battlefield.
 2013/06/07: When a permanent with persist returns to the battlefield, it's a new object with no memory of or connection to its previous existence.
 2013/06/07: If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
@@ -3675,11 +3673,9 @@ Spells your opponents cast cost {1} more to cast.</CardText>
 <Flavor>During the collision of the shards, entire ways of life disappeared without a trace.</Flavor>
 <Artist>John Avon</Artist>
 <Multiverseid>370521</Multiverseid>
-<Rulings>2009/05/01: A face-down creature has no name, so it doesn't have the same name as anything else.
-2018/12/07: Maelstrom Pulse has only one target. Other permanents with the same name will be destroyed even if they have hexproof or protection.
-2018/12/07: If the target permanent becomes an illegal target for Maelstrom Pulse, the spell doesn't resolve. Nothing is destroyed.
-2018/12/07: The name of a creature token is the same as the creature types it was created with unless the token is a copy of another creature or the effect that created the token specifically gives it a different name. For example, a 1/1 red Elemental creature token created by Young Pyromancer and a 4/4 green Elemental creature token created by Walker of the Grove are both named "Elemental."
-2018/12/07: If Maelstrom Pulse resolves but the target permanent isn't destroyed (perhaps because it regenerates or has indestructible), all other permanents with the same name as it will still be destroyed.</Rulings>
+<Rulings>2020/08/07: Maelstrom Pulse has only one target. Other permanents with the same name will be destroyed even if they have hexproof or protection.
+2020/08/07: If the target permanent is an illegal target by the time Maelstrom Pulse tries to resolve, the spell won't resolve. You won't destroy any permanents at all. If the target is legal but not destroyed (most likely because it has indestructible), you do destroy other permanents with the same name.
+2020/08/07: The name of a token is the same as the subtypes it was created with unless the token is a copy of another permanent or the effect that created the token specifically gives it a different name. For example, a 1/1 red Elemental creature token created by Young Pyromancer and a 4/4 green Elemental creature token created by Walker of the Grove are both named "Elemental."</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3903,6 +3899,7 @@ Draw a card.</CardText>
 —Yare-Tiva, warden of Gramur forest</Flavor>
 <Artist>Adam Paquette</Artist>
 <Multiverseid>370568</Multiverseid>
+<Rulings>2020/08/07: You choose which color or colors of mana to add to your mana pool before you draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4159,10 +4156,10 @@ Whenever a player casts a spell with mana value equal to the number of charge co
 {2}, Sacrifice Engineered Explosives: Destroy each nonland permanent with mana value equal to the number of charge counters on Engineered Explosives.</CardText>
 <Artist>Lars Grant-West</Artist>
 <Multiverseid>370549</Multiverseid>
-<Rulings>2004/12/01: If Engineered Explosives had no charge counters on it when you sacrificed it, it won't destroy an animated land, because that permanent is a land in addition to being a creature.
-2018/12/07: You can choose any value for X as you cast Engineered Explosives. The value chosen for X doesn't directly affect the number of charge counters Engineered Explosives enters the battlefield with, but it does let you pay more mana and thus spend more colors of mana to cast it.
-2018/12/07: Colorless mana won't give Engineered Explosives another charge counter. Colorless is not a color.
-2018/12/07: A token has a converted mana cost of 0 unless it is copying something else.</Rulings>
+<Rulings>2020/08/07: You can choose any value for X as you cast Engineered Explosives. The value chosen for X doesn't directly affect the number of charge counters Engineered Explosives enters the battlefield with, but it does let you pay more mana and thus spend more colors of mana to cast it.
+2020/08/07: Colorless mana won't give Engineered Explosives another charge counter. Colorless is not a color.
+2020/08/07: Tokens that aren't a copy of something else don't have a mana cost. Anything without a mana cost normally has a mana value of 0.
+2020/08/07: If a permanent has {X} in its mana cost, X is considered to be 0.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4298,6 +4295,7 @@ When Epochrasite dies, exile it with three time counters on it and it gains susp
 <Flavor>Mephidross gives up treasure easily . . . as long as you take its place.</Flavor>
 <Artist>Trevor Hairsine</Artist>
 <Multiverseid>370520</Multiverseid>
+<Rulings>2020/08/07: If Myr Retriever dies at the same time as another artifact you own, its ability can target that other artifact card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4410,7 +4408,7 @@ Whenever equipped creature deals combat damage to a player, Sword of Fire and Ic
 Equip {2}</CardText>
 <Artist>Chris Rahn</Artist>
 <Multiverseid>370471</Multiverseid>
-<Rulings>2013/06/07: The triggered ability has one target: the permanent or player to be dealt 2 damage. If that permanent or player is an illegal target when the ability tries to resolve, it won't resolve and none of its effects will happen. You won't draw a card.</Rulings>
+<Rulings>2020/08/07: If the chosen target is an illegal target by the time the triggered ability tries to resolve, the ability won't resolve. You won't draw a card.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4429,7 +4427,8 @@ Whenever equipped creature deals combat damage to a player, you gain 3 life and 
 Equip {2}</CardText>
 <Artist>Chris Rahn</Artist>
 <Multiverseid>370455</Multiverseid>
-<Rulings>2013/06/07: You may put the triggered ability with no targets. However, If you choose a target creature in your graveyard, and that card is an illegal target when the ability tries to resolve, it won't resolve and none of its effects will happen. You won't gain 3 life.</Rulings>
+<Rulings>2020/08/07: If you choose a target creature card in your graveyard and that card is an illegal target by the time the triggered ability tries to resolve, the ability won't resolve. You won't gain 3 life. If you don't choose a target at all, you just gain 3 life.
+2020/08/07: The triggered ability can target a creature card that was put into your graveyard as a result of state-based actions immediately after the combat damage that caused the ability to trigger.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

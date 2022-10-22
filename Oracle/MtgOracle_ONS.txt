@@ -27,6 +27,7 @@ Cycling {3} ({3}, Discard this card: Draw a card.)</CardText>
 <Flavor>Ixidor had only to imagine their ruin and Akroma made it so.</Flavor>
 <Artist>Greg Hildebrandt & Tim Hildebrandt</Artist>
 <Multiverseid>41168</Multiverseid>
+<Rulings>2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Onslaught</Set>
@@ -1153,10 +1154,10 @@ Morph {U} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 <CardText>Change the text of target spell or permanent by replacing all instances of one creature type with another. The new creature type can't be Wall. (This effect lasts indefinitely.)</CardText>
 <Artist>Greg Staples</Artist>
 <Multiverseid>39923</Multiverseid>
-<Rulings>2004/10/04: It can't change a word to the same word. It must be a different word.
-2004/10/04: If a creature's creature type has been changed by a spell or ability, changing the card's text won't affect or alter the new creature type.
+<Rulings>2004/10/04: If a creature's creature type has been changed by a spell or ability, changing the card's text won't affect or alter the new creature type.
 2004/10/04: Alters all occurrences of the chosen word in the text box and the type line of the given card.
 2004/10/04: Can target a card with no appropriate words on it, or even one with no words at all.
+2004/10/04: It can't change a word to the same word. It must be a different word.
 2004/10/04: It only changes what is printed on the card (or set on a token when it was created or set by a copy effect). It will not change any effects that are on the permanent.
 2004/10/04: You choose the words to change on resolution.
 2004/10/04: You can't change proper nouns (i.e. card names) such as "Island Fish Jasconius".
@@ -1281,10 +1282,10 @@ Cycling {1}{U} ({1}{U}, Discard this card: Draw a card.)
 When you cycle Choking Tethers, you may tap target creature.</CardText>
 <Artist>Carl Critchlow</Artist>
 <Multiverseid>41161</Multiverseid>
-<Rulings>2008/10/01: You can cycle this card even if there are no targets for the triggered ability. That's because the cycling ability itself has no targets.
-2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
+<Rulings>2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
 2008/10/01: When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
-2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (due to being countered with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.</Rulings>
+2008/10/01: The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (due to being countered with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you'll draw a card.
+2008/10/01: You can cycle this card even if there are no targets for the triggered ability. That's because the cycling ability itself has no targets.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2946,9 +2947,9 @@ Morph {3}{B}{B} (You may cast this card face down as a 2/2 creature for {3}. Tur
 —Phage the Untouchable</Flavor>
 <Artist>Carl Critchlow</Artist>
 <Multiverseid>41023</Multiverseid>
-<Rulings>2010/03/01: A token has a converted mana cost of 0, unless it is copying something else.
-2010/03/01: If a creature is copying something else, its converted mana cost is the converted mana cost of whatever it's copying.
-2010/03/01: A creature's converted mana cost is determined solely by the mana symbols printed in its upper right corner (unless that creature is copying something else; see below). If its mana cost includes {X}, X is considered to be 0. If it has no mana symbols in its upper right corner (because it's an animated land, for example), its converted mana cost is 0. Ignore any alternative costs or additional costs (such as kicker) paid when the creature was cast.</Rulings>
+<Rulings>2010/03/01: A creature's mana value is determined solely by the mana symbols printed in its upper right corner (unless that creature is copying something else; see below). If its mana cost includes {X}, X is considered to be 0. If it has no mana symbols in its upper right corner (because it's an animated land, for example), its mana value is 0. Ignore any alternative costs or additional costs (such as kicker) paid when the creature was cast.
+2010/03/01: A token has a mana value of 0, unless it is copying something else.
+2010/03/01: If a creature is copying something else, its mana value is the mana value of whatever it's copying.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3691,7 +3692,7 @@ All creatures block each combat if able.</CardText>
 <Artist>Glen Angus</Artist>
 <Multiverseid>39559</Multiverseid>
 <Rulings>2004/10/04: If all the cards in your library are lands, this card deals zero damage.
-2004/10/04: If you target more than one player, you do the whole process for each player in turn order.</Rulings>
+2018/10/05: As Kaboom! resolves, you choose one of the target players or planeswalkers before revealing any cards, then complete the spell's process for that player or planeswalker, and then repeat until each target has been through the process.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Onslaught</Set>
@@ -3761,8 +3762,9 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <Flavor>When the ground is saturated with mana, even the lightest footstep can bring it to the surface.</Flavor>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>39571</Multiverseid>
-<Rulings>2004/10/04: You either get zero mana or all the mana. You can't choose an amount in between.
-2004/10/04: You do get to count the creature itself, you even get one mana if it is the only creature you have on the battlefield (assuming it has at least one creature type).</Rulings>
+<Rulings>2020/08/07: The amount of mana to add to your mana pool is determined only as the triggered ability of Mana Echoes resolves. The ability isn't a mana ability; players may respond to it.
+2020/08/07: The creature entering the battlefield shares a creature type with itself if it has any creature types, so Mana Echoes usually adds at least {C}.
+2020/08/07: Mana Echoes counts the number of creatures that share a type, not how many types they share. For example, if a Human Warrior enters while you control two Humans and two other Human Warriors, you'll add five {C} to your mana pool.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Onslaught</Set>

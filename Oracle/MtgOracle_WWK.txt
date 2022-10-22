@@ -577,8 +577,8 @@ Enclave Elite enters the battlefield with a +1/+1 counter on it for each time it
 [-12]: Exile all cards from target player's library, then that player shuffles their hand into their library.</CardText>
 <Artist>Jason Chan</Artist>
 <Multiverseid>195297</Multiverseid>
-<Rulings>2018/03/16: You draw three cards and put two cards back all while Jace's second ability is resolving. Nothing can happen between the two, and no player may choose to take actions.
-2018/03/16: If the targeted player for Jace's last ability has no cards in hand, that player shuffles nothing into their library, and that player's library will remain empty. That player won't lose the game until they try to draw from the empty library.</Rulings>
+<Rulings>2020/08/07: You draw three cards and put two cards back all while Jace's second ability is resolving. Nothing can happen between the two, and no player may choose to take actions.
+2020/08/07: If the target player for Jace's last ability has no cards in hand, that player shuffles nothing into their library, and that player's library will remain empty. That player won't lose the game until they try to draw from the empty library.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1096,11 +1096,10 @@ When enchanted land dies, return that card to its owner's hand.</CardText>
 <Flavor>The shadow of the candle looms tall even as its light grows dim.</Flavor>
 <Artist>Howard Lyon</Artist>
 <Multiverseid>198372</Multiverseid>
-<Rulings>2017/03/14: Death's Shadow's ability applies only while Death's Shadow is on the battlefield. In all other zones, its power and toughness are 13.
-2017/03/14: The value of X changes as you gain and lose life. It's not locked in as Death's Shadow enters the battlefield.
-2017/03/14: If your life total is 13 or greater and nothing else is boosting the toughness of Death's Shadow, it's put into its owner's graveyard as a state-based action.
-2017/03/14: In a Two-Headed Giant game, your life total is your team's life total.
-2017/07/14: If your life total is negative, X is considered to be 0. (This is a change from previous rulings.)</Rulings>
+<Rulings>2020/08/07: Death's Shadow's ability applies only while Death's Shadow is on the battlefield. In all other zones, its power and toughness are 13.
+2020/08/07: The value of X changes as you gain and lose life. It's not locked in as Death's Shadow enters the battlefield.
+2020/08/07: If your life total is negative, X is considered to be 0.
+2020/08/07: In a Two-Headed Giant game, your life total is your team's life total.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1308,9 +1307,9 @@ Landfall — Whenever a land enters the battlefield under your control, you may 
 —Zahr Gada, Halimar expedition leader</Flavor>
 <Artist>Karl Kopinski</Artist>
 <Multiverseid>191578</Multiverseid>
-<Rulings>2010/03/01: A token has a converted mana cost of 0, unless it is copying something else.
-2010/03/01: If a creature is copying something else, its converted mana cost is the converted mana cost of whatever it's copying.
-2010/03/01: A creature's converted mana cost is determined solely by the mana symbols printed in its upper right corner (unless that creature is copying something else; see below). If its mana cost includes {X}, X is considered to be 0. If it has no mana symbols in its upper right corner (because it's an animated land, for example), its converted mana cost is 0. Ignore any alternative costs or additional costs (such as kicker) paid when the creature was cast.</Rulings>
+<Rulings>2010/03/01: A creature's mana value is determined solely by the mana symbols printed in its upper right corner (unless that creature is copying something else; see below). If its mana cost includes {X}, X is considered to be 0. If it has no mana symbols in its upper right corner (because it's an animated land, for example), its mana value is 0. Ignore any alternative costs or additional costs (such as kicker) paid when the creature was cast.
+2010/03/01: A token has a mana value of 0, unless it is copying something else.
+2010/03/01: If a creature is copying something else, its mana value is the mana value of whatever it's copying.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2318,7 +2317,7 @@ When Wolfbriar Elemental enters the battlefield, create a 2/2 green Wolf creatur
 <Type>Legendary Creature — Kraken 5/8</Type>
 <ManaCost>{3}{U}{U}{B}</ManaCost>
 <CardText>Islandwalk, swampwalk (This creature can't be blocked as long as defending player controls an Island or a Swamp.)
-Whenever Wrexial, the Risen Deep deals combat damage to a player, you may cast target instant or sorcery card from that player's graveyard without paying its mana cost. If that spell would be put into a graveyard this turn, exile it instead.</CardText>
+Whenever Wrexial, the Risen Deep deals combat damage to a player, you may cast target instant or sorcery card from that player's graveyard without paying its mana cost. If that spell would be put into a graveyard, exile it instead.</CardText>
 <Artist>Eric Deschamps</Artist>
 <Multiverseid>197840</Multiverseid>
 <Rulings>2010/03/01: If you want to cast the targeted card, you cast it as part of the resolution of Wrexial's triggered ability. Timing restrictions based on the card's type are ignored. Other restrictions are not (such as "Cast [this card] only during your end step").
@@ -2376,7 +2375,7 @@ Equip {2}</CardText>
 <Name>Everflowing Chalice</Name>
 <Type>Artifact</Type>
 <ManaCost>{0}</ManaCost>
-<CardText>Multikicker {2}
+<CardText>Multikicker {2} (You may pay an additional {2} any number of times as you cast this spell.)
 Everflowing Chalice enters the battlefield with a charge counter on it for each time it was kicked.
 {T}: Add {C} for each charge counter on Everflowing Chalice.</CardText>
 <Artist>Steve Argyle</Artist>

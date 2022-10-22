@@ -801,6 +801,12 @@ Flashback—{1}{U}, Pay 3 life. (You may cast this card from your graveyard for 
 <Flavor>"No fact escapes me. Why do you think you can?"</Flavor>
 <Artist>Jesper Ejsing</Artist>
 <Multiverseid>413587</Multiverseid>
+<Rulings>2021/03/19: "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+2021/03/19: You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+2021/03/19: To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+2021/03/19: A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+2021/03/19: You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+2021/03/19: If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Eternal Masters</Set>
@@ -871,7 +877,7 @@ Counter target spell.</CardText>
 <Flavor>"I alone determine my destiny."</Flavor>
 <Artist>Terese Nielsen</Artist>
 <Multiverseid>413591</Multiverseid>
-<Rulings>2016/06/08: If another effect causes Force of Will to cost more, you must pay that additional cost even if you pay its alternative cost.</Rulings>
+<Rulings>2020/08/07: To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as the alternative cost of Force of Will), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Eternal Masters</Set>
@@ -1022,8 +1028,8 @@ Shroud (This creature can't be the target of spells or abilities.)</CardText>
 [-12]: Exile all cards from target player's library, then that player shuffles their hand into their library.</CardText>
 <Artist>Jason Chan</Artist>
 <Multiverseid>413599</Multiverseid>
-<Rulings>2018/03/16: You draw three cards and put two cards back all while Jace's second ability is resolving. Nothing can happen between the two, and no player may choose to take actions.
-2018/03/16: If the targeted player for Jace's last ability has no cards in hand, that player shuffles nothing into their library, and that player's library will remain empty. That player won't lose the game until they try to draw from the empty library.</Rulings>
+<Rulings>2020/08/07: You draw three cards and put two cards back all while Jace's second ability is resolving. Nothing can happen between the two, and no player may choose to take actions.
+2020/08/07: If the target player for Jace's last ability has no cards in hand, that player shuffles nothing into their library, and that player's library will remain empty. That player won't lose the game until they try to draw from the empty library.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1951,9 +1957,8 @@ All creatures get -X/-X until end of turn.</CardText>
 —Esara, healer adept</Flavor>
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>413650</Multiverseid>
-<Rulings>2016/06/08: The payment of life is an additional cost. You lose the life even if Toxic Deluge is countered.
-2016/06/08: If you cast Toxic Deluge without paying its mana cost, you'll still choose a value for X and pay X life. This is because it doesn't have {X} in its mana cost.
-2016/06/08: All creatures on the battlefield when Toxic Deluge resolves are affected. Ones that enter the battlefield or become creatures later in the turn are not.</Rulings>
+<Rulings>2020/08/07: If you cast Toxic Deluge without paying its mana cost, you'll still choose a value for X and pay X life. This is because it doesn't have {X} in its mana cost.
+2020/08/07: All creatures on the battlefield when Toxic Deluge resolves are affected. Ones that enter the battlefield or become creatures later in the turn are not.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Eternal Masters</Set>
@@ -2698,9 +2703,7 @@ Flashback {2}{R} (You may cast this card from your graveyard for its flashback c
 <CardText>{R}: You may put a creature card from your hand onto the battlefield. That creature gains haste. Sacrifice the creature at the beginning of the next end step.</CardText>
 <Artist>Tyler Jacobson</Artist>
 <Multiverseid>413690</Multiverseid>
-<Rulings>2007/05/01: Putting the card onto the battlefield is optional. When the ability resolves, you can choose not to.
-2016/06/08: You only sacrifice the creature if you still control it at end of turn. If that creature has left the battlefield, even if it came back, you don't sacrifice it. Likewise, if an opponent has gained control of it, it won't be sacrificed and will remain on the battlefield indefinitely.
-2016/06/08: Putting a card onto the battlefield is optional. When the ability resolves, you can choose not to, even if you have one in your hand.</Rulings>
+<Rulings>2020/08/07: You sacrifice the creature only if you still control it at end of turn. If that creature has left the battlefield, even if it came back, you don't sacrifice it.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Eternal Masters</Set>
@@ -3171,8 +3174,8 @@ When Gaea's Blessing is put into your graveyard from your library, shuffle your 
 Target creature gets +4/+4 until end of turn.</CardText>
 <Artist>Mark Zug</Artist>
 <Multiverseid>413716</Multiverseid>
-<Rulings>2016/06/08: If another effect causes Invigorate to cost more, you must pay that additional cost even if you pay its alternative cost.
-2016/06/08: If an effect says that an opponent can't gain life, you can't have that player gain life to pay Invigorate's alternative cost. If an effect instead replaces life gain, such as that of Sulfuric Vortex, you may choose to pay the cost even though the cost's action is replaced with nothing.</Rulings>
+<Rulings>2020/08/07: To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as the alternative cost of Invigorate), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+2020/08/07: If an effect says that an opponent can't gain life, you can't have that player gain life to pay Invigorate's alternative cost. If an effect instead replaces life gain, such as that of Sulfuric Vortex, you may choose to pay the cost even though the cost's action is replaced with nothing.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Eternal Masters</Set>
@@ -3424,6 +3427,12 @@ Enchanted creature doesn't untap during its controller's untap step.</CardText>
 Flashback {2}{G}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</CardText>
 <Artist>Arnie Swekel</Artist>
 <Multiverseid>413730</Multiverseid>
+<Rulings>2021/03/19: "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+2021/03/19: You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+2021/03/19: To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+2021/03/19: A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+2021/03/19: You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+2021/03/19: If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Eternal Masters</Set>
@@ -4080,13 +4089,11 @@ As long as a card exiled with Duplicant is a creature card, Duplicant has the po
 {2}, {T}: You may copy the exiled card. If you do, you may cast the copy without paying its mana cost.</CardText>
 <Artist>Chippy</Artist>
 <Multiverseid>413765</Multiverseid>
-<Rulings>2016/06/08: If Isochron Scepter leaves the battlefield while the activated ability is on the stack, the ability can still make a copy.
-2016/06/08: You cast the copy while the ability is resolving and still on the stack.
-2016/06/08: If the imprinted card leaves the exile zone while the activated ability is on the stack, the copy can't be made.
-2016/06/08: If the exiled card has X in its mana cost, you must choose 0 as the value for X when casting it.
-2016/06/08: If you don't want to cast the copy, you can choose not to; the copy ceases to exist the next time state-based actions are checked.
-2016/06/08: Because you're already casting the spell using an alternative cost (by casting it without paying its mana cost), you can't pay any other alternative costs for the card. You can pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
-2017/04/18: The converted mana cost of a split card is determined by the combined mana cost of its two halves. When you activate the second ability, you may choose to cast either half of the split card, but you may not cast both halves.</Rulings>
+<Rulings>2020/08/07: If Isochron Scepter leaves the battlefield while the activated ability is on the stack, the ability can still make a copy. On the other hand, if the imprinted card leaves the exile zone while the activated ability is on the stack, the copy can't be made.
+2020/08/07: You cast the copy while the ability is resolving and still on the stack. You can't wait to cast it later in the turn.
+2020/08/07: If you don't want to cast the copy, you can choose not to; the copy ceases to exist the next time state-based actions are checked.
+2020/08/07: If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+2020/08/07: If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4123,7 +4130,7 @@ Juggernaut can't be blocked by Walls.</CardText>
 {T}: Add {C}{C}.</CardText>
 <Artist>Matt Stewart</Artist>
 <Multiverseid>413767</Multiverseid>
-<Rulings>2016/06/08: No player may choose to take actions between determining the result of the flip and damage being dealt if you lost the flip.</Rulings>
+<Rulings>2020/08/07: No player may choose to take actions between determining the result of the flip and damage being dealt if you lost the flip.</Rulings>
 <Vintage>Restricted</Vintage>
 <Legacy>Banned</Legacy>
 <Set>Eternal Masters</Set>
@@ -4404,9 +4411,10 @@ When Jungle Hollow enters the battlefield, you gain 1 life.
 <CardText>{T}: Untap target attacking creature. Prevent all combat damage that would be dealt to and dealt by that creature this turn.</CardText>
 <Artist>Yeong-Hao Han</Artist>
 <Multiverseid>413783</Multiverseid>
-<Rulings>2016/06/08: Maze of Ith can target an untapped attacking creature. It will still prevent damage in that case.
-2016/06/08: The creature isn't removed from combat; it just has its damage prevented. It's still an attacking creature until the combat phase is complete.
-2016/06/08: You can activate Maze of Ith's ability targeting an attacking creature you control during the combat damage step or the end of combat step. It'll be untapped and the damage it had already dealt won't be undone.</Rulings>
+<Rulings>2020/08/07: Maze of Ith really is a land with no mana ability. It doesn't tap for colorless mana.
+2020/08/07: Maze of Ith can target an untapped attacking creature. It will still prevent the combat damage it would deal and be dealt.
+2020/08/07: The creature isn't removed from combat; it just has its damage prevented. It's still an attacking creature until the combat phase is complete.
+2020/08/07: You can activate Maze of Ith's ability targeting an attacking creature you control during the combat damage step or the end of combat step. It'll be untapped and the damage it had already dealt won't be undone.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Eternal Masters</Set>
@@ -4423,6 +4431,9 @@ When Jungle Hollow enters the battlefield, you gain 1 life.
 {T}: Target Assembly-Worker creature gets +1/+1 until end of turn.</CardText>
 <Artist>Scott Chou</Artist>
 <Multiverseid>413784</Multiverseid>
+<Rulings>2021/06/18: If Mishra's Factory becomes a creature and you haven't controlled it continuously since the beginning of your most recent turn, you won't be able to activate its first or last abilities, and it won't be able to attack (unless something is giving it haste).
+2021/06/18: Once Mishra's Factory is an Assembly-Worker, it is a legal target for its last ability. For example, you could animate Mishra's Factory, block with it, then activate it last ability to make it 3/3.
+2021/06/18: If Mishra's Factory is already a creature, activating the second ability will override any previous effects that set its power and/or toughness to specific values. Other effects that are affecting its power and/or toughness, including +1/+1 counters and the effects of spells like Giant Growth, will continue to apply.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

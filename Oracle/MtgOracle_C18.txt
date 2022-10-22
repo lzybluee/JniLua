@@ -1347,6 +1347,7 @@ Cycling {3} ({3}, Discard this card: Draw a card.)</CardText>
 <Flavor>"Many must die for the one who should not have perished."</Flavor>
 <Artist>Aleksi Briclot</Artist>
 <Multiverseid>451017</Multiverseid>
+<Rulings>2008/10/01: Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander 2018</Set>
@@ -1416,6 +1417,9 @@ Enchanted creature gets +4/+4 and has flying and first strike.</CardText>
 Exile target creature. Its controller creates a 1/1 colorless Shapeshifter creature token with changeling.</CardText>
 <Artist>Brandon Dorman</Artist>
 <Multiverseid>451020</Multiverseid>
+<Rulings>2020/08/07: Tribal is a card type (like creature or instant), not a supertype (like legendary).
+2020/08/07: Changeling applies in all zones, not just the battlefield.
+2020/08/07: If the target creature is an illegal target by the time Crib Swap tries to resolve, the spell won't resolve. No player will create a Shapeshifter token.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1978,7 +1982,7 @@ Totem armor (If enchanted creature would be destroyed, instead remove all damage
 <Artist>Steven Belledin</Artist>
 <Multiverseid>451045</Multiverseid>
 <Rulings>2008/10/01: The only difference between a colored artifact and a colorless artifact is, obviously, its color. Unlike most artifacts, a colored artifact requires colored mana to cast. Also unlike most artifacts, a colored artifact has a color in all zones. It will interact with cards that care about color. Other than that, a colored artifact behaves just like any other artifact. It will interact as normal with any card that cares about artifacts, such as Shatter or Arcbound Ravager.
-2008/10/01: This effect doesn't change the mana cost or converted mana cost of an artifact spell. Rather, it reduces the total cost of the spell, which is the amount you actually pay while casting it. The total cost takes into account additional or alternative costs.
+2008/10/01: This effect doesn't change the mana cost or mana value of an artifact spell. Rather, it reduces the total cost of the spell, which is the amount you actually pay while casting it. The total cost takes into account additional or alternative costs.
 2008/10/01: This effect can reduce only the generic portion of the artifact spell's total cost.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -2208,13 +2212,13 @@ Draw three cards.</CardText>
 <Flavor>"From the first touch, I know exactly what the metal wants to be."</Flavor>
 <Artist>Kieran Yanner</Artist>
 <Multiverseid>451055</Multiverseid>
-<Rulings>2016/09/20: If you choose both modes, you may target a single artifact creature twice and get two copies of that artifact creature.
-2016/09/20: The token copies exactly what was printed on the original permanent and nothing else (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+<Rulings>2016/09/20: The token copies exactly what was printed on the original permanent and nothing else (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
 2016/09/20: If you chose the second mode, the token is an artifact in addition to its other types. This is a copiable value of the token that other effects may copy.
 2016/09/20: If the copied permanent has {X} in its mana cost, X is considered to be 0.
 2016/09/20: If the copied permanent is copying something else (for example, if the copied permanent is an Altered Ego), then the token enters the battlefield as whatever that permanent copied.
 2016/09/20: If the copied permanent is a token, the token created with Saheeli's Artistry copies the original characteristics of that token as stated by the effect that that created that token.
 2016/09/20: Any enters-the-battlefield abilities of the copied permanent will trigger when the token enters the battlefield. Any "as [this permanent] enters the battlefield" or "[this permanent] enters the battlefield with" abilities of the chosen permanent will also work.
+2016/09/20: If you choose both modes, you may target a single artifact creature twice and get two copies of that artifact creature.
 2016/09/20: If you choose both modes, the tokens enter one at a time. Thus, if the token created by the second mode has an ability that triggers "whenever an artifact enters the battlefield," the token created by the first mode will already be on the battlefield and won't cause that ability to trigger.
 2016/09/20: Any abilities that trigger during the resolution of Saheeli's Artistry will wait to be put onto the stack until Saheeli's Artistry finishes resolving. An ability that triggers on the first token entering the battlefield may target the second token and vice versa.</Rulings>
 <Vintage>Legal</Vintage>
@@ -3430,8 +3434,8 @@ Enchanted creature gets +1/+1 and has "Whenever this creature deals damage to an
 Totem armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)</CardText>
 <Artist>Christopher Moeller</Artist>
 <Multiverseid>451117</Multiverseid>
-<Rulings>2010/06/15: Snake Umbra grants the triggered ability to the creature. It triggers whenever the enchanted creature deals damage to an opponent of its controller (who is not necessarily an opponent of the Aura's controller). In other words, if your Snake Umbra winds up enchanting your opponent's creature, that opponent will draw a card whenever that creature damages you.
-2010/06/15: The ability triggers when the enchanted creature deals any damage, not just combat damage.
+<Rulings>2010/06/15: The ability triggers when the enchanted creature deals any damage, not just combat damage.
+2010/06/15: Snake Umbra grants the triggered ability to the creature. It triggers whenever the enchanted creature deals damage to an opponent of its controller (who is not necessarily an opponent of the Aura's controller). In other words, if your Snake Umbra winds up enchanting your opponent's creature, that opponent will draw a card whenever that creature damages you.
 2018/07/13: If a permanent enchanted with an Aura that has totem armor has indestructible, lethal damage and effects that try to destroy it simply have no effect. Totem armor won't do anything because it won't have to.
 2018/07/13: If a spell or ability says that it would "destroy" a permanent enchanted with an Aura that has totem armor, that spell or ability is what causes the Aura to be destroyed instead. Totem armor doesn't destroy the Aura; rather, it changes the effects of the spell or ability. On the other hand, if a spell or ability deals lethal damage to a creature enchanted with an Aura that has totem armor, the game rules regarding lethal damage cause the Aura to be destroyed, not that spell or ability.
 2018/07/13: Totem armor has no effect if the enchanted permanent is put into a graveyard for any other reason, such as if it's sacrificed, if the "legend rule" applies to it, or if its toughness is 0 or less.
@@ -3663,8 +3667,8 @@ Whenever Daxos of Meletis deals combat damage to a player, exile the top card of
 —Marchesa, the Black Rose</Flavor>
 <Artist>Steve Argyle</Artist>
 <Multiverseid>451129</Multiverseid>
-<Rulings>2014/05/29: Deathreap Ritual's ability has an intervening "if" clause, so a creature must have died before the end step begins in order for the ability to trigger. Notably, this means that the trigger won't be on the stack for you to respond to by destroying a creature.
-2014/05/29: You draw one card when the ability resolves, not one card per creature that died during the turn.</Rulings>
+<Rulings>2020/08/07: If a creature didn't die before a turn's end step begins, Deathreap Ritual's ability doesn't trigger at all. The creature may have died before Deathreap Ritual entered the battlefield, however.
+2020/08/07: You draw one card when the ability resolves, not one card per creature that died during the turn.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander 2018</Set>
@@ -4174,6 +4178,9 @@ Sacrifice Commander's Sphere: Draw a card.</CardText>
 <Flavor>It harmonizes with the essence of its master.</Flavor>
 <Artist>Ryan Alexander Lee</Artist>
 <Multiverseid>451155</Multiverseid>
+<Rulings>2020/11/10: If you have two commanders, the ability adds one mana of any color in their combined color identities.
+2020/11/10: If your commander is a card that has no colors in its color identity, Commander's Sphere's first ability produces no mana. It doesn't produce {C}.
+2020/11/10: If you don't have a commander, Commander's Sphere's first ability produces no mana.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Set>Commander 2018</Set>
@@ -5399,7 +5406,8 @@ When Mortuary Mire enters the battlefield, you may put target creature card from
 <No>267</No>
 <Name>Mosswort Bridge</Name>
 <Type>Land</Type>
-<CardText>Hideaway (This land enters the battlefield tapped. When it does, look at the top four cards of your library, exile one face down, then put the rest on the bottom of your library.)
+<CardText>Hideaway 4 (When this land enters the battlefield, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.)
+Mosswort Bridge enters the battlefield tapped.
 {T}: Add {G}.
 {G}, {T}: You may play the exiled card without paying its mana cost if creatures you control have total power 10 or greater.</CardText>
 <Artist>Jeremy Jarvis</Artist>

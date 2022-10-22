@@ -510,8 +510,7 @@ Forecast — {2}{W}, Reveal Piercing Rays from your hand: Tap target untapped cr
 Return all enchantment cards from your graveyard to the battlefield. (Auras with nothing to enchant remain in your graveyard.)</CardText>
 <Artist>Cliff Childs</Artist>
 <Multiverseid>522102</Multiverseid>
-<Rulings>2021/06/18: If a card with no mana cost is given an alternative cost equal to its mana cost (by Snapcaster Mage, for example), that cost cannot be paid and the card cannot be cast this way.
-2021/06/18: Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that causes you to cast the card when the last time counter is removed. If you cast a creature spell this way, it gains haste until you lose control of that creature (or, in rare cases, you lose control of the creature spell while it's on the stack).
+<Rulings>2021/06/18: Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that causes you to cast the card when the last time counter is removed. If you cast a creature spell this way, it gains haste until you lose control of that creature (or, in rare cases, you lose control of the creature spell while it's on the stack).
 2021/06/18: You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
 2021/06/18: Cards exiled with suspend are exiled face up.
 2021/06/18: Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
@@ -527,6 +526,7 @@ Return all enchantment cards from your graveyard to the battlefield. (Auras with
 2021/06/18: If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
 2021/06/18: The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
 2021/06/18: A card with no mana cost can't be cast normally; you'll need a way to cast it for an alternative cost or without paying its mana cost, such as by suspending it.
+2021/06/18: If a card with no mana cost is given an alternative cost equal to its mana cost (by Snapcaster Mage, for example), that cost cannot be paid and the card cannot be cast this way.
 2021/06/18: If an effect puts an Aura onto the battlefield under your control, you choose what it enters attached to. It must be something that it could legally enchant, but not necessarily something it could target if it were on the stack. For example, you could attach an Aura with enchant creature to an opponent's creature with hexproof, but not to a creature with protection from enchantments.
 2021/06/18: All of the enchantment cards in your graveyard that can return to the battlefield will. You can't choose to leave some in the graveyard. If you're returning an Aura that can only be attached to a creature, but your opponent is the only player who controls a creature, you must choose to attach it to that creature.</Rulings>
 <Vintage>Legal</Vintage>
@@ -549,7 +549,8 @@ If a black or red permanent, spell, or card not on the battlefield would be put 
 <Multiverseid>522103</Multiverseid>
 <Rulings>2021/06/18: If a black or red spell causes Sanctifier en-Vec to leave the battlefield as part of its resolution, that spell will go to its owner's graveyard and won't be exiled instead.
 2021/06/18: If a black or red spell causes Sanctifier en-Vec to have lethal damage marked on it or causes it to have 0 toughness, Sanctifier en-Vec will not be put into a graveyard until the next time state-based actions are checked after the spell has finished resolving. In this case, the spell will be exiled instead of going to its owner's graveyard.
-2021/06/18: If a black or red permanent would go to the graveyard at the same time as Sanctifier en-Vec, that permanent will be exiled instead.</Rulings>
+2021/06/18: If a black or red permanent would go to the graveyard at the same time as Sanctifier en-Vec, that permanent will be exiled instead.
+2021/11/19: Sanctifier En-Vec's last ability cares only what the color of the card would be in the zone it's moving from, not what it would be in the graveyard. For example, if a Clone is a copy of a red creature on the battlefield and then dies, the Clone will be exiled. Conversely, if you cast Order, the white half of the split card Order//Chaos, it will not be exiled as it resolves because it is not red before it goes to the graveyard.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -567,7 +568,7 @@ If a black or red permanent, spell, or card not on the battlefield would be put 
 <Flavor>Even in the most barren wastelands, every death feeds more life.</Flavor>
 <Artist>Tyler Walpole</Artist>
 <Multiverseid>522104</Multiverseid>
-<Rulings>2021/06/18: Scour the Desert checks the exiled card's toughness in exile, not what it was in the graveyard.</Rulings>
+<Rulings>2021/06/18: Scour the Desert checks the exiled card's toughness in the graveyard, not what it is in exile.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1121,7 +1122,7 @@ Whenever you discard a card, each opponent mills two cards. (They put the top tw
 <CardText>Trample
 When Phantasmal Dreadmaw becomes the target of a spell or ability, sacrifice it.</CardText>
 <Flavor>"That was perhaps the most terrifying thing I thought I almost saw."
-—Capitan Lannery Storm</Flavor>
+—Captain Lannery Storm</Flavor>
 <Artist>Jesper Ejsing</Artist>
 <Multiverseid>522131</Multiverseid>
 <Rulings>2021/06/18: If Phantasmal Dreadmaw becomes the target of a spell or ability, its ability triggers and goes on the stack on top of that spell or ability. Phantasmal Dreadmaw will be sacrificed before that spell or ability tries to resolve. Unless the spell or ability has another target, it will then be removed from the stack as it tries to resolve for having no legal targets.
@@ -1452,7 +1453,7 @@ Other Merfolk you control have ward {1}. (Whenever another Merfolk you control b
 <Type>Sorcery</Type>
 <ManaCost>{X}{U}{U}</ManaCost>
 <CardText>Converge — Create a 1/1 colorless Thopter artifact creature token with flying for each color of mana spent to cast this spell.</CardText>
-<Flavor>A glean of refracted light is often the only warning.</Flavor>
+<Flavor>A gleam of refracted light is often the only warning.</Flavor>
 <Artist>Alayna Danner</Artist>
 <Multiverseid>522146</Multiverseid>
 <Rulings>2021/06/18: You can choose any value for X. Choosing a higher value for X lets you pay more mana and thus spend more colors of mana to cast it. For example, if you choose 0 for the value of X and pay {U}{U} to cast Sweep the Skies, you'll create one Thopter. If you choose 4 for the value of X and pay {W}{U}{U}{B}{R}{G}, you'll create five Thopters.
@@ -2081,8 +2082,8 @@ Target player sacrifices a creature.</CardText>
 —Whisper, blood liturgist</Flavor>
 <Artist>Ryan Yee</Artist>
 <Multiverseid>522176</Multiverseid>
-<Rulings>2021/06/18: Players may turn face-down creatures face up while a spell with split second is on the stack.
-2021/06/18: Players still get priority while a card with split second is on the stack; their options are just limited to mana abilities and certain special actions.
+<Rulings>2021/06/18: Players still get priority while a card with split second is on the stack; their options are just limited to mana abilities and certain special actions.
+2021/06/18: Players may turn face-down creatures face up while a spell with split second is on the stack.
 2021/06/18: Split second doesn't stop triggered abilities from triggering, such as that of Chalice of the Void. If one does, its controller puts it on the stack and chooses targets for it, if any. Those abilities will resolve as normal
 2021/06/18: Casting a spell with split second won't affect spells and abilities that are already on the stack.
 2021/06/18: If the resolution of a triggered ability involves casting a spell, that spell can't be cast if a spell with split second is on the stack.
@@ -2404,17 +2405,17 @@ Madness {0} (If you discard this card, discard it into exile. When you do, cast 
 Delirium — This spell has cascade as long as there are four or more card types among cards in your graveyard. (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)</CardText>
 <Artist>Kari Christensen</Artist>
 <Multiverseid>522192</Multiverseid>
-<Rulings>2021/06/18: You exile the cards face up. All players will be able to see them.
+<Rulings>2021/06/18: A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+2021/06/18: Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
+2021/06/18: When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
+2021/06/18: If a spell with cascade is countered, the cascade ability will still resolve normally.
+2021/06/18: You exile the cards face up. All players will be able to see them.
 2021/06/18: If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
 2021/06/18: If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
 2021/06/18: Due to a recent rules change to cascade, not only do you stop exiling cards if you exile a nonland card with lesser mana value than the spell with cascade, but the resulting spell you cast must also have lesser mana value. Previously, in cases where a card's mana value differed from the resulting spell, such as with some modal double-faced cards or cards with an Adventure, you could cast a spell with a higher mana value than the exiled card.
 2021/06/18: The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
 2021/06/18: The delirium ability will check your graveyard at the moment you finish casting Bloodbraid Marauder to determine if it has cascade. Notably, any permanents you sacrificed while casting the spell (such as a permanent you sacrificed to activate a mana ability) will be in the graveyard at that time.
-2021/06/18: The card types that can appear in a graveyard are artifact, creature, enchantment, instant, land, planeswalker, sorcery, and tribal. Legendary, basic, and snow are supertypes, not card types; Human and Berserker are subtypes, not card types.
-2021/06/18: Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
-2021/06/18: When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
-2021/06/18: A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
-2021/06/18: If a spell with cascade is countered, the cascade ability will still resolve normally.</Rulings>
+2021/06/18: The card types that can appear in a graveyard are artifact, creature, enchantment, instant, land, planeswalker, sorcery, and tribal. Legendary, basic, and snow are supertypes, not card types; Human and Berserker are subtypes, not card types.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2454,10 +2455,10 @@ Delirium — This spell has cascade as long as there are four or more card types
 Flashback {3}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</CardText>
 <Artist>Evan Shipard</Artist>
 <Multiverseid>522194</Multiverseid>
-<Rulings>2021/06/18: "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
-2021/06/18: You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
-2021/06/18: Calibrated Blast goes on the stack without a target. When you reveal a nonland card during its resolution, its reflexive triggered ability triggers and you pick a target to be dealt damage. You'll know the mana value of the revealed nonland card and how much damage will be dealt.
+<Rulings>2021/06/18: Calibrated Blast goes on the stack without a target. When you reveal a nonland card during its resolution, its reflexive triggered ability triggers and you pick a target to be dealt damage. You'll know the mana value of the revealed nonland card and how much damage will be dealt.
 2021/06/18: The nonland card revealed this way ends up on the bottom of the library with the other cards.
+2021/06/18: "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+2021/06/18: You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
 2021/06/18: To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
 2021/06/18: A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
 2021/06/18: You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.</Rulings>
@@ -2503,8 +2504,7 @@ Flashback {3}{R}{R} (You may cast this card from your graveyard for its flashbac
 2021/06/18: If there are no legal targets that could be selected, the targets remain unchanged. Note that this may not mean that those targets are illegal as the spell resolves. For example, if an opponent in a two-player game has hexproof and casts Lava Spike targeting you, Chef's Kiss will not be able to change the target. However, this doesn't make you an illegal target, and both the original spell and the copy will still target you and deal 3 damage to you.
 2021/06/18: Note that Chef's Kiss may make some or all of the targets of a spell illegal. For example, any spell an opponent cast that targets a "creature you control" will be unable to find a new legal target, and its target will remain unchanged. In that case, that part of the spell will do nothing. If that was the spell's only target, that spell will be removed from the stack when it tries to resolve.
 2021/06/18: If a spell has multiple instances of the word "target," but all of them target the same permanent or player, it is a legal target for Chef's Kiss. In that case, a new target will be reselected at random for each instance of the word target in its rules text. The same is true for the copy.
-2021/06/18: Neither copying a spell nor reselecting its targets counts as casting a spell.
-2021/06/18: You can sacrifice any token to activate the last ability, not just creature tokens.</Rulings>
+2021/06/18: Neither copying a spell nor reselecting its targets counts as casting a spell.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -3455,9 +3455,9 @@ Glinting Creeper can't be blocked by creatures with power 2 or less.</CardText>
 <Flavor>Natural crystalline growths filter and refract light in dazzling displays that attract pollinators and daze predators.</Flavor>
 <Artist>Joe Slucher</Artist>
 <Multiverseid>522240</Multiverseid>
-<Rulings>2021/06/18: If there are any alternative or additional costs to cast a spell with a converge ability, the colors of mana spent to pay those costs will count.
-2021/06/18: The maximum number of colors of mana you can spend to cast a spell is five. Colorless is not a color. Note that the cost of a spell with converge may limit how many colors of mana you can spend.
+<Rulings>2021/06/18: The maximum number of colors of mana you can spend to cast a spell is five. Colorless is not a color. Note that the cost of a spell with converge may limit how many colors of mana you can spend.
 2021/06/18: Unless a spell or ability allows you to, you can't choose to pay more mana for a spell with a converge ability just to spend more colors of mana. Likewise, if a spell or ability reduces the amount of mana it costs you to cast a spell with converge, you can't ignore that cost reduction in order to spend more colors of mana.
+2021/06/18: If there are any alternative or additional costs to cast a spell with a converge ability, the colors of mana spent to pay those costs will count.
 2021/06/18: If you cast a spell with converge without spending any mana to cast it (perhaps because an effect allowed you to cast it without paying its mana cost), then the number of colors spent to cast it will be zero.
 2021/06/18: If a spell with a converge ability is copied, no mana was spent to cast the copy, so the number of colors of mana spent to cast the spell will be zero. The number of colors spent to cast the original spell is not copied.</Rulings>
 <Vintage>Legal</Vintage>
@@ -3803,10 +3803,10 @@ Enrage — Whenever Urban Daggertooth is dealt damage, proliferate. (Choose any 
 <Flavor>Stop, smell the roses, eat the peoples.</Flavor>
 <Artist>Randy Vargas</Artist>
 <Multiverseid>522257</Multiverseid>
-<Rulings>2021/06/18: While proliferating, if you choose a permanent or player with multiple kinds of counters, the permanent or player gets another counter of each kind, not just one kind. This change from the original proliferate rules was introduced in a previous set.
-2021/06/18: If Urban Daggertooth has a +1/+1 counter on it and is dealt lethal damage, it will die before its triggered ability resolves and you proliferate. You won't be able to add a +1/+1 counter to it in time to save it.
+<Rulings>2021/06/18: If Urban Daggertooth has a +1/+1 counter on it and is dealt lethal damage, it will die before its triggered ability resolves and you proliferate. You won't be able to add a +1/+1 counter to it in time to save it.
 2021/06/18: To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents, and you can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
 2021/06/18: You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+2021/06/18: While proliferating, if you choose a permanent or player with multiple kinds of counters, the permanent or player gets another counter of each kind, not just one kind. This change from the original proliferate rules was introduced in a previous set.
 2021/06/18: Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -4001,6 +4001,7 @@ When Chrome Courier enters the battlefield, reveal the top two cards of your lib
 —Yolov, Simic bioengineer</Flavor>
 <Artist>Hector Ortiz</Artist>
 <Multiverseid>522267</Multiverseid>
+<Rulings>2021/06/18: You can sacrifice any token you control to activate the last ability, not just creature tokens.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4626,7 +4627,7 @@ Whenever Yusri, Fortune's Flame attacks, choose a number between 1 and 5. Flip t
 <CardText>Whenever a creature you control attacks alone, it gets +X/+X until end of turn, where X is the number of card types among cards in all graveyards.
 Lhurgoyf creatures you control have trample.</CardText>
 <Flavor>"What dies grows the [illegible]"
-—Clawed-out statue instription</Flavor>
+—Clawed-out statue inscription</Flavor>
 <Artist>Yeong-Hao Han</Artist>
 <Multiverseid>522296</Multiverseid>
 <Rulings>2021/06/18: Tribal is a card type that allows noncreature cards to have creature types. Altar of the Goyf is a Lhurgoyf (although not a creature) while on the battlefield, and a Lhurgoyf card (although not a creature card) in zones other than the battlefield.
@@ -4937,9 +4938,7 @@ Artifact landcycling {2} ({2}, Discard this card: Search your library for an art
 {T}: Add {C}{C}.</CardText>
 <Artist>Volkan Baǵa</Artist>
 <Multiverseid>522312</Multiverseid>
-<Rulings>2021/06/18: The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
-2021/06/18: If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
-2021/06/18: Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that causes you to cast the card when the last time counter is removed. If you cast a creature spell this way, it gains haste until you lose control of that creature (or, in rare cases, you lose control of the creature spell while it's on the stack).
+<Rulings>2021/06/18: Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that causes you to cast the card when the last time counter is removed. If you cast a creature spell this way, it gains haste until you lose control of that creature (or, in rare cases, you lose control of the creature spell while it's on the stack).
 2021/06/18: You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
 2021/06/18: Cards exiled with suspend are exiled face up.
 2021/06/18: Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
@@ -4952,6 +4951,8 @@ Artifact landcycling {2} ({2}, Discard this card: Search your library for an art
 2021/06/18: If you can't cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it's no longer suspended.
 2021/06/18: If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
 2021/06/18: You are never forced to activate mana abilities to pay costs, so if there is a mandatory additional mana cost (such as from Thalia, Guardian of Thraben), you can decline to activate mana abilities to pay for it and hence fail to cast the suspended card, leaving it in exile.
+2021/06/18: If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+2021/06/18: The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
 2021/06/18: A card with no mana cost can't be cast normally; you'll need a way to cast it for an alternative cost or without paying its mana cost, such as by suspending it.
 2021/06/18: If a card with no mana cost is given an alternative cost equal to its mana cost (by Snapcaster Mage, for example), that cost cannot be paid and the card cannot be cast this way.</Rulings>
 <Vintage>Legal</Vintage>
@@ -6275,6 +6276,9 @@ Sacrifice an artifact: Put a +1/+1 counter on target creature.</CardText>
 <Artist>Scott Chou</Artist>
 <Watermark>Set</Watermark>
 <Multiverseid>526273</Multiverseid>
+<Rulings>2021/06/18: If Mishra's Factory becomes a creature and you haven't controlled it continuously since the beginning of your most recent turn, you won't be able to activate its first or last abilities, and it won't be able to attack (unless something is giving it haste).
+2021/06/18: Once Mishra's Factory is an Assembly-Worker, it is a legal target for its last ability. For example, you could animate Mishra's Factory, block with it, then activate it last ability to make it 3/3.
+2021/06/18: If Mishra's Factory is already a creature, activating the second ability will override any previous effects that set its power and/or toughness to specific values. Other effects that are affecting its power and/or toughness, including +1/+1 counters and the effects of spells like Giant Growth, will continue to apply.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>

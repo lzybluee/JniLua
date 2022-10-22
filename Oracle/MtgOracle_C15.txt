@@ -291,8 +291,8 @@ For each creature attacking you or a planeswalker you control, create a token th
 • Draw a card.</CardText>
 <Artist>Kieran Yanner</Artist>
 <Multiverseid>405314</Multiverseid>
-<Rulings>2021/03/19: No matter which combination of modes you choose, you always follow the instructions in the order they are written.
-2021/03/19: If the middle mode is chosen more than once, you choose the relative order to return the target creatures.
+<Rulings>2021/03/19: If the middle mode is chosen more than once, you choose the relative order to return the target creatures.
+2021/03/19: No matter which combination of modes you choose, you always follow the instructions in the order they are written.
 2021/03/19: No player can cast spells or activate abilities in between the modes of a resolving spell. Any abilities that trigger won't be put onto the stack until Mystic Confluence is done resolving.
 2021/03/19: If Mystic Confluence is copied, the effect that creates the copy will usually allow you to choose new targets, but you can't choose new modes.
 2021/03/19: If you choose the first and/or second modes but all of the targets become illegal before Mystic Confluence resolves, the spell won't resolve. If you also chose the last mode once or twice, you won't draw any cards. If at least one target is still legal, the spell will resolve but will have no effect on any illegal targets.</Rulings>
@@ -1336,6 +1336,9 @@ Enchanted creature gets +4/+4 and has flying and first strike.</CardText>
 Exile target creature. Its controller creates a 1/1 colorless Shapeshifter creature token with changeling.</CardText>
 <Artist>Brandon Dorman</Artist>
 <Multiverseid>405184</Multiverseid>
+<Rulings>2020/08/07: Tribal is a card type (like creature or instant), not a supertype (like legendary).
+2020/08/07: Changeling applies in all zones, not just the battlefield.
+2020/08/07: If the target creature is an illegal target by the time Crib Swap tries to resolve, the spell won't resolve. No player will create a Shapeshifter token.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -1566,10 +1569,10 @@ When Marshal's Anthem enters the battlefield, return up to X target creature car
 <Flavor>When the vaults are empty, everyone is rich.</Flavor>
 <Artist>Brian Despain</Artist>
 <Multiverseid>405324</Multiverseid>
-<Rulings>2009/10/01: If multiple players have Auras in their graveyards, the player whose turn it is announces what their Auras will enchant, then each other player in turn order does the same, then all artifacts and enchantments (including both Auras and non-Auras) enter the battlefield at the same time.
-2009/10/01: An Aura put onto the battlefield this way can't enchant an artifact or enchantment that's also being put onto the battlefield with Open the Vaults.
-2009/10/01: If an Aura can be returned to the battlefield with Open the Vaults, it must be, even if its owner doesn't like what it would enchant.
-2009/10/01: Any abilities that trigger during the resolution of Open the Vaults will wait to be put onto the stack until Open the Vaults finishes resolving. The player whose turn it is will put all of their triggered abilities on the stack in any order, then each other player in turn order will do the same. (The last ability put on the stack will be the first one that resolves.)</Rulings>
+<Rulings>2020/08/07: If an Aura is put onto the battlefield without being cast, the Aura's controller-to-be chooses what it will enchant as it enters the battlefield. An Aura put onto the battlefield this way doesn't target anything (so it could be attached to an opponent's permanent with hexproof, for example), but the Aura's enchant ability restricts what it can be attached to. If the Aura can't legally be attached to anything, it remains in its current zone.
+2020/08/07: If an Aura can be returned to the battlefield with Open the Vaults, it must be, even if its owner doesn't like what it would enchant.
+2020/08/07: If multiple players have Auras in their graveyards, the player whose turn it is announces what their Auras will enchant, then each other player in turn order does the same, then all artifacts and enchantments (including both Auras and non-Auras) enter the battlefield at the same time.
+2020/08/07: An Aura put onto the battlefield this way can't enchant an artifact or enchantment that's also being put onto the battlefield with Open the Vaults.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -2199,10 +2202,9 @@ Create a token that's a copy of target creature. If this spell was kicked, creat
 <Flavor>Knowledge fills the mind of a fool and opens the mind of the sage.</Flavor>
 <Artist>Terese Nielsen & Ron Spencer</Artist>
 <Multiverseid>405421</Multiverseid>
-<Rulings>2008/05/01: Thought Reflection doesn't cause you to draw cards. Rather, it causes card-drawing effects to have you draw more cards. It also causes the draw action during your draw step to have you draw two cards.
-2008/05/01: If a spell or ability causes you to draw multiple cards, Thought Reflection's effect doubles the total number you would draw. For example, if you cast Concentrate ("Draw three cards"), you'll draw six cards.
-2008/05/01: The effects of multiple Thought Reflections are cumulative. For example, if you have three Thought Reflections on the battlefield, you'll draw eight times the original number of cards.
-2008/05/01: If two or more replacement effects would apply to a card-drawing event, the player who's drawing the card chooses what order to apply them.</Rulings>
+<Rulings>2020/08/07: If a spell or ability causes you to draw multiple cards, Thought Reflection's effect doubles each card draw. For example, if you cast Harmonize ("Draw three cards"), you'll draw six cards.
+2020/08/07: The effects of multiple Thought Reflections are cumulative. For example, if you have two Thought Reflections on the battlefield, you'll draw four times the original number of cards. If you have three, you'll draw eight times the number of cards, and so on.
+2020/08/07: If two or more replacement effects would apply to a card-drawing event, the player who's drawing the card chooses what order to apply them.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
 <Modern>Legal</Modern>
@@ -4307,7 +4309,7 @@ If a source would deal damage to you or a permanent you control, prevent half th
 <Artist>Svetlin Velinov</Artist>
 <Multiverseid>405244</Multiverseid>
 <Rulings>2017/03/14: Two Goblin Electromancers will make instant and sorcery spells you cast cost {2} less to cast, and so on.
-2018/10/05: To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The converted mana cost of the spell remains unchanged, no matter what the total cost to cast it was.
+2018/10/05: To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
 2018/10/05: Goblin Electromancer's effect reduces only generic mana in the spell's total cost.</Rulings>
 <Vintage>Legal</Vintage>
 <Legacy>Legal</Legacy>
@@ -5692,7 +5694,8 @@ Graft 1 (This land enters the battlefield with a +1/+1 counter on it. Whenever a
 <No>294</No>
 <Name>Mosswort Bridge</Name>
 <Type>Land</Type>
-<CardText>Hideaway (This land enters the battlefield tapped. When it does, look at the top four cards of your library, exile one face down, then put the rest on the bottom of your library.)
+<CardText>Hideaway 4 (When this land enters the battlefield, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.)
+Mosswort Bridge enters the battlefield tapped.
 {T}: Add {G}.
 {G}, {T}: You may play the exiled card without paying its mana cost if creatures you control have total power 10 or greater.</CardText>
 <Artist>Jeremy Jarvis</Artist>
@@ -5960,7 +5963,8 @@ Cycling {2} ({2}, Discard this card: Draw a card.)</CardText>
 <No>309</No>
 <Name>Spinerock Knoll</Name>
 <Type>Land</Type>
-<CardText>Hideaway (This land enters the battlefield tapped. When it does, look at the top four cards of your library, exile one face down, then put the rest on the bottom of your library.)
+<CardText>Hideaway 4 (When this land enters the battlefield, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.)
+Spinerock Knoll enters the battlefield tapped.
 {T}: Add {R}.
 {R}, {T}: You may play the exiled card without paying its mana cost if an opponent was dealt 7 or more damage this turn.</CardText>
 <Artist>Steve Prescott</Artist>
