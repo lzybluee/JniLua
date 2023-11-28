@@ -1373,7 +1373,7 @@ public class CardAnalyzer {
             if (reprints != null) {
                 for (ReprintInfo info : reprints) {
                     if (info.watermark != null) {
-                        str.append("(Watermark: " + info.watermark + ")\n");
+                        str.append("Watermark: " + info.watermark + "\n");
                         break;
                     }
                 }
