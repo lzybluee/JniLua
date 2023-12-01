@@ -1371,11 +1371,21 @@ public class CardAnalyzer {
                 str.append("In RESERVED list!\n");
             }
             if (reprints != null) {
+                Vector<String> watermarks = new Vector<>();
                 for (ReprintInfo info : reprints) {
-                    if (info.watermark != null) {
-                        str.append("<Watermark: " + info.watermark + ">\n");
-                        break;
+                    if (info.watermark != null && !watermarks.contains(info.watermark)) {
+                        watermarks.add(info.watermark);
                     }
+                }
+                if(!watermarks.isEmpty()) {
+                    str.append("<Watermark: ");
+                    for(int i = 0; i < watermarks.size(); i++) {
+                        str.append(watermarks.get(i));
+                        if(i + 1 < watermarks.size()) {
+                            str.append(", ");
+                        }
+                    }
+                    str.append(">\n");
                 }
                 for (ReprintInfo info : reprints) {
                     str.append(info + "\n");
