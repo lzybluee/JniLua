@@ -373,6 +373,12 @@ public class CardAnalyzer {
                 if (left.multiverseid == right.multiverseid) {
                     return left.formatedNumber.compareTo(right.formatedNumber);
                 }
+                if (left.multiverseid == 0) {
+                    return 1;
+                }
+                if (right.multiverseid == 0) {
+                    return -1;
+                }
                 return left.multiverseid - right.multiverseid;
             }
         });
@@ -422,8 +428,8 @@ public class CardAnalyzer {
 
     public static String initData() {
         if (lastFilter != null && compareFilter()) {
-            return (setOrder.size() - subSet) + " Sets and " + reprintCards + " Cards" + " ("
-                    + allName.length + " Unique)";
+            return (setOrder.size() - subSet) + " Sets and " + reprintCards + " Cards" + " (" + allName.length
+                    + " Unique)";
         }
 
         lastCode = null;
@@ -467,8 +473,7 @@ public class CardAnalyzer {
 
         Arrays.sort(allName);
 
-        return (setOrder.size() - subSet) + " Sets and " + reprintCards + " Cards" + " ("
-                + allName.length + " Unique)";
+        return (setOrder.size() - subSet) + " Sets and " + reprintCards + " Cards" + " (" + allName.length + " Unique)";
     }
 
     public static CardInfo getNewCard(String str) {
@@ -1161,8 +1166,9 @@ public class CardAnalyzer {
         public boolean latest;
 
         public String toString() {
-            return multiverseid + " " + set + (specialType == null ? "" : " [" + specialType + "]") + " : " + number
-                    + " (" + rarity + ")" + (artist != null ? " " + artist : "")
+            return (multiverseid == 0 ? "" : multiverseid + " ") + set
+                    + (specialType == null ? "" : " [" + specialType + "]") + " : " + number + " (" + rarity + ")"
+                    + (artist != null ? " " + artist : "")
                     + (rating > 0 || votes > 0 ? " (" + rating + "|" + votes + ")" : "");
         }
     }
@@ -1377,11 +1383,11 @@ public class CardAnalyzer {
                         watermarks.add(info.watermark);
                     }
                 }
-                if(!watermarks.isEmpty()) {
+                if (!watermarks.isEmpty()) {
                     str.append("<Watermark: ");
-                    for(int i = 0; i < watermarks.size(); i++) {
+                    for (int i = 0; i < watermarks.size(); i++) {
                         str.append(watermarks.get(i));
-                        if(i + 1 < watermarks.size()) {
+                        if (i + 1 < watermarks.size()) {
                             str.append(", ");
                         }
                     }
