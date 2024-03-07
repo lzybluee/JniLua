@@ -643,14 +643,14 @@ public class CardAnalyzer {
 
         card.reserved = (getEntry(str, "Reserved") != null);
 
-        String handMod = getEntry(str, "HandSize");
-        if (handMod != null) {
-            card.handSize = Integer.parseInt(handMod.substring(handMod.indexOf(":") + 2));
+        String hand = getEntry(str, "HandSize");
+        if (hand != null) {
+            card.handModifier = Integer.parseInt(hand.substring(hand.indexOf(":") + 2));
         }
 
-        String lifeMod = getEntry(str, "StartingLife");
-        if (lifeMod != null) {
-            card.startingLife = Integer.parseInt(lifeMod.substring(lifeMod.indexOf(":") + 2));
+        String life = getEntry(str, "StartingLife");
+        if (life != null) {
+            card.lifeModifier = Integer.parseInt(life.substring(life.indexOf(":") + 2));
         }
 
         return card;
@@ -1217,8 +1217,8 @@ public class CardAnalyzer {
         public Vector<String> banned;
         public boolean reserved;
 
-        public int handSize;
-        public int startingLife;
+        public int handModifier;
+        public int lifeModifier;
 
         public Vector<ReprintInfo> reprints;
         public boolean rarityChanged;
@@ -1354,12 +1354,12 @@ public class CardAnalyzer {
             if (colorIndicator != null) {
                 str.append("(Color Indicator: " + colorIndicator + ")\n");
             }
-            if (vanguard) {
-                str.append("Hand Size: " + (handSize >= 0 ? "+" : "") + handSize + "\n");
-                str.append("Starting Life: " + (startingLife >= 0 ? "+" : "") + startingLife + "\n");
-            }
             if (text != null) {
                 str.append(text + "\n");
+            }
+            if (vanguard) {
+                str.append("(Hand Modifier: " + (handModifier >= 0 ? "+" : "") + handModifier + " , "
+                        + "Life Modifier: " + (lifeModifier >= 0 ? "+" : "") + lifeModifier + ")\n");
             }
             if (rules != null) {
                 str.append(rules + "\n");
