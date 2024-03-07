@@ -21,7 +21,7 @@ public class CardAnalyzer {
     public static String[] LegalList = { "Block", "Modern", "Legacy", "Vintage", "Commander" };
     public static String[] TypeList = { "Artifact", "Creature", "Enchantment", "Instant", "Land", "Planeswalker",
             "Sorcery", "Tribal" };
-    public static String[] SpecialTypeList = { "Conspiracy", "Phenomenon", "Plane", "Scheme" };
+    public static String[] SpecialTypeList = { "Conspiracy", "Phenomenon", "Plane", "Scheme", "Vanguard" };
 
     public static String[] results;
     public static int exclude;
@@ -643,6 +643,16 @@ public class CardAnalyzer {
 
         card.reserved = (getEntry(str, "Reserved") != null);
 
+        String handMod = getEntry(str, "HandSize");
+        if (handMod != null) {
+            card.handSize = Integer.parseInt(handMod.substring(handMod.indexOf(":") + 2));
+        }
+
+        String lifeMod = getEntry(str, "StartingLife");
+        if (lifeMod != null) {
+            card.startingLife = Integer.parseInt(lifeMod.substring(lifeMod.indexOf(":") + 2));
+        }
+
         return card;
     }
 
@@ -1207,6 +1217,9 @@ public class CardAnalyzer {
         public Vector<String> banned;
         public boolean reserved;
 
+        public int handSize;
+        public int startingLife;
+
         public Vector<ReprintInfo> reprints;
         public boolean rarityChanged;
 
@@ -1301,11 +1314,15 @@ public class CardAnalyzer {
                     }
                 }
             }
+            boolean vanguard = false;
             if (types.size() > 0) {
                 if (superTypes.size() > 0) {
                     str.append(" ");
                 }
                 for (int i = 0; i < types.size(); i++) {
+                    if (types.get(i).equals("Vanguard")) {
+                        vanguard = true;
+                    }
                     str.append(types.get(i));
                     if (i < types.size() - 1) {
                         str.append(" ");
@@ -1336,6 +1353,10 @@ public class CardAnalyzer {
             }
             if (colorIndicator != null) {
                 str.append("(Color Indicator: " + colorIndicator + ")\n");
+            }
+            if (vanguard) {
+                str.append("Hand Size: " + (handSize >= 0 ? "+" : "") + handSize + "\n");
+                str.append("Starting Life: " + (startingLife >= 0 ? "+" : "") + startingLife + "\n");
             }
             if (text != null) {
                 str.append(text + "\n");
